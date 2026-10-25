@@ -1,0 +1,52 @@
+{
+  "id": "SILVENNOINEN2023",
+  "title": "A semantic web approach to land use regulations in urban planning: The OntoZoning ontology of zones, land uses and programmes for Singapore",
+  "authors": [
+    "Heidi Silvennoinen",
+    "Arkadiusz Chadzynski",
+    "Feroz Farazi",
+    "Ayda Grišiūtė",
+    "Zhongming Shi",
+    "Aurel von Richthofen",
+    "Stephen Cairns",
+    "Markus Kraft",
+    "Martin Raubal",
+    "Pieter Herthogs"
+  ],
+  "year": 2023,
+  "venue_or_publisher": "Journal of Urban Management",
+  "doi": "https://doi.org/10.1016/j.jum.2023.02.002",
+  "isbn": null,
+  "openalex_id": "https://openalex.org/W4322627053",
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "新加坡規劃資料語意化",
+  "region": [
+    "新加坡"
+  ],
+  "method": "本體設計與地理知識圖譜示範",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "OntoZoning 把分區、用途與計畫用途連結成可查詢語意模型；它改善資料串接，不代表使用者已完成法規判讀。",
+      "strength": "MIXED",
+      "scope_zh": "僅限摘要可核對的範圍；未讀全文，不推論摘要未列的數字、因果或普遍適用性。",
+      "assessment_basis": "ABSTRACT_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "OpenAlex",
+    "query": {
+      "record_id": "https://openalex.org/W4322627053",
+      "title": "A semantic web approach to land use regulations in urban planning: The OntoZoning ontology of zones, land uses and programmes for Singapore",
+      "author": "Heidi Silvennoinen",
+      "year": 2023
+    },
+    "matched_record_id": "https://openalex.org/W4322627053",
+    "checked_at_utc": "2026-10-08T09:12:32Z",
+    "match_notes_zh": "以 OpenAlex 精確 work 記錄核對書名、作者與出版年；只使用摘要作主張範圍檢查，未下載全文。"
+  },
+  "limitations_zh": "僅使用允許的書目欄位和摘要核對；未取得或保存全文。",
+  "metadata_licence_zh": "保存公開書目欄位與自行撰寫主張摘要；未保存 API 摘要原文或全文。"
+}

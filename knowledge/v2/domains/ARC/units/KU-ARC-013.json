@@ -1,0 +1,98 @@
+{
+  "id": "KU-ARC-013",
+  "domain": "ARC",
+  "subtopic": "住宅單元與類型",
+  "type": "value_range",
+  "title_zh": "雙面採光住宅翼的初步進深",
+  "title_en": "dual-aspect housing wing depth",
+  "summary_zh": "雙面採光（穿透式）住宅單元的進深常見約 10–14 m；超過約 15 m 時中央易形成無採光區，需中庭、天井或內廊配置來處理。 這個跨度必須和核心、服務帶、外廊及轉角戶型一併配置。 不能把較深翼身自動等同較好採光。",
+  "key_points_zh": [
+    "核心主張：雙面採光（穿透式）住宅單元的進深常見約 10–14 m；超過約 15 m 時中央易形成無採光區，需中庭、天井或內廊配置來處理。",
+    "量測檢查：量測兩側外牆內表面之間的平面距離，再以逐室日光計算及通風檢查驗證。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "雙面採光（穿透式）住宅單元的進深常見約 10–14 m；超過約 15 m 時中央易形成無採光區，需中庭、天井或內廊配置來處理。",
+        "effect_or_value": "約 10–14 m；>15 m 需特別處理中央區",
+        "study_design": "跨地域設計參照綜整；數值狀態依 claim_verification 註記",
+        "context_region": "跨地域；用途與當地法規需分開核驗",
+        "library_id": "TIMESAVER_HOUSING94",
+        "locator": null,
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008"
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "dual-aspect wing early-study depth",
+      "range": "約 10–14 m；>15 m 需特別處理中央區",
+      "unit": "m",
+      "context": "地區：跨地域；依型態與遮擋而異；用途：住宅前期平面型態比較，不是法規值；出處：Time-Saver Standards for Housing and Residential Development；本基地法規：否；核對狀態：數值待原典交叉核對。",
+      "library_id": "TIMESAVER_HOUSING94"
+    }
+  ],
+  "design_implications_zh": [
+    "在兩側窗面間逐段標出可停留空間、濕區與通風路徑，查看是否有盲區。"
+  ],
+  "applies_when_zh": "「雙面採光住宅翼的初步進深」可在用於方案前期的量體、平面或空間品質篩檢時使用，前提是雙面採光（穿透式）住宅單元的進深常見約 10–14 m；超過約 15 m 時中央易形成無採光區，需中庭、天井或內廊配置來處理與來源情境相符。",
+  "not_applicable_when_zh": "若雙面採光（穿透式）住宅單元的進深常見約 10–14 m；超過約 15 m 時中央易形成無採光區，需中庭、天井或內廊配置來處理不成立，就不能把「雙面採光住宅翼的初步進深」的結論延伸到其他情況；不得單獨作為許可、消防、結構或基地法規判定。",
+  "debates_zh": "採光品質受朝向、鄰棟遮擋、窗高和室內分隔影響；深度區間只供初始比較。",
+  "sources": [
+    {
+      "library_id": "TIMESAVER_HOUSING94",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "DEVOS2022",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+  "tradition": "建築設計與住宅類型學",
+  "region": "跨地域；用途與當地法規需分開核驗",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Housing and the City / Design of the Urban Fabric",
+      "topic": "建築尺度與住宅平面"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "建築尺度與街道界面"
+    },
+    {
+      "school": "MIT",
+      "course": "Architecture and Urban Design",
+      "topic": "建築尺度與空間型態"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "建築尺度與公共生活"
+    }
+  ],
+  "check": {
+    "method_zh": "量測兩側外牆內表面之間的平面距離，再以逐室日光計算及通風檢查驗證。",
+    "inputs": [
+      "住宅單元與類型",
+      "尺寸／面積圖層",
+      "適用地區與用途標籤"
+    ],
+    "logic_zh": "將量測輸入轉成明確尺寸、比例或空間關係；越界只觸發複核，不自動取代設計決策。",
+    "limitations_zh": "量測結果只觸發「雙面採光住宅翼的初步進深」的複核，不得單獨作為許可或法規判定。"
+  },
+  "version": "kb2-arc-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-ARC-001",
+    "KU-ARC-002",
+    "KU-ARC-003",
+    "KU-ARC-004",
+    "KU-ARC-005"
+  ]
+}

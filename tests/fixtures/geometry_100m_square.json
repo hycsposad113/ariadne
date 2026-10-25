@@ -1,0 +1,11 @@
+{
+  "fixture_id": "det-002-100m-square-v1",
+  "crs": "EPSG:28992",
+  "units": "m",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [[[0, 0], [100, 0], [100, 100], [0, 100], [0, 0]]]
+  },
+  "expected_area_m2": 10000,
+  "expected_perimeter_m": 400
+}

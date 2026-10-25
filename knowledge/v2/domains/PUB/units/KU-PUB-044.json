@@ -1,0 +1,61 @@
+{
+  "id": "KU-PUB-044",
+  "domain": "PUB",
+  "subtopic": "公共空間私有化與管理",
+  "type": "empirical_finding",
+  "title_zh": "管理規則左右空間的民主用途",
+  "title_en": "Management rules shape democratic use",
+  "summary_zh": "紐約對一百六十三處 incentive-zoning 空間的觀察顯示，公共可及場所的管理形式不一。以財務交易為導向的管理安排可能壓縮政治、社會與民主使用。結論來自特定制度，不能推定所有私營空間都排斥集會。場所維護品質和公民表達權之間需要可執行的治理安排。",
+  "key_points_zh": [
+    "紐約對一百六十三處 incentive-zoning 空間的觀察顯示，公共可及場所的管理形式不一",
+    "以財務交易為導向的管理安排可能壓縮政治、社會與民主使用"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "紐約對一百六十三處 incentive-zoning 空間的觀察顯示，公共可及場所的管理形式不一。",
+        "effect_or_value": "研究指出財務取向管理限制部分政治、社會與民主用途；未報告通用效果量。",
+        "study_design": "制度與場所觀察研究",
+        "context_region": "美國紐約市 163 處空間",
+        "library_id": "NEMETH09",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW",
+        "limitations_zh": "案例受紐約制度及場址樣本限制，未涵蓋所有城市治理模式。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "把可否集會、宣傳、販售、非消費停留與申訴機制逐項列入空間契約。"
+  ],
+  "applies_when_zh": "適用於評估開發商提供的開放空間。",
+  "not_applicable_when_zh": "不能只憑現場開門就認定公共性完整。",
+  "debates_zh": "場所維護品質和公民表達權之間需要可執行的治理安排。",
+  "sources": [
+    {
+      "library_id": "NEMETH09",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "BYRNEWOLCH09",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "公共空間治理與 publicness",
+  "region": "美國紐約市 163 處空間",
+  "curriculum_refs": [
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "公共空間私有化與管理"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-PUB-043",
+    "KU-PUB-045"
+  ]
+}

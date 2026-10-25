@@ -1,0 +1,81 @@
+{
+  "id": "KU-SYN-041",
+  "domain": "SYN",
+  "subtopic": "批評（Ratti）與回應",
+  "type": "empirical_finding",
+  "title_zh": "方法爭論的實證敏感度",
+  "title_en": "Empirical sensitivity in methodological debate",
+  "summary_zh": "空間語法與行人移動研究的統合分析，研究脈絡為跨地區文獻；摘要未列各國完整分布。表示方法批評應轉成可重複的比較測試。各指標關聯強度隨拓樸、角度和度量操作方式變化，且研究間異質性高。限制包括統合分析不能替代具體街網上的幾何與拓樸驗證。",
+  "key_points_zh": [
+    "表示方法批評應轉成可重複的比較測試",
+    "限制：統合分析不能替代具體街網上的幾何與拓樸驗證",
+    "效果或方向：各指標關聯強度隨拓樸、角度和度量操作方式變化，且研究間異質性高"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "方法爭論的實證敏感度｜表示方法批評應轉成可重複的比較測試",
+        "effect_or_value": "各指標關聯強度隨拓樸、角度和度量操作方式變化，且研究間異質性高",
+        "study_design": "空間語法與行人移動研究的統合分析",
+        "context_region": "跨地區文獻；摘要未列各國完整分布",
+        "library_id": "SHARMIN17",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "方法爭論的實證敏感度｜將空間語法表示法與幾何資訊的限制列為方法審查問題；應與作者回應和替代圖方法並讀",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "RATTI04",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "並列批評與回應後，以固定資料測試替代表示"
+  ],
+  "applies_when_zh": "若本地觀察單位與跨地區文獻；摘要未列各國完整分布的研究脈絡可對照，可用「表示方法批評應轉成可重複的比較測試」作為批評（Ratti）與回應的比較線索。",
+  "not_applicable_when_zh": "這項跨地區文獻；摘要未列各國完整分布的研究結果不能單獨證明因果或預測其他城市的街段；原研究統合分析不能替代具體街網上的幾何與拓樸驗證。",
+  "debates_zh": "關聯能否外推；統合分析不能替代具體街網上的幾何與拓樸驗證；檢視「方法爭論的實證敏感度」的研究解讀時，還需判斷「限制：統合分析不能替代具體街網上的幾何與拓樸驗證」會如何改變方案結論。",
+  "sources": [
+    {
+      "library_id": "SHARMIN17",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "RATTI04",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "空間語法方法論辯論",
+  "region": "跨地區文獻；摘要未列各國完整分布",
+  "curriculum_refs": [
+    {
+      "school": "Harvard GSD",
+      "course": "Cities by Design",
+      "topic": "批評（Ratti）與回應：課綱對應主題"
+    },
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.330J Theory of City Form",
+      "topic": "批評（Ratti）與回應：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-SYN-042",
+    "KU-SYN-043",
+    "KU-SYN-044",
+    "KU-SYN-045",
+    "KU-SYN-046",
+    "KU-SYN-047",
+    "KU-SYN-048"
+  ]
+}

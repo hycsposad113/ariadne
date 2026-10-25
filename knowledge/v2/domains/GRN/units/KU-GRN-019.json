@@ -1,0 +1,66 @@
+{
+  "id": "KU-GRN-019",
+  "domain": "GRN",
+  "subtopic": "綠地可及性",
+  "type": "concept",
+  "title_zh": "步行時間比地圖距離更貼近體驗",
+  "title_en": "Travel time conveys experienced access",
+  "summary_zh": "同樣的路程會因過街等待、坡度與攜幼而耗時不同。使用者對路線的感受也受陰影、休息點和安全感影響。時間資料會隨季節和人流變化。使用者體驗需要和可重現的測量方法並列。",
+  "key_points_zh": [
+    "同樣的路程會因過街等待、坡度與攜幼而耗時不同",
+    "使用者對路線的感受也受陰影、休息點和安全感影響"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "同樣的路程會因過街等待、坡度與攜幼而耗時不同。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "北美",
+        "library_id": "RIGOLON16",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "使用者體驗需要和可重現的測量方法並列。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "將計算步行時間與居民實地走訪結果交叉核對。"
+  ],
+  "applies_when_zh": "適用於確定綠地投資的服務缺口。",
+  "not_applicable_when_zh": "不宜把單一平均速度套用於所有人。",
+  "debates_zh": "使用者體驗需要和可重現的測量方法並列。",
+  "sources": [
+    {
+      "library_id": "RIGOLON16",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "MAAS06",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "公園可及性與環境正義",
+  "region": "北美",
+  "curriculum_refs": [
+    {
+      "school": "UCL Bartlett",
+      "course": "Critical Debates in Urban Design",
+      "topic": "綠地可及性"
+    },
+    {
+      "school": "MIT",
+      "course": "11.330J Theory of City Form",
+      "topic": "綠地可及性"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-GRN-018",
+    "KU-GRN-020"
+  ]
+}

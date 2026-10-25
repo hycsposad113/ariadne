@@ -1,0 +1,91 @@
+{
+  "id": "KU-HOU-061",
+  "domain": "HOU",
+  "subtopic": "住宅類型",
+  "type": "value_range",
+  "title_zh": "獨棟住宅淨住宅用地密度",
+  "title_en": "Detached-house net residential density",
+  "summary_zh": "獨棟住宅淨密度取決於道路、公用空間、地塊大小與每宗住宅戶數。Kropf 的形態手冊提供街道、地塊與建築的分析尺度，單戶住宅設計章節則聚焦住宅形式與平面；兩者都沒有給出本單元的戶／公頃門檻。保留的區間僅供明示假設的方案比較。",
+  "key_points_zh": [
+    "獨棟住宅案例常以約 10–25 戶／公頃的淨住宅用地密度作低密型態比較。",
+    "這是形態類型參考帶，不是人口密度，也非本基地法規。",
+    "把道路、停車、庭院和公共綠地另行核算，再比較住宅單元可用面積。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "Kropf 的形態手冊以街道、地塊與建築的關係組織城市形態描述；它提供量測尺度，不提供獨棟住宅的 10–25 戶／公頃門檻。",
+        "effect_or_value": "約 10–25",
+        "study_design": "跨案例尺度對照或明示假設的規劃計算",
+        "context_region": "北美與歐洲低密住宅區形態比較",
+        "library_id": "KROPF2017",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "單戶住宅設計章節討論住宅形式與平面配置；其書目範圍未提供本表 10–25 戶／公頃門檻，該區間保留為需按淨用地重新計算的類型比較帶。",
+        "library_id": "SINGLE_FAMILY_DESIGN18",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "跨地域",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "獨棟住宅淨住宅用地密度",
+      "range": "約 10–25",
+      "unit": "戶／公頃",
+      "context": "跨地域住宅類型比較；用途：獨棟住宅淨住宅用地密度的工作範圍；10–25 戶／公頃不是來源直接報告值，需依住宅地塊重新量算；不是本基地法規。",
+      "library_id": "SINGLE_FAMILY_DESIGN18"
+    }
+  ],
+  "design_implications_zh": [
+    "用住宅淨用地與戶數重新計算密度，並另列道路、公園和停車用地是否計入。"
+  ],
+  "applies_when_zh": "用於比較北美與歐洲低密住宅區形態比較的獨棟住宅地塊，不含區外道路的淨住宅用地，並明示此數值的來源、年份和面積分母。",
+  "not_applicable_when_zh": "這是形態類型參考帶，不是人口密度，也非本基地法規。",
+  "debates_zh": "較低的單戶密度增加私有戶外空間，也會增加土地與基礎設施需求。 查核：數值符合常見密度類型帶，但所引文獻未提供；待補可引用來源（如 Urban Task Force 1999、Cheng 2010）。",
+  "sources": [
+    {
+      "library_id": "KROPF2017",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "SINGLE_FAMILY_DESIGN18",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "城市形態學",
+  "region": "北美與歐洲低密住宅區形態比較",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "住宅類型"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "住宅類型"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "住宅類型"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "住宅類型"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+}

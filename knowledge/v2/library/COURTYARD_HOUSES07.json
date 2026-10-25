@@ -1,0 +1,44 @@
+{
+  "id": "COURTYARD_HOUSES07",
+  "title": "Courtyard Houses",
+  "authors": [
+    "Günter Pfeifer",
+    "Per Brauneck"
+  ],
+  "year": 2007,
+  "venue_or_publisher": "Birkhäuser",
+  "doi": null,
+  "isbn": "3764378409",
+  "openalex_id": null,
+  "kind": "ACADEMIC_BOOK",
+  "tradition": "建築尺度；設計實務與研究",
+  "region": [
+    "跨地域；依來源適用範圍而異"
+  ],
+  "method": "書目核對；未取得全文，不以書目資料證明特定數值。",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "庭院住宅案例與類型的圖文資料；具體尺寸需由案例圖面量測後再引用。",
+      "strength": "THEORETICAL",
+      "scope_zh": "書目範圍可核對；數值或因果主張須另查原文。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Open Library",
+    "query": {
+      "title": "Courtyard Houses",
+      "author": "Günter Pfeifer",
+      "year": 2007
+    },
+    "matched_record_id": "OL5667354W",
+    "checked_at_utc": "2026-10-08T14:47:37Z",
+    "match_notes_zh": "以允許的公開書目 API 核對書名、作者及出版年；未下載或保存全文。",
+    "url": "https://openlibrary.org/works/OL5667354W"
+  },
+  "limitations_zh": "書目記錄已核對；具體尺度內容標示交叉核對狀態，不把書名或摘要當作數值證據。",
+  "metadata_licence_zh": "保存公開書目欄位與自行撰寫的範圍說明；未保存全文。"
+}

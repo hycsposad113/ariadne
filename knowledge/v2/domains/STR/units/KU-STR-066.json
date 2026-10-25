@@ -1,0 +1,82 @@
+{
+  "id": "KU-STR-066",
+  "domain": "STR",
+  "subtopic": "共享空間",
+  "type": "value_range",
+  "title_zh": "Woonerf 的低速設計值",
+  "title_en": "Woonerf low-speed reference",
+  "summary_zh": "Woonerf 將街道看作慢速共用的公共領域，速度因此是空間設計的一部分，而不是單獨的交通標誌。15 km/h 是本單元列出的荷蘭參照值，具體法規依地區和設施類別核對。它不是任何基地的預設限速。此處的荷蘭 woonerf 的速度參照是附來源的比較參照，不是本基地法規。",
+  "key_points_zh": [
+    "此值用於說明 woonerf 的低速設計脈絡。",
+    "速度、鋪面、邊界辨識和無障礙路徑必須一起檢查。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "荷蘭交通規則規定 woonerf（生活庭院街）內車輛以「步行速度」（stapvoets）行駛，CROW 與實務常解讀為約 15 km/h。",
+        "library_id": "CROW",
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+        "effect_or_value": "15 km/h",
+        "study_design": "設計手冊參數；章節與法規狀態待核對",
+        "context_region": "荷蘭",
+        "locator": null
+      },
+      {
+        "claim_zh": "共享街道的設計需處理車速、界面線索和使用者互動。",
+        "library_id": "HAMILTONBAILLIE08",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "共享空間設計論述",
+        "context_region": "英國與荷蘭共享空間討論",
+        "locator": null
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "荷蘭 woonerf 的速度參照",
+      "range": "15 km/h",
+      "unit": "km/h",
+      "context": "荷蘭 woonerf 與共享街道的設計脈絡；用途：用於辨識低速共享街道的操作情境；需和出入口及通行權一併評估。；「荷蘭 woonerf 的速度參照」僅供來源脈絡內的比較，不是本基地法規、M4H 門檻或通用配額。",
+      "library_id": "CROW"
+    }
+  ],
+  "design_implications_zh": [
+    "若採共享街道構想，將 15 km/h 與可辨識的行走空間和車輛進出管理一併畫出。"
+  ],
+  "applies_when_zh": "討論 woonerf 或其他低速共享街道時，用這個荷蘭參照檢查速度管理與空間辨識是否一致。",
+  "not_applicable_when_zh": "此參照只適合討論 woonerf 類的低速共享設計，不適用於所有街道或當作事故風險指標。",
+  "debates_zh": "低速能否轉為安全感受和可預期行為，會受視覺辨識、駕駛規範和使用者能力影響。",
+  "sources": [
+    {
+      "library_id": "CROW",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "HAMILTONBAILLIE08",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "共享空間設計",
+  "region": "荷蘭 woonerf 與共享街道的設計脈絡",
+  "curriculum_refs": [
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.330J Theory of City Form",
+      "topic": "共享空間：課綱對應主題"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "共享空間：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-STR-046"
+  ]
+}

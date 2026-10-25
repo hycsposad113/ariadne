@@ -1,0 +1,98 @@
+{
+  "id": "KU-HOU-049",
+  "domain": "HOU",
+  "subtopic": "居住密度與生活品質",
+  "type": "empirical_finding",
+  "title_zh": "單元滿意與公共設施滿意並非一致",
+  "title_en": "Different dimensions of Malaysian housing satisfaction",
+  "summary_zh": "樣本是特定住宅計畫，且摘要未給各子量表效果值。 將生活品質拆成單元、社區和服務可及性。 研究設計：計畫受益戶 Likert 量表比較；地區：雪蘭莪，馬來西亞。 限制：樣本是特定住宅計畫，且摘要未給各子量表效果值。",
+  "key_points_zh": [
+    "雪蘭莪社會住宅受益戶對單元的滿意程度和對鄰里服務、社會環境的感受並不一致。",
+    "研究設計：計畫受益戶 Likert 量表比較；地區：雪蘭莪，馬來西亞",
+    "限制：樣本是特定住宅計畫，且摘要未給各子量表效果值。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "雪蘭莪社會住宅受益戶對單元的滿意程度和對鄰里服務、社會環境的感受並不一致。",
+        "effect_or_value": "906 戶；住房和周邊服務評價呈不同程度",
+        "study_design": "計畫受益戶 Likert 量表比較",
+        "context_region": "雪蘭莪，馬來西亞",
+        "library_id": "MOHIT2011",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "將生活品質拆成單元、社區和服務可及性。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "將生活品質拆成單元、社區和服務可及性。",
+      "tradeoff_zh": "「單元滿意與公共設施滿意並非一致」採用「將生活品質拆成單元、社區和服務可及性」時，得失要沿著雪蘭莪社會住宅受益戶對單元的滿意程度和對鄰里服務、社會環境的感受並不一致檢查；樣本是特定住宅計畫，且摘要未給各子量表效果值。",
+      "library_ids": [
+        "MOHIT2011",
+        "NG10"
+      ]
+    },
+    {
+      "option_zh": "在「單元滿意與公共設施滿意並非一致」的來源情境裡，高層集合住宅、低層高覆蓋與連棟住宅有不同服務和管理條件；落到設計時還要按雪蘭莪社會住宅受益戶對單元的滿意程度和對鄰里服務、社會環境的感受並不一致調整。",
+      "tradeoff_zh": "「單元滿意與公共設施滿意並非一致」採用「在「單元滿意與公共設施滿意並非一致」的來源情境裡，高層集合住宅、低層高覆蓋與連棟住宅有不同服務和管理條件；落到設計時還要按雪蘭莪社會住宅受益戶對單元的滿意程度和對鄰里服務、社會環境的感受並不一致調整」時，得失要沿著雪蘭莪社會住宅受益戶對單元的滿意程度和對鄰里服務、社會環境的感受並不一致檢查；樣本是特定住宅計畫，且摘要未給各子量表效果值。",
+      "library_ids": [
+        "MOHIT2011",
+        "NG10"
+      ]
+    }
+  ],
+  "applies_when_zh": "用於與雪蘭莪，馬來西亞研究情境可比、且量測定義相近的分析。",
+  "not_applicable_when_zh": "樣本是特定住宅計畫，且摘要未給各子量表效果值。",
+  "debates_zh": "樣本是特定住宅計畫，且摘要未給各子量表效果值。",
+  "sources": [
+    {
+      "library_id": "MOHIT2011",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "NG10",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "馬來西亞社會住宅滿意度；高密度環境設計",
+  "region": "雪蘭莪，馬來西亞；香港",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "居住密度與生活品質"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "居住密度與生活品質"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "居住密度與生活品質"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "居住密度與生活品質"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-HOU-043",
+    "KU-HOU-044",
+    "KU-HOU-045"
+  ],
+  "counter_unit_ids": [
+    "KU-HOU-047"
+  ]
+}

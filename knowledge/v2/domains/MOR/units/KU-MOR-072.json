@@ -1,0 +1,93 @@
+{
+  "id": "KU-MOR-072",
+  "domain": "MOR",
+  "subtopic": "Spacematrix：FSI、GSI、OSR、L",
+  "type": "value_range",
+  "title_zh": "Spacematrix 低層高覆蓋案例範圍",
+  "title_en": "Spacematrix low-rise high-coverage cases",
+  "summary_zh": "相同指標落在此範圍仍可能因街道分母、庭院是否計入和用途面積口徑而不同。 在低層高覆蓋方案裡同步檢查內院採光、地面開放空間和街牆連續度。 記錄 北西歐與北美城市形態比較 與「低層高覆蓋居住街區的比較型態」的量測分母，再和另一種尺度或用途並排比較。",
+  "key_points_zh": [
+    "低層高覆蓋的比較案例可用 FSI、GSI 與 L 三軸描述；所列範圍是待核對的案例類型帶，不是 Spacematrix 固定分級線。",
+    "相同指標落在此範圍仍可能因街道分母、庭院是否計入和用途面積口徑而不同。",
+    "在低層高覆蓋方案裡同步檢查內院採光、地面開放空間和街牆連續度。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "低層高覆蓋的比較案例可用 FSI、GSI 與 L 三軸描述；所列範圍是待核對的案例類型帶，不是 Spacematrix 固定分級線。",
+        "effect_or_value": "FSI 0.6–1.2；GSI 0.30–0.60；L 約 2–4",
+        "study_design": "跨案例尺度對照或明示假設的規劃計算",
+        "context_region": "北西歐與北美城市形態比較",
+        "library_id": "BERGHAUSERPONT2017",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "歐洲城市織理研究從密度指標缺乏普遍有效量尺出發，使用多變量方法比較形態變數；它支持低層案例帶應按情境解讀。",
+        "effect_or_value": null,
+        "study_design": "歐洲城市形態與密度變數的多變量分析",
+        "context_region": "多個歐洲城市",
+        "library_id": "ABARCA2019",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW",
+        "limitations_zh": "該研究沒有核實本單元的低層 FSI、GSI 或平均層數端點。"
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "Spacematrix 低層高覆蓋案例範圍",
+      "range": "FSI 0.6–1.2；GSI 0.30–0.60；L 約 2–4",
+      "unit": "FSI/GSI 無量綱；L 平均層數",
+      "context": "北西歐與北美城市形態比較；用途：低層高覆蓋居住街區的比較型態；對照書目：BERGHAUSERPONT2017；適用於制度或形態比較，這不是本基地法規。",
+      "library_id": "BERGHAUSERPONT2017"
+    }
+  ],
+  "design_implications_zh": [
+    "在低層高覆蓋方案裡同步檢查內院採光、地面開放空間和街牆連續度。",
+    "記錄 北西歐與北美城市形態比較 與「低層高覆蓋居住街區的比較型態」的量測分母，再和另一種尺度或用途並排比較。"
+  ],
+  "applies_when_zh": "用於比較北西歐與北美城市形態比較的低層高覆蓋居住街區的比較型態，並明示此數值的來源、年份和面積分母。",
+  "not_applicable_when_zh": "相同指標落在此範圍仍可能因街道分母、庭院是否計入和用途面積口徑而不同。",
+  "debates_zh": "密實邊緣可以支援街道活動，若內部庭院過小或私有化則會降低共享開放空間品質。 查核：Spacematrix 案例帶為近似值，需回查 Berghauser Pont & Haupt 原始樣本。",
+  "sources": [
+    {
+      "library_id": "BERGHAUSERPONT2017",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "ABARCA2019",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "荷蘭量化形態學／Spacematrix 延伸",
+  "region": "北西歐與北美城市形態比較",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "Spacematrix：FSI、GSI、OSR、L"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "Spacematrix：FSI、GSI、OSR、L"
+    },
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.330J Theory of City Form",
+      "topic": "Spacematrix：FSI、GSI、OSR、L"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban form and density",
+      "topic": "Spacematrix：FSI、GSI、OSR、L"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+}

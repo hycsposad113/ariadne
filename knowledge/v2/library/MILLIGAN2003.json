@@ -1,0 +1,43 @@
+{
+  "id": "MILLIGAN2003",
+  "title": "How different? Comparing housing policies and housing affordability consequences for low income households in Australia and the Netherlands",
+  "authors": [
+    "Vivienne Milligan"
+  ],
+  "year": 2003,
+  "venue_or_publisher": "Utrecht University Repository (Utrecht University)",
+  "doi": null,
+  "isbn": null,
+  "openalex_id": "https://openalex.org/W1486362604",
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "低收入住宅可負擔性制度比較",
+  "region": [
+    "澳洲與荷蘭"
+  ],
+  "method": "兩國住房政策與低收入戶結果比較",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "不同政策策略曾達到相近的可負擔住宅供給結果；市場化依賴上升後，低收入家庭負擔狀況惡化且各國路徑不同。",
+      "strength": "MIXED",
+      "scope_zh": "僅限摘要可核對的範圍；未讀全文，不推論摘要未列的數字、因果或普遍適用性。",
+      "assessment_basis": "ABSTRACT_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "OpenAlex",
+    "query": {
+      "record_id": "https://openalex.org/W1486362604",
+      "title": "How different? Comparing housing policies and housing affordability consequences for low income households in Australia and the Netherlands",
+      "author": "Vivienne Milligan",
+      "year": 2003
+    },
+    "matched_record_id": "https://openalex.org/W1486362604",
+    "checked_at_utc": "2026-10-08T09:12:32Z",
+    "match_notes_zh": "以 OpenAlex 精確 work 記錄核對書名、作者與出版年；只使用摘要作主張範圍檢查，未下載全文。"
+  },
+  "limitations_zh": "僅使用允許的書目欄位和摘要核對；未取得或保存全文。",
+  "metadata_licence_zh": "保存公開書目欄位與自行撰寫主張摘要；未保存 API 摘要原文或全文。"
+}

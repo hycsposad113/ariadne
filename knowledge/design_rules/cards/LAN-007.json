@@ -1,0 +1,87 @@
+{
+  "id": "LAN-007",
+  "title_zh": "保留生產與混合用途的代價",
+  "title_en": "Production and mixed-use trade-offs",
+  "domain": "land_use",
+  "stages": [
+    "S2",
+    "S3",
+    "S6",
+    "S7",
+    "S8"
+  ],
+  "statement_zh": "列出保留產業面積、工作活動、住房及公共空間的不同配置，不以住宅地價當唯一成效。",
+  "rationale_zh": "港城轉型與公平理論要求交代地方活動及誰受益。",
+  "applies_when": {},
+  "parameters": [
+    {
+      "name": "production_share_trial",
+      "value": null,
+      "range": [
+        30,
+        40
+      ],
+      "unit": "% GFA",
+      "provenance": "ASSUMED_COMMANDER",
+      "source_ids": [],
+      "authority_ref": null,
+      "status": "PROPOSED_PENDING_FOUNDER",
+      "rationale_zh": "指揮官提出的敏感性試算值，文獻未提供此數值；須 Founder 確認、地方資料及確定性驗證，未生效。"
+    }
+  ],
+  "check": {
+    "method_zh": "依規則逐項輸出對照表、輸入版本、定義、數值／未知及替代方案；實際計算由確定性工具負責。",
+    "inputs": [
+      "凍結基地、模式路網及用途／政策資料",
+      "已接受條件、卡片版本與試算參數"
+    ],
+    "output": "可比較的診斷與設計回應；沒有觀測或校準不輸出人數或法定結論。",
+    "implementation_status": "SPECIFICATION_ONLY"
+  },
+  "check_unavailable_reason_zh": null,
+  "design_responses": [
+    {
+      "option": "1",
+      "action_zh": "集中產業及獨立物流入口",
+      "source_ids": [
+        "HOYLE00"
+      ],
+      "tradeoff_zh": "保障服務，但減少混合介面。"
+    },
+    {
+      "option": "2",
+      "action_zh": "小尺度穿插兼容產業",
+      "source_ids": [
+        "FANSTEIN10"
+      ],
+      "tradeoff_zh": "增加日常接觸，需污染及服務相容性檢查。"
+    }
+  ],
+  "evidence_level": "ACADEMIC",
+  "evidence_strength": "THEORETICAL",
+  "sources": [
+    {
+      "library_id": "HOYLE00",
+      "claim_id": "C1",
+      "support_scope_zh": "文獻支持概念與比較角度；本卡具體操作是設計推導，試算值及專案約束不是文獻的普適結論。"
+    },
+    {
+      "library_id": "FANSTEIN10",
+      "claim_id": "C1",
+      "support_scope_zh": "文獻支持概念與比較角度；本卡具體操作是設計推導，試算值及專案約束不是文獻的普適結論。"
+    },
+    {
+      "library_id": "WATSON09",
+      "claim_id": "C1",
+      "support_scope_zh": "文獻支持概念與比較角度；本卡具體操作是設計推導，試算值及專案約束不是文獻的普適結論。"
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "enforcement": "CANDIDATE_ONLY",
+  "authority_ref": null,
+  "local_context_refs": [],
+  "debates_zh": "上述做法是文獻引導的設計推導，兩種方案各有代價；不得以某一方法、作者或地域替 Founder 決定。",
+  "context_validity_zh": "文獻地域與方法見 library；跨地域只能借用比較框架，數值須本地量測、校準與審核。",
+  "exceptions_zh": "法規、門禁、資料缺口、無障礙及已接受 D1/D2 優先；資料不足列 UNKNOWN，試算參數須 Founder 確認。",
+  "version": "0.2.0"
+}

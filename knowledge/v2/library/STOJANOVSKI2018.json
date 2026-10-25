@@ -1,0 +1,42 @@
+{
+  "id": "STOJANOVSKI2018",
+  "title": "How density, diversity, land use and neighborhood type influences bus mobility in the Swedish city of Karlstad: Mixing spatial analytic and typo-morphological approaches to assess the indirect effect of urban form on travel",
+  "authors": [
+    "Todor Stojanovski"
+  ],
+  "year": 2018,
+  "venue_or_publisher": "Journal of Transport and Land Use, 11(1)",
+  "doi": "https://doi.org/10.5198/jtlu.2018.1089",
+  "isbn": null,
+  "openalex_id": "https://openalex.org/W2895805761",
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "街區形態類型與公車移動",
+  "region": "瑞典卡爾斯塔德",
+  "method": "空間分析結合 typo-morphological neighborhood 分類",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "Karlstad 研究以建築類型、地塊大小、街道布局和土地使用描述街區類型，再分析都市型態與公車移動的關係。",
+      "strength": "MIXED",
+      "scope_zh": "研究尺度是街區型態及旅運分析；沒有把單棟建築內部的垂直混用當成主要測量對象。",
+      "assessment_basis": "ABSTRACT_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "OpenAlex",
+    "query": {
+      "record_id": "https://openalex.org/W2895805761",
+      "doi": "10.5198/jtlu.2018.1089",
+      "title": "How density, diversity, land use and neighborhood type influences bus mobility in the Swedish city of Karlstad: Mixing spatial analytic and typo-morphological approaches to assess the indirect effect of urban form on travel",
+      "author": "Todor Stojanovski",
+      "year": 2018
+    },
+    "matched_record_id": "https://openalex.org/W2895805761",
+    "checked_at_utc": "2026-10-09T00:14:22Z",
+    "match_notes_zh": "以允許的公開書目 API 精確比對題名、首位作者與出版年；只保留自行撰寫的摘要範圍說明，未保存全文或 API 摘要原文。"
+  },
+  "limitations_zh": "本條目依公開摘要或書目範圍整理；未下載全文，也不外推摘要未列的樣本、效果量或因果結論。",
+  "metadata_licence_zh": "僅保存公開書目欄位與自行撰寫的繁體中文摘要；未複製摘要全文或論文全文。"
+}

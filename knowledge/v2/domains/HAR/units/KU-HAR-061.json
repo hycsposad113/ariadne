@@ -1,0 +1,121 @@
+{
+  "id": "KU-HAR-061",
+  "domain": "HAR",
+  "subtopic": "水岸再生世代與港城介面模型",
+  "type": "theory",
+  "title_zh": "港城介面模型把碼頭轉型放回物流與城市經濟",
+  "title_en": "Port-city interface models in waterfront change",
+  "summary_zh": "Hoyle 的 1988 港城經濟討論與 2000 年全球—地方尺度研究，讓水岸轉型可被讀成港口功能、腹地連接與都市活動重新協商的過程。Notteboom 與 Rodrigue 的港口區域化提供另一個物流尺度，提醒設計者不能把廢棄碼頭當成脫離供應鏈的空地。",
+  "key_points_zh": [
+    "Hoyle 的港城介面模型把港口與城市關係分為階段：原始港城、擴張港城、現代工業港城、退離水岸（1960s–80s，貨櫃化與港口外移）、水岸再開發（1970s–90s）；Hoyle（2000）再加上「港城連結更新」階段，強調港口與城市重新協。",
+    "世代模型提供比較詞彙，不預告每座港口必然依序走完同一條再生路徑。",
+    "若當代物流仍佔用岸線，公共化範圍應以港務與安全資料核對。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "library_id": "HOYLE88",
+        "claim_zh": "Hoyle 的港城介面模型把港口與城市關係分為階段：原始港城、擴張港城、現代工業港城、退離水岸（1960s–80s，貨櫃化與港口外移）、水岸再開發（1970s–90s）；Hoyle（2000）再加上「港城連結更新」階段，強調港口與城市重新協作，而非單向撤離。",
+        "effect_or_value": null,
+        "study_design": "概念論述",
+        "context_region": "跨地域港口城市",
+        "locator": null,
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+        "limitations_zh": "本次取得 Crossref 書目而非全文；具體模型圖與分類需 Claude 對照原文。"
+      },
+      {
+        "library_id": "HOYLE00",
+        "claim_zh": "Hoyle（2000）把港城介面放在全球化與在地變動中重讀，新增「港城連結更新」階段，指出水岸再生應與仍在運作的港口經濟並存，而不是把港口視為已消失的過去。",
+        "effect_or_value": null,
+        "study_design": "比較性概念論述",
+        "context_region": "跨地域港口城市",
+        "locator": null,
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+        "limitations_zh": "只沿用已存在之已驗證書目；階段內容待原文逐條對照。"
+      },
+      {
+        "library_id": "NOTTEBOOM2005",
+        "claim_zh": "港口區域化研究把港口發展與腹地網絡相連，可作為單看岸線景觀的替代解釋。",
+        "effect_or_value": null,
+        "study_design": "港口發展理論",
+        "context_region": "跨地域港口網絡",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "只支持明示的文獻範圍與本次可查證內容；未由書目資料推定未讀數值或因果。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "先列貨運角色、港區通達、土地權屬與岸線使用，再決定何處可轉成公共空間。",
+    "把港區介面模型當成待檢驗的診斷問題，依個案資料挑選適用片段。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "保留仍有物流需求的工作岸線，將公共通行集中在已確認可開放的區段。",
+      "tradeoff_zh": "港口運作更連續，但連接城市的水岸步行長度可能較短。",
+      "library_ids": [
+        "HOYLE88",
+        "NOTTEBOOM2005"
+      ]
+    },
+    {
+      "option_zh": "先以公共步道與再利用建築建立城市接觸，再逐期調整港務邊界。",
+      "tradeoff_zh": "較快形成日常接觸，也增加港務安全、污染和土地權責協調。",
+      "library_ids": [
+        "HOYLE00",
+        "NOTTEBOOM2005"
+      ]
+    }
+  ],
+  "applies_when_zh": "適用於港口功能移轉、碼頭停用或城市希望重新連接工作岸線時。",
+  "not_applicable_when_zh": "不適用於把模型當成固定的開發時間表、法規或港口績效排名。",
+  "debates_zh": "階段模型便於比較，但不同港口的貨運制度、產業政策與土地權利不相同；類型吻合不代表再生結果可直接移植。",
+  "counter_unit_ids": [
+    "KU-HAR-012"
+  ],
+  "related_unit_ids": [
+    "KU-HAR-001",
+    "KU-HAR-020"
+  ],
+  "sources": [
+    {
+      "library_id": "HOYLE88",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "HOYLE00",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "NOTTEBOOM2005",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "港口地理、港城介面研究",
+  "region": "跨地域港口城市",
+  "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+  "curriculum_refs": [
+    {
+      "school": "MIT",
+      "course": null,
+      "topic": "水岸再生世代與港城介面模型：課綱對應主題"
+    }
+  ],
+  "version": "kb2-gaps-2026-10-08",
+  "check": {
+    "method_zh": "沿岸線區段登錄貨運功能、可通行狀態、腹地道路／鐵路連接與治理者，逐項比對模型要素。",
+    "inputs": [
+      "港務用途與貨物流向資料",
+      "岸線權屬與公共通行紀錄",
+      "都市更新分期及用途決定"
+    ],
+    "logic_zh": "只有同時辨識物流退出、土地治理變化和城市活動接回岸線，才可把某區段標成港城介面轉型；不得僅憑新建住宅或景觀改造下判。",
+    "limitations_zh": "模型原文分類與年代敘事仍待 Claude 回到原始論文核對；不在此卡填入未查到的港區面積或轉型年份。"
+  },
+  "case": null
+}

@@ -1,0 +1,117 @@
+{
+  "id": "KU-WAT-071",
+  "domain": "WAT",
+  "subtopic": "雨水滯留量的設計值",
+  "type": "value_range",
+  "title_zh": "地方暴雨規範必須連同排空條件閱讀",
+  "title_en": "地方暴雨規範必須連同排空條件閱讀",
+  "summary_zh": "地方雨水規範常把設計暴雨、場地蓄水容量與恢復時間配成一組要求。Nieuwegein 的住宅地塊規則以每小時 70 毫米事件為情境，要求至少處理 50 毫米並於 60 小時內恢復容量。Oosterhout 則規定其適用案件的蓄水須在 24 小時內排空。這些差異說明毫米數需和所在地制度、設施類型共同閱讀。",
+  "key_points_zh": [
+    "暴雨深度和可蓄雨深度不是同一數值。",
+    "排空時間會控制下一場降雨前可用容量。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "library_id": "NIEUWEGEIN_OMGEVINGSPLAN",
+        "claim_zh": "Nieuwegein 規定適用建築地塊需在 70 mm/h 事件中保留或處理至少 50 mm，前 24 小時維持蓄水且最遲 60 小時恢復容量；另要求處理平均年雨量 936 mm 的至少一半。",
+        "claim_verification": "OFFICIAL_PRIMARY_SOURCE_REVIEW",
+        "effect_or_value": null,
+        "study_design": "地方政府規劃法規文本",
+        "context_region": "Nieuwegein, Nederland",
+        "locator": "Omgevingsplan, Article 5.15, lines 1539–1551; explanatory text lines 8448–8456"
+      },
+      {
+        "library_id": "OOSTERHOUT_HEMELWATER2023",
+        "claim_zh": "Oosterhout 2023 雨水條例在適用條件下要求每平方公尺不透水面積至少處理 40 mm 雨水，且以 70 mm/h 強降雨檢查不得使水流入鄰近建築；一般蓄水需在一天內排空。",
+        "claim_verification": "OFFICIAL_PRIMARY_SOURCE_REVIEW",
+        "effect_or_value": null,
+        "study_design": "地方政府法規文本",
+        "context_region": "Oosterhout, Nederland",
+        "locator": "Verordening Hemelwater 2023, Article 7, lines 319–341"
+      },
+      {
+        "library_id": "BERNDTSSON2010",
+        "claim_zh": "書目確認本文題名聚焦「Green roof performance towards management of runoff water quantity and quality: A review」；目前只完成作者、年份、題名與 DOI 核對，未將摘要或全文結論納入此記錄；本單元 KU-WAT-071 對照「地方雨水規範常把設計暴雨、場地蓄水容量與恢復時間配成一組要求」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "文獻回顧；目前僅核對書目範圍",
+        "context_region": "跨地域",
+        "locator": null
+      },
+      {
+        "library_id": "BRATTEBO2003",
+        "claim_zh": "書目確認本文題名聚焦「Long-term stormwater quantity and quality performance of permeable pavement systems」；目前只完成作者、年份、題名與 DOI 核對，未將摘要或全文結論納入此記錄；本單元 KU-WAT-071 對照「地方雨水規範常把設計暴雨、場地蓄水容量與恢復時間配成一組要求」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "案例或場地研究；目前僅核對書目範圍",
+        "context_region": "美國西北太平洋地區",
+        "locator": null
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "Nieuwegein 70 mm/h 事件下的場地蓄存",
+      "range": "至少 50",
+      "unit": "mm",
+      "context": "用途：以「Nieuwegein 70 mm/h 事件下的場地蓄存」作為來源情境參照；住宅建築地塊地方規則，前 24 h 保留、60 h 內復位；這不是本基地法規；來源所列地域：Nieuwegein, Nederland。",
+      "library_id": "NIEUWEGEIN_OMGEVINGSPLAN"
+    },
+    {
+      "name": "Oosterhout 設施排空時限",
+      "range": "最長 24",
+      "unit": "h",
+      "context": "用途：以「Oosterhout 設施排空時限」作為來源情境參照；可入滲且適用蓄水條例的地方設施；這不是本基地法規；來源所列地域：Oosterhout, Nederland。",
+      "library_id": "OOSTERHOUT_HEMELWATER2023"
+    }
+  ],
+  "design_implications_zh": [
+    "用同一張表列出設計事件、可用容量、排空曲線和安全溢流路徑。"
+  ],
+  "applies_when_zh": "適用於比較地方雨水規範與初期方案容量。",
+  "not_applicable_when_zh": "不作為 M4H 法定雨量或容量門檻。",
+  "debates_zh": "地方條文的適用範圍和氣候假設可能不同；兩地數值不應取平均後當作新標準。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "NIEUWEGEIN_OMGEVINGSPLAN",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "OOSTERHOUT_HEMELWATER2023",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "BERNDTSSON2010",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "BRATTEBO2003",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "荷蘭地方雨水條例",
+  "region": "Nieuwegein 與 Oosterhout, Nederland",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "雨水滯留量的設計值"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Sustainable Futures by Design",
+      "topic": "雨水設計降雨與排空"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0"
+}

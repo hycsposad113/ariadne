@@ -1,0 +1,81 @@
+{
+  "id": "KU-STR-050",
+  "domain": "STR",
+  "subtopic": "街道作為公共空間",
+  "type": "empirical_finding",
+  "title_zh": "形態與混合用途的活動關聯",
+  "title_en": "Urban-form indicators and observed activity",
+  "summary_zh": "GPS 行為資料初步檢驗與四個荷蘭城鎮形態比較，研究脈絡為荷蘭。沿街公共生活可能受多種形態條件共同作用，不能只看街道立面。舊城的整合度、建築密度與土地使用混合均高於新城比較組。限制包括研究是小樣本形態比較，未證明何一變數造成活動差異。",
+  "key_points_zh": [
+    "沿街公共生活可能受多種形態條件共同作用，不能只看街道立面",
+    "限制：研究是小樣本形態比較，未證明何一變數造成活動差異",
+    "效果或方向：舊城的整合度、建築密度與土地使用混合均高於新城比較組"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "形態與混合用途的活動關聯｜沿街公共生活可能受多種形態條件共同作用，不能只看街道立面",
+        "effect_or_value": "舊城的整合度、建築密度與土地使用混合均高於新城比較組",
+        "study_design": "GPS 行為資料初步檢驗與四個荷蘭城鎮形態比較",
+        "context_region": "荷蘭",
+        "library_id": "YE14",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "形態與混合用途的活動關聯｜以公共空間的實際停留與使用作觀察依據；不能由案例直接推定其他城市的廣場尺寸",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "WHYTE80",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "把開放空間、入口、地塊與網路連接併入公共生活診斷"
+  ],
+  "applies_when_zh": "若本地觀察單位與荷蘭的研究脈絡可對照，可用「沿街公共生活可能受多種形態條件共同作用，不能只看街道立面」作為街道作為公共空間的比較線索。",
+  "not_applicable_when_zh": "這項荷蘭的研究結果不能單獨證明因果或預測其他城市的街段；原研究研究是小樣本形態比較，未證明何一變數造成活動差異。",
+  "debates_zh": "關聯能否外推；研究是小樣本形態比較，未證明何一變數造成活動差異；檢視「形態與混合用途的活動關聯」的研究解讀時，還需判斷「限制：研究是小樣本形態比較，未證明何一變數造成活動差異」會如何改變方案結論。",
+  "sources": [
+    {
+      "library_id": "YE14",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "WHYTE80",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "公共生活與街道治理",
+  "region": "荷蘭",
+  "curriculum_refs": [
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "街道作為公共空間：課綱對應主題"
+    },
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "街道作為公共空間：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-STR-049",
+    "KU-STR-051",
+    "KU-STR-052",
+    "KU-STR-053",
+    "KU-STR-054",
+    "KU-STR-055",
+    "KU-STR-056"
+  ]
+}

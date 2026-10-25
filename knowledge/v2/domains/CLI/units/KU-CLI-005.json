@@ -1,0 +1,71 @@
+{
+  "id": "KU-CLI-005",
+  "domain": "CLI",
+  "subtopic": "樹木降溫",
+  "type": "empirical_finding",
+  "title_zh": "樹木與反射屋頂的降溫尺度並不相同",
+  "title_en": "Trees and reflective roofs operate at different cooling scales",
+  "summary_zh": "Krayenhoff 等人檢視 1987 至 2017 年的 146 篇都市熱數值模擬研究，發現不同降溫策略的效果會隨尺度和模型設定改變。其回顧指出，樹木通常在微尺度產生較直接的降溫作用，反射屋頂則可能影響較大尺度的城市溫度。Bowler 等人的系統性回顧補充了城市綠化的實證研究，但證據異質性限制了通用效應值。設計比較應報告氣候、覆蓋、灌溉、季節和分析尺度。",
+  "key_points_zh": [
+    "樹木與反射屋頂作用於不同空間尺度。",
+    "跨研究的效應大小不能在不對齊模型條件時直接平均。"
+  ],
+  "evidence": {
+    "strength": "STRONG_EMPIRICAL",
+    "findings": [
+      {
+        "library_id": "KRAYENHOFF2021",
+        "claim_zh": "摘要指出 1987–2017 年的 146 篇物理數值研究對降溫量有顯著差異；樹木多用微尺度模擬，反照屋頂多用中尺度，尺度選擇限制策略比較；本單元 KU-CLI-005 對照「Krayenhoff 等人檢視 1987 至 2017 年的 146 篇都市熱數值模擬研究，發現不同降溫策略的效果會隨尺度和模型設定改變」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "ABSTRACT_REVIEW",
+        "effect_or_value": "KU-CLI-005 的效應量仍以其原列研究結果為準；KRAYENHOFF2021 僅提供相鄰主題脈絡，未作量值來源。",
+        "study_design": "系統性與批判性回顧 146 篇模擬研究",
+        "context_region": "跨地域數值模擬研究",
+        "locator": null
+      },
+      {
+        "library_id": "BOWLER2010",
+        "claim_zh": "系統性回顧彙整樹木和城市綠化的實證降溫研究；研究設計與測量條件具異質性。",
+        "effect_or_value": "綠化具有降溫方向性證據；通用量值受研究差異限制",
+        "study_design": "實證研究系統性回顧",
+        "context_region": "不同城市的城市綠化研究",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "街道方案以樹冠、土壤水分和遮蔭時段評估微尺度熱暴露。",
+    "屋頂策略則另以建築密度和鄰里尺度模型檢查外部影響。"
+  ],
+  "applies_when_zh": "適用於比較樹木、遮陽和反射材料等城市降溫策略。",
+  "not_applicable_when_zh": "不適用於在缺少物種、灌溉和氣候資料下承諾固定降溫數字。",
+  "debates_zh": "模型回顧與實地綠化回顧涵蓋不同方法，降溫值不能直接互換；水資源需求、維護和不平等的樹蔭分布也要一併評估。",
+  "sources": [
+    {
+      "library_id": "KRAYENHOFF2021",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "BOWLER2010",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "都市綠化與物理模型評估",
+  "region": "跨氣候帶都市研究",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": null,
+      "topic": "樹木降溫"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": null,
+      "topic": "都市熱調適與綠色基礎設施"
+    }
+  ],
+  "version": "v2.0"
+}

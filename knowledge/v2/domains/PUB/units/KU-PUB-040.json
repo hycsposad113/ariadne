@@ -1,0 +1,66 @@
+{
+  "id": "KU-PUB-040",
+  "domain": "PUB",
+  "subtopic": "安全：CPTED 與批評",
+  "type": "concept",
+  "title_zh": "安全敘事會影響空間使用者",
+  "title_en": "Safety narratives shape users",
+  "summary_zh": "「不安全」標籤可能將場地問題歸因於特定群體。訪談時需區分自身經驗、媒體印象和轉述恐懼。只有警方資料會漏掉未報案事件與日常騷擾。量化資料容易被當成客觀全貌，實際報案率也不平等。",
+  "key_points_zh": [
+    "「不安全」標籤可能將場地問題歸因於特定群體",
+    "訪談時需區分自身經驗、媒體印象和轉述恐懼"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "「不安全」標籤可能將場地問題歸因於特定群體。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "美國",
+        "library_id": "NEMETH09",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "量化資料容易被當成客觀全貌，實際報案率也不平等。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "以匿名方式收集不同群體的路線選擇和未使用原因。"
+  ],
+  "applies_when_zh": "適用於更新方案可能觸發排除性執法時。",
+  "not_applicable_when_zh": "不適合用單一犯罪熱點圖作設計決策。",
+  "debates_zh": "量化資料容易被當成客觀全貌，實際報案率也不平等。",
+  "sources": [
+    {
+      "library_id": "NEMETH09",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "RIGOLON16",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "公共空間治理與 publicness",
+  "region": "美國",
+  "curriculum_refs": [
+    {
+      "school": "MIT",
+      "course": "11.330J Theory of City Form",
+      "topic": "安全：CPTED 與批評"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Critical Debates in Urban Design",
+      "topic": "安全：CPTED 與批評"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-PUB-039",
+    "KU-PUB-041"
+  ]
+}

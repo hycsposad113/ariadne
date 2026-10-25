@@ -1,0 +1,61 @@
+{
+  "id": "KU-GRN-014",
+  "domain": "GRN",
+  "subtopic": "綠地可及性",
+  "type": "concept",
+  "title_zh": "用路網距離替代圓形半徑",
+  "title_en": "Network paths improve access measures",
+  "summary_zh": "圍牆、河流和幹道會令直線最近距離偏離實際行走成本。以入口為起點的網絡測量可呈現繞行與過街障礙。網絡資料若未包括樓梯、坡度和門禁仍會高估可達性。技術上精細的網絡也可能缺少非正式通道。",
+  "key_points_zh": [
+    "圍牆、河流和幹道會令直線最近距離偏離實際行走成本",
+    "以入口為起點的網絡測量可呈現繞行與過街障礙"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "圍牆、河流和幹道會令直線最近距離偏離實際行走成本。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "加拿大",
+        "library_id": "ELGENEIDY14",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "技術上精細的網絡也可能缺少非正式通道。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "把居民出發點、可用入口和無障礙網絡放在同一分析。"
+  ],
+  "applies_when_zh": "適用於綠地服務公平審查。",
+  "not_applicable_when_zh": "不能只依道路線資料判定實際安全。",
+  "debates_zh": "技術上精細的網絡也可能缺少非正式通道。",
+  "sources": [
+    {
+      "library_id": "ELGENEIDY14",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "IACONO10",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "交通實證",
+  "region": "加拿大",
+  "curriculum_refs": [
+    {
+      "school": "MIT",
+      "course": "11.330J Theory of City Form",
+      "topic": "綠地可及性"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-GRN-013",
+    "KU-GRN-015"
+  ]
+}

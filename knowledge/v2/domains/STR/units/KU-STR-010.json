@@ -1,0 +1,81 @@
+{
+  "id": "KU-STR-010",
+  "domain": "STR",
+  "subtopic": "完整街道",
+  "type": "empirical_finding",
+  "title_zh": "步行和自行車是不同模式選擇",
+  "title_en": "Walking and cycling are distinct choices",
+  "summary_zh": "荷蘭 Mobility Panel 與主動交通補充問卷的模式選擇模型，研究脈絡為荷蘭。行程特徵和建成環境對主動交通選擇特別敏感，但步行與騎行受到的因素及程度不同。個人、家庭、季節天氣、行程、建成環境與工作條件都影響選擇；模型未將步行和自行車合併為一個主動模式巢。限制包括樣本來自自行車普及且設施成熟的荷蘭，不能直接套用到低自行車使用地區。",
+  "key_points_zh": [
+    "行程特徵和建成環境對主動交通選擇特別敏感，但步行與騎行受到的因素及程度不同",
+    "限制：樣本來自自行車普及且設施成熟的荷蘭，不能直接套用到低自行車使用地區",
+    "效果或方向：個人、家庭、季節天氣、行程、建成環境與工作條件都影響選擇；模型未將步行和自行車合併為一個主動模式巢"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "步行和自行車是不同模式選擇｜行程特徵和建成環境對主動交通選擇特別敏感，但步行與騎行受到的因素及程度不同",
+        "effect_or_value": "個人、家庭、季節天氣、行程、建成環境與工作條件都影響選擇；模型未將步行和自行車合併為一個主動模式巢",
+        "study_design": "荷蘭 Mobility Panel 與主動交通補充問卷的模式選擇模型",
+        "context_region": "荷蘭",
+        "library_id": "TON19",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "步行和自行車是不同模式選擇｜步行性有多種定義與設計訴求；需明確說明量測的是距離、舒適、活動還是可及性",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "FORSYTH15",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "分開檢查步行、自行車和公共運輸連接，不以合併模式掩蓋需求差異"
+  ],
+  "applies_when_zh": "若本地觀察單位與荷蘭的研究脈絡可對照，可用「行程特徵和建成環境對主動交通選擇特別敏感，但步行與騎行受到的因素及程度不同」作為完整街道的比較線索。",
+  "not_applicable_when_zh": "這項荷蘭的研究結果不能單獨證明因果或預測其他城市的街段；原研究樣本來自自行車普及且設施成熟的荷蘭，不能直接套用到低自行車使用地區。",
+  "debates_zh": "關聯能否外推；樣本來自自行車普及且設施成熟的荷蘭，不能直接套用到低自行車使用地區；檢視「步行和自行車是不同模式選擇」的研究解讀時，還需判斷「限制：樣本來自自行車普及且設施成熟的荷蘭，不能直接套用到低自行車使用地區」會如何改變方案結論。",
+  "sources": [
+    {
+      "library_id": "TON19",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "FORSYTH15",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "多模式街道與安全設計",
+  "region": "荷蘭",
+  "curriculum_refs": [
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.330J Theory of City Form",
+      "topic": "完整街道：課綱對應主題"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "完整街道：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-STR-009",
+    "KU-STR-011",
+    "KU-STR-012",
+    "KU-STR-013",
+    "KU-STR-014",
+    "KU-STR-015",
+    "KU-STR-016"
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "id": "KU-GRN-057",
+  "domain": "GRN",
+  "subtopic": "綠地仕紳化",
+  "type": "concept",
+  "title_zh": "綠化前先確保居住留置工具",
+  "title_en": "Secure housing before greening",
+  "summary_zh": "租金補貼、社區土地信託和長期租約可與新綠地同步規劃。若住房保障晚於景觀建設，原居民可能無法分享長期收益。政策可用工具受地方法制和市場影響。跨部門責任分散會讓公平承諾無人履行。",
+  "key_points_zh": [
+    "租金補貼、社區土地信託和長期租約可與新綠地同步規劃",
+    "若住房保障晚於景觀建設，原居民可能無法分享長期收益"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "租金補貼、社區土地信託和長期租約可與新綠地同步規劃。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "加拿大",
+        "library_id": "MCCANN02",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "跨部門責任分散會讓公平承諾無人履行。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "把住房政策負責單位納入公園項目治理架構。"
+  ],
+  "applies_when_zh": "適用於公共投資將提升環境品質的地區。",
+  "not_applicable_when_zh": "不應將設計團隊視為住房政策的唯一執行者。",
+  "debates_zh": "跨部門責任分散會讓公平承諾無人履行。",
+  "sources": [
+    {
+      "library_id": "MCCANN02",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "ZUKIN95",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "批判都市地理與城市權",
+  "region": "加拿大",
+  "curriculum_refs": [
+    {
+      "school": "UCL Bartlett",
+      "course": "Critical Debates in Urban Design",
+      "topic": "綠地仕紳化"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-GRN-056",
+    "KU-GRN-058"
+  ]
+}

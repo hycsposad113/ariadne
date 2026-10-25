@@ -1,0 +1,74 @@
+{
+  "id": "KU-WAT-024",
+  "domain": "WAT",
+  "subtopic": "洪水風險與多層安全",
+  "type": "method",
+  "title_zh": "以多尺度模型接上基地水路徑",
+  "title_en": "以多尺度模型接上基地水路徑",
+  "summary_zh": "洪水來源可能來自流域河流、沿海潮位、短時暴雨或管網回水，不同來源需要不同模型和邊界條件。都市洪水治理研究強調空間與時間尺度的交互作用，海平面研究也區分全球平均變化和地方相對水位。基地設計要把區域模型提供的邊界水位接到局部地形和地表逕流分析。",
+  "key_points_zh": [
+    "河道水位與地表暴雨逕流不能互相代替。",
+    "局部模型的入口條件可能主導模擬結果。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "library_id": "MEEROW2016",
+        "claim_zh": "題名確認本文為都市韌性定義回顧；在未讀取摘要前，不將它簡化成單一可量測指標；本單元 KU-WAT-024 對照「洪水來源可能來自流域河流、沿海潮位、短時暴雨或管網回水，不同來源需要不同模型和邊界條件」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "文獻回顧",
+        "context_region": "跨地域都市研究",
+        "locator": null
+      },
+      {
+        "library_id": "NICHOLLS2010",
+        "claim_zh": "回顧指出 20 世紀全球海平面已上升，後續增幅仍受冰蓋、區域差異、地面下陷與調適成效不確定性影響；本單元 KU-WAT-024 對照「洪水來源可能來自流域河流、沿海潮位、短時暴雨或管網回水，不同來源需要不同模型和邊界條件」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "ABSTRACT_REVIEW",
+        "effect_or_value": null,
+        "study_design": "沿海海平面變化與影響回顧",
+        "context_region": "全球沿海地區",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "列出各模型使用的垂直基準、降雨序列和潮位條件。",
+    "在多個尺度交界處檢查水量是否連續。"
+  ],
+  "applies_when_zh": "適用於都市水文分析方案與模型交接。",
+  "not_applicable_when_zh": "不可將未轉換的高程或水位圖直接疊合比較。",
+  "debates_zh": "不同資料源的高程基準不一致時，模型疊合會產生系統性錯差。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "MEEROW2016",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "NICHOLLS2010",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "流域到基地的風險建模",
+  "region": "跨地域；全球沿海地區",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "洪水風險與多層安全"
+    },
+    {
+      "school": "MIT",
+      "course": null,
+      "topic": "洪水風險與多層安全"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0"
+}

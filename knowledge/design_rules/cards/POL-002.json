@@ -1,0 +1,78 @@
+{
+  "id": "POL-002",
+  "title_zh": "政策書目不能當法定約束",
+  "title_en": "Policy provenance and legal scope",
+  "domain": "policy",
+  "stages": [
+    "S1",
+    "S2",
+    "S7",
+    "S8"
+  ],
+  "statement_zh": "記錄每份政策的版本、日期、適用範圍及權責；未取得法定文件時，學術知識只能協助列問題。",
+  "rationale_zh": "可及性方法與協作理論不能取代法律效力或人類批准。",
+  "applies_when": {},
+  "parameters": [
+    {
+      "name": "policy_review_versions_trial",
+      "value": 2,
+      "range": null,
+      "unit": "versions",
+      "provenance": "ASSUMED_COMMANDER",
+      "source_ids": [],
+      "authority_ref": null,
+      "status": "PROPOSED_PENDING_FOUNDER",
+      "rationale_zh": "指揮官提出的敏感性試算值，文獻未提供此數值；須 Founder 確認、地方資料及確定性驗證，未生效。"
+    }
+  ],
+  "check": {
+    "method_zh": "依規則逐項輸出對照表、輸入版本、定義、數值／未知及替代方案；實際計算由確定性工具負責。",
+    "inputs": [
+      "凍結基地、模式路網及用途／政策資料",
+      "已接受條件、卡片版本與試算參數"
+    ],
+    "output": "可比較的診斷與設計回應；沒有觀測或校準不輸出人數或法定結論。",
+    "implementation_status": "SPECIFICATION_ONLY"
+  },
+  "check_unavailable_reason_zh": null,
+  "design_responses": [
+    {
+      "option": "1",
+      "action_zh": "只對已確認政策作約束檢查",
+      "source_ids": [
+        "GEURS04"
+      ],
+      "tradeoff_zh": "保守可追溯，但可能暫時缺少方向。"
+    },
+    {
+      "option": "2",
+      "action_zh": "把願景另列候選策略",
+      "source_ids": [
+        "HEALEY97"
+      ],
+      "tradeoff_zh": "可探索未來，不能宣稱已合法。"
+    }
+  ],
+  "evidence_level": "ACADEMIC",
+  "evidence_strength": "THEORETICAL",
+  "sources": [
+    {
+      "library_id": "GEURS04",
+      "claim_id": "C1",
+      "support_scope_zh": "文獻支持概念與比較角度；本卡具體操作是設計推導，試算值及專案約束不是文獻的普適結論。"
+    },
+    {
+      "library_id": "HEALEY97",
+      "claim_id": "C1",
+      "support_scope_zh": "文獻支持概念與比較角度；本卡具體操作是設計推導，試算值及專案約束不是文獻的普適結論。"
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "enforcement": "CANDIDATE_ONLY",
+  "authority_ref": null,
+  "local_context_refs": [],
+  "debates_zh": "上述做法是文獻引導的設計推導，兩種方案各有代價；不得以某一方法、作者或地域替 Founder 決定。",
+  "context_validity_zh": "文獻地域與方法見 library；跨地域只能借用比較框架，數值須本地量測、校準與審核。",
+  "exceptions_zh": "法規、門禁、資料缺口、無障礙及已接受 D1/D2 優先；資料不足列 UNKNOWN，試算參數須 Founder 確認。",
+  "version": "0.2.0"
+}

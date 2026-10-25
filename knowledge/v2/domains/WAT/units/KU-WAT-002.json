@@ -1,0 +1,71 @@
+{
+  "id": "KU-WAT-002",
+  "domain": "WAT",
+  "subtopic": "洪水風險與多層安全",
+  "type": "empirical_finding",
+  "title_zh": "沿海高程修正會改變人口暴露估計",
+  "title_en": "Elevation correction changes coastal exposure estimates",
+  "summary_zh": "Kulp 與 Strauss 比較沿海數值高程資料後，全球低窪沿海人口暴露估計高於以 SRTM 推算的結果。其摘要報告，低排放情境下 2100 年高水位線可能涵蓋約 1.9 億人，90% 區間約 1.5 億至 2.5 億。McGranahan 等人的全球空間統計也顯示，低海拔沿海區的人口占比高於土地占比。這些數字描述人口暴露，不是洪水發生機率、預期損失或適應成效。",
+  "key_points_zh": [
+    "高程模型的系統性偏差會改變低窪沿海人口估值。",
+    "暴露分析不能替代水深、頻率、脆弱度及防護能力評估。"
+  ],
+  "evidence": {
+    "strength": "STRONG_EMPIRICAL",
+    "findings": [
+      {
+        "library_id": "KULP2019",
+        "claim_zh": "全球高程模型比較顯示，使用 CoastalDEM 會提高低窪沿海人口暴露估計；摘要報告低排放 2100 情境約 1.9 億人及 90% 區間約 1.5 億至 2.5 億。",
+        "effect_or_value": "約 190 million；90% interval 150–250 million；低排放 2100 情境",
+        "study_design": "全球高程模型比較與人口暴露估算",
+        "context_region": "全球沿海低窪地區",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "library_id": "MCGRANAHAN2007",
+        "claim_zh": "全球低海拔沿海區按海拔界定後，人口與都市聚落呈現高於其土地面積占比的集中；這是暴露分布描述，不等於淹水概率；本單元 KU-WAT-002 對照「Kulp 與 Strauss 比較沿海數值高程資料後，全球低窪沿海人口暴露估計高於以 SRTM 推算的結果」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "ABSTRACT_REVIEW",
+        "effect_or_value": "KU-WAT-002 的效應量仍以其原列研究結果為準；MCGRANAHAN2007 僅提供相鄰主題脈絡，未作量值來源。",
+        "study_design": "全球人口與聚落空間統計回顧",
+        "context_region": "全球低海拔沿海區",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "圖面標明高程模型、情境年份、水位線與人口資料年份，避免將暴露人口稱作受災人口。",
+    "若規劃結論對地形來源敏感，先核對測量與垂直基準，再比較土地使用、撤離和防護選項。"
+  ],
+  "applies_when_zh": "適用於海岸與河口地帶長期暴露盤點及模型資料敏感度說明。",
+  "not_applicable_when_zh": "不可直接用來設定基地設計標高、堤防高程或某一年的實際淹水人口。",
+  "debates_zh": "模型估算受高程誤差、人口假設及排放情境影響；高程界線亦不含地方潮汐、風暴潮、沉降和既有防護。需把暴露視為風險篩查起點。",
+  "sources": [
+    {
+      "library_id": "KULP2019",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "MCGRANAHAN2007",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "沿海人口暴露與高程模型",
+  "region": "全球沿海地區",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": null,
+      "topic": "洪水風險與多層安全"
+    },
+    {
+      "school": "MIT",
+      "course": null,
+      "topic": "氣候風險、暴露與調適"
+    }
+  ],
+  "version": "v2.0"
+}

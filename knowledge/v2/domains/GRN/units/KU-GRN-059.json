@@ -1,0 +1,61 @@
+{
+  "id": "KU-GRN-059",
+  "domain": "GRN",
+  "subtopic": "綠地仕紳化",
+  "type": "design_principle",
+  "title_zh": "參與需在土地決策前發生",
+  "title_en": "Participation must precede land decisions",
+  "summary_zh": "景觀方案可能已由土地交易和投資承諾預先決定。此時才開始的參與容易只能選樹種而不能討論分配。部分社群組織也未必代表租戶和未登記居民。參與品質取決於影響決策的實際權限。",
+  "key_points_zh": [
+    "景觀方案可能已由土地交易和投資承諾預先決定",
+    "此時才開始的參與容易只能選樹種而不能討論分配"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "景觀方案可能已由土地交易和投資承諾預先決定。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "全球南方",
+        "library_id": "ROY05",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "參與品質取決於影響決策的實際權限。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "讓租戶、商販和青年在選址與住房配套階段有明確決策權。"
+  ],
+  "applies_when_zh": "適用於綠色更新的早期程序設計。",
+  "not_applicable_when_zh": "不能以一場公開說明會宣稱已取得社群同意。",
+  "debates_zh": "參與品質取決於影響決策的實際權限。",
+  "sources": [
+    {
+      "library_id": "ROY05",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "NEMETH09",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "非正式都市化",
+  "region": "全球南方",
+  "curriculum_refs": [
+    {
+      "school": "UCL Bartlett",
+      "course": "Critical Debates in Urban Design",
+      "topic": "綠地仕紳化"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-GRN-058",
+    "KU-GRN-060"
+  ]
+}

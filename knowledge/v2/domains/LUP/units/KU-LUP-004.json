@@ -1,0 +1,112 @@
+{
+  "id": "KU-LUP-004",
+  "domain": "LUP",
+  "subtopic": "土地使用分類",
+  "type": "method",
+  "title_zh": "土地使用分類｜分析方法",
+  "title_en": "Land-use classification — Analytical method",
+  "summary_zh": "土地使用資料可指地塊、建築、企業或地表，計算前應固定分析單位並記錄混合程度。 出行研究把目的地可及性、路網和用途共同納入分析，並指出密度單獨的關聯較弱且自我選擇限制因果推論。 實地盤點還需並列登記用途、規劃分類、非正式活動與時段變化。",
+  "key_points_zh": [
+    "先確認單位是地塊、建築、企業還是地表，再統計混合度。",
+    "先確認單位是地塊、建築、企業還是地表，再統計混合度。",
+    "限制：資料缺項不是空白用途；不得把未知直接編成零或無使用。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "整合多項研究顯示目的地可及性、路網與用途等因素和出行有關；密度單獨的關聯較弱，且自我選擇及樣本限制妨礙普遍因果推論。",
+        "library_id": "EWING10",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "美國; 跨地域",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "非正式性並非只屬於貧民區；規劃需處理制度例外與分配正義，不能把非正式使用當空白基地。",
+        "library_id": "ROY05",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "全球南方",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "落實「土地使用分類｜分析方法」時可先對照實際活動、建築登記與規劃類別，註明多用途和時間變化，再用整合多項研究顯示目的地可及性、路網與用途等因素和出行有關；密度單獨的關聯較弱，且自我選擇及樣本限制妨礙普遍因果推論核對方案的空間後果。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "「土地使用分類｜分析方法」可把取向落在對照實際活動、建築登記與規劃類別，註明多用途和時間變化，但需連同整合多項研究顯示目的地可及性、路網與用途等因素和出行有關；密度單獨的關聯較弱，且自我選擇及樣本限制妨礙普遍因果推論決定適用方式。",
+      "tradeoff_zh": "此選項把「土地使用分類｜分析方法」的工作放在整合多項研究顯示目的地可及性、路網與用途等因素和出行有關；密度單獨的關聯較弱，且自我選擇及樣本限制妨礙普遍因果推論上；需要承擔的協調或維護代價則由「單一用途碼會掩蓋樓層混用、非正式經濟和日夜轉換」界定。",
+      "library_ids": [
+        "EWING10",
+        "ROY05"
+      ]
+    },
+    {
+      "option_zh": "在「土地使用分類｜分析方法」的來源情境裡，居住、商業、製造、公共設施和開放空間可按不同規劃問題再分層；落到設計時還要按整合多項研究顯示目的地可及性、路網與用途等因素和出行有關；密度單獨的關聯較弱，且自我選擇及樣本限制妨礙普遍因果推論調整。",
+      "tradeoff_zh": "此選項把「土地使用分類｜分析方法」的工作放在整合多項研究顯示目的地可及性、路網與用途等因素和出行有關；密度單獨的關聯較弱，且自我選擇及樣本限制妨礙普遍因果推論上；需要承擔的協調或維護代價則由「單一用途碼會掩蓋樓層混用、非正式經濟和日夜轉換」界定。",
+      "library_ids": [
+        "EWING10",
+        "ROY05"
+      ]
+    }
+  ],
+  "applies_when_zh": "「土地使用分類｜分析方法」可在適用於盤點現況、評估分區和描述用途配置時使用，前提是整合多項研究顯示目的地可及性、路網與用途等因素和出行有關；密度單獨的關聯較弱，且自我選擇及樣本限制妨礙普遍因果推論與來源情境相符。",
+  "not_applicable_when_zh": "若整合多項研究顯示目的地可及性、路網與用途等因素和出行有關；密度單獨的關聯較弱，且自我選擇及樣本限制妨礙普遍因果推論不成立，就不能把「土地使用分類｜分析方法」的結論延伸到其他情況；資料缺項不是空白用途；不得把未知直接編成零或無使用。",
+  "debates_zh": "單一用途碼會掩蓋樓層混用、非正式經濟和日夜轉換。",
+  "sources": [
+    {
+      "library_id": "EWING10",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "ROY05",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "MOUDON97",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "交通與建成環境實證；非正式都市化",
+  "region": "美國；全球南方",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Planning Complex Cities",
+      "topic": "土地使用分類"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Cities by Design",
+      "topic": "土地使用分類"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "土地使用分類"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Sustainable Futures by Design",
+      "topic": "土地使用分類"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-LUP-001",
+    "KU-LUP-002",
+    "KU-LUP-003"
+  ],
+  "counter_unit_ids": [
+    "KU-LUP-005"
+  ]
+}

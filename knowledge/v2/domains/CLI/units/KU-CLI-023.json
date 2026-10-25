@@ -1,0 +1,74 @@
+{
+  "id": "KU-CLI-023",
+  "domain": "CLI",
+  "subtopic": "風舒適度準則（如 Lawson）",
+  "type": "concept",
+  "title_zh": "行人風分級同時考慮速度和出現頻率",
+  "title_en": "行人風分級同時考慮速度和出現頻率",
+  "summary_zh": "行人風評估通常把風速與超越頻率或活動容忍度結合，而不只看一次最大值。Blocken 等人的回顧說明風洞和 CFD 評估需校核邊界條件與精度。Lawson 類準則還區分坐、站和步行用途，引用時應確認原始版本。",
+  "key_points_zh": [
+    "平均方式、陣風修正和超越概率須明確。",
+    "舒適與安全是不同門檻。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "library_id": "BLOCKEN2016",
+        "claim_zh": "題名確認文章比較建築周圍行人高度風環境的風洞與 CFD 評估方法；不把工具輸出直接當成通用舒適閾值；本單元 KU-CLI-023 對照「行人風評估通常把風速與超越頻率或活動容忍度結合，而不只看一次最大值」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "風洞與 CFD 技術回顧",
+        "context_region": "跨地域建築風環境研究",
+        "locator": null
+      },
+      {
+        "library_id": "TOMINAGA2008",
+        "claim_zh": "書目確認本文題名聚焦「AIJ guidelines for practical applications of CFD to pedestrian wind environment around buildings」；目前只完成作者、年份、題名與 DOI 核對，未將摘要或全文結論納入此記錄；本單元 KU-CLI-023 對照「行人風評估通常把風速與超越頻率或活動容忍度結合，而不只看一次最大值」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "方法或概念研究；目前僅核對書目範圍",
+        "context_region": "日本與國際風工程",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "按座位、入口、步道和建築轉角分區檢查。",
+    "把活動類型與風速統計並列。"
+  ],
+  "applies_when_zh": "適用於建築周邊公共空間的風評估。",
+  "not_applicable_when_zh": "不能只憑建築高度推定地面風舒適。",
+  "debates_zh": "不同地區準則的平均時距、發生率和活動分類不完全一致。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "BLOCKEN2016",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "TOMINAGA2008",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "行人風工程評估",
+  "region": "跨地域建築風環境；跨氣候帶",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "風舒適度準則（如 Lawson）"
+    },
+    {
+      "school": "MIT",
+      "course": "Theory of City Form",
+      "topic": "風舒適度準則（如 Lawson）"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "KOROSO2020",
+  "title": "Urban land use efficiency in Ethiopia: An assessment of urban land use sustainability in Addis Ababa",
+  "authors": [
+    "Nesru H. Koroso",
+    "Jaap A. Zevenbergen",
+    "Monica Lengoiboni"
+  ],
+  "year": 2020,
+  "venue_or_publisher": "Land Use Policy",
+  "doi": "https://doi.org/10.1016/j.landusepol.2020.105081",
+  "isbn": null,
+  "openalex_id": "https://openalex.org/W3087138558",
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "非洲土地使用與都市擴張",
+  "region": [
+    "阿迪斯阿貝巴，衣索比亞"
+  ],
+  "method": "遙測、時序土地使用分析與田野觀察",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "研究指出擴張前緣出現土地零碎化、囤置及長期閒置；制度執行是作者提出的重要解釋，不能外推到所有城市。",
+      "strength": "MIXED",
+      "scope_zh": "僅限摘要可核對的範圍；未讀全文，不推論摘要未列的數字、因果或普遍適用性。",
+      "assessment_basis": "ABSTRACT_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "OpenAlex",
+    "query": {
+      "record_id": "https://openalex.org/W3087138558",
+      "title": "Urban land use efficiency in Ethiopia: An assessment of urban land use sustainability in Addis Ababa",
+      "author": "Nesru H. Koroso",
+      "year": 2020
+    },
+    "matched_record_id": "https://openalex.org/W3087138558",
+    "checked_at_utc": "2026-10-08T09:12:32Z",
+    "match_notes_zh": "以 OpenAlex 精確 work 記錄核對書名、作者與出版年；只使用摘要作主張範圍檢查，未下載全文。"
+  },
+  "limitations_zh": "僅使用允許的書目欄位和摘要核對；未取得或保存全文。",
+  "metadata_licence_zh": "保存公開書目欄位與自行撰寫主張摘要；未保存 API 摘要原文或全文。"
+}

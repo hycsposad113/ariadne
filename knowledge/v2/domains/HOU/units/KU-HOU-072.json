@@ -1,0 +1,91 @@
+{
+  "id": "KU-HOU-072",
+  "domain": "HOU",
+  "subtopic": "住宅類型",
+  "type": "value_range",
+  "title_zh": "兩房住宅面積",
+  "title_en": "Two-bedroom dwelling floor area",
+  "summary_zh": "兩房住宅的總面積應和入住人數、臥室尺寸、儲物與共享起居空間一起比較。英格蘭 NDSS 對不同入住配置列出最低空間要求，Time-Saver 提供住宅開發設計參照。60–85 m² 是保留的方案比較帶，不應被讀作跨地區最低標準。",
+  "key_points_zh": [
+    "兩房住宅方案可先以約 60–85 m²／單元作比較帶，將可分隔工作或照護的房間納入檢驗。",
+    "區間是設計比較參考，不等同可負擔性或家庭適配性的證據。",
+    "比較儲物、臥室隱私、輪椅迴轉和共享起居空間的配置。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "英格蘭 NDSS 按兩房住宅的入住人數規定最低總室內面積、臥室和儲藏條件；這是地方標準，不能移植為基地法規。",
+        "library_id": "UK_NDSS_2015",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "英格蘭",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "《Time-Saver Standards for Housing and Residential Development》收錄住宅設計參考尺度；本次僅確認其書目範圍，不將其視作兩房住宅的通用面積門檻。",
+        "library_id": "TIMESAVER_HOUSING94",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "跨地域",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "兩房住宅面積",
+      "range": "約 60–85",
+      "unit": "m²／單元",
+      "context": "英格蘭住宅空間標準與跨地域案例比較；用途：兩房住宅室內面積工作帶；60–85 m² 不是 NDSS 的單一入住配置值；不是本基地法規。",
+      "library_id": "UK_NDSS_2015"
+    }
+  ],
+  "design_implications_zh": [
+    "按兩房一人、兩房三人或兩房四人等入住設定分開量測，並核對臥室、儲物和無障礙條件。"
+  ],
+  "applies_when_zh": "用於比較歐洲與亞洲家庭住宅方案比較的兩房住宅室內淨面積，並明示此數值的來源、年份和面積分母。",
+  "not_applicable_when_zh": "區間是設計比較參考，不等同可負擔性或家庭適配性的證據。",
+  "debates_zh": "提高兩房單元面積可容納工作或照護活動，也可能增加租金和土地資源壓力。",
+  "sources": [
+    {
+      "library_id": "TIMESAVER_HOUSING94",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "UK_NDSS_2015",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "住房權與政治經濟批判",
+  "region": "歐洲與亞洲家庭住宅方案比較",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "住宅類型"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "住宅類型"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "住宅類型"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "住宅類型"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008"
+}

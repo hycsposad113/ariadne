@@ -1,0 +1,61 @@
+{
+  "id": "KU-PUB-012",
+  "domain": "PUB",
+  "subtopic": "邊緣效應",
+  "type": "empirical_finding",
+  "title_zh": "行人可及性與城市公平並不相同",
+  "title_en": "Access does not equal spatial equity",
+  "summary_zh": "波哥大研究比較人口、工作與可及性的空間分布。研究發現平均密度偏高仍可能與低收入群體的機會不足並存。這是特定城市的分布結果，不能將密度視作公平的代理指標。空間供給增加未必等同受益者範圍擴大。",
+  "key_points_zh": [
+    "波哥大研究比較人口、工作與可及性的空間分布",
+    "研究發現平均密度偏高仍可能與低收入群體的機會不足並存"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "波哥大研究比較人口、工作與可及性的空間分布。",
+        "effect_or_value": "較高平均密度可與低收入群體較弱的可及性並存；方向因區域和群體而異。",
+        "study_design": "城市形態與公平的橫斷面空間分析",
+        "context_region": "哥倫比亞波哥大",
+        "library_id": "BOGOTA17",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW",
+        "limitations_zh": "都市資料與可及性指標呈觀察性關聯，未識別所有個體選擇與治理機制。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "同時繪製不同收入群體至公共空間、工作和服務的實際網路成本。"
+  ],
+  "applies_when_zh": "適用於新連接或廣場更新可能重分配使用機會時。",
+  "not_applicable_when_zh": "不應把研究城市的差異比例搬成另一地區的預測。",
+  "debates_zh": "空間供給增加未必等同受益者範圍擴大。",
+  "sources": [
+    {
+      "library_id": "BOGOTA17",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "GEHL10",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "拉美可及性與公平",
+  "region": "哥倫比亞波哥大",
+  "curriculum_refs": [
+    {
+      "school": "MIT",
+      "course": "11.330J Theory of City Form",
+      "topic": "邊緣效應"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-PUB-011",
+    "KU-PUB-013"
+  ]
+}

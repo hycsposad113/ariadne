@@ -1,0 +1,82 @@
+{
+  "id": "KU-SOC-023",
+  "domain": "SOC",
+  "subtopic": "治理與公私合作",
+  "type": "theory",
+  "title_zh": "治理與公私合作：問責關係",
+  "title_en": "Governance and public-private collaboration — theory unit 023",
+  "summary_zh": "問責關係應追蹤誰提出目標、誰核准資金、誰控制土地，以及成果未達成時誰承擔責任。合作網絡可能讓決策效率提高，也可能稀釋民主責任。只看簽約主體會漏掉金融、顧問和土地控制者的實際影響。",
+  "key_points_zh": [
+    "問責關係應追蹤誰提出目標、誰核准資金、誰控制土地，以及成果未達成時誰承擔責任。",
+    "合作網絡可能讓決策效率提高，也可能稀釋民主責任。",
+    "只看簽約主體會漏掉金融、顧問和土地控制者的實際影響。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "【BIBLIOGRAPHIC_SCOPE_ONLY】就「治理與公私合作：問責關係」而言，「Planning in the Face of Power」提供critical communicative planning的比較坐標；此處僅使用其已標明的書目／摘要範圍，不延伸為未核對的效果或因果。",
+        "effect_or_value": null,
+        "study_design": "normative theory with planning practice cases",
+        "context_region": "United States",
+        "library_id": "FORESTER1988",
+        "locator": null
+      },
+      {
+        "claim_zh": "【BIBLIOGRAPHIC_SCOPE_ONLY】就「治理與公私合作：問責關係」而言，「Collaborative Governance in Theory and Practice」提供collaborative governance and institutional analysis的比較坐標；此處僅使用其已標明的書目／摘要範圍，不延伸為未核對的效果或因果。",
+        "effect_or_value": null,
+        "study_design": "comparative framework review",
+        "context_region": "United States；international cases",
+        "library_id": "ANSELLGASH2008",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "對每個決策節點標明責任者、核准權、資金來源和失敗後責任。"
+  ],
+  "design_options": [],
+  "applies_when_zh": "在評估「治理與公私合作：問責關係」涉及的資源分配、權力或居住影響時，先界定受影響群體與決策階段。",
+  "not_applicable_when_zh": "若沒有「治理與公私合作：問責關係」所需的群體、時序或市場資料，不把概念類比當作已驗證的效果或法律結論。",
+  "debates_zh": "多方合作可能提高協調效率，也可能讓責任分散到無人可追究。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "FORESTER1988",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "ANSELLGASH2008",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "都市治理／國家、市場與社區",
+  "region": "英國；跨地域；丹麥；歐洲",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Planning Complex Cities",
+      "topic": "治理與公私合作：問責關係 — 治理與公私合作"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Urban Design Contexts and Operations",
+      "topic": "治理與公私合作：問責關係 — 治理與公私合作"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "治理與公私合作：問責關係 — 治理與公私合作"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design Governance",
+      "topic": "治理與公私合作：問責關係 — 治理與公私合作"
+    }
+  ],
+  "version": "2.0.0"
+}

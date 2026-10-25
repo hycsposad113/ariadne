@@ -1,0 +1,97 @@
+{
+  "id": "MOR-002",
+  "title_zh": "街廓尺寸試算範圍",
+  "title_en": "Block dimension candidates",
+  "domain": "morphology",
+  "stages": [
+    "S3",
+    "S4",
+    "S6",
+    "S7"
+  ],
+  "statement_zh": "先由路網切街廓，試算短邊／長邊 40–120 m，超出只提示比較滲透性與物流，不直接判 INVALID。",
+  "rationale_zh": "細街廓易通行但街道佔地多，大街廓可容納工業但繞行長。",
+  "applies_when": {
+    "scale": [
+      "*"
+    ],
+    "land_use": [
+      "*"
+    ],
+    "strategy": [
+      "*"
+    ],
+    "mode": [
+      "*"
+    ]
+  },
+  "parameters": [
+    {
+      "name": "block_dimension_candidate",
+      "value": null,
+      "range": [
+        40,
+        120
+      ],
+      "unit": "m",
+      "provenance": "ASSUMED_COMMANDER",
+      "source_ids": [],
+      "status": "PROPOSED_PENDING_FOUNDER",
+      "rationale_zh": "可調試算值，沒有普適證據；需 Founder 確認並做敏感性比較。 原數字保留；來源是作品集轉述或專案假設，未經公開書目佐證，不視為研究或實測。",
+      "authority_ref": null
+    }
+  ],
+  "check": {
+    "method_zh": "對旋轉最小包圍矩形及行人實際繞行率並列，不以 bbox 代表所有街廓。",
+    "inputs": [
+      "凍結幾何／路網與 hash",
+      "已接受專案條件與版本",
+      "卡片參數與版本"
+    ],
+    "output": "檢查值、單位、方法、有效性、差異與限制；不自動採納",
+    "implementation_status": "SPECIFICATION_ONLY"
+  },
+  "check_unavailable_reason_zh": null,
+  "design_responses": [
+    {
+      "option": "1",
+      "action_zh": "較細連通街廓",
+      "source_ids": [
+        "MARSHALL05"
+      ],
+      "tradeoff_zh": "道路佔地較多。"
+    },
+    {
+      "option": "2",
+      "action_zh": "保留倉庫大地塊加通廊",
+      "source_ids": [
+        "CONZEN60"
+      ],
+      "tradeoff_zh": "通廊權利與時段可能受限。"
+    }
+  ],
+  "evidence_level": "COMMON_SENSE_ASSUMED",
+  "evidence_strength": "ASSUMED",
+  "sources": [
+    {
+      "library_id": "MARSHALL05",
+      "claim_id": "C1",
+      "support_scope_zh": "文獻支持概念與比較角度；本卡具體操作是設計推導，試算值及專案約束不是文獻的普適結論。"
+    },
+    {
+      "library_id": "CONZEN60",
+      "claim_id": "C1",
+      "support_scope_zh": "文獻支持概念與比較角度；本卡具體操作是設計推導，試算值及專案約束不是文獻的普適結論。"
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "enforcement": "CANDIDATE_ONLY",
+  "authority_ref": null,
+  "debates_zh": "相同密度可由不同形態形成；傳統街廓、現代板樓和高密度策略的公共性、日照與控制方式不同。書目尚未逐頁查證，不能預設一派較好。 已查證書目與主張的查閱層級見 library；不是逐頁核驗或本基地因果結論。",
+  "context_validity_zh": "英國歷史形態、義大利類型學、荷蘭密度與亞洲高密度各有取樣偏向；M4H 倉庫結構與保留邊界需實測，類型不構成偏好排名。",
+  "exceptions_zh": "卡片不可替代現行法規、產權、無障礙或已接受 D1/D2。缺必要資料即回報 UNKNOWN；例外須由 Founder 明確決定並保留原結果。",
+  "version": "0.2.0",
+  "local_context_refs": [
+    "FOUNDER"
+  ]
+}

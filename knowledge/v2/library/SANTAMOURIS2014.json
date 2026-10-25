@@ -1,0 +1,42 @@
+{
+  "id": "SANTAMOURIS2014",
+  "title": "Cooling the cities – A review of reflective and green roof mitigation technologies to fight heat island and improve comfort in urban environments",
+  "authors": [
+    "M. Santamouris"
+  ],
+  "year": 2014,
+  "venue_or_publisher": "Solar Energy",
+  "doi": "https://doi.org/10.1016/j.solener.2012.07.003",
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "反照屋頂與綠屋頂",
+  "region": "跨地域都市研究",
+  "method": "降溫技術回顧",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "題名確認文章比較反射屋頂與綠屋頂等城市降溫技術；各策略效能須依氣候和建物條件分開檢核。",
+      "strength": "THEORETICAL",
+      "scope_zh": "只支持此研究明確的議題、樣本地區與方法；不直接生成 M4H 數值、法規或工程容量。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref",
+    "query": {
+      "title": "Cooling the cities – A review of reflective and green roof mitigation technologies to fight heat island and improve comfort in urban environments",
+      "author": "Santamouris",
+      "year": 2014,
+      "api_query": "Crossref GET works?query.title=Cooling the cities – A review of reflective and green roof mitigation technologies to fight heat island and improve comfort in urban environments"
+    },
+    "matched_record_id": "10.1016/j.solener.2012.07.003",
+    "checked_at_utc": "2026-10-08T10:06:49Z",
+    "match_notes_zh": "以 Crossref 公開書目記錄比對書名、作者與年份；摘要文字未保存到 repository。"
+  },
+  "limitations_zh": "只保留書目與自行撰寫的範圍摘要；除標示 ABSTRACT_REVIEW 者外，內容未由摘要核對，沒有下載全文。",
+  "critique_relationship_zh": "本記錄不宣稱與其他書目存在直接互引或逐一反駁關係。",
+  "metadata_licence_zh": "公開 API 書目欄位；精確 metadata licence 未核驗，標 UNKNOWN。"
+}

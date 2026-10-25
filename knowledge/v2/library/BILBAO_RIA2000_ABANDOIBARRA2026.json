@@ -1,0 +1,42 @@
+{
+  "id": "BILBAO_RIA2000_ABANDOIBARRA2026",
+  "title": "Abandoibarra",
+  "authors": [
+    "Bilbao Ría 2000"
+  ],
+  "year": null,
+  "venue_or_publisher": "Bilbao Ría 2000",
+  "doi": null,
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "OFFICIAL_PUBLIC_COMPANY_WEBPAGE",
+  "tradition": "官方或專業機構公開頁面；直接來源核對",
+  "region": "西班牙 Bilbao",
+  "method": "直接檢視官方或專業機構公開頁面；非獨立學術成效評估",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "公共公司記錄 Abandoibarra 1996 年動工、2011 年完成、總面積 348,507 平方公尺，其中綠地與休閒區 115,714 平方公尺。",
+      "strength": "CASE_EVIDENCE",
+      "scope_zh": "專案管理方提供的面積和工程日期可確認建設範圍，不能單獨證明居民或產業受益。",
+      "assessment_basis": "DIRECT_SOURCE_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Official webpage or public report (direct review)",
+    "query": {
+      "title": "Abandoibarra",
+      "author": "Bilbao Ría 2000",
+      "year": null,
+      "api_query": "Read-only page reviewed directly: https://www.bilbaoria2000.org/en/actions/abandoibarra/"
+    },
+    "matched_record_id": "https://www.bilbaoria2000.org/en/actions/abandoibarra/",
+    "checked_at_utc": "2026-10-08T14:27:24Z",
+    "match_notes_zh": "直接核對機構公開頁面或報告；此狀態不是 Crossref 書目驗證。"
+  },
+  "limitations_zh": "專案管理方提供的面積和工程日期可確認建設範圍，不能單獨證明居民或產業受益。",
+  "critique_relationship_zh": "本記錄不宣稱與其他書目存在直接互引或逐一反駁關係。",
+  "metadata_licence_zh": "官方或機構公開資料；個別文本的再利用授權未核驗。"
+}

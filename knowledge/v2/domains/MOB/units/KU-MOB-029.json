@@ -1,0 +1,84 @@
+{
+  "id": "KU-MOB-029",
+  "domain": "MOB",
+  "subtopic": "自行車停車",
+  "type": "critique",
+  "title_zh": "自行車停車：批評與適用限制",
+  "title_en": "Bicycle parking: Critique and boundary",
+  "summary_zh": "增加停車架不等於解決轉乘；若位置不安全、步行接駁不便或目的地不接受自行車，供給可能不被使用。另一個需要同時檢查的面向是自行車停車影響旅程起訖和轉乘便利，設計需同時處理位置、可用性、保管和與入口的連接。替代做法可以是將自行車停車設於路線可達且入口易辨認的位置，並保留擴充和不同停留時長的方案。",
+  "key_points_zh": [
+    "批評焦點：自行車停車影響旅程起訖和轉乘便利，設計需同時處理位置、可用性、保管和與入口的連接",
+    "批評焦點：增加停車架不等於解決轉乘；若位置不安全、步行接駁不便或目的地不接受自行車，供給可能不被使用"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "自行車停車：批評與適用限制｜停車供給與成本分攤應被視為土地與交通政策選擇；本單元不把書中案例值外推為其他城市規範",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "SHOUP05",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "自行車停車：批評與適用限制｜人的停留、步行與沿街互動是公共空間設計的觀察方向；需要地方活動與季節資料",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "GEHL10",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "把「增加停車架不等於解決轉乘；若位置不安全、步行接駁不便或目的地不接受自行車，供給可能不被使用」轉成一項可觀察的風險，並在替代方案中檢查「自行車停車影響旅程起訖和轉乘便利，設計需同時處理位置、可用性、保管和與入口的連接」是否改變其影響。"
+  ],
+  "applies_when_zh": "若自行車停車方案可能受「增加停車架不等於解決轉乘；若位置不安全、步行接駁不便或目的地不接受自行車，供給可能不被使用」影響，可用「自行車停車影響旅程起訖和轉乘便利，設計需同時處理位置、可用性、保管和與入口的連接」安排實地觀察或替代方案比較。",
+  "not_applicable_when_zh": "這項批評提出的是「增加停車架不等於解決轉乘；若位置不安全、步行接駁不便或目的地不接受自行車，供給可能不被使用」的風險，不能據此推定所有替代方案都更好，也不能代替本地使用者測試。",
+  "debates_zh": "增加停車架不等於解決轉乘；若位置不安全、步行接駁不便或目的地不接受自行車，供給可能不被使用；檢視「自行車停車：批評與適用限制」的反例檢查時，還需判斷「增加停車架不等於解決轉乘；若位置不安全、步行接駁不便或目的地不接受自行車，供給可能不被使用」會如何改變方案結論。",
+  "sources": [
+    {
+      "library_id": "SHOUP05",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "GEHL10",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "自行車接駁與停車政策",
+  "region": "跨地域理論或實務脈絡；來源地區依引用條目判讀",
+  "curriculum_refs": [
+    {
+      "school": "UCL Bartlett",
+      "course": "Sustainable Futures by Design",
+      "topic": "自行車停車：課綱對應主題"
+    },
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "自行車停車：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-MOB-025",
+    "KU-MOB-026",
+    "KU-MOB-027",
+    "KU-MOB-028",
+    "KU-MOB-030",
+    "KU-MOB-031",
+    "KU-MOB-032"
+  ],
+  "counter_unit_ids": [
+    "KU-MOB-025",
+    "KU-MOB-026"
+  ]
+}

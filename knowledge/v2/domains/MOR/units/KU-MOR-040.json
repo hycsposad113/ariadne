@@ -1,0 +1,106 @@
+{
+  "id": "KU-MOR-040",
+  "domain": "MOR",
+  "subtopic": "周邊式、合院、板樓、點式、連棟與基座塔樓",
+  "type": "typology",
+  "title_zh": "周邊式、合院、板樓、點式、連棟與基座塔樓｜類型取捨",
+  "title_en": "Building typologies and trade-offs — Typology and trade-offs",
+  "summary_zh": "周邊式街廓、合院、板樓、點式住宅與基座塔樓各自安排街道邊界、日照和共享空間。 類型名稱只作為方案起點；需再核對入口、朝向、戶型、建造方式與公共空間管理。 新加坡高層公共住宅經驗不能代表其他城市住戶對高度的反應。",
+  "key_points_zh": [
+    "周邊式可形成連續邊界；板樓易獲通風但可能產生空隙；塔樓釋放地面但高度集中。",
+    "讀「周邊式、合院、板樓、點式、連棟與基座塔樓｜類型取捨」時，適用於住宅、混合使用和舊建築轉用的形式選擇；同時把新加坡公共住宅提供高層生活的地方研究案例；不能把同樣高度當作跨城市接受程度列為核對條件。",
+    "限制：沒有日照、通風與可達性分析時，不以類型印象判定優劣。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "Yue 的新加坡公共住宅研究提供高層生活的地方案例，讓點式高層類型有具體制度與居住情境可供對照。",
+        "library_id": "YUE05",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "新加坡",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "馬來西亞高層居住研究指出，即使設有多層社交空間，龐大住戶數仍會妨礙互動；作者提出把共享空間移近住戶。",
+        "effect_or_value": null,
+        "study_design": "高層住宅社交空間設計討論",
+        "context_region": "馬來西亞",
+        "library_id": "SIEWBEE2016",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW",
+        "limitations_zh": "設計建議只補足高層類型的比較條件，並非新加坡住戶接受度調查。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "先定公共空間和出入口，再比對不同型態的街牆、日照和共享空間。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "在「周邊式、合院、板樓、點式、連棟與基座塔樓｜類型取捨」的來源情境裡，先定公共空間和出入口，再比對不同型態的街牆、日照和共享空間；落到設計時還要按新加坡公共住宅提供高層生活的地方研究案例；不能把同樣高度當作跨城市接受程度調整。",
+      "tradeoff_zh": "「周邊式、合院、板樓、點式、連棟與基座塔樓｜類型取捨」的主要代價不是抽象的建造成本，而是類型名不能替代朝向、構造、住戶密度和公共管理的分析；因此先以新加坡公共住宅提供高層生活的地方研究案例；不能把同樣高度當作跨城市接受程度作方案比較條件。",
+      "library_ids": [
+        "YUE05"
+      ]
+    },
+    {
+      "option_zh": "在「周邊式、合院、板樓、點式、連棟與基座塔樓｜類型取捨」的來源情境裡，周邊式可形成連續邊界；板樓易獲通風但可能產生空隙；塔樓釋放地面但高度集中；落到設計時還要按新加坡公共住宅提供高層生活的地方研究案例；不能把同樣高度當作跨城市接受程度調整。",
+      "tradeoff_zh": "此選項把「周邊式、合院、板樓、點式、連棟與基座塔樓｜類型取捨」的工作放在新加坡公共住宅提供高層生活的地方研究案例；不能把同樣高度當作跨城市接受程度上；需要承擔的協調或維護代價則由「類型名不能替代朝向、構造、住戶密度和公共管理的分析」界定。",
+      "library_ids": [
+        "YUE05"
+      ]
+    }
+  ],
+  "applies_when_zh": "適用於住宅、混合使用和舊建築轉用的形式選擇。",
+  "not_applicable_when_zh": "沒有日照、通風與可達性分析時，不以類型印象判定優劣。",
+  "debates_zh": "類型名不能替代朝向、構造、住戶密度和公共管理的分析。",
+  "sources": [
+    {
+      "library_id": "YUE05",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "SIEWBEE2016",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "亞洲高層生活；開放建築",
+  "region": "新加坡；荷蘭",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "周邊式、合院、板樓、點式、連棟與基座塔樓"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "周邊式、合院、板樓、點式、連棟與基座塔樓"
+    },
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.330J Theory of City Form",
+      "topic": "周邊式、合院、板樓、點式、連棟與基座塔樓"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban form and density",
+      "topic": "周邊式、合院、板樓、點式、連棟與基座塔樓"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-MOR-039",
+    "KU-MOR-041",
+    "KU-MOR-042"
+  ],
+  "counter_unit_ids": [
+    "KU-MOR-043"
+  ]
+}

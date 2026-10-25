@@ -1,0 +1,80 @@
+{
+  "id": "KU-MOB-062",
+  "domain": "MOB",
+  "subtopic": "無車區與物流",
+  "type": "typology",
+  "title_zh": "無車區與物流：型態比較",
+  "title_en": "Car-free districts and urban logistics: Typology comparison",
+  "summary_zh": "全時步行區、時段式管制、低速服務街和外圍物流節點在可達性、物流成本與公共空間品質間有不同取捨。類型比較要回到限制私人汽車穿越的街區仍需維持配送、維修、緊急服務和無障礙出入，交通管理與物流設計必須一併處理。各類型的成本和適用條件包括：無車政策若不安排貨運和照護出行，可能把交通負擔轉移給商戶、服務工作者或行動受限者。",
+  "key_points_zh": [
+    "比較類型：限制私人汽車穿越的街區仍需維持配送、維修、緊急服務和無障礙出入，交通管理與物流設計必須一併處理",
+    "比較類型：全時步行區、時段式管制、低速服務街和外圍物流節點在可達性、物流成本與公共空間品質間有不同取捨"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "無車區與物流：型態比較｜街道結構可以用連接與階層關係比較；不同網形的可達性與交通作用需另外計算",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "MARSHALL05",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "無車區與物流：型態比較｜Porirua CBD 案例將 24% 面積計為汽車停車場，研究亦指出最低標準與超額供給、分散式發展及開車偏好相連；數值只描述該地",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "HULME_MOIR10",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "類型表應比較「限制私人汽車穿越的街區仍需維持配送、維修、緊急服務和無障礙出入，交通管理與物流設計必須一併處理」及其使用代價「無車政策若不安排貨運和照護出行，可能把交通負擔轉移給商戶、服務工作者或行動受限者」，不要只列名稱。"
+  ],
+  "applies_when_zh": "比較無車區與物流方案時，可先用「限制私人汽車穿越的街區仍需維持配送、維修、緊急服務和無障礙出入，交通管理與物流設計必須一併處理」描述各類型，再按「無車政策若不安排貨運和照護出行，可能把交通負擔轉移給商戶、服務工作者或行動受限者」檢查分類的盲點。",
+  "not_applicable_when_zh": "這些類型不構成普遍排序；遇到「無車政策若不安排貨運和照護出行，可能把交通負擔轉移給商戶、服務工作者或行動受限者」所述條件時，不應只依類名決定路網或街道配置。",
+  "debates_zh": "無車政策若不安排貨運和照護出行，可能把交通負擔轉移給商戶、服務工作者或行動受限者；檢視「無車區與物流：型態比較」的分類邊界時，還需判斷「全時步行區、時段式管制、低速服務街和外圍物流節點在可達性、物流成本與公共空間品質間有不同取捨」會如何改變方案結論。",
+  "sources": [
+    {
+      "library_id": "MARSHALL05",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "HULME_MOIR10",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "無車街區與城市物流",
+  "region": "跨地域理論或實務脈絡；來源地區依引用條目判讀",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "無車區與物流：課綱對應主題"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Urban Design Contexts and Operations",
+      "topic": "無車區與物流：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-MOB-057",
+    "KU-MOB-058",
+    "KU-MOB-059",
+    "KU-MOB-060",
+    "KU-MOB-061",
+    "KU-MOB-063",
+    "KU-MOB-064"
+  ]
+}

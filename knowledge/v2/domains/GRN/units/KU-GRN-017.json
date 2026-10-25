@@ -1,0 +1,61 @@
+{
+  "id": "KU-GRN-017",
+  "domain": "GRN",
+  "subtopic": "綠地可及性",
+  "type": "concept",
+  "title_zh": "分時可達性呈現日夜差異",
+  "title_en": "Access varies by time",
+  "summary_zh": "學校、公園和河岸可能在某些時段開放，另一些時段封閉。居民工作時刻與公園開放時段若錯開，地圖覆蓋便會高估服務。夜間照明也可能與生態暗區衝突。延長開放時間會增加管理與照明責任。",
+  "key_points_zh": [
+    "學校、公園和河岸可能在某些時段開放，另一些時段封閉",
+    "居民工作時刻與公園開放時段若錯開，地圖覆蓋便會高估服務"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "學校、公園和河岸可能在某些時段開放，另一些時段封閉。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "美國",
+        "library_id": "HANDY02",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "延長開放時間會增加管理與照明責任。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "以工作日、週末和季節製作開放時間圖。"
+  ],
+  "applies_when_zh": "適用於24小時城市的綠地治理。",
+  "not_applicable_when_zh": "不應只在行政辦公時間盤點公園使用。",
+  "debates_zh": "延長開放時間會增加管理與照明責任。",
+  "sources": [
+    {
+      "library_id": "HANDY02",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "BYRNEWOLCH09",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "交通與健康",
+  "region": "美國",
+  "curriculum_refs": [
+    {
+      "school": "UCL Bartlett",
+      "course": "Critical Debates in Urban Design",
+      "topic": "綠地可及性"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-GRN-016",
+    "KU-GRN-018"
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "id": "KU-CAS-015",
+  "domain": "CAS",
+  "subtopic": "港區轉型案例",
+  "type": "case",
+  "title_zh": "Bilbao Abandoibarra：河岸公共空間與文化旗艦並置",
+  "title_en": "Bilbao Abandoibarra: Riverfront Public Space and Cultural Flagships",
+  "summary_zh": "Bilbao Ría 2000 將 Abandoibarra 的造船、港口與鐵路用地轉為河岸步道、公園、文化設施、住宅和經濟活動空間。官方專案資料記錄工程於 1998 年展開，2003 年開放一批主要公共空間，並於 2011 年完成主要計畫；市府另列出河岸步道、公園與橋梁的工程配置。Vicario 與 Monje 的研究以 Guggenheim 效應及鄰里仕紳化可能性為題，提醒地標吸引力不能取代分配與在地變遷分析。",
+  "key_points_zh": [
+    "步道、公園、橋梁、文化設施和新商業用途共同構成改造，而非單一博物館建築。",
+    "地標帶來的訪客與城市形象效果，需和住房、商業租金及原有產業去向對照。"
+  ],
+  "evidence": {
+    "strength": "CASE_EVIDENCE",
+    "findings": [
+      {
+        "claim_zh": "Bilbao Ría 2000 記載 Abandoibarra 工程於 1998 年展開，2003 年同步開放步道、公園與 Pedro Arrupe 人行橋，主要工程於 2011 年完成。",
+        "effect_or_value": "官方工程里程碑",
+        "study_design": "公共公司專案回顧",
+        "context_region": "西班牙巴斯克自治區 Bilbao",
+        "library_id": "BILBAO_RIA2000_ABANDOIBARRA2026",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "Crossref 將 Vicario 與 Martínez Monje 的章節列於《Gentrification in a Global Context》，題名為 “Another ‘Guggenheim effect’?”；此處只記錄書目與議題範圍，不據此陳述 Bilbao 的實證結果。",
+        "effect_or_value": "地標再生的仕紳化批判議題",
+        "study_design": "城市個案研究；具體方法待全文核",
+        "context_region": "西班牙 Bilbao",
+        "library_id": "VICARIO_MONJE2010",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "Miles 的研究以 Bilbao 等城市檢視文化導向都市發展的論述，提醒地標知名度不能單獨證明居民普遍受益。",
+        "effect_or_value": "文化主導都市發展的批判性比較",
+        "study_design": "跨城市政策與文化發展批判",
+        "context_region": "西班牙 Bilbao 等歐洲城市",
+        "library_id": "MILES2005",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "沿河步道要連續接到既有街區和交通節點，並辨認橋梁與文化設施是否形成可日常使用的路徑。",
+    "把地標投資、公共空間維護和地方住房市場變化分開監測，避免以訪客數替代居民福祉。"
+  ],
+  "applies_when_zh": "城市以文化設施和河岸公共空間帶動去工業化區域更新時。",
+  "not_applicable_when_zh": "更新區尚需保留大型港口作業，或無法承擔長期文化設施維運時。",
+  "debates_zh": "Abandoibarra 常被當作文化旗艦推動城市轉型的代表，但研究者也質疑此模式是否將公共土地與資源轉為新菁英消費空間。現有官方材料證明設施和工程時間，不足以單獨證明新投資如何影響既有居民與沿河產業。",
+  "sources": [
+    {
+      "library_id": "BILBAO_RIA2000_ABANDOIBARRA2026",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "VICARIO_MONJE2010",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "MILES2005",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "西班牙文化旗艦再生與河岸公共空間",
+  "region": "西歐／西班牙巴斯克自治區",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": null,
+      "topic": "港口、鐵路與河岸城市介面"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": null,
+      "topic": "城市旗艦與公共領域"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": null,
+      "topic": "文化主導更新的仕紳化批判"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": null,
+      "topic": "都市文化地標與城市轉型理論"
+    }
+  ],
+  "case": {
+    "location": "Bilbao Abandoibarra，西班牙",
+    "period": "1990 年代規劃；主要工程 1998–2011 年分期完成",
+    "area_ha": 34.8507,
+    "fsi": null,
+    "gsi": null,
+    "program_mix": "河岸步道、公園、博物館與文化設施、會議設施、住宅、商業與大學空間；用途比例未核實。",
+    "key_strategies_zh": [
+      "把船廠、港口與鐵路邊緣用地改造成公共步行系統及新城市用途。",
+      "以文化地標和河岸公共空間重塑城市形象，採分期方式建成。"
+    ],
+    "outcomes_zh": [
+      "Bilbao Ría 2000 記錄工程於 1996 年開始、2011 年完成，總範圍約 34.85 公頃，其中綠地與休閒空間約 11.57 公頃。",
+      "市府列出的步道與公園設施形成河岸公共路徑；規劃範圍面積約 34.6 公頃。"
+    ],
+    "critiques_zh": [
+      "Guggenheim 效應的城市行銷敘事可能遮蔽更廣泛的就業與住房變化。",
+      "需要可追溯的居民留存、租金、公共空間使用與維護經費資料，才能判斷更新利益分配。"
+    ]
+  },
+  "version": "v2.0"
+}

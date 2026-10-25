@@ -1,0 +1,82 @@
+{
+  "id": "KU-SYN-072",
+  "domain": "SYN",
+  "subtopic": "角度與度量距離",
+  "type": "value_range",
+  "title_zh": "街網路徑成本的三類度量",
+  "title_en": "Three families of street-network path costs",
+  "summary_zh": "街網路徑可按拓樸步數、轉向角度或公尺距離計算。每種成本回答不同的移動問題：轉向、路段數和物理長度不會得到相同路徑。選擇哪一種需由研究目的決定，不能把一個成本值當成普遍移動阻力。此處的常見街網路成本家族數是附來源的比較參照，不是本基地法規。",
+  "key_points_zh": [
+    "拓樸成本數連接步數；角度成本累積轉向差；度量成本使用距離。",
+    "多種成本模型可用同一底圖做敏感度比較。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "建成環境—旅運研究使用不同尺度與環境度量，模型結果需對應問題。",
+        "library_id": "HANDY02",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": "三類：拓樸步數、轉向角度、公尺距離",
+        "study_design": "建成環境和活動研究回顧",
+        "context_region": "美國",
+        "locator": null
+      },
+      {
+        "claim_zh": "密度、用途和設計與出行選擇相關，但不是單一的因果機制。",
+        "library_id": "CERVERO97",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "建成環境與旅運研究",
+        "context_region": "美國",
+        "locator": null
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "常見街網路成本家族數",
+      "range": "三類：拓樸步數、轉向角度、公尺距離",
+      "unit": "度量類別數",
+      "context": "街道移動成本模型比較；用途：並列不同路徑成本定義，檢查最短路和中心性結果是否敏感。；「常見街網路成本家族數」僅供來源脈絡內的比較，不是本基地法規、M4H 門檻或通用配額；來源所列地域：美國。",
+      "library_id": "HANDY02"
+    }
+  ],
+  "design_implications_zh": [
+    "在網路分析中把三種成本定義和最短路算法記錄下來，避免只報最終中心性排名。"
+  ],
+  "applies_when_zh": "設計街網路徑模型時，按研究問題選擇拓樸步數、角度成本或物理距離。",
+  "not_applicable_when_zh": "三類度量不是互相可換的單位，也不能直接合併成一個分數。",
+  "debates_zh": "實際出行還受目的地吸引、時間、舒適、安全和個人能力影響。",
+  "sources": [
+    {
+      "library_id": "HANDY02",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "CERVERO97",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "網路分析與旅運研究",
+  "region": "街道移動成本模型比較",
+  "curriculum_refs": [
+    {
+      "school": "Harvard GSD",
+      "course": "Cities by Design",
+      "topic": "角度與度量距離：課綱對應主題"
+    },
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.330J Theory of City Form",
+      "topic": "角度與度量距離：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-SYN-038"
+  ]
+}

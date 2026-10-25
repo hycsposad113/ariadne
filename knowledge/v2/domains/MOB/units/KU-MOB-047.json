@@ -1,0 +1,84 @@
+{
+  "id": "KU-MOB-047",
+  "domain": "MOB",
+  "subtopic": "大眾運輸服務圈",
+  "type": "critique",
+  "title_zh": "大眾運輸服務圈：批評與適用限制",
+  "title_en": "Transit service areas: Critique and boundary",
+  "summary_zh": "固定距離圈方便溝通但可能錯估河流、坡度、穿越障礙、轉乘和不同群體的可接受距離。另一個需要同時檢查的面向是服務圈是依步行或自行車網路、站點服務和使用者條件描繪的可達範圍，不等於以站點為圓心的固定半徑。替代做法可以是以路網服務圈作初篩，再用當地旅運資料校正不同模式與乘客群。",
+  "key_points_zh": [
+    "批評焦點：服務圈是依步行或自行車網路、站點服務和使用者條件描繪的可達範圍，不等於以站點為圓心的固定半徑",
+    "批評焦點：固定距離圈方便溝通但可能錯估河流、坡度、穿越障礙、轉乘和不同群體的可接受距離"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "大眾運輸服務圈：批評與適用限制｜可及性評估需要同時交代交通、土地使用與個人條件；同一距離圈不代表同樣機會",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "GEURS04",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "大眾運輸服務圈：批評與適用限制｜交通節點能力與站區場所活動應並列比較；靠近車站不等於站區用途已適配",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "BERTOLINI99",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "把「固定距離圈方便溝通但可能錯估河流、坡度、穿越障礙、轉乘和不同群體的可接受距離」轉成一項可觀察的風險，並在替代方案中檢查「服務圈是依步行或自行車網路、站點服務和使用者條件描繪的可達範圍，不等於以站點為圓心的固定半徑」是否改變其影響。"
+  ],
+  "applies_when_zh": "若大眾運輸服務圈方案可能受「固定距離圈方便溝通但可能錯估河流、坡度、穿越障礙、轉乘和不同群體的可接受距離」影響，可用「服務圈是依步行或自行車網路、站點服務和使用者條件描繪的可達範圍，不等於以站點為圓心的固定半徑」安排實地觀察或替代方案比較。",
+  "not_applicable_when_zh": "這項批評提出的是「固定距離圈方便溝通但可能錯估河流、坡度、穿越障礙、轉乘和不同群體的可接受距離」的風險，不能據此推定所有替代方案都更好，也不能代替本地使用者測試。",
+  "debates_zh": "固定距離圈方便溝通但可能錯估河流、坡度、穿越障礙、轉乘和不同群體的可接受距離；檢視「大眾運輸服務圈：批評與適用限制」的反例檢查時，還需判斷「固定距離圈方便溝通但可能錯估河流、坡度、穿越障礙、轉乘和不同群體的可接受距離」會如何改變方案結論。",
+  "sources": [
+    {
+      "library_id": "GEURS04",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "BERTOLINI99",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "交通可及性與服務範圍",
+  "region": "跨地域理論或實務脈絡；來源地區依引用條目判讀",
+  "curriculum_refs": [
+    {
+      "school": "UCL Bartlett",
+      "course": "Sustainable Futures by Design",
+      "topic": "大眾運輸服務圈：課綱對應主題"
+    },
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "大眾運輸服務圈：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-MOB-041",
+    "KU-MOB-042",
+    "KU-MOB-043",
+    "KU-MOB-044",
+    "KU-MOB-045",
+    "KU-MOB-046",
+    "KU-MOB-048"
+  ],
+  "counter_unit_ids": [
+    "KU-MOB-041",
+    "KU-MOB-042"
+  ]
+}

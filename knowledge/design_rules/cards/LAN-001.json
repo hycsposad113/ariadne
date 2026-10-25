@@ -1,0 +1,136 @@
+{
+  "id": "LAN-001",
+  "title_zh": "Keilekwartier 指示比例",
+  "title_en": "Indicative use mix",
+  "domain": "land_use",
+  "stages": [
+    "S2",
+    "S3",
+    "S6",
+    "S7"
+  ],
+  "statement_zh": "把製造 30–40%、辦公 10–20%、住宅 30–50%、設施 10% 作 portfolio 候選；先定義同一分母並選總和 100% 的組合，不將範圍全部上限相加。",
+  "rationale_zh": "港區混合要兼顧生產、居住與日常服務。",
+  "applies_when": {
+    "scale": [
+      "*"
+    ],
+    "land_use": [
+      "*"
+    ],
+    "strategy": [
+      "*"
+    ],
+    "mode": [
+      "*"
+    ]
+  },
+  "parameters": [
+    {
+      "name": "manufacturing_share",
+      "value": null,
+      "range": [
+        30,
+        40
+      ],
+      "unit": "%",
+      "provenance": "ASSUMED_COMMANDER",
+      "source_ids": [],
+      "status": "PROPOSED_PENDING_FOUNDER",
+      "rationale_zh": "可調試算值，沒有普適證據；需 Founder 確認並做敏感性比較。 原數字保留；來源是作品集轉述或專案假設，未經公開書目佐證，不視為研究或實測。",
+      "authority_ref": null
+    },
+    {
+      "name": "office_share",
+      "value": null,
+      "range": [
+        10,
+        20
+      ],
+      "unit": "%",
+      "provenance": "ASSUMED_COMMANDER",
+      "source_ids": [],
+      "status": "PROPOSED_PENDING_FOUNDER",
+      "rationale_zh": "可調試算值，沒有普適證據；需 Founder 確認並做敏感性比較。 原數字保留；來源是作品集轉述或專案假設，未經公開書目佐證，不視為研究或實測。",
+      "authority_ref": null
+    },
+    {
+      "name": "housing_share",
+      "value": null,
+      "range": [
+        30,
+        50
+      ],
+      "unit": "%",
+      "provenance": "ASSUMED_COMMANDER",
+      "source_ids": [],
+      "status": "PROPOSED_PENDING_FOUNDER",
+      "rationale_zh": "可調試算值，沒有普適證據；需 Founder 確認並做敏感性比較。 原數字保留；來源是作品集轉述或專案假設，未經公開書目佐證，不視為研究或實測。",
+      "authority_ref": null
+    },
+    {
+      "name": "facilities_share",
+      "value": 10,
+      "range": null,
+      "unit": "%",
+      "provenance": "ASSUMED_COMMANDER",
+      "source_ids": [],
+      "status": "PROPOSED_PENDING_FOUNDER",
+      "rationale_zh": "可調試算值，沒有普適證據；需 Founder 確認並做敏感性比較。 原數字保留；來源是作品集轉述或專案假設，未經公開書目佐證，不視為研究或實測。",
+      "authority_ref": null
+    }
+  ],
+  "check": {
+    "method_zh": "固定用途 taxonomy、分母和版本，驗證各部分和及既有／新增；未確定分母不能執行。",
+    "inputs": [
+      "凍結幾何／路網與 hash",
+      "已接受專案條件與版本",
+      "卡片參數與版本"
+    ],
+    "output": "檢查值、單位、方法、有效性、差異與限制；不自動採納",
+    "implementation_status": "SPECIFICATION_ONLY"
+  },
+  "check_unavailable_reason_zh": null,
+  "design_responses": [
+    {
+      "option": "1",
+      "action_zh": "製造優先混合",
+      "source_ids": [
+        "JACOBS61"
+      ],
+      "tradeoff_zh": "住宅噪音隔離、租金壓力。 作品集提供設計意圖，學術引用僅為類似概念的佐證，未驗證作品集本身。"
+    },
+    {
+      "option": "2",
+      "action_zh": "公共設施優先的混合組合",
+      "source_ids": [
+        "FANSTEIN10"
+      ],
+      "tradeoff_zh": "資金與營運需要評估。 作品集提供設計意圖，學術引用僅為類似概念的佐證，未驗證作品集本身。"
+    }
+  ],
+  "evidence_level": "PORTFOLIO",
+  "evidence_strength": "NORMATIVE_PRACTICE",
+  "sources": [
+    {
+      "library_id": "JACOBS61",
+      "claim_id": "C1",
+      "support_scope_zh": "文獻支持概念與比較角度；本卡具體操作是設計推導，試算值及專案約束不是文獻的普適結論。"
+    },
+    {
+      "library_id": "FANSTEIN10",
+      "claim_id": "C1",
+      "support_scope_zh": "文獻支持概念與比較角度；本卡具體操作是設計推導，試算值及專案約束不是文獻的普適結論。"
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "enforcement": "CANDIDATE_ONLY",
+  "authority_ref": null,
+  "debates_zh": "這是作品集指示，非已查證政府管制；用途分類與 GFA／土地面積分母待確認。 已查證書目與主張的查閱層級見 library；不是逐頁核驗或本基地因果結論。",
+  "context_validity_zh": "鹿特丹作品集直接相關，但美國多樣性與公平研究不能證明當地比例。",
+  "exceptions_zh": "卡片不可替代現行法規、產權、無障礙或已接受 D1/D2。缺必要資料即回報 UNKNOWN；例外須由 Founder 明確決定並保留原結果。",
+  "version": "0.2.0",
+  "local_context_refs": [
+    "PORTFOLIO"
+  ]
+}

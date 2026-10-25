@@ -1,0 +1,42 @@
+{
+  "id": "SHANGHAI_HUANGPU_PLAN2030",
+  "title": "Shanghai outlines Huangpu River, Suzhou Creek waterfront plans through 2030",
+  "authors": [
+    "Shanghai Municipal People's Government"
+  ],
+  "year": 2026,
+  "venue_or_publisher": "Shanghai Municipal People's Government",
+  "doi": null,
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "OFFICIAL_CITY_POLICY_SUMMARY",
+  "tradition": "官方或專業機構公開頁面；直接來源核對",
+  "region": "中國上海黃浦江",
+  "method": "直接檢視官方或專業機構公開頁面；非獨立學術成效評估",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "市政府摘要列出 2026–2030 年黃浦江增加 100 公頃濱水綠地與公共空間、在中心城區建設 9 公里高標準岸段的規劃目標。",
+      "strength": "CASE_EVIDENCE",
+      "scope_zh": "數值屬計畫目標，不是完工統計或已觀察的公共空間效果。",
+      "assessment_basis": "DIRECT_SOURCE_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Official webpage or public report (direct review)",
+    "query": {
+      "title": "Shanghai outlines Huangpu River, Suzhou Creek waterfront plans through 2030",
+      "author": "Shanghai Municipal People's Government",
+      "year": 2026,
+      "api_query": "Read-only page reviewed directly: https://english.shanghai.gov.cn/en-Policies/20260828/97ac46b036be4315a77596b44faa0a77.html"
+    },
+    "matched_record_id": "https://english.shanghai.gov.cn/en-Policies/20260828/97ac46b036be4315a77596b44faa0a77.html",
+    "checked_at_utc": "2026-10-08T14:27:24Z",
+    "match_notes_zh": "直接核對機構公開頁面或報告；此狀態不是 Crossref 書目驗證。"
+  },
+  "limitations_zh": "數值屬計畫目標，不是完工統計或已觀察的公共空間效果。",
+  "critique_relationship_zh": "本記錄不宣稱與其他書目存在直接互引或逐一反駁關係。",
+  "metadata_licence_zh": "官方或機構公開資料；個別文本的再利用授權未核驗。"
+}

@@ -1,0 +1,152 @@
+{
+  "domain": "ARC",
+  "coverage_version": "kb2-arc-draft-2026-10-08",
+  "unit_count": 89,
+  "value_range_count": 62,
+  "topics": [
+    {
+      "subtopic": "住宅單元與類型",
+      "unit_count": 26,
+      "unit_ids": [
+        "KU-ARC-001",
+        "KU-ARC-002",
+        "KU-ARC-003",
+        "KU-ARC-004",
+        "KU-ARC-005",
+        "KU-ARC-006",
+        "KU-ARC-007",
+        "KU-ARC-008",
+        "KU-ARC-009",
+        "KU-ARC-010",
+        "KU-ARC-011",
+        "KU-ARC-012",
+        "KU-ARC-013",
+        "KU-ARC-014",
+        "KU-ARC-015",
+        "KU-ARC-016",
+        "KU-ARC-017",
+        "KU-ARC-018",
+        "KU-ARC-019",
+        "KU-ARC-020",
+        "KU-ARC-021",
+        "KU-ARC-022",
+        "KU-ARC-023",
+        "KU-ARC-024",
+        "KU-ARC-025",
+        "KU-ARC-026"
+      ]
+    },
+    {
+      "subtopic": "用途建築",
+      "unit_count": 15,
+      "unit_ids": [
+        "KU-ARC-027",
+        "KU-ARC-028",
+        "KU-ARC-029",
+        "KU-ARC-030",
+        "KU-ARC-031",
+        "KU-ARC-032",
+        "KU-ARC-033",
+        "KU-ARC-034",
+        "KU-ARC-035",
+        "KU-ARC-036",
+        "KU-ARC-037",
+        "KU-ARC-038",
+        "KU-ARC-039",
+        "KU-ARC-040",
+        "KU-ARC-041"
+      ]
+    },
+    {
+      "subtopic": "樓層高度",
+      "unit_count": 7,
+      "unit_ids": [
+        "KU-ARC-042",
+        "KU-ARC-043",
+        "KU-ARC-044",
+        "KU-ARC-045",
+        "KU-ARC-046",
+        "KU-ARC-047",
+        "KU-ARC-048"
+      ]
+    },
+    {
+      "subtopic": "街廓與建築",
+      "unit_count": 11,
+      "unit_ids": [
+        "KU-ARC-049",
+        "KU-ARC-050",
+        "KU-ARC-051",
+        "KU-ARC-052",
+        "KU-ARC-053",
+        "KU-ARC-054",
+        "KU-ARC-055",
+        "KU-ARC-056",
+        "KU-ARC-057",
+        "KU-ARC-058",
+        "KU-ARC-059"
+      ]
+    },
+    {
+      "subtopic": "停車與自行車",
+      "unit_count": 7,
+      "unit_ids": [
+        "KU-ARC-060",
+        "KU-ARC-061",
+        "KU-ARC-062",
+        "KU-ARC-063",
+        "KU-ARC-064",
+        "KU-ARC-065",
+        "KU-ARC-066"
+      ]
+    },
+    {
+      "subtopic": "荷蘭 Bbl",
+      "unit_count": 9,
+      "unit_ids": [
+        "KU-ARC-067",
+        "KU-ARC-068",
+        "KU-ARC-069",
+        "KU-ARC-070",
+        "KU-ARC-071",
+        "KU-ARC-072",
+        "KU-ARC-073",
+        "KU-ARC-074",
+        "KU-ARC-075"
+      ]
+    },
+    {
+      "subtopic": "跨國住宅標準",
+      "unit_count": 4,
+      "unit_ids": [
+        "KU-ARC-076",
+        "KU-ARC-077",
+        "KU-ARC-078",
+        "KU-ARC-079"
+      ]
+    },
+    {
+      "subtopic": "經典設計知識",
+      "unit_count": 5,
+      "unit_ids": [
+        "KU-ARC-080",
+        "KU-ARC-081",
+        "KU-ARC-082",
+        "KU-ARC-083",
+        "KU-ARC-084"
+      ]
+    },
+    {
+      "subtopic": "常見錯誤與檢查",
+      "unit_count": 5,
+      "unit_ids": [
+        "KU-ARC-085",
+        "KU-ARC-086",
+        "KU-ARC-087",
+        "KU-ARC-088",
+        "KU-ARC-089"
+      ]
+    }
+  ],
+  "notes_zh": "主題數按內容份量分配；數值範圍依每筆 claim_verification 標明核對狀態。"
+}

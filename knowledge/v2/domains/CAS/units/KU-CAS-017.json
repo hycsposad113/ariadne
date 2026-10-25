@@ -1,0 +1,110 @@
+{
+  "id": "KU-CAS-017",
+  "domain": "CAS",
+  "subtopic": "工業遺產與再利用案例",
+  "type": "case",
+  "title_zh": "Pittsburgh South Side Works：鋼鐵棕地的混合用途與公共規劃",
+  "title_en": "Pittsburgh South Side Works: Mixed-Use Redevelopment of a Steel Brownfield",
+  "summary_zh": "South Side Works 位於匹茲堡 Monongahela 河岸的前鋼鐵工業用地；市府資料將土地取得、社區參與和混合用途規劃列為轉型過程。城市規劃文本描述住宅、辦公、零售、娛樂、倉儲及輕工業等用途，並將跨河連接和就業機會列為目標。Li 與 Yang 的文章以匹茲堡棕地公私協力為研究範圍，但書目資料沒有證明 South Side Works 是否為其具體樣本，因此本案的場址細節仍以市府規劃文件為主。",
+  "key_points_zh": [
+    "棕地清理、土地收購、社區工作坊及交通模式需分別追蹤。",
+    "城市發展目標提出就業與市場驅動投資，但這些目標不是已實現的成果數據。"
+  ],
+  "evidence": {
+    "strength": "CASE_EVIDENCE",
+    "findings": [
+      {
+        "claim_zh": "匹茲堡市的初步開發計畫記錄 South Side Works 規劃始於 1992 年場址研究，並由 URA 後續取得土地及與社區共同制定框架。",
+        "effect_or_value": "官方規劃程序與參與資料",
+        "study_design": "市府土地開發計畫",
+        "context_region": "美國賓夕法尼亞州 Pittsburgh",
+        "library_id": "PITTSBURGH_SOUTH_SIDE_WORKS_PLAN2026",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "Li 與 Yang 的文章以匹茲堡住宅棕地再開發中的公私協力為主題；其摘要與全文範圍尚未核實是否包含本案。",
+        "effect_or_value": "匹茲堡棕地公私協力的學術研究範圍",
+        "study_design": "案例研究；具體場址待核",
+        "context_region": "美國賓夕法尼亞州 Pittsburgh",
+        "library_id": "LI_YANG2016",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "匹茲堡市 2006 年財務報告指出，市府經 Urban Redevelopment Authority 取得約 130 英畝的前 LTV South Side Works 場址。",
+        "effect_or_value": "約 130 英畝的官方場址描述",
+        "study_design": "市府年度財務報告",
+        "context_region": "美國賓夕法尼亞州 Pittsburgh",
+        "library_id": "PITTSBURGH_SSW_ACFR2006",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "把污染調查、土地收購、基礎設施投入、社區工作坊和開發商承諾整合成可追溯的階段表。",
+    "對市場驅動的商業與住宅開發檢查公共交通、步行橋梁與河岸公園是否能連接周邊既有街區。"
+  ],
+  "applies_when_zh": "鋼鐵或重工業停產地需進行棕地再開發，且由公共機構整備後引入混合用途投資時。",
+  "not_applicable_when_zh": "場址污染與產權問題已解決，或只有單一建築用途改造而不涉及街區規劃時。",
+  "debates_zh": "市府規劃把市場投資、就業和社區利益並列為目標，但公開計畫書不能證明各群體實際取得相同收益。場址文件也需要與清理責任、租金變化、工作品質和河岸公共性等建成後指標對讀。",
+  "sources": [
+    {
+      "library_id": "PITTSBURGH_SOUTH_SIDE_WORKS_PLAN2026",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "PITTSBURGH_SSW_ACFR2006",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "LI_YANG2016",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "美國棕地開發與公私協力規劃",
+  "region": "北美／美國匹茲堡",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": null,
+      "topic": "工業棕地轉型與用途混合"
+    },
+    {
+      "school": "MIT",
+      "course": null,
+      "topic": "公私協力、城市土地與就業"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": null,
+      "topic": "社區參與與環境正義"
+    }
+  ],
+  "case": {
+    "location": "匹茲堡 South Side，賓夕法尼亞州，美國",
+    "period": "前鋼鐵廠土地於 1990 年代初進入規劃和收購；後續分期開發",
+    "area_ha": 52.6,
+    "fsi": null,
+    "gsi": null,
+    "program_mix": "住宅、辦公、倉儲、餐飲、零售、娛樂、輕工業與高科技用途；規劃文件未在本條目中統一比例。",
+    "key_strategies_zh": [
+      "由城市與 Urban Redevelopment Authority 整備前鋼鐵棕地，再以特別規劃區安排多種用途。",
+      "透過公共工作坊、設計指引與跨河橋梁接入鄰近技術及商業區。"
+    ],
+    "outcomes_zh": [
+      "市府 1998 年計畫記錄場址約 130 英畝，並列出住宅、商業、娛樂和輕工業等規劃用途。",
+      "文件列出的社區參與和就業目標屬規劃流程及政策意圖，不能直接視為完工成效。"
+    ],
+    "critiques_zh": [
+      "Li 與 Yang 的書目主題雖涉及 Pittsburgh 棕地公私協力，尚未證明研究樣本含此場址。",
+      "官方計畫缺少居民收入、環境暴露、薪資品質及租金變化等長期成效資料。"
+    ]
+  },
+  "version": "v2.0"
+}

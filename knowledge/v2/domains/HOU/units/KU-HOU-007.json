@@ -1,0 +1,98 @@
+{
+  "id": "KU-HOU-007",
+  "domain": "HOU",
+  "subtopic": "住宅類型",
+  "type": "empirical_finding",
+  "title_zh": "斯德哥爾摩學生住宅滿意度與設施條件相關",
+  "title_en": "Student housing satisfaction",
+  "summary_zh": "學生住宅與其他家庭住宅不同，結果不能直接外推到所有住戶。 用戶型、衛生和交通服務而非建築形象解釋滿意度。 研究設計：隨機抽樣問卷、迴歸、t 檢定和變異數分析；地區：斯德哥爾摩，瑞典。",
+  "key_points_zh": [
+    "斯德哥爾摩問卷研究中，廚房、清潔和大眾運輸可及性是較強滿意度預測因子，studio 住戶較走廊房住戶滿意。",
+    "研究設計：隨機抽樣問卷、迴歸、t 檢定和變異數分析；地區：斯德哥爾摩，瑞典",
+    "限制：學生住宅與其他家庭住宅不同，結果不能直接外推到所有住戶。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "斯德哥爾摩問卷研究中，廚房、清潔和大眾運輸可及性是較強滿意度預測因子，studio 住戶較走廊房住戶滿意。",
+        "effect_or_value": "住戶整體滿意；三項較強預測指標；studio 高於 corridor-room",
+        "study_design": "隨機抽樣問卷、迴歸、t 檢定和變異數分析",
+        "context_region": "斯德哥爾摩，瑞典",
+        "library_id": "GONG2023",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "用戶型、衛生和交通服務而非建築形象解釋滿意度。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "用戶型、衛生和交通服務而非建築形象解釋滿意度。",
+      "tradeoff_zh": "可回應研究指出的條件，但需要本地測量與實施成本評估。",
+      "library_ids": [
+        "GONG2023",
+        "KROPF2017"
+      ]
+    },
+    {
+      "option_zh": "在「斯德哥爾摩學生住宅滿意度與設施條件相關」的來源情境裡，高層、連棟、集合式住宅和共居住宅各有不同支援與管理需求；落到設計時還要按斯德哥爾摩問卷研究中，廚房、清潔和大眾運輸可及性是較強滿意度預測因子，studio 住戶較走廊房住戶滿意調整。",
+      "tradeoff_zh": "保留其他空間策略，但可能降低該研究所見的某項關聯。",
+      "library_ids": [
+        "GONG2023",
+        "KROPF2017"
+      ]
+    }
+  ],
+  "applies_when_zh": "用於與斯德哥爾摩，瑞典研究情境可比、且量測定義相近的分析。",
+  "not_applicable_when_zh": "學生住宅與其他家庭住宅不同，結果不能直接外推到所有住戶。",
+  "debates_zh": "學生住宅與其他家庭住宅不同，結果不能直接外推到所有住戶。",
+  "sources": [
+    {
+      "library_id": "GONG2023",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "KROPF2017",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "瑞典學生住宅與居住滿意；城市形態學",
+  "region": "斯德哥爾摩，瑞典；跨地域形態學",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "住宅類型"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "住宅類型"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "住宅類型"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "住宅類型"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-HOU-001",
+    "KU-HOU-002",
+    "KU-HOU-003"
+  ],
+  "counter_unit_ids": [
+    "KU-HOU-005"
+  ]
+}

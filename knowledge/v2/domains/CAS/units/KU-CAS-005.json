@@ -1,0 +1,95 @@
+{
+  "id": "KU-CAS-005",
+  "domain": "CAS",
+  "subtopic": "港區轉型案例",
+  "type": "case",
+  "title_zh": "Buiksloterham：循環經濟目標如何進入區域規劃",
+  "title_en": "Buiksloterham: Translating Circular Economy Aims into District Planning",
+  "summary_zh": "阿姆斯特丹Buiksloterham以循環經濟和自我建造等方向，討論棕地如何分階段容納居住與工作。Hubmann、Lohse與Plenge把此區作為城市規劃視角的研究案例，提供了比一般建案介紹更具體的規劃切入點。循環目標需要用材料流、建築使用、土地治理和實際社會結果追蹤，不能單靠願景標語判定完成。",
+  "key_points_zh": [
+    "把循環策略轉成可查的材料、能源、土地和治理指標。",
+    "自我建造的參與程度與其社會可負擔性需分開評估。"
+  ],
+  "evidence": {
+    "strength": "CASE_EVIDENCE",
+    "findings": [
+      {
+        "claim_zh": "學術章節以Buiksloterham為案例，討論城市規劃如何面對循環性與區域再生。",
+        "effect_or_value": "規劃案例研究；詳情以全文為準",
+        "study_design": "規劃案例研究；詳情以全文為準",
+        "context_region": "荷蘭阿姆斯特丹",
+        "library_id": "HUBMANN2022",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "官方地區資料可核對城市更新地界和規劃用途；本單元暫未填入未能同口徑驗證的面積或密度。",
+        "effect_or_value": "官方規劃資料；地界及用途",
+        "study_design": "官方規劃資料；地界及用途",
+        "context_region": "荷蘭阿姆斯特丹",
+        "library_id": "AMSTERDAM_BUIKSLOTERHAM2026",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "把循環策略按設計、建造、使用和維護階段分開，並標出負責資料的機構。"
+  ],
+  "applies_when_zh": "將循環經濟、低碳建築和住宅混合納入工業棕地再開發時。",
+  "not_applicable_when_zh": "需要證明建築材料實際回收量，而缺少專案採購或竣工資料時。",
+  "debates_zh": "循環規劃語言可能先於可驗證的材料與治理結果；自我建造也可能把成本和風險移交給有資源的住戶。",
+  "sources": [
+    {
+      "library_id": "HUBMANN2022",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "AMSTERDAM_BUIKSLOTERHAM2026",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "循環城市規劃與棕地漸進式開發",
+  "region": "西歐／荷蘭阿姆斯特丹",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": null,
+      "topic": "循環城市與棕地更新"
+    },
+    {
+      "school": "MIT",
+      "course": null,
+      "topic": "都市代謝和土地治理"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": null,
+      "topic": "漸進式規劃與自我建造"
+    }
+  ],
+  "case": {
+    "location": "阿姆斯特丹北部，荷蘭",
+    "period": "2000年代後的棕地轉型與分期建設",
+    "area_ha": null,
+    "fsi": null,
+    "gsi": null,
+    "program_mix": "居住、創業與工作空間、工坊及循環經濟相關用途；準確比例未核實。",
+    "key_strategies_zh": [
+      "在規劃階段以循環城市框架協調不同用途和材料策略。",
+      "容許漸進式建造和多元行動者參與，但需交代其治理條件。"
+    ],
+    "outcomes_zh": [
+      "學術章節將區域規劃與循環經濟並置，適合用來檢查目標如何被轉譯。",
+      "目前引用資料不足以量化材料循環率、住房負擔或產業留存。"
+    ],
+    "critiques_zh": [
+      "若沒有建成後資料，政策目標不能當作已達成的循環績效。",
+      "需檢查地價、資本門檻與許可流程是否讓較弱勢的工作者退出。"
+    ]
+  },
+  "version": "v2.0"
+}

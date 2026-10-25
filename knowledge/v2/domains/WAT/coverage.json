@@ -1,0 +1,134 @@
+{
+  "domain": "WAT",
+  "total_units": 75,
+  "topics": [
+    {
+      "topic": "水敏感都市設計（WSUD）",
+      "unit_ids": [
+        "KU-WAT-001",
+        "KU-WAT-008",
+        "KU-WAT-009",
+        "KU-WAT-010",
+        "KU-WAT-011",
+        "KU-WAT-012",
+        "KU-WAT-013",
+        "KU-WAT-046",
+        "KU-WAT-048",
+        "KU-WAT-063",
+        "KU-WAT-064",
+        "KU-WAT-070"
+      ],
+      "unit_count": 12,
+      "coverage_status": "COVERED"
+    },
+    {
+      "topic": "海綿城市",
+      "unit_ids": [
+        "KU-WAT-006",
+        "KU-WAT-014",
+        "KU-WAT-015",
+        "KU-WAT-016",
+        "KU-WAT-017",
+        "KU-WAT-044",
+        "KU-WAT-045",
+        "KU-WAT-053",
+        "KU-WAT-068"
+      ],
+      "unit_count": 9,
+      "coverage_status": "COVERED"
+    },
+    {
+      "topic": "鹿特丹水廣場（如 Benthemplein）",
+      "unit_ids": [
+        "KU-WAT-018",
+        "KU-WAT-019",
+        "KU-WAT-020",
+        "KU-WAT-050",
+        "KU-WAT-060"
+      ],
+      "unit_count": 5,
+      "coverage_status": "COVERED"
+    },
+    {
+      "topic": "洪水風險與多層安全",
+      "unit_ids": [
+        "KU-WAT-002",
+        "KU-WAT-003",
+        "KU-WAT-007",
+        "KU-WAT-021",
+        "KU-WAT-022",
+        "KU-WAT-023",
+        "KU-WAT-024",
+        "KU-WAT-025",
+        "KU-WAT-026",
+        "KU-WAT-027",
+        "KU-WAT-033",
+        "KU-WAT-034",
+        "KU-WAT-035",
+        "KU-WAT-047",
+        "KU-WAT-056",
+        "KU-WAT-057",
+        "KU-WAT-061",
+        "KU-WAT-066",
+        "KU-WAT-074"
+      ],
+      "unit_count": 19,
+      "coverage_status": "COVERED"
+    },
+    {
+      "topic": "潮汐與河口地景",
+      "unit_ids": [
+        "KU-WAT-004",
+        "KU-WAT-029",
+        "KU-WAT-030",
+        "KU-WAT-031",
+        "KU-WAT-032",
+        "KU-WAT-058",
+        "KU-WAT-062",
+        "KU-WAT-069"
+      ],
+      "unit_count": 8,
+      "coverage_status": "COVERED"
+    },
+    {
+      "topic": "雨水滯留量的設計值",
+      "unit_ids": [
+        "KU-WAT-041",
+        "KU-WAT-042",
+        "KU-WAT-043",
+        "KU-WAT-051",
+        "KU-WAT-052",
+        "KU-WAT-054",
+        "KU-WAT-055",
+        "KU-WAT-059",
+        "KU-WAT-067",
+        "KU-WAT-071",
+        "KU-WAT-072",
+        "KU-WAT-073",
+        "KU-WAT-075"
+      ],
+      "unit_count": 13,
+      "coverage_status": "COVERED"
+    },
+    {
+      "topic": "韌性理論與批評",
+      "unit_ids": [
+        "KU-WAT-005",
+        "KU-WAT-028",
+        "KU-WAT-036",
+        "KU-WAT-037",
+        "KU-WAT-038",
+        "KU-WAT-039",
+        "KU-WAT-040",
+        "KU-WAT-049",
+        "KU-WAT-065"
+      ],
+      "unit_count": 9,
+      "coverage_status": "COVERED"
+    }
+  ],
+  "notes": [
+    "WAT 共 75 個單元，其中 17 個具值域；地方數值為跨地區例子，非 M4H 法規。",
+    "2026-10-08：地方降雨、wadi、蓄水基層、水廣場和多層安全數值附來源；M4H 潮差仍需指定測站與垂直基準。"
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "id": "KU-LUP-512",
+  "domain": "LUP",
+  "subtopic": "生產性城市與 maker 經濟",
+  "type": "regulation_profile",
+  "title_zh": "鹿特丹M4H空間框架與Keilekwartier區域願景",
+  "title_en": "Rotterdam M4H spatial framework and Keilekwartier area ambition",
+  "summary_zh": "鹿特丹市府稱M4H的2019 Ruimtelijk Raamwerk為後續Merwehaven Masterplan的空間框架，方向是讓居住、工作與服務共存；市府規劃也提出分隔主要住宅與企業交通。 Merwehaven文件把公共綠地、水岸停留空間和不同價位住宅納入分期發展脈絡。 市議會官方紀錄確認Keilekwartier區域願景文件於2026年2月26日作成決定，但11MB附件在本次官方入口抓取失敗，因此不宣稱掌握其中的空間承諾。 這些是鹿特丹地區規劃文件，不是M4H本基地法規；設計上可比較工作與居住共存、物流交通分流和水岸公共空間安排，並待讀取附件後補全Keile細節。",
+  "key_points_zh": [
+    "2019 Ruimtelijk Raamwerk M4H是後續Merwehaven Masterplan的空間框架。",
+    "市府公開頁描述M4H居住、工作、服務、文化與活動混合方向，並提出分隔主要住宅與企業交通。",
+    "Merwehaven規劃納入公共綠地、水岸停留空間及不同價位住宅，依階段推進。",
+    "Keilekwartier區域願景於2026-02-26有市議會決定紀錄；附件細節未取得，尚未摘錄。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "市府稱Merwehaven Masterplan延續2019 M4H空間框架，並描述居住、工作、服務及公共空間方向。",
+        "effect_or_value": null,
+        "study_design": "法規／官方政策或實務指引內容核對",
+        "context_region": "荷蘭鹿特丹M4H",
+        "library_id": "M4H_MERWEHAVEN",
+        "locator": "Merwehaven及2019 Ruimtelijk Raamwerk脈絡",
+        "claim_verification": "OFFICIAL_PRIMARY_SOURCE_REVIEW"
+      },
+      {
+        "claim_zh": "市府規劃頁說明M4H的混合用途及依2019框架分隔主要居住與企業交通。",
+        "effect_or_value": null,
+        "study_design": "法規／官方政策或實務指引內容核對",
+        "context_region": "荷蘭鹿特丹M4H",
+        "library_id": "M4H_BEGROTING2027",
+        "locator": "M4H用途混合與住宅／企業交通安排",
+        "claim_verification": "OFFICIAL_PRIMARY_SOURCE_REVIEW"
+      },
+      {
+        "claim_zh": "市議會公開記錄顯示Keilekwartier區域願景決定日期為2026-02-26；附件本次未能擷取。",
+        "effect_or_value": null,
+        "study_design": "法規／官方政策或實務指引內容核對",
+        "context_region": "荷蘭鹿特丹M4H",
+        "library_id": "KEILE_DECISION",
+        "locator": "Keilekwartier市議會決定紀錄，僅支持文件與日期",
+        "claim_verification": "OFFICIAL_PRIMARY_SOURCE_REVIEW"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "在M4H類型比較中同時檢查生產活動相容性、企業物流與住宅步行／自行車路線的分隔。",
+    "將水岸公共空間與服務設施納入規劃框架；Keilekwartier的具體方案應在讀取市議會附件後補核。"
+  ],
+  "applies_when_zh": "用於比較M4H公開空間框架、Merwehaven分期與Keilekwartier決策文件的規劃脈絡。",
+  "not_applicable_when_zh": "不能把區域願景或其他分區的設計方向視為本基地已核准的建築量、功能或交通規範。",
+  "debates_zh": "Keilekwartier決定頁可核實文件與決定日期，但附件未能讀取；任何其空間細節都仍是待查。",
+  "sources": [
+    {
+      "library_id": "M4H_MERWEHAVEN",
+      "claim_id": "C1",
+      "locator": "Merwehaven及2019 Ruimtelijk Raamwerk脈絡"
+    },
+    {
+      "library_id": "M4H_BEGROTING2027",
+      "claim_id": "C1",
+      "locator": "M4H用途混合與住宅／企業交通安排"
+    },
+    {
+      "library_id": "KEILE_DECISION",
+      "claim_id": "C1",
+      "locator": "Keilekwartier市議會決定紀錄，僅支持文件與日期"
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+  "tradition": "M4H生產性城市與地區規劃框架",
+  "region": "荷蘭鹿特丹M4H",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "topic": "生產性城市與 maker 經濟"
+    },
+    {
+      "school": "Harvard GSD",
+      "topic": "生產性城市與 maker 經濟"
+    },
+    {
+      "school": "MIT",
+      "topic": "生產性城市與 maker 經濟"
+    },
+    {
+      "school": "UCL Bartlett",
+      "topic": "生產性城市與 maker 經濟"
+    }
+  ],
+  "version": "kb2-policy-2026-10-08"
+}

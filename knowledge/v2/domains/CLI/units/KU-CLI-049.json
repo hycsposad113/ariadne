@@ -1,0 +1,74 @@
+{
+  "id": "KU-CLI-049",
+  "domain": "CLI",
+  "subtopic": "都市熱島",
+  "type": "empirical_finding",
+  "title_zh": "綠地冷卻研究的效果量受空間尺度影響",
+  "title_en": "綠地冷卻研究的效果量受空間尺度影響",
+  "summary_zh": "綠地降溫系統性回顧比較都市綠地與周邊建成區的觀測結果，指出空間尺度和研究設計會影響估計。研究支持綠地具冷卻作用的方向，但不同資料的溫度指標和比較邊界並不一致。Wuhan 淺街谷的現地研究也量測樹冠和熱舒適，研究地點與指標限制了跨城市外推。設計者應分開報告局部表面與空氣溫度結果。",
+  "key_points_zh": [
+    "研究設計為都市綠地冷卻的系統性回顧。",
+    "效果方向以綠地相對周邊較涼為主，範圍隨研究而變。"
+  ],
+  "evidence": {
+    "strength": "CASE_EVIDENCE",
+    "findings": [
+      {
+        "library_id": "BOWLER2010",
+        "claim_zh": "綠地降溫系統性回顧比較都市綠地與周邊建成區的觀測結果，指出空間尺度和研究設計會影響估計。",
+        "effect_or_value": "設計者應分開報告局部表面與空氣溫度結果。",
+        "study_design": "系統性回顧",
+        "context_region": "跨地域城鎮研究",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "library_id": "HUANG2020",
+        "claim_zh": "題名確認研究分析武漢淺街谷的樹冠覆蓋、微氣候與人體熱舒適；效果量尚未由摘要核對；本單元 KU-CLI-049 對照「綠地降溫系統性回顧比較都市綠地與周邊建成區的觀測結果，指出空間尺度和研究設計會影響估計」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": "KU-CLI-049 的效應量仍以其原列研究結果為準；HUANG2020 僅提供相鄰主題脈絡，未作量值來源。",
+        "study_design": "淺街谷樹冠覆蓋案例研究",
+        "context_region": "Wuhan, China",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "避免把公園內部溫度直接當街區降溫幅度。",
+    "用同一氣象時段和匹配參照區做比較。"
+  ],
+  "applies_when_zh": "適用於公園和街道綠化的熱效益評估。",
+  "not_applicable_when_zh": "不適用於把回顧平均值直接轉作新案的性能承諾。",
+  "debates_zh": "綠地的冷卻外溢可能集中在邊緣，平均值會隱藏位置差異。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "BOWLER2010",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "HUANG2020",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "綠地與城市熱環境實證",
+  "region": "跨地域城鎮研究；跨地域城市",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "都市熱島"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": null,
+      "topic": "都市熱島"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0"
+}

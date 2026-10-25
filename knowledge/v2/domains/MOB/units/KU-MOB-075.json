@@ -1,0 +1,74 @@
+{
+  "id": "KU-MOB-075",
+  "domain": "MOB",
+  "subtopic": "荷蘭自行車設計原則（連貫、直接、安全、舒適、吸引）",
+  "type": "design_principle",
+  "title_zh": "CROW 自行車網路的五項品質要求",
+  "title_en": "CROW’s five bicycle network quality requirements",
+  "summary_zh": "CROW 的自行車設計框架以五項品質檢視網路：連貫、直接、安全、舒適和吸引。這些要求適用於路線全程，也包括交叉口、轉乘和目的地最後一段。它們是互補的設計檢核維度，不是五個可直接相加的成效分數。",
+  "key_points_zh": [
+    "連貫、直接、安全、舒適、吸引構成五項互補要求。",
+    "網路品質要沿路線、路口和目的地接駁一起看。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "CROW 自行車設計手冊列出自行車網路的五項品質要求：連貫性、直接性、安全性、舒適性、吸引力。",
+        "library_id": "CROW",
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+        "effect_or_value": null,
+        "study_design": "荷蘭自行車設計手冊",
+        "context_region": "荷蘭",
+        "locator": null
+      },
+      {
+        "claim_zh": "跨國研究將高自行車使用連結到基礎設施、停車、公共運輸和汽車管理的政策組合。",
+        "library_id": "PUCHER08",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "跨國政策比較",
+        "context_region": "荷蘭、丹麥、德國與北美",
+        "locator": null
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "先用五項要求盤點缺口，再明列哪些改善取捨會影響安全、行程時間或舒適度。"
+  ],
+  "applies_when_zh": "檢查自行車網路在路段、交叉口和目的地接駁上的品質缺口時使用。",
+  "not_applicable_when_zh": "此框架不是單一斷面尺寸，也不會自行決定本地自行車設施的法定寬度。",
+  "debates_zh": "更直接的路線可能增加與車流交叉；舒適度改善也可能需要更多空間，五項要求需由設計者權衡。",
+  "sources": [
+    {
+      "library_id": "CROW",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "PUCHER08",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "自行車比較政策",
+  "region": "自行車網路設計與政策",
+  "curriculum_refs": [
+    {
+      "school": "Harvard GSD",
+      "course": "Urban Design Contexts and Operations",
+      "topic": "荷蘭自行車設計原則（連貫、直接、安全、舒適、吸引）：課綱對應主題"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "荷蘭自行車設計原則（連貫、直接、安全、舒適、吸引）：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-MOB-020"
+  ]
+}

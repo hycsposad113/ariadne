@@ -1,0 +1,74 @@
+{
+  "id": "KU-CLI-052",
+  "domain": "CLI",
+  "subtopic": "風舒適度準則（如 Lawson）",
+  "type": "empirical_finding",
+  "title_zh": "行人風模擬需配合區域風向和街道用途",
+  "title_en": "行人風模擬需配合區域風向和街道用途",
+  "summary_zh": "建築風環境研究使用風洞和 CFD 評估行人位置的風速與湍流，但結論依來風方向和周邊形態而變。香港高密度通風研究把街區布局連到局部風場，都市風方法回顧指出模擬需要驗證。單一主風向不足以描述全年使用情況。",
+  "key_points_zh": [
+    "研究設計可包含風洞、CFD 或現地比對。",
+    "風速分布的方向性會隨建築孔隙和周邊高度改變。"
+  ],
+  "evidence": {
+    "strength": "CASE_EVIDENCE",
+    "findings": [
+      {
+        "library_id": "NG09",
+        "claim_zh": "建築風環境研究使用風洞和 CFD 評估行人位置的風速與湍流，但結論依來風方向和周邊形態而變。",
+        "effect_or_value": "單一主風向不足以描述全年使用情況。",
+        "study_design": "香港高密度通風研究",
+        "context_region": "Hong Kong",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "library_id": "STATHOPOULOS2006",
+        "claim_zh": "書目確認本文題名聚焦「Pedestrian level winds and outdoor human comfort」；目前只完成作者、年份、題名與 DOI 核對，未將摘要或全文結論納入此記錄；本單元 KU-CLI-052 對照「建築風環境研究使用風洞和 CFD 評估行人位置的風速與湍流，但結論依來風方向和周邊形態而變」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": "KU-CLI-052 的效應量仍以其原列研究結果為準；STATHOPOULOS2006 僅提供相鄰主題脈絡，未作量值來源。",
+        "study_design": "文獻回顧；目前僅核對書目範圍",
+        "context_region": "跨地域風工程",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "按季節風向和主要活動地點檢查風環境。",
+    "保留模型設定和校驗量測。"
+  ],
+  "applies_when_zh": "適用於街道和廣場的風場方案分析。",
+  "not_applicable_when_zh": "不適用於用一個年均風速代表所有行人活動。",
+  "debates_zh": "城市尺度風資料不足時，微尺度模擬可能建立在偏差邊界上。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "NG09",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "STATHOPOULOS2006",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "高密度行人風評估",
+  "region": "Hong Kong；Singapore",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "風舒適度準則（如 Lawson）"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": null,
+      "topic": "風舒適度準則（如 Lawson）"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0"
+}

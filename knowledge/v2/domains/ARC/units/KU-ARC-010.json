@@ -1,0 +1,103 @@
+{
+  "id": "KU-ARC-010",
+  "domain": "ARC",
+  "subtopic": "住宅單元與類型",
+  "type": "value_range",
+  "title_zh": "英格蘭住宅內建收納量",
+  "title_en": "built-in storage by dwelling capacity",
+  "summary_zh": "NDSS Table 1 將內建儲物由一房一人 1.0 m²，逐步提高到六房八人 4.0 m²。 表內收納面積包含固定設備的特定 allowance，並計入住宅 GIA。 方案比較時要分清衣櫃、雜物間與共用自行車室的口徑。",
+  "key_points_zh": [
+    "核心主張：NDSS Table 1 將內建儲物由一房一人 1.0 m²，逐步提高到六房八人 4.0 m²。",
+    "量測檢查：依 NDSS Table 1 對應床位讀取 storage 欄，核對其是否已計入 GIA。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "NDSS Table 1 將內建儲物由一房一人 1.0 m²，逐步提高到六房八人 4.0 m²。",
+        "effect_or_value": "1.0–4.0 m²，依 1b1p 至 6b8p 表列",
+        "study_design": "跨地域設計參照綜整；數值狀態依 claim_verification 註記",
+        "context_region": "England；內建收納",
+        "library_id": "UK_NDSS_2015",
+        "locator": "technical requirements paras 10–11; Table 1",
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "built-in storage area",
+      "range": "1.0–4.0 m²，依 1b1p 至 6b8p 表列",
+      "unit": "m²",
+      "context": "地區：England；用途：英格蘭新住宅；按臥室與床位表列；出處：Technical housing standards – nationally described space standard；本基地法規：否；核對狀態：官方頁面直接讀取。",
+      "library_id": "UK_NDSS_2015"
+    }
+  ],
+  "design_implications_zh": [
+    "以床位容量對照內建收納面積，另在圖上標註非住宅公用儲藏位置。"
+  ],
+  "applies_when_zh": "「英格蘭住宅內建收納量」可在用於方案前期的量體、平面或空間品質篩檢時使用，前提是NDSS Table 1 將內建儲物由一房一人 1.0 m²，逐步提高到六房八人 4.0 m²與來源情境相符。",
+  "not_applicable_when_zh": "若NDSS Table 1 將內建儲物由一房一人 1.0 m²，逐步提高到六房八人 4.0 m²不成立，就不能把「英格蘭住宅內建收納量」的結論延伸到其他情況；不得單獨作為許可、消防、結構或基地法規判定。",
+  "debates_zh": "收納數字不代表每個家庭都有相同物品量或需要相同的儲物形式。",
+  "sources": [
+    {
+      "library_id": "UK_NDSS_2015",
+      "claim_id": "C1",
+      "locator": "technical requirements paras 10–11; Table 1"
+    },
+    {
+      "library_id": "METRIC_HB08",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "MOHONGKONG2023",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "claim_verification": "ABSTRACT_REVIEW",
+  "tradition": "建築設計與住宅類型學",
+  "region": "England；內建收納",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Housing and the City / Design of the Urban Fabric",
+      "topic": "建築尺度與住宅平面"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "建築尺度與街道界面"
+    },
+    {
+      "school": "MIT",
+      "course": "Architecture and Urban Design",
+      "topic": "建築尺度與空間型態"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "建築尺度與公共生活"
+    }
+  ],
+  "check": {
+    "method_zh": "依 NDSS Table 1 對應床位讀取 storage 欄，核對其是否已計入 GIA。",
+    "inputs": [
+      "住宅單元與類型",
+      "尺寸／面積圖層",
+      "適用地區與用途標籤"
+    ],
+    "logic_zh": "將量測輸入轉成明確尺寸、比例或空間關係；越界只觸發複核，不自動取代設計決策。",
+    "limitations_zh": "量測結果只觸發「英格蘭住宅內建收納量」的複核，不得單獨作為許可或法規判定。"
+  },
+  "version": "kb2-arc-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-ARC-001",
+    "KU-ARC-002",
+    "KU-ARC-003",
+    "KU-ARC-004",
+    "KU-ARC-005"
+  ]
+}

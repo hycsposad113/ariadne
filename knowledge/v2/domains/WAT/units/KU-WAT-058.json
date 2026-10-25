@@ -1,0 +1,97 @@
+{
+  "id": "KU-WAT-058",
+  "domain": "WAT",
+  "subtopic": "潮汐與河口地景",
+  "type": "value_range",
+  "title_zh": "潮差範圍需使用當地潮位站紀錄",
+  "title_en": "潮差範圍需使用當地潮位站紀錄",
+  "summary_zh": "潮汐會在高潮與低潮間週期性往返，但相同天文週期不代表沿岸各地有相同的水位振幅。Rijkswaterstaat 說明荷蘭主要天文潮週期約 12 小時 25 分鐘，並提供按地點查詢的預測與基準面選項。這個週期數值不能替代 M4H 所需的局部潮差或設計高潮位。",
+  "key_points_zh": [
+    "潮差是指定站點和期間的水位統計。",
+    "風暴潮和天文潮汐需分開記錄再組合。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "library_id": "RWS_GETIJ",
+        "claim_zh": "Rijkswaterstaat 說明天文潮週期為 12 小時 25 分鐘，地點間高潮與低潮的垂直差異不同，預測圖可依地點與基準面查看天文潮資料。",
+        "claim_verification": "OFFICIAL_PRIMARY_SOURCE_REVIEW",
+        "effect_or_value": "12 小時 25 分鐘",
+        "study_design": "官方水位資訊說明",
+        "context_region": "荷蘭沿海與河口",
+        "locator": "Getij page, lines 142–157 and 170–196"
+      },
+      {
+        "library_id": "RIJKE2012",
+        "claim_zh": "書目確認本文題名聚焦「Room for the River: delivering integrated river basin management in the Netherlands」；目前只完成作者、年份、題名與 DOI 核對，未將摘要或全文結論納入此記錄；本單元 KU-WAT-058 對照「潮汐會在高潮與低潮間週期性往返，但相同天文週期不代表沿岸各地有相同的水位振幅」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "案例或場地研究；目前僅核對書目範圍",
+        "context_region": "荷蘭",
+        "locator": null
+      },
+      {
+        "library_id": "VANVLIET2015",
+        "claim_zh": "海平面研究區分全球變化與地方水位；鹿特丹區域治理研究則要求將地方洪水邊界放回系統。",
+        "effect_or_value": "本站數值待官方觀測來源核對後補入。",
+        "study_design": "區域洪水治理研究",
+        "context_region": "荷蘭 Rotterdam–Rijnmond",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "使用鄰近潮位站長期資料並記錄基準。",
+    "在水廣場和河岸設計中加入受納水位情境。"
+  ],
+  "applies_when_zh": "適用於河口都市水位基礎分析。",
+  "not_applicable_when_zh": "不能以未核實的平均潮差當基地水位。",
+  "debates_zh": "風暴增水、河流流量、潮汐相位與基準面會共同影響港區水位；有用的潮差必須用指定測站與同一垂直基準計算。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "RWS_GETIJ",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "RIJKE2012",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "VANVLIET2015",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "潮汐水位資料",
+  "region": "全球沿海地區；荷蘭 Rotterdam–Rijnmond",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "潮汐與河口地景"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Sustainable Futures by Design",
+      "topic": "潮汐與河口地景"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0",
+  "values": [
+    {
+      "name": "天文潮週期",
+      "range": "12 小時 25 分鐘",
+      "unit": "per tidal cycle",
+      "context": "用途：以「天文潮週期」作為來源情境參照；Rijkswaterstaat 對荷蘭潮汐節律的說明；地方潮差須按測站和基準面取得，週期不等於潮差；這不是本基地法規。",
+      "library_id": "RWS_GETIJ"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "BOOTHJACKSON1997",
+  "title": "URBANIZATION OF AQUATIC SYSTEMS: DEGRADATION THRESHOLDS, STORMWATER DETECTION, AND THE LIMITS OF MITIGATION",
+  "authors": [
+    "Derek B. Booth",
+    "C. Rhett Jackson"
+  ],
+  "year": 1997,
+  "venue_or_publisher": "JAWRA Journal of the American Water Resources Association",
+  "doi": "https://doi.org/10.1111/j.1752-1688.1997.tb04126.x",
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "都市逕流與水生系統",
+  "region": "美國",
+  "method": "案例或場地研究；目前僅核對書目範圍",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "書目確認本文題名聚焦「URBANIZATION OF AQUATIC SYSTEMS: DEGRADATION THRESHOLDS, STORMWATER DETECTION, AND THE LIMITS OF MITIGATION」；目前只完成作者、年份、題名與 DOI 核對，未將摘要或全文結論納入此記錄。",
+      "strength": "CASE_EVIDENCE",
+      "scope_zh": "只支持題名所顯示的研究議題與書目範圍；具體研究設計、樣本、效果量及外推界限須由摘要或全文另行核對。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref",
+    "query": {
+      "title": "Urbanization of aquatic systems: degradation thresholds, stormwater detention, and the limits of mitigation",
+      "author": "Booth",
+      "year": 1997,
+      "api_query": "https://api.crossref.org/works?query.bibliographic=Urbanization%20of%20aquatic%20systems%3A%20degradation%20thresholds%2C%20stormwater%20detention%2C%20and%20the%20limits%20of%20mitigation%20Booth%201997&rows=5"
+    },
+    "matched_record_id": "10.1111/j.1752-1688.1997.tb04126.x",
+    "checked_at_utc": "2026-10-08T14:02:35Z",
+    "match_notes_zh": "Crossref 回傳記錄的作者和年份相符；題名按匹配度核對，repo 僅採用 API 回傳的完整標題。"
+  },
+  "limitations_zh": "只保留書目欄位與自行概括的研究範圍，沒有保存 API 回傳摘要；未標 ABSTRACT_REVIEW 的主張不得據此聲稱效果量。",
+  "critique_relationship_zh": "尚未核對本文與其他文獻的互引或直接反駁關係。",
+  "metadata_licence_zh": "Crossref 公開書目 metadata；精確授權未核驗，標 UNKNOWN。"
+}

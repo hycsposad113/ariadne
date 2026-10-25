@@ -1,0 +1,60 @@
+{
+  "id": "KU-PUB-027",
+  "domain": "PUB",
+  "subtopic": "活躍立面",
+  "type": "empirical_finding",
+  "title_zh": "空間整合與人流關聯的統合證據",
+  "title_en": "Space syntax measures and pedestrian movement",
+  "summary_zh": "統合分析整理了空間句法指標與行人移動之間的研究。整合度和選擇度與步行量的關聯獲得支持，但不同研究的效果差異明顯。資料單位、網絡建模方式與場域活動會改變估計。統合證據支持相關性，但方法差異限制單一係數的移植。",
+  "key_points_zh": [
+    "統合分析整理了空間句法指標與行人移動之間的研究",
+    "整合度和選擇度與步行量的關聯獲得支持，但不同研究的效果差異明顯"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "統合分析整理了空間句法指標與行人移動之間的研究。",
+        "effect_or_value": "整合度、選擇度與步行量呈正向關聯；研究間異質性顯著。",
+        "study_design": "跨研究統合分析",
+        "context_region": "跨地域空間句法與行人移動研究",
+        "library_id": "SHARMIN17",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW",
+        "limitations_zh": "納入研究在指標、尺度和樣本上不一致，不能作普遍因果估計。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "把句法結果作為現場觀察的假設來源，而非直接用來宣稱某立面會帶來人潮。"
+  ],
+  "applies_when_zh": "適用於比較連接方案和活躍界面的區位。",
+  "not_applicable_when_zh": "不適用於未校準的精準人流預報。",
+  "debates_zh": "統合證據支持相關性，但方法差異限制單一係數的移植。",
+  "sources": [
+    {
+      "library_id": "SHARMIN17",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "MADANIPOUR96",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "空間語法整合分析",
+  "region": "跨地域空間句法與行人移動研究",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "活躍立面"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-PUB-028"
+  ]
+}

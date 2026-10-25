@@ -1,0 +1,107 @@
+{
+  "id": "KU-MOR-034",
+  "domain": "MOR",
+  "subtopic": "密度與形態的關係",
+  "type": "method",
+  "title_zh": "密度與形態的關係｜分析方法",
+  "title_en": "Density and urban form — Analytical method",
+  "summary_zh": "對照街區指標、城市尺度人口密度與建築能耗等不同結果變數。 首爾研究把街區形態與建築能源使用並置分析；其可用性限於資料期間、城市氣候與所選能耗指標。 讀「密度與形態的關係｜分析方法」時，限制：缺少實際用途、氣候或住戶資料時，不推估能耗或生活品質；同時把對照街區指標、城市尺度人口密度與建築能耗等不同結果變數列為核對條件。",
+  "key_points_zh": [
+    "對照街區指標、城市尺度人口密度與建築能耗等不同結果變數。",
+    "對照街區指標、城市尺度人口密度與建築能耗等不同結果變數。",
+    "讀「密度與形態的關係｜分析方法」時，限制：缺少實際用途、氣候或住戶資料時，不推估能耗或生活品質；同時把對照街區指標、城市尺度人口密度與建築能耗等不同結果變數列為核對條件。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "Ng 的高密度設計案例把社會與環境表現分開檢視，提醒形態分析須將密度指標和使用結果並列。",
+        "library_id": "NG10",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "香港; 亞洲",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "首爾研究把街區形態與建築能源使用放在同一個案分析；氣候、建築資料和研究期間限制了結果的外推範圍。",
+        "library_id": "LI2021",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "首爾，韓國",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "落實「密度與形態的關係｜分析方法」時可先高層、周邊式街廓和低層高覆蓋形態各有不同公共空間代價，再用對照街區指標、城市尺度人口密度與建築能耗等不同結果變數核對方案的空間後果。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "「密度與形態的關係｜分析方法」可把取向落在將形態密度和人口／活動密度分列，並檢查尺度敏感度，但需連同對照街區指標、城市尺度人口密度與建築能耗等不同結果變數決定適用方式。",
+      "tradeoff_zh": "「密度與形態的關係｜分析方法」的主要代價不是抽象的建造成本，而是「密度與形態的關係｜分析方法」的爭議不只在於首爾研究把街區形態與建築能源使用並置分析；其可用性限於資料期間、城市氣候與所選能耗指標；還要檢視對照街區指標、城市尺度人口密度與建築能耗等不同結果變數會讓哪些使用者承擔不同後果；因此先以對照街區指標、城市尺度人口密度與建築能耗等不同結果變數作方案比較條件。",
+      "library_ids": [
+        "NG10",
+        "LI2021"
+      ]
+    },
+    {
+      "option_zh": "「密度與形態的關係｜分析方法」可把取向落在高層、周邊式街廓和低層高覆蓋形態各有不同公共空間代價，但需連同對照街區指標、城市尺度人口密度與建築能耗等不同結果變數決定適用方式。",
+      "tradeoff_zh": "此選項把「密度與形態的關係｜分析方法」的工作放在對照街區指標、城市尺度人口密度與建築能耗等不同結果變數上；需要承擔的協調或維護代價則由「「密度與形態的關係｜分析方法」的爭議不只在於首爾研究把街區形態與建築能源使用並置分析；其可用性限於資料期間、城市氣候與所選能耗指標；還要檢視對照街區指標、城市尺度人口密度與建築能耗等不同結果變數會讓哪些使用者承擔不同後果」界定。",
+      "library_ids": [
+        "NG10",
+        "LI2021"
+      ]
+    }
+  ],
+  "applies_when_zh": "「密度與形態的關係｜分析方法」可在適用於形態方案比較及密度政策的多指標分析時使用，前提是對照街區指標、城市尺度人口密度與建築能耗等不同結果變數與來源情境相符。",
+  "not_applicable_when_zh": "若對照街區指標、城市尺度人口密度與建築能耗等不同結果變數不成立，就不能把「密度與形態的關係｜分析方法」的結論延伸到其他情況；缺少實際用途、氣候或住戶資料時，不推估能耗或生活品質。",
+  "debates_zh": "「密度與形態的關係｜分析方法」的爭議不只在於首爾研究把街區形態與建築能源使用並置分析；其可用性限於資料期間、城市氣候與所選能耗指標；還要檢視對照街區指標、城市尺度人口密度與建築能耗等不同結果變數會讓哪些使用者承擔不同後果。",
+  "sources": [
+    {
+      "library_id": "NG10",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "LI2021",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "高密度環境設計；東亞形態與建築能耗",
+  "region": "香港；首爾，韓國",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "密度與形態的關係"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "密度與形態的關係"
+    },
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.330J Theory of City Form",
+      "topic": "密度與形態的關係"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban form and density",
+      "topic": "密度與形態的關係"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-MOR-031",
+    "KU-MOR-032",
+    "KU-MOR-033"
+  ],
+  "counter_unit_ids": [
+    "KU-MOR-035"
+  ]
+}

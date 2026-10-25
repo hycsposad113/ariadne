@@ -1,0 +1,114 @@
+{
+  "id": "KU-HOU-039",
+  "domain": "HOU",
+  "subtopic": "鄰里單元與批評",
+  "type": "critique",
+  "title_zh": "鄰里單元與批評｜批評與反例",
+  "title_en": "Neighborhood unit and critiques — Critique and counterexample",
+  "summary_zh": "鄰里單元的設施服務圈可以規劃步行距離，但居民認同與公共生活不一定沿著同一邊界形成。 安卡拉與荷蘭研究指出，可及性受交通、土地使用和個人條件共同作用，跨區使用者也可能是社區日常的一部分。 配置學校或公園時應保留穿越路徑，並把居民使用、社會凝聚和住宅滿意分開評估。",
+  "key_points_zh": [
+    "讀「鄰里單元與批評｜批評與反例」時，社區感可能透過中介條件產生，外來者和跨區使用也不應被排除；同時把鄰里單元的設施服務圈可以規劃步行距離，但居民認同與公共生活不一定沿著同一邊界形成列為核對條件。",
+    "讀「鄰里單元與批評｜批評與反例」時，適用於鄰里規劃、服務配置和公共空間連結；同時把鄰里單元的設施服務圈可以規劃步行距離，但居民認同與公共生活不一定沿著同一邊界形成列為核對條件。",
+    "讀「鄰里單元與批評｜批評與反例」時，限制：不把「步行可達」直接等同社會凝聚或住宅滿意；同時把鄰里單元的設施服務圈可以規劃步行距離，但居民認同與公共生活不一定沿著同一邊界形成列為核對條件。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "土耳其兩個鄰里的調查把地點、地方依附和住宅滿意度連起來；樣本範圍限制了結果的普遍性。",
+        "library_id": "AKSEL2020",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "安卡拉，土耳其",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "可及性評估需要同時交代交通、土地使用與個人條件；同一距離圈不代表同樣機會。",
+        "library_id": "GEURS04",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "荷蘭; 跨地域",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "把學校服務邊界與居民日常穿越路徑疊圖，找出行政鄰里和實際步行圈不一致的位置。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "把學校服務邊界與居民日常穿越路徑疊圖，找出行政鄰里和實際步行圈不一致的位置。",
+      "tradeoff_zh": "「鄰里單元與批評｜批評與反例」的主要代價不是抽象的建造成本，而是「鄰里單元與批評｜批評與反例」的爭議不只在於不把「步行可達」直接等同社會凝聚或住宅滿意；還要檢視鄰里單元的設施服務圈可以規劃步行距離，但居民認同與公共生活不一定沿著同一邊界形成會讓哪些使用者承擔不同後果；因此先以鄰里單元的設施服務圈可以規劃步行距離，但居民認同與公共生活不一定沿著同一邊界形成作方案比較條件。",
+      "library_ids": [
+        "AKSEL2020",
+        "GEURS04"
+      ]
+    },
+    {
+      "option_zh": "「鄰里單元與批評｜批評與反例」可把取向落在設施圈、地方中心和穿越路徑可有不同組織方式，但需連同鄰里單元的設施服務圈可以規劃步行距離，但居民認同與公共生活不一定沿著同一邊界形成決定適用方式。",
+      "tradeoff_zh": "此選項把「鄰里單元與批評｜批評與反例」的工作放在鄰里單元的設施服務圈可以規劃步行距離，但居民認同與公共生活不一定沿著同一邊界形成上；需要承擔的協調或維護代價則由「「鄰里單元與批評｜批評與反例」的爭議不只在於不把「步行可達」直接等同社會凝聚或住宅滿意；還要檢視鄰里單元的設施服務圈可以規劃步行距離，但居民認同與公共生活不一定沿著同一邊界形成會讓哪些使用者承擔不同後果」界定。",
+      "library_ids": [
+        "AKSEL2020",
+        "GEURS04"
+      ]
+    }
+  ],
+  "applies_when_zh": "「鄰里單元與批評｜批評與反例」可在適用於鄰里規劃、服務配置和公共空間連結時使用，前提是鄰里單元的設施服務圈可以規劃步行距離，但居民認同與公共生活不一定沿著同一邊界形成與來源情境相符。",
+  "not_applicable_when_zh": "若鄰里單元的設施服務圈可以規劃步行距離，但居民認同與公共生活不一定沿著同一邊界形成不成立，就不能把「鄰里單元與批評｜批評與反例」的結論延伸到其他情況；不把「步行可達」直接等同社會凝聚或住宅滿意。",
+  "debates_zh": "「鄰里單元與批評｜批評與反例」的爭議不只在於不把「步行可達」直接等同社會凝聚或住宅滿意；還要檢視鄰里單元的設施服務圈可以規劃步行距離，但居民認同與公共生活不一定沿著同一邊界形成會讓哪些使用者承擔不同後果。",
+  "sources": [
+    {
+      "library_id": "AKSEL2020",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "GEURS04",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "MARCHIGIANI2022",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "WHYTE80",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "鄰里位置、依附與滿意度；可及性評估",
+  "region": "安卡拉，土耳其；荷蘭",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "鄰里單元與批評"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "鄰里單元與批評"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "鄰里單元與批評"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "鄰里單元與批評"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-HOU-035",
+    "KU-HOU-036",
+    "KU-HOU-037"
+  ]
+}

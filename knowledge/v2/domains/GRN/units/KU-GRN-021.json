@@ -1,0 +1,61 @@
+{
+  "id": "KU-GRN-021",
+  "domain": "GRN",
+  "subtopic": "綠地可及性",
+  "type": "design_principle",
+  "title_zh": "讓社群定義需要的綠地",
+  "title_en": "Communities define useful green access",
+  "summary_zh": "居民所需可能是遊戲、陰涼、安靜、菜園或不受監看的聚會空間。行政人均綠地指標未必反映上述功能的分布。社群內部也存在土地使用和活動衝突。參與程序能增加知識，但不會自動消除權力不均。",
+  "key_points_zh": [
+    "居民所需可能是遊戲、陰涼、安靜、菜園或不受監看的聚會空間",
+    "行政人均綠地指標未必反映上述功能的分布"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "居民所需可能是遊戲、陰涼、安靜、菜園或不受監看的聚會空間。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "荷蘭",
+        "library_id": "GEURS04",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "參與程序能增加知識，但不會自動消除權力不均。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "以多語與多時段參與方式確認綠地用途和未使用原因。"
+  ],
+  "applies_when_zh": "適用於服務規劃和更新前的需求盤點。",
+  "not_applicable_when_zh": "不應讓單一代表者替整個社區發言。",
+  "debates_zh": "參與程序能增加知識，但不會自動消除權力不均。",
+  "sources": [
+    {
+      "library_id": "GEURS04",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "ELGENEIDY14",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "可及性評估",
+  "region": "荷蘭",
+  "curriculum_refs": [
+    {
+      "school": "UCL Bartlett",
+      "course": "Critical Debates in Urban Design",
+      "topic": "綠地可及性"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-GRN-020",
+    "KU-GRN-063"
+  ]
+}

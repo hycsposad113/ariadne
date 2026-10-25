@@ -1,0 +1,98 @@
+{
+  "id": "KU-HOU-059",
+  "domain": "HOU",
+  "subtopic": "老化與多世代居住",
+  "type": "empirical_finding",
+  "title_zh": "家庭年齡和成員條件會調節滿意因素",
+  "title_en": "Age and household moderation in Mumbai",
+  "summary_zh": "調節結果屬特定安置住宅樣本，不能推定所有多世代家庭反應。 按家庭組成分組檢視住宅與設施需求。 研究設計：住戶調查與因果模型；地區：孟買，印度。 限制：調節結果屬特定安置住宅樣本，不能推定所有多世代家庭反應。",
+  "key_points_zh": [
+    "孟買 981 戶安置住宅模型指出，年齡、家中是否有兒童或長者等特徵會調節居住環境因素與滿意度的關聯。",
+    "研究設計：住戶調查與因果模型；地區：孟買，印度",
+    "限制：調節結果屬特定安置住宅樣本，不能推定所有多世代家庭反應。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "孟買 981 戶安置住宅模型指出，年齡、家中是否有兒童或長者等特徵會調節居住環境因素與滿意度的關聯。",
+        "effect_or_value": "981 戶；多種人口特徵呈調節作用",
+        "study_design": "住戶調查與因果模型",
+        "context_region": "孟買，印度",
+        "library_id": "KSHETRIMAYUM2020",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "按家庭組成分組檢視住宅與設施需求。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "按家庭組成分組檢視住宅與設施需求。",
+      "tradeoff_zh": "此選項把「家庭年齡和成員條件會調節滿意因素」的工作放在孟買 981 戶安置住宅模型指出，年齡、家中是否有兒童或長者等特徵會調節居住環境因素與滿意度的關聯上；需要承擔的協調或維護代價則由「調節結果屬特定安置住宅樣本，不能推定所有多世代家庭反應」界定。",
+      "library_ids": [
+        "KSHETRIMAYUM2020",
+        "DEVOS2022"
+      ]
+    },
+    {
+      "option_zh": "「家庭年齡和成員條件會調節滿意因素」可把取向落在在地老化、支持性住宅與小規模跨世代模式是不同策略，但需連同孟買 981 戶安置住宅模型指出，年齡、家中是否有兒童或長者等特徵會調節居住環境因素與滿意度的關聯決定適用方式。",
+      "tradeoff_zh": "此選項把「家庭年齡和成員條件會調節滿意因素」的工作放在孟買 981 戶安置住宅模型指出，年齡、家中是否有兒童或長者等特徵會調節居住環境因素與滿意度的關聯上；需要承擔的協調或維護代價則由「調節結果屬特定安置住宅樣本，不能推定所有多世代家庭反應」界定。",
+      "library_ids": [
+        "KSHETRIMAYUM2020",
+        "DEVOS2022"
+      ]
+    }
+  ],
+  "applies_when_zh": "用於與孟買，印度研究情境可比、且量測定義相近的分析。",
+  "not_applicable_when_zh": "調節結果屬特定安置住宅樣本，不能推定所有多世代家庭反應。",
+  "debates_zh": "調節結果屬特定安置住宅樣本，不能推定所有多世代家庭反應。",
+  "sources": [
+    {
+      "library_id": "KSHETRIMAYUM2020",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "DEVOS2022",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "孟買安置住宅與居住滿意；比利時與荷蘭集體住宅",
+  "region": "孟買，印度；比利時與荷蘭",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "老化與多世代居住"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "老化與多世代居住"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "老化與多世代居住"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "老化與多世代居住"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-HOU-052",
+    "KU-HOU-053",
+    "KU-HOU-054"
+  ],
+  "counter_unit_ids": [
+    "KU-HOU-056"
+  ]
+}

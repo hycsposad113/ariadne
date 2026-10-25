@@ -1,0 +1,404 @@
+{
+  "id": "KU-MOR-085",
+  "domain": "MOR",
+  "subtopic": "形態先例庫；實測圖底與量體指標",
+  "type": "case",
+  "title_zh": "南岸角—威廉明娜碼頭",
+  "title_en": "Kop van Zuid / Wilhelminapier",
+  "summary_zh": "碼頭端部、跨河連接與不同尺度的建築同時出現；將高度覆蓋率和街廓切分一起讀，避免把已知量體誤作全部開發強度。本次從 104611.49 m² 陸地範圍內解析 17 棟建築、合併成 15 個量體，由主要街道切出 4 個面積至少 1,000 m² 的街廓，其中完整窗內 2 個。陸地分母 GSI 為 0.3209，已知樓層 FSI 下限為 6.0102，高度或空間覆蓋未達比較門檻；在 2 個完整街廓的自動判型樣本中，混合／未分類最多（2 個）；主要建築外牆間距中位數 33.45 m。這份數值記錄僅對應南岸角—威廉明娜碼頭本次取樣窗與來源快照。",
+  "key_points_zh": [
+    "以 OSM 地名物件中心作錨點，在 EPSG:28992 中向四周量取 420 m × 250 m 矩形；這是研究窗，不代表歷史開發案或法定邊界。",
+    "OSM 日期 2026-10-09T10:35:00Z；高度來源 3DBAG observed BAG-id join; no OSM fallback；有效高度 10／17 棟。",
+    "南岸角—威廉明娜碼頭量測說明：OSM building:levels 直接用於 L；3DBAG roof-ground height 或 OSM height 僅在沒有樓層標記時以 3.0 m/層換算，為明示假設。南岸角—威廉明娜碼頭的缺值不補猜。"
+  ],
+  "evidence": {
+    "strength": "CASE_EVIDENCE",
+    "findings": [
+      {
+        "library_id": "OSM_KB4_PRECEDENTS",
+        "claim_zh": "南岸角—威廉明娜碼頭 使用回應 f03aa39da46b 計算；未映射建築沒有插補。",
+        "effect_or_value": "17 棟建築；高度覆蓋率 0.5882。",
+        "study_design": "研究窗 OSM 幾何測量",
+        "context_region": "Rotterdam, Netherlands",
+        "locator": null,
+        "claim_verification": "OBSERVED_OPEN_DATA_MEASUREMENT",
+        "limitations_zh": "OSM 是社群編輯資料；此值只描述快照，不代表完整盤點。"
+      },
+      {
+        "library_id": "BILJECKI2022",
+        "claim_zh": "Biljecki 與 Chow 的跨尺度形態指標研究強調來源和尺度可追溯；本案把該原則用於 南岸角—威廉明娜碼頭 的 10.5 ha 觀察窗。",
+        "effect_or_value": null,
+        "study_design": "形態指標研究",
+        "context_region": "全球多城市資料",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW",
+        "limitations_zh": "該研究不驗證此窗 OSM 完整度或 M4H 法規。"
+      },
+      {
+        "library_id": "DOUCET2011KOPVANZUID",
+        "claim_zh": "南岸角—威廉明娜碼頭引用來源記載：研究題名與作者資訊確認其直接研究Kop van Zuid居民對旗艦型水岸再生的感知；不從題名推斷不同居民群體的評價方向。",
+        "effect_or_value": null,
+        "study_design": "書目或官方案例資料",
+        "context_region": "Rotterdam, Netherlands",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW",
+        "limitations_zh": "只按已核對的書目或官方來源範圍引用，未查證的設計細節不推定。"
+      },
+      {
+        "library_id": "3DBAG_KB4_HEIGHTS",
+        "claim_zh": "南岸角—威廉明娜碼頭 的高度欄位以可連結 BAG 識別碼配對 3DBAG 屋頂與地面高度；沒有匹配的建物不補值。",
+        "effect_or_value": "高度覆蓋 10/17 棟；FSI 可比性為 LOWER_BOUND_NONCOMPARABLE。",
+        "study_design": "3DBAG 公開建物高度資料的 BAG-ID 配對",
+        "context_region": "Rotterdam, Netherlands",
+        "locator": null,
+        "claim_verification": "OBSERVED_OPEN_DATA_MEASUREMENT",
+        "limitations_zh": "只計可連結到 3DBAG 高度的足跡；高度轉樓層時採明列 3.0 m／層假設。"
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "建築覆蓋率 GSI",
+      "range": "0.3209",
+      "unit": "無量綱",
+      "context": "南岸角—威廉明娜碼頭的建築覆蓋率 GSI：Rotterdam研究窗 10.5 ha；以 OSM 地名物件中心作錨點，在 EPSG:28992 中向四周量取 420 m × 250 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T10:35:00Z，回應 SHA-256 f03aa39da46bd987bb1550595447784ab3283e33d66f2e1814b67205e616a111；OSM 下載時間 2026-10-09T10:36:58Z；3DBAG tile 下載時間 2026-10-09T11:01:27Z；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "已知樓層面積比 FSI 下限",
+      "range": "6.0102；僅下限或空間快照不足，不可跨案例比較",
+      "unit": "無量綱",
+      "context": "南岸角—威廉明娜碼頭的已知樓層面積比 FSI 下限：Rotterdam研究窗 10.5 ha；以 OSM 地名物件中心作錨點，在 EPSG:28992 中向四周量取 420 m × 250 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T10:35:00Z，回應 SHA-256 f03aa39da46bd987bb1550595447784ab3283e33d66f2e1814b67205e616a111；OSM 下載時間 2026-10-09T10:36:58Z；3DBAG tile 下載時間 2026-10-09T11:01:27Z；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "3DBAG_KB4_HEIGHTS"
+    },
+    {
+      "name": "足跡加權平均樓層 L",
+      "range": "22.208",
+      "unit": "層",
+      "context": "南岸角—威廉明娜碼頭的足跡加權平均樓層 L：Rotterdam研究窗 10.5 ha；以 OSM 地名物件中心作錨點，在 EPSG:28992 中向四周量取 420 m × 250 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T10:35:00Z，回應 SHA-256 f03aa39da46bd987bb1550595447784ab3283e33d66f2e1814b67205e616a111；OSM 下載時間 2026-10-09T10:36:58Z；3DBAG tile 下載時間 2026-10-09T11:01:27Z；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "3DBAG_KB4_HEIGHTS"
+    },
+    {
+      "name": "開放空間比 OSR（已知 FSI）",
+      "range": "0.113",
+      "unit": "無量綱",
+      "context": "南岸角—威廉明娜碼頭的開放空間比 OSR（已知 FSI）：Rotterdam研究窗 10.5 ha；以 OSM 地名物件中心作錨點，在 EPSG:28992 中向四周量取 420 m × 250 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T10:35:00Z，回應 SHA-256 f03aa39da46bd987bb1550595447784ab3283e33d66f2e1814b67205e616a111；OSM 下載時間 2026-10-09T10:36:58Z；3DBAG tile 下載時間 2026-10-09T11:01:27Z；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "3DBAG_KB4_HEIGHTS"
+    },
+    {
+      "name": "街廓數",
+      "range": "4",
+      "unit": "個；含截邊街廓",
+      "context": "南岸角—威廉明娜碼頭的街廓數：Rotterdam研究窗 10.5 ha；以 OSM 地名物件中心作錨點，在 EPSG:28992 中向四周量取 420 m × 250 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T10:35:00Z，回應 SHA-256 f03aa39da46bd987bb1550595447784ab3283e33d66f2e1814b67205e616a111；OSM 下載時間 2026-10-09T10:36:58Z；3DBAG tile 下載時間 2026-10-09T11:01:27Z；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "完整街廓數",
+      "range": "2",
+      "unit": "個；完整研究窗內街廓",
+      "context": "南岸角—威廉明娜碼頭的完整街廓數：Rotterdam研究窗 10.5 ha；以 OSM 地名物件中心作錨點，在 EPSG:28992 中向四周量取 420 m × 250 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T10:35:00Z，回應 SHA-256 f03aa39da46bd987bb1550595447784ab3283e33d66f2e1814b67205e616a111；OSM 下載時間 2026-10-09T10:36:58Z；3DBAG tile 下載時間 2026-10-09T11:01:27Z；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "完整街廓面積分布",
+      "range": "min 7497.87；p25 10589.05；median 13680.23；p75 16771.41；max 19862.6",
+      "unit": "m²；完整街廓最小／P25／中位／P75／最大",
+      "context": "南岸角—威廉明娜碼頭的完整街廓面積分布：Rotterdam研究窗 10.5 ha；以 OSM 地名物件中心作錨點，在 EPSG:28992 中向四周量取 420 m × 250 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T10:35:00Z，回應 SHA-256 f03aa39da46bd987bb1550595447784ab3283e33d66f2e1814b67205e616a111；OSM 下載時間 2026-10-09T10:36:58Z；3DBAG tile 下載時間 2026-10-09T11:01:27Z；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "全觀察街廓面積分布（含截邊）",
+      "range": "min 7497.87；p25 16771.41；median 27803.79；p75 37185.25；max 41506.05",
+      "unit": "m²；全觀察街廓含截邊最小／P25／中位／P75／最大",
+      "context": "南岸角—威廉明娜碼頭的全觀察街廓面積分布（含截邊）：Rotterdam研究窗 10.5 ha；以 OSM 地名物件中心作錨點，在 EPSG:28992 中向四周量取 420 m × 250 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T10:35:00Z，回應 SHA-256 f03aa39da46bd987bb1550595447784ab3283e33d66f2e1814b67205e616a111；OSM 下載時間 2026-10-09T10:36:58Z；3DBAG tile 下載時間 2026-10-09T11:01:27Z；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "主要街道交叉口間街段長分布",
+      "range": "min 20.99；p25 60.47；median 66.54；p75 111.06；max 235.98",
+      "unit": "m；主要街道交叉口間街段最小／P25／中位／P75／最大",
+      "context": "南岸角—威廉明娜碼頭的主要街道交叉口間街段長分布：Rotterdam研究窗 10.5 ha；以 OSM 地名物件中心作錨點，在 EPSG:28992 中向四周量取 420 m × 250 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T10:35:00Z，回應 SHA-256 f03aa39da46bd987bb1550595447784ab3283e33d66f2e1814b67205e616a111；OSM 下載時間 2026-10-09T10:36:58Z；3DBAG tile 下載時間 2026-10-09T11:01:27Z；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "街道寬度代理（建築間距）",
+      "range": "min 14.78；p25 19.57；median 33.45；p75 47.32；max 69.68",
+      "unit": "m；最小／P25／中位／P75／最大",
+      "context": "南岸角—威廉明娜碼頭的街道寬度代理（建築間距）：Rotterdam研究窗 10.5 ha；以 OSM 地名物件中心作錨點，在 EPSG:28992 中向四周量取 420 m × 250 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T10:35:00Z，回應 SHA-256 f03aa39da46bd987bb1550595447784ab3283e33d66f2e1814b67205e616a111；OSM 下載時間 2026-10-09T10:36:58Z；3DBAG tile 下載時間 2026-10-09T11:01:27Z；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "建築翼深代理",
+      "range": "min 2.89；p25 3.22；median 21.61；p75 25；max 30.97；低信心（偏離住宅常規 10–16 m）",
+      "unit": "m；最小／P25／中位／P75／最大",
+      "context": "南岸角—威廉明娜碼頭的建築翼深代理：Rotterdam研究窗 10.5 ha；以 OSM 地名物件中心作錨點，在 EPSG:28992 中向四周量取 420 m × 250 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T10:35:00Z，回應 SHA-256 f03aa39da46bd987bb1550595447784ab3283e33d66f2e1814b67205e616a111；OSM 下載時間 2026-10-09T10:36:58Z；3DBAG tile 下載時間 2026-10-09T11:01:27Z；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "翼深交叉檢查（最小旋轉外接矩形短邊）",
+      "range": "min 4.25；p25 4.64；median 37.93；p75 44.77；max 49.59",
+      "unit": "m；最小／P25／中位／P75／最大",
+      "context": "南岸角—威廉明娜碼頭的翼深交叉檢查（最小旋轉外接矩形短邊）：Rotterdam研究窗 10.5 ha；以 OSM 地名物件中心作錨點，在 EPSG:28992 中向四周量取 420 m × 250 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T10:35:00Z，回應 SHA-256 f03aa39da46bd987bb1550595447784ab3283e33d66f2e1814b67205e616a111；OSM 下載時間 2026-10-09T10:36:58Z；3DBAG tile 下載時間 2026-10-09T11:01:27Z；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "翼深代理低於 4 m 樣本占比",
+      "range": "0.3333",
+      "unit": "比例；2A／周長代理低於 4 m 的樣本占比",
+      "context": "南岸角—威廉明娜碼頭的翼深代理低於 4 m 樣本占比：Rotterdam研究窗 10.5 ha；以 OSM 地名物件中心作錨點，在 EPSG:28992 中向四周量取 420 m × 250 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T10:35:00Z，回應 SHA-256 f03aa39da46bd987bb1550595447784ab3283e33d66f2e1814b67205e616a111；OSM 下載時間 2026-10-09T10:36:58Z；3DBAG tile 下載時間 2026-10-09T11:01:27Z；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "主要形態量體低於 100 m² 占比",
+      "range": "0.3333",
+      "unit": "比例；主要形態量體低於 100 m² 的占比",
+      "context": "南岸角—威廉明娜碼頭的主要形態量體低於 100 m² 占比：Rotterdam研究窗 10.5 ha；以 OSM 地名物件中心作錨點，在 EPSG:28992 中向四周量取 420 m × 250 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T10:35:00Z，回應 SHA-256 f03aa39da46bd987bb1550595447784ab3283e33d66f2e1814b67205e616a111；OSM 下載時間 2026-10-09T10:36:58Z；3DBAG tile 下載時間 2026-10-09T11:01:27Z；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "主要形態樣本建築數",
+      "range": "17",
+      "unit": "棟；主要形態樣本",
+      "context": "南岸角—威廉明娜碼頭的主要形態樣本建築數：Rotterdam研究窗 10.5 ha；以 OSM 地名物件中心作錨點，在 EPSG:28992 中向四周量取 420 m × 250 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T10:35:00Z，回應 SHA-256 f03aa39da46bd987bb1550595447784ab3283e33d66f2e1814b67205e616a111；OSM 下載時間 2026-10-09T10:36:58Z；3DBAG tile 下載時間 2026-10-09T11:01:27Z；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "翼深／類型排除的輔助建物數",
+      "range": "0",
+      "unit": "棟；僅不納入翼深／類型",
+      "context": "南岸角—威廉明娜碼頭的翼深／類型排除的輔助建物數：Rotterdam研究窗 10.5 ha；以 OSM 地名物件中心作錨點，在 EPSG:28992 中向四周量取 420 m × 250 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T10:35:00Z，回應 SHA-256 f03aa39da46bd987bb1550595447784ab3283e33d66f2e1814b67205e616a111；OSM 下載時間 2026-10-09T10:36:58Z；3DBAG tile 下載時間 2026-10-09T11:01:27Z；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "完整街廓判型樣本數",
+      "range": "2",
+      "unit": "個；完整街廓判型樣本",
+      "context": "南岸角—威廉明娜碼頭的完整街廓判型樣本數：Rotterdam研究窗 10.5 ha；以 OSM 地名物件中心作錨點，在 EPSG:28992 中向四周量取 420 m × 250 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T10:35:00Z，回應 SHA-256 f03aa39da46bd987bb1550595447784ab3283e33d66f2e1814b67205e616a111；OSM 下載時間 2026-10-09T10:36:58Z；3DBAG tile 下載時間 2026-10-09T11:01:27Z；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "建築至映射水岸距離",
+      "range": "min 7.1；p25 16.73；median 28.54；p75 63.68；max 64.38",
+      "unit": "m；最小／P25／中位／P75／最大",
+      "context": "南岸角—威廉明娜碼頭的建築至映射水岸距離：Rotterdam研究窗 10.5 ha；以 OSM 地名物件中心作錨點，在 EPSG:28992 中向四周量取 420 m × 250 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T10:35:00Z，回應 SHA-256 f03aa39da46bd987bb1550595447784ab3283e33d66f2e1814b67205e616a111；OSM 下載時間 2026-10-09T10:36:58Z；3DBAG tile 下載時間 2026-10-09T11:01:27Z；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "水岸行人路徑 OSM 標記",
+      "range": "OSM_EXPLICIT_OPEN_ACCESS_TAG_NEAR_WATER；近水路徑 12 條；明示開放標記 1 條；明示受限標記 0 條；未判定 11 條",
+      "unit": "OSM 水岸行人路徑標記與數量",
+      "context": "南岸角—威廉明娜碼頭的水岸行人路徑 OSM 標記：Rotterdam研究窗 10.5 ha；以 OSM 地名物件中心作錨點，在 EPSG:28992 中向四周量取 420 m × 250 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T10:35:00Z，回應 SHA-256 f03aa39da46bd987bb1550595447784ab3283e33d66f2e1814b67205e616a111；OSM 下載時間 2026-10-09T10:36:58Z；3DBAG tile 下載時間 2026-10-09T11:01:27Z；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "主要形態類型分布（街廓代理）",
+      "range": "周邊式 0 個／比例 0；板樓 0 個／比例 0；連棟 0 個／比例 0；點式 0 個／比例 0；合院 0 個／比例 0；混合／未分類 2 個／比例 1",
+      "unit": "街廓分類數量與比例",
+      "context": "南岸角—威廉明娜碼頭的主要形態類型分布（街廓代理）：Rotterdam研究窗 10.5 ha；以 OSM 地名物件中心作錨點，在 EPSG:28992 中向四周量取 420 m × 250 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T10:35:00Z，回應 SHA-256 f03aa39da46bd987bb1550595447784ab3283e33d66f2e1814b67205e616a111；OSM 下載時間 2026-10-09T10:36:58Z；3DBAG tile 下載時間 2026-10-09T11:01:27Z；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "高度或樓層資訊覆蓋率",
+      "range": "0.5882",
+      "unit": "比例",
+      "context": "南岸角—威廉明娜碼頭的高度或樓層資訊覆蓋率：Rotterdam研究窗 10.5 ha；以 OSM 地名物件中心作錨點，在 EPSG:28992 中向四周量取 420 m × 250 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T10:35:00Z，回應 SHA-256 f03aa39da46bd987bb1550595447784ab3283e33d66f2e1814b67205e616a111；OSM 下載時間 2026-10-09T10:36:58Z；3DBAG tile 下載時間 2026-10-09T11:01:27Z；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "3DBAG_KB4_HEIGHTS"
+    },
+    {
+      "name": "高度或樓層缺值建築數",
+      "range": "7",
+      "unit": "棟",
+      "context": "南岸角—威廉明娜碼頭的高度或樓層缺值建築數：Rotterdam研究窗 10.5 ha；以 OSM 地名物件中心作錨點，在 EPSG:28992 中向四周量取 420 m × 250 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T10:35:00Z，回應 SHA-256 f03aa39da46bd987bb1550595447784ab3283e33d66f2e1814b67205e616a111；OSM 下載時間 2026-10-09T10:36:58Z；3DBAG tile 下載時間 2026-10-09T11:01:27Z；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "3DBAG_KB4_HEIGHTS"
+    },
+    {
+      "name": "GSI（含映射水域分母）",
+      "range": "0.3209",
+      "unit": "無量綱",
+      "context": "南岸角—威廉明娜碼頭的GSI（含映射水域分母）：Rotterdam研究窗 10.5 ha；以 OSM 地名物件中心作錨點，在 EPSG:28992 中向四周量取 420 m × 250 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T10:35:00Z，回應 SHA-256 f03aa39da46bd987bb1550595447784ab3283e33d66f2e1814b67205e616a111；OSM 下載時間 2026-10-09T10:36:58Z；3DBAG tile 下載時間 2026-10-09T11:01:27Z；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "FSI 下限（含映射水域分母）",
+      "range": "6.0102",
+      "unit": "無量綱",
+      "context": "南岸角—威廉明娜碼頭的FSI 下限（含映射水域分母）：Rotterdam研究窗 10.5 ha；以 OSM 地名物件中心作錨點，在 EPSG:28992 中向四周量取 420 m × 250 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T10:35:00Z，回應 SHA-256 f03aa39da46bd987bb1550595447784ab3283e33d66f2e1814b67205e616a111；OSM 下載時間 2026-10-09T10:36:58Z；3DBAG tile 下載時間 2026-10-09T11:01:27Z；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "3DBAG_KB4_HEIGHTS"
+    },
+    {
+      "name": "陸地分母面積",
+      "range": "104611.49",
+      "unit": "m²",
+      "context": "南岸角—威廉明娜碼頭的陸地分母面積：Rotterdam研究窗 10.5 ha；以 OSM 地名物件中心作錨點，在 EPSG:28992 中向四周量取 420 m × 250 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T10:35:00Z，回應 SHA-256 f03aa39da46bd987bb1550595447784ab3283e33d66f2e1814b67205e616a111；OSM 下載時間 2026-10-09T10:36:58Z；3DBAG tile 下載時間 2026-10-09T11:01:27Z；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "建築合併後量體數",
+      "range": "15",
+      "unit": "量體",
+      "context": "南岸角—威廉明娜碼頭的建築合併後量體數：Rotterdam研究窗 10.5 ha；以 OSM 地名物件中心作錨點，在 EPSG:28992 中向四周量取 420 m × 250 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T10:35:00Z，回應 SHA-256 f03aa39da46bd987bb1550595447784ab3283e33d66f2e1814b67205e616a111；OSM 下載時間 2026-10-09T10:36:58Z；3DBAG tile 下載時間 2026-10-09T11:01:27Z；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "輔助建物以外主要形態樣本數",
+      "range": "17",
+      "unit": "棟",
+      "context": "南岸角—威廉明娜碼頭的輔助建物以外主要形態樣本數：Rotterdam研究窗 10.5 ha；以 OSM 地名物件中心作錨點，在 EPSG:28992 中向四周量取 420 m × 250 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T10:35:00Z，回應 SHA-256 f03aa39da46bd987bb1550595447784ab3283e33d66f2e1814b67205e616a111；OSM 下載時間 2026-10-09T10:36:58Z；3DBAG tile 下載時間 2026-10-09T11:01:27Z；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "翼深交叉檢查：最小旋轉外接矩形短邊",
+      "range": "min 4.25；p25 4.64；median 37.93；p75 44.77；max 49.59",
+      "unit": "m；分位數",
+      "context": "南岸角—威廉明娜碼頭的翼深交叉檢查：最小旋轉外接矩形短邊：Rotterdam研究窗 10.5 ha；以 OSM 地名物件中心作錨點，在 EPSG:28992 中向四周量取 420 m × 250 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T10:35:00Z，回應 SHA-256 f03aa39da46bd987bb1550595447784ab3283e33d66f2e1814b67205e616a111；OSM 下載時間 2026-10-09T10:36:58Z；3DBAG tile 下載時間 2026-10-09T11:01:27Z；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "小於 1,000 m² 排除碎片數",
+      "range": "0",
+      "unit": "個",
+      "context": "南岸角—威廉明娜碼頭的小於 1,000 m² 排除碎片數：Rotterdam研究窗 10.5 ha；以 OSM 地名物件中心作錨點，在 EPSG:28992 中向四周量取 420 m × 250 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T10:35:00Z，回應 SHA-256 f03aa39da46bd987bb1550595447784ab3283e33d66f2e1814b67205e616a111；OSM 下載時間 2026-10-09T10:36:58Z；3DBAG tile 下載時間 2026-10-09T11:01:27Z；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "完整街廓判型樣本數",
+      "range": "2",
+      "unit": "個",
+      "context": "南岸角—威廉明娜碼頭的完整街廓判型樣本數：Rotterdam研究窗 10.5 ha；以 OSM 地名物件中心作錨點，在 EPSG:28992 中向四周量取 420 m × 250 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T10:35:00Z，回應 SHA-256 f03aa39da46bd987bb1550595447784ab3283e33d66f2e1814b67205e616a111；OSM 下載時間 2026-10-09T10:36:58Z；3DBAG tile 下載時間 2026-10-09T11:01:27Z；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "未分類街廓比例",
+      "range": "1",
+      "unit": "比例",
+      "context": "南岸角—威廉明娜碼頭的未分類街廓比例：Rotterdam研究窗 10.5 ha；以 OSM 地名物件中心作錨點，在 EPSG:28992 中向四周量取 420 m × 250 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T10:35:00Z，回應 SHA-256 f03aa39da46bd987bb1550595447784ab3283e33d66f2e1814b67205e616a111；OSM 下載時間 2026-10-09T10:36:58Z；3DBAG tile 下載時間 2026-10-09T11:01:27Z；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "OSM 建築數",
+      "range": "17",
+      "unit": "棟",
+      "context": "南岸角—威廉明娜碼頭的OSM 建築數：Rotterdam研究窗 10.5 ha；以 OSM 地名物件中心作錨點，在 EPSG:28992 中向四周量取 420 m × 250 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T10:35:00Z，回應 SHA-256 f03aa39da46bd987bb1550595447784ab3283e33d66f2e1814b67205e616a111；OSM 下載時間 2026-10-09T10:36:58Z；3DBAG tile 下載時間 2026-10-09T11:01:27Z；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "高度覆蓋率",
+      "range": "0.5882",
+      "unit": "比例",
+      "context": "南岸角—威廉明娜碼頭的高度覆蓋率：Rotterdam研究窗 10.5 ha；以 OSM 地名物件中心作錨點，在 EPSG:28992 中向四周量取 420 m × 250 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T10:35:00Z，回應 SHA-256 f03aa39da46bd987bb1550595447784ab3283e33d66f2e1814b67205e616a111；OSM 下載時間 2026-10-09T10:36:58Z；3DBAG tile 下載時間 2026-10-09T11:01:27Z；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "3DBAG_KB4_HEIGHTS"
+    },
+    {
+      "name": "街廓中位面積",
+      "range": "13680.23",
+      "unit": "m²",
+      "context": "南岸角—威廉明娜碼頭的街廓中位面積：Rotterdam研究窗 10.5 ha；以 OSM 地名物件中心作錨點，在 EPSG:28992 中向四周量取 420 m × 250 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T10:35:00Z，回應 SHA-256 f03aa39da46bd987bb1550595447784ab3283e33d66f2e1814b67205e616a111；OSM 下載時間 2026-10-09T10:36:58Z；3DBAG tile 下載時間 2026-10-09T11:01:27Z；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "完整窗內街廓數",
+      "range": "2",
+      "unit": "個",
+      "context": "南岸角—威廉明娜碼頭的完整窗內街廓數：Rotterdam研究窗 10.5 ha；以 OSM 地名物件中心作錨點，在 EPSG:28992 中向四周量取 420 m × 250 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T10:35:00Z，回應 SHA-256 f03aa39da46bd987bb1550595447784ab3283e33d66f2e1814b67205e616a111；OSM 下載時間 2026-10-09T10:36:58Z；3DBAG tile 下載時間 2026-10-09T11:01:27Z；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "主要形態樣本建築數",
+      "range": "17",
+      "unit": "棟",
+      "context": "南岸角—威廉明娜碼頭的主要形態樣本建築數：Rotterdam研究窗 10.5 ha；以 OSM 地名物件中心作錨點，在 EPSG:28992 中向四周量取 420 m × 250 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T10:35:00Z，回應 SHA-256 f03aa39da46bd987bb1550595447784ab3283e33d66f2e1814b67205e616a111；OSM 下載時間 2026-10-09T10:36:58Z；3DBAG tile 下載時間 2026-10-09T11:01:27Z；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    }
+  ],
+  "design_implications_zh": [
+    "沿濱水步道連接大型量體與細尺度街道，逐段記錄可達岸線。",
+    "把港口遺產與新增建築分組，不以單一平均值抹平年代差異。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "沿濱水步道連接大型量體與細尺度街道，逐段記錄可達岸線。",
+      "tradeoff_zh": "南岸角—威廉明娜碼頭的主要場地條件仍需實地核實；幾何參考不能取代現場資料。",
+      "library_ids": [
+        "OSM_KB4_PRECEDENTS",
+        "DOUCET2011KOPVANZUID"
+      ]
+    },
+    {
+      "option_zh": "把港口遺產與新增建築分組，不以單一平均值抹平年代差異。",
+      "tradeoff_zh": "若 M4H 的基地寬度、用途或岸線條件不同於南岸角—威廉明娜碼頭，須重算幾何並由設計者取捨。",
+      "library_ids": [
+        "OSM_KB4_PRECEDENTS",
+        "BILJECKI2022"
+      ]
+    }
+  ],
+  "applies_when_zh": "比較 南岸角—威廉明娜碼頭 的足跡、街廓和岸線幾何，並為量體生成建立案例參照。",
+  "not_applicable_when_zh": "不可把南岸角—威廉明娜碼頭跨城數值當作本基地法規、設計目標或公共通行權證明。",
+  "debates_zh": "地標建築和跨河連接可強化港灣辨識，公共岸線的連續性仍須逐段驗證。",
+  "sources": [
+    {
+      "library_id": "OSM_KB4_PRECEDENTS",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "BILJECKI2022",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "DOUCET2011KOPVANZUID",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "3DBAG_KB4_HEIGHTS",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "跨城市建築形態測量與都市設計案例",
+  "region": "Rotterdam, Netherlands",
+  "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "形態先例比較：南岸角—威廉明娜碼頭"
+    }
+  ],
+  "version": "kb4-precedents-2026-10-09",
+  "check": {
+    "method_zh": "在研究窗扣除已映射水域後計算陸地分母，局部公尺投影；量體合併只用於翼深和類型，GSI／FSI 仍按去重原始足跡計。荷蘭案例僅以 BAG 識別碼連結 3DBAG 高度。",
+    "inputs": [
+      "研究窗和 OSM 錨點",
+      "具 SHA-256 的 OSM 快照",
+      "BAG 高度欄位或 OSM 樓層／高度標籤"
+    ],
+    "logic_zh": "GSI 為足跡面積除扣除映射水域的陸地面積；FSI 為已知樓層建築足跡乘樓層數除同一陸地面積；高度覆蓋低於 80% 時標示下限且不可比較。",
+    "limitations_zh": "未知高度不插補；映射以外水體仍在陸地分母內；翼深以合併量體 2A／周長估算，最小旋轉矩形短邊作交叉檢查。"
+  },
+  "case": {
+    "location": "Kop van Zuid / Wilhelminapier, Rotterdam, Netherlands",
+    "period": "現況 OSM／3DBAG 快照；設計者與建成年代未由本輪可用來源完整確認。",
+    "area_ha": 10.5,
+    "fsi": 6.0102,
+    "gsi": 0.3209,
+    "program_mix": "南岸角—威廉明娜碼頭 快照中可讀取到的 OSM 建築型別與明示用途標籤：建築型別：building=hotel 7 筆、building=apartments 4 筆、building=office 4 筆、building=construction 2 筆；明示用途活動：tourism=attraction 2 筆。；未標註用途不猜補。可解析建築 17 棟。",
+    "key_strategies_zh": [
+      "沿濱水步道連接大型量體與細尺度街道，逐段記錄可達岸線。",
+      "把港口遺產與新增建築分組，不以單一平均值抹平年代差異。"
+    ],
+    "outcomes_zh": [
+      "陸地分母 GSI 0.3209；含映射水域分母 GSI 0.3209，兩者差異來自水域扣除口徑。",
+      "街廓共 4 個，完整 2 個、截邊 2 個；低於 1,000 m² 的碎片 0 個另計。完整街廓判型樣本為 2 個，混合／未分類分類 2 個。"
+    ],
+    "critiques_zh": [
+      "7 棟建築沒有可用高度或樓層資料（覆蓋 0.5882）；本案 FSI 狀態為 LOWER_BOUND_NONCOMPARABLE。",
+      "南岸角—威廉明娜碼頭的 2 個完整街廓判型結果為 混合／未分類 2 個；其中 2 個（1）維持混合／未分類，這是依本輪幾何門檻自動計算、尚未人工逐街廓核圖的結果。",
+      "地標建築和跨河連接可強化港灣辨識，公共岸線的連續性仍須逐段驗證。",
+      "南岸角—威廉明娜碼頭 的翼深代理中位數 21.61 m 偏離住宅常規範圍（約 10–16 m），標記為低信心，不可硬套於標準住宅量體生成。"
+    ]
+  }
+}

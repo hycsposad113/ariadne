@@ -1,0 +1,70 @@
+{
+  "id": "KU-PUB-020",
+  "domain": "PUB",
+  "subtopic": "座位與停留",
+  "type": "value_range",
+  "title_zh": "鄰里公園使用研究的受訪樣本",
+  "title_en": "Resident diary sample",
+  "summary_zh": "一項公園特徵研究包含三百八十位居民的活動日誌。這能說明活動資料不只是場地清冊，也需要追蹤使用者實際行為。它不是人口代表性的保證，也不是公共座椅數量建議。自陳資料便於補足現場觀察，但會有回憶與選擇偏誤。",
+  "key_points_zh": [
+    "一項公園特徵研究包含三百八十位居民的活動日誌",
+    "這能說明活動資料不只是場地清冊，也需要追蹤使用者實際行為"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "一項公園特徵研究包含三百八十位居民的活動日誌。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "美國",
+        "library_id": "BEDIMORUNG05",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "自陳資料便於補足現場觀察，但會有回憶與選擇偏誤。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "使用日誌時應記錄活動目的、頻率和未使用原因，並與現場觀察交叉檢查。"
+  ],
+  "applies_when_zh": "適用於建立停留與運動的使用者資料。",
+  "not_applicable_when_zh": "不適用於直接外推至不同國家或社會群體。",
+  "debates_zh": "自陳資料便於補足現場觀察，但會有回憶與選擇偏誤。",
+  "sources": [
+    {
+      "library_id": "BEDIMORUNG05",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "TALEN99",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "公共健康與公園設計",
+  "region": "美國",
+  "curriculum_refs": [
+    {
+      "school": "UCL Bartlett",
+      "course": "Critical Debates in Urban Design",
+      "topic": "座位與停留"
+    }
+  ],
+  "version": "2.0.0",
+  "values": [
+    {
+      "name": "鄰里公園使用研究的受訪樣本",
+      "range": "n = 380",
+      "unit": "居民人數",
+      "context": "美國鄰里公園居民的活動日誌樣本；作研究設計參照，非設計規範。；「鄰里公園使用研究的受訪樣本」僅供其研究脈絡內比較，不構成本基地法規。",
+      "library_id": "KACZYNSKI08"
+    }
+  ],
+  "related_unit_ids": [
+    "KU-PUB-019",
+    "KU-PUB-021"
+  ]
+}

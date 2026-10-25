@@ -1,0 +1,28 @@
+{
+  "id": "DAVIDSONLEES05",
+  "title": "New-Build ‘Gentrification’ and London's Riverside Renaissance",
+  "authors": [
+    "Mark Davidson",
+    "Loretta Lees"
+  ],
+  "year": 2005,
+  "kind": "ACADEMIC_PAPER",
+  "claims": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref",
+    "query": {
+      "title": "New build gentrification and London riverside renaissance",
+      "author": "Mark Davidson",
+      "year": 2005
+    },
+    "matched_record_id": "10.1068/a3739",
+    "checked_at_utc": "2026-10-08T13:42:38Z",
+    "match_notes_zh": "人工核對 Crossref 題名、完整作者與年份；保存實際命中書目，主張尚未交叉核對。",
+    "receipt_path": "artifacts/kb2-theory-v3/resume-source-lookups.json"
+  },
+  "limitations_zh": "不以書目命中證明主張；主張待原著交叉核對。",
+  "metadata_licence_zh": "Metadata only; licence UNKNOWN",
+  "doi": "10.1068/a3739",
+  "venue_or_publisher": "Environment and Planning A: Economy and Space"
+}

@@ -1,0 +1,107 @@
+{
+  "id": "KU-MOR-039",
+  "domain": "MOR",
+  "subtopic": "周邊式、合院、板樓、點式、連棟與基座塔樓",
+  "type": "concept",
+  "title_zh": "周邊式、合院、板樓、點式、連棟與基座塔樓｜概念邊界",
+  "title_en": "Building typologies and trade-offs — Conceptual boundaries",
+  "summary_zh": "周邊式街廓、合院、板樓、點式住宅、連棟和基座塔樓會以不同方式安排街牆、入口與共享空間。 類型過程提供歷史變化視角，新加坡公共住宅則是特定政策和生活脈絡下的高層案例。 比較方案需另檢查日照、通風、戶型及公共空間管理。",
+  "key_points_zh": [
+    "建築類型應連結其街道界面、內部共享空間與周邊關係。",
+    "適用於住宅、混合使用和舊建築轉用的形式選擇。",
+    "限制：沒有日照、通風與可達性分析時，不以類型印象判定優劣。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "新加坡公共住宅提供高層生活的地方研究案例；不能把同樣高度當作跨城市接受程度。",
+        "library_id": "YUE05",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "新加坡",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "Caniggia 的類型過程論把建築類型讀作長期累積與轉變的結果，類型名稱須回到街道和地塊脈絡理解。",
+        "library_id": "CANIGGIA",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "義大利",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "先定公共空間和出入口，再比對不同型態的街牆、日照和共享空間。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "先定公共空間和出入口，再比對不同型態的街牆、日照和共享空間。",
+      "tradeoff_zh": "此選項把「周邊式、合院、板樓、點式、連棟與基座塔樓｜概念邊界」的工作放在新加坡公共住宅提供高層生活的地方研究案例；不能把同樣高度當作跨城市接受程度上；需要承擔的協調或維護代價則由「類型名不能替代朝向、構造、住戶密度和公共管理的分析」界定。",
+      "library_ids": [
+        "YUE05",
+        "CANIGGIA"
+      ]
+    },
+    {
+      "option_zh": "周邊式可形成連續邊界；板樓易獲通風但可能產生空隙；塔樓釋放地面但高度集中。",
+      "tradeoff_zh": "「周邊式、合院、板樓、點式、連棟與基座塔樓｜概念邊界」採用「周邊式可形成連續邊界；板樓易獲通風但可能產生空隙；塔樓釋放地面但高度集中」時，得失要沿著新加坡公共住宅提供高層生活的地方研究案例；不能把同樣高度當作跨城市接受程度檢查；類型名不能替代朝向、構造、住戶密度和公共管理的分析。",
+      "library_ids": [
+        "YUE05",
+        "CANIGGIA"
+      ]
+    }
+  ],
+  "applies_when_zh": "適用於住宅、混合使用和舊建築轉用的形式選擇。",
+  "not_applicable_when_zh": "沒有日照、通風與可達性分析時，不以類型印象判定優劣。",
+  "debates_zh": "類型名不能替代朝向、構造、住戶密度和公共管理的分析。",
+  "sources": [
+    {
+      "library_id": "YUE05",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "CANIGGIA",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "亞洲高層生活；義大利類型形態學",
+  "region": "新加坡；義大利",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "周邊式、合院、板樓、點式、連棟與基座塔樓"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "周邊式、合院、板樓、點式、連棟與基座塔樓"
+    },
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.330J Theory of City Form",
+      "topic": "周邊式、合院、板樓、點式、連棟與基座塔樓"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban form and density",
+      "topic": "周邊式、合院、板樓、點式、連棟與基座塔樓"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-MOR-040",
+    "KU-MOR-041",
+    "KU-MOR-042"
+  ],
+  "counter_unit_ids": [
+    "KU-MOR-043"
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "id": "KU-WAT-069",
+  "domain": "WAT",
+  "subtopic": "潮汐與河口地景",
+  "type": "design_principle",
+  "title_zh": "把河岸公共性和安全退縮一起設計",
+  "title_en": "把河岸公共性和安全退縮一起設計",
+  "summary_zh": "都市河岸同時承擔通行、生態、航運和防洪功能，岸邊的活動位置需要回應水位與維護限制。沿海風險文獻指出暴露取決於地理位置和防護條件；區域洪水研究則要求在更大水系內檢視岸線。公共通行不應以遮蔽危險資訊為代價。",
+  "key_points_zh": [
+    "退縮空間可以承接水位變化，但其使用規則需明確。",
+    "河岸邊界要同時考慮救援和設施維護通道。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "library_id": "VANVLIET2015",
+        "claim_zh": "沿海風險文獻指出暴露取決於地理位置和防護條件；區域洪水研究則要求在更大水系內檢視岸線。",
+        "effect_or_value": "公共通行不應以遮蔽危險資訊為代價。",
+        "study_design": "區域洪水治理研究",
+        "context_region": "荷蘭 Rotterdam–Rijnmond",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "library_id": "ZEVENBERGEN2008",
+        "claim_zh": "摘要指出都市洪水管理牽涉政治、社會經濟與環境變化，且易受不同空間與時間尺度的回饋影響；作者也明言系統方法的落地仍有未知因素；本單元 KU-WAT-069 對照「都市河岸同時承擔通行、生態、航運和防洪功能，岸邊的活動位置需要回應水位與維護限制」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "ABSTRACT_REVIEW",
+        "effect_or_value": null,
+        "study_design": "時空尺度與複雜系統的框架分析",
+        "context_region": "跨尺度都市水治理",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "在剖面展示日常和高水位下的可用帶。",
+    "把安全告示和季節性封閉方案納入設計。"
+  ],
+  "applies_when_zh": "適用於河口、港區和潮汐水岸的公共空間。",
+  "not_applicable_when_zh": "不適用於未經安全審查即將低窪岸帶開放為全天候通道。",
+  "debates_zh": "公共可達和洪水安全可能衝突，需由地方使用者和管理機構共同處理。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "VANVLIET2015",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "ZEVENBERGEN2008",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "河岸韌性公共空間",
+  "region": "全球沿海地區；荷蘭 Rotterdam–Rijnmond",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "潮汐與河口地景"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Sustainable Futures by Design",
+      "topic": "潮汐與河口地景"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0"
+}

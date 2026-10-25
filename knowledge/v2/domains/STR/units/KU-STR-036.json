@@ -1,0 +1,80 @@
+{
+  "id": "KU-STR-036",
+  "domain": "STR",
+  "subtopic": "交叉口密度",
+  "type": "design_principle",
+  "title_zh": "交叉口密度：設計原則與取捨",
+  "title_en": "Intersection density: Design principle and trade-off",
+  "summary_zh": "將節點密度與可過街性分開設計；增加路徑選擇時同步處理視距、轉角、號誌和弱勢使用者等待。關鍵取捨是四岔路口、T 字口、廣場型交會與立體交叉提供不同衝突和轉向成本，不能只按節點個數評分。執行前應按實際速度、目的地、行程和使用者能力檢查：固定研究邊界與節點定義，區分可穿越路口、立體交叉和不可通行節點，再比較不同尺度的密度。",
+  "key_points_zh": [
+    "操作原則：交叉口數量是路網可選路徑的簡化指標，實際效益仍受路口型態、過街條件、交通量和街段方向影響",
+    "操作原則：將節點密度與可過街性分開設計；增加路徑選擇時同步處理視距、轉角、號誌和弱勢使用者等待"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "交叉口密度：設計原則與取捨｜Mymensingh 街段比較發現，僅以組態值解釋行人量的相關性偏弱，商業土地使用提供了更強的解釋線索；摘要未列係數",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "AZIZ2018",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "交叉口密度：設計原則與取捨｜街道結構可以用連接與階層關係比較；不同網形的可達性與交通作用需另外計算",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "MARSHALL05",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "將節點密度與可過街性分開設計；增加路徑選擇時同步處理視距、轉角、號誌和弱勢使用者等待"
+  ],
+  "applies_when_zh": "在交叉口密度的方案比較中，可用「交叉口數量是路網可選路徑的簡化指標，實際效益仍受路口型態、過街條件、交通量和街段方向影響」整理空間配置取捨，並註明採用的服務與使用者目標。",
+  "not_applicable_when_zh": "「交叉口數量是路網可選路徑的簡化指標，實際效益仍受路口型態、過街條件、交通量和街段方向影響」不能直接轉成法規或最佳方案判斷，尤其不能忽略「交叉口密度與步行指標的關聯不會自動證明行人安全；多路口也可能增加衝突暴露或延長等候」指出的限制。",
+  "debates_zh": "交叉口密度與步行指標的關聯不會自動證明行人安全；多路口也可能增加衝突暴露或延長等候；檢視「交叉口密度：設計原則與取捨」的方案取捨時，還需判斷「將節點密度與可過街性分開設計；增加路徑選擇時同步處理視距、轉角、號誌和弱勢使用者等待」會如何改變方案結論。",
+  "sources": [
+    {
+      "library_id": "AZIZ2018",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "MARSHALL05",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "步行路網與街道網絡分析",
+  "region": "跨地域理論或實務脈絡；來源地區依引用條目判讀",
+  "curriculum_refs": [
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "交叉口密度：課綱對應主題"
+    },
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "交叉口密度：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-STR-033",
+    "KU-STR-034",
+    "KU-STR-035",
+    "KU-STR-037",
+    "KU-STR-038",
+    "KU-STR-039",
+    "KU-STR-040"
+  ]
+}

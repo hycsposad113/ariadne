@@ -1,0 +1,42 @@
+{
+  "id": "ROTTERDAM_KATENDRECHT2026",
+  "title": "Nieuwbouw op Katendrecht",
+  "authors": [
+    "Gemeente Rotterdam"
+  ],
+  "year": null,
+  "venue_or_publisher": "Gemeente Rotterdam",
+  "doi": null,
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "OFFICIAL_CITY_WEBPAGE",
+  "tradition": "官方或專業機構公開頁面；直接來源核對",
+  "region": "荷蘭鹿特丹 Katendrecht",
+  "method": "直接檢視官方或專業機構公開頁面；非獨立學術成效評估",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "市府頁面列出 Katendrecht 住宅建設、Bay House、Provimi 舊廠轉作舞蹈中心及 Santos 倉庫攝影博物館等資訊。",
+      "strength": "CASE_EVIDENCE",
+      "scope_zh": "頁面同時包含已存在用途與未來建設計畫；規劃戶數不等於已交付住房。",
+      "assessment_basis": "DIRECT_SOURCE_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Official webpage or public report (direct review)",
+    "query": {
+      "title": "Nieuwbouw op Katendrecht",
+      "author": "Gemeente Rotterdam",
+      "year": null,
+      "api_query": "Read-only page reviewed directly: https://www.rotterdam.nl/nieuwbouw-op-katendrecht"
+    },
+    "matched_record_id": "https://www.rotterdam.nl/nieuwbouw-op-katendrecht",
+    "checked_at_utc": "2026-10-08T14:27:24Z",
+    "match_notes_zh": "直接核對機構公開頁面或報告；此狀態不是 Crossref 書目驗證。"
+  },
+  "limitations_zh": "頁面同時包含已存在用途與未來建設計畫；規劃戶數不等於已交付住房。",
+  "critique_relationship_zh": "本記錄不宣稱與其他書目存在直接互引或逐一反駁關係。",
+  "metadata_licence_zh": "官方或機構公開資料；個別文本的再利用授權未核驗。"
+}

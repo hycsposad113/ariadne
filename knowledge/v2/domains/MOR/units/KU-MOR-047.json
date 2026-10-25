@@ -1,0 +1,107 @@
+{
+  "id": "KU-MOR-047",
+  "domain": "MOR",
+  "subtopic": "細粒度與大尺度開發",
+  "type": "theory",
+  "title_zh": "細粒度與大尺度開發｜理論主張",
+  "title_en": "Fine grain and megaprojects — Theoretical claim",
+  "summary_zh": "細粒度街區與大宗地整體開發各自對應不同建造、土地整合和公共通行制度。 細粒度街區與大宗地整體開發各自對應不同建造、土地整合和公共通行制度。 粒度反映宗地大小、街道間距和可分期變更程度。",
+  "key_points_zh": [
+    "細粒度街區與大宗地整體開發各自對應不同建造、土地整合和公共通行制度。 粒度反映宗地大小、街道間距和可分期變更程度。",
+    "適用於港區再開發、分期開發和大型基地規劃。",
+    "限制：沒有土地權屬和通行規則資料時，不能僅由地圖推斷實際公共性。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "日常用途、街道互動及多樣性可作城市生活的討論起點；不能從外觀推定安全或社群。",
+        "library_id": "JACOBS61",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "美國",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "研究指出擴張前緣出現土地零碎化、囤置及長期閒置；制度執行是作者提出的重要解釋，不能外推到所有城市。",
+        "library_id": "KOROSO2020",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "阿迪斯阿貝巴，衣索比亞",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "比較內部街網、地塊面積分布和公共通道，而非只比街廓外框。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "比較內部街網、地塊面積分布和公共通道，而非只比街廓外框。",
+      "tradeoff_zh": "此選項把「細粒度與大尺度開發｜理論主張」的工作放在日常用途、街道互動及多樣性可作城市生活的討論起點；不能從外觀推定安全或社群上；需要承擔的協調或維護代價則由「小街廓不必然更包容，大型開發也不必然封閉；管理方式是中介條件」界定。",
+      "library_ids": [
+        "JACOBS61",
+        "KOROSO2020"
+      ]
+    },
+    {
+      "option_zh": "細分小地塊通常提供更多介面；大地塊可集中設施，但需補足連通與公共性。",
+      "tradeoff_zh": "「細粒度與大尺度開發｜理論主張」的主要代價不是抽象的建造成本，而是小街廓不必然更包容，大型開發也不必然封閉；管理方式是中介條件；因此先以日常用途、街道互動及多樣性可作城市生活的討論起點；不能從外觀推定安全或社群作方案比較條件。",
+      "library_ids": [
+        "JACOBS61",
+        "KOROSO2020"
+      ]
+    }
+  ],
+  "applies_when_zh": "適用於港區再開發、分期開發和大型基地規劃。",
+  "not_applicable_when_zh": "沒有土地權屬和通行規則資料時，不能僅由地圖推斷實際公共性。",
+  "debates_zh": "小街廓不必然更包容，大型開發也不必然封閉；管理方式是中介條件。",
+  "sources": [
+    {
+      "library_id": "JACOBS61",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "KOROSO2020",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "街道生活與多樣性；非洲土地使用與都市擴張",
+  "region": "美國；阿迪斯阿貝巴，衣索比亞",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "細粒度與大尺度開發"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "細粒度與大尺度開發"
+    },
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.330J Theory of City Form",
+      "topic": "細粒度與大尺度開發"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban form and density",
+      "topic": "細粒度與大尺度開發"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-MOR-048",
+    "KU-MOR-049",
+    "KU-MOR-050"
+  ],
+  "counter_unit_ids": [
+    "KU-MOR-051"
+  ]
+}

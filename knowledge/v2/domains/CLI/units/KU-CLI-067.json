@@ -1,0 +1,74 @@
+{
+  "id": "KU-CLI-067",
+  "domain": "CLI",
+  "subtopic": "高密度城市的氣候設計",
+  "type": "critique",
+  "title_zh": "高密度綠化不保證資源在熱脆弱群體間公平",
+  "title_en": "高密度綠化不保證資源在熱脆弱群體間公平",
+  "summary_zh": "城市綠化和高反射材料可改善部分熱環境，但投資位置、樹木維護和使用權會決定誰得到實際保護。綠地冷卻回顧提供效果方向，戶外舒適研究則強調使用者和場所差異。方案評估需把降溫服務分布和熱暴露人群疊合。",
+  "key_points_zh": [
+    "區域平均綠量可能掩蓋缺少遮蔭的步行路段。",
+    "私人庭院冷卻不等於公共通行空間受益。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "library_id": "ALITOUDERT2006",
+        "claim_zh": "書目確認文章以數值研究考察街谷高寬比與朝向；未取得摘要中的參數範圍，故不產生可直接套用的 H/W 數值；本單元 KU-CLI-067 對照「城市綠化和高反射材料可改善部分熱環境，但投資位置、樹木維護和使用權會決定誰得到實際保護」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "數值研究",
+        "context_region": "炎熱乾燥氣候",
+        "locator": null
+      },
+      {
+        "library_id": "NIKOLOPOULOU2003",
+        "claim_zh": "綠地冷卻回顧提供效果方向，戶外舒適研究則強調使用者和場所差異。",
+        "effect_or_value": "方案評估需把降溫服務分布和熱暴露人群疊合。",
+        "study_design": "戶外熱舒適研究",
+        "context_region": "都市公共空間",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "對照熱暴露和公共綠蔭的地理分布。",
+    "將維護責任和可達性納入熱適應計畫。"
+  ],
+  "applies_when_zh": "適用於熱脆弱社區和公共空間策略審查。",
+  "not_applicable_when_zh": "不適用於僅以植栽覆蓋率宣稱公平改善。",
+  "debates_zh": "冷卻投資可能伴隨租金和土地價值變化，公平性需另做社會分析。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "ALITOUDERT2006",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "NIKOLOPOULOU2003",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "熱適應公平批判",
+  "region": "跨地域城鎮研究；都市公共空間",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "高密度城市的氣候設計"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": null,
+      "topic": "高密度城市的氣候設計"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0"
+}

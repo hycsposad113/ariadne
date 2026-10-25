@@ -1,0 +1,97 @@
+{
+  "id": "KU-CLI-054",
+  "domain": "CLI",
+  "subtopic": "日照與遮陰",
+  "type": "value_range",
+  "title_zh": "日照標準要按窗面和規劃用途核對",
+  "title_en": "日照標準要按窗面和規劃用途核對",
+  "summary_zh": "公共與私人戶外空間的日照需按日期、時段和可用面積計算。倫敦草案轉述 BRE 建議，在 3 月 21 日至少半數空間獲得兩小時日照，並鼓勵座椅或遊戲區放在較容易受日照的位置。該值是英國指引中的建議，不代表 M4H 規則。",
+  "key_points_zh": [
+    "既有窗戶保護和新公共空間規劃回答不同問題。",
+    "年度可能日照和固定日期日照不能混算。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "library_id": "GLA_HOUSING_DESIGN_DRAFT",
+        "claim_zh": "GLA 草案指引列出臥室 ADF 1%、客廳 1.5%，並建議戶外空間於 3 月 21 日至少有兩小時日照覆蓋一半面積；該頁將 BRE 預設數值標為 advisory。",
+        "claim_verification": "OFFICIAL_PRIMARY_SOURCE_REVIEW",
+        "effect_or_value": null,
+        "study_design": "地方政府草案設計指引",
+        "context_region": "London, United Kingdom",
+        "locator": "Housing Design draft, section C5.3, lines 1011–1031 and 1041–1043"
+      },
+      {
+        "library_id": "NG10",
+        "claim_zh": "高密度設計必須同時比較社會與環境條件；不能由密度數字直接推出唯一建築型態；本單元 KU-CLI-054 對照「公共與私人戶外空間的日照需按日期、時段和可用面積計算」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "編輯專書／案例綜述",
+        "context_region": "香港、亞洲",
+        "locator": null
+      },
+      {
+        "library_id": "YE14",
+        "claim_zh": "荷蘭新舊城案例將路網整合、密度與混合用途聯合診斷，初步行為資料檢驗並非通用因果模型；本單元 KU-CLI-054 對照「公共與私人戶外空間的日照需按日期、時段和可用面積計算」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "ABSTRACT_REVIEW",
+        "effect_or_value": null,
+        "study_design": "GIS／GPS 案例檢驗",
+        "context_region": "荷蘭",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "保存指引版本、窗面方向和計算假設。",
+    "將住宅、庭院和公共廣場分開評估。"
+  ],
+  "applies_when_zh": "適用於理解日照指南的指標結構。",
+  "not_applicable_when_zh": "數值待公開原文核對；不是本基地法規。",
+  "debates_zh": "BRE 指南是專業評估參考，其數值不自動成為其他司法管轄區的法規。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "GLA_HOUSING_DESIGN_DRAFT",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "NG10",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "YE14",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "日照指南與規劃工具",
+  "region": "United Kingdom；Sweden",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "日照與遮陰"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": null,
+      "topic": "日照與遮陰"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0",
+  "values": [
+    {
+      "name": "倫敦草案公共戶外空間日照",
+      "range": "至少 2 h；至少 50",
+      "unit": "h on 21 March / % of space",
+      "context": "用途：以「倫敦草案公共戶外空間日照」作為來源情境參照；GLA Housing Design 草案轉述 BRE 建議：3 月 21 日至少一半戶外空間取得兩小時日照 這不是本基地法規；來源所列地域：London, United Kingdom。",
+      "library_id": "GLA_HOUSING_DESIGN_DRAFT"
+    }
+  ]
+}

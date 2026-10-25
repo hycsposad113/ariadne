@@ -1,0 +1,84 @@
+{
+  "id": "KU-STR-021",
+  "domain": "STR",
+  "subtopic": "街道斷面",
+  "type": "critique",
+  "title_zh": "街道斷面：批評與適用限制",
+  "title_en": "Street cross-sections: Critique and boundary",
+  "summary_zh": "一張典型斷面可能遮蔽沿線差異；把名義寬度當作實際可用寬度也會忽略家具、裝卸、排隊和通行障礙。另一個需要同時檢查的面向是斷面同時分配移動、停留、植栽、排水、停靠和門前活動的橫向空間，總寬度只是眾多條件之一。替代做法可以是以連續步行帶為底，將停靠、植栽與短暫停留放在不切斷無障礙動線的位置。",
+  "key_points_zh": [
+    "批評焦點：斷面同時分配移動、停留、植栽、排水、停靠和門前活動的橫向空間，總寬度只是眾多條件之一",
+    "批評焦點：一張典型斷面可能遮蔽沿線差異；把名義寬度當作實際可用寬度也會忽略家具、裝卸、排隊和通行障礙"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "街道斷面：批評與適用限制｜從街道案例比較尺度、界面與使用；案例特徵不能直接變成通用路寬",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "AJACOBS93",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "街道斷面：批評與適用限制｜共享空間把道路交通、行人活動與地方角色放在同一設計問題中；書目與摘要未提供可普遍套用的安全數值",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "HAMILTONBAILLIE08",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "把「一張典型斷面可能遮蔽沿線差異；把名義寬度當作實際可用寬度也會忽略家具、裝卸、排隊和通行障礙」轉成一項可觀察的風險，並在替代方案中檢查「斷面同時分配移動、停留、植栽、排水、停靠和門前活動的橫向空間，總寬度只是眾多條件之一」是否改變其影響。"
+  ],
+  "applies_when_zh": "若街道斷面方案可能受「一張典型斷面可能遮蔽沿線差異；把名義寬度當作實際可用寬度也會忽略家具、裝卸、排隊和通行障礙」影響，可用「斷面同時分配移動、停留、植栽、排水、停靠和門前活動的橫向空間，總寬度只是眾多條件之一」安排實地觀察或替代方案比較。",
+  "not_applicable_when_zh": "這項批評提出的是「一張典型斷面可能遮蔽沿線差異；把名義寬度當作實際可用寬度也會忽略家具、裝卸、排隊和通行障礙」的風險，不能據此推定所有替代方案都更好，也不能代替本地使用者測試。",
+  "debates_zh": "一張典型斷面可能遮蔽沿線差異；把名義寬度當作實際可用寬度也會忽略家具、裝卸、排隊和通行障礙；檢視「街道斷面：批評與適用限制」的反例檢查時，還需判斷「一張典型斷面可能遮蔽沿線差異；把名義寬度當作實際可用寬度也會忽略家具、裝卸、排隊和通行障礙」會如何改變方案結論。",
+  "sources": [
+    {
+      "library_id": "AJACOBS93",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "HAMILTONBAILLIE08",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "街道空間與道路設計",
+  "region": "跨地域理論或實務脈絡；來源地區依引用條目判讀",
+  "curriculum_refs": [
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.330J Theory of City Form",
+      "topic": "街道斷面：課綱對應主題"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "街道斷面：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-STR-017",
+    "KU-STR-018",
+    "KU-STR-019",
+    "KU-STR-020",
+    "KU-STR-022",
+    "KU-STR-023",
+    "KU-STR-024"
+  ],
+  "counter_unit_ids": [
+    "KU-STR-017",
+    "KU-STR-018"
+  ]
+}

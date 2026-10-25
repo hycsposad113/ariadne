@@ -1,0 +1,66 @@
+{
+  "id": "KU-PUB-028",
+  "domain": "PUB",
+  "subtopic": "活躍立面",
+  "type": "method",
+  "title_zh": "統合分析結果的使用邊界",
+  "title_en": "Reading pooled movement evidence",
+  "summary_zh": "空間句法統合分析綜合不同城市與不同測量方法的證據。跨研究比較適合辨認大方向，不代表各地人流可套用同一效果。統合文獻收錄邊界也會影響其結論。常見爭論是跨研究可比性不足是否會削弱合併估計。",
+  "key_points_zh": [
+    "空間句法統合分析綜合不同城市與不同測量方法的證據",
+    "跨研究比較適合辨認大方向，不代表各地人流可套用同一效果"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "空間句法統合分析綜合不同城市與不同測量方法的證據。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "跨地域",
+        "library_id": "SHARMIN17",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW",
+        "limitations_zh": "常見爭論是跨研究可比性不足是否會削弱合併估計。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "查閱統合分析時同時閱讀研究異質性，而非只抄一個總相關係數。"
+  ],
+  "applies_when_zh": "適用於選擇是否進一步做本地人流觀測。",
+  "not_applicable_when_zh": "不適合當作施工前的個案預測數據。",
+  "debates_zh": "常見爭論是跨研究可比性不足是否會削弱合併估計。",
+  "sources": [
+    {
+      "library_id": "SHARMIN17",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "ZUKIN95",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "空間語法整合分析",
+  "region": "跨地域",
+  "curriculum_refs": [
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "活躍立面"
+    },
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "活躍立面"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-PUB-027",
+    "KU-PUB-029"
+  ]
+}

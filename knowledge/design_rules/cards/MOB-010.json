@@ -1,0 +1,88 @@
+{
+  "id": "MOB-010",
+  "title_zh": "穿越車道與停車先評估",
+  "title_en": "Through traffic and parking assessment",
+  "domain": "mobility",
+  "stages": [
+    "S2",
+    "S3",
+    "S4",
+    "S7"
+  ],
+  "statement_zh": "提議車道前列出物流、緊急、無障礙接送和普通通勤需求，比較公共交通與共享停車，不從辦公用途直接推定固定車位數。",
+  "rationale_zh": "車位需求和日常活動會隨交通選擇與管理改變。",
+  "applies_when": {
+    "land_use": [
+      "office",
+      "industrial",
+      "mixed"
+    ],
+    "mode": [
+      "motor_vehicle"
+    ]
+  },
+  "parameters": [
+    {
+      "name": "parking_variants_to_compare",
+      "value": 2,
+      "range": null,
+      "unit": "variants",
+      "provenance": "ASSUMED_COMMANDER",
+      "source_ids": [],
+      "authority_ref": null,
+      "status": "PROPOSED_PENDING_FOUNDER",
+      "rationale_zh": "指揮官提出的敏感性試算值，文獻未提供此數值；須 Founder 確認、地方資料及確定性驗證，未生效。"
+    }
+  ],
+  "check": {
+    "method_zh": "記錄需求來源、假設、到入口路徑；無本地停車政策不宣稱合規。",
+    "inputs": [
+      "凍結幾何／路網與 hash",
+      "已接受專案條件與版本",
+      "卡片參數與版本"
+    ],
+    "output": "檢查值、單位、方法、有效性、差異與限制；不自動採納",
+    "implementation_status": "SPECIFICATION_ONLY"
+  },
+  "check_unavailable_reason_zh": null,
+  "design_responses": [
+    {
+      "option": "1",
+      "action_zh": "邊緣共用停車與內部慢行",
+      "source_ids": [
+        "EWING10"
+      ],
+      "tradeoff_zh": "入口後仍有搬運需求。"
+    },
+    {
+      "option": "2",
+      "action_zh": "受控穿越車道服務特定用途",
+      "source_ids": [
+        "MARSHALL05"
+      ],
+      "tradeoff_zh": "減少公共空間且新增衝突。"
+    }
+  ],
+  "evidence_level": "ACADEMIC",
+  "evidence_strength": "MIXED",
+  "sources": [
+    {
+      "library_id": "EWING10",
+      "claim_id": "C1",
+      "support_scope_zh": "文獻支持概念與比較角度；本卡具體操作是設計推導，試算值及專案約束不是文獻的普適結論。"
+    },
+    {
+      "library_id": "MARSHALL05",
+      "claim_id": "C1",
+      "support_scope_zh": "文獻支持概念與比較角度；本卡具體操作是設計推導，試算值及專案約束不是文獻的普適結論。"
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "enforcement": "CANDIDATE_ONLY",
+  "authority_ref": null,
+  "debates_zh": "分離與共享的效果依速度、流量、行人脆弱性和管理而變；CROW 版本與細則未查證，不能宣稱規範合規。 已查證書目與主張的查閱層級見 library；不是逐頁核驗或本基地因果結論。",
+  "context_validity_zh": "荷蘭／丹麥／德國自行車研究支持整體系統，非 M4H 特定距離或寬度。港區貨運、消防、無障礙與兒童需求需地方資料。",
+  "exceptions_zh": "卡片不可替代現行法規、產權、無障礙或已接受 D1/D2。缺必要資料即回報 UNKNOWN；例外須由 Founder 明確決定並保留原結果。",
+  "version": "0.2.0",
+  "local_context_refs": []
+}

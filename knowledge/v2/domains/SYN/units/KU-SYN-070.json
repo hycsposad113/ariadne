@@ -1,0 +1,83 @@
+{
+  "id": "KU-SYN-070",
+  "domain": "SYN",
+  "subtopic": "Place Syntax",
+  "type": "value_range",
+  "title_zh": "1,200 m 擴展步行網路分析情境",
+  "title_en": "1,200 m extended walking network scenario",
+  "summary_zh": "1,200 m 可作較長步行距離的擴展分析情境，用來查看跨鄰里連接和目的地分布是否改變模型結果。這個距離需依旅次目的、行走時間和障礙情境設定。它不是固定的空間語法半徑。此處的擴展步行網路的比較尺度是附來源的比較參照，不是本基地法規。",
+  "key_points_zh": [
+    "跨鄰里尺度容易受到道路邊界和大型障礙影響。",
+    "不同目的的步行旅次不宜用單一距離代表。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "城市尺度和鄰里尺度的旅運行為可能不同，擴大分析範圍需另作尺度測試。",
+        "library_id": "NAESS12",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": "約 1,200 m",
+        "study_design": "跨鄰里步行尺度測試",
+        "context_region": "北歐城市研究",
+        "locator": null,
+        "limitations_zh": " 查核：1,200 m 尺度非 Næss（2012）明確門檻。"
+      },
+      {
+        "claim_zh": "交通選擇同時受土地使用、旅次目的和城市形態影響。",
+        "library_id": "CERVERO97",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "北歐交通與可及性研究",
+        "context_region": "美國",
+        "locator": null
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "擴展步行網路的比較尺度",
+      "range": "約 1,200 m",
+      "unit": "公尺",
+      "context": "較長步行旅次和跨鄰里可及性分析情境；用途：觀察較長網路範圍如何改變整合度或目的地可及性。；「擴展步行網路的比較尺度」僅供來源脈絡內的比較，不是本基地法規、M4H 門檻或通用配額；來源所列地域：北歐。",
+      "library_id": "NAESS12"
+    }
+  ],
+  "design_implications_zh": [
+    "當方案需檢視跨鄰里的目的地連接，可將 1,200 m 作敏感度模型之一並與本地旅次資料核對。"
+  ],
+  "applies_when_zh": "分析跨鄰里步行連接的尺度敏感度時，可試算 1,200 m 並與本地旅次資料核對。",
+  "not_applicable_when_zh": "此距離不代表所有居民可達或願意步行的範圍，也不能作為城市服務配額。",
+  "debates_zh": "擴大範圍能增加網路連通資訊，卻可能弱化近距離環境品質和群體差異。",
+  "sources": [
+    {
+      "library_id": "NAESS12",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "CERVERO97",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "城市尺度與步行可及性",
+  "region": "較長步行旅次和跨鄰里可及性分析情境",
+  "curriculum_refs": [
+    {
+      "school": "Harvard GSD",
+      "course": "Cities by Design",
+      "topic": "Place Syntax：課綱對應主題"
+    },
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.330J Theory of City Form",
+      "topic": "Place Syntax：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-SYN-052"
+  ]
+}

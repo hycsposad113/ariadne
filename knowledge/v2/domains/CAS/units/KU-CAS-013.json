@@ -1,0 +1,96 @@
+{
+  "id": "KU-CAS-013",
+  "domain": "CAS",
+  "subtopic": "港區轉型案例",
+  "type": "case",
+  "title_zh": "Canary Wharf：金融中心成形與住宅用途遲到",
+  "title_en": "Canary Wharf: The Financial District Arrives Before Housing",
+  "summary_zh": "Canary Wharf 位於倫敦 Docklands 的前港區，今天以金融和商業用途為主，並逐步加入住宅與日常生活設施。Canary Wharf Group 的 2021 年園區導覽記錄 Wood Wharf 的新住宅群如何面向舊碼頭水系，提供了開發商對新街區形象與水岸設計的說法。Church 對 Docklands 交通與再生的研究提供區域尺度的學術脈絡，但不能單獨代表 Wharf 內各地塊的社會結果。",
+  "key_points_zh": [
+    "把 Canary Wharf 的金融功能與較大的 London Docklands 規劃範圍區分開來。",
+    "濱水公共空間的開放、管理和抵達方式應與高密度辦公就業量分開評估。"
+  ],
+  "evidence": {
+    "strength": "CASE_EVIDENCE",
+    "findings": [
+      {
+        "claim_zh": "Church 的研究以 London Docklands 的交通與都市再生為主題，提供區域發展脈絡；本條目不把其研究直接當作 Wharf 地塊成效。",
+        "effect_or_value": "交通與再生研究主題；區域尺度",
+        "study_design": "都市再生研究",
+        "context_region": "英國倫敦 Docklands",
+        "library_id": "CHURCH1990",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "Canary Wharf Group 2021 年導覽介紹 Wood Wharf 的新住宅群及其與水道、濱水步道的設計關係。",
+        "effect_or_value": "開發商介紹的住宅建築與景觀配置",
+        "study_design": "園區導覽資料",
+        "context_region": "英國倫敦 Isle of Dogs",
+        "library_id": "CANARY_WHARF_GROUP2021",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "檢查高密度金融就業區和週邊住宅街區是否由可理解、連續的步行路徑及公共交通節點相連。",
+    "記錄河岸公共空間的實際開放時間、入口條件、活動限制和維護責任，以辨別可達與可用之別。"
+  ],
+  "applies_when_zh": "舊港口轉型為國際商務中心，同時面對住宅混合與公共岸線連續性問題時。",
+  "not_applicable_when_zh": "開發區以工業生產為主，或不具有大型交通投資與單一主導開發者時。",
+  "debates_zh": "Canary Wharf 顯示大型金融開發可透過交通與地標投資重塑城市中心，但辦公主導也可能造成非上班時段人流薄弱，且周邊住房、就業和公共利益未必同步受益。開發商材料強調新增用途與目的地形象，應和非上班時段活動及公共空間管理資料一起閱讀。",
+  "sources": [
+    {
+      "library_id": "CANARY_WHARF_GROUP2021",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "CHURCH1990",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "英國企業主導型港區再生與全球金融中心建設",
+  "region": "西歐／英國倫敦",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": null,
+      "topic": "港區轉型與交通網絡"
+    },
+    {
+      "school": "MIT",
+      "course": null,
+      "topic": "城市開發融資、企業與國家力量"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": null,
+      "topic": "公共空間私有化與可及性"
+    }
+  ],
+  "case": {
+    "location": "倫敦 Isle of Dogs，英國",
+    "period": "前港區轉型後形成金融與商業中心；2021 年園區資料介紹 Wood Wharf 住宅區",
+    "area_ha": null,
+    "fsi": null,
+    "gsi": null,
+    "program_mix": "金融及商辦、零售、餐飲、公共活動、交通設施與逐步增加的住宅；全區比例未核實。",
+    "key_strategies_zh": [
+      "以金融服務和高層辦公作為更新引擎，配合區域鐵路及地鐵連接。",
+      "後續在 Wood Wharf 引入住宅、濱水景觀和街道層級服務，擴展原本商務區的使用時段。"
+    ],
+    "outcomes_zh": [
+      "園區導覽資料介紹 Wood Wharf 的住宅建築、濱水花園和步道；此為開發商公開的地區資訊。",
+      "學術研究將交通和 Docklands 再生放在同一分析脈絡，指出區域連接是理解大型更新的重要面向。"
+    ],
+    "critiques_zh": [
+      "公司資料的主要目的為說明發展歷程，不能證明濱水空間對所有人均同樣開放。",
+      "辦公導向可能使夜間和週末活動弱於工作日，需實地觀察與使用者資料驗證。"
+    ]
+  },
+  "version": "v2.0"
+}

@@ -1,0 +1,81 @@
+{
+  "id": "KU-HAR-011",
+  "domain": "HAR",
+  "subtopic": "工業遺產與 adaptive reuse",
+  "type": "typology",
+  "title_zh": "再利用與拆除重建是待比較的決策路徑",
+  "title_en": "Reuse and demolition are options to compare",
+  "summary_zh": "適應性再利用的決策研究把既有資產留用或拆除視為需要比較的方案，而不是預先指定的答案。可以把設計探索分成保留主體後調整、局部更換、以及拆除重建三條路徑。每一條都要說明結構安全、用途適配、投資條件與文化價值的證據缺口。安大略省的商業案例研究問題提醒，商業可行性具有市場地域性。",
+  "key_points_zh": [
+    "路徑分類是方案比較框架，不等於所有舊建築都值得保留。",
+    "商業可行性要回到當地成本、需求與制度條件。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "適應性再利用決策模型的研究目標是協助比較既有資產再用或拆除；它不保證任何個案可行。",
+        "effect_or_value": "兩類基本決策方向：再利用與拆除",
+        "study_design": "決策模型建構",
+        "context_region": "澳洲與英國實務脈絡",
+        "library_id": "BULLEN2011",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "安大略研究以建築翻修的商業可行性為問題，結果不能直接外推其他土地市場。",
+        "effect_or_value": "沒有可跨市場套用的單一財務結果",
+        "study_design": "商業案例研究",
+        "context_region": "加拿大安大略省",
+        "library_id": "SHIPLEY2006",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "在同一張比較表列出保留、局部改造與拆除重建的成本項目及未知項。"
+  ],
+  "applies_when_zh": "設計團隊需要公開呈現既有建築去留判斷時。",
+  "not_applicable_when_zh": "不適用於結構檢測或財務估算尚未完成的單棟核准。",
+  "debates_zh": "對保留價值的判斷可能與安全、碳、成本及地方記憶發生衝突。",
+  "sources": [
+    {
+      "library_id": "BULLEN2011",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "SHIPLEY2006",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "適應性再利用決策",
+  "region": "跨區域決策研究",
+  "curriculum_refs": [
+    {
+      "school": "Harvard GSD",
+      "course": null,
+      "topic": "Heritage reuse and redevelopment"
+    }
+  ],
+  "version": "v2.0",
+  "design_options": [
+    {
+      "option_zh": "保留主要結構並調整用途",
+      "tradeoff_zh": "保留既有空間特徵，但須確認結構、消防、採光和服務系統能否支援新用途。",
+      "library_ids": [
+        "BULLEN2011"
+      ]
+    },
+    {
+      "option_zh": "拆除後重建作為比較基準",
+      "tradeoff_zh": "可重新配置空間，卻可能失去既有構造與場所記憶；須用同一成本和碳口徑比較。",
+      "library_ids": [
+        "SHIPLEY2006"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "id": "GODSCHALK2003",
+  "title": "Urban Hazard Mitigation: Creating Resilient Cities",
+  "authors": [
+    "David R. Godschalk"
+  ],
+  "year": 2003,
+  "venue_or_publisher": "Natural Hazards Review",
+  "doi": "https://doi.org/10.1061/(asce)1527-6988(2003)4:3(136)",
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "災害減緩與韌性城市",
+  "region": "美國都市規劃脈絡",
+  "method": "規劃框架論述",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "題名與書目顯示文章討論城市災害減緩與韌性規劃；不提供特定基地的防洪標準。",
+      "strength": "THEORETICAL",
+      "scope_zh": "只支持此研究明確的議題、樣本地區與方法；不直接生成 M4H 數值、法規或工程容量。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref",
+    "query": {
+      "title": "Urban hazard mitigation: creating resilient cities",
+      "author": "Godschalk",
+      "year": 2003,
+      "api_query": "Crossref GET works?query.title=Urban hazard mitigation: creating resilient cities"
+    },
+    "matched_record_id": "10.1061/(asce)1527-6988(2003)4:3(136)",
+    "checked_at_utc": "2026-10-08T09:53:57Z",
+    "match_notes_zh": "以 Crossref 公開書目記錄比對書名、作者與年份；摘要文字未保存到 repository。"
+  },
+  "limitations_zh": "只保留書目與自行撰寫的範圍摘要；除標示 ABSTRACT_REVIEW 者外，內容未由摘要核對，沒有下載全文。",
+  "critique_relationship_zh": "本記錄不宣稱與其他書目存在直接互引或逐一反駁關係。",
+  "metadata_licence_zh": "公開 API 書目欄位；精確 metadata licence 未核驗，標 UNKNOWN。"
+}

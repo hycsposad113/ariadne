@@ -1,0 +1,93 @@
+{
+  "id": "KU-MOR-073",
+  "domain": "MOR",
+  "subtopic": "Spacematrix：FSI、GSI、OSR、L",
+  "type": "value_range",
+  "title_zh": "Spacematrix 中層周邊式案例範圍",
+  "title_en": "Spacematrix mid-rise perimeter cases",
+  "summary_zh": "這些是待交叉核對的比較區間，不是跨城可直接採用的密度指標或法定值。 先決定街道邊界、院落公私屬性與日照條件，再測試同一 FSI 下的不同建築深度。 記錄 西歐城市比較案例 與「中層周邊式街廓的形態比較」的量測分母，再和另一種尺度或用途並排比較。",
+  "key_points_zh": [
+    "中層周邊式街廓可由約 1.2–2.4 的 FSI、0.30–0.50 的 GSI 和約 3–6 的平均層數作比較假設，仍須回查原研究樣本。",
+    "這些是待交叉核對的比較區間，不是跨城可直接採用的密度指標或法定值。",
+    "先決定街道邊界、院落公私屬性與日照條件，再測試同一 FSI 下的不同建築深度。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "中層周邊式街廓可由約 1.2–2.4 的 FSI、0.30–0.50 的 GSI 和約 3–6 的平均層數作比較假設，仍須回查原研究樣本。",
+        "effect_or_value": "FSI 1.2–2.4；GSI 0.30–0.50；L 約 3–6",
+        "study_design": "跨案例尺度對照或明示假設的規劃計算",
+        "context_region": "西歐城市比較案例",
+        "library_id": "BERGHAUSERPONT2017",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "Abarca-Álvarez 等人以多變量分析描述歐洲城市織理的建成密度，指出量度方式會隨被選取的形態變數而變。",
+        "effect_or_value": null,
+        "study_design": "以人工智慧分析歐洲城市織理",
+        "context_region": "多個歐洲城市",
+        "library_id": "ABARCA2019",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW",
+        "limitations_zh": "研究不報告本單元的中層周邊式區間，僅支援比較時註明樣本口徑。"
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "Spacematrix 中層周邊式案例範圍",
+      "range": "FSI 1.2–2.4；GSI 0.30–0.50；L 約 3–6",
+      "unit": "FSI/GSI 無量綱；L 平均層數",
+      "context": "西歐城市比較案例；用途：中層周邊式街廓的形態比較；對照書目：BERGHAUSERPONT2017；適用於制度或形態比較，這不是本基地法規；來源所列地域：摘要未列案例城市。",
+      "library_id": "BERGHAUSERPONT2017"
+    }
+  ],
+  "design_implications_zh": [
+    "先決定街道邊界、院落公私屬性與日照條件，再測試同一 FSI 下的不同建築深度。",
+    "記錄 西歐城市比較案例 與「中層周邊式街廓的形態比較」的量測分母，再和另一種尺度或用途並排比較。"
+  ],
+  "applies_when_zh": "用於比較西歐城市比較案例的中層周邊式街廓的形態比較，並明示此數值的來源、年份和面積分母。",
+  "not_applicable_when_zh": "這些是待交叉核對的比較區間，不是跨城可直接採用的密度指標或法定值。",
+  "debates_zh": "連續周邊界面與內院共享品質可能相互支持，也可能在高覆蓋下互相擠壓。 查核：同上。",
+  "sources": [
+    {
+      "library_id": "BERGHAUSERPONT2017",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "ABARCA2019",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "荷蘭量化形態學／Spacematrix 延伸",
+  "region": "西歐城市比較案例",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "Spacematrix：FSI、GSI、OSR、L"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "Spacematrix：FSI、GSI、OSR、L"
+    },
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.330J Theory of City Form",
+      "topic": "Spacematrix：FSI、GSI、OSR、L"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban form and density",
+      "topic": "Spacematrix：FSI、GSI、OSR、L"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+}

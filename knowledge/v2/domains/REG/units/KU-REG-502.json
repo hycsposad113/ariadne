@@ -1,0 +1,79 @@
+{
+  "id": "KU-REG-502",
+  "domain": "REG",
+  "subtopic": "荷蘭 Omgevingswet 與 omgevingsplan",
+  "type": "regulation_profile",
+  "title_zh": "荷蘭 Omgevingswet 與 omgevingsplan 的計畫結構",
+  "title_en": "Dutch Environment and Planning Act and environmental plan",
+  "summary_zh": "Omgevingswet於2024年1月1日生效，每個市鎮依法有一份omgevingsplan，統整物理環境的市級一般規則。 生效時的計畫由暫行部分與新編部分共同構成；舊bestemmingsplan依過渡法規進入暫行部分，不會在生效日自動全部改寫成新制規則。 市鎮可逐步把暫行規則轉為新編部分，法定過渡期至2031年底。 這是荷蘭制度，不是M4H本基地法規；設計上必須按地點查詢現行規則，並區分沿用舊計畫與新規則。",
+  "key_points_zh": [
+    "一個市鎮一份涵蓋全市的omgevingsplan。",
+    "舊bestemmingsplan在過渡期間仍具法律效力，並成為暫行部分的一部分。",
+    "過渡安排至2031年底；新文件須把法律規則連結到地點或區域，才能在地圖工具中顯示。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "IPLO說明每市鎮一份計畫，並以其規則落實環境法目標與功能對地點的均衡分配。",
+        "effect_or_value": null,
+        "study_design": "法規／官方政策或實務指引內容核對",
+        "context_region": "荷蘭",
+        "library_id": "IPLO_OMGEVINGSPLAN",
+        "locator": "制度總覽",
+        "claim_verification": "OFFICIAL_PRIMARY_SOURCE_REVIEW"
+      },
+      {
+        "claim_zh": "自2024年1月1日起每個市鎮有計畫，包含暫行與新編部分；轉換期限至2031年底。",
+        "effect_or_value": null,
+        "study_design": "法規／官方政策或實務指引內容核對",
+        "context_region": "荷蘭",
+        "library_id": "IPLO_TRANSITION",
+        "locator": "生效日期、暫行部分與轉換期限",
+        "claim_verification": "OFFICIAL_PRIMARY_SOURCE_REVIEW"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "先以地籍／地點查詢現行計畫，並將規則來源標記為暫行或新編部分。",
+    "將土地使用、環境品質及建築條件對應到明確地理範圍，避免只讀計畫名稱。"
+  ],
+  "applies_when_zh": "用於荷蘭法定計畫結構、規則查詢與舊新制度轉換判讀。",
+  "not_applicable_when_zh": "不能把其他荷蘭市鎮的規則視為鹿特丹M4H適用規則；須核對本地正式計畫及版本。",
+  "debates_zh": "暫行規則與新編規則會並存；單一入口顯示不代表全部規則已完成實質轉換。",
+  "sources": [
+    {
+      "library_id": "IPLO_OMGEVINGSPLAN",
+      "claim_id": "C1",
+      "locator": "制度總覽"
+    },
+    {
+      "library_id": "IPLO_TRANSITION",
+      "claim_id": "C1",
+      "locator": "生效日期、暫行部分與轉換期限"
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+  "tradition": "荷蘭環境法與地方計畫制度",
+  "region": "荷蘭",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "topic": "荷蘭 Omgevingswet 與 omgevingsplan"
+    },
+    {
+      "school": "Harvard GSD",
+      "topic": "荷蘭 Omgevingswet 與 omgevingsplan"
+    },
+    {
+      "school": "MIT",
+      "topic": "荷蘭 Omgevingswet 與 omgevingsplan"
+    },
+    {
+      "school": "UCL Bartlett",
+      "topic": "荷蘭 Omgevingswet 與 omgevingsplan"
+    }
+  ],
+  "version": "kb2-policy-2026-10-08"
+}

@@ -1,0 +1,51 @@
+{
+  "id": "ALEX77",
+  "title": "A Pattern Language: Towns, Buildings, Construction",
+  "authors": [
+    "Christopher Alexander",
+    "Sara Ishikawa",
+    "Murray Silverstein",
+    "Max Jacobson",
+    "Ingrid Fiksdahl-King",
+    "Shlomo Angel"
+  ],
+  "year": 1977,
+  "venue_or_publisher": "API 未提供出版者；待補",
+  "doi": null,
+  "isbn": null,
+  "openalex_id": "https://openalex.org/W1968983388",
+  "kind": "ACADEMIC_BOOK",
+  "tradition": "模式語言",
+  "region": [
+    "美國",
+    "跨地域"
+  ],
+  "method": "理論／設計模式",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "用相互關聯的空間模式討論入口、活動節點與建築關係；各模式仍需基地檢驗。",
+      "strength": "THEORETICAL",
+      "scope_zh": "僅限本研究或概念框架；不提供 M4H 的實測、法律效力或本卡試算門檻。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [
+    "TALEN99"
+  ],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "OpenAlex",
+    "query": {
+      "title": "A Pattern Language: Towns, Buildings, Construction",
+      "author": "Christopher Alexander",
+      "year": 1977
+    },
+    "matched_record_id": "https://openalex.org/W1968983388",
+    "checked_at_utc": "2026-10-08T03:36:41Z",
+    "match_notes_zh": "人工核對 API 書名、作者與出版年；縮寫、大小寫或副標題省略視為同一書目。只確認書目，不代表全文主張已審核。"
+  },
+  "limitations_zh": "本次只使用公開書目與可得摘要；沒有下載或查閱全文。書目查證不等於主張、因果或參數驗證。",
+  "critique_relationship_zh": "known_critiques 是編者指定的批評或替代閱讀，不宣稱實際互引或逐一反駁；Ratti 與 Hillier／Penn 的標題記錄確認明確對話。",
+  "metadata_licence_zh": "只保存公開 API 書目與自行摘要；未取得全文授權，未保存 API 摘要原文。精確 metadata licence 未經本任務核驗，標 UNKNOWN。"
+}

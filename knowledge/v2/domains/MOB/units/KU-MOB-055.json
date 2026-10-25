@@ -1,0 +1,80 @@
+{
+  "id": "KU-MOB-055",
+  "domain": "MOB",
+  "subtopic": "停車政策與最低停車標準的影響",
+  "type": "concept",
+  "title_zh": "停車政策與最低停車標準的影響：概念界線",
+  "title_en": "Parking policy and minimum parking requirements: Concept and scope",
+  "summary_zh": "停車供給、價格、位置和最低標準會改變土地成本與開車便利，政策效果受城市密度和旅運替代條件影響。此處要回答的是把停車需求、土地占用、價格和公共運輸替代方案作為政策選項，不把最低車位數當成中性技術值。對停車政策與最低停車標準的影響而言，停車改革可能降低過度供給，也可能在公共運輸不足處傷及必要出行；成本由誰承擔是公平問題；因此該概念只界定分析問題，不替不同街道和使用者預選答案。",
+  "key_points_zh": [
+    "概念界線：停車供給、價格、位置和最低標準會改變土地成本與開車便利，政策效果受城市密度和旅運替代條件影響",
+    "概念界線：把停車需求、土地占用、價格和公共運輸替代方案作為政策選項，不把最低車位數當成中性技術值"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "停車政策與最低停車標準的影響：概念界線｜Porirua CBD 案例將 24% 面積計為汽車停車場，研究亦指出最低標準與超額供給、分散式發展及開車偏好相連；數值只描述該地",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "HULME_MOIR10",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "停車政策與最低停車標準的影響：概念界線｜TOD 將大眾運輸節點、混合用途與步行環境作為共同規劃對象；本單元只引用其規劃框架",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "CALTHORPE93",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "用「停車供給、價格、位置和最低標準會改變土地成本與開車便利，政策效果受城市密度和旅運替代條件影響」界定停車政策與最低停車標準的影響的分析範圍，再以「把停車需求、土地占用、價格和公共運輸替代方案作為政策選項，不把最低車位數當成中性技術值」說明這個界線不涵蓋什麼。"
+  ],
+  "applies_when_zh": "界定停車政策與最低停車標準的影響的分析邊界時，可用「停車供給、價格、位置和最低標準會改變土地成本與開車便利，政策效果受城市密度和旅運替代條件影響」說明本單元涵蓋的關係，再另行檢查未納入的條件。",
+  "not_applicable_when_zh": "「停車供給、價格、位置和最低標準會改變土地成本與開車便利，政策效果受城市密度和旅運替代條件影響」不能直接轉成法規或最佳方案判斷，尤其不能忽略「停車改革可能降低過度供給，也可能在公共運輸不足處傷及必要出行；成本由誰承擔是公平問題」指出的限制。",
+  "debates_zh": "停車改革可能降低過度供給，也可能在公共運輸不足處傷及必要出行；成本由誰承擔是公平問題；檢視「停車政策與最低停車標準的影響：概念界線」的概念界線時，還需判斷「把停車需求、土地占用、價格和公共運輸替代方案作為政策選項，不把最低車位數當成中性技術值」會如何改變方案結論。",
+  "sources": [
+    {
+      "library_id": "HULME_MOIR10",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "CALTHORPE93",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "停車供給與交通需求管理",
+  "region": "跨地域理論或實務脈絡；來源地區依引用條目判讀",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "停車政策與最低停車標準的影響：課綱對應主題"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Urban Design Contexts and Operations",
+      "topic": "停車政策與最低停車標準的影響：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-MOB-049",
+    "KU-MOB-050",
+    "KU-MOB-051",
+    "KU-MOB-052",
+    "KU-MOB-053",
+    "KU-MOB-054",
+    "KU-MOB-056"
+  ]
+}

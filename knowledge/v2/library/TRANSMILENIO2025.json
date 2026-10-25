@@ -1,0 +1,42 @@
+{
+  "id": "TRANSMILENIO2025",
+  "title": "TransMi te lleva por Bogotá",
+  "authors": [
+    "TRANSMILENIO S.A."
+  ],
+  "year": 2025,
+  "venue_or_publisher": "TRANSMILENIO S.A.",
+  "doi": null,
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "OFFICIAL_TRANSPORT_OPERATOR",
+  "tradition": "官方規劃、營運與公共設施資料",
+  "region": "哥倫比亞波哥大",
+  "method": "直接開啟並閱讀官方或專業機構公開頁面；非獨立學術效果評估",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "營運機構描述專用幹線、車站、端點門戶和整合公交系統構成。",
+      "strength": "CASE_EVIDENCE",
+      "scope_zh": "只支持頁面明載的歷史、政策、設施或管理機構統計；不將目標視為已實現成效。",
+      "assessment_basis": "DIRECT_SOURCE_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Official organization webpage",
+    "query": {
+      "title": "TransMi te lleva por Bogotá",
+      "author": "TRANSMILENIO S.A.",
+      "year": 2025,
+      "api_query": "Read-only source page: https://www.transmilenio.gov.co/descubre-bogota/transmi-te-lleva-por-bogota"
+    },
+    "matched_record_id": "https://www.transmilenio.gov.co/descubre-bogota/transmi-te-lleva-por-bogota",
+    "checked_at_utc": "2026-10-08T14:40:02Z",
+    "match_notes_zh": "直接開啟官方或專業機構公開頁核對研究對象及本記錄聲稱範圍；非 Crossref 書目項。"
+  },
+  "limitations_zh": "營運機構頁面不提供公平性或獨立服務品質評估。",
+  "critique_relationship_zh": "本記錄不宣稱與其他來源存在直接互引或逐一反駁。",
+  "metadata_licence_zh": "官方或專業機構公開頁面；個別內容的再利用授權未核驗。"
+}

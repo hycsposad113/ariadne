@@ -1,0 +1,133 @@
+{
+  "id": "KU-MOB-513",
+  "domain": "MOB",
+  "subtopic": "停車需求與地方標準",
+  "type": "value_range",
+  "title_zh": "CROW停車需求估算與鹿特丹2025汽車／自行車標準",
+  "title_en": "CROW parking demand method and Rotterdam 2025 parking policy",
+  "summary_zh": "CROW Parkeerkencijfers以功能、都市化程度、城市區位與計算單位選擇需求指標，並以到訪時段比例檢查不同用途的共享停車；指標是估算依據，地方政府再依政策決定具約束力的標準。鹿特丹2025政策對Omgevingsplan活動許可採分區類別和功能表核算，並允許符合條件的小型項目免設停車要求。例：住宅汽車停車要求在總使用面積不超過300平方公尺時免列；非住宅合計不超過600平方公尺及餐飲不超過200平方公尺亦有特定免列條件。其公開表格並列社會租賃住宅每戶0.60個汽車停車位，以及65至85平方公尺公寓每戶3個自行車位。這是荷蘭CROW指引與鹿特丹地方政策，不是M4H本基地法規；設計上要先確認適用地方計畫、用途分類和區域類型，再進行需求、共享與自行車停車核算。",
+  "key_points_zh": [
+    "CROW指標按功能、都市化程度、城市區位和計算單位選取，並可用出席比例評估共享停車。",
+    "鹿特丹政策適用於Omgevingsplan活動許可的停車審查，並依地區類別和用途核算。",
+    "鹿特丹2025小型住宅項目汽車免列門檻為總使用面積≤300m²；非住宅合計≤600m²，其中餐飲≤200m²有專門條件。",
+    "鹿特丹政策另列自行車停車規範、公共空間短停和共享停車條件。",
+    "鹿特丹表列社會租賃住宅為每戶0.60個汽車停車位，表中三類地區相同。",
+    "鹿特丹表列65–85m²公寓為每戶3個自行車停車位；仍須核對適用條件及儲藏方式。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "CROW依功能、都市化程度、區位及計算單位提供停車需求估算，並含共享時段參考。",
+        "effect_or_value": null,
+        "study_design": "法規／官方政策或實務指引內容核對",
+        "context_region": "荷蘭與荷蘭鹿特丹",
+        "library_id": "CROW_PARK_2024",
+        "locator": "停車需求估算指標與共享時段",
+        "claim_verification": "OFFICIAL_PRIMARY_SOURCE_REVIEW"
+      },
+      {
+        "claim_zh": "CROW指出其指標為工具，地方政府依地方政策形成具約束力的標準。",
+        "effect_or_value": null,
+        "study_design": "法規／官方政策或實務指引內容核對",
+        "context_region": "荷蘭與荷蘭鹿特丹",
+        "library_id": "CROW_PARK_DEFS",
+        "locator": "指標定位與地方標準設定",
+        "claim_verification": "OFFICIAL_PRIMARY_SOURCE_REVIEW"
+      },
+      {
+        "claim_zh": "鹿特丹2025政策第4條表1列小型項目免列條件，附錄表5列社會租賃住宅每戶0.60個汽車位，表6列65–85m²公寓每戶3個自行車位。",
+        "effect_or_value": null,
+        "study_design": "法規／官方政策或實務指引內容核對",
+        "context_region": "荷蘭與荷蘭鹿特丹",
+        "library_id": "ROTTERDAM_PARKING_2025",
+        "locator": "第2–5條與附錄2停車標準及小型項目免列條件",
+        "claim_verification": "OFFICIAL_PRIMARY_SOURCE_REVIEW"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "先按地方地圖確認區域類型，再依功能與面積口徑計算汽車、自行車需求。",
+    "以時段出席比例評估共享停車，並把替代停車位置、步行距離、長期可用性和停車庫出入口納入方案。"
+  ],
+  "applies_when_zh": "用於CROW停車需求估算流程比較及鹿特丹2025地方政策條件判讀。",
+  "not_applicable_when_zh": "不能把鹿特丹停車標準或免列面積套用至M4H，除非正式本地計畫或許可文件明確納入。",
+  "debates_zh": "CROW需求指標不是法律門檻；鹿特丹政策另有區域、用途、折減、例外與自行車要求，需讀全表及附錄。 查核：CROW 停車數值與鹿特丹 2025 規範無法由 Claude 核實。",
+  "sources": [
+    {
+      "library_id": "CROW_PARK_2024",
+      "claim_id": "C1",
+      "locator": "停車需求估算指標與共享時段"
+    },
+    {
+      "library_id": "CROW_PARK_DEFS",
+      "claim_id": "C1",
+      "locator": "指標定位與地方標準設定"
+    },
+    {
+      "library_id": "ROTTERDAM_PARKING_2025",
+      "claim_id": "C1",
+      "locator": "第2–5條與附錄2停車標準及小型項目免列條件"
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+  "tradition": "CROW停車需求估算與鹿特丹地方停車政策",
+  "region": "荷蘭與荷蘭鹿特丹",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "topic": "停車需求與地方標準"
+    },
+    {
+      "school": "Harvard GSD",
+      "topic": "停車需求與地方標準"
+    },
+    {
+      "school": "MIT",
+      "topic": "停車需求與地方標準"
+    },
+    {
+      "school": "UCL Bartlett",
+      "topic": "停車需求與地方標準"
+    }
+  ],
+  "version": "kb2-policy-2026-10-08",
+  "values": [
+    {
+      "name": "鹿特丹小型住宅項目汽車停車免列門檻",
+      "range": "≤300",
+      "unit": "m²使用面積（GBO）",
+      "context": "適用地區：Gemeente Rotterdam；這是外國或地方制度／指引，不是 M4H 本基地法規；用途：鹿特丹2025政策附錄表1；用途：當地小型項目審查示例，須核對所有附加條件；來源：https://lokaleregelgeving.overheid.nl/CVDR738708/1",
+      "library_id": "ROTTERDAM_PARKING_2025"
+    },
+    {
+      "name": "鹿特丹小型非住宅項目停車免列門檻",
+      "range": "≤600",
+      "unit": "m²總樓地板面積（BVO）",
+      "context": "適用地區：Gemeente Rotterdam；這是外國或地方制度／指引，不是 M4H 本基地法規；用途：鹿特丹2025政策附錄表1；用途：非住宅總面積示例，含餐飲專門子條件；來源：https://lokaleregelgeving.overheid.nl/CVDR738708/1",
+      "library_id": "ROTTERDAM_PARKING_2025"
+    },
+    {
+      "name": "鹿特丹小型項目餐飲專門面積條件",
+      "range": "≤200",
+      "unit": "m²總樓地板面積（BVO）",
+      "context": "適用地區：Gemeente Rotterdam；這是外國或地方制度／指引，不是 M4H 本基地法規；用途：鹿特丹2025政策附錄表1；用途：非住宅餐飲免列條件之一；來源：https://lokaleregelgeving.overheid.nl/CVDR738708/1",
+      "library_id": "ROTTERDAM_PARKING_2025"
+    },
+    {
+      "name": "鹿特丹社會租賃住宅汽車停車標準",
+      "range": "0.60",
+      "unit": "個汽車停車位／戶",
+      "context": "適用地區：鹿特丹；2025政策表列三類區域均為0.60；這是荷蘭地方制度，不是 M4H 本基地法規；用途：停車制度比較，實際案件先核對區域類型、免列條件與許可適用；來源：https://lokaleregelgeving.overheid.nl/CVDR738708/1",
+      "library_id": "ROTTERDAM_PARKING_2025"
+    },
+    {
+      "name": "鹿特丹65–85m²公寓自行車停車標準",
+      "range": "3",
+      "unit": "個自行車停車位／戶",
+      "context": "適用地區：鹿特丹；2025政策附錄表6；這是荷蘭地方制度，不是 M4H 本基地法規；用途：比較住宅自行車停車及共用停車配置，實際案件須核對法規中的儲藏與共用車棚條件；來源：https://lokaleregelgeving.overheid.nl/CVDR738708/1",
+      "library_id": "ROTTERDAM_PARKING_2025"
+    }
+  ]
+}

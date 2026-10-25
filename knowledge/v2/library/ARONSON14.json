@@ -1,0 +1,66 @@
+{
+  "id": "ARONSON14",
+  "title": "A global analysis of the impacts of urbanization on bird and plant diversity reveals key anthropogenic drivers",
+  "authors": [
+    "Myla F. J. Aronson",
+    "Frank A. La Sorte",
+    "Charles H. Nilon",
+    "Madhusudan Katti",
+    "Mark A. Goddard",
+    "Christopher A. Lepczyk",
+    "Paige S. Warren",
+    "Nicholas S. G. Williams",
+    "Sarel Cilliers",
+    "Bruce Clarkson",
+    "Cynnamon Dobbs",
+    "Rebecca Dolan",
+    "Marcus Hedblom",
+    "Stefan Klotz",
+    "Jip Louwe Kooijmans",
+    "Ingolf Kühn",
+    "Ian MacGregor-Fors",
+    "Mark McDonnell",
+    "Ulla Mörtberg",
+    "Petr Pyšek",
+    "Stefan Siebert",
+    "Jessica Sushinsky",
+    "Peter Werner",
+    "Marten Winter"
+  ],
+  "year": 2014,
+  "venue_or_publisher": "Proceedings of the Royal Society B: Biological Sciences",
+  "doi": "https://doi.org/10.1098/rspb.2013.3330",
+  "isbn": null,
+  "crossref_id": "https://doi.org/10.1098/rspb.2013.3330",
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "都市保育生物地理",
+  "region": [
+    "全球多城市"
+  ],
+  "method": "跨城市比較資料集",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "全球資料涵蓋 54 座城市鳥類與 110 座城市植物；研究估計城市內本地鳥類與植物密度僅約為非都市估計的 8% 與 25%，土地覆蓋及城市年齡比氣候地理因素更能解釋差異。",
+      "strength": "STRONG_EMPIRICAL",
+      "scope_zh": "全球多城市；主張限於此來源的研究設計與樣本，不外推為本基地規範。",
+      "assessment_basis": "ABSTRACT_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref",
+    "query": {
+      "title": "A global analysis of the impacts of urbanization on bird and plant diversity reveals key anthropogenic drivers",
+      "author": "Myla F. J. Aronson",
+      "year": 2014
+    },
+    "matched_record_id": "https://doi.org/10.1098/rspb.2013.3330",
+    "checked_at_utc": "2026-10-08T09:54:54Z",
+    "match_notes_zh": "核對 Crossref 回傳書名、主要作者、出版年與 DOI；摘要只在實際取得並閱讀的論文上標 ABSTRACT_REVIEW。"
+  },
+  "limitations_zh": "全球多城市；書目核對不替代完整論文審查。",
+  "critique_relationship_zh": "此條目的批評連結供編者並讀，不宣稱存在直接互引。",
+  "metadata_licence_zh": "僅保存公開書目欄位與自行撰寫的摘要；未保存摘要原文，metadata 授權未單獨核定。"
+}

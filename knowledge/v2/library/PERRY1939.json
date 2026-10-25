@@ -1,0 +1,44 @@
+{
+  "id": "PERRY1939",
+  "title": "Neighborhood Unit Formula",
+  "authors": [
+    "Clarence Arthur Perry"
+  ],
+  "year": 1939,
+  "venue_or_publisher": "In: Housing for the Machine Age, pp. 49–82",
+  "doi": null,
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "ACADEMIC_BOOK_CHAPTER",
+  "tradition": "鄰里單元原典",
+  "region": [
+    "美國",
+    "北美"
+  ],
+  "method": "原典章節書目核對",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "核對書目確認《Neighborhood Unit Formula》的作者、題名與出版脈絡；此記錄不單獨證明單元中的效應、因果或基地條件。",
+      "strength": "THEORETICAL",
+      "scope_zh": "只界定可查證的書目與研究範圍；不提供本基地法規、實測值或通用設計門檻。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Open Library",
+    "query": {
+      "title": "Neighborhood Unit Formula",
+      "author": "Clarence Arthur Perry",
+      "year": 1939
+    },
+    "matched_record_id": "/books/OL19584216M",
+    "checked_at_utc": "2026-10-08T16:14:57Z",
+    "match_notes_zh": "Open Library edition 註明此篇收入 Perry《Housing for the Machine Age》(1939)，頁 49–82；沒有自行推定未列的出版社。"
+  },
+  "limitations_zh": "只核對允許使用的公開書目 API；未查閱全文。書目確認不等於主張、因果或參數驗證。",
+  "critique_relationship_zh": "本筆作為單元主題的獨立書目來源；未由書目資料推定來源間直接互引或逐條反駁。",
+  "metadata_licence_zh": "僅保存必要書目欄位與自撰摘要；未保存全文或 API 摘要，metadata 授權未逐筆核驗，標 UNKNOWN。"
+}

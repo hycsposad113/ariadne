@@ -1,0 +1,70 @@
+{
+  "id": "KU-HAR-060",
+  "domain": "HAR",
+  "subtopic": "工業遺產與 adaptive reuse",
+  "type": "method",
+  "title_zh": "用雙層底圖檢查港區交通與遺產是否互相擠壓",
+  "title_en": "Use Paired Base Maps to Test Conflicts Between Port Movement and Heritage",
+  "summary_zh": "港區轉型的設計底圖可同時標示仍在運作的物流路徑，以及值得保留的工業空間與構造。港城介面研究提供跨尺度的港區—城市關係視角；工業遺產研究則提醒舊構造的再詮釋會改變其可讀性。兩張圖的疊合能顯示何處可共享、何處需要緩衝，也讓後續選擇有跡可循。",
+  "key_points_zh": [
+    "分開標示貨運、維修和公共通行，避免把所有港區流線合併成一般街道。",
+    "記錄設備、結構跨度和作業痕跡，讓保留判斷有空間依據。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "書目題名確認其研究港城介面永續發展及研究實務；此記錄不延伸為單一街區的實測結果。",
+        "effect_or_value": null,
+        "study_design": "會議論文；具體研究設計未由摘要核對",
+        "context_region": "歐洲港口城市",
+        "library_id": "LOUW2017",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "工業遺產研究討論歷史廠房如何由新建築介入重新詮釋；具體案例效果未由摘要核對。",
+        "effect_or_value": null,
+        "study_design": "學術章節；案例和方法細節未由摘要核對",
+        "context_region": "中國工業遺產案例",
+        "library_id": "PALMEROIGLESIAS2022",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "在方案比較前，先以一張圖標出貨物流、噪音時段與通行限制，另一張圖標出廠房構造及保留價值，再疊合檢查介面。"
+  ],
+  "applies_when_zh": "港區仍有生產或物流活動，同時規劃公共空間、住宅或工業遺產再利用時。",
+  "not_applicable_when_zh": "港務和工業作業已退出、且基地沒有需辨識的歷史構造時。",
+  "debates_zh": "把遺產保存和物流延續放在同一張底圖，不會自動解決土地利益衝突；它只讓被排除的活動與構造更容易被看見。",
+  "sources": [
+    {
+      "library_id": "LOUW2017",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "PALMEROIGLESIAS2022",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "港城介面規劃／工業遺產再利用",
+  "region": "歐洲港口城市與中國工業遺產案例",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": null,
+      "topic": "Port-city interface and adaptive reuse"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": null,
+      "topic": "Industrial heritage and urban regeneration"
+    }
+  ],
+  "version": "v2.0"
+}

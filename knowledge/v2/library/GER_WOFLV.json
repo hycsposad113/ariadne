@@ -1,0 +1,37 @@
+{
+  "id": "GER_WOFLV",
+  "title": "Verordnung zur Berechnung der Wohnfläche (Wohnflächenverordnung – WoFlV)",
+  "authors": [
+    "Federal Ministry of Justice, Germany"
+  ],
+  "year": 2003,
+  "venue_or_publisher": "Bundesministerium der Justiz; Bundesamt für Justiz",
+  "doi": null,
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "POLICY",
+  "tradition": "德國住宅面積計算法規",
+  "region": [
+    "Germany"
+  ],
+  "method": "檢視 gesetze-im-internet.de 官方法規第 1、2、4 條公開條文。",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "WoFlV 規定住宅面積納入項目及若干空間高度、陽台與露台面積的折算方式。",
+      "strength": "NORMATIVE_PRACTICE",
+      "scope_zh": "該規則用於 Wohnraumförderungsgesetz 所指面積計算，不是戶型設計最小面積標準。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED_OFFICIAL_SITE",
+    "url": "https://www.gesetze-im-internet.de/woflv/__4.html",
+    "accessed_utc": "2026-10-08T15:08:39Z",
+    "method": "official public legislation text; §4 read",
+    "match_notes_zh": "已讀官方 §4；能支持面積計算比例，不能作為最小住宅面積規則。"
+  },
+  "limitations_zh": "德國 Wohnflächenverordnung 的住宅面積計算方法；非建築法規尺寸或普遍最小住宅標準。",
+  "metadata_licence_zh": "保存法規引文的書目欄位與自行改寫摘要。"
+}

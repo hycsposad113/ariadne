@@ -1,0 +1,65 @@
+{
+  "id": "KU-GRN-001",
+  "domain": "GRN",
+  "subtopic": "公園類型與階層",
+  "type": "typology",
+  "title_zh": "公園階層應由服務功能定義",
+  "title_en": "Park hierarchy by service function",
+  "summary_zh": "日常休息、運動、自然保育與大型集會需要不同的空間條件。以單一面積級距分類會掩蓋可及性與活動內容。不同城市治理體系所稱的鄰里或區域公園並不完全同義。分類讓服務缺口可見，也會把混合功能硬切成單一類別。",
+  "key_points_zh": [
+    "日常休息、運動、自然保育與大型集會需要不同的空間條件",
+    "以單一面積級距分類會掩蓋可及性與活動內容"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "日常休息、運動、自然保育與大型集會需要不同的空間條件。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "英國",
+        "library_id": "THOMPSON02",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "分類讓服務缺口可見，也會把混合功能硬切成單一類別。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "為每類公園記錄主要服務對象、活動、開放時間和生態限制。"
+  ],
+  "applies_when_zh": "適用於建立公園系統與設施投資優先序。",
+  "not_applicable_when_zh": "不能直接沿用外地的公園階層命名當成本地法定分類。",
+  "debates_zh": "分類讓服務缺口可見，也會把混合功能硬切成單一類別。",
+  "sources": [
+    {
+      "library_id": "THOMPSON02",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "LOW05",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "都市開放空間規劃",
+  "region": "英國",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "公園類型與階層"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "公園類型與階層"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-GRN-002"
+  ]
+}

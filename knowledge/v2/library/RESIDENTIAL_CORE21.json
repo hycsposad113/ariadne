@@ -1,0 +1,43 @@
+{
+  "id": "RESIDENTIAL_CORE21",
+  "title": "Residential core design",
+  "authors": [
+    "Guy Marriage"
+  ],
+  "year": 2021,
+  "venue_or_publisher": "Routledge",
+  "doi": "https://doi.org/10.4324/9781003123873-10",
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "ACADEMIC_BOOK_CHAPTER",
+  "tradition": "建築尺度；設計實務與研究",
+  "region": [
+    "跨地域；依來源適用範圍而異"
+  ],
+  "method": "書目核對；未取得全文，不以書目資料證明特定數值。",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "集合住宅核心筒設計章節；來源範圍指向垂直交通與住宅平面。",
+      "strength": "THEORETICAL",
+      "scope_zh": "書目範圍可核對；數值或因果主張須另查原文。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref",
+    "query": {
+      "title": "Residential core design",
+      "author": "Guy Marriage",
+      "year": 2021
+    },
+    "matched_record_id": "10.4324/9781003123873-10",
+    "checked_at_utc": "2026-10-08T14:52:13.554446+00:00",
+    "match_notes_zh": "以允許的公開書目 API 核對書名、作者及出版年；未下載或保存全文。",
+    "url": "https://api.crossref.org/works/10.4324/9781003123873-10"
+  },
+  "limitations_zh": "書目記錄已核對；具體尺度內容標示交叉核對狀態，不把書名或摘要當作數值證據。",
+  "metadata_licence_zh": "保存公開書目欄位與自行撰寫的範圍說明；未保存全文。"
+}

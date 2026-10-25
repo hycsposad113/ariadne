@@ -1,0 +1,107 @@
+{
+  "id": "KU-LUP-036",
+  "domain": "LUP",
+  "subtopic": "用途配比與日夜活動",
+  "type": "concept",
+  "title_zh": "用途配比與日夜活動｜概念邊界",
+  "title_en": "Program mix and time of day — Conceptual boundaries",
+  "summary_zh": "用途比例描述土地配置，不能表明服務或空間何時可用。 荷蘭主動運輸研究分別處理步行和自行車，新加坡公共住宅研究則提供特定制度下的高層居住案例；兩者都不等於用途日夜互補的證據。 應把營業時段、入口可達性和服務人口納入比較。",
+  "key_points_zh": [
+    "同一用途比例在營業時間和可達路徑不同時，公共生活也不同。",
+    "適用於混合用途、鄰里服務和夜間經濟規劃。",
+    "限制：未取得營業時間或人流資料時，不推估日夜使用量。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "荷蘭樣本中步行與自行車受到不同因素影響，應視作不同選項而非同一主動交通類別。",
+        "library_id": "TON19",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "荷蘭",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "新加坡公共住宅提供高層生活的地方研究案例；不能把同樣高度當作跨城市接受程度。",
+        "library_id": "YUE05",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "新加坡",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "把用途資料與時間表、入口、路徑和服務人口交叉檢查。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "把用途資料與時間表、入口、路徑和服務人口交叉檢查。",
+      "tradeoff_zh": "「用途配比與日夜活動｜概念邊界」的主要代價不是抽象的建造成本，而是設計者提出的用途百分比是策略，不是研究普遍證明的最佳值；因此先以荷蘭樣本中步行與自行車受到不同因素影響，應視作不同選項而非同一主動交通類別作方案比較條件。",
+      "library_ids": [
+        "TON19",
+        "YUE05"
+      ]
+    },
+    {
+      "option_zh": "全天型服務、夜間活動與工作日生產用途形成不同時序組合。",
+      "tradeoff_zh": "此選項把「用途配比與日夜活動｜概念邊界」的工作放在荷蘭樣本中步行與自行車受到不同因素影響，應視作不同選項而非同一主動交通類別上；需要承擔的協調或維護代價則由「設計者提出的用途百分比是策略，不是研究普遍證明的最佳值」界定。",
+      "library_ids": [
+        "TON19",
+        "YUE05"
+      ]
+    }
+  ],
+  "applies_when_zh": "適用於混合用途、鄰里服務和夜間經濟規劃。",
+  "not_applicable_when_zh": "未取得營業時間或人流資料時，不推估日夜使用量。",
+  "debates_zh": "設計者提出的用途百分比是策略，不是研究普遍證明的最佳值。",
+  "sources": [
+    {
+      "library_id": "TON19",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "YUE05",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "荷蘭模式選擇實證；亞洲高層生活",
+  "region": "荷蘭；新加坡",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Planning Complex Cities",
+      "topic": "用途配比與日夜活動"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Cities by Design",
+      "topic": "用途配比與日夜活動"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "用途配比與日夜活動"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Sustainable Futures by Design",
+      "topic": "用途配比與日夜活動"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-LUP-037",
+    "KU-LUP-038",
+    "KU-LUP-039"
+  ],
+  "counter_unit_ids": [
+    "KU-LUP-040"
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "id": "KU-ARC-063",
+  "domain": "ARC",
+  "subtopic": "停車與自行車",
+  "type": "value_range",
+  "title_zh": "停車坡度與坡頂坡底過渡",
+  "title_en": "parking ramp gradient and transition",
+  "summary_zh": "停車坡道可用約 12–15% 坡度進行概念模型試算，並在坡頂坡底留出緩和段。 過渡段不足會造成底盤觸地，雨雪地區還要重看止滑和排水。 百分坡度不能由立面高差單獨判定舒適。",
+  "key_points_zh": [
+    "核心主張：停車坡道可用約 12–15% 坡度進行概念模型試算，並在坡頂坡底留出緩和段。",
+    "量測檢查：測量坡段兩端高程與水平投影，分段計算坡度並檢查曲線過渡半徑。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "停車坡道可用約 12–15% 坡度進行概念模型試算，並在坡頂坡底留出緩和段。",
+        "effect_or_value": "約 12–15% 概念試算；坡頂坡底須設過渡",
+        "study_design": "跨地域設計參照綜整；數值狀態依 claim_verification 註記",
+        "context_region": "跨地域；用途與當地法規需分開核驗",
+        "library_id": "METRIC_HB08",
+        "locator": null,
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008"
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "parking ramp gradient",
+      "range": "約 12–15% 概念試算；坡頂坡底須設過渡",
+      "unit": "百分比坡度",
+      "context": "地區：跨地域；用途：乘用車地下停車坡道初期方案，不是法規判值；出處：Metric Handbook: Planning and Design Data；本基地法規：否；核對狀態：數值待原典交叉核對。",
+      "library_id": "METRIC_HB08"
+    }
+  ],
+  "design_implications_zh": [
+    "沿坡道斷面逐段計算高差／水平距離，模擬代表車輛的接近角和離去角。"
+  ],
+  "applies_when_zh": "「停車坡度與坡頂坡底過渡」可在用於方案前期的量體、平面或空間品質篩檢時使用，前提是停車坡道可用約 12–15% 坡度進行概念模型試算，並在坡頂坡底留出緩和段與來源情境相符。",
+  "not_applicable_when_zh": "若停車坡道可用約 12–15% 坡度進行概念模型試算，並在坡頂坡底留出緩和段不成立，就不能把「停車坡度與坡頂坡底過渡」的結論延伸到其他情況；不得單獨作為許可、消防、結構或基地法規判定。",
+  "debates_zh": "較陡坡道縮短長度但增加濕滑風險，消防與行人坡道標準另有要求。",
+  "sources": [
+    {
+      "library_id": "METRIC_HB08",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "BIKE_PARKING21",
+      "claim_id": "C1",
+      "locator": "chapter Bicycle Parking; exact page not checked"
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+  "tradition": "建築設計與住宅類型學",
+  "region": "跨地域；用途與當地法規需分開核驗",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Housing and the City / Design of the Urban Fabric",
+      "topic": "建築尺度與住宅平面"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "建築尺度與街道界面"
+    },
+    {
+      "school": "MIT",
+      "course": "Architecture and Urban Design",
+      "topic": "建築尺度與空間型態"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "建築尺度與公共生活"
+    }
+  ],
+  "check": {
+    "method_zh": "測量坡段兩端高程與水平投影，分段計算坡度並檢查曲線過渡半徑。",
+    "inputs": [
+      "停車與自行車",
+      "尺寸／面積圖層",
+      "適用地區與用途標籤"
+    ],
+    "logic_zh": "將量測輸入轉成明確尺寸、比例或空間關係；越界只觸發複核，不自動取代設計決策。",
+    "limitations_zh": "量測結果只觸發「停車坡度與坡頂坡底過渡」的複核，不得單獨作為許可或法規判定。"
+  },
+  "version": "kb2-arc-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-ARC-060",
+    "KU-ARC-061",
+    "KU-ARC-062",
+    "KU-ARC-064",
+    "KU-ARC-065"
+  ]
+}

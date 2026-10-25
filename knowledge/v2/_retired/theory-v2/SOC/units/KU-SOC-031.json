@@ -1,0 +1,95 @@
+{
+  "id": "KU-SOC-031",
+  "domain": "SOC",
+  "subtopic": "開發經濟與可行性（土地價值、殘值法）",
+  "type": "value_range",
+  "title_zh": "開發經濟與可行性：土地收益與利益",
+  "title_en": "Development economics and feasibility: land value and residual valuation — theory unit 031",
+  "summary_zh": "開發可行性是預期收入扣除建造、融資、專業服務、公共義務和開發者報酬後的土地殘值推算。計算結果對售價、成本和時程假設敏感，故應把各項來源和情境列出。殘值為負只表示該組假設下不成立，不是土地必須變更用途的證據。",
+  "key_points_zh": [
+    "開發可行性是預期收入扣除建造、融資、專業服務、公共義務和開發者報酬後的土地殘值推算。",
+    "計算結果對售價、成本和時程假設敏感，故應把各項來源和情境列出。",
+    "殘值為負只表示該組假設下不成立，不是土地必須變更用途的證據。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "【BIBLIOGRAPHIC_SCOPE_ONLY】就「開發經濟與可行性：土地收益與利益」而言，「An urban system assessment of Land Value Capture: The Colombian case」提供土地價值捕捉／哥倫比亞的比較坐標；此處僅使用其已標明的書目／摘要範圍，不延伸為未核對的效果或因果。",
+        "effect_or_value": null,
+        "study_design": "城市系統案例評估",
+        "context_region": "哥倫比亞；南美洲",
+        "library_id": "GARZA2021",
+        "locator": null,
+        "claim_verification": "CANONICAL_CROSS_CHECK_PENDING"
+      },
+      {
+        "claim_zh": "【BIBLIOGRAPHIC_SCOPE_ONLY】就「開發經濟與可行性：土地收益與利益」而言，「The new urban frontier」提供rent-gap theory and critical urban political economy的比較坐標；此處僅使用其已標明的書目／摘要範圍，不延伸為未核對的效果或因果。",
+        "effect_or_value": null,
+        "study_design": "historical and political-economic analysis",
+        "context_region": "United States；Europe",
+        "library_id": "SMITH1996",
+        "locator": null,
+        "claim_verification": "CANONICAL_CROSS_CHECK_PENDING"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "逐項列示收入、成本、融資、義務、時程和土地殘值計算步驟。"
+  ],
+  "design_options": [],
+  "applies_when_zh": "在評估「開發經濟與可行性：土地收益與利益」涉及的資源分配、權力或居住影響時，先界定受影響群體與決策階段。",
+  "not_applicable_when_zh": "若沒有「開發經濟與可行性：土地收益與利益」所需的群體、時序或市場資料，不把概念類比當作已驗證的效果或法律結論。",
+  "debates_zh": "殘值模型敏感於假設，負值不是土地政策必須讓步的證據。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "GARZA2021",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "SMITH1996",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "政治經濟／土地價值與可行性",
+  "region": "美國；跨地域；歐洲",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Planning Complex Cities",
+      "topic": "開發經濟與可行性：土地收益與利益 — 開發經濟與可行性（土地價值、殘值法）"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Urban Design Contexts and Operations",
+      "topic": "開發經濟與可行性：土地收益與利益 — 開發經濟與可行性（土地價值、殘值法）"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "開發經濟與可行性：土地收益與利益 — 開發經濟與可行性（土地價值、殘值法）"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design Governance",
+      "topic": "開發經濟與可行性：土地收益與利益 — 開發經濟與可行性（土地價值、殘值法）"
+    }
+  ],
+  "version": "2.0.0",
+  "values": [
+    {
+      "name": "殘值法計算關係",
+      "range": "完成後價值 − 建造及整備成本 − 融資與費用 − 開發者報酬 − 公共義務 = 殘餘土地價值",
+      "unit": "appraisal terms",
+      "context": "土地開發可行性評估程序；各項輸入取決於市場、時程及估價口徑，不提供固定參數；這不是本基地法規。",
+      "library_id": "GARZA2021",
+      "claim_verification": "CANONICAL_CROSS_CHECK_PENDING"
+    }
+  ],
+  "claim_verification": "CANONICAL_CROSS_CHECK_PENDING"
+}

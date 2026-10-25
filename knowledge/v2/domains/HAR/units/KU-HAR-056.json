@@ -1,0 +1,70 @@
+{
+  "id": "KU-HAR-056",
+  "type": "typology",
+  "subtopic": "港區轉型案例",
+  "title_zh": "保留港口型態的混合街區需要安排相容與不相容用途",
+  "title_en": "Port-Form Mixed Districts Need Explicit Use-Compatibility Rules",
+  "summary_zh": "港口型態街區常把住宅、工坊、文化設施與沿岸商業放進相鄰街廓，但功能混合不代表所有作業都能安全共址。工業地產研究分析市場開發者在棕地更新中的角色；環境研究則提醒土地污染與風險治理會改變可用用途。適當的混合度需要以實際噪音、車流、污染和工作時段判斷。",
+  "key_points_zh": [
+    "將用途混合圖和污染、貨車、噪音圖層疊合。",
+    "對不相容用途設置緩衝或空間分隔，而非只改名稱。"
+  ],
+  "design_implications_zh": [
+    "依作業時間與危害來源安排混用，而非預設底層商業可吸收所有衝突。"
+  ],
+  "applies_when_zh": "既有港口、工業工作和新住宅或文化設施相鄰時。",
+  "not_applicable_when_zh": "土地已整治且不再有工業營運或相關風險時。",
+  "debates_zh": "用途混合可減少單一功能區隔，也可能把環境負擔留給貼近作業面的住戶與勞工。",
+  "tradition": "棕地開發政治經濟／上海非正式城市治理",
+  "region": "英國與中國上海",
+  "curriculum_refs": [
+    {
+      "school": "MIT",
+      "course": null,
+      "topic": "Industrial land use and environmental justice"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": null,
+      "topic": "Brownfield regeneration and land markets"
+    }
+  ],
+  "domain": "HAR",
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "英國棕地再生研究討論地產開發業者在永續更新中的角色和責任。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "英國與中國上海",
+        "library_id": "DIXON2007",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "上海棕地再利用研究討論國家治理與非正式使用間的互動。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "英國與中國上海",
+        "library_id": "FAN2022",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "library_id": "DIXON2007",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "FAN2022",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "version": "v2.0"
+}

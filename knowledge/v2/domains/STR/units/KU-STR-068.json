@@ -1,0 +1,84 @@
+{
+  "id": "KU-STR-068",
+  "domain": "STR",
+  "subtopic": "完整街道",
+  "type": "value_range",
+  "title_zh": "自行車設施的單向與雙向寬度參照",
+  "title_en": "One-way and two-way bicycle facility widths",
+  "summary_zh": "本單元把單向和雙向自行車設施放在同一斷面比較，便於先選路網配置方向，再細查各自淨寬與路口需求。具體單向條件見 KU-MOB-067，雙向會車條件見 KU-MOB-068；此處的區間只是荷蘭與北美指南的比較參照，分隔、流量及轉彎空間仍須分別核對。",
+  "key_points_zh": [
+    "方向與流量是選擇設施寬度的基本條件。",
+    "交叉口、路緣和停車出入口會影響連續可用寬度。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "CROW 自行車設計手冊：單向自行車道約 2.0–2.5 m（高流量可達 3.0 m 以上）、雙向約 2.5–4.0 m，依尖峰流量分級。",
+        "library_id": "CROW",
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+        "effect_or_value": "單向 2.0–2.5 m；雙向 2.5–4.0 m",
+        "study_design": "指南尺寸的設計參照；章節待核對",
+        "context_region": "荷蘭",
+        "locator": null
+      },
+      {
+        "claim_zh": "跨國比較支持安全、連續的網路配置，但不能用一個斷面取代交叉口設計。",
+        "library_id": "PUCHER08",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "跨國自行車規劃比較",
+        "context_region": "荷蘭、丹麥、德國與北美比較",
+        "locator": null
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "單向及雙向自行車設施寬度",
+      "range": "單向 2.0–2.5 m；雙向 2.5–4.0 m",
+      "unit": "公尺",
+      "context": "荷蘭／北美自行車設計指南中的設施寬度比較情境；用途：比較單向與雙向自行車路線；轉彎、超車和高峰流量需另核。；「單向及雙向自行車設施寬度」僅供來源脈絡內的比較，不是本基地法規、M4H 門檻或通用配額。",
+      "library_id": "CROW"
+    }
+  ],
+  "design_implications_zh": [
+    "方案比較時分開計算單向和雙向設施，並把路口、停車及超車點納入同一斷面檢查。"
+  ],
+  "applies_when_zh": "比較單向和雙向自行車設施的配置時，依流量、車種和路口條件調整寬度。",
+  "not_applicable_when_zh": "不要把這些待核對區間直接寫成荷蘭、北美或本地法定尺寸，也不能忽略個別車種與尖峰流量。",
+  "debates_zh": "較寬的路段不保證交叉口安全；設施連續性和交會衝突仍需另外設計。",
+  "sources": [
+    {
+      "library_id": "CROW",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "PUCHER08",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "自行車設計實務",
+  "region": "荷蘭／北美自行車設計指南中的設施寬度比較情境",
+  "curriculum_refs": [
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "完整街道：課綱對應主題"
+    },
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "完整街道：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-MOB-067",
+    "KU-MOB-068",
+    "KU-STR-011"
+  ]
+}

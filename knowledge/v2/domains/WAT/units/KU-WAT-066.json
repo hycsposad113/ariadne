@@ -1,0 +1,74 @@
+{
+  "id": "KU-WAT-066",
+  "domain": "WAT",
+  "subtopic": "洪水風險與多層安全",
+  "type": "critique",
+  "title_zh": "保護標準不能取代對剩餘風險的溝通",
+  "title_en": "保護標準不能取代對剩餘風險的溝通",
+  "summary_zh": "符合某一防護標準不代表不存在超標洪水、設施故障或局部積水。城市防災和區域洪水治理研究都要求將保護與應變並列。公眾溝通需說明標準涵蓋的事件、失效條件和仍需自我準備的措施。",
+  "key_points_zh": [
+    "保護概率不等於零風險。",
+    "局部建物標高和通行條件仍會造成不同後果。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "library_id": "GODSCHALK2003",
+        "claim_zh": "題名與書目顯示文章討論城市災害減緩與韌性規劃；不提供特定基地的防洪標準；本單元 KU-WAT-066 對照「符合某一防護標準不代表不存在超標洪水、設施故障或局部積水」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "規劃框架論述",
+        "context_region": "美國都市規劃脈絡",
+        "locator": null
+      },
+      {
+        "library_id": "OSTROM2009",
+        "claim_zh": "摘要說明跨領域共同框架有助累積社會－生態系統知識，並指出使用者有時能自組織管理資源；這不是免除政府責任的普遍規則；本單元 KU-WAT-066 對照「符合某一防護標準不代表不存在超標洪水、設施故障或局部積水」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "ABSTRACT_REVIEW",
+        "effect_or_value": null,
+        "study_design": "跨學科概念框架",
+        "context_region": "跨地域自然資源治理",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "用可理解的圖例呈現超標事件和安全路線。",
+    "把警報、社區準備和設施維護納入風險說明。"
+  ],
+  "applies_when_zh": "適用於防洪工程和社區風險溝通。",
+  "not_applicable_when_zh": "不適用於用單一標準值代替完整應急計畫。",
+  "debates_zh": "以標準合規作為唯一訊息，可能造成錯誤安全感並降低應急準備。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "GODSCHALK2003",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "OSTROM2009",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "殘餘風險溝通",
+  "region": "美國都市規劃；跨尺度都市水治理",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "洪水風險與多層安全"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Sustainable Futures by Design",
+      "topic": "洪水風險與多層安全"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0"
+}

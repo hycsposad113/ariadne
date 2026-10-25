@@ -1,0 +1,81 @@
+{
+  "id": "KU-MOB-033",
+  "domain": "MOB",
+  "subtopic": "TOD 與節點—場所模型",
+  "type": "empirical_finding",
+  "title_zh": "目的地可及性與公共運輸使用",
+  "title_en": "Destination access and transit use",
+  "summary_zh": "建成環境—旅運研究加權整合分析，研究脈絡為美國規劃研究為主的跨研究集合。車站服務與周邊步行網共同形成節點可用性。公車與鐵路使用和公共運輸鄰近、街網設計有關，土地使用多樣性為次要關係。限制包括研究彈性小且異質，鄰近不等同服務頻率或乘客量。",
+  "key_points_zh": [
+    "車站服務與周邊步行網共同形成節點可用性",
+    "限制：研究彈性小且異質，鄰近不等同服務頻率或乘客量",
+    "效果或方向：公車與鐵路使用和公共運輸鄰近、街網設計有關，土地使用多樣性為次要關係"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "目的地可及性與公共運輸使用｜車站服務與周邊步行網共同形成節點可用性",
+        "effect_or_value": "公車與鐵路使用和公共運輸鄰近、街網設計有關，土地使用多樣性為次要關係",
+        "study_design": "建成環境—旅運研究加權整合分析",
+        "context_region": "美國規劃研究為主的跨研究集合",
+        "library_id": "EWING10",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "目的地可及性與公共運輸使用｜交通節點能力與站區場所活動應並列比較；靠近車站不等於站區用途已適配",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "BERTOLINI99",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "將節點服務和場所步行環境分開檢查"
+  ],
+  "applies_when_zh": "若本地觀察單位與美國規劃研究為主的跨研究集合的研究脈絡可對照，可用「車站服務與周邊步行網共同形成節點可用性」作為TOD 與節點—場所模型的比較線索。",
+  "not_applicable_when_zh": "這項美國規劃研究為主的跨研究集合的研究結果不能單獨證明因果或預測其他城市的街段；原研究研究彈性小且異質，鄰近不等同服務頻率或乘客量。",
+  "debates_zh": "關聯能否外推；研究彈性小且異質，鄰近不等同服務頻率或乘客量；檢視「目的地可及性與公共運輸使用」的研究解讀時，還需判斷「限制：研究彈性小且異質，鄰近不等同服務頻率或乘客量」會如何改變方案結論。",
+  "sources": [
+    {
+      "library_id": "EWING10",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "BERTOLINI99",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "大眾運輸導向發展",
+  "region": "美國規劃研究為主的跨研究集合",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "TOD 與節點—場所模型：課綱對應主題"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Urban Design Contexts and Operations",
+      "topic": "TOD 與節點—場所模型：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-MOB-034",
+    "KU-MOB-035",
+    "KU-MOB-036",
+    "KU-MOB-037",
+    "KU-MOB-038",
+    "KU-MOB-039",
+    "KU-MOB-040"
+  ]
+}

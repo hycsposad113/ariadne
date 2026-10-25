@@ -1,0 +1,45 @@
+{
+  "id": "HALLEUX2012",
+  "title": "The adaptive efficiency of land use planning measured by the control of urban sprawl. The cases of the Netherlands, Belgium and Poland",
+  "authors": [
+    "Jean-Marie Halleux",
+    "Szymon Marcińczak",
+    "Erwin van der Krabben"
+  ],
+  "year": 2012,
+  "venue_or_publisher": "Land Use Policy",
+  "doi": "https://doi.org/10.1016/j.landusepol.2012.01.008",
+  "isbn": null,
+  "openalex_id": "https://openalex.org/W2085383496",
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "歐洲土地使用規劃制度比較",
+  "region": [
+    "荷蘭、比利時與波蘭"
+  ],
+  "method": "比較制度分析",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "研究題目聚焦制度控制都市蔓延的適應能力；本次取得的書目紀錄沒有摘要結果，故單元只用其比較範圍，不宣稱效果。",
+      "strength": "THEORETICAL",
+      "scope_zh": "僅限摘要可核對的範圍；未讀全文，不推論摘要未列的數字、因果或普遍適用性。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "OpenAlex",
+    "query": {
+      "record_id": "https://openalex.org/W2085383496",
+      "title": "The adaptive efficiency of land use planning measured by the control of urban sprawl. The cases of the Netherlands, Belgium and Poland",
+      "author": "Jean-Marie Halleux",
+      "year": 2012
+    },
+    "matched_record_id": "https://openalex.org/W2085383496",
+    "checked_at_utc": "2026-10-08T09:12:32Z",
+    "match_notes_zh": "以 OpenAlex 精確 work 記錄核對書名、作者與出版年；只使用摘要作主張範圍檢查，未下載全文。"
+  },
+  "limitations_zh": "僅使用允許的書目欄位和摘要核對；未取得或保存全文。",
+  "metadata_licence_zh": "保存公開書目欄位與自行撰寫主張摘要；未保存 API 摘要原文或全文。"
+}

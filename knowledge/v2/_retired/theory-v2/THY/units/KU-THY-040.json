@@ -1,0 +1,82 @@
+{
+  "id": "KU-THY-040",
+  "domain": "THY",
+  "subtopic": "地景都市主義／生態都市主義",
+  "type": "design_principle",
+  "title_zh": "地景與生態都市：生態網絡與基礎設施",
+  "title_en": "Landscape urbanism and ecological urbanism — design principle unit 040",
+  "summary_zh": "生態都市主義把棲地、連通性、水循環和人類使用放進同一空間系統，要求設計檢查跨尺度的生態功能及長期管理。本項主張可與韌性設計及韌性批評對照，並保留它們的地域和制度範圍。套用「地景與生態都市：生態網絡與基礎設施」時仍需檢查生態語彙可能成為開發正當化；景觀連結不等於生物多樣性、韌性或公平已被量測。",
+  "key_points_zh": [
+    "生態都市主義把棲地、連通性、水循環和人類使用放進同一空間系統，要求設計檢查跨尺度的生態功能及長期管理。",
+    "本項主張可與韌性設計及韌性批評對照，並保留它們的地域和制度範圍。",
+    "套用「地景與生態都市：生態網絡與基礎設施」時仍需檢查生態語彙可能成為開發正當化；景觀連結不等於生物多樣性、韌性或公平已被量測。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "【ABSTRACT_REVIEW】就「地景與生態都市：生態網絡與基礎設施」而言，「Urban water management in cities: historical, current and future regimes」提供都市水治理的比較坐標；此處僅使用其已標明的書目／摘要範圍，不延伸為未核對的效果或因果。",
+        "effect_or_value": null,
+        "study_design": "歷史／治理比較",
+        "context_region": "澳洲",
+        "library_id": "BROWN09",
+        "locator": null
+      },
+      {
+        "claim_zh": "【BIBLIOGRAPHIC_SCOPE_ONLY】就「地景與生態都市：生態網絡與基礎設施」而言，「The Landscape Urbanism Reader」提供地景都市主義的比較坐標；此處僅使用其已標明的書目／摘要範圍，不延伸為未核對的效果或因果。",
+        "effect_or_value": null,
+        "study_design": "理論／設計論述",
+        "context_region": "北美；跨地域",
+        "library_id": "WALDHEIM2006",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "方案圖面應呈現「地景與生態都市：生態網絡與基礎設施」所指出的空間關係，並為關鍵判斷附上韌性設計與韌性批評各自支持和無法支持的部分。"
+  ],
+  "design_options": [],
+  "applies_when_zh": "當問題包含「地景與生態都市：生態網絡與基礎設施」且需比較需要跨尺度整合開放空間、基礎設施與生態條件時時使用。",
+  "not_applicable_when_zh": "若研究缺少對應尺度或群體資料，不以「地景與生態都市：生態網絡與基礎設施」取代沒有生態資料、維護安排或受益分配證據時。",
+  "debates_zh": "「地景與生態都市：生態網絡與基礎設施」的爭點在於生態語彙可能成為開發正當化；景觀連結不等於生物多樣性、韌性或公平已被量測；韌性設計與韌性批評的研究對象不同，需保留差異而不能合併成單一規則。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "BROWN09",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "WALDHEIM2006",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "地景都市主義／生態規劃",
+  "region": "跨地域",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "地景與生態都市：生態網絡與基礎設施 — 地景都市主義／生態都市主義"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Urban Design Contexts and Operations",
+      "topic": "地景與生態都市：生態網絡與基礎設施 — 地景都市主義／生態都市主義"
+    },
+    {
+      "school": "MIT",
+      "course": "4.241J Theory of City Form / 11.301J Urban Design and Development",
+      "topic": "地景與生態都市：生態網絡與基礎設施 — 地景都市主義／生態都市主義"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Critical Debates in Urban Design",
+      "topic": "地景與生態都市：生態網絡與基礎設施 — 地景都市主義／生態都市主義"
+    }
+  ],
+  "version": "2.0.0"
+}

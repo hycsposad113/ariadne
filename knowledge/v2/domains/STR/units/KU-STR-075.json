@@ -1,0 +1,74 @@
+{
+  "id": "KU-STR-075",
+  "domain": "STR",
+  "subtopic": "街道作為公共空間",
+  "type": "concept",
+  "title_zh": "Allan Jacobs 的 Great Streets 觀察框架",
+  "title_en": "Allan Jacobs’s Great Streets framework",
+  "summary_zh": "《Great Streets》比較不同城市的街道，將街道視為由空間比例、沿街建築、行走體驗與日常活動共同構成的公共場所。它的案例閱讀提醒設計者同時看街道兩側界面和人在街上實際如何移動、停留與觀看。這套分析來自案例比較，沒有提供一組可照搬的普遍路寬。",
+  "key_points_zh": [
+    "街道形體、建築界面和使用經驗應放在同一尺度閱讀。",
+    "案例好壞需依具體歷史與活動條件解釋，不可只摘出外觀形式。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "Allan Jacobs 以跨城市街道案例討論尺度、界面和使用經驗。",
+        "library_id": "AJACOBS93",
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+        "effect_or_value": null,
+        "study_design": "街道案例比較；分析維度待原書交叉核對",
+        "context_region": "美國與歐洲街道案例",
+        "locator": null
+      },
+      {
+        "claim_zh": "公共生活觀察可補充形態閱讀，但觀察結果仍需對應場地和使用者。",
+        "library_id": "WHYTE80",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "公共空間觀察",
+        "context_region": "美國紐約街頭生活研究",
+        "locator": null
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "用街道案例圖組比對空間比例、沿街界面和步行活動，並註明案例所在城市及年代。"
+  ],
+  "applies_when_zh": "閱讀街道案例或設計公共空間時，並看空間比例、建築界面和實際使用。",
+  "not_applicable_when_zh": "《Great Streets》的案例不構成建築退縮、路寬或商業密度的通用規範。",
+  "debates_zh": "案例中被視為「偉大」的街道也可能排除特定群體或依賴特殊治理；應檢查誰能使用及如何管理。",
+  "sources": [
+    {
+      "library_id": "AJACOBS93",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "WHYTE80",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "公共空間觀察",
+  "region": "街道案例比較與公共生活",
+  "curriculum_refs": [
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "街道作為公共空間：課綱對應主題"
+    },
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.330J Theory of City Form",
+      "topic": "街道作為公共空間：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-STR-056"
+  ]
+}

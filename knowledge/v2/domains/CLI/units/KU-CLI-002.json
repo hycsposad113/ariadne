@@ -1,0 +1,80 @@
+{
+  "id": "KU-CLI-002",
+  "domain": "CLI",
+  "subtopic": "天空可視因子",
+  "type": "value_range",
+  "title_zh": "LCZ 分析以鄰里尺度描述觀測環境",
+  "title_en": "The LCZ framework describes observation context at neighbourhood scale",
+  "summary_zh": "LCZ 分類將建成形態、地表覆蓋和人類活動分成十七類，讓氣溫觀測背景可比較。Stewart 與 Oke 的尺度範圍是觀測區域的描述尺度，不能解讀成氣候作用只發生在這個距離內。測站周邊的開放地表和高樓形態仍須另行記錄。",
+  "key_points_zh": [
+    "分類有助比較測站周圍的建成與自然表面。",
+    "鄰里尺度分類不能取代街道幾何量測。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "library_id": "STEWART2012",
+        "claim_zh": "LCZ 分類的代表尺度約落在 10²–10⁴ m，作為鄰里與局部氣候背景描述；它不是街谷設計的解析尺度。",
+        "effect_or_value": "17 種主要 LCZ 類別；分析尺度約 10^2–10^4 m",
+        "study_design": "分類框架與測站環境方法論",
+        "context_region": "全球城市氣溫研究",
+        "locator": null,
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008"
+      },
+      {
+        "library_id": "ARNFIELD2003",
+        "claim_zh": "摘要回顧尺度、空間異質性、湍流通量與城市熱島研究，並提醒結果會依感測媒介與量測技術而異；本單元 KU-CLI-002 對照「LCZ 分類將建成形態、地表覆蓋和人類活動分成十七類，讓氣溫觀測背景可比較」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "ABSTRACT_REVIEW",
+        "effect_or_value": null,
+        "study_design": "兩十年研究回顧",
+        "context_region": "跨地域都市氣候文獻",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "比較氣溫觀測時同步記錄周邊地表型態、植被和建物結構。",
+    "街道尺度模擬另建立幾何網格，不把 LCZ 標籤當作 SVF 數值。"
+  ],
+  "applies_when_zh": "適用於測站環境分類、跨城市都市溫度比較和初步氣候資料分層。",
+  "not_applicable_when_zh": "不可將分類數量或其鄰里尺度解讀成設計門檻。",
+  "debates_zh": "LCZ 分類改善跨站點一致性，但分類品質仰賴現地 metadata；分類邊界不等於真實氣候過程的硬邊界。",
+  "sources": [
+    {
+      "library_id": "STEWART2012",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "ARNFIELD2003",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "局部氣候區分類",
+  "region": "全球城市",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": null,
+      "topic": "都市氣候分類"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": null,
+      "topic": "城市熱環境與地表分類"
+    }
+  ],
+  "version": "v2.0",
+  "values": [
+    {
+      "name": "LCZ 鄰里氣候觀測代表尺度",
+      "range": "約 10^2–10^4",
+      "unit": "m",
+      "context": "Local Climate Zone 用來界定測站周邊的鄰里形態背景；尺度依觀測目的調整 這不是本基地法規；來源所列地域：全球城市測站與城市－鄉村比較。",
+      "library_id": "STEWART2012"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "id": "KU-ECO-002",
+  "domain": "ECO",
+  "subtopic": "地景生態學：嵌塊、廊道、基質",
+  "type": "empirical_finding",
+  "title_zh": "斑塊面積與廊道呈現正向生態作用",
+  "title_en": "Patch area and corridors support biodiversity",
+  "summary_zh": "都市生物多樣性統合分析檢查了七十五座城市中不同棲地與物種研究。較大斑塊與廊道對多個生物類群呈現較強正向關聯，植被結構也參與解釋。跨分類群合併可能掩蓋個別物種反應。連通性受益與人類干擾之間仍需平衡。",
+  "key_points_zh": [
+    "都市生物多樣性統合分析檢查了七十五座城市中不同棲地與物種研究",
+    "較大斑塊與廊道對多個生物類群呈現較強正向關聯，植被結構也參與解釋"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "都市生物多樣性統合分析檢查了七十五座城市中不同棲地與物種研究。",
+        "effect_or_value": "斑塊面積及廊道與多類群生物多樣性呈較強正向作用。",
+        "study_design": "跨城市統合分析",
+        "context_region": "全球 75 座城市",
+        "library_id": "BENINDE15",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW",
+        "limitations_zh": "研究分類群與都市棲地異質，需本地調查驗證。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "以目標物種與生態過程檢查斑塊面積和廊道效能。"
+  ],
+  "applies_when_zh": "適用於比較大斑塊保護與小型綠地安排。",
+  "not_applicable_when_zh": "不能直接把統合結果轉成特定物種的通用面積門檻。",
+  "debates_zh": "連通性受益與人類干擾之間仍需平衡。",
+  "sources": [
+    {
+      "library_id": "BENINDE15",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "MULLER10",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "都市生物多樣性與地景生態學",
+  "region": "全球 75 座城市",
+  "curriculum_refs": [
+    {
+      "school": "MIT",
+      "course": "11.330J Theory of City Form",
+      "topic": "地景生態學：嵌塊、廊道、基質"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-ECO-001",
+    "KU-ECO-003"
+  ]
+}

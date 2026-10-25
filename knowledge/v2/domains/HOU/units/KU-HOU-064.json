@@ -1,0 +1,92 @@
+{
+  "id": "KU-HOU-064",
+  "domain": "HOU",
+  "subtopic": "住宅類型",
+  "type": "value_range",
+  "title_zh": "低層 walk-up 集合住宅密度",
+  "title_en": "Low-rise walk-up housing density",
+  "summary_zh": "低層 walk-up 的單元量會受樓梯服務、樓層數和地面開放空間共同限制。Kropf 的形態手冊提供街道、地塊和建築的描述框架；Spacematrix 則可把覆蓋、樓地板量和開放空間分開量測。60–120 戶／公頃是方案比較帶，不能當成來源直接公布的門檻。",
+  "key_points_zh": [
+    "低層 walk-up 集合住宅可用約 60–120 戶／公頃作比較帶，樓梯服務和地面開放空間會影響可行單元量。",
+    "相同戶數密度可能有不同樓層和戶型組合，勿由此推斷可達性。",
+    "在密度表中列出樓梯間數、無障礙替代方式和住戶共享空間。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "Kropf 的形態手冊整理城市形態的描述與分析尺度；它可支援 walk-up 住宅形態閱讀，但不報告 60–120 戶／公頃密度值。",
+        "effect_or_value": "約 60–120",
+        "study_design": "跨案例尺度對照或明示假設的規劃計算",
+        "context_region": "亞洲與歐洲低層集合住宅",
+        "library_id": "KROPF2017",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "Spacematrix 的 FSI、GSI、OSR 與層數框架可補充 walk-up 住宅密度描述；60–120 戶／公頃仍是本卡比較帶，不是該書目直接報告值。",
+        "library_id": "BERGHAUSERPONT_HAUPT2020",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "荷蘭與跨地域",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "低層 walk-up 集合住宅密度",
+      "range": "約 60–120",
+      "unit": "戶／公頃",
+      "context": "跨地域低層集合住宅比較；用途：walk-up 淨住宅地密度工作帶；戶數值需按樓層、樓梯服務和開放空間重新計算；不是本基地法規。",
+      "library_id": "BERGHAUSERPONT_HAUPT2020"
+    }
+  ],
+  "design_implications_zh": [
+    "在密度表中列出樓梯間數、無障礙替代方式和住戶共享空間。",
+    "記錄 亞洲與歐洲低層集合住宅 與「三至五層無電梯或低層步行式住宅」的量測分母，再和另一種尺度或用途並排比較。"
+  ],
+  "applies_when_zh": "用於比較亞洲與歐洲低層集合住宅的三至五層無電梯或低層步行式住宅，並明示此數值的來源、年份和面積分母。",
+  "not_applicable_when_zh": "相同戶數密度可能有不同樓層和戶型組合，勿由此推斷可達性。",
+  "debates_zh": "低層形式可以維持地面連結，但樓梯依賴會提高高齡住戶的垂直移動負擔。 查核：「低層 walk-up 集合住宅密度」的數值帶合理，但所引文獻未提供，待補來源。",
+  "sources": [
+    {
+      "library_id": "BERGHAUSERPONT_HAUPT2020",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "KROPF2017",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "城市形態學",
+  "region": "亞洲與歐洲低層集合住宅",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "住宅類型"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "住宅類型"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "住宅類型"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "住宅類型"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+}

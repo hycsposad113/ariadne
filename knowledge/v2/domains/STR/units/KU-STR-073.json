@@ -1,0 +1,88 @@
+{
+  "id": "KU-STR-073",
+  "domain": "STR",
+  "subtopic": "路網形態（格子、放射、有機）",
+  "type": "typology",
+  "title_zh": "Marshall 的 ABCD 街道型態分類",
+  "title_en": "Marshall’s ABCD street-pattern typology",
+  "summary_zh": "Marshall 將街道網路模式整理成 A、B、C、D 四種型態，供比較路線結構與街道空間如何組織移動。分類的價值是把形態特徵和連接關係放在一起討論，而不是按道路名稱做排名。每個字母所指的具體圖式待對照 2004 年版本後再固定，避免把分類映射寫錯。",
+  "key_points_zh": [
+    "四個字母型態是比較分類，不是法定道路階層。",
+    "讀取 A–D 前須對照 Marshall 原圖及其網路特徵。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "Marshall（2005）的 ABCD 街網類型：A＝Altstadt（不規則舊城）、B＝Bilateral（雙向正交方格）、C＝Characteristic（連通但不規則的線性網）、D＝Distributary（樹狀、死巷式分配網）。",
+        "library_id": "MARSHALL05",
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+        "effect_or_value": null,
+        "study_design": "比較框架；字母定義待原版圖表核對",
+        "context_region": "英國規劃與路網研究",
+        "locator": null
+      },
+      {
+        "claim_zh": "街道網路比較需將型態、連接與歷史發展並讀。",
+        "library_id": "SOUTHWORTH03",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "街道形態比較",
+        "context_region": "美國與跨地域街道形態",
+        "locator": null
+      },
+      {
+        "claim_zh": "Marcus 將空間組態放入較廣的都市形態討論；此來源不被用來指定 Marshall 的字母分類。",
+        "library_id": "MARCUS10",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "空間語法延伸至都市形態的理論論文",
+        "context_region": "澳洲都市形態研究",
+        "locator": null
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "在替代路網比較中，列出每種型態的連接方式、路徑選擇和局部通行條件。"
+  ],
+  "applies_when_zh": "在替代路網比較中，需要描述街道模式的連接方式和局部通行條件時使用。",
+  "not_applicable_when_zh": "A–D 字母目前不應被直接轉成基地的路段分級，也不代表由優到劣的順序。",
+  "debates_zh": "字母型態的操作定義與歷史案例需逐一核對，否則分類可能把不同尺度的網路混為一談。",
+  "sources": [
+    {
+      "library_id": "MARSHALL05",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "SOUTHWORTH03",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "MARCUS10",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "街道網路分類",
+  "region": "英國規劃形態",
+  "curriculum_refs": [
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.330J Theory of City Form",
+      "topic": "路網形態（格子、放射、有機）：課綱對應主題"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "路網形態（格子、放射、有機）：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-STR-064"
+  ]
+}

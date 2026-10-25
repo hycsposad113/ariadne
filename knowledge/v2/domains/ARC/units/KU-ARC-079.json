@@ -1,0 +1,88 @@
+{
+  "id": "KU-ARC-079",
+  "domain": "ARC",
+  "subtopic": "跨國住宅標準",
+  "type": "regulation_profile",
+  "title_zh": "不同國家的住宅面積指標不可直接互換",
+  "title_en": "cross-jurisdiction floor-area metrics",
+  "summary_zh": "NDSS 的 GIA、德國 WoFlV 的 Wohnfläche 與荷蘭 Bbl gebruiksoppervlakte 使用不同邊界和折算規則。 只有先寫出外牆、共用空間、陽台與低頭高區的口徑，數值比較才有意義。 法規合規與設計品質也應分欄報告。",
+  "key_points_zh": [
+    "核心主張：NDSS 的 GIA、德國 WoFlV 的 Wohnfläche 與荷蘭 Bbl gebruiksoppervlakte 使用不同邊界和折算規則。",
+    "量測檢查：在圖面上為每種計量標準建立獨立面積圖層，交叉檢查其納入與排除範圍。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "NDSS 的 GIA、德國 WoFlV 的 Wohnfläche 與荷蘭 Bbl gebruiksoppervlakte 使用不同邊界和折算規則。",
+        "effect_or_value": null,
+        "study_design": "跨地域設計參照綜整；數值狀態依 claim_verification 註記",
+        "context_region": "England；Germany；Netherlands",
+        "library_id": "UK_NDSS_2015",
+        "locator": "technical requirements paras 10–11; Table 1",
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "建立各國面積口徑對照表，對同一平面分別重算不同指標，保留轉換公式。"
+  ],
+  "applies_when_zh": "「不同國家的住宅面積指標不可直接互換」可在用於方案前期的量體、平面或空間品質篩檢時使用，前提是NDSS 的 GIA、德國 WoFlV 的 Wohnfläche 與荷蘭 Bbl gebruiksoppervlakte 使用不同邊界和折算規則與來源情境相符。",
+  "not_applicable_when_zh": "若NDSS 的 GIA、德國 WoFlV 的 Wohnfläche 與荷蘭 Bbl gebruiksoppervlakte 使用不同邊界和折算規則不成立，就不能把「不同國家的住宅面積指標不可直接互換」的結論延伸到其他情況；不得單獨作為許可、消防、結構或基地法規判定。",
+  "debates_zh": "不存在一個可不經轉換便比較各國住宅「夠不夠大」的單一面積數值。",
+  "sources": [
+    {
+      "library_id": "UK_NDSS_2015",
+      "claim_id": "C1",
+      "locator": "technical requirements paras 10–11; Table 1"
+    },
+    {
+      "library_id": "SINGLE_FAMILY_DESIGN18",
+      "claim_id": "C1",
+      "locator": "chapter 4; exact page not checked"
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "claim_verification": "ABSTRACT_REVIEW",
+  "tradition": "英格蘭、德國與荷蘭住宅面積制度比較",
+  "region": "England；Germany；Netherlands",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Housing and the City / Design of the Urban Fabric",
+      "topic": "建築尺度與住宅平面"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "建築尺度與街道界面"
+    },
+    {
+      "school": "MIT",
+      "course": "Architecture and Urban Design",
+      "topic": "建築尺度與空間型態"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "建築尺度與公共生活"
+    }
+  ],
+  "check": {
+    "method_zh": "在圖面上為每種計量標準建立獨立面積圖層，交叉檢查其納入與排除範圍。",
+    "inputs": [
+      "跨國住宅標準",
+      "尺寸／面積圖層",
+      "適用地區與用途標籤"
+    ],
+    "logic_zh": "將量測輸入轉成明確尺寸、比例或空間關係；越界只觸發複核，不自動取代設計決策。",
+    "limitations_zh": "量測結果只觸發「不同國家的住宅面積指標不可直接互換」的複核，不得單獨作為許可或法規判定。"
+  },
+  "version": "kb2-arc-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-ARC-076",
+    "KU-ARC-077",
+    "KU-ARC-078"
+  ]
+}

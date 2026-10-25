@@ -1,0 +1,71 @@
+{
+  "id": "KU-THY-012",
+  "domain": "THY",
+  "subtopic": "現代主義（CIAM、機能城市）與批判（Jacobs、Team 10、Collage City、Rossi、Krier）",
+  "type": "theory",
+  "title_zh": "光輝城市",
+  "title_en": "Ville Radieuse",
+  "summary_zh": "Le Corbusier 的光輝城市以高層、開放綠地及功能秩序重組都市。它以集中建築量體釋放地面空間，並將交通與不同活動納入整體系統設計。把建築密度、地面使用與交通分離分別評價，避免只看高樓或草地面積。",
+  "key_points_zh": [
+    "把建築密度、地面使用與交通分離分別評價，避免只看高樓或草地面積。",
+    "大尺度重組可能抹除既有街道生活與細粒度產權。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "Le Corbusier 的光輝城市以高層、開放綠地及功能秩序重組都市。它以集中建築量體釋放地面空間，並將交通與不同活動納入整體系統設計。",
+        "library_id": "CORBUSIER1933",
+        "locator": null,
+        "study_design": "理論／方法綜述；非基地實測",
+        "effect_or_value": null,
+        "context_region": null,
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008"
+      },
+      {
+        "claim_zh": "Hall 對現代規劃運動的歷史敘述提供 Le Corbusier 原典之外的解讀。",
+        "library_id": "HALL1988",
+        "locator": null,
+        "study_design": "歷史／規劃思想",
+        "effect_or_value": null,
+        "context_region": "英國、歐洲、跨地域",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "把建築密度、地面使用與交通分離分別評價，避免只看高樓或草地面積。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "集中量體可增加連續開放地面，但可能削弱街道邊界與小店網絡。",
+      "tradeoff_zh": "大尺度重組可能抹除既有街道生活與細粒度產權。",
+      "library_ids": [
+        "HALL1988"
+      ]
+    }
+  ],
+  "applies_when_zh": "用於釐清「光輝城市」涉及的空間、制度與行動選擇。",
+  "not_applicable_when_zh": "「光輝城市」不能直接替代基地的實測、法規或人類批准。",
+  "debates_zh": "大尺度重組可能抹除既有街道生活與細粒度產權。",
+  "sources": [
+    {
+      "library_id": "CORBUSIER1933",
+      "locator": null
+    },
+    {
+      "library_id": "HALL1988",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+  "curriculum_refs": [
+    {
+      "school": "MIT",
+      "course": null,
+      "topic": "編者主題對照，非已核實課程指定閱讀：光輝城市"
+    }
+  ],
+  "version": "2.0.0-theory-v3"
+}

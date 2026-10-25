@@ -1,0 +1,135 @@
+{
+  "skill_id": "J-CLIMATE",
+  "skill_version": "1.2.0",
+  "stage": "climate",
+  "subject": {
+    "kind": "scheme",
+    "ids": [
+      "harbour_grain"
+    ]
+  },
+  "observations": [
+    {
+      "text": "中庭冬至平均日照為 0.108 小時，達到兩小時日照的比例為 1.03%；相較你已將中庭定位為住戶停留空間，冬季日照停留帶目前不足。",
+      "refs": [
+        {
+          "kind": "metric",
+          "id": "e1.harbour.courtyard.winter.mean_h",
+          "value": 0.108,
+          "unit": "h"
+        },
+        {
+          "kind": "metric",
+          "id": "e1.harbour.courtyard.winter.ge2h_pct",
+          "value": 1.03,
+          "unit": "%"
+        }
+      ]
+    },
+    {
+      "text": "冬至日照集中在街坊公園與水岸：公園平均 4.082 小時，水岸平均 3.415 小時；住戶共用中庭與這些停留空間的日照條件不同。",
+      "refs": [
+        {
+          "kind": "metric",
+          "id": "e1.harbour.park.winter.mean_h",
+          "value": 4.082,
+          "unit": "h"
+        },
+        {
+          "kind": "metric",
+          "id": "e1.harbour.waterfront.winter.mean_h",
+          "value": 3.415,
+          "unit": "h"
+        }
+      ]
+    },
+    {
+      "text": "最熱日 UTCI 分類中，中庭非常強烈熱壓力時數比為 12.3%，全基地為 26.4%；這是夏季熱曝露的模型指標，不能單獨等同舒適度或日照量。",
+      "refs": [
+        {
+          "kind": "metric",
+          "id": "utci.harbour.courtyard.very_strong_pct",
+          "value": 12.3,
+          "unit": "%"
+        },
+        {
+          "kind": "metric",
+          "id": "utci.harbour.all.very_strong_pct",
+          "value": 26.4,
+          "unit": "%"
+        }
+      ]
+    }
+  ],
+  "judgement": {
+    "stance": "CONCERN",
+    "headline": "我認為港埠方案的中庭冬季日照需要先修正；在這個空間已定位為住戶停留場所的前提下，夏季指標不能抵銷這項落差。"
+  },
+  "reasoning": [
+    {
+      "lens": "L1-seasonal-tradeoff",
+      "text": "你已表明冬季陽光與夏季戶外熱舒適同等重要；中庭要兼作住戶停留空間與夏季遮蔭庭，兩季條件應並行。冬季日照不足應作為待修缺陷，不能用夏季表現交換掉。",
+      "knowledge_refs": [
+        "KU-CLI-055",
+        "KU-CLI-056"
+      ]
+    },
+    {
+      "lens": "L2-spatial-classification",
+      "text": "冬季陽光主要落在公園與水岸，中庭的日照條件較弱；既然中庭承擔住戶停留，下一輪應調整南側量體或中庭尺度，並以日照、熱壓力及植栽遮蔭分析檢查兩季目標。",
+      "knowledge_refs": [
+        "KU-CLI-026",
+        "KU-CLI-029",
+        "KU-CLI-061",
+        "KU-CLI-065"
+      ]
+    }
+  ],
+  "confidence": {
+    "level": "medium",
+    "why": "中庭冬季日照由 E1 直接支持；夏季熱壓力來自有限時段的模型結果，仍需用修正後分析檢查兩季表現。"
+  },
+  "revision_directions": [
+    {
+      "action": "降低中庭南側量體高度，讓中庭北側邊緣形成冬季可停留的日照帶。",
+      "target": "中庭南側量體",
+      "parameter_family": "height",
+      "expected_effect": "改善中庭冬季日照條件，並在重跑 E1 後確認日照帶位置。",
+      "trade_off": "可能減少可建量；若移至其他街廓，可能改變別處的陰影。"
+    },
+    {
+      "action": "加寬東西向較窄的中庭，改善冬季低仰角陽光進入的空間條件。",
+      "target": "東西向較窄的中庭",
+      "parameter_family": "courtyard_width",
+      "expected_effect": "增加冬季陽光進入中庭的可能，需由 E1 重跑確認。",
+      "trade_off": "需要重新安排街廓或量體，可能改變港埠紋理的連續界面。"
+    },
+    {
+      "action": "以落葉植栽與棚架補足夏季遮蔭，減少只依靠建築量體提供遮蔭。",
+      "target": "中庭",
+      "parameter_family": "planting_shade",
+      "expected_effect": "保留夏季遮蔭目的，並讓植栽落葉時增加冬季日照進入機會。",
+      "trade_off": "遮蔭效果仍取決於植栽季節狀態、棚架形式與維護。"
+    },
+    {
+      "action": "修正後重跑中庭 E1 與 UTCI，檢查冬季日照停留帶與夏季熱壓力分布是否同時改善。",
+      "target": "中庭",
+      "parameter_family": "analysis_needed",
+      "expected_effect": "用更新後的確定性結果檢查兩季目標。",
+      "trade_off": "需要重新執行分析，結論仍受各分析方法與範圍限制。"
+    }
+  ],
+  "counterpoints": [
+    "降低南側量體可能削弱港埠紋理的連續長向界面，需要在形態連續性與中庭日照之間另作調整。",
+    "若透過其他街廓補回減少的可建量，也可能增加別處陰影；目前資料不足以確認補回位置與影響。"
+  ],
+  "limitations": [
+    "E1 呈現直射日照時數，沒有納入植栽遮蔭，不能單獨證明夏季遮蔭效果。",
+    "UTCI 結果取自最熱日的有限時段模擬，風速採均勻對數律且未耦合建築風場；熱壓力分類不能直接等同實際舒適感。",
+    "資料缺口包括 E2 輻射百分比、港埠最大高度及新 GFA 上限比例；本卡不判斷輻射改善幅度、量體可行高度或可建量補回量。"
+  ],
+  "questions_for_designer": [
+    "為了兼顧中庭冬季停留陽光與夏季遮蔭，你希望先調整南側量體、中庭寬度，還是以植栽和棚架補足遮蔭？",
+    "你能接受港埠紋理的連續長向界面在中庭南側局部降低或斷開嗎？"
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "id": "KU-STR-060",
+  "domain": "STR",
+  "subtopic": "路網形態（格子、放射、有機）",
+  "type": "design_principle",
+  "title_zh": "路網形態（格子、放射、有機）：設計原則與取捨",
+  "title_en": "Grid, radial, and organic networks: Design principle and trade-off",
+  "summary_zh": "按基地尺度、地形、既有道路、目的地和穿越需求選擇網形，並比較模式分流與街廓可用性。關鍵取捨是格子提供多方向替代路徑，放射網強化中心導向，有機網可順應地形與歷史但可能形成不均的繞行成本。執行前應按實際速度、目的地、行程和使用者能力檢查：在相同邊界、節點規則和尺度下比較連通、繞行、中心性與街廓結果，避免因截圖範圍造成假差異。",
+  "key_points_zh": [
+    "操作原則：格子、放射與有機網路是對方向性、選擇路徑和適應地形方式的不同組織，不預設哪一種對所有基地最好",
+    "操作原則：按基地尺度、地形、既有道路、目的地和穿越需求選擇網形，並比較模式分流與街廓可用性"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "路網形態（格子、放射、有機）：設計原則與取捨｜Primal 街道圖和多中心性指標可辨識城市結構骨架；規劃型與自組織城市的中心性分布不同，指標選擇仍受圖表示限制",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "PORTA06",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "路網形態（格子、放射、有機）：設計原則與取捨｜城市路網組態與行人通行分布存在關聯，吸引用途可能放大通行；這不提供本基地的人數或因果保證",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "HILLIER93",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "按基地尺度、地形、既有道路、目的地和穿越需求選擇網形，並比較模式分流與街廓可用性"
+  ],
+  "applies_when_zh": "在路網形態（格子、放射、有機）的方案比較中，可用「格子、放射與有機網路是對方向性、選擇路徑和適應地形方式的不同組織，不預設哪一種對所有基地最好」整理空間配置取捨，並註明採用的服務與使用者目標。",
+  "not_applicable_when_zh": "「格子、放射與有機網路是對方向性、選擇路徑和適應地形方式的不同組織，不預設哪一種對所有基地最好」不能直接轉成法規或最佳方案判斷，尤其不能忽略「幾何網形不能單獨代表交通行為；土地使用、出入口、坡度和制度性通行限制會重塑實際路徑」指出的限制。",
+  "debates_zh": "幾何網形不能單獨代表交通行為；土地使用、出入口、坡度和制度性通行限制會重塑實際路徑；檢視「路網形態（格子、放射、有機）：設計原則與取捨」的方案取捨時，還需判斷「按基地尺度、地形、既有道路、目的地和穿越需求選擇網形，並比較模式分流與街廓可用性」會如何改變方案結論。",
+  "sources": [
+    {
+      "library_id": "PORTA06",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "HILLIER93",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "城市路網與空間組態",
+  "region": "跨地域理論或實務脈絡；來源地區依引用條目判讀",
+  "curriculum_refs": [
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.330J Theory of City Form",
+      "topic": "路網形態（格子、放射、有機）：課綱對應主題"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "路網形態（格子、放射、有機）：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-STR-057",
+    "KU-STR-058",
+    "KU-STR-059",
+    "KU-STR-061",
+    "KU-STR-062",
+    "KU-STR-063",
+    "KU-STR-064"
+  ]
+}

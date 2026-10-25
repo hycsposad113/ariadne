@@ -1,0 +1,36 @@
+{
+  "id": "MLIT_DENTEI",
+  "title": "立地適正化計画作成の手引き",
+  "authors": [
+    "Ministry of Land, Infrastructure, Transport and Tourism (MLIT)"
+  ],
+  "year": 2024,
+  "venue_or_publisher": "Ministry of Land, Infrastructure, Transport and Tourism (MLIT)",
+  "doi": null,
+  "isbn": null,
+  "kind": "PRACTICE_MANUAL",
+  "tradition": "官方制度與專業實務指引",
+  "region": [
+    "Ministry of Land, Infrastructure, Transport and Tourism (MLIT)"
+  ],
+  "method": "官方公開法規、政策頁或手冊；依verification.method註明可讀範圍",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "官方頁面檢索摘錄確認田園住居地域建蔽率與容積率選項範圍。",
+      "strength": "NORMATIVE_PRACTICE",
+      "scope_zh": "僅摘要官方公開頁面可直接支持之制度或實務內容；不外推為M4H地方法規。",
+      "assessment_basis": "OFFICIAL_SITE_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED_OFFICIAL_SITE",
+    "url": "https://www.mlit.go.jp/toshi/city_plan/content/001379331.pdf",
+    "accessed_utc": "2026-10-08T10:47:42Z",
+    "method": "official public PDF",
+    "match_notes_zh": "核對官方來源網域與可公開讀取的頁面／摘錄；內容範圍限制已記錄。"
+  },
+  "limitations_zh": "official public PDF",
+  "metadata_licence_zh": "保存官方公開文件的書目欄位與自行改寫的內容摘要；未保存付費全文。"
+}

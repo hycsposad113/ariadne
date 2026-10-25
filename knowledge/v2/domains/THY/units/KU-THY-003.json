@@ -1,0 +1,71 @@
+{
+  "id": "KU-THY-003",
+  "domain": "THY",
+  "subtopic": "規範性城市理論（Lynch 的城市好形式、性能向度）",
+  "type": "theory",
+  "title_zh": "城市好形式性能向度",
+  "title_en": "Performance dimensions of good city form",
+  "summary_zh": "Lynch 的性能向度包括 vitality 活力、sense 感知、fit 適配、access 可及與 control 控制。Efficiency 效率與 justice 公平用來追問各向度的代價及利益分配，是後設準則而非另外兩個同級性能。比較方案時先逐項列出使用者、性能定義與證據，再公開成本與分配判斷。",
+  "key_points_zh": [
+    "比較方案時先逐項列出使用者、性能定義與證據，再公開成本與分配判斷。",
+    "五種性能可能互相衝突；提升整體效率也可能削弱特定群體的控制權。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "Lynch 的性能向度包括 vitality 活力、sense 感知、fit 適配、access 可及與 control 控制。Efficiency 效率與 justice 公平用來追問各向度的代價及利益分配，是後設準則而非另外兩個同級性能。",
+        "library_id": "LYNCH81",
+        "locator": null,
+        "study_design": "理論／方法綜述；非基地實測",
+        "effect_or_value": null,
+        "context_region": null,
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008"
+      },
+      {
+        "claim_zh": "Mumford 以長時段城市史檢視理想與制度變化，提供 Lynch 性能向度以外的歷史比較尺度。",
+        "library_id": "MUMFORD1961",
+        "locator": null,
+        "study_design": "歷史／城市文明",
+        "effect_or_value": null,
+        "context_region": "美國、跨地域",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "比較方案時先逐項列出使用者、性能定義與證據，再公開成本與分配判斷。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "使用分項評價保留衝突，會增加討論時間，但避免把價值判斷藏在總分裡。",
+      "tradeoff_zh": "五種性能可能互相衝突；提升整體效率也可能削弱特定群體的控制權。",
+      "library_ids": [
+        "LYNCH81"
+      ]
+    }
+  ],
+  "applies_when_zh": "用於釐清「城市好形式性能向度」涉及的空間、制度與行動選擇。",
+  "not_applicable_when_zh": "「城市好形式性能向度」不能直接替代基地的實測、法規或人類批准。",
+  "debates_zh": "五種性能可能互相衝突；提升整體效率也可能削弱特定群體的控制權。",
+  "sources": [
+    {
+      "library_id": "LYNCH81",
+      "locator": null
+    },
+    {
+      "library_id": "MUMFORD1961",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+  "curriculum_refs": [
+    {
+      "school": "MIT",
+      "course": null,
+      "topic": "編者主題對照，非已核實課程指定閱讀：城市好形式性能向度"
+    }
+  ],
+  "version": "2.0.0-theory-v3"
+}

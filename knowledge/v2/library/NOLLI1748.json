@@ -1,0 +1,44 @@
+{
+  "id": "NOLLI1748",
+  "title": "Nuova Pianta di Roma",
+  "authors": [
+    "Giambattista Nolli"
+  ],
+  "year": 1748,
+  "venue_or_publisher": "Open Library 原始地圖書目未列出版社",
+  "doi": null,
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "PRIMARY_MAP",
+  "tradition": "城市圖底與公共空間原始圖資",
+  "region": [
+    "義大利",
+    "歐洲"
+  ],
+  "method": "原始地圖書目核對",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "核對書目確認《Nuova Pianta di Roma》的作者、題名與出版脈絡；此記錄不單獨證明單元中的效應、因果或基地條件。",
+      "strength": "THEORETICAL",
+      "scope_zh": "只界定可查證的書目與研究範圍；不提供本基地法規、實測值或通用設計門檻。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Open Library",
+    "query": {
+      "query": "Nolli map Rome",
+      "author": "Giambattista Nolli",
+      "year": 1748
+    },
+    "matched_record_id": "/works/OL12776368W",
+    "checked_at_utc": "2026-10-08T16:16:54Z",
+    "match_notes_zh": "Open Library 搜尋結果明列 Giambattista Nolli、Nuova Pianta di Roma、1748 年；地圖原件書目未列出版社。"
+  },
+  "limitations_zh": "只核對允許使用的公開書目 API；未查閱全文。書目確認不等於主張、因果或參數驗證。",
+  "critique_relationship_zh": "本筆作為單元主題的獨立書目來源；未由書目資料推定來源間直接互引或逐條反駁。",
+  "metadata_licence_zh": "僅保存必要書目欄位與自撰摘要；未保存全文或 API 摘要，metadata 授權未逐筆核驗，標 UNKNOWN。"
+}

@@ -1,0 +1,107 @@
+{
+  "id": "KU-HOU-046",
+  "domain": "HOU",
+  "subtopic": "居住密度與生活品質",
+  "type": "method",
+  "title_zh": "居住密度與生活品質｜分析方法",
+  "title_en": "Residential density and quality of life — Analytical method",
+  "summary_zh": "居住密度與生活品質的分析需區分住戶、住房類型和服務條件，不能只把戶數或 FAR 當成解釋變數。 奧斯陸與香港研究發現，住宅、鄰里和通勤滿意度連結主觀福祉的方式不同，部分關係經由其他滿意度中介。 比較密度方案應使用分組模型與住戶資料，並避免把相關性描述成密度的因果效果。",
+  "key_points_zh": [
+    "使用多城市或分組模型檢查不同住戶和住房類型的異質性。",
+    "使用多城市或分組模型檢查不同住戶和住房類型的異質性。",
+    "讀「居住密度與生活品質｜分析方法」時，限制：沒有住戶和服務資料時，不聲稱密度改善或降低生活品質；同時把居住密度與生活品質的分析需區分住戶、住房類型和服務條件，不能只把戶數或 FAR 當成解釋變數列為核對條件。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "Mouratidis 把通勤、鄰里和住宅滿意度作為不同福祉關聯結果，為居住環境評估提供分項指標。",
+        "library_id": "MOURATIDIS2020",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "奧斯陸城市區域，挪威",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "Ng 的高密度案例把社會與環境結果同時列入設計討論，不把密度本身當作生活品質的解釋。",
+        "library_id": "NG10",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "香港; 亞洲",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "住宅密度比較分別計算建築面積、戶數和常住人口，再核對共享空間容量與服務負載。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "住宅密度比較分別計算建築面積、戶數和常住人口，再核對共享空間容量與服務負載。",
+      "tradeoff_zh": "「居住密度與生活品質｜分析方法」採用「住宅密度比較分別計算建築面積、戶數和常住人口，再核對共享空間容量與服務負載」時，得失要沿著居住密度與生活品質的分析需區分住戶、住房類型和服務條件，不能只把戶數或 FAR 當成解釋變數檢查；「居住密度與生活品質｜分析方法」的爭議不只在於沒有住戶和服務資料時，不聲稱密度改善或降低生活品質；還要檢視居住密度與生活品質的分析需區分住戶、住房類型和服務條件，不能只把戶數或 FAR 當成解釋變數會讓哪些使用者承擔不同後果。",
+      "library_ids": [
+        "MOURATIDIS2020",
+        "NG10"
+      ]
+    },
+    {
+      "option_zh": "在「居住密度與生活品質｜分析方法」的來源情境裡，高層集合住宅、低層高覆蓋與連棟住宅有不同服務和管理條件；落到設計時還要按居住密度與生活品質的分析需區分住戶、住房類型和服務條件，不能只把戶數或 FAR 當成解釋變數調整。",
+      "tradeoff_zh": "「居住密度與生活品質｜分析方法」的主要代價不是抽象的建造成本，而是「居住密度與生活品質｜分析方法」的爭議不只在於沒有住戶和服務資料時，不聲稱密度改善或降低生活品質；還要檢視居住密度與生活品質的分析需區分住戶、住房類型和服務條件，不能只把戶數或 FAR 當成解釋變數會讓哪些使用者承擔不同後果；因此先以居住密度與生活品質的分析需區分住戶、住房類型和服務條件，不能只把戶數或 FAR 當成解釋變數作方案比較條件。",
+      "library_ids": [
+        "MOURATIDIS2020",
+        "NG10"
+      ]
+    }
+  ],
+  "applies_when_zh": "「居住密度與生活品質｜分析方法」可在適用於住宅密度方案比較和社會住宅居住後評估時使用，前提是居住密度與生活品質的分析需區分住戶、住房類型和服務條件，不能只把戶數或 FAR 當成解釋變數與來源情境相符。",
+  "not_applicable_when_zh": "若居住密度與生活品質的分析需區分住戶、住房類型和服務條件，不能只把戶數或 FAR 當成解釋變數不成立，就不能把「居住密度與生活品質｜分析方法」的結論延伸到其他情況；沒有住戶和服務資料時，不聲稱密度改善或降低生活品質。",
+  "debates_zh": "「居住密度與生活品質｜分析方法」的爭議不只在於沒有住戶和服務資料時，不聲稱密度改善或降低生活品質；還要檢視居住密度與生活品質的分析需區分住戶、住房類型和服務條件，不能只把戶數或 FAR 當成解釋變數會讓哪些使用者承擔不同後果。",
+  "sources": [
+    {
+      "library_id": "MOURATIDIS2020",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "NG10",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "住宅、鄰里與生活福祉；高密度環境設計",
+  "region": "奧斯陸城市區域，挪威；香港",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "居住密度與生活品質"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "居住密度與生活品質"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "居住密度與生活品質"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "居住密度與生活品質"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-HOU-043",
+    "KU-HOU-044",
+    "KU-HOU-045"
+  ],
+  "counter_unit_ids": [
+    "KU-HOU-047"
+  ]
+}

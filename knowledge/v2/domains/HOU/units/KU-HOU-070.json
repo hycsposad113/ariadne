@@ -1,0 +1,105 @@
+{
+  "id": "KU-HOU-070",
+  "domain": "HOU",
+  "subtopic": "住宅類型",
+  "type": "value_range",
+  "title_zh": "studio 單元面積",
+  "title_en": "Studio dwelling floor area",
+  "summary_zh": "學生 studio 的面積安排應和廚房、清潔、衛浴和交通條件一起檢視。Gong 等人的斯德哥爾摩研究討論學生住宅滿意度與 studio 住戶差異；Time-Saver 提供住宅設計尺寸參照，英格蘭 NDSS 則示範按入住人數和臥室配置制定最低面積。25–40 m² 是比較帶，不能當作這些來源共同設定的 studio 標準。",
+  "key_points_zh": [
+    "學生 studio 的比較面積可用約 25–40 m²／單元作工作範圍；調查發現設施和交通可及性同樣與滿意度有關。",
+    "單元面積範圍不構成最低居住標準，且不能推廣到有照護需求的住戶。",
+    "把私人面積、廚房共享程度和衛浴配置分開標示。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "Gong 等人研究斯德哥爾摩學生住宅的居住滿意，報告廚房、清潔和交通可及性與評價有關；摘要未提出 25–40 m² 的 studio 面積標準。",
+        "effect_or_value": "約 25–40",
+        "study_design": "跨案例尺度對照或明示假設的規劃計算",
+        "context_region": "斯德哥爾摩學生住宅調查參考",
+        "library_id": "GONG2023",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "《Time-Saver Standards for Housing and Residential Development》是住宅與居住開發設計手冊，可作 studio 面積比較的實務參照；尺寸仍需核對版次與地區。",
+        "library_id": "TIMESAVER_HOUSING94",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "跨地域",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "英格蘭 NDSS 按入住人數與臥室配置列住宅最低總室內面積；它可作制度比較，不能直接視為 studio 或本基地法定面積。",
+        "library_id": "UK_NDSS_2015",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "英格蘭",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "studio 單元面積",
+      "range": "約 25–40",
+      "unit": "m²／單元",
+      "context": "斯德哥爾摩學生住宅與跨地域住宅設計參考；用途：單人 studio 私人室內面積比較帶；25–40 m² 並非 GONG2023 直接測得的標準，需核對當地定義；不是本基地法規。",
+      "library_id": "TIMESAVER_HOUSING94"
+    }
+  ],
+  "design_implications_zh": [
+    "並列私人面積、共用廚房與衛浴配置，再按入住人數核對適用地區的住宅空間標準。"
+  ],
+  "applies_when_zh": "用於比較斯德哥爾摩學生住宅調查參考的單人 studio 私人室內面積，並明示此數值的來源、年份和面積分母。",
+  "not_applicable_when_zh": "單元面積範圍不構成最低居住標準，且不能推廣到有照護需求的住戶。",
+  "debates_zh": "縮小私人面積可能增加共享設施需求；若服務或管理不足，節省的室內面積會轉化為日常使用負擔。 查核：數值合理（常見 studio 25–40 m²），但所引研究未提供。",
+  "sources": [
+    {
+      "library_id": "GONG2023",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "TIMESAVER_HOUSING94",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "UK_NDSS_2015",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "瑞典學生住宅與居住滿意",
+  "region": "斯德哥爾摩學生住宅調查參考",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "住宅類型"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "住宅類型"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "住宅類型"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "住宅類型"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+}

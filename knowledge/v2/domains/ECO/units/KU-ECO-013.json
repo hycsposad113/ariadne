@@ -1,0 +1,66 @@
+{
+  "id": "KU-ECO-013",
+  "domain": "ECO",
+  "subtopic": "生態網絡與連結度",
+  "type": "concept",
+  "title_zh": "連通性須以功能而非距離定義",
+  "title_en": "Define connectivity by function",
+  "summary_zh": "相鄰綠地之間很近，不保證某物種願意或能夠移動。道路、圍欄、水道和夜間光線都可能形成阻力。生態網絡模型需要選擇特定物種或功能群。連通概念具有物種依賴性，沒有一張通用網絡圖。",
+  "key_points_zh": [
+    "相鄰綠地之間很近，不保證某物種願意或能夠移動",
+    "道路、圍欄、水道和夜間光線都可能形成阻力"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "相鄰綠地之間很近，不保證某物種願意或能夠移動。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "澳洲",
+        "library_id": "NORTON15",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "連通概念具有物種依賴性，沒有一張通用網絡圖。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "列出研究物種、移動階段與阻隔因子後再計算連通。"
+  ],
+  "applies_when_zh": "適用於動物通道和城市綠地連結。",
+  "not_applicable_when_zh": "不應以景觀視覺上的連續性代替生物證據。",
+  "debates_zh": "連通概念具有物種依賴性，沒有一張通用網絡圖。",
+  "sources": [
+    {
+      "library_id": "NORTON15",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "SOGA14",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "氣候調適與綠色基礎設施",
+  "region": "澳洲",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "生態網絡與連結度"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "生態網絡與連結度"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-ECO-012",
+    "KU-ECO-014"
+  ]
+}

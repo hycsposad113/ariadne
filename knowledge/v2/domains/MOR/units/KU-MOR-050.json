@@ -1,0 +1,107 @@
+{
+  "id": "KU-MOR-050",
+  "domain": "MOR",
+  "subtopic": "細粒度與大尺度開發",
+  "type": "method",
+  "title_zh": "細粒度與大尺度開發｜分析方法",
+  "title_en": "Fine grain and megaprojects — Analytical method",
+  "summary_zh": "街道網路的連接方式和道路階層共同影響路徑選擇，不能只由街廓面積推測步行穿透性。 英美案例可用來對照地塊合併與街道配置，但地圖本身沒有說明公共通路是否可進入。 大型基地分析還需查核地役權、開放時段和管理責任，才能估計實際可用的街巷網。",
+  "key_points_zh": [
+    "分別標示地塊合併、公共通路與建築管理邊界。",
+    "分別標示地塊合併、公共通路與建築管理邊界。",
+    "讀「細粒度與大尺度開發｜分析方法」時，限制：沒有土地權屬和通行規則資料時，不能僅由地圖推斷實際公共性；同時把街道網路的連接方式和道路階層共同影響路徑選擇，不能只由街廓面積推測步行穿透性列為核對條件。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "《Streets and Patterns》把街道連接方式與階層關係作為路網比較對象，可和地塊面積、通行權分開量測。",
+        "library_id": "MARSHALL05",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "英國; 跨地域",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "Jacobs 將短街廓連到路徑選擇與城市多樣性；這提供質性檢視方向，路網指標仍須自行明定。",
+        "library_id": "JACOBS61",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "美國",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "大型地塊若採整體開發，先補足可穿越的公共通道，再檢查街廓內部出入口是否有可執行的管理安排。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "大型地塊若採整體開發，先補足可穿越的公共通道，再檢查街廓內部出入口是否有可執行的管理安排。",
+      "tradeoff_zh": "此選項把「細粒度與大尺度開發｜分析方法」的工作放在街道網路的連接方式和道路階層共同影響路徑選擇，不能只由街廓面積推測步行穿透性上；需要承擔的協調或維護代價則由「「細粒度與大尺度開發｜分析方法」的爭議不只在於沒有土地權屬和通行規則資料時，不能僅由地圖推斷實際公共性；還要檢視街道網路的連接方式和道路階層共同影響路徑選擇，不能只由街廓面積推測步行穿透性會讓哪些使用者承擔不同後果」界定。",
+      "library_ids": [
+        "MARSHALL05",
+        "JACOBS61"
+      ]
+    },
+    {
+      "option_zh": "在「細粒度與大尺度開發｜分析方法」的來源情境裡，細分小地塊通常提供更多介面；大地塊可集中設施，但需補足連通與公共性；落到設計時還要按街道網路的連接方式和道路階層共同影響路徑選擇，不能只由街廓面積推測步行穿透性調整。",
+      "tradeoff_zh": "「細粒度與大尺度開發｜分析方法」的主要代價不是抽象的建造成本，而是「細粒度與大尺度開發｜分析方法」的爭議不只在於沒有土地權屬和通行規則資料時，不能僅由地圖推斷實際公共性；還要檢視街道網路的連接方式和道路階層共同影響路徑選擇，不能只由街廓面積推測步行穿透性會讓哪些使用者承擔不同後果；因此先以街道網路的連接方式和道路階層共同影響路徑選擇，不能只由街廓面積推測步行穿透性作方案比較條件。",
+      "library_ids": [
+        "MARSHALL05",
+        "JACOBS61"
+      ]
+    }
+  ],
+  "applies_when_zh": "「細粒度與大尺度開發｜分析方法」可在適用於港區再開發、分期開發和大型基地規劃時使用，前提是街道網路的連接方式和道路階層共同影響路徑選擇，不能只由街廓面積推測步行穿透性與來源情境相符。",
+  "not_applicable_when_zh": "若街道網路的連接方式和道路階層共同影響路徑選擇，不能只由街廓面積推測步行穿透性不成立，就不能把「細粒度與大尺度開發｜分析方法」的結論延伸到其他情況；沒有土地權屬和通行規則資料時，不能僅由地圖推斷實際公共性。",
+  "debates_zh": "「細粒度與大尺度開發｜分析方法」的爭議不只在於沒有土地權屬和通行規則資料時，不能僅由地圖推斷實際公共性；還要檢視街道網路的連接方式和道路階層共同影響路徑選擇，不能只由街廓面積推測步行穿透性會讓哪些使用者承擔不同後果。",
+  "sources": [
+    {
+      "library_id": "MARSHALL05",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "JACOBS61",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "街道形態；街道生活與多樣性",
+  "region": "英國；美國",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "細粒度與大尺度開發"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "細粒度與大尺度開發"
+    },
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.330J Theory of City Form",
+      "topic": "細粒度與大尺度開發"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban form and density",
+      "topic": "細粒度與大尺度開發"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-MOR-047",
+    "KU-MOR-048",
+    "KU-MOR-049"
+  ],
+  "counter_unit_ids": [
+    "KU-MOR-051"
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "id": "KU-STR-046",
+  "domain": "STR",
+  "subtopic": "共享空間",
+  "type": "critique",
+  "title_zh": "共享空間：批評與適用限制",
+  "title_en": "Shared space: Critique and boundary",
+  "summary_zh": "共享空間對視覺或行動能力受限者可能更難判讀；安全感提升也不能替代碰撞或近失資料。另一個需要同時檢查的面向是共享空間調整路面、邊界、速度和使用者互動，使車行與步行共處；它不是取消管理或把安全責任交給行人。替代做法可以是先降低車速與穿越性，再決定是否取消路面分界；保留可追蹤、可改回的分隔選項。",
+  "key_points_zh": [
+    "批評焦點：共享空間調整路面、邊界、速度和使用者互動，使車行與步行共處；它不是取消管理或把安全責任交給行人",
+    "批評焦點：共享空間對視覺或行動能力受限者可能更難判讀；安全感提升也不能替代碰撞或近失資料"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "共享空間：批評與適用限制｜首爾九條行人優先街的影片前後比較與問卷模型顯示，設計後車速下降、行人安全感上升；只在路側標出人行區的街段則出現車速上升",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "LEE2019",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "共享空間：批評與適用限制｜公共空間同時面對過度管理與管理不足的批評；開放性與安全不能用單一形式解決",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "CARMONA10",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "把「共享空間對視覺或行動能力受限者可能更難判讀；安全感提升也不能替代碰撞或近失資料」轉成一項可觀察的風險，並在替代方案中檢查「共享空間調整路面、邊界、速度和使用者互動，使車行與步行共處；它不是取消管理或把安全責任交給行人」是否改變其影響。"
+  ],
+  "applies_when_zh": "若共享空間方案可能受「共享空間對視覺或行動能力受限者可能更難判讀；安全感提升也不能替代碰撞或近失資料」影響，可用「共享空間調整路面、邊界、速度和使用者互動，使車行與步行共處；它不是取消管理或把安全責任交給行人」安排實地觀察或替代方案比較。",
+  "not_applicable_when_zh": "這項批評提出的是「共享空間對視覺或行動能力受限者可能更難判讀；安全感提升也不能替代碰撞或近失資料」的風險，不能據此推定所有替代方案都更好，也不能代替本地使用者測試。",
+  "debates_zh": "共享空間對視覺或行動能力受限者可能更難判讀；安全感提升也不能替代碰撞或近失資料；檢視「共享空間：批評與適用限制」的反例檢查時，還需判斷「共享空間對視覺或行動能力受限者可能更難判讀；安全感提升也不能替代碰撞或近失資料」會如何改變方案結論。",
+  "sources": [
+    {
+      "library_id": "LEE2019",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "CARMONA10",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "共享街道與交通安全",
+  "region": "跨地域理論或實務脈絡；來源地區依引用條目判讀",
+  "curriculum_refs": [
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.330J Theory of City Form",
+      "topic": "共享空間：課綱對應主題"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "共享空間：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-STR-041",
+    "KU-STR-042",
+    "KU-STR-043",
+    "KU-STR-044",
+    "KU-STR-045",
+    "KU-STR-047",
+    "KU-STR-048"
+  ],
+  "counter_unit_ids": [
+    "KU-STR-041",
+    "KU-STR-042"
+  ]
+}

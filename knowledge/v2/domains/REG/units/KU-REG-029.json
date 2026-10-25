@@ -1,0 +1,107 @@
+{
+  "id": "KU-REG-029",
+  "domain": "REG",
+  "subtopic": "英國裁量式規劃",
+  "type": "concept",
+  "title_zh": "英國裁量式規劃｜概念邊界",
+  "title_en": "UK discretionary planning profile — Conceptual boundaries",
+  "summary_zh": "英國裁量式規劃透過政策依據、個案審查和許可條件形成決定，留下場址調整空間，也提高結果對權力與談判關係的依賴。 非正式使用和貧困排除不能在規劃圖上視為空白，應辨認受影響群體與決策者。 宏觀政策目標本身不代表場址已有可執行工具。",
+  "key_points_zh": [
+    "裁量提供場址調整空間，也帶來預測性、權力和談判問題。",
+    "適用於了解逐案裁量及規劃風險的制度後果。",
+    "限制：本文引用是制度研究，不是英國現行法規的法律建議。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "非正式性並非只屬於貧民區；規劃需處理制度例外與分配正義，不能把非正式使用當空白基地。",
+        "library_id": "ROY05",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "全球南方",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "將規劃與貧困群體的排除問題作為審查方向；本次只有書目範圍確認，不推定每個個案的結果。",
+        "library_id": "WATSON09",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "非洲; 全球南方",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "檢視決策案例、上訴理由、政策依據和實施條件。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "檢視決策案例、上訴理由、政策依據和實施條件。",
+      "tradeoff_zh": "此選項把「英國裁量式規劃｜概念邊界」的工作放在非正式性並非只屬於貧民區；規劃需處理制度例外與分配正義，不能把非正式使用當空白基地上；需要承擔的協調或維護代價則由「有政策目標不代表微觀場址一定有可執行工具」界定。",
+      "library_ids": [
+        "ROY05",
+        "WATSON09"
+      ]
+    },
+    {
+      "option_zh": "同一政策目標可能透過上訴、條件和開發協商形成不同結果。",
+      "tradeoff_zh": "「英國裁量式規劃｜概念邊界」採用「同一政策目標可能透過上訴、條件和開發協商形成不同結果」時，得失要沿著非正式性並非只屬於貧民區；規劃需處理制度例外與分配正義，不能把非正式使用當空白基地檢查；有政策目標不代表微觀場址一定有可執行工具。",
+      "library_ids": [
+        "ROY05",
+        "WATSON09"
+      ]
+    }
+  ],
+  "applies_when_zh": "適用於了解逐案裁量及規劃風險的制度後果。",
+  "not_applicable_when_zh": "本文引用是制度研究，不是英國現行法規的法律建議。",
+  "debates_zh": "有政策目標不代表微觀場址一定有可執行工具。",
+  "sources": [
+    {
+      "library_id": "ROY05",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "WATSON09",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "非正式都市化；全球南方規劃批評",
+  "region": "全球南方；非洲",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Planning Complex Cities",
+      "topic": "英國裁量式規劃"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Urban Design Contexts and Operations",
+      "topic": "英國裁量式規劃"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "英國裁量式規劃"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban design governance",
+      "topic": "英國裁量式規劃"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-REG-030",
+    "KU-REG-031",
+    "KU-REG-032"
+  ],
+  "counter_unit_ids": [
+    "KU-REG-033"
+  ]
+}

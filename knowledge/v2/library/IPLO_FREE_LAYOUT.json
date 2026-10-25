@@ -1,0 +1,37 @@
+{
+  "id": "IPLO_FREE_LAYOUT",
+  "title": "Vrije indeelbaarheid: regels bij nieuwbouw",
+  "authors": [
+    "Informatiepunt Leefomgeving (IPLO)"
+  ],
+  "year": 2026,
+  "venue_or_publisher": "Dutch Ministry of Housing and Spatial Planning; IPLO",
+  "doi": null,
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "PRACTICE_MANUAL",
+  "tradition": "荷蘭 Bbl 官方解釋",
+  "region": [
+    "Netherlands"
+  ],
+  "method": "讀取 IPLO 官方公開說明頁，核對其對 Bbl 第 4.163 條第 2 款的解說。",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "IPLO 說明住宅使用面積至少 55% 應屬 verblijfsgebied，並說明其與自由平面配置的關係。",
+      "strength": "NORMATIVE_PRACTICE",
+      "scope_zh": "官方解釋頁引述現行 Bbl；本項尚未能在 wetten.overheid.nl 原文頁直接重讀。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED_OFFICIAL_SITE",
+    "url": "https://iplo.nl/regelgeving/regels-voor-activiteiten/technische-bouwactiviteit/nieuwbouw/rijksregels/vrije-indeelbaarheid/",
+    "accessed_utc": "2026-10-08T15:08:39Z",
+    "method": "official public explanation; section on freedom within conditions read",
+    "match_notes_zh": "頁面明確連結 Bbl 第 4.163 條第 2 款並列出 55% 比例。"
+  },
+  "limitations_zh": "屬官方解釋而非 wetten.overheid.nl 條文直讀；需由審查者對照現行法規文字。",
+  "metadata_licence_zh": "保存官方頁面書目欄位與自行改寫摘要；未保存全文。"
+}

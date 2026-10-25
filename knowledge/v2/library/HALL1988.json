@@ -1,0 +1,48 @@
+{
+  "id": "HALL1988",
+  "title": "Cities of Tomorrow",
+  "authors": [
+    "Peter Geoffrey Hall"
+  ],
+  "year": 1988,
+  "venue_or_publisher": "Open Library record; publisher not returned in the metadata query",
+  "doi": null,
+  "isbn": "0631134441",
+  "openalex_id": null,
+  "kind": "ACADEMIC_BOOK",
+  "tradition": "都市規劃思想史",
+  "region": [
+    "英國",
+    "歐洲",
+    "跨地域"
+  ],
+  "method": "歷史／規劃思想",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "以規劃思想史追蹤城市問題與政策回應的轉變；Open Library 的匹配年份為 1988 版。",
+      "strength": "THEORETICAL",
+      "scope_zh": "只支持所標示的理論範圍或個案；不提供 M4H 法規、基地實測或未查證的數值。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [
+    "WATSON09",
+    "MUMFORD1961"
+  ],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Open Library",
+    "query": {
+      "title": "Cities of Tomorrow",
+      "author": "Peter Geoffrey Hall",
+      "year": 1988
+    },
+    "matched_record_id": "/works/OL271619W",
+    "checked_at_utc": "2026-10-08T09:27:34Z",
+    "match_notes_zh": "公開 API 比對書名、作者及年份。僅確認書目；新書條目未保存 API 摘要。"
+  },
+  "limitations_zh": "本次只使用核准的公開書目 API；除明標 ABSTRACT_REVIEW 的來源外，未核讀全文。書目查證不等於主張、因果或參數驗證。",
+  "critique_relationship_zh": "known_critiques 是編者指定的替代閱讀，不代表來源間逐一互引或直接反駁。",
+  "metadata_licence_zh": "只保存必要書目欄位與自行摘要；未保存 API 摘要全文，metadata 授權未逐筆核驗，標 UNKNOWN。"
+}

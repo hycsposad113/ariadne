@@ -1,0 +1,44 @@
+{
+  "id": "MASHIMA2014",
+  "title": "Planning Review: Developments and Planning Issues of Land Use Control in Suburban Areas by Local Government’s Ordinances in Japan",
+  "authors": [
+    "Toshimitsu Mashima",
+    "Mitsuhiko Kawakami"
+  ],
+  "year": 2014,
+  "venue_or_publisher": "International Review for Spatial Planning and Sustainable Development",
+  "doi": "https://doi.org/10.14246/irspsd.2.2_1",
+  "isbn": null,
+  "openalex_id": "https://openalex.org/W2040247879",
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "日本郊區土地使用條例",
+  "region": [
+    "日本關東與地方自治體"
+  ],
+  "method": "法制變遷與地方條例回顧",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "研究指出 2000 年法制修訂後更多地方政府使用郊區土地管制，但高開發壓力區也出現放寬規則以延續擴張的情形。",
+      "strength": "MIXED",
+      "scope_zh": "僅限摘要可核對的範圍；未讀全文，不推論摘要未列的數字、因果或普遍適用性。",
+      "assessment_basis": "ABSTRACT_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "OpenAlex",
+    "query": {
+      "record_id": "https://openalex.org/W2040247879",
+      "title": "Planning Review: Developments and Planning Issues of Land Use Control in Suburban Areas by Local Government’s Ordinances in Japan",
+      "author": "Toshimitsu Mashima",
+      "year": 2014
+    },
+    "matched_record_id": "https://openalex.org/W2040247879",
+    "checked_at_utc": "2026-10-08T09:12:32Z",
+    "match_notes_zh": "以 OpenAlex 精確 work 記錄核對書名、作者與出版年；只使用摘要作主張範圍檢查，未下載全文。"
+  },
+  "limitations_zh": "僅使用允許的書目欄位和摘要核對；未取得或保存全文。",
+  "metadata_licence_zh": "保存公開書目欄位與自行撰寫主張摘要；未保存 API 摘要原文或全文。"
+}

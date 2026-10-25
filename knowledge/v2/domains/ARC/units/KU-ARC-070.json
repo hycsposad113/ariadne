@@ -1,0 +1,93 @@
+{
+  "id": "KU-ARC-070",
+  "domain": "ARC",
+  "subtopic": "荷蘭 Bbl",
+  "type": "value_range",
+  "title_zh": "荷蘭新建住宅居住區的最低淨高",
+  "title_en": "Bbl residential clear height work-version value",
+  "summary_zh": "Bbl 第 4.164 條第 4 項與表 4.162：一般住宅與學生住宅的居住區及居室淨高至少 2.6 m（移動屋 2.2 m）。 M4H 方案須以實際戶型與地方規則檢核「荷蘭新建住宅居住區的最低淨高」，條文依據見 sources。",
+  "key_points_zh": [
+    "核心主張：Bbl 第 4.164 條第 4 項與表 4.162：一般住宅與學生住宅的居住區及居室淨高至少 2.6 m（移動屋 2.2 m）。",
+    "荷蘭新建住宅居住區的最低淨高：以實際戶型平面量測檢核（Bbl art. 4.164 lid 4；tabel 4.162），地方計畫規則另計。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "Bbl 第 4.164 條第 4 項與表 4.162：一般住宅與學生住宅的居住區及居室淨高至少 2.6 m（移動屋 2.2 m）。",
+        "effect_or_value": "≥2.6 m（移動屋 2.2 m）",
+        "study_design": "跨地域設計參照綜整；數值狀態依 claim_verification 註記",
+        "context_region": "荷蘭",
+        "library_id": "BBL_2026",
+        "locator": "art. 4.164 lid 4；tabel 4.162；https://wetten.overheid.nl/BWBR0041297/2026-07-01；存取 2026-10-08",
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008"
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "provisional residential clear height",
+      "range": "≥2.6 m（移動屋 2.2 m）",
+      "unit": "m",
+      "context": "地區：荷蘭；項目：荷蘭新建住宅居住區的最低淨高；出處：Bbl art. 4.164 lid 4；tabel 4.162（wetten.overheid.nl 現行版 2026-07-01，Claude 2026-10-08 直讀條文）；全國建築技術下限；非本基地法規（地方計畫規則另計）。",
+      "library_id": "BBL_2026"
+    }
+  ],
+  "design_implications_zh": [
+    "用室內完成面建模，將最低梁底和固定設備遮擋點一起輸出。"
+  ],
+  "applies_when_zh": "用於方案前期檢查「荷蘭新建住宅居住區的最低淨高」相關的量體、平面或空間品質。",
+  "not_applicable_when_zh": "「荷蘭新建住宅居住區的最低淨高」的區間不得單獨作為許可、消防、結構或基地法規判定。",
+  "debates_zh": "工作版本與現行法規可能不同，低梁、斜屋頂和例外空間的計算方式也可能改變。",
+  "sources": [
+    {
+      "library_id": "BBL_2026",
+      "claim_id": "C1",
+      "locator": "art. 4.164 lid 4；tabel 4.162"
+    }
+  ],
+  "source_count_flag": "SINGLE_SOURCE",
+  "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+  "tradition": "建築設計與住宅類型學",
+  "region": "荷蘭",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Housing and the City / Design of the Urban Fabric",
+      "topic": "建築尺度與住宅平面"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "建築尺度與街道界面"
+    },
+    {
+      "school": "MIT",
+      "course": "Architecture and Urban Design",
+      "topic": "建築尺度與空間型態"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "建築尺度與公共生活"
+    }
+  ],
+  "check": {
+    "method_zh": "在每間 verblijfsruimte 量測最低淨高，依現行 Bbl 適用表重新判定。",
+    "inputs": [
+      "荷蘭 Bbl",
+      "尺寸／面積圖層",
+      "適用地區與用途標籤"
+    ],
+    "logic_zh": "將量測輸入轉成明確尺寸、比例或空間關係；越界只觸發複核，不自動取代設計決策。",
+    "limitations_zh": "量測結果只觸發「荷蘭新建住宅居住區的最低淨高」的複核，不得單獨作為許可或法規判定。"
+  },
+  "version": "kb2-arc-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-ARC-067",
+    "KU-ARC-068",
+    "KU-ARC-069",
+    "KU-ARC-071",
+    "KU-ARC-072"
+  ]
+}

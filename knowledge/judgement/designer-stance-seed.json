@@ -1,0 +1,22 @@
+{
+  "schema": "ariadne-designer-stance-v1",
+  "note": "Designer positions already expressed to Ariadne. Judgement skills must respond to them and must not re-ask. Source: Founder chat 2026-10-17 (reply to J-CLIMATE sample card).",
+  "stances": [
+    {
+      "key": "courtyard_role",
+      "text_zh": "中庭是比較單純的住戶共用空間，是停留的地方，夏季同時也是遮蔭的庭院。",
+      "text_en": "Courtyards are residents' shared spaces for staying; in summer they are also shaded courts.",
+      "applies_to": ["J-CLIMATE", "J-COMPARE"],
+      "recorded_at": "2026-10-17",
+      "source": "founder_chat"
+    },
+    {
+      "key": "season_priority",
+      "text_zh": "冬季陽光與夏季戶外熱舒適都很重要；夏天確實很熱，但冬天公共空間要有陽光才會有人聚集。",
+      "text_en": "Winter sun and summer outdoor thermal comfort matter equally; public spaces need winter sun for people to gather.",
+      "applies_to": ["J-CLIMATE", "J-COMPARE", "J-SITE"],
+      "recorded_at": "2026-10-17",
+      "source": "founder_chat"
+    }
+  ]
+}

@@ -1,0 +1,342 @@
+{
+  "schema_version": "3dbag-height-source-manifest-v1",
+  "project_id": "rotterdam-m4h-pilot-project",
+  "created_at": "2026-09-27T14:10:45Z",
+  "scope": {
+    "decision": "PD-23",
+    "lane": "I2",
+    "description": "Buildings whose 3D BAG pand footprint intersects active StudyArea v5 buffered outward by 500 m.",
+    "selection_predicate": "3D BAG pand footprint intersects the exact StudyArea polygon buffered by 500 m in EPSG:28992; tile BBOX is used for download-size preflight only.",
+    "buffer_distance_m": 500.0,
+    "buffer_algorithm": "Shapely Polygon.buffer(distance_m, quad_segs=16)",
+    "horizontal_crs": "EPSG:28992",
+    "tile_compound_crs": "EPSG:7415",
+    "vertical_reference": "NAP height (EPSG:5709)",
+    "height_unit": "m"
+  },
+  "processing": {
+    "extractor": "urban_design.three_d_bag.extract_3dbag_height_table",
+    "extractor_version": "3dbag-height-extractor-v1",
+    "height_table_schema_version": "3dbag-height-table-v1",
+    "floor_estimate_rule_version": "floor-estimate-v1",
+    "python_version": "3.12.13",
+    "shapely_version": "2.1.2",
+    "geos_version": "3.13.1",
+    "sqlite_version": "3.51.0",
+    "buffer_geometry_hash_encoding": "Shapely-normalized 2D little-endian WKB",
+    "roof_p70_aggregation": "maximum-roofpart-b3_h_70p",
+    "roof_p70_aggregation_version": "3dbag-roof-p70-aggregation-v1"
+  },
+  "study_area": {
+    "id": "study-area-rotterdam-m4h-pilot-project-v5",
+    "version": "v5",
+    "status_at_retrieval": "CONFIRMED_FOR_EXPLORATION",
+    "geometry_sha256": "sha256:3dedb804fa4f07f4c9570bcc64e68c8d576c03340455ab35fd4963bca52aa4f5",
+    "artifact_id": "study-area-artifact-9a59159505505dbe658ec666",
+    "artifact_path": "/Users/jackhsieh/Downloads/TUD/Q5/project/.urban_design_runtime/artifacts/study-area-bridge/study-areas/4818687ee13f2c4fe78471d52320074948de269d5687c494ca2fa213afe39533.geojson",
+    "artifact_sha256": "sha256:9a59159505505dbe658ec6667ecfeb9024b868faf6377e7cd91889c763170d32",
+    "horizontal_crs": "EPSG:28992",
+    "units": "m"
+  },
+  "dataset": {
+    "name": "3D BAG",
+    "publisher": "3D geoinformation research group, TU Delft and 3DGI",
+    "version": "v2025.09.03",
+    "versioned_download_path": "/v20250903/",
+    "documented_3d_api_collection_version": "v2023.10.08",
+    "access_method": "Versioned official tile downloads selected with the 3D BAG WFS tile index; OGC API Features was not selected because the published 3D API documentation says it is not OGC-compliant and its service collection reports an older version.",
+    "license": "CC BY 4.0",
+    "license_url": "https://docs.3dbag.nl/en/copyright/",
+    "attribution": "© 3DBAG by tudelft3d and 3DGI",
+    "changes_notice": "Selected three 3D BAG tiles, clipped to footprints intersecting the 500 m buffered StudyArea, and aggregated roof-part b3_h_70p by BAG identificatie using the maximum value.",
+    "official_documentation": {
+      "webservices_url": "https://docs.3dbag.nl/en/delivery/webservices/",
+      "layers_url": "https://docs.3dbag.nl/en/schema/layers/",
+      "attributes_url": "https://docs.3dbag.nl/en/schema/attributes/",
+      "copyright_url": "https://docs.3dbag.nl/en/copyright/",
+      "download_url": "https://3dbag.nl/en/download"
+    },
+    "field_mapping": {
+      "bag_identificatie": "identificatie",
+      "roof_height_p70": "b3_h_70p",
+      "ground_height": "b3_h_maaiveld",
+      "building_layer": "pand",
+      "roof_part_layer": "lod22_2d",
+      "roof_p70_aggregation": "maximum-roofpart-b3_h_70p",
+      "aggregation_method_version": "3dbag-roof-p70-aggregation-v1"
+    },
+    "bag_identificatie_format": "NL.IMBAG.Pand.<16 digits>"
+  },
+  "preflight": {
+    "scope_query_url": "https://data.3dbag.nl/api/BAG3D/wfs",
+    "scope_query_service": "WFS 2.0.0 GetFeature, BAG3D:tiles, outputFormat=application/json",
+    "scope_query_parameters": {
+      "service": "WFS",
+      "version": "2.0.0",
+      "request": "GetFeature",
+      "typeNames": "BAG3D:tiles",
+      "outputFormat": "application/json",
+      "srsName": "EPSG:28992",
+      "bbox": "88110.716,435007.494,90058.199,436721.645,urn:ogc:def:crs:EPSG::28992"
+    },
+    "bbox_crs": "EPSG:28992",
+    "matching_tile_feature_count": 3,
+    "estimated_tile_response_bytes_from_head_content_length": 10550762,
+    "max_allowed_bytes": 200000000,
+    "preflight_status": "PASS_BELOW_200_MB",
+    "estimate_basis": "Sum of HTTP HEAD content-length values for the three exact official versioned GPKG.gz tile URLs; raw bytes were downloaded only after this estimate.",
+    "tile_catalog_full_tile_building_count_upper_bound": 5787,
+    "tile_catalog_count_limitation": "Sum of full tile gpkg_nr_building values; not the StudyArea-buffer feature count. The derived table count is recorded after exact local footprint intersection."
+  },
+  "request_ledger": {
+    "direct_3dbag_http_request_count": 12,
+    "retry_count": 0,
+    "http_failure_count": 0,
+    "outcome_unknown_count": 0,
+    "total_body_bytes_received": 16353881,
+    "maximum_request_count": 200,
+    "maximum_total_body_bytes": 200000000,
+    "requests": [
+      {
+        "sequence": 1,
+        "method": "HEAD",
+        "url": "https://data.3dbag.nl/v20250903/tile_index.fgb",
+        "parameters": {},
+        "requested_at": "2026-09-27T14:06:10Z",
+        "http_status": 200,
+        "body_bytes": 0,
+        "content_length_bytes": 5689048,
+        "body_sha256": null
+      },
+      {
+        "sequence": 2,
+        "method": "GET",
+        "url": "https://data.3dbag.nl/v20250903/tile_index.fgb",
+        "parameters": {},
+        "requested_at": "2026-09-27T14:06:37Z",
+        "http_status": 200,
+        "body_bytes": 5689048,
+        "body_sha256": "sha256:f708c51d1d61c30ad64f9a7ebbef69a20693f8bc7a98821f21ca6589661e292b",
+        "saved_path": "/Users/jackhsieh/.local/share/urban-design-data/3dbag/tile_index-v2025.09.03.fgb"
+      },
+      {
+        "sequence": 3,
+        "method": "GET",
+        "url": "https://data.3dbag.nl/api/BAG3D/wfs?service=WFS&request=GetCapabilities",
+        "parameters": {
+          "service": "WFS",
+          "request": "GetCapabilities"
+        },
+        "requested_at": "2026-09-27T14:07:26Z",
+        "http_status": 200,
+        "body_bytes": 94876,
+        "body_sha256": "sha256:d731d088659af90216d54a945f4daac7aa92bf8c9fa02339ec015475b31d5018",
+        "saved_path": "/Users/jackhsieh/.local/share/urban-design-data/3dbag/wfs-capabilities.xml"
+      },
+      {
+        "sequence": 4,
+        "method": "GET",
+        "url": "https://data.3dbag.nl/api/BAG3D/wfs?service=WFS&version=2.0.0&request=DescribeFeatureType&typeNames=BAG3D%3Atiles",
+        "parameters": {
+          "service": "WFS",
+          "version": "2.0.0",
+          "request": "DescribeFeatureType",
+          "typeNames": "BAG3D:tiles"
+        },
+        "requested_at": "2026-09-27T14:07:41Z",
+        "http_status": 200,
+        "body_bytes": 5221,
+        "body_sha256": "sha256:8a3bb814aaa9bb35fb20763f43b343ca633bffe5cb689117a5acadcf36357715",
+        "saved_path": "/Users/jackhsieh/.local/share/urban-design-data/3dbag/wfs-tiles-schema.xsd"
+      },
+      {
+        "sequence": 5,
+        "method": "GET",
+        "url": "https://data.3dbag.nl/api/BAG3D/wfs",
+        "parameters": {
+          "service": "WFS",
+          "version": "2.0.0",
+          "request": "GetFeature",
+          "typeNames": "BAG3D:tiles",
+          "outputFormat": "application/json",
+          "srsName": "EPSG:28992",
+          "bbox": "88110.716,435007.494,90058.199,436721.645,urn:ogc:def:crs:EPSG::28992"
+        },
+        "requested_at": "2026-09-27T14:08:10Z",
+        "http_status": 200,
+        "body_bytes": 5852,
+        "body_sha256": "sha256:d8fffc7d17137bb5a812d2b78a07839c330c7f9f6416a05515fe9f6ab462ff38",
+        "saved_path": "/Users/jackhsieh/.local/share/urban-design-data/3dbag/wfs-tiles-scope.geojson",
+        "matching_tile_ids": [
+          "9/304/512",
+          "9/304/516",
+          "8/296/512"
+        ]
+      },
+      {
+        "sequence": 6,
+        "method": "HEAD",
+        "url": "https://data.3dbag.nl/v20250903/tiles/9/304/512/9-304-512.gpkg.gz",
+        "parameters": {},
+        "requested_at": "2026-09-27T14:08:30Z",
+        "http_status": 200,
+        "body_bytes": 0,
+        "content_length_bytes": 1433837,
+        "body_sha256": null
+      },
+      {
+        "sequence": 7,
+        "method": "HEAD",
+        "url": "https://data.3dbag.nl/v20250903/tiles/9/304/516/9-304-516.gpkg.gz",
+        "parameters": {},
+        "requested_at": "2026-09-27T14:08:38Z",
+        "http_status": 200,
+        "body_bytes": 0,
+        "content_length_bytes": 5123678,
+        "body_sha256": null
+      },
+      {
+        "sequence": 8,
+        "method": "HEAD",
+        "url": "https://data.3dbag.nl/v20250903/tiles/8/296/512/8-296-512.gpkg.gz",
+        "parameters": {},
+        "requested_at": "2026-09-27T14:08:42Z",
+        "http_status": 200,
+        "body_bytes": 0,
+        "content_length_bytes": 3993247,
+        "body_sha256": null
+      },
+      {
+        "sequence": 9,
+        "method": "GET",
+        "url": "https://data.3dbag.nl/api/BAG3D/wfs?service=WFS&version=2.0.0&request=DescribeFeatureType&typeNames=BAG3D%3Alod22",
+        "parameters": {
+          "service": "WFS",
+          "version": "2.0.0",
+          "request": "DescribeFeatureType",
+          "typeNames": "BAG3D:lod22"
+        },
+        "requested_at": "2026-09-27T14:09:19Z",
+        "http_status": 200,
+        "body_bytes": 8122,
+        "body_sha256": "sha256:490f5cf9ca79e7b1da73f3615733910ac5b9e4424f7f2562bd99c0b4f21a18cc",
+        "saved_path": "/Users/jackhsieh/.local/share/urban-design-data/3dbag/wfs-lod22-schema.xsd"
+      },
+      {
+        "sequence": 10,
+        "method": "GET",
+        "url": "https://data.3dbag.nl/v20250903/tiles/9/304/512/9-304-512.gpkg.gz",
+        "parameters": {},
+        "requested_at": "2026-09-27T14:10:28Z",
+        "response_date": "2026-09-27T14:10:29Z",
+        "http_status": 200,
+        "body_bytes": 1433837,
+        "body_sha256": "sha256:ad74d7c249c617b985df70a7b7e5785b67dae15c4a713ca19bcd6853e47e0da4",
+        "saved_path": "/Users/jackhsieh/.local/share/urban-design-data/3dbag/tile-9-304-512-v2025.09.03.gpkg.gz",
+        "response_headers_path": "/Users/jackhsieh/.local/share/urban-design-data/3dbag/tile-9-304-512-v2025.09.03.headers.txt"
+      },
+      {
+        "sequence": 11,
+        "method": "GET",
+        "url": "https://data.3dbag.nl/v20250903/tiles/9/304/516/9-304-516.gpkg.gz",
+        "parameters": {},
+        "requested_at": "2026-09-27T14:10:36Z",
+        "response_date": "2026-09-27T14:10:36Z",
+        "http_status": 200,
+        "body_bytes": 5123678,
+        "body_sha256": "sha256:c784d9e774c7f57a88d64499c540cd594e9002dd336f7601fe313242cf119967",
+        "saved_path": "/Users/jackhsieh/.local/share/urban-design-data/3dbag/tile-9-304-516-v2025.09.03.gpkg.gz",
+        "response_headers_path": "/Users/jackhsieh/.local/share/urban-design-data/3dbag/tile-9-304-516-v2025.09.03.headers.txt"
+      },
+      {
+        "sequence": 12,
+        "method": "GET",
+        "url": "https://data.3dbag.nl/v20250903/tiles/8/296/512/8-296-512.gpkg.gz",
+        "parameters": {},
+        "requested_at": "2026-09-27T14:10:45Z",
+        "response_date": "2026-09-27T14:10:45Z",
+        "http_status": 200,
+        "body_bytes": 3993247,
+        "body_sha256": "sha256:0ef9379495a26fd3b1b64af6a1fa41fd4d90a55430baeb669a70d66fed32ad12",
+        "saved_path": "/Users/jackhsieh/.local/share/urban-design-data/3dbag/tile-8-296-512-v2025.09.03.gpkg.gz",
+        "response_headers_path": "/Users/jackhsieh/.local/share/urban-design-data/3dbag/tile-8-296-512-v2025.09.03.headers.txt"
+      }
+    ]
+  },
+  "execution_notes": [
+    {
+      "time": "2026-09-27T14:32Z",
+      "kind": "local_offline_cli_attempt",
+      "status": "STOPPED_BEFORE_OUTPUT",
+      "detail": "Initial extraction CLI validation expected scope_query while the manifest used preflight and scope; no output or manifest update occurred and no network request was sent."
+    },
+    {
+      "time": "2026-09-27T14:32Z",
+      "kind": "local_offline_cli_rerun_after_code_fix",
+      "status": "SUCCEEDED",
+      "detail": "One offline extraction completed from the already downloaded, hash-verified tiles and recorded output hash, size, count, and creation time in this manifest. No cleanup or file rename occurred."
+    }
+  ],
+  "tiles": [
+    {
+      "artifact_id": "artifact-3dbag-tile-9-304-512-v2025-09-03",
+      "snapshot_id": "dataset-3dbag-v2025-09-03-tile-9-304-512",
+      "tile_id": "9/304/512",
+      "url": "https://data.3dbag.nl/v20250903/tiles/9/304/512/9-304-512.gpkg.gz",
+      "path": "/Users/jackhsieh/.local/share/urban-design-data/3dbag/tile-9-304-512-v2025.09.03.gpkg.gz",
+      "sha256": "sha256:ad74d7c249c617b985df70a7b7e5785b67dae15c4a713ca19bcd6853e47e0da4",
+      "size_bytes": 1433837,
+      "retrieved_at": "2026-09-27T14:10:28Z",
+      "response_date": "2026-09-27T14:10:29Z",
+      "query": "Official 3D BAG tile response selected from WFS 2.0.0 BAG3D:tiles BBOX 88110.716,435007.494,90058.199,436721.645 in EPSG:28992; tile 9/304/512; HTTP GET of the exact URL; no feature query parameters.",
+      "response_headers_path": "/Users/jackhsieh/.local/share/urban-design-data/3dbag/tile-9-304-512-v2025.09.03.headers.txt",
+      "official_tile_index_sha256": "sha256:ad74d7c249c617b985df70a7b7e5785b67dae15c4a713ca19bcd6853e47e0da4",
+      "full_tile_building_count": 631,
+      "full_tile_part_count": 636
+    },
+    {
+      "artifact_id": "artifact-3dbag-tile-9-304-516-v2025-09-03",
+      "snapshot_id": "dataset-3dbag-v2025-09-03-tile-9-304-516",
+      "tile_id": "9/304/516",
+      "url": "https://data.3dbag.nl/v20250903/tiles/9/304/516/9-304-516.gpkg.gz",
+      "path": "/Users/jackhsieh/.local/share/urban-design-data/3dbag/tile-9-304-516-v2025.09.03.gpkg.gz",
+      "sha256": "sha256:c784d9e774c7f57a88d64499c540cd594e9002dd336f7601fe313242cf119967",
+      "size_bytes": 5123678,
+      "retrieved_at": "2026-09-27T14:10:36Z",
+      "response_date": "2026-09-27T14:10:36Z",
+      "query": "Official 3D BAG tile response selected from WFS 2.0.0 BAG3D:tiles BBOX 88110.716,435007.494,90058.199,436721.645 in EPSG:28992; tile 9/304/516; HTTP GET of the exact URL; no feature query parameters.",
+      "response_headers_path": "/Users/jackhsieh/.local/share/urban-design-data/3dbag/tile-9-304-516-v2025.09.03.headers.txt",
+      "official_tile_index_sha256": "sha256:c784d9e774c7f57a88d64499c540cd594e9002dd336f7601fe313242cf119967",
+      "full_tile_building_count": 2922,
+      "full_tile_part_count": 2929
+    },
+    {
+      "artifact_id": "artifact-3dbag-tile-8-296-512-v2025-09-03",
+      "snapshot_id": "dataset-3dbag-v2025-09-03-tile-8-296-512",
+      "tile_id": "8/296/512",
+      "url": "https://data.3dbag.nl/v20250903/tiles/8/296/512/8-296-512.gpkg.gz",
+      "path": "/Users/jackhsieh/.local/share/urban-design-data/3dbag/tile-8-296-512-v2025.09.03.gpkg.gz",
+      "sha256": "sha256:0ef9379495a26fd3b1b64af6a1fa41fd4d90a55430baeb669a70d66fed32ad12",
+      "size_bytes": 3993247,
+      "retrieved_at": "2026-09-27T14:10:45Z",
+      "response_date": "2026-09-27T14:10:45Z",
+      "query": "Official 3D BAG tile response selected from WFS 2.0.0 BAG3D:tiles BBOX 88110.716,435007.494,90058.199,436721.645 in EPSG:28992; tile 8/296/512; HTTP GET of the exact URL; no feature query parameters.",
+      "response_headers_path": "/Users/jackhsieh/.local/share/urban-design-data/3dbag/tile-8-296-512-v2025.09.03.headers.txt",
+      "official_tile_index_sha256": "sha256:0ef9379495a26fd3b1b64af6a1fa41fd4d90a55430baeb669a70d66fed32ad12",
+      "full_tile_building_count": 2234,
+      "full_tile_part_count": 2237
+    }
+  ],
+  "height_table": {
+    "artifact_id": "artifact-3dbag-height-table-study-area-v5-buffer500m-v2025-09-03",
+    "path": "/Users/jackhsieh/.local/share/urban-design-data/3dbag/height-table-v2025.09.03-study-area-v5-buffer500m.json",
+    "schema_version": "3dbag-height-table-v1",
+    "sha256": "sha256:5897f273cf1180fa744692f71cb18b875adfa28737ddab10ade720a94f4a5f97",
+    "size_bytes": 445470,
+    "created_at": "2026-09-27T14:32:05Z",
+    "record_count": 964,
+    "available_count": 964,
+    "unavailable_count": 0,
+    "buffer_geometry_sha256": "sha256:6c45f8869089597ad7f78e97f52cb22150eda56fd7bebfb11119e711fcc41ace"
+  }
+}

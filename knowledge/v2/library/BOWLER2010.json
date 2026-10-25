@@ -1,0 +1,45 @@
+{
+  "id": "BOWLER2010",
+  "title": "Urban greening to cool towns and cities: A systematic review of the empirical evidence",
+  "authors": [
+    "Diana E. Bowler",
+    "Lisette Buyung-Ali",
+    "Teri M. Knight",
+    "Andrew S. Pullin"
+  ],
+  "year": 2010,
+  "venue_or_publisher": "Landscape and Urban Planning",
+  "doi": "https://doi.org/10.1016/j.landurbplan.2010.05.006",
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "綠化與城市降溫",
+  "region": "跨地域城鎮研究",
+  "method": "實證系統性回顧",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "題名確認文章系統回顧城市綠化降溫的實證；效果大小需回到研究的植栽類型、尺度與氣候條件核對。",
+      "strength": "THEORETICAL",
+      "scope_zh": "只支持此研究明確的議題、樣本地區與方法；不直接生成 M4H 數值、法規或工程容量。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref",
+    "query": {
+      "title": "Urban greening to cool towns and cities: A systematic review of the empirical evidence",
+      "author": "Bowler",
+      "year": 2010,
+      "api_query": "Crossref GET works?query.title=Urban greening to cool towns and cities: A systematic review of the empirical evidence"
+    },
+    "matched_record_id": "10.1016/j.landurbplan.2010.05.006",
+    "checked_at_utc": "2026-10-08T10:06:42Z",
+    "match_notes_zh": "以 Crossref 公開書目記錄比對書名、作者與年份；摘要文字未保存到 repository。"
+  },
+  "limitations_zh": "只保留書目與自行撰寫的範圍摘要；除標示 ABSTRACT_REVIEW 者外，內容未由摘要核對，沒有下載全文。",
+  "critique_relationship_zh": "本記錄不宣稱與其他書目存在直接互引或逐一反駁關係。",
+  "metadata_licence_zh": "公開 API 書目欄位；精確 metadata licence 未核驗，標 UNKNOWN。"
+}

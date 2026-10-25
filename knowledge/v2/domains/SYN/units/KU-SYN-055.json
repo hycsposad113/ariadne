@@ -1,0 +1,80 @@
+{
+  "id": "KU-SYN-055",
+  "domain": "SYN",
+  "subtopic": "Place Syntax",
+  "type": "concept",
+  "title_zh": "Place Syntax：概念界線",
+  "title_en": "Place Syntax: Concept and scope",
+  "summary_zh": "Place Syntax 類方法把空間組態與目的地或活動機會聯結，讓路網可達關係與場所吸引條件一起診斷。此處要回答的是分開呈現道路中心性、目的地數量、用途混合與分布公平，避免把場所權重隱藏在網路分數裡。對Place Syntax而言，本次 API 未找到指定 Place Syntax 工具候選書目；此單元只涵蓋經核對的目的地敏感型可及性整合思想；因此該概念只界定分析問題，不替不同街道和使用者預選答案。",
+  "key_points_zh": [
+    "概念界線：Place Syntax 類方法把空間組態與目的地或活動機會聯結，讓路網可達關係與場所吸引條件一起診斷",
+    "概念界線：分開呈現道路中心性、目的地數量、用途混合與分布公平，避免把場所權重隱藏在網路分數裡"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "Place Syntax：概念界線｜波哥大的人口、工作及可及性分布不均；高平均密度可以和低收入群體的可及性不足並存",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "BOGOTA17",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "Place Syntax：概念界線｜Primal 街道圖和多中心性指標可辨識城市結構骨架；規劃型與自組織城市的中心性分布不同，指標選擇仍受圖表示限制",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "PORTA06",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "用「Place Syntax 類方法把空間組態與目的地或活動機會聯結，讓路網可達關係與場所吸引條件一起診斷」界定Place Syntax的分析範圍，再以「分開呈現道路中心性、目的地數量、用途混合與分布公平，避免把場所權重隱藏在網路分數裡」說明這個界線不涵蓋什麼。"
+  ],
+  "applies_when_zh": "界定Place Syntax的分析邊界時，可用「Place Syntax 類方法把空間組態與目的地或活動機會聯結，讓路網可達關係與場所吸引條件一起診斷」說明本單元涵蓋的關係，再另行檢查未納入的條件。",
+  "not_applicable_when_zh": "「Place Syntax 類方法把空間組態與目的地或活動機會聯結，讓路網可達關係與場所吸引條件一起診斷」不能直接轉成法規或最佳方案判斷，尤其不能忽略「本次 API 未找到指定 Place Syntax 工具候選書目；此單元只涵蓋經核對的目的地敏感型可及性整合思想」指出的限制。",
+  "debates_zh": "本次 API 未找到指定 Place Syntax 工具候選書目；此單元只涵蓋經核對的目的地敏感型可及性整合思想；檢視「Place Syntax：概念界線」的概念界線時，還需判斷「分開呈現道路中心性、目的地數量、用途混合與分布公平，避免把場所權重隱藏在網路分數裡」會如何改變方案結論。",
+  "sources": [
+    {
+      "library_id": "BOGOTA17",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "PORTA06",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "目的地可及性與空間組態整合",
+  "region": "跨地域理論或實務脈絡；來源地區依引用條目判讀",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Methods of Analysis & Imagination",
+      "topic": "Place Syntax：課綱對應主題"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Cities by Design",
+      "topic": "Place Syntax：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-SYN-049",
+    "KU-SYN-050",
+    "KU-SYN-051",
+    "KU-SYN-052",
+    "KU-SYN-053",
+    "KU-SYN-054",
+    "KU-SYN-056"
+  ]
+}

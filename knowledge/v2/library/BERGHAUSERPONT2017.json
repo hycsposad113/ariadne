@@ -1,0 +1,44 @@
+{
+  "id": "BERGHAUSERPONT2017",
+  "title": "Typology based on three density variables central to Spacematrix using cluster analysis",
+  "authors": [
+    "Meta Berghauser Pont",
+    "Jesper Olsson"
+  ],
+  "year": 2017,
+  "venue_or_publisher": "Proceedings 24th ISUF 2017 - City and Territory in the Globalization Age",
+  "doi": "https://doi.org/10.4995/isuf2017.2017.5319",
+  "isbn": null,
+  "openalex_id": "https://openalex.org/W2783956656",
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "荷蘭量化形態學／Spacematrix 延伸",
+  "region": [
+    "摘要未列案例城市"
+  ],
+  "method": "階層與重心式群集方法比較",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "研究以 FSI、GSI 和路網密度分類建成環境；摘要認為階層群集較能辨認建築與街道差異，但大型資料需混合方法。",
+      "strength": "MIXED",
+      "scope_zh": "僅限摘要可核對的範圍；未讀全文，不推論摘要未列的數字、因果或普遍適用性。",
+      "assessment_basis": "ABSTRACT_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "OpenAlex",
+    "query": {
+      "record_id": "https://openalex.org/W2783956656",
+      "title": "Typology based on three density variables central to Spacematrix using cluster analysis",
+      "author": "Meta Berghauser Pont",
+      "year": 2017
+    },
+    "matched_record_id": "https://openalex.org/W2783956656",
+    "checked_at_utc": "2026-10-08T09:12:32Z",
+    "match_notes_zh": "以 OpenAlex 精確 work 記錄核對書名、作者與出版年；只使用摘要作主張範圍檢查，未下載全文。"
+  },
+  "limitations_zh": "僅使用允許的書目欄位和摘要核對；未取得或保存全文。",
+  "metadata_licence_zh": "保存公開書目欄位與自行撰寫主張摘要；未保存 API 摘要原文或全文。"
+}

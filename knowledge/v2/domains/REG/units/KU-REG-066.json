@@ -1,0 +1,78 @@
+{
+  "id": "KU-REG-066",
+  "domain": "REG",
+  "subtopic": "德國 BauNVO 制度輪廓",
+  "type": "value_range",
+  "title_zh": "BauNVO GE／GI 商業與工業區指引值",
+  "title_en": "BauNVO GE/GI orientation values",
+  "summary_zh": "GE/GI 常見指引值為 GRZ 0.8、GFZ 2.4；工業用途的設備、院場和作業空間使覆蓋率不能替代運作面積分析。 SO 特別區需依目的設定，不能直接套用 GE/GI 數值。 將生產建築、堆場、貨運迴轉與綠色緩衝分項計算，再與樓地板量對照。",
+  "key_points_zh": [
+    "GE/GI 常見指引值為 GRZ 0.8、GFZ 2.4；工業用途的設備、院場和作業空間使覆蓋率不能替代運作面積分析。",
+    "SO 特別區需依目的設定，不能直接套用 GE/GI 數值。",
+    "將生產建築、堆場、貨運迴轉與綠色緩衝分項計算，再與樓地板量對照。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "BauNVO §17 列出 GE 商業區與 GI 工業區的 GRZ、GFZ 指引；工業作業與堆場需求仍須另行配置。",
+        "effect_or_value": "GRZ 0.8；GFZ 2.4",
+        "study_design": "跨案例尺度對照或明示假設的規劃計算",
+        "context_region": "德國商業區與工業區用途類別",
+        "library_id": "BAUNVO",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "BauNVO GE／GI 商業與工業區指引值",
+      "range": "GRZ 0.8；GFZ 2.4",
+      "unit": "比率",
+      "context": "德國 BauNVO GE 與 GI 用途區；用途：依第17條參照建蔽與容積指引值；對照官方法規 BAUNVO §17；這不是本基地法規。",
+      "library_id": "BAUNVO"
+    }
+  ],
+  "design_implications_zh": [
+    "將生產建築、堆場、貨運迴轉與綠色緩衝分項計算，再與樓地板量對照。",
+    "記錄 德國商業區與工業區用途類別 與「GE 商業區及 GI 工業區」的量測分母，再和另一種尺度或用途並排比較。"
+  ],
+  "applies_when_zh": "用於比較德國商業區與工業區用途類別的GE 商業區及 GI 工業區，並明示此數值的來源、年份和面積分母。",
+  "not_applicable_when_zh": "SO 特別區需依目的設定，不能直接套用 GE/GI 數值。",
+  "debates_zh": "相同 GFZ 對工業和商業的營運含義不同，規則比較不能只看樓地板總量。",
+  "sources": [
+    {
+      "library_id": "BAUNVO",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "SINGLE_SOURCE",
+  "tradition": "比較土地使用管制",
+  "region": "德國商業區與工業區用途類別",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Planning Complex Cities",
+      "topic": "德國 BauNVO 制度輪廓"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Urban Design Contexts and Operations",
+      "topic": "德國 BauNVO 制度輪廓"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "德國 BauNVO 制度輪廓"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban design governance",
+      "topic": "德國 BauNVO 制度輪廓"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008"
+}

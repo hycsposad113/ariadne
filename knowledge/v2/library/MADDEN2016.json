@@ -1,0 +1,44 @@
+{
+  "id": "MADDEN2016",
+  "title": "In Defense of Housing",
+  "authors": [
+    "David J. Madden",
+    "Peter Marcuse"
+  ],
+  "year": 2016,
+  "venue_or_publisher": "Open Library bibliographic record; publisher not returned in the permitted search fields",
+  "doi": null,
+  "isbn": "1784783544",
+  "openalex_id": null,
+  "kind": "ACADEMIC_BOOK",
+  "tradition": "住房權與政治經濟批判",
+  "region": [
+    "美國與跨國住房政治"
+  ],
+  "method": "批判性專書",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "專書把住房置於權力、資產與生活保障的關係中，反對把可負擔性縮成單一市場指標。",
+      "strength": "THEORETICAL",
+      "scope_zh": "書目核對與專業範圍摘要；不是特定基地法規或普遍數值門檻。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Open Library",
+    "query": {
+      "title": "In Defense of Housing",
+      "author": "David J. Madden",
+      "year": 2016,
+      "endpoint": "https://openlibrary.org/search.json"
+    },
+    "matched_record_id": "/works/OL20039882W",
+    "checked_at_utc": "2026-10-08T09:12:32Z",
+    "match_notes_zh": "Open Library 搜尋紀錄的書名、第一作者與年份相符；未下載全文。"
+  },
+  "limitations_zh": "僅核對 Open Library 書目欄位，未查閱全文；出版社欄位未由本次受限搜尋查回。",
+  "metadata_licence_zh": "保存書目欄位與自行撰寫摘要；未保存 API 摘要或全文。"
+}

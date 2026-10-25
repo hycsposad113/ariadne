@@ -1,0 +1,71 @@
+{
+  "id": "KU-THY-046",
+  "domain": "THY",
+  "subtopic": "荷蘭都市主義傳統",
+  "type": "theory",
+  "title_zh": "荷蘭 layers 理論",
+  "title_en": "Dutch layers planning tradition",
+  "summary_zh": "Layers approach 將基底、網絡與佔用按不同變動速度辨認，以長期自然與基礎設施條件檢查短期建設選擇。三層之間存在相互作用，並非簡單由下層單向決定上層。先說明水土條件與網絡壽命，再比較可調整的用地和建築方案。",
+  "key_points_zh": [
+    "先說明水土條件與網絡壽命，再比較可調整的用地和建築方案。",
+    "把自然層當成不變背景會忽略氣候與工程改造；層的速度也不是固定常數。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "Layers approach 將基底、網絡與佔用按不同變動速度辨認，以長期自然與基礎設施條件檢查短期建設選擇。三層之間存在相互作用，並非簡單由下層單向決定上層。",
+        "library_id": "LAYERS2011",
+        "locator": null,
+        "study_design": "理論／方法綜述；非基地實測",
+        "effect_or_value": null,
+        "context_region": null,
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008"
+      },
+      {
+        "claim_zh": "Cammen 的荷蘭土地與城市建設史提供不同作者對 layers approach 所處規劃傳統的歷史脈絡。",
+        "library_id": "CAMMEN2012",
+        "locator": null,
+        "study_design": "獨立學術來源；本次限於書目範圍",
+        "effect_or_value": null,
+        "context_region": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "先說明水土條件與網絡壽命，再比較可調整的用地和建築方案。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "以慢變系統先行可避免短期投資衝突，但需保留調適和例外。",
+      "tradeoff_zh": "把自然層當成不變背景會忽略氣候與工程改造；層的速度也不是固定常數。",
+      "library_ids": [
+        "LAYERS2011"
+      ]
+    }
+  ],
+  "applies_when_zh": "用於釐清「荷蘭 layers 理論」涉及的空間、制度與行動選擇。",
+  "not_applicable_when_zh": "「荷蘭 layers 理論」不能直接替代基地的實測、法規或人類批准。",
+  "debates_zh": "把自然層當成不變背景會忽略氣候與工程改造；層的速度也不是固定常數。",
+  "sources": [
+    {
+      "library_id": "LAYERS2011",
+      "locator": null
+    },
+    {
+      "library_id": "CAMMEN2012",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+  "curriculum_refs": [
+    {
+      "school": "MIT",
+      "course": null,
+      "topic": "編者主題對照，非已核實課程指定閱讀：荷蘭 layers 理論"
+    }
+  ],
+  "version": "2.0.0-theory-v3"
+}

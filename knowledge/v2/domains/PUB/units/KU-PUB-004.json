@@ -1,0 +1,66 @@
+{
+  "id": "KU-PUB-004",
+  "domain": "PUB",
+  "subtopic": "廣場尺度與圍合",
+  "type": "empirical_finding",
+  "title_zh": "公私廣場管理的實際差異",
+  "title_en": "Public-private management in plazas",
+  "summary_zh": "紐約的比較研究觀察到，私有管理空間同樣可以吸引使用者。相較公共管理空間，研究記錄到較多監視和行為控制措施。結果來自特定城市與空間樣本，不能把所有私人管理都視為相同。秩序與維護的收益，可能伴隨非消費活動和表達權的縮減。",
+  "key_points_zh": [
+    "紐約的比較研究觀察到，私有管理空間同樣可以吸引使用者",
+    "相較公共管理空間，研究記錄到較多監視和行為控制措施"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "紐約的比較研究觀察到，私有管理空間同樣可以吸引使用者。",
+        "effect_or_value": "私營空間使用仍可存在，但觀察到較多監視及行為規範；未提供可普遍化的效果量。",
+        "study_design": "公私空間比較觀察；跨案例比較",
+        "context_region": "美國紐約市",
+        "library_id": "NEMETH11",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW",
+        "limitations_zh": "空間樣本集中於特定城市，觀察指標不涵蓋所有使用群體與時段。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "在空間配置審查中，把管理規則、告示、保全位置與可舉行活動列入同一張公共性清單。"
+  ],
+  "applies_when_zh": "適用於公私協作或開發誘因形成的開放空間。",
+  "not_applicable_when_zh": "不能由管理者身分推論每一處現場都會排除特定使用者。",
+  "debates_zh": "秩序與維護的收益，可能伴隨非消費活動和表達權的縮減。",
+  "sources": [
+    {
+      "library_id": "NEMETH11",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "THOMPSON02",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "公共空間治理與 publicness",
+  "region": "美國紐約市",
+  "curriculum_refs": [
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "廣場尺度與圍合"
+    },
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "廣場尺度與圍合"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-PUB-003",
+    "KU-PUB-005"
+  ]
+}

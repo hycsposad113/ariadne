@@ -1,0 +1,81 @@
+{
+  "id": "KU-STR-018",
+  "domain": "STR",
+  "subtopic": "街道斷面",
+  "type": "empirical_finding",
+  "title_zh": "整合鋪面與行人行為",
+  "title_en": "Integrated surfaces and pedestrian movement",
+  "summary_zh": "首爾街道錄影的虛擬實境安全評估、序位迴歸、訪談與行走軌跡繪圖，研究脈絡為首爾，南韓。空間整合可能影響行人的路徑使用與主觀安全，但不等於真實碰撞率下降。行人對行人優先街的安全評價高於一般巷道，整合式設計下行走更自由；路側分隔設計的行為差異較小。限制包括虛擬情境和影片軌跡不是長期自然實驗，且研究限於首爾樣本。",
+  "key_points_zh": [
+    "空間整合可能影響行人的路徑使用與主觀安全，但不等於真實碰撞率下降",
+    "限制：虛擬情境和影片軌跡不是長期自然實驗，且研究限於首爾樣本",
+    "效果或方向：行人對行人優先街的安全評價高於一般巷道，整合式設計下行走更自由；路側分隔設計的行為差異較小"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "整合鋪面與行人行為｜空間整合可能影響行人的路徑使用與主觀安全，但不等於真實碰撞率下降",
+        "effect_or_value": "行人對行人優先街的安全評價高於一般巷道，整合式設計下行走更自由；路側分隔設計的行為差異較小",
+        "study_design": "首爾街道錄影的虛擬實境安全評估、序位迴歸、訪談與行走軌跡繪圖",
+        "context_region": "首爾，南韓",
+        "library_id": "LEE2021",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "整合鋪面與行人行為｜街道網與周邊土地發展共同塑造城鎮形式；不同網格應連同地形、歷史與用途脈絡比較",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "SOUTHWORTH03",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "把斷面圖、行為觀察和無障礙使用者回饋一起評估"
+  ],
+  "applies_when_zh": "若本地觀察單位與首爾，南韓的研究脈絡可對照，可用「空間整合可能影響行人的路徑使用與主觀安全，但不等於真實碰撞率下降」作為街道斷面的比較線索。",
+  "not_applicable_when_zh": "這項首爾，南韓的研究結果不能單獨證明因果或預測其他城市的街段；原研究虛擬情境和影片軌跡不是長期自然實驗，且研究限於首爾樣本。",
+  "debates_zh": "關聯能否外推；虛擬情境和影片軌跡不是長期自然實驗，且研究限於首爾樣本；檢視「整合鋪面與行人行為」的研究解讀時，還需判斷「限制：虛擬情境和影片軌跡不是長期自然實驗，且研究限於首爾樣本」會如何改變方案結論。",
+  "sources": [
+    {
+      "library_id": "LEE2021",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "SOUTHWORTH03",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "街道空間與道路設計",
+  "region": "首爾，南韓",
+  "curriculum_refs": [
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "街道斷面：課綱對應主題"
+    },
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "街道斷面：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-STR-017",
+    "KU-STR-019",
+    "KU-STR-020",
+    "KU-STR-021",
+    "KU-STR-022",
+    "KU-STR-023",
+    "KU-STR-024"
+  ]
+}

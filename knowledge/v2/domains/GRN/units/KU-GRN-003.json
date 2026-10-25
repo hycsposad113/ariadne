@@ -1,0 +1,61 @@
+{
+  "id": "KU-GRN-003",
+  "domain": "GRN",
+  "subtopic": "公園類型與階層",
+  "type": "critique",
+  "title_zh": "口袋綠地不能取代大型生境",
+  "title_en": "Small parks do not replace large habitats",
+  "summary_zh": "小型綠地可提供步行休息、遊戲和局部雨水調節。面積敏感物種可能需要更大的連續生境。在人口稠密地區，大型公園稀缺不代表小綠地沒有價值。小型空間的分散服務與大型棲地完整性有不同尺度價值。",
+  "key_points_zh": [
+    "小型綠地可提供步行休息、遊戲和局部雨水調節",
+    "面積敏感物種可能需要更大的連續生境"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "小型綠地可提供步行休息、遊戲和局部雨水調節。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "跨地域",
+        "library_id": "CARMONA10",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "小型空間的分散服務與大型棲地完整性有不同尺度價值。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "把休閒服務與物種保育需求分開列目標，再評估是否可共存。"
+  ],
+  "applies_when_zh": "適用於公園階層和綠地網絡規劃。",
+  "not_applicable_when_zh": "不宜把所有口袋公園都視為生態核心區。",
+  "debates_zh": "小型空間的分散服務與大型棲地完整性有不同尺度價值。",
+  "sources": [
+    {
+      "library_id": "CARMONA10",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "KACZYNSKI08",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "公共空間治理批評",
+  "region": "跨地域",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "公園類型與階層"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-GRN-002",
+    "KU-GRN-004"
+  ]
+}

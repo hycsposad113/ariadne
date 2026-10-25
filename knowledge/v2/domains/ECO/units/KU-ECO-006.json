@@ -1,0 +1,61 @@
+{
+  "id": "KU-ECO-006",
+  "domain": "ECO",
+  "subtopic": "地景生態學：嵌塊、廊道、基質",
+  "type": "concept",
+  "title_zh": "核心棲地和邊緣環境不同",
+  "title_en": "Core habitat differs from edge",
+  "summary_zh": "邊緣可能帶來光照、乾燥、捕食和人類活動變化。斑塊面積的一部分因此未必能提供相同的內部棲地條件。邊緣效應的距離會因物種和環境而變。邊緣也能增加某些物種資源，功能不是單向。",
+  "key_points_zh": [
+    "邊緣可能帶來光照、乾燥、捕食和人類活動變化",
+    "斑塊面積的一部分因此未必能提供相同的內部棲地條件"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "邊緣可能帶來光照、乾燥、捕食和人類活動變化。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "澳洲",
+        "library_id": "SUSHINSKY13",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "邊緣也能增加某些物種資源，功能不是單向。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "將生境核心、緩衝和使用邊緣分開規劃。"
+  ],
+  "applies_when_zh": "適用於設計公園與自然保護區交界。",
+  "not_applicable_when_zh": "不應假設所有物種都避開邊緣。",
+  "debates_zh": "邊緣也能增加某些物種資源，功能不是單向。",
+  "sources": [
+    {
+      "library_id": "SUSHINSKY13",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "SOGA14",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "都市擴張與保育規劃",
+  "region": "澳洲",
+  "curriculum_refs": [
+    {
+      "school": "MIT",
+      "course": "11.330J Theory of City Form",
+      "topic": "地景生態學：嵌塊、廊道、基質"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-ECO-005",
+    "KU-ECO-007"
+  ]
+}

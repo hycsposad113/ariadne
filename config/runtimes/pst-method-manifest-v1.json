@@ -1,0 +1,71 @@
+{
+  "schema_version": "pst-method-manifest-v1",
+  "status": "APPROVED_AS_RECORD_METHOD_PER_PD15",
+  "approved_for_operational_use": true,
+  "decision_reference": "docs/decisions/2026-09-25-plan-decisions-zh.md#PD-15",
+  "plan_reference": "docs/superpowers/plans/2026-09-25-week4-closeout-plan-zh.md#WC-3",
+  "engine": {
+    "name": "PST / Pstalgo",
+    "version": "3.3.1",
+    "runtime_manifest_path": "config/runtimes/pstalgo-3.3.1.json",
+    "runtime_manifest_sha256": "1297c18fd2fda41d1ccc79f67119aff614bcd772cd5b5c297beadb6ee2a14c10",
+    "macos_binary_path": "bin/libpstalgo.dylib",
+    "macos_binary_sha256": "a7b703581c68f2ceb070268866da0607b0aa5bc4ffef6bcf925230680c66bb26",
+    "adapter_entrypoint": "src/urban_design/syntax_engines/pst_adapter.py:run_pst_analysis",
+    "worker_entrypoint": "src/urban_design/syntax_engines/pst_worker.py:run_worker"
+  },
+  "method_specification": {
+    "network_directionality": "undirected; one-way attributes are treated as walkable undirected segments for urban pedestrian and public-realm syntax analysis",
+    "radius_mode": "walking",
+    "radius_mode_description": "Cumulative shortest network distance along connected street segments in meters, measured between segment midpoints. Conforms to contract 08 metric radius requirement and PD-15 decision.",
+    "angular_cost": {
+      "definition": "Turn angle in degrees divided by 90.0 (one 90-degree right angle = 1 turn step)",
+      "pst_parameters": {
+        "angle_threshold": 0.0,
+        "angle_precision": 1
+      },
+      "verification": "Hand-calculated synthetic fixtures (collinear=0.0 turns, 30-deg=0.3333 turns, 45-deg=0.5 turns, 90-deg=1.0 turns, 135-deg=1.5 turns) verified in tests/test_pst_fixtures.py"
+    },
+    "segmentation_and_topology": {
+      "pipeline": [
+        "CreateSegmentMap(AXIAL_OR_SEGMENT)",
+        "CreateSegmentGraph",
+        "AngularIntegration",
+        "AngularChoice"
+      ],
+      "parameters": {
+        "snap_m": 0.0,
+        "min_tail_m": 0.0,
+        "colinear_deviation": 1.0,
+        "extrude_m": 0.0
+      },
+      "grade_separation_handling": "Explicit unlinks passed to CreateSegmentMap before graph construction; grade-separated crossings (bridge/tunnel/layer mismatch) remain non-intersecting and unlinked",
+      "lineage_rule": "Every input polyline must be completely covered by resulting segments with fail-closed coverage audit"
+    },
+    "normalization_formulas": {
+      "harmonized_node_count": "PST native node_count minus 1 (excluding self origin segment)",
+      "harmonized_choice": "PST native choice divided by 2 (converting bidirectional pairs to undirected pair count)",
+      "NAIN": "NC^1.2 / (TD + 2.0)",
+      "NACH": "ln(choice + 1.0) / ln(TD + 3.0)"
+    },
+    "isolated_components": "Segments in disconnected components with zero reachable neighbors are harmonized to NC=0, TD=0.0, choice=0.0, NAIN=0.0, NACH=0.0",
+    "boundary_effects_and_stability": {
+      "local_scale_800m": "Calculated on M4H context network and provincial extract; buffered beyond 800m extent",
+      "mid_scale_2000m": {
+        "expansion_buffers_m": [4000.0, 6000.0],
+        "stability_metric": "Spearman rank correlation >= 0.98 within StudyArea; segments varying >5% tagged EDGE_AFFECTED"
+      },
+      "regional_scale_10000m": {
+        "expansion_buffers_m": [15000.0, 20000.0],
+        "provincial_boundary_clipping": "Verified against zuid-holland.poly boundary; buffer regions truncated by provincial boundary tagged EDGE_AFFECTED"
+      }
+    }
+  },
+  "prior_comparisons": {
+    "syntax_method_comparison_v1": {
+      "status": "FAIL_PRESERVED_AS_HISTORICAL_REFERENCE",
+      "reference": "config/runtimes/syntax-method-comparison-v1.json",
+      "disposition": "Custom engine retired per PD-15; comparison failure preserved immutable; PST 3.3.1 established as authoritative method of record"
+    }
+  }
+}

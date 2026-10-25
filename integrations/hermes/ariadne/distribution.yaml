@@ -1,0 +1,11 @@
+name: ariadne
+version: 0.1.0
+description: "Ariadne: Rotterdam M4H Urban Design AI Partner profile distribution"
+author: "Jack Hsieh & AntiGravity"
+license: "MIT"
+hermes_requires: ">=0.1.0"
+distribution_owned:
+  - SOUL.md
+  - config.yaml
+  - skills/
+  - README.md

@@ -1,0 +1,80 @@
+{
+  "id": "KU-MOB-007",
+  "domain": "MOB",
+  "subtopic": "建成環境與旅運（3D／5D）",
+  "type": "typology",
+  "title_zh": "建成環境與旅運（3D／5D）：型態比較",
+  "title_en": "Built environment and travel (3D/5D): Typology comparison",
+  "summary_zh": "常見分析維度包含密度、多樣性、街網設計、目的地可及性和到站距離；各指標代表不同機制。類型比較要回到密度、多樣性、設計、目的地可及性及公共運輸距離等建成環境維度，與旅運選擇共同受個人和行程條件影響。各類型的成本和適用條件包括：相關性易受自我選擇、住房市場、行程目的與區域尺度影響；3D／5D 不應被當成完整因果模型。",
+  "key_points_zh": [
+    "比較類型：密度、多樣性、設計、目的地可及性及公共運輸距離等建成環境維度，與旅運選擇共同受個人和行程條件影響",
+    "比較類型：常見分析維度包含密度、多樣性、街網設計、目的地可及性和到站距離；各指標代表不同機制"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "建成環境與旅運（3D／5D）：型態比較｜波哥大的人口、工作及可及性分布不均；高平均密度可以和低收入群體的可及性不足並存",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "BOGOTA17",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "建成環境與旅運（3D／5D）：型態比較｜可及性評估需要同時交代交通、土地使用與個人條件；同一距離圈不代表同樣機會",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "GEURS04",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "類型表應比較「密度、多樣性、設計、目的地可及性及公共運輸距離等建成環境維度，與旅運選擇共同受個人和行程條件影響」及其使用代價「相關性易受自我選擇、住房市場、行程目的與區域尺度影響；3D／5D 不應被當成完整因果模型」，不要只列名稱。"
+  ],
+  "applies_when_zh": "比較建成環境與旅運（3D／5D）方案時，可先用「密度、多樣性、設計、目的地可及性及公共運輸距離等建成環境維度，與旅運選擇共同受個人和行程條件影響」描述各類型，再按「相關性易受自我選擇、住房市場、行程目的與區域尺度影響；3D／5D 不應被當成完整因果模型」檢查分類的盲點。",
+  "not_applicable_when_zh": "這些類型不構成普遍排序；遇到「相關性易受自我選擇、住房市場、行程目的與區域尺度影響；3D／5D 不應被當成完整因果模型」所述條件時，不應只依類名決定路網或街道配置。",
+  "debates_zh": "相關性易受自我選擇、住房市場、行程目的與區域尺度影響；3D／5D 不應被當成完整因果模型；檢視「建成環境與旅運（3D／5D）：型態比較」的分類邊界時，還需判斷「常見分析維度包含密度、多樣性、街網設計、目的地可及性和到站距離；各指標代表不同機制」會如何改變方案結論。",
+  "sources": [
+    {
+      "library_id": "BOGOTA17",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "GEURS04",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "建成環境與旅運研究",
+  "region": "跨地域理論或實務脈絡；來源地區依引用條目判讀",
+  "curriculum_refs": [
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "建成環境與旅運（3D／5D）：課綱對應主題"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Sustainable Futures by Design",
+      "topic": "建成環境與旅運（3D／5D）：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-MOB-001",
+    "KU-MOB-002",
+    "KU-MOB-003",
+    "KU-MOB-004",
+    "KU-MOB-005",
+    "KU-MOB-006",
+    "KU-MOB-008"
+  ]
+}

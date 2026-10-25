@@ -1,0 +1,80 @@
+{
+  "id": "KU-STR-030",
+  "domain": "STR",
+  "subtopic": "街廓大小與連結度",
+  "type": "typology",
+  "title_zh": "街廓大小與連結度：型態比較",
+  "title_en": "Block size and connectivity: Typology comparison",
+  "summary_zh": "細街廓網格增加替代路徑；大街廓可容納較大基地和內部公共通道，但會讓外部步行更依賴少數入口。類型比較要回到街廓尺寸和連接關係共同影響路線選擇、繞行程度、沿街地塊與交會機會，單一平均街廓長度不足以描述網路。各類型的成本和適用條件包括：連結多不代表每條路都可合法或安全通行；私人通道、封閉時段和跨線設施會使幾何連接高估實際可達性。",
+  "key_points_zh": [
+    "比較類型：街廓尺寸和連接關係共同影響路線選擇、繞行程度、沿街地塊與交會機會，單一平均街廓長度不足以描述網路",
+    "比較類型：細街廓網格增加替代路徑；大街廓可容納較大基地和內部公共通道，但會讓外部步行更依賴少數入口"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "街廓大小與連結度：型態比較｜荷蘭新舊城案例將路網整合、密度與混合用途聯合診斷，初步行為資料檢驗並非通用因果模型",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "YE14",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "街廓大小與連結度：型態比較｜波哥大的人口、工作及可及性分布不均；高平均密度可以和低收入群體的可及性不足並存",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "BOGOTA17",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "類型表應比較「街廓尺寸和連接關係共同影響路線選擇、繞行程度、沿街地塊與交會機會，單一平均街廓長度不足以描述網路」及其使用代價「連結多不代表每條路都可合法或安全通行；私人通道、封閉時段和跨線設施會使幾何連接高估實際可達性」，不要只列名稱。"
+  ],
+  "applies_when_zh": "比較街廓大小與連結度方案時，可先用「街廓尺寸和連接關係共同影響路線選擇、繞行程度、沿街地塊與交會機會，單一平均街廓長度不足以描述網路」描述各類型，再按「連結多不代表每條路都可合法或安全通行；私人通道、封閉時段和跨線設施會使幾何連接高估實際可達性」檢查分類的盲點。",
+  "not_applicable_when_zh": "這些類型不構成普遍排序；遇到「連結多不代表每條路都可合法或安全通行；私人通道、封閉時段和跨線設施會使幾何連接高估實際可達性」所述條件時，不應只依類名決定路網或街道配置。",
+  "debates_zh": "連結多不代表每條路都可合法或安全通行；私人通道、封閉時段和跨線設施會使幾何連接高估實際可達性；檢視「街廓大小與連結度：型態比較」的分類邊界時，還需判斷「細街廓網格增加替代路徑；大街廓可容納較大基地和內部公共通道，但會讓外部步行更依賴少數入口」會如何改變方案結論。",
+  "sources": [
+    {
+      "library_id": "YE14",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "BOGOTA17",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "城市路網形態",
+  "region": "跨地域理論或實務脈絡；來源地區依引用條目判讀",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "街廓大小與連結度：課綱對應主題"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "街廓大小與連結度：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-STR-025",
+    "KU-STR-026",
+    "KU-STR-027",
+    "KU-STR-028",
+    "KU-STR-029",
+    "KU-STR-031",
+    "KU-STR-032"
+  ]
+}

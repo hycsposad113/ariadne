@@ -1,0 +1,43 @@
+{
+  "id": "KULP2019",
+  "title": "New elevation data triple estimates of global vulnerability to sea-level rise and coastal flooding",
+  "authors": [
+    "Scott A. Kulp",
+    "Benjamin H. Strauss"
+  ],
+  "year": 2019,
+  "venue_or_publisher": "Nature Communications",
+  "doi": "https://doi.org/10.1038/s41467-019-12808-z",
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "海岸高程與暴露估算",
+  "region": "全球沿海地區",
+  "method": "比較 SRTM 與 CoastalDEM 高程模型並疊合人口暴露估計",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "使用較低垂直偏差的沿海高程模型會顯著改變低地人口暴露估計；本文摘要報告 2100 情境估計及 90% 區間。",
+      "strength": "THEORETICAL",
+      "scope_zh": "只支持此研究明確的議題、樣本地區與方法；不直接生成 M4H 數值、法規或工程容量。",
+      "assessment_basis": "ABSTRACT_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref",
+    "query": {
+      "title": "New elevation data triple estimates of global vulnerability to sea-level rise and coastal flooding",
+      "author": "Kulp",
+      "year": 2019,
+      "api_query": "Crossref GET works?query.title=New elevation data triple estimates of global vulnerability to sea-level rise and coastal flooding"
+    },
+    "matched_record_id": "10.1038/s41467-019-12808-z",
+    "checked_at_utc": "2026-10-08T10:00:53Z",
+    "match_notes_zh": "以 Crossref 公開書目記錄比對書名、作者與年份；摘要文字未保存到 repository。"
+  },
+  "limitations_zh": "只保留書目與自行撰寫的範圍摘要；除標示 ABSTRACT_REVIEW 者外，內容未由摘要核對，沒有下載全文。",
+  "critique_relationship_zh": "本記錄不宣稱與其他書目存在直接互引或逐一反駁關係。",
+  "metadata_licence_zh": "公開 API 書目欄位；精確 metadata licence 未核驗，標 UNKNOWN。"
+}

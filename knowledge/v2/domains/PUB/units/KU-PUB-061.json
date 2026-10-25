@@ -1,0 +1,66 @@
+{
+  "id": "KU-PUB-061",
+  "domain": "PUB",
+  "subtopic": "夜間經濟",
+  "type": "critique",
+  "title_zh": "夜間經濟不代表夜間公共性",
+  "title_en": "Night-time economy is not publicness",
+  "summary_zh": "酒吧和餐飲能帶來夜間人流，卻不必然提供安靜休憩或免費活動。工作者、鄰居、通勤者和消費者對夜間空間的需求並不一致。單純延長營業時間可能增加噪音與治安管理衝突。繁榮敘事可能遮蔽夜間勞動者和非消費使用者的負擔。",
+  "key_points_zh": [
+    "酒吧和餐飲能帶來夜間人流，卻不必然提供安靜休憩或免費活動",
+    "工作者、鄰居、通勤者和消費者對夜間空間的需求並不一致"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "酒吧和餐飲能帶來夜間人流，卻不必然提供安靜休憩或免費活動。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "美國",
+        "library_id": "WHYTE80",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "繁榮敘事可能遮蔽夜間勞動者和非消費使用者的負擔。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "分時繪製營業、公共交通、裝卸和居民休息的需求。"
+  ],
+  "applies_when_zh": "適用於夜間街區策略和活動許可討論。",
+  "not_applicable_when_zh": "不應把營業額或客流量當成公共生活的唯一成果。",
+  "debates_zh": "繁榮敘事可能遮蔽夜間勞動者和非消費使用者的負擔。",
+  "sources": [
+    {
+      "library_id": "WHYTE80",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "CARMONA10",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "公共生活觀察",
+  "region": "美國",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "夜間經濟"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "夜間經濟"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-PUB-060",
+    "KU-PUB-062"
+  ]
+}

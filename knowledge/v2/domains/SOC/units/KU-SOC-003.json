@@ -1,0 +1,71 @@
+{
+  "id": "KU-SOC-003",
+  "domain": "SOC",
+  "subtopic": "參與階梯與合作式規劃",
+  "type": "theory",
+  "title_zh": "Habermas 溝通理性",
+  "title_en": "Habermas communicative rationality",
+  "summary_zh": "Habermas 區分以達成理解為取向的溝通行動與只求自身目的的策略行動。規劃引用這套思想時，需把理由的可質疑性、發言條件及權力扭曲當作核心問題。檢查不同群體能否提出理由、質疑前提及回應反駁，記錄被排除的發言條件。",
+  "key_points_zh": [
+    "檢查不同群體能否提出理由、質疑前提及回應反駁，記錄被排除的發言條件。",
+    "理想溝通條件難以在不平等現實完全成立，不能宣稱有討論就有正當性。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "Habermas 區分以達成理解為取向的溝通行動與只求自身目的的策略行動。規劃引用這套思想時，需把理由的可質疑性、發言條件及權力扭曲當作核心問題。",
+        "library_id": "HABERMAS84",
+        "locator": null,
+        "study_design": "理論／方法綜述；非基地實測",
+        "effect_or_value": null,
+        "context_region": null,
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008"
+      },
+      {
+        "claim_zh": "Flyvbjerg 以實務案例檢查理性論述如何受權力扭曲，形成對 Habermas 規範理論的獨立批判。",
+        "library_id": "FLYVBJERG1998",
+        "locator": null,
+        "study_design": "案例研究／規劃權力",
+        "effect_or_value": null,
+        "context_region": "丹麥、歐洲",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "檢查不同群體能否提出理由、質疑前提及回應反駁，記錄被排除的發言條件。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "以公開理由提高可檢驗性",
+      "tradeoff_zh": "專業語言可能形成新的參與門檻。",
+      "library_ids": [
+        "HABERMAS84"
+      ]
+    }
+  ],
+  "applies_when_zh": "用於釐清「Habermas 溝通理性」涉及的空間、制度與行動選擇。",
+  "not_applicable_when_zh": "「Habermas 溝通理性」不能直接替代基地的實測、法規或人類批准。",
+  "debates_zh": "理想溝通條件難以在不平等現實完全成立，不能宣稱有討論就有正當性。",
+  "sources": [
+    {
+      "library_id": "HABERMAS84",
+      "locator": null
+    },
+    {
+      "library_id": "FLYVBJERG1998",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+  "curriculum_refs": [
+    {
+      "school": "UCL Bartlett",
+      "course": null,
+      "topic": "編者主題對照，非已核實課程指定閱讀：Habermas 溝通理性"
+    }
+  ],
+  "version": "2.0.0-theory-v3"
+}

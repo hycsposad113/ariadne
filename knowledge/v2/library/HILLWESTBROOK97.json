@@ -1,0 +1,28 @@
+{
+  "id": "HILLWESTBROOK97",
+  "title": "SWOT analysis: It's time for a product recall",
+  "authors": [
+    "Terry Hill",
+    "Roy Westbrook"
+  ],
+  "year": 1997,
+  "kind": "ACADEMIC_PAPER",
+  "claims": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref",
+    "query": {
+      "title": "SWOT Analysis Its Time for a Product Recall",
+      "author": "Terry Hill",
+      "year": 1997
+    },
+    "matched_record_id": "10.1016/s0024-6301(96)00095-7",
+    "checked_at_utc": "2026-10-08T13:42:40Z",
+    "match_notes_zh": "人工核對 Crossref 題名、完整作者與年份；保存實際命中書目，主張尚未交叉核對。",
+    "receipt_path": "artifacts/kb2-theory-v3/resume-source-lookups.json"
+  },
+  "limitations_zh": "不以書目命中證明主張；主張待原著交叉核對。",
+  "metadata_licence_zh": "Metadata only; licence UNKNOWN",
+  "doi": "10.1016/s0024-6301(96)00095-7",
+  "venue_or_publisher": "Long Range Planning"
+}

@@ -1,0 +1,99 @@
+{
+  "id": "KU-HOU-050",
+  "domain": "HOU",
+  "subtopic": "居住密度與生活品質",
+  "type": "critique",
+  "title_zh": "以高度推定居住品質的證據不足",
+  "title_en": "High-rise livability in Singapore",
+  "summary_zh": "單看建築高度不足以判斷居住品質；應另外檢視住宅條件、鄰里環境、服務和住戶評價。 Yuen 的書目紀錄未提供住戶結果；Mouratidis 的關聯研究亦不能證明改變高度會造成福祉變化。 限制：Yuen 的書目紀錄未提供住戶結果；Mouratidis 的關聯研究亦不能證明改變高度會造成福祉變化。",
+  "key_points_zh": [
+    "單看建築高度不足以判斷居住品質；應另外檢視住宅條件、鄰里環境、服務和住戶評價。",
+    "把密度指標和居住滿意、鄰里服務及福祉資料分開呈現。",
+    "限制：Yuen 的書目紀錄未提供住戶結果；Mouratidis 的關聯研究亦不能證明改變高度會造成福祉變化。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "Yue 的新加坡公共住宅研究是一個制度脈絡明確的高層生活案例，不能把高度本身當成可移植的居住品質指標。",
+        "library_id": "YUE05",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "新加坡",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "Mouratidis 將住宅、鄰里和通勤滿意度分開檢視，說明居住品質包含建築高度以外的多種經驗。",
+        "library_id": "MOURATIDIS2020",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "奧斯陸城市區域，挪威",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "把密度指標和居住滿意、鄰里服務及福祉資料分開呈現。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "在「以高度推定居住品質的證據不足」的來源情境裡，把密度指標和居住滿意、鄰里服務及福祉資料分開呈現；落到設計時還要按新加坡公共住宅提供高層生活的地方研究案例；不能把同樣高度當作跨城市接受程度；「以高度推定居住品質的證據不足」還須對照單看建築高度不足以判斷居住品質；應另外檢視住宅條件、鄰里環境、服務和住戶評價，才能把研究發現轉成有邊界的設計判斷調整。",
+      "tradeoff_zh": "可使分析更完整，但需要一致的資料範圍和額外管理。",
+      "library_ids": [
+        "YUE05",
+        "MOURATIDIS2020"
+      ]
+    }
+  ],
+  "applies_when_zh": "把密度指標和居住滿意、鄰里服務及福祉資料分開呈現。",
+  "not_applicable_when_zh": "Yuen 的書目紀錄未提供住戶結果；Mouratidis 的關聯研究亦不能證明改變高度會造成福祉變化。",
+  "debates_zh": "設計論述常把緊湊發展和便利生活連在一起，但居住結果需由住戶與服務資料檢驗。",
+  "sources": [
+    {
+      "library_id": "YUE05",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "MOURATIDIS2020",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "亞洲高層生活；住宅、鄰里與生活福祉",
+  "region": "新加坡；奧斯陸城市區域，挪威",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "居住密度與生活品質"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "居住密度與生活品質"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "居住密度與生活品質"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "居住密度與生活品質"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-HOU-043",
+    "KU-HOU-044",
+    "KU-HOU-045"
+  ],
+  "counter_unit_ids": [
+    "KU-HOU-047"
+  ]
+}

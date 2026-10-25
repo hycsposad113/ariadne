@@ -1,0 +1,74 @@
+{
+  "id": "KU-WAT-038",
+  "domain": "WAT",
+  "subtopic": "韌性理論與批評",
+  "type": "theory",
+  "title_zh": "韌性、適應和轉型代表不同成果",
+  "title_en": "韌性、適應和轉型代表不同成果",
+  "summary_zh": "Walker 等人的社會—生態框架區分吸收擾動、調整並延續，以及轉變到新狀態的能力。Folke 的永續發展論述把適應放入治理和學習背景。設計方案可以分別提出要保留的功能和可改變的結構。",
+  "key_points_zh": [
+    "恢復、漸進調整和制度轉型跨越不同時間尺度。",
+    "轉型成本須說明由哪些人承擔。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "library_id": "WALKER2004",
+        "claim_zh": "文章將韌性、適應性與轉型性並列為不同概念，適合用來避免把恢復原狀當成唯一目標；本單元 KU-WAT-038 對照「Walker 等人的社會—生態框架區分吸收擾動、調整並延續，以及轉變到新狀態的能力」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "理論框架",
+        "context_region": "跨地域社會－生態系統",
+        "locator": null
+      },
+      {
+        "library_id": "FOLKE2002",
+        "claim_zh": "題名將韌性與永續發展、適應能力及轉變連結；具體操作定義需在更高層次來源中逐項核對；本單元 KU-WAT-038 對照「Walker 等人的社會—生態框架區分吸收擾動、調整並延續，以及轉變到新狀態的能力」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "理論回顧",
+        "context_region": "跨地域生態與治理研究",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "為各情境分列功能維持、配置調整與系統轉換。",
+    "追蹤何種條件代表漸進措施已不足。"
+  ],
+  "applies_when_zh": "適用於長期都市與生態調適。",
+  "not_applicable_when_zh": "不適用於把所有政策變動都標成韌性提升。",
+  "debates_zh": "文獻的韌性定義並不一致，使用指標前需要說明系統邊界。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "WALKER2004",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "FOLKE2002",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "社會生態韌性理論",
+  "region": "跨地域社會—生態系統；跨地域生態與治理研究",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "韌性理論與批評"
+    },
+    {
+      "school": "MIT",
+      "course": null,
+      "topic": "韌性理論與批評"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0"
+}

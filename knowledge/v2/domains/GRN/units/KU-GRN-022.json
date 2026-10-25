@@ -1,0 +1,65 @@
+{
+  "id": "KU-GRN-022",
+  "domain": "GRN",
+  "subtopic": "開放空間系統與綠色網絡",
+  "type": "typology",
+  "title_zh": "綠地網絡同時支援人與物種",
+  "title_en": "Green networks serve people and species",
+  "summary_zh": "連續步行路徑能連接公園、學校和公共交通。生態廊道的設計則需考慮目標物種、干擾和植被結構。人流最佳路線與動物避擾路線不一定重疊。多功能網絡可能帶來協同，也可能擴大活動干擾。",
+  "key_points_zh": [
+    "連續步行路徑能連接公園、學校和公共交通",
+    "生態廊道的設計則需考慮目標物種、干擾和植被結構"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "連續步行路徑能連接公園、學校和公共交通。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "跨地域",
+        "library_id": "BARTHELEMY11",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "多功能網絡可能帶來協同，也可能擴大活動干擾。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "地圖上分層顯示休閒連結、生態連結和洪水通道。"
+  ],
+  "applies_when_zh": "適用於區域公園系統規劃。",
+  "not_applicable_when_zh": "不適合把單一綠道同時宣稱完成所有功能。",
+  "debates_zh": "多功能網絡可能帶來協同，也可能擴大活動干擾。",
+  "sources": [
+    {
+      "library_id": "BARTHELEMY11",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "BENINDE15",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "空間網路科學",
+  "region": "跨地域",
+  "curriculum_refs": [
+    {
+      "school": "UCL Bartlett",
+      "course": "Critical Debates in Urban Design",
+      "topic": "開放空間系統與綠色網絡"
+    },
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "開放空間系統與綠色網絡"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-GRN-023"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "KU-HAR-039",
+  "type": "design_principle",
+  "subtopic": "生產性城市",
+  "title_zh": "港區轉型應保留可辨認的生產和物流路徑",
+  "title_en": "Retain Legible Production and Logistics Routes During Port Transformation",
+  "summary_zh": "產業能否留在港區，不只取決於建築用途表；裝卸路徑、車輛轉彎、噪音和與腹地相連的運輸節點也會影響生產空間是否可持續。港口區域化研究將工作流放進更大的腹地網絡，澳洲水岸研究則討論地方回應全球更新模式的差異。設計方案需說清楚保留、改造或中止哪些路徑。",
+  "key_points_zh": [
+    "把工作時段、車種和裝卸點轉成基地內外的路徑圖。",
+    "在住宅敏感邊界預先處理緩衝、交叉衝突和安全。"
+  ],
+  "design_implications_zh": [
+    "把生產路徑作為更新布局的先決條件之一，並標示其權責和營運時段。"
+  ],
+  "applies_when_zh": "港務或製造活動仍在運作、或規劃打算保留城市生產時。",
+  "not_applicable_when_zh": "已完成污染整治、原物流功能正式退出且無替代生產用途時。",
+  "debates_zh": "保留既有物流可能帶來噪音與安全衝突；新公共空間也不能以活動品牌取代真實生產能力。",
+  "tradition": "港口腹地研究／生產性城市",
+  "region": "跨地域港城",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": null,
+      "topic": "Productive city and port logistics"
+    }
+  ],
+  "domain": "HAR",
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "港口區域化研究把港口發展連到腹地與物流路徑。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "跨地域港城",
+        "library_id": "NOTTEBOOM2005",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "澳洲港區研究討論地方對全球水岸再生模式的回應。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "跨地域港城",
+        "library_id": "OAKLEY2021",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "library_id": "NOTTEBOOM2005",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "OAKLEY2021",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "version": "v2.0"
+}

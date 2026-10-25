@@ -1,0 +1,66 @@
+{
+  "id": "KU-HAR-027",
+  "domain": "HAR",
+  "subtopic": "生產性城市",
+  "type": "concept",
+  "title_zh": "生產性城市需把工作空間放進更新邊界",
+  "title_en": "Productive Urbanism Includes Workspaces in the Regeneration Boundary",
+  "summary_zh": "「生產性城市」不只是把工業建築改成創業空間，而是要追蹤產品、材料、人員和車輛如何進出地區。港口區位研究關注物流與區域競爭，都市物質流研究則說明城市的消費和生產依賴跨地方鏈條。規劃若只記錄面積和品牌，容易把倉儲、修造等低可見度功能從決策裡排除。",
+  "key_points_zh": [
+    "用途統計加入製造、維修、倉儲與物流分項。",
+    "以車流時段、噪音和危害物質建立住宅相容性檢查。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "城市物質流研究把場所與供應鏈互動連接起來。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "跨地域",
+        "library_id": "HESSE2010",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "港口區域化研究說明港口功能及腹地連結會跨越港區界線。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "跨地域",
+        "library_id": "NOTTEBOOM2005",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "用途統計加入製造、維修、倉儲與物流分項。",
+    "以車流時段、噪音和危害物質建立住宅相容性檢查。"
+  ],
+  "applies_when_zh": "既有產業仍運作或新型製造可能嵌入城市時。",
+  "not_applicable_when_zh": "只有零售與住宅項目、沒有生產活動證據時，不應宣稱為生產性城市。",
+  "debates_zh": "生產功能與住宅的共存需要處理工作條件、污染和交通，不應以「創新」一詞淡化衝突。",
+  "sources": [
+    {
+      "library_id": "HESSE2010",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "NOTTEBOOM2005",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "都市物質流／港口物流",
+  "region": "跨地域",
+  "curriculum_refs": [
+    {
+      "school": "MIT",
+      "course": null,
+      "topic": "Urban material flows and industrial land"
+    }
+  ],
+  "version": "v2.0"
+}

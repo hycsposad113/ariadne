@@ -1,0 +1,65 @@
+{
+  "id": "KU-PUB-034",
+  "domain": "PUB",
+  "subtopic": "活躍立面",
+  "type": "design_principle",
+  "title_zh": "立面尺度需從街道一側檢驗",
+  "title_en": "Measure the facade from the street",
+  "summary_zh": "行人感知的是連續的門窗、遮簷和街角，而不只是建築單體。長牆可能在總開窗面積高時仍缺乏可用入口。尺度與用途一起變化時，形式比值並沒有固定意義。大尺度建築可容納多種用途，也容易形成連續封閉邊界。",
+  "key_points_zh": [
+    "行人感知的是連續的門窗、遮簷和街角，而不只是建築單體",
+    "長牆可能在總開窗面積高時仍缺乏可用入口"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "行人感知的是連續的門窗、遮簷和街角，而不只是建築單體。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "美國",
+        "library_id": "ALEX77",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "大尺度建築可容納多種用途，也容易形成連續封閉邊界。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "沿街逐段記錄入口間距、停留點和盲區，再回到建築界面提出改造。"
+  ],
+  "applies_when_zh": "適用於更新既有街廓和大型地塊。",
+  "not_applicable_when_zh": "不應以一個立面指標代替沿街步行評估。",
+  "debates_zh": "大尺度建築可容納多種用途，也容易形成連續封閉邊界。",
+  "sources": [
+    {
+      "library_id": "ALEX77",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "FORSYTH15",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "模式語言",
+  "region": "美國",
+  "curriculum_refs": [
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "活躍立面"
+    },
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "活躍立面"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-PUB-033"
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "id": "KU-STR-017",
+  "domain": "STR",
+  "subtopic": "街道斷面",
+  "type": "empirical_finding",
+  "title_zh": "狹窄街道的行人優先設計",
+  "title_en": "Pedestrian-priority design on narrow streets",
+  "summary_zh": "首爾九條行人優先街改造前後影片分析及九街橫斷面安全感問卷，研究脈絡為首爾，南韓。在窄街、無人行道條件下，整合式處理比只畫出路側行人帶更能改變車速與安全感。改造後平均車速下降且行人安全感上升；只在路側標示行人區的街道則出現車速上升。限制包括摘要未提供速度改變幅度；樣本僅九條街，安全感和速度也不等同碰撞風險。",
+  "key_points_zh": [
+    "在窄街、無人行道條件下，整合式處理比只畫出路側行人帶更能改變車速與安全感",
+    "限制：摘要未提供速度改變幅度；樣本僅九條街，安全感和速度也不等同碰撞風險",
+    "效果或方向：改造後平均車速下降且行人安全感上升；只在路側標示行人區的街道則出現車速上升"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "狹窄街道的行人優先設計｜在窄街、無人行道條件下，整合式處理比只畫出路側行人帶更能改變車速與安全感",
+        "effect_or_value": "改造後平均車速下降且行人安全感上升；只在路側標示行人區的街道則出現車速上升",
+        "study_design": "首爾九條行人優先街改造前後影片分析及九街橫斷面安全感問卷",
+        "context_region": "首爾，南韓",
+        "library_id": "LEE2019",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "狹窄街道的行人優先設計｜共享空間把道路交通、行人活動與地方角色放在同一設計問題中；書目與摘要未提供可普遍套用的安全數值",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "HAMILTONBAILLIE08",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "依車速、街寬和使用者能力選擇整合或分隔斷面，並用前後觀測核對"
+  ],
+  "applies_when_zh": "若本地觀察單位與首爾，南韓的研究脈絡可對照，可用「在窄街、無人行道條件下，整合式處理比只畫出路側行人帶更能改變車速與安全感」作為街道斷面的比較線索。",
+  "not_applicable_when_zh": "這項首爾，南韓的研究結果不能單獨證明因果或預測其他城市的街段；原研究摘要未提供速度改變幅度；樣本僅九條街，安全感和速度也不等同碰撞風險。",
+  "debates_zh": "關聯能否外推；摘要未提供速度改變幅度；樣本僅九條街，安全感和速度也不等同碰撞風險；檢視「狹窄街道的行人優先設計」的研究解讀時，還需判斷「限制：摘要未提供速度改變幅度；樣本僅九條街，安全感和速度也不等同碰撞風險」會如何改變方案結論。",
+  "sources": [
+    {
+      "library_id": "LEE2019",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "HAMILTONBAILLIE08",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "街道空間與道路設計",
+  "region": "首爾，南韓",
+  "curriculum_refs": [
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.330J Theory of City Form",
+      "topic": "街道斷面：課綱對應主題"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "街道斷面：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-STR-018",
+    "KU-STR-019",
+    "KU-STR-020",
+    "KU-STR-021",
+    "KU-STR-022",
+    "KU-STR-023",
+    "KU-STR-024"
+  ]
+}

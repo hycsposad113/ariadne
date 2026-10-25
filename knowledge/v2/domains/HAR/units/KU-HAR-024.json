@@ -1,0 +1,66 @@
+{
+  "id": "KU-HAR-024",
+  "domain": "HAR",
+  "subtopic": "工業遺產與 adaptive reuse",
+  "type": "typology",
+  "title_zh": "Box-in-box 保留外殼並建立獨立內部系統",
+  "title_en": "Box-in-Box Reuse Retains the Shell Around a New Interior",
+  "summary_zh": "Box-in-box 把新建的室內空間或服務系統放入較大的既有建築殼體中，讓新舊構造可以分層處理。它適合大跨距倉庫、廠房或需控制聲學與氣候的文化用途，但會減少可用淨面積並增加介面細節。Palmero Iglesias 討論工業遺產如何被當代建築重新詮釋；建築適應研究則指出技術可行性仍取決於原構造狀況。",
+  "key_points_zh": [
+    "把保留殼體、新增盒體和機電層分別繪製並估算維修責任。",
+    "以消防、採光、濕度和維修通道檢驗新增內殼。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "研究以工業遺產作為當代建築介入的文本與前提，提示保留與新建之間的關係。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "西歐與跨地域",
+        "library_id": "PALMEROIGLESIAS2022",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "建築適應研究討論舊建築更新時的空間和技術限制。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "西歐與跨地域",
+        "library_id": "DOUGLAS06",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "把保留殼體、新增盒體和機電層分別繪製並估算維修責任。",
+    "以消防、採光、濕度和維修通道檢驗新增內殼。"
+  ],
+  "applies_when_zh": "既有大空間具足夠結構餘裕、且新用途需要獨立室內環境時。",
+  "not_applicable_when_zh": "保護條件要求保留內部構件，或建築淨空不足以容納雙層系統時。",
+  "debates_zh": "新盒體可能保存外觀卻削弱原有生產空間的尺度、材料和可讀性。",
+  "sources": [
+    {
+      "library_id": "PALMEROIGLESIAS2022",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "DOUGLAS06",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "工業遺產建築轉化",
+  "region": "西歐與跨地域",
+  "curriculum_refs": [
+    {
+      "school": "Harvard GSD",
+      "course": null,
+      "topic": "Adaptive reuse and industrial heritage"
+    }
+  ],
+  "version": "v2.0"
+}

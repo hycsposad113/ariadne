@@ -1,0 +1,118 @@
+.design-brief-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 12px;
+  color: var(--text-main, #f8fafc);
+}
+
+.design-brief-panel header {
+  border-bottom: 1px solid var(--border-subtle, #334155);
+  padding-bottom: 8px;
+}
+
+.design-brief-panel header h2 {
+  margin: 0 0 4px 0;
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--accent-cyan, #22d3ee);
+}
+
+.design-brief-panel header p {
+  margin: 0;
+  font-size: 11px;
+  color: var(--text-dim, #94a3b8);
+  line-height: 1.4;
+}
+
+.design-brief-nav-links {
+  display: flex;
+  gap: 8px;
+  margin-top: 6px;
+}
+
+.design-brief-nav-btn {
+  background: var(--bg-hover, #1e293b);
+  border: 1px solid var(--border-subtle, #334155);
+  color: var(--accent-cyan, #22d3ee);
+  border-radius: 4px;
+  padding: 4px 8px;
+  font-size: 11px;
+  cursor: pointer;
+}
+
+.design-brief-nav-btn:hover {
+  background: #334155;
+}
+
+.design-brief-panel section {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.design-brief-panel h3 {
+  margin: 0;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-main, #f8fafc);
+}
+
+.design-brief-panel textarea,
+.design-brief-panel input,
+.design-brief-panel select {
+  background: var(--bg-app, #0f172a);
+  border: 1px solid var(--border-subtle, #334155);
+  color: var(--text-main, #f8fafc);
+  border-radius: 4px;
+  padding: 6px 8px;
+  font-family: inherit;
+  font-size: 12px;
+}
+
+.design-brief-panel textarea:focus,
+.design-brief-panel input:focus,
+.design-brief-panel select:focus {
+  outline: none;
+  border-color: var(--accent-cyan, #22d3ee);
+}
+
+.design-brief-panel button {
+  background: var(--accent-blue, #2563eb);
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  padding: 6px 12px;
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.15s ease;
+}
+
+.design-brief-panel button:hover:not(:disabled) {
+  background: #1d4ed8;
+}
+
+.design-brief-panel button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.site-opportunities {
+  border: 1px solid var(--border-subtle, #334155);
+  border-radius: 6px;
+  padding: 10px;
+  background: rgba(15, 23, 42, 0.6);
+}
+
+.site-opportunities h3 {
+  margin-top: 0;
+  font-size: 13px;
+  color: #38bdf8;
+}
+
+.site-opportunities p {
+  font-size: 12px;
+  color: var(--text-dim, #94a3b8);
+  margin: 4px 0 8px 0;
+}

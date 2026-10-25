@@ -1,0 +1,84 @@
+{
+  "id": "CTX-006",
+  "title_zh": "韌性需說明誰承受失效",
+  "title_en": "Resilience and distribution of failure risks",
+  "domain": "context_response",
+  "stages": [
+    "S2",
+    "S3",
+    "S6",
+    "S7",
+    "S8"
+  ],
+  "statement_zh": "列不同失效情境、暴露群體與恢復路徑，不用韌性一詞代替環境效能計算。",
+  "rationale_zh": "容許失效的設計與韌性政治批評需並讀。",
+  "applies_when": {},
+  "parameters": [
+    {
+      "name": "failure_scenarios_min",
+      "value": 3,
+      "range": null,
+      "unit": "scenarios",
+      "provenance": "ASSUMED_COMMANDER",
+      "source_ids": [],
+      "authority_ref": null,
+      "status": "PROPOSED_PENDING_FOUNDER",
+      "rationale_zh": "指揮官提出的敏感性試算值，文獻未提供此數值；須 Founder 確認、地方資料及確定性驗證，未生效。"
+    }
+  ],
+  "check": {
+    "method_zh": "依規則逐項輸出對照表、輸入版本、定義、數值／未知及替代方案；實際計算由確定性工具負責。",
+    "inputs": [
+      "凍結基地、模式路網及用途／政策資料",
+      "已接受條件、卡片版本與試算參數"
+    ],
+    "output": "可比較的診斷與設計回應；沒有觀測或校準不輸出人數或法定結論。",
+    "implementation_status": "SPECIFICATION_ONLY"
+  },
+  "check_unavailable_reason_zh": null,
+  "design_responses": [
+    {
+      "option": "1",
+      "action_zh": "分散保水及備援路徑",
+      "source_ids": [
+        "AHERN11"
+      ],
+      "tradeoff_zh": "降低集中失效，運維較複雜。"
+    },
+    {
+      "option": "2",
+      "action_zh": "集中設施並保留替代路徑",
+      "source_ids": [
+        "DAVOUDI12"
+      ],
+      "tradeoff_zh": "便於維護，仍需控制單點失效。"
+    }
+  ],
+  "evidence_level": "ACADEMIC",
+  "evidence_strength": "THEORETICAL",
+  "sources": [
+    {
+      "library_id": "AHERN11",
+      "claim_id": "C1",
+      "support_scope_zh": "文獻支持概念與比較角度；本卡具體操作是設計推導，試算值及專案約束不是文獻的普適結論。"
+    },
+    {
+      "library_id": "DAVOUDI12",
+      "claim_id": "C1",
+      "support_scope_zh": "文獻支持概念與比較角度；本卡具體操作是設計推導，試算值及專案約束不是文獻的普適結論。"
+    },
+    {
+      "library_id": "CAMPBELL96",
+      "claim_id": "C1",
+      "support_scope_zh": "文獻支持概念與比較角度；本卡具體操作是設計推導，試算值及專案約束不是文獻的普適結論。"
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "enforcement": "CANDIDATE_ONLY",
+  "authority_ref": null,
+  "local_context_refs": [],
+  "debates_zh": "上述做法是文獻引導的設計推導，兩種方案各有代價；不得以某一方法、作者或地域替 Founder 決定。",
+  "context_validity_zh": "文獻地域與方法見 library；跨地域只能借用比較框架，數值須本地量測、校準與審核。",
+  "exceptions_zh": "法規、門禁、資料缺口、無障礙及已接受 D1/D2 優先；資料不足列 UNKNOWN，試算參數須 Founder 確認。",
+  "version": "0.2.0"
+}

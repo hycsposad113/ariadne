@@ -1,0 +1,43 @@
+{
+  "id": "NAESS12",
+  "title": "Urban form and travel behavior: experience from a Nordic context",
+  "authors": [
+    "Petter Næss"
+  ],
+  "year": 2012,
+  "venue_or_publisher": "Journal of Transport and Land Use",
+  "doi": "https://doi.org/10.5198/jtlu.v5i2.314",
+  "isbn": null,
+  "openalex_id": "https://openalex.org/W2137739585",
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "北歐交通實證",
+  "region": [
+    "北歐"
+  ],
+  "method": "實證研究綜述",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "北歐研究顯示城市尺度與住業位置對出行重要；僅調整鄰里小尺度特徵可能漏掉主要關係。",
+      "strength": "MIXED",
+      "scope_zh": "僅限本研究或概念框架；不提供 M4H 的實測、法律效力或本卡試算門檻。",
+      "assessment_basis": "ABSTRACT_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "OpenAlex",
+    "query": {
+      "title": "Urban form and travel behavior: experience from a Nordic context",
+      "author": "Petter Næss",
+      "year": 2012
+    },
+    "matched_record_id": "https://openalex.org/W2137739585",
+    "checked_at_utc": "2026-10-08T03:38:22Z",
+    "match_notes_zh": "人工核對 API 書名、作者與出版年；縮寫、大小寫或副標題省略視為同一書目。只確認書目，不代表全文主張已審核。"
+  },
+  "limitations_zh": "本次只使用公開書目與可得摘要；沒有下載或查閱全文。書目查證不等於主張、因果或參數驗證。",
+  "critique_relationship_zh": "known_critiques 是編者指定的批評或替代閱讀，不宣稱實際互引或逐一反駁；Ratti 與 Hillier／Penn 的標題記錄確認明確對話。",
+  "metadata_licence_zh": "只保存公開 API 書目與自行摘要；未取得全文授權，未保存 API 摘要原文。精確 metadata licence 未經本任務核驗，標 UNKNOWN。"
+}

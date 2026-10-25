@@ -1,0 +1,65 @@
+{
+  "id": "KU-HAR-037",
+  "type": "typology",
+  "subtopic": "港城介面",
+  "title_zh": "岸線公共通行與港務安全是兩種空間制度",
+  "title_en": "Public Waterfront Access and Port Security Are Different Spatial Regimes",
+  "summary_zh": "市民可步行的水岸與仍在運作的港區碼頭適用不同的安全、物流和管理制度。把兩者畫成同一種「濱水開放空間」，會掩蓋連續公共通行的限制，也會忽略港務設施的工作需求。港城介面研究提供分析這類交界的框架；公共空間分類研究提醒使用權和管理方式也是空間屬性。",
+  "key_points_zh": [
+    "逐段標明公共岸線、受控碼頭、作業岸線和封閉設施。",
+    "說明入口、開放時段、權責單位和安全理由。"
+  ],
+  "design_implications_zh": [
+    "將岸線按實際管理制度分段，不能只畫連續的親水線。"
+  ],
+  "applies_when_zh": "港務作業和公共水岸在同一地區交錯時。",
+  "not_applicable_when_zh": "已完全退出港務且公共進入權明確的單一公園。",
+  "debates_zh": "安全理由可能被用來擴大排除，也可能是真實作業需求；要公開判斷依據和替代通道。",
+  "tradition": "港城治理／公共空間分類",
+  "region": "西歐港城比較",
+  "curriculum_refs": [
+    {
+      "school": "MIT",
+      "course": null,
+      "topic": "Port-city interface and public space"
+    }
+  ],
+  "domain": "HAR",
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "港口城市介面研究分析地方岸線變化及治理問題。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "西歐港城比較",
+        "library_id": "HOYLE00",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "公共空間批判與分類研究將管理、使用和准入納入空間討論。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "西歐港城比較",
+        "library_id": "CARMONA10",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "library_id": "HOYLE00",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "CARMONA10",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "version": "v2.0"
+}

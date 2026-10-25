@@ -1,0 +1,43 @@
+{
+  "id": "INDUSTRIAL_LATTICE61",
+  "title": "Design of a Large-span Industrial Building with Special Reference to Lattice Girders",
+  "authors": [
+    "Ian Robb"
+  ],
+  "year": 1961,
+  "venue_or_publisher": "Macmillan Education UK",
+  "doi": "https://doi.org/10.1007/978-1-349-01437-8_6",
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "ACADEMIC_BOOK_CHAPTER",
+  "tradition": "建築尺度；設計實務與研究",
+  "region": [
+    "跨地域；依來源適用範圍而異"
+  ],
+  "method": "書目核對；未取得全文，不以書目資料證明特定數值。",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "工業大跨距建築格構梁設計章節；具體跨度仍需按結構系統核算。",
+      "strength": "THEORETICAL",
+      "scope_zh": "書目範圍可核對；數值或因果主張須另查原文。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref",
+    "query": {
+      "title": "Design of a Large-span Industrial Building with Special Reference to Lattice Girders",
+      "author": "Ian Robb",
+      "year": 1961
+    },
+    "matched_record_id": "10.1007/978-1-349-01437-8_6",
+    "checked_at_utc": "2026-10-08T14:52:13.358034+00:00",
+    "match_notes_zh": "以允許的公開書目 API 核對書名、作者及出版年；未下載或保存全文。",
+    "url": "https://api.crossref.org/works/10.1007/978-1-349-01437-8_6"
+  },
+  "limitations_zh": "書目記錄已核對；具體尺度內容標示交叉核對狀態，不把書名或摘要當作數值證據。",
+  "metadata_licence_zh": "保存公開書目欄位與自行撰寫的範圍說明；未保存全文。"
+}

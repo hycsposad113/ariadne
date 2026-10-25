@@ -1,0 +1,81 @@
+{
+  "id": "KU-MOB-041",
+  "domain": "MOB",
+  "subtopic": "大眾運輸服務圈",
+  "type": "empirical_finding",
+  "title_zh": "步行與騎行接駁服務距離不同",
+  "title_en": "Walking and cycling catchments differ",
+  "summary_zh": "海牙電車車上旅客揭露偏好調查與迴歸分析，研究脈絡為海牙，荷蘭。固定 400 m 緩衝不能代表步行與自行車兩種接駁範圍。步行接駁中位數 380 m，自行車接駁中位數 1,025 m；站點密度、服務和是否有自行車影響選擇。限制包括距離是單一電車網乘客中位數，不代表可普遍套用的最大服務圈。",
+  "key_points_zh": [
+    "固定 400 m 緩衝不能代表步行與自行車兩種接駁範圍",
+    "限制：距離是單一電車網乘客中位數，不代表可普遍套用的最大服務圈",
+    "效果或方向：步行接駁中位數 380 m，自行車接駁中位數 1,025 m；站點密度、服務和是否有自行車影響選擇"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "步行與騎行接駁服務距離不同｜固定 400 m 緩衝不能代表步行與自行車兩種接駁範圍",
+        "effect_or_value": "步行接駁中位數 380 m，自行車接駁中位數 1,025 m；站點密度、服務和是否有自行車影響選擇",
+        "study_design": "海牙電車車上旅客揭露偏好調查與迴歸分析",
+        "context_region": "海牙，荷蘭",
+        "library_id": "RIJSMAN19",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "步行與騎行接駁服務距離不同｜墨爾本旅運資料顯示，步行到公共運輸的可接受與可忍受距離宜用區域分布描述；Burr Type XII 能配適該資料，但不會自動成為其他城市的門檻",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "TAYLOR24",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "依模式畫路網服務圈並用當地旅運資料校正"
+  ],
+  "applies_when_zh": "若本地觀察單位與海牙，荷蘭的研究脈絡可對照，可用「固定 400 m 緩衝不能代表步行與自行車兩種接駁範圍」作為大眾運輸服務圈的比較線索。",
+  "not_applicable_when_zh": "這項海牙，荷蘭的研究結果不能單獨證明因果或預測其他城市的街段；原研究距離是單一電車網乘客中位數，不代表可普遍套用的最大服務圈。",
+  "debates_zh": "關聯能否外推；距離是單一電車網乘客中位數，不代表可普遍套用的最大服務圈；檢視「步行與騎行接駁服務距離不同」的研究解讀時，還需判斷「限制：距離是單一電車網乘客中位數，不代表可普遍套用的最大服務圈」會如何改變方案結論。",
+  "sources": [
+    {
+      "library_id": "RIJSMAN19",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "TAYLOR24",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "交通可及性與服務範圍",
+  "region": "海牙，荷蘭",
+  "curriculum_refs": [
+    {
+      "school": "Harvard GSD",
+      "course": "Urban Design Contexts and Operations",
+      "topic": "大眾運輸服務圈：課綱對應主題"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "大眾運輸服務圈：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-MOB-042",
+    "KU-MOB-043",
+    "KU-MOB-044",
+    "KU-MOB-045",
+    "KU-MOB-046",
+    "KU-MOB-047",
+    "KU-MOB-048"
+  ]
+}

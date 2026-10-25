@@ -1,0 +1,82 @@
+{
+  "id": "KU-THY-042",
+  "domain": "THY",
+  "subtopic": "地景都市主義／生態都市主義",
+  "type": "empirical_finding",
+  "title_zh": "地景與生態都市：綠色投資分配",
+  "title_en": "Landscape urbanism and ecological urbanism — empirical finding unit 042",
+  "summary_zh": "波哥大研究將人口、工作機會和空間可及性放在城市尺度比較，揭示資源分布並不因平均密度增加而自動均等。綠色投資應同步繪出既有服務缺口和可能的土地增值壓力。這項觀察性研究不是公園綠地投資的因果評估。限制是「地景與生態都市：綠色投資分配」所用的城市或案例資料不能單獨證明設計因果，外推仍需重新檢驗。",
+  "key_points_zh": [
+    "波哥大研究將人口、工作機會和空間可及性放在城市尺度比較，揭示資源分布並不因平均密度增加而自動均等。",
+    "綠色投資應同步繪出既有服務缺口和可能的土地增值壓力。",
+    "這項觀察性研究不是公園綠地投資的因果評估。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "【ABSTRACT_REVIEW】波哥大研究將人口、工作機會和空間可及性放在城市尺度比較，揭示資源分布並不因平均密度增加而自動均等。綠色投資應同步繪出既有服務缺口和可能的土地增值壓力。這項觀察性研究不是公園綠地投資的因果評估。限制是「地景與生態都市：綠色投資分配」所用的城市或案例資料不能單獨證明設計因果，外推仍需重新檢驗。",
+        "effect_or_value": "人口密度高並不保證低收入群體獲得相稱的工作與服務可及性，空間分配仍不均",
+        "study_design": "城市尺度的橫斷面空間分布與可及性分析",
+        "context_region": "哥倫比亞波哥大",
+        "library_id": "BOGOTA17",
+        "locator": null
+      },
+      {
+        "claim_zh": "【BIBLIOGRAPHIC_SCOPE_ONLY】就「地景與生態都市：綠色投資分配」而言，「Green Cities, Growing Cities, Just Cities?: Urban Planning and the Contradictions of Sustainable Development」提供永續規劃批評的比較坐標；此處僅使用其已標明的書目／摘要範圍，不延伸為未核對的效果或因果。",
+        "effect_or_value": null,
+        "study_design": "理論",
+        "context_region": "跨地域",
+        "library_id": "CAMPBELL96",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "將「地景與生態都市：綠色投資分配」落到設計時，應把拉美可及性與公平與永續規劃批評提示的比較條件轉為可觀察圖面或程序紀錄。"
+  ],
+  "design_options": [],
+  "applies_when_zh": "當問題包含「地景與生態都市：綠色投資分配」且需比較需要跨尺度整合開放空間、基礎設施與生態條件時時使用。",
+  "not_applicable_when_zh": "若研究缺少對應尺度或群體資料，不以「地景與生態都市：綠色投資分配」取代沒有生態資料、維護安排或受益分配證據時。",
+  "debates_zh": "「地景與生態都市：綠色投資分配」的爭點在於六類水務狀態是澳洲研究提出的轉型啟發式，不是全球通用的成熟度排名。將水敏感城市作為願景時仍須檢查地方水文、治理能力、維護責任及誰承擔轉型成本；拉美可及性與公平與永續規劃批評的研究對象不同，需保留差異而不能合併成單一規則。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "BOGOTA17",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "CAMPBELL96",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "地景都市主義／生態規劃",
+  "region": "哥倫比亞；跨地域",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "地景與生態都市：綠色投資分配 — 地景都市主義／生態都市主義"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Urban Design Contexts and Operations",
+      "topic": "地景與生態都市：綠色投資分配 — 地景都市主義／生態都市主義"
+    },
+    {
+      "school": "MIT",
+      "course": "4.241J Theory of City Form / 11.301J Urban Design and Development",
+      "topic": "地景與生態都市：綠色投資分配 — 地景都市主義／生態都市主義"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Critical Debates in Urban Design",
+      "topic": "地景與生態都市：綠色投資分配 — 地景都市主義／生態都市主義"
+    }
+  ],
+  "version": "2.0.0"
+}

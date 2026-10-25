@@ -1,0 +1,88 @@
+{
+  "id": "KU-MOB-019",
+  "domain": "MOB",
+  "subtopic": "荷蘭自行車設計原則（連貫、直接、安全、舒適、吸引）",
+  "type": "value_range",
+  "title_zh": "自行車通勤占比的區域跨度",
+  "title_en": "Range of neighborhood cycling shares",
+  "summary_zh": "蒙特婁與溫哥華 2011 年區域資料中的自行車通勤占比從 0 到 20.4%，同一分析也發現區域接近 bikeway 的程度和通勤占比相關。此跨度呈現同一國家城市內的地區差異，不是自行車政策的因果效果。不同設施類型及通勤者群體的結果並不一致。加拿大兩城 census tract 自行車通勤占比的數值不是本基地法規或普遍設計目標。",
+  "key_points_zh": [
+    "數值與用途：加拿大兩城 census tract 自行車通勤占比：0–20.4%；每接近一公里設施與約四倍區域占比相關",
+    "數值與用途：橫斷面地區值只描述兩個加拿大城市，不是任何城市的模式目標或 M4H 法規"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "自行車通勤占比的區域跨度｜高低自行車占比地區差異大，網路鄰近與通勤模式相關",
+        "effect_or_value": "0–20.4%；每接近一公里設施與約四倍區域占比相關",
+        "study_design": "2011 年蒙特婁與溫哥華 census tract 橫斷面分析",
+        "context_region": "2011 年蒙特婁與溫哥華，加拿大",
+        "library_id": "TESCHKE17",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "自行車通勤占比的區域跨度｜自行車設計需連續路線、交叉口與目的地配套；本次沒有查閱手冊條文或尺寸",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "CROW",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "加拿大兩城 census tract 自行車通勤占比",
+      "range": "0–20.4%；每接近一公里設施與約四倍區域占比相關",
+      "unit": "區域通勤占比及距離關聯",
+      "context": "2011 年蒙特婁、溫哥華區域通勤研究；作為兩城 census tract 分布的描述，不是任何城市的模式目標；來源所列地域：加拿大；「自行車通勤占比的區域跨度」所列範圍不構成本基地法規。",
+      "library_id": "TESCHKE17"
+    }
+  ],
+  "design_implications_zh": [
+    "把 0–20.4% 當作兩城地區差異的描述值，並把設施距離、性別與 bikeway 型式拆開比較；不要把占比設成基地配額。"
+  ],
+  "applies_when_zh": "若分析使用近似的地區尺度、通勤定義與 bikeway 距離量測，可將此跨度作為結果分布的比較背景。",
+  "not_applicable_when_zh": "這個比例範圍不代表加拿大以外的預期表現；區域關聯也不代表每位居民距離設施近一公里後會增加四倍騎乘。",
+  "debates_zh": "空間鄰近可能與自行車通勤相連，但橫斷面資料無法識別單一政策效果，且跨城市和設施類型的係數存在差異。",
+  "sources": [
+    {
+      "library_id": "TESCHKE17",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "CROW",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "荷蘭自行車網與政策",
+  "region": "2011 年蒙特婁與溫哥華，加拿大",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "荷蘭自行車設計原則（連貫、直接、安全、舒適、吸引）：課綱對應主題"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Urban Design Contexts and Operations",
+      "topic": "荷蘭自行車設計原則（連貫、直接、安全、舒適、吸引）：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-MOB-017",
+    "KU-MOB-018",
+    "KU-MOB-020",
+    "KU-MOB-021",
+    "KU-MOB-022",
+    "KU-MOB-023",
+    "KU-MOB-024"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "PLAZA2006",
+  "title": "The Return on Investment of the Guggenheim Museum Bilbao",
+  "authors": [
+    "Beatriz Plaza"
+  ],
+  "year": 2006,
+  "venue_or_publisher": "International Journal of Urban and Regional Research",
+  "doi": "10.1111/j.1468-2427.2006.00672.x",
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "都市設計、規劃或建築研究；依來源主題標註",
+  "region": [
+    "Bilbao",
+    "Spain"
+  ],
+  "method": "Crossref abstract review of museum image, overnight stays and local-economy questions.",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "摘要指出研究量化 Guggenheim 對城市形象、過夜旅次與地方經濟的投資回報，並特別說明後兩者仍需要更多證據。",
+      "strength": "MIXED",
+      "scope_zh": "只保存書目與可得摘要所支持的議題範圍；不得外推為本基地實測、普遍因果或法規門檻。",
+      "assessment_basis": "ABSTRACT_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref",
+    "query": {
+      "doi": "10.1111/j.1468-2427.2006.00672.x"
+    },
+    "matched_record_id": "10.1111/j.1468-2427.2006.00672.x",
+    "checked_at_utc": "2026-10-08T19:49:28Z",
+    "match_notes_zh": "Crossref DOI record supplied title, Beatriz Plaza, year/journal/pages and an abstract explicitly describing image, overnight stays and local-economy evidence questions.",
+    "url": "https://api.crossref.org/works/10.1111/j.1468-2427.2006.00672.x",
+    "volume": "30",
+    "issue": "2",
+    "pages": "452-467"
+  },
+  "limitations_zh": "只保存公開書目欄位及自行摘要；未下載全文，也不保存 API 摘要原文。",
+  "critique_relationship_zh": "本記錄與其他來源並列作為範圍互補，不宣稱作者間直接互引或逐一反駁。",
+  "metadata_licence_zh": "僅使用 Crossref 公開書目欄位與自行撰寫摘要；未保存全文。"
+}

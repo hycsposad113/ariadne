@@ -1,0 +1,98 @@
+{
+  "id": "KU-LUP-032",
+  "domain": "LUP",
+  "subtopic": "生產性城市與 maker 經濟",
+  "type": "empirical_finding",
+  "title_zh": "都市製造的循環效益取決於多種條件",
+  "title_en": "Urban manufacturing and circularity",
+  "summary_zh": "來源多為概念與案例，不能從本研究推算都市製造的淨碳減量。 先辨識本地供應鏈與空間條件，再主張循環效益。 研究設計：回顧研究加專家訪談；地區：跨城市研究文獻。 限制：來源多為概念與案例，不能從本研究推算都市製造的淨碳減量。",
+  "key_points_zh": [
+    "文獻回顧與專家訪談整理出空間、社會和材料條件既可能支持也可能阻礙都市製造參與循環經濟。",
+    "研究設計：回顧研究加專家訪談；地區：跨城市研究文獻",
+    "限制：來源多為概念與案例，不能從本研究推算都市製造的淨碳減量。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "文獻回顧與專家訪談整理出空間、社會和材料條件既可能支持也可能阻礙都市製造參與循環經濟。",
+        "effect_or_value": "研究歸納多類促成條件與阻礙，沒有單一效果量",
+        "study_design": "回顧研究加專家訪談",
+        "context_region": "跨城市研究文獻",
+        "library_id": "TSUI2020",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "先辨識本地供應鏈與空間條件，再主張循環效益。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "先辨識本地供應鏈與空間條件，再主張循環效益。",
+      "tradeoff_zh": "「都市製造的循環效益取決於多種條件」的主要代價不是抽象的建造成本，而是來源多為概念與案例，不能從本研究推算都市製造的淨碳減量；因此先以文獻回顧與專家訪談整理出空間、社會和材料條件既可能支持也可能阻礙都市製造參與循環經濟作方案比較條件。",
+      "library_ids": [
+        "TSUI2020",
+        "CAMPBELL96"
+      ]
+    },
+    {
+      "option_zh": "「都市製造的循環效益取決於多種條件」可把取向落在垂直混合、工坊街區和計畫型工業區是不同選擇，但需連同文獻回顧與專家訪談整理出空間、社會和材料條件既可能支持也可能阻礙都市製造參與循環經濟決定適用方式。",
+      "tradeoff_zh": "「都市製造的循環效益取決於多種條件」的主要代價不是抽象的建造成本，而是來源多為概念與案例，不能從本研究推算都市製造的淨碳減量；因此先以文獻回顧與專家訪談整理出空間、社會和材料條件既可能支持也可能阻礙都市製造參與循環經濟作方案比較條件。",
+      "library_ids": [
+        "TSUI2020",
+        "CAMPBELL96"
+      ]
+    }
+  ],
+  "applies_when_zh": "用於與跨城市研究文獻研究情境可比、且量測定義相近的分析。",
+  "not_applicable_when_zh": "來源多為概念與案例，不能從本研究推算都市製造的淨碳減量。",
+  "debates_zh": "來源多為概念與案例，不能從本研究推算都市製造的淨碳減量。",
+  "sources": [
+    {
+      "library_id": "TSUI2020",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "CAMPBELL96",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "循環經濟與城市製造；永續規劃批評",
+  "region": "跨城市文獻與專家；跨地域",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Planning Complex Cities",
+      "topic": "生產性城市與 maker 經濟"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Cities by Design",
+      "topic": "生產性城市與 maker 經濟"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "生產性城市與 maker 經濟"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Sustainable Futures by Design",
+      "topic": "生產性城市與 maker 經濟"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-LUP-027",
+    "KU-LUP-028",
+    "KU-LUP-029"
+  ],
+  "counter_unit_ids": [
+    "KU-LUP-031"
+  ]
+}

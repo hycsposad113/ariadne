@@ -1,0 +1,39 @@
+{
+  "id": "SPACEMATRIX_VARS2017",
+  "title": "Typology based on three density variables central to Spacematrix using cluster analysis",
+  "authors": [
+    "Meta Berghauser Pont",
+    "Jesper Olsson"
+  ],
+  "year": 2017,
+  "venue_or_publisher": "ISUF 2017",
+  "doi": "https://doi.org/10.4995/isuf2017.2017.5319",
+  "isbn": null,
+  "openalex_id": "https://openalex.org/W2783956656",
+  "kind": "ACADEMIC_CONFERENCE_PAPER",
+  "tradition": "城市密度與街道形態分類",
+  "region": "跨城市形態分類",
+  "method": "OpenAlex exact-work record and abstract",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "OpenAlex 摘要將 FSI、GSI 與 network density N 列為 Spacematrix 三個核心變數，並以聚類區別建築類型和街道模式。",
+      "strength": "THEORETICAL",
+      "scope_zh": "僅依 OpenAlex work metadata 和摘要陳述，需由指揮官獨立交叉檢查。",
+      "assessment_basis": "ABSTRACT_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "OpenAlex",
+    "query": {
+      "work_id": "https://openalex.org/W2783956656"
+    },
+    "matched_record_id": "https://openalex.org/W2783956656",
+    "checked_at_utc": "2026-10-09T10:55:43Z",
+    "match_notes_zh": "以 OpenAlex exact-work 查詢核對作者、年份、DOI 與摘要範圍。"
+  },
+  "limitations_zh": "未取得全文；由 2D FSI–GSI 散布圖不能替代三變數分類。",
+  "metadata_licence_zh": "保存公開書目欄位和自行撰寫摘要範圍，不保存全文。"
+}

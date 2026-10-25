@@ -1,0 +1,87 @@
+{
+  "id": "POR-002",
+  "title_zh": "自然為本與韌性",
+  "title_en": "Nature-based futureproofing",
+  "domain": "portfolio",
+  "stages": [
+    "S2",
+    "S3",
+    "S4",
+    "S6",
+    "S7",
+    "S8"
+  ],
+  "statement_zh": "把蓄排水、耐受變動與綠地列為試案，先標污染、地下管網和洪水資料缺口。",
+  "rationale_zh": "讓日常生活可承受天氣變化，同時不假裝已有性能。",
+  "applies_when": {
+    "scale": [
+      "*"
+    ],
+    "land_use": [
+      "*"
+    ],
+    "strategy": [
+      "*"
+    ],
+    "mode": [
+      "*"
+    ]
+  },
+  "parameters": [
+    {
+      "name": "rainwater_retention_trial",
+      "value": 20,
+      "range": null,
+      "unit": "mm",
+      "provenance": "ASSUMED_COMMANDER",
+      "source_ids": [],
+      "authority_ref": null,
+      "status": "PROPOSED_PENDING_FOUNDER",
+      "rationale_zh": "指揮官提出的敏感性試算值，文獻未提供此數值；須 Founder 確認、地方資料及確定性驗證，未生效。"
+    }
+  ],
+  "check": null,
+  "check_unavailable_reason_zh": "沒有已核水文、土壤污染與設計暴雨／洪水資料，也沒有已註冊容量工具；只能比較候選及資料需求。",
+  "design_responses": [
+    {
+      "option": "1",
+      "action_zh": "分散可失效小型綠地",
+      "source_ids": [
+        "AHERN11"
+      ],
+      "tradeoff_zh": "維護多且容量未知。 作品集提供設計意圖，學術引用僅為類似概念的佐證，未驗證作品集本身。"
+    },
+    {
+      "option": "2",
+      "action_zh": "集中水治理設施",
+      "source_ids": [
+        "BROWN09"
+      ],
+      "tradeoff_zh": "失效集中並需專業水工。 作品集提供設計意圖，學術引用僅為類似概念的佐證，未驗證作品集本身。"
+    }
+  ],
+  "evidence_level": "PORTFOLIO",
+  "evidence_strength": "NORMATIVE_PRACTICE",
+  "sources": [
+    {
+      "library_id": "AHERN11",
+      "claim_id": "C1",
+      "support_scope_zh": "文獻支持概念與比較角度；本卡具體操作是設計推導，試算值及專案約束不是文獻的普適結論。"
+    },
+    {
+      "library_id": "BROWN09",
+      "claim_id": "C1",
+      "support_scope_zh": "文獻支持概念與比較角度；本卡具體操作是設計推導，試算值及專案約束不是文獻的普適結論。"
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "enforcement": "CANDIDATE_ONLY",
+  "authority_ref": null,
+  "debates_zh": "作品集構想可用於提出選項，學術來源提供比較概念而非該設計的驗證；相反取向保留給設計者比較。 已查證書目與主張的查閱層級見 library；不是逐頁核驗或本基地因果結論。",
+  "context_validity_zh": "作品集為 M4H 個案；引用的外地研究只支持概念，不能證明本案營運、權利、性能或偏好。",
+  "exceptions_zh": "卡片不可替代現行法規、產權、無障礙或已接受 D1/D2。缺必要資料即回報 UNKNOWN；例外須由 Founder 明確決定並保留原結果。",
+  "version": "0.2.0",
+  "local_context_refs": [
+    "PORTFOLIO"
+  ]
+}

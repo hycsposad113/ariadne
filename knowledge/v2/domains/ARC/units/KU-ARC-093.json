@@ -1,0 +1,109 @@
+{
+  "id": "KU-ARC-093",
+  "domain": "ARC",
+  "subtopic": "垂直工業與住宅介面",
+  "type": "typology",
+  "title_zh": "垂直輕工業要把貨流、結構和住宅界面分層檢查",
+  "title_en": "Vertical light industry requires separate checks for goods flow, structure and housing interfaces",
+  "summary_zh": "垂直配置可在地價高的城市增加工業樓地板，但樓層疊加並不自動形成可運作的 maker 空間。Ferm 與 Jones 討論產業在高價都市的規劃與土地壓力，Wang 等人的量化研究則把工業用地集約化視為需要明確定義的效率問題。把生產、住宅與公共路徑疊合時，貨梯、噪音、振動、排放、消防和營運時段都要一起審。",
+  "key_points_zh": [
+    "貨物垂直運輸量、貨梯等待和地面暫置可能成為產能瓶頸。",
+    "住宅上方或鄰近製造須逐項檢查聲振、空氣、消防和服務路線。",
+    "集約化是土地使用策略，不等於設備能直接搬上樓。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "library_id": "FERM_JONES2017",
+        "claim_zh": "摘要指出 London 工業土地及廠房面臨住宅價值和住房需求壓力，也討論規劃產業的必要性。",
+        "effect_or_value": null,
+        "study_design": "工業用地與城市規劃研究",
+        "context_region": "London, United Kingdom",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW",
+        "limitations_zh": "只支持明示的文獻範圍與本次可查證內容；未由書目資料推定未讀數值或因果。"
+      },
+      {
+        "library_id": "WANG2020",
+        "claim_zh": "摘要提供工業土地集約化的效率／產出定義，適合作為評估垂直配置土地效益的比較尺度。",
+        "effect_or_value": null,
+        "study_design": "三個城市群的工業用地量化研究",
+        "context_region": "China",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW",
+        "limitations_zh": "土地集約化研究不等同於垂直廠房設備或住宅鄰接的技術標準。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "在剖面上分開標示生產樓層、住宅樓層、物流核心、廢棄物和消防通道。",
+    "對各租戶設置時段、噪音和貨運上限前，先完成設備、結構與通風計算。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "把高噪音或重物流用途安排在地面與專用服務面。",
+      "tradeoff_zh": "裝卸較直接，但佔用更有價值的地面空間。",
+      "library_ids": [
+        "FERM_JONES2017",
+        "WANG2020"
+      ]
+    },
+    {
+      "option_zh": "把低振動、小批量生產安排於上層並使用獨立貨梯。",
+      "tradeoff_zh": "可提高土地強度，設備載重與貨梯吞吐量需要較高投資。",
+      "library_ids": [
+        "WANG2020",
+        "FERM_JONES2017"
+      ]
+    }
+  ],
+  "applies_when_zh": "適用於 stacked industry、vertical production 和工業—住宅混合建築的概念比較。",
+  "not_applicable_when_zh": "不適用於未確認樓板載重、貨梯容量、排煙／通風、聲振和營運時段便標成可行的剖面。",
+  "debates_zh": "把住宅與產業垂直混合可以縮短都市生產用地距離，也可能把污染、物流及夜間作業成本轉移到鄰近居民。",
+  "counter_unit_ids": [
+    "KU-ARC-024"
+  ],
+  "related_unit_ids": [
+    "KU-ARC-035",
+    "KU-ARC-036",
+    "KU-ARC-037",
+    "KU-HAR-058"
+  ],
+  "sources": [
+    {
+      "library_id": "FERM_JONES2017",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "WANG2020",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "productive-city、工業用地集約化與混合使用規劃",
+  "region": "London; China",
+  "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Housing and the City / Design of the Urban Fabric",
+      "topic": "垂直工業與住宅介面：課綱對應主題"
+    }
+  ],
+  "version": "kb2-gaps-2026-10-08",
+  "check": {
+    "method_zh": "繪製垂直物流剖面，分別計算貨梯吞吐、樓板設計荷載、消防疏散、排風路徑、聲振源和住宅窗戶位置，再檢查服務時間是否重疊。",
+    "inputs": [
+      "垂直用途及每層生產流程",
+      "設備荷載與震動資料",
+      "貨梯容量與卸貨時段",
+      "通風、消防與住宅敏感點"
+    ],
+    "logic_zh": "只有設備、服務核心和住宅界面均有可計算輸入時才可判斷可行；土地節省需和物流／緩衝成本一起報告。",
+    "limitations_zh": "Crossref 摘要支持產業用地壓力與集約化議題，未提供某種垂直工業建築的標準剖面或淨高規則。"
+  },
+  "case": null
+}

@@ -1,0 +1,47 @@
+{
+  "id": "SMITH1996",
+  "title": "The new urban frontier",
+  "authors": [
+    "Neil Smith"
+  ],
+  "year": 1996,
+  "venue_or_publisher": "Routledge",
+  "doi": null,
+  "isbn": "9781134787425",
+  "openalex_id": null,
+  "kind": "ACADEMIC_BOOK",
+  "tradition": "rent-gap theory and critical urban political economy",
+  "region": [
+    "United States",
+    "Europe"
+  ],
+  "method": "historical and political-economic analysis",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "書名與版本範圍確認該書討論仕紳化與報復性城市論述；具體租差機制須與研究案例和其他解釋並讀。",
+      "strength": "THEORETICAL",
+      "scope_zh": "書目範圍定位，不把概念直接當成任一城市的可測量因果值。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [
+    "ATKINSON2004",
+    "LEES2007"
+  ],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Open Library",
+    "query": {
+      "title": "The New Urban Frontier",
+      "author": "Neil Smith",
+      "year": 1996
+    },
+    "matched_record_id": "/works/OL2974925W",
+    "checked_at_utc": "2026-10-08T09:43:36Z",
+    "match_notes_zh": "Open Library 搜尋結果匹配書名、作者、1996 首版年份；副標題由版本書目補充，仍屬同一作品。"
+  },
+  "limitations_zh": "未下載全文；租差論須區分理論機制、土地市場觀察和居民搬遷結果。",
+  "critique_relationship_zh": "Atkinson 與 Lees 提供仕紳化影響和尺度的不同檢視，不宣稱是逐條反駁。",
+  "metadata_licence_zh": "保存書目欄位與自撰摘要；未保存全文或 API 摘要。"
+}

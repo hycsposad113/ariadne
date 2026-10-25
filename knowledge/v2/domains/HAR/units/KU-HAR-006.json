@@ -1,0 +1,71 @@
+{
+  "id": "KU-HAR-006",
+  "domain": "HAR",
+  "subtopic": "文化導向再生與仕紳化批評",
+  "type": "critique",
+  "title_zh": "文化活動的再生效益難以單獨歸因",
+  "title_en": "Cultural activity is difficult to isolate as a regeneration cause",
+  "summary_zh": "Evans 檢視文化對城市再生貢獻的證據，指出因果歸因與成效證據的品質是政策評估難題。Miles 對文化導向城市發展的論述進行批判性檢視，提醒政策宣傳不能代替比較基線。若文化設施與地價、交通和公共投資同時變化，單看活動增加無法說明誰因此受益。再生評估應列出基準、時間跨度、替代解釋和分配結果。",
+  "key_points_zh": [
+    "文化活動與城市再生同期發生，不足以證明前者造成後者。",
+    "需要追蹤不同群體的效益與成本。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "library_id": "EVANS2005",
+        "claim_zh": "摘要評估文化對城市再生的證據，指出影響歸因困難且證據基礎常不穩固。",
+        "effect_or_value": "影響歸因及證據品質構成評估限制",
+        "study_design": "政策評估與證據回顧",
+        "context_region": "英國文化導向再生研究",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "library_id": "MILES2005",
+        "claim_zh": "文章批判文化導向城市發展的政策修辭及其可移植性問題。",
+        "effect_or_value": "政策話語需與實際社會結果分辨",
+        "study_design": "批判性城市研究",
+        "context_region": "英國及跨城政策案例",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "建立再生前的租金、商業結構、居住人口及公共空間使用基線。",
+    "把文化活動數量與土地價值、居民變化及公共支出分開測量。"
+  ],
+  "applies_when_zh": "適用於文化設施、創意產業或品牌活動作為再生策略的評估。",
+  "not_applicable_when_zh": "不適用於僅以觀光人次、活動場次或媒體曝光判定社會成功。",
+  "debates_zh": "文化導向策略可能吸引公共投入，也可能只提供短期品牌效應；沒有反事實或群體資料時，因果與分配結論都應保留。",
+  "sources": [
+    {
+      "library_id": "EVANS2005",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "MILES2005",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "文化導向城市再生的證據批判",
+  "region": "英國與跨城政策討論",
+  "curriculum_refs": [
+    {
+      "school": "UCL Bartlett",
+      "course": null,
+      "topic": "文化導向再生與仕紳化批評"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": null,
+      "topic": "城市文化與再生評估"
+    }
+  ],
+  "version": "v2.0"
+}

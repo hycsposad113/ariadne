@@ -1,0 +1,80 @@
+{
+  "id": "KU-STR-055",
+  "domain": "STR",
+  "subtopic": "街道作為公共空間",
+  "type": "concept",
+  "title_zh": "街道作為公共空間：概念界線",
+  "title_en": "Street as public space: Concept and scope",
+  "summary_zh": "街道承載日常交往、停留、通行和服務；公共性來自可進入、可使用和管理方式，不能只由路面外觀推定。此處要回答的是在通行、門前活動、座位、遮蔭和裝卸之間協商可變空間，並記錄不同使用者的時段與需求。對街道作為公共空間而言，設計良好的公共空間不保證社群形成；私有管理、治安措施和商業化可能改變誰能使用；因此該概念只界定分析問題，不替不同街道和使用者預選答案。",
+  "key_points_zh": [
+    "概念界線：街道承載日常交往、停留、通行和服務；公共性來自可進入、可使用和管理方式，不能只由路面外觀推定",
+    "概念界線：在通行、門前活動、座位、遮蔭和裝卸之間協商可變空間，並記錄不同使用者的時段與需求"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "街道作為公共空間：概念界線｜日常用途、街道互動及多樣性可作城市生活的討論起點；不能從外觀推定安全或社群",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "JACOBS61",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "街道作為公共空間：概念界線｜人的停留、步行與沿街互動是公共空間設計的觀察方向；需要地方活動與季節資料",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "GEHL10",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "用「街道承載日常交往、停留、通行和服務；公共性來自可進入、可使用和管理方式，不能只由路面外觀推定」界定街道作為公共空間的分析範圍，再以「在通行、門前活動、座位、遮蔭和裝卸之間協商可變空間，並記錄不同使用者的時段與需求」說明這個界線不涵蓋什麼。"
+  ],
+  "applies_when_zh": "界定街道作為公共空間的分析邊界時，可用「街道承載日常交往、停留、通行和服務；公共性來自可進入、可使用和管理方式，不能只由路面外觀推定」說明本單元涵蓋的關係，再另行檢查未納入的條件。",
+  "not_applicable_when_zh": "「街道承載日常交往、停留、通行和服務；公共性來自可進入、可使用和管理方式，不能只由路面外觀推定」不能直接轉成法規或最佳方案判斷，尤其不能忽略「設計良好的公共空間不保證社群形成；私有管理、治安措施和商業化可能改變誰能使用」指出的限制。",
+  "debates_zh": "設計良好的公共空間不保證社群形成；私有管理、治安措施和商業化可能改變誰能使用；檢視「街道作為公共空間：概念界線」的概念界線時，還需判斷「在通行、門前活動、座位、遮蔭和裝卸之間協商可變空間，並記錄不同使用者的時段與需求」會如何改變方案結論。",
+  "sources": [
+    {
+      "library_id": "JACOBS61",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "GEHL10",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "公共生活與街道治理",
+  "region": "跨地域理論或實務脈絡；來源地區依引用條目判讀",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "街道作為公共空間：課綱對應主題"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "街道作為公共空間：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-STR-049",
+    "KU-STR-050",
+    "KU-STR-051",
+    "KU-STR-052",
+    "KU-STR-053",
+    "KU-STR-054",
+    "KU-STR-056"
+  ]
+}

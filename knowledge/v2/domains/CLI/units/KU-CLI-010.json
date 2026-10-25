@@ -1,0 +1,71 @@
+{
+  "id": "KU-CLI-010",
+  "domain": "CLI",
+  "subtopic": "高密度城市的氣候設計",
+  "type": "method",
+  "title_zh": "高密度通風分析須把政策指標連到局部物理條件",
+  "title_en": "Connect high-density ventilation metrics to local physical conditions",
+  "summary_zh": "Ng 對香港空氣流通評估制度的討論，將高密度城市規劃和通風評估工具連在一起。Oke 等人的都市氣候著作則提供建築周圍氣流、地表粗糙度及尺度的物理背景。這些來源支持把街廓形態和通風資料放進方案審查，並不表示香港程序能直接變成荷蘭的法定要求。分析時需說明風向、周邊建成環境與使用情境。",
+  "key_points_zh": [
+    "高密度通風指標有特定政策和量測背景。",
+    "地區制度與地方風況需分開核對。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "library_id": "STATHOPOULOS2006",
+        "claim_zh": "書目確認本文題名聚焦「Pedestrian level winds and outdoor human comfort」；目前只完成作者、年份、題名與 DOI 核對，未將摘要或全文結論納入此記錄；本單元 KU-CLI-010 對照「Ng 對香港空氣流通評估制度的討論，將高密度城市規劃和通風評估工具連在一起」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "文獻回顧；目前僅核對書目範圍",
+        "context_region": "跨地域風工程",
+        "locator": null
+      },
+      {
+        "library_id": "TOMINAGA2008",
+        "claim_zh": "書目確認本文題名聚焦「AIJ guidelines for practical applications of CFD to pedestrian wind environment around buildings」；目前只完成作者、年份、題名與 DOI 核對，未將摘要或全文結論納入此記錄；本單元 KU-CLI-010 對照「Ng 對香港空氣流通評估制度的討論，將高密度城市規劃和通風評估工具連在一起」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "方法或概念研究；目前僅核對書目範圍",
+        "context_region": "日本與國際風工程",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "先確認主管機關的通風評估要求，再將指標映射到基地風場模型。",
+    "比較密度方案時同步保存模型的入流風況、周邊體量及受風位置。"
+  ],
+  "applies_when_zh": "適用於高密度方案的通風分析流程與跨區域政策比較。",
+  "not_applicable_when_zh": "不適用於把香港 AVA 直接當作鹿特丹法規或舒適標準。",
+  "debates_zh": "空氣流通評估能使通風議題進入方案審查，但其代表性仰賴風況、指標與模型邊界；單一通風值也無法概括熱舒適。",
+  "sources": [
+    {
+      "library_id": "STATHOPOULOS2006",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "TOMINAGA2008",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "高密度都市通風評估",
+  "region": "香港及跨氣候帶都市",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": null,
+      "topic": "高密度城市的氣候設計"
+    },
+    {
+      "school": "MIT",
+      "course": null,
+      "topic": "高密度都市通風"
+    }
+  ],
+  "version": "v2.0"
+}

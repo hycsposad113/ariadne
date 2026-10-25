@@ -1,0 +1,65 @@
+{
+  "id": "KU-HAR-054",
+  "type": "critique",
+  "subtopic": "港區轉型案例",
+  "title_zh": "HafenCity 官方資料本身也保留了早期使用體驗的批評",
+  "title_en": "Official Descriptions of HafenCity Retain Early Criticisms",
+  "summary_zh": "漢堡市的街區介紹記錄外界曾批評 HafenCity 缺少綠意、夜間活動不足和部分商店空置，也描述後續公園和公共活動逐漸增加。這些文字來自城市介紹而非系統性的使用者調查，所以只能證明批評曾存在，不能量化居民感受的普遍程度。它提醒案例整理要保存不利觀察，不能只引用開發願景。",
+  "key_points_zh": [
+    "區分媒體或市府記載的批評與代表性居民調查。",
+    "把空置、夜間使用和公共綠地分別列為可追蹤指標。"
+  ],
+  "design_implications_zh": [
+    "以不同時段觀察街面活動和空置商業，不用開發宣傳照片取代使用研究。"
+  ],
+  "applies_when_zh": "高知名度大型更新計畫的宣傳和使用經驗出現落差時。",
+  "not_applicable_when_zh": "只有概念設計、尚未開放使用的項目時。",
+  "debates_zh": "街區成熟後活動增加不代表早期問題都消失；不同使用群體可能對綠地、旅遊和零售有相反評價。",
+  "tradition": "大型都市更新批判／公共空間評估",
+  "region": "德國漢堡",
+  "curriculum_refs": [
+    {
+      "school": "UCL Bartlett",
+      "course": null,
+      "topic": "Urban regeneration and public-space critique"
+    }
+  ],
+  "domain": "HAR",
+  "evidence": {
+    "strength": "CASE_EVIDENCE",
+    "findings": [
+      {
+        "claim_zh": "漢堡市街區介紹提及早期對空曠、綠地不足和商店空置的批評，並描述後續使用。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "德國漢堡",
+        "library_id": "HAMBURG_HAFENCITY_PROFILE",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "公共空間批判研究指出空間品質需要納入使用、管理與公共性，而非只看設計外形。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "德國漢堡",
+        "library_id": "CARMONA10",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "library_id": "HAMBURG_HAFENCITY_PROFILE",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "CARMONA10",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "version": "v2.0"
+}

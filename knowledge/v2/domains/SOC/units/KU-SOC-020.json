@@ -1,0 +1,71 @@
+{
+  "id": "KU-SOC-020",
+  "domain": "SOC",
+  "subtopic": "開發經濟與可行性（土地價值、殘值法）",
+  "type": "theory",
+  "title_zh": "包容性分區與社會住宅配比",
+  "title_en": "Inclusionary housing and social housing shares",
+  "summary_zh": "包容性住房制度要求或鼓勵開發包含可負擔單元，需明定收入資格、價格、期限及執行方式。社會住宅配比則關乎指定住房體系，不能把所有低價單元當成同一類。檢查基地或區域分母、在地或異地履行、控制期限和分配規則，再評估可行性。",
+  "key_points_zh": [
+    "檢查基地或區域分母、在地或異地履行、控制期限和分配規則，再評估可行性。",
+    "不同國家制度差異很大，不能把外國百分比變成本基地法定比例。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "包容性住房制度要求或鼓勵開發包含可負擔單元，需明定收入資格、價格、期限及執行方式。社會住宅配比則關乎指定住房體系，不能把所有低價單元當成同一類。",
+        "library_id": "CALAVITA10",
+        "locator": null,
+        "study_design": "理論／方法綜述；非基地實測",
+        "effect_or_value": null,
+        "context_region": null,
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008"
+      },
+      {
+        "claim_zh": "Czischke 與 van Bortel 比較英、義、波蘭及荷蘭可負擔住宅政策，補足 Calavita 的國際制度比較。",
+        "library_id": "CZISCHKE2018",
+        "locator": null,
+        "study_design": "政策文件回顧、訪談與工作坊",
+        "effect_or_value": null,
+        "context_region": "英格蘭、義大利、波蘭與荷蘭",
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "檢查基地或區域分母、在地或異地履行、控制期限和分配規則，再評估可行性。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "在地配置可增加混合居住",
+      "tradeoff_zh": "需處理交叉補貼與長期可負擔性。",
+      "library_ids": [
+        "CALAVITA10"
+      ]
+    }
+  ],
+  "applies_when_zh": "用於釐清「包容性分區與社會住宅配比」涉及的空間、制度與行動選擇。",
+  "not_applicable_when_zh": "「包容性分區與社會住宅配比」不能直接替代基地的實測、法規或人類批准。",
+  "debates_zh": "不同國家制度差異很大，不能把外國百分比變成本基地法定比例。",
+  "sources": [
+    {
+      "library_id": "CALAVITA10",
+      "locator": null
+    },
+    {
+      "library_id": "CZISCHKE2018",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+  "curriculum_refs": [
+    {
+      "school": "UCL Bartlett",
+      "course": null,
+      "topic": "編者主題對照，非已核實課程指定閱讀：包容性分區與社會住宅配比"
+    }
+  ],
+  "version": "2.0.0-theory-v3"
+}

@@ -1,0 +1,88 @@
+{
+  "id": "KU-SYN-011",
+  "domain": "SYN",
+  "subtopic": "整合度與選擇度",
+  "type": "value_range",
+  "title_zh": "整合度的行人移動效果量",
+  "title_en": "Integration effect size for pedestrian movement",
+  "summary_zh": "Sharmin 與 Kamruzzaman 對 1975–2016 年空間語法—行人移動文獻進行隨機效果統合，整體整合度效果量為 ES 0.206，95% CI 0.173–0.238。這表示文獻中的平均正向關聯，不是人流量或城市品質刻度。摘要未列出完整國別分布，研究間異質性限制了跨城移植。「整合度與行人移動的合併效果量」的數值不是本基地法規或普遍設計目標。",
+  "key_points_zh": [
+    "數值與用途：整合度與行人移動的合併效果量：ES = 0.206；95% CI = 0.173–0.238；p < 0.001",
+    "數值與用途：量化文獻中的關聯而非設計規範、行人數或 M4H 法規"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "整合度的行人移動效果量｜統合研究報告整體整合度與行人移動呈正向關聯",
+        "effect_or_value": "ES = 0.206；95% CI = 0.173–0.238；p < 0.001",
+        "study_design": "整合分析",
+        "context_region": "1975–2016 跨地區研究文獻；國別分布未由摘要列出",
+        "library_id": "SHARMIN17",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "整合度的行人移動效果量｜非機動可及性必須說明網路、目的地與尺度，替代量測方式需保持定義可比較",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "IACONO10",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "整合度與行人移動的合併效果量",
+      "range": "ES = 0.206；95% CI = 0.173–0.238；p < 0.001",
+      "unit": "統合效果量 ES",
+      "context": "1975–2016 跨地區空間語法文獻統合，完整國別分布未列；用於文獻關聯比較，不是本基地法規；來源所列地域：跨地域。",
+      "library_id": "SHARMIN17"
+    }
+  ],
+  "design_implications_zh": [
+    "把 ES 0.206 放在文獻回顧或方法比較中，另以本地行人計數估計關聯；圖面不可把效果量當成整合度設計目標。"
+  ],
+  "applies_when_zh": "只有當整合度和行人移動的操作定義可與納入統合分析的研究對照時，才引用該效果量作跨研究背景。",
+  "not_applicable_when_zh": "這個 ES 不能預測特定街段有多少行人，也不是提升整合度必然增加人流的因果證明。",
+  "debates_zh": "整體正向效果和高研究異質性同時成立；分析者要說明網路表示、步行計數與地域樣本如何影響合併結果。",
+  "sources": [
+    {
+      "library_id": "SHARMIN17",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "IACONO10",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "空間語法中心性指標",
+  "region": "1975–2016 跨地區研究文獻；國別分布未由摘要列出",
+  "curriculum_refs": [
+    {
+      "school": "UCL Bartlett",
+      "course": "Critical Debates in Urban Design",
+      "topic": "整合度與選擇度：課綱對應主題"
+    },
+    {
+      "school": "TU Delft",
+      "course": "Methods of Analysis & Imagination",
+      "topic": "整合度與選擇度：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-SYN-009",
+    "KU-SYN-010",
+    "KU-SYN-012",
+    "KU-SYN-013",
+    "KU-SYN-014",
+    "KU-SYN-015",
+    "KU-SYN-016"
+  ]
+}

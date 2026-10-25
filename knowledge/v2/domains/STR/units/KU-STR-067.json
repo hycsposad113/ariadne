@@ -1,0 +1,82 @@
+{
+  "id": "KU-STR-067",
+  "domain": "STR",
+  "subtopic": "街道斷面",
+  "type": "value_range",
+  "title_zh": "人行淨通行帶的參照寬度",
+  "title_en": "Pedestrian clear path width",
+  "summary_zh": "1.8 m 可作為行人淨通行帶的比較參照，淨寬不包含燈桿、樹穴、店面排隊或裝卸占用。設計圖應把實際可行走的連續寬度和總人行空間分開。NACTO 條目及無障礙條件待指揮官核對。此處的人行道淨通行帶寬度是附來源的比較參照，不是本基地法規。",
+  "key_points_zh": [
+    "標示的是清障後可行走寬度，不是整個人行道總寬。",
+    "路口、候車和沿街排隊可能需要額外的活動空間。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "NACTO 城市街道設計指南：住宅區行人淨寬約 5–7 英尺（1.5–2.1 m），商業區約 8–12 英尺（2.4–3.7 m）；1.8 m（6 英尺）為住宅街常用值。",
+        "library_id": "NACTO13",
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+        "effect_or_value": "1.8 m",
+        "study_design": "城市街道設計指南；詳細條目待核對",
+        "context_region": "美國",
+        "locator": null
+      },
+      {
+        "claim_zh": "街道形態與公共空間研究可提供人行空間的形態脈絡，但不替指南尺寸背書。",
+        "library_id": "SOUTHWORTH03",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "街道設計指南與街道形態研究",
+        "context_region": "美國；跨地域街道形態",
+        "locator": null
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "人行道淨通行帶寬度",
+      "range": "1.8 m",
+      "unit": "公尺",
+      "context": "美國城市街道設計指南的行人淨通行帶參照；用途：供無障礙行走與人流相遇情境做斷面比較；家具帶和停靠空間另計。；「人行道淨通行帶寬度」僅供來源脈絡內的比較，不是本基地法規、M4H 門檻或通用配額。",
+      "library_id": "NACTO13"
+    }
+  ],
+  "design_implications_zh": [
+    "在人行斷面方案中，把 1.8 m 淨寬和家具／植栽／停留帶分層標示，並檢查瓶頸路段。"
+  ],
+  "applies_when_zh": "比較人行道斷面和連續無障礙通行空間時，先核對淨寬與家具帶、候車及排隊需求。",
+  "not_applicable_when_zh": "這不是歐洲或荷蘭的通用法規值；地方法規、坡度、行人量與輔具通行需求可能要求不同配置。",
+  "debates_zh": "名義寬度容易掩蓋臨時障礙和人流堆積；單一最小值不足以呈現通行體驗。",
+  "sources": [
+    {
+      "library_id": "NACTO13",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "SOUTHWORTH03",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "行人尺度與街道設計",
+  "region": "美國城市街道設計指南的行人淨通行帶參照",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "街道斷面：課綱對應主題"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "街道斷面：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-STR-019"
+  ]
+}

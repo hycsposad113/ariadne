@@ -1,0 +1,60 @@
+{
+  "id": "KU-PUB-051",
+  "domain": "PUB",
+  "subtopic": "公共空間私有化與管理",
+  "type": "critique",
+  "title_zh": "公共空間的排除可能是漸進的",
+  "title_en": "Exclusion can be incremental",
+  "summary_zh": "保全詢問、座位移除和活動審批的單項變化看似輕微。累積後卻可能改變誰願意停留、誰承擔被驅離的風險。短期巡查不一定捕捉長期信任變化。權利與體驗資料應納入設計後評估。",
+  "key_points_zh": [
+    "保全詢問、座位移除和活動審批的單項變化看似輕微",
+    "累積後卻可能改變誰願意停留、誰承擔被驅離的風險"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "保全詢問、座位移除和活動審批的單項變化看似輕微。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "跨國",
+        "library_id": "RIGOLON21",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "權利與體驗資料應納入設計後評估。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "建立定期使用者訪談和管理事件日誌，並公開修正方式。"
+  ],
+  "applies_when_zh": "適用於更新後的空間營運檢討。",
+  "not_applicable_when_zh": "不能單靠事件數量衡量被排除感。",
+  "debates_zh": "權利與體驗資料應納入設計後評估。",
+  "sources": [
+    {
+      "library_id": "RIGOLON21",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "NEMETH11",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "健康公平與環境正義",
+  "region": "跨國",
+  "curriculum_refs": [
+    {
+      "school": "UCL Bartlett",
+      "course": "Critical Debates in Urban Design",
+      "topic": "公共空間私有化與管理"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-PUB-050"
+  ]
+}

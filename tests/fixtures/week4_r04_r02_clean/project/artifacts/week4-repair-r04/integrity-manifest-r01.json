@@ -1,0 +1,46 @@
+{
+  "base_manifest_path": "artifacts/week4-repair-r04/integrity-manifest.json",
+  "base_manifest_sha256": "ab70b562ffe47287f8d92c22a63d1703236e1ea483ecfe3027377865dd791457",
+  "files": [
+    {
+      "parent_paths": [
+        "artifacts/week4-repair-r04/decision-docket.md"
+      ],
+      "parent_sha256": {
+        "artifacts/week4-repair-r04/decision-docket.md": "d50591147d42f24ea732535b11d3918722f0b7e0a699ca976f2d5d828dc3f063"
+      },
+      "path": "decision-docket-r01.md",
+      "sha256": "1b1278b49970a2e8ad5c954917a10600b269917670ade1595ba04b4acee72ef9",
+      "size_bytes": 134
+    },
+    {
+      "parent_paths": [
+        "artifacts/week4-repair-r04/decision-docket.md",
+        "scripts/append_week4_repair_r04_docket_r01.py"
+      ],
+      "parent_sha256": {
+        "artifacts/week4-repair-r04/decision-docket.md": "d50591147d42f24ea732535b11d3918722f0b7e0a699ca976f2d5d828dc3f063",
+        "scripts/append_week4_repair_r04_docket_r01.py": "42eb0cbee4ccc74395dcc2792cf6a99ecea758cf68dd7e27e95b77bcec3cfbe0"
+      },
+      "path": "docket-correction-r01.json",
+      "sha256": "cc1a9096ea2a17aa630b3a3b74d8e3d16b1a47fef43cc3e3ad1a0f3b28afc91b",
+      "size_bytes": 281
+    },
+    {
+      "parent_paths": [
+        "scripts/append_week4_repair_r04_docket_r01.py"
+      ],
+      "parent_sha256": {
+        "scripts/append_week4_repair_r04_docket_r01.py": "42eb0cbee4ccc74395dcc2792cf6a99ecea758cf68dd7e27e95b77bcec3cfbe0"
+      },
+      "path": "implementation-record-r01.json",
+      "sha256": "c8fb7b6b6c8c8b9e4a2477c53c8c31356d7857df617e99f4354ad7a85c4168ac",
+      "size_bytes": 88
+    }
+  ],
+  "manifest_excludes_self": true,
+  "package_path": "artifacts/week4-repair-r04",
+  "previous_manifest_path": "artifacts/week4-repair-r04/integrity-manifest.json",
+  "previous_manifest_sha256": "ab70b562ffe47287f8d92c22a63d1703236e1ea483ecfe3027377865dd791457",
+  "schema_version": "week4-r04-integrity-manifest-amendment-v1"
+}

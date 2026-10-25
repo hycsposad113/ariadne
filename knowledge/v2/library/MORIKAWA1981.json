@@ -1,0 +1,43 @@
+{
+  "id": "MORIKAWA1981",
+  "title": "Central Place System within the Urban Area of Hiroshima City",
+  "authors": [
+    "Hiroshi Morikawa"
+  ],
+  "year": 1981,
+  "venue_or_publisher": "Japanese Journal of Human Geography",
+  "doi": "https://doi.org/10.4200/jjhg1948.33.97",
+  "isbn": null,
+  "openalex_id": "https://openalex.org/W2335231587",
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "零售地理與中心地系統",
+  "region": [
+    "廣島，日本"
+  ],
+  "method": "零售商圈與服務層級空間分析",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "廣島研究辨識四十多個便利商品中心，並發現商品層級的商圈並未形成教科書式巢狀階層。",
+      "strength": "MIXED",
+      "scope_zh": "僅限摘要可核對的範圍；未讀全文，不推論摘要未列的數字、因果或普遍適用性。",
+      "assessment_basis": "ABSTRACT_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "OpenAlex",
+    "query": {
+      "record_id": "https://openalex.org/W2335231587",
+      "title": "Central Place System within the Urban Area of Hiroshima City",
+      "author": "Hiroshi Morikawa",
+      "year": 1981
+    },
+    "matched_record_id": "https://openalex.org/W2335231587",
+    "checked_at_utc": "2026-10-08T09:12:32Z",
+    "match_notes_zh": "以 OpenAlex 精確 work 記錄核對書名、作者與出版年；只使用摘要作主張範圍檢查，未下載全文。"
+  },
+  "limitations_zh": "僅使用允許的書目欄位和摘要核對；未取得或保存全文。",
+  "metadata_licence_zh": "保存公開書目欄位與自行撰寫主張摘要；未保存 API 摘要原文或全文。"
+}

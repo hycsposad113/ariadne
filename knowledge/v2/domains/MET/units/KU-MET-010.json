@@ -1,0 +1,71 @@
+{
+  "id": "KU-MET-010",
+  "domain": "MET",
+  "subtopic": "情境與策略規劃",
+  "type": "method",
+  "title_zh": "情境規劃",
+  "title_en": "Scenario planning",
+  "summary_zh": "情境規劃以不同但可解釋的未來條件檢查策略，不把單一預測當成必然。步驟是界定問題、選取關鍵不確定性、構建情境、測試策略並設定監測信號。對每個情境保留共同條件與差異假設，再比較各策略的脆弱點。",
+  "key_points_zh": [
+    "對每個情境保留共同條件與差異假設，再比較各策略的脆弱點。",
+    "情境不是機率預報；缺乏因果一致性的故事無法支持決策。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "情境規劃以不同但可解釋的未來條件檢查策略，不把單一預測當成必然。步驟是界定問題、選取關鍵不確定性、構建情境、測試策略並設定監測信號。",
+        "library_id": "SCHWARTZ91",
+        "locator": null,
+        "study_design": "理論／方法綜述；非基地實測",
+        "effect_or_value": null,
+        "context_region": null,
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008"
+      },
+      {
+        "claim_zh": "Zegras、Sussman 與 Conklin 將情境規劃用於區域交通策略，展示非單一預測的規劃應用。",
+        "library_id": "ZEGRAS2004",
+        "locator": null,
+        "study_design": "書目範圍核對；未以書目代替全文分析",
+        "effect_or_value": null,
+        "context_region": "美國、北美",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "對每個情境保留共同條件與差異假設，再比較各策略的脆弱點。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "採取跨情境都可行的措施可降低後悔",
+      "tradeoff_zh": "未必在某一情境達到最高效益。",
+      "library_ids": [
+        "SCHWARTZ91"
+      ]
+    }
+  ],
+  "applies_when_zh": "用於釐清「情境規劃」涉及的空間、制度與行動選擇。",
+  "not_applicable_when_zh": "「情境規劃」不能直接替代基地的實測、法規或人類批准。",
+  "debates_zh": "情境不是機率預報；缺乏因果一致性的故事無法支持決策。",
+  "sources": [
+    {
+      "library_id": "SCHWARTZ91",
+      "locator": null
+    },
+    {
+      "library_id": "ZEGRAS2004",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": null,
+      "topic": "編者主題對照，非已核實課程指定閱讀：情境規劃"
+    }
+  ],
+  "version": "2.0.0-theory-v3"
+}

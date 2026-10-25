@@ -1,0 +1,113 @@
+{
+  "id": "KU-THY-053",
+  "domain": "THY",
+  "subtopic": "城市轉型史（倫敦、巴黎 Haussmann、維也納 Ringstrasse、巴塞隆納 Cerdà、芝加哥）",
+  "type": "value_range",
+  "title_zh": "城市轉型史：芝加哥重建",
+  "title_en": "History of urban transformation: London, Paris, Vienna, Barcelona, and Chicago — case study unit 053",
+  "summary_zh": "芝加哥 1909 計畫以湖岸、街道、鐵路、公共建築和公園系統提出大都會尺度的 civic improvement。它將美麗城市運動轉成綜合基礎設施與景觀綱領，並非整座城市後來都依圖實現。理解它要區分規劃願景、已建工程、土地投機與居民參與。",
+  "key_points_zh": [
+    "芝加哥 1909 計畫以湖岸、街道、鐵路、公共建築和公園系統提出大都會尺度的 civic improvement。",
+    "它將美麗城市運動轉成綜合基礎設施與景觀綱領，並非整座城市後來都依圖實現。",
+    "理解它要區分規劃願景、已建工程、土地投機與居民參與。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "【BIBLIOGRAPHIC_SCOPE_ONLY】就「城市轉型史：芝加哥重建」而言，「Cities of Tomorrow」提供都市規劃思想史的比較坐標；此處僅使用其已標明的書目／摘要範圍，不延伸為未核對的效果或因果。",
+        "effect_or_value": null,
+        "study_design": "歷史／規劃思想",
+        "context_region": "英國；歐洲；跨地域",
+        "library_id": "HALL1988",
+        "locator": null,
+        "claim_verification": "CANONICAL_CROSS_CHECK_PENDING"
+      },
+      {
+        "claim_zh": "【BIBLIOGRAPHIC_SCOPE_ONLY】就「城市轉型史：芝加哥重建」而言，「General Theory of Urbanization 1867」提供urbanization theory and Barcelona expansion的比較坐標；此處僅使用其已標明的書目／摘要範圍，不延伸為未核對的效果或因果。",
+        "effect_or_value": null,
+        "study_design": "historical and normative urban theory",
+        "context_region": "Spain；Catalonia",
+        "library_id": "CERDA2018",
+        "locator": null,
+        "claim_verification": "CANONICAL_CROSS_CHECK_PENDING"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "將 1909 計畫圖面與實際建設、土地投資及公共參與逐項比對。"
+  ],
+  "design_options": [],
+  "applies_when_zh": "當問題包含「城市轉型史：芝加哥重建」且需比較需要追蹤大型公共工程與街廓改造如何建立長期城市結構時時使用。",
+  "not_applicable_when_zh": "若研究缺少對應尺度或群體資料，不以「城市轉型史：芝加哥重建」取代把歷史方案的幾何直接當作今日標準或道德範本時。",
+  "debates_zh": "「城市轉型史：芝加哥重建」的爭點在於歷史形式不會自動揭露所有人的受益與損失；二手比較不能替代各地檔案與居民史料；城市文明史與都市規劃思想史的研究對象不同，需保留差異而不能合併成單一規則。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "HALL1988",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "CERDA2018",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "比較城市史／公共投資與形態",
+  "region": "美國；跨地域；英國；歐洲",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "城市轉型史：芝加哥重建 — 城市轉型史（倫敦、巴黎 Haussmann、維也納 Ringstrasse、巴塞隆納 Cerdà、芝加哥）"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Urban Design Contexts and Operations",
+      "topic": "城市轉型史：芝加哥重建 — 城市轉型史（倫敦、巴黎 Haussmann、維也納 Ringstrasse、巴塞隆納 Cerdà、芝加哥）"
+    },
+    {
+      "school": "MIT",
+      "course": "4.241J Theory of City Form / 11.301J Urban Design and Development",
+      "topic": "城市轉型史：芝加哥重建 — 城市轉型史（倫敦、巴黎 Haussmann、維也納 Ringstrasse、巴塞隆納 Cerdà、芝加哥）"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Critical Debates in Urban Design",
+      "topic": "城市轉型史：芝加哥重建 — 城市轉型史（倫敦、巴黎 Haussmann、維也納 Ringstrasse、巴塞隆納 Cerdà、芝加哥）"
+    }
+  ],
+  "version": "2.0.0",
+  "case": {
+    "location": "Chicago, United States",
+    "period": "19th- and early-20th-century urban transformation; broad frame",
+    "area_ha": null,
+    "fsi": null,
+    "gsi": null,
+    "program_mix": null,
+    "key_strategies_zh": [
+      "檢視重建與城市規劃的歷史關係。",
+      "把公共工程、土地發展和都市形式並列。"
+    ],
+    "outcomes_zh": [
+      "二手城市史用來比較形態、公共投資與治理變化；本條不提供個案量測值。"
+    ],
+    "critiques_zh": [
+      "需補地方檔案及受影響群體史料，不能只從規劃者意圖推定社會結果。"
+    ]
+  },
+  "values": [
+    {
+      "name": "芝加哥傳統格網街廓量級",
+      "range": "約330 × 660 ft（約100.6 × 201.2 m）",
+      "unit": "feet / metres",
+      "context": "美國芝加哥格網的歷史形態量級；不是1909計畫全市統一尺寸，需查圖籍和例外街廓；這不是本基地法規。",
+      "library_id": "HALL1988",
+      "claim_verification": "CANONICAL_CROSS_CHECK_PENDING"
+    }
+  ],
+  "claim_verification": "CANONICAL_CROSS_CHECK_PENDING"
+}

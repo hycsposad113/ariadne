@@ -1,0 +1,48 @@
+{
+  "id": "MARTORELL1992",
+  "title": "The Olympic Village. Barcelona 92: Architecture, Parks, Leisure Port",
+  "authors": [
+    "Josep Maria Martorell Codina",
+    "Oriol Bohigas",
+    "David Mackay",
+    "Albert Puigdomenech"
+  ],
+  "year": 1992,
+  "venue_or_publisher": "Gustavo Gili (GG)",
+  "doi": null,
+  "isbn": "9788425214851",
+  "openalex_id": null,
+  "kind": "ACADEMIC_BOOK",
+  "tradition": "城市設計與都市形態；依來源主題標註",
+  "region": [
+    "Barcelona",
+    "Spain"
+  ],
+  "method": "Open Library 公開書目核對；未查閱或保存全文。",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "The bilingual book catalogs the Olympic Village architecture, parks and leisure port as Barcelona 1992 project subjects; it does not quantify later social outcomes.",
+      "strength": "THEORETICAL",
+      "scope_zh": "書目記錄確認作者、題名與出版範圍；不能單靠書目證明未查閱的頁面主張或數字。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Open Library",
+    "query": {
+      "title": "The Olympic Village. Barcelona 92: Architecture, Parks, Leisure Port",
+      "author": "Josep Maria Martorell Codina",
+      "year": 1992
+    },
+    "matched_record_id": "/books/OL9119015M",
+    "checked_at_utc": "2026-10-08T19:49:49Z",
+    "match_notes_zh": "Open Library record lists the 1992 English/Spanish edition, four named authors, publisher GG and ISBN 9788425214851. 2026-10-08 fresh Open Library JSON reread confirms the English title as a prefix; the catalog adds the Spanish-language title/translation note.",
+    "url": "https://openlibrary.org/books/OL9119015M"
+  },
+  "limitations_zh": "僅核對公開書目欄位；未查閱全文，書目相符不代表具體主張已核實。",
+  "critique_relationship_zh": "此書目只用來界定作品範圍，不暗示其與並列研究有直接引用關係。",
+  "metadata_licence_zh": "只保存 Open Library 公開書目欄位與自行撰寫摘要；未保存全文。"
+}

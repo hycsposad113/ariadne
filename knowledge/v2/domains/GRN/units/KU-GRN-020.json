@@ -1,0 +1,61 @@
+{
+  "id": "KU-GRN-020",
+  "domain": "GRN",
+  "subtopic": "綠地可及性",
+  "type": "empirical_finding",
+  "title_zh": "低社經群體的健康關聯可能更強",
+  "title_en": "Health associations may be stronger for lower-SES groups",
+  "summary_zh": "系統性回顧整理九十篇綠地與健康研究。低社經群體更常呈現較大的綠地—身體健康關聯，公共綠地研究尤其受到關注。結果因族群、健康指標和研究方法不同而異。提供更多綠地未必消除品質與安全不均。",
+  "key_points_zh": [
+    "系統性回顧整理九十篇綠地與健康研究",
+    "低社經群體更常呈現較大的綠地—身體健康關聯，公共綠地研究尤其受到關注"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "系統性回顧整理九十篇綠地與健康研究。",
+        "effect_or_value": "低社經群體在多項研究中較常呈現較大正向健康關聯；研究間差異明顯。",
+        "study_design": "PRISMA 系統性回顧，納入 90 篇文章",
+        "context_region": "跨國公園與健康研究",
+        "library_id": "RIGOLON21",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW",
+        "limitations_zh": "回顧資料異質，關聯不能直接識別因果機制。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "把投資優先度與群體受益分布分開報告。"
+  ],
+  "applies_when_zh": "適用於公平導向的綠地服務規劃。",
+  "not_applicable_when_zh": "不能把綜述中的群體平均效應轉成個人受益預測。",
+  "debates_zh": "提供更多綠地未必消除品質與安全不均。",
+  "sources": [
+    {
+      "library_id": "RIGOLON21",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "BOGOTA17",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "健康公平與環境正義",
+  "region": "跨國公園與健康研究",
+  "curriculum_refs": [
+    {
+      "school": "MIT",
+      "course": "11.330J Theory of City Form",
+      "topic": "綠地可及性"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-GRN-019",
+    "KU-GRN-021"
+  ]
+}

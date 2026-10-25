@@ -1,0 +1,107 @@
+{
+  "id": "KU-LUP-055",
+  "domain": "LUP",
+  "subtopic": "商業與零售區位",
+  "type": "design_principle",
+  "title_zh": "商業與零售區位｜設計原則",
+  "title_en": "Retail and commercial location — Design principle",
+  "summary_zh": "中心地理論提出服務層級與市場區域的理想化秩序；後續都市內零售研究顯示實際商圈可能不服從整齊巢狀模型。 經典區位模型說明地租與距離會影響用途配置；它是抽象模型，不能直接預測現代城市的所有區位選擇。 沒有店面營運或消費者資料時，只能提出候選區位假說。",
+  "key_points_zh": [
+    "讀「商業與零售區位｜設計原則」時，結合商圈、出行路線、人口分布和營業類型分析；同時把中心地理論提出服務層級與市場區域的理想化秩序；後續都市內零售研究顯示實際商圈可能不服從整齊巢狀模型列為核對條件。",
+    "讀「商業與零售區位｜設計原則」時，結合商圈、出行路線、人口分布和營業類型分析；同時把中心地理論提出服務層級與市場區域的理想化秩序；後續都市內零售研究顯示實際商圈可能不服從整齊巢狀模型列為核對條件。",
+    "限制：沒有店面營運或消費者資料時，只能提出候選區位假說。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "Christaller 的中心地理論以服務層級和市場區域構成理想化秩序；它是零售區位的理論基準，不是現代商圈的完整地圖。",
+        "library_id": "CHRISTALLER1966",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "南德意志原始研究區域",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "Alonso 的單中心地租模型說明距離和地租如何影響區位選擇，可作零售位置分析的抽象基線。",
+        "library_id": "ALONSO1964",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "美國都市經濟理論",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "落實「商業與零售區位｜設計原則」時可先結合商圈、出行路線、人口分布和營業類型分析，再用中心地理論提出服務層級與市場區域的理想化秩序；後續都市內零售研究顯示實際商圈可能不服從整齊巢狀模型核對方案的空間後果。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "在「商業與零售區位｜設計原則」的來源情境裡，結合商圈、出行路線、人口分布和營業類型分析；落到設計時還要按中心地理論提出服務層級與市場區域的理想化秩序；後續都市內零售研究顯示實際商圈可能不服從整齊巢狀模型調整。",
+      "tradeoff_zh": "「商業與零售區位｜設計原則」的主要代價不是抽象的建造成本，而是經典中心地理論是理想模型，都市內零售可能呈現重疊和非巢狀商圈；因此先以中心地理論提出服務層級與市場區域的理想化秩序；後續都市內零售研究顯示實際商圈可能不服從整齊巢狀模型作方案比較條件。",
+      "library_ids": [
+        "CHRISTALLER1966",
+        "ALONSO1964"
+      ]
+    },
+    {
+      "option_zh": "「商業與零售區位｜設計原則」可把取向落在便利商品、專門商品和目的型商業會形成不同空間服務範圍，但需連同中心地理論提出服務層級與市場區域的理想化秩序；後續都市內零售研究顯示實際商圈可能不服從整齊巢狀模型決定適用方式。",
+      "tradeoff_zh": "此選項把「商業與零售區位｜設計原則」的工作放在中心地理論提出服務層級與市場區域的理想化秩序；後續都市內零售研究顯示實際商圈可能不服從整齊巢狀模型上；需要承擔的協調或維護代價則由「經典中心地理論是理想模型，都市內零售可能呈現重疊和非巢狀商圈」界定。",
+      "library_ids": [
+        "CHRISTALLER1966",
+        "ALONSO1964"
+      ]
+    }
+  ],
+  "applies_when_zh": "「商業與零售區位｜設計原則」可在適用於商業中心、街道活化和鄰里服務配置時使用，前提是中心地理論提出服務層級與市場區域的理想化秩序；後續都市內零售研究顯示實際商圈可能不服從整齊巢狀模型與來源情境相符。",
+  "not_applicable_when_zh": "若中心地理論提出服務層級與市場區域的理想化秩序；後續都市內零售研究顯示實際商圈可能不服從整齊巢狀模型不成立，就不能把「商業與零售區位｜設計原則」的結論延伸到其他情況；沒有店面營運或消費者資料時，只能提出候選區位假說。",
+  "debates_zh": "經典中心地理論是理想模型，都市內零售可能呈現重疊和非巢狀商圈。",
+  "sources": [
+    {
+      "library_id": "CHRISTALLER1966",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "ALONSO1964",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "中心地理論；區位與地租理論",
+  "region": "南德意志原始研究區域；美國都市經濟理論",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Planning Complex Cities",
+      "topic": "商業與零售區位"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Cities by Design",
+      "topic": "商業與零售區位"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "商業與零售區位"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Sustainable Futures by Design",
+      "topic": "商業與零售區位"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-LUP-053",
+    "KU-LUP-054",
+    "KU-LUP-056"
+  ],
+  "counter_unit_ids": [
+    "KU-LUP-057"
+  ]
+}

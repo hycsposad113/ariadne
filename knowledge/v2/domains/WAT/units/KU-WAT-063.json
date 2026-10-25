@@ -1,0 +1,74 @@
+{
+  "id": "KU-WAT-063",
+  "domain": "WAT",
+  "subtopic": "水敏感都市設計（WSUD）",
+  "type": "typology",
+  "title_zh": "藍綠廊道要與道路排水和日常使用協調",
+  "title_en": "藍綠廊道要與道路排水和日常使用協調",
+  "summary_zh": "街道樹溝、雨水花園和連續開放空間可形成分散水路，但也與地下管線、行人通行和無障礙需求競合。WSUD 文獻支持把水管理放入城市設計，整合水管理回顧則提醒系統需要跨部門協調。剖面比選需同時顯示水流、根域和管線。",
+  "key_points_zh": [
+    "綠色連續性不自動等於水力連續性。",
+    "地下管線維護通道可能限制植栽位置。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "library_id": "MITCHELL2006",
+        "claim_zh": "WSUD 文獻支持把水管理放入城市設計，整合水管理回顧則提醒系統需要跨部門協調。",
+        "effect_or_value": "剖面比選需同時顯示水流、根域和管線。",
+        "study_design": "整合水管理回顧",
+        "context_region": "澳洲",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "library_id": "SHUSTER2005",
+        "claim_zh": "書目確認本文題名聚焦「Impacts of impervious surface on watershed hydrology: A review」；目前只完成作者、年份、題名與 DOI 核對，未將摘要或全文結論納入此記錄；本單元 KU-WAT-063 對照「街道樹溝、雨水花園和連續開放空間可形成分散水路，但也與地下管線、行人通行和無障礙需求競合」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "文獻回顧；目前僅核對書目範圍",
+        "context_region": "美國",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "以典型街道剖面整合人行、樹池、排水和管線。",
+    "檢查坡度如何把水導向或遠離公共空間。"
+  ],
+  "applies_when_zh": "適用於街道更新與公共空間水系統設計。",
+  "not_applicable_when_zh": "不可只依連續植栽推定具有洪峰削減功能。",
+  "debates_zh": "不同部門各自管理道路、綠化和排水，交接空隙容易成為維護缺口。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "MITCHELL2006",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "SHUSTER2005",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "藍綠街道型態",
+  "region": "英國與國際經驗；澳洲",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "水敏感都市設計（WSUD）"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Sustainable Futures by Design",
+      "topic": "水敏感都市設計（WSUD）"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0"
+}

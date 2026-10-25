@@ -1,0 +1,66 @@
+{
+  "id": "KU-HAR-022",
+  "domain": "HAR",
+  "subtopic": "文化導向再生與仕紳化批評",
+  "type": "critique",
+  "title_zh": "港灣投資的文化效益不能代替分配結果",
+  "title_en": "Cultural Benefits Do Not Resolve Distributional Questions",
+  "summary_zh": "博物館、節慶和設計地標可以擴大城市能見度，卻無法單獨證明附近居民、原有企業或藝術工作者獲得淨收益。文化再生評估面臨歸因困難，因為土地價格、公共投資、旅遊與就業會同時改變。批判研究要求把文化產出與誰能留下、誰能負擔新空間分開追蹤。",
+  "key_points_zh": [
+    "報告到訪、活動和就業時，另列租金、搬遷與原有使用者變化。",
+    "把政策承諾標成目標，把觀察到的結果標成結果。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "文化對再生的貢獻評估研究討論效果歸因與證據品質限制。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "英國與跨地域",
+        "library_id": "EVANS2005",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "文化導向都市發展的批判研究檢視修辭與實際發展之間的落差。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "英國與跨地域",
+        "library_id": "MILES2005",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "報告到訪、活動和就業時，另列租金、搬遷與原有使用者變化。",
+    "把政策承諾標成目標，把觀察到的結果標成結果。"
+  ],
+  "applies_when_zh": "比較文化設施與都市更新的分配效果時。",
+  "not_applicable_when_zh": "沒有時間序列或使用者資料時，不應把形象提升寫成社會改善。",
+  "debates_zh": "可見的文化投資容易被宣傳放大，日常空間的排除和維護成本較少被量化。",
+  "sources": [
+    {
+      "library_id": "EVANS2005",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "MILES2005",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "文化政策評估／批判都市研究",
+  "region": "英國與跨地域",
+  "curriculum_refs": [
+    {
+      "school": "UCL Bartlett",
+      "course": null,
+      "topic": "Culture-led regeneration and urban justice"
+    }
+  ],
+  "version": "v2.0"
+}

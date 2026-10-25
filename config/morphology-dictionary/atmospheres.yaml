@@ -1,0 +1,1380 @@
+{
+  "schema_version": "1.0.0",
+  "research_record": {
+    "retrieved_at_utc": "2026-09-28T10:26:43Z",
+    "reading_scope": "僅查核網頁書目／網頁說明及論文摘要；未讀完整論文，未下載資料集或大型檔案，未安裝套件。",
+    "scope_note_zh": "研究指出若干可觀察、可計算或需使用者研究的城市形態面向；推薦和分數是本字典的設計草案，不是文獻認可的標準。",
+    "score_rubric_zh": "0–1 為 EDITORIAL_ESTIMATE 初篩值，以 0.1 級距表達形態線索強弱。它們沒有經量表信效度、行為觀察、日照／風環境模擬或跨案例校準。",
+    "parameter_profile_zh": "EDITORIAL_ENVELOPE_V1 是本字典估計範圍版次；典型尺寸、GSI、FSI、樓層與組合間距都須由設計者按地塊、分母、樓層算法與現況修訂。",
+    "citation_policy_zh": "source_ids 指明概念或指標的文獻背景；不表示來源支持此條的數值估算或氛圍分數。案例頁只支持案例描述。"
+  },
+  "metric_notes": {
+    "gsi_zh": "GSI = 建築 footprint 面積 / 明確的參考面積。",
+    "fsi_zh": "FSI = 納入樓層的總樓地板面積 / 同一參考面積。",
+    "l_zh": "L = FSI / GSI 的平均樓層指標；空間範圍、地下層與樓層納入規則須明訂。",
+    "osr_zh": "OSR = 非建築用地面積 / 總樓地板面積；若以 GSI、FSI 表示，可寫作 (1 - GSI) / FSI，惟分母與道路是否納入需一致。",
+    "d_over_h_zh": "D/H 以 D 代表兩側建築面之淨距、H 代表街道兩側平均高度；它是常見 H/W 的倒數寫法，須記錄量測斷面。它不是日照或風性能的替代結果。",
+    "svf_zh": "SVF 是觀測點可見天空半球的比例；近似值需用 3D 幾何／魚眼影像等方法並記錄演算法與輸入。字典未計算。",
+    "ground_floor_aperture_zh": "地面層開口率 = 面向公共空間的門窗／可進入開口淨寬總和 / 該面臨街總長；需有立面與門窗資料。",
+    "streetwall_continuity_zh": "臨街面連續率 = 建築臨街長度 / 街段可建臨邊長度；騎樓、退縮與架空層的計入方式須明訂。",
+    "permeability_zh": "每公頃可通行公共連接數或街廓可穿越路徑數；只把確有公共通行權和開放時段的路徑列入。",
+    "data_scope_zh": "僅 footprint 不足以計算樓層、SVF、地面開口、綠蔭、自然監視或實際使用；缺項須保留為未知，不以 0 代替。"
+  },
+  "dimensions": {
+    "enclosure": {
+      "name_zh": "圍合感",
+      "definition_zh": "由建築界面界定公共空間的程度。",
+      "operational_proxies": [
+        {
+          "indicator_zh": "街廓邊界連續率；公共空間周長中由建築臨邊的比例；平均 H/W 與其反向 D/H。",
+          "required_inputs_zh": "幾何或 3D 建築資料",
+          "output_or_unit_zh": "依指標而定；指標登錄時必須聲明公式、單位、分母、尺度與資料版次。"
+        }
+      ],
+      "interpretation_limit_zh": "連續邊界可形成視覺圍合線索，但不等於舒適或適居。",
+      "source_ids": [
+        "SRC_SPACEMATRIX_2023",
+        "SRC_ALEXANDER_1977"
+      ],
+      "proxy_class": "geometry"
+    },
+    "privacy": {
+      "name_zh": "私密性／領域感",
+      "definition_zh": "公共、半公共與私有空間的界線及可進入程度。",
+      "operational_proxies": [
+        {
+          "indicator_zh": "半私密入口比例；住戶入口與公共穿越路徑的分離率；庭院可進入邊界比例。",
+          "required_inputs_zh": "地面層入口與權屬／通行資料",
+          "output_or_unit_zh": "依指標而定；指標登錄時必須聲明公式、單位、分母、尺度與資料版次。"
+        }
+      ],
+      "interpretation_limit_zh": "形式只能顯示閾限安排；實際私密感取決於使用者、管理與文化。",
+      "source_ids": [
+        "SRC_ALEXANDER_1977",
+        "SRC_MASSENA_2019"
+      ],
+      "proxy_class": "geometry_plus_context"
+    },
+    "permeability": {
+      "name_zh": "通透性／可穿越性",
+      "definition_zh": "可合法進入的路徑穿越街廓或連接公共空間的程度。",
+      "operational_proxies": [
+        {
+          "indicator_zh": "每公頃公共通道數；街廓邊界公共開口率；步行網路連通度／繞行係數。",
+          "required_inputs_zh": "有公共通行狀態的路網及開口",
+          "output_or_unit_zh": "依指標而定；指標登錄時必須聲明公式、單位、分母、尺度與資料版次。"
+        }
+      ],
+      "interpretation_limit_zh": "私有門洞不算公共連通；高度差、門禁與營運時段必須確認。",
+      "source_ids": [
+        "SRC_OPEN_BLOCK_2020",
+        "SRC_EWING_CERVERO_2010"
+      ],
+      "proxy_class": "geometry"
+    },
+    "sunlight": {
+      "name_zh": "日照／天空開敞",
+      "definition_zh": "天空與太陽可視範圍的幾何潛力。",
+      "operational_proxies": [
+        {
+          "indicator_zh": "SVF 近似；指定時段遮蔽角；天空可視率。",
+          "required_inputs_zh": "帶高度的建築／樹冠幾何；日期、方位與地點",
+          "output_or_unit_zh": "依指標而定；指標登錄時必須聲明公式、單位、分母、尺度與資料版次。"
+        }
+      ],
+      "interpretation_limit_zh": "幾何代理不等同日照時數、照度或太陽輻射模擬。",
+      "source_ids": [
+        "SRC_OKE_1988",
+        "SRC_SVF_2020"
+      ],
+      "proxy_class": "geometry"
+    },
+    "green_blue": {
+      "name_zh": "綠化／水岸接觸",
+      "definition_zh": "使用者接近可見或可進入的植栽、水體與生態空間的程度。",
+      "operational_proxies": [
+        {
+          "indicator_zh": "植栽投影面積率；樹冠遮蔭率；開放空間臨水邊長比例；可達綠藍空間距離。",
+          "required_inputs_zh": "植栽、水體、通行邊界圖層",
+          "output_or_unit_zh": "依指標而定；指標登錄時必須聲明公式、單位、分母、尺度與資料版次。"
+        }
+      ],
+      "interpretation_limit_zh": "空間形式本身不代表有植栽、可親水、土壤容量或生態品質。",
+      "source_ids": [
+        "SRC_GEHL_2010",
+        "SRC_AGROTOPIA_2021"
+      ],
+      "proxy_class": "geometry_plus_context"
+    },
+    "microclimate_shelter": {
+      "name_zh": "遮蔭／微氣候調節潛力",
+      "definition_zh": "形態提供遮蔭、避風或冷卻空間的幾何可能性。",
+      "operational_proxies": [
+        {
+          "indicator_zh": "H/W、D/H、SVF、樹冠遮蔭率、迎風投影面積密度；另以模擬或量測驗證。",
+          "required_inputs_zh": "3D 建築、植栽、街道朝向；氣象資料用於性能判讀",
+          "output_or_unit_zh": "依指標而定；指標登錄時必須聲明公式、單位、分母、尺度與資料版次。"
+        }
+      ],
+      "interpretation_limit_zh": "同一幾何可能同時遮蔭、蓄熱或妨礙通風；不可由單一指標判定舒適。",
+      "source_ids": [
+        "SRC_OKE_1988",
+        "SRC_SVF_2020"
+      ],
+      "proxy_class": "geometry"
+    },
+    "street_vitality": {
+      "name_zh": "街道活力",
+      "definition_zh": "地面層提供活動、停留與日常目的的條件；實際活力以觀察判定。",
+      "operational_proxies": [
+        {
+          "indicator_zh": "活躍臨街面比例；入口／100 m；營業或公共用途 frontage 比例；分時行人與停留計數。",
+          "required_inputs_zh": "地面層用途、入口幾何與分時行為觀察",
+          "output_or_unit_zh": "依指標而定；指標登錄時必須聲明公式、單位、分母、尺度與資料版次。"
+        }
+      ],
+      "interpretation_limit_zh": "開口只是活動機會的代理，不會自動帶來人流、營業或包容性。",
+      "source_ids": [
+        "SRC_GEHL_2010",
+        "SRC_WHYTE_1980"
+      ],
+      "proxy_class": "geometry_plus_context"
+    },
+    "industrial_scale": {
+      "name_zh": "工業尺度感",
+      "definition_zh": "大型跨距、較粗建築節奏或生產物流空間帶來的尺度特徵。",
+      "operational_proxies": [
+        {
+          "indicator_zh": "最大跨距 m；淨高 m；單一 footprint 面積 m²；柱／門洞節奏；物流面比例。",
+          "required_inputs_zh": "帶結構節奏的平面、立面與建築資料",
+          "output_or_unit_zh": "依指標而定；指標登錄時必須聲明公式、單位、分母、尺度與資料版次。"
+        }
+      ],
+      "interpretation_limit_zh": "尺度感是詮釋面向；保留文化價值需另作歷史與社群研究。",
+      "source_ids": [
+        "SRC_LOCHAL_2019",
+        "SRC_GARE_MARITIME_2020"
+      ],
+      "proxy_class": "geometry_plus_context"
+    },
+    "human_scale": {
+      "name_zh": "人本尺度",
+      "definition_zh": "從步行者視點可感知的界面、入口節奏與空間比例。",
+      "operational_proxies": [
+        {
+          "indicator_zh": "臨街入口數／100 m；立面分段長度；首層高／街寬；步行者視域遮擋。",
+          "required_inputs_zh": "立面、建築高度、出入口與街道斷面",
+          "output_or_unit_zh": "依指標而定；指標登錄時必須聲明公式、單位、分母、尺度與資料版次。"
+        }
+      ],
+      "interpretation_limit_zh": "幾何代理不能代表感官、行動能力或不同身高／年齡的實際經驗。",
+      "source_ids": [
+        "SRC_GEHL_2010",
+        "SRC_LYNCH_1960"
+      ],
+      "proxy_class": "geometry_plus_context"
+    },
+    "density_feel": {
+      "name_zh": "密度感",
+      "definition_zh": "局部建築量與開放空間的相對關係，不等於單一人口密度。",
+      "operational_proxies": [
+        {
+          "indicator_zh": "同一分母下的 GSI、FSI、OSR、L；高度分布及建築間距。",
+          "required_inputs_zh": "建築 footprint、樓層與明確的參考面積",
+          "output_or_unit_zh": "依指標而定；指標登錄時必須聲明公式、單位、分母、尺度與資料版次。"
+        }
+      ],
+      "interpretation_limit_zh": "GSI／FSI 受分母、樓層算法與納入建築規則影響；數字需伴隨範圍。",
+      "source_ids": [
+        "SRC_SPACEMATRIX_2023",
+        "SRC_MORPHINT_2025"
+      ],
+      "proxy_class": "geometry_plus_context"
+    },
+    "legibility": {
+      "name_zh": "可辨識性／易認路",
+      "definition_zh": "使用者辨認路徑、邊界、節點、區域與地標並形成心智圖像的程度。",
+      "operational_proxies": [
+        {
+          "indicator_zh": "路網選擇度／轉向複雜度；地標可視性；路徑與節點差異；需搭配訪談或認知地圖。",
+          "required_inputs_zh": "路網、地標與視域；最好加上使用者研究",
+          "output_or_unit_zh": "依指標而定；指標登錄時必須聲明公式、單位、分母、尺度與資料版次。"
+        }
+      ],
+      "interpretation_limit_zh": "網路中心性不是人的可辨識性本身；避免以單一中央性代替認知。",
+      "source_ids": [
+        "SRC_LYNCH_1960",
+        "SRC_URBAN_MORPHOMETRICS_2015"
+      ],
+      "proxy_class": "geometry_plus_context"
+    },
+    "diversity": {
+      "name_zh": "多樣性",
+      "definition_zh": "土地使用、建築類型、高度、地塊與臨街活動的異質程度。",
+      "operational_proxies": [
+        {
+          "indicator_zh": "用途 Shannon entropy；建築型態／樓層分布熵；立面段長變異係數。",
+          "required_inputs_zh": "用途、建築類型、樓層與時間資料",
+          "output_or_unit_zh": "依指標而定；指標登錄時必須聲明公式、單位、分母、尺度與資料版次。"
+        }
+      ],
+      "interpretation_limit_zh": "高熵不必然代表有品質；多樣性需結合可達性、公平性與維護條件。",
+      "source_ids": [
+        "SRC_OPEN_BLOCK_2020",
+        "SRC_EWING_CERVERO_2010"
+      ],
+      "proxy_class": "geometry_plus_context"
+    },
+    "natural_surveillance": {
+      "name_zh": "自然監視",
+      "definition_zh": "有人使用的室內／地面空間對公共空間形成可視關係的程度。",
+      "operational_proxies": [
+        {
+          "indicator_zh": "公共路徑上可見的 occupied window / entrance frontage；視域覆蓋率；活躍用途分時覆蓋。",
+          "required_inputs_zh": "窗門、視域、用途與實際佔用資料",
+          "output_or_unit_zh": "依指標而定；指標登錄時必須聲明公式、單位、分母、尺度與資料版次。"
+        }
+      ],
+      "interpretation_limit_zh": "窗戶不保證有人看見；不可把視域代理當成治安結果。",
+      "source_ids": [
+        "SRC_SAFETY_2024"
+      ],
+      "proxy_class": "geometry_plus_context"
+    },
+    "perceived_safety": {
+      "name_zh": "安全感",
+      "definition_zh": "不同使用者在特定時間與情境中感到可安心使用公共空間的經驗。",
+      "operational_proxies": [
+        {
+          "indicator_zh": "分時使用者安全感問卷；照明與視域審核；障礙與衝突紀錄；犯罪資料只能作一項背景。",
+          "required_inputs_zh": "使用者調查、時間／照明與情境資料",
+          "output_or_unit_zh": "依指標而定；指標登錄時必須聲明公式、單位、分母、尺度與資料版次。"
+        }
+      ],
+      "interpretation_limit_zh": "本字典不從建築類型推定安全；所有幾何分數皆為初始討論線索。",
+      "source_ids": [
+        "SRC_SAFETY_2024",
+        "SRC_GEHL_2010"
+      ],
+      "proxy_class": "geometry_plus_context"
+    },
+    "sociability": {
+      "name_zh": "社交性／共在潛力",
+      "definition_zh": "空間容納偶遇、停留、交談、共同活動與集會的可能性。",
+      "operational_proxies": [
+        {
+          "indicator_zh": "可停留邊界長度；座位／100 m；公共空間可達性；分時共在／活動計數。",
+          "required_inputs_zh": "家具與可達性幾何、用途、現地觀察",
+          "output_or_unit_zh": "依指標而定；指標登錄時必須聲明公式、單位、分母、尺度與資料版次。"
+        }
+      ],
+      "interpretation_limit_zh": "形態只提供 affordance；社交結果受管理、文化、時間與人群差異影響。",
+      "source_ids": [
+        "SRC_WHYTE_1980",
+        "SRC_SOCIAL_COHESION_2024"
+      ],
+      "proxy_class": "geometry_plus_context"
+    },
+    "belonging": {
+      "name_zh": "歸屬感",
+      "definition_zh": "人與地方之間被認同、熟悉、照料或具有參與權的感受。",
+      "operational_proxies": [
+        {
+          "indicator_zh": "place attachment／sense of community 問卷；可辨認公共／半公共界面；共同管理和參與紀錄。",
+          "required_inputs_zh": "使用者研究、管理／參與歷史與空間邊界",
+          "output_or_unit_zh": "依指標而定；指標登錄時必須聲明公式、單位、分母、尺度與資料版次。"
+        }
+      ],
+      "interpretation_limit_zh": "不由庭院、門廊或圍牆自動產生；需由不同使用者參與確認。",
+      "source_ids": [
+        "SRC_SOCIAL_COHESION_2024",
+        "SRC_ALEXANDER_1977"
+      ],
+      "proxy_class": "geometry_plus_context"
+    }
+  },
+  "recommendation_queries": [
+    {
+      "id": "quiet_belonging_courtyard",
+      "name_zh": "安靜、有歸屬感的居住中庭",
+      "intent_zh": "安靜、可辨識的住戶共享空間，保留一條明確公共到達路徑。",
+      "target_scores": {
+        "enclosure": 0.8,
+        "privacy": 0.85,
+        "permeability": 0.3,
+        "microclimate_shelter": 0.7,
+        "belonging": 0.85,
+        "sociability": 0.65
+      },
+      "recommendations": [
+        {
+          "role": "主體街廓",
+          "entry_id": "block.perimeter",
+          "reason_zh": "以連續街牆形成內部空間，公共性和管理仍需設計者決定。"
+        },
+        {
+          "role": "建築平面",
+          "entry_id": "building.courtyard_closed",
+          "reason_zh": "以內院組織住戶共享空間，需核查日照。"
+        },
+        {
+          "role": "開放空間",
+          "entry_id": "space.courtyard",
+          "reason_zh": "可作共享核心；不得假設為公共通行。"
+        },
+        {
+          "role": "補充節點",
+          "entry_id": "space.pocket_park",
+          "reason_zh": "在公共邊界提供小型休息點。"
+        }
+      ],
+      "source_ids": [
+        "SRC_SPACEMATRIX_2023",
+        "SRC_ALEXANDER_1977",
+        "SRC_SOCIAL_COHESION_2024"
+      ],
+      "status": "EDITORIAL_COMPOSITION",
+      "limitation_zh": "只提供可比較的候選組合；不代表實際性能、法規可行性或整體優勝。"
+    },
+    {
+      "id": "open_creative_campus",
+      "name_zh": "開放、可穿越的創作園區",
+      "intent_zh": "以大跨工作空間、可識別公共穿越和多個共享節點組合。",
+      "target_scores": {
+        "permeability": 0.9,
+        "diversity": 0.85,
+        "industrial_scale": 0.8,
+        "sociability": 0.85,
+        "legibility": 0.75
+      },
+      "recommendations": [
+        {
+          "role": "園區骨架",
+          "entry_id": "block.industrial_campus",
+          "reason_zh": "大跨廠房與院落組成工作園區。"
+        },
+        {
+          "role": "主建築",
+          "entry_id": "building.industrial_hall",
+          "reason_zh": "保留可調整的大跨室內工作空間。"
+        },
+        {
+          "role": "公共通道",
+          "entry_id": "space.covered_public_passage",
+          "reason_zh": "把公共開放權與營運時段明確化。"
+        },
+        {
+          "role": "街廓轉接",
+          "entry_id": "block.open",
+          "reason_zh": "用分散量體接到周邊街道。"
+        }
+      ],
+      "source_ids": [
+        "SRC_MURATORI_CANIGGIA_2003",
+        "SRC_OPEN_BLOCK_2020",
+        "SRC_GEHL_2010"
+      ],
+      "status": "EDITORIAL_COMPOSITION",
+      "limitation_zh": "只提供可比較的候選組合；不代表實際性能、法規可行性或整體優勝。"
+    },
+    {
+      "id": "industrial_waterfront_public_space",
+      "name_zh": "工業尺度的水岸公共空間",
+      "intent_zh": "並置大跨工業遺產、水岸步行帶與清楚分流的生產服務。",
+      "target_scores": {
+        "industrial_scale": 0.95,
+        "green_blue": 0.75,
+        "permeability": 0.85,
+        "sociability": 0.8,
+        "legibility": 0.8
+      },
+      "recommendations": [
+        {
+          "role": "產業骨架",
+          "entry_id": "block.industrial_campus",
+          "reason_zh": "讓既有廠房、物流和公共活動各有清楚界面。"
+        },
+        {
+          "role": "大跨主體",
+          "entry_id": "building.industrial_hall",
+          "reason_zh": "承接展演、工作或室內市場等大型用途。"
+        },
+        {
+          "role": "水岸公共帶",
+          "entry_id": "space.waterfront_promenade",
+          "reason_zh": "需先確認水岸通行權與管理條件。"
+        },
+        {
+          "role": "全天候連接",
+          "entry_id": "space.covered_public_passage",
+          "reason_zh": "可連接大廳與水岸路徑。"
+        }
+      ],
+      "source_ids": [
+        "SRC_GARE_MARITIME_2020",
+        "SRC_LOCHAL_2019",
+        "SRC_OKE_1988"
+      ],
+      "status": "EDITORIAL_COMPOSITION",
+      "limitation_zh": "只提供可比較的候選組合；不代表實際性能、法規可行性或整體優勝。"
+    },
+    {
+      "id": "sunny_compact_street",
+      "name_zh": "採光較佳的緊湊街道",
+      "intent_zh": "先用街牆和密度範圍尋找緊湊度，再以本地日照計算篩選。",
+      "target_scores": {
+        "sunlight": 0.8,
+        "density_feel": 0.7,
+        "human_scale": 0.7,
+        "permeability": 0.65
+      },
+      "recommendations": [
+        {
+          "role": "街廓形式",
+          "entry_id": "block.open",
+          "reason_zh": "以開口分解連續街牆並保留視線。"
+        },
+        {
+          "role": "體量原型",
+          "entry_id": "building.terraced",
+          "reason_zh": "退台可以提出採光假設，須以全年分析驗證。"
+        },
+        {
+          "role": "開放節點",
+          "entry_id": "space.plaza",
+          "reason_zh": "提供較開敞的公共節點。"
+        },
+        {
+          "role": "街道比較組",
+          "entry_id": "space.street_canyon",
+          "reason_zh": "保留作斷面比較，不能僅按 D/H 排名。"
+        }
+      ],
+      "source_ids": [
+        "SRC_SPACEMATRIX_2023",
+        "SRC_OKE_1988",
+        "SRC_SVF_2020"
+      ],
+      "status": "EDITORIAL_COMPOSITION",
+      "limitation_zh": "只提供可比較的候選組合；不代表實際性能、法規可行性或整體優勝。"
+    },
+    {
+      "id": "green_cooling_network",
+      "name_zh": "綠色、較涼爽的慢行網",
+      "intent_zh": "用樹冠、陰影和連續路徑提出候選，需以樹木與氣候資料驗證。",
+      "target_scores": {
+        "green_blue": 0.95,
+        "microclimate_shelter": 0.72,
+        "permeability": 0.85,
+        "sociability": 0.72
+      },
+      "recommendations": [
+        {
+          "role": "開放空間骨架",
+          "entry_id": "space.linear_park",
+          "reason_zh": "串接街區並規劃多處橫向入口。"
+        },
+        {
+          "role": "近鄰節點",
+          "entry_id": "space.pocket_park",
+          "reason_zh": "補充較短距離的休息節點。"
+        },
+        {
+          "role": "街廓組合",
+          "entry_id": "block.towers_park",
+          "reason_zh": "把塔樓入口接到連續公共綠帶。"
+        },
+        {
+          "role": "建築界面",
+          "entry_id": "building.terraced",
+          "reason_zh": "退台綠化需計算實際土壤與維護條件。"
+        }
+      ],
+      "source_ids": [
+        "SRC_OKE_1988",
+        "SRC_SVF_2020",
+        "SRC_GEHL_2010"
+      ],
+      "status": "EDITORIAL_COMPOSITION",
+      "limitation_zh": "只提供可比較的候選組合；不代表實際性能、法規可行性或整體優勝。"
+    },
+    {
+      "id": "child_friendly_shared_street",
+      "name_zh": "兒童友善的共享街道",
+      "intent_zh": "將交通降速、可視入口、休息節點和使用者安全感調查一起納入。",
+      "target_scores": {
+        "human_scale": 0.9,
+        "sociability": 0.85,
+        "perceived_safety": 0.8,
+        "permeability": 0.75
+      },
+      "recommendations": [
+        {
+          "role": "街廓形式",
+          "entry_id": "block.rowhouse_strip",
+          "reason_zh": "細分入口可形成面向街道的界面線索。"
+        },
+        {
+          "role": "街道空間",
+          "entry_id": "space.shared_street",
+          "reason_zh": "需先落實車速管理和緊急通行。"
+        },
+        {
+          "role": "休息節點",
+          "entry_id": "space.pocket_park",
+          "reason_zh": "以可看見且可維護的位置作候選。"
+        },
+        {
+          "role": "活動界面",
+          "entry_id": "building.rowhouse",
+          "reason_zh": "低層入口可供地面層討論。"
+        }
+      ],
+      "source_ids": [
+        "SRC_GEHL_2010",
+        "SRC_SAFETY_2024",
+        "SRC_WHYTE_1980"
+      ],
+      "status": "EDITORIAL_COMPOSITION",
+      "limitation_zh": "只提供可比較的候選組合；不代表實際性能、法規可行性或整體優勝。"
+    },
+    {
+      "id": "fine_grained_lively_mixed_block",
+      "name_zh": "細緻、多樣、活躍的混合街廓",
+      "intent_zh": "以多種體量和面向街道的活動作候選；仍需用途和營運資料。",
+      "target_scores": {
+        "diversity": 0.9,
+        "street_vitality": 0.85,
+        "human_scale": 0.8,
+        "legibility": 0.72
+      },
+      "recommendations": [
+        {
+          "role": "主體街廓",
+          "entry_id": "block.hybrid",
+          "reason_zh": "混合不同體量並明確安排地面層公共性。"
+        },
+        {
+          "role": "街道界面",
+          "entry_id": "block.rowhouse_strip",
+          "reason_zh": "用細面寬原型形成不同粒度的沿街面。"
+        },
+        {
+          "role": "活動節點",
+          "entry_id": "space.plaza",
+          "reason_zh": "作為街角或路徑交會的公共節點。"
+        },
+        {
+          "role": "局部休息",
+          "entry_id": "space.pocket_park",
+          "reason_zh": "提供尺度較小的停留選項。"
+        }
+      ],
+      "source_ids": [
+        "SRC_OPEN_BLOCK_2020",
+        "SRC_EWING_CERVERO_2010",
+        "SRC_GEHL_2010"
+      ],
+      "status": "EDITORIAL_COMPOSITION",
+      "limitation_zh": "只提供可比較的候選組合；不代表實際性能、法規可行性或整體優勝。"
+    },
+    {
+      "id": "recognizable_civic_sequence",
+      "name_zh": "容易辨認的公共空間序列",
+      "intent_zh": "安排路徑、節點、地標和轉折差異，之後以使用者 wayfinding 驗證。",
+      "target_scores": {
+        "legibility": 0.92,
+        "sociability": 0.75,
+        "enclosure": 0.55,
+        "permeability": 0.75
+      },
+      "recommendations": [
+        {
+          "role": "路徑",
+          "entry_id": "space.linear_park",
+          "reason_zh": "建立可連續辨識的公共主軸。"
+        },
+        {
+          "role": "節點",
+          "entry_id": "space.plaza",
+          "reason_zh": "在重要交會處形成可停留的節點。"
+        },
+        {
+          "role": "地標量體",
+          "entry_id": "building.point_tower",
+          "reason_zh": "作為候選遠距參照，需檢查風與陰影。"
+        },
+        {
+          "role": "街廓邊界",
+          "entry_id": "block.open",
+          "reason_zh": "讓路徑有不同視線與空間節奏。"
+        }
+      ],
+      "source_ids": [
+        "SRC_LYNCH_1960",
+        "SRC_GEHL_2010",
+        "SRC_OPEN_BLOCK_2020"
+      ],
+      "status": "EDITORIAL_COMPOSITION",
+      "limitation_zh": "只提供可比較的候選組合；不代表實際性能、法規可行性或整體優勝。"
+    },
+    {
+      "id": "privacy_with_public_thresholds",
+      "name_zh": "保有私密、又能辨認公共入口",
+      "intent_zh": "以清楚的閾限和少量公共穿越建立空間層次，權利需人工確認。",
+      "target_scores": {
+        "privacy": 0.88,
+        "belonging": 0.86,
+        "permeability": 0.32,
+        "natural_surveillance": 0.65
+      },
+      "recommendations": [
+        {
+          "role": "街廓",
+          "entry_id": "block.perimeter",
+          "reason_zh": "形成可辨識邊界，院落權利另行決定。"
+        },
+        {
+          "role": "建築",
+          "entry_id": "building.u_block",
+          "reason_zh": "以單側開口安排受控共享院落。"
+        },
+        {
+          "role": "內部空間",
+          "entry_id": "space.courtyard",
+          "reason_zh": "區別住戶共享與公眾可進入範圍。"
+        },
+        {
+          "role": "街道端點",
+          "entry_id": "space.shared_street",
+          "reason_zh": "以低速街道連接公共入口。"
+        }
+      ],
+      "source_ids": [
+        "SRC_ALEXANDER_1977",
+        "SRC_MASSENA_2019",
+        "SRC_SOCIAL_COHESION_2024"
+      ],
+      "status": "EDITORIAL_COMPOSITION",
+      "limitation_zh": "只提供可比較的候選組合；不代表實際性能、法規可行性或整體優勝。"
+    },
+    {
+      "id": "high_density_with_ground_life",
+      "name_zh": "高密度且重視地面層活動",
+      "intent_zh": "以台座和塔樓提出密度假設，地面活力需用途、入口與行人觀察。",
+      "target_scores": {
+        "density_feel": 0.88,
+        "street_vitality": 0.85,
+        "permeability": 0.65,
+        "human_scale": 0.72
+      },
+      "recommendations": [
+        {
+          "role": "街廓",
+          "entry_id": "block.hybrid",
+          "reason_zh": "將高層和連續地面層界面分開配置。"
+        },
+        {
+          "role": "建築",
+          "entry_id": "building.podium_tower",
+          "reason_zh": "密度數值為估算範圍，需依明確分母重算。"
+        },
+        {
+          "role": "公共到達",
+          "entry_id": "space.plaza",
+          "reason_zh": "入口前場提供停留和辨識節點。"
+        },
+        {
+          "role": "地面活動",
+          "entry_id": "space.shared_street",
+          "reason_zh": "安排低速步行和服務交通協調。"
+        }
+      ],
+      "source_ids": [
+        "SRC_SPACEMATRIX_2023",
+        "SRC_MORPHINT_2025",
+        "SRC_GEHL_2010"
+      ],
+      "status": "EDITORIAL_COMPOSITION",
+      "limitation_zh": "只提供可比較的候選組合；不代表實際性能、法規可行性或整體優勝。"
+    },
+    {
+      "id": "quiet_water_edge",
+      "name_zh": "安靜、開放的水岸邊緣",
+      "intent_zh": "用低速連續步道、局部綠化和退離的建築邊界提出候選。",
+      "target_scores": {
+        "green_blue": 0.88,
+        "permeability": 0.8,
+        "privacy": 0.52,
+        "microclimate_shelter": 0.5
+      },
+      "recommendations": [
+        {
+          "role": "水岸路徑",
+          "entry_id": "space.waterfront_promenade",
+          "reason_zh": "公共使用須受岸線權利及安全條件約束。"
+        },
+        {
+          "role": "綠帶連接",
+          "entry_id": "space.linear_park",
+          "reason_zh": "向內陸公園和街道網連接。"
+        },
+        {
+          "role": "街廓過渡",
+          "entry_id": "block.open",
+          "reason_zh": "避免水岸界面被連續封閉。"
+        },
+        {
+          "role": "低層過渡",
+          "entry_id": "building.terraced",
+          "reason_zh": "退台和露台是否面向水岸由設計者決定。"
+        }
+      ],
+      "source_ids": [
+        "SRC_GEHL_2010",
+        "SRC_LYNCH_1960",
+        "SRC_SOCIAL_COHESION_2024"
+      ],
+      "status": "EDITORIAL_COMPOSITION",
+      "limitation_zh": "只提供可比較的候選組合；不代表實際性能、法規可行性或整體優勝。"
+    },
+    {
+      "id": "legacy_industrial_reuse",
+      "name_zh": "保留工業遺產的創作再利用",
+      "intent_zh": "保留既有大跨結構，插入公共路徑與新用途；結構和歷史價值需另行調查。",
+      "target_scores": {
+        "industrial_scale": 0.96,
+        "diversity": 0.78,
+        "legibility": 0.84,
+        "sociability": 0.83
+      },
+      "recommendations": [
+        {
+          "role": "園區",
+          "entry_id": "block.industrial_campus",
+          "reason_zh": "按物流、保留結構和公共到達分區。"
+        },
+        {
+          "role": "大跨建築",
+          "entry_id": "building.industrial_hall",
+          "reason_zh": "優先把既有柱網視為設計輸入，而非假設可拆。"
+        },
+        {
+          "role": "公共空間",
+          "entry_id": "space.covered_public_passage",
+          "reason_zh": "把室內公共性、營運和消防規則一起設定。"
+        },
+        {
+          "role": "混合邊界",
+          "entry_id": "block.hybrid",
+          "reason_zh": "用新舊體量轉接周邊尺度。"
+        }
+      ],
+      "source_ids": [
+        "SRC_CONZEN_1960",
+        "SRC_MURATORI_CANIGGIA_2003",
+        "SRC_GARE_MARITIME_2020"
+      ],
+      "status": "EDITORIAL_COMPOSITION",
+      "limitation_zh": "只提供可比較的候選組合；不代表實際性能、法規可行性或整體優勝。"
+    }
+  ],
+  "source_registry": {
+    "SRC_SPACEMATRIX_2023": {
+      "author": "Meta Y. Berghauser Pont; Per Haupt",
+      "year": 2023,
+      "year_basis": "publication",
+      "title": "Spacematrix: Space, Density and Urban Form - revised edition",
+      "publisher_or_venue": "TU Delft OPEN Publishing",
+      "url": "https://doi.org/10.59490/mg.38",
+      "doi": "10.59490/mg.38",
+      "source_kind": "scholarly_book_record",
+      "retrieval_query": "Spacematrix space density urban form Berghauser Pont Haupt FSI GSI OSR",
+      "retrieved_at_utc": "2026-09-28T10:26:43Z",
+      "reading_scope": "研究入口頁摘要與書目頁",
+      "license_review": "未查核來源頁面授權；僅摘述書目或頁面事實，未複製圖文。",
+      "use_and_limit": "支持多指標描述都市密度的框架；不支持本字典估算的典型範圍或氛圍分數。"
+    },
+    "SRC_MOMEPY_2019": {
+      "author": "Martin Fleischmann",
+      "year": 2019,
+      "year_basis": "publication",
+      "title": "momepy: Urban Morphology Measuring Toolkit",
+      "publisher_or_venue": "Journal of Open Source Software 4(43), 1807",
+      "url": "https://doi.org/10.21105/joss.01807",
+      "doi": "10.21105/joss.01807",
+      "source_kind": "peer_reviewed_software_abstract",
+      "retrieval_query": "momepy urban morphology measuring toolkit Fleischmann 2019 JOSS",
+      "retrieved_at_utc": "2026-09-28T10:26:43Z",
+      "reading_scope": "JOSS 網頁書目與摘要",
+      "license_review": "未查核來源頁面授權；僅摘述書目或頁面事實，未複製圖文。",
+      "use_and_limit": "支持建築、地塊、街道的多尺度形態量測工具脈絡；本字典不呼叫 momepy。"
+    },
+    "SRC_MORPHINT_2025": {
+      "author": "Firman Afrianto; Maya Safira",
+      "year": 2025,
+      "year_basis": "plugin release 2025-12-13",
+      "title": "MORPHINT: Urban Morphology and Intensity Analyzer, QGIS Processing Plugin 1.0.0",
+      "publisher_or_venue": "QGIS Python Plugins Repository",
+      "url": "https://plugins.qgis.org/plugins/morphint_morphology_intensity_analyzer/",
+      "doi": "",
+      "source_kind": "official_tool_listing",
+      "retrieval_query": "MorphInt QGIS urban morphology intensity analyzer",
+      "retrieved_at_utc": "2026-09-28T10:26:43Z",
+      "reading_scope": "QGIS 外掛目錄網頁；檢視版本 1.0.0 與說明",
+      "license_review": "未查核來源頁面授權；僅摘述書目或頁面事實，未複製圖文。",
+      "use_and_limit": "支持 BCR/FAR/OSR 與形態指標工具的存在；未安裝、未執行、未下載外掛。"
+    },
+    "SRC_URBAN_MORPHOMETRICS_2015": {
+      "author": "Jacob Dibble et al.",
+      "year": 2015,
+      "year_basis": "publication",
+      "title": "Urban Morphometrics: Towards a Science of Urban Evolution",
+      "publisher_or_venue": "arXiv preprint",
+      "url": "https://arxiv.org/abs/1506.04875",
+      "doi": "",
+      "source_kind": "preprint_abstract",
+      "retrieval_query": "urban morphometrics towards a science of urban evolution abstract",
+      "retrieved_at_utc": "2026-09-28T10:26:43Z",
+      "reading_scope": "arXiv 摘要頁",
+      "license_review": "未查核來源頁面授權；僅摘述書目或頁面事實，未複製圖文。",
+      "use_and_limit": "支持以可比較形態量測描述都市組織的研究方向；不把其分類結果套成此字典的普遍型態。"
+    },
+    "SRC_CONZEN_1960": {
+      "author": "M. R. G. Conzen",
+      "year": 1960,
+      "year_basis": "publication",
+      "title": "Alnwick, Northumberland: A Study in Town-Plan Analysis",
+      "publisher_or_venue": "George Philip / Institute of British Geographers",
+      "url": "https://www.cca.qc.ca/en/search/details/library/publication/04458844",
+      "doi": "",
+      "source_kind": "scholarly_book_catalogue",
+      "retrieval_query": "Conzen Alnwick Northumberland town plan analysis 1960",
+      "retrieved_at_utc": "2026-09-28T10:26:43Z",
+      "reading_scope": "Canadian Centre for Architecture 書目網頁",
+      "license_review": "未查核來源頁面授權；僅摘述書目或頁面事實，未複製圖文。",
+      "use_and_limit": "作為歷史地理形態學書目錨點；條目中的平面讀法是本字典的整理，不冒稱逐頁摘錄。"
+    },
+    "SRC_MURATORI_CANIGGIA_2003": {
+      "author": "Giancarlo Cataldi",
+      "year": 2003,
+      "year_basis": "publication",
+      "title": "From Muratori to Caniggia: The Origins and Development of the Italian School of Design Typology",
+      "publisher_or_venue": "Urban Morphology 7(1), 19-34",
+      "url": "https://hdl.handle.net/2158/4135",
+      "doi": "",
+      "source_kind": "peer_reviewed_article_abstract",
+      "retrieval_query": "From Muratori to Caniggia Italian school design typology abstract",
+      "retrieved_at_utc": "2026-09-28T10:26:43Z",
+      "reading_scope": "佛羅倫斯大學典藏的文章摘要與書目",
+      "license_review": "未查核來源頁面授權；僅摘述書目或頁面事實，未複製圖文。",
+      "use_and_limit": "支持類型、歷史過程與都市組織關係的形態學脈絡；不提供本字典的生成規則。"
+    },
+    "SRC_ALEXANDER_1977": {
+      "author": "Christopher Alexander; Sara Ishikawa; Murray Silverstein et al.",
+      "year": 1977,
+      "year_basis": "publication",
+      "title": "A Pattern Language: Towns, Buildings, Construction",
+      "publisher_or_venue": "Oxford University Press",
+      "url": "https://www.oup.com.au/books/general-interest/art-technology/9780195019193",
+      "doi": "",
+      "source_kind": "publisher_book_page",
+      "retrieval_query": "A Pattern Language Alexander 1977 Oxford University Press",
+      "retrieved_at_utc": "2026-09-28T10:26:43Z",
+      "reading_scope": "Oxford University Press 書籍介紹頁",
+      "license_review": "未查核來源頁面授權；僅摘述書目或頁面事實，未複製圖文。",
+      "use_and_limit": "支持以可組合的設計模式組織討論；字典配對仍是可被設計者修改的假設。"
+    },
+    "SRC_GEHL_2010": {
+      "author": "Jan Gehl",
+      "year": 2010,
+      "year_basis": "publication",
+      "title": "Cities for People",
+      "publisher_or_venue": "Island Press / University of Toronto Press Distribution",
+      "url": "https://utpdistribution.com/9781597265737/cities-for-people/",
+      "doi": "",
+      "source_kind": "publisher_book_page",
+      "retrieval_query": "Jan Gehl Cities for People 2010 Island Press",
+      "retrieved_at_utc": "2026-09-28T10:26:43Z",
+      "reading_scope": "書籍發行頁與 Gehl 官方方法頁",
+      "license_review": "未查核來源頁面授權；僅摘述書目或頁面事實，未複製圖文。",
+      "use_and_limit": "支持以人尺度、行為與公共生活觀察評估空間；形態分數不等同實際公共生活。"
+    },
+    "SRC_LYNCH_1960": {
+      "author": "Kevin Lynch",
+      "year": 1960,
+      "year_basis": "publication",
+      "title": "The Image of the City",
+      "publisher_or_venue": "The MIT Press",
+      "url": "https://mitpress.mit.edu/9780262620017/the-image-of-the-city/",
+      "doi": "",
+      "source_kind": "publisher_book_page",
+      "retrieval_query": "Kevin Lynch Image of the City MIT Press 1960",
+      "retrieved_at_utc": "2026-09-28T10:26:43Z",
+      "reading_scope": "MIT Press 書籍介紹頁",
+      "license_review": "未查核來源頁面授權；僅摘述書目或頁面事實，未複製圖文。",
+      "use_and_limit": "支持可辨識性與城市意象作為人的經驗面向；幾何代理不能代替使用者認知研究。"
+    },
+    "SRC_EWING_CERVERO_2010": {
+      "author": "Reid Ewing; Robert Cervero",
+      "year": 2010,
+      "year_basis": "publication",
+      "title": "Travel and the Built Environment: A Meta-Analysis",
+      "publisher_or_venue": "Journal of the American Planning Association 76(3), 265-294",
+      "url": "https://doi.org/10.1080/01944361003766766",
+      "doi": "10.1080/01944361003766766",
+      "source_kind": "peer_reviewed_article_abstract",
+      "retrieval_query": "Ewing Cervero 2010 travel built environment meta-analysis abstract",
+      "retrieved_at_utc": "2026-09-28T10:26:43Z",
+      "reading_scope": "期刊摘要與書目",
+      "license_review": "未查核來源頁面授權；僅摘述書目或頁面事實，未複製圖文。",
+      "use_and_limit": "支持密度、多樣性、設計與可達性作為分析面向；研究限制及情境差異不容推成單一規範。"
+    },
+    "SRC_OPEN_BLOCK_2020": {
+      "author": "José Carpio-Pinedo; Guillermo Ramírez; Salas Montes; Patxi J. Lamiquiz",
+      "year": 2020,
+      "year_basis": "publication",
+      "title": "New Urban Forms, Diversity, and Computational Design: Exploring the Open Block",
+      "publisher_or_venue": "Journal of Urban Planning and Development 146(2)",
+      "url": "https://doi.org/10.1061/(ASCE)UP.1943-5444.0000555",
+      "doi": "10.1061/(ASCE)UP.1943-5444.0000555",
+      "source_kind": "peer_reviewed_article_abstract",
+      "retrieval_query": "open block computational design diversity Carpio-Pinedo abstract",
+      "retrieved_at_utc": "2026-09-28T10:26:43Z",
+      "reading_scope": "ASCE 期刊摘要與書目",
+      "license_review": "未查核來源頁面授權；僅摘述書目或頁面事實，未複製圖文。",
+      "use_and_limit": "支持開放街廓作為一種有組合規則且強調多樣性的類型；實際表現仍需依基地驗證。"
+    },
+    "SRC_MASSENA_2019": {
+      "author": "Pierijn van der Putt",
+      "year": 2019,
+      "year_basis": "publication",
+      "title": "Quartier Masséna Paris (FR): Christian de Portzamparc & Jean-Philippe Pargade, Gaëlle Péneau, Catherine Furet, Antoine Stinco",
+      "publisher_or_venue": "DASH 10(15), 114-121",
+      "url": "https://journals.open.tudelft.nl/dash/article/view/5100",
+      "doi": "",
+      "source_kind": "scholarly_case_page",
+      "retrieval_query": "Quartier Massena Paris ilot ouvert DASH TU Delft",
+      "retrieved_at_utc": "2026-09-28T10:26:43Z",
+      "reading_scope": "DASH 專題網頁介紹",
+      "license_review": "未查核來源頁面授權；僅摘述書目或頁面事實，未複製圖文。",
+      "use_and_limit": "支持 Masséna 作為 îlot ouvert 案例與其街廓、庭院、開口關係；非本字典估算值的量測來源。"
+    },
+    "SRC_OKE_1988": {
+      "author": "T. R. Oke",
+      "year": 1988,
+      "year_basis": "publication",
+      "title": "Street Design and Urban Canopy Layer Climate",
+      "publisher_or_venue": "Energy and Buildings 11(1-3), 103-113",
+      "url": "https://doi.org/10.1016/0378-7788(88)90026-6",
+      "doi": "10.1016/0378-7788(88)90026-6",
+      "source_kind": "peer_reviewed_article_abstract",
+      "retrieval_query": "Oke 1988 street design urban canopy layer climate abstract",
+      "retrieved_at_utc": "2026-09-28T10:26:43Z",
+      "reading_scope": "期刊摘要",
+      "license_review": "未查核來源頁面授權；僅摘述書目或頁面事實，未複製圖文。",
+      "use_and_limit": "支持街谷幾何與氣候目標間可能存在取捨；不構成本地風、日照或舒適度結論。"
+    },
+    "SRC_SVF_2020": {
+      "author": "Chunping Miao; Shuai Yu; Yuanman Hu; Huiwen Zhang; Xingyuan He; Wei Chen",
+      "year": 2020,
+      "year_basis": "publication",
+      "title": "Review of Methods Used to Estimate the Sky View Factor in Urban Street Canyons",
+      "publisher_or_venue": "Building and Environment 168, 106497",
+      "url": "https://doi.org/10.1016/j.buildenv.2019.106497",
+      "doi": "10.1016/j.buildenv.2019.106497",
+      "source_kind": "peer_reviewed_review_abstract",
+      "retrieval_query": "sky view factor urban street canyon review methods 2020",
+      "retrieved_at_utc": "2026-09-28T10:26:43Z",
+      "reading_scope": "期刊摘要與書目",
+      "license_review": "未查核來源頁面授權；僅摘述書目或頁面事實，未複製圖文。",
+      "use_and_limit": "支持 SVF 定義、常見估算方法與其輸入差異；字典只定義代理指標，不計算 SVF。"
+    },
+    "SRC_WHYTE_1980": {
+      "author": "William H. Whyte",
+      "year": 1980,
+      "year_basis": "book publication 1980",
+      "title": "The Social Life of Small Urban Spaces",
+      "publisher_or_venue": "Project for Public Spaces",
+      "url": "https://www.pps.org/product/the-social-life-of-small-urban-spaces",
+      "doi": "",
+      "source_kind": "publisher_project_page",
+      "retrieval_query": "William H Whyte Social Life of Small Urban Spaces 1980 PPS",
+      "retrieved_at_utc": "2026-09-28T10:26:43Z",
+      "reading_scope": "Project for Public Spaces 書籍與方法介紹頁",
+      "license_review": "未查核來源頁面授權；僅摘述書目或頁面事實，未複製圖文。",
+      "use_and_limit": "支持現地觀察、停留與活動資料對公共空間評估的重要性；未把其觀察結果轉成普遍分數。"
+    },
+    "SRC_SOCIAL_COHESION_2024": {
+      "author": "J. Qi; S. Mazumdar; A. C. Vasconcelos",
+      "year": 2024,
+      "year_basis": "publication",
+      "title": "Understanding the Relationship between Urban Public Space and Social Cohesion: A Systematic Review",
+      "publisher_or_venue": "International Journal of Community Well-Being 7(2), 155-212",
+      "url": "https://doi.org/10.1007/s42413-024-00204-5",
+      "doi": "10.1007/s42413-024-00204-5",
+      "source_kind": "peer_reviewed_review_abstract",
+      "retrieval_query": "urban public space social cohesion systematic review abstract",
+      "retrieved_at_utc": "2026-09-28T10:26:43Z",
+      "reading_scope": "White Rose Research Online 摘要與書目",
+      "license_review": "未查核來源頁面授權；僅摘述書目或頁面事實，未複製圖文。",
+      "use_and_limit": "支持社會凝聚與公共空間可能相關且受社會人口及感知因素影響；幾何不能證明社群成效。"
+    },
+    "SRC_SAFETY_2024": {
+      "author": "Nuria Vidal-Domper; Susana Herrero-Olarte; Gonzalo Hoyos-Bucheli; Marta Benages-Albert",
+      "year": 2024,
+      "year_basis": "publication",
+      "title": "Do Jane Jacobs's Conditions Fostering the Presence of People Influence Crimes in Public Space? An Econometric Analysis in La Mariscal Neighborhood in Quito",
+      "publisher_or_venue": "Cities 148, 104863",
+      "url": "https://doi.org/10.1016/j.cities.2024.104863",
+      "doi": "10.1016/j.cities.2024.104863",
+      "source_kind": "peer_reviewed_article_abstract",
+      "retrieval_query": "Jane Jacobs natural surveillance public space crime econometric abstract 2024",
+      "retrieved_at_utc": "2026-09-28T10:26:43Z",
+      "reading_scope": "Cities 期刊摘要與書目",
+      "license_review": "未查核來源頁面授權；僅摘述書目或頁面事實，未複製圖文。",
+      "use_and_limit": "支持自然監視、安全感與活動需以情境資料研究；單一城市研究不支持字典對安全的因果分數。"
+    },
+    "SRC_FENIX_I_2019": {
+      "author": "Mei architects and planners",
+      "year": 2019,
+      "year_basis": "completion year",
+      "title": "Fenix I",
+      "publisher_or_venue": "Mei architects and planners",
+      "url": "https://mei-arch.eu/en/projects/fenix-1/",
+      "doi": "",
+      "source_kind": "official_project_page",
+      "retrieval_query": "Mei architects Fenix I Rotterdam warehouse courtyard official project",
+      "retrieved_at_utc": "2026-09-28T10:26:43Z",
+      "reading_scope": "建築師官方案例頁",
+      "license_review": "未查核來源頁面授權；僅摘述書目或頁面事實，未複製圖文。",
+      "use_and_limit": "案例頁描述 Rotterdam 倉庫再利用、混合使用與新舊體量；只作為類型參照。"
+    },
+    "SRC_LOCHAL_2019": {
+      "author": "Civic Architects; Braaksma & Roos; Inside Outside",
+      "year": 2019,
+      "year_basis": "completion year",
+      "title": "LocHal, Tilburg",
+      "publisher_or_venue": "Civic Architects and project partners",
+      "url": "https://www.dutcharchitects.org/projects/lochal-tilburg",
+      "doi": "",
+      "source_kind": "official_project_page",
+      "retrieval_query": "LocHal Tilburg Civic Architects locomotive shed official project",
+      "retrieved_at_utc": "2026-09-28T10:26:43Z",
+      "reading_scope": "建築師組合案例頁",
+      "license_review": "未查核來源頁面授權；僅摘述書目或頁面事實，未複製圖文。",
+      "use_and_limit": "案例頁記錄原機車庫轉為公共圖書館與 90 x 60 m、15 m 高的空間；此尺寸只指該案例。"
+    },
+    "SRC_GARE_MARITIME_2020": {
+      "author": "Neutelings Riedijk Architects",
+      "year": 2020,
+      "year_basis": "completion year",
+      "title": "Gare Maritime",
+      "publisher_or_venue": "Neutelings Riedijk Architects",
+      "url": "https://neutelings-riedijk.com/projects/gare-maritime/",
+      "doi": "",
+      "source_kind": "official_project_page",
+      "retrieval_query": "Gare Maritime Brussels Neutelings Riedijk official project",
+      "retrieved_at_utc": "2026-09-28T10:26:43Z",
+      "reading_scope": "建築師官方案例頁",
+      "license_review": "未查核來源頁面授權；僅摘述書目或頁面事實，未複製圖文。",
+      "use_and_limit": "案例頁描述歷史貨運大廳、內部街道、廣場與綠色步行大道；只作為先例。"
+    },
+    "SRC_AGROTOPIA_2021": {
+      "author": "van Bergen Kolpa Architects; META architectuurbureau",
+      "year": 2021,
+      "year_basis": "completion year",
+      "title": "Rooftop greenhouse Agrotopia",
+      "publisher_or_venue": "van Bergen Kolpa Architects",
+      "url": "https://www.vanbergenkolpa.nl/",
+      "doi": "",
+      "source_kind": "official_project_page",
+      "retrieval_query": "Agrotopia rooftop greenhouse van Bergen Kolpa official project",
+      "retrieved_at_utc": "2026-09-28T10:26:43Z",
+      "reading_scope": "建築師官方案例頁",
+      "license_review": "未查核來源頁面授權；僅摘述書目或頁面事實，未複製圖文。",
+      "use_and_limit": "案例頁描述拍賣市場屋頂上的研究溫室、基座與上層功能；只作為垂直疊加先例。"
+    },
+    "SRC_COPENHILL_2019": {
+      "author": "Bjarke Ingels Group",
+      "year": 2019,
+      "year_basis": "completion year",
+      "title": "CopenHill",
+      "publisher_or_venue": "Bjarke Ingels Group",
+      "url": "https://big.dk/projects/copenhill-2391",
+      "doi": "",
+      "source_kind": "official_project_page",
+      "retrieval_query": "BIG CopenHill Copenhagen waste to energy plant public roof",
+      "retrieved_at_utc": "2026-09-28T10:26:43Z",
+      "reading_scope": "建築師官方案例頁",
+      "license_review": "未查核來源頁面授權；僅摘述書目或頁面事實，未複製圖文。",
+      "use_and_limit": "案例頁描述廢棄物能源設施與屋頂公共休閒路徑；不支持環境效益或安全評分。"
+    },
+    "SRC_MAASSTAD_HOSPITAL_2011": {
+      "author": "Wiegerinck Architecten",
+      "year": 2011,
+      "year_basis": "project completion",
+      "title": "Maasstad Hospital",
+      "publisher_or_venue": "Wiegerinck project page",
+      "url": "https://wiegerinck.nl/en/project/maasstad-hospital/",
+      "source_kind": "architect_project_page",
+      "retrieval_query": "Wiegerinck Maasstad Hospital double comb structure",
+      "retrieved_at_utc": "2026-09-28T11:08:53Z",
+      "reading_scope": "建築師官方案例頁",
+      "license_review": "未查核頁面授權；只摘述案例特徵，未複製圖文。",
+      "use_and_limit": "頁面說明新院連接梳翼以減少盡端；屬梳狀近似與修正案例，沒有支援字典尺寸或分數。"
+    },
+    "SRC_BEIJING_SIHEYUAN_2016": {
+      "author": "Beijing Tourism Network (Visit Beijing)",
+      "year": 2016,
+      "year_basis": "webpage publication date",
+      "title": "Quadrangle Courtyard in Beijing",
+      "publisher_or_venue": "Visit Beijing",
+      "url": "https://english.visitbeijing.com.cn/article/47ONhRtOVtL",
+      "source_kind": "official_city_tourism_page",
+      "retrieval_query": "Visit Beijing Quadrangle Courtyard in Beijing siheyuan",
+      "retrieved_at_utc": "2026-09-28T11:08:53Z",
+      "reading_scope": "城市旅遊官方網頁；檢視索引頁摘要",
+      "license_review": "未查核頁面授權；只摘述案例特徵，未複製圖文。",
+      "use_and_limit": "頁面把 Siheyuan 描述為四側圍合庭院住宅；不代表所有地域、年代或家庭構成。"
+    },
+    "SRC_HISTORIC_ENGLAND_ALTON_EAST_2020": {
+      "author": "Historic England; LCC Architects’ Department",
+      "year": 2020,
+      "year_basis": "listing date; project built 1952–1955",
+      "title": "Landscaping to Alton East Estate",
+      "publisher_or_venue": "National Heritage List for England",
+      "url": "https://historicengland.org.uk/listing/the-list/list-entry/1468240",
+      "source_kind": "official_heritage_listing",
+      "retrieval_query": "Historic England Alton East estate point blocks landscape Alton West slab blocks",
+      "retrieved_at_utc": "2026-09-28T11:08:53Z",
+      "reading_scope": "Historic England 官方名錄網頁",
+      "license_review": "未查核頁面授權；只摘述案例特徵，未複製圖文。",
+      "use_and_limit": "支援 Alton East 點樓群與景觀配置，並對照 Alton West 板樓；歷史案例不是規範原型或分數證據。"
+    },
+    "SRC_WESTERDOKSEILAND_2004": {
+      "author": "de Vries van der Wiel (dvdp)",
+      "year": 2004,
+      "year_basis": "project period end; project period 1997–2004",
+      "title": "Westerdokseiland, Amsterdam",
+      "publisher_or_venue": "dvdp project page",
+      "url": "https://www.dvdp.nl/en/work/westerdokseiland-amsterdam",
+      "source_kind": "architect_project_page",
+      "retrieval_query": "dvdp Westerdokseiland Amsterdam perimeter block courtyard",
+      "retrieved_at_utc": "2026-09-28T11:08:53Z",
+      "reading_scope": "建築與都市設計事務所案例頁",
+      "license_review": "未查核頁面授權；只摘述案例特徵，未複製圖文。",
+      "use_and_limit": "設計團隊描述五個街廓、公共中庭與周邊街廓、塔樓及 patio 的混合；非通用密度或性能標準。"
+    },
+    "SRC_WISSELSPOOR_ZECC_2022": {
+      "author": "Zecc Architecten",
+      "year": 2022,
+      "year_basis": "project period end; project period 2017–2022",
+      "title": "Wisselspoor Utrecht",
+      "publisher_or_venue": "Zecc Architecten project page",
+      "url": "https://www.zecc.nl/en/project/2034/Wisselspoor-Utrecht",
+      "source_kind": "architect_project_page",
+      "retrieval_query": "Zecc Wisselspoor Utrecht row houses Block C",
+      "retrieved_at_utc": "2026-09-28T11:08:53Z",
+      "reading_scope": "建築師官方案例頁",
+      "license_review": "未查核頁面授權；只摘述案例特徵，未複製圖文。",
+      "use_and_limit": "頁面列出 21 戶及 Block C 三戶排屋；供排屋單體和街列組合比較，不支援尺寸估算。"
+    },
+    "SRC_BARCELONA_SUPERILLES_UNDATED": {
+      "author": "Ajuntament de Barcelona, Sant Martí District",
+      "year": null,
+      "year_basis": "publication date not listed",
+      "title": "Superilles a Sant Martí",
+      "publisher_or_venue": "Barcelona City Council",
+      "url": "https://ajuntament.barcelona.cat/santmarti/ca/lajuntament/estrategia-i-accio-de-govern/plans-i-projectes/superilles-sant-marti",
+      "source_kind": "municipal_project_page",
+      "retrieval_query": "Ajuntament de Barcelona Superilles Sant Marti",
+      "retrieved_at_utc": "2026-09-28T11:08:53Z",
+      "reading_scope": "巴塞隆納市政府專案網頁；頁面未標出版年份",
+      "license_review": "未查核頁面授權；只摘述案例特徵，未複製圖文。",
+      "use_and_limit": "說明市府的 Superilla 計畫與參與程序；未用作成效評估或量化比較。"
+    },
+    "SRC_HUDSON_L_HOUSE_2025": {
+      "author": "Steven Holl Architects; The Plan",
+      "year": 2025,
+      "year_basis": "2025 award feature context; not construction year",
+      "title": "Hudson L-House: domestic life and curatorial practice in a flexible live-work space in New York",
+      "publisher_or_venue": "The Plan",
+      "url": "https://www.theplan.it/award-2025-house/hudson-l-house-domestic-life-and-curatorial-practice-in-a-flexible-live-work-space-in-new-york-steven-holl-architects",
+      "source_kind": "architecture_project_feature",
+      "retrieval_query": "The Plan Hudson L-House Steven Holl L-shaped plan",
+      "retrieved_at_utc": "2026-09-28T11:08:53Z",
+      "reading_scope": "建築專題網頁搜尋摘要（原站限制直接擷取）",
+      "license_review": "未查核頁面授權；只摘述案例特徵，未複製圖文。",
+      "use_and_limit": "摘要描述 L 形平面圍出庭院；2025 為專題的獎項年份，不是施工日期。"
+    },
+    "SRC_TENJINCHO_RIBA_2026": {
+      "author": "Hiroyuki Ito Architects",
+      "year": 2026,
+      "year_basis": "RIBA award edition; not construction year",
+      "title": "Tenjincho Place",
+      "publisher_or_venue": "Royal Institute of British Architects",
+      "url": "https://www.riba.org/explore/awards/international-awards/international-awards-for-excellence/2026/tenjincho-place/",
+      "source_kind": "architectural_award_case_page",
+      "retrieval_query": "RIBA 2026 Tenjincho Place U-shaped plan courtyard",
+      "retrieved_at_utc": "2026-09-28T11:08:53Z",
+      "reading_scope": "RIBA 官方案例頁",
+      "license_review": "未查核頁面授權；只摘述案例特徵，未複製圖文。",
+      "use_and_limit": "頁面稱其為變形 U 形環繞中庭；不代表所有 U 形樓的日照、私密或共享效果。"
+    },
+    "SRC_XUEFU_MIDDLE_SCHOOL_2024": {
+      "author": "Multi-Architecture; ArchDaily",
+      "year": 2024,
+      "year_basis": "webpage publication date",
+      "title": "Renovation of Xuefu Middle School / Multi-Architecture",
+      "publisher_or_venue": "ArchDaily",
+      "url": "https://www.archdaily.com/1020816/renovation-of-xuefu-middle-school-multi-architecture",
+      "source_kind": "architecture_project_page",
+      "retrieval_query": "ArchDaily Xuefu Middle School E-shaped teaching building",
+      "retrieved_at_utc": "2026-09-28T11:08:53Z",
+      "reading_scope": "建築案例網頁",
+      "license_review": "未查核頁面授權；只摘述案例特徵，未複製圖文。",
+      "use_and_limit": "案例頁明確辨識 E 形教學樓；不支持字典尺寸、密度或氛圍分數。"
+    },
+    "SRC_H_HOUSE_ARCHDAILY_2020": {
+      "author": "Co.lab Design Studio; ArchDaily",
+      "year": 2020,
+      "year_basis": "webpage publication date; project year 2019",
+      "title": "H-House / Co.lab Design Studio",
+      "publisher_or_venue": "ArchDaily",
+      "url": "https://www.archdaily.com/942200/h-house-cab-design-studio",
+      "source_kind": "architecture_project_page",
+      "retrieval_query": "ArchDaily H-House Co.lab H-shaped plan",
+      "retrieved_at_utc": "2026-09-28T11:08:53Z",
+      "reading_scope": "建築案例網頁",
+      "license_review": "未查核頁面授權；只摘述案例特徵，未複製圖文。",
+      "use_and_limit": "建築師文字明確稱 H 形平面；僅作形態參照，不代表其主觀居住效果可複製。"
+    },
+    "SRC_JEREZ_PATIO_HOUSE_2024": {
+      "author": "Enrique Jerez Abajo; Rebeca Piedra Dueñas; José M. Méndez Primo",
+      "year": 2024,
+      "year_basis": "project period end; project period 2020–2024",
+      "title": "Patio House",
+      "publisher_or_venue": "Jerez Arquitectos",
+      "url": "https://www.jerezarquitectos.com/en/project/patio-house/",
+      "source_kind": "architect_project_page",
+      "retrieval_query": "Jerez Arquitectos Patio House 5x5 patio Burgos",
+      "retrieved_at_utc": "2026-09-28T11:08:53Z",
+      "reading_scope": "建築師官方案例頁",
+      "license_review": "未查核頁面授權；只摘述案例特徵，未複製圖文。",
+      "use_and_limit": "頁面列出約 5×5 m 內院及控制開啟的室內外關係；個案數值不應移植到新基地。"
+    },
+    "SRC_MARINA_CITY_CAC_1967": {
+      "author": "Bertrand Goldberg Associates; Chicago Architecture Center",
+      "year": 1967,
+      "year_basis": "project completion",
+      "title": "Marina City",
+      "publisher_or_venue": "Chicago Architecture Center",
+      "url": "https://www.architecture.org/online-resources/buildings-of-chicago/marina-city",
+      "source_kind": "architecture_history_case_page",
+      "retrieval_query": "Chicago Architecture Center Marina City mixed use tower",
+      "retrieved_at_utc": "2026-09-28T11:08:53Z",
+      "reading_scope": "建築中心案例百科網頁",
+      "license_review": "未查核頁面授權；只摘述案例特徵，未複製圖文。",
+      "use_and_limit": "頁面列出住宅塔樓與零售、停車及休閒用途；供高層混合基座組合比較，非普遍性能證據。"
+    },
+    "SRC_HOFBLOCK_HOOGWERF_2018": {
+      "author": "Frederique van Andel",
+      "year": 2018,
+      "year_basis": "journal page publication date",
+      "title": "Hofblok Hoogwerf Amsterdam: Diener & Diener",
+      "publisher_or_venue": "DASH | Delft Architectural Studies on Housing",
+      "url": "https://journals.open.tudelft.nl/dash/article/view/4634",
+      "source_kind": "scholarly_case_abstract",
+      "retrieval_query": "DASH Hofblok Hoogwerf Amsterdam courtyard perimeter galleries",
+      "retrieved_at_utc": "2026-09-28T11:08:53Z",
+      "reading_scope": "TU Delft DASH 案例摘要與書目",
+      "license_review": "未查核頁面授權；只摘述案例特徵，未複製圖文。",
+      "use_and_limit": "摘要描述圍院住宅、穿越門洞與內院廊道；不代表公共通行權或居住者使用感受。"
+    },
+    "SRC_CHEONGGYCHEON_SEOUL_2005": {
+      "author": "Seoul Metropolitan Government",
+      "year": 2005,
+      "year_basis": "restoration project completion",
+      "title": "Cheonggyecheon Stream Restoration Project",
+      "publisher_or_venue": "Seoul Metropolitan Government",
+      "url": "https://english.seoul.go.kr/service/amusement/stream/1-cheonggyecheon/",
+      "source_kind": "municipal_project_page",
+      "retrieval_query": "Seoul Metropolitan Government Cheonggyecheon restoration project",
+      "retrieved_at_utc": "2026-09-28T11:08:53Z",
+      "reading_scope": "首爾市政府案例網頁",
+      "license_review": "未查核頁面授權；只摘述案例特徵，未複製圖文。",
+      "use_and_limit": "頁面記錄溪流修復及步道綠化；水質、流量、生態與熱舒適需另作基地和時段驗證。"
+    },
+    "SRC_PALEY_PARK_PPS_2024": {
+      "author": "Project for Public Spaces",
+      "year": 2024,
+      "year_basis": "webpage update date",
+      "title": "Paley Park",
+      "publisher_or_venue": "Project for Public Spaces",
+      "url": "https://www.pps.org/places/paley-park/",
+      "source_kind": "public_space_case_page",
+      "retrieval_query": "Project for Public Spaces Paley Park vest pocket park",
+      "retrieved_at_utc": "2026-09-28T11:08:53Z",
+      "reading_scope": "公共空間研究組織案例頁；頁面更新 2024",
+      "license_review": "未查核頁面授權；只摘述案例特徵，未複製圖文。",
+      "use_and_limit": "描述一處 vest-pocket park 及其設計要素；不代表所有口袋公園均有相同管理或使用結果。"
+    },
+    "SRC_BRYANT_PARK_HISTORY_2017": {
+      "author": "Bryant Park Corporation",
+      "year": 2017,
+      "year_basis": "webpage publication date",
+      "title": "Bryant Park History",
+      "publisher_or_venue": "Bryant Park",
+      "url": "https://bryantpark.org/blog/history",
+      "source_kind": "public_space_case_page",
+      "retrieval_query": "Bryant Park history oval plaza central lawn",
+      "retrieved_at_utc": "2026-09-28T11:08:53Z",
+      "reading_scope": "公園營運方歷史網頁",
+      "license_review": "未查核頁面授權；只摘述案例特徵，未複製圖文。",
+      "use_and_limit": "記錄公園的廣場與路徑格局；屬案例史料，不提供通用空間尺寸或活力因果。"
+    },
+    "SRC_WOONERF_DASH_2018": {
+      "author": "Annenies Kraaij; Harald Mooij",
+      "year": 2018,
+      "year_basis": "journal page publication date",
+      "title": "Plan Documentation: of the Woonerf",
+      "publisher_or_venue": "DASH | Delft Architectural Studies on Housing",
+      "url": "https://journals.open.tudelft.nl/dash/article/view/4588",
+      "source_kind": "scholarly_case_abstract",
+      "retrieval_query": "DASH woonerf Emmerhout Park Rozendaal",
+      "retrieved_at_utc": "2026-09-28T11:08:53Z",
+      "reading_scope": "TU Delft DASH 論文摘要與書目",
+      "license_review": "未查核頁面授權；只摘述案例特徵，未複製圖文。",
+      "use_and_limit": "摘要列舉 Emmerhout 與 Park Rozendaal 等居住街案例；不代表今日交通狀態或安全成效。"
+    },
+    "SRC_ALEXANDRIA_CANYON_2020": {
+      "author": "Nada Gaber; Ahmed Ibrahim; Ahmed B. Rashad; Essam Wahba; Zeyad El-Sayad; Ali F. Bakr",
+      "year": 2020,
+      "year_basis": "journal publication date",
+      "title": "Improving pedestrian micro-climate in urban canyons: City Center of Alexandria, Egypt",
+      "publisher_or_venue": "Urban Climate",
+      "url": "https://doi.org/10.1016/j.uclim.2020.100670",
+      "source_kind": "scholarly_article_abstract",
+      "retrieval_query": "ScienceDirect Alexandria City Center urban canyon microclimate study",
+      "retrieved_at_utc": "2026-09-28T11:08:53Z",
+      "reading_scope": "ScienceDirect 論文摘要頁",
+      "license_review": "未查核頁面授權；只摘述案例特徵，未複製圖文。",
+      "use_and_limit": "摘要支持該研究以亞歷山卓歷史密集街區街谷為案例；研究效應不能外推為通用形態分數。"
+    },
+    "SRC_RIJNHAVEN_ROTTERDAM_2026": {
+      "author": "Gemeente Rotterdam",
+      "year": 2026,
+      "year_basis": "municipal project page includes September 2026 update",
+      "title": "Rijnhaven",
+      "publisher_or_venue": "Gemeente Rotterdam",
+      "url": "https://www.rotterdam.nl/rijnhaven",
+      "source_kind": "municipal_masterplan_page",
+      "retrieval_query": "Gemeente Rotterdam Rijnhaven promenade floating park waterfront",
+      "retrieved_at_utc": "2026-09-28T11:08:53Z",
+      "reading_scope": "鹿特丹市政府專案網頁；含 2026 年 9 月更新",
+      "license_review": "未查核頁面授權；只摘述案例特徵，未複製圖文。",
+      "use_and_limit": "步道、浮動公園與公共岸線仍屬規劃／施工中的專案構想；不可當成完工案例或實測結果。"
+    }
+  }
+}

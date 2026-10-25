@@ -1,0 +1,42 @@
+{
+  "id": "GUARALDA2014",
+  "title": "Review article: Form-based planning and liveable urban environments",
+  "authors": [
+    "Mirko Guaralda"
+  ],
+  "year": 2014,
+  "venue_or_publisher": "Urban Morphology, 18(2), 157–162",
+  "doi": "https://doi.org/10.51347/jum.v18i2.4042",
+  "isbn": null,
+  "openalex_id": "https://openalex.org/W2948166708",
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "形式準則與規劃規則的城市形態討論",
+  "region": "澳洲與美國規劃文獻",
+  "method": "評論三本關於形式規劃、城市規則及都市發展的專書",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "Guaralda 的評論文章並讀 Talen、Marshall 與 Tomlinson 關於規劃規則、形式準則及城市發展的專書。",
+      "strength": "MIXED",
+      "scope_zh": "這是文獻評論，支持規則與形態討論的研究範圍，不能替任一地方法規作效果判定。",
+      "assessment_basis": "ABSTRACT_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "OpenAlex and Crossref",
+    "query": {
+      "record_id": "https://openalex.org/W2948166708",
+      "doi": "10.51347/jum.v18i2.4042",
+      "title": "Review article: Form-based planning and liveable urban environments",
+      "author": "Mirko Guaralda",
+      "year": 2014
+    },
+    "matched_record_id": "https://doi.org/10.51347/jum.v18i2.4042",
+    "checked_at_utc": "2026-10-09T00:15:05Z",
+    "match_notes_zh": "以允許的公開書目 API 精確比對題名、首位作者與出版年；只保留自行撰寫的摘要範圍說明，未保存全文或 API 摘要原文。"
+  },
+  "limitations_zh": "本條目依公開摘要或書目範圍整理；未下載全文，也不外推摘要未列的樣本、效果量或因果結論。",
+  "metadata_licence_zh": "僅保存公開書目欄位與自行撰寫的繁體中文摘要；未複製摘要全文或論文全文。"
+}

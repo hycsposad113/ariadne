@@ -1,0 +1,91 @@
+{
+  "id": "KU-MOR-097",
+  "domain": "MOR",
+  "subtopic": "Spacematrix 變數與圖表解讀",
+  "type": "method",
+  "title_zh": "Spacematrix 的 FSI、GSI 與網絡密度 N；二維圖只能展示其中兩軸",
+  "title_en": "Spacematrix variables FSI, GSI and network density N; a two-axis plot shows only two",
+  "summary_zh": "OpenAlex 所收錄的 2017 年論文摘要列出 FSI、GSI 和網絡密度 N 作為 Spacematrix 的核心變數，並以聚類區分建築類型和街道模式。本先例庫只繪製 FSI–GSI 兩軸，因此圖是三變數框架的投影，不能當作完整分類。N 本次未計算，避免將點位誤稱為完整 Spacematrix 類型。FSI 又受高度缺值和 3.0 m／層換算假設影響。",
+  "key_points_zh": [
+    "FSI 和 GSI 使用同一研究窗面積，但高度缺值使 FSI 只代表已知量體下限。",
+    "第三變數 N 未算；散布圖只供兩個指標之間比較。",
+    "套用類型前須確認街網長度、研究窗與道路分類一致。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "library_id": "SPACEMATRIX_VARS2017",
+        "claim_zh": "OpenAlex 摘要列出 FSI、GSI、network density N 三項核心密度變數，並報告以聚類辨識建築與街道模式。",
+        "effect_or_value": null,
+        "study_design": "多變數聚類分析",
+        "context_region": "跨城市形態分類",
+        "locator": null,
+        "claim_verification": "CANONICAL_CROSS_CHECK_PENDING",
+        "limitations_zh": "此處僅使用 OpenAlex 書目與摘要，待指揮官逐條獨立交叉核對。"
+      },
+      {
+        "library_id": "BILJECKI2022",
+        "claim_zh": "跨城市形態指標需公開資料來源、尺度與計算規則，才能重現其比較。",
+        "effect_or_value": null,
+        "study_design": "形態指標研究",
+        "context_region": "全球多城市資料",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW",
+        "limitations_zh": "不從該研究推導本基地密度門檻。"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "在散布圖旁列出高度覆蓋率和街網狀態。",
+    "N 尚未取得時不套用三變數分類標籤。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "先用 FSI–GSI 對照案例，N 列為未取得。",
+      "tradeoff_zh": "便於閱讀，但少一個關鍵街網變數。"
+    },
+    {
+      "option_zh": "統一道路類別後補算 N，再做三變數分類。",
+      "tradeoff_zh": "增加拓樸和範圍檢查工作。"
+    }
+  ],
+  "applies_when_zh": "解讀本先例庫中 FSI–GSI 的案例點位和方法界線。",
+  "not_applicable_when_zh": "不把散點距離、象限或分群直接轉成品質排序或 M4H 設計門檻。",
+  "debates_zh": "二維圖較容易比較，但若省略網絡密度，會掩蓋街網差異。",
+  "sources": [
+    {
+      "library_id": "SPACEMATRIX_VARS2017",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "BILJECKI2022",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "城市密度與街網分類",
+  "region": "跨城市形態分類",
+  "claim_verification": "CANONICAL_CROSS_CHECK_PENDING",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "Spacematrix 變數與散布圖"
+    }
+  ],
+  "version": "kb4-precedents-2026-10-09",
+  "check": {
+    "method_zh": "在同一個研究窗中以已知建築層數計 FSI、以足跡面積計 GSI；N 另由已定義的道路中心線長度和研究窗面積計算。",
+    "inputs": [
+      "研究窗公頃數",
+      "足跡與樓層資料",
+      "統一道路分類與線長"
+    ],
+    "logic_zh": "FSI 和 GSI 只構成三個變數中的兩項；在 N 補算前，圖表不標註三維群集。",
+    "limitations_zh": "FSI 受高度缺值影響，N 未計算；論文摘要主張需跨來源核對。"
+  }
+}

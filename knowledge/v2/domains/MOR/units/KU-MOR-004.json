@@ -1,0 +1,107 @@
+{
+  "id": "KU-MOR-004",
+  "domain": "MOR",
+  "subtopic": "地塊、街廓與建築類型",
+  "type": "method",
+  "title_zh": "地塊、街廓與建築類型｜分析方法",
+  "title_en": "Plots, blocks and building types — Analytical method",
+  "summary_zh": "用地籍、歷史地圖與現況建築疊圖，分辨邊界延續、合併和切割。 讀「地塊、街廓與建築類型｜分析方法」時，限制：地籍資料不完整或宗地權利不清時，只能描述可見形態；同時把都市形態研究具有多種歷史與方法傳統；建築、地塊及街道應共同閱讀列為核對條件。 落實「地塊、街廓與建築類型｜分析方法」時可先細分地塊可支持增量更新；整合大宗地較易統一建造但降低街巷穿透，再用都市形態研究具有多種歷史與方法傳統；建築、地塊及街道應共同閱讀核對方案的空間後果。",
+  "key_points_zh": [
+    "用地籍、歷史地圖與現況建築疊圖，分辨邊界延續、合併和切割。",
+    "用地籍、歷史地圖與現況建築疊圖，分辨邊界延續、合併和切割。",
+    "讀「地塊、街廓與建築類型｜分析方法」時，限制：地籍資料不完整或宗地權利不清時，只能描述可見形態；同時把都市形態研究具有多種歷史與方法傳統；建築、地塊及街道應共同閱讀列為核對條件。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "都市形態研究具有多種歷史與方法傳統；建築、地塊及街道應共同閱讀。",
+        "library_id": "MOUDON97",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "跨地域",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "荷蘭新舊城案例將路網整合、密度與混合用途聯合診斷，初步行為資料檢驗並非通用因果模型。",
+        "library_id": "YE14",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "荷蘭",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "落實「地塊、街廓與建築類型｜分析方法」時可先細分地塊可支持增量更新；整合大宗地較易統一建造但降低街巷穿透，再用都市形態研究具有多種歷史與方法傳統；建築、地塊及街道應共同閱讀核對方案的空間後果。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "「地塊、街廓與建築類型｜分析方法」可把取向落在先畫出街道—街廓—宗地層級，再配置建築與開放空間，但需連同都市形態研究具有多種歷史與方法傳統；建築、地塊及街道應共同閱讀決定適用方式。",
+      "tradeoff_zh": "此選項把「地塊、街廓與建築類型｜分析方法」的工作放在都市形態研究具有多種歷史與方法傳統；建築、地塊及街道應共同閱讀上；需要承擔的協調或維護代價則由「荷蘭新舊城案例將路網整合、密度與混合用途聯合診斷，初步行為資料檢驗並非通用因果模型」界定。",
+      "library_ids": [
+        "MOUDON97",
+        "YE14"
+      ]
+    },
+    {
+      "option_zh": "「地塊、街廓與建築類型｜分析方法」可把取向落在細分地塊可支持增量更新；整合大宗地較易統一建造但降低街巷穿透，但需連同都市形態研究具有多種歷史與方法傳統；建築、地塊及街道應共同閱讀決定適用方式。",
+      "tradeoff_zh": "此選項把「地塊、街廓與建築類型｜分析方法」的工作放在都市形態研究具有多種歷史與方法傳統；建築、地塊及街道應共同閱讀上；需要承擔的協調或維護代價則由「荷蘭新舊城案例將路網整合、密度與混合用途聯合診斷，初步行為資料檢驗並非通用因果模型」界定。",
+      "library_ids": [
+        "MOUDON97",
+        "YE14"
+      ]
+    }
+  ],
+  "applies_when_zh": "「地塊、街廓與建築類型｜分析方法」可在適用於比較歷史街區、更新地與新開發的細部粒度時使用，前提是都市形態研究具有多種歷史與方法傳統；建築、地塊及街道應共同閱讀與來源情境相符。",
+  "not_applicable_when_zh": "若都市形態研究具有多種歷史與方法傳統；建築、地塊及街道應共同閱讀不成立，就不能把「地塊、街廓與建築類型｜分析方法」的結論延伸到其他情況；地籍資料不完整或宗地權利不清時，只能描述可見形態。",
+  "debates_zh": "荷蘭新舊城案例將路網整合、密度與混合用途聯合診斷，初步行為資料檢驗並非通用因果模型。",
+  "sources": [
+    {
+      "library_id": "MOUDON97",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "YE14",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "跨學派形態學；整合形態診斷",
+  "region": "跨地域；荷蘭",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "地塊、街廓與建築類型"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "地塊、街廓與建築類型"
+    },
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.330J Theory of City Form",
+      "topic": "地塊、街廓與建築類型"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban form and density",
+      "topic": "地塊、街廓與建築類型"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-MOR-001",
+    "KU-MOR-002",
+    "KU-MOR-003"
+  ],
+  "counter_unit_ids": [
+    "KU-MOR-005"
+  ]
+}

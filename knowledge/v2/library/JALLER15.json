@@ -1,0 +1,45 @@
+{
+  "id": "JALLER15",
+  "title": "Large urban freight traffic generators: Opportunities for city logistics initiatives",
+  "authors": [
+    "Miguel Jaller",
+    "Xiaokun (Cara) Wang",
+    "Jose Holguin-Veras"
+  ],
+  "year": 2015,
+  "venue_or_publisher": "Journal of Transport and Land Use",
+  "doi": "10.5198/jtlu.2015.406",
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "都市貨運與配送需求",
+  "region": [
+    "都會區；摘要未列具體城市"
+  ],
+  "method": "以作者估計的 freight trip generation models 辨識單體與群集貨運產生點",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "摘要指出一般商業設施亦可能形成重要貨運產生點；摘要未提供可核對的城市清單或效果值。",
+      "strength": "MIXED",
+      "scope_zh": "只支持此來源已核對的書目或摘要範圍；不提供 M4H 法規、通用因果或未查證的設計門檻。",
+      "assessment_basis": "ABSTRACT_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref",
+    "query": {
+      "title": "Large urban freight traffic generators: Opportunities for city logistics initiatives",
+      "author": "Miguel Jaller; Xiaokun (Cara) Wang; Jose Holguin-Veras",
+      "year": 2015
+    },
+    "matched_record_id": "10.5198/jtlu.2015.406",
+    "checked_at_utc": "2026-10-08T10:29:31Z",
+    "match_notes_zh": "人工比對公開 API 的書名、作者和年份；摘要只用於核對本地自行撰寫的主張，未保存摘要原文。"
+  },
+  "limitations_zh": "未下載全文；書目查證不等於完整主張或數值驗證。",
+  "critique_relationship_zh": "此處列出的替代來源只供交叉閱讀，不宣稱來源間互引或逐條反駁。",
+  "metadata_licence_zh": "只保存公開 API 書目和自行撰寫的摘要；精確 metadata licence 未核驗，標 UNKNOWN。"
+}

@@ -1,0 +1,212 @@
+.road-snap-panel {
+  box-sizing: border-box;
+  display: grid;
+  gap: 0.9rem;
+  min-width: 0;
+  padding: 1rem;
+  color: #e7edf4;
+  background: #151d29;
+  border: 1px solid #354353;
+  border-radius: 0.8rem;
+  font: inherit;
+}
+
+.road-snap-panel h2,
+.road-snap-panel h3,
+.road-snap-panel p {
+  margin: 0;
+}
+
+.road-snap-panel h2 {
+  font-size: 1rem;
+}
+
+.road-snap-panel h3 {
+  font-size: 0.88rem;
+}
+
+.road-snap-panel__header,
+.road-snap-panel__candidate-heading,
+.road-snap-panel__actions,
+.road-snap-panel__context > div {
+  align-items: flex-start;
+  display: flex;
+  gap: 0.75rem;
+  justify-content: space-between;
+}
+
+.road-snap-panel__header p,
+.road-snap-panel__selected,
+.road-snap-panel__context dt,
+.road-snap-panel__candidate > span:not(.road-snap-panel__candidate-heading),
+.road-snap-panel__empty {
+  color: #aebdcd;
+  font-size: 0.78rem;
+}
+
+.road-snap-panel__header p {
+  margin-top: 0.3rem;
+}
+
+.road-snap-panel__readiness {
+  flex: 0 0 auto;
+  border: 1px solid #718398;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 0.25rem 0.55rem;
+}
+
+.road-snap-panel__readiness--blocked {
+  color: #ffb7a8;
+  border-color: #9d594e;
+}
+
+.road-snap-panel__readiness--fixture_only {
+  color: #f3d58b;
+  border-color: #877443;
+}
+
+.road-snap-panel__readiness--draft {
+  color: #a8e4c5;
+  border-color: #4d886b;
+}
+
+.road-snap-panel__context {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1rem;
+  margin: 0;
+}
+
+.road-snap-panel__context > div {
+  align-items: baseline;
+  justify-content: flex-start;
+  gap: 0.35rem;
+  min-width: 0;
+}
+
+.road-snap-panel__context dt,
+.road-snap-panel__context dd {
+  margin: 0;
+}
+
+.road-snap-panel__context dd {
+  max-width: 22rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font: 0.75rem ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+
+.road-snap-panel__notice {
+  border-left: 3px solid #e2bc67;
+  color: #f3d58b;
+  font-size: 0.78rem;
+  padding: 0.3rem 0.55rem;
+}
+
+.road-snap-panel__list ul,
+.road-snap-panel__result ul {
+  display: grid;
+  gap: 0.55rem;
+  list-style: none;
+  margin: 0.55rem 0 0;
+  padding: 0;
+}
+
+.road-snap-panel__candidate {
+  background: #1c2735;
+  border: 1px solid #3a4b5f;
+  border-radius: 0.55rem;
+  color: inherit;
+  cursor: pointer;
+  display: grid;
+  gap: 0.3rem;
+  padding: 0.7rem;
+  text-align: left;
+  width: 100%;
+}
+
+.road-snap-panel__candidate:hover,
+.road-snap-panel__candidate.is-selected {
+  background: #243747;
+  border-color: #72b9c2;
+}
+
+.road-snap-panel__candidate:focus-visible,
+.road-snap-panel__actions button:focus-visible {
+  outline: 2px solid #8ee1e9;
+  outline-offset: 2px;
+}
+
+.road-snap-panel__candidate:disabled,
+.road-snap-panel__actions button:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.road-snap-panel__candidate-heading {
+  align-items: baseline;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.road-snap-panel__candidate-heading > span {
+  color: #c1cedb;
+  font-size: 0.75rem;
+}
+
+.road-snap-panel__candidate .road-snap-panel__semantics {
+  color: #d3e2e5;
+}
+
+.road-snap-panel__actions {
+  align-items: center;
+  flex-wrap: wrap;
+  border-top: 1px solid #354353;
+  padding-top: 0.75rem;
+}
+
+.road-snap-panel__actions > div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.road-snap-panel__actions button {
+  border: 1px solid #60758b;
+  border-radius: 0.45rem;
+  cursor: pointer;
+  font: inherit;
+  font-size: 0.75rem;
+  padding: 0.45rem 0.65rem;
+}
+
+.road-snap-panel__secondary {
+  background: #1c2735;
+  color: #e7edf4;
+}
+
+.road-snap-panel__primary {
+  background: #286b75;
+  border-color: #56a9af !important;
+  color: #fff;
+  font-weight: 700;
+}
+
+.road-snap-panel__result {
+  background: #1d302d;
+  border-radius: 0.5rem;
+  color: #bce5d1;
+  font-size: 0.78rem;
+  padding: 0.65rem;
+}
+
+@media (max-width: 520px) {
+  .road-snap-panel__header,
+  .road-snap-panel__actions {
+    align-items: stretch;
+    flex-direction: column;
+  }
+}

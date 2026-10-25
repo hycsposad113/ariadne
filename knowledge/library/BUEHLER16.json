@@ -1,0 +1,44 @@
+{
+  "id": "BUEHLER16",
+  "title": "Bikeway Networks: A Review of Effects on Cycling",
+  "authors": [
+    "Ralph Buehler",
+    "Jennifer Dill"
+  ],
+  "year": 2015,
+  "venue_or_publisher": "Transport Reviews",
+  "doi": "10.1080/01441647.2015.1069908",
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "自行車網路實證",
+  "region": [
+    "跨地域"
+  ],
+  "method": "文獻綜述",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "自行車網路與騎行效果需整體評估；局部新增路段不能自行證明模式轉移。",
+      "strength": "MIXED",
+      "scope_zh": "僅限本研究或概念框架；不提供 M4H 的實測、法律效力或本卡試算門檻。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref",
+    "query": {
+      "title": "Bikeway Networks: A Review of Effects on Cycling",
+      "author": "Ralph Buehler",
+      "year": 2015
+    },
+    "matched_record_id": "10.1080/01441647.2015.1069908",
+    "checked_at_utc": "2026-10-08T03:43:16Z",
+    "match_notes_zh": "人工核對 API 書名、作者與出版年；縮寫、大小寫或副標題省略視為同一書目。只確認書目，不代表全文主張已審核。 使用重新查詢確認的版本／線上出版年，保留原 id 以維持卡片引用；原稿年份或作者已更正。"
+  },
+  "limitations_zh": "本次只使用公開書目與可得摘要；沒有下載或查閱全文。書目查證不等於主張、因果或參數驗證。",
+  "critique_relationship_zh": "known_critiques 是編者指定的批評或替代閱讀，不宣稱實際互引或逐一反駁；Ratti 與 Hillier／Penn 的標題記錄確認明確對話。",
+  "metadata_licence_zh": "只保存公開 API 書目與自行摘要；未取得全文授權，未保存 API 摘要原文。精確 metadata licence 未經本任務核驗，標 UNKNOWN。"
+}

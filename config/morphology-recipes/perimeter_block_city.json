@@ -1,0 +1,69 @@
+{
+  "schema_version": "morphology-recipe-v1",
+  "id": "perimeter_block_city",
+  "label_zh": "周邊街廓城市",
+  "strategy_family": "perimeter_city",
+  "summary_zh": "以圍合街廓與連續街道界面建立清晰街道空間，保留中庭與巷道穿行。",
+  "atmosphere_targets": {
+    "enclosure": 0.78,
+    "privacy": 0.66,
+    "street_vitality": 0.78,
+    "human_scale": 0.76,
+    "legibility": 0.8,
+    "belonging": 0.8,
+    "permeability": 0.48
+  },
+  "atmosphere_dimension_weights": {
+    "enclosure": 1.2,
+    "privacy": 0.9,
+    "street_vitality": 1.1,
+    "human_scale": 1.0,
+    "legibility": 1.0,
+    "belonging": 1.1,
+    "permeability": 0.8
+  },
+  "zone_function_atmosphere_targets": {
+    "energy_hub": {"industrial_scale": 0.62, "legibility": 0.84, "density_feel": 0.64, "diversity": 0.72},
+    "residential_tidal_park": {"green_blue": 0.88, "sunlight": 0.78, "permeability": 0.78, "belonging": 0.78},
+    "art_space_recreation": {"sociability": 0.88, "diversity": 0.86, "permeability": 0.82, "green_blue": 0.72},
+    "residential": {"human_scale": 0.82, "privacy": 0.68, "belonging": 0.82, "perceived_safety": 0.74},
+    "maker_recycle_hub": {"industrial_scale": 0.84, "diversity": 0.78, "legibility": 0.78, "street_vitality": 0.7}
+  },
+  "block_assembly_types": [
+    {"id": "block.perimeter", "weight": 1.15},
+    {"id": "block.hybrid", "weight": 0.9}
+  ],
+  "building_types": [
+    {"id": "building.courtyard_closed", "weight": 1.15},
+    {"id": "building.courtyard_open_corner", "weight": 1.0},
+    {"id": "building.u_block", "weight": 0.95},
+    {"id": "building.l_block", "weight": 0.9},
+    {"id": "building.rowhouse", "weight": 0.75}
+  ],
+  "selection_weights": "Each dictionary entry weight multiplies its weighted atmosphere-query fit; scores rank options and are not performance evidence.",
+  "road_grid": {
+    "cross_street_spacing_m": 100.0,
+    "longitudinal_spacing_m": 90.0,
+    "site_edge_inset_m": 26.0,
+    "alley_every_nth_cross_street": 3
+  },
+  "road_widths_m": {
+    "main": 14.0,
+    "main_source": "ASSUMED_FROM_space.street_canyon.street_width_m",
+    "secondary": 10.0,
+    "secondary_source": "ASSUMED_FROM_space.shared_street.total_width_m",
+    "alley": 6.0,
+    "alley_source": "ASSUMED_FROM_space.shared_street.carriageway_width_m",
+    "quay_promenade": 6.0,
+    "quay_source": "DESIGNER_DECISION_6M"
+  },
+  "block_size_target_m": {"minimum": 60.0, "maximum": 120.0},
+  "building_edge_setback_m": 5.0,
+  "density_target_fraction": 0.84,
+  "green_axis_width_m": 0.0,
+  "quay_sample_spacing_m": 36.0,
+  "zone_use_notes_zh": "zones.geojson 僅作 PREFERENCE；街廓用途標籤沿用覆蓋該街廓的分區名稱。",
+  "open_space_tradeoff_zh": "open-spaces.geojson 優先保留為非建築空間；必要道路仍依正交骨架連接。",
+  "quay_promenade": {"width_m": 6.0, "inside_waterfront_band_m": [3.0, 15.0], "allows_building": false},
+  "assumptions_zh": ["道路寬度為策略 ASSUMED 值。", "形態字典氛圍分數只用於候選排序。", "提案未經設計者接受。"]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "HEALEY97",
+  "title": "Collaborative planning",
+  "authors": [
+    "Patsy Healey"
+  ],
+  "year": 1997,
+  "venue_or_publisher": "Palgrave Macmillan; Palgrave; UBC Press; Univ of British Columbia Pr; PALGRAVE MACMILLAN; Macmillan Publishers Limited; Bloomsbury UK",
+  "doi": null,
+  "isbn": "9780774805971",
+  "openalex_id": null,
+  "kind": "ACADEMIC_BOOK",
+  "tradition": "協作規劃",
+  "region": [
+    "英國",
+    "跨地域"
+  ],
+  "method": "規劃理論",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "分歧中的協作需要呈現參與者與討論程序；技術評估不替代人類決定。",
+      "strength": "THEORETICAL",
+      "scope_zh": "僅限本研究或概念框架；不提供 M4H 的實測、法律效力或本卡試算門檻。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [
+    "WATSON09"
+  ],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Open Library",
+    "query": {
+      "title": "Collaborative planning",
+      "author": "Patsy Healey",
+      "year": 1997
+    },
+    "matched_record_id": "/works/OL2903503W",
+    "checked_at_utc": "2026-10-08T09:12:32Z",
+    "match_notes_zh": "本任務重新以允許的公開書目 API 核對書名、作者與出版年；只確認書目，不代表全文主張已核實。"
+  },
+  "limitations_zh": "僅核對公開書目及可得摘要，未下載全文；書目驗證不代表全文因果或所有主張均已確認。",
+  "critique_relationship_zh": "known_critiques 是編者指定的批評或替代閱讀，不宣稱實際互引或逐一反駁；Ratti 與 Hillier／Penn 的標題記錄確認明確對話。",
+  "metadata_licence_zh": "保存書目欄位和自行撰寫的來源說明；未保存 API 摘要或全文，資料服務授權細節未由本任務判定。"
+}

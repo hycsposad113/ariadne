@@ -1,0 +1,65 @@
+{
+  "id": "KU-PUB-064",
+  "domain": "PUB",
+  "subtopic": "夜間經濟",
+  "type": "design_principle",
+  "title_zh": "夜間照明需限制光害",
+  "title_en": "Lighting must limit ecological spill",
+  "summary_zh": "人行辨識、路口安全和生態暗區有不同的光需求。方向性燈具與局部照明可避免不必要的天空散射。某些人群仍需要更亮的路段或可求助點。夜間公共安全和都市生態之間需要可調時段管理。",
+  "key_points_zh": [
+    "人行辨識、路口安全和生態暗區有不同的光需求",
+    "方向性燈具與局部照明可避免不必要的天空散射"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "人行辨識、路口安全和生態暗區有不同的光需求。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "瑞典",
+        "library_id": "NORDH09",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "夜間公共安全和都市生態之間需要可調時段管理。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "以活動區、居住邊界和生態通道分區設計照明控制。"
+  ],
+  "applies_when_zh": "適用於河岸、公園和住宅交界的夜間更新。",
+  "not_applicable_when_zh": "不應把全域熄燈當作唯一環境方案。",
+  "debates_zh": "夜間公共安全和都市生態之間需要可調時段管理。",
+  "sources": [
+    {
+      "library_id": "NORDH09",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "PESCHARDT12",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "恢復性環境與北歐景觀",
+  "region": "瑞典",
+  "curriculum_refs": [
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "夜間經濟"
+    },
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "夜間經濟"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-PUB-063"
+  ]
+}

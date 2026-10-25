@@ -1,0 +1,75 @@
+{
+  "id": "KU-ECO-022",
+  "domain": "ECO",
+  "subtopic": "都市森林與樹冠",
+  "type": "value_range",
+  "title_zh": "微氣候測量的街廓尺度",
+  "title_en": "Block-scale cooling range",
+  "summary_zh": "中西部城市研究指出冷卻效應在約六十至九十公尺街廓尺度較強。空間尺度會改變樹冠指標與溫度的關係。其他街道網格和風場可能產生不同作用尺度。尺度結果是統計解析度，不是設計網格要求。",
+  "key_points_zh": [
+    "中西部城市研究指出冷卻效應在約六十至九十公尺街廓尺度較強",
+    "空間尺度會改變樹冠指標與溫度的關係"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "中西部城市研究指出冷卻效應在約六十至九十公尺街廓尺度較強。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "歐洲",
+        "library_id": "TZUOLAS07",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "尺度結果是統計解析度，不是設計網格要求。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "做情境比較時同步記錄取樣路線和街廓幾何。"
+  ],
+  "applies_when_zh": "適用於規劃本地熱環境測量。",
+  "not_applicable_when_zh": "不適合把六十至九十公尺當作樹木間距標準。",
+  "debates_zh": "尺度結果是統計解析度，不是設計網格要求。",
+  "sources": [
+    {
+      "library_id": "TZUOLAS07",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "NG09",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "綠色基礎設施與健康",
+  "region": "歐洲",
+  "curriculum_refs": [
+    {
+      "school": "UCL Bartlett",
+      "course": "Critical Debates in Urban Design",
+      "topic": "都市森林與樹冠"
+    },
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "都市森林與樹冠"
+    }
+  ],
+  "version": "2.0.0",
+  "values": [
+    {
+      "name": "微氣候測量的街廓尺度",
+      "range": "約 60–90 m",
+      "unit": "公尺",
+      "context": "美國 Upper Midwest 單城研究較強冷卻關聯的街廓尺度；非規範間距。；「微氣候測量的街廓尺度」僅供其研究脈絡內比較，不構成本基地法規。",
+      "library_id": "ZITER19"
+    }
+  ],
+  "related_unit_ids": [
+    "KU-ECO-021",
+    "KU-ECO-023"
+  ]
+}

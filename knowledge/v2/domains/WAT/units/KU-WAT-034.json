@@ -1,0 +1,74 @@
+{
+  "id": "KU-WAT-034",
+  "domain": "WAT",
+  "subtopic": "洪水風險與多層安全",
+  "type": "design_principle",
+  "title_zh": "地面空間應呈現可預期的淹水路徑",
+  "title_en": "地面空間應呈現可預期的淹水路徑",
+  "summary_zh": "場地可能積水時，設計要辨認低點、流動通道和建築入口，而不是只把滯洪面積畫成藍綠色。防災規劃把土地安排連到應急功能；雨水設計要求水路接入工程系統。可見流路有助於設計審查和維護。",
+  "key_points_zh": [
+    "微地形決定水會先接觸哪些入口。",
+    "行人路線和救援動線可能在積水時分離。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "library_id": "ADGER2000",
+        "claim_zh": "摘要指出社群韌性和生態韌性可能相互關聯，但生態系統韌性是否必然轉化為社群韌性仍未明確；本單元 KU-WAT-034 對照「場地可能積水時，設計要辨認低點、流動通道和建築入口，而不是只把滯洪面積畫成藍綠色」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "ABSTRACT_REVIEW",
+        "effect_or_value": null,
+        "study_design": "概念分析",
+        "context_region": "社群與依賴環境資源的生計脈絡",
+        "locator": null
+      },
+      {
+        "library_id": "OSTROM2009",
+        "claim_zh": "摘要說明跨領域共同框架有助累積社會－生態系統知識，並指出使用者有時能自組織管理資源；這不是免除政府責任的普遍規則；本單元 KU-WAT-034 對照「場地可能積水時，設計要辨認低點、流動通道和建築入口，而不是只把滯洪面積畫成藍綠色」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "ABSTRACT_REVIEW",
+        "effect_or_value": null,
+        "study_design": "跨學科概念框架",
+        "context_region": "跨地域自然資源治理",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "在平面與剖面標出不同情境的水流方向。",
+    "檢查地下室出入口是否落在集中逕流線上。"
+  ],
+  "applies_when_zh": "適用於基地地面層與街道的雨洪整合。",
+  "not_applicable_when_zh": "缺少地形測量時不可判定實際淹水深度。",
+  "debates_zh": "地面模型仍需與管網和受納水位連接，才能估算真實水深。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "ADGER2000",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "OSTROM2009",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "街區水路和公共安全",
+  "region": "美國都市規劃；跨地域",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "洪水風險與多層安全"
+    },
+    {
+      "school": "MIT",
+      "course": null,
+      "topic": "洪水風險與多層安全"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0"
+}

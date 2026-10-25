@@ -1,0 +1,46 @@
+{
+  "id": "YOUNG1990",
+  "title": "Justice and the politics of difference",
+  "authors": [
+    "Iris Marion Young"
+  ],
+  "year": 1990,
+  "venue_or_publisher": "Princeton University Press",
+  "doi": null,
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "ACADEMIC_BOOK",
+  "tradition": "difference, inclusion and structural justice",
+  "region": [
+    "United States"
+  ],
+  "method": "normative political theory",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "書目範圍定位差異、壓迫與政治包容的正義論述；在都市設計應用上仍須轉譯成可爭辯的制度與空間問題。",
+      "strength": "THEORETICAL",
+      "scope_zh": "僅依已核對書目範圍作學術定位；不保存或轉述 API 摘要為研究結論。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [
+    "FANSTEIN10",
+    "SOJA2010"
+  ],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Open Library",
+    "query": {
+      "title": "Justice and the politics of difference",
+      "author": "Iris Marion Young",
+      "year": 1990
+    },
+    "matched_record_id": "/works/OL2623547W",
+    "checked_at_utc": "2026-10-08T10:23:58Z",
+    "match_notes_zh": "API 回傳的作品／文章題名、作者與年份相符；不以書評、引用或同名異作代替原始書目。"
+  },
+  "limitations_zh": "本輪只核對公開書目欄位與題名範圍，未下載全文；具體理論或效果需由 Claude 依原始文獻另行交叉核對。",
+  "critique_relationship_zh": "列出的批評來源用於對讀不同理論與範圍，不表示它們逐條反駁本書目。",
+  "metadata_licence_zh": "保存書目欄位與自撰範圍描述；未保存全文或 API 摘要。"
+}

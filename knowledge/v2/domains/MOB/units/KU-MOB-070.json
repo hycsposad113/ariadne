@@ -1,0 +1,82 @@
+{
+  "id": "KU-MOB-070",
+  "domain": "MOB",
+  "subtopic": "停車政策與最低停車標準的影響",
+  "type": "value_range",
+  "title_zh": "Porirua 市中心的停車用地比例",
+  "title_en": "Parking land share in Porirua city centre",
+  "summary_zh": "Hulme-Moir 對 Porirua CBD 的個案將 24% 面積計為汽車停車場。這是特定時間和土地分類方式下的市中心觀察值，不能推成其他城市的平均。它可協助看見停車用地占比如何進入街廓與地塊討論。此處的市中心被計作停車場的土地比例是附來源的比較參照，不是本基地法規。",
+  "key_points_zh": [
+    "24% 是 Porirua 個案的面積比例。",
+    "土地分類口徑會影響停車用地估算。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "研究摘要明列 Porirua CBD 有 24% 面積計為汽車停車場。",
+        "library_id": "HULME_MOIR10",
+        "claim_verification": "ABSTRACT_REVIEW",
+        "effect_or_value": "24%",
+        "study_design": "CBD 個案土地使用繪圖與政策分析",
+        "context_region": "紐西蘭 Porirua",
+        "locator": null
+      },
+      {
+        "claim_zh": "停車供給和最低標準會改變土地成本與開發配置。",
+        "library_id": "SHOUP05",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "停車政策經濟分析",
+        "context_region": "美國",
+        "locator": null
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "市中心被計作停車場的土地比例",
+      "range": "24%",
+      "unit": "市中心土地面積比例",
+      "context": "紐西蘭 Porirua CBD 土地使用調查；用途：描述特定市中心停車用地占比，檢視最低停車要求的空間影響。；「市中心被計作停車場的土地比例」僅供來源脈絡內的比較，不是本基地法規、M4H 門檻或通用配額。",
+      "library_id": "HULME_MOIR10"
+    }
+  ],
+  "design_implications_zh": [
+    "用這個比例作為土地分配問題的案例，並以本地地籍和停車場圖層重算。"
+  ],
+  "applies_when_zh": "討論停車場占地時，以地籍和土地分類重算本地面積比例，並與 Porirua 案例分開。",
+  "not_applicable_when_zh": "Porirua 的占比不是本地停車供給上限或最低標準。",
+  "debates_zh": "停車用地節省後是否帶來更緊湊發展，仍與交通替代和規劃制度相關。",
+  "sources": [
+    {
+      "library_id": "HULME_MOIR10",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "SHOUP05",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "停車政策與土地經濟",
+  "region": "紐西蘭 Porirua CBD 土地使用調查",
+  "curriculum_refs": [
+    {
+      "school": "UCL Bartlett",
+      "course": "Sustainable Futures by Design",
+      "topic": "停車政策與最低停車標準的影響：課綱對應主題"
+    },
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "停車政策與最低停車標準的影響：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-MOB-050"
+  ]
+}

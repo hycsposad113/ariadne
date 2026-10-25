@@ -1,0 +1,82 @@
+{
+  "id": "KU-LUP-066",
+  "domain": "LUP",
+  "subtopic": "15 分鐘城市與可及性",
+  "type": "value_range",
+  "title_zh": "五分鐘自行車圈換算",
+  "title_en": "Five-minute cycling distance conversion",
+  "summary_zh": "以 12–20 km/h 騎行速度乘 5 分鐘，理想行程約 1.0–1.7 km。 路口停等、起步、停車和自行車道缺口都會令實際範圍變小。 荷蘭研究把步行與自行車視為不同模式，不能把兩者的速度和設施條件混為一談。",
+  "key_points_zh": [
+    "以 12–20 km/h 騎行速度乘 5 分鐘，理想行程約 1.0–1.7 km",
+    "路口停等、起步、停車和自行車道缺口都會令實際範圍變小",
+    "荷蘭研究把步行與自行車視為不同模式，不能把兩者的速度和設施條件混為一談"
+  ],
+  "evidence": {
+    "strength": "ASSUMED",
+    "findings": [
+      {
+        "claim_zh": "5 分鐘以12–20 km/h換算，理想距離為約 1.0–1.7 km；這是透明情境計算，非研究觀測出的通用服務標準。",
+        "effect_or_value": "約 1.0–1.7 km",
+        "study_design": "明示速度與時間的公式換算；非實證測量",
+        "context_region": "荷蘭與其他自行車城市的情境計算",
+        "library_id": "CROW",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "五分鐘自行車圈換算",
+      "range": "約 1.0–1.7 km",
+      "unit": "km",
+      "context": "荷蘭與其他自行車城市的情境計算；用途：短程自行車服務初篩；計算：12–20 km/h × 5 分鐘，僅為無停等、無繞行的直線情境，非文獻直接報告的數值；方法背景書目：TON19；需改以路網與使用者條件核算，這不是本基地法規。",
+      "library_id": "TON19"
+    }
+  ],
+  "design_implications_zh": [
+    "繪製五分鐘自行車路網時，把路口延滯、停車點和路段連續性納入阻抗。"
+  ],
+  "applies_when_zh": "用於短程騎行服務情境計算；應將速度假設與路網和停車條件分開說明。",
+  "not_applicable_when_zh": "單純用巡航速度形成的圓不能代表兒童、載貨自行車或高交叉口密度街道的可達範圍。",
+  "debates_zh": "較大的自行車服務圈可能改善服務選擇，但使用者年齡、坡度和安全感會造成不同可達範圍。",
+  "sources": [
+    {
+      "library_id": "CROW",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "TON19",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "自行車設計實務",
+  "region": "荷蘭與其他自行車城市的情境計算",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Planning Complex Cities",
+      "topic": "15 分鐘城市與可及性"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Cities by Design",
+      "topic": "15 分鐘城市與可及性"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "15 分鐘城市與可及性"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Sustainable Futures by Design",
+      "topic": "15 分鐘城市與可及性"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008"
+}

@@ -1,0 +1,81 @@
+{
+  "id": "KU-STR-002",
+  "domain": "STR",
+  "subtopic": "街道階層與功能",
+  "type": "empirical_finding",
+  "title_zh": "街網整合與自然移動",
+  "title_en": "Street configuration and natural movement",
+  "summary_zh": "組態分析與行人、車輛移動觀察的比較研究，研究脈絡為英國案例；具體城市未由本次 API 摘要確認。網路關係提供移動分布的解釋線索，但用途吸引會調節流量。全域網格性質與穿越移動相關，整合度在該研究比較的組態變數中最穩定重要；沿街零售可能放大既有通過量。限制包括案例範圍和研究時期有限，關聯不能直接轉成另一座城市的人數預測。",
+  "key_points_zh": [
+    "網路關係提供移動分布的解釋線索，但用途吸引會調節流量",
+    "限制：案例範圍和研究時期有限，關聯不能直接轉成另一座城市的人數預測",
+    "效果或方向：全域網格性質與穿越移動相關，整合度在該研究比較的組態變數中最穩定重要；沿街零售可能放大既有通過量"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "街網整合與自然移動｜網路關係提供移動分布的解釋線索，但用途吸引會調節流量",
+        "effect_or_value": "全域網格性質與穿越移動相關，整合度在該研究比較的組態變數中最穩定重要；沿街零售可能放大既有通過量",
+        "study_design": "組態分析與行人、車輛移動觀察的比較研究",
+        "context_region": "英國案例；具體城市未由本次 API 摘要確認",
+        "library_id": "HILLIER93",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "街網整合與自然移動｜日常用途、街道互動及多樣性可作城市生活的討論起點；不能從外觀推定安全或社群",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "JACOBS61",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "把局部街段放回整體路網比較，並另外量測目的地活動"
+  ],
+  "applies_when_zh": "若本地觀察單位與英國案例；具體城市未由本次 API 摘要確認的研究脈絡可對照，可用「網路關係提供移動分布的解釋線索，但用途吸引會調節流量」作為街道階層與功能的比較線索。",
+  "not_applicable_when_zh": "這項英國案例；具體城市未由本次 API 摘要確認的研究結果不能單獨證明因果或預測其他城市的街段；原研究案例範圍和研究時期有限，關聯不能直接轉成另一座城市的人數預測。",
+  "debates_zh": "關聯能否外推；案例範圍和研究時期有限，關聯不能直接轉成另一座城市的人數預測；檢視「街網整合與自然移動」的研究解讀時，還需判斷「限制：案例範圍和研究時期有限，關聯不能直接轉成另一座城市的人數預測」會如何改變方案結論。",
+  "sources": [
+    {
+      "library_id": "HILLIER93",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "JACOBS61",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "街道形態與交通系統",
+  "region": "英國案例；具體城市未由本次 API 摘要確認",
+  "curriculum_refs": [
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "街道階層與功能：課綱對應主題"
+    },
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.330J Theory of City Form",
+      "topic": "街道階層與功能：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-STR-001",
+    "KU-STR-003",
+    "KU-STR-004",
+    "KU-STR-005",
+    "KU-STR-006",
+    "KU-STR-007",
+    "KU-STR-008"
+  ]
+}

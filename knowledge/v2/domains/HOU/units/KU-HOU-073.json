@@ -1,0 +1,83 @@
+{
+  "id": "KU-HOU-073",
+  "domain": "HOU",
+  "subtopic": "住宅類型",
+  "type": "value_range",
+  "title_zh": "三房家庭住宅面積",
+  "title_en": "Three-bedroom family dwelling floor area",
+  "summary_zh": "家庭住房的有效面積標準依地區、收入和住宅制度而異。 把臥室數和可變隔間一起報告，考慮兒童、長者和居家工作需求。 記錄 歐洲與北美家庭住房比較 與「三房住宅室內淨面積」的量測分母，再和另一種尺度或用途並排比較。",
+  "key_points_zh": [
+    "三房家庭住宅的方案比較可用約 85–120 m²／單元作工作範圍，並檢查不同家庭成員共享空間。",
+    "家庭住房的有效面積標準依地區、收入和住宅制度而異。",
+    "把臥室數和可變隔間一起報告，考慮兒童、長者和居家工作需求。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "三房家庭住宅的方案比較可用約 85–120 m²／單元作工作範圍，並檢查不同家庭成員共享空間。",
+        "effect_or_value": "約 85–120",
+        "study_design": "跨案例尺度對照或明示假設的規劃計算",
+        "context_region": "歐洲與北美家庭住房比較",
+        "library_id": "MILLIGAN2003",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "三房家庭住宅面積",
+      "range": "約 85–120",
+      "unit": "m²／單元",
+      "context": "歐洲與北美家庭住房比較；用途：三房住宅室內淨面積；對照書目：MILLIGAN2003；適用於制度或形態比較，這不是本基地法規。",
+      "library_id": "MILLIGAN2003"
+    }
+  ],
+  "design_implications_zh": [
+    "把臥室數和可變隔間一起報告，考慮兒童、長者和居家工作需求。",
+    "記錄 歐洲與北美家庭住房比較 與「三房住宅室內淨面積」的量測分母，再和另一種尺度或用途並排比較。"
+  ],
+  "applies_when_zh": "用於比較歐洲與北美家庭住房比較的三房住宅室內淨面積，並明示此數值的來源、年份和面積分母。",
+  "not_applicable_when_zh": "家庭住房的有效面積標準依地區、收入和住宅制度而異。",
+  "debates_zh": "以固定戶型滿足平均家庭可能忽略單親、合住和跨世代家庭。 查核：所引文獻與數值關係不明；NDSS 三房約 74–108 m² 可作對照。",
+  "sources": [
+    {
+      "library_id": "MILLIGAN2003",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "SCANLON2007",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "低收入住宅可負擔性制度比較",
+  "region": "歐洲與北美家庭住房比較",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "住宅類型"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "住宅類型"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "住宅類型"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "住宅類型"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+}

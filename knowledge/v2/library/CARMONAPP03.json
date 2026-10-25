@@ -1,0 +1,40 @@
+{
+  "id": "CARMONAPP03",
+  "title": "Public Places Urban Spaces",
+  "authors": [
+    "Matthew Carmona"
+  ],
+  "year": 2002,
+  "venue_or_publisher": "Architectural Press",
+  "doi": null,
+  "isbn": "0750636327",
+  "kind": "ACADEMIC_BOOK",
+  "tradition": "公共空間與都市設計",
+  "region": [
+    "跨地域"
+  ],
+  "method": "都市設計專書；未核讀全文",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "公開書目記錄確認本書的題名、作者／編者與版次；此記錄僅作書目識別，不推定全書論證。",
+      "strength": "THEORETICAL",
+      "scope_zh": "書目範圍定位；不提供本基地法規、實測值或通用設計門檻。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Open Library",
+    "query": {
+      "title": "Public Places Urban Spaces",
+      "author": "Matthew Carmona",
+      "year": 2002
+    },
+    "matched_record_id": "/books/OL3565496M",
+    "checked_at_utc": "2026-10-08T16:12:32Z",
+    "match_notes_zh": "Open Library edition 記錄列書名 Public places-urban spaces、Matthew Carmona、多作者標記與 2002 年，出版社 Architectural Press、ISBN 0750636327；原候選 2003 年份未獲支持，改用已核對的 2002 edition。只確認書目身份。"
+  },
+  "limitations_zh": "只核對 Open Library 2002 edition 書目，未讀全文；不據此宣稱該書逐項分析 Nolli 圖或特定基地的公共通達性。",
+  "metadata_licence_zh": "公開書目 metadata；授權未核對 UNKNOWN。"
+}

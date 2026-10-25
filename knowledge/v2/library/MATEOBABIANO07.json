@@ -1,0 +1,44 @@
+{
+  "id": "MATEOBABIANO07",
+  "title": "Street space sustainability in Asia: the role of the Asian pedestrian and street culture",
+  "authors": [
+    "Iderlina B. Mateo-Babiano",
+    "Hitoshi Ieda"
+  ],
+  "year": 2007,
+  "venue_or_publisher": "Journal of the Eastern Asia Society for Transportation Studies",
+  "doi": "10.11175/eastpro.2007.0.242.0",
+  "openalex_id": "https://openalex.org/W1746128512",
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "亞洲街道文化與步行",
+  "region": [
+    "東亞",
+    "亞洲"
+  ],
+  "method": "文化詮釋與街道使用研究回顧",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "亞洲街道使用的文化詮釋指出，偏重車輛的設計標準容易忽略行人行為與地方社會性；這是脈絡化觀點，不代表亞洲內部同質。",
+      "strength": "THEORETICAL",
+      "scope_zh": "只支持所述研究脈絡；不提供 M4H 法規、普遍因果或未查證的設計門檻。",
+      "assessment_basis": "ABSTRACT_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "OpenAlex",
+    "query": {
+      "title": "Street space sustainability in Asia: the role of the Asian pedestrian and street culture",
+      "author": "Iderlina B. Mateo-Babiano; Hitoshi Ieda",
+      "year": 2007
+    },
+    "matched_record_id": "https://openalex.org/W1746128512",
+    "checked_at_utc": "2026-10-08T08:54:33Z",
+    "match_notes_zh": "OpenAlex 命中標題、作者、年份、期刊與摘要。"
+  },
+  "limitations_zh": "只使用公開書目與 API 摘要核對；未下載或查閱全文，摘要以外的頁碼和量化結果不推定。",
+  "critique_relationship_zh": "引用只表示本單元並置不同研究觀點，不宣稱作者間互引或逐一反駁。",
+  "metadata_licence_zh": "只保存公開 API 書目與自行撰寫摘要；未保存 API 摘要原文。"
+}

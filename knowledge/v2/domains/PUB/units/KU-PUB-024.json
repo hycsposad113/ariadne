@@ -1,0 +1,61 @@
+{
+  "id": "KU-PUB-024",
+  "domain": "PUB",
+  "subtopic": "座位與停留",
+  "type": "design_principle",
+  "title_zh": "移動座椅能揭示使用需求",
+  "title_en": "Movable chairs reveal preferences",
+  "summary_zh": "可移動座椅使使用者自行調整群組規模、朝向和距離。座椅被搬動的痕跡也是理解場地偏好的觀察資料。物件遺失、噪音和無障礙動線需要管理安排。自由調整提升自主性，也可能令維護責任和秩序規範加重。",
+  "key_points_zh": [
+    "可移動座椅使使用者自行調整群組規模、朝向和距離",
+    "座椅被搬動的痕跡也是理解場地偏好的觀察資料"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "可移動座椅使使用者自行調整群組規模、朝向和距離。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "美國",
+        "library_id": "AJACOBS93",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "自由調整提升自主性，也可能令維護責任和秩序規範加重。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "以試辦期觀察座椅移動位置，並與使用者短訪談對照。"
+  ],
+  "applies_when_zh": "適用於尚未確定固定座位配置的空間。",
+  "not_applicable_when_zh": "不宜在強風、濕地或夜間保管條件不足處直接照搬。",
+  "debates_zh": "自由調整提升自主性，也可能令維護責任和秩序規範加重。",
+  "sources": [
+    {
+      "library_id": "AJACOBS93",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "FANSTEIN10",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "街道案例比較",
+  "region": "美國",
+  "curriculum_refs": [
+    {
+      "school": "UCL Bartlett",
+      "course": "Critical Debates in Urban Design",
+      "topic": "座位與停留"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-PUB-023",
+    "KU-PUB-025"
+  ]
+}

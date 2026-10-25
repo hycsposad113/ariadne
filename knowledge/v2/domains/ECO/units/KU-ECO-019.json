@@ -1,0 +1,65 @@
+{
+  "id": "KU-ECO-019",
+  "domain": "ECO",
+  "subtopic": "生態網絡與連結度",
+  "type": "design_principle",
+  "title_zh": "道路穿越設施需回到物種證據",
+  "title_en": "Crossing structures need species evidence",
+  "summary_zh": "涵洞、樹冠橋和低速道路設計可以降低部分屏障。設施成效會依目標物種的行為和維護狀況變化。未見物種使用不必然表示設施毫無功能，也可能是位置不當。結構完成與生態連通成功是兩個不同的驗收節點。",
+  "key_points_zh": [
+    "涵洞、樹冠橋和低速道路設計可以降低部分屏障",
+    "設施成效會依目標物種的行為和維護狀況變化"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "涵洞、樹冠橋和低速道路設計可以降低部分屏障。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "澳洲",
+        "library_id": "BROWN09",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "結構完成與生態連通成功是兩個不同的驗收節點。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "施工前後設置相機、足跡或其他合適監測。"
+  ],
+  "applies_when_zh": "適用於明確道路生態衝突區。",
+  "not_applicable_when_zh": "不宜把一種通道形式複製到所有物種。",
+  "debates_zh": "結構完成與生態連通成功是兩個不同的驗收節點。",
+  "sources": [
+    {
+      "library_id": "BROWN09",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "AHERN11",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "都市水治理",
+  "region": "澳洲",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "生態網絡與連結度"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "生態網絡與連結度"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-ECO-018"
+  ]
+}

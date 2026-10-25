@@ -1,0 +1,98 @@
+{
+  "id": "KU-LUP-025",
+  "domain": "LUP",
+  "subtopic": "混合使用尺度：建築、街廓、街區",
+  "type": "empirical_finding",
+  "title_zh": "混合用途策略不止一種垂直共生",
+  "title_en": "Layouts for productive mixed use",
+  "summary_zh": "案例不是隨機樣本，不能推定某一配置普遍更好。 將空間佈局與管理安排作成並列設計選項。 研究設計：案例比較與空間配置分析；地區：布魯塞爾。 限制：案例不是隨機樣本，不能推定某一配置普遍更好。",
+  "key_points_zh": [
+    "布魯塞爾案例提出善鄰、空間重疊與容忍等不同的生產—居住關係，垂直共置只是其中一種。",
+    "研究設計：案例比較與空間配置分析；地區：布魯塞爾",
+    "限制：案例不是隨機樣本，不能推定某一配置普遍更好。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "布魯塞爾案例提出善鄰、空間重疊與容忍等不同的生產—居住關係，垂直共置只是其中一種。",
+        "effect_or_value": "三案呈現多種配置和干擾管理方式",
+        "study_design": "案例比較與空間配置分析",
+        "context_region": "布魯塞爾",
+        "library_id": "RYCKEWAERT2021",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "將空間佈局與管理安排作成並列設計選項。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "將空間佈局與管理安排作成並列設計選項。",
+      "tradeoff_zh": "「混合用途策略不止一種垂直共生」採用「將空間佈局與管理安排作成並列設計選項」時，得失要沿著布魯塞爾案例提出善鄰、空間重疊與容忍等不同的生產—居住關係，垂直共置只是其中一種檢查；案例不是隨機樣本，不能推定某一配置普遍更好。",
+      "library_ids": [
+        "RYCKEWAERT2021",
+        "KIRCHHERR17"
+      ]
+    },
+    {
+      "option_zh": "「混合用途策略不止一種垂直共生」可把取向落在樓層混用可縮短活動距離；街區混用較易分隔噪音與裝卸，但需連同布魯塞爾案例提出善鄰、空間重疊與容忍等不同的生產—居住關係，垂直共置只是其中一種決定適用方式。",
+      "tradeoff_zh": "「混合用途策略不止一種垂直共生」採用「「混合用途策略不止一種垂直共生」可把取向落在樓層混用可縮短活動距離；街區混用較易分隔噪音與裝卸，但需連同布魯塞爾案例提出善鄰、空間重疊與容忍等不同的生產—居住關係，垂直共置只是其中一種決定適用方式」時，得失要沿著布魯塞爾案例提出善鄰、空間重疊與容忍等不同的生產—居住關係，垂直共置只是其中一種檢查；案例不是隨機樣本，不能推定某一配置普遍更好。",
+      "library_ids": [
+        "RYCKEWAERT2021",
+        "KIRCHHERR17"
+      ]
+    }
+  ],
+  "applies_when_zh": "用於與布魯塞爾研究情境可比、且量測定義相近的分析。",
+  "not_applicable_when_zh": "案例不是隨機樣本，不能推定某一配置普遍更好。",
+  "debates_zh": "案例不是隨機樣本，不能推定某一配置普遍更好。",
+  "sources": [
+    {
+      "library_id": "RYCKEWAERT2021",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "KIRCHHERR17",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "生產性城市與混合用途；循環經濟批評",
+  "region": "布魯塞爾，比利時；跨地域",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Planning Complex Cities",
+      "topic": "混合使用尺度：建築、街廓、街區"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Cities by Design",
+      "topic": "混合使用尺度：建築、街廓、街區"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "混合使用尺度：建築、街廓、街區"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Sustainable Futures by Design",
+      "topic": "混合使用尺度：建築、街廓、街區"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-LUP-018",
+    "KU-LUP-019",
+    "KU-LUP-020"
+  ],
+  "counter_unit_ids": [
+    "KU-LUP-022"
+  ]
+}

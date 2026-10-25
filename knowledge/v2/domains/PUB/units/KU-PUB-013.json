@@ -1,0 +1,66 @@
+{
+  "id": "KU-PUB-013",
+  "domain": "PUB",
+  "subtopic": "邊緣效應",
+  "type": "design_principle",
+  "title_zh": "界面厚度提供過渡而非阻隔",
+  "title_en": "A thick edge can mediate publicness",
+  "summary_zh": "門廊、騎樓、台階和外擺區可以在室內外之間形成可停留的中間帶。中間帶若只有消費者可用，形式上的開放仍會落成選擇性進入。界面需配合氣候、產權和消防通道條件。過渡帶能緩和室內外界線，也會造成公共性責任模糊。",
+  "key_points_zh": [
+    "門廊、騎樓、台階和外擺區可以在室內外之間形成可停留的中間帶",
+    "中間帶若只有消費者可用，形式上的開放仍會落成選擇性進入"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "門廊、騎樓、台階和外擺區可以在室內外之間形成可停留的中間帶。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "美國",
+        "library_id": "WHYTE80",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "過渡帶能緩和室內外界線，也會造成公共性責任模糊。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "區分可通行、可停留與可經營的範圍，並把維護責任納入方案。"
+  ],
+  "applies_when_zh": "適用於沿街設施與公共步行區的銜接。",
+  "not_applicable_when_zh": "不適用於把任何私人門前空間都計為公共空間。",
+  "debates_zh": "過渡帶能緩和室內外界線，也會造成公共性責任模糊。",
+  "sources": [
+    {
+      "library_id": "WHYTE80",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "SHARMIN17",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "公共生活觀察",
+  "region": "美國",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "邊緣效應"
+    },
+    {
+      "school": "MIT",
+      "course": "11.330J Theory of City Form",
+      "topic": "邊緣效應"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-PUB-012",
+    "KU-PUB-014"
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "id": "KU-CAS-032",
+  "domain": "CAS",
+  "subtopic": "住宅與街區—工業遺產轉型",
+  "type": "case",
+  "title_zh": "Strijp-S：以分期開放保存飛利浦工業構造",
+  "title_en": "Strijp-S: Phased Urban Reuse of a Philips Industrial Campus",
+  "summary_zh": "埃因霍芬 Strijp-S 原為飛利浦封閉工業園區，轉型以舊廠房再用、分期解除圍界和新住宅／工作用途混合推進。場址管理方記錄基地約 27 公頃、2002 年由開發商與市府相關機構購入，並以四階段逐步改造。Pięt 的 2024 年論文以 Strijp-S 的多樣性與住宅街區為研究題目；本單元只確認書目範圍，不從題名推定研究發現。管理方也指出部分工廠被列為地方或國家紀念物，保存與新建的關係仍在演變。",
+  "key_points_zh": [
+    "逐步移除圍界讓舊工業區重新接入城市，但土地控制與開發時序仍由公私夥伴主導。",
+    "舊廠房、創意用途與新住宅共同構成混合計畫；現有資料未提供各用途面積比例。"
+  ],
+  "evidence": {
+    "strength": "CASE_EVIDENCE",
+    "findings": [
+      {
+        "claim_zh": "Pięt 的論文以 Strijp-S 為例，研究住宅街區如何透過多樣性塑造活力；本輪未核讀摘要或全文。",
+        "effect_or_value": "僅確認研究議題範圍，不將題名當成實證結果",
+        "study_design": "學術論文；本輪僅書目範圍核對",
+        "context_region": "荷蘭埃因霍芬",
+        "library_id": "PIET2024STRIJPS",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "Strijp-S 管理方公布基地約 27 公頃，說明 2002 年轉手、混合居住／工作／公共用途規劃，以及部分舊廠房的紀念物身分。",
+        "effect_or_value": "管理方公布的場址範圍、規劃歷程與用途",
+        "study_design": "場址管理者歷史資料",
+        "context_region": "荷蘭埃因霍芬 Strijp-S",
+        "library_id": "STRIJPS_HISTORY2026",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "把保留建築的結構狀況、可負擔的租用方案與臨時用途編入分期表，降低一次性清空造成的空置。",
+    "以道路、公共交通和公共空間逐步打開園區，同時監測圍牆撤除後的實際通行權與營業成本。"
+  ],
+  "applies_when_zh": "大型企業撤離後留下連片工業建築，且業主可容許用途在後續建設前分階段導入時。",
+  "not_applicable_when_zh": "若污染、安全修復或產權安排未解決，場地暫時開放可能讓社群承受風險，不能取代完整整治與營運計畫。",
+  "debates_zh": "創意產業和文化活動能讓工業空間繼續使用，也會提高場址品牌價值；管理方公開資料不足以回答小型工作室能否長期負擔租金，或原有生產活動是否有位置。論文題名涉及「多樣性」，但本輪未讀研究內容，不能把它當成成功評估；下一步應核對租金、企業存續、紀念物用途與公共進入資料。",
+  "sources": [
+    {
+      "library_id": "PIET2024STRIJPS",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "STRIJPS_HISTORY2026",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "荷蘭工業遺產、創意產業與公私合夥分期更新",
+  "region": "西歐／荷蘭埃因霍芬",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": null,
+      "topic": "工業園區轉型、混合用途與城市更新"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": null,
+      "topic": "工業遺產與創意經濟"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": null,
+      "topic": "公私治理與分期開發"
+    }
+  ],
+  "case": {
+    "location": "荷蘭埃因霍芬 Strijp-S",
+    "period": "飛利浦於 2002 年出售園區後分期轉型；2000 年代至今仍持續建設",
+    "area_ha": 27,
+    "fsi": null,
+    "gsi": null,
+    "program_mix": "住宅、創意工作空間、文化活動、零售餐飲、公共設施與保留工業建築；官方未公布本單元可用的用途配比。",
+    "key_strategies_zh": [
+      "保留受指定保護的工廠並讓新建築與歷史構造共存。",
+      "以多階段更新銜接企業退場與新用途，逐步移除封閉圍界並增加城市連接。"
+    ],
+    "outcomes_zh": [
+      "場址管理方公布範圍約 27 公頃，並記錄規劃採四階段推進。",
+      "官方歷史頁記錄 2002 年購入、2005 年前後形成混合用途規劃，舊廠房包含紀念物。"
+    ],
+    "critiques_zh": [
+      "管理方資料描述四階段規劃與發展，但沒有足夠數據量化各階段的空置時間或居民可負擔程度。",
+      "園區轉為創意地標後，應持續檢查公共通行、原租戶／生產者留存，以及保護建築的日常維護成本。"
+    ]
+  },
+  "version": "v2.0"
+}

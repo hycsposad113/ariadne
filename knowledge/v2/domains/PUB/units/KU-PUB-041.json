@@ -1,0 +1,61 @@
+{
+  "id": "KU-PUB-041",
+  "domain": "PUB",
+  "subtopic": "安全：CPTED 與批評",
+  "type": "design_principle",
+  "title_zh": "夜間照護需兼顧求助與退出",
+  "title_en": "Night safety needs help and escape",
+  "summary_zh": "可見出口、有人值守的服務與清楚的交通資訊能增加求助選項。使用者可以選擇離開、改道或短暫等待，這些能力也是安全的一部分。空間保全不等於可以快速取得公共交通。安全設計需要照護資源，不宜只增加控制。",
+  "key_points_zh": [
+    "可見出口、有人值守的服務與清楚的交通資訊能增加求助選項",
+    "使用者可以選擇離開、改道或短暫等待，這些能力也是安全的一部分"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "可見出口、有人值守的服務與清楚的交通資訊能增加求助選項。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "美國",
+        "library_id": "LOW05",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "安全設計需要照護資源，不宜只增加控制。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "把出口、求助點、通行障礙和最後一班交通時間列入夜間路徑評估。"
+  ],
+  "applies_when_zh": "適用於轉運場、夜間活動及全天候公共服務。",
+  "not_applicable_when_zh": "不適用於只以巡邏取代交通和服務缺口。",
+  "debates_zh": "安全設計需要照護資源，不宜只增加控制。",
+  "sources": [
+    {
+      "library_id": "LOW05",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "WHYTE80",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "公共空間文化多樣性",
+  "region": "美國",
+  "curriculum_refs": [
+    {
+      "school": "UCL Bartlett",
+      "course": "Critical Debates in Urban Design",
+      "topic": "安全：CPTED 與批評"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-PUB-040",
+    "KU-PUB-042"
+  ]
+}

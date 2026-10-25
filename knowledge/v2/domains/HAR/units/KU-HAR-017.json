@@ -1,0 +1,65 @@
+{
+  "id": "KU-HAR-017",
+  "domain": "HAR",
+  "subtopic": "工業遺產與 adaptive reuse",
+  "type": "method",
+  "title_zh": "再利用評估先設停損條件，再選用途",
+  "title_en": "Set stop conditions before selecting a reuse program",
+  "summary_zh": "再利用評估可以先建立一組能否繼續的條件，再開始討論新用途。第一輪整理結構、安全、污染、權屬和可達性；第二輪比較用途需求、改造範圍與資金來源；第三輪明訂哪些未知資料會觸發停損或重新設計。Bullen 與 Love 的決策模型支援比較留用和拆除，香港研究則聚焦建築再利用機會的策略性評估。這套程序是問題排序，不取代建築師、工程師或法定審查。",
+  "key_points_zh": [
+    "先界定無法接受的結構、污染與權屬風險。",
+    "用途比較應記錄支持證據、待查資料及放棄門檻。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "再利用決策模型的研究目標是協助比較既有資產再用或拆除。",
+        "effect_or_value": "比較式決策，不預設適用性",
+        "study_design": "決策模型建構",
+        "context_region": "澳洲與英國實務脈絡",
+        "library_id": "BULLEN2011",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "香港建築再利用機會評估是策略性前期判斷，仍需回到個案資料。",
+        "effect_or_value": "前期篩選方法，不是許可或完工結果",
+        "study_design": "策略性機會評估研究",
+        "context_region": "香港",
+        "library_id": "LANGSTON2008",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "用決策樹標記可逆的短期用途、需要修復的空間和不能安全進入的建築。"
+  ],
+  "applies_when_zh": "基地內有多棟狀況不同的工業或港務建築待分類時。",
+  "not_applicable_when_zh": "不適用於未經專業檢測就填入結構安全、污染或改造成本答案。",
+  "debates_zh": "早期篩選有助分期，但錯誤的停損門檻也可能排除可行的再利用方案。",
+  "sources": [
+    {
+      "library_id": "BULLEN2011",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "LANGSTON2008",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "適應性再利用評估",
+  "region": "香港與跨地域實務",
+  "curriculum_refs": [
+    {
+      "school": "UCL Bartlett",
+      "course": null,
+      "topic": "Building reuse assessment"
+    }
+  ],
+  "version": "v2.0"
+}

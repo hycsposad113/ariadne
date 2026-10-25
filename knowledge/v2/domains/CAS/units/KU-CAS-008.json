@@ -1,0 +1,95 @@
+{
+  "id": "KU-CAS-008",
+  "domain": "CAS",
+  "subtopic": "公共空間與公園案例",
+  "type": "case",
+  "title_zh": "Brooklyn Bridge Park：公共水岸公園的分期建造",
+  "title_en": "Brooklyn Bridge Park: Phased Delivery of a Public Waterfront Park",
+  "summary_zh": "Brooklyn Bridge Park 把布魯克林舊碼頭改成沿東河連續的公園與公共碼頭空間。紐約市資料列出約85英畝的園區和1.3英里水岸，並記錄首段在2010年開放。公園建成不會自動消除鄰近住宅市場與公共資金治理的爭議，需分別追蹤可達性、管理責任和地價變化。",
+  "key_points_zh": [
+    "將公園面積、開放年份與後續碼頭階段分開記錄。",
+    "比較公園使用權、維護資金與相鄰開發之間的制度關係。"
+  ],
+  "evidence": {
+    "strength": "CASE_EVIDENCE",
+    "findings": [
+      {
+        "claim_zh": "紐約市官方資料記錄Brooklyn Bridge Park約85英畝、沿河約1.3英里，首段在2010年對外開放。",
+        "effect_or_value": "市府專案資料；範圍和開放年份",
+        "study_design": "市府專案資料；範圍和開放年份",
+        "context_region": "美國紐約",
+        "library_id": "NYC_BROOKLYN_BRIDGE_PARK2012",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "Witty與Krogius的專書整理公園歷史、治理及指導原則；書目核對本身不代表每項效益均已證實。",
+        "effect_or_value": "專業／歷史專書；園區發展",
+        "study_design": "專業／歷史專書；園區發展",
+        "context_region": "美國紐約",
+        "library_id": "WITTY2016",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "將公園建造階段、公共入口和沿岸連續性標示在同一張時間圖上。"
+  ],
+  "applies_when_zh": "舊港口碼頭轉型為大型公共水岸公園時。",
+  "not_applicable_when_zh": "分析小型鄰里公園，且沒有碼頭產權或長期管理問題時。",
+  "debates_zh": "公園作為公共基礎設施需要長期維護安排；如果營運模型仰賴周邊地產增值，公共開放和土地價格的衝突不可忽略。",
+  "sources": [
+    {
+      "library_id": "NYC_BROOKLYN_BRIDGE_PARK2012",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "WITTY2016",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "北美公園治理與濱水棕地再生",
+  "region": "北美／美國紐約市",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": null,
+      "topic": "公共水岸與開放空間"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": null,
+      "topic": "公園治理和城市投資"
+    },
+    {
+      "school": "MIT",
+      "course": null,
+      "topic": "公共設施維護與土地價值"
+    }
+  ],
+  "case": {
+    "location": "布魯克林，紐約市，美國",
+    "period": "首段於2010年開放，後續碼頭及公園階段分期完成",
+    "area_ha": 34.4,
+    "fsi": null,
+    "gsi": null,
+    "program_mix": "公共公園、步行水岸、運動與遊憩設施；園區內的商業使用需依各碼頭安排。",
+    "key_strategies_zh": [
+      "以多個碼頭和岸段分期開放，逐步形成連續水岸公園。",
+      "將遊憩設施與原有港埠構造結合。"
+    ],
+    "outcomes_zh": [
+      "市府列出約85英畝園區和1.3英里沿岸範圍，並記錄公園首段開放時間。",
+      "這些範圍與建設資料不等於對公園使用公平性或周邊租金的因果評估。"
+    ],
+    "critiques_zh": [
+      "專書與市府資料可追溯設計和治理背景，但仍需獨立的使用者和住房市場研究。",
+      "公園資金、周邊地產和公共管理之間的制度關係是本案持續爭論的部分。"
+    ]
+  },
+  "version": "v2.0"
+}

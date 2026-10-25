@@ -1,0 +1,98 @@
+{
+  "id": "KU-MOR-007",
+  "domain": "MOR",
+  "subtopic": "地塊、街廓與建築類型",
+  "type": "empirical_finding",
+  "title_zh": "全球城市形態並非單一路徑",
+  "title_en": "Global urban morphology clusters",
+  "summary_zh": "群集依所用分類與資料範圍而定，不能當成完整城市類型清單。 把形態類別用於提出比較案例，不用來替城市貼上固定文化標籤。 研究設計：跨城市橫斷面分類，使用 Local Climate Zones 描述建成形態；地區：全球 110 個城市。",
+  "key_points_zh": [
+    "110 個城市的形態量化比較辨識出七種形態群集，群集一部分貼近文化地理區域，也出現跨區域相似型。",
+    "研究設計：跨城市橫斷面分類，使用 Local Climate Zones 描述建成形態；地區：全球 110 個城市",
+    "限制：群集依所用分類與資料範圍而定，不能當成完整城市類型清單。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "110 個城市的形態量化比較辨識出七種形態群集，群集一部分貼近文化地理區域，也出現跨區域相似型。",
+        "effect_or_value": "110 城市；7 個形態群集",
+        "study_design": "跨城市橫斷面分類，使用 Local Climate Zones 描述建成形態",
+        "context_region": "全球 110 個城市",
+        "library_id": "TAUBENBOCK2020",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "把形態類別用於提出比較案例，不用來替城市貼上固定文化標籤。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "把形態類別用於提出比較案例，不用來替城市貼上固定文化標籤。",
+      "tradeoff_zh": "可回應研究指出的條件，但需要本地測量與實施成本評估。",
+      "library_ids": [
+        "TAUBENBOCK2020",
+        "BILJECKI2022"
+      ]
+    },
+    {
+      "option_zh": "「全球城市形態並非單一路徑」可把取向落在細分地塊可支持增量更新；整合大宗地較易統一建造但降低街巷穿透，但需連同110 個城市的形態量化比較辨識出七種形態群集，群集一部分貼近文化地理區域，也出現跨區域相似型決定適用方式。",
+      "tradeoff_zh": "保留其他空間策略，但可能降低該研究所見的某項關聯。",
+      "library_ids": [
+        "TAUBENBOCK2020",
+        "BILJECKI2022"
+      ]
+    }
+  ],
+  "applies_when_zh": "用於與全球 110 個城市研究情境可比、且量測定義相近的分析。",
+  "not_applicable_when_zh": "群集依所用分類與資料範圍而定，不能當成完整城市類型清單。",
+  "debates_zh": "群集依所用分類與資料範圍而定，不能當成完整城市類型清單。",
+  "sources": [
+    {
+      "library_id": "TAUBENBOCK2020",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "BILJECKI2022",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "全球比較形態學；城市資料科學／形態指標",
+  "region": "全球 110 個城市；全球多城市資料",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "地塊、街廓與建築類型"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "地塊、街廓與建築類型"
+    },
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.330J Theory of City Form",
+      "topic": "地塊、街廓與建築類型"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban form and density",
+      "topic": "地塊、街廓與建築類型"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-MOR-001",
+    "KU-MOR-002",
+    "KU-MOR-003"
+  ],
+  "counter_unit_ids": [
+    "KU-MOR-005"
+  ]
+}

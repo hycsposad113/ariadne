@@ -1,0 +1,81 @@
+{
+  "id": "KU-MOB-034",
+  "domain": "MOB",
+  "subtopic": "TOD 與節點—場所模型",
+  "type": "empirical_finding",
+  "title_zh": "自行車—電車接駁距離",
+  "title_en": "Bicycle-tram feeder distance",
+  "summary_zh": "海牙電車乘客揭露偏好問卷與距離模型，研究脈絡為海牙，荷蘭。站點與場所的關係須連同接駁模式和服務品質理解。乘客會因避免轉乘、服務舒適和騎行時間選擇距離較遠的電車站。限制包括自陳旅次資料只代表該電車網的受訪者。",
+  "key_points_zh": [
+    "站點與場所的關係須連同接駁模式和服務品質理解",
+    "限制：自陳旅次資料只代表該電車網的受訪者",
+    "效果或方向：乘客會因避免轉乘、服務舒適和騎行時間選擇距離較遠的電車站"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "自行車—電車接駁距離｜站點與場所的關係須連同接駁模式和服務品質理解",
+        "effect_or_value": "乘客會因避免轉乘、服務舒適和騎行時間選擇距離較遠的電車站",
+        "study_design": "海牙電車乘客揭露偏好問卷與距離模型",
+        "context_region": "海牙，荷蘭",
+        "library_id": "RIJSMAN19",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "自行車—電車接駁距離｜TOD 將大眾運輸節點、混合用途與步行環境作為共同規劃對象；本單元只引用其規劃框架",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "CALTHORPE93",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "以站區網路和服務品質共同評估 TOD"
+  ],
+  "applies_when_zh": "若本地觀察單位與海牙，荷蘭的研究脈絡可對照，可用「站點與場所的關係須連同接駁模式和服務品質理解」作為TOD 與節點—場所模型的比較線索。",
+  "not_applicable_when_zh": "這項海牙，荷蘭的研究結果不能單獨證明因果或預測其他城市的街段；原研究自陳旅次資料只代表該電車網的受訪者。",
+  "debates_zh": "關聯能否外推；自陳旅次資料只代表該電車網的受訪者；檢視「自行車—電車接駁距離」的研究解讀時，還需判斷「限制：自陳旅次資料只代表該電車網的受訪者」會如何改變方案結論。",
+  "sources": [
+    {
+      "library_id": "RIJSMAN19",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "CALTHORPE93",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "大眾運輸導向發展",
+  "region": "海牙，荷蘭",
+  "curriculum_refs": [
+    {
+      "school": "Harvard GSD",
+      "course": "Urban Design Contexts and Operations",
+      "topic": "TOD 與節點—場所模型：課綱對應主題"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "TOD 與節點—場所模型：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-MOB-033",
+    "KU-MOB-035",
+    "KU-MOB-036",
+    "KU-MOB-037",
+    "KU-MOB-038",
+    "KU-MOB-039",
+    "KU-MOB-040"
+  ]
+}

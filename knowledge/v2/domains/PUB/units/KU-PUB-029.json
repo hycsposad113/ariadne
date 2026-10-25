@@ -1,0 +1,61 @@
+{
+  "id": "KU-PUB-029",
+  "domain": "PUB",
+  "subtopic": "活躍立面",
+  "type": "concept",
+  "title_zh": "入口密度與透明度不是活躍度替身",
+  "title_en": "Doors and transparency are not activity",
+  "summary_zh": "可見門窗能提供外部觀察，但使用頻率還取決於用途、時段和服務對象。空置店面即使全玻璃，也可能沒有生活活動。高透明度亦可能削弱住戶私隱或造成眩光。監看容易量化，互惠互動卻需要訪談和觀察。",
+  "key_points_zh": [
+    "可見門窗能提供外部觀察，但使用頻率還取決於用途、時段和服務對象",
+    "空置店面即使全玻璃，也可能沒有生活活動"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "可見門窗能提供外部觀察，但使用頻率還取決於用途、時段和服務對象。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "英國",
+        "library_id": "HILLIER93",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "監看容易量化，互惠互動卻需要訪談和觀察。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "統計實際開門數、進出、外擺和短暫停留，並按日夜分開記錄。"
+  ],
+  "applies_when_zh": "適用於檢視地面層是否支持公共生活。",
+  "not_applicable_when_zh": "不能只以立面渲染圖或開窗比例驗收活躍立面。",
+  "debates_zh": "監看容易量化，互惠互動卻需要訪談和觀察。",
+  "sources": [
+    {
+      "library_id": "HILLIER93",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "JACOBS61",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "空間語法",
+  "region": "英國",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "活躍立面"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-PUB-028",
+    "KU-PUB-030"
+  ]
+}

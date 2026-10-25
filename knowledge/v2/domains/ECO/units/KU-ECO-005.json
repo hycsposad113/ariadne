@@ -1,0 +1,61 @@
+{
+  "id": "KU-ECO-005",
+  "domain": "ECO",
+  "subtopic": "地景生態學：嵌塊、廊道、基質",
+  "type": "concept",
+  "title_zh": "矩陣品質影響廊道價值",
+  "title_en": "Matrix quality changes corridor value",
+  "summary_zh": "廊道位於什麼樣的城市基質中，會改變物種移動成本。連接兩處綠地的線段若遭受強光、噪音或不適宜地表，可能只在地圖上連續。物種感知的阻力需由生態資料估計。最小阻力路徑依賴參數，應公開其不確定性。",
+  "key_points_zh": [
+    "廊道位於什麼樣的城市基質中，會改變物種移動成本",
+    "連接兩處綠地的線段若遭受強光、噪音或不適宜地表，可能只在地圖上連續"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "廊道位於什麼樣的城市基質中，會改變物種移動成本。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "跨地域",
+        "library_id": "AHERN11",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "最小阻力路徑依賴參數，應公開其不確定性。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "把道路、硬鋪面、建築和微棲地納入阻力分析。"
+  ],
+  "applies_when_zh": "適用於廊道設計和自然化更新。",
+  "not_applicable_when_zh": "不應由綠地相鄰直接推論生物連通。",
+  "debates_zh": "最小阻力路徑依賴參數，應公開其不確定性。",
+  "sources": [
+    {
+      "library_id": "AHERN11",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "BROWN09",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "韌性設計",
+  "region": "跨地域",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "地景生態學：嵌塊、廊道、基質"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-ECO-004",
+    "KU-ECO-006"
+  ]
+}

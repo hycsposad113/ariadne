@@ -1,0 +1,45 @@
+{
+  "id": "ZONOLOGY2026",
+  "title": "Zonology: An Ontology-Based Framework for Harmonizing Zoning Semantics Across Multi-Jurisdictional Greater Toronto Area (GTA) Planning Systems",
+  "authors": [
+    "Arian Mesbahian",
+    "Amin Sarang",
+    "Arash Shahi",
+    "Mojgan Jadidi"
+  ],
+  "year": 2026,
+  "venue_or_publisher": "The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences, XLIX-B4-2026, 65–70",
+  "doi": "https://doi.org/10.5194/isprs-archives-xlix-b4-2026-65-2026",
+  "isbn": null,
+  "openalex_id": "https://openalex.org/W7172387405",
+  "kind": "ACADEMIC_CHAPTER_OR_PROCEEDINGS",
+  "tradition": "多法域分區語意的本體化",
+  "region": "加拿大大多倫多地區",
+  "method": "以 OWL 本體對照多個自治市的分區名稱、容許用途及開發標準",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "Zonology 以多倫多與 Markham 作概念驗證，建立跨自治市對照分區類別、允許用途與開發標準的語意結構。",
+      "strength": "MIXED",
+      "scope_zh": "研究提供加拿大跨市資料整合個案，並不描述新加坡 OntoZoning 的規劃決策或法律效力。",
+      "assessment_basis": "ABSTRACT_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "OpenAlex and Crossref",
+    "query": {
+      "record_id": "https://openalex.org/W7172387405",
+      "doi": "10.5194/isprs-archives-xlix-b4-2026-65-2026",
+      "title": "Zonology: An Ontology-Based Framework for Harmonizing Zoning Semantics Across Multi-Jurisdictional Greater Toronto Area (GTA) Planning Systems",
+      "author": "Arian Mesbahian",
+      "year": 2026
+    },
+    "matched_record_id": "https://doi.org/10.5194/isprs-archives-xlix-b4-2026-65-2026",
+    "checked_at_utc": "2026-10-09T00:15:06Z",
+    "match_notes_zh": "以允許的公開書目 API 精確比對題名、首位作者與出版年；只保留自行撰寫的摘要範圍說明，未保存全文或 API 摘要原文。"
+  },
+  "limitations_zh": "本條目依公開摘要或書目範圍整理；未下載全文，也不外推摘要未列的樣本、效果量或因果結論。",
+  "metadata_licence_zh": "僅保存公開書目欄位與自行撰寫的繁體中文摘要；未複製摘要全文或論文全文。"
+}

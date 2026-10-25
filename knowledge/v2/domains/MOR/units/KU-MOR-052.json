@@ -1,0 +1,98 @@
+{
+  "id": "KU-MOR-052",
+  "domain": "MOR",
+  "subtopic": "細粒度與大尺度開發",
+  "type": "empirical_finding",
+  "title_zh": "阿迪斯阿貝巴擴張前緣出現零碎與閒置用地",
+  "title_en": "Urban land fragmentation in Addis Ababa",
+  "summary_zh": "文章把制度執行列為解釋之一，土地效率判斷受資料分類和政策背景限制。 大型基地分期應追蹤地塊可建、實際開發與公共通道狀態。 研究設計：遙測土地使用變化、次級資料與田野觀察；地區：阿迪斯阿貝巴，衣索比亞。",
+  "key_points_zh": [
+    "遙測與田野資料顯示，阿迪斯阿貝巴部分擴張前緣有土地碎片化、囤置和長期未充分利用的情況。",
+    "研究設計：遙測土地使用變化、次級資料與田野觀察；地區：阿迪斯阿貝巴，衣索比亞",
+    "限制：文章把制度執行列為解釋之一，土地效率判斷受資料分類和政策背景限制。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "遙測與田野資料顯示，阿迪斯阿貝巴部分擴張前緣有土地碎片化、囤置和長期未充分利用的情況。",
+        "effect_or_value": "2004 年後土地使用時序；多個擴張前緣出現低效率",
+        "study_design": "遙測土地使用變化、次級資料與田野觀察",
+        "context_region": "阿迪斯阿貝巴，衣索比亞",
+        "library_id": "KOROSO2020",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "大型基地分期應追蹤地塊可建、實際開發與公共通道狀態。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "大型基地分期應追蹤地塊可建、實際開發與公共通道狀態。",
+      "tradeoff_zh": "「阿迪斯阿貝巴擴張前緣出現零碎與閒置用地」採用「大型基地分期應追蹤地塊可建、實際開發與公共通道狀態」時，得失要沿著遙測與田野資料顯示，阿迪斯阿貝巴部分擴張前緣有土地碎片化、囤置和長期未充分利用的情況檢查；文章把制度執行列為解釋之一，土地效率判斷受資料分類和政策背景限制。",
+      "library_ids": [
+        "KOROSO2020",
+        "JACOBS61"
+      ]
+    },
+    {
+      "option_zh": "在「阿迪斯阿貝巴擴張前緣出現零碎與閒置用地」的來源情境裡，細分小地塊通常提供更多介面；大地塊可集中設施，但需補足連通與公共性；落到設計時還要按遙測與田野資料顯示，阿迪斯阿貝巴部分擴張前緣有土地碎片化、囤置和長期未充分利用的情況調整。",
+      "tradeoff_zh": "「阿迪斯阿貝巴擴張前緣出現零碎與閒置用地」採用「在「阿迪斯阿貝巴擴張前緣出現零碎與閒置用地」的來源情境裡，細分小地塊通常提供更多介面；大地塊可集中設施，但需補足連通與公共性；落到設計時還要按遙測與田野資料顯示，阿迪斯阿貝巴部分擴張前緣有土地碎片化、囤置和長期未充分利用的情況調整」時，得失要沿著遙測與田野資料顯示，阿迪斯阿貝巴部分擴張前緣有土地碎片化、囤置和長期未充分利用的情況檢查；文章把制度執行列為解釋之一，土地效率判斷受資料分類和政策背景限制。",
+      "library_ids": [
+        "KOROSO2020",
+        "JACOBS61"
+      ]
+    }
+  ],
+  "applies_when_zh": "用於與阿迪斯阿貝巴，衣索比亞研究情境可比、且量測定義相近的分析。",
+  "not_applicable_when_zh": "文章把制度執行列為解釋之一，土地效率判斷受資料分類和政策背景限制。",
+  "debates_zh": "文章把制度執行列為解釋之一，土地效率判斷受資料分類和政策背景限制。",
+  "sources": [
+    {
+      "library_id": "KOROSO2020",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "JACOBS61",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "非洲土地使用與都市擴張；街道生活與多樣性",
+  "region": "阿迪斯阿貝巴，衣索比亞；美國",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "細粒度與大尺度開發"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "細粒度與大尺度開發"
+    },
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.330J Theory of City Form",
+      "topic": "細粒度與大尺度開發"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban form and density",
+      "topic": "細粒度與大尺度開發"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-MOR-047",
+    "KU-MOR-048",
+    "KU-MOR-049"
+  ],
+  "counter_unit_ids": [
+    "KU-MOR-051"
+  ]
+}

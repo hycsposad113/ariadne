@@ -1,0 +1,81 @@
+{
+  "id": "KU-MOB-002",
+  "domain": "MOB",
+  "subtopic": "建成環境與旅運（3D／5D）",
+  "type": "empirical_finding",
+  "title_zh": "城市尺度與旅運行為",
+  "title_en": "Urban-scale form and travel behavior",
+  "summary_zh": "北歐都市形態與旅運研究結果的綜述比較，研究脈絡為北歐，並與歐洲、美洲、澳洲和亞洲研究對照。只調整鄰里局部特徵可能漏掉都會區整體結構。北歐研究較常在城市尺度人口密度與居住、工作地相對中心結構上發現旅運影響。限制包括這是研究回顧而非統一樣本的統合估計，不提供單一效應量。",
+  "key_points_zh": [
+    "只調整鄰里局部特徵可能漏掉都會區整體結構",
+    "限制：這是研究回顧而非統一樣本的統合估計，不提供單一效應量",
+    "效果或方向：北歐研究較常在城市尺度人口密度與居住、工作地相對中心結構上發現旅運影響"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "城市尺度與旅運行為｜只調整鄰里局部特徵可能漏掉都會區整體結構",
+        "effect_or_value": "北歐研究較常在城市尺度人口密度與居住、工作地相對中心結構上發現旅運影響",
+        "study_design": "北歐都市形態與旅運研究結果的綜述比較",
+        "context_region": "北歐，並與歐洲、美洲、澳洲和亞洲研究對照",
+        "library_id": "NAESS12",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "城市尺度與旅運行為｜波哥大的人口、工作及可及性分布不均；高平均密度可以和低收入群體的可及性不足並存",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "BOGOTA17",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "同時檢查鄰里與都會尺度的目的地分布和旅次"
+  ],
+  "applies_when_zh": "若本地觀察單位與北歐，並與歐洲、美洲、澳洲和亞洲研究對照的研究脈絡可對照，可用「只調整鄰里局部特徵可能漏掉都會區整體結構」作為建成環境與旅運（3D／5D）的比較線索。",
+  "not_applicable_when_zh": "這項北歐，並與歐洲、美洲、澳洲和亞洲研究對照的研究結果不能單獨證明因果或預測其他城市的街段；原研究這是研究回顧而非統一樣本的統合估計，不提供單一效應量。",
+  "debates_zh": "關聯能否外推；這是研究回顧而非統一樣本的統合估計，不提供單一效應量；檢視「城市尺度與旅運行為」的研究解讀時，還需判斷「限制：這是研究回顧而非統一樣本的統合估計，不提供單一效應量」會如何改變方案結論。",
+  "sources": [
+    {
+      "library_id": "NAESS12",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "BOGOTA17",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "建成環境與旅運研究",
+  "region": "北歐，並與歐洲、美洲、澳洲和亞洲研究對照",
+  "curriculum_refs": [
+    {
+      "school": "Harvard GSD",
+      "course": "Urban Design Contexts and Operations",
+      "topic": "建成環境與旅運（3D／5D）：課綱對應主題"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "建成環境與旅運（3D／5D）：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-MOB-001",
+    "KU-MOB-003",
+    "KU-MOB-004",
+    "KU-MOB-005",
+    "KU-MOB-006",
+    "KU-MOB-007",
+    "KU-MOB-008"
+  ]
+}

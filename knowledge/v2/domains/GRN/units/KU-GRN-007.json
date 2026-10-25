@@ -1,0 +1,66 @@
+{
+  "id": "KU-GRN-007",
+  "domain": "GRN",
+  "subtopic": "公園類型與階層",
+  "type": "concept",
+  "title_zh": "校園綠地可能承擔社區服務",
+  "title_en": "Campus greens can add public capacity",
+  "summary_zh": "校園草地和運動場可在非教學時段擴大周邊綠地供給。開放時段、校安和管理協議會決定社區是否真正可用。名義上的公共開放不等於全年可進入。共享可提高效率，但教育機構也有封閉與安全需求。",
+  "key_points_zh": [
+    "校園草地和運動場可在非教學時段擴大周邊綠地供給",
+    "開放時段、校安和管理協議會決定社區是否真正可用"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "校園草地和運動場可在非教學時段擴大周邊綠地供給。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "德國",
+        "library_id": "HANSEN14",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "共享可提高效率，但教育機構也有封閉與安全需求。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "將校方責任、假日制度和無障礙入口納入綠地盤點。"
+  ],
+  "applies_when_zh": "適用於尋找既有綠地共享機會。",
+  "not_applicable_when_zh": "不應把校園土地都計入公共服務覆蓋。",
+  "debates_zh": "共享可提高效率，但教育機構也有封閉與安全需求。",
+  "sources": [
+    {
+      "library_id": "HANSEN14",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "GRIMM08",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "都市綠色基礎設施多功能性",
+  "region": "德國",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "公園類型與階層"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "公園類型與階層"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-GRN-006",
+    "KU-GRN-008"
+  ]
+}

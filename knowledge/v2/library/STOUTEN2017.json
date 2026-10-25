@@ -1,0 +1,42 @@
+{
+  "id": "STOUTEN2017",
+  "title": "Gentrification and urban design in the urban fabric of Rotterdam",
+  "authors": [
+    "Paul Stouten"
+  ],
+  "year": 2017,
+  "venue_or_publisher": "Journal of Urban Regeneration and Renewal",
+  "doi": "https://doi.org/10.69554/wjgl4081",
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "鹿特丹城市設計與仕紳化批評",
+  "region": "荷蘭鹿特丹",
+  "method": "Crossref 書目資料確認到文獻種類與題目範圍；全文方法未由本次核讀",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "論文討論鹿特丹城市設計與仕紳化的關係。",
+      "strength": "CASE_EVIDENCE",
+      "scope_zh": "其記錄用於提出城市尺度的批判問題，不宣稱論文專門評估 Dakpark。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref",
+    "query": {
+      "title": "Gentrification and urban design in the urban fabric of Rotterdam",
+      "author": "Paul Stouten",
+      "year": 2017,
+      "api_query": "Crossref GET /works/10.69554/wjgl4081"
+    },
+    "matched_record_id": "10.69554/wjgl4081",
+    "checked_at_utc": "2026-10-08T14:40:02Z",
+    "match_notes_zh": "Crossref 公開書目欄位核對題名、作者、年份與 DOI；未保存 API 摘要。"
+  },
+  "limitations_zh": "書目範圍確認不等於研究發現、方法、因果或數值已全文核查。",
+  "critique_relationship_zh": "本記錄不宣稱與其他文獻存在直接互引或逐一反駁。",
+  "metadata_licence_zh": "Crossref 公開書目欄位；精確 metadata 授權未核驗，標 UNKNOWN。"
+}

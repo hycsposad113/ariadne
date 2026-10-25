@@ -1,0 +1,395 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Massing design brief (S6-brief)",
+  "type": "object",
+  "required": [
+    "strategy",
+    "concept",
+    "precedents",
+    "development_streets",
+    "strips",
+    "height_strategy",
+    "open_spaces",
+    "movement",
+    "gfa_allocation",
+    "tradeoffs",
+    "sources"
+  ],
+  "properties": {
+    "strategy": {
+      "enum": [
+        "radial",
+        "axial",
+        "grid",
+        "green_service"
+      ]
+    },
+    "concept": {
+      "type": "object",
+      "required": [
+        "statement_zh",
+        "responds_to_zh"
+      ],
+      "properties": {
+        "statement_zh": {
+          "type": "string",
+          "minLength": 20
+        },
+        "responds_to_zh": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 2
+        }
+      }
+    },
+    "precedents": {
+      "type": "array",
+      "minItems": 2,
+      "maxItems": 4,
+      "items": {
+        "type": "object",
+        "required": [
+          "name",
+          "borrow_zh",
+          "not_applicable_zh"
+        ],
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "metrics_cited": {
+            "type": "string"
+          },
+          "borrow_zh": {
+            "type": "string"
+          },
+          "not_applicable_zh": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "development_streets": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "strip_id",
+          "reason_zh"
+        ],
+        "properties": {
+          "strip_id": {
+            "type": "string"
+          },
+          "segment_m": {
+            "type": "array",
+            "items": {
+              "type": "number"
+            },
+            "minItems": 2,
+            "maxItems": 2
+          },
+          "reason_zh": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "strips": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "strip_id",
+          "typologies",
+          "frontage",
+          "floors",
+          "reason_zh"
+        ],
+        "properties": {
+          "strip_id": {
+            "type": "string"
+          },
+          "segment_m": {
+            "type": "array",
+            "items": {
+              "type": "number"
+            },
+            "minItems": 2,
+            "maxItems": 2
+          },
+          "typologies": {
+            "type": "array",
+            "items": {
+              "enum": [
+                "perimeter",
+                "l_block",
+                "slab",
+                "rowhouse",
+                "point",
+                "courtyard",
+                "maker_hall",
+                "retained_reuse",
+                "park"
+              ]
+            },
+            "minItems": 1
+          },
+          "block_length_m": {
+            "type": "array",
+            "items": {
+              "type": "number"
+            },
+            "minItems": 2,
+            "maxItems": 2
+          },
+          "frontage": {
+            "enum": [
+              "both_sides",
+              "one_side_street",
+              "one_side_water",
+              "one_side_park",
+              "none"
+            ]
+          },
+          "floors": {
+            "type": "array",
+            "items": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 6
+            },
+            "minItems": 2,
+            "maxItems": 2
+          },
+          "precedent_refs": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "reason_zh": {
+            "type": "string",
+            "minLength": 20
+          }
+        }
+      }
+    },
+    "height_strategy": {
+      "type": "object",
+      "required": [
+        "landmarks",
+        "low_zones",
+        "reason_zh"
+      ],
+      "properties": {
+        "landmarks": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "height_m",
+              "location_zh",
+              "reason_zh",
+              "station_m",
+              "strip_id"
+            ],
+            "properties": {
+              "location_zh": {
+                "type": "string"
+              },
+              "strip_id": {
+                "type": "string"
+              },
+              "height_m": {
+                "type": "number",
+                "maximum": 20
+              },
+              "reason_zh": {
+                "type": "string"
+              },
+              "station_m": {
+                "type": "number",
+                "minimum": 0
+              }
+            }
+          }
+        },
+        "low_zones": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "floors",
+              "location_zh",
+              "reason_zh",
+              "segment_m",
+              "strip_id"
+            ],
+            "properties": {
+              "location_zh": {
+                "type": "string"
+              },
+              "strip_id": {
+                "type": "string"
+              },
+              "floors": {
+                "oneOf": [
+                  {
+                    "type": "integer",
+                    "minimum": 1,
+                    "maximum": 6
+                  },
+                  {
+                    "type": "array",
+                    "items": {
+                      "type": "integer",
+                      "minimum": 1,
+                      "maximum": 6
+                    },
+                    "minItems": 2,
+                    "maxItems": 2
+                  }
+                ]
+              },
+              "reason_zh": {
+                "type": "string"
+              },
+              "segment_m": {
+                "type": "array",
+                "items": {
+                  "type": "number",
+                  "minimum": 0
+                },
+                "minItems": 2,
+                "maxItems": 2
+              }
+            }
+          }
+        },
+        "reason_zh": {
+          "type": "string"
+        }
+      }
+    },
+    "open_spaces": {
+      "type": "array",
+      "minItems": 2,
+      "maxItems": 5,
+      "items": {
+        "type": "object",
+        "required": [
+          "area_m2_target",
+          "location_zh",
+          "name_zh",
+          "reason_zh",
+          "segment_m",
+          "strip_id",
+          "use_zh"
+        ],
+        "properties": {
+          "name_zh": {
+            "type": "string"
+          },
+          "location_zh": {
+            "type": "string"
+          },
+          "strip_id": {
+            "type": "string"
+          },
+          "area_m2_target": {
+            "type": "number"
+          },
+          "use_zh": {
+            "type": "string"
+          },
+          "reason_zh": {
+            "type": "string"
+          },
+          "segment_m": {
+            "type": "array",
+            "items": {
+              "type": "number",
+              "minimum": 0
+            },
+            "minItems": 2,
+            "maxItems": 2
+          }
+        }
+      }
+    },
+    "movement": {
+      "type": "object",
+      "required": [
+        "pedestrian_cycle_spine_zh",
+        "car_access_zh",
+        "service_loop_zh"
+      ],
+      "properties": {
+        "pedestrian_cycle_spine_zh": {
+          "type": "string"
+        },
+        "car_access_zh": {
+          "type": "string"
+        },
+        "service_loop_zh": {
+          "type": "string"
+        },
+        "bike_parking_zh": {
+          "type": "string"
+        }
+      }
+    },
+    "gfa_allocation": {
+      "type": "object",
+      "required": [
+        "by_strip",
+        "total_new_gfa_m2",
+        "far_check_zh"
+      ],
+      "properties": {
+        "by_strip": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "strip_id",
+              "gfa_m2"
+            ],
+            "properties": {
+              "strip_id": {
+                "type": "string"
+              },
+              "gfa_m2": {
+                "type": "number"
+              }
+            }
+          }
+        },
+        "total_new_gfa_m2": {
+          "type": "number"
+        },
+        "far_check_zh": {
+          "type": "string"
+        }
+      }
+    },
+    "tradeoffs": {
+      "type": "array",
+      "minItems": 3,
+      "items": {
+        "type": "string"
+      }
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

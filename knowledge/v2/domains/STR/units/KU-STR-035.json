@@ -1,0 +1,88 @@
+{
+  "id": "KU-STR-035",
+  "domain": "STR",
+  "subtopic": "交叉口密度",
+  "type": "value_range",
+  "title_zh": "整合度的統合效果量",
+  "title_en": "Pooled effect size for integration",
+  "summary_zh": "Sharmin 與 Kamruzzaman 對空間語法和行人移動研究進行隨機效果統合分析，報告整體整合度的效果量為 ES 0.206，95% 信賴區間 0.173–0.238。這個正向合併關聯反映跨研究平均，不是行人數或街道品質分數。原摘要未列完整國別分布，研究間異質性也使單一係數不宜外推。空間語法整體整合度與行人移動關聯的數值不是本基地法規或普遍設計目標。",
+  "key_points_zh": [
+    "數值與用途：空間語法整體整合度與行人移動關聯：ES = 0.206；95% CI = 0.173–0.238；p < 0.001",
+    "數值與用途：描述研究中的關聯量級，不是街道中心性設計值、法規或 M4H 門檻"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "整合度的統合效果量｜統合研究報告整體整合度與行人移動有正向關聯",
+        "effect_or_value": "ES = 0.206；95% CI = 0.173–0.238；p < 0.001",
+        "study_design": "整合分析",
+        "context_region": "跨地區文獻統合；摘要未列完整國別分布",
+        "library_id": "SHARMIN17",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "整合度的統合效果量｜整合多項研究顯示目的地可及性、路網與用途等因素和出行有關；密度單獨的關聯較弱，且自我選擇及樣本限制妨礙普遍因果推論",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "EWING10",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "空間語法整體整合度與行人移動關聯",
+      "range": "ES = 0.206；95% CI = 0.173–0.238；p < 0.001",
+      "unit": "統合效果量 ES",
+      "context": "跨地區空間語法文獻統合，完整國別分布未由摘要列明；用於解讀研究關聯量級，不是本基地法規；來源所列地域：跨地域。",
+      "library_id": "SHARMIN17"
+    }
+  ],
+  "design_implications_zh": [
+    "比較路網方案時可把 0.206 作為文獻關聯量級，並另行計算本地街網和實測行人量；不要把 ES 當作人流預測值。"
+  ],
+  "applies_when_zh": "若行人移動與整合度採可對照的操作定義，可用此統合效果量說明研究文獻的整體關聯範圍，並註明來源涵蓋期間和異質性。",
+  "not_applicable_when_zh": "此 ES 不是中心性門檻、行人流量或因果效應；摘要沒有提供足以重建完整地區分布的資訊。",
+  "debates_zh": "統合效果指出整合度與行人移動整體呈正相關，但不同城市、空間表示和計數方法的差異仍大；外推時應保留研究間異質性。",
+  "sources": [
+    {
+      "library_id": "SHARMIN17",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "EWING10",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "步行路網與街道網絡分析",
+  "region": "跨地區文獻統合；摘要未列完整國別分布",
+  "curriculum_refs": [
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.330J Theory of City Form",
+      "topic": "交叉口密度：課綱對應主題"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "交叉口密度：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-STR-033",
+    "KU-STR-034",
+    "KU-STR-036",
+    "KU-STR-037",
+    "KU-STR-038",
+    "KU-STR-039",
+    "KU-STR-040"
+  ]
+}

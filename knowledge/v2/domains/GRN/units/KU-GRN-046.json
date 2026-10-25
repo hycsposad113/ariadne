@@ -1,0 +1,66 @@
+{
+  "id": "KU-GRN-046",
+  "domain": "GRN",
+  "subtopic": "健康效益實證",
+  "type": "empirical_finding",
+  "title_zh": "住家周邊綠地與自評健康相關",
+  "title_en": "Greenness and self-rated health",
+  "summary_zh": "荷蘭研究分析二十五萬零七百八十二位居民及一百零四間全科診所資料。住家一公里和三公里範圍的綠地比例均與自評健康呈關聯，且不同都市化程度都可見。橫斷面資料不能確認綠地導致健康改善。資料規模很大仍不等於具有因果識別。",
+  "key_points_zh": [
+    "荷蘭研究分析二十五萬零七百八十二位居民及一百零四間全科診所資料",
+    "住家一公里和三公里範圍的綠地比例均與自評健康呈關聯，且不同都市化程度都可見"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "荷蘭研究分析二十五萬零七百八十二位居民及一百零四間全科診所資料。",
+        "effect_or_value": "住家周邊 1 km、3 km 綠地比例與較佳自評健康相關。",
+        "study_design": "104 診所樣本、多層次迴歸",
+        "context_region": "荷蘭，250,782 位居民",
+        "library_id": "MAAS06",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW",
+        "limitations_zh": "橫斷面觀察設計，存在自我選擇和未測混雜。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "把綠地暴露研究與居住選擇及收入資料一同解讀。"
+  ],
+  "applies_when_zh": "適用於健康效益假設與空間分析設計。",
+  "not_applicable_when_zh": "不能把人口層級結果轉成個人臨床建議。",
+  "debates_zh": "資料規模很大仍不等於具有因果識別。",
+  "sources": [
+    {
+      "library_id": "MAAS06",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "MITCHELL08",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "公共健康與環境流行病學",
+  "region": "荷蘭，250,782 位居民",
+  "curriculum_refs": [
+    {
+      "school": "UCL Bartlett",
+      "course": "Critical Debates in Urban Design",
+      "topic": "健康效益實證"
+    },
+    {
+      "school": "MIT",
+      "course": "11.330J Theory of City Form",
+      "topic": "健康效益實證"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-GRN-045",
+    "KU-GRN-047"
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "id": "KU-REG-051",
+  "domain": "REG",
+  "subtopic": "開發獎勵與容積移轉",
+  "type": "design_principle",
+  "title_zh": "開發獎勵與容積移轉｜設計原則",
+  "title_en": "Development incentives and transfer of development rights — Design principle",
+  "summary_zh": "開發獎勵與發展權移轉都會改變可用建築量，但其權利來源、接收容量和公共回饋機制不同。Noble 討論 FAR 作為開發工具，Nelson 的手冊聚焦 TDR 計畫設計與實施；兩者都不能單獨證明本地的增量容積。評估方案時應分開記錄基準權利、觸發條件和履約結果。",
+  "key_points_zh": [
+    "讀「開發獎勵與容積移轉｜設計原則」時，辨認基準容積、獎勵條件、接收容量及履約追蹤；同時把開發獎勵與發展權移轉需分辨基準權利、觸發條件、接收容量、公共回饋和履約追蹤列為核對條件。",
+    "讀「開發獎勵與容積移轉｜設計原則」時，辨認基準容積、獎勵條件、接收容量及履約追蹤；同時把開發獎勵與發展權移轉需分辨基準權利、觸發條件、接收容量、公共回饋和履約追蹤列為核對條件。",
+    "限制：本庫沒有建立任何普遍獎勵比例或容積移轉公式。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "Nelson 的《The TDR Handbook》聚焦發展權移轉計畫的設計與實施；書目範圍支持辨認權利移轉工具，不證明特定地區的可移轉容積或價格效果。",
+        "library_id": "TDRHANDBOOK2012",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "美國與跨地域",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "Noble 將 FAR 作為城市開發工具討論；書目題旨適合連結容積指標與開發誘因，但不提供本基地或通用獎勵比例。",
+        "library_id": "NOBLE1993",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "跨地域",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "分列基準 FAR、獎勵觸發條件、移出與接收地塊、公共回饋及履約監測，避免把兩類工具合成一個容積數字。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "在「開發獎勵與容積移轉｜設計原則」的來源情境裡，辨認基準容積、獎勵條件、接收容量及履約追蹤；落到設計時還要按開發獎勵與發展權移轉需分辨基準權利、觸發條件、接收容量、公共回饋和履約追蹤調整。",
+      "tradeoff_zh": "「開發獎勵與容積移轉｜設計原則」的主要代價不是抽象的建造成本，而是新增開發價值是否能轉成可負擔住房，取決於制度承諾、實際交付與受益對象；市場價格變動本身不等於公共回饋；因此先以開發獎勵與發展權移轉需分辨基準權利、觸發條件、接收容量、公共回饋和履約追蹤作方案比較條件。",
+      "library_ids": []
+    },
+    {
+      "option_zh": "「開發獎勵與容積移轉｜設計原則」可把取向落在土地拍賣、密度獎勵與權利移轉是不同工具，需分別建模，但需連同開發獎勵與發展權移轉需分辨基準權利、觸發條件、接收容量、公共回饋和履約追蹤決定適用方式。",
+      "tradeoff_zh": "此選項把「開發獎勵與容積移轉｜設計原則」的工作放在開發獎勵與發展權移轉需分辨基準權利、觸發條件、接收容量、公共回饋和履約追蹤上；需要承擔的協調或維護代價則由「新增開發價值是否能轉成可負擔住房，取決於制度承諾、實際交付與受益對象；市場價格變動本身不等於公共回饋」界定。",
+      "library_ids": []
+    }
+  ],
+  "applies_when_zh": "「開發獎勵與容積移轉｜設計原則」可在適用於政策工具比較和土地價值捕捉的概念分析時使用，前提是開發獎勵與發展權移轉需分辨基準權利、觸發條件、接收容量、公共回饋和履約追蹤與來源情境相符。",
+  "not_applicable_when_zh": "本庫沒有建立任何普遍獎勵比例或容積移轉公式。",
+  "debates_zh": "額外開發權可能支援公共利益，也可能將價值增益集中到少數接收地塊；分配規則需要公開。",
+  "sources": [
+    {
+      "library_id": "NOBLE1993",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "TDRHANDBOOK2012",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "住房權與政治經濟批判；土地經濟與用途混合",
+  "region": "美國與跨國住房政治；荷蘭住宅市場",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Planning Complex Cities",
+      "topic": "開發獎勵與容積移轉"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Urban Design Contexts and Operations",
+      "topic": "開發獎勵與容積移轉"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "開發獎勵與容積移轉"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban design governance",
+      "topic": "開發獎勵與容積移轉"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-REG-049",
+    "KU-REG-050",
+    "KU-REG-052"
+  ]
+}

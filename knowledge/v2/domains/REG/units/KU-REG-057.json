@@ -1,0 +1,98 @@
+{
+  "id": "KU-REG-057",
+  "domain": "REG",
+  "subtopic": "制度比較與數值適用性",
+  "type": "design_principle",
+  "title_zh": "制度比較與數值適用性｜設計原則",
+  "title_en": "Comparing regimes and numerical transfer — Design principle",
+  "summary_zh": "跨制度比較容積數值時，先確認用途區、計算口徑與地方計畫在各國法制中的位置。Hirt 的德美比較說明相似分類名詞未必有相同許可內容，BauNVO 則提供德國用途區與量體指引的法源。把其中一國的數值直接移植到另一國會忽略制度差異。",
+  "key_points_zh": [
+    "讀「制度比較與數值適用性｜設計原則」時，建立制度矩陣並追蹤一個具體許可案例；同時把該書目把制度如何適應都市蔓延列為研究問題，但目前查得資料沒有可核對的摘要結果列為核對條件。",
+    "讀「制度比較與數值適用性｜設計原則」時，建立制度矩陣並追蹤一個具體許可案例；同時把該書目把制度如何適應都市蔓延列為研究問題，但目前查得資料沒有可核對的摘要結果列為核對條件。",
+    "限制：未查當地官方現行規則時，任何數字都不能當基地法規。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "Hirt 比較美國與德國土地使用規制，指出類別名稱相似不代表容許用途或治理結構相同；跨國數值需連同制度層級解讀。",
+        "library_id": "HIRT2010",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "美國與德國",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "BauNVO 第17條列出用途區的 GRZ、GFZ 與 BMZ 指引值；這些指引仍須配合地方 Bebauungsplan 和計算條款判讀。",
+        "library_id": "BAUNVO",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "德國",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "為每個比較案例並列法規層級、用途許可、計算分母與地方裁量方式，再比較其空間後果。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "在「制度比較與數值適用性｜設計原則」的來源情境裡，建立制度矩陣並追蹤一個具體許可案例；落到設計時還要按該書目把制度如何適應都市蔓延列為研究問題，但目前查得資料沒有可核對的摘要結果調整。",
+      "tradeoff_zh": "「制度比較與數值適用性｜設計原則」採用「在「制度比較與數值適用性｜設計原則」的來源情境裡，建立制度矩陣並追蹤一個具體許可案例；落到設計時還要按該書目把制度如何適應都市蔓延列為研究問題，但目前查得資料沒有可核對的摘要結果調整」時，得失要沿著該書目把制度如何適應都市蔓延列為研究問題，但目前查得資料沒有可核對的摘要結果檢查；跨國最佳實務清單容易忽略地方政治、土地市場和行政能力。",
+      "library_ids": []
+    },
+    {
+      "option_zh": "在「制度比較與數值適用性｜設計原則」的來源情境裡，同一建築形式在不同制度下可能由不同規則組合產生；落到設計時還要按該書目把制度如何適應都市蔓延列為研究問題，但目前查得資料沒有可核對的摘要結果調整。",
+      "tradeoff_zh": "「制度比較與數值適用性｜設計原則」的主要代價不是抽象的建造成本，而是跨國最佳實務清單容易忽略地方政治、土地市場和行政能力；因此先以該書目把制度如何適應都市蔓延列為研究問題，但目前查得資料沒有可核對的摘要結果作方案比較條件。",
+      "library_ids": []
+    }
+  ],
+  "applies_when_zh": "「制度比較與數值適用性｜設計原則」可在適用於專業知識庫、課程比較和政策轉譯時使用，前提是該書目把制度如何適應都市蔓延列為研究問題，但目前查得資料沒有可核對的摘要結果與來源情境相符。",
+  "not_applicable_when_zh": "若該書目把制度如何適應都市蔓延列為研究問題，但目前查得資料沒有可核對的摘要結果不成立，就不能把「制度比較與數值適用性｜設計原則」的結論延伸到其他情況；未查當地官方現行規則時，任何數字都不能當基地法規。",
+  "debates_zh": "同一 FAR 或 GRZ 數字不代表相同開發權；用途、道路和程序條件也會改變實際容量。",
+  "sources": [
+    {
+      "library_id": "BAUNVO",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "HIRT2010",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "歐洲土地使用規劃制度比較；非正式都市化",
+  "region": "荷蘭、比利時與波蘭；全球南方",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Planning Complex Cities",
+      "topic": "制度比較與數值適用性"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Urban Design Contexts and Operations",
+      "topic": "制度比較與數值適用性"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "制度比較與數值適用性"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban design governance",
+      "topic": "制度比較與數值適用性"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-REG-055",
+    "KU-REG-056",
+    "KU-REG-058"
+  ]
+}

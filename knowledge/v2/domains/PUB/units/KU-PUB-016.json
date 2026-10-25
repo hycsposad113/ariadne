@@ -1,0 +1,65 @@
+{
+  "id": "KU-PUB-016",
+  "domain": "PUB",
+  "subtopic": "邊緣效應",
+  "type": "concept",
+  "title_zh": "可見但不必暴露的邊緣",
+  "title_en": "Legible edges without total exposure",
+  "summary_zh": "座位者通常需要看到部分活動，也需要背靠或遮蔽以獲得安全感。完全暴露的中央座位和完全封閉的角落都可能限制不同人的選擇。偏好會隨群體、時段及活動目的改變。增加視線可能提升辨識，亦可能讓脆弱使用者感到被注視。",
+  "key_points_zh": [
+    "座位者通常需要看到部分活動，也需要背靠或遮蔽以獲得安全感",
+    "完全暴露的中央座位和完全封閉的角落都可能限制不同人的選擇"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "座位者通常需要看到部分活動，也需要背靠或遮蔽以獲得安全感。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "美國",
+        "library_id": "LYNCH60",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "增加視線可能提升辨識，亦可能讓脆弱使用者感到被注視。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "以觀察和共設工作坊比較背靠、側向和面向人流的座位選項。"
+  ],
+  "applies_when_zh": "適用於服務需要停留與觀察的場所。",
+  "not_applicable_when_zh": "不應假定每位使用者都偏好同一種觀看方向。",
+  "debates_zh": "增加視線可能提升辨識，亦可能讓脆弱使用者感到被注視。",
+  "sources": [
+    {
+      "library_id": "LYNCH60",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "LOW05",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "都市認知",
+  "region": "美國",
+  "curriculum_refs": [
+    {
+      "school": "MIT",
+      "course": "11.330J Theory of City Form",
+      "topic": "邊緣效應"
+    },
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "邊緣效應"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-PUB-015"
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "id": "KU-ARC-018",
+  "domain": "ARC",
+  "subtopic": "住宅單元與類型",
+  "type": "value_range",
+  "title_zh": "梯間式住宅的單梯戶數",
+  "title_en": "dwellings per stair core per floor",
+  "summary_zh": "梯間式住宅可用每梯每層約 2–4 戶作小規模平面比對起點。 戶數偏少通常改善門前辨識與採光立面分配，但增加每戶分攤核心成本。 結構、防火與電梯服務方案會改變可行戶數。",
+  "key_points_zh": [
+    "核心主張：梯間式住宅可用每梯每層約 2–4 戶作小規模平面比對起點。",
+    "量測檢查：逐層計數由同一梯間服務的住宅入口，另測最遠行走路徑及兩方向逃生條件。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "梯間式住宅可用每梯每層約 2–4 戶作小規模平面比對起點。",
+        "effect_or_value": "約 2–4 戶／層的型態範圍；待案例核對",
+        "study_design": "跨地域設計參照綜整；數值狀態依 claim_verification 註記",
+        "context_region": "跨地域；用途與當地法規需分開核驗",
+        "library_id": "TIMESAVER_HOUSING94",
+        "locator": null,
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008"
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "dwellings served per stair core per floor",
+      "range": "約 2–4 戶／層的型態範圍；待案例核對",
+      "unit": "戶／層",
+      "context": "地區：跨地域；不是法規配置；用途：梯間式集合住宅的前期型態設計；出處：Time-Saver Standards for Housing and Residential Development；本基地法規：否；核對狀態：數值待原典交叉核對。",
+      "library_id": "TIMESAVER_HOUSING94"
+    }
+  ],
+  "design_implications_zh": [
+    "在平面上畫出每戶到梯間的門前距離，並測試轉角戶是否仍能取得有效外牆。"
+  ],
+  "applies_when_zh": "「梯間式住宅的單梯戶數」可在用於方案前期的量體、平面或空間品質篩檢時使用，前提是梯間式住宅可用每梯每層約 2–4 戶作小規模平面比對起點與來源情境相符。",
+  "not_applicable_when_zh": "若梯間式住宅可用每梯每層約 2–4 戶作小規模平面比對起點不成立，就不能把「梯間式住宅的單梯戶數」的結論延伸到其他情況；不得單獨作為許可、消防、結構或基地法規判定。",
+  "debates_zh": "每梯戶數不是住宅舒適度或安全的替代指標，法規逃生與防火分區必須另外核對。",
+  "sources": [
+    {
+      "library_id": "TIMESAVER_HOUSING94",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "AKSEL2020",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+  "tradition": "建築設計與住宅類型學",
+  "region": "跨地域；用途與當地法規需分開核驗",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Housing and the City / Design of the Urban Fabric",
+      "topic": "建築尺度與住宅平面"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "建築尺度與街道界面"
+    },
+    {
+      "school": "MIT",
+      "course": "Architecture and Urban Design",
+      "topic": "建築尺度與空間型態"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "建築尺度與公共生活"
+    }
+  ],
+  "check": {
+    "method_zh": "逐層計數由同一梯間服務的住宅入口，另測最遠行走路徑及兩方向逃生條件。",
+    "inputs": [
+      "住宅單元與類型",
+      "尺寸／面積圖層",
+      "適用地區與用途標籤"
+    ],
+    "logic_zh": "將量測輸入轉成明確尺寸、比例或空間關係；越界只觸發複核，不自動取代設計決策。",
+    "limitations_zh": "量測結果只觸發「梯間式住宅的單梯戶數」的複核，不得單獨作為許可或法規判定。"
+  },
+  "version": "kb2-arc-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-ARC-001",
+    "KU-ARC-002",
+    "KU-ARC-003",
+    "KU-ARC-004",
+    "KU-ARC-005"
+  ]
+}

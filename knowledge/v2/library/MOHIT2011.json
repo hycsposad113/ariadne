@@ -1,0 +1,44 @@
+{
+  "id": "MOHIT2011",
+  "title": "Social housing programme of Selangor Zakat Board of Malaysia and housing satisfaction",
+  "authors": [
+    "Mohammad Abdul Mohit",
+    "Nurul Nazyddah"
+  ],
+  "year": 2011,
+  "venue_or_publisher": "Journal of Housing and the Built Environment",
+  "doi": "https://doi.org/10.1007/s10901-011-9216-y",
+  "isbn": null,
+  "openalex_id": "https://openalex.org/W2067680747",
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "馬來西亞社會住宅滿意度",
+  "region": [
+    "雪蘭莪，馬來西亞"
+  ],
+  "method": "906 戶計畫交付後的 Likert 滿意度比較",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "住宅單元的滿意度約屬中等，支援服務、社會環境與公共設施的結果不一，不能把交屋數當作生活品質成效。",
+      "strength": "MIXED",
+      "scope_zh": "僅限摘要可核對的範圍；未讀全文，不推論摘要未列的數字、因果或普遍適用性。",
+      "assessment_basis": "ABSTRACT_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "OpenAlex",
+    "query": {
+      "record_id": "https://openalex.org/W2067680747",
+      "title": "Social housing programme of Selangor Zakat Board of Malaysia and housing satisfaction",
+      "author": "Mohammad Abdul Mohit",
+      "year": 2011
+    },
+    "matched_record_id": "https://openalex.org/W2067680747",
+    "checked_at_utc": "2026-10-08T09:12:32Z",
+    "match_notes_zh": "以 OpenAlex 精確 work 記錄核對書名、作者與出版年；只使用摘要作主張範圍檢查，未下載全文。"
+  },
+  "limitations_zh": "僅使用允許的書目欄位和摘要核對；未取得或保存全文。",
+  "metadata_licence_zh": "保存公開書目欄位與自行撰寫主張摘要；未保存 API 摘要原文或全文。"
+}

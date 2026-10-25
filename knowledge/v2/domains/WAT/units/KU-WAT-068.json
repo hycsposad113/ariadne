@@ -1,0 +1,74 @@
+{
+  "id": "KU-WAT-068",
+  "domain": "WAT",
+  "subtopic": "海綿城市",
+  "type": "critique",
+  "title_zh": "工程建成率不等於城市抗洪能力",
+  "title_en": "工程建成率不等於城市抗洪能力",
+  "summary_zh": "把設施建成面積作為績效，可能忽略管網瓶頸、連續暴雨和脆弱社區暴露。海綿城市研究提供政策和試點材料；韌性研究指出治理目標需考慮受影響群體和系統邊界。評估應把建設進度與功能結果分開報告。",
+  "key_points_zh": [
+    "建成指標回答投入和產出，不直接說明淹水損失。",
+    "未連接到匯水區的設施可能沒有預期效果。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "library_id": "MEEROW2016",
+        "claim_zh": "海綿城市研究提供政策和試點材料；韌性研究指出治理目標需考慮受影響群體和系統邊界。",
+        "effect_or_value": "評估應把建設進度與功能結果分開報告。",
+        "study_design": "韌性定義回顧",
+        "context_region": "跨地域",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "library_id": "SONG2020",
+        "claim_zh": "題名確認研究以濟南試點評估海綿城市建設的逕流量整合管理；結果數值與試驗設定尚未從摘要核對；本單元 KU-WAT-068 對照「把設施建成面積作為績效，可能忽略管網瓶頸、連續暴雨和脆弱社區暴露」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "都市水量管理的試點案例研究",
+        "context_region": "中國濟南",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "追蹤實際逕流、超載和恢復時間。",
+    "將社區風險與工程績效放在同一評估矩陣。"
+  ],
+  "applies_when_zh": "適用於海綿城市考核指標審查。",
+  "not_applicable_when_zh": "不適用於僅依建成設施量判斷防洪安全。",
+  "debates_zh": "政策考核偏好容易計數的成果，長期維護和弱勢區的效果較難進入排名。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "MEEROW2016",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "SONG2020",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "海綿城市績效批評",
+  "region": "中國；跨地域",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "海綿城市"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Sustainable Futures by Design",
+      "topic": "海綿城市"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0"
+}

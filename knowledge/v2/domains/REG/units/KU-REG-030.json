@@ -1,0 +1,107 @@
+{
+  "id": "KU-REG-030",
+  "domain": "REG",
+  "subtopic": "英國裁量式規劃",
+  "type": "typology",
+  "title_zh": "英國裁量式規劃｜類型取捨",
+  "title_en": "UK discretionary planning profile — Typology and trade-offs",
+  "summary_zh": "英國裁量式規劃透過政策、申請條件、上訴與開發協商形成場址決策。 健康與規劃研究指出，政策目標與場址可用工具之間仍有缺口；土地推廣者個案則顯示規則不確定性進入融資和持有策略。 這些研究說明制度和市場反應，不能用來預測特定建築量體。",
+  "key_points_zh": [
+    "同一政策目標可能透過上訴、條件和開發協商形成不同結果。",
+    "讀「英國裁量式規劃｜類型取捨」時，適用於了解逐案裁量及規劃風險的制度後果；同時把研究指出政策宣示與場址尺度裁量工具之間仍有證據缺口，質疑規劃規則可以自動兌現健康結果的假設列為核對條件。",
+    "限制：本文引用是制度研究，不是英國現行法規的法律建議。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "研究指出政策宣示與場址尺度裁量工具之間仍有證據缺口，質疑規劃規則可以自動兌現健康結果的假設。",
+        "library_id": "SHEPPARD2021",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "英國場址尺度",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "個案顯示規劃改革及不確定性可被土地推廣者納入融資與持有策略；這是市場制度分析，不是建築量體效果估計。",
+        "library_id": "SHEPHERD2022",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "英格蘭",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "檢視決策案例、上訴理由、政策依據和實施條件。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "在「英國裁量式規劃｜類型取捨」的來源情境裡，檢視決策案例、上訴理由、政策依據和實施條件；落到設計時還要按研究指出政策宣示與場址尺度裁量工具之間仍有證據缺口，質疑規劃規則可以自動兌現健康結果的假設調整。",
+      "tradeoff_zh": "「英國裁量式規劃｜類型取捨」的主要代價不是抽象的建造成本，而是有政策目標不代表微觀場址一定有可執行工具；因此先以研究指出政策宣示與場址尺度裁量工具之間仍有證據缺口，質疑規劃規則可以自動兌現健康結果的假設作方案比較條件。",
+      "library_ids": [
+        "SHEPPARD2021",
+        "SHEPHERD2022"
+      ]
+    },
+    {
+      "option_zh": "在「英國裁量式規劃｜類型取捨」的來源情境裡，同一政策目標可能透過上訴、條件和開發協商形成不同結果；落到設計時還要按研究指出政策宣示與場址尺度裁量工具之間仍有證據缺口，質疑規劃規則可以自動兌現健康結果的假設調整。",
+      "tradeoff_zh": "此選項把「英國裁量式規劃｜類型取捨」的工作放在研究指出政策宣示與場址尺度裁量工具之間仍有證據缺口，質疑規劃規則可以自動兌現健康結果的假設上；需要承擔的協調或維護代價則由「有政策目標不代表微觀場址一定有可執行工具」界定。",
+      "library_ids": [
+        "SHEPPARD2021",
+        "SHEPHERD2022"
+      ]
+    }
+  ],
+  "applies_when_zh": "適用於了解逐案裁量及規劃風險的制度後果。",
+  "not_applicable_when_zh": "本文引用是制度研究，不是英國現行法規的法律建議。",
+  "debates_zh": "有政策目標不代表微觀場址一定有可執行工具。",
+  "sources": [
+    {
+      "library_id": "SHEPPARD2021",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "SHEPHERD2022",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "英國規劃裁量與健康條件；英格蘭土地市場與規劃風險",
+  "region": "英國場址尺度；英格蘭",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Planning Complex Cities",
+      "topic": "英國裁量式規劃"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Urban Design Contexts and Operations",
+      "topic": "英國裁量式規劃"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "英國裁量式規劃"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban design governance",
+      "topic": "英國裁量式規劃"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-REG-029",
+    "KU-REG-031",
+    "KU-REG-032"
+  ],
+  "counter_unit_ids": [
+    "KU-REG-033"
+  ]
+}

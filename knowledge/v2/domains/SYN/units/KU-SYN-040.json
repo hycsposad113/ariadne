@@ -1,0 +1,80 @@
+{
+  "id": "KU-SYN-040",
+  "domain": "SYN",
+  "subtopic": "角度與度量距離",
+  "type": "typology",
+  "title_zh": "角度與度量距離：型態比較",
+  "title_en": "Angular and metric distance: Typology comparison",
+  "summary_zh": "角度距離偏重方向改變，度量距離反映實際長度，拓樸距離計算交會步數；三者不互為替代。類型比較要回到拓樸、角度和公尺距離代表不同移動成本；距離選擇會改變最短路徑和中心性值。各類型的成本和適用條件包括：研究者若只報一種距離，模型選擇的不確定性會被誤當成精確的人流預測。",
+  "key_points_zh": [
+    "比較類型：拓樸、角度和公尺距離代表不同移動成本；距離選擇會改變最短路徑和中心性值",
+    "比較類型：角度距離偏重方向改變，度量距離反映實際長度，拓樸距離計算交會步數；三者不互為替代"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "角度與度量距離：型態比較｜Primal 街道圖和多中心性指標可辨識城市結構骨架；規劃型與自組織城市的中心性分布不同，指標選擇仍受圖表示限制",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "PORTA06",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "角度與度量距離：型態比較｜非機動可及性必須說明網路、目的地與尺度，替代量測方式需保持定義可比較",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "IACONO10",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "類型表應比較「拓樸、角度和公尺距離代表不同移動成本；距離選擇會改變最短路徑和中心性值」及其使用代價「研究者若只報一種距離，模型選擇的不確定性會被誤當成精確的人流預測」，不要只列名稱。"
+  ],
+  "applies_when_zh": "比較角度與度量距離方案時，可先用「拓樸、角度和公尺距離代表不同移動成本；距離選擇會改變最短路徑和中心性值」描述各類型，再按「研究者若只報一種距離，模型選擇的不確定性會被誤當成精確的人流預測」檢查分類的盲點。",
+  "not_applicable_when_zh": "這些類型不構成普遍排序；遇到「研究者若只報一種距離，模型選擇的不確定性會被誤當成精確的人流預測」所述條件時，不應只依類名決定路網或街道配置。",
+  "debates_zh": "研究者若只報一種距離，模型選擇的不確定性會被誤當成精確的人流預測；檢視「角度與度量距離：型態比較」的分類邊界時，還需判斷「角度距離偏重方向改變，度量距離反映實際長度，拓樸距離計算交會步數；三者不互為替代」會如何改變方案結論。",
+  "sources": [
+    {
+      "library_id": "PORTA06",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "IACONO10",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "空間網路距離模型",
+  "region": "跨地域理論或實務脈絡；來源地區依引用條目判讀",
+  "curriculum_refs": [
+    {
+      "school": "UCL Bartlett",
+      "course": "Critical Debates in Urban Design",
+      "topic": "角度與度量距離：課綱對應主題"
+    },
+    {
+      "school": "TU Delft",
+      "course": "Methods of Analysis & Imagination",
+      "topic": "角度與度量距離：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-SYN-033",
+    "KU-SYN-034",
+    "KU-SYN-035",
+    "KU-SYN-036",
+    "KU-SYN-037",
+    "KU-SYN-038",
+    "KU-SYN-039"
+  ]
+}

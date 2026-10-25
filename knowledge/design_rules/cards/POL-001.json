@@ -1,0 +1,91 @@
+{
+  "id": "POL-001",
+  "title_zh": "M4H 政策待查",
+  "title_en": "M4H policy verification gap",
+  "domain": "policy",
+  "stages": [
+    "S1",
+    "S2",
+    "S3",
+    "S7",
+    "S8"
+  ],
+  "statement_zh": "現況、M4H 願景與現行法定規劃要分開呈現；精確政策文件未取得，不能推定政府允許的用途或比例。",
+  "rationale_zh": "形態及公平文獻提供審查角度，無法替代具版本、範圍與效力的地方政策文件。",
+  "applies_when": {
+    "scale": [
+      "*"
+    ],
+    "land_use": [
+      "*"
+    ],
+    "strategy": [
+      "*"
+    ],
+    "mode": [
+      "*"
+    ]
+  },
+  "parameters": [
+    {
+      "name": "policy_versions_to_compare",
+      "value": 2,
+      "range": null,
+      "unit": "versions",
+      "provenance": "ASSUMED_COMMANDER",
+      "source_ids": [],
+      "authority_ref": null,
+      "status": "PROPOSED_PENDING_FOUNDER",
+      "rationale_zh": "指揮官提出的敏感性試算值，文獻未提供此數值；須 Founder 確認、地方資料及確定性驗證，未生效。"
+    }
+  ],
+  "check": null,
+  "check_unavailable_reason_zh": "需要現場觀察、權利／營運資料或設計者判斷；文字契約無法證明品質。",
+  "design_responses": [
+    {
+      "option": "1",
+      "action_zh": "以待查政策列資料缺口",
+      "source_ids": [
+        "MOUDON97"
+      ],
+      "tradeoff_zh": "不能宣稱合規。"
+    },
+    {
+      "option": "2",
+      "action_zh": "僅比較非約束性的 portfolio 候選",
+      "source_ids": [
+        "FANSTEIN10"
+      ],
+      "tradeoff_zh": "仍需正式政策才能決策。"
+    }
+  ],
+  "evidence_level": "POLICY",
+  "evidence_strength": "ASSUMED",
+  "sources": [
+    {
+      "library_id": "MOUDON97",
+      "claim_id": "C1",
+      "support_scope_zh": "文獻支持概念與比較角度；本卡具體操作是設計推導，試算值及專案約束不是文獻的普適結論。"
+    },
+    {
+      "library_id": "FANSTEIN10",
+      "claim_id": "C1",
+      "support_scope_zh": "文獻支持概念與比較角度；本卡具體操作是設計推導，試算值及專案約束不是文獻的普適結論。"
+    },
+    {
+      "library_id": "WATSON09",
+      "claim_id": "C1",
+      "support_scope_zh": "文獻支持概念與比較角度；本卡具體操作是設計推導，試算值及專案約束不是文獻的普適結論。"
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "enforcement": "CANDIDATE_ONLY",
+  "authority_ref": null,
+  "debates_zh": "未取得政策原文，不知道新舊文件差異；兩學術來源只支持方法與公平，不支持任何 M4H 條文。 已查證書目與主張的查閱層級見 library；不是逐頁核驗或本基地因果結論。",
+  "context_validity_zh": "M4H 政策地域相關但文件身份未核實；移用外國政策禁止。",
+  "exceptions_zh": "卡片不可替代現行法規、產權、無障礙或已接受 D1/D2。缺必要資料即回報 UNKNOWN；例外須由 Founder 明確決定並保留原結果。",
+  "version": "0.2.0",
+  "local_context_refs": [
+    "M4H_PENDING"
+  ]
+}

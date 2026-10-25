@@ -1,0 +1,45 @@
+{
+  "id": "NEMETH11",
+  "title": "The Privatization of Public Space: Modeling and Measuring Publicness",
+  "authors": [
+    "Jeremy Németh",
+    "Stephen Schmidt"
+  ],
+  "year": 2011,
+  "venue_or_publisher": "Environment and Planning B: Planning and Design",
+  "doi": "https://doi.org/10.1068/b36057",
+  "isbn": null,
+  "crossref_id": "https://doi.org/10.1068/b36057",
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "公共空間治理與 publicness",
+  "region": [
+    "美國",
+    "北美"
+  ],
+  "method": "觀察式公私空間比較與管理指標",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "跨研究比較中，私有經營空間同樣會促進公眾進入，但行為管制與監視措施較多；觀察指標只涵蓋特定城市空間。",
+      "strength": "MIXED",
+      "scope_zh": "美國紐約市；主張限於此來源的研究設計與樣本，不外推為本基地規範。",
+      "assessment_basis": "ABSTRACT_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref",
+    "query": {
+      "title": "The Privatization of Public Space: Modeling and Measuring Publicness",
+      "author": "Jeremy Németh",
+      "year": 2011
+    },
+    "matched_record_id": "https://doi.org/10.1068/b36057",
+    "checked_at_utc": "2026-10-08T09:52:06Z",
+    "match_notes_zh": "核對 Crossref 回傳書名、主要作者、出版年與 DOI；摘要只在實際取得並閱讀的論文上標 ABSTRACT_REVIEW。"
+  },
+  "limitations_zh": "美國紐約市；書目核對不替代完整論文審查。",
+  "critique_relationship_zh": "此條目的批評連結供編者並讀，不宣稱存在直接互引。",
+  "metadata_licence_zh": "僅保存公開書目欄位與自行撰寫的摘要；未保存摘要原文，metadata 授權未單獨核定。"
+}

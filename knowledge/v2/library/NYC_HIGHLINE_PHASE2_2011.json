@@ -1,0 +1,42 @@
+{
+  "id": "NYC_HIGHLINE_PHASE2_2011",
+  "title": "Mayor Bloomberg, Speaker Quinn and Friends of the High Line Open Section Two",
+  "authors": [
+    "City of New York"
+  ],
+  "year": 2011,
+  "venue_or_publisher": "City of New York",
+  "doi": null,
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "OFFICIAL_GOVERNMENT_RELEASE",
+  "tradition": "官方城市規劃與專案資料",
+  "region": "美國紐約市",
+  "method": "直接核對官方公開頁面或政府報告；非學術成效研究",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "市府公告記錄High Line第二段於2011年開放，新增半英里並使當時全線達一英里；周邊投資數值屬市府公告說法。",
+      "strength": "CASE_EVIDENCE",
+      "scope_zh": "僅支持頁面明確公布的規劃口徑、歷史日期或行政資料，不將目標寫成實現成果。",
+      "assessment_basis": "DIRECT_SOURCE_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Official organization webpage",
+    "query": {
+      "title": "Mayor Bloomberg, Speaker Quinn and Friends of the High Line Open Section Two",
+      "author": "City of New York",
+      "year": 2011,
+      "api_query": "Read-only official source page: https://www.nyc.gov/html/om/html/2011a/pr194-11.html"
+    },
+    "matched_record_id": "https://www.nyc.gov/html/om/html/2011a/pr194-11.html",
+    "checked_at_utc": "2026-10-08T14:10:33Z",
+    "match_notes_zh": "直接核對官方網站或政府報告；網站頁面不是Crossref書目記錄，未宣稱經Crossref驗證。"
+  },
+  "limitations_zh": "官方頁面可能呈現規劃者或管理者口徑；研究成效及獨立社會評估需另尋學術來源。",
+  "critique_relationship_zh": "本記錄不宣稱與其他來源存在直接互引或逐一反駁關係。",
+  "metadata_licence_zh": "官方公開頁面；未確認個別資料集的再利用授權。"
+}

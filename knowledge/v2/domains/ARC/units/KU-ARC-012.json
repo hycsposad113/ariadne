@@ -1,0 +1,98 @@
+{
+  "id": "KU-ARC-012",
+  "domain": "ARC",
+  "subtopic": "住宅單元與類型",
+  "type": "value_range",
+  "title_zh": "單面採光住宅翼的前期進深檢查",
+  "title_en": "single-aspect housing wing depth",
+  "summary_zh": "單面採光住宅翼常以約 7–9 m 作早期平面試排區間，並非通用合格線。 住宅翼若更窄，核心、衛浴與家具可能擠壓臨窗起居面；若過深，採光與通風要逐室驗證。 量體模型應把翼深與戶型淨進深分別記錄。",
+  "key_points_zh": [
+    "核心主張：單面採光住宅翼常以約 7–9 m 作早期平面試排區間，並非通用合格線。",
+    "量測檢查：由外牆內側量至主要服務帶或對向室內界面，並按窗向、窗頂高度與功能逐戶畫剖面。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "單面採光住宅翼常以約 7–9 m 作早期平面試排區間，並非通用合格線。",
+        "effect_or_value": "約 7–9 m；僅供前期方案檢查",
+        "study_design": "跨地域設計參照綜整；數值狀態依 claim_verification 註記",
+        "context_region": "跨地域；用途與當地法規需分開核驗",
+        "library_id": "NEUFERT12",
+        "locator": null,
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008"
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "single-aspect wing early-study depth",
+      "range": "約 7–9 m；僅供前期方案檢查",
+      "unit": "m",
+      "context": "地區：跨地域；非規範值；用途：跨地域集合住宅單面採光翼深的假設性初篩；個案需原典交叉核對；出處：Architects’ Data；本基地法規：否；核對狀態：數值待原典交叉核對。",
+      "library_id": "NEUFERT12"
+    }
+  ],
+  "design_implications_zh": [
+    "用可佈置的房間深度反推翼深，避免一條狹薄住宅翼只為滿足建蔽率而被畫出。"
+  ],
+  "applies_when_zh": "「單面採光住宅翼的前期進深檢查」可在用於方案前期的量體、平面或空間品質篩檢時使用，前提是單面採光住宅翼常以約 7–9 m 作早期平面試排區間，並非通用合格線與來源情境相符。",
+  "not_applicable_when_zh": "若單面採光住宅翼常以約 7–9 m 作早期平面試排區間，並非通用合格線不成立，就不能把「單面採光住宅翼的前期進深檢查」的結論延伸到其他情況；不得單獨作為許可、消防、結構或基地法規判定。",
+  "debates_zh": "小翼深也可能適合單面採光的一房戶型或受限基地，不能直接判為「不可行」。",
+  "sources": [
+    {
+      "library_id": "NEUFERT12",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "FORSYTH2019",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+  "tradition": "建築設計與住宅類型學",
+  "region": "跨地域；用途與當地法規需分開核驗",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Housing and the City / Design of the Urban Fabric",
+      "topic": "建築尺度與住宅平面"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "建築尺度與街道界面"
+    },
+    {
+      "school": "MIT",
+      "course": "Architecture and Urban Design",
+      "topic": "建築尺度與空間型態"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "建築尺度與公共生活"
+    }
+  ],
+  "check": {
+    "method_zh": "由外牆內側量至主要服務帶或對向室內界面，並按窗向、窗頂高度與功能逐戶畫剖面。",
+    "inputs": [
+      "住宅單元與類型",
+      "尺寸／面積圖層",
+      "適用地區與用途標籤"
+    ],
+    "logic_zh": "將量測輸入轉成明確尺寸、比例或空間關係；越界只觸發複核，不自動取代設計決策。",
+    "limitations_zh": "量測結果只觸發「單面採光住宅翼的前期進深檢查」的複核，不得單獨作為許可或法規判定。"
+  },
+  "version": "kb2-arc-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-ARC-001",
+    "KU-ARC-002",
+    "KU-ARC-003",
+    "KU-ARC-004",
+    "KU-ARC-005"
+  ]
+}

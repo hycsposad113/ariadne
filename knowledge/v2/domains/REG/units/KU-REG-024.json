@@ -1,0 +1,122 @@
+{
+  "id": "KU-REG-024",
+  "domain": "REG",
+  "subtopic": "荷蘭 Omgevingswet 與 omgevingsplan",
+  "type": "design_principle",
+  "title_zh": "荷蘭 Omgevingswet 與 omgevingsplan｜設計原則",
+  "title_en": "Dutch integrated environment and plan profile — Design principle",
+  "summary_zh": "荷蘭整合環境與規劃法的辯論呈現了整合制度的目標，但不等同現行地方 omgevingsplan 條文。 程序設計仍需呈現誰參與、利益如何衝突，以及哪些決定保留給地方政府。 公平評估要說明受益與負擔分配，不能只看總量效率。",
+  "key_points_zh": [
+    "讀「荷蘭 Omgevingswet 與 omgevingsplan｜設計原則」時，按研究時點繪製中央立法、地方計畫、許可和實施的關係；同時把分歧中的協作需要呈現參與者與討論程序；技術評估不替代人類決定列為核對條件。",
+    "讀「荷蘭 Omgevingswet 與 omgevingsplan｜設計原則」時，按研究時點繪製中央立法、地方計畫、許可和實施的關係；同時把分歧中的協作需要呈現參與者與討論程序；技術評估不替代人類決定列為核對條件。",
+    "限制：正式基地判斷需另查當前官方法規與地區 plan。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "Healey 的協作規劃理論把參與者、制度脈絡與協商過程納入計畫形成分析；它提供程序檢視框架，不解釋 Omgevingswet 的法條。",
+        "library_id": "HEALEY97",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "英國與跨地域",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "本條依公開摘要或書目範圍整理；未據此推定本基地法規、普遍效果或未核對的數值。"
+      },
+      {
+        "claim_zh": "Korthals Altes 回顧荷蘭整合 Environment and Planning Act 的立法辯論；這可說明改革目標與爭點，不能當作現行條文全文。",
+        "library_id": "KORTHALSALTES2016",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "荷蘭",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW",
+        "limitations_zh": "本條依公開摘要或書目範圍整理；未據此推定本基地法規、普遍效果或未核對的數值。"
+      },
+      {
+        "claim_zh": "IPLO 官方頁以 omgevingsplan 的規則、環境法目的及地點功能配置為主題；正式設計判斷須回到該頁所指的現行規則。",
+        "library_id": "IPLO_OMGEVINGSPLAN",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "荷蘭",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "本條依公開摘要或書目範圍整理；未據此推定本基地法規、普遍效果或未核對的數值。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "落實「荷蘭 Omgevingswet 與 omgevingsplan｜設計原則」時可先按研究時點繪製中央立法、地方計畫、許可和實施的關係，再用分歧中的協作需要呈現參與者與討論程序；技術評估不替代人類決定核對方案的空間後果。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "在「荷蘭 Omgevingswet 與 omgevingsplan｜設計原則」的來源情境裡，按研究時點繪製中央立法、地方計畫、許可和實施的關係；落到設計時還要按分歧中的協作需要呈現參與者與討論程序；技術評估不替代人類決定調整。",
+      "tradeoff_zh": "此選項把「荷蘭 Omgevingswet 與 omgevingsplan｜設計原則」的工作放在分歧中的協作需要呈現參與者與討論程序；技術評估不替代人類決定上；需要承擔的協調或維護代價則由「2016 年法案辯論不能當成 2026 年現行法條的完整說明」界定。",
+      "library_ids": [
+        "HEALEY97"
+      ]
+    },
+    {
+      "option_zh": "「荷蘭 Omgevingswet 與 omgevingsplan｜設計原則」可把取向落在整合計畫可連結環境、建築和土地使用，不代表所有決定自動簡化，但需連同分歧中的協作需要呈現參與者與討論程序；技術評估不替代人類決定決定適用方式。",
+      "tradeoff_zh": "「荷蘭 Omgevingswet 與 omgevingsplan｜設計原則」採用「「荷蘭 Omgevingswet 與 omgevingsplan｜設計原則」可把取向落在整合計畫可連結環境、建築和土地使用，不代表所有決定自動簡化，但需連同分歧中的協作需要呈現參與者與討論程序；技術評估不替代人類決定決定適用方式」時，得失要沿著分歧中的協作需要呈現參與者與討論程序；技術評估不替代人類決定檢查；2016 年法案辯論不能當成 2026 年現行法條的完整說明。",
+      "library_ids": [
+        "HEALEY97"
+      ]
+    }
+  ],
+  "applies_when_zh": "「荷蘭 Omgevingswet 與 omgevingsplan｜設計原則」可在適用於分析整合型規劃制度如何改變計畫和規則關係時使用，前提是分歧中的協作需要呈現參與者與討論程序；技術評估不替代人類決定與來源情境相符。",
+  "not_applicable_when_zh": "若分歧中的協作需要呈現參與者與討論程序；技術評估不替代人類決定不成立，就不能把「荷蘭 Omgevingswet 與 omgevingsplan｜設計原則」的結論延伸到其他情況；正式基地判斷需另查當前官方法規與地區 plan。",
+  "debates_zh": "2016 年法案辯論不能當成 2026 年現行法條的完整說明。",
+  "sources": [
+    {
+      "library_id": "HEALEY97",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "IPLO_OMGEVINGSPLAN",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "KORTHALSALTES2016",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "協作規劃；都市分配正義",
+  "region": "英國；美國",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Planning Complex Cities",
+      "topic": "荷蘭 Omgevingswet 與 omgevingsplan"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Urban Design Contexts and Operations",
+      "topic": "荷蘭 Omgevingswet 與 omgevingsplan"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "荷蘭 Omgevingswet 與 omgevingsplan"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban design governance",
+      "topic": "荷蘭 Omgevingswet 與 omgevingsplan"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-REG-022",
+    "KU-REG-023",
+    "KU-REG-025"
+  ],
+  "counter_unit_ids": [
+    "KU-REG-026"
+  ]
+}

@@ -1,0 +1,10 @@
+feat(w6-10): exact road snapping and dependency invalidation
+
+Add seven precise road snaps, shared-node graph updates and immutable
+split lineage, transitive stale propagation and guarded job publication.
+Deliver a bilingual independent panel with stale-response controls.
+Formal editor integration and independent acceptance remain pending.
+
+Co-Authored-By: GPT-6.1 Sol
+Co-Authored-By: GPT-6 Luna
+Co-Authored-By: GPT-6 (Codex)

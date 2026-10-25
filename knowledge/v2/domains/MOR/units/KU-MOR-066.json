@@ -1,0 +1,92 @@
+{
+  "id": "KU-MOR-066",
+  "domain": "MOR",
+  "subtopic": "地塊、街廓與建築類型",
+  "type": "value_range",
+  "title_zh": "波特蘭市中心網格街廓",
+  "title_en": "Portland downtown block module",
+  "summary_zh": "不同計畫邊界、街道權利範圍和後續合併會造成實際街廓大小偏離模數。 把街廓模數和路口密度同列，可比較小單位如何影響步行路線選擇。 記錄 波特蘭，奧勒岡州 與「19 世紀市中心網格街廓」的量測分母，再和另一種尺度或用途並排比較。",
+  "key_points_zh": [
+    "波特蘭歷史市中心街廓常用 200 ft 方格描述，約為 61 × 61 m，細於許多北美城市網格。",
+    "不同計畫邊界、街道權利範圍和後續合併會造成實際街廓大小偏離模數。",
+    "把街廓模數和路口密度同列，可比較小單位如何影響步行路線選擇。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "波特蘭歷史市中心街廓常用 200 ft 方格描述，約為 61 × 61 m，細於許多北美城市網格。",
+        "effect_or_value": "約 61 × 61",
+        "study_design": "跨案例尺度對照或明示假設的規劃計算",
+        "context_region": "波特蘭，奧勒岡州",
+        "library_id": "MARSHALL05",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "特定鄰里形式不保證社群感；社會互動可能透過中介條件發生，其他設計也可能達成。",
+        "effect_or_value": null,
+        "study_design": "形態／制度比較的補充閱讀",
+        "context_region": "波特蘭，奧勒岡州",
+        "library_id": "TALEN99",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "波特蘭市中心網格街廓",
+      "range": "約 61 × 61",
+      "unit": "m（200 ft 方格）",
+      "context": "波特蘭，奧勒岡州；用途：19 世紀市中心網格街廓；對照書目：MARSHALL05；適用於制度或形態比較，這不是本基地法規；來源所列地域：英國、跨地域。",
+      "library_id": "MARSHALL05"
+    }
+  ],
+  "design_implications_zh": [
+    "把街廓模數和路口密度同列，可比較小單位如何影響步行路線選擇。",
+    "記錄 波特蘭，奧勒岡州 與「19 世紀市中心網格街廓」的量測分母，再和另一種尺度或用途並排比較。"
+  ],
+  "applies_when_zh": "用於比較波特蘭，奧勒岡州的19 世紀市中心網格街廓，並明示此數值的來源、年份和面積分母。",
+  "not_applicable_when_zh": "不同計畫邊界、街道權利範圍和後續合併會造成實際街廓大小偏離模數。",
+  "debates_zh": "細密網格增加連通機會，但街角數量也帶來穿越衝突和公共設施維護成本。",
+  "sources": [
+    {
+      "library_id": "MARSHALL05",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "TALEN99",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "街道形態",
+  "region": "波特蘭，奧勒岡州",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "地塊、街廓與建築類型"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "地塊、街廓與建築類型"
+    },
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.330J Theory of City Form",
+      "topic": "地塊、街廓與建築類型"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban form and density",
+      "topic": "地塊、街廓與建築類型"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008"
+}

@@ -1,0 +1,101 @@
+{
+  "id": "KU-REG-023",
+  "domain": "REG",
+  "subtopic": "荷蘭 Omgevingswet 與 omgevingsplan",
+  "type": "typology",
+  "title_zh": "荷蘭 Omgevingswet 與 omgevingsplan｜類型取捨",
+  "title_en": "Dutch integrated environment and plan profile — Typology and trade-offs",
+  "summary_zh": "荷蘭 Omgevingswet 將環境與空間規則整合到地方 omgevingsplan，制度改革也伴隨計畫功能與行政程序的辯論。Korthals Altes 討論整合立法的政策背景，IPLO 的現行頁面則說明市鎮計畫的規則角色。閱讀時需分開歷史立法辯論與當前地方條文。",
+  "key_points_zh": [
+    "整合計畫可連結環境、建築和土地使用，不代表所有決定自動簡化。",
+    "讀「荷蘭 Omgevingswet 與 omgevingsplan｜類型取捨」時，適用於分析整合型規劃制度如何改變計畫和規則關係；同時把地方協作試驗促成兩個指定區域的分區修訂草案，但主管機關採納需要時間與資源列為核對條件。",
+    "限制：正式基地判斷需另查當前官方法規與地區 plan。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "Korthals Altes 追蹤荷蘭整合 Environment and Planning Act 的立法辯論，並說明土地使用計畫兼具發展方案與建管規則功能；本文不替代現行法條。",
+        "library_id": "KORTHALSALTES2016",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "荷蘭",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "IPLO 說明市鎮 omgevingsplan 的規則服務環境法目的及地點功能均衡分配；實際適用仍須查當前地方計畫。",
+        "library_id": "IPLO_OMGEVINGSPLAN",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "荷蘭",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "把 2016 年立法辯論與目前市鎮 omgevingsplan 分欄整理，並逐條連回正式地方規則。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "在「荷蘭 Omgevingswet 與 omgevingsplan｜類型取捨」的來源情境裡，按研究時點繪製中央立法、地方計畫、許可和實施的關係；落到設計時還要按地方協作試驗促成兩個指定區域的分區修訂草案，但主管機關採納需要時間與資源調整。",
+      "tradeoff_zh": "「荷蘭 Omgevingswet 與 omgevingsplan｜類型取捨」採用「在「荷蘭 Omgevingswet 與 omgevingsplan｜類型取捨」的來源情境裡，按研究時點繪製中央立法、地方計畫、許可和實施的關係；落到設計時還要按地方協作試驗促成兩個指定區域的分區修訂草案，但主管機關採納需要時間與資源調整」時，得失要沿著地方協作試驗促成兩個指定區域的分區修訂草案，但主管機關採納需要時間與資源檢查；2016 年法案辯論不能當成 2026 年現行法條的完整說明。",
+      "library_ids": []
+    },
+    {
+      "option_zh": "在「荷蘭 Omgevingswet 與 omgevingsplan｜類型取捨」的來源情境裡，整合計畫可連結環境、建築和土地使用，不代表所有決定自動簡化；落到設計時還要按地方協作試驗促成兩個指定區域的分區修訂草案，但主管機關採納需要時間與資源調整。",
+      "tradeoff_zh": "「荷蘭 Omgevingswet 與 omgevingsplan｜類型取捨」的主要代價不是抽象的建造成本，而是2016 年法案辯論不能當成 2026 年現行法條的完整說明；因此先以地方協作試驗促成兩個指定區域的分區修訂草案，但主管機關採納需要時間與資源作方案比較條件。",
+      "library_ids": []
+    }
+  ],
+  "applies_when_zh": "適用於分析整合型規劃制度如何改變計畫和規則關係。",
+  "not_applicable_when_zh": "正式基地判斷需另查當前官方法規與地區 plan。",
+  "debates_zh": "整合規則可減少制度碎片，也可能讓地方計畫承擔更廣的環境與土地用途協調責任。",
+  "sources": [
+    {
+      "library_id": "IPLO_OMGEVINGSPLAN",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "KORTHALSALTES2016",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "泰國參與式土地使用規劃；都市分配正義",
+  "region": "清邁 Wat Ket，泰國；美國",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Planning Complex Cities",
+      "topic": "荷蘭 Omgevingswet 與 omgevingsplan"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Urban Design Contexts and Operations",
+      "topic": "荷蘭 Omgevingswet 與 omgevingsplan"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "荷蘭 Omgevingswet 與 omgevingsplan"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban design governance",
+      "topic": "荷蘭 Omgevingswet 與 omgevingsplan"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-REG-022",
+    "KU-REG-024",
+    "KU-REG-025"
+  ],
+  "counter_unit_ids": [
+    "KU-REG-026"
+  ]
+}

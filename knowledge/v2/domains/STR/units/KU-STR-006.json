@@ -1,0 +1,84 @@
+{
+  "id": "KU-STR-006",
+  "domain": "STR",
+  "subtopic": "街道階層與功能",
+  "type": "critique",
+  "title_zh": "街道階層與功能：批評與適用限制",
+  "title_en": "Street hierarchy and function: Critique and boundary",
+  "summary_zh": "階層制可簡化交通管理，卻可能把步行和地方活動降為附屬；網路連通與沿街生活會跨越標準道路分類。另一個需要同時檢查的面向是道路層級描述穿越、集散、服務與地方活動之間的角色差異，不應被誤讀為一種交通方式可以排除其他使用者。替代做法可以是以少數清晰的穿越路段接上較細的地方街網，並讓人行和自行車路線連續跨越不同層級。",
+  "key_points_zh": [
+    "批評焦點：道路層級描述穿越、集散、服務與地方活動之間的角色差異，不應被誤讀為一種交通方式可以排除其他使用者",
+    "批評焦點：階層制可簡化交通管理，卻可能把步行和地方活動降為附屬；網路連通與沿街生活會跨越標準道路分類"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "街道階層與功能：批評與適用限制｜城市路網組態與行人通行分布存在關聯，吸引用途可能放大通行；這不提供本基地的人數或因果保證",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "HILLIER93",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "街道階層與功能：批評與適用限制｜街道的交通條件會影響居住環境與日常活動；本單元不把案例尺度直接當通用標準",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "APPLEYARD81",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "把「階層制可簡化交通管理，卻可能把步行和地方活動降為附屬；網路連通與沿街生活會跨越標準道路分類」轉成一項可觀察的風險，並在替代方案中檢查「道路層級描述穿越、集散、服務與地方活動之間的角色差異，不應被誤讀為一種交通方式可以排除其他使用者」是否改變其影響。"
+  ],
+  "applies_when_zh": "若街道階層與功能方案可能受「階層制可簡化交通管理，卻可能把步行和地方活動降為附屬；網路連通與沿街生活會跨越標準道路分類」影響，可用「道路層級描述穿越、集散、服務與地方活動之間的角色差異，不應被誤讀為一種交通方式可以排除其他使用者」安排實地觀察或替代方案比較。",
+  "not_applicable_when_zh": "這項批評提出的是「階層制可簡化交通管理，卻可能把步行和地方活動降為附屬；網路連通與沿街生活會跨越標準道路分類」的風險，不能據此推定所有替代方案都更好，也不能代替本地使用者測試。",
+  "debates_zh": "階層制可簡化交通管理，卻可能把步行和地方活動降為附屬；網路連通與沿街生活會跨越標準道路分類；檢視「街道階層與功能：批評與適用限制」的反例檢查時，還需判斷「階層制可簡化交通管理，卻可能把步行和地方活動降為附屬；網路連通與沿街生活會跨越標準道路分類」會如何改變方案結論。",
+  "sources": [
+    {
+      "library_id": "HILLIER93",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "APPLEYARD81",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "街道形態與交通系統",
+  "region": "跨地域理論或實務脈絡；來源地區依引用條目判讀",
+  "curriculum_refs": [
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "街道階層與功能：課綱對應主題"
+    },
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.330J Theory of City Form",
+      "topic": "街道階層與功能：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-STR-001",
+    "KU-STR-002",
+    "KU-STR-003",
+    "KU-STR-004",
+    "KU-STR-005",
+    "KU-STR-007",
+    "KU-STR-008"
+  ],
+  "counter_unit_ids": [
+    "KU-STR-001",
+    "KU-STR-002"
+  ]
+}

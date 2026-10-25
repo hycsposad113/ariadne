@@ -1,0 +1,74 @@
+{
+  "id": "KU-WAT-047",
+  "domain": "WAT",
+  "subtopic": "洪水風險與多層安全",
+  "type": "method",
+  "title_zh": "把避難路線與積水情境共同檢查",
+  "title_en": "把避難路線與積水情境共同檢查",
+  "summary_zh": "避難點的直線距離不表示洪水期間仍然可達；路段積水和橋梁封閉會改變可用路網。防災規劃將交通納入減災工作，韌性研究則提醒服務能力因群體而異。路徑分析需採用明確的阻隔條件和替代路線假設。",
+  "key_points_zh": [
+    "危險路段可能切斷日常看似連通的網絡。",
+    "兒童、長者和行動不便者需要不同協助。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "library_id": "MEEROW2016",
+        "claim_zh": "題名確認本文為都市韌性定義回顧；在未讀取摘要前，不將它簡化成單一可量測指標；本單元 KU-WAT-047 對照「避難點的直線距離不表示洪水期間仍然可達；路段積水和橋梁封閉會改變可用路網」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "文獻回顧",
+        "context_region": "跨地域都市研究",
+        "locator": null
+      },
+      {
+        "library_id": "WALKER2004",
+        "claim_zh": "文章將韌性、適應性與轉型性並列為不同概念，適合用來避免把恢復原狀當成唯一目標；本單元 KU-WAT-047 對照「避難點的直線距離不表示洪水期間仍然可達；路段積水和橋梁封閉會改變可用路網」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "理論框架",
+        "context_region": "跨地域社會－生態系統",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "對步行、救援和無障礙網路分開設定積水限制。",
+    "記錄避難點容量、開放時間和輔助交通需求。"
+  ],
+  "applies_when_zh": "適用於洪水下步行可達與應急路網。",
+  "not_applicable_when_zh": "缺少道路與水深資料時不可承諾撤離時間。",
+  "debates_zh": "行人速度和淹水可通行性需要可靠資料，平均值不能代表所有人。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "MEEROW2016",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "WALKER2004",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "應急路網分析",
+  "region": "美國；跨地域",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "洪水風險與多層安全"
+    },
+    {
+      "school": "MIT",
+      "course": null,
+      "topic": "洪水風險與多層安全"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0"
+}

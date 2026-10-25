@@ -1,0 +1,85 @@
+{
+  "id": "KU-THY-058",
+  "domain": "THY",
+  "subtopic": "荷蘭都市主義傳統",
+  "type": "empirical_finding",
+  "title_zh": "荷蘭都市主義：自行車政策組合",
+  "title_en": "Dutch urbanism traditions — empirical finding unit 058",
+  "summary_zh": "荷蘭、丹麥與德國的自行車政策比較研究將基礎設施、交通制度與城市政策組合作為分析背景，指出不能只複製單一車道設計。移植時應連同路網連續、安全、舒適、直接性和治理資源檢查。國際比較並不提供每座城市相同的騎乘成長幅度。限制是「荷蘭都市主義：自行車政策組合」所用的城市或案例資料不能單獨證明設計因果，外推仍需重新檢驗。",
+  "key_points_zh": [
+    "荷蘭、丹麥與德國的自行車政策比較研究將基礎設施、交通制度與城市政策組合作為分析背景，指出不能只複製單一車道設計。",
+    "移植時應連同路網連續、安全、舒適、直接性和治理資源檢查。",
+    "國際比較並不提供每座城市相同的騎乘成長幅度。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "【ABSTRACT_REVIEW】荷蘭、丹麥與德國的自行車政策比較研究將基礎設施、交通制度與城市政策組合作為分析背景，指出不能只複製單一車道設計。移植時應連同路網連續、安全、舒適、直接性和治理資源檢查。國際比較並不提供每座城市相同的騎乘成長幅度。限制是「荷蘭都市主義：自行車政策組合」所用的城市或案例資料不能單獨證明設計因果，外推仍需重新檢驗。",
+        "effect_or_value": "高自行車使用和分離設施、交通寧靜、停車及運輸整合等成套條件共同出現",
+        "study_design": "荷蘭、丹麥、德國跨國政策與設施比較",
+        "context_region": "荷蘭、丹麥、德國",
+        "library_id": "PUCHER08",
+        "locator": null,
+        "claim_verification": "CANONICAL_CROSS_CHECK_PENDING"
+      },
+      {
+        "claim_zh": "【ABSTRACT_REVIEW】就「荷蘭都市主義：自行車政策組合」而言，「Cycling or walking? Determinants of mode choice in the Netherlands」提供荷蘭模式選擇實證的比較坐標；此處僅使用其已標明的書目／摘要範圍，不延伸為未核對的效果或因果。",
+        "effect_or_value": null,
+        "study_design": "問卷／模式選擇模型",
+        "context_region": "荷蘭",
+        "library_id": "TON19",
+        "locator": null,
+        "claim_verification": "CANONICAL_CROSS_CHECK_PENDING"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "評估 Bijlmermeer 時同列空間形式、住房政策、維護服務和居民權利。"
+  ],
+  "design_options": [],
+  "applies_when_zh": "當問題包含「荷蘭都市主義：自行車政策組合」且需比較比較土地利用、交通、公共住宅與水治理跨尺度協作時時使用。",
+  "not_applicable_when_zh": "若研究缺少對應尺度或群體資料，不以「荷蘭都市主義：自行車政策組合」取代將荷蘭政策工具或生活方式直接等同於普遍最佳實踐時。",
+  "debates_zh": "「荷蘭都市主義：自行車政策組合」的爭點在於荷蘭模式建立在特定土地制度、地方政府能力與交通文化上，不能當成出口即適用的規則；自行車比較政策與自行車設計實務的研究對象不同，需保留差異而不能合併成單一規則。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "PUCHER08",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "TON19",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "荷蘭都市主義／層級與水土治理",
+  "region": "荷蘭；丹麥；德國",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "荷蘭都市主義：自行車政策組合 — 荷蘭都市主義傳統"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Urban Design Contexts and Operations",
+      "topic": "荷蘭都市主義：自行車政策組合 — 荷蘭都市主義傳統"
+    },
+    {
+      "school": "MIT",
+      "course": "4.241J Theory of City Form / 11.301J Urban Design and Development",
+      "topic": "荷蘭都市主義：自行車政策組合 — 荷蘭都市主義傳統"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Critical Debates in Urban Design",
+      "topic": "荷蘭都市主義：自行車政策組合 — 荷蘭都市主義傳統"
+    }
+  ],
+  "version": "2.0.0",
+  "claim_verification": "CANONICAL_CROSS_CHECK_PENDING"
+}

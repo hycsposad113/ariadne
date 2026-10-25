@@ -1,0 +1,45 @@
+{
+  "id": "VANHOOF2021",
+  "title": "The Participation of Older People in the Concept and Design Phases of Housing in The Netherlands: A Theoretical Overview",
+  "authors": [
+    "Joost van Hoof",
+    "Katja M. Rusinovic",
+    "Zsuzsu K.C.T. Tavy",
+    "Rudy F. M. van den Hoven"
+  ],
+  "year": 2021,
+  "venue_or_publisher": "Healthcare, 9(3), 301",
+  "doi": "https://doi.org/10.3390/healthcare9030301",
+  "isbn": null,
+  "openalex_id": "https://openalex.org/W3134843082",
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "荷蘭高齡集體住宅的住戶參與",
+  "region": "荷蘭",
+  "method": "理論回顧；整理長者參與住宅方案與設計的方式",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "荷蘭研究把集體住宅視為居家老化與機構照護之間的可能選項，並檢視長者如何參與新住宅倡議的概念與設計階段。",
+      "strength": "MIXED",
+      "scope_zh": "這篇理論評論談長者住宅參與，不證明跨世代方案的照護成效，也不代表比利時制度。",
+      "assessment_basis": "ABSTRACT_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "OpenAlex",
+    "query": {
+      "record_id": "https://openalex.org/W3134843082",
+      "doi": "10.3390/healthcare9030301",
+      "title": "The Participation of Older People in the Concept and Design Phases of Housing in The Netherlands: A Theoretical Overview",
+      "author": "Joost van Hoof",
+      "year": 2021
+    },
+    "matched_record_id": "https://openalex.org/W3134843082",
+    "checked_at_utc": "2026-10-09T00:17:21Z",
+    "match_notes_zh": "以允許的公開書目 API 精確比對題名、首位作者與出版年；只保留自行撰寫的摘要範圍說明，未保存全文或 API 摘要原文。"
+  },
+  "limitations_zh": "本條目依公開摘要或書目範圍整理；未下載全文，也不外推摘要未列的樣本、效果量或因果結論。",
+  "metadata_licence_zh": "僅保存公開書目欄位與自行撰寫的繁體中文摘要；未複製摘要全文或論文全文。"
+}

@@ -1,0 +1,80 @@
+{
+  "id": "KU-SYN-016",
+  "domain": "SYN",
+  "subtopic": "整合度與選擇度",
+  "type": "concept",
+  "title_zh": "整合度與選擇度：概念界線",
+  "title_en": "Integration and choice: Concept and scope",
+  "summary_zh": "整合度概括從一個空間到網路其他位置的相對深度，選擇度描述某空間位於多少最短路徑上。此處要回答的是先確定分析尺度、距離和模式，再用整合度與選擇度回答不同問題，不把高分直接等同人流或品質。對整合度與選擇度而言，高中心性不等於高停留、可達或安全；吸引點、社會差異和交通障礙會形成其他解釋；因此該概念只界定分析問題，不替不同街道和使用者預選答案。",
+  "key_points_zh": [
+    "概念界線：整合度概括從一個空間到網路其他位置的相對深度，選擇度描述某空間位於多少最短路徑上",
+    "概念界線：先確定分析尺度、距離和模式，再用整合度與選擇度回答不同問題，不把高分直接等同人流或品質"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "整合度與選擇度：概念界線｜可及性評估需要同時交代交通、土地使用與個人條件；同一距離圈不代表同樣機會",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "GEURS04",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "整合度與選擇度：概念界線｜非機動可及性必須說明網路、目的地與尺度，替代量測方式需保持定義可比較",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "IACONO10",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "用「整合度概括從一個空間到網路其他位置的相對深度，選擇度描述某空間位於多少最短路徑上」界定整合度與選擇度的分析範圍，再以「先確定分析尺度、距離和模式，再用整合度與選擇度回答不同問題，不把高分直接等同人流或品質」說明這個界線不涵蓋什麼。"
+  ],
+  "applies_when_zh": "界定整合度與選擇度的分析邊界時，可用「整合度概括從一個空間到網路其他位置的相對深度，選擇度描述某空間位於多少最短路徑上」說明本單元涵蓋的關係，再另行檢查未納入的條件。",
+  "not_applicable_when_zh": "「整合度概括從一個空間到網路其他位置的相對深度，選擇度描述某空間位於多少最短路徑上」不能直接轉成法規或最佳方案判斷，尤其不能忽略「高中心性不等於高停留、可達或安全；吸引點、社會差異和交通障礙會形成其他解釋」指出的限制。",
+  "debates_zh": "高中心性不等於高停留、可達或安全；吸引點、社會差異和交通障礙會形成其他解釋；檢視「整合度與選擇度：概念界線」的概念界線時，還需判斷「先確定分析尺度、距離和模式，再用整合度與選擇度回答不同問題，不把高分直接等同人流或品質」會如何改變方案結論。",
+  "sources": [
+    {
+      "library_id": "GEURS04",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "IACONO10",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "空間語法中心性指標",
+  "region": "跨地域理論或實務脈絡；來源地區依引用條目判讀",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Methods of Analysis & Imagination",
+      "topic": "整合度與選擇度：課綱對應主題"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Cities by Design",
+      "topic": "整合度與選擇度：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-SYN-009",
+    "KU-SYN-010",
+    "KU-SYN-011",
+    "KU-SYN-012",
+    "KU-SYN-013",
+    "KU-SYN-014",
+    "KU-SYN-015"
+  ]
+}

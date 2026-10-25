@@ -1,0 +1,42 @@
+{
+  "id": "TREW2018",
+  "title": "THE REDEVELOPMENT OF KING’S CROSS, LONDON",
+  "authors": [
+    "Ken Trew"
+  ],
+  "year": 2018,
+  "venue_or_publisher": "Birkhäuser",
+  "doi": "https://doi.org/10.1515/9783035610468-271",
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "ACADEMIC_CHAPTER_OR_PROCEEDINGS",
+  "tradition": "英國大型鐵路棕地更新",
+  "region": "英國倫敦",
+  "method": "專書章節；研究設計未由摘要核對",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "專書章節以King’s Cross再開發為內容範圍；單憑書目不能作為開發社會或經濟效益的證明。",
+      "strength": "THEORETICAL",
+      "scope_zh": "只支持此來源明確記載的研究對象與範圍；不作跨城市因果外推，也不以書目資料推估未報告的空間數值。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref",
+    "query": {
+      "title": "THE REDEVELOPMENT OF KING’S CROSS, LONDON",
+      "author": "Trew",
+      "year": 2018,
+      "api_query": "Crossref GET /works?query.bibliographic=Redevelopment King's Cross London Trew"
+    },
+    "matched_record_id": "10.1515/9783035610468-271",
+    "checked_at_utc": "2026-10-08T14:00:36Z",
+    "match_notes_zh": "Crossref公開書目欄位核對題名、作者、年份及 DOI；摘要內容未保存到repository。"
+  },
+  "limitations_zh": "未將API摘要寫入repo；除claim標示的內容外，研究發現與效果量須回到來源全文核對。",
+  "critique_relationship_zh": "本記錄不宣稱與其他來源存在直接互引或逐一反駁關係。",
+  "metadata_licence_zh": "Crossref公開書目欄位；精確metadata授權未核驗，標UNKNOWN。"
+}

@@ -1,0 +1,83 @@
+{
+  "id": "KU-CLI-018",
+  "domain": "CLI",
+  "subtopic": "天空可視因子",
+  "type": "value_range",
+  "title_zh": "SVF 的零至一比例不是舒適度分級",
+  "title_en": "SVF 的零至一比例不是舒適度分級",
+  "summary_zh": "天空可視因子把測點可見的天空半球比例化，數值介於完全遮蔽與完整可視之間。Oke 將它連到夜間長波散熱，但其效果還受到雲量、風速、植被和街谷熱儲存影響。算法與魚眼影像遮罩不同時，兩個 SVF 值不應直接比較。",
+  "key_points_zh": [
+    "此範圍描述指標定義，不是舒適度門檻。",
+    "樹冠處理方式會改變結果。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "library_id": "OKE1981",
+        "claim_zh": "天空可視因子是可見天空在上半球視域中的比例，物理定義介於 0 與 1；相同數值仍可能對應不同遮擋幾何。",
+        "effect_or_value": "樹冠和測點算法不同，數值本身沒有舒適或法規含義。",
+        "study_design": "街谷幾何研究",
+        "context_region": "城市街谷",
+        "locator": null,
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008"
+      },
+      {
+        "library_id": "GIVONI1998",
+        "claim_zh": "Open Library 書目記錄確認此專著的書名、作者與年份；未據此摘錄書中任何定量設計規則；本單元 KU-CLI-018 對照「天空可視因子把測點可見的天空半球比例化，數值介於完全遮蔽與完整可視之間」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "專業學術專著；本地僅核對書目範圍",
+        "context_region": "跨地域",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "在圖例標明量尺含義和測量方法。",
+    "與地表溫度或人體熱指標分圖呈現。"
+  ],
+  "applies_when_zh": "適用於校核 SVF 資料範圍和圖例。",
+  "not_applicable_when_zh": "這是指標定義，不是舒適分級或本基地法規。",
+  "debates_zh": "把連續幾何變數切成高低類別可能掩蓋季節和尺度差異。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "OKE1981",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "GIVONI1998",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "幾何指標標準化",
+  "region": "城市街谷；全球城市測站",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "天空可視因子"
+    },
+    {
+      "school": "MIT",
+      "course": "Theory of City Form",
+      "topic": "天空可視因子"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0",
+  "values": [
+    {
+      "name": "天空可視因子 SVF 的定義範圍",
+      "range": "0–1",
+      "unit": "dimensionless",
+      "context": "用途：以「天空可視因子 SVF 的定義範圍」作為來源情境參照；從天空完全遮蔽到完整天空半球可視的比例定義 這不是本基地法規；來源所列地域：理想化街谷模型及摘要未標名的現地觀測。",
+      "library_id": "OKE1981"
+    }
+  ]
+}

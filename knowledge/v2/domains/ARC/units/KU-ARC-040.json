@@ -1,0 +1,90 @@
+{
+  "id": "KU-ARC-040",
+  "domain": "ARC",
+  "subtopic": "用途建築",
+  "type": "typology",
+  "title_zh": "深進深教室的日光與遮陽聯動",
+  "title_en": "deep-plan classroom daylight strategy",
+  "summary_zh": "深進深教室的日光改善研究把導光構件和可移動遮陽放在同一設計問題中。 只有擴大窗面可能增加眩光與熱負荷，不能只用總採光面積代表教學品質。 教室平面要按座位區域檢查光環境差異。",
+  "key_points_zh": [
+    "核心主張：深進深教室的日光改善研究把導光構件和可移動遮陽放在同一設計問題中。",
+    "量測檢查：按窗面方向和教室最深工作面建立網格，在坐姿眼高與桌面高度分別取值。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "深進深教室的日光改善研究把導光構件和可移動遮陽放在同一設計問題中。",
+        "effect_or_value": null,
+        "study_design": "跨地域設計參照綜整；數值狀態依 claim_verification 註記",
+        "context_region": "研究案例之地區與氣候；教室用途",
+        "library_id": "CLASSROOM_DAYLIGHT24",
+        "locator": "article; abstract/title scope only",
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "將窗、導光構件、遮陽與各排桌面的日照時段畫在同一剖面分析。"
+  ],
+  "applies_when_zh": "「深進深教室的日光與遮陽聯動」可在用於方案前期的量體、平面或空間品質篩檢時使用，前提是深進深教室的日光改善研究把導光構件和可移動遮陽放在同一設計問題中與來源情境相符。",
+  "not_applicable_when_zh": "若深進深教室的日光改善研究把導光構件和可移動遮陽放在同一設計問題中不成立，就不能把「深進深教室的日光與遮陽聯動」的結論延伸到其他情況；不得單獨作為許可、消防、結構或基地法規判定。",
+  "debates_zh": "研究案例的氣候、朝向與構造條件有限，不能把單一方案的效果外推至所有學校。",
+  "sources": [
+    {
+      "library_id": "CLASSROOM_DAYLIGHT24",
+      "claim_id": "C1",
+      "locator": "article; abstract/title scope only"
+    },
+    {
+      "library_id": "SUN_WIND_LIGHT85",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "claim_verification": "ABSTRACT_REVIEW",
+  "tradition": "教室採光研究；環境設計",
+  "region": "研究案例之地區與氣候；教室用途",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Housing and the City / Design of the Urban Fabric",
+      "topic": "建築尺度與住宅平面"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "建築尺度與街道界面"
+    },
+    {
+      "school": "MIT",
+      "course": "Architecture and Urban Design",
+      "topic": "建築尺度與空間型態"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "建築尺度與公共生活"
+    }
+  ],
+  "check": {
+    "method_zh": "按窗面方向和教室最深工作面建立網格，在坐姿眼高與桌面高度分別取值。",
+    "inputs": [
+      "用途建築",
+      "尺寸／面積圖層",
+      "適用地區與用途標籤"
+    ],
+    "logic_zh": "將量測輸入轉成明確尺寸、比例或空間關係；越界只觸發複核，不自動取代設計決策。",
+    "limitations_zh": "量測結果只觸發「深進深教室的日光與遮陽聯動」的複核，不得單獨作為許可或法規判定。"
+  },
+  "version": "kb2-arc-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-ARC-027",
+    "KU-ARC-028",
+    "KU-ARC-029",
+    "KU-ARC-030",
+    "KU-ARC-031"
+  ]
+}

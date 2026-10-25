@@ -1,0 +1,71 @@
+{
+  "id": "KU-CLI-004",
+  "domain": "CLI",
+  "subtopic": "都市熱島",
+  "type": "critique",
+  "title_zh": "都市熱島數值取決於尺度與量測定義",
+  "title_en": "Urban heat-island values depend on scale and measurement definition",
+  "summary_zh": "Arnfield 對兩十年的都市氣候研究進行回顧，整理湍流、能水交換與熱島量測之間的差異。Oke 等人的專著則從都市表面分類、氣流和熱量交換說明尺度轉換。若未區分都市—鄉村站點差、街谷微氣候與地表溫度，數字相近的圖表可能回答完全不同問題。研究報告應公開站點選擇、觀測時間和空間尺度。",
+  "key_points_zh": [
+    "都市熱島可能指近地氣溫、冠層層溫度或地表溫度差。",
+    "不同觀測網、時段及參照區不宜直接合併。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "library_id": "ARNFIELD2003",
+        "claim_zh": "摘要回顧尺度、空間異質性、湍流通量與城市熱島研究，並提醒結果會依感測媒介與量測技術而異；本單元 KU-CLI-004 對照「Arnfield 對兩十年的都市氣候研究進行回顧，整理湍流、能水交換與熱島量測之間的差異」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "ABSTRACT_REVIEW",
+        "effect_or_value": null,
+        "study_design": "兩十年研究回顧",
+        "context_region": "跨地域都市氣候文獻",
+        "locator": null
+      },
+      {
+        "library_id": "NORTON2015",
+        "claim_zh": "書目確認本文題名聚焦「Planning for cooler cities: A framework to prioritise green infrastructure to mitigate high temperatures in urban landscapes」；目前只完成作者、年份、題名與 DOI 核對，未將摘要或全文結論納入此記錄；本單元 KU-CLI-004 對照「Arnfield 對兩十年的都市氣候研究進行回顧，整理湍流、能水交換與熱島量測之間的差異」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "方法或概念研究；目前僅核對書目範圍",
+        "context_region": "澳洲",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "熱島儀表板分列地表溫度和近地氣溫，並描述參照區和量測時段。",
+    "將城市熱環境與熱暴露評估分開，補上人口活動和戶外停留資訊。"
+  ],
+  "applies_when_zh": "適用於建立都市氣候基線、比較文獻結果或設計觀測網。",
+  "not_applicable_when_zh": "不能把一張地表溫度圖當成行人高度的完整熱危害地圖。",
+  "debates_zh": "熱島名詞的廣泛使用掩蓋不同物理量和尺度；研究若不報告參照站與時間，表面上容易比較，實際上未必可比。",
+  "sources": [
+    {
+      "library_id": "ARNFIELD2003",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "NORTON2015",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "都市氣候觀測與方法批判",
+  "region": "跨城市都市氣候研究",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": null,
+      "topic": "都市熱島"
+    },
+    {
+      "school": "MIT",
+      "course": null,
+      "topic": "城市氣候觀測方法"
+    }
+  ],
+  "version": "v2.0"
+}

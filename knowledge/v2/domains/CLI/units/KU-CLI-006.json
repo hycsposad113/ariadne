@@ -1,0 +1,71 @@
+{
+  "id": "KU-CLI-006",
+  "domain": "CLI",
+  "subtopic": "風舒適度準則（如 Lawson）",
+  "type": "method",
+  "title_zh": "行人風評估須同時交代模型精度與舒適準則",
+  "title_en": "Pedestrian-wind assessment must state model accuracy and comfort criteria",
+  "summary_zh": "Blocken 等人回顧風洞與 CFD 用於建築周邊行人風評估時的技術與精度問題。Ali-Toudert 與 Mayer 則以數值方法研究炎熱乾燥街谷中的方位與幾何差異。兩種研究回答的是風場預測和街谷情境，不能由此直接推出 Lawson 準則的分類界值。報告應把風速分布、統計時間、模型驗證和採用的法定或專業準則分開說明。",
+  "key_points_zh": [
+    "CFD 和風洞結果需要驗證其適用性與邊界條件。",
+    "準則分類界值必須引用原始準則，不能從模擬研究推定。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "library_id": "BLOCKEN2016",
+        "claim_zh": "題名確認文章比較建築周圍行人高度風環境的風洞與 CFD 評估方法；不把工具輸出直接當成通用舒適閾值；本單元 KU-CLI-006 對照「Blocken 等人回顧風洞與 CFD 用於建築周邊行人風評估時的技術與精度問題」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "風洞與 CFD 技術回顧",
+        "context_region": "跨地域建築風環境研究",
+        "locator": null
+      },
+      {
+        "library_id": "ALITOUDERT2006",
+        "claim_zh": "書目確認文章以數值研究考察街谷高寬比與朝向；未取得摘要中的參數範圍，故不產生可直接套用的 H/W 數值；本單元 KU-CLI-006 對照「Blocken 等人回顧風洞與 CFD 用於建築周邊行人風評估時的技術與精度問題」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "數值研究",
+        "context_region": "炎熱乾燥氣候",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "風環境圖註明參考風向、邊界條件、模型驗證及取樣高度。",
+    "把舒適或安全門檻連到實際使用的規範版本，另列其時間概率定義。"
+  ],
+  "applies_when_zh": "適用於建築群配置、步行空間風環境分析及 CFD／風洞方法說明。",
+  "not_applicable_when_zh": "不適用於以題名提到風舒適的研究代替 Lawson 準則原文。",
+  "debates_zh": "模擬精度和可接受風速準則是兩個不同的不確定性來源；若不分開報告，模型誤差可能被誤讀成設計合規。",
+  "sources": [
+    {
+      "library_id": "BLOCKEN2016",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "ALITOUDERT2006",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "建築風環境模擬",
+  "region": "建築周邊與乾熱街谷",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": null,
+      "topic": "風舒適度準則"
+    },
+    {
+      "school": "MIT",
+      "course": null,
+      "topic": "都市風環境模擬"
+    }
+  ],
+  "version": "v2.0"
+}

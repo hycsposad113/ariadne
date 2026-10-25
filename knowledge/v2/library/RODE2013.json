@@ -1,0 +1,47 @@
+{
+  "id": "RODE2013",
+  "title": "Cities and Energy: Urban Morphology and Residential Heat-Energy Demand",
+  "authors": [
+    "Philipp Rode",
+    "Christian Keim",
+    "Guido Robazza",
+    "Pablo Viejo",
+    "James Schofield"
+  ],
+  "year": 2013,
+  "venue_or_publisher": "Environment and Planning B Planning and Design",
+  "doi": "https://doi.org/10.1068/b39065",
+  "isbn": null,
+  "openalex_id": "https://openalex.org/W2092394546",
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "都市形態與能源模擬",
+  "region": [
+    "巴黎、倫敦、柏林與伊斯坦堡"
+  ],
+  "method": "理想化建築型態與能源需求模擬",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "模擬顯示不同鄰里形態的理論熱能需求可相差至六倍，緊湊高層型態在此模型較有效率；不是實測能耗。",
+      "strength": "MIXED",
+      "scope_zh": "僅限摘要可核對的範圍；未讀全文，不推論摘要未列的數字、因果或普遍適用性。",
+      "assessment_basis": "ABSTRACT_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "OpenAlex",
+    "query": {
+      "record_id": "https://openalex.org/W2092394546",
+      "title": "Cities and Energy: Urban Morphology and Residential Heat-Energy Demand",
+      "author": "Philipp Rode",
+      "year": 2013
+    },
+    "matched_record_id": "https://openalex.org/W2092394546",
+    "checked_at_utc": "2026-10-08T09:12:32Z",
+    "match_notes_zh": "以 OpenAlex 精確 work 記錄核對書名、作者與出版年；只使用摘要作主張範圍檢查，未下載全文。"
+  },
+  "limitations_zh": "僅使用允許的書目欄位和摘要核對；未取得或保存全文。",
+  "metadata_licence_zh": "保存公開書目欄位與自行撰寫主張摘要；未保存 API 摘要原文或全文。"
+}

@@ -1,0 +1,82 @@
+{
+  "id": "KU-SOC-052",
+  "domain": "SOC",
+  "subtopic": "都市更新的社會影響",
+  "type": "empirical_finding",
+  "title_zh": "都市更新社會影響：路徑反覆",
+  "title_en": "Social impacts of urban regeneration — empirical finding unit 052",
+  "summary_zh": "Sewunsangga 專案的復修與重建方向曾反覆改變，說明更新路徑受政治、歷史和治理爭議影響。將版本、時間、決策者與說明理由整理成序列，可辨識哪些承諾在方向改變後仍被保留。這是單一案例追蹤，沒有量化所有居民或商戶的長期結果。限制是「都市更新社會影響：路徑反覆」所用的城市或案例資料不能單獨證明設計因果，外推仍需重新檢驗。",
+  "key_points_zh": [
+    "Sewunsangga 專案的復修與重建方向曾反覆改變，說明更新路徑受政治、歷史和治理爭議影響。",
+    "將版本、時間、決策者與說明理由整理成序列，可辨識哪些承諾在方向改變後仍被保留。",
+    "這是單一案例追蹤，沒有量化所有居民或商戶的長期結果。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "【ABSTRACT_REVIEW】Sewunsangga 專案的復修與重建方向曾反覆改變，說明更新路徑受政治、歷史和治理爭議影響。將版本、時間、決策者與說明理由整理成序列，可辨識哪些承諾在方向改變後仍被保留。這是單一案例追蹤，沒有量化所有居民或商戶的長期結果。限制是「都市更新社會影響：路徑反覆」所用的城市或案例資料不能單獨證明設計因果，外推仍需重新檢驗。",
+        "effect_or_value": "計畫曾在復修與重建間多次轉向，顯示都市更新路徑具有爭議且可逆",
+        "study_design": "首爾 Sewunsangga 更新計畫版本變化的案例追蹤",
+        "context_region": "南韓首爾",
+        "library_id": "NA2014",
+        "locator": null
+      },
+      {
+        "claim_zh": "【BIBLIOGRAPHIC_SCOPE_ONLY】就「都市更新社會影響：路徑反覆」而言，「The just city」提供都市分配正義的比較坐標；此處僅使用其已標明的書目／摘要範圍，不延伸為未核對的效果或因果。",
+        "effect_or_value": null,
+        "study_design": "規範性理論",
+        "context_region": "美國；歐洲",
+        "library_id": "FANSTEIN10",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "把更新版本、政策轉折和公共承諾做成可追溯時間序列。"
+  ],
+  "design_options": [],
+  "applies_when_zh": "在評估「都市更新社會影響：路徑反覆」涉及的資源分配、權力或居住影響時，先界定受影響群體與決策階段。",
+  "not_applicable_when_zh": "若沒有「都市更新社會影響：路徑反覆」所需的群體、時序或市場資料，不把概念類比當作已驗證的效果或法律結論。",
+  "debates_zh": "歷史版本可揭示治理爭議，卻無法替代長期居民追蹤。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "NA2014",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "FANSTEIN10",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "都市更新／搬遷、保存與生活連續性",
+  "region": "南韓；亞洲；美國；歐洲",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Planning Complex Cities",
+      "topic": "都市更新社會影響：路徑反覆 — 都市更新的社會影響"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Urban Design Contexts and Operations",
+      "topic": "都市更新社會影響：路徑反覆 — 都市更新的社會影響"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "都市更新社會影響：路徑反覆 — 都市更新的社會影響"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design Governance",
+      "topic": "都市更新社會影響：路徑反覆 — 都市更新的社會影響"
+    }
+  ],
+  "version": "2.0.0"
+}

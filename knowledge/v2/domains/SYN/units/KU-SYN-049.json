@@ -1,0 +1,81 @@
+{
+  "id": "KU-SYN-049",
+  "domain": "SYN",
+  "subtopic": "Place Syntax",
+  "type": "empirical_finding",
+  "title_zh": "Syntax、密度和混合用途整合診斷",
+  "title_en": "Combining syntax, density, and mixed use",
+  "summary_zh": "GIS 整合方法以 GPS 行為記錄初步檢驗並比較四個荷蘭城鎮，研究脈絡為荷蘭三個新城與一個舊城。目的地機會和網路配置可在同一診斷框架中比較。舊城在網路整合、密度和用途混合指標均較高，研究用 GPS 記錄作初步行為核對。限制包括小型案例比較無法建立單一指標的因果效果。",
+  "key_points_zh": [
+    "目的地機會和網路配置可在同一診斷框架中比較",
+    "限制：小型案例比較無法建立單一指標的因果效果",
+    "效果或方向：舊城在網路整合、密度和用途混合指標均較高，研究用 GPS 記錄作初步行為核對"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "Syntax、密度和混合用途整合診斷｜目的地機會和網路配置可在同一診斷框架中比較",
+        "effect_or_value": "舊城在網路整合、密度和用途混合指標均較高，研究用 GPS 記錄作初步行為核對",
+        "study_design": "GIS 整合方法以 GPS 行為記錄初步檢驗並比較四個荷蘭城鎮",
+        "context_region": "荷蘭三個新城與一個舊城",
+        "library_id": "YE14",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "Syntax、密度和混合用途整合診斷｜街道結構可以用連接與階層關係比較；不同網形的可達性與交通作用需另外計算",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "MARSHALL05",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "讓空間分數連結到街區活動和建築形態"
+  ],
+  "applies_when_zh": "若本地觀察單位與荷蘭三個新城與一個舊城的研究脈絡可對照，可用「目的地機會和網路配置可在同一診斷框架中比較」作為Place Syntax的比較線索。",
+  "not_applicable_when_zh": "這項荷蘭三個新城與一個舊城的研究結果不能單獨證明因果或預測其他城市的街段；原研究小型案例比較無法建立單一指標的因果效果。",
+  "debates_zh": "關聯能否外推；小型案例比較無法建立單一指標的因果效果；檢視「Syntax、密度和混合用途整合診斷」的研究解讀時，還需判斷「限制：小型案例比較無法建立單一指標的因果效果」會如何改變方案結論。",
+  "sources": [
+    {
+      "library_id": "YE14",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "MARSHALL05",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "目的地可及性與空間組態整合",
+  "region": "荷蘭三個新城與一個舊城",
+  "curriculum_refs": [
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.330J Theory of City Form",
+      "topic": "Place Syntax：課綱對應主題"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Critical Debates in Urban Design",
+      "topic": "Place Syntax：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-SYN-050",
+    "KU-SYN-051",
+    "KU-SYN-052",
+    "KU-SYN-053",
+    "KU-SYN-054",
+    "KU-SYN-055",
+    "KU-SYN-056"
+  ]
+}

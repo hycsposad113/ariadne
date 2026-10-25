@@ -1,0 +1,66 @@
+{
+  "id": "KU-ECO-058",
+  "domain": "ECO",
+  "subtopic": "生態服務",
+  "type": "typology",
+  "title_zh": "生態服務受治理網絡塑造",
+  "title_en": "Governance shapes ecosystem services",
+  "summary_zh": "都市綠地的維護者、居民組織和土地管理者會改變服務能否持續。相同植栽方案在有無灌溉和監測時會呈現不同結果。治理關係通常跨多個制度層級。生態過程和制度過程需要一起描述。",
+  "key_points_zh": [
+    "都市綠地的維護者、居民組織和土地管理者會改變服務能否持續",
+    "相同植栽方案在有無灌溉和監測時會呈現不同結果"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "都市綠地的維護者、居民組織和土地管理者會改變服務能否持續。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "美國",
+        "library_id": "KACZYNSKI08",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "生態過程和制度過程需要一起描述。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "把責任分工和預算視作服務模型的輸入條件。"
+  ],
+  "applies_when_zh": "適用於評估長期生態服務。",
+  "not_applicable_when_zh": "不應把治理失靈歸咎於植物配置本身。",
+  "debates_zh": "生態過程和制度過程需要一起描述。",
+  "sources": [
+    {
+      "library_id": "KACZYNSKI08",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "WOLCH14",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "公園使用與健康地理",
+  "region": "美國",
+  "curriculum_refs": [
+    {
+      "school": "UCL Bartlett",
+      "course": "Critical Debates in Urban Design",
+      "topic": "生態服務"
+    },
+    {
+      "school": "MIT",
+      "course": "11.330J Theory of City Form",
+      "topic": "生態服務"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-ECO-057",
+    "KU-ECO-059"
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "KU-PUB-022",
+  "domain": "PUB",
+  "subtopic": "座位與停留",
+  "type": "concept",
+  "title_zh": "可坐邊界也是非正式座席",
+  "title_en": "Informal seating broadens capacity",
+  "summary_zh": "矮牆、台階和窗台會在活動時成為額外座位。這些替代座席可避免所有停留都被導向固定家具。高度、表面溫度和輪椅移位空間可能排除部分使用者。同一邊界既支援停留，也可能成為阻礙通行的擁擠點。",
+  "key_points_zh": [
+    "矮牆、台階和窗台會在活動時成為額外座位",
+    "這些替代座席可避免所有停留都被導向固定家具"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "矮牆、台階和窗台會在活動時成為額外座位。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "北美",
+        "library_id": "RIGOLON16",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "同一邊界既支援停留，也可能成為阻礙通行的擁擠點。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "將可坐邊界與無障礙路線及幼兒防墜細節一起設計。"
+  ],
+  "applies_when_zh": "適用於預期使用方式多變且需容納團體的場所。",
+  "not_applicable_when_zh": "不應拿非正式表面取代符合人體需求的座椅。",
+  "debates_zh": "同一邊界既支援停留，也可能成為阻礙通行的擁擠點。",
+  "sources": [
+    {
+      "library_id": "RIGOLON16",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "NORDH09",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "公園可及性與環境正義",
+  "region": "北美",
+  "curriculum_refs": [
+    {
+      "school": "UCL Bartlett",
+      "course": "Critical Debates in Urban Design",
+      "topic": "座位與停留"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "座位與停留"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-PUB-021",
+    "KU-PUB-023"
+  ]
+}

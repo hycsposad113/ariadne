@@ -1,0 +1,118 @@
+{
+  "id": "KU-HOU-019",
+  "domain": "HOU",
+  "subtopic": "混合產權",
+  "type": "typology",
+  "title_zh": "混合產權｜類型取捨",
+  "title_en": "Mixed tenure — Typology and trade-offs",
+  "summary_zh": "混合產權可把社會租屋、合作住宅、自有住宅和私人租屋放在同一街區，但單元並置不會自動帶來社會融合。 研究需把住戶接觸、管理權和社區資源分別觀察。 混合權屬文獻提供議題和案例，不提供所有地區通用的組成比例。",
+  "key_points_zh": [
+    "社會租屋、合作住宅、自有住宅和私人租屋可在同街區並存。",
+    "讀「混合產權｜類型取捨」時，適用於社會住宅更新、混合社區和集體住宅規劃；同時把兩國集體住宅都在復興，但其歷史與住宅政策不同；建築師角色、個人自主與共同生活的平衡會因地而異列為核對條件。",
+    "限制：不把產權多樣性當作社會融合成效的替代量。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "Doherty 的《Mixing Housing Tenures》直接以混合住宅權屬為研究主題；它可用來辨認權屬組合議題，不據書名推論社會融合成效。",
+        "library_id": "DOHERTY2004",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "英國",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "本條依公開摘要或書目範圍整理；未據此推定本基地法規、普遍效果或未核對的數值。"
+      },
+      {
+        "claim_zh": "Kearns 與 Mason 研究混合權屬社區與鄰里品質；該題目直接對應本單元，但本次未核對其結果方向。",
+        "library_id": "KEARNSMASON2007",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "英國",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "本條依公開摘要或書目範圍整理；未據此推定本基地法規、普遍效果或未核對的數值。"
+      },
+      {
+        "claim_zh": "Leviten-Reid 與 Matthew 的研究題目連結住宅權屬與鄰里社會資本；它提供可另行檢驗的鄰里面向，不表示混合權屬必然提高社會資本。",
+        "library_id": "LEVITENREID2018",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "加拿大",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "本條依公開摘要或書目範圍整理；未據此推定本基地法規、普遍效果或未核對的數值。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "繪出產權與管理空間，不只統計住宅單元類型。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "在「混合產權｜類型取捨」的來源情境裡，繪出產權與管理空間，不只統計住宅單元類型；落到設計時還要按兩國集體住宅都在復興，但其歷史與住宅政策不同；建築師角色、個人自主與共同生活的平衡會因地而異調整。",
+      "tradeoff_zh": "「混合產權｜類型取捨」採用「在「混合產權｜類型取捨」的來源情境裡，繪出產權與管理空間，不只統計住宅單元類型；落到設計時還要按兩國集體住宅都在復興，但其歷史與住宅政策不同；建築師角色、個人自主與共同生活的平衡會因地而異調整」時，得失要沿著兩國集體住宅都在復興，但其歷史與住宅政策不同；建築師角色、個人自主與共同生活的平衡會因地而異檢查；社會混合政策可能以空間混合掩蓋不平等的權利和資源。",
+      "library_ids": []
+    },
+    {
+      "option_zh": "在「混合產權｜類型取捨」的來源情境裡，社會租屋、合作住宅、自有住宅和私人租屋可在同街區並存；落到設計時還要按兩國集體住宅都在復興，但其歷史與住宅政策不同；建築師角色、個人自主與共同生活的平衡會因地而異調整。",
+      "tradeoff_zh": "「混合產權｜類型取捨」採用「在「混合產權｜類型取捨」的來源情境裡，社會租屋、合作住宅、自有住宅和私人租屋可在同街區並存；落到設計時還要按兩國集體住宅都在復興，但其歷史與住宅政策不同；建築師角色、個人自主與共同生活的平衡會因地而異調整」時，得失要沿著兩國集體住宅都在復興，但其歷史與住宅政策不同；建築師角色、個人自主與共同生活的平衡會因地而異檢查；社會混合政策可能以空間混合掩蓋不平等的權利和資源。",
+      "library_ids": []
+    }
+  ],
+  "applies_when_zh": "適用於社會住宅更新、混合社區和集體住宅規劃。",
+  "not_applicable_when_zh": "不把產權多樣性當作社會融合成效的替代量。",
+  "debates_zh": "社會混合政策可能以空間混合掩蓋不平等的權利和資源。",
+  "sources": [
+    {
+      "library_id": "DOHERTY2004",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "KEARNSMASON2007",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "LEVITENREID2018",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "比利時與荷蘭集體住宅；都市分配正義",
+  "region": "比利時與荷蘭；美國",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "混合產權"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "混合產權"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "混合產權"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "混合產權"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-HOU-018",
+    "KU-HOU-020",
+    "KU-HOU-021"
+  ],
+  "counter_unit_ids": [
+    "KU-HOU-022"
+  ]
+}

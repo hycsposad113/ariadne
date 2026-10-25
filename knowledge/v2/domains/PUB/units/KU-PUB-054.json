@@ -1,0 +1,70 @@
+{
+  "id": "KU-PUB-054",
+  "domain": "PUB",
+  "subtopic": "包容、性別與可用性",
+  "type": "value_range",
+  "title_zh": "每週休閒步行的研究參照",
+  "title_en": "Weekly recreational-walking measure",
+  "summary_zh": "Perth 研究以每週一百五十分鐘的步行時間作為一個健康活動結果指標。設計者可用它理解研究如何定義活動結果，而不應把它當作場地必須完成的步行配額。健康建議與當地使用者能力、活動類型和測量方式需要分開。指標有利於研究比較，也會簡化個人活動能力差異。",
+  "key_points_zh": [
+    "Perth 研究以每週一百五十分鐘的步行時間作為一個健康活動結果指標",
+    "設計者可用它理解研究如何定義活動結果，而不應把它當作場地必須完成的步行配額"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "Perth 研究以每週一百五十分鐘的步行時間作為一個健康活動結果指標。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "荷蘭",
+        "library_id": "MAAS06",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "指標有利於研究比較，也會簡化個人活動能力差異。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "評估時區分研究使用的健康指標和現場空間服務指標。"
+  ],
+  "applies_when_zh": "適用於閱讀公園活動與健康文獻。",
+  "not_applicable_when_zh": "不能把門檻改寫為公共空間法規。",
+  "debates_zh": "指標有利於研究比較，也會簡化個人活動能力差異。",
+  "sources": [
+    {
+      "library_id": "MAAS06",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "MITCHELL08",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "公共健康與環境流行病學",
+  "region": "荷蘭",
+  "curriculum_refs": [
+    {
+      "school": "MIT",
+      "course": "11.330J Theory of City Form",
+      "topic": "包容、性別與可用性"
+    }
+  ],
+  "version": "2.0.0",
+  "values": [
+    {
+      "name": "每週休閒步行的研究參照",
+      "range": "每週 150 分鐘",
+      "unit": "分鐘／週",
+      "context": "Perth 研究採用的休閒步行結果分類；作研究指標參照，非設計要求。；「每週休閒步行的研究參照」僅供其研究脈絡內比較，不構成本基地法規；來源所列地域：澳洲。",
+      "library_id": "SUGIYAMA10"
+    }
+  ],
+  "related_unit_ids": [
+    "KU-PUB-053",
+    "KU-PUB-055"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "RIGOLON21",
+  "title": "Green Space and Health Equity: A Systematic Review on the Potential of Green Space to Reduce Health Disparities",
+  "authors": [
+    "Alessandro Rigolon",
+    "Matthew H. E. M. Browning",
+    "Olivia McAnirlin",
+    "Hyunseo (Violet) Yoon"
+  ],
+  "year": 2021,
+  "venue_or_publisher": "International Journal of Environmental Research and Public Health",
+  "doi": "https://doi.org/10.3390/ijerph18052563",
+  "isbn": null,
+  "crossref_id": "https://doi.org/10.3390/ijerph18052563",
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "健康公平與環境正義",
+  "region": [
+    "跨國"
+  ],
+  "method": "PRISMA 系統性回顧",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "PRISMA 回顧納入 90 篇研究；低社經群體在綠地與身體健康的關聯上較常見較大受益，公共綠地的模式尤受關注，研究間的族群與健康指標仍不一致。",
+      "strength": "MIXED",
+      "scope_zh": "跨國健康與綠地研究；主張限於此來源的研究設計與樣本，不外推為本基地規範。",
+      "assessment_basis": "ABSTRACT_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref",
+    "query": {
+      "title": "Green Space and Health Equity: A Systematic Review on the Potential of Green Space to Reduce Health Disparities",
+      "author": "Alessandro Rigolon",
+      "year": 2021
+    },
+    "matched_record_id": "https://doi.org/10.3390/ijerph18052563",
+    "checked_at_utc": "2026-10-08T09:54:14Z",
+    "match_notes_zh": "核對 Crossref 回傳書名、主要作者、出版年與 DOI；摘要只在實際取得並閱讀的論文上標 ABSTRACT_REVIEW。"
+  },
+  "limitations_zh": "跨國健康與綠地研究；書目核對不替代完整論文審查。",
+  "critique_relationship_zh": "此條目的批評連結供編者並讀，不宣稱存在直接互引。",
+  "metadata_licence_zh": "僅保存公開書目欄位與自行撰寫的摘要；未保存摘要原文，metadata 授權未單獨核定。"
+}

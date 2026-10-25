@@ -1,0 +1,61 @@
+{
+  "id": "KU-PUB-063",
+  "domain": "PUB",
+  "subtopic": "夜間經濟",
+  "type": "design_principle",
+  "title_zh": "晚間連接依賴服務時刻表",
+  "title_en": "Evening access depends on timetables",
+  "summary_zh": "公共空間離交通站點近，不代表晚間仍能合理離開。末班車時間會影響工作者和活動參與者是否敢停留。地理距離不會反映候車安全與班次可靠度。延長公共活動而不處理返程服務會把成本留給特定群體。",
+  "key_points_zh": [
+    "公共空間離交通站點近，不代表晚間仍能合理離開",
+    "末班車時間會影響工作者和活動參與者是否敢停留"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "公共空間離交通站點近，不代表晚間仍能合理離開。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "美國",
+        "library_id": "LOW05",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "延長公共活動而不處理返程服務會把成本留給特定群體。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "把夜間交通服務資料疊加到活動時段和實際步行路徑。"
+  ],
+  "applies_when_zh": "適用於夜間公共活動和就業場所周邊。",
+  "not_applicable_when_zh": "不適用於只依白天服務評估公共可及性。",
+  "debates_zh": "延長公共活動而不處理返程服務會把成本留給特定群體。",
+  "sources": [
+    {
+      "library_id": "LOW05",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "WOLCH14",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "公共空間文化多樣性",
+  "region": "美國",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "夜間經濟"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-PUB-062",
+    "KU-PUB-064"
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "id": "KU-THY-021",
+  "domain": "THY",
+  "subtopic": "現代主義（CIAM、機能城市）與批判（Jacobs、Team 10、Collage City、Rossi、Krier）",
+  "type": "theory",
+  "title_zh": "Radburn",
+  "title_en": "Radburn superblocks",
+  "summary_zh": "Radburn 以超級街廓、袋狀車道和連續綠地安排住宅，將行人路線與汽車交通分離。住宅與綠地的關係改變了傳統沿街前門與後院的組織。逐一檢查行人系統、服務入口、正背面及綠地的管理責任。",
+  "key_points_zh": [
+    "逐一檢查行人系統、服務入口、正背面及綠地的管理責任。",
+    "人車分離若伴隨隱蔽路徑與背面界面，可能產生辨識與監督困難。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "Radburn 以超級街廓、袋狀車道和連續綠地安排住宅，將行人路線與汽車交通分離。住宅與綠地的關係改變了傳統沿街前門與後院的組織。",
+        "library_id": "STEIN1957",
+        "locator": null,
+        "study_design": "理論／方法綜述；非基地實測",
+        "effect_or_value": null,
+        "context_region": null,
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008"
+      },
+      {
+        "claim_zh": "Hall 對 Radburn 的規劃史敘述獨立於 Stein 的設計者記錄。",
+        "library_id": "HALL1988",
+        "locator": null,
+        "study_design": "歷史／規劃思想",
+        "effect_or_value": null,
+        "context_region": "英國、歐洲、跨地域",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "逐一檢查行人系統、服務入口、正背面及綠地的管理責任。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "分離通行系統能減少車流衝突",
+      "tradeoff_zh": "維護與無障礙跨越設施增加。",
+      "library_ids": [
+        "HALL1988"
+      ]
+    }
+  ],
+  "applies_when_zh": "用於釐清「Radburn」涉及的空間、制度與行動選擇。",
+  "not_applicable_when_zh": "「Radburn」不能直接替代基地的實測、法規或人類批准。",
+  "debates_zh": "人車分離若伴隨隱蔽路徑與背面界面，可能產生辨識與監督困難。",
+  "sources": [
+    {
+      "library_id": "STEIN1957",
+      "locator": null
+    },
+    {
+      "library_id": "HALL1988",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+  "curriculum_refs": [
+    {
+      "school": "MIT",
+      "course": null,
+      "topic": "編者主題對照，非已核實課程指定閱讀：Radburn"
+    }
+  ],
+  "version": "2.0.0-theory-v3"
+}

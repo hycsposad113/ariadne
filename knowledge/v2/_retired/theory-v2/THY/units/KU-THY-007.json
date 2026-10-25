@@ -1,0 +1,95 @@
+{
+  "id": "KU-THY-007",
+  "domain": "THY",
+  "subtopic": "規範性城市理論（Lynch 的城市好形式、性能向度）",
+  "type": "value_range",
+  "title_zh": "Functional City functions",
+  "title_en": "CIAM functional categories",
+  "summary_zh": "CIAM 的機能城市分類把居住、工作、休憩、交通視為四種主要功能，並透過調查、分區與區域尺度配置整理現代都市。雅典憲章把這套分類寫成規劃綱領，Le Corbusier 的方案則以高層建築、開放空間和交通分流呈現其形式想像。功能拆分便於分析，也容易忽略日常活動交疊與街道公共性。",
+  "key_points_zh": [
+    "CIAM 的機能城市分類把居住、工作、休憩、交通視為四種主要功能，並透過調查、分區與區域尺度配置整理現代都市。",
+    "雅典憲章把這套分類寫成規劃綱領，Le Corbusier 的方案則以高層建築、開放空間和交通分流呈現其形式想像。",
+    "功能拆分便於分析，也容易忽略日常活動交疊與街道公共性。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "【BIBLIOGRAPHIC_SCOPE_ONLY】就「Functional City functions」而言，「The city of to-morrow and its planning」提供現代主義都市設計的比較坐標；此處僅使用其已標明的書目／摘要範圍，不延伸為未核對的效果或因果。",
+        "effect_or_value": null,
+        "study_design": "規範性理論",
+        "context_region": "歐洲",
+        "library_id": "CORBUSIER",
+        "locator": null,
+        "claim_verification": "CANONICAL_CROSS_CHECK_PENDING"
+      },
+      {
+        "claim_zh": "【BIBLIOGRAPHIC_SCOPE_ONLY】就「Functional City functions」而言，「The just city」提供都市分配正義的比較坐標；此處僅使用其已標明的書目／摘要範圍，不延伸為未核對的效果或因果。",
+        "effect_or_value": null,
+        "study_design": "規範性理論",
+        "context_region": "美國；歐洲",
+        "library_id": "FANSTEIN10",
+        "locator": null,
+        "claim_verification": "CANONICAL_CROSS_CHECK_PENDING"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "以四功能分類作問題診斷後，再標註它未能表示的交疊活動和街道生活。"
+  ],
+  "design_options": [],
+  "applies_when_zh": "當問題包含「Functional City functions」且需比較需要明確比較多個空間策略、使用群體與尺度時時使用。",
+  "not_applicable_when_zh": "若研究缺少對應尺度或群體資料，不以「Functional City functions」取代需要法規判定、精確行為預測或未經同意的總分排序時。",
+  "debates_zh": "「Functional City functions」的爭點在於評價維度與權重帶有價值選擇；案例關聯不會替設計者完成排序；都市認知與公共空間文化多樣性的研究對象不同，需保留差異而不能合併成單一規則。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "CORBUSIER",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "FANSTEIN10",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "規範性城市理論／環境意象",
+  "region": "美國；跨地域",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "Functional City functions — 規範性城市理論（Lynch 的城市好形式、性能向度）"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Urban Design Contexts and Operations",
+      "topic": "Functional City functions — 規範性城市理論（Lynch 的城市好形式、性能向度）"
+    },
+    {
+      "school": "MIT",
+      "course": "4.241J Theory of City Form / 11.301J Urban Design and Development",
+      "topic": "Functional City functions — 規範性城市理論（Lynch 的城市好形式、性能向度）"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Critical Debates in Urban Design",
+      "topic": "Functional City functions — 規範性城市理論（Lynch 的城市好形式、性能向度）"
+    }
+  ],
+  "version": "2.0.0",
+  "values": [
+    {
+      "name": "CIAM 功能城市分類",
+      "range": "4項：居住、工作、休閒、交通",
+      "unit": "functions",
+      "context": "歐洲現代主義規劃綱領；用於辨識雅典憲章的功能分類及其規劃代價；這不是本基地法規。",
+      "library_id": "CORBUSIER",
+      "claim_verification": "CANONICAL_CROSS_CHECK_PENDING"
+    }
+  ],
+  "claim_verification": "CANONICAL_CROSS_CHECK_PENDING"
+}

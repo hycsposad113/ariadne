@@ -1,0 +1,70 @@
+{
+  "id": "KU-PUB-060",
+  "domain": "PUB",
+  "subtopic": "夜間經濟",
+  "type": "value_range",
+  "title_zh": "社交互動距離的夜間選擇",
+  "title_en": "Social-distance choice at night",
+  "summary_zh": "人際社交距離的經典區間可作為檢視夜間座位群組的假設。使用者在夜間可能選擇更靠近出口或有人值守的位置。信任、交通班次和過往經驗會比平面距離更重要。安全與親密的距離選擇會隨情境改變。",
+  "key_points_zh": [
+    "Gehl（2010）引用 Hall（1966）的社交距離約 1.2–3.7 m，可作為檢視座位群組間距的假設",
+    "使用者在夜間可能選擇更靠近出口或有人值守的位置"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "Gehl（2010）引用 Hall（1966）的社交距離約 1.2–3.7 m，可作為檢視座位群組間距的假設。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "英國",
+        "library_id": "GEHL10",
+        "locator": null,
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+        "limitations_zh": "安全與親密的距離選擇會隨情境改變。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "夜間踏勘需記錄座位使用、逃離路徑與服務聯絡點。"
+  ],
+  "applies_when_zh": "適用於夜間候車與短暫停留區。",
+  "not_applicable_when_zh": "不適用於預設所有夜間使用者都以同一距離互動。",
+  "debates_zh": "安全與親密的距離選擇會隨情境改變。",
+  "sources": [
+    {
+      "library_id": "HILLIER93",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "GEHL10",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "空間語法",
+  "region": "英國",
+  "curriculum_refs": [
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "夜間經濟"
+    }
+  ],
+  "version": "2.0.0",
+  "values": [
+    {
+      "name": "社交互動距離的夜間選擇",
+      "range": "約 1.2–3.7 m",
+      "unit": "公尺",
+      "context": "Gehl 所述社交距離類型供現地觀察；不是夜間安全規定。；「社交互動距離的夜間選擇」僅供其研究脈絡內比較，不構成本基地法規；來源所列地域：丹麥、跨地域。",
+      "library_id": "GEHL10"
+    }
+  ],
+  "related_unit_ids": [
+    "KU-PUB-059",
+    "KU-PUB-061"
+  ]
+}

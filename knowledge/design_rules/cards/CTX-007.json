@@ -1,0 +1,84 @@
+{
+  "id": "CTX-007",
+  "title_zh": "生活與環境方法不可互代",
+  "title_en": "Social and environmental evidence scopes",
+  "domain": "context_response",
+  "stages": [
+    "S2",
+    "S3",
+    "S6",
+    "S7",
+    "S8"
+  ],
+  "statement_zh": "分開列高度、生活可接受性、通風與日照的量測或研究範圍；本地缺資料就列 UNKNOWN。",
+  "rationale_zh": "香港環境方法與新加坡住宅研究回應不同問題。",
+  "applies_when": {},
+  "parameters": [
+    {
+      "name": "environment_context_variants_min",
+      "value": 3,
+      "range": null,
+      "unit": "variants",
+      "provenance": "ASSUMED_COMMANDER",
+      "source_ids": [],
+      "authority_ref": null,
+      "status": "PROPOSED_PENDING_FOUNDER",
+      "rationale_zh": "指揮官提出的敏感性試算值，文獻未提供此數值；須 Founder 確認、地方資料及確定性驗證，未生效。"
+    }
+  ],
+  "check": {
+    "method_zh": "依規則逐項輸出對照表、輸入版本、定義、數值／未知及替代方案；實際計算由確定性工具負責。",
+    "inputs": [
+      "凍結基地、模式路網及用途／政策資料",
+      "已接受條件、卡片版本與試算參數"
+    ],
+    "output": "可比較的診斷與設計回應；沒有觀測或校準不輸出人數或法定結論。",
+    "implementation_status": "SPECIFICATION_ONLY"
+  },
+  "check_unavailable_reason_zh": null,
+  "design_responses": [
+    {
+      "option": "1",
+      "action_zh": "切削量體改善環境假說",
+      "source_ids": [
+        "NG09"
+      ],
+      "tradeoff_zh": "可能損失樓地板量，須正式模擬。"
+    },
+    {
+      "option": "2",
+      "action_zh": "調整開放面與活動分布",
+      "source_ids": [
+        "YUE05"
+      ],
+      "tradeoff_zh": "保留量體，但需檢查使用及微氣候。"
+    }
+  ],
+  "evidence_level": "ACADEMIC",
+  "evidence_strength": "MIXED",
+  "sources": [
+    {
+      "library_id": "NG09",
+      "claim_id": "C1",
+      "support_scope_zh": "文獻支持概念與比較角度；本卡具體操作是設計推導，試算值及專案約束不是文獻的普適結論。"
+    },
+    {
+      "library_id": "YUE05",
+      "claim_id": "C1",
+      "support_scope_zh": "文獻支持概念與比較角度；本卡具體操作是設計推導，試算值及專案約束不是文獻的普適結論。"
+    },
+    {
+      "library_id": "CARMONA10",
+      "claim_id": "C1",
+      "support_scope_zh": "文獻支持概念與比較角度；本卡具體操作是設計推導，試算值及專案約束不是文獻的普適結論。"
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "enforcement": "CANDIDATE_ONLY",
+  "authority_ref": null,
+  "local_context_refs": [],
+  "debates_zh": "上述做法是文獻引導的設計推導，兩種方案各有代價；不得以某一方法、作者或地域替 Founder 決定。",
+  "context_validity_zh": "文獻地域與方法見 library；跨地域只能借用比較框架，數值須本地量測、校準與審核。",
+  "exceptions_zh": "法規、門禁、資料缺口、無障礙及已接受 D1/D2 優先；資料不足列 UNKNOWN，試算參數須 Founder 確認。",
+  "version": "0.2.0"
+}

@@ -1,0 +1,70 @@
+{
+  "id": "KU-HAR-049",
+  "type": "typology",
+  "subtopic": "工業遺產與 adaptive reuse",
+  "title_zh": "過渡用途可支援分期，但須有退出和維護安排",
+  "title_en": "Interim Uses Can Support Phasing When Exit and Maintenance Are Planned",
+  "summary_zh": "空置廠房和未開發土地的臨時用途可以維持地方活動，也能讓後續設計透過使用觀察修正。這些用途依賴安全責任、租期、維修經費和搬遷安排；若沒有期限與交接條件，短期安排可能轉成不穩定的長期狀態。建築適應和物質流研究支持把既有空間與地區生產用途共同盤點。",
+  "key_points_zh": [
+    "在臨時用途協議中寫明保險、安全、維修和終止條件。",
+    "記錄臨時使用如何影響正式開發的設計與營運選擇。"
+  ],
+  "design_implications_zh": [
+    "把過渡方案視為有明確責任的使用階段，定期評估去留。"
+  ],
+  "applies_when_zh": "正式開發需等待修復、基礎設施或財務條件時。",
+  "not_applicable_when_zh": "安全、污染或權屬狀態不允許公眾進入時。",
+  "debates_zh": "臨時使用可維持地方活力，也可能在不穩定租約下消耗小型組織而不提供長期保障。",
+  "tradition": "建築適應／棕地過渡使用",
+  "region": "跨地域港工業區",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": null,
+      "topic": "Phasing and temporary uses"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": null,
+      "topic": "Industrial heritage and adaptive reuse"
+    }
+  ],
+  "domain": "HAR",
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "建築適應研究討論既有建築如何承接新用途及其技術管理條件。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "跨地域港工業區",
+        "library_id": "DOUGLAS06",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "城市物質流研究提醒場所再利用須放在其生產和供應鏈關係中理解。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "跨地域港工業區",
+        "library_id": "HESSE2010",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "library_id": "DOUGLAS06",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "HESSE2010",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "version": "v2.0"
+}

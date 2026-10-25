@@ -1,0 +1,81 @@
+{
+  "id": "KU-HAR-041",
+  "type": "value_range",
+  "subtopic": "港區轉型案例",
+  "title_zh": "Brooklyn Bridge Park 以 85 英畝岸線公園為範圍",
+  "title_en": "Brooklyn Bridge Park Covers 85 Acres of Waterfront",
+  "summary_zh": "紐約市的官方資料將 Brooklyn Bridge Park 描述為約 85 英畝，沿 East River 岸線延伸約 1.3 英里。換算為公制約為 34.4 公頃；這是按英畝換算的描述值，並非重新測量岸線地籍。園區董事會的財務自給任務使土地使用、設施營運和公共性成為同一治理問題。",
+  "values": [
+    {
+      "name": "Brooklyn Bridge Park面積",
+      "range": "85",
+      "unit": "英畝（約34.4公頃）",
+      "context": "用途：以「Brooklyn Bridge Park面積」作為來源情境參照；紐約市官方對公園範圍的描述；公頃值為單位換算，不是本基地法規。",
+      "library_id": "NYC_BROOKLYN_BRIDGE_PARK2012"
+    },
+    {
+      "name": "沿岸長度",
+      "range": "1.3",
+      "unit": "英里",
+      "context": "用途：以「沿岸長度」作為來源情境參照；紐約市官方描述的河岸公園長度，不等同連續無障礙通行長度；不是本基地法規。",
+      "library_id": "NYC_BROOKLYN_BRIDGE_PARK2012"
+    }
+  ],
+  "key_points_zh": [
+    "面積換算保留原始英制值和計算口徑。",
+    "岸線總長度不等於實際可連續步行長度。"
+  ],
+  "design_implications_zh": [
+    "分別記錄公園土地、仍在營運的設施、租賃開發地塊和可進入岸線。"
+  ],
+  "applies_when_zh": "評估以既有碼頭和岸線建構大型公園的方案時。",
+  "not_applicable_when_zh": "需要按當地地籍重新量測公園範圍時。",
+  "debates_zh": "公園營運採財務自給模式，需檢查開發收入與公共進入、活動多樣性之間的衝突。",
+  "tradition": "美國公園治理／水岸再生",
+  "region": "美國紐約布魯克林",
+  "curriculum_refs": [
+    {
+      "school": "Harvard GSD",
+      "course": null,
+      "topic": "Public realm governance and urban redevelopment"
+    }
+  ],
+  "domain": "HAR",
+  "evidence": {
+    "strength": "CASE_EVIDENCE",
+    "findings": [
+      {
+        "claim_zh": "紐約市2012年公告列公園規劃為85英畝，並描述由多座碼頭與既有公園構成。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "美國紐約布魯克林",
+        "library_id": "NYC_BROOKLYN_BRIDGE_PARK2012",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "Brooklyn Bridge Park專書記錄園區規劃與發展，提供另一個作者群的案例研究來源。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "美國紐約布魯克林",
+        "library_id": "WITTY2016",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "library_id": "NYC_BROOKLYN_BRIDGE_PARK2012",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "WITTY2016",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "version": "v2.0"
+}

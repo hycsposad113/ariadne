@@ -1,0 +1,348 @@
+{
+  "schema_version": "1.0.0",
+  "id": "building.courtyard_closed",
+  "names": {
+    "en": "Closed courtyard / perimeter building",
+    "zh": "口字型／回字型周邊建築"
+  },
+  "level": "building_plan",
+  "diagram_kind": "o",
+  "description_zh": "四周量體圍出內院，是典型的內向型組織；庭院是否私有需另外定義。",
+  "parameter_basis": {
+    "status": "ESTIMATE",
+    "profile_id": "EDITORIAL_ENVELOPE_V1",
+    "note_zh": "初版參數包絡，供字典搜尋和早期草圖；不是文獻統計範圍、地方法規或已測基地數據，需由設計者以基地幾何和項目目標修改。"
+  },
+  "plan_geometry": {
+    "unit": "m",
+    "dimension_basis_zh": "building_plan 為 footprint 面寬／進深；block_assembly 為街廓短／長軸；street_open_space 為空間短軸／路徑長軸。",
+    "frontage_m": {
+      "minimum": 36,
+      "maximum": 100,
+      "unit": "m"
+    },
+    "depth_m": {
+      "minimum": 36,
+      "maximum": 100,
+      "unit": "m"
+    },
+    "courtyard_void_ratio": {
+      "minimum": 0.22,
+      "maximum": 0.58
+    },
+    "opening_count": {
+      "minimum": 0,
+      "maximum": 0
+    },
+    "opening_width_m": null,
+    "spacing_m": {
+      "minimum": 8,
+      "maximum": 22,
+      "unit": "m"
+    },
+    "status": "ESTIMATE"
+  },
+  "density_reference": {
+    "reference_area_basis_zh": "單棟或同地塊建築原型；需以基地／地塊面積作分母。",
+    "gsi": {
+      "range": {
+        "minimum": 0.42,
+        "maximum": 0.78
+      },
+      "status": "ESTIMATE",
+      "source_ids": [
+        "SRC_SPACEMATRIX_2023"
+      ],
+      "note_zh": "本條編輯估算；Spacematrix 僅支撐 GSI 的密度描述脈絡，不提供此數值。"
+    },
+    "fsi": {
+      "range": {
+        "minimum": 2.0,
+        "maximum": 7.0
+      },
+      "status": "ESTIMATE",
+      "source_ids": [
+        "SRC_SPACEMATRIX_2023"
+      ],
+      "note_zh": "本條編輯估算；比較前統一計入樓層、基座、地下／地上範圍和分母。"
+    },
+    "floors": {
+      "range": {
+        "minimum": 3,
+        "maximum": 12
+      },
+      "unit": "storeys",
+      "status": "ESTIMATE",
+      "source_ids": [
+        "SRC_SPACEMATRIX_2023"
+      ],
+      "note_zh": "本條編輯估算樓層包絡，不是高度限制或法規值。"
+    }
+  },
+  "atmosphere_tags": [
+    "belonging",
+    "enclosure",
+    "privacy",
+    "legibility",
+    "density_feel",
+    "sociability"
+  ],
+  "atmosphere_scores": {
+    "enclosure": {
+      "value": 0.88,
+      "status": "EDITORIAL_ESTIMATE",
+      "rationale_zh": "此型在幾何上可能提供「連續臨邊與可辨識的空間邊界」，故暫列 0.88 作為設計討論起點。這不是本地實測、使用者調查或模擬值；來源只支撐面向與代理指標，不背書此分數。",
+      "source_ids": [
+        "SRC_SPACEMATRIX_2023",
+        "SRC_ALEXANDER_1977"
+      ]
+    },
+    "privacy": {
+      "value": 0.84,
+      "status": "EDITORIAL_ESTIMATE",
+      "rationale_zh": "此型在幾何上可能提供「可安排清楚的公共—半公共—私有閾限」，故暫列 0.84 作為設計討論起點。這不是本地實測、使用者調查或模擬值；來源只支撐面向與代理指標，不背書此分數。",
+      "source_ids": [
+        "SRC_ALEXANDER_1977",
+        "SRC_MASSENA_2019"
+      ]
+    },
+    "permeability": {
+      "value": 0.27,
+      "status": "EDITORIAL_ESTIMATE",
+      "rationale_zh": "此型在幾何上可能提供「實體組織較連續，穿越需依賴少數入口」，故暫列 0.27 作為設計討論起點。這不是本地實測、使用者調查或模擬值；來源只支撐面向與代理指標，不背書此分數。",
+      "source_ids": [
+        "SRC_OPEN_BLOCK_2020",
+        "SRC_EWING_CERVERO_2010"
+      ]
+    },
+    "sunlight": {
+      "value": 0.43,
+      "status": "EDITORIAL_ESTIMATE",
+      "rationale_zh": "此型在幾何上可能提供「同時包含支持與限制線索，需由基地配置及使用者評估定義」，故暫列 0.43 作為設計討論起點。這不是本地實測、使用者調查或模擬值；來源只支撐面向與代理指標，不背書此分數。",
+      "source_ids": [
+        "SRC_OKE_1988",
+        "SRC_SVF_2020"
+      ]
+    },
+    "green_blue": {
+      "value": 0.42,
+      "status": "EDITORIAL_ESTIMATE",
+      "rationale_zh": "此型在幾何上可能提供「同時包含支持與限制線索，需由基地配置及使用者評估定義」，故暫列 0.42 作為設計討論起點。這不是本地實測、使用者調查或模擬值；來源只支撐面向與代理指標，不背書此分數。",
+      "source_ids": [
+        "SRC_GEHL_2010",
+        "SRC_AGROTOPIA_2021"
+      ]
+    },
+    "microclimate_shelter": {
+      "value": 0.76,
+      "status": "EDITORIAL_ESTIMATE",
+      "rationale_zh": "此型在幾何上可能提供「可提供遮蔭或擋風的邊界條件」，故暫列 0.76 作為設計討論起點。這不是本地實測、使用者調查或模擬值；來源只支撐面向與代理指標，不背書此分數。",
+      "source_ids": [
+        "SRC_OKE_1988",
+        "SRC_SVF_2020"
+      ]
+    },
+    "street_vitality": {
+      "value": 0.68,
+      "status": "EDITORIAL_ESTIMATE",
+      "rationale_zh": "此型在幾何上可能提供「能配置入口與面向公共空間的地面層」，故暫列 0.68 作為設計討論起點。這不是本地實測、使用者調查或模擬值；來源只支撐面向與代理指標，不背書此分數。",
+      "source_ids": [
+        "SRC_GEHL_2010",
+        "SRC_WHYTE_1980"
+      ]
+    },
+    "industrial_scale": {
+      "value": 0.18,
+      "status": "EDITORIAL_ESTIMATE",
+      "rationale_zh": "此型在幾何上可能提供「尺度較細，較難形成大型跨距或生產場景」，故暫列 0.18 作為設計討論起點。這不是本地實測、使用者調查或模擬值；來源只支撐面向與代理指標，不背書此分數。",
+      "source_ids": [
+        "SRC_LOCHAL_2019",
+        "SRC_GARE_MARITIME_2020"
+      ]
+    },
+    "human_scale": {
+      "value": 0.7,
+      "status": "EDITORIAL_ESTIMATE",
+      "rationale_zh": "此型在幾何上可能提供「可切分為步行者可讀的入口與界面節奏」，故暫列 0.70 作為設計討論起點。這不是本地實測、使用者調查或模擬值；來源只支撐面向與代理指標，不背書此分數。",
+      "source_ids": [
+        "SRC_GEHL_2010",
+        "SRC_LYNCH_1960"
+      ]
+    },
+    "density_feel": {
+      "value": 0.77,
+      "status": "EDITORIAL_ESTIMATE",
+      "rationale_zh": "此型在幾何上可能提供「可在同一基地分母下形成較高建築量」，故暫列 0.77 作為設計討論起點。這不是本地實測、使用者調查或模擬值；來源只支撐面向與代理指標，不背書此分數。",
+      "source_ids": [
+        "SRC_SPACEMATRIX_2023",
+        "SRC_MORPHINT_2025"
+      ]
+    },
+    "legibility": {
+      "value": 0.81,
+      "status": "EDITORIAL_ESTIMATE",
+      "rationale_zh": "此型在幾何上可能提供「可建立辨認路徑、節點、邊界或地標的差異」，故暫列 0.81 作為設計討論起點。這不是本地實測、使用者調查或模擬值；來源只支撐面向與代理指標，不背書此分數。",
+      "source_ids": [
+        "SRC_LYNCH_1960",
+        "SRC_URBAN_MORPHOMETRICS_2015"
+      ]
+    },
+    "diversity": {
+      "value": 0.56,
+      "status": "EDITORIAL_ESTIMATE",
+      "rationale_zh": "此型在幾何上可能提供「同時包含支持與限制線索，需由基地配置及使用者評估定義」，故暫列 0.56 作為設計討論起點。這不是本地實測、使用者調查或模擬值；來源只支撐面向與代理指標，不背書此分數。",
+      "source_ids": [
+        "SRC_OPEN_BLOCK_2020",
+        "SRC_EWING_CERVERO_2010"
+      ]
+    },
+    "natural_surveillance": {
+      "value": 0.72,
+      "status": "EDITORIAL_ESTIMATE",
+      "rationale_zh": "此型在幾何上可能提供「有機會形成室內開口對公共路徑的視線」，故暫列 0.72 作為設計討論起點。這不是本地實測、使用者調查或模擬值；來源只支撐面向與代理指標，不背書此分數。",
+      "source_ids": [
+        "SRC_SAFETY_2024"
+      ]
+    },
+    "perceived_safety": {
+      "value": 0.68,
+      "status": "EDITORIAL_ESTIMATE",
+      "rationale_zh": "此型在幾何上可能提供「可支援照明、視線與明確通行界面的設計審核」，故暫列 0.68 作為設計討論起點。這不是本地實測、使用者調查或模擬值；來源只支撐面向與代理指標，不背書此分數。",
+      "source_ids": [
+        "SRC_SAFETY_2024",
+        "SRC_GEHL_2010"
+      ]
+    },
+    "sociability": {
+      "value": 0.77,
+      "status": "EDITORIAL_ESTIMATE",
+      "rationale_zh": "此型在幾何上可能提供「可容納停留、交會、座位或共同活動的空間」，故暫列 0.77 作為設計討論起點。這不是本地實測、使用者調查或模擬值；來源只支撐面向與代理指標，不背書此分數。",
+      "source_ids": [
+        "SRC_WHYTE_1980",
+        "SRC_SOCIAL_COHESION_2024"
+      ]
+    },
+    "belonging": {
+      "value": 0.88,
+      "status": "EDITORIAL_ESTIMATE",
+      "rationale_zh": "此型在幾何上可能提供「可清楚界定或共同使用的地方性空間」，故暫列 0.88 作為設計討論起點。這不是本地實測、使用者調查或模擬值；來源只支撐面向與代理指標，不背書此分數。",
+      "source_ids": [
+        "SRC_SOCIAL_COHESION_2024",
+        "SRC_ALEXANDER_1977"
+      ]
+    }
+  },
+  "suitability": {
+    "suitable_for": [
+      {
+        "condition_zh": "需要有領域感的共享庭院或周邊街牆",
+        "source_ids": [
+          "SRC_SPACEMATRIX_2023",
+          "SRC_ALEXANDER_1977"
+        ]
+      }
+    ],
+    "review_or_avoid_when": [
+      {
+        "condition_zh": "要求多處公共穿越、或基地日照與通風條件尚未校核",
+        "source_ids": [
+          "SRC_SPACEMATRIX_2023",
+          "SRC_ALEXANDER_1977"
+        ]
+      }
+    ]
+  },
+  "combination_rules": [
+    {
+      "target_id": "block.perimeter",
+      "relationship": "組成",
+      "condition_zh": "沿街形成周邊街牆，內院另設管理與通行規則",
+      "spacing_m": {
+        "minimum": 8.0,
+        "maximum": 20.0,
+        "unit": "m"
+      },
+      "orientation_zh": "對齊街廓界線前先核實退縮及採光條件",
+      "vertical_stack_allowed": false,
+      "rule_status": "DESIGN_HYPOTHESIS",
+      "basis_zh": "由本條型態機制提出的初步組合假設；不是法規、通用尺寸或已驗證的生成器限制。",
+      "source_ids": [
+        "SRC_SPACEMATRIX_2023",
+        "SRC_ALEXANDER_1977"
+      ]
+    },
+    {
+      "target_id": "space.courtyard",
+      "relationship": "圍合",
+      "condition_zh": "內院可作共享或半私密空間，入口需清楚",
+      "spacing_m": {
+        "minimum": 0.0,
+        "maximum": 4.0,
+        "unit": "m"
+      },
+      "orientation_zh": "配置入口時區分住戶入口與公共通行口",
+      "vertical_stack_allowed": false,
+      "rule_status": "DESIGN_HYPOTHESIS",
+      "basis_zh": "由本條型態機制提出的初步組合假設；不是法規、通用尺寸或已驗證的生成器限制。",
+      "source_ids": [
+        "SRC_SPACEMATRIX_2023",
+        "SRC_ALEXANDER_1977"
+      ]
+    }
+  ],
+  "generator_parameters": {
+    "profile_key": "courtyard",
+    "scale": "building_plan",
+    "parameters": {
+      "profile_key": "courtyard",
+      "width_m": [
+        36,
+        100
+      ],
+      "depth_m": [
+        36,
+        100
+      ],
+      "courtyard_void_ratio": [
+        0.22,
+        0.58
+      ],
+      "opening_count": [
+        0,
+        0
+      ]
+    },
+    "mapping_note_zh": "建議的未來生成器欄位名稱；目前只供查詢和方案討論，不呼叫任何生成器。"
+  },
+  "precedents": [
+    {
+      "name": "Beijing Siheyuan",
+      "relevance_zh": "四側房屋圍出獨立內院的歷史住宅參照；地域與家庭制度需另行理解。",
+      "source_ids": [
+        "SRC_BEIJING_SIHEYUAN_2016"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "SRC_SPACEMATRIX_2023",
+      "relevance_zh": "密度與形態量測脈絡；不提供本條的數值估算。"
+    },
+    {
+      "id": "SRC_ALEXANDER_1977",
+      "relevance_zh": "可組合設計模式的參考；配對仍是設計假設。"
+    },
+    {
+      "id": "SRC_CONZEN_1960",
+      "relevance_zh": "歷史形態與街道、地塊、建築分析的書目錨點。"
+    },
+    {
+      "id": "SRC_MORPHINT_2025",
+      "relevance_zh": "QGIS 指標工具清單；本字典不安裝或執行外掛。"
+    },
+    {
+      "id": "SRC_BEIJING_SIHEYUAN_2016",
+      "relevance_zh": "案例來源只支持先例形態描述，不支持本條尺寸包絡或氛圍分數。"
+    }
+  ]
+}

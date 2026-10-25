@@ -1,0 +1,36 @@
+{
+  "id": "KEILE_DECISION",
+  "title": "Raadsbesluit over vaststelling gebiedsambitiedocument Keilekwartier",
+  "authors": [
+    "Gemeenteraad Rotterdam"
+  ],
+  "year": 2026,
+  "venue_or_publisher": "Gemeenteraad Rotterdam",
+  "doi": null,
+  "isbn": null,
+  "kind": "POLICY",
+  "tradition": "官方制度與專業實務指引",
+  "region": [
+    "Gemeenteraad Rotterdam"
+  ],
+  "method": "官方公開法規、政策頁或手冊；依verification.method註明可讀範圍",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "市議會頁面記錄2026-02-26的Keilekwartier區域願景文件決定；本單元不據此推論附件中的空間細節。",
+      "strength": "NORMATIVE_PRACTICE",
+      "scope_zh": "僅摘要官方公開頁面可直接支持之制度或實務內容；不外推為M4H地方法規。",
+      "assessment_basis": "OFFICIAL_SITE_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED_OFFICIAL_SITE",
+    "url": "https://gemeenteraad.rotterdam.nl/Reports/Item/fa9a9c7f-7f27-401b-a3db-03fc460e59d5",
+    "accessed_utc": "2026-10-08T10:47:42Z",
+    "method": "official public council record; 11 MB decision attachment was listed but not retrievable in this session",
+    "match_notes_zh": "核對官方來源網域與可公開讀取的頁面／摘錄；內容範圍限制已記錄。"
+  },
+  "limitations_zh": "official public council record; 11 MB decision attachment was listed but not retrievable in this session",
+  "metadata_licence_zh": "保存官方公開文件的書目欄位與自行改寫的內容摘要；未保存付費全文。"
+}

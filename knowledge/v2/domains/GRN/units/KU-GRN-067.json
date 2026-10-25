@@ -1,0 +1,74 @@
+{
+  "id": "KU-GRN-067",
+  "domain": "GRN",
+  "subtopic": "健康效益實證",
+  "type": "value_range",
+  "title_zh": "荷蘭綠地與健康的居民樣本",
+  "title_en": "Dutch health-study population",
+  "summary_zh": "荷蘭研究分析二十五萬零七百八十二位居民。超大樣本可提高估計精度，卻無法單獨排除居住選擇偏差。樣本層級關聯不能直接預測單一使用者的健康變化。樣本量與研究識別策略是兩種不同的證據品質。",
+  "key_points_zh": [
+    "荷蘭研究分析二十五萬零七百八十二位居民",
+    "超大樣本可提高估計精度，卻無法單獨排除居住選擇偏差"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "荷蘭研究分析二十五萬零七百八十二位居民。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "北美",
+        "library_id": "RIGOLON16",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "樣本量與研究識別策略是兩種不同的證據品質。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "區分統計精度、因果可信度和政策外推範圍。"
+  ],
+  "applies_when_zh": "適用於評讀都市健康資料。",
+  "not_applicable_when_zh": "不可將樣本總數轉為建設服務規模。",
+  "debates_zh": "樣本量與研究識別策略是兩種不同的證據品質。",
+  "sources": [
+    {
+      "library_id": "RIGOLON16",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "MITCHELL08",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "公園可及性與環境正義",
+  "region": "北美",
+  "curriculum_refs": [
+    {
+      "school": "MIT",
+      "course": "11.330J Theory of City Form",
+      "topic": "健康效益實證"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Critical Debates in Urban Design",
+      "topic": "健康效益實證"
+    }
+  ],
+  "version": "2.0.0",
+  "values": [
+    {
+      "name": "荷蘭綠地與健康的居民樣本",
+      "range": "250,782 位",
+      "unit": "居民人數",
+      "context": "荷蘭全科診所研究的居民樣本；僅指研究規模，非基地法規。；「荷蘭綠地與健康的居民樣本」僅供其研究脈絡內比較，不構成本基地法規。",
+      "library_id": "MAAS06"
+    }
+  ],
+  "related_unit_ids": [
+    "KU-GRN-066"
+  ]
+}

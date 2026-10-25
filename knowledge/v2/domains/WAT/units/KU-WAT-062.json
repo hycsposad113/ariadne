@@ -1,0 +1,74 @@
+{
+  "id": "KU-WAT-062",
+  "domain": "WAT",
+  "subtopic": "潮汐與河口地景",
+  "type": "empirical_finding",
+  "title_zh": "全球海平面趨勢不能替代地方相對水位",
+  "title_en": "全球海平面趨勢不能替代地方相對水位",
+  "summary_zh": "Nicholls 與 Cazenave 回顧全球海平面變化及沿岸影響，指出海平面趨勢構成長期背景，但地方結果還受地面運動和海岸條件影響。這是一項全球科學綜述，不是對某個河口的未來水位預測。地方規劃需把全球情境和潮位基準分開呈現。",
+  "key_points_zh": [
+    "研究設計是全球沿海文獻回顧。",
+    "結論方向是全球變化會影響沿海風險，地方量值仍需觀測。"
+  ],
+  "evidence": {
+    "strength": "CASE_EVIDENCE",
+    "findings": [
+      {
+        "library_id": "NICHOLLS2010",
+        "claim_zh": "Nicholls 與 Cazenave 回顧全球海平面變化及沿岸影響，指出海平面趨勢構成長期背景，但地方結果還受地面運動和海岸條件影響。",
+        "effect_or_value": "地方規劃需把全球情境和潮位基準分開呈現。",
+        "study_design": "全球沿海變化綜述",
+        "context_region": "全球沿海地區",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "library_id": "KULP2019",
+        "claim_zh": "使用較低垂直偏差的沿海高程模型會顯著改變低地人口暴露估計；本文摘要報告 2100 情境估計及 90% 區間；本單元 KU-WAT-062 對照「Nicholls 與 Cazenave 回顧全球海平面變化及沿岸影響，指出海平面趨勢構成長期背景，但地方結果還受地面運動和海岸條件影響」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "ABSTRACT_REVIEW",
+        "effect_or_value": "KU-WAT-062 的效應量仍以其原列研究結果為準；KULP2019 僅提供相鄰主題脈絡，未作量值來源。",
+        "study_design": "比較 SRTM 與 CoastalDEM 高程模型並疊合人口暴露估計",
+        "context_region": "全球沿海地區",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "將全球情境與測站相對水位分欄記錄。",
+    "對地面沉降和防護設施做獨立敏感度分析。"
+  ],
+  "applies_when_zh": "適用於沿海氣候變遷基礎敘事。",
+  "not_applicable_when_zh": "不適用於直接推定個別基地高程和淹水深度。",
+  "debates_zh": "全球趨勢的時間尺度和區域平均會掩蓋港灣與河口的差異。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "NICHOLLS2010",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "KULP2019",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "全球海平面與地方水位",
+  "region": "全球沿海地區；全球低海拔沿海區",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "潮汐與河口地景"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Sustainable Futures by Design",
+      "topic": "潮汐與河口地景"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0"
+}

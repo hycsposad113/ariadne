@@ -1,0 +1,40 @@
+{
+  "id": "BRINKMANN2009_SPANGEN",
+  "title": "Spangen Rotterdam",
+  "authors": [
+    "Michiel Brinkmann"
+  ],
+  "year": 2009,
+  "venue_or_publisher": "Springer book chapter",
+  "doi": "https://doi.org/10.1007/978-3-211-79178-3_4",
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "ACADEMIC_BOOK_CHAPTER",
+  "tradition": "鹿特丹住宅街道與住宅群",
+  "region": "Spangen, Rotterdam, Netherlands",
+  "method": "Crossref 書目記錄",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "Crossref 書目確認 Michiel Brinkmann 於 2009 年出版題為 Spangen Rotterdam 的章節。",
+      "strength": "CASE_EVIDENCE",
+      "scope_zh": "書目只作 Spangen 住宅街道案例的追查入口，不從作者欄推定設計者身分。",
+      "assessment_basis": "BIBLIOGRAPHIC_RECORD_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref",
+    "query": {
+      "title": "Spangen Rotterdam",
+      "author": "Michiel Brinkmann",
+      "year": 2009
+    },
+    "matched_record_id": "https://doi.org/10.1007/978-3-211-79178-3_4",
+    "checked_at_utc": "2026-10-09T10:24:59Z",
+    "match_notes_zh": "Crossref 書目記錄與 DOI。"
+  },
+  "limitations_zh": "未讀全文，未根據章節題名推論空間成效。",
+  "metadata_licence_zh": "公開 Crossref 書目 metadata；未保存全文。"
+}

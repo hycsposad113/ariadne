@@ -1,0 +1,89 @@
+{
+  "id": "KU-ARC-082",
+  "domain": "ARC",
+  "subtopic": "經典設計知識",
+  "type": "pattern",
+  "title_zh": "Alexander 的「房間兩側採光」模式",
+  "title_en": "Alexander Pattern 159: light on two sides of every room",
+  "summary_zh": "《A Pattern Language》的模式 159 主張房間若能從兩側取得光，空間品質與佈置彈性會增加。 這是可供平面推敲的設計模式，不等於每間房都要開兩面窗的法規。 特定房型、方位與私密需求需要反例測試。",
+  "key_points_zh": [
+    "核心主張：《A Pattern Language》的模式 159 主張房間若能從兩側取得光，空間品質與佈置彈性會增加。",
+    "量測檢查：逐房紀錄外牆數、窗向、遮擋與可布置牆面，再把模式作為可反駁假設。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "《A Pattern Language》的模式 159 主張房間若能從兩側取得光，空間品質與佈置彈性會增加。",
+        "effect_or_value": null,
+        "study_design": "跨地域設計參照綜整；數值狀態依 claim_verification 註記",
+        "context_region": "Christopher Alexander 等人的模式語言；跨地域驗證待辦",
+        "library_id": "ALEX77",
+        "locator": null,
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "在房間平面標兩個採光面，檢查家具安排、交叉通風與對外視線是否互相衝突。"
+  ],
+  "applies_when_zh": "「Alexander 的「房間兩側採光」模式」可在用於方案前期的量體、平面或空間品質篩檢時使用，前提是《A Pattern Language》的模式 159 主張房間若能從兩側取得光，空間品質與佈置彈性會增加與來源情境相符。",
+  "not_applicable_when_zh": "若《A Pattern Language》的模式 159 主張房間若能從兩側取得光，空間品質與佈置彈性會增加不成立，就不能把「Alexander 的「房間兩側採光」模式」的結論延伸到其他情況；不得單獨作為許可、消防、結構或基地法規判定。",
+  "debates_zh": "雙側開口可能引入噪音、眩光或鄰居對視，單側高窗也可能更適合某些空間。",
+  "sources": [
+    {
+      "library_id": "ALEX77",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "SUN_WIND_LIGHT85",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+  "tradition": "模式語言；住宅平面",
+  "region": "Christopher Alexander 等人的模式語言；跨地域驗證待辦",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Housing and the City / Design of the Urban Fabric",
+      "topic": "建築尺度與住宅平面"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "建築尺度與街道界面"
+    },
+    {
+      "school": "MIT",
+      "course": "Architecture and Urban Design",
+      "topic": "建築尺度與空間型態"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "建築尺度與公共生活"
+    }
+  ],
+  "check": {
+    "method_zh": "逐房紀錄外牆數、窗向、遮擋與可布置牆面，再把模式作為可反駁假設。",
+    "inputs": [
+      "經典設計知識",
+      "尺寸／面積圖層",
+      "適用地區與用途標籤"
+    ],
+    "logic_zh": "將量測輸入轉成明確尺寸、比例或空間關係；越界只觸發複核，不自動取代設計決策。",
+    "limitations_zh": "量測結果只觸發「Alexander 的「房間兩側採光」模式」的複核，不得單獨作為許可或法規判定。"
+  },
+  "version": "kb2-arc-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-ARC-080",
+    "KU-ARC-081",
+    "KU-ARC-083",
+    "KU-ARC-084"
+  ]
+}

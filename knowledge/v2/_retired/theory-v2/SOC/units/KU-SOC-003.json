@@ -1,0 +1,95 @@
+{
+  "id": "KU-SOC-003",
+  "domain": "SOC",
+  "subtopic": "正義城市",
+  "type": "empirical_finding",
+  "title_zh": "正義城市：密度和服務落差",
+  "title_en": "The just city — empirical finding unit 003",
+  "summary_zh": "波哥大的空間可及性分析顯示，密度本身不保證不同收入群體獲得相同工作和服務機會。評估應把人口密度、目的地分布和交通可達分開測量，再查看群體差距。單城資料反映特定交通和土地制度，不能用來推定其他城市的同一效果。限制是「正義城市：密度和服務落差」所用的城市或案例資料不能單獨證明設計因果，外推仍需重新檢驗。",
+  "key_points_zh": [
+    "波哥大的空間可及性分析顯示，密度本身不保證不同收入群體獲得相同工作和服務機會。",
+    "評估應把人口密度、目的地分布和交通可達分開測量，再查看群體差距。",
+    "單城資料反映特定交通和土地制度，不能用來推定其他城市的同一效果。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "【ABSTRACT_REVIEW】波哥大的空間可及性分析顯示，密度本身不保證不同收入群體獲得相同工作和服務機會。評估應把人口密度、目的地分布和交通可達分開測量，再查看群體差距。單城資料反映特定交通和土地制度，不能用來推定其他城市的同一效果。限制是「正義城市：密度和服務落差」所用的城市或案例資料不能單獨證明設計因果，外推仍需重新檢驗。",
+        "effect_or_value": "人口密度高並不保證低收入群體獲得相稱的工作與服務可及性，空間分配仍不均",
+        "study_design": "城市尺度的橫斷面空間分布與可及性分析",
+        "context_region": "哥倫比亞波哥大",
+        "library_id": "BOGOTA17",
+        "locator": null
+      },
+      {
+        "claim_zh": "【ABSTRACT_REVIEW】就「正義城市：密度和服務落差」而言，「Travel and the Built Environment」提供交通與建成環境實證的比較坐標；此處僅使用其已標明的書目／摘要範圍，不延伸為未核對的效果或因果。",
+        "effect_or_value": null,
+        "study_design": "整合分析",
+        "context_region": "美國；跨地域",
+        "library_id": "EWING10",
+        "locator": null
+      },
+      {
+        "claim_zh": "【BIBLIOGRAPHIC_SCOPE_ONLY】就「正義城市：密度和服務落差」而言，「New evidence on walking distances to transit stops: identifying redundancies and gaps using variable service areas」提供交通實證的比較坐標；此處僅使用其已標明的書目／摘要範圍，不延伸為未核對的效果或因果。",
+        "effect_or_value": null,
+        "study_design": "步行到站實證",
+        "context_region": "加拿大",
+        "library_id": "ELGENEIDY14",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "將住宅密度、工作地和服務點分層計算，對照不同收入群體的可及落差。"
+  ],
+  "design_options": [],
+  "applies_when_zh": "在評估「正義城市：密度和服務落差」涉及的資源分配、權力或居住影響時，先界定受影響群體與決策階段。",
+  "not_applicable_when_zh": "若沒有「正義城市：密度和服務落差」所需的群體、時序或市場資料，不把概念類比當作已驗證的效果或法律結論。",
+  "debates_zh": "增密可增加鄰近人口，卻不保證工作和服務同步配置或弱勢群體能負擔。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "BOGOTA17",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "EWING10",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "ELGENEIDY14",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "都市正義／分配、程序與承認",
+  "region": "哥倫比亞；美國；跨地域",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Planning Complex Cities",
+      "topic": "正義城市：密度和服務落差 — 正義城市"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Urban Design Contexts and Operations",
+      "topic": "正義城市：密度和服務落差 — 正義城市"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "正義城市：密度和服務落差 — 正義城市"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design Governance",
+      "topic": "正義城市：密度和服務落差 — 正義城市"
+    }
+  ],
+  "version": "2.0.0"
+}

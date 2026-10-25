@@ -1,0 +1,107 @@
+{
+  "id": "KU-MOR-011",
+  "domain": "MOR",
+  "subtopic": "Conzen 城鎮平面分析",
+  "type": "design_principle",
+  "title_zh": "Conzen 城鎮平面分析｜設計原則",
+  "title_en": "Conzenian town-plan analysis — Design principle",
+  "summary_zh": "Conzen 把城鎮平面分為街道系統、地塊系統與建築地帶，並指出三者形成和更替的節奏不同。 後續回顧區分地理學的 Conzen 傳統與建築學的 Caniggia 傳統，兩者關注城市形式但使用不同概念工具。 缺少可靠歷史底圖時，地塊年代與演變順序仍不能確定。",
+  "key_points_zh": [
+    "讀「Conzen 城鎮平面分析｜設計原則」時，先辨認形態單元，再描述各單元的形成階段及變化程度；同時把分辨街道、地塊與建築的歷史層次，先讀既有格局再提出改動；「Conzen 城鎮平面分析｜設計原則」還須對照回顧指出地理學與建築學形成不同形態分析路徑，Conzen 與 Caniggia 傳統各有概念工具，才能把研究發現轉成有邊界的設計判斷列為核對條件。",
+    "讀「Conzen 城鎮平面分析｜設計原則」時，先辨認形態單元，再描述各單元的形成階段及變化程度；同時把分辨街道、地塊與建築的歷史層次，先讀既有格局再提出改動；「Conzen 城鎮平面分析｜設計原則」還須對照回顧指出地理學與建築學形成不同形態分析路徑，Conzen 與 Caniggia 傳統各有概念工具，才能把研究發現轉成有邊界的設計判斷列為核對條件。",
+    "限制：欠缺可靠歷史圖資時，不應推定地塊年代或演變順序。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "Conzen 以街道系統、地塊系統與建築地帶解讀城鎮平面；這三層的形成與更替並不同步。",
+        "library_id": "CONZEN60",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "英國",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "Kristjansdottir 回顧指出，地理學的 Conzen 傳統與建築學的 Caniggia 傳統形成不同分析路徑；比較時需保留各自的概念工具。",
+        "library_id": "KRISTJANSDOTTIR2019",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "跨地域學術傳統",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "先辨認街道系統、地塊系統與建築地帶，再分別記錄其形成年代和變化；兩個形態分析傳統的術語應各自交代。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "「Conzen 城鎮平面分析｜設計原則」可把取向落在先辨認形態單元，再描述各單元的形成階段及變化程度，但需連同分辨街道、地塊與建築的歷史層次，先讀既有格局再提出改動；「Conzen 城鎮平面分析｜設計原則」還須對照回顧指出地理學與建築學形成不同形態分析路徑，Conzen 與 Caniggia 傳統各有概念工具，才能把研究發現轉成有邊界的設計判斷決定適用方式。",
+      "tradeoff_zh": "此選項把「Conzen 城鎮平面分析｜設計原則」的工作放在分辨街道、地塊與建築的歷史層次，先讀既有格局再提出改動；「Conzen 城鎮平面分析｜設計原則」還須對照回顧指出地理學與建築學形成不同形態分析路徑，Conzen 與 Caniggia 傳統各有概念工具，才能把研究發現轉成有邊界的設計判斷上；需要承擔的協調或維護代價則由「形態分區不是社會分區的替代品；平面圖本身也無法解釋完整因果」界定。",
+      "library_ids": [
+        "CONZEN60",
+        "KRISTJANSDOTTIR2019"
+      ]
+    },
+    {
+      "option_zh": "「Conzen 城鎮平面分析｜設計原則」可把取向落在核心區、擴張區與邊緣帶可呈現不同的形態慣性和更新節奏，但需連同分辨街道、地塊與建築的歷史層次，先讀既有格局再提出改動；「Conzen 城鎮平面分析｜設計原則」還須對照回顧指出地理學與建築學形成不同形態分析路徑，Conzen 與 Caniggia 傳統各有概念工具，才能把研究發現轉成有邊界的設計判斷決定適用方式。",
+      "tradeoff_zh": "「Conzen 城鎮平面分析｜設計原則」採用「「Conzen 城鎮平面分析｜設計原則」可把取向落在核心區、擴張區與邊緣帶可呈現不同的形態慣性和更新節奏，但需連同分辨街道、地塊與建築的歷史層次，先讀既有格局再提出改動；「Conzen 城鎮平面分析｜設計原則」還須對照回顧指出地理學與建築學形成不同形態分析路徑，Conzen 與 Caniggia 傳統各有概念工具，才能把研究發現轉成有邊界的設計判斷決定適用方式」時，得失要沿著分辨街道、地塊與建築的歷史層次，先讀既有格局再提出改動；「Conzen 城鎮平面分析｜設計原則」還須對照回顧指出地理學與建築學形成不同形態分析路徑，Conzen 與 Caniggia 傳統各有概念工具，才能把研究發現轉成有邊界的設計判斷檢查；形態分區不是社會分區的替代品；平面圖本身也無法解釋完整因果。",
+      "library_ids": [
+        "CONZEN60",
+        "KRISTJANSDOTTIR2019"
+      ]
+    }
+  ],
+  "applies_when_zh": "「Conzen 城鎮平面分析｜設計原則」可在適用於歷史城鎮、更新地和不同建設階段的比較時使用，前提是分辨街道、地塊與建築的歷史層次，先讀既有格局再提出改動；「Conzen 城鎮平面分析｜設計原則」還須對照回顧指出地理學與建築學形成不同形態分析路徑，Conzen 與 Caniggia 傳統各有概念工具，才能把研究發現轉成有邊界的設計判斷與來源情境相符。",
+  "not_applicable_when_zh": "若分辨街道、地塊與建築的歷史層次，先讀既有格局再提出改動；「Conzen 城鎮平面分析｜設計原則」還須對照回顧指出地理學與建築學形成不同形態分析路徑，Conzen 與 Caniggia 傳統各有概念工具，才能把研究發現轉成有邊界的設計判斷不成立，就不能把「Conzen 城鎮平面分析｜設計原則」的結論延伸到其他情況；欠缺可靠歷史圖資時，不應推定地塊年代或演變順序。",
+  "debates_zh": "形態分區不是社會分區的替代品；平面圖本身也無法解釋完整因果。",
+  "sources": [
+    {
+      "library_id": "CONZEN60",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "KRISTJANSDOTTIR2019",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "英國城鎮平面學；跨學科城市形態史",
+  "region": "英國；跨地域學術傳統",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "Conzen 城鎮平面分析"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "Conzen 城鎮平面分析"
+    },
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.330J Theory of City Form",
+      "topic": "Conzen 城鎮平面分析"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban form and density",
+      "topic": "Conzen 城鎮平面分析"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-MOR-009",
+    "KU-MOR-010",
+    "KU-MOR-012"
+  ],
+  "counter_unit_ids": [
+    "KU-MOR-013"
+  ]
+}

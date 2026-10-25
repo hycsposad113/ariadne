@@ -1,0 +1,61 @@
+{
+  "id": "KU-ECO-024",
+  "domain": "ECO",
+  "subtopic": "都市森林與樹冠",
+  "type": "concept",
+  "title_zh": "城市樹木的服務會隨位置改變",
+  "title_en": "Tree services are location-dependent",
+  "summary_zh": "行道樹能遮蔭，樹冠也可能攔截雨水或影響污染物擴散。實際效果受冠幅、樹種、街谷和維護狀態調節。同一項服務可能和視線、通風或地下管線衝突。服務模型的精確表象可能掩蓋生長失敗和地方差異。",
+  "key_points_zh": [
+    "行道樹能遮蔭，樹冠也可能攔截雨水或影響污染物擴散",
+    "實際效果受冠幅、樹種、街谷和維護狀態調節"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "行道樹能遮蔭，樹冠也可能攔截雨水或影響污染物擴散。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "跨地域",
+        "library_id": "LIVESELY16",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "服務模型的精確表象可能掩蓋生長失敗和地方差異。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "為每個街段建立樹木成熟期和目標服務的維護情境。"
+  ],
+  "applies_when_zh": "適用於街樹與公共空間設計。",
+  "not_applicable_when_zh": "不能按栽植株數直接推算服務量。",
+  "debates_zh": "服務模型的精確表象可能掩蓋生長失敗和地方差異。",
+  "sources": [
+    {
+      "library_id": "LIVESELY16",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "ARONSON17",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "都市森林與生態系統服務",
+  "region": "跨地域",
+  "curriculum_refs": [
+    {
+      "school": "UCL Bartlett",
+      "course": "Critical Debates in Urban Design",
+      "topic": "都市森林與樹冠"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-ECO-023",
+    "KU-ECO-025"
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "id": "KU-MET-037",
+  "domain": "MET",
+  "subtopic": "評估準則",
+  "type": "empirical_finding",
+  "title_zh": "評估準則：組態與移動",
+  "title_en": "Evaluation criteria — empirical finding unit 037",
+  "summary_zh": "空間語法與行人移動的整合研究支持整合度、選擇度和通行分布之間存在關聯，同時指出指標選擇會改變解讀。設計比較需同時展示軸線或路段尺度及人流觀察。相關關係不代表調整某一指標就能保證人流改變。限制是「評估準則：組態與移動」所用的城市或案例資料不能單獨證明設計因果，外推仍需重新檢驗。",
+  "key_points_zh": [
+    "空間語法與行人移動的整合研究支持整合度、選擇度和通行分布之間存在關聯，同時指出指標選擇會改變解讀。",
+    "設計比較需同時展示軸線或路段尺度及人流觀察。",
+    "相關關係不代表調整某一指標就能保證人流改變。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "【ABSTRACT_REVIEW】空間語法與行人移動的整合研究支持整合度、選擇度和通行分布之間存在關聯，同時指出指標選擇會改變解讀。設計比較需同時展示軸線或路段尺度及人流觀察。相關關係不代表調整某一指標就能保證人流改變。限制是「評估準則：組態與移動」所用的城市或案例資料不能單獨證明設計因果，外推仍需重新檢驗。",
+        "effect_or_value": "整合度與選擇度整體呈正向關聯，但不同指標和研究設定的結果高度異質",
+        "study_design": "空間語法與行人移動研究的整合分析",
+        "context_region": "跨國研究樣本",
+        "library_id": "SHARMIN17",
+        "locator": null
+      },
+      {
+        "claim_zh": "【BIBLIOGRAPHIC_SCOPE_ONLY】就「評估準則：組態與移動」而言，「Space Syntax: Some Inconsistencies」提供空間語法批評的比較坐標；此處僅使用其已標明的書目／摘要範圍，不延伸為未核對的效果或因果。",
+        "effect_or_value": null,
+        "study_design": "方法論批評",
+        "context_region": "歐洲",
+        "library_id": "RATTI04",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "方案圖面應呈現「評估準則：組態與移動」所指出的空間關係，並為關鍵判斷附上空間語法整合分析與空間語法批評各自支持和無法支持的部分。"
+  ],
+  "design_options": [],
+  "applies_when_zh": "當問題包含「評估準則：組態與移動」且需比較設計方案需要用可重現資料比較而不取消爭議時時使用。",
+  "not_applicable_when_zh": "若研究缺少對應尺度或群體資料，不以「評估準則：組態與移動」取代以相關性推因果、以代理指標宣稱整體品質或自動選出勝者時。",
+  "debates_zh": "「評估準則：組態與移動」的爭點在於指標之間可能互相衝突；單一綜合分數會隱藏權重和受益者差異；空間語法整合分析與空間語法批評的研究對象不同，需保留差異而不能合併成單一規則。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "SHARMIN17",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "RATTI04",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "設計評估／指標有效性",
+  "region": "跨地域；歐洲",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Methods of Analysis & Imagination",
+      "topic": "評估準則：組態與移動 — 評估準則"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "評估準則：組態與移動 — 評估準則"
+    },
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.301J",
+      "topic": "評估準則：組態與移動 — 評估準則"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "評估準則：組態與移動 — 評估準則"
+    }
+  ],
+  "version": "2.0.0"
+}

@@ -1,0 +1,74 @@
+{
+  "id": "KU-CLI-057",
+  "domain": "CLI",
+  "subtopic": "室外熱舒適指標",
+  "type": "empirical_finding",
+  "title_zh": "戶外熱感受會隨氣候適應和場地條件改變",
+  "title_en": "戶外熱感受會隨氣候適應和場地條件改變",
+  "summary_zh": "Sydney 現地研究和熱適應文獻回顧都指出，戶外舒適判斷不只由氣溫決定。研究設計包括季節性問卷和建成環境的適應性證據；結果顯示使用者可接受範圍會依近期氣候與場所而變。跨城市套用同一舒適線需保留不確定性。",
+  "key_points_zh": [
+    "研究方向支持熱感受具有氣候和心理適應成分。",
+    "樣本季節和活動類型影響問卷判斷。"
+  ],
+  "evidence": {
+    "strength": "CASE_EVIDENCE",
+    "findings": [
+      {
+        "library_id": "SPAGNOLO2003",
+        "claim_zh": "題名確認該研究在副熱帶 Sydney 比較戶外與半戶外熱舒適；其發現不能跨氣候與人群直接外推；本單元 KU-CLI-057 對照「Sydney 現地研究和熱適應文獻回顧都指出，戶外舒適判斷不只由氣溫決定」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": "KU-CLI-057 的效應量仍以其原列研究結果為準；SPAGNOLO2003 僅提供相鄰主題脈絡，未作量值來源。",
+        "study_design": "現地研究",
+        "context_region": "Sydney, Australia",
+        "locator": null
+      },
+      {
+        "library_id": "BRAGER1998",
+        "claim_zh": "研究設計包括季節性問卷和建成環境的適應性證據；結果顯示使用者可接受範圍會依近期氣候與場所而變。",
+        "effect_or_value": "跨城市套用同一舒適線需保留不確定性。",
+        "study_design": "熱適應文獻回顧",
+        "context_region": "跨地域建築環境",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "以本地季節問卷校核 PET 或 UTCI 分級。",
+    "同時收集氣象、服裝和活動資料。"
+  ],
+  "applies_when_zh": "適用於公共空間熱舒適調查和指標校準。",
+  "not_applicable_when_zh": "不適用於把單一問卷結果視為普遍生理閾值。",
+  "debates_zh": "適應性可提高舒適評估的在地性，但量表和受訪者選擇也帶來偏差。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "SPAGNOLO2003",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "BRAGER1998",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "適應性戶外熱舒適",
+  "region": "Sydney, Australia；跨地域建築環境",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "室外熱舒適指標"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": null,
+      "topic": "室外熱舒適指標"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0"
+}

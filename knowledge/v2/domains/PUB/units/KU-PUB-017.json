@@ -1,0 +1,74 @@
+{
+  "id": "KU-PUB-017",
+  "domain": "PUB",
+  "subtopic": "座位與停留",
+  "type": "value_range",
+  "title_zh": "親密至社交的距離帶",
+  "title_en": "Interpersonal distance zones",
+  "summary_zh": "Gehl 引用的人際距離傳統把約一點二至三點七公尺描述為一般社交互動帶。這個區間可提醒座位安排需同時支持熟人交談與陌生人並坐。距離帶來自特定學術傳統，不能當作各文化一致的行為界線。群體文化與個人差異可能大於平面上量出的距離。",
+  "key_points_zh": [
+    "Gehl（2010）引用 Hall（1966）的人際距離：社交距離約 1.2–3.7 m（4–12 英尺）",
+    "這個區間可提醒座位安排需同時支持熟人交談與陌生人並坐"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "Gehl（2010）引用 Hall（1966）的人際距離：社交距離約 1.2–3.7 m（4–12 英尺）。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "美國",
+        "library_id": "GEHL10",
+        "locator": null,
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+        "limitations_zh": "群體文化與個人差異可能大於平面上量出的距離。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "讓座位組合可面對、並排或彼此錯開，並給個人保留調整位置的餘地。"
+  ],
+  "applies_when_zh": "適用於設計可獨坐亦可交談的座位配置。",
+  "not_applicable_when_zh": "不應據此預設人際接觸、族群交往或安全感。",
+  "debates_zh": "群體文化與個人差異可能大於平面上量出的距離。",
+  "sources": [
+    {
+      "library_id": "GEHL10",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "KACZYNSKI08",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "SUGIYAMA10",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "公園使用與健康地理",
+  "region": "美國",
+  "curriculum_refs": [
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "座位與停留"
+    }
+  ],
+  "version": "2.0.0",
+  "values": [
+    {
+      "name": "親密至社交的距離帶",
+      "range": "約 1.2–3.7 m",
+      "unit": "公尺",
+      "context": "Gehl 所引用的人際互動尺度；用於觀察座位關係，不作社交行為規範。；「親密至社交的距離帶」僅供其研究脈絡內比較，不構成本基地法規；來源所列地域：丹麥、跨地域。",
+      "library_id": "GEHL10"
+    }
+  ],
+  "related_unit_ids": [
+    "KU-PUB-018"
+  ]
+}

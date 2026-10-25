@@ -1,0 +1,43 @@
+{
+  "id": "VANVLIET2015",
+  "title": "Adapting to Climate Change in Urban Water Management: Flood Management in the Rotterdam–Rijnmond Area",
+  "authors": [
+    "M. van Vliet",
+    "J. C. J. H. Aerts"
+  ],
+  "year": 2015,
+  "venue_or_publisher": "Global Issues in Water Policy",
+  "doi": "https://doi.org/10.1007/978-94-017-9801-3_25",
+  "isbn": "9789401798006",
+  "openalex_id": null,
+  "kind": "ACADEMIC_CHAPTER_OR_PROCEEDINGS",
+  "tradition": "河口與都市洪水調適",
+  "region": "荷蘭 Rotterdam–Rijnmond 區域",
+  "method": "區域洪水管理案例章節",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "題名確認討論 Rotterdam–Rijnmond 區域的氣候調適與洪水管理；書目紀錄不足以指定某座公共空間的儲水量。",
+      "strength": "THEORETICAL",
+      "scope_zh": "只支持此研究明確的議題、樣本地區與方法；不直接生成 M4H 數值、法規或工程容量。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref",
+    "query": {
+      "title": "Adapting to Climate Change in Urban Water Management: Flood Management in the Rotterdam–Rijnmond Area",
+      "author": "M. van Vliet",
+      "year": 2015,
+      "api_query": "Rotterdam Benthemplein water square urban design stormwater flood climate adaptation"
+    },
+    "matched_record_id": "10.1007/978-94-017-9801-3_25",
+    "checked_at_utc": "2026-10-08T10:15:04Z",
+    "match_notes_zh": "以 Crossref 公開書目記錄比對書名、作者與年份；摘要文字未保存到 repository。"
+  },
+  "limitations_zh": "只保留書目與自行撰寫的範圍摘要；除標示 ABSTRACT_REVIEW 者外，內容未由摘要核對，沒有下載全文。",
+  "critique_relationship_zh": "本記錄不宣稱與其他書目存在直接互引或逐一反駁關係。",
+  "metadata_licence_zh": "公開 API 書目欄位；精確 metadata licence 未核驗，標 UNKNOWN。"
+}

@@ -1,0 +1,122 @@
+{
+  "id": "KU-HOU-020",
+  "domain": "HOU",
+  "subtopic": "混合產權",
+  "type": "design_principle",
+  "title_zh": "混合產權｜設計原則",
+  "title_en": "Mixed tenure — Design principle",
+  "summary_zh": "Suttor 記錄的是加拿大特定時期的社會住宅供給和收入計租安排，數值不能移植到其他國家。 權屬多樣性只說明住房由誰持有或管理，不能代替租金可負擔性、住戶流動或鄰里關係的成效。 方案應把這些結果分項追蹤。",
+  "key_points_zh": [
+    "讀「混合產權｜設計原則」時，繪出產權與管理空間，不只統計住宅單元類型；同時把社會住宅約占該時期住宅生產一成；以收入計租使近四成低收入租戶租金低於市場四成，並與其部分居住流動相關列為核對條件。",
+    "讀「混合產權｜設計原則」時，繪出產權與管理空間，不只統計住宅單元類型；同時把社會住宅約占該時期住宅生產一成；以收入計租使近四成低收入租戶租金低於市場四成，並與其部分居住流動相關列為核對條件。",
+    "限制：不把產權多樣性當作社會融合成效的替代量。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "Suttor 記錄加拿大社會住宅政策的歷史供給及收入計租制度；文中比例只適用於其時期和地區，不能外推成荷蘭或本基地配比。",
+        "library_id": "SUTTOR2014",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "加拿大安大略與多倫多",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW",
+        "limitations_zh": "本條依公開摘要或書目範圍整理；未據此推定本基地法規、普遍效果或未核對的數值。"
+      },
+      {
+        "claim_zh": "Kearns 與 Mason 以混合權屬社區和鄰里品質為研究題目；它支持把住房權屬和社區環境分開檢驗，不預設混合政策的成效。",
+        "library_id": "KEARNSMASON2007",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "英國",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "本條依公開摘要或書目範圍整理；未據此推定本基地法規、普遍效果或未核對的數值。"
+      },
+      {
+        "claim_zh": "Leviten-Reid 與 Matthew 將住宅權屬和鄰里社會資本放進同一研究問題；本單元可把社會關係另作觀察結果，而不以產權比例代替。",
+        "library_id": "LEVITENREID2018",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "加拿大",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "本條依公開摘要或書目範圍整理；未據此推定本基地法規、普遍效果或未核對的數值。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "落實「混合產權｜設計原則」時可先繪出產權與管理空間，不只統計住宅單元類型，再用社會住宅約占該時期住宅生產一成；以收入計租使近四成低收入租戶租金低於市場四成，並與其部分居住流動相關核對方案的空間後果。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "在「混合產權｜設計原則」的來源情境裡，繪出產權與管理空間，不只統計住宅單元類型；落到設計時還要按社會住宅約占該時期住宅生產一成；以收入計租使近四成低收入租戶租金低於市場四成，並與其部分居住流動相關調整。",
+      "tradeoff_zh": "此選項把「混合產權｜設計原則」的工作放在社會住宅約占該時期住宅生產一成；以收入計租使近四成低收入租戶租金低於市場四成，並與其部分居住流動相關上；需要承擔的協調或維護代價則由「社會混合政策可能以空間混合掩蓋不平等的權利和資源」界定。",
+      "library_ids": [
+        "SUTTOR2014"
+      ]
+    },
+    {
+      "option_zh": "「混合產權｜設計原則」可把取向落在社會租屋、合作住宅、自有住宅和私人租屋可在同街區並存，但需連同社會住宅約占該時期住宅生產一成；以收入計租使近四成低收入租戶租金低於市場四成，並與其部分居住流動相關決定適用方式。",
+      "tradeoff_zh": "此選項把「混合產權｜設計原則」的工作放在社會住宅約占該時期住宅生產一成；以收入計租使近四成低收入租戶租金低於市場四成，並與其部分居住流動相關上；需要承擔的協調或維護代價則由「社會混合政策可能以空間混合掩蓋不平等的權利和資源」界定。",
+      "library_ids": [
+        "SUTTOR2014"
+      ]
+    }
+  ],
+  "applies_when_zh": "「混合產權｜設計原則」可在適用於社會住宅更新、混合社區和集體住宅規劃時使用，前提是社會住宅約占該時期住宅生產一成；以收入計租使近四成低收入租戶租金低於市場四成，並與其部分居住流動相關與來源情境相符。",
+  "not_applicable_when_zh": "若社會住宅約占該時期住宅生產一成；以收入計租使近四成低收入租戶租金低於市場四成，並與其部分居住流動相關不成立，就不能把「混合產權｜設計原則」的結論延伸到其他情況；不把產權多樣性當作社會融合成效的替代量。",
+  "debates_zh": "社會混合政策可能以空間混合掩蓋不平等的權利和資源。",
+  "sources": [
+    {
+      "library_id": "SUTTOR2014",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "KEARNSMASON2007",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "LEVITENREID2018",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "加拿大社會住宅與城市空間；都市分配正義",
+  "region": "加拿大安大略與多倫多，1965–1995；美國",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "混合產權"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "混合產權"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "混合產權"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "混合產權"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-HOU-018",
+    "KU-HOU-019",
+    "KU-HOU-021"
+  ],
+  "counter_unit_ids": [
+    "KU-HOU-022"
+  ]
+}

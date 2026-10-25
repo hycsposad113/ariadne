@@ -1,0 +1,42 @@
+{
+  "id": "DADAYAN2023QUAYSIDE",
+  "title": "City of Surveillance? The Implications of Sidewalk Labs’ Resolution to Build a Smart City in Toronto",
+  "authors": [
+    "Patil Dadayan"
+  ],
+  "year": 2023,
+  "venue_or_publisher": "Ryerson University research record",
+  "doi": "https://doi.org/10.32920/ryerson.14649846",
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "多倫多智慧城市提案與資料監控議題",
+  "region": "加拿大多倫多",
+  "method": "Crossref 書目資料確認題目、作者、年份及 DOI；本輪未核讀摘要或全文。",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "Crossref 將該條目記為 posted-content；題名討論 Sidewalk Labs Toronto 提案與監控含意。本輪未核讀摘要或全文。",
+      "strength": "CASE_EVIDENCE",
+      "scope_zh": "只支持可從 Crossref 書目核對的作者、年份、題目和出版資訊；不據此複述未核讀研究結果。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref REST API",
+    "query": {
+      "title": "City of Surveillance? The Implications of Sidewalk Labs’ Resolution to Build a Smart City in Toronto",
+      "author": "Patil Dadayan",
+      "year": 2023,
+      "api_query": "Crossref GET /works/10.32920/ryerson.14649846"
+    },
+    "matched_record_id": "10.32920/ryerson.14649846",
+    "checked_at_utc": "2026-10-08T14:45:27Z",
+    "match_notes_zh": "內容先起草後以Crossref REST API精確DOI回應核對題名、作者與年份；未保存API摘要。"
+  },
+  "limitations_zh": "書目範圍確認不等於研究設計、數值、摘要或全文結果已核查。",
+  "critique_relationship_zh": "本記錄不宣稱與其他來源存在直接互引或逐一反駁關係。",
+  "metadata_licence_zh": "Crossref公開書目欄位；精確metadata授權未核驗，標UNKNOWN。"
+}

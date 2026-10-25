@@ -1,0 +1,81 @@
+{
+  "id": "KU-SYN-001",
+  "domain": "SYN",
+  "subtopic": "軸線／線段分析",
+  "type": "empirical_finding",
+  "title_zh": "街網表示方式影響行人效果量",
+  "title_en": "Representation affects pedestrian effect sizes",
+  "summary_zh": "1975–2016 空間語法—行人移動研究的隨機效果統合分析，研究脈絡為跨地區研究文獻；摘要未列出各國完整分布。同一街網採不同圖表示會得到不同關聯。整合度與選擇度在角度表示下的效果量高於部分拓樸表示；連通度和控制值不顯著。限制包括研究間效果高度異質，研究設計差異可能影響結果。",
+  "key_points_zh": [
+    "同一街網採不同圖表示會得到不同關聯",
+    "限制：研究間效果高度異質，研究設計差異可能影響結果",
+    "效果或方向：整合度與選擇度在角度表示下的效果量高於部分拓樸表示；連通度和控制值不顯著"
+  ],
+  "evidence": {
+    "strength": "STRONG_EMPIRICAL",
+    "findings": [
+      {
+        "claim_zh": "街網表示方式影響行人效果量｜同一街網採不同圖表示會得到不同關聯",
+        "effect_or_value": "整合度與選擇度在角度表示下的效果量高於部分拓樸表示；連通度和控制值不顯著",
+        "study_design": "1975–2016 空間語法—行人移動研究的隨機效果統合分析",
+        "context_region": "跨地區研究文獻；摘要未列出各國完整分布",
+        "library_id": "SHARMIN17",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "街網表示方式影響行人效果量｜空間網路同時受連接與幾何成本影響，應保留圖表示與尺度的敏感性比較",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "BARTHELEMY11",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "固定線段生成規則並將替代表示結果一起保存"
+  ],
+  "applies_when_zh": "若本地觀察單位與跨地區研究文獻；摘要未列出各國完整分布的研究脈絡可對照，可用「同一街網採不同圖表示會得到不同關聯」作為軸線／線段分析的比較線索。",
+  "not_applicable_when_zh": "這項跨地區研究文獻；摘要未列出各國完整分布的研究結果不能單獨證明因果或預測其他城市的街段；原研究研究間效果高度異質，研究設計差異可能影響結果。",
+  "debates_zh": "關聯能否外推；研究間效果高度異質，研究設計差異可能影響結果；檢視「街網表示方式影響行人效果量」的研究解讀時，還需判斷「限制：研究間效果高度異質，研究設計差異可能影響結果」會如何改變方案結論。",
+  "sources": [
+    {
+      "library_id": "SHARMIN17",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "BARTHELEMY11",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "空間語法與網路表示",
+  "region": "跨地區研究文獻；摘要未列出各國完整分布",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Methods of Analysis & Imagination",
+      "topic": "軸線／線段分析：課綱對應主題"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Cities by Design",
+      "topic": "軸線／線段分析：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-SYN-002",
+    "KU-SYN-003",
+    "KU-SYN-004",
+    "KU-SYN-005",
+    "KU-SYN-006",
+    "KU-SYN-007",
+    "KU-SYN-008"
+  ]
+}

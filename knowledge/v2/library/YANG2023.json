@@ -1,0 +1,43 @@
+{
+  "id": "YANG2023",
+  "title": "“Art district without artists”: urban redevelopment through industrial heritage renovation and the gentrification of industrial neighborhoods in China",
+  "authors": [
+    "Chen Yang",
+    "Zhu Qian"
+  ],
+  "year": 2023,
+  "venue_or_publisher": "Urban Geography",
+  "doi": "https://doi.org/10.1080/02723638.2023.2246846",
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "工業遺產再生與仕紳化",
+  "region": "中國工業社區",
+  "method": "工業街區更新個案研究",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "題名直接提出工業遺產翻修、藝術區發展與工業街區仕紳化的關聯問題；個案結果和因果方向仍需摘要／全文核驗。",
+      "strength": "THEORETICAL",
+      "scope_zh": "只支持此研究明確的議題、樣本地區與方法；不直接生成 M4H 數值、法規或工程容量。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref",
+    "query": {
+      "title": "“Art district without artists”: urban redevelopment through industrial heritage renovation and the gentrification of industrial neighborhoods in China",
+      "author": "Chen Yang",
+      "year": 2023,
+      "api_query": "industrial heritage adaptive reuse brownfield redevelopment urban regeneration port district"
+    },
+    "matched_record_id": "10.1080/02723638.2023.2246846",
+    "checked_at_utc": "2026-10-08T10:12:20Z",
+    "match_notes_zh": "以 Crossref 公開書目記錄比對書名、作者與年份；摘要文字未保存到 repository。"
+  },
+  "limitations_zh": "只保留書目與自行撰寫的範圍摘要；除標示 ABSTRACT_REVIEW 者外，內容未由摘要核對，沒有下載全文。",
+  "critique_relationship_zh": "本記錄不宣稱與其他書目存在直接互引或逐一反駁關係。",
+  "metadata_licence_zh": "公開 API 書目欄位；精確 metadata licence 未核驗，標 UNKNOWN。"
+}

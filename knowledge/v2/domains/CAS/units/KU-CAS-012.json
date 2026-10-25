@@ -1,0 +1,96 @@
+{
+  "id": "KU-CAS-012",
+  "domain": "CAS",
+  "subtopic": "港區轉型案例",
+  "type": "case",
+  "title_zh": "Katendrecht：舊港區、社區聲景與持續加密",
+  "title_en": "Katendrecht: Port Conversion, Community Soundscapes, and Ongoing Intensification",
+  "summary_zh": "鹿特丹 Katendrecht 的變化跨越早期港口與航運用途、舊區生活、文化設施再利用和近年的住宅加密。市府目前仍把部分區域列為施工中的開發地，並公布未來增建住宅的目標；這些規劃量不可寫成已入住戶數。Baptist 的研究把公共空間聲景與社區經驗列為研究主題，但目前只能確認研究場域與題旨，不能據此聲稱已證明某種更新效果。",
+  "key_points_zh": [
+    "把已建成的 Santos 攝影博物館、規劃中的舞蹈中心及未來住宅分開標示時間狀態。",
+    "聲景研究可提示公共空間的日常感知議題，但本條目沒有保存其參與者結果或效果量。"
+  ],
+  "evidence": {
+    "strength": "CASE_EVIDENCE",
+    "findings": [
+      {
+        "claim_zh": "Baptist 的論文以 Katendrecht 公共空間為研究場域，題旨聚焦聲音、參與式研究與社區經驗；具體研究結果尚未在此條目核對。",
+        "effect_or_value": "研究題旨與場域；結果未核",
+        "study_design": "參與式個案研究（依書目題名）",
+        "context_region": "荷蘭鹿特丹 Katendrecht",
+        "library_id": "BAPTIST2026",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "鹿特丹市資料稱此區近年持續由港區轉入城市街區，Pols van Katendrecht 等地仍有新住宅與設施規劃，公布的住宅數屬目標量。",
+        "effect_or_value": "官方在建與規劃資訊；非完工統計",
+        "study_design": "市府專案頁",
+        "context_region": "荷蘭鹿特丹 Katendrecht",
+        "library_id": "ROTTERDAM_KATENDRECHT2026",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "在街道與濱水空間設計中記錄不同時段的聲源、活動者與安靜需求，不只用視覺景觀衡量公共生活。",
+    "住宅增量要與既有公共設施容量、工作場所留存及居民參與安排一併追蹤。"
+  ],
+  "applies_when_zh": "舊港口社區在住宅加密、文化用途與原有居民生活並存的更新階段。",
+  "not_applicable_when_zh": "住宅開發已完成且研究問題不涉及社區感知、公共空間或港區文化延續時。",
+  "debates_zh": "文化設施與新住宅讓 Katendrecht 成為城市中心擴展的一部分，但城市行銷所稱的「時髦」也可能隱去土地價格、原工作空間消失及不同居民使用公共空間的差異。官方住宅目標仍需和實際交付及可負擔性資料對照。",
+  "sources": [
+    {
+      "library_id": "BAPTIST2026",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "ROTTERDAM_KATENDRECHT2026",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "港區社區轉型與參與式公共空間研究",
+  "region": "西歐／荷蘭鹿特丹",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": null,
+      "topic": "港城介面與分期發展"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": null,
+      "topic": "社區公共生活與城市轉型"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": null,
+      "topic": "更新、地方認同與仕紳化批判"
+    }
+  ],
+  "case": {
+    "location": "鹿特丹 Katendrecht，荷蘭",
+    "period": "2000 年代起港區轉型；目前仍有分期建設",
+    "area_ha": null,
+    "fsi": null,
+    "gsi": null,
+    "program_mix": "住宅、學校、商店、旅宿、餐飲、社區服務、文化與濱水公共空間；官方未提供全區用途比例。",
+    "key_strategies_zh": [
+      "把既有港區街區逐步納入鹿特丹中心區發展，分期加建住房與社區設施。",
+      "將舊倉庫和港口建築轉作文化用途，並在公共空間研究中納入聲音經驗。"
+    ],
+    "outcomes_zh": [
+      "Santos 舊倉庫已作為荷蘭攝影博物館使用；市府另列出仍在推進的住宅與文化設施項目。",
+      "Baptist 的研究聚焦社區公共空間經驗，但目前書目來源不足以支持研究結果或代表性判斷。"
+    ],
+    "critiques_zh": [
+      "市府列出的新增戶數涵蓋規劃中的開發，不能當作已交付住房或居民增長的觀測值。",
+      "尚缺可追蹤的租金、原有居民留存、港區工作空間與文化使用者資料。"
+    ]
+  },
+  "version": "v2.0"
+}

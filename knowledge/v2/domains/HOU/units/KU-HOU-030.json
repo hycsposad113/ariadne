@@ -1,0 +1,103 @@
+{
+  "id": "KU-HOU-030",
+  "domain": "HOU",
+  "subtopic": "可負擔性",
+  "type": "critique",
+  "title_zh": "可負擔性｜批評與反例",
+  "title_en": "Affordability — Critique and counterexample",
+  "summary_zh": "住房可負擔性若只看租金或房價比例，可能忽略通勤、能源與服務取得造成的家庭總負擔。 跨英格蘭、義大利、波蘭與荷蘭的政策材料指出，較便宜的住宅若遠離工作或日常服務，節省的住房費可能被交通成本抵銷。 荷蘭住宅市場中混合街區的價格估值關聯不是健康或公平的替代量，評估應分列住房支出、交通時間和住戶收入。",
+  "key_points_zh": [
+    "讀「可負擔性｜批評與反例」時，較便宜的住宅若遠離工作或缺乏服務，總負擔未必較低；同時把住房可負擔性若只看租金或房價比例，可能忽略通勤、能源與服務取得造成的家庭總負擔列為核對條件。",
+    "讀「可負擔性｜批評與反例」時，適用於住房政策、住宅選址和低收入住戶影響評估；同時把住房可負擔性若只看租金或房價比例，可能忽略通勤、能源與服務取得造成的家庭總負擔列為核對條件。",
+    "讀「可負擔性｜批評與反例」時，限制：本庫不設定普遍可負擔比例，也不作特定基地市場估值；同時把住房可負擔性若只看租金或房價比例，可能忽略通勤、能源與服務取得造成的家庭總負擔列為核對條件。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "Czischke 比較英格蘭、義大利、波蘭與荷蘭的可負擔住宅政策，指出該政策領域的定義仍不穩定，且與社會住宅的邊界各地不同。",
+        "library_id": "CZISCHKE2018",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "英格蘭、義大利、波蘭與荷蘭",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "Mattingly 與 Morrissey 用奧克蘭分區資料合看住房及交通開支，指出僅用住房成本與所得會忽略居住位置推高的通勤負擔。",
+        "effect_or_value": null,
+        "study_design": "住宅與交通開支的分區量化分析",
+        "context_region": "紐西蘭奧克蘭",
+        "library_id": "MATTINGLY2014",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW",
+        "limitations_zh": "奧克蘭的支出指標不等於英格蘭、義大利或荷蘭的住宅制度比較。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "可負擔性評估分列租金收入比、交通支出和維護成本，再比較補助與社會供給對不同住戶的作用。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "可負擔性評估分列租金收入比、交通支出和維護成本，再比較補助與社會供給對不同住戶的作用。",
+      "tradeoff_zh": "「可負擔性｜批評與反例」採用「可負擔性評估分列租金收入比、交通支出和維護成本，再比較補助與社會供給對不同住戶的作用」時，得失要沿著住房可負擔性若只看租金或房價比例，可能忽略通勤、能源與服務取得造成的家庭總負擔檢查；「可負擔性｜批評與反例」的爭議不只在於本庫不設定普遍可負擔比例，也不作特定基地市場估值；還要檢視住房可負擔性若只看租金或房價比例，可能忽略通勤、能源與服務取得造成的家庭總負擔會讓哪些使用者承擔不同後果。",
+      "library_ids": [
+        "CZISCHKE2018"
+      ]
+    },
+    {
+      "option_zh": "「可負擔性｜批評與反例」可把取向落在直接補助、社會住宅和市場供給介入各自影響不同住戶，但需連同住房可負擔性若只看租金或房價比例，可能忽略通勤、能源與服務取得造成的家庭總負擔決定適用方式。",
+      "tradeoff_zh": "「可負擔性｜批評與反例」的主要代價不是抽象的建造成本，而是「可負擔性｜批評與反例」的爭議不只在於本庫不設定普遍可負擔比例，也不作特定基地市場估值；還要檢視住房可負擔性若只看租金或房價比例，可能忽略通勤、能源與服務取得造成的家庭總負擔會讓哪些使用者承擔不同後果；因此先以住房可負擔性若只看租金或房價比例，可能忽略通勤、能源與服務取得造成的家庭總負擔作方案比較條件。",
+      "library_ids": [
+        "CZISCHKE2018"
+      ]
+    }
+  ],
+  "applies_when_zh": "「可負擔性｜批評與反例」可在適用於住房政策、住宅選址和低收入住戶影響評估時使用，前提是住房可負擔性若只看租金或房價比例，可能忽略通勤、能源與服務取得造成的家庭總負擔與來源情境相符。",
+  "not_applicable_when_zh": "若住房可負擔性若只看租金或房價比例，可能忽略通勤、能源與服務取得造成的家庭總負擔不成立，就不能把「可負擔性｜批評與反例」的結論延伸到其他情況；本庫不設定普遍可負擔比例，也不作特定基地市場估值。",
+  "debates_zh": "「可負擔性｜批評與反例」的爭議不只在於本庫不設定普遍可負擔比例，也不作特定基地市場估值；還要檢視住房可負擔性若只看租金或房價比例，可能忽略通勤、能源與服務取得造成的家庭總負擔會讓哪些使用者承擔不同後果。",
+  "sources": [
+    {
+      "library_id": "CZISCHKE2018",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "MATTINGLY2014",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "歐洲可負擔住宅政策；土地經濟與用途混合",
+  "region": "英格蘭、義大利、波蘭與荷蘭；荷蘭住宅市場",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "可負擔性"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "可負擔性"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "可負擔性"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "可負擔性"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-HOU-026",
+    "KU-HOU-027",
+    "KU-HOU-028"
+  ]
+}

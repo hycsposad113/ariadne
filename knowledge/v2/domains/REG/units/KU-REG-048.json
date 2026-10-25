@@ -1,0 +1,95 @@
+{
+  "id": "KU-REG-048",
+  "domain": "REG",
+  "subtopic": "新加坡用途與容積治理",
+  "type": "empirical_finding",
+  "title_zh": "土地拍賣結果受競標人數與土地屬性影響",
+  "title_en": "Singapore land auction prices",
+  "summary_zh": "競標市場結果不能代表市民獲益或法定容積獎勵效果。 將開發獎勵的財政誘因與空間形式結果分列。 研究設計：土地拍賣競價模型及實證估計；地區：新加坡。 限制：競標市場結果不能代表市民獲益或法定容積獎勵效果。",
+  "key_points_zh": [
+    "新加坡拍賣資料支持競標人數增加會提高預期成交價，土地屬性也反映在競標價格。",
+    "研究設計：土地拍賣競價模型及實證估計；地區：新加坡",
+    "限制：競標市場結果不能代表市民獲益或法定容積獎勵效果。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "新加坡拍賣資料支持競標人數增加會提高預期成交價，土地屬性也反映在競標價格。",
+        "effect_or_value": "競標者越多，預期成交價格越高",
+        "study_design": "土地拍賣競價模型及實證估計",
+        "context_region": "新加坡",
+        "library_id": "OOI2006",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "將開發獎勵的財政誘因與空間形式結果分列。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "將開發獎勵的財政誘因與空間形式結果分列。",
+      "tradeoff_zh": "「土地拍賣結果受競標人數與土地屬性影響」的主要代價不是抽象的建造成本，而是競標市場結果不能代表市民獲益或法定容積獎勵效果；因此先以新加坡拍賣資料支持競標人數增加會提高預期成交價，土地屬性也反映在競標價格作方案比較條件。",
+      "library_ids": [
+        "OOI2006",
+        "HIRT2010"
+      ]
+    },
+    {
+      "option_zh": "「土地拍賣結果受競標人數與土地屬性影響」可把取向落在語意化分區資料協助查詢，土地拍賣資料用於理解競價，但需連同新加坡拍賣資料支持競標人數增加會提高預期成交價，土地屬性也反映在競標價格決定適用方式。",
+      "tradeoff_zh": "「土地拍賣結果受競標人數與土地屬性影響」的主要代價不是抽象的建造成本，而是競標市場結果不能代表市民獲益或法定容積獎勵效果；因此先以新加坡拍賣資料支持競標人數增加會提高預期成交價，土地屬性也反映在競標價格作方案比較條件。",
+      "library_ids": [
+        "OOI2006",
+        "HIRT2010"
+      ]
+    }
+  ],
+  "applies_when_zh": "用於與新加坡研究情境可比、且量測定義相近的分析。",
+  "not_applicable_when_zh": "競標市場結果不能代表市民獲益或法定容積獎勵效果。",
+  "debates_zh": "競標市場結果不能代表市民獲益或法定容積獎勵效果。",
+  "sources": [
+    {
+      "library_id": "OOI2006",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "HIRT2010",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "新加坡土地拍賣與開發競爭；比較土地使用管制",
+  "region": "新加坡；德國斯圖加特與美國",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Planning Complex Cities",
+      "topic": "新加坡用途與容積治理"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Urban Design Contexts and Operations",
+      "topic": "新加坡用途與容積治理"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "新加坡用途與容積治理"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban design governance",
+      "topic": "新加坡用途與容積治理"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-REG-043",
+    "KU-REG-044",
+    "KU-REG-045"
+  ]
+}

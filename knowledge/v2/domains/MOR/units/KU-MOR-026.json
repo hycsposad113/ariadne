@@ -1,0 +1,106 @@
+{
+  "id": "KU-MOR-026",
+  "domain": "MOR",
+  "subtopic": "Spacematrix：FSI、GSI、OSR、L",
+  "type": "method",
+  "title_zh": "Spacematrix：FSI、GSI、OSR、L｜分析方法",
+  "title_en": "Spacematrix metrics — Analytical method",
+  "summary_zh": "Spacematrix 並列 FSI、GSI、OSR 與平均層數，用不同指標描述樓地板量、建築覆蓋、開放空間和垂直堆疊。 相近的 FSI 可能由不同覆蓋和高度組合形成，因而呈現不同街廓空間。 跨方案比較須統一基地分母、開放空間邊界與地下層計入方式。",
+  "key_points_zh": [
+    "固定街廓、基地與公共空間的分母，並做分區和整體兩套統計。",
+    "固定街廓、基地與公共空間的分母，並做分區和整體兩套統計。",
+    "限制：未明確建築、開放空間和地下空間計入方式時不可橫向比較。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "Dovey 與 Pafka 將密度視為多種量測及空間關係的組合；FSI 不能單獨代替覆蓋、開放空間或活動強度。",
+        "library_id": "DOVEY14",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "澳洲",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "荷蘭案例的 GIS 方法把 Spacematrix 與路網及混合用途指標並列，與本單元以 FSI、GSI、OSR 和層數共同描述空間的做法相符。",
+        "effect_or_value": null,
+        "study_design": "都市形態多指標 GIS 框架",
+        "context_region": "荷蘭新舊城案例",
+        "library_id": "YE14",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "該來源不驗證本單元自行設定的密度分級或分母口徑。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "同時報告 FSI、GSI、OSR、平均層數和計算邊界，並以一致的基地分母比較區段與整體；說明地下空間如何處理。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "「Spacematrix：FSI、GSI、OSR、L｜分析方法」可把取向落在同時呈現 FSI、GSI、OSR、層數及計算範圍，但需連同密度是多種量測與空間關係的組合；單一 FAR 不能代表公共空間或活動強度；「Spacematrix：FSI、GSI、OSR、L｜分析方法」還須對照固定街廓、基地與公共空間的分母，並做分區和整體兩套統計，才能把研究發現轉成有邊界的設計判斷決定適用方式。",
+      "tradeoff_zh": "「Spacematrix：FSI、GSI、OSR、L｜分析方法」採用「「Spacematrix：FSI、GSI、OSR、L｜分析方法」可把取向落在同時呈現 FSI、GSI、OSR、層數及計算範圍，但需連同密度是多種量測與空間關係的組合；單一 FAR 不能代表公共空間或活動強度；「Spacematrix：FSI、GSI、OSR、L｜分析方法」還須對照固定街廓、基地與公共空間的分母，並做分區和整體兩套統計，才能把研究發現轉成有邊界的設計判斷決定適用方式」時，得失要沿著密度是多種量測與空間關係的組合；單一 FAR 不能代表公共空間或活動強度；「Spacematrix：FSI、GSI、OSR、L｜分析方法」還須對照固定街廓、基地與公共空間的分母，並做分區和整體兩套統計，才能把研究發現轉成有邊界的設計判斷檢查；指標易受分母、用途計入和街區邊界影響；數字相同不等於形式相同。",
+      "library_ids": [
+        "DOVEY14"
+      ]
+    },
+    {
+      "option_zh": "在「Spacematrix：FSI、GSI、OSR、L｜分析方法」的來源情境裡，相近 FSI 可以由低矮高覆蓋或高樓低覆蓋組成，街道體驗並不相同；落到設計時還要按密度是多種量測與空間關係的組合；單一 FAR 不能代表公共空間或活動強度；「Spacematrix：FSI、GSI、OSR、L｜分析方法」還須對照固定街廓、基地與公共空間的分母，並做分區和整體兩套統計，才能把研究發現轉成有邊界的設計判斷調整。",
+      "tradeoff_zh": "「Spacematrix：FSI、GSI、OSR、L｜分析方法」的主要代價不是抽象的建造成本，而是指標易受分母、用途計入和街區邊界影響；數字相同不等於形式相同；因此先以密度是多種量測與空間關係的組合；單一 FAR 不能代表公共空間或活動強度；「Spacematrix：FSI、GSI、OSR、L｜分析方法」還須對照固定街廓、基地與公共空間的分母，並做分區和整體兩套統計，才能把研究發現轉成有邊界的設計判斷作方案比較條件。",
+      "library_ids": [
+        "DOVEY14"
+      ]
+    }
+  ],
+  "applies_when_zh": "「Spacematrix：FSI、GSI、OSR、L｜分析方法」可在適用於比較住宅街區、更新區和形態情境時使用，前提是密度是多種量測與空間關係的組合；單一 FAR 不能代表公共空間或活動強度；「Spacematrix：FSI、GSI、OSR、L｜分析方法」還須對照固定街廓、基地與公共空間的分母，並做分區和整體兩套統計，才能把研究發現轉成有邊界的設計判斷與來源情境相符。",
+  "not_applicable_when_zh": "若密度是多種量測與空間關係的組合；單一 FAR 不能代表公共空間或活動強度；「Spacematrix：FSI、GSI、OSR、L｜分析方法」還須對照固定街廓、基地與公共空間的分母，並做分區和整體兩套統計，才能把研究發現轉成有邊界的設計判斷不成立，就不能把「Spacematrix：FSI、GSI、OSR、L｜分析方法」的結論延伸到其他情況；未明確建築、開放空間和地下空間計入方式時不可橫向比較。",
+  "debates_zh": "指標易受分母、用途計入和街區邊界影響；數字相同不等於形式相同。",
+  "sources": [
+    {
+      "library_id": "DOVEY14",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "YE14",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "組裝形態學；英國城鎮平面學",
+  "region": "澳洲；英國",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "Spacematrix：FSI、GSI、OSR、L"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "Spacematrix：FSI、GSI、OSR、L"
+    },
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.330J Theory of City Form",
+      "topic": "Spacematrix：FSI、GSI、OSR、L"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban form and density",
+      "topic": "Spacematrix：FSI、GSI、OSR、L"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-MOR-023",
+    "KU-MOR-024",
+    "KU-MOR-025"
+  ],
+  "counter_unit_ids": [
+    "KU-MOR-027"
+  ]
+}

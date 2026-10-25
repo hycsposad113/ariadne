@@ -1,0 +1,27 @@
+{
+  "id": "WASSENBERG2013",
+  "title": "Large Housing Estates: Ideas, Rise, Fall and Recovery",
+  "authors": [
+    "Frank Wassenberg"
+  ],
+  "year": 2013,
+  "kind": "ACADEMIC_BOOK",
+  "claims": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Open Library",
+    "query": {
+      "title": "Large Housing Estates Ideas Rise Fall and Recovery",
+      "author": "Frank Wassenberg",
+      "year": 2013
+    },
+    "matched_record_id": "10.3233/978-1-61499-232-5-i",
+    "checked_at_utc": "2026-10-08T13:46:19Z",
+    "match_notes_zh": "人工核對 Crossref 題名、作者與出版年；作者姓名順序正規化。書目確認不代表篇章主張確認。",
+    "receipt_path": "artifacts/kb2-theory-v3/resume-final-lookups.json"
+  },
+  "limitations_zh": "不以書目命中證明主張；主張待原著交叉核對。",
+  "metadata_licence_zh": "Metadata only; licence UNKNOWN",
+  "doi": "10.3233/978-1-61499-232-5-i",
+  "venue_or_publisher": "IOS Press"
+}

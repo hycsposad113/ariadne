@@ -1,0 +1,69 @@
+{
+  "id": "KU-ECO-051",
+  "domain": "ECO",
+  "subtopic": "生態服務",
+  "type": "value_range",
+  "title_zh": "都市植物與鳥類的全球比較比例",
+  "title_en": "Global urban biodiversity reference",
+  "summary_zh": "全球研究估計都市內本地植物密度約為非都市參照四分之一，鳥類約為十二分之一。兩類群資料集規模不同，比例用於呈現生態壓力而非服務效益。城市類型及本地棲地差異很大。生態服務指標容易弱化物種自身的保育價值。",
+  "key_points_zh": [
+    "全球研究估計都市內本地植物密度約為非都市參照四分之一，鳥類約為十二分之一",
+    "兩類群資料集規模不同，比例用於呈現生態壓力而非服務效益"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "全球研究估計都市內本地植物密度約為非都市參照四分之一，鳥類約為十二分之一。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "跨地域",
+        "library_id": "BOWLER10",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "生態服務指標容易弱化物種自身的保育價值。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "將全球基準與本地生態服務調查並列，不混為同一指標。"
+  ],
+  "applies_when_zh": "適用於服務評估的生物多樣性背景。",
+  "not_applicable_when_zh": "不應用這些比例當作城市的建設績效門檻。",
+  "debates_zh": "生態服務指標容易弱化物種自身的保育價值。",
+  "sources": [
+    {
+      "library_id": "BOWLER10",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "THOMPSON02",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "城市綠化與熱環境綜述",
+  "region": "跨地域",
+  "curriculum_refs": [
+    {
+      "school": "MIT",
+      "course": "11.330J Theory of City Form",
+      "topic": "生態服務"
+    }
+  ],
+  "version": "2.0.0",
+  "values": [
+    {
+      "name": "都市植物與鳥類的全球比較比例",
+      "range": "植物約 25%；鳥類約 8%",
+      "unit": "相對非都市估計比例",
+      "context": "全球跨城市本地物種密度估計；不是生態服務目標或法規。；「都市植物與鳥類的全球比較比例」僅供其研究脈絡內比較，不構成本基地法規。",
+      "library_id": "ARONSON14"
+    }
+  ],
+  "related_unit_ids": [
+    "KU-ECO-052"
+  ]
+}

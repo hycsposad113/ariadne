@@ -1,0 +1,47 @@
+{
+  "id": "CERDA2018",
+  "title": "General Theory of Urbanization 1867",
+  "authors": [
+    "Ildefons Cerdà"
+  ],
+  "year": 2018,
+  "venue_or_publisher": "Actar",
+  "doi": null,
+  "isbn": "9781945150906",
+  "openalex_id": null,
+  "kind": "ACADEMIC_BOOK",
+  "tradition": "urbanization theory and Barcelona expansion",
+  "region": [
+    "Spain",
+    "Catalonia"
+  ],
+  "method": "historical and normative urban theory",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "Open Library 將此版本列為 Cerdà 1867 都市化理論的 2018 出版物；街廓、倒角與街道尺度需按原版或可靠研究核對。",
+      "strength": "THEORETICAL",
+      "scope_zh": "此筆作為理論著作的書目定位，不將二手轉述的尺寸當成本基地標準。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [
+    "KOSTOF1991",
+    "MOUDON97"
+  ],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Open Library",
+    "query": {
+      "title": "General Theory of Urbanization 1867",
+      "author": "Ildefons Cerdà",
+      "year": 2018
+    },
+    "matched_record_id": "/works/OL20179559W",
+    "checked_at_utc": "2026-10-08T09:43:36Z",
+    "match_notes_zh": "Open Library 結果匹配書名、責任者與本次版本首版年份；其 1867 是原著年份，2018 是該書目版本年份。"
+  },
+  "limitations_zh": "未下載全文；作品版本及歷史幾何數值仍需獨立版本核對。",
+  "critique_relationship_zh": "形態史來源提供比較閱讀，不表示此書直接回應後來形態學研究。",
+  "metadata_licence_zh": "保存書目欄位與自撰摘要；未保存全文或 API 摘要。"
+}

@@ -1,0 +1,88 @@
+{
+  "id": "KU-STR-077",
+  "domain": "STR",
+  "subtopic": "路網形態（格子、放射、有機）",
+  "type": "concept",
+  "title_zh": "Lynch 的城市意象五元素",
+  "title_en": "Lynch’s five elements of the city image",
+  "summary_zh": "Lynch 將人們閱讀城市環境時常用的空間要素分為五類：路徑、邊界、區域、節點和地標。它們描述城市意象如何形成，不是道路工程分類；同一地點可同時是路徑交會點、地標或區域入口。意象清晰度仍取決於使用者經驗和文化背景。",
+  "key_points_zh": [
+    "五元素為 paths、edges、districts、nodes、landmarks。",
+    "它們描述城市辨識與記憶，不等同於中心性或流量指標。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "Lynch 的城市意象分析以五種空間要素整理人們辨識環境的方法。",
+        "library_id": "LYNCH60",
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+        "effect_or_value": null,
+        "study_design": "城市意象理論；元素名稱待經典交叉核對",
+        "context_region": "美國城市理論",
+        "locator": null
+      },
+      {
+        "claim_zh": "都市形態需跨街道、地塊與建築尺度分析。",
+        "library_id": "MOUDON97",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "跨領域都市形態回顧",
+        "context_region": "跨地域都市形態學",
+        "locator": null
+      },
+      {
+        "claim_zh": "城市平面形態可由街道、地塊和建築層次共同閱讀。",
+        "library_id": "CONZEN60",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "城鎮平面分析",
+        "context_region": "英國歷史城市案例",
+        "locator": null
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "以使用者訪談和現地走讀標示五類空間線索，再與街網模型分層呈現。"
+  ],
+  "applies_when_zh": "研究不同使用者如何辨識和記憶城市空間時，搭配走讀或認知地圖使用。",
+  "not_applicable_when_zh": "五元素不能自動衡量地方認同、公平或行人安全，也不應轉成僵硬的地圖符號規格。",
+  "debates_zh": "地標與邊界對不同群體可能有不同意義；城市意象調查應納入多種使用者。",
+  "sources": [
+    {
+      "library_id": "LYNCH60",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "MOUDON97",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "CONZEN60",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "都市形態學",
+  "region": "城市意象與都市形態",
+  "curriculum_refs": [
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.330J Theory of City Form",
+      "topic": "路網形態（格子、放射、有機）：課綱對應主題"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "路網形態（格子、放射、有機）：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-STR-064"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "LAYERS2011",
+  "title": "The Dutch Layers Approach to Spatial Planning and Design: A Fruitful Planning Tool or a Temporary Phenomenon?",
+  "authors": [
+    "Jeroen van Schaick",
+    "Ina Klaasen"
+  ],
+  "year": 2011,
+  "kind": "ACADEMIC_PAPER",
+  "claims": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref",
+    "query": {
+      "title": "The Dutch Layers Approach to Spatial Planning and Design A Fruitful Planning Tool or a Temporary Phenomenon",
+      "author": "Jan van Schaick",
+      "year": 2011
+    },
+    "matched_record_id": "10.1080/09654313.2011.614387",
+    "checked_at_utc": "2026-10-08T13:42:57Z",
+    "match_notes_zh": "人工核對 Crossref 題名、完整作者與年份；保存實際命中書目，主張尚未交叉核對。",
+    "receipt_path": "artifacts/kb2-theory-v3/resume-source-lookups.json"
+  },
+  "limitations_zh": "不以書目命中證明主張；主張待原著交叉核對。",
+  "metadata_licence_zh": "Metadata only; licence UNKNOWN",
+  "doi": "10.1080/09654313.2011.614387",
+  "venue_or_publisher": "European Planning Studies"
+}

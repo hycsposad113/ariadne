@@ -1,0 +1,94 @@
+{
+  "id": "MOR-011",
+  "title_zh": "建築不得壓道路",
+  "title_en": "No building-road overlap",
+  "domain": "morphology",
+  "stages": [
+    "S3",
+    "S4",
+    "S6",
+    "S7"
+  ],
+  "statement_zh": "任何新建築 footprint 不得佔用保留或新建道路面，包括人行、自行車、服務與城市車道；道路與保留物先凍結再排量體。",
+  "rationale_zh": "路面若被佔，生活與救援路徑就不存在。",
+  "applies_when": {
+    "scale": [
+      "*"
+    ],
+    "land_use": [
+      "*"
+    ],
+    "strategy": [
+      "*"
+    ],
+    "mode": [
+      "*"
+    ]
+  },
+  "parameters": [
+    {
+      "name": "protected_overlap_max",
+      "value": 0,
+      "range": null,
+      "unit": "m²",
+      "provenance": "FOUNDER",
+      "source_ids": [],
+      "authority_ref": "Founder 2026-10-08 修正計畫及 J7 派工；正式生效仍以已接受專案紀錄解析",
+      "status": "PROJECT_INSTRUCTION",
+      "rationale_zh": "原專案保留／不相交條件的零違反值，維持既有意義；仍須從正式已接受狀態解析，載入卡不啟用。"
+    }
+  ],
+  "check": {
+    "method_zh": "同投影 CRS 做 polygon intersection；道路只有中心線且無已批准路面時 UNKNOWN，不以猜寬度放行。",
+    "inputs": [
+      "凍結幾何／路網與 hash",
+      "已接受專案條件與版本",
+      "卡片參數與版本"
+    ],
+    "output": "檢查值、單位、方法、有效性、差異與限制；不自動採納",
+    "implementation_status": "SPECIFICATION_ONLY"
+  },
+  "check_unavailable_reason_zh": null,
+  "design_responses": [
+    {
+      "option": "1",
+      "action_zh": "退縮量體保留完整路廊",
+      "source_ids": [
+        "AJACOBS93"
+      ],
+      "tradeoff_zh": "可建面積減少。"
+    },
+    {
+      "option": "2",
+      "action_zh": "在路網可編輯區調整量體分塊",
+      "source_ids": [
+        "MARSHALL05"
+      ],
+      "tradeoff_zh": "更多入口與結構成本，既有城市路仍不動。"
+    }
+  ],
+  "evidence_level": "ACADEMIC",
+  "evidence_strength": "THEORETICAL",
+  "sources": [
+    {
+      "library_id": "MARSHALL05",
+      "claim_id": "C1",
+      "support_scope_zh": "文獻支持概念與比較角度；本卡具體操作是設計推導，試算值及專案約束不是文獻的普適結論。"
+    },
+    {
+      "library_id": "AJACOBS93",
+      "claim_id": "C1",
+      "support_scope_zh": "文獻支持概念與比較角度；本卡具體操作是設計推導，試算值及專案約束不是文獻的普適結論。"
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "enforcement": "PROJECT_GUARDRAIL",
+  "authority_ref": "Founder 2026-10-08 修正計畫及 J7 派工；正式生效仍以已接受專案紀錄解析",
+  "debates_zh": "相同密度可由不同形態形成；傳統街廓、現代板樓和高密度策略的公共性、日照與控制方式不同。書目尚未逐頁查證，不能預設一派較好。 已查證書目與主張的查閱層級見 library；不是逐頁核驗或本基地因果結論。",
+  "context_validity_zh": "英國歷史形態、義大利類型學、荷蘭密度與亞洲高密度各有取樣偏向；M4H 倉庫結構與保留邊界需實測，類型不構成偏好排名。",
+  "exceptions_zh": "卡片不可替代現行法規、產權、無障礙或已接受 D1/D2。缺必要資料即回報 UNKNOWN；例外須由 Founder 明確決定並保留原結果。",
+  "version": "0.2.0",
+  "local_context_refs": [
+    "FOUNDER"
+  ]
+}

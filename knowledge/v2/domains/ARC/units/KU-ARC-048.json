@@ -1,0 +1,98 @@
+{
+  "id": "KU-ARC-048",
+  "domain": "ARC",
+  "subtopic": "樓層高度",
+  "type": "value_range",
+  "title_zh": "地下停車層的樓高與淨空",
+  "title_en": "underground parking floor height and clearance",
+  "summary_zh": "地下停車可用 2.7–3.0 m 層間高度與 2.2–2.4 m 最低淨空作車輛和管線初篩。 梁、消防管和坡道轉折處會形成局部低點。 車種高度和出入口坡道剖面需分開檢查。",
+  "key_points_zh": [
+    "核心主張：地下停車可用 2.7–3.0 m 層間高度與 2.2–2.4 m 最低淨空作車輛和管線初篩。",
+    "量測檢查：從完工地坪量到最低障礙物，沿車道及坡道每個高程轉折點取樣。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "地下停車可用 2.7–3.0 m 層間高度與 2.2–2.4 m 最低淨空作車輛和管線初篩。",
+        "effect_or_value": "約 2.7–3.0 m 層間；2.2–2.4 m 最低淨空初篩",
+        "study_design": "跨地域設計參照綜整；數值狀態依 claim_verification 註記",
+        "context_region": "跨地域；用途與當地法規需分開核驗",
+        "library_id": "METRIC_HB08",
+        "locator": null,
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008"
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "underground car park floor-to-floor and clearance",
+      "range": "約 2.7–3.0 m 層間；2.2–2.4 m 最低淨空初篩",
+      "unit": "m",
+      "context": "地區：跨地域；用途：一般乘用車停車層概念檢查，未涵蓋消防與大型車法規；出處：Metric Handbook: Planning and Design Data；本基地法規：否；核對狀態：數值待原典交叉核對。",
+      "library_id": "METRIC_HB08"
+    }
+  ],
+  "design_implications_zh": [
+    "逐條行車路徑標出最低淨空，並用設計車輛外廓掃過坡道折點。"
+  ],
+  "applies_when_zh": "「地下停車層的樓高與淨空」可在用於方案前期的量體、平面或空間品質篩檢時使用，前提是地下停車可用 2.7–3.0 m 層間高度與 2.2–2.4 m 最低淨空作車輛和管線初篩與來源情境相符。",
+  "not_applicable_when_zh": "若地下停車可用 2.7–3.0 m 層間高度與 2.2–2.4 m 最低淨空作車輛和管線初篩不成立，就不能把「地下停車層的樓高與淨空」的結論延伸到其他情況；不得單獨作為許可、消防、結構或基地法規判定。",
+  "debates_zh": "高車輛、設備層或防洪抬高可能要求更大空間；這不是停車法規門檻。",
+  "sources": [
+    {
+      "library_id": "METRIC_HB08",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "CIRCADIAN_DAYLIGHT20",
+      "claim_id": "C1",
+      "locator": "article; abstract/title scope only"
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+  "tradition": "建築設計與住宅類型學",
+  "region": "跨地域；用途與當地法規需分開核驗",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Housing and the City / Design of the Urban Fabric",
+      "topic": "建築尺度與住宅平面"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "建築尺度與街道界面"
+    },
+    {
+      "school": "MIT",
+      "course": "Architecture and Urban Design",
+      "topic": "建築尺度與空間型態"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "建築尺度與公共生活"
+    }
+  ],
+  "check": {
+    "method_zh": "從完工地坪量到最低障礙物，沿車道及坡道每個高程轉折點取樣。",
+    "inputs": [
+      "樓層高度",
+      "尺寸／面積圖層",
+      "適用地區與用途標籤"
+    ],
+    "logic_zh": "將量測輸入轉成明確尺寸、比例或空間關係；越界只觸發複核，不自動取代設計決策。",
+    "limitations_zh": "量測結果只觸發「地下停車層的樓高與淨空」的複核，不得單獨作為許可或法規判定。"
+  },
+  "version": "kb2-arc-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-ARC-042",
+    "KU-ARC-043",
+    "KU-ARC-044",
+    "KU-ARC-045",
+    "KU-ARC-046"
+  ]
+}

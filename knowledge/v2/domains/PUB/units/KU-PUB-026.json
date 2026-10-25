@@ -1,0 +1,69 @@
+{
+  "id": "KU-PUB-026",
+  "domain": "PUB",
+  "subtopic": "座位與停留",
+  "type": "value_range",
+  "title_zh": "步行空間研究的公園樣本",
+  "title_en": "Park audit sample",
+  "summary_zh": "設施與體能活動研究稽核二十八類公園特徵。這個分類規模顯示公園品質可用多維度觀察，而非僅按面積分級。特徵項目不是固定清單，地方使用方式可能要求增刪。清單可提高比較性，也會忽略未被預先命名的地方活動。",
+  "key_points_zh": [
+    "設施與體能活動研究稽核二十八類公園特徵",
+    "這個分類規模顯示公園品質可用多維度觀察，而非僅按面積分級"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "設施與體能活動研究稽核二十八類公園特徵。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "美國",
+        "library_id": "TALEN99",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "清單可提高比較性，也會忽略未被預先命名的地方活動。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "建立設施稽核表時，將使用品質與維護狀態分欄記錄。"
+  ],
+  "applies_when_zh": "適用於設計前的公園基線盤點。",
+  "not_applicable_when_zh": "不適用於把二十八項當作每座公園都必須有的配備。",
+  "debates_zh": "清單可提高比較性，也會忽略未被預先命名的地方活動。",
+  "sources": [
+    {
+      "library_id": "TALEN99",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "RIGOLON21",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "新都市主義批評",
+  "region": "美國",
+  "curriculum_refs": [
+    {
+      "school": "UCL Bartlett",
+      "course": "Critical Debates in Urban Design",
+      "topic": "座位與停留"
+    }
+  ],
+  "version": "2.0.0",
+  "values": [
+    {
+      "name": "步行空間研究的公園樣本",
+      "range": "28 類",
+      "unit": "設施特徵數",
+      "context": "美國鄰里公園研究的稽核維度；供資料表設計參考，非設施配額。；「步行空間研究的公園樣本」僅供其研究脈絡內比較，不構成本基地法規。",
+      "library_id": "KACZYNSKI08"
+    }
+  ],
+  "related_unit_ids": [
+    "KU-PUB-025"
+  ]
+}

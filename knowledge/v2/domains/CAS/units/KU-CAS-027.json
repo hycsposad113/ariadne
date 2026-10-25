@@ -1,0 +1,96 @@
+{
+  "id": "KU-CAS-027",
+  "domain": "CAS",
+  "subtopic": "公共空間與工業遺跡—鐵路空地公園",
+  "type": "case",
+  "title_zh": "Gleisdreieck 公園：保留鐵路痕跡並由居民長期爭取",
+  "title_en": "Park am Gleisdreieck: Reusing Railway Land through Citizen Advocacy",
+  "summary_zh": "柏林 Gleisdreieck 公園把長期閒置的貨運鐵路用地轉成東西兩片城市公園，既保留鐵道遺構，也連上步行、自行車和鄰近交通站點。柏林市府標示公園約 26 公頃，並記錄多年居民倡議、共同規劃與社區發起的花園及兒童自然體驗區。Nagel 的專章將案例放入綠色基礎設施脈絡，但此處只採其書目所支持的研究範圍。鐵軌把公園切分成不同空間，也提醒規劃者檢查公園內外的連通品質。",
+  "key_points_zh": [
+    "污染、殘存軌道和工業地景可成為設計材料，前提是保留安全與生態管理。",
+    "居民長期倡議對用地用途有影響，公園建成後仍需維持共管與跨街區連接。"
+  ],
+  "evidence": {
+    "strength": "CASE_EVIDENCE",
+    "findings": [
+      {
+        "claim_zh": "Nagel 的專章以 Park am Gleisdreieck 作為綠色基礎設施案例之一；本單元不從書目推測其使用或房價研究結果。",
+        "effect_or_value": "學術／專業編著中的公園個案範圍",
+        "study_design": "綠色基礎設施專書章；方法未核全文",
+        "context_region": "德國柏林",
+        "library_id": "NAGEL2015",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "柏林官方旅遊與公園頁面將 Gleisdreieck 列為 26 公頃，描述東西公園、鐵路遺跡、居民參與及社區發起的花園。",
+        "effect_or_value": "官方公園範圍和設施敘述",
+        "study_design": "官方公園介紹",
+        "context_region": "德國柏林 Kreuzberg 與 Schöneberg",
+        "library_id": "BERLIN_GLEISDREIECK2025",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "先做土壤調查、鐵道設施盤點及生境連續性評估，再決定哪些遺跡要原地保存或轉作遊憩設施。",
+    "把軌道切分、出入口、鄰里穿越和夜間安全作為公園可達性一體檢查。"
+  ],
+  "applies_when_zh": "內城有閒置鐵路、港運或大型基礎設施土地，且市民長期倡議保留公共用途時。",
+  "not_applicable_when_zh": "土地污染、權屬或防災限制尚未釐清，或公園投資後鄰里居民被排除於決策和使用之外時。",
+  "debates_zh": "工業遺跡帶來記憶與場所識別，也可能成為新區品牌化的景觀資產。市府所記居民參與和 26 公頃邊界不代表所有周邊群體都受益；租金、商業變化和可及性須用獨立資料追蹤。",
+  "sources": [
+    {
+      "library_id": "NAGEL2015",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "BERLIN_GLEISDREIECK2025",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "德國鐵路遺產再利用、城市公園與市民倡議",
+  "region": "西歐／德國柏林",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": null,
+      "topic": "綠色基礎設施、鐵路遺產與公共空間"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": null,
+      "topic": "公民倡議與城市更新"
+    },
+    {
+      "school": "MIT",
+      "course": null,
+      "topic": "棕地再利用與環境管理"
+    }
+  ],
+  "case": {
+    "location": "德國柏林 Kreuzberg 與 Schöneberg 之間的 Anhalter 與 Potsdamer 貨運站舊址",
+    "period": "貨運場址停用後由市民倡議公園用途；公園於 2010 年代分段開放",
+    "area_ha": 26,
+    "fsi": null,
+    "gsi": null,
+    "program_mix": "Westpark、Ostpark、步行與自行車路徑、草坪、社區花園、兒童自然體驗區及鐵路遺跡。",
+    "key_strategies_zh": [
+      "保留部分鐵道構造及生境特徵，並依不同區段組織活動與自然空間。",
+      "把居民倡議和社區小型試驗納入用地決策與公園設計。"
+    ],
+    "outcomes_zh": [
+      "官方頁面記載公園面積 26 公頃、主要空間分區及居民參與規劃。",
+      "未引用地區健康、房價或生態連通性的獨立前後比較。"
+    ],
+    "critiques_zh": [
+      "鐵路分界可能讓園區呈現兩種空間性格，也可能使東西向通行受限。",
+      "需調查公園增值是否伴隨附近租金壓力、商業更替或居民使用權改變。"
+    ]
+  },
+  "version": "v2.0"
+}

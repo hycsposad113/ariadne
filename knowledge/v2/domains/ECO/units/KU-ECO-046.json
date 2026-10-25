@@ -1,0 +1,66 @@
+{
+  "id": "KU-ECO-046",
+  "domain": "ECO",
+  "subtopic": "自然為本的解決方案",
+  "type": "design_principle",
+  "title_zh": "自然解方需要風險備援",
+  "title_en": "Nature-based solutions need fallback options",
+  "summary_zh": "安全韌性設計可讓部分設施在極端事件中暫時失效。若洪水、乾旱或火災超出植生適應能力，仍需備援措施。過度依賴單一自然過程會形成新的脆弱性。灰綠組合的比例需依風險和維護能力決定。",
+  "key_points_zh": [
+    "安全韌性設計可讓部分設施在極端事件中暫時失效",
+    "若洪水、乾旱或火災超出植生適應能力，仍需備援措施"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "安全韌性設計可讓部分設施在極端事件中暫時失效。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "英國",
+        "library_id": "THOMPSON02",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "灰綠組合的比例需依風險和維護能力決定。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "用失效情境檢查排水、撤離和修復路徑。"
+  ],
+  "applies_when_zh": "適用於氣候調適和雨水策略。",
+  "not_applicable_when_zh": "不能以「自然」作為免除安全分析的理由。",
+  "debates_zh": "灰綠組合的比例需依風險和維護能力決定。",
+  "sources": [
+    {
+      "library_id": "THOMPSON02",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "BROWN09",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "都市開放空間規劃",
+  "region": "英國",
+  "curriculum_refs": [
+    {
+      "school": "UCL Bartlett",
+      "course": "Critical Debates in Urban Design",
+      "topic": "自然為本的解決方案"
+    },
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "自然為本的解決方案"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-ECO-045",
+    "KU-ECO-047"
+  ]
+}

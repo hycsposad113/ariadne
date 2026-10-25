@@ -1,0 +1,61 @@
+{
+  "id": "KU-ECO-048",
+  "domain": "ECO",
+  "subtopic": "自然為本的解決方案",
+  "type": "method",
+  "title_zh": "方案應監測實際而非預測服務",
+  "title_en": "Monitor realized services",
+  "summary_zh": "模型可預測遮蔭和滯洪，建成後資料才顯示實際運作。植被死亡、堵塞和使用方式會令效益偏離預估。長期監測需要責任單位和資金。績效責任需延續到建設交付之後。將監測點和修正觸發條件放入運營計畫。",
+  "key_points_zh": [
+    "模型可預測遮蔭和滯洪，建成後資料才顯示實際運作",
+    "植被死亡、堵塞和使用方式會令效益偏離預估"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "模型可預測遮蔭和滯洪，建成後資料才顯示實際運作。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "北美",
+        "library_id": "WOLCH14",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "績效責任需延續到建設交付之後。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "將監測點和修正觸發條件放入運營計畫。"
+  ],
+  "applies_when_zh": "適用於公共資助的NbS專案。",
+  "not_applicable_when_zh": "不宜把模擬值當成已實現效益。",
+  "debates_zh": "績效責任需延續到建設交付之後。",
+  "sources": [
+    {
+      "library_id": "WOLCH14",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "ANGELOVSKI19",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "環境正義與綠地治理",
+  "region": "北美",
+  "curriculum_refs": [
+    {
+      "school": "UCL Bartlett",
+      "course": "Critical Debates in Urban Design",
+      "topic": "自然為本的解決方案"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-ECO-047",
+    "KU-ECO-049"
+  ]
+}

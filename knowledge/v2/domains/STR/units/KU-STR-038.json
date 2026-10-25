@@ -1,0 +1,84 @@
+{
+  "id": "KU-STR-038",
+  "domain": "STR",
+  "subtopic": "交叉口密度",
+  "type": "critique",
+  "title_zh": "交叉口密度：批評與適用限制",
+  "title_en": "Intersection density: Critique and boundary",
+  "summary_zh": "交叉口密度與步行指標的關聯不會自動證明行人安全；多路口也可能增加衝突暴露或延長等候。另一個需要同時檢查的面向是交叉口數量是路網可選路徑的簡化指標，實際效益仍受路口型態、過街條件、交通量和街段方向影響。替代做法可以是在主要目的地之間提供多條可理解的過街路線，同時把高衝突轉向集中到可管理的節點。",
+  "key_points_zh": [
+    "批評焦點：交叉口數量是路網可選路徑的簡化指標，實際效益仍受路口型態、過街條件、交通量和街段方向影響",
+    "批評焦點：交叉口密度與步行指標的關聯不會自動證明行人安全；多路口也可能增加衝突暴露或延長等候"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "交叉口密度：批評與適用限制｜整合多項研究顯示目的地可及性、路網與用途等因素和出行有關；密度單獨的關聯較弱，且自我選擇及樣本限制妨礙普遍因果推論",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "EWING10",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "交叉口密度：批評與適用限制｜亞洲街道使用的文化詮釋指出，偏重車輛的設計標準容易忽略行人行為與地方社會性；這是脈絡化觀點，不代表亞洲內部同質",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "MATEOBABIANO07",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "把「交叉口密度與步行指標的關聯不會自動證明行人安全；多路口也可能增加衝突暴露或延長等候」轉成一項可觀察的風險，並在替代方案中檢查「交叉口數量是路網可選路徑的簡化指標，實際效益仍受路口型態、過街條件、交通量和街段方向影響」是否改變其影響。"
+  ],
+  "applies_when_zh": "若交叉口密度方案可能受「交叉口密度與步行指標的關聯不會自動證明行人安全；多路口也可能增加衝突暴露或延長等候」影響，可用「交叉口數量是路網可選路徑的簡化指標，實際效益仍受路口型態、過街條件、交通量和街段方向影響」安排實地觀察或替代方案比較。",
+  "not_applicable_when_zh": "這項批評提出的是「交叉口密度與步行指標的關聯不會自動證明行人安全；多路口也可能增加衝突暴露或延長等候」的風險，不能據此推定所有替代方案都更好，也不能代替本地使用者測試。",
+  "debates_zh": "交叉口密度與步行指標的關聯不會自動證明行人安全；多路口也可能增加衝突暴露或延長等候；檢視「交叉口密度：批評與適用限制」的反例檢查時，還需判斷「交叉口密度與步行指標的關聯不會自動證明行人安全；多路口也可能增加衝突暴露或延長等候」會如何改變方案結論。",
+  "sources": [
+    {
+      "library_id": "EWING10",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "MATEOBABIANO07",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "步行路網與街道網絡分析",
+  "region": "跨地域理論或實務脈絡；來源地區依引用條目判讀",
+  "curriculum_refs": [
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "交叉口密度：課綱對應主題"
+    },
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.330J Theory of City Form",
+      "topic": "交叉口密度：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-STR-033",
+    "KU-STR-034",
+    "KU-STR-035",
+    "KU-STR-036",
+    "KU-STR-037",
+    "KU-STR-039",
+    "KU-STR-040"
+  ],
+  "counter_unit_ids": [
+    "KU-STR-033",
+    "KU-STR-034"
+  ]
+}

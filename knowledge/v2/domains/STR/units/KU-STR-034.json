@@ -1,0 +1,81 @@
+{
+  "id": "KU-STR-034",
+  "domain": "STR",
+  "subtopic": "交叉口密度",
+  "type": "empirical_finding",
+  "title_zh": "行人目的地與街道層級",
+  "title_en": "Pedestrian destinations and street roles",
+  "summary_zh": "建成環境旅運研究整合分析，研究脈絡為美國規劃研究為主的多研究集合。交叉口只是一項可及性條件，目的地和沿街用途同時影響步行。步行和交叉口密度、用途多樣性及步行範圍內目的地的關聯較強。限制包括合併研究的尺度、指標和自我選擇控制程度不同。",
+  "key_points_zh": [
+    "交叉口只是一項可及性條件，目的地和沿街用途同時影響步行",
+    "限制：合併研究的尺度、指標和自我選擇控制程度不同",
+    "效果或方向：步行和交叉口密度、用途多樣性及步行範圍內目的地的關聯較強"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "行人目的地與街道層級｜交叉口只是一項可及性條件，目的地和沿街用途同時影響步行",
+        "effect_or_value": "步行和交叉口密度、用途多樣性及步行範圍內目的地的關聯較強",
+        "study_design": "建成環境旅運研究整合分析",
+        "context_region": "美國規劃研究為主的多研究集合",
+        "library_id": "EWING10",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "行人目的地與街道層級｜整合度與選擇度的人流關聯得到綜合研究支持，但研究結果高度異質，指標與表示方式會影響關聯",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "SHARMIN17",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "以可走路線連接真實目的地，並在設計後檢查實際距離"
+  ],
+  "applies_when_zh": "若本地觀察單位與美國規劃研究為主的多研究集合的研究脈絡可對照，可用「交叉口只是一項可及性條件，目的地和沿街用途同時影響步行」作為交叉口密度的比較線索。",
+  "not_applicable_when_zh": "這項美國規劃研究為主的多研究集合的研究結果不能單獨證明因果或預測其他城市的街段；原研究合併研究的尺度、指標和自我選擇控制程度不同。",
+  "debates_zh": "關聯能否外推；合併研究的尺度、指標和自我選擇控制程度不同；檢視「行人目的地與街道層級」的研究解讀時，還需判斷「限制：合併研究的尺度、指標和自我選擇控制程度不同」會如何改變方案結論。",
+  "sources": [
+    {
+      "library_id": "EWING10",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "SHARMIN17",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "步行路網與街道網絡分析",
+  "region": "美國規劃研究為主的多研究集合",
+  "curriculum_refs": [
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "交叉口密度：課綱對應主題"
+    },
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.330J Theory of City Form",
+      "topic": "交叉口密度：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-STR-033",
+    "KU-STR-035",
+    "KU-STR-036",
+    "KU-STR-037",
+    "KU-STR-038",
+    "KU-STR-039",
+    "KU-STR-040"
+  ]
+}

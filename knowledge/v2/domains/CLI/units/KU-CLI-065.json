@@ -1,0 +1,83 @@
+{
+  "id": "KU-CLI-065",
+  "domain": "CLI",
+  "subtopic": "街谷高寬比（H/W）",
+  "type": "value_range",
+  "title_zh": "街谷遮蔭需要按季節和行走時段統計",
+  "title_en": "街谷遮蔭需要按季節和行走時段統計",
+  "summary_zh": "同一 H/W 比例在不同緯度和方位會形成不同的遮陽時段。Fez 熱乾氣候研究把幾何與方位共同納入戶外熱舒適比較，顯示只改比例不足以預測結果。淺谷和深谷對照可作為模型情境，不能直接決定哪一種街道較好。",
+  "key_points_zh": [
+    "同一 H/W 在冬夏形成不同陰影長度。",
+    "遮蔭連續性比午後某一刻的陰影面積更接近步行體驗。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "library_id": "JOHANSSON2006",
+        "claim_zh": "街谷初步分類常以 H/W 約 ≤0.5 與 ≥2 對照淺谷和深谷；街道方位及地區氣候會改變通風與熱感。",
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+        "effect_or_value": null,
+        "study_design": "個案研究",
+        "context_region": "Fez, Morocco",
+        "locator": null
+      },
+      {
+        "library_id": "DOVEY14",
+        "claim_zh": "密度是多種量測與空間關係的組合；單一 FAR 不能代表公共空間或活動強度；本單元 KU-CLI-065 對照「同一 H/W 比例在不同緯度和方位會形成不同的遮陽時段」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "密度多維模型",
+        "context_region": "澳洲",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "按季節和日常步行時段製作遮蔭序列。",
+    "把樹冠成熟期納入長期方案。"
+  ],
+  "applies_when_zh": "適用於高寬比與街道遮蔭比選。",
+  "not_applicable_when_zh": "比例範圍待對應來源查證；不是本基地法規。",
+  "debates_zh": "單一截面比例不會自動保證人行道全天有遮蔭。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "JOHANSSON2006",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "DOVEY14",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "街谷遮蔭參數",
+  "region": "炎熱乾燥氣候；Sweden",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "街谷高寬比（H/W）"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": null,
+      "topic": "街谷高寬比（H/W）"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0",
+  "values": [
+    {
+      "name": "街谷淺深形態的 H/W 對照",
+      "range": "H/W ≤ 0.5；H/W ≥ 2",
+      "unit": "dimensionless",
+      "context": "用於比較天空暴露與夜間散熱的形態端點；不是設計優劣判斷 這不是本基地法規；來源所列地域：Fez, Morocco。",
+      "library_id": "JOHANSSON2006"
+    }
+  ]
+}

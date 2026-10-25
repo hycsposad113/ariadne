@@ -1,0 +1,78 @@
+{
+  "id": "KU-REG-061",
+  "domain": "REG",
+  "subtopic": "德國 BauNVO 制度輪廓",
+  "type": "value_range",
+  "title_zh": "BauNVO WR／WS 指引值",
+  "title_en": "BauNVO WR/WS orientation values",
+  "summary_zh": "WR/WS 常見附表指引值為 GRZ 0.4、GFZ 1.2；2021 年修法後應讀作 §17 Orientierungwerte。 僅為德國制度輪廓，不是本基地法規，也不能取代地方計畫。 把用途分類、附表數字和地方 Bebauungsplan 三欄分開紀錄。",
+  "key_points_zh": [
+    "BauNVO §17 指引值：WR 純住宅區 GRZ 0.4／GFZ 1.2；WS 週末住宅區 GRZ 0.2／GFZ 0.4。它們是規劃參考值（Orientierungswerte），不代替地方 Bebauungsplan",
+    "僅為德國制度輪廓，不是本基地法規，也不能取代地方計畫。",
+    "把用途分類、附表數字和地方 Bebauungsplan 三欄分開紀錄。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "BauNVO §17 指引值：WR 純住宅區 GRZ 0.4／GFZ 1.2；WS 週末住宅區 GRZ 0.2／GFZ 0.4。它們是規劃參考值（Orientierungswerte），不代替地方 Bebauungsplan。",
+        "effect_or_value": "GRZ 0.4；GFZ 1.2",
+        "study_design": "跨案例尺度對照或明示假設的規劃計算",
+        "context_region": "德國全國用途區分類參考",
+        "library_id": "BAUNVO",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "BauNVO WR／WS 指引值",
+      "range": "WR：GRZ 0.4／GFZ 1.2；WS：GRZ 0.2／GFZ 0.4",
+      "unit": "比率",
+      "context": "德國 BauNVO WR 與 WS 用途區；用途：依第17條參照建蔽與容積指引值；對照官方法規 BAUNVO §17；這不是本基地法規。",
+      "library_id": "BAUNVO"
+    }
+  ],
+  "design_implications_zh": [
+    "把用途分類、附表數字和地方 Bebauungsplan 三欄分開紀錄。",
+    "記錄 德國全國用途區分類參考 與「WR 純住宅區與 WS 週末住宅區」的量測分母，再和另一種尺度或用途並排比較。"
+  ],
+  "applies_when_zh": "用於比較德國全國用途區分類參考的WR 純住宅區與 WS 週末住宅區，並明示此數值的來源、年份和面積分母。",
+  "not_applicable_when_zh": "僅為德國制度輪廓，不是本基地法規，也不能取代地方計畫。",
+  "debates_zh": "用舊法「上限」措辭引用時會掩蓋 2021 年後指引值的法律性質。",
+  "sources": [
+    {
+      "library_id": "BAUNVO",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "SINGLE_SOURCE",
+  "tradition": "比較土地使用管制",
+  "region": "德國全國用途區分類參考",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Planning Complex Cities",
+      "topic": "德國 BauNVO 制度輪廓"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Urban Design Contexts and Operations",
+      "topic": "德國 BauNVO 制度輪廓"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "德國 BauNVO 制度輪廓"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban design governance",
+      "topic": "德國 BauNVO 制度輪廓"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008"
+}

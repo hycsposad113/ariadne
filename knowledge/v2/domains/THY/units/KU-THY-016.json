@@ -1,0 +1,71 @@
+{
+  "id": "KU-THY-016",
+  "domain": "THY",
+  "subtopic": "Sitte 與城市藝術",
+  "type": "theory",
+  "title_zh": "Ringstrasse 與 Sitte",
+  "title_en": "Vienna Ringstrasse and Sitte",
+  "summary_zh": "維也納 Ringstrasse 將舊城防用地轉化為環城大道及公共建築帶。Sitte 批評孤立於開放空地中的紀念性建築配置，認為廣場與建築應形成可感知的空間整體。比較獨立建築的全景展示與連續邊界的廣場體驗，保留兩種不同目標。",
+  "key_points_zh": [
+    "比較獨立建築的全景展示與連續邊界的廣場體驗，保留兩種不同目標。",
+    "Sitte 的藝術批評不是對所有環城大道功能的全面否定。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "維也納 Ringstrasse 將舊城防用地轉化為環城大道及公共建築帶。Sitte 批評孤立於開放空地中的紀念性建築配置，認為廣場與建築應形成可感知的空間整體。",
+        "library_id": "SITTE1965",
+        "locator": null,
+        "study_design": "理論／方法綜述；非基地實測",
+        "effect_or_value": null,
+        "context_region": null,
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008"
+      },
+      {
+        "claim_zh": "Kostof 的比較城市形態史提供 Ringstrasse 與紀念性公共空間的另一種形態史視角。",
+        "library_id": "KOSTOF1991",
+        "locator": null,
+        "study_design": "歷史／比較形態",
+        "effect_or_value": null,
+        "context_region": "跨地域",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "比較獨立建築的全景展示與連續邊界的廣場體驗，保留兩種不同目標。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "增加建築間的邊界連接可改善圍合，但可能減少紀念建築的獨立展示。",
+      "tradeoff_zh": "Sitte 的藝術批評不是對所有環城大道功能的全面否定。",
+      "library_ids": [
+        "SITTE1965"
+      ]
+    }
+  ],
+  "applies_when_zh": "用於釐清「Ringstrasse 與 Sitte」涉及的空間、制度與行動選擇。",
+  "not_applicable_when_zh": "「Ringstrasse 與 Sitte」不能直接替代基地的實測、法規或人類批准。",
+  "debates_zh": "Sitte 的藝術批評不是對所有環城大道功能的全面否定。",
+  "sources": [
+    {
+      "library_id": "SITTE1965",
+      "locator": null
+    },
+    {
+      "library_id": "KOSTOF1991",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+  "curriculum_refs": [
+    {
+      "school": "MIT",
+      "course": null,
+      "topic": "編者主題對照，非已核實課程指定閱讀：Ringstrasse 與 Sitte"
+    }
+  ],
+  "version": "2.0.0-theory-v3"
+}

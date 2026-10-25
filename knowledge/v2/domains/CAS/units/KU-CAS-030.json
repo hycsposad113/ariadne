@@ -1,0 +1,110 @@
+{
+  "id": "KU-CAS-030",
+  "domain": "CAS",
+  "subtopic": "公共空間與工業遺產—世界遺產再利用",
+  "type": "case",
+  "title_zh": "Zollverein：以工業遺產、文化設施和公園組成更新場址",
+  "title_en": "Zollverein: Reusing an Industrial Heritage Site through Culture and Landscape",
+  "summary_zh": "埃森 Zollverein 把煤礦和焦化工業遺址轉成文化、教育、設計、參觀和戶外活動空間，並保留大型工業構造作為場址主體。管理基金會記錄煤礦於 1986 年關閉、焦化廠於 1993 年停產，整個世界遺產範圍約 100 公頃並於 2001 年列入 UNESCO 名錄。Oevermann 與 Mieg 的專章比較 Zollverein 和 Sulzer，將物質遺產與非物質遺產並置。此案的設計問題因此不只在修復建築，也在於如何呈現勞動、技術和社區記憶。",
+  "key_points_zh": [
+    "大型廠房和生產流程痕跡可以容納新用途，但須保持工業空間可讀性。",
+    "旅遊與文化活動需要和在地就業、社區記憶及日常可達性共同評估。"
+  ],
+  "evidence": {
+    "strength": "CASE_EVIDENCE",
+    "findings": [
+      {
+        "claim_zh": "Oevermann 與 Mieg 的比較章節以 Zollverein 和 Sulzer 討論工業遺產的有形與無形面向；未核讀其案例結果。",
+        "effect_or_value": "研究問題涵蓋建築、景觀與文化記憶",
+        "study_design": "跨場址比較專書章",
+        "context_region": "德國埃森與瑞士 Winterthur",
+        "library_id": "OEVERMANN_MIEG2015",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "Zollverein 基金會記載場址範圍約 100 公頃、煤礦於 1986 年關閉、焦化廠於 1993 年停產，2001 年列入世界遺產。",
+        "effect_or_value": "場址管理單位公布的歷史與邊界資訊",
+        "study_design": "世界遺產場址官方歷史資料",
+        "context_region": "德國埃森 Zollverein",
+        "library_id": "ZOLLVEREIN_FOUNDATION2026",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "場址管理基金會列出 Zollverein Park 的公園、自然與公共活動用途，未將該頁面作為獨立公園效果評估。",
+        "effect_or_value": "管理者的場址使用說明",
+        "study_design": "場址營運方介紹",
+        "context_region": "德國埃森 Zollverein",
+        "library_id": "ZOLLVEREIN_PARK2026",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "先為保存的設備、建築與地景建立清單，再依承載能力配置工作坊、展覽、教育、餐飲和公園活動。",
+    "把工人、前居民、社區團體和場址管理者的歷史敘事來源並列，避免以單一品牌故事取代地方記憶。"
+  ],
+  "applies_when_zh": "大型工業場址仍保留機械、建築與空間序列，且管理機構具備長期修復和公眾使用資源時。",
+  "not_applicable_when_zh": "污染處理、設備安全和長期營運成本沒有資金安排，或新用途需要大幅抹除生產遺跡時。",
+  "debates_zh": "把工業遺址變成世界遺產和文化目的地能延長建築生命，也可能把勞動史濃縮成可消費的展示。比較有形保存與無形記憶的研究視角應與觀光、就業和社區使用資料一起檢查。",
+  "sources": [
+    {
+      "library_id": "OEVERMANN_MIEG2015",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "ZOLLVEREIN_FOUNDATION2026",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "ZOLLVEREIN_PARK2026",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "德國工業遺產、文化導向再生與景觀修復",
+  "region": "西歐／德國埃森",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": null,
+      "topic": "工業遺產再利用、公共空間與地景"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": null,
+      "topic": "文化導向再生與地方記憶"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": null,
+      "topic": "產業轉型與遺產治理"
+    }
+  ],
+  "case": {
+    "location": "德國埃森 Zollverein 煤礦與焦化廠工業遺產場址",
+    "period": "煤礦1986年停產、焦化廠1993年停產；2001年登錄世界遺產後持續再利用",
+    "area_ha": 100,
+    "fsi": null,
+    "gsi": null,
+    "program_mix": "工業遺產展示、博物館與文化活動、教育與設計相關用途、工作室、參觀設施、公園與戶外活動；完整用地比例未查得。",
+    "key_strategies_zh": [
+      "保留主要工業建築、設備和生產地景，將文化、教育和參觀等用途配置於既有構造。",
+      "以公園和公共活動空間將工業遺跡納入城市日常開放空間。"
+    ],
+    "outcomes_zh": [
+      "基金會公布世界遺產範圍約100公頃及主要工業設施停產年份。",
+      "官方頁面證實場址持續供文化與戶外活動使用；本單元沒有觀光、就業或生態效益量化比較。"
+    ],
+    "critiques_zh": [
+      "策展內容需說明工業勞動、能源轉型和周邊社區經驗如何被保存或選擇性呈現。",
+      "場址總面積不代表可公共進入的公園面積，應另外測量日常開放、通行和維護範圍。"
+    ]
+  },
+  "version": "v2.0"
+}

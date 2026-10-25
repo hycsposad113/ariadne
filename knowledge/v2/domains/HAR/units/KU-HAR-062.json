@@ -1,0 +1,156 @@
+{
+  "id": "KU-HAR-062",
+  "domain": "HAR",
+  "subtopic": "水岸再生案例；Baltimore Inner Harbor",
+  "type": "case",
+  "title_zh": "巴爾的摩 Inner Harbor：節慶市場與工作港灣之間",
+  "title_en": "Baltimore Inner Harbor: festival-market redevelopment and the working harbor",
+  "summary_zh": "Inner Harbor 更新把吸引訪客的零售、餐飲與活動空間放到原有港灣界面；Open Library 記錄了 1982 年港區計畫與 1985 年 Power Plant 藝術中心，Miller 的比較研究也將 Baltimore 納入水岸再生。這些來源建立案例線索，尚不足以量化 Harborplace 對居民收入、公共性或租金的因果影響。",
+  "key_points_zh": [
+    "Baltimore Inner Harbor 以 1970s–80s 的公私合作開發聞名：會議中心（1979）、Harborplace 節慶市場（Rouse 公司，1980）與國家水族館（1981）使其成為「節慶市場」水岸再生的原型；比較研。",
+    "港灣再利用與舊工業建築文化轉用可以並行，但各自的使用者和治理方式不同。",
+    "現有書目支持案例定位；具體訪客、就業與居民受益指標仍需原始報告和長期數據。"
+  ],
+  "evidence": {
+    "strength": "CASE_EVIDENCE",
+    "findings": [
+      {
+        "library_id": "BALTIMORE_PLAN1982",
+        "claim_zh": "Regional Planning Council 1982 港區環境改善計畫可作為地方規劃原始脈絡，書目本身不證明旅遊或經濟成效。",
+        "effect_or_value": null,
+        "study_design": "地方規劃文件",
+        "context_region": "Baltimore, United States",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "僅核對 Open Library 書目題名與作者；尚未取得或讀取計畫全文。"
+      },
+      {
+        "library_id": "BALTIMORE_POWERPLANT1985",
+        "claim_zh": "舊發電廠（Power Plant）在 Inner Harbor 轉作休閒與文化用途，是工業建築再利用納入節慶水岸策略的一例；其經營曾多次轉手，說明單一地標再利用的營運不穩定。",
+        "effect_or_value": null,
+        "study_design": "案例出版物",
+        "context_region": "Baltimore, United States",
+        "locator": null,
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+        "limitations_zh": "書目標題支持案例範圍，實際用途、時間線與公眾使用需查原件。"
+      },
+      {
+        "library_id": "MILLER2016",
+        "claim_zh": "Baltimore Inner Harbor 以 1970s–80s 的公私合作開發聞名：會議中心（1979）、Harborplace 節慶市場（Rouse 公司，1980）與國家水族館（1981）使其成為「節慶市場」水岸再生的原型；比較研究與批評指出，觀光與形象效益集中於港灣核心，周邊低收入鄰里受益有限。",
+        "effect_or_value": null,
+        "study_design": "比較研究",
+        "context_region": "Baltimore / San Francisco / Seattle",
+        "locator": null,
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+        "limitations_zh": "Crossref 未回傳摘要；未由書目推定各城市相對成效。"
+      },
+      {
+        "library_id": "HOWLAND2003",
+        "claim_zh": "Baltimore 三個棕地個案顯示市場需求、污染程度與新用途牽動公私部門責任分配。",
+        "effect_or_value": "公私主導差異與市場／污染／用途取捨",
+        "study_design": "三個棕地案例",
+        "context_region": "Baltimore, United States",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW",
+        "limitations_zh": "研究個案不是 Harborplace 的直接影響評估；不能當作 Inner Harbor 居民受益估計。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "把岸線步道、商業錨點、藝術再利用及仍在運作的港灣設施分層繪出，不用「成功」一詞掩蓋使用權差異。",
+    "以租戶、公共通行和在地商業資料追蹤訪客經濟是否連到居民收益。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "以餐飲、活動和商業錨點集中帶動岸邊人流。",
+      "tradeoff_zh": "較容易形成明確目的地，但可能讓公共空間依賴消費和活動日程。",
+      "library_ids": [
+        "MILLER2016",
+        "HOWLAND2003"
+      ]
+    },
+    {
+      "option_zh": "以免費、連續的岸線通行和工業遺產再用作為主軸。",
+      "tradeoff_zh": "日常公共性較清楚，營運維修和污染治理需要穩定公部門安排。",
+      "library_ids": [
+        "BALTIMORE_PLAN1982",
+        "BALTIMORE_POWERPLANT1985"
+      ]
+    }
+  ],
+  "applies_when_zh": "適用於比較節慶市場、文化錨點與港區公共岸線的治理和受益。",
+  "not_applicable_when_zh": "不適用於以單一商業開發或書目記錄推定當地仕紳化、就業或租金變化。",
+  "debates_zh": "Harborplace 的觀光吸引力和大眾可近性可以同時存在；地方利益分配及非消費性使用的完整證據在本輪來源中仍不足。",
+  "counter_unit_ids": [
+    "KU-HAR-012"
+  ],
+  "related_unit_ids": [
+    "KU-HAR-022",
+    "KU-HAR-038",
+    "KU-HAR-054"
+  ],
+  "sources": [
+    {
+      "library_id": "BALTIMORE_PLAN1982",
+      "claim_id": null,
+      "locator": null
+    },
+    {
+      "library_id": "BALTIMORE_POWERPLANT1985",
+      "claim_id": null,
+      "locator": null
+    },
+    {
+      "library_id": "MILLER2016",
+      "claim_id": null,
+      "locator": null
+    },
+    {
+      "library_id": "HOWLAND2003",
+      "claim_id": "C1",
+      "locator": "C1"
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "美國水岸更新；公私棕地治理",
+  "region": "Baltimore, Maryland, United States",
+  "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+  "curriculum_refs": [
+    {
+      "school": "MIT",
+      "course": null,
+      "topic": "水岸再生案例；Baltimore Inner Harbor：課綱對應主題"
+    }
+  ],
+  "version": "kb2-gaps-2026-10-08",
+  "check": {
+    "method_zh": "以同一港灣範圍分別量測免費岸線長度、非消費性停留空間、營業時段、主要租戶類別與居民可達路徑；另以時間序列核對就業及租金。",
+    "inputs": [
+      "Harborplace／Inner Harbor 更新邊界與分期",
+      "岸線通行權及營業空間圖",
+      "開發前後租戶、就業、居民與訪客資料"
+    ],
+    "logic_zh": "公共性需以實際可進入、可停留、無消費條件及治理權責判讀；經濟成效需有基準年和對照資料，不能以地標知名度代替。",
+    "limitations_zh": "1980年代節慶市場模式的時間線和地方受益主張待 Claude 依原始規劃與案例研究交叉核對；沒有填入面積、投資額或遊客數。"
+  },
+  "case": {
+    "location": "Inner Harbor, Baltimore, Maryland",
+    "period": "1960年代港灣更新構想至1980年代；1982年計畫與1985年 Power Plant 書目可追查",
+    "area_ha": null,
+    "fsi": null,
+    "gsi": null,
+    "program_mix": "港灣環境改善、觀光零售、餐飲活動、工業建築文化再用",
+    "key_strategies_zh": [
+      "以目的地型商業和活動空間連接港灣與城市中心。",
+      "將港區計畫及 Power Plant 藝術中心列作需回查原件的設施線索。"
+    ],
+    "outcomes_zh": [
+      "比較水岸再生文獻明確把 Baltimore 納入案例範圍。",
+      "現有來源可追查地方計畫與藝術再利用，但尚未提供可比的訪客或居民受益估值。"
+    ],
+    "critiques_zh": [
+      "以消費為核心的目的地可能壓縮非消費性停留；現有文獻證據未量化此影響。",
+      "Howland 的三個 Baltimore 棕地個案不是 Inner Harbor 專項評估，不能外推為港灣的公私成效。"
+    ]
+  }
+}

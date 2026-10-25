@@ -1,0 +1,74 @@
+{
+  "id": "KU-WAT-019",
+  "domain": "WAT",
+  "subtopic": "鹿特丹水廣場（如 Benthemplein）",
+  "type": "design_principle",
+  "title_zh": "水廣場先交代水位變化再安排活動",
+  "title_en": "水廣場先交代水位變化再安排活動",
+  "summary_zh": "日常活動與暴雨蓄水共享空間，設計圖必須顯示各水位下可使用和應封閉的區域。多功能水設計可以使防洪設施進入城市生活，但區域洪水管理研究提醒，地面設施位於更大的水系網絡內。水位、進出控制和雨後排空是使用安全的一部分，不只是工程附註。",
+  "key_points_zh": [
+    "空間標高差會決定哪些活動先被中斷。",
+    "封閉邏輯與警示訊息需可由管理者執行。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "library_id": "FLETCHER2013",
+        "claim_zh": "書目確認本文題名聚焦「Understanding, management and modelling of urban hydrology and its consequences for receiving waters: A state of the art」；目前只完成作者、年份、題名與 DOI 核對，未將摘要或全文結論納入此記錄；本單元 KU-WAT-019 對照「日常活動與暴雨蓄水共享空間，設計圖必須顯示各水位下可使用和應封閉的區域」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "文獻回顧；目前僅核對書目範圍",
+        "context_region": "跨地域",
+        "locator": null
+      },
+      {
+        "library_id": "WONG2009",
+        "claim_zh": "題名與書目確認文章以水敏感城市原則為討論範圍；尚未以摘要核對其效能估計；本單元 KU-WAT-019 對照「日常活動與暴雨蓄水共享空間，設計圖必須顯示各水位下可使用和應封閉的區域」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "概念框架與實務原則",
+        "context_region": "澳洲城市水治理脈絡",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "按不同積水深度繪製活動區與逃生路線。",
+    "在季節性節目安排中保留設施檢修與雨後清理時間。"
+  ],
+  "applies_when_zh": "適用於雨水廣場、多功能滯洪公園和校園下凹空間。",
+  "not_applicable_when_zh": "不可把可容納短時積水等同於允許未受控深水活動。",
+  "debates_zh": "公眾對可見積水的接受度和安全感會隨使用者、活動和水質而異。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "FLETCHER2013",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "WONG2009",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "水廣場前期配置與使用管理",
+  "region": "荷蘭；跨地域",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "鹿特丹水廣場（如 Benthemplein）"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Sustainable Futures by Design",
+      "topic": "鹿特丹水廣場（如 Benthemplein）"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0"
+}

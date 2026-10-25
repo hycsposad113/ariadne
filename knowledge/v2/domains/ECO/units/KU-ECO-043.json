@@ -1,0 +1,66 @@
+{
+  "id": "KU-ECO-043",
+  "domain": "ECO",
+  "subtopic": "自然為本的解決方案",
+  "type": "design_principle",
+  "title_zh": "自然為本方案應先定義基準情境",
+  "title_en": "Nature-based solutions need a baseline",
+  "summary_zh": "方案可以處理熱、水、棲地或公共空間問題。若沒有說明沒有工程時會發生什麼，效益就難以估計。氣候變化本身也會改變基準。自然方案和灰色工程都需按相同結果尺度比較。記錄基準年、情境假設和替代工程後再比較。",
+  "key_points_zh": [
+    "方案可以處理熱、水、棲地或公共空間問題",
+    "若沒有說明沒有工程時會發生什麼，效益就難以估計"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "方案可以處理熱、水、棲地或公共空間問題。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "跨地域",
+        "library_id": "CARMONA10",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "自然方案和灰色工程都需按相同結果尺度比較。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "記錄基準年、情境假設和替代工程後再比較。"
+  ],
+  "applies_when_zh": "適用於NbS投資評估。",
+  "not_applicable_when_zh": "不適合用宣傳性總效益代替基準資料。",
+  "debates_zh": "自然方案和灰色工程都需按相同結果尺度比較。",
+  "sources": [
+    {
+      "library_id": "CARMONA10",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "WOLCH14",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "公共空間治理批評",
+  "region": "跨地域",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "自然為本的解決方案"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Critical Debates in Urban Design",
+      "topic": "自然為本的解決方案"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-ECO-042",
+    "KU-ECO-044"
+  ]
+}

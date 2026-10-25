@@ -1,0 +1,44 @@
+{
+  "id": "MACIEJEWSKA2025",
+  "title": "When proximity is not enough. A sociodemographic analysis of 15-minute city lifestyles",
+  "authors": [
+    "Monika Maciejewska",
+    "Jerònia Cubells",
+    "Oriol Marquet"
+  ],
+  "year": 2025,
+  "venue_or_publisher": "Journal of Urban Mobility, 7, 100119",
+  "doi": "https://doi.org/10.1016/j.urbmob.2025.100119",
+  "isbn": null,
+  "openalex_id": "https://openalex.org/W4410018005",
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "15 分鐘城市與生活方式差異",
+  "region": "西班牙巴塞隆納",
+  "method": "以社會人口特徵分析 15 分鐘城市生活方式實際採用",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "巴塞隆納研究指出，附近設施存在不等於居民實際在附近完成日常活動；15 分鐘生活方式的使用情況仍受公平與社會人口差異影響。",
+      "strength": "MIXED",
+      "scope_zh": "文章檢視概念的實際採用與差異，沒有驗證任何指定步速乘時間的距離範圍。",
+      "assessment_basis": "ABSTRACT_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "OpenAlex",
+    "query": {
+      "record_id": "https://openalex.org/W4410018005",
+      "doi": "10.1016/j.urbmob.2025.100119",
+      "title": "When proximity is not enough. A sociodemographic analysis of 15-minute city lifestyles",
+      "author": "Monika Maciejewska",
+      "year": 2025
+    },
+    "matched_record_id": "https://openalex.org/W4410018005",
+    "checked_at_utc": "2026-10-09T00:14:23Z",
+    "match_notes_zh": "以允許的公開書目 API 精確比對題名、首位作者與出版年；只保留自行撰寫的摘要範圍說明，未保存全文或 API 摘要原文。"
+  },
+  "limitations_zh": "本條目依公開摘要或書目範圍整理；未下載全文，也不外推摘要未列的樣本、效果量或因果結論。",
+  "metadata_licence_zh": "僅保存公開書目欄位與自行撰寫的繁體中文摘要；未複製摘要全文或論文全文。"
+}

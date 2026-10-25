@@ -1,0 +1,42 @@
+{
+  "id": "WATERFRONT_TORONTO_QUAYSIDE2020",
+  "title": "Statement from Waterfront Toronto Board Chair, Stephen Diamond",
+  "authors": [
+    "Waterfront Toronto"
+  ],
+  "year": 2020,
+  "venue_or_publisher": "Waterfront Toronto",
+  "doi": null,
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "OFFICIAL_GOVERNMENT_RELEASE",
+  "tradition": "原 Quayside 提案撤回與後續場址規劃",
+  "region": "加拿大多倫多",
+  "method": "於內容起草後直接檢視官方／營運方公開頁面；不把機構目標或自報數據當成獨立效果研究。",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "公共機構聲明於 2020-05-07 記錄 Sidewalk Labs 撤回原 Quayside 再開發提案，並區分該提案與場址後續規劃機會。",
+      "strength": "CASE_EVIDENCE",
+      "scope_zh": "只支持頁面明確公布的規劃口徑、歷史資料、行政數字或機構自報結果。",
+      "assessment_basis": "DIRECT_SOURCE_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Official organization webpage",
+    "query": {
+      "title": "Statement from Waterfront Toronto Board Chair, Stephen Diamond",
+      "author": "Waterfront Toronto",
+      "year": 2020,
+      "api_query": "Read-only official source page: https://www.waterfrontoronto.ca/news/statement-waterfront-toronto-board-chair-stephen-diamond-0"
+    },
+    "matched_record_id": "https://www.waterfrontoronto.ca/news/statement-waterfront-toronto-board-chair-stephen-diamond-0",
+    "checked_at_utc": "2026-10-08T14:47:20Z",
+    "match_notes_zh": "直接檢視官方／場址營運方公開頁；該頁不是Crossref書目記錄，未宣稱經Crossref驗證。"
+  },
+  "limitations_zh": "官方或營運方頁面可能採機構自身的規劃與成果口徑；未有獨立評估處不推定效果。",
+  "critique_relationship_zh": "本記錄不宣稱與其他來源存在直接互引或逐一反駁關係。",
+  "metadata_licence_zh": "官方／營運方公開頁面；未確認個別資料的再利用授權。"
+}

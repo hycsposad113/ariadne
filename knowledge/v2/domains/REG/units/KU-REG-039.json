@@ -1,0 +1,106 @@
+{
+  "id": "KU-REG-039",
+  "domain": "REG",
+  "subtopic": "日本用途地域與地方條例",
+  "type": "method",
+  "title_zh": "日本用途地域與地方條例｜分析方法",
+  "title_en": "Japanese use zones and local ordinances — Analytical method",
+  "summary_zh": "日本土地使用治理需分辨中央法律、自治體條例與行政協調的權限分布。 大型零售店法研究描述私人參與及地方控制限制，可用來理解制度實踐，但不能直接等同各自治體現行用途地域制度。 比較時需標明法條年份、自治體與地區計畫層級；本單元沒有查核最新正式文本。",
+  "key_points_zh": [
+    "區分中央法律、自治體條例和行政協調。",
+    "區分中央法律、自治體條例和行政協調。",
+    "讀「日本用途地域與地方條例｜分析方法」時，限制：本領域只提供制度輪廓，當前日本法規需另核正式文本；同時把日本土地使用治理需分辨中央法律、自治體條例與行政協調的權限分布列為核對條件。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "日本大型零售規制案例把中央制度、地方控制和私人參與並讀，說明權限分布是解讀土地管制不可略去的一層。",
+        "library_id": "UPHAM1996",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "日本，兼論美歐制度",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "Grier 的法學研究聚焦日本大型零售店規制，把政治需求與經濟利益作為同一政策案例的兩個面向。",
+        "effect_or_value": null,
+        "study_design": "日本大型零售店規制的制度分析",
+        "context_region": "日本",
+        "library_id": "GRIER2001",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "僅以題名與典藏書目核對研究範圍，不推論現行自治體權限或法律狀態。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "將用途地域本體和地方自治條例修訂各自編成年表，再比對郊區開發方向的變化。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "將用途地域本體和地方自治條例修訂各自編成年表，再比對郊區開發方向的變化。",
+      "tradeoff_zh": "「日本用途地域與地方條例｜分析方法」採用「將用途地域本體和地方自治條例修訂各自編成年表，再比對郊區開發方向的變化」時，得失要沿著日本土地使用治理需分辨中央法律、自治體條例與行政協調的權限分布檢查；「日本用途地域與地方條例｜分析方法」的爭議不只在於本領域只提供制度輪廓，當前日本法規需另核正式文本；還要檢視日本土地使用治理需分辨中央法律、自治體條例與行政協調的權限分布會讓哪些使用者承擔不同後果。",
+      "library_ids": [
+        "UPHAM1996"
+      ]
+    },
+    {
+      "option_zh": "在「日本用途地域與地方條例｜分析方法」的來源情境裡，地方規則可能加強引導，也可能在開發壓力下放寬管制；落到設計時還要按日本土地使用治理需分辨中央法律、自治體條例與行政協調的權限分布調整。",
+      "tradeoff_zh": "「日本用途地域與地方條例｜分析方法」的主要代價不是抽象的建造成本，而是「日本用途地域與地方條例｜分析方法」的爭議不只在於本領域只提供制度輪廓，當前日本法規需另核正式文本；還要檢視日本土地使用治理需分辨中央法律、自治體條例與行政協調的權限分布會讓哪些使用者承擔不同後果；因此先以日本土地使用治理需分辨中央法律、自治體條例與行政協調的權限分布作方案比較條件。",
+      "library_ids": [
+        "UPHAM1996"
+      ]
+    }
+  ],
+  "applies_when_zh": "「日本用途地域與地方條例｜分析方法」可在適用於比較日本制度與東亞地方規劃治理時使用，前提是日本土地使用治理需分辨中央法律、自治體條例與行政協調的權限分布與來源情境相符。",
+  "not_applicable_when_zh": "若日本土地使用治理需分辨中央法律、自治體條例與行政協調的權限分布不成立，就不能把「日本用途地域與地方條例｜分析方法」的結論延伸到其他情況；本領域只提供制度輪廓，當前日本法規需另核正式文本。",
+  "debates_zh": "「日本用途地域與地方條例｜分析方法」的爭議不只在於本領域只提供制度輪廓，當前日本法規需另核正式文本；還要檢視日本土地使用治理需分辨中央法律、自治體條例與行政協調的權限分布會讓哪些使用者承擔不同後果。",
+  "sources": [
+    {
+      "library_id": "UPHAM1996",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "GRIER2001",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "日本行政法與委任管制；城市形態與規劃規則",
+  "region": "日本，兼論美歐制度；美國",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Planning Complex Cities",
+      "topic": "日本用途地域與地方條例"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Urban Design Contexts and Operations",
+      "topic": "日本用途地域與地方條例"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "日本用途地域與地方條例"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban design governance",
+      "topic": "日本用途地域與地方條例"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-REG-036",
+    "KU-REG-037",
+    "KU-REG-038"
+  ],
+  "counter_unit_ids": [
+    "KU-REG-040"
+  ]
+}

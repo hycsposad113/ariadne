@@ -1,0 +1,74 @@
+{
+  "id": "KU-WAT-044",
+  "domain": "WAT",
+  "subtopic": "海綿城市",
+  "type": "method",
+  "title_zh": "試點評估要連結降雨、逕流與土地變化",
+  "title_en": "試點評估需把建成措施連到逕流觀測",
+  "summary_zh": "這個方法把設施建置和逕流觀測連成可檢驗的評估鏈，使用降雨、逕流、土地覆蓋和維護資料解讀濟南試點。案例研究需區分政策實施與量測結果；目前可核對的來源範圍不足以支持可外推的效果量。後續評估應保留原始時間序列和對照情境，避免把工程完成等同於性能改善。",
+  "key_points_zh": [
+    "研究設計是城市試點案例評估。",
+    "研究方向支持把工程配置與雨水結果並列，外推性有限。"
+  ],
+  "evidence": {
+    "strength": "CASE_EVIDENCE",
+    "findings": [
+      {
+        "library_id": "SONG2020",
+        "claim_zh": "濟南案例研究檢視海綿城市建設中的雨水逕流治理，連接政策實施與場地觀察。",
+        "effect_or_value": "評估仍要保存降雨、逕流、土地變化及設施維護的原始序列。",
+        "study_design": "試點案例評估",
+        "context_region": "中國濟南",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "library_id": "CHEZHANG2019",
+        "claim_zh": "章節題名確認討論中國海綿城市與都市雨水管理概念；不把概念名稱當作已測得的滯洪效能；本單元 KU-WAT-044 對照「濟南案例研究檢視海綿城市建設中的雨水逕流治理，連接政策實施與場地觀察」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": "KU-WAT-044 的效應量仍以其原列研究結果為準；CHEZHANG2019 僅提供相鄰主題脈絡，未作量值來源。",
+        "study_design": "概念章節",
+        "context_region": "中國",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "把政策投入、建設完成、降雨輸入和逕流輸出分開記錄。",
+    "若沒有基線或對照情境，報告不推定措施造成的逕流變化。"
+  ],
+  "applies_when_zh": "適用於海綿城市措施的監測與案例對照。",
+  "not_applicable_when_zh": "未有降雨、逕流和維護資料時，不以建設數量代替效能評估。",
+  "debates_zh": "土壤、氣候和既有排水系統限制案例移植。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "SONG2020",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "CHEZHANG2019",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "海綿城市實證研究",
+  "region": "中國濟南；澳洲",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "海綿城市"
+    },
+    {
+      "school": "MIT",
+      "course": null,
+      "topic": "海綿城市"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0"
+}

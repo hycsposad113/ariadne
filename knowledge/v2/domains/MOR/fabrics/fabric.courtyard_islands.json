@@ -1,0 +1,399 @@
+{
+  "id": "fabric.courtyard_islands",
+  "names": {
+    "zh": "大型院落島",
+    "en": "Courtyard Islands"
+  },
+  "concept_zh": "大型院落島以少數大尺度街廓或島狀地塊承載連續的圍合量體，讓建築圖底形成清楚、厚實的邊界，內部院落則作為主要採光、通風及公共生活空間。它和一般周邊街廓的差別在於單一組團尺度較大、街道數較少，必須另外設計穿越口與內部路徑；院落大小、開放權屬和入口位置不能由圖底效果推定。",
+  "when_to_use_zh": "適用於島形或大型再開發基地，可形成少數完整組團，且基地有明確的公共穿越線、保留量體或內部院落計畫；設計團隊能同步規劃街廓界面、院落管理與穿越權責時較合適。",
+  "when_not_to_use_zh": "若基地需高密度細網、多重短路徑或頻繁接入外部街道，不宜把大街廓作為唯一骨架；地塊狹窄、院落採光不足或內部公共通行無管理協議時，也不應複製大型圍合量體。",
+  "height_cap_adaptation_zh": "20 m 高度上限下保留大型組團與庭院尺度，以約 4–5 層的連續或分段院落翼、U 形量體形成圖底；在長翼中插入穿越口、日照缺口和公共入口。樓層數須按首層用途和實際法規校核。（本基地首層 4 m、標準層 3.5 m：5 層＝18 m 為上限，6 層＝21.5 m 會超過 20 m）",
+  "street_network": {
+    "pattern": "deformed_grid",
+    "orientation_rule_zh": "順著島形、既有碼頭或海岸長向布置兩條主要邊界街；橫向街道只在公共入口、橋頭和交通節點穿入，內部步行通道再補足短路徑。",
+    "street_width_building_gap_proxy_m": {
+      "p25": 33.92,
+      "median": 39.32,
+      "p75": 55.74,
+      "unit": "m",
+      "status": "MEASURED_PRECEDENT_PROXY",
+      "basis_zh": "爪哇島 的建築外牆最近點間距：P25 33.92 m、中位數 39.32 m、P75 55.74 m（KU-MOR-082）。數值含建築退縮，是外牆間距代理，不是法定路權、車道淨寬或道路斷面；道路幾何仍需另測。",
+      "ku_ids": [
+        "KU-MOR-082"
+      ]
+    },
+    "hierarchy": [
+      {
+        "name_zh": "島區邊界主街",
+        "section_width_m": {
+          "minimum": 18,
+          "maximum": 24,
+          "unit": "m"
+        },
+        "modes": [
+          "步行",
+          "自行車",
+          "汽車",
+          "服務"
+        ],
+        "spacing_m": {
+          "minimum": 250,
+          "maximum": 400,
+          "unit": "m"
+        },
+        "status": "EDITORIAL",
+        "basis_zh": "KNSM/Java 研究窗沒有法定路幅或平行道路間距；尺度是大組團外圍交通的草圖包絡。"
+      },
+      {
+        "name_zh": "組團服務街",
+        "section_width_m": {
+          "minimum": 12,
+          "maximum": 16,
+          "unit": "m"
+        },
+        "modes": [
+          "步行",
+          "自行車",
+          "汽車",
+          "服務"
+        ],
+        "spacing_m": {
+          "minimum": 140,
+          "maximum": 220,
+          "unit": "m"
+        },
+        "status": "EDITORIAL",
+        "basis_zh": "道路中心線間距非 KB4 已量測欄位；此值讓大型街廓保有服務面及可辨識入口。"
+      },
+      {
+        "name_zh": "院落穿越道",
+        "section_width_m": {
+          "minimum": 5,
+          "maximum": 8,
+          "unit": "m"
+        },
+        "modes": [
+          "步行",
+          "自行車"
+        ],
+        "spacing_m": {
+          "minimum": 50,
+          "maximum": 100,
+          "unit": "m"
+        },
+        "status": "EDITORIAL",
+        "basis_zh": "穿越路徑尺寸為生成起點，實際通行需核對所有權、開放時段及無障礙條件。"
+      }
+    ],
+    "connection_rule_zh": "將橋頭、外部道路和大眾運輸入口接到組團邊界街，再從每一個公共入口畫出穿越院落島的步行線；至少保留一條可連續步行的橫向通路，不以半私有中庭充當未確認的公共道路。"
+  },
+  "blocks": {
+    "short_edge_m": {
+      "minimum": 75,
+      "maximum": 120,
+      "unit": "m",
+      "basis": {
+        "status": "EDITORIAL",
+        "note_zh": "Commander 2026-10-11 校正：KNSM 的完整街廓面積中位數 1,787.56 m² 來自 OSM 內部路徑切出的碎片，不代表院落島尺度，因此不採用 23.8 m。院落島的設計包絡改以 Java-eiland（推估 78.2×185.3 m）與 Eixample（推估 74.9×117.8 m）為下界參照，並考慮大型院落需要 ≥20 m 中庭加上兩側 12–14 m 翼深。原推估值保留在 measured_reference_m。 原推估 short_edge_m：23.8–78.2 m。",
+        "ku_ids": [
+          "KU-MOR-082",
+          "KU-MOR-095",
+          "KU-MOR-083"
+        ]
+      }
+    },
+    "long_edge_m": {
+      "minimum": 115,
+      "maximum": 200,
+      "unit": "m",
+      "basis": {
+        "status": "EDITORIAL",
+        "note_zh": "Commander 2026-10-11 校正：KNSM 的完整街廓面積中位數 1,787.56 m² 來自 OSM 內部路徑切出的碎片，不代表院落島尺度，因此不採用 23.8 m。院落島的設計包絡改以 Java-eiland（推估 78.2×185.3 m）與 Eixample（推估 74.9×117.8 m）為下界參照，並考慮大型院落需要 ≥20 m 中庭加上兩側 12–14 m 翼深。原推估值保留在 measured_reference_m。 原推估 long_edge_m：75.2–185.3 m。",
+        "ku_ids": [
+          "KU-MOR-082",
+          "KU-MOR-095",
+          "KU-MOR-083"
+        ]
+      }
+    },
+    "shape_rule_zh": "沿岸線和島形先畫大矩形或折線圍合街廓；內側建築翼圍成可辨識院落。外部道路轉角採切角或退台，禁止在尖角殘地內縮後放入三角形量體。",
+    "plot_subdivision_zh": "住宅翼以 8–16 m 的臨街地塊寬作 EDITORIAL 起稿，連續外牆由較細地塊組成；大型公共或商業空間可合併數個宗地，但每一段須保留門廳、轉角入口或可讀的地塊分界。此面寬不是 KNSM、Java 或 Eixample 地籍量測。"
+  },
+  "building_composition": {
+    "components": [
+      {
+        "part_id": "block.superblock",
+        "recommended_share_percent": 55,
+        "share_denominator_zh": "以候選街廓數為分母；大型組團作主要生成單元。",
+        "basis_zh": "KNSM／Java 的島狀開發支持少數大型組團尺度；完整街廓分類無 superblock 專項，55% 是尺度策略而非測值。"
+      },
+      {
+        "part_id": "block.open",
+        "recommended_share_percent": 40,
+        "share_denominator_zh": "以候選街廓數為分母；保留開放邊與公共穿越口。",
+        "basis_zh": "大型組團需以開放邊、穿越口和院落入口降低封閉感；由通行需求推導，非直接 block_type_mix 比例。"
+      },
+      {
+        "part_id": "building.courtyard_closed",
+        "recommended_share_percent": 22,
+        "share_denominator_zh": "以候選院落組團數為分母；作為封閉院落原型訊號。",
+        "basis_zh": "KNSM 與 Eixample 合院型完整街廓共 2/9（約 22%）；原始分母是街廓數，只作原型訊號，不等於 footprint 份額。"
+      },
+      {
+        "part_id": "building.u_block",
+        "recommended_share_percent": 40,
+        "share_denominator_zh": "以建築地面足跡面積為分母；U 形量體翼的建議份額。",
+        "basis_zh": "U 形可在大型院落島邊界保留明確開口並導入日照；KNSM／Java 無 U 形獨立統計，40% 是圖底策略。"
+      },
+      {
+        "part_id": "building.courtyard_open_corner",
+        "recommended_share_percent": 30,
+        "share_denominator_zh": "以建築地面足跡面積為分母；開角院落量體的建議份額。",
+        "basis_zh": "在視線、日照或公共穿越處以開角替代全閉合；先例未量得 footprint 占比，30% 是入口策略。"
+      }
+    ],
+    "height_profile_zh": "沿主要街道和橋頭配置連續中高量體，院落內側降低或退台以增加天空可視角；需要視線穿越時在轉角留缺口。高度梯度的理由是採光和入口層級，不從單一案例樓層數推定設計值。"
+  },
+  "open_space_system": {
+    "types": [
+      "space.courtyard",
+      "space.covered_public_passage",
+      "space.plaza"
+    ],
+    "configuration_rule_zh": "以一個主要院落作為組團中心，外圍再設小型入口庭院或穿越廊道；每個院落標記公共、半公共或私有，院落邊界與住宅入口不得混淆。廣場放在橋頭、轉角或組團門口。",
+    "site_area_share_percent": {
+      "minimum": 13,
+      "maximum": 30,
+      "status": "EDITORIAL",
+      "basis_zh": "KB4 未統計院落、公園及廣場的土地面積；此範圍只作同一基地內不重複的開放空間預算。"
+    },
+    "courtyard_min_clear_width_m": {
+      "minimum": 20,
+      "unit": "m",
+      "status": "EDITORIAL",
+      "basis_zh": "本條把 20 m 設為起稿下限以避免形成狹窄採光井；KB4 沒有量測個別院落，此值不是實測先例或法規。"
+    }
+  },
+  "edges": [
+    {
+      "type": "waterfront",
+      "rule_zh": "面水立面以入口缺口和公共步道接岸，院落管理邊界不得跨出基地占用水岸；先分清碼頭作業與可達水岸。"
+    },
+    {
+      "type": "large_park",
+      "rule_zh": "大型公園側讓出至少一個可辨識入口庭院，量體轉角退縮形成視線，避免大尺度院落牆面直接封住公園邊。"
+    },
+    {
+      "type": "topographic_edge",
+      "rule_zh": "沿高差方向把院落島分成可通行的台地，先畫坡道、梯道及無障礙連接，再完成連續圍合量體。"
+    },
+    {
+      "type": "retained_building",
+      "rule_zh": "把保留建築納入院落邊或中心節點，先核對既有入口與結構範圍，不以新院落軸線覆蓋它。"
+    },
+    {
+      "type": "existing_city_road",
+      "rule_zh": "組團外緣接續既有路口，至少在每個主要外部入口配置一條朝向院落或穿越廊道的路徑，避免封閉超街廓。"
+    }
+  ],
+  "density_targets": {
+    "GSI": {
+      "range": {
+        "minimum": 0.2787,
+        "maximum": 0.3082
+      },
+      "unit": "dimensionless",
+      "basis": "KU-MOR-083 KNSM 0.2787 與 KU-MOR-082 Java 0.3082 的研究窗陸地 GSI；只作島區案例觀察範圍，非建築覆蓋目標。",
+      "status": "MEASURED_PRECEDENT"
+    },
+    "FSI": {
+      "range": {
+        "minimum": 1.9643,
+        "maximum": 2.4636
+      },
+      "unit": "dimensionless",
+      "basis": "KU-MOR-083 KNSM 至 KU-MOR-082 Java 的可比較已知樓地板面積下限；測量窗、資料覆蓋與高度假設依各 KU。",
+      "status": "MEASURED_PRECEDENT"
+    },
+    "L": {
+      "range": {
+        "minimum": 7.878,
+        "maximum": 7.996
+      },
+      "unit": "storeys",
+      "basis": "KU-MOR-083 KNSM 與 KU-MOR-082 Java 的已知樓層足跡加權案例值；兩個值不足以宣稱大型院落島的通用層數。",
+      "status": "MEASURED_PRECEDENT"
+    },
+    "OSR": {
+      "range": {
+        "minimum": 0.2808,
+        "maximum": 0.3672
+      },
+      "unit": "dimensionless",
+      "basis": "KU-MOR-082/083 的已知 FSI 下 OSR；只供同分母案例對讀，不等同院落面積比例。",
+      "status": "MEASURED_PRECEDENT"
+    }
+  },
+  "drawing_steps": [
+    {
+      "order": 1,
+      "action_zh": "畫出島形、岸線、橋頭、城市道路、保留建築和可能的公共入口，分層標示可達性與權屬。"
+    },
+    {
+      "order": 2,
+      "action_zh": "先定兩條組團邊界街，再連接橋頭與外部路口；標出一條連續橫向公共步行軸。"
+    },
+    {
+      "order": 3,
+      "action_zh": "用 140–220 m 短邊、180–320 m 長邊的 EDITORIAL 包絡畫少數大型街廓，不把研究窗邊長誤當作實測街廓。"
+    },
+    {
+      "order": 4,
+      "action_zh": "沿外緣切 8–16 m 起稿面寬的住宅宗地；大面積公建合併宗地時保留多入口與可讀分界。"
+    },
+    {
+      "order": 5,
+      "action_zh": "用連續建築翼圍合主要院落，先確認至少 20 m 的淨寬作 EDITORIAL 最小值，再按日照、樹木和使用需求調整。"
+    },
+    {
+      "order": 6,
+      "action_zh": "在橋頭、重要路口或保留建築旁配置院落入口、開口型量體和穿越廊道，標清楚公私邊界。"
+    },
+    {
+      "order": 7,
+      "action_zh": "畫院落、入口廣場和公園／水岸連接，檢查步行路徑不必穿越未授權的半私有空間。"
+    },
+    {
+      "order": 8,
+      "action_zh": "計算同口徑 GSI、FSI、L、OSR，與 KNSM/Java 參照並列；密度只作檢查值，設計者仍需選擇方案。"
+    }
+  ],
+  "land_use_budget": {
+    "roads": {
+      "minimum": 16,
+      "maximum": 22,
+      "unit": "percent_site_area",
+      "status": "EDITORIAL",
+      "basis_zh": "外圍街道與內部服務路用地，未由案例庫做完整面積盤點。"
+    },
+    "blocks": {
+      "minimum": 46,
+      "maximum": 56,
+      "unit": "percent_site_area",
+      "status": "EDITORIAL",
+      "basis_zh": "組團及建築用地比例為概念設計預算，不是 KNSM 或 Java 實測比例。"
+    },
+    "parks": {
+      "minimum": 8,
+      "maximum": 14,
+      "unit": "percent_site_area",
+      "status": "EDITORIAL",
+      "basis_zh": "公園份額需配合基地邊界和既有公共綠地重新測量。"
+    },
+    "plazas": {
+      "minimum": 5,
+      "maximum": 10,
+      "unit": "percent_site_area",
+      "status": "EDITORIAL",
+      "basis_zh": "入口廣場和公共前場預算；不可與院落重複計面積。"
+    },
+    "waterfront": {
+      "minimum": 0,
+      "maximum": 10,
+      "unit": "percent_site_area",
+      "status": "EDITORIAL",
+      "basis_zh": "只在基地臨水且陸地內設公共帶時配置，不含水面。"
+    },
+    "service": {
+      "minimum": 3,
+      "maximum": 8,
+      "unit": "percent_site_area",
+      "status": "EDITORIAL",
+      "basis_zh": "服務設施用地按垃圾、消防、卸貨和機電需求另行核算。"
+    }
+  },
+  "common_errors_zh": [
+    "把大街廓圖底效果當成足以支持所有內部空間的證據。",
+    "院落淨寬不足，卻仍以完整圍合稱呼。",
+    "忽略院落是私有或半公共空間，未標出管理責任。",
+    "在不規則殘地內縮後生成尖角量體。",
+    "大尺度街廓沒有穿越通路或服務入口。",
+    "留下沒有機能、入口或維護責任的未配置土地。"
+  ],
+  "precedents": [
+    {
+      "name_zh": "KNSM 島（Piraeus、Emerald Empire 等大體量作圖底參照）",
+      "ku_id": "KU-MOR-083",
+      "measurements": [
+        {
+          "metric": "GSI",
+          "value": 0.2787,
+          "unit": "dimensionless",
+          "status": "MEASURED_PRECEDENT",
+          "limitation_zh": "KNSM 研究窗總體值，不是 Piraeus 或 Emerald Empire 單一量體量測。"
+        },
+        {
+          "metric": "FSI",
+          "value": 1.9643,
+          "unit": "dimensionless",
+          "status": "MEASURED_PRECEDENT",
+          "limitation_zh": "研究窗已知樓地板面積下限；不代表島區完整 FSI。"
+        }
+      ],
+      "borrow_zh": "借用大型建築量體在島區形成強烈圖底、街道與院落邊界相互對照的閱讀方式。",
+      "do_not_borrow_zh": "不宣稱 Piraeus 或 Emerald Empire 有獨立於 KU-MOR-083 的本輪幾何量測，也不借用它們的尺度作硬性模數。"
+    },
+    {
+      "name_zh": "爪哇島",
+      "ku_id": "KU-MOR-082",
+      "measurements": [
+        {
+          "metric": "GSI",
+          "value": 0.3082,
+          "unit": "dimensionless",
+          "status": "MEASURED_PRECEDENT",
+          "limitation_zh": "研究窗陸地指標，水岸、街道與量體的取樣範圍可能混合。"
+        },
+        {
+          "metric": "FSI",
+          "value": 2.4636,
+          "unit": "dimensionless",
+          "status": "MEASURED_PRECEDENT",
+          "limitation_zh": "已知樓地板面積下限，依 KU-MOR-082 的高度來源與覆蓋率解讀。"
+        }
+      ],
+      "borrow_zh": "借用狹長島形中橫向連接、近水距離和內部路徑需並讀的設計問題。",
+      "do_not_borrow_zh": "不把 Java-eiland 的研究窗形狀等同目標基地地籍界，也不把穿越性由圖面單獨推定。"
+    },
+    {
+      "name_zh": "巴塞隆納擴展區 Eixample",
+      "ku_id": "KU-MOR-095",
+      "measurements": [
+        {
+          "metric": "GSI",
+          "value": 0.5531,
+          "unit": "dimensionless",
+          "status": "MEASURED_PRECEDENT",
+          "limitation_zh": "研究窗觀察值；含水與陸地分母差異小，但高度覆蓋不足。"
+        },
+        {
+          "metric": "FSI",
+          "value": 2.0499,
+          "unit": "dimensionless",
+          "status": "LOWER_BOUND_NONCOMPARABLE",
+          "limitation_zh": "FSI 為非可比下限，不納入本紋理的 FSI 觀察範圍。"
+        }
+      ],
+      "borrow_zh": "借用院落作為街廓內部開放空間的平面組織邏輯，並逐一檢查邊界開口。",
+      "do_not_borrow_zh": "不將歷史街廓約 113 m 模數當成普遍標準，也不採用高度不足的 FSI 下限。"
+    }
+  ],
+  "sources": [
+    "OSM_KB4_PRECEDENTS",
+    "3DBAG_KB4_HEIGHTS",
+    "BILJECKI2022",
+    "EASTERN_HARBOUR_AMSTERDAM2012",
+    "JACOBS61",
+    "CERDA2018"
+  ]
+}

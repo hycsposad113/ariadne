@@ -1,0 +1,42 @@
+{
+  "id": "PESTOVA2022",
+  "title": "Sustainable Urban Development: Case Study Copenhagen",
+  "authors": [
+    "Viktória Peštová"
+  ],
+  "year": 2022,
+  "venue_or_publisher": "EDAMBA proceedings",
+  "doi": "https://doi.org/10.53465/edamba.2021.9788022549301.390-399",
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "ACADEMIC_CHAPTER_OR_PROCEEDINGS",
+  "tradition": "北歐永續都市發展",
+  "region": "丹麥哥本哈根",
+  "method": "會議論文；是否專門分析Nordhavn仍待確認",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "Crossref書目確認哥本哈根都市發展為研究範圍；目前沒有據此聲稱對Nordhavn特定地塊或長期成果的分析。",
+      "strength": "THEORETICAL",
+      "scope_zh": "只支持此來源明確記載的研究對象與範圍；不作跨城市因果外推，也不以書目資料推估未報告的空間數值。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref",
+    "query": {
+      "title": "Sustainable Urban Development: Case Study Copenhagen",
+      "author": "Peštová",
+      "year": 2022,
+      "api_query": "Crossref GET /works?query.bibliographic=Nordhavn Copenhagen urban development sustainability case study"
+    },
+    "matched_record_id": "10.53465/edamba.2021.9788022549301.390-399",
+    "checked_at_utc": "2026-10-08T14:00:36Z",
+    "match_notes_zh": "Crossref公開書目欄位核對題名、作者、年份及 DOI；摘要內容未保存到repository。"
+  },
+  "limitations_zh": "未將API摘要寫入repo；除claim標示的內容外，研究發現與效果量須回到來源全文核對。",
+  "critique_relationship_zh": "本記錄不宣稱與其他來源存在直接互引或逐一反駁關係。",
+  "metadata_licence_zh": "Crossref公開書目欄位；精確metadata授權未核驗，標UNKNOWN。"
+}

@@ -1,0 +1,74 @@
+{
+  "id": "KU-WAT-070",
+  "domain": "WAT",
+  "subtopic": "水敏感都市設計（WSUD）",
+  "type": "method",
+  "title_zh": "把藍綠設施維護納入空間方案評分",
+  "title_en": "把藍綠設施維護納入空間方案評分",
+  "summary_zh": "不同設施的檢查、清淤、植物管理和設備維修需求不同，不能以初始建造成本單獨比較。整合水管理回顧把制度協調列為實施條件；WSUD 討論也將運營安排納入規劃。前期空間方案應把維護頻率與通行需求呈現在同一張圖上。",
+  "key_points_zh": [
+    "維護人員的進場路徑會影響設施位置。",
+    "清淤和修繕可能與公共活動時間重疊。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "library_id": "ASHLEY2013",
+        "claim_zh": "摘要將水敏感都市設計放在城市規劃、整合水管理及多功能藍綠基礎設施脈絡，並指出在英國落地仍有機會與限制；本單元 KU-WAT-070 對照「不同設施的檢查、清淤、植物管理和設備維修需求不同，不能以初始建造成本單獨比較」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "ABSTRACT_REVIEW",
+        "effect_or_value": null,
+        "study_design": "專業論述與國際經驗整理",
+        "context_region": "英國視角與國際經驗",
+        "locator": null
+      },
+      {
+        "library_id": "FLETCHER2015",
+        "claim_zh": "本文的書目範圍涉及城市排水相關術語的演變與使用；僅憑書目不能判定不同措施的水文效能或政策成效；本單元 KU-WAT-070 對照「不同設施的檢查、清淤、植物管理和設備維修需求不同，不能以初始建造成本單獨比較」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "術語範圍依標題與書目辨識；摘要不可得，研究方法未核驗",
+        "context_region": "跨地域",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "為設施清單增加責任方、檢查項和維修通道。",
+    "以生命周期成本和效能衰退風險比較方案。"
+  ],
+  "applies_when_zh": "適用於概念設計、成本比較和運營交接。",
+  "not_applicable_when_zh": "不可在未確定責任單位時假設社區會自願維護。",
+  "debates_zh": "標準化維護假設可能忽略地方機構能力和社區自主管理差異。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "ASHLEY2013",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "FLETCHER2015",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "雨水設施治理",
+  "region": "澳洲；英國與國際經驗",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "水敏感都市設計（WSUD）"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Sustainable Futures by Design",
+      "topic": "水敏感都市設計（WSUD）"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0"
+}

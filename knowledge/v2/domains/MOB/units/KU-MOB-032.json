@@ -1,0 +1,80 @@
+{
+  "id": "KU-MOB-032",
+  "domain": "MOB",
+  "subtopic": "自行車停車",
+  "type": "pattern",
+  "title_zh": "自行車停車：可重用模式",
+  "title_en": "Bicycle parking: Reusable pattern",
+  "summary_zh": "將自行車停車設於路線可達且入口易辨認的位置，並保留擴充和不同停留時長的方案。此模式以自行車停車影響旅程起訖和轉乘便利，設計需同時處理位置、可用性、保管和與入口的連接。需要留意的代價是增加停車架不等於解決轉乘；若位置不安全、步行接駁不便或目的地不接受自行車，供給可能不被使用。",
+  "key_points_zh": [
+    "空間模式：自行車停車影響旅程起訖和轉乘便利，設計需同時處理位置、可用性、保管和與入口的連接",
+    "空間模式：將自行車停車設於路線可達且入口易辨認的位置，並保留擴充和不同停留時長的方案"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "自行車停車：可重用模式｜自行車設計需連續路線、交叉口與目的地配套；本次沒有查閱手冊條文或尺寸",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "CROW",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "自行車停車：可重用模式｜回顧發現自行車網研究逐步從路段設施擴展到交叉口與網路，但複雜網路連結和設施設計的實證仍不足；研究需要更好的抽樣、縱向資料及地域多樣性",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "BUEHLER16",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "先畫出「自行車停車影響旅程起訖和轉乘便利，設計需同時處理位置、可用性、保管和與入口的連接」所描述的空間關係，再用「增加停車架不等於解決轉乘；若位置不安全、步行接駁不便或目的地不接受自行車，供給可能不被使用」檢查它可能帶來的代價。"
+  ],
+  "applies_when_zh": "當設計需要回應「自行車停車影響旅程起訖和轉乘便利，設計需同時處理位置、可用性、保管和與入口的連接」描述的空間關係，可先把模式畫入配置，再用現地使用資料檢查。",
+  "not_applicable_when_zh": "「自行車停車影響旅程起訖和轉乘便利，設計需同時處理位置、可用性、保管和與入口的連接」不能原樣移植到缺少相同交通、界面或治理條件的場地；需先檢查「增加停車架不等於解決轉乘；若位置不安全、步行接駁不便或目的地不接受自行車，供給可能不被使用」指出的代價。",
+  "debates_zh": "增加停車架不等於解決轉乘；若位置不安全、步行接駁不便或目的地不接受自行車，供給可能不被使用；檢視「自行車停車：可重用模式」的模式落地時，還需判斷「將自行車停車設於路線可達且入口易辨認的位置，並保留擴充和不同停留時長的方案」會如何改變方案結論。",
+  "sources": [
+    {
+      "library_id": "CROW",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "BUEHLER16",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "自行車接駁與停車政策",
+  "region": "跨地域理論或實務脈絡；來源地區依引用條目判讀",
+  "curriculum_refs": [
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "自行車停車：課綱對應主題"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Sustainable Futures by Design",
+      "topic": "自行車停車：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-MOB-025",
+    "KU-MOB-026",
+    "KU-MOB-027",
+    "KU-MOB-028",
+    "KU-MOB-029",
+    "KU-MOB-030",
+    "KU-MOB-031"
+  ]
+}

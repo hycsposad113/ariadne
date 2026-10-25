@@ -1,0 +1,74 @@
+{
+  "id": "KU-WAT-016",
+  "domain": "WAT",
+  "subtopic": "海綿城市",
+  "type": "critique",
+  "title_zh": "試點成功需要與選案和基線差異一起讀",
+  "title_en": "試點成功需要與選案和基線差異一起讀",
+  "summary_zh": "一個試點區若有較好的土地條件、既有排水能力或較長預算，成果不能直接代表其他街區。濟南案例研究提供的是特定場景的評估材料；海綿城市概念文章提供的是政策語境。研究報告要把試點選擇、對照地區和自然降雨差異列為外推邊界。",
+  "key_points_zh": [
+    "政策名稱一致不代表各地有同等工程資源。",
+    "無對照組的事後統計難以區分設施效果和降雨變化。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "library_id": "AHIABLAME2012",
+        "claim_zh": "書目確認本文題名聚焦「Effectiveness of Low Impact Development Practices: Literature Review and Suggestions for Future Research」；目前只完成作者、年份、題名與 DOI 核對，未將摘要或全文結論納入此記錄；本單元 KU-WAT-016 對照「一個試點區若有較好的土地條件、既有排水能力或較長預算，成果不能直接代表其他街區」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "文獻回顧；目前僅核對書目範圍",
+        "context_region": "美國與國際都市排水",
+        "locator": null
+      },
+      {
+        "library_id": "DAVOUDI12",
+        "claim_zh": "來源範圍支持本單元所述的海綿城市問題，供概念或方法層級的比較。",
+        "effect_or_value": "研究支持以明確的治理、空間或水文邊界解讀此問題；不單獨提供 M4H 設計容量。",
+        "study_design": "規劃理論批評文集",
+        "context_region": "跨地域",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "公開試點的失效、維護成本和未達標指標，不只展示示範照片。",
+    "在城市尺度方案中以多種土壤和管網條件進行情境分析。"
+  ],
+  "applies_when_zh": "適用於海綿城市示範區比較和政策績效報告。",
+  "not_applicable_when_zh": "不可據此否定所有試點或把個案外推成全國平均。",
+  "debates_zh": "關於試點政策的現有證據容易集中於可展示的工程區，較少反映未獲資源社區。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "AHIABLAME2012",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "DAVOUDI12",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "專案評估與公平性審查",
+  "region": "中國濟南；跨地域",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "海綿城市"
+    },
+    {
+      "school": "MIT",
+      "course": null,
+      "topic": "海綿城市"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0"
+}

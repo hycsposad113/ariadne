@@ -1,0 +1,42 @@
+{
+  "id": "CANARY_WHARF_GROUP2021",
+  "title": "Discover Canary Wharf",
+  "authors": [
+    "Canary Wharf Group"
+  ],
+  "year": 2021,
+  "venue_or_publisher": "Canary Wharf Group",
+  "doi": null,
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "PROFESSIONAL_CORPORATE_PUBLICATION",
+  "tradition": "官方或專業機構公開頁面；直接來源核對",
+  "region": "英國倫敦 Canary Wharf / Wood Wharf",
+  "method": "直接檢視官方或專業機構公開頁面；非獨立學術成效評估",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "開發商導覽介紹 Wood Wharf 住宅建築、碼頭水系及濱水花園步道，並呈現其對園區生活和設計的機構敘事。",
+      "strength": "CASE_EVIDENCE",
+      "scope_zh": "公司導覽適合確認開發者公開的設施描述，不是獨立的公共性或居民受益評估。",
+      "assessment_basis": "DIRECT_SOURCE_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Official webpage or public report (direct review)",
+    "query": {
+      "title": "Discover Canary Wharf",
+      "author": "Canary Wharf Group",
+      "year": 2021,
+      "api_query": "Read-only page reviewed directly: https://canarywharf.com/wp-content/uploads/2021/05/discover-canary-wharf-may-2021.pdf"
+    },
+    "matched_record_id": "https://canarywharf.com/wp-content/uploads/2021/05/discover-canary-wharf-may-2021.pdf",
+    "checked_at_utc": "2026-10-08T14:27:24Z",
+    "match_notes_zh": "直接核對機構公開頁面或報告；此狀態不是 Crossref 書目驗證。"
+  },
+  "limitations_zh": "公司導覽適合確認開發者公開的設施描述，不是獨立的公共性或居民受益評估。",
+  "critique_relationship_zh": "本記錄不宣稱與其他書目存在直接互引或逐一反駁關係。",
+  "metadata_licence_zh": "官方或機構公開資料；個別文本的再利用授權未核驗。"
+}

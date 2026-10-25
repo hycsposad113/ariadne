@@ -1,0 +1,46 @@
+{
+  "id": "WOLCH14",
+  "title": "Urban green space, public health, and environmental justice: The challenge of making cities ‘just green enough’",
+  "authors": [
+    "Jason Byrne",
+    "Jennifer R. Wolch",
+    "Joshua P. Newell"
+  ],
+  "year": 2014,
+  "kind": "ACADEMIC_PAPER",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "文章把綠地的公共健康效益與環境正義、仕紳化風險並置；只建綠地不足以判定社會結果。",
+      "strength": "THEORETICAL",
+      "scope_zh": "北美都市脈絡；主張限於此來源的研究設計與樣本，不外推為本基地規範。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref",
+    "query": {
+      "title": "Urban green space public health and environmental justice The challenge of making cities just green enough",
+      "author": "Jennifer Wolch",
+      "year": 2014
+    },
+    "matched_record_id": "10.1016/j.landurbplan.2014.01.017",
+    "checked_at_utc": "2026-10-08T13:43:00Z",
+    "match_notes_zh": "人工核對 Crossref 題名、完整作者與年份；保存實際命中書目，主張尚未交叉核對。",
+    "receipt_path": "artifacts/kb2-theory-v3/resume-source-lookups.json"
+  },
+  "limitations_zh": "不以書目命中證明主張；主張待原著交叉核對。",
+  "metadata_licence_zh": "Metadata only; licence UNKNOWN",
+  "doi": "10.1016/j.landurbplan.2014.01.017",
+  "venue_or_publisher": "Landscape and Urban Planning",
+  "isbn": null,
+  "crossref_id": "https://doi.org/10.1016/j.landurbplan.2014.01.017",
+  "tradition": "環境正義與綠地治理",
+  "region": [
+    "北美"
+  ],
+  "method": "批判性綜述與策略框架",
+  "known_critiques": [],
+  "critique_relationship_zh": "此條目的批評連結供編者並讀，不宣稱存在直接互引。"
+}

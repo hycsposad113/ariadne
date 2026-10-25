@@ -1,0 +1,91 @@
+{
+  "id": "KU-CAS-023",
+  "domain": "CAS",
+  "subtopic": "街道與交通—城市自行車主網",
+  "type": "case",
+  "title_zh": "哥本哈根自行車網：用主網標準與定期帳本管理騎乘條件",
+  "title_en": "Copenhagen Bicycle Network: Prioritized Routes and Recurring Accounts",
+  "summary_zh": "哥本哈根的自行車政策不是單一示範街，而是由主網、區域通勤路線、路口、橋梁、停車及年度措施組成。市府的 PLUS-net 以更高的寬度、維護與除雪要求設定優先路線，並以週期性自行車帳本追蹤政策目標。Henderson 與 Gulsrud 的研究把哥本哈根自行車政治放在停車和街道資源競爭的歷史裡，提醒主網擴建也涉及道路空間重新分配。市府政策願景與實際居民出行結果仍應分開核查。",
+  "key_points_zh": [
+    "把路段、交叉口、橋梁、停車及維修標準視為同一服務網絡，避免只追求公里數。",
+    "固定週期公開帳本有助於對照目標與建設，但仍要觀察不同人口和區域的實際受益。"
+  ],
+  "evidence": {
+    "strength": "CASE_EVIDENCE",
+    "findings": [
+      {
+        "claim_zh": "Henderson 與 Gulsrud 的專書章節追溯哥本哈根汽車與自行車政治，將停車與街道空間作為政策衝突的一部分；本單元不從題名推論騎乘比例。",
+        "effect_or_value": "都市交通政治的歷史與政策範圍",
+        "study_design": "城市政策與歷史分析專書章；未核讀全文",
+        "context_region": "丹麥哥本哈根",
+        "library_id": "HENDERSON_GULSRUD2019",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "哥本哈根市府說明 PLUS-net 優先路線對寬度、維護及除雪有較高要求，並定期發布自行車帳本和進展資料。",
+        "effect_or_value": "市府網絡標準與治理監測方式",
+        "study_design": "官方策略、設計標準和定期監測報告",
+        "context_region": "丹麥哥本哈根市",
+        "library_id": "COPENHAGEN_BICYCLE2026",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "訂定主網層級時同步規定交叉口、冬季維護、停車和施工繞行，並公開各年份已完成及未完成路段。",
+    "用旅程連續性、事故與近失事件、感知安全、可及性和出行目的共同評估，而不是把騎乘總量當作唯一成績。"
+  ],
+  "applies_when_zh": "城市政府能跨年度維護連續自行車主網，並有制度公布建設進度和使用者回饋時。",
+  "not_applicable_when_zh": "只複製自行車道標線，卻沒有安全路口、穩定維護、連續路權或跨部門責任時。",
+  "debates_zh": "哥本哈根的經驗與停車政策及機動車空間縮減相連；這會引發商業、通勤與公共空間使用的分配爭論。市府帳本能呈現政策績效追蹤，但宣稱目標並不等於已達成，也不能直接外推至不同氣候或交通制度的城市。",
+  "sources": [
+    {
+      "library_id": "HENDERSON_GULSRUD2019",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "COPENHAGEN_BICYCLE2026",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "丹麥自行車城市政策、道路空間再分配",
+  "region": "西歐／丹麥哥本哈根",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": null,
+      "topic": "自行車主網、街道設計與交通政策"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": null,
+      "topic": "移動公平與道路空間政治"
+    }
+  ],
+  "case": {
+    "location": "丹麥哥本哈根市及其與首都圈相接的自行車通勤網絡",
+    "period": "市級自行車策略 2011–2025；自行車帳本自 1995 年起定期發布",
+    "area_ha": null,
+    "fsi": null,
+    "gsi": null,
+    "program_mix": "城市自行車道、優先主網、綠色自行車路線、橋梁、路口、停車設施與公共交通轉乘；土地用途比例不適用。",
+    "key_strategies_zh": [
+      "以市級策略指定優先自行車路線，為舒適、安全、路面維護與冬季除雪設定較高要求。",
+      "透過自行車帳本和交通報告持續跟蹤基礎設施、目標與市民滿意度。"
+    ],
+    "outcomes_zh": [
+      "市府資料確認其策略、優先網絡和定期帳本制度存在。",
+      "本單元沒有引用騎乘分擔率、事故趨勢或社會經濟效益數值；需另讀帳本原始表格及獨立研究。"
+    ],
+    "critiques_zh": [
+      "自行車主網會重新分配道路空間，需辨認停車、商業裝卸、步行和公車受到的影響。",
+      "全市平均值可能掩蓋外圍街區、兒童、長者或不同通勤目的的路網落差。"
+    ]
+  },
+  "version": "v2.0"
+}

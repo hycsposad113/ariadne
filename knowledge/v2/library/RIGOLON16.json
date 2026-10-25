@@ -1,0 +1,43 @@
+{
+  "id": "RIGOLON16",
+  "title": "A complex landscape of inequity in access to urban parks: A literature review",
+  "authors": [
+    "Alessandro Rigolon"
+  ],
+  "year": 2016,
+  "venue_or_publisher": "Landscape and Urban Planning",
+  "doi": "https://doi.org/10.1016/j.landurbplan.2016.05.017",
+  "isbn": null,
+  "crossref_id": "https://doi.org/10.1016/j.landurbplan.2016.05.017",
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "公園可及性與環境正義",
+  "region": [
+    "北美"
+  ],
+  "method": "文獻回顧",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "文獻回顧聚焦都市公園可及性如何沿社經與族群線索出現差距；本次未取得摘要，不引用其差距幅度。",
+      "strength": "THEORETICAL",
+      "scope_zh": "北美公園研究文獻；主張限於此來源的研究設計與樣本，不外推為本基地規範。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref",
+    "query": {
+      "title": "A complex landscape of inequity in access to urban parks: A literature review",
+      "author": "Alessandro Rigolon",
+      "year": 2016
+    },
+    "matched_record_id": "https://doi.org/10.1016/j.landurbplan.2016.05.017",
+    "checked_at_utc": "2026-10-08T09:52:45Z",
+    "match_notes_zh": "核對 Crossref 回傳書名、主要作者、出版年與 DOI；摘要只在實際取得並閱讀的論文上標 ABSTRACT_REVIEW。"
+  },
+  "limitations_zh": "北美公園研究文獻；書目核對不替代完整論文審查。",
+  "critique_relationship_zh": "此條目的批評連結供編者並讀，不宣稱存在直接互引。",
+  "metadata_licence_zh": "僅保存公開書目欄位與自行撰寫的摘要；未保存摘要原文，metadata 授權未單獨核定。"
+}

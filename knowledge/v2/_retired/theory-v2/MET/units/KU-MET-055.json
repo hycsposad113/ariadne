@@ -1,0 +1,82 @@
+{
+  "id": "KU-MET-055",
+  "domain": "MET",
+  "subtopic": "參與式方法",
+  "type": "empirical_finding",
+  "title_zh": "參與方法：制度支撐",
+  "title_en": "Participatory methods — empirical finding unit 055",
+  "summary_zh": "印度案例顯示，制度安排會影響社區參與是否有資源進入決策。分析應比較地方組織、政府回應和後續執行條件，而非只記錄諮詢次數。兩案不能分離每種制度因素的獨立效果。限制是「參與方法：制度支撐」所用的城市或案例資料不能單獨證明設計因果，外推仍需重新檢驗。",
+  "key_points_zh": [
+    "印度案例顯示，制度安排會影響社區參與是否有資源進入決策。",
+    "分析應比較地方組織、政府回應和後續執行條件，而非只記錄諮詢次數。",
+    "兩案不能分離每種制度因素的獨立效果。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "【ABSTRACT_REVIEW】印度案例顯示，制度安排會影響社區參與是否有資源進入決策。分析應比較地方組織、政府回應和後續執行條件，而非只記錄諮詢次數。兩案不能分離每種制度因素的獨立效果。限制是「參與方法：制度支撐」所用的城市或案例資料不能單獨證明設計因果，外推仍需重新檢驗。",
+        "effect_or_value": "核心城區和都市邊緣所需的諮詢議題與參與安排不同",
+        "study_design": "印度核心城區與都市邊緣兩項道路更新案例比較",
+        "context_region": "印度",
+        "library_id": "AHUJA2017",
+        "locator": null
+      },
+      {
+        "claim_zh": "【BIBLIOGRAPHIC_SCOPE_ONLY】就「參與方法：制度支撐」而言，「The Endowment of Community Participation: Institutional Settings in Two Urban Regeneration Projects」提供參與制度／都市再生的比較坐標；此處僅使用其已標明的書目／摘要範圍，不延伸為未核對的效果或因果。",
+        "effect_or_value": null,
+        "study_design": "制度脈絡／兩案比較",
+        "context_region": "歐洲",
+        "library_id": "SAVINI2010",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "方案圖面應呈現「參與方法：制度支撐」所指出的空間關係，並為關鍵判斷附上參與式都市更新／印度與參與制度／都市再生各自支持和無法支持的部分。"
+  ],
+  "design_options": [],
+  "applies_when_zh": "當問題包含「參與方法：制度支撐」且需比較方案會改變日常通行、地方使用、住宅或生計時時使用。",
+  "not_applicable_when_zh": "若研究缺少對應尺度或群體資料，不以「參與方法：制度支撐」取代把一次諮詢、問卷或簽到當成社區同意時。",
+  "debates_zh": "「參與方法：制度支撐」的爭點在於出席、諮詢和權力分享不是同一件事；代表性、語言、時間和制度會造成選擇性缺席；參與式都市更新／印度與參與制度／都市再生的研究對象不同，需保留差異而不能合併成單一規則。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "AHUJA2017",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "SAVINI2010",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "共同規劃／參與設計",
+  "region": "印度；亞洲；歐洲",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Methods of Analysis & Imagination",
+      "topic": "參與方法：制度支撐 — 參與式方法"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "參與方法：制度支撐 — 參與式方法"
+    },
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.301J",
+      "topic": "參與方法：制度支撐 — 參與式方法"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "參與方法：制度支撐 — 參與式方法"
+    }
+  ],
+  "version": "2.0.0"
+}

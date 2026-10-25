@@ -1,0 +1,74 @@
+{
+  "id": "KU-CLI-047",
+  "domain": "CLI",
+  "subtopic": "高密度城市的氣候設計",
+  "type": "critique",
+  "title_zh": "機械冷卻可能抵銷局部戶外降溫收益",
+  "title_en": "機械冷卻可能抵銷局部戶外降溫收益",
+  "summary_zh": "高密度街區若以封閉建築和大量空調回應熱風險，戶外遮蔭改善未必能減少總能耗或廢熱排放。熱舒適研究指出人體適應和自然通風也參與舒適判斷；城市降溫模型則要求看區域能量平衡。設計比較需同時記錄室內、戶外和廢熱路徑。",
+  "key_points_zh": [
+    "冷卻設備會將熱量排至室外環境。",
+    "自然通風與空調設定受濕度、污染和安全影響。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "library_id": "BRAGER1998",
+        "claim_zh": "高密度街區若以封閉建築和大量空調回應熱風險，戶外遮蔭改善未必能減少總能耗或廢熱排放。",
+        "effect_or_value": "設計比較需同時記錄室內、戶外和廢熱路徑。",
+        "study_design": "熱適應文獻回顧",
+        "context_region": "跨地域建築環境",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "library_id": "GIVONI1998",
+        "claim_zh": "Open Library 書目記錄確認此專著的書名、作者與年份；未據此摘錄書中任何定量設計規則；本單元 KU-CLI-047 對照「高密度街區若以封閉建築和大量空調回應熱風險，戶外遮蔭改善未必能減少總能耗或廢熱排放」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "專業學術專著；本地僅核對書目範圍",
+        "context_region": "跨地域",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "把建築冷卻策略和街道熱環境納入同一能量圖。",
+    "評估夜間排熱及使用者開窗條件。"
+  ],
+  "applies_when_zh": "適用於高密度熱適應方案審查。",
+  "not_applicable_when_zh": "不適用於單靠街道模型判定建築能源影響。",
+  "debates_zh": "能耗和戶外舒適的因果關係受建築營運和電力系統影響。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "BRAGER1998",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "GIVONI1998",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "建築冷卻與都市熱平衡批評",
+  "region": "跨地域建築環境；跨地域模擬研究",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "高密度城市的氣候設計"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": null,
+      "topic": "高密度城市的氣候設計"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0"
+}

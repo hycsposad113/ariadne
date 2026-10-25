@@ -1,0 +1,81 @@
+{
+  "id": "KU-MOB-018",
+  "domain": "MOB",
+  "subtopic": "荷蘭自行車設計原則（連貫、直接、安全、舒適、吸引）",
+  "type": "empirical_finding",
+  "title_zh": "自行車政策組合與使用情境",
+  "title_en": "Cycling policy packages across countries",
+  "summary_zh": "三國國家資料與大小城市案例比較，研究脈絡為荷蘭、丹麥、德國；英國和美國為低占比對照。五項設計原則需要設施、管理、停車與交通教育配合。分離設施、居住區交通寧靜、停車和公共運輸整合與高自行車使用共同出現。限制包括多項政策同時改變，無法分離單一設計元素效果。",
+  "key_points_zh": [
+    "五項設計原則需要設施、管理、停車與交通教育配合",
+    "限制：多項政策同時改變，無法分離單一設計元素效果",
+    "效果或方向：分離設施、居住區交通寧靜、停車和公共運輸整合與高自行車使用共同出現"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "自行車政策組合與使用情境｜五項設計原則需要設施、管理、停車與交通教育配合",
+        "effect_or_value": "分離設施、居住區交通寧靜、停車和公共運輸整合與高自行車使用共同出現",
+        "study_design": "三國國家資料與大小城市案例比較",
+        "context_region": "荷蘭、丹麥、德國；英國和美國為低占比對照",
+        "library_id": "PUCHER08",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "自行車政策組合與使用情境｜自行車設計需連續路線、交叉口與目的地配套；本次沒有查閱手冊條文或尺寸",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "CROW",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "依交通速度和路口衝突選擇保護方式，並補足停車和轉乘"
+  ],
+  "applies_when_zh": "若本地觀察單位與荷蘭、丹麥、德國；英國和美國為低占比對照的研究脈絡可對照，可用「五項設計原則需要設施、管理、停車與交通教育配合」作為荷蘭自行車設計原則（連貫、直接、安全、舒適、吸引）的比較線索。",
+  "not_applicable_when_zh": "這項荷蘭、丹麥、德國；英國和美國為低占比對照的研究結果不能單獨證明因果或預測其他城市的街段；原研究多項政策同時改變，無法分離單一設計元素效果。",
+  "debates_zh": "關聯能否外推；多項政策同時改變，無法分離單一設計元素效果；檢視「自行車政策組合與使用情境」的研究解讀時，還需判斷「限制：多項政策同時改變，無法分離單一設計元素效果」會如何改變方案結論。",
+  "sources": [
+    {
+      "library_id": "PUCHER08",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "CROW",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "荷蘭自行車網與政策",
+  "region": "荷蘭、丹麥、德國；英國和美國為低占比對照",
+  "curriculum_refs": [
+    {
+      "school": "UCL Bartlett",
+      "course": "Sustainable Futures by Design",
+      "topic": "荷蘭自行車設計原則（連貫、直接、安全、舒適、吸引）：課綱對應主題"
+    },
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "荷蘭自行車設計原則（連貫、直接、安全、舒適、吸引）：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-MOB-017",
+    "KU-MOB-019",
+    "KU-MOB-020",
+    "KU-MOB-021",
+    "KU-MOB-022",
+    "KU-MOB-023",
+    "KU-MOB-024"
+  ]
+}

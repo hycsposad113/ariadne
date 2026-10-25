@@ -1,0 +1,61 @@
+{
+  "id": "KU-ECO-017",
+  "domain": "ECO",
+  "subtopic": "生態網絡與連結度",
+  "type": "concept",
+  "title_zh": "踏腳石棲地補足長距離間隔",
+  "title_en": "Stepping stones may bridge gaps",
+  "summary_zh": "小型植栽和濕地能在大型棲地間提供暫時資源。它們是否有效取決於物種移動能力和停留資源。孤立綠點也可能成為生態陷阱。短距離連結和高品質核心棲地需同時維護。在方案中記錄踏腳石的距離、資源和通往的目標生境。",
+  "key_points_zh": [
+    "小型植栽和濕地能在大型棲地間提供暫時資源",
+    "它們是否有效取決於物種移動能力和停留資源"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "小型植栽和濕地能在大型棲地間提供暫時資源。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "跨國",
+        "library_id": "ELMQVIST13",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "短距離連結和高品質核心棲地需同時維護。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "在方案中記錄踏腳石的距離、資源和通往的目標生境。"
+  ],
+  "applies_when_zh": "適用於高密度街區的細粒度生態連接。",
+  "not_applicable_when_zh": "不宜只按點位數量判定網絡品質。",
+  "debates_zh": "短距離連結和高品質核心棲地需同時維護。",
+  "sources": [
+    {
+      "library_id": "ELMQVIST13",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "KOWARIK11",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "都市社會生態系統",
+  "region": "跨國",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "生態網絡與連結度"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-ECO-016",
+    "KU-ECO-018"
+  ]
+}

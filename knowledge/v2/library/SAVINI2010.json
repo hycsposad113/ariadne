@@ -1,0 +1,46 @@
+{
+  "id": "SAVINI2010",
+  "title": "The Endowment of Community Participation: Institutional Settings in Two Urban Regeneration Projects",
+  "authors": [
+    "Federico Savini"
+  ],
+  "year": 2010,
+  "venue_or_publisher": "Crossref indexed journal record",
+  "doi": "https://doi.org/10.1111/j.1468-2427.2010.00997.x",
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "參與制度／都市再生",
+  "region": [
+    "歐洲"
+  ],
+  "method": "制度脈絡／兩案比較",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "研究範疇聚焦兩個都市再生案的制度條件與社區參與；本次 Crossref 記錄未提供摘要，因此只作書目範圍引用。",
+      "strength": "THEORETICAL",
+      "scope_zh": "只支持所標示的理論範圍或個案；不提供 M4H 法規、基地實測或未查證的數值。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [
+    "ARNSTEIN1969",
+    "FANSTEIN10"
+  ],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref",
+    "query": {
+      "title": "The Endowment of Community Participation: Institutional Settings in Two Urban Regeneration Projects",
+      "author": "Federico Savini",
+      "year": 2010
+    },
+    "matched_record_id": "10.1111/j.1468-2427.2010.00997.x",
+    "checked_at_utc": "2026-10-08T09:27:34Z",
+    "match_notes_zh": "公開 API 比對書名、作者及年份。僅確認書目；新書條目未保存 API 摘要。"
+  },
+  "limitations_zh": "本次只使用核准的公開書目 API；除明標 ABSTRACT_REVIEW 的來源外，未核讀全文。書目查證不等於主張、因果或參數驗證。",
+  "critique_relationship_zh": "known_critiques 是編者指定的替代閱讀，不代表來源間逐一互引或直接反駁。",
+  "metadata_licence_zh": "只保存必要書目欄位與自行摘要；未保存 API 摘要全文，metadata 授權未逐筆核驗，標 UNKNOWN。"
+}

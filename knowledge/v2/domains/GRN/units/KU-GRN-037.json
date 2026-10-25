@@ -1,0 +1,65 @@
+{
+  "id": "KU-GRN-037",
+  "domain": "GRN",
+  "subtopic": "公園使用與維護",
+  "type": "method",
+  "title_zh": "使用者觀察須分季節與時段",
+  "title_en": "Observe use across seasons",
+  "summary_zh": "日照、降雨和學校假期會改變公園活動。一次現勘只能說明當時段的使用情形。季節不可能完全控制，資料應說明觀察條件。季節性活動波動既是設計條件，也可能造成平均值掩蓋尖峰。",
+  "key_points_zh": [
+    "日照、降雨和學校假期會改變公園活動",
+    "一次現勘只能說明當時段的使用情形"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "日照、降雨和學校假期會改變公園活動。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "澳洲",
+        "library_id": "BROWN09",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "季節性活動波動既是設計條件，也可能造成平均值掩蓋尖峰。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "建立跨平日、週末和季節的重複觀察表。"
+  ],
+  "applies_when_zh": "適用於方案前後評估。",
+  "not_applicable_when_zh": "不能用一次空場照片判定公園沒有需求。",
+  "debates_zh": "季節性活動波動既是設計條件，也可能造成平均值掩蓋尖峰。",
+  "sources": [
+    {
+      "library_id": "BROWN09",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "ELMQVIST13",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "都市水治理",
+  "region": "澳洲",
+  "curriculum_refs": [
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "公園使用與維護"
+    },
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "公園使用與維護"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-GRN-038"
+  ]
+}

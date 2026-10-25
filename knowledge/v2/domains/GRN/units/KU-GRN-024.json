@@ -1,0 +1,61 @@
+{
+  "id": "KU-GRN-024",
+  "domain": "GRN",
+  "subtopic": "開放空間系統與綠色網絡",
+  "type": "design_principle",
+  "title_zh": "連接路徑需要跨越治理邊界",
+  "title_en": "Networks must cross ownership boundaries",
+  "summary_zh": "綠道在地圖上連續，實際上可能跨越不同機關和私人土地。維護和開放規則的不一致會形成服務缺口。跨界協調可能需要長期資金與法律協議。網絡完整性取決於制度連結而非單純幾何接觸。",
+  "key_points_zh": [
+    "綠道在地圖上連續，實際上可能跨越不同機關和私人土地",
+    "維護和開放規則的不一致會形成服務缺口"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "綠道在地圖上連續，實際上可能跨越不同機關和私人土地。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "澳洲",
+        "library_id": "NORTON15",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "網絡完整性取決於制度連結而非單純幾何接觸。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "把土地所有權、管理責任和通行權附在網絡節點資料上。"
+  ],
+  "applies_when_zh": "適用於鐵路、水岸和校園相鄰綠地。",
+  "not_applicable_when_zh": "不適用於只由單一機關管理的簡化假設。",
+  "debates_zh": "網絡完整性取決於制度連結而非單純幾何接觸。",
+  "sources": [
+    {
+      "library_id": "NORTON15",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "SUSHINSKY13",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "氣候調適與綠色基礎設施",
+  "region": "澳洲",
+  "curriculum_refs": [
+    {
+      "school": "UCL Bartlett",
+      "course": "Critical Debates in Urban Design",
+      "topic": "開放空間系統與綠色網絡"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-GRN-023",
+    "KU-GRN-025"
+  ]
+}

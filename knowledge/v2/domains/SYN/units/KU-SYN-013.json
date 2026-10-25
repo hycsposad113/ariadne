@@ -1,0 +1,80 @@
+{
+  "id": "KU-SYN-013",
+  "domain": "SYN",
+  "subtopic": "整合度與選擇度",
+  "type": "method",
+  "title_zh": "整合度與選擇度：可檢驗的方法",
+  "title_en": "Integration and choice: Method and measurement",
+  "summary_zh": "固定圖表示、半徑和距離成本，計算兩種指標並以行人或活動資料驗證關係。這個流程用來檢驗整合度概括從一個空間到網路其他位置的相對深度，選擇度描述某空間位於多少最短路徑上。方法的主要限制是高中心性不等於高停留、可達或安全；吸引點、社會差異和交通障礙會形成其他解釋。",
+  "key_points_zh": [
+    "分析步驟：整合度概括從一個空間到網路其他位置的相對深度，選擇度描述某空間位於多少最短路徑上",
+    "分析步驟：固定圖表示、半徑和距離成本，計算兩種指標並以行人或活動資料驗證關係"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "整合度與選擇度：可檢驗的方法｜Primal 街道圖和多中心性指標可辨識城市結構骨架；規劃型與自組織城市的中心性分布不同，指標選擇仍受圖表示限制",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "PORTA06",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "整合度與選擇度：可檢驗的方法｜非機動可及性必須說明網路、目的地與尺度，替代量測方式需保持定義可比較",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "IACONO10",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "固定圖表示、半徑和距離成本，計算兩種指標並以行人或活動資料驗證關係"
+  ],
+  "applies_when_zh": "需要測量「整合度概括從一個空間到網路其他位置的相對深度，選擇度描述某空間位於多少最短路徑上」時，按「整合度與選擇度：可檢驗的方法」列出的資料範圍建構指標，同時保存網路版本與計算參數。",
+  "not_applicable_when_zh": "若資料無法支持「整合度概括從一個空間到網路其他位置的相對深度，選擇度描述某空間位於多少最短路徑上」的測量，這套步驟不會產生可比較的結果；方法本身也不能選定設計目標。",
+  "debates_zh": "高中心性不等於高停留、可達或安全；吸引點、社會差異和交通障礙會形成其他解釋；檢視「整合度與選擇度：可檢驗的方法」的測量程序時，還需判斷「固定圖表示、半徑和距離成本，計算兩種指標並以行人或活動資料驗證關係」會如何改變方案結論。",
+  "sources": [
+    {
+      "library_id": "PORTA06",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "IACONO10",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "空間語法中心性指標",
+  "region": "跨地域理論或實務脈絡；來源地區依引用條目判讀",
+  "curriculum_refs": [
+    {
+      "school": "Harvard GSD",
+      "course": "Cities by Design",
+      "topic": "整合度與選擇度：課綱對應主題"
+    },
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.330J Theory of City Form",
+      "topic": "整合度與選擇度：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-SYN-009",
+    "KU-SYN-010",
+    "KU-SYN-011",
+    "KU-SYN-012",
+    "KU-SYN-014",
+    "KU-SYN-015",
+    "KU-SYN-016"
+  ]
+}

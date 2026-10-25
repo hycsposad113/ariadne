@@ -1,0 +1,74 @@
+{
+  "id": "KU-ECO-001",
+  "domain": "ECO",
+  "subtopic": "地景生態學：嵌塊、廊道、基質",
+  "type": "value_range",
+  "title_zh": "城市生物多樣性統合分析樣本",
+  "title_en": "Urban biodiversity meta-analysis scope",
+  "summary_zh": "一項跨城市統合分析整理七十五座城市的都市內物種研究。其結果比較棲地、廊道與植被特徵對不同分類群的作用。研究納入的城市和生物類群無法代表所有地區。跨案例覆蓋面廣，但資料標準化和類群差異仍是限制。",
+  "key_points_zh": [
+    "一項跨城市統合分析整理七十五座城市的都市內物種研究",
+    "其結果比較棲地、廊道與植被特徵對不同分類群的作用"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "一項跨城市統合分析整理七十五座城市的都市內物種研究。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "全球多城市",
+        "library_id": "BENINDE15",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "跨案例覆蓋面廣，但資料標準化和類群差異仍是限制。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "使用統合分析作為選擇本地調查假設的依據，仍需現地基線。"
+  ],
+  "applies_when_zh": "適用於閱讀多城市都市生物多樣性證據。",
+  "not_applicable_when_zh": "不適合以七十五座城市的平均推算單一地塊的物種數。",
+  "debates_zh": "跨案例覆蓋面廣，但資料標準化和類群差異仍是限制。",
+  "sources": [
+    {
+      "library_id": "BENINDE15",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "MCHARG69",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "都市生物多樣性與地景生態學",
+  "region": "全球多城市",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "地景生態學：嵌塊、廊道、基質"
+    },
+    {
+      "school": "MIT",
+      "course": "11.330J Theory of City Form",
+      "topic": "地景生態學：嵌塊、廊道、基質"
+    }
+  ],
+  "version": "2.0.0",
+  "values": [
+    {
+      "name": "城市生物多樣性統合分析樣本",
+      "range": "75 座城市",
+      "unit": "城市數",
+      "context": "都市內生物多樣性統合分析的研究範圍；用於理解證據來源，非基地標準。；「城市生物多樣性統合分析樣本」僅供其研究脈絡內比較，不構成本基地法規；來源所列地域：全球多城市。",
+      "library_id": "BENINDE15"
+    }
+  ],
+  "related_unit_ids": [
+    "KU-ECO-002"
+  ]
+}

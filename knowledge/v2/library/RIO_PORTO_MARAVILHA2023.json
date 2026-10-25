@@ -1,0 +1,42 @@
+{
+  "id": "RIO_PORTO_MARAVILHA2023",
+  "title": "Ten years after the implosion of the Perimetral Elevated Highway: the beginning of the revitalization of the Port Region",
+  "authors": [
+    "City Hall of Rio de Janeiro"
+  ],
+  "year": 2023,
+  "venue_or_publisher": "City Hall of Rio de Janeiro",
+  "doi": null,
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "OFFICIAL_MAYORAL_PRESS_RELEASE",
+  "tradition": "大型港區工程與公共設施的官方回顧",
+  "region": "巴西里約熱內盧",
+  "method": "於內容起草後直接檢視官方／營運方公開頁面；不把機構目標或自報數據當成獨立效果研究。",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "市府回顧將 Porto Maravilha 範圍列為 500 萬平方公尺，並公布道路、人行道、自行車道及植樹等工程產出；沒有同頁獨立社會影響評估。",
+      "strength": "CASE_EVIDENCE",
+      "scope_zh": "只支持頁面明確公布的規劃口徑、歷史資料、行政數字或機構自報結果。",
+      "assessment_basis": "DIRECT_SOURCE_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Official organization webpage",
+    "query": {
+      "title": "Ten years after the implosion of the Perimetral Elevated Highway: the beginning of the revitalization of the Port Region",
+      "author": "City Hall of Rio de Janeiro",
+      "year": 2023,
+      "api_query": "Read-only official source page: https://en.prefeitura.rio/cidade/dez-anos-da-implosao-do-elevado-da-perimetral-o-inicio-da-revitalizacao-da-regiao-portuaria/"
+    },
+    "matched_record_id": "https://en.prefeitura.rio/cidade/dez-anos-da-implosao-do-elevado-da-perimetral-o-inicio-da-revitalizacao-da-regiao-portuaria/",
+    "checked_at_utc": "2026-10-08T14:47:20Z",
+    "match_notes_zh": "直接檢視官方／場址營運方公開頁；該頁不是Crossref書目記錄，未宣稱經Crossref驗證。"
+  },
+  "limitations_zh": "官方或營運方頁面可能採機構自身的規劃與成果口徑；未有獨立評估處不推定效果。",
+  "critique_relationship_zh": "本記錄不宣稱與其他來源存在直接互引或逐一反駁關係。",
+  "metadata_licence_zh": "官方／營運方公開頁面；未確認個別資料的再利用授權。"
+}

@@ -1,0 +1,65 @@
+{
+  "id": "KU-HAR-015",
+  "domain": "HAR",
+  "subtopic": "港城介面",
+  "type": "concept",
+  "title_zh": "港城介面是流動網絡，也是具體岸線",
+  "title_en": "The port-city interface combines networks and shorelines",
+  "summary_zh": "港城介面研究把碼頭與城市的關係放進全球及地方變化的脈絡，而非只把它畫成一道岸線。港口的貨流、腹地和區域競爭會延伸到港區之外，並與城市工作、交通和土地使用相互牽動。這種尺度觀能擴大調查範圍，但不會自動說明居民得到什麼利益。規劃分析仍需分別標示港務作業邊界、物流通道和可公共通行的水岸。",
+  "key_points_zh": [
+    "港城關係至少包含岸線空間、腹地物流與地方土地使用三個尺度。",
+    "供應鏈連結不能代替就業品質或岸線公共性的證據。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "港城水岸研究以全球與地方變動為題，支持追問物流與都市活動如何互動。",
+        "effect_or_value": "提供多尺度分析框架，不提供基地尺度值",
+        "study_design": "港城介面概念研究",
+        "context_region": "跨地域港口城市",
+        "library_id": "HOYLE00",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "港口城市演化研究明確討論全球化及區域競爭，但不能由網絡位置推論地方公共利益。",
+        "effect_or_value": "區域競爭是港口城市分析尺度",
+        "study_design": "港口城市演化與區域競爭分析",
+        "context_region": "跨地域港口城市",
+        "library_id": "DUCRUET2006",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "將港務營運、貨運路徑、公共通行與鄰接街區分層畫出，再判斷介面要連接、緩衝或隔離。"
+  ],
+  "applies_when_zh": "需要同時討論港區土地更新與城市腹地關係的規劃工作。",
+  "not_applicable_when_zh": "不適用於以港口連通性推定某條道路可供公眾進入的法律或實測判斷。",
+  "debates_zh": "全球物流網絡的競爭力與地方公共性不是同一個成果指標。",
+  "sources": [
+    {
+      "library_id": "HOYLE00",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "DUCRUET2006",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "港口地理與城市轉型",
+  "region": "跨地域港口城市",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": null,
+      "topic": "Port-city interface"
+    }
+  ],
+  "version": "v2.0"
+}

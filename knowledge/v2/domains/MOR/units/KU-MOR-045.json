@@ -1,0 +1,99 @@
+{
+  "id": "KU-MOR-045",
+  "domain": "MOR",
+  "subtopic": "周邊式、合院、板樓、點式、連棟與基座塔樓",
+  "type": "typology",
+  "title_zh": "新加坡高層公共住宅作為類型案例",
+  "title_en": "High-rise public housing experience",
+  "summary_zh": "新加坡公共住宅可作為高層住宅形態的地方研究案例；高度本身不能代表跨城市的住戶接受程度。 本次查到的書目資訊未提供可核對的抽樣、住戶偏好或效果大小，因此不推論高樓宜居或滿意度。 限制：本次查到的書目資訊未提供可核對的抽樣、住戶偏好或效果大小，因此不推論高樓宜居或滿意度。",
+  "key_points_zh": [
+    "新加坡公共住宅可作為高層住宅形態的地方研究案例；高度本身不能代表跨城市的住戶接受程度。",
+    "比較高層住宅時，列出戶型、共享空間、服務和管理條件。",
+    "限制：本次查到的書目資訊未提供可核對的抽樣、住戶偏好或效果大小，因此不推論高樓宜居或滿意度。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "Yue 的研究記錄新加坡公共住宅中的高層居住形態；其制度和生活條件屬地方案例，不能由高度直接推論其他城市的接受度。",
+        "library_id": "YUE05",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "新加坡",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "Siew Bee 與 Lim 討論高層社會空間不易促成鄰里互動，並建議以更接近住宅的垂直社交節點回應。",
+        "effect_or_value": null,
+        "study_design": "高層住宅空間策略研究",
+        "context_region": "馬來西亞",
+        "library_id": "SIEWBEE2016",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW",
+        "limitations_zh": "文章提出規劃方向，沒有量測高樓宜居度或跨國住戶偏好。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "比較高層住宅時，列出戶型、共享空間、服務和管理條件。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "在「新加坡高層公共住宅作為類型案例」的來源情境裡，比較高層住宅時，列出戶型、共享空間、服務和管理條件；落到設計時還要按新加坡公共住宅提供高層生活的地方研究案例；不能把同樣高度當作跨城市接受程度；「新加坡高層公共住宅作為類型案例」還須對照新加坡公共住宅可作為高層住宅形態的地方研究案例；高度本身不能代表跨城市的住戶接受程度，才能把研究發現轉成有邊界的設計判斷調整。",
+      "tradeoff_zh": "可使分析更完整，但需要一致的資料範圍和額外管理。",
+      "library_ids": [
+        "YUE05"
+      ]
+    }
+  ],
+  "applies_when_zh": "比較高層住宅時，列出戶型、共享空間、服務和管理條件。",
+  "not_applicable_when_zh": "本次查到的書目資訊未提供可核對的抽樣、住戶偏好或效果大小，因此不推論高樓宜居或滿意度。",
+  "debates_zh": "住宅類型可供跨地比較，但不同城市的住戶、福利制度和生活條件不可直接等同。",
+  "sources": [
+    {
+      "library_id": "YUE05",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "SIEWBEE2016",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "亞洲高層生活；義大利類型形態學",
+  "region": "新加坡；義大利",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "周邊式、合院、板樓、點式、連棟與基座塔樓"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "周邊式、合院、板樓、點式、連棟與基座塔樓"
+    },
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.330J Theory of City Form",
+      "topic": "周邊式、合院、板樓、點式、連棟與基座塔樓"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban form and density",
+      "topic": "周邊式、合院、板樓、點式、連棟與基座塔樓"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-MOR-039",
+    "KU-MOR-040",
+    "KU-MOR-041"
+  ],
+  "counter_unit_ids": [
+    "KU-MOR-043"
+  ]
+}

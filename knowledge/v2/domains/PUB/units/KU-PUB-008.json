@@ -1,0 +1,74 @@
+{
+  "id": "KU-PUB-008",
+  "domain": "PUB",
+  "subtopic": "廣場尺度與圍合",
+  "type": "value_range",
+  "title_zh": "交談距離與停留尺度",
+  "title_en": "Conversation distance",
+  "summary_zh": "Gehl 的設計論述以約七至八公尺討論日常交談的可及尺度。這個量級提醒設計者，過大的空場會使相遇和短談需要提高音量。聲學反射、背景交通和說話者聽力會改變可交談性。社交距離是可供現地測試的假設，不是固定人際偏好。",
+  "key_points_zh": [
+    "Gehl（2010）指出約 7 m 以內可進行一般交談並看清細節",
+    "這個量級提醒設計者，過大的空場會使相遇和短談需要提高音量"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "Gehl（2010）指出約 7 m 以內可進行一般交談並看清細節。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "英國",
+        "library_id": "GEHL10",
+        "locator": null,
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+        "limitations_zh": "社交距離是可供現地測試的假設，不是固定人際偏好。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "在活動區、座位組與穿越線間保留可調整的近距離小群組。"
+  ],
+  "applies_when_zh": "可用於檢查廣場是否提供不同社交尺度。",
+  "not_applicable_when_zh": "不應據此限制集會人數或把交談距離設為強制間距。",
+  "debates_zh": "社交距離是可供現地測試的假設，不是固定人際偏好。",
+  "sources": [
+    {
+      "library_id": "GEHL10",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "HILLIER84",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "FANSTEIN10",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "空間語法",
+  "region": "英國",
+  "curriculum_refs": [
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "廣場尺度與圍合"
+    }
+  ],
+  "version": "2.0.0",
+  "values": [
+    {
+      "name": "交談距離與停留尺度",
+      "range": "約 7–8 m",
+      "unit": "公尺",
+      "context": "Gehl 關於交談與公共生活尺度的經典討論；用於提出觀察問題。；「交談距離與停留尺度」僅供其研究脈絡內比較，不構成本基地法規；來源所列地域：丹麥、跨地域。",
+      "library_id": "GEHL10"
+    }
+  ],
+  "related_unit_ids": [
+    "KU-PUB-007"
+  ]
+}

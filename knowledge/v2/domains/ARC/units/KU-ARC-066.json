@@ -1,0 +1,90 @@
+{
+  "id": "KU-ARC-066",
+  "domain": "ARC",
+  "subtopic": "停車與自行車",
+  "type": "method",
+  "title_zh": "自行車室的入口與日常路徑",
+  "title_en": "bicycle storage access route",
+  "summary_zh": "自行車停車的實用性取決於從街道到車架的完整路徑，而不只是地下室裡的車位數。 連續坡道、門檻和狹窄轉角會增加推行成本。 設施入口若與汽車坡道共用，須檢查人車衝突。",
+  "key_points_zh": [
+    "核心主張：自行車停車的實用性取決於從街道到車架的完整路徑，而不只是地下室裡的車位數。",
+    "量測檢查：以路網量測入口到車架的實際距離，並在最窄處檢查車把外廓和坡度。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "自行車停車的實用性取決於從街道到車架的完整路徑，而不只是地下室裡的車位數。",
+        "effect_or_value": null,
+        "study_design": "跨地域設計參照綜整；數值狀態依 claim_verification 註記",
+        "context_region": "跨地域；用途與當地法規需分開核驗",
+        "library_id": "CROW_BIKE_PARK",
+        "locator": null,
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "從街道開始沿實際路徑追蹤一台車，標出門、坡道、轉彎和推行距離。"
+  ],
+  "applies_when_zh": "「自行車室的入口與日常路徑」可在用於方案前期的量體、平面或空間品質篩檢時使用，前提是自行車停車的實用性取決於從街道到車架的完整路徑，而不只是地下室裡的車位數與來源情境相符。",
+  "not_applicable_when_zh": "若自行車停車的實用性取決於從街道到車架的完整路徑，而不只是地下室裡的車位數不成立，就不能把「自行車室的入口與日常路徑」的結論延伸到其他情況；不得單獨作為許可、消防、結構或基地法規判定。",
+  "debates_zh": "集中式地下自行車室節省地面面積，但可能降低日常使用意願或夜間安全感。",
+  "sources": [
+    {
+      "library_id": "CROW_BIKE_PARK",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "BILJECKI2022",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+  "tradition": "荷蘭自行車停放；通行性與可達性",
+  "region": "跨地域；用途與當地法規需分開核驗",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Housing and the City / Design of the Urban Fabric",
+      "topic": "建築尺度與住宅平面"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "建築尺度與街道界面"
+    },
+    {
+      "school": "MIT",
+      "course": "Architecture and Urban Design",
+      "topic": "建築尺度與空間型態"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "建築尺度與公共生活"
+    }
+  ],
+  "check": {
+    "method_zh": "以路網量測入口到車架的實際距離，並在最窄處檢查車把外廓和坡度。",
+    "inputs": [
+      "停車與自行車",
+      "尺寸／面積圖層",
+      "適用地區與用途標籤"
+    ],
+    "logic_zh": "將量測輸入轉成明確尺寸、比例或空間關係；越界只觸發複核，不自動取代設計決策。",
+    "limitations_zh": "量測結果只觸發「自行車室的入口與日常路徑」的複核，不得單獨作為許可或法規判定。"
+  },
+  "version": "kb2-arc-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-ARC-060",
+    "KU-ARC-061",
+    "KU-ARC-062",
+    "KU-ARC-063",
+    "KU-ARC-064"
+  ]
+}

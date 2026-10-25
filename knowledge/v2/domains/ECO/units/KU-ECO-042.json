@@ -1,0 +1,61 @@
+{
+  "id": "KU-ECO-042",
+  "domain": "ECO",
+  "subtopic": "自然為本的解決方案",
+  "type": "empirical_finding",
+  "title_zh": "綠地和健康關聯需避免因果越界",
+  "title_en": "Greenness-health links need causal caution",
+  "summary_zh": "荷蘭多層次觀察分析納入二十五萬位以上居民。周邊綠地比例與自評健康呈關聯，研究結果在多種都市化程度都出現。這項關聯不是自然為本工程的試驗效果。效益敘事常從相關性滑向過度確定的宣傳。",
+  "key_points_zh": [
+    "荷蘭多層次觀察分析納入二十五萬位以上居民",
+    "周邊綠地比例與自評健康呈關聯，研究結果在多種都市化程度都出現"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "荷蘭多層次觀察分析納入二十五萬位以上居民。",
+        "effect_or_value": "住家周邊綠地比例與自評健康相關。",
+        "study_design": "多層次橫斷面分析",
+        "context_region": "荷蘭居民資料",
+        "library_id": "MAAS06",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW",
+        "limitations_zh": "橫斷面設計與居住選擇偏差妨礙因果判讀。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "NbS 健康效益應以實際暴露和縱向資料驗證。"
+  ],
+  "applies_when_zh": "適用於撰寫綠色基礎設施的健康假設。",
+  "not_applicable_when_zh": "不宜把公共健康關聯當成特定工程保證。",
+  "debates_zh": "效益敘事常從相關性滑向過度確定的宣傳。",
+  "sources": [
+    {
+      "library_id": "MAAS06",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "MCCANN02",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "公共健康與環境流行病學",
+  "region": "荷蘭居民資料",
+  "curriculum_refs": [
+    {
+      "school": "UCL Bartlett",
+      "course": "Critical Debates in Urban Design",
+      "topic": "自然為本的解決方案"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-ECO-041",
+    "KU-ECO-043"
+  ]
+}

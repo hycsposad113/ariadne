@@ -1,0 +1,71 @@
+{
+  "id": "KU-WAT-005",
+  "domain": "WAT",
+  "subtopic": "韌性理論與批評",
+  "type": "critique",
+  "title_zh": "韌性指標須說明誰受益、誰承擔成本",
+  "title_en": "Resilience metrics need to state who benefits and who bears costs",
+  "summary_zh": "Adger 討論社會與生態韌性可能如何交織，特別關注依賴自然資源的生計，但也承認兩者關係並不簡單。Meerow 等人回顧都市韌性的多種定義，顯示系統、擾動、時間和治理目的都會改變分析結果。若把快速恢復當成唯一成績，受風險群體及服務優先順序可能被平均值遮蔽。規劃者宜並列功能恢復、受益者、負擔者和可能的長期轉型。",
+  "key_points_zh": [
+    "韌性不是單一且價值中立的分數。",
+    "社會—生態關係須依資源依賴和制度脈絡理解。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "library_id": "ADGER2000",
+        "claim_zh": "摘要指出社群韌性和生態韌性可能相互關聯，但生態系統韌性是否必然轉化為社群韌性仍未明確；本單元 KU-WAT-005 對照「Adger 討論社會與生態韌性可能如何交織，特別關注依賴自然資源的生計，但也承認兩者關係並不簡單」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "ABSTRACT_REVIEW",
+        "effect_or_value": null,
+        "study_design": "概念分析",
+        "context_region": "社群與依賴環境資源的生計脈絡",
+        "locator": null
+      },
+      {
+        "library_id": "MEEROW2016",
+        "claim_zh": "題名確認本文為都市韌性定義回顧；在未讀取摘要前，不將它簡化成單一可量測指標；本單元 KU-WAT-005 對照「Adger 討論社會與生態韌性可能如何交織，特別關注依賴自然資源的生計，但也承認兩者關係並不簡單」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "文獻回顧",
+        "context_region": "跨地域都市研究",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "比較調適方案時列明哪些社群取得保護、服務恢復目標及可能的轉型負擔。",
+    "以公開情境和受影響者參與補充指標，避免由平均資產值推斷公平。"
+  ],
+  "applies_when_zh": "適用於訂定韌性目標、氣候調適評估或跨尺度治理討論。",
+  "not_applicable_when_zh": "不能用單一排名代替社會公平判斷或人本設計決策。",
+  "debates_zh": "不同韌性定義使跨研究比較困難；未揭露價值選擇的評分表可能把既有權力關係包裝成中立技術。",
+  "sources": [
+    {
+      "library_id": "ADGER2000",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "MEEROW2016",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "社會—生態韌性及批判性規劃",
+  "region": "跨地域",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": null,
+      "topic": "韌性理論與批評"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": null,
+      "topic": "韌性、公平與治理"
+    }
+  ],
+  "version": "v2.0"
+}

@@ -1,0 +1,103 @@
+{
+  "id": "KU-HOU-032",
+  "domain": "HOU",
+  "subtopic": "可負擔性",
+  "type": "empirical_finding",
+  "title_zh": "低收入安置住宅品質涉及多個居住層次",
+  "title_en": "Affordability and residential satisfaction",
+  "summary_zh": "滿意度不是住房成本或可負擔性的同義詞，研究是特定安置計畫。 把購住／租住負擔與住宅品質分開評估。 研究設計：住宅滿意問卷與人口特徵調節模型；地區：孟買，印度。 限制：滿意度不是住房成本或可負擔性的同義詞，研究是特定安置計畫。",
+  "key_points_zh": [
+    "孟買 981 戶三區調查指出，室內設計、社區環境和設施可及性都與居住滿意相關。",
+    "研究設計：住宅滿意問卷與人口特徵調節模型；地區：孟買，印度",
+    "限制：滿意度不是住房成本或可負擔性的同義詞，研究是特定安置計畫。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "孟買 981 戶三區調查指出，室內設計、社區環境和設施可及性都與居住滿意相關。",
+        "effect_or_value": "981 戶；多項住宅和鄰里條件共同相關",
+        "study_design": "住宅滿意問卷與人口特徵調節模型",
+        "context_region": "孟買，印度",
+        "library_id": "KSHETRIMAYUM2020",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "把購住／租住負擔與住宅品質分開評估。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "把購住／租住負擔與住宅品質分開評估。",
+      "tradeoff_zh": "「低收入安置住宅品質涉及多個居住層次」的主要代價不是抽象的建造成本，而是滿意度不是住房成本或可負擔性的同義詞，研究是特定安置計畫；因此先以孟買 981 戶三區調查指出，室內設計、社區環境和設施可及性都與居住滿意相關作方案比較條件。",
+      "library_ids": [
+        "KSHETRIMAYUM2020",
+        "MOHIT2011"
+      ]
+    },
+    {
+      "option_zh": "「低收入安置住宅品質涉及多個居住層次」可把取向落在直接補助、社會住宅和市場供給介入各自影響不同住戶，但需連同孟買 981 戶三區調查指出，室內設計、社區環境和設施可及性都與居住滿意相關決定適用方式。",
+      "tradeoff_zh": "「低收入安置住宅品質涉及多個居住層次」的主要代價不是抽象的建造成本，而是滿意度不是住房成本或可負擔性的同義詞，研究是特定安置計畫；因此先以孟買 981 戶三區調查指出，室內設計、社區環境和設施可及性都與居住滿意相關作方案比較條件。",
+      "library_ids": [
+        "KSHETRIMAYUM2020",
+        "MOHIT2011"
+      ]
+    }
+  ],
+  "applies_when_zh": "用於與孟買，印度研究情境可比、且量測定義相近的分析。",
+  "not_applicable_when_zh": "滿意度不是住房成本或可負擔性的同義詞，研究是特定安置計畫。",
+  "debates_zh": "滿意度不是住房成本或可負擔性的同義詞，研究是特定安置計畫。",
+  "sources": [
+    {
+      "library_id": "KSHETRIMAYUM2020",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "MOHIT2011",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "KIMJIN2019",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "孟買安置住宅與居住滿意；馬來西亞社會住宅滿意度",
+  "region": "孟買，印度；雪蘭莪，馬來西亞",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "可負擔性"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "可負擔性"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "可負擔性"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "可負擔性"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-HOU-026",
+    "KU-HOU-027",
+    "KU-HOU-028"
+  ],
+  "counter_unit_ids": [
+    "KU-HOU-030"
+  ]
+}

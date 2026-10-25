@@ -1,0 +1,31 @@
+{
+  "id": "HABERMAS84",
+  "title": "The Theory of Communicative Action",
+  "authors": [
+    "Jurgen Habermas"
+  ],
+  "year": 1984,
+  "venue_or_publisher": "Beacon Press",
+  "doi": null,
+  "isbn": "0807015067",
+  "kind": "ACADEMIC_BOOK",
+  "tradition": "待指揮官書目分類",
+  "region": [],
+  "method": "理論／方法原著候選",
+  "claims": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Open Library",
+    "query": {
+      "title": "The Theory of Communicative Action",
+      "author": "Jurgen Habermas",
+      "year": 1984
+    },
+    "matched_record_id": "/books/OL3512189M",
+    "checked_at_utc": "2026-10-08T13:46:18Z",
+    "match_notes_zh": "核對 1984 edition 的作者署名、Beacon Press 與 ISBN；不以德文原著的 1981 首版年取代英譯版本年。主張待原著核對。",
+    "receipt_path": "artifacts/kb2-theory-v3/resume-final-lookups.json"
+  },
+  "limitations_zh": "主張待原著交叉核對；搜尋命中只作書目候選。",
+  "metadata_licence_zh": "公開書目 metadata；授權未核對 UNKNOWN。"
+}

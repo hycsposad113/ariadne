@@ -1,0 +1,61 @@
+{
+  "id": "KU-ECO-008",
+  "domain": "ECO",
+  "subtopic": "地景生態學：嵌塊、廊道、基質",
+  "type": "typology",
+  "title_zh": "土地分享與保留有分類群差異",
+  "title_en": "Sharing and sparing vary by taxa",
+  "summary_zh": "都市地景可在整體低強度使用間分享棲地，也可保留緊湊的大型生境。兩種策略對不同生物群和城市化背景的作用不相同。單一物種的偏好不能代表整個生態系。效率型土地策略可能忽視生態與社會公平。",
+  "key_points_zh": [
+    "都市地景可在整體低強度使用間分享棲地，也可保留緊湊的大型生境",
+    "兩種策略對不同生物群和城市化背景的作用不相同"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "都市地景可在整體低強度使用間分享棲地，也可保留緊湊的大型生境。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "跨地域",
+        "library_id": "BARTHELEMY11",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "效率型土地策略可能忽視生態與社會公平。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "明確列出優先類群，再比較不同地景方案的預期影響。"
+  ],
+  "applies_when_zh": "適用於發展與保育選址。",
+  "not_applicable_when_zh": "不適合在缺乏生物調查時先宣布策略勝負。",
+  "debates_zh": "效率型土地策略可能忽視生態與社會公平。",
+  "sources": [
+    {
+      "library_id": "BARTHELEMY11",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "DAVOUDI12",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "空間網路科學",
+  "region": "跨地域",
+  "curriculum_refs": [
+    {
+      "school": "MIT",
+      "course": "11.330J Theory of City Form",
+      "topic": "地景生態學：嵌塊、廊道、基質"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-ECO-007",
+    "KU-ECO-009"
+  ]
+}

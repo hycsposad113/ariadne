@@ -1,0 +1,98 @@
+{
+  "id": "KU-HOU-034",
+  "domain": "HOU",
+  "subtopic": "可負擔性",
+  "type": "empirical_finding",
+  "title_zh": "住宅單元交付不等於服務面向都滿意",
+  "title_en": "Social housing satisfaction in Malaysia",
+  "summary_zh": "計畫交付數不能代表所有合格家庭覆蓋或長期住房負擔。 同時驗證入住、住房成本、服務品質與可達性。 研究設計：Likert 量表及不同計畫比較；地區：雪蘭莪，馬來西亞。",
+  "key_points_zh": [
+    "雪蘭莪 906 戶計畫的住宅單元滿意約為中等，但支援服務和鄰里設施的評價不一致。",
+    "研究設計：Likert 量表及不同計畫比較；地區：雪蘭莪，馬來西亞",
+    "限制：計畫交付數不能代表所有合格家庭覆蓋或長期住房負擔。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "雪蘭莪 906 戶計畫的住宅單元滿意約為中等，但支援服務和鄰里設施的評價不一致。",
+        "effect_or_value": "906 戶；住宅單元滿意為中等，其他面向有差異",
+        "study_design": "Likert 量表及不同計畫比較",
+        "context_region": "雪蘭莪，馬來西亞",
+        "library_id": "MOHIT2011",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "同時驗證入住、住房成本、服務品質與可達性。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "同時驗證入住、住房成本、服務品質與可達性。",
+      "tradeoff_zh": "此選項把「住宅單元交付不等於服務面向都滿意」的工作放在雪蘭莪 906 戶計畫的住宅單元滿意約為中等，但支援服務和鄰里設施的評價不一致上；需要承擔的協調或維護代價則由「計畫交付數不能代表所有合格家庭覆蓋或長期住房負擔」界定。",
+      "library_ids": [
+        "MOHIT2011",
+        "MILLIGAN2003"
+      ]
+    },
+    {
+      "option_zh": "「住宅單元交付不等於服務面向都滿意」可把取向落在直接補助、社會住宅和市場供給介入各自影響不同住戶，但需連同雪蘭莪 906 戶計畫的住宅單元滿意約為中等，但支援服務和鄰里設施的評價不一致決定適用方式。",
+      "tradeoff_zh": "此選項把「住宅單元交付不等於服務面向都滿意」的工作放在雪蘭莪 906 戶計畫的住宅單元滿意約為中等，但支援服務和鄰里設施的評價不一致上；需要承擔的協調或維護代價則由「計畫交付數不能代表所有合格家庭覆蓋或長期住房負擔」界定。",
+      "library_ids": [
+        "MOHIT2011",
+        "MILLIGAN2003"
+      ]
+    }
+  ],
+  "applies_when_zh": "用於與雪蘭莪，馬來西亞研究情境可比、且量測定義相近的分析。",
+  "not_applicable_when_zh": "計畫交付數不能代表所有合格家庭覆蓋或長期住房負擔。",
+  "debates_zh": "計畫交付數不能代表所有合格家庭覆蓋或長期住房負擔。",
+  "sources": [
+    {
+      "library_id": "MOHIT2011",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "MILLIGAN2003",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "馬來西亞社會住宅滿意度；低收入住宅可負擔性制度比較",
+  "region": "雪蘭莪，馬來西亞；澳洲與荷蘭",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "可負擔性"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "可負擔性"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "可負擔性"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "可負擔性"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-HOU-026",
+    "KU-HOU-027",
+    "KU-HOU-028"
+  ],
+  "counter_unit_ids": [
+    "KU-HOU-030"
+  ]
+}

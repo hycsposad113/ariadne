@@ -1,0 +1,74 @@
+{
+  "id": "KU-WAT-048",
+  "domain": "WAT",
+  "subtopic": "水敏感都市設計（WSUD）",
+  "type": "critique",
+  "title_zh": "維護落差會改變綠色設施的長期性能",
+  "title_en": "維護落差會改變綠色設施的長期性能",
+  "summary_zh": "滲透和植栽功能需要清淤、修枝、土壤更換及安全檢查才能延續。都市水管理回顧把管理能力列為整合系統的一部分；WSUD 應用研究也討論制度落地條件。若維護經費不穩，設施清單會高估長期可用性。",
+  "key_points_zh": [
+    "維護頻率與進場權應在土地移交前確認。",
+    "堵塞或植物衰退可能同時改變水量、水質與景觀。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "library_id": "ECKART2017",
+        "claim_zh": "書目確認本文題名聚焦「Performance and implementation of low impact development – A review」；目前只完成作者、年份、題名與 DOI 核對，未將摘要或全文結論納入此記錄；本單元 KU-WAT-048 對照「滲透和植栽功能需要清淤、修枝、土壤更換及安全檢查才能延續」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "文獻回顧；目前僅核對書目範圍",
+        "context_region": "跨地域",
+        "locator": null
+      },
+      {
+        "library_id": "KABISCH2017",
+        "claim_zh": "書目確認本文題名聚焦「Nature-Based Solutions to Climate Change Adaptation in Urban Areas—Linkages Between Science, Policy and Practice」；目前只完成作者、年份、題名與 DOI 核對，未將摘要或全文結論納入此記錄；本單元 KU-WAT-048 對照「滲透和植栽功能需要清淤、修枝、土壤更換及安全檢查才能延續」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "文獻回顧；目前僅核對書目範圍",
+        "context_region": "歐洲與國際",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "每項設施指定責任單位、檢查項目和故障回報方式。",
+    "將生命周期支出納入方案比較。"
+  ],
+  "applies_when_zh": "適用於雨水設施的維護和移交。",
+  "not_applicable_when_zh": "不可只用建成數量推斷多年運作成效。",
+  "debates_zh": "政策與實務來源多於長期跨城市維護研究，預期性能不可冒充多年觀測。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "ECKART2017",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "KABISCH2017",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "水設施維運治理",
+  "region": "澳洲；英國與國際經驗",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "水敏感都市設計（WSUD）"
+    },
+    {
+      "school": "MIT",
+      "course": null,
+      "topic": "水敏感都市設計（WSUD）"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0"
+}

@@ -1,0 +1,99 @@
+{
+  "id": "KU-WAT-008",
+  "domain": "WAT",
+  "subtopic": "水敏感都市設計（WSUD）",
+  "type": "method",
+  "title_zh": "把水敏感設計拆成水循環與責任矩陣",
+  "title_en": "Map water-sensitive design to water cycles and responsibilities",
+  "summary_zh": "水敏感都市設計在不同地區與制度中連結城市規劃、排水管理和公共空間，但名稱相同不代表工作範圍相同。Wong 與 Brown、Mitchell 及 Ashley 等人的書目分別涵蓋澳洲實踐和英國應用討論，顯示概念需要置於地方治理架構理解。工作坊可用水循環功能、設施、管理者、監測與維修頻率建立矩陣。此矩陣整理設計問題，不會自行產生滯蓄量或水質改善數字。",
+  "key_points_zh": [
+    "將政策概念拆成可指認的水文功能與設施。",
+    "把維護責任和監測指標納入設計紀錄。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "library_id": "BROWN09",
+        "claim_zh": "水管理涉及不同治理階段與制度；雨水景觀必須連同運維及排水責任討論；本單元 KU-WAT-008 對照「水敏感都市設計在不同地區與制度中連結城市規劃、排水管理和公共空間，但名稱相同不代表工作範圍相同」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "歷史／治理比較",
+        "context_region": "澳洲",
+        "locator": null
+      },
+      {
+        "library_id": "WONG2009",
+        "claim_zh": "題名與書目確認文章以水敏感城市原則為討論範圍；尚未以摘要核對其效能估計；本單元 KU-WAT-008 對照「水敏感都市設計在不同地區與制度中連結城市規劃、排水管理和公共空間，但名稱相同不代表工作範圍相同」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "概念框架與實務原則",
+        "context_region": "澳洲城市水治理脈絡",
+        "locator": null
+      },
+      {
+        "library_id": "ASHLEY2013",
+        "claim_zh": "摘要將水敏感都市設計放在城市規劃、整合水管理及多功能藍綠基礎設施脈絡，並指出在英國落地仍有機會與限制；本單元 KU-WAT-008 對照「水敏感都市設計在不同地區與制度中連結城市規劃、排水管理和公共空間，但名稱相同不代表工作範圍相同」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "ABSTRACT_REVIEW",
+        "effect_or_value": null,
+        "study_design": "專業論述與國際經驗整理",
+        "context_region": "英國視角與國際經驗",
+        "locator": null
+      },
+      {
+        "library_id": "MITCHELL2006",
+        "claim_zh": "書目確認本文回顧澳洲整合式都市水管理經驗；未由書目資料支持單一技術的容量或因果效益；本單元 KU-WAT-008 對照「水敏感都市設計在不同地區與制度中連結城市規劃、排水管理和公共空間，但名稱相同不代表工作範圍相同」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "回顧澳洲整合式都市水管理經驗",
+        "context_region": "澳洲城市",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "方案清單分列收集、滲透、暫存、排放、再利用及維護，逐欄標出責任人。",
+    "若需工程效能，另接地方降雨、土壤、管網和運維資料。"
+  ],
+  "applies_when_zh": "適用於跨部門規劃、概念方案比較和不同城市水管理術語對照。",
+  "not_applicable_when_zh": "不適用於直接設定設計暴雨、排水管徑、滯留容量或水質標準。",
+  "debates_zh": "整合性語彙可促進水務與城市設計協作，也可能把治理差異收斂成品牌。澳洲與英國的制度背景不代表荷蘭或其他城市的主管權責相同。",
+  "sources": [
+    {
+      "library_id": "BROWN09",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "WONG2009",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "ASHLEY2013",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "MITCHELL2006",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "都市水管理整合與 WSUD",
+  "region": "澳洲及英國實務討論",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": null,
+      "topic": "水敏感都市設計（WSUD）"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": null,
+      "topic": "都市水系統與規劃整合"
+    }
+  ],
+  "version": "v2.0"
+}

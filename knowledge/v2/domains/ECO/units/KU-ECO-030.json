@@ -1,0 +1,60 @@
+{
+  "id": "KU-ECO-030",
+  "domain": "ECO",
+  "subtopic": "物種友善設計",
+  "type": "empirical_finding",
+  "title_zh": "都市中的本地物種密度低於非都市估計",
+  "title_en": "Native species density is lower in cities",
+  "summary_zh": "全球資料集比較五十四座城市的鳥類和一百一十座城市的植物。都市內本地鳥類及植物密度估計約為非都市參照的百分之八與百分之二十五。資料為不同城市估計值的比較，未代表所有都市生境和物種。城市土地覆蓋和城市發展史可比氣候地域更能解釋部分差異。",
+  "key_points_zh": [
+    "全球資料集比較五十四座城市的鳥類和一百一十座城市的植物",
+    "都市內本地鳥類及植物密度估計約為非都市參照的百分之八與百分之二十五"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "全球資料集比較五十四座城市的鳥類和一百一十座城市的植物。",
+        "effect_or_value": "本地鳥類密度估計約為非都市參照 8%，植物約 25%。",
+        "study_design": "跨城市比較資料集",
+        "context_region": "全球 54 座城市鳥類、110 座城市植物",
+        "library_id": "ARONSON14",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW",
+        "limitations_zh": "資料集城市數與物種調查方法有差異，估計不等於單一城市基線。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "依本地基線確認哪些類群和棲地最需復育。"
+  ],
+  "applies_when_zh": "適用於全球都市生物多樣性證據的情境閱讀。",
+  "not_applicable_when_zh": "不能直接把全球比例套作基地物種目標。",
+  "debates_zh": "城市土地覆蓋和城市發展史可比氣候地域更能解釋部分差異。",
+  "sources": [
+    {
+      "library_id": "ARONSON14",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "KACZYNSKI08",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "都市保育生物地理",
+  "region": "全球 54 座城市鳥類、110 座城市植物",
+  "curriculum_refs": [
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "物種友善設計"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-ECO-031"
+  ]
+}

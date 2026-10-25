@@ -1,0 +1,103 @@
+{
+  "id": "KU-ARC-005",
+  "domain": "ARC",
+  "subtopic": "住宅單元與類型",
+  "type": "value_range",
+  "title_zh": "三房四人的住宅面積範圍",
+  "title_en": "3b4p dwelling area",
+  "summary_zh": "三房四人在英格蘭 NDSS 的最低 GIA 從一層 74 m² 到三層 90 m²，兩層值為 84 m²。 這組表值展示住宅層數會改變內部交通成本。 小戶型高入住數的方案仍要檢查單人房寬度與儲物位置。",
+  "key_points_zh": [
+    "核心主張：三房四人在英格蘭 NDSS 的最低 GIA 從一層 74 m² 到三層 90 m²，兩層值為 84 m²。",
+    "量測檢查：以床位數及樓層數索引 Table 1，並另核對單人房、雙人房尺寸條件。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "三房四人在英格蘭 NDSS 的最低 GIA 從一層 74 m² 到三層 90 m²，兩層值為 84 m²。",
+        "effect_or_value": "74–90 m²；兩層式為 84 m²",
+        "study_design": "跨地域設計參照綜整；數值狀態依 claim_verification 註記",
+        "context_region": "England；新住宅",
+        "library_id": "UK_NDSS_2015",
+        "locator": "technical requirements paras 10–11; Table 1",
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "3b4p minimum GIA",
+      "range": "74–90 m²；兩層式為 84 m²",
+      "unit": "m² GIA",
+      "context": "地區：England；用途：英格蘭新建三房四人住宅，範圍跨一至三層；出處：Technical housing standards – nationally described space standard；本基地法規：否；核對狀態：官方頁面直接讀取。",
+      "library_id": "UK_NDSS_2015"
+    }
+  ],
+  "design_implications_zh": [
+    "比較不同層數時分別計算有效起居面積，不要把樓梯面積誤判為同等居住空間。"
+  ],
+  "applies_when_zh": "「三房四人的住宅面積範圍」可在用於方案前期的量體、平面或空間品質篩檢時使用，前提是三房四人在英格蘭 NDSS 的最低 GIA 從一層 74 m² 到三層 90 m²，兩層值為 84 m²與來源情境相符。",
+  "not_applicable_when_zh": "若三房四人在英格蘭 NDSS 的最低 GIA 從一層 74 m² 到三層 90 m²，兩層值為 84 m²不成立，就不能把「三房四人的住宅面積範圍」的結論延伸到其他情況；不得單獨作為許可、消防、結構或基地法規判定。",
+  "debates_zh": "官方面積表是最低標準，不能替代對家庭成員組成、無障礙需求與家具的設計檢查。",
+  "sources": [
+    {
+      "library_id": "UK_NDSS_2015",
+      "claim_id": "C1",
+      "locator": "technical requirements paras 10–11; Table 1"
+    },
+    {
+      "library_id": "ARCH_STUDIO11",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "KSHETRIMAYUM2020",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "claim_verification": "ABSTRACT_REVIEW",
+  "tradition": "建築設計與住宅類型學",
+  "region": "England；新住宅",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Housing and the City / Design of the Urban Fabric",
+      "topic": "建築尺度與住宅平面"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "建築尺度與街道界面"
+    },
+    {
+      "school": "MIT",
+      "course": "Architecture and Urban Design",
+      "topic": "建築尺度與空間型態"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "建築尺度與公共生活"
+    }
+  ],
+  "check": {
+    "method_zh": "以床位數及樓層數索引 Table 1，並另核對單人房、雙人房尺寸條件。",
+    "inputs": [
+      "住宅單元與類型",
+      "尺寸／面積圖層",
+      "適用地區與用途標籤"
+    ],
+    "logic_zh": "將量測輸入轉成明確尺寸、比例或空間關係；越界只觸發複核，不自動取代設計決策。",
+    "limitations_zh": "量測結果只觸發「三房四人的住宅面積範圍」的複核，不得單獨作為許可或法規判定。"
+  },
+  "version": "kb2-arc-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-ARC-001",
+    "KU-ARC-002",
+    "KU-ARC-003",
+    "KU-ARC-004",
+    "KU-ARC-006"
+  ]
+}

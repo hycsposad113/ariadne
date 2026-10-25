@@ -1,0 +1,43 @@
+{
+  "id": "LEVITENREID2018",
+  "title": "Housing Tenure and Neighbourhood Social Capital",
+  "authors": [
+    "Catherine Leviten-Reid",
+    "Rebecca A. Matthew"
+  ],
+  "year": 2018,
+  "venue_or_publisher": "Housing, Theory and Society",
+  "doi": "10.1080/14036096.2017.1339122",
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "住宅權屬與鄰里社會資本",
+  "region": [
+    "加拿大"
+  ],
+  "method": "housing tenure and neighbourhood social-capital study",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "Leviten-Reid 與 Matthew 研究住宅權屬和鄰里社會資本的關係；書目題旨不表示特定權屬安排必然產生較高社會資本。",
+      "strength": "THEORETICAL",
+      "scope_zh": "僅依允許的公開書目資訊與專業範圍描述；沒有查閱全文，不提供本基地法規、成效估計、因果結論或數值門檻。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref",
+    "query": {
+      "title": "Housing Tenure and Neighbourhood Social Capital",
+      "author": "Catherine Leviten-Reid",
+      "year": 2018
+    },
+    "matched_record_id": "10.1080/14036096.2017.1339122",
+    "checked_at_utc": "2026-10-08T16:17:33Z",
+    "match_notes_zh": "以允許的公開 API 回傳之書名、作者與年份核對；僅確認書目，不代表全文主張已審核。"
+  },
+  "limitations_zh": "僅核對公開書目欄位與標題範圍，未取得或查閱全文；不推論研究效果或因果。",
+  "metadata_licence_zh": "保存公開 API 書目欄位與自行撰寫的範圍摘要；未保存 API 摘要原文或全文。"
+}

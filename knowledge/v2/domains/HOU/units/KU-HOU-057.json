@@ -1,0 +1,98 @@
+{
+  "id": "KU-HOU-057",
+  "domain": "HOU",
+  "subtopic": "老化與多世代居住",
+  "type": "empirical_finding",
+  "title_zh": "香港高齡者不同年齡組對住宅安全需求增加",
+  "title_en": "Ageing-in-place preferences in Hong Kong",
+  "summary_zh": "方法和樣本未見於摘要，結果不能量化為全港人口偏好。 設計檢查加入安全、熱舒適與現場支援。 研究設計：年齡組別住宅偏好研究；摘要未列樣本和抽樣方法；地區：香港私人住宅屋苑。",
+  "key_points_zh": [
+    "香港住宅偏好研究摘要指出，安全、熱舒適和健康資訊需求在三個年齡層間呈上升差異。",
+    "研究設計：年齡組別住宅偏好研究；摘要未列樣本和抽樣方法；地區：香港私人住宅屋苑",
+    "限制：方法和樣本未見於摘要，結果不能量化為全港人口偏好。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "香港住宅偏好研究摘要指出，安全、熱舒適和健康資訊需求在三個年齡層間呈上升差異。",
+        "effect_or_value": "50–65、65–75、75 歲以上三組；安全與熱舒適偏好隨年齡上升",
+        "study_design": "年齡組別住宅偏好研究；摘要未列樣本和抽樣方法",
+        "context_region": "香港私人住宅屋苑",
+        "library_id": "MOHONGKONG2023",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "設計檢查加入安全、熱舒適與現場支援。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "設計檢查加入安全、熱舒適與現場支援。",
+      "tradeoff_zh": "「香港高齡者不同年齡組對住宅安全需求增加」的主要代價不是抽象的建造成本，而是方法和樣本未見於摘要，結果不能量化為全港人口偏好；因此先以香港住宅偏好研究摘要指出，安全、熱舒適和健康資訊需求在三個年齡層間呈上升差異作方案比較條件。",
+      "library_ids": [
+        "MOHONGKONG2023",
+        "GONG2023"
+      ]
+    },
+    {
+      "option_zh": "「香港高齡者不同年齡組對住宅安全需求增加」可把取向落在在地老化、支持性住宅與小規模跨世代模式是不同策略，但需連同香港住宅偏好研究摘要指出，安全、熱舒適和健康資訊需求在三個年齡層間呈上升差異決定適用方式。",
+      "tradeoff_zh": "「香港高齡者不同年齡組對住宅安全需求增加」的主要代價不是抽象的建造成本，而是方法和樣本未見於摘要，結果不能量化為全港人口偏好；因此先以香港住宅偏好研究摘要指出，安全、熱舒適和健康資訊需求在三個年齡層間呈上升差異作方案比較條件。",
+      "library_ids": [
+        "MOHONGKONG2023",
+        "GONG2023"
+      ]
+    }
+  ],
+  "applies_when_zh": "用於與香港私人住宅屋苑研究情境可比、且量測定義相近的分析。",
+  "not_applicable_when_zh": "方法和樣本未見於摘要，結果不能量化為全港人口偏好。",
+  "debates_zh": "方法和樣本未見於摘要，結果不能量化為全港人口偏好。",
+  "sources": [
+    {
+      "library_id": "MOHONGKONG2023",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "GONG2023",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "高齡住宅偏好與在地老化；瑞典學生住宅與居住滿意",
+  "region": "香港私人住宅屋苑；斯德哥爾摩，瑞典",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "老化與多世代居住"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "老化與多世代居住"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "老化與多世代居住"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "老化與多世代居住"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-HOU-052",
+    "KU-HOU-053",
+    "KU-HOU-054"
+  ],
+  "counter_unit_ids": [
+    "KU-HOU-056"
+  ]
+}

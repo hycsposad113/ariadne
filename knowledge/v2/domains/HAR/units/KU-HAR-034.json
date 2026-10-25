@@ -1,0 +1,74 @@
+{
+  "id": "KU-HAR-034",
+  "type": "value_range",
+  "subtopic": "港區轉型案例",
+  "title_zh": "Nordhavn 第一階段規劃列出 350,000 平方公尺住商樓地板面積",
+  "title_en": "Nordhavn Phase One Plan Specifies 350,000 Square Metres",
+  "summary_zh": "哥本哈根 2011 年 Århusgadekvarteret 地方計畫，把第一階段規劃成約 350,000 平方公尺的住宅與商業樓地板面積。該數字只屬於計畫中界定的內港第一階段，不能代表今日整個 Nordhavn 的開發量。把規劃樓地板和實際完工量分開，才能避免分期比較時混用預測與成果。",
+  "values": [
+    {
+      "name": "Århusgadekvarteret 第一階段住商樓地板面積",
+      "range": "約350,000",
+      "unit": "平方公尺",
+      "context": "用途：以「Århusgadekvarteret 第一階段住商樓地板面積」作為來源情境參照；哥本哈根2011年地方計畫的首期規劃值；不是全 Nordhavn 完工量，也不是本基地法規。",
+      "library_id": "COPENHAGEN_NORDHAVN2011"
+    }
+  ],
+  "key_points_zh": [
+    "以地方計畫的首期邊界呈現樓地板數字。",
+    "後續更新要同時記錄計畫值、核准值和完工值。"
+  ],
+  "design_implications_zh": [
+    "把分期樓地板面積和交通、公共空間交付清單並列。"
+  ],
+  "applies_when_zh": "比較港區分期的計畫規模和實際落成時。",
+  "not_applicable_when_zh": "需要整個 Nordhavn 最新建成樓地板或人口統計時。",
+  "debates_zh": "開發量指標不會說明岸線是否連續開放、住宅是否可負擔或貨運功能如何調整。",
+  "sources": [
+    {
+      "library_id": "COPENHAGEN_NORDHAVN2011",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "BERTOLINI99",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "tradition": "北歐分期規劃／公共運輸整合",
+  "region": "丹麥哥本哈根",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": null,
+      "topic": "Phasing and transit-oriented urban development"
+    }
+  ],
+  "domain": "HAR",
+  "evidence": {
+    "strength": "CASE_EVIDENCE",
+    "findings": [
+      {
+        "claim_zh": "哥本哈根市2011年地方計畫列出首期350,000平方公尺住商樓地板。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "丹麥哥本哈根",
+        "library_id": "COPENHAGEN_NORDHAVN2011",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "荷蘭公共運輸與空間發展研究為此類交通導向分期比較提供分析背景，但不核實Nordhavn數字。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "丹麥哥本哈根",
+        "library_id": "BERTOLINI99",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "source_count_flag": "MULTI_SOURCE",
+  "version": "v2.0"
+}

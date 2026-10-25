@@ -1,0 +1,112 @@
+{
+  "id": "KU-HOU-038",
+  "domain": "HOU",
+  "subtopic": "鄰里單元與批評",
+  "type": "method",
+  "title_zh": "鄰里單元與批評｜分析方法",
+  "title_en": "Neighborhood unit and critiques — Analytical method",
+  "summary_zh": "特定鄰里形式不保證社群感；社會互動可能透過中介條件發生，其他設計也可能達成。 三種滿意度皆與主觀福祉顯著相關；住宅滿意有直接關聯，通勤滿意主要透過鄰里與工作滿意間接連結。 比較鄰里模型和居民對地方的認同、排斥或服務接近。",
+  "key_points_zh": [
+    "比較鄰里模型和居民對地方的認同、排斥或服務接近。",
+    "比較鄰里模型和居民對地方的認同、排斥或服務接近。",
+    "限制：不把「步行可達」直接等同社會凝聚或住宅滿意。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "Talen 對新都市主義鄰里形式與社群感的研究指出，特定形式本身不足以保證居民形成社群。",
+        "library_id": "TALEN99",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "美國",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "Mouratidis 分析通勤、鄰里和住宅滿意度與主觀福祉的關係，將這幾種結果分開測量。",
+        "library_id": "MOURATIDIS2020",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "奧斯陸城市區域，挪威",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "落實「鄰里單元與批評｜分析方法」時可先把公共設施服務圈、路網可達性和居民使用分別量測，再用特定鄰里形式不保證社群感；社會互動可能透過中介條件發生，其他設計也可能達成核對方案的空間後果。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "「鄰里單元與批評｜分析方法」可把取向落在把公共設施服務圈、路網可達性和居民使用分別量測，但需連同特定鄰里形式不保證社群感；社會互動可能透過中介條件發生，其他設計也可能達成決定適用方式。",
+      "tradeoff_zh": "此選項把「鄰里單元與批評｜分析方法」的工作放在特定鄰里形式不保證社群感；社會互動可能透過中介條件發生，其他設計也可能達成上；需要承擔的協調或維護代價則由「社區感可能透過中介條件產生，外來者和跨區使用也不應被排除」界定。",
+      "library_ids": [
+        "TALEN99",
+        "MOURATIDIS2020"
+      ]
+    },
+    {
+      "option_zh": "在「鄰里單元與批評｜分析方法」的來源情境裡，設施圈、地方中心和穿越路徑可有不同組織方式；落到設計時還要按特定鄰里形式不保證社群感；社會互動可能透過中介條件發生，其他設計也可能達成調整。",
+      "tradeoff_zh": "「鄰里單元與批評｜分析方法」採用「在「鄰里單元與批評｜分析方法」的來源情境裡，設施圈、地方中心和穿越路徑可有不同組織方式；落到設計時還要按特定鄰里形式不保證社群感；社會互動可能透過中介條件發生，其他設計也可能達成調整」時，得失要沿著特定鄰里形式不保證社群感；社會互動可能透過中介條件發生，其他設計也可能達成檢查；社區感可能透過中介條件產生，外來者和跨區使用也不應被排除。",
+      "library_ids": [
+        "TALEN99",
+        "MOURATIDIS2020"
+      ]
+    }
+  ],
+  "applies_when_zh": "「鄰里單元與批評｜分析方法」可在適用於鄰里規劃、服務配置和公共空間連結時使用，前提是特定鄰里形式不保證社群感；社會互動可能透過中介條件發生，其他設計也可能達成與來源情境相符。",
+  "not_applicable_when_zh": "若特定鄰里形式不保證社群感；社會互動可能透過中介條件發生，其他設計也可能達成不成立，就不能把「鄰里單元與批評｜分析方法」的結論延伸到其他情況；不把「步行可達」直接等同社會凝聚或住宅滿意。",
+  "debates_zh": "社區感可能透過中介條件產生，外來者和跨區使用也不應被排除。",
+  "sources": [
+    {
+      "library_id": "TALEN99",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "MOURATIDIS2020",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "TALEN2012",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "新都市主義批評；住宅、鄰里與生活福祉",
+  "region": "美國；奧斯陸城市區域，挪威",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "鄰里單元與批評"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "鄰里單元與批評"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "鄰里單元與批評"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "鄰里單元與批評"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-HOU-035",
+    "KU-HOU-036",
+    "KU-HOU-037"
+  ],
+  "counter_unit_ids": [
+    "KU-HOU-039"
+  ]
+}

@@ -1,0 +1,13 @@
+.week7-status,.week7-actions{box-sizing:border-box;min-width:0;max-width:100%;padding:10px;border-top:1px solid var(--border-subtle,#475569);color:var(--text-main,#e2e8f0);background:var(--bg-surface,#20242a);font:12px/1.5 system-ui,sans-serif;overflow-wrap:anywhere}
+.week7-status>strong,.week7-status>span{display:block;margin-bottom:6px}
+.week7-badges{display:flex;flex-wrap:wrap;gap:4px;margin:6px 0}
+.week7-badges>span{border:1px solid #64748b;border-radius:4px;padding:2px 5px;font-size:11px;cursor:help;max-width:100%}
+.week7-evidence summary,.week7-actions summary{cursor:pointer;font-weight:600;padding:6px 0}
+.week7-fields{display:grid;grid-template-columns:minmax(0,1fr);gap:10px}
+.week7-fields label{display:flex;flex-direction:column;gap:4px;font-weight:600;min-width:0}
+.week7-fields small,.week7-fields p{font-weight:400;color:var(--text-muted,#b7c1cf);margin:0;font-size:11px}
+.week7-fields input,.week7-fields select,.week7-fields button,.week7-evidence button{box-sizing:border-box;width:100%;min-width:0;max-width:100%;padding:6px;color:inherit;background:var(--bg-surface-elevated,#293240);border:1px solid #64748b;border-radius:4px;white-space:normal}
+.week7-fields fieldset{min-width:0;margin:0;border:1px solid #475569;padding:8px}
+.week7-fields fieldset p{margin-bottom:6px}
+.week7-fields pre{max-width:100%;white-space:pre-wrap;overflow-wrap:anywhere;margin:0}
+.week7-evidence dl{margin:8px 0}.week7-evidence dt{font-weight:600}.week7-evidence dd{margin:0 0 6px}

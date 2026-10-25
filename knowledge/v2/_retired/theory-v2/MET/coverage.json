@@ -1,0 +1,109 @@
+{
+  "domain": "MET",
+  "units_total": 60,
+  "topics": [
+    {
+      "topic": "製圖與疊圖（layers approach，荷蘭）",
+      "unit_ids": [
+        "KU-MET-001",
+        "KU-MET-002",
+        "KU-MET-003",
+        "KU-MET-004",
+        "KU-MET-005",
+        "KU-MET-006",
+        "KU-MET-007",
+        "KU-MET-008",
+        "KU-MET-009"
+      ],
+      "unit_count": 9
+    },
+    {
+      "topic": "類型形態分析",
+      "unit_ids": [
+        "KU-MET-010",
+        "KU-MET-011",
+        "KU-MET-012",
+        "KU-MET-013",
+        "KU-MET-014",
+        "KU-MET-015",
+        "KU-MET-016",
+        "KU-MET-017",
+        "KU-MET-018"
+      ],
+      "unit_count": 9
+    },
+    {
+      "topic": "研究式設計（research by design）",
+      "unit_ids": [
+        "KU-MET-019",
+        "KU-MET-020",
+        "KU-MET-021",
+        "KU-MET-022",
+        "KU-MET-023",
+        "KU-MET-024",
+        "KU-MET-025",
+        "KU-MET-026"
+      ],
+      "unit_count": 8
+    },
+    {
+      "topic": "情境與策略規劃",
+      "unit_ids": [
+        "KU-MET-027",
+        "KU-MET-028",
+        "KU-MET-029",
+        "KU-MET-030",
+        "KU-MET-031",
+        "KU-MET-032",
+        "KU-MET-033",
+        "KU-MET-034"
+      ],
+      "unit_count": 8
+    },
+    {
+      "topic": "評估準則",
+      "unit_ids": [
+        "KU-MET-035",
+        "KU-MET-036",
+        "KU-MET-037",
+        "KU-MET-038",
+        "KU-MET-039",
+        "KU-MET-040",
+        "KU-MET-041",
+        "KU-MET-042",
+        "KU-MET-043"
+      ],
+      "unit_count": 9
+    },
+    {
+      "topic": "繪圖作為思考工具",
+      "unit_ids": [
+        "KU-MET-044",
+        "KU-MET-045",
+        "KU-MET-046",
+        "KU-MET-047",
+        "KU-MET-048",
+        "KU-MET-049",
+        "KU-MET-050",
+        "KU-MET-051"
+      ],
+      "unit_count": 8
+    },
+    {
+      "topic": "參與式方法",
+      "unit_ids": [
+        "KU-MET-052",
+        "KU-MET-053",
+        "KU-MET-054",
+        "KU-MET-055",
+        "KU-MET-056",
+        "KU-MET-057",
+        "KU-MET-058",
+        "KU-MET-059",
+        "KU-MET-060"
+      ],
+      "unit_count": 9
+    }
+  ],
+  "coverage_status": "DRAFT_FOR_INDEPENDENT_REVIEW"
+}

@@ -1,0 +1,83 @@
+{
+  "id": "KU-REG-074",
+  "domain": "REG",
+  "subtopic": "制度比較與數值適用性",
+  "type": "value_range",
+  "title_zh": "紐約商業分區 FAR 對照帶",
+  "title_en": "New York commercial zoning FAR band",
+  "summary_zh": "所列上界需由現行 Zoning Resolution 和特別區地圖核實。 逐項報告基礎 FAR、用途混合、獎勵及公共設施條件，避免把最大值視為常態。 記錄 紐約市商業分區 與「C 分區商業用途及混合用途的制度比較」的量測分母，再和另一種尺度或用途並排比較。",
+  "key_points_zh": [
+    "紐約商業分區一般 FAR 依區類可約從 0.5 到 15；特別分區可能另訂樓地板量與公共回饋。",
+    "所列上界需由現行 Zoning Resolution 和特別區地圖核實。",
+    "逐項報告基礎 FAR、用途混合、獎勵及公共設施條件，避免把最大值視為常態。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "紐約商業分區一般 FAR 依區類可約從 0.5 到 15；特別分區可能另訂樓地板量與公共回饋。",
+        "effect_or_value": "約 0.5–15.0",
+        "study_design": "跨案例尺度對照或明示假設的規劃計算",
+        "context_region": "紐約市商業分區",
+        "library_id": "BARR2014",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "紐約商業分區 FAR 對照帶",
+      "range": "約 0.5–15.0",
+      "unit": "FAR",
+      "context": "紐約市商業分區；用途：C 分區商業用途及混合用途的制度比較；對照書目：BARR2014；適用於制度或形態比較，這不是本基地法規。",
+      "library_id": "BARR2014"
+    }
+  ],
+  "design_implications_zh": [
+    "逐項報告基礎 FAR、用途混合、獎勵及公共設施條件，避免把最大值視為常態。",
+    "記錄 紐約市商業分區 與「C 分區商業用途及混合用途的制度比較」的量測分母，再和另一種尺度或用途並排比較。"
+  ],
+  "applies_when_zh": "用於比較紐約市商業分區的C 分區商業用途及混合用途的制度比較，並明示此數值的來源、年份和面積分母。",
+  "not_applicable_when_zh": "所列上界需由現行 Zoning Resolution 和特別區地圖核實。",
+  "debates_zh": "商業 FAR 同時受土地市場和交通容量影響，法定允許量不等於實際建成量。",
+  "sources": [
+    {
+      "library_id": "BARR2014",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "NOBLE1993",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "城市經濟與歷史密度梯度",
+  "region": "紐約市商業分區",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Planning Complex Cities",
+      "topic": "制度比較與數值適用性"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Urban Design Contexts and Operations",
+      "topic": "制度比較與數值適用性"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "制度比較與數值適用性"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban design governance",
+      "topic": "制度比較與數值適用性"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008"
+}

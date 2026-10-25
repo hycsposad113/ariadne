@@ -1,0 +1,44 @@
+{
+  "id": "TEAM10PRIMER1968",
+  "title": "Team 10 Primer",
+  "authors": [
+    "Alison Smithson"
+  ],
+  "year": 1965,
+  "venue_or_publisher": "Studio Vista (1968 edition)",
+  "doi": null,
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "ACADEMIC_BOOK",
+  "tradition": "Team 10 原始文獻",
+  "region": [
+    "英國",
+    "歐洲"
+  ],
+  "method": "原典 work 與特定版次分開核對",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "核對書目確認《Team 10 Primer》的作者、題名與出版脈絡；此記錄不單獨證明單元中的效應、因果或基地條件。",
+      "strength": "THEORETICAL",
+      "scope_zh": "只界定可查證的書目與研究範圍；不提供本基地法規、實測值或通用設計門檻。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Open Library",
+    "query": {
+      "title": "Team 10 Primer",
+      "author": "Alison Smithson",
+      "year": 1965
+    },
+    "matched_record_id": "/books/OL5380006M",
+    "checked_at_utc": "2026-10-08T16:15:26Z",
+    "match_notes_zh": "Open Library work 搜尋列 1965 首版；所核對 Studio Vista edition 為 1968，並列 Alison Smithson 編者。"
+  },
+  "limitations_zh": "只核對允許使用的公開書目 API；未查閱全文。書目確認不等於主張、因果或參數驗證。",
+  "critique_relationship_zh": "本筆作為單元主題的獨立書目來源；未由書目資料推定來源間直接互引或逐條反駁。",
+  "metadata_licence_zh": "僅保存必要書目欄位與自撰摘要；未保存全文或 API 摘要，metadata 授權未逐筆核驗，標 UNKNOWN。"
+}

@@ -1,0 +1,827 @@
+{
+ "source": "artifacts/fab1/run-8/harbour_grain-plan.json",
+ "sha256": "88445febe1b657019b9e52d024de978bd628672e244423d1b07480ebfede06dd",
+ "method": "edge-based (minimum rotated rectangle; nearest edge by building centroid; south = most south-facing edge; sun_side = edges facing within 60° of south)",
+ "courtyards": [
+  {
+   "type": "Feature",
+   "id": "courtyard-0",
+   "properties": {
+    "id": "courtyard-0",
+    "block_id": "block-0",
+    "clear_width_m": 42.60000000015134,
+    "label_zh": "共用內院",
+    "dimension_label_zh": "淨寬 42.6 公尺",
+    "manager": "街廓共用管理",
+    "selection_basis": "largest feasible rectangular communal court; excludes all delivered footprints and ROW"
+   },
+   "block_id": "block-0",
+   "clear_width_m": 42.60000000015134,
+   "label_zh": "共用內院",
+   "dimension_label_zh": "淨寬 42.6 公尺",
+   "manager": "街廓共用管理",
+   "selection_basis": "largest feasible rectangular communal court; excludes all delivered footprints and ROW",
+   "courtyard_id": "courtyard-0",
+   "area_m2": 3382.440000005828,
+   "south_building_ids": [
+    "new-1",
+    "new-10",
+    "new-11",
+    "new-12",
+    "new-13",
+    "new-14",
+    "new-2",
+    "new-3",
+    "new-4",
+    "new-5",
+    "new-6",
+    "new-7",
+    "new-8",
+    "new-9"
+   ],
+   "south_edge_facing_azimuth_deg": 147.6,
+   "sun_side_building_ids": [
+    "new-1",
+    "new-10",
+    "new-11",
+    "new-12",
+    "new-13",
+    "new-14",
+    "new-2",
+    "new-3",
+    "new-38",
+    "new-4",
+    "new-5",
+    "new-6",
+    "new-7",
+    "new-8",
+    "new-9"
+   ],
+   "edges": [
+    {
+     "facing_azimuth_deg": 327.6,
+     "building_ids": [
+      "new-20",
+      "new-21",
+      "new-22",
+      "new-23",
+      "new-24",
+      "new-25",
+      "new-26",
+      "new-27",
+      "new-28",
+      "new-29",
+      "new-30",
+      "new-31",
+      "new-32",
+      "new-33",
+      "new-34",
+      "new-35",
+      "new-36"
+     ]
+    },
+    {
+     "facing_azimuth_deg": 57.6,
+     "building_ids": [
+      "new-15",
+      "new-16",
+      "new-17",
+      "new-39"
+     ]
+    },
+    {
+     "facing_azimuth_deg": 147.6,
+     "building_ids": [
+      "new-1",
+      "new-10",
+      "new-11",
+      "new-12",
+      "new-13",
+      "new-14",
+      "new-2",
+      "new-3",
+      "new-4",
+      "new-5",
+      "new-6",
+      "new-7",
+      "new-8",
+      "new-9"
+     ]
+    },
+    {
+     "facing_azimuth_deg": 237.6,
+     "building_ids": [
+      "new-38"
+     ]
+    }
+   ],
+   "north_building_ids": [
+    "new-20",
+    "new-21",
+    "new-22",
+    "new-23",
+    "new-24",
+    "new-25",
+    "new-26",
+    "new-27",
+    "new-28",
+    "new-29",
+    "new-30",
+    "new-31",
+    "new-32",
+    "new-33",
+    "new-34",
+    "new-35",
+    "new-36"
+   ]
+  },
+  {
+   "type": "Feature",
+   "id": "courtyard-1",
+   "properties": {
+    "id": "courtyard-1",
+    "block_id": "block-1",
+    "clear_width_m": 42.60000000009313,
+    "label_zh": "共用內院",
+    "dimension_label_zh": "淨寬 42.6 公尺",
+    "manager": "街廓共用管理",
+    "selection_basis": "largest feasible rectangular communal court; excludes all delivered footprints and ROW"
+   },
+   "block_id": "block-1",
+   "clear_width_m": 42.60000000009313,
+   "label_zh": "共用內院",
+   "dimension_label_zh": "淨寬 42.6 公尺",
+   "manager": "街廓共用管理",
+   "selection_basis": "largest feasible rectangular communal court; excludes all delivered footprints and ROW",
+   "courtyard_id": "courtyard-1",
+   "area_m2": 3382.4400000110104,
+   "south_building_ids": [
+    "new-44",
+    "new-45",
+    "new-46",
+    "new-47",
+    "new-48",
+    "new-49",
+    "new-50",
+    "new-51",
+    "new-52",
+    "new-53",
+    "new-54"
+   ],
+   "south_edge_facing_azimuth_deg": 147.6,
+   "sun_side_building_ids": [
+    "new-41",
+    "new-42",
+    "new-43",
+    "new-44",
+    "new-45",
+    "new-46",
+    "new-47",
+    "new-48",
+    "new-49",
+    "new-50",
+    "new-51",
+    "new-52",
+    "new-53",
+    "new-54",
+    "new-60",
+    "new-61",
+    "new-62",
+    "new-78"
+   ],
+   "edges": [
+    {
+     "facing_azimuth_deg": 237.6,
+     "building_ids": [
+      "new-41",
+      "new-42",
+      "new-43",
+      "new-60",
+      "new-61",
+      "new-62",
+      "new-78"
+     ]
+    },
+    {
+     "facing_azimuth_deg": 327.6,
+     "building_ids": [
+      "new-63",
+      "new-64",
+      "new-65",
+      "new-66",
+      "new-67",
+      "new-68",
+      "new-69",
+      "new-70",
+      "new-71",
+      "new-72",
+      "new-73",
+      "new-74",
+      "new-75",
+      "new-76"
+     ]
+    },
+    {
+     "facing_azimuth_deg": 57.6,
+     "building_ids": [
+      "new-55",
+      "new-56",
+      "new-57",
+      "new-79"
+     ]
+    },
+    {
+     "facing_azimuth_deg": 147.6,
+     "building_ids": [
+      "new-44",
+      "new-45",
+      "new-46",
+      "new-47",
+      "new-48",
+      "new-49",
+      "new-50",
+      "new-51",
+      "new-52",
+      "new-53",
+      "new-54"
+     ]
+    }
+   ],
+   "north_building_ids": [
+    "new-63",
+    "new-64",
+    "new-65",
+    "new-66",
+    "new-67",
+    "new-68",
+    "new-69",
+    "new-70",
+    "new-71",
+    "new-72",
+    "new-73",
+    "new-74",
+    "new-75",
+    "new-76"
+   ]
+  },
+  {
+   "type": "Feature",
+   "id": "courtyard-2",
+   "properties": {
+    "id": "courtyard-2",
+    "block_id": "block-2",
+    "clear_width_m": 22.0,
+    "label_zh": "共用內院",
+    "dimension_label_zh": "淨寬 22.0 公尺",
+    "manager": "街廓共用管理",
+    "selection_basis": "largest feasible rectangular communal court; excludes all delivered footprints and ROW"
+   },
+   "block_id": "block-2",
+   "clear_width_m": 22.0,
+   "label_zh": "共用內院",
+   "dimension_label_zh": "淨寬 22.0 公尺",
+   "manager": "街廓共用管理",
+   "selection_basis": "largest feasible rectangular communal court; excludes all delivered footprints and ROW",
+   "courtyard_id": "courtyard-2",
+   "area_m2": 1716.0000000009245,
+   "south_building_ids": [
+    "new-81",
+    "new-82",
+    "new-83",
+    "new-84",
+    "new-85",
+    "new-86",
+    "new-87",
+    "new-88",
+    "new-89",
+    "new-90",
+    "new-91",
+    "new-92",
+    "new-93",
+    "new-94"
+   ],
+   "south_edge_facing_azimuth_deg": 147.6,
+   "sun_side_building_ids": [
+    "new-109",
+    "new-81",
+    "new-82",
+    "new-83",
+    "new-84",
+    "new-85",
+    "new-86",
+    "new-87",
+    "new-88",
+    "new-89",
+    "new-90",
+    "new-91",
+    "new-92",
+    "new-93",
+    "new-94"
+   ],
+   "edges": [
+    {
+     "facing_azimuth_deg": 327.6,
+     "building_ids": []
+    },
+    {
+     "facing_azimuth_deg": 57.6,
+     "building_ids": [
+      "new-110",
+      "new-95",
+      "new-96",
+      "new-97"
+     ]
+    },
+    {
+     "facing_azimuth_deg": 147.6,
+     "building_ids": [
+      "new-81",
+      "new-82",
+      "new-83",
+      "new-84",
+      "new-85",
+      "new-86",
+      "new-87",
+      "new-88",
+      "new-89",
+      "new-90",
+      "new-91",
+      "new-92",
+      "new-93",
+      "new-94"
+     ]
+    },
+    {
+     "facing_azimuth_deg": 237.6,
+     "building_ids": [
+      "new-109"
+     ]
+    }
+   ],
+   "north_building_ids": []
+  },
+  {
+   "type": "Feature",
+   "id": "courtyard-3",
+   "properties": {
+    "id": "courtyard-3",
+    "block_id": "block-3",
+    "clear_width_m": 32.0,
+    "label_zh": "共用內院",
+    "dimension_label_zh": "淨寬 32.0 公尺",
+    "manager": "街廓共用管理",
+    "selection_basis": "largest feasible rectangular communal court; excludes all delivered footprints and ROW"
+   },
+   "block_id": "block-3",
+   "clear_width_m": 32.0,
+   "label_zh": "共用內院",
+   "dimension_label_zh": "淨寬 32.0 公尺",
+   "manager": "街廓共用管理",
+   "selection_basis": "largest feasible rectangular communal court; excludes all delivered footprints and ROW",
+   "courtyard_id": "courtyard-3",
+   "area_m2": 3136.0000000015034,
+   "south_building_ids": [
+    "new-113",
+    "new-114",
+    "new-115",
+    "new-116",
+    "new-117",
+    "new-118",
+    "new-119",
+    "new-120",
+    "new-121",
+    "new-122",
+    "new-123",
+    "new-124",
+    "new-125",
+    "new-126",
+    "new-127"
+   ],
+   "south_edge_facing_azimuth_deg": 147.6,
+   "sun_side_building_ids": [
+    "new-113",
+    "new-114",
+    "new-115",
+    "new-116",
+    "new-117",
+    "new-118",
+    "new-119",
+    "new-120",
+    "new-121",
+    "new-122",
+    "new-123",
+    "new-124",
+    "new-125",
+    "new-126",
+    "new-127",
+    "new-130",
+    "new-131"
+   ],
+   "edges": [
+    {
+     "facing_azimuth_deg": 147.6,
+     "building_ids": [
+      "new-113",
+      "new-114",
+      "new-115",
+      "new-116",
+      "new-117",
+      "new-118",
+      "new-119",
+      "new-120",
+      "new-121",
+      "new-122",
+      "new-123",
+      "new-124",
+      "new-125",
+      "new-126",
+      "new-127"
+     ]
+    },
+    {
+     "facing_azimuth_deg": 237.6,
+     "building_ids": [
+      "new-130",
+      "new-131"
+     ]
+    },
+    {
+     "facing_azimuth_deg": 327.6,
+     "building_ids": [
+      "new-132",
+      "new-133",
+      "new-134",
+      "new-135",
+      "new-136",
+      "new-137",
+      "new-138",
+      "new-139",
+      "new-142",
+      "new-143",
+      "new-144",
+      "new-145",
+      "new-146"
+     ]
+    },
+    {
+     "facing_azimuth_deg": 57.6,
+     "building_ids": []
+    }
+   ],
+   "north_building_ids": [
+    "new-132",
+    "new-133",
+    "new-134",
+    "new-135",
+    "new-136",
+    "new-137",
+    "new-138",
+    "new-139",
+    "new-142",
+    "new-143",
+    "new-144",
+    "new-145",
+    "new-146"
+   ]
+  },
+  {
+   "type": "Feature",
+   "id": "courtyard-4",
+   "properties": {
+    "id": "courtyard-4",
+    "block_id": "block-4",
+    "clear_width_m": 34.0,
+    "label_zh": "共用內院",
+    "dimension_label_zh": "淨寬 34.0 公尺",
+    "manager": "街廓共用管理",
+    "selection_basis": "largest feasible rectangular communal court; excludes all delivered footprints and ROW"
+   },
+   "block_id": "block-4",
+   "clear_width_m": 34.0,
+   "label_zh": "共用內院",
+   "dimension_label_zh": "淨寬 34.0 公尺",
+   "manager": "街廓共用管理",
+   "selection_basis": "largest feasible rectangular communal court; excludes all delivered footprints and ROW",
+   "courtyard_id": "courtyard-4",
+   "area_m2": 1156.0000000006735,
+   "south_building_ids": [
+    "new-149",
+    "new-150",
+    "new-151",
+    "new-152",
+    "new-153",
+    "new-154",
+    "new-155"
+   ],
+   "south_edge_facing_azimuth_deg": 147.6,
+   "sun_side_building_ids": [
+    "new-149",
+    "new-150",
+    "new-151",
+    "new-152",
+    "new-153",
+    "new-154",
+    "new-155",
+    "new-161"
+   ],
+   "edges": [
+    {
+     "facing_azimuth_deg": 57.6,
+     "building_ids": [
+      "new-156",
+      "new-166",
+      "new-167"
+     ]
+    },
+    {
+     "facing_azimuth_deg": 147.6,
+     "building_ids": [
+      "new-149",
+      "new-150",
+      "new-151",
+      "new-152",
+      "new-153",
+      "new-154",
+      "new-155"
+     ]
+    },
+    {
+     "facing_azimuth_deg": 237.6,
+     "building_ids": [
+      "new-161"
+     ]
+    },
+    {
+     "facing_azimuth_deg": 327.6,
+     "building_ids": [
+      "new-162",
+      "new-163",
+      "new-164",
+      "new-165"
+     ]
+    }
+   ],
+   "north_building_ids": [
+    "new-162",
+    "new-163",
+    "new-164",
+    "new-165"
+   ]
+  },
+  {
+   "type": "Feature",
+   "id": "courtyard-5",
+   "properties": {
+    "id": "courtyard-5",
+    "block_id": "block-5",
+    "clear_width_m": 40.0,
+    "label_zh": "共用內院",
+    "dimension_label_zh": "淨寬 40.0 公尺",
+    "manager": "街廓共用管理",
+    "selection_basis": "largest feasible rectangular communal court; excludes all delivered footprints and ROW"
+   },
+   "block_id": "block-5",
+   "clear_width_m": 40.0,
+   "label_zh": "共用內院",
+   "dimension_label_zh": "淨寬 40.0 公尺",
+   "manager": "街廓共用管理",
+   "selection_basis": "largest feasible rectangular communal court; excludes all delivered footprints and ROW",
+   "courtyard_id": "courtyard-5",
+   "area_m2": 3919.999999998574,
+   "south_building_ids": [
+    "new-172",
+    "new-173",
+    "new-174",
+    "new-175",
+    "new-176",
+    "new-177",
+    "new-178",
+    "new-179",
+    "new-180",
+    "new-181",
+    "new-182",
+    "new-183",
+    "new-184",
+    "new-185",
+    "new-186",
+    "new-187",
+    "new-188"
+   ],
+   "south_edge_facing_azimuth_deg": 147.6,
+   "sun_side_building_ids": [
+    "new-172",
+    "new-173",
+    "new-174",
+    "new-175",
+    "new-176",
+    "new-177",
+    "new-178",
+    "new-179",
+    "new-180",
+    "new-181",
+    "new-182",
+    "new-183",
+    "new-184",
+    "new-185",
+    "new-186",
+    "new-187",
+    "new-188"
+   ],
+   "edges": [
+    {
+     "facing_azimuth_deg": 327.6,
+     "building_ids": [
+      "new-191",
+      "new-192",
+      "new-193",
+      "new-194",
+      "new-195",
+      "new-196",
+      "new-197",
+      "new-198",
+      "new-199",
+      "new-200",
+      "new-201",
+      "new-202",
+      "new-203",
+      "new-204",
+      "new-205",
+      "new-206",
+      "new-207"
+     ]
+    },
+    {
+     "facing_azimuth_deg": 57.6,
+     "building_ids": []
+    },
+    {
+     "facing_azimuth_deg": 147.6,
+     "building_ids": [
+      "new-172",
+      "new-173",
+      "new-174",
+      "new-175",
+      "new-176",
+      "new-177",
+      "new-178",
+      "new-179",
+      "new-180",
+      "new-181",
+      "new-182",
+      "new-183",
+      "new-184",
+      "new-185",
+      "new-186",
+      "new-187",
+      "new-188"
+     ]
+    },
+    {
+     "facing_azimuth_deg": 237.6,
+     "building_ids": []
+    }
+   ],
+   "north_building_ids": [
+    "new-191",
+    "new-192",
+    "new-193",
+    "new-194",
+    "new-195",
+    "new-196",
+    "new-197",
+    "new-198",
+    "new-199",
+    "new-200",
+    "new-201",
+    "new-202",
+    "new-203",
+    "new-204",
+    "new-205",
+    "new-206",
+    "new-207"
+   ]
+  },
+  {
+   "type": "Feature",
+   "id": "courtyard-6",
+   "properties": {
+    "id": "courtyard-6",
+    "block_id": "block-6",
+    "clear_width_m": 42.0,
+    "label_zh": "共用內院",
+    "dimension_label_zh": "淨寬 42.0 公尺",
+    "manager": "街廓共用管理",
+    "selection_basis": "largest feasible rectangular communal court; excludes all delivered footprints and ROW"
+   },
+   "block_id": "block-6",
+   "clear_width_m": 42.0,
+   "label_zh": "共用內院",
+   "dimension_label_zh": "淨寬 42.0 公尺",
+   "manager": "街廓共用管理",
+   "selection_basis": "largest feasible rectangular communal court; excludes all delivered footprints and ROW",
+   "courtyard_id": "courtyard-6",
+   "area_m2": 2856.000000000002,
+   "south_building_ids": [
+    "new-211",
+    "new-212",
+    "new-213",
+    "new-214",
+    "new-215",
+    "new-216",
+    "new-217",
+    "new-218",
+    "new-219",
+    "new-220",
+    "new-221",
+    "new-222"
+   ],
+   "south_edge_facing_azimuth_deg": 147.6,
+   "sun_side_building_ids": [
+    "new-211",
+    "new-212",
+    "new-213",
+    "new-214",
+    "new-215",
+    "new-216",
+    "new-217",
+    "new-218",
+    "new-219",
+    "new-220",
+    "new-221",
+    "new-222",
+    "new-244"
+   ],
+   "edges": [
+    {
+     "facing_azimuth_deg": 327.6,
+     "building_ids": [
+      "new-228",
+      "new-229",
+      "new-230",
+      "new-231",
+      "new-232",
+      "new-233",
+      "new-234",
+      "new-235",
+      "new-236",
+      "new-237",
+      "new-238",
+      "new-239",
+      "new-240",
+      "new-241",
+      "new-242"
+     ]
+    },
+    {
+     "facing_azimuth_deg": 57.6,
+     "building_ids": [
+      "new-223",
+      "new-224",
+      "new-225",
+      "new-245"
+     ]
+    },
+    {
+     "facing_azimuth_deg": 147.6,
+     "building_ids": [
+      "new-211",
+      "new-212",
+      "new-213",
+      "new-214",
+      "new-215",
+      "new-216",
+      "new-217",
+      "new-218",
+      "new-219",
+      "new-220",
+      "new-221",
+      "new-222"
+     ]
+    },
+    {
+     "facing_azimuth_deg": 237.6,
+     "building_ids": [
+      "new-244"
+     ]
+    }
+   ],
+   "north_building_ids": [
+    "new-228",
+    "new-229",
+    "new-230",
+    "new-231",
+    "new-232",
+    "new-233",
+    "new-234",
+    "new-235",
+    "new-236",
+    "new-237",
+    "new-238",
+    "new-239",
+    "new-240",
+    "new-241",
+    "new-242"
+   ]
+  }
+ ]
+}

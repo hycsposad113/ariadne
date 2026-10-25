@@ -1,0 +1,74 @@
+{
+  "id": "KU-WAT-049",
+  "domain": "WAT",
+  "subtopic": "韌性理論與批評",
+  "type": "design_principle",
+  "title_zh": "辨認調適措施的鎖定與後悔成本",
+  "title_en": "辨認調適措施的鎖定與後悔成本",
+  "summary_zh": "基礎設施使用時間長，當下容量和位置會限制未來選擇。調適路徑方法提出監測和轉向節點，規劃批評則要求公開轉型成本由誰負擔。方案應在近期效益以外列出失效後的升級、撤改和重建需求。",
+  "key_points_zh": [
+    "鎖定可能來自工程、土地權益和財政承諾。",
+    "低後悔方案仍需要清楚維護責任。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "library_id": "WALKER2004",
+        "claim_zh": "文章將韌性、適應性與轉型性並列為不同概念，適合用來避免把恢復原狀當成唯一目標；本單元 KU-WAT-049 對照「基礎設施使用時間長，當下容量和位置會限制未來選擇」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "理論框架",
+        "context_region": "跨地域社會－生態系統",
+        "locator": null
+      },
+      {
+        "library_id": "WISE2014",
+        "claim_zh": "本文把調適放入變遷路徑與回應的脈絡；適用於比較漸進修補與制度轉型，不給定基地工程值；本單元 KU-WAT-049 對照「基礎設施使用時間長，當下容量和位置會限制未來選擇」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "概念論述",
+        "context_region": "跨地域氣候調適研究",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "為長壽命工程列出退出或升級所需空間。",
+    "使監測指標對應可切換的策略選項。"
+  ],
+  "applies_when_zh": "適用於不確定氣候下的基礎設施分期。",
+  "not_applicable_when_zh": "不可用策略標籤代替成本和分配分析。",
+  "debates_zh": "「低後悔」依賴價值判斷，不代表所有群體都沒有成本。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "WALKER2004",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "WISE2014",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "調適路徑與鎖定風險",
+  "region": "荷蘭；跨地域",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "韌性理論與批評"
+    },
+    {
+      "school": "MIT",
+      "course": null,
+      "topic": "韌性理論與批評"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0"
+}

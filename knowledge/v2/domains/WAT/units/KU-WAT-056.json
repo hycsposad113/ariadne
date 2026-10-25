@@ -1,0 +1,83 @@
+{
+  "id": "KU-WAT-056",
+  "domain": "WAT",
+  "subtopic": "洪水風險與多層安全",
+  "type": "value_range",
+  "title_zh": "洪水重現期是機率語言而非排程預測",
+  "title_en": "洪水重現期是機率語言而非排程預測",
+  "summary_zh": "重現期 T 對應的是年度超越機率，而不是固定週期重現。依 AEP 約等於 1/T 的定義，10、100、1,000 年重現期約對應每年 10%、1%、0.1% 的超越機率。設計解讀仍須確認事件是按雨量、河川流量或水位定義。",
+  "key_points_zh": [
+    "百年一遇不是每百年只發生一次。",
+    "水位、流量和降雨的重現期不能互相替代。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "library_id": "ZEVENBERGEN2008",
+        "claim_zh": "年度超越機率 AEP 與重現期 T 近似滿足 AEP=1/T；10、100 與 1,000 年事件各約為每年 10%、1% 與 0.1%，並非固定週期。",
+        "effect_or_value": "各地標準採用的事件定義與保護目標不同，故本單元只建立讀值欄位，具體區間待官方資料查證。",
+        "study_design": "跨尺度洪水管理",
+        "context_region": "跨地域都市水治理",
+        "locator": null,
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008"
+      },
+      {
+        "library_id": "HAASNOOT2013",
+        "claim_zh": "題名確認文章提出在深度不確定情境中規劃調適路徑的方法；不據題名宣稱它保證避免所有失效；本單元 KU-WAT-056 對照「重現期 T 對應的是年度超越機率，而不是固定週期重現」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "動態調適政策路徑方法論",
+        "context_region": "荷蘭與跨地域水治理方法",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "報告概率時同時列事件變量和參考期間。",
+    "使用條件式重現期時寫出模型和基準資料。"
+  ],
+  "applies_when_zh": "適用於閱讀洪水圖和防護標準。",
+  "not_applicable_when_zh": "不可將重現期直接當作居民遭遇洪災的時間承諾。",
+  "debates_zh": "非平穩氣候與土地變化會改變機率估計；「百年一遇」不是某一地區永遠固定的水深或保護等級。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "ZEVENBERGEN2008",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "HAASNOOT2013",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "洪水機率與風險溝通",
+  "region": "跨地域都市水治理；美國都市規劃",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "洪水風險與多層安全"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Sustainable Futures by Design",
+      "topic": "洪水風險與多層安全"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0",
+  "values": [
+    {
+      "name": "指定重現期與年超越機率換算",
+      "range": "T = 10 / 100 / 1,000 年；AEP 約 10 / 1 / 0.1",
+      "unit": "year / % per year",
+      "context": "依 AEP≈1/T 換算，用於洪水風險溝通；不是固定週期預測；這不是本基地法規；來源所列地域：跨尺度都市水治理。",
+      "library_id": "ZEVENBERGEN2008"
+    }
+  ]
+}

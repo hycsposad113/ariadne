@@ -1,0 +1,89 @@
+{
+  "id": "KU-ARC-086",
+  "domain": "ARC",
+  "subtopic": "常見錯誤與檢查",
+  "type": "method",
+  "title_zh": "中庭淨寬低於 20 m 時觸發日照與對視審查",
+  "title_en": "courtyard below 20 m risk flag",
+  "summary_zh": "低於約 20 m 的中庭可能讓對向住宅距離過近，並減少冬季直射日照時段。 這個數字只是一項方案觸發器，不可取代太陽路徑和視線分析。 外框尺寸與內院淨尺寸必須分開存。",
+  "key_points_zh": [
+    "核心主張：低於約 20 m 的中庭可能讓對向住宅距離過近，並減少冬季直射日照時段。",
+    "量測檢查：由 BIM 立面取院落最短淨寬與相鄰高度，計 W/H 並模擬冬至逐時遮蔭及窗對窗視線。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "低於約 20 m 的中庭可能讓對向住宅距離過近，並減少冬季直射日照時段。",
+        "effect_or_value": null,
+        "study_design": "跨地域設計參照綜整；數值狀態依 claim_verification 註記",
+        "context_region": "跨地域；緯度與樓高敏感",
+        "library_id": "COURTYARD_HEALTH15",
+        "locator": null,
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "先計算院內最短立面間距，再按周邊樓高、朝向和緯度輸出日影與對視圖。"
+  ],
+  "applies_when_zh": "「中庭淨寬低於 20 m 時觸發日照與對視審查」可在用於方案前期的量體、平面或空間品質篩檢時使用，前提是低於約 20 m 的中庭可能讓對向住宅距離過近，並減少冬季直射日照時段與來源情境相符。",
+  "not_applicable_when_zh": "若低於約 20 m 的中庭可能讓對向住宅距離過近，並減少冬季直射日照時段不成立，就不能把「中庭淨寬低於 20 m 時觸發日照與對視審查」的結論延伸到其他情況；不得單獨作為許可、消防、結構或基地法規判定。",
+  "debates_zh": "窄院可經退階、開口錯位或減低高度改善，寬院也可能因高樓遮擋而陰暗。",
+  "sources": [
+    {
+      "library_id": "COURTYARD_HEALTH15",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "IPLO_FREE_LAYOUT",
+      "claim_id": "C1",
+      "locator": "section Freedom within conditions; Bbl art. 4.163(2)"
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+  "tradition": "庭院日照；私密性與住宅形態",
+  "region": "跨地域；緯度與樓高敏感",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Housing and the City / Design of the Urban Fabric",
+      "topic": "建築尺度與住宅平面"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "建築尺度與街道界面"
+    },
+    {
+      "school": "MIT",
+      "course": "Architecture and Urban Design",
+      "topic": "建築尺度與空間型態"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "建築尺度與公共生活"
+    }
+  ],
+  "check": {
+    "method_zh": "由 BIM 立面取院落最短淨寬與相鄰高度，計 W/H 並模擬冬至逐時遮蔭及窗對窗視線。",
+    "inputs": [
+      "常見錯誤與檢查",
+      "尺寸／面積圖層",
+      "適用地區與用途標籤"
+    ],
+    "logic_zh": "將量測輸入轉成明確尺寸、比例或空間關係；越界只觸發複核，不自動取代設計決策。",
+    "limitations_zh": "量測結果只觸發「中庭淨寬低於 20 m 時觸發日照與對視審查」的複核，不得單獨作為許可或法規判定。"
+  },
+  "version": "kb2-arc-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-ARC-085",
+    "KU-ARC-087",
+    "KU-ARC-088",
+    "KU-ARC-089"
+  ]
+}

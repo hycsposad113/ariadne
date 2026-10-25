@@ -1,0 +1,70 @@
+{
+  "id": "KU-GRN-023",
+  "domain": "GRN",
+  "subtopic": "開放空間系統與綠色網絡",
+  "type": "value_range",
+  "title_zh": "城市綠地的綜述證據尺度",
+  "title_en": "Review evidence scale for urban greenspace",
+  "summary_zh": "一篇健康公平系統性回顧納入九十篇研究。其研究數量足以顯示綠地與健康領域的證據多樣，但仍有不同衡量方法。回顧篇數不等於研究品質一致。綜合數量增加範圍，卻不能代替因果評估。",
+  "key_points_zh": [
+    "一篇健康公平系統性回顧納入九十篇研究",
+    "其研究數量足以顯示綠地與健康領域的證據多樣，但仍有不同衡量方法"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "一篇健康公平系統性回顧納入九十篇研究。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "跨地域",
+        "library_id": "LIVESELY16",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "綜合數量增加範圍，卻不能代替因果評估。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "閱讀回顧時比較場地分類、健康結果和群體背景。"
+  ],
+  "applies_when_zh": "適用於提出後續本地研究問題。",
+  "not_applicable_when_zh": "不可把九十篇視為每座城市都得到相同結論。",
+  "debates_zh": "綜合數量增加範圍，卻不能代替因果評估。",
+  "sources": [
+    {
+      "library_id": "LIVESELY16",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "BROWN09",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "都市森林與生態系統服務",
+  "region": "跨地域",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "開放空間系統與綠色網絡"
+    }
+  ],
+  "version": "2.0.0",
+  "values": [
+    {
+      "name": "城市綠地的綜述證據尺度",
+      "range": "90 篇",
+      "unit": "納入研究數",
+      "context": "綠地與健康公平系統性回顧；是文獻範圍，不是公園數量目標。；「城市綠地的綜述證據尺度」僅供其研究脈絡內比較，不構成本基地法規；來源所列地域：跨國。",
+      "library_id": "RIGOLON21"
+    }
+  ],
+  "related_unit_ids": [
+    "KU-GRN-022",
+    "KU-GRN-024"
+  ]
+}

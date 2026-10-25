@@ -1,0 +1,37 @@
+{
+  "id": "WETTEN_BBL_INDEX",
+  "title": "Besluit bouwwerken leefomgeving, official search-index excerpts for §§ 3.89–3.90 (version 2026-07-01)",
+  "authors": [
+    "Kingdom of the Netherlands"
+  ],
+  "year": 2026,
+  "venue_or_publisher": "wetten.overheid.nl",
+  "doi": null,
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "POLICY",
+  "tradition": "荷蘭 Bbl 官方法規；搜尋索引摘錄",
+  "region": [
+    "Netherlands"
+  ],
+  "method": "只讀到 wetten.overheid.nl 官方搜尋索引摘錄；直接開啟條文時回傳 429。",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "官方索引摘錄列出既有建築住宅非共用居住區及居室尺寸條件，需回到現行法規原文再確認。",
+      "strength": "NORMATIVE_PRACTICE",
+      "scope_zh": "索引文字不足以替代法規條文直讀，僅作待核的條文定位。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "PARTIAL_OFFICIAL_SITE",
+    "url": "https://wetten.overheid.nl/BWBR0041297/2026-07-01/0/Hoofdstuk3/Afdeling3.3/Paragraaf3.3.6/Artikel3.89",
+    "accessed_utc": "2026-10-08T15:08:39Z",
+    "method": "official search-index excerpt; direct page fetch returned HTTP 429",
+    "match_notes_zh": "官方網域及條文定位可核對；現行條文內容未能直接讀取。"
+  },
+  "limitations_zh": "不可作為已完成法律核對的證據；所有數值都需在原條文解封後重讀。",
+  "metadata_licence_zh": "保存官方公開索引的書目定位與自行摘要；未保存法規全文。"
+}

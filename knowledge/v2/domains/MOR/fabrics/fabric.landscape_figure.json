@@ -1,0 +1,391 @@
+{
+  "id": "fabric.landscape_figure",
+  "names": {
+    "zh": "地景為圖",
+    "en": "Landscape Figure"
+  },
+  "concept_zh": "地景為圖把公園、綠色主軸或藍綠基盤先畫成主要連續形體，再讓建築沿其邊緣、節點或高地配置。街道不必構成完整正交網格，而要確保不同街區能接近綠地、穿越公園並連到城市外部；點式、開放式或短翼建築用來界定邊緣，但需避免把公園碎片化成剩餘空地。",
+  "when_to_use_zh": "適用於基地有連續公園、河岸、綠廊或既有生態地景可作主要骨架，且建築密度可以沿邊界分段承接；也適合高差或雨水路徑需要成為空間組織條件的基地。",
+  "when_not_to_use_zh": "若基地沒有足夠的連續開放空間、街區需延續密集的既有街牆，或綠地維護與公共通行權尚未釐清，不應只畫一條綠帶來宣稱地景主導；不得用景觀概念掩蓋住宅入口、服務動線或可達性不足。",
+  "height_cap_adaptation_zh": "20 m 高度上限下保留大型線性公園或地景骨架，將 towers_park 高塔意象轉譯為公園旁分散、間距清楚的 4–5 層點式量體或短板樓，以低量體和疏朗配置維持地景連續與視線。樓層數須依首層用途、樓層高度及實際法規校核。（本基地首層 4 m、標準層 3.5 m：5 層＝18 m 為上限，6 層＝21.5 m 會超過 20 m）",
+  "street_network": {
+    "pattern": "landscape_led",
+    "orientation_rule_zh": "先沿既有綠帶、水文低線或公園長軸定位主景觀，再讓街道接到公園入口與外部路網；支路可局部偏轉避讓樹群，但路徑方向須在節點清楚銜接。",
+    "street_width_building_gap_proxy_m": {
+      "p25": 30.14,
+      "median": 45.96,
+      "p75": 56.91,
+      "unit": "m",
+      "status": "MEASURED_PRECEDENT_PROXY",
+      "basis_zh": "富能公園 的建築外牆最近點間距：P25 30.14 m、中位數 45.96 m、P75 56.91 m（KU-MOR-089）。數值含建築退縮，是外牆間距代理，不是法定路權、車道淨寬或道路斷面；道路幾何仍需另測。",
+      "ku_ids": [
+        "KU-MOR-089"
+      ]
+    },
+    "hierarchy": [
+      {
+        "name_zh": "城市連接街",
+        "section_width_m": {
+          "minimum": 16,
+          "maximum": 24,
+          "unit": "m"
+        },
+        "modes": [
+          "步行",
+          "自行車",
+          "汽車",
+          "服務"
+        ],
+        "spacing_m": {
+          "minimum": 250,
+          "maximum": 400,
+          "unit": "m"
+        },
+        "status": "EDITORIAL",
+        "basis_zh": "KB4 案例未量測法定路幅或支路間距；此包絡供公園兩側維持城市連接和必要車行。"
+      },
+      {
+        "name_zh": "公園邊連接街",
+        "section_width_m": {
+          "minimum": 8,
+          "maximum": 12,
+          "unit": "m"
+        },
+        "modes": [
+          "步行",
+          "自行車",
+          "服務"
+        ],
+        "spacing_m": {
+          "minimum": 100,
+          "maximum": 180,
+          "unit": "m"
+        },
+        "status": "EDITORIAL",
+        "basis_zh": "道路中心線距離與公園出入口頻度未由先例資料量測；以多個可見入口作為生成器控制。"
+      },
+      {
+        "name_zh": "慢行與服務支路",
+        "section_width_m": {
+          "minimum": 4,
+          "maximum": 7,
+          "unit": "m"
+        },
+        "modes": [
+          "步行",
+          "自行車",
+          "服務"
+        ],
+        "spacing_m": {
+          "minimum": 60,
+          "maximum": 110,
+          "unit": "m"
+        },
+        "status": "EDITORIAL",
+        "basis_zh": "支路寬距是早期配置假設；消防和維護服務能否進入須在基地層級獨立校核。"
+      }
+    ],
+    "connection_rule_zh": "讓公園主軸至少在兩端接上外部街道或公共運輸入口，沿線每個街區都有可辨識的步行入口；穿越公園的路徑接到街角和建築入口，不能只在基地邊界畫綠帶而不接城市網絡。"
+  },
+  "blocks": {
+    "short_edge_m": {
+      "minimum": 37.7,
+      "maximum": 52.7,
+      "unit": "m",
+      "basis": {
+        "status": "MEASURED_PRECEDENT_DERIVED",
+        "note_zh": "推估式：完整街廓面積中位數÷交叉口間街段長 P75 作短邊候選；只收 n≥3 且候選值落於該案邊長 P25–P75 的案例。Vauban n=6：3,275.42÷86.95=37.67 m；Hammarby n=3：4,449.88÷84.39=52.73 m，皆通過。Funenpark n=14 候選 48.6 m 高於 P75 41.23 m，排除。範圍短邊 37.7–52.7 m、長邊 84.4–87.0 m；街段不等於街廓軸長。",
+        "ku_ids": [
+          "KU-MOR-094",
+          "KU-MOR-092"
+        ]
+      }
+    },
+    "long_edge_m": {
+      "minimum": 84.4,
+      "maximum": 87.0,
+      "unit": "m",
+      "basis": {
+        "status": "MEASURED_PRECEDENT_DERIVED",
+        "note_zh": "推估式：完整街廓面積中位數÷交叉口間街段長 P75 作短邊候選；只收 n≥3 且候選值落於該案邊長 P25–P75 的案例。Vauban n=6：3,275.42÷86.95=37.67 m；Hammarby n=3：4,449.88÷84.39=52.73 m，皆通過。Funenpark n=14 候選 48.6 m 高於 P75 41.23 m，排除。範圍短邊 37.7–52.7 m、長邊 84.4–87.0 m；街段不等於街廓軸長。",
+        "ku_ids": [
+          "KU-MOR-094",
+          "KU-MOR-092"
+        ]
+      }
+    },
+    "shape_rule_zh": "沿公園或水文軸畫開放街廓，讓建築短翼或點式量體形成可穿透的邊緣；街廓轉折追隨地景但不得切斷連續綠帶，遇尖角先調整街廓邊界而非塞入尖角量體。",
+    "plot_subdivision_zh": "住宅小地塊以 8–14 m 面寬作 EDITORIAL 起稿，公園邊的大型公共建築以較寬地塊配置多個面向入口；地塊界線須跟隨可維護的景觀分區，不把綠地中的建築退縮當成無主土地。"
+  },
+  "building_composition": {
+    "components": [
+      {
+        "part_id": "block.open",
+        "recommended_share_percent": 60,
+        "share_denominator_zh": "以候選街廓數為分母；地景骨架旁開放街廓的建議份額。",
+        "basis_zh": "Funenpark、Vauban、Hammarby 支持地景先行配置；block_type_mix 無 open 類別，60% 是繪圖策略，不是測值。"
+      },
+      {
+        "part_id": "block.towers_park",
+        "recommended_share_percent": 20,
+        "share_denominator_zh": "以候選公園鄰接街廓數為分母；保留 towers_park 原型。",
+        "basis_zh": "保留 towers_park 零件表達點狀量體與公園關係；20 m 上限下轉為分散 5–6 層點式或短板樓，不代表案例占比。"
+      },
+      {
+        "part_id": "building.point_array",
+        "recommended_share_percent": 57,
+        "share_denominator_zh": "以建築地面足跡面積為分母；點式陣列的建議配置。",
+        "basis_zh": "Funenpark 完整街廓類型 8/14（57.1%）為點式；原分母是街廓數，57% 只作類型訊號，非 footprint 直接比例。"
+      },
+      {
+        "part_id": "building.i_slab",
+        "recommended_share_percent": 33,
+        "share_denominator_zh": "以建築地面足跡面積為分母；公園邊短板樓建議配置。",
+        "basis_zh": "Vauban 完整街廓類型 2/6（33.3%）為板樓，可作邊界量體對照；33% 是建議值而非實測 footprint。"
+      },
+      {
+        "part_id": "building.terraced",
+        "recommended_share_percent": 20,
+        "share_denominator_zh": "以建築地面足跡面積為分母；低層連續邊緣建議配置。",
+        "basis_zh": "為公園入口和鄰街提供連續地址界面；先例未量得 terraced footprint 占比，此值是設計補充。"
+      }
+    ],
+    "height_profile_zh": "沿城市主街和公共交通節點配置較高量體，面向公園以較低短翼、退台或點式塔樓形成間斷邊界；不得讓高樓連成連續牆面遮斷綠地視線。高度配置理由須由日照、風與樹冠維護檢核。"
+  },
+  "open_space_system": {
+    "types": [
+      "space.linear_park",
+      "space.pocket_park",
+      "space.plaza"
+    ],
+    "configuration_rule_zh": "先把一條連續主公園畫完整，再配置相連的小公園、雨水花園與公共廣場；入口優先對準城市路口和公共設施，且公園各段要有相連步行路徑及明確維護邊界。",
+    "site_area_share_percent": {
+      "minimum": 24,
+      "maximum": 40,
+      "status": "EDITORIAL",
+      "basis_zh": "KB4 密度指標不包含完整公園用地盤點；此範圍為地景作主體的土地配置假設，需與雨水、生態及維護計畫共同校正。"
+    }
+  },
+  "edges": [
+    {
+      "type": "waterfront",
+      "rule_zh": "若公園接水岸，先確認高水位、堤岸與合法通行範圍，再把藍綠主軸連到可達岸段，不用植栽符號替代防洪界面。"
+    },
+    {
+      "type": "large_park",
+      "rule_zh": "大型公園是主要圖形，建築入口朝向公園；保留可見的橫向入口，避免大面積私人退縮地把公園切成多段。"
+    },
+    {
+      "type": "topographic_edge",
+      "rule_zh": "遇高差先將等高線、排水方向和可通行坡道疊圖；可借 Dakpark 類高架地景作剖面提問，但不直接複製其結構或尺度。"
+    },
+    {
+      "type": "retained_building",
+      "rule_zh": "把保留建築作為地景軸線的節點或活動錨點，先核對實際入口與可用空間，再安排公園邊界及服務路徑。"
+    },
+    {
+      "type": "existing_city_road",
+      "rule_zh": "既有城市道路保持連續並設置通往公園的明確過街點；公園不得成為阻隔兩側街網的無入口大片綠地。"
+    }
+  ],
+  "density_targets": {
+    "GSI": {
+      "range": {
+        "minimum": 0.2203,
+        "maximum": 0.3013
+      },
+      "unit": "dimensionless",
+      "basis": "KU-MOR-094 Vauban 0.2203 至 KU-MOR-089 Funenpark 0.3013 的研究窗陸地 GSI 觀察範圍，不是地景類型建蔽率目標。",
+      "status": "MEASURED_PRECEDENT"
+    },
+    "FSI": {
+      "range": {
+        "minimum": 0.7623,
+        "maximum": 1.5997
+      },
+      "unit": "dimensionless",
+      "basis": "KU-MOR-094 Vauban 至 KU-MOR-089 Funenpark 的可比較已知樓地板面積下限；其他窗口高度缺值案例未納入。",
+      "status": "MEASURED_PRECEDENT"
+    },
+    "L": {
+      "range": {
+        "minimum": 3.653,
+        "maximum": 5.309
+      },
+      "unit": "storeys",
+      "basis": "KU-MOR-094 與 KU-MOR-089 的足跡加權已知樓層範圍；只作特定觀察窗參照。",
+      "status": "MEASURED_PRECEDENT"
+    },
+    "OSR": {
+      "range": {
+        "minimum": 0.4367,
+        "maximum": 1.0228
+      },
+      "unit": "dimensionless",
+      "basis": "KU-MOR-089/094 的已知 FSI 下 OSR；OSR 高值不單獨證明開放空間品質或公共可達。",
+      "status": "MEASURED_PRECEDENT"
+    }
+  },
+  "drawing_steps": [
+    {
+      "order": 1,
+      "action_zh": "描出既有綠地、水系、樹群、等高線、保留建築和街道，將可連續的地景骨架與限制區分層。"
+    },
+    {
+      "order": 2,
+      "action_zh": "選一條主公園或藍綠軸作為平面主體，連接至少兩個外部街道或公共運輸入口。"
+    },
+    {
+      "order": 3,
+      "action_zh": "沿公園邊界畫城市連接街，再補能穿越公園和進入街區的次街、慢行支路。"
+    },
+    {
+      "order": 4,
+      "action_zh": "以 90–160 m 短邊、120–220 m 長邊的 EDITORIAL 尺度切街廓，保持公園連續並避免殘地尖角。"
+    },
+    {
+      "order": 5,
+      "action_zh": "按入口、維護分區和樹群切地塊；公園邊的小面寬住宅和多入口公建分別標示。"
+    },
+    {
+      "order": 6,
+      "action_zh": "把開放街廓和點式量體放在綠地邊緣，在交通節點提高量體；量體高度仍待日照與風環境檢核。"
+    },
+    {
+      "order": 7,
+      "action_zh": "連續繪製主公園、口袋公園、雨水空間和廣場，為每一段標記入口、管理者和可達路徑。"
+    },
+    {
+      "order": 8,
+      "action_zh": "以一致的陸地範圍計算 GSI、FSI、L、OSR，和 Funenpark/Vauban 的參照範圍並列，不將它們轉成強制門檻。"
+    }
+  ],
+  "land_use_budget": {
+    "roads": {
+      "minimum": 18,
+      "maximum": 24,
+      "unit": "percent_site_area",
+      "status": "EDITORIAL",
+      "basis_zh": "道路預算須同時支援城市連接、消防與慢行，未由案例庫量測。"
+    },
+    "blocks": {
+      "minimum": 34,
+      "maximum": 44,
+      "unit": "percent_site_area",
+      "status": "EDITORIAL",
+      "basis_zh": "建築街廓比例是地景主體策略的草圖包絡，非實測土地使用分類。"
+    },
+    "parks": {
+      "minimum": 18,
+      "maximum": 28,
+      "unit": "percent_site_area",
+      "status": "EDITORIAL",
+      "basis_zh": "公園比例須按基地水文、生態和維護能力修正。"
+    },
+    "plazas": {
+      "minimum": 4,
+      "maximum": 8,
+      "unit": "percent_site_area",
+      "status": "EDITORIAL",
+      "basis_zh": "廣場作為公園入口與公共設施節點，面積不得和公園重複計算。"
+    },
+    "waterfront": {
+      "minimum": 0,
+      "maximum": 12,
+      "unit": "percent_site_area",
+      "status": "EDITORIAL",
+      "basis_zh": "只有陸地範圍內的岸邊公共帶計入，水面不計。"
+    },
+    "service": {
+      "minimum": 2,
+      "maximum": 6,
+      "unit": "percent_site_area",
+      "status": "EDITORIAL",
+      "basis_zh": "服務用地依維護、消防和設施需求另測，避免以公園概念省略服務功能。"
+    }
+  },
+  "common_errors_zh": [
+    "把綠地只畫成剩餘空間，沒有連續主軸或入口。",
+    "以開放街廓名義留下不可穿越的量體間距。",
+    "公園邊只有建築背面，沒有入口和地址。",
+    "在高差邊緣忽略無障礙路徑與排水方向。",
+    "把高架公園案例的剖面形式直接複製到不同基地。",
+    "留下沒有維護者或服務機能的未配置綠地。"
+  ],
+  "precedents": [
+    {
+      "name_zh": "富能公園 Funenpark",
+      "ku_id": "KU-MOR-089",
+      "measurements": [
+        {
+          "metric": "GSI",
+          "value": 0.3013,
+          "unit": "dimensionless",
+          "status": "MEASURED_PRECEDENT",
+          "limitation_zh": "研究窗陸地 GSI；開放空間分類及地籍邊界未由該值完整表示。"
+        },
+        {
+          "metric": "FSI",
+          "value": 1.5997,
+          "unit": "dimensionless",
+          "status": "MEASURED_PRECEDENT",
+          "limitation_zh": "已知樓地板面積下限，僅對應該次 OSM/3DBAG 研究窗。"
+        }
+      ],
+      "borrow_zh": "借用公園和街區量體相互咬合、步行路徑沿地景節點組織的分析問題。",
+      "do_not_borrow_zh": "不把研究窗平均密度直接當作地景比例，也不以點式量體推定公園使用結果。"
+    },
+    {
+      "name_zh": "弗萊堡沃邦 Vauban",
+      "ku_id": "KU-MOR-094",
+      "measurements": [
+        {
+          "metric": "GSI",
+          "value": 0.2203,
+          "unit": "dimensionless",
+          "status": "MEASURED_PRECEDENT",
+          "limitation_zh": "研究窗 GSI；區內各街段與地景差異不由平均值呈現。"
+        },
+        {
+          "metric": "FSI",
+          "value": 0.7623,
+          "unit": "dimensionless",
+          "status": "MEASURED_PRECEDENT",
+          "limitation_zh": "通過比較門檻的已知樓地板面積下限。"
+        }
+      ],
+      "borrow_zh": "借用外圍道路、主街、住宅支路和慢行通道分層後再接綠地的街網讀法。",
+      "do_not_borrow_zh": "不把其低 FSI 當作地景主導必須採用的密度，也不推定單一基地有相同交通政策。"
+    },
+    {
+      "name_zh": "哈馬比海城 Hammarby Sjöstad",
+      "ku_id": "KU-MOR-092",
+      "measurements": [
+        {
+          "metric": "GSI",
+          "value": 0.1922,
+          "unit": "dimensionless",
+          "status": "MEASURED_PRECEDENT",
+          "limitation_zh": "研究窗 GSI；FSI 因高度覆蓋不足僅為不可比下限。"
+        },
+        {
+          "metric": "FSI",
+          "value": 0.6898,
+          "unit": "dimensionless",
+          "status": "LOWER_BOUND_NONCOMPARABLE",
+          "limitation_zh": "此為已知樓地板面積下限，不納入密度包絡。"
+        }
+      ],
+      "borrow_zh": "借用湖岸步道、跨街入口與內部綠地作為需一併核對的連接網絡。",
+      "do_not_borrow_zh": "不把水岸路徑標籤視為權屬或合法公共通行證明，也不採用不可比 FSI。"
+    }
+  ],
+  "sources": [
+    "OSM_KB4_PRECEDENTS",
+    "3DBAG_KB4_HEIGHTS",
+    "BILJECKI2022",
+    "COATES2013",
+    "STOCKHOLM_HAMMARBY2026",
+    "PESTOVA2022"
+  ]
+}

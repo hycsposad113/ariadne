@@ -1,0 +1,44 @@
+{
+  "id": "CIRCADIAN_DAYLIGHT20",
+  "title": "Applicability of a Prismatic Panel to Optimize Window Size and Depth of a South-facing Room for a Better Daylight Performance",
+  "authors": [
+    "Busra Kose",
+    "Tuğçe Kazanasmaz"
+  ],
+  "year": 2020,
+  "venue_or_publisher": "Redakcia Zhurnala Svetotekhnika LLC",
+  "doi": "https://doi.org/10.33383/2019-038",
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "建築尺度；設計實務與研究",
+  "region": [
+    "跨地域；依來源適用範圍而異"
+  ],
+  "method": "書目核對；未取得全文，不以書目資料證明特定數值。",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "朝南房間窗尺寸與稜鏡板採光性能研究；不外推為通用窗牆比。",
+      "strength": "THEORETICAL",
+      "scope_zh": "書目範圍可核對；數值或因果主張須另查原文。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref",
+    "query": {
+      "title": "Applicability of a Prismatic Panel to Optimize Window Size and Depth of a South-facing Room for a Better Daylight Performance",
+      "author": "Busra Kose",
+      "year": 2020
+    },
+    "matched_record_id": "10.33383/2019-038",
+    "checked_at_utc": "2026-10-08T14:52:14.089140+00:00",
+    "match_notes_zh": "以允許的公開書目 API 核對書名、作者及出版年；未下載或保存全文。",
+    "url": "https://api.crossref.org/works/10.33383/2019-038"
+  },
+  "limitations_zh": "書目記錄已核對；具體尺度內容標示交叉核對狀態，不把書名或摘要當作數值證據。",
+  "metadata_licence_zh": "保存公開書目欄位與自行撰寫的範圍說明；未保存全文。"
+}

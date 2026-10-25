@@ -1,0 +1,113 @@
+{
+  "id": "KU-MOR-105",
+  "domain": "MOR",
+  "subtopic": "都市紋理；路網、街廓與開放空間生成",
+  "type": "pattern",
+  "title_zh": "不規則細網：以逐段轉折回應基地條件",
+  "title_en": "Irregular Fine Grain: Turn Streets in Response to Site Conditions",
+  "summary_zh": "不規則細網由外圍集散街向內逐段偏轉，以短街段、小地塊和多方向接合回應既有條件；擋風效果不可只憑圖面判定。Västra Hamnen 廣域研究窗 GSI／已知 FSI 下限／L／OSR 為 0.2601／0.5159／5.711／1.4343，但高度覆蓋僅 32.14%，FSI 不可跨案例比較；本窗也不是 Bo01 專區，僅有一個完整街廓樣本。先接外圍骨架，再逐段畫生活街、步行巷和小地塊；每次轉折都要能回指測得的地形、既有構造或經驗證的風向。借用細粒適應方式，不宣稱不規則街線必然擋風。",
+  "key_points_zh": [
+    "借用：保留外圍集散路接點，向內細分生活街和步行巷，為每一個偏轉註明基地依據。",
+    "不借用：不要把 Västra Hamnen 的廣域資料說成 Bo01 專區測量，也不拿不可比 FSI 作設計目標。",
+    "街廓軸向長短邊、地籍分割寬和道路法定斷面沒有由本次 morphometrics 直接量出。"
+  ],
+  "evidence": {
+    "strength": "CASE_EVIDENCE",
+    "findings": [
+      {
+        "library_id": "OSM_KB4_PRECEDENTS",
+        "claim_zh": "西港區 使用回應 08d6af72078a 計算；未映射建築沒有插補。",
+        "effect_or_value": "28 棟建築；高度覆蓋率 0.3214。",
+        "study_design": "研究窗 OSM 幾何測量",
+        "context_region": "Malmö, Sweden",
+        "locator": null,
+        "claim_verification": "OBSERVED_OPEN_DATA_MEASUREMENT",
+        "limitations_zh": "OSM 是社群編輯資料；此值只描述快照，不代表完整盤點。"
+      },
+      {
+        "library_id": "JOHANSSON2020MALMO",
+        "claim_zh": "西港區引用來源記載：題名確認研究對象為馬爾默沿岸開發區的風舒適及日照；未確認其邊界等同整個Västra Hamnen。",
+        "effect_or_value": null,
+        "study_design": "書目或官方案例資料",
+        "context_region": "Malmö, Sweden",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW",
+        "limitations_zh": "只按已核對的書目或官方來源範圍引用，未查證的設計細節不推定。"
+      },
+      {
+        "library_id": "OSM_KB4_PRECEDENTS",
+        "claim_zh": "另一個參照窗的形態指標與量測限制如下：Västra Hamnen 廣域研究窗 GSI／已知 FSI 下限／L／OSR 為 0.2601／0.5159／5.711／1.4343，但高度覆蓋僅 32.14%，FSI 不可跨案例比較；本窗也不是 Bo01 專區，僅有一個完整街廓樣本。",
+        "effect_or_value": "Västra Hamnen 廣域研究窗 GSI／已知 FSI 下限／L／OSR 為 0.2601／0.5159／5.711／1.4343，但高度覆蓋僅 32.14%，FSI 不可跨案例比較；本窗也不是 Bo01 專區，僅有一個完整街廓樣本",
+        "study_design": "保存 OSM 與公開建物高度快照的研究窗量測",
+        "context_region": "摘要列出的歐洲案例窗；不是基地法定邊界",
+        "locator": null,
+        "claim_verification": "OBSERVED_OPEN_DATA_MEASUREMENT",
+        "limitations_zh": "不同研究窗不可合併為單一案例平均；FSI 是已知量下限，覆蓋不足時明確排除跨案例比較。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "沿可核對的基地條件逐次調整街線，每一段都保留採用或拒絕調整的理由。",
+    "把地景／路網畫成連續骨架，再分出街廓、地塊和建築邊緣。",
+    "不要把 Västra Hamnen 的廣域資料說成 Bo01 專區測量，也不拿不可比 FSI 作設計目標。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "保留外圍集散路接點，向內細分生活街和步行巷，為每一個偏轉註明基地依據。",
+      "tradeoff_zh": "細網增加替代路徑和小尺度界面，也提高物流與辨識複雜度；需保留可讀的主骨架。",
+      "library_ids": [
+        "JOHANSSON2020MALMO"
+      ]
+    },
+    {
+      "option_zh": "以固定方向的正交網格另畫一個基準版本。",
+      "tradeoff_zh": "採同一分母及外部連接條件比較，才看得出轉折帶來的空間差異。",
+      "library_ids": []
+    }
+  ],
+  "applies_when_zh": "既有小路、地形、保留構造或已驗證微氣候需要細粒度接合時。",
+  "not_applicable_when_zh": "沒有風、日照或地形資料時，轉折只能標作編輯假設，不得承諾風舒適效果。",
+  "debates_zh": "細網增加替代路徑和小尺度界面，也提高物流與辨識複雜度；需保留可讀的主骨架。",
+  "sources": [
+    {
+      "library_id": "OSM_KB4_PRECEDENTS",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "JOHANSSON2020MALMO",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "COATES2013",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "跨城市建築形態測量與都市設計案例",
+  "region": "Malmö, Sweden",
+  "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "形態先例比較：西港區"
+    }
+  ],
+  "version": "kb4-precedents-2026-10-09",
+  "check": {
+    "method_zh": "在研究窗扣除已映射水域後計算陸地分母，局部公尺投影；量體合併只用於翼深和類型，GSI／FSI 仍按去重原始足跡計。荷蘭案例僅以 BAG 識別碼連結 3DBAG 高度。",
+    "inputs": [
+      "研究窗和 OSM 錨點",
+      "具 SHA-256 的 OSM 快照",
+      "BAG 高度欄位或 OSM 樓層／高度標籤"
+    ],
+    "logic_zh": "GSI、已知 FSI 下限、L、OSR 僅摘錄同一案例窗的保存欄位；街廓面積或交叉口間街段長不等於街廓軸向短／長邊、地籍寬或法定道路斷面。只比較標為可比的研究窗。",
+    "limitations_zh": "OSM 與高度覆蓋只代表來源快照；未知值不插補。路網和尺寸配置是編輯起稿假設，未經基地測繪或規範核對不得升格為量測或法定條件。"
+  },
+  "related_unit_ids": [
+    "KU-MOR-094"
+  ]
+}

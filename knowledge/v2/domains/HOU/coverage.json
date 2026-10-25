@@ -1,0 +1,123 @@
+{
+  "domain": "HOU",
+  "topics": [
+    {
+      "subtopic": "住宅類型",
+      "unit_count": 22,
+      "unit_ids": [
+        "KU-HOU-001",
+        "KU-HOU-002",
+        "KU-HOU-003",
+        "KU-HOU-004",
+        "KU-HOU-005",
+        "KU-HOU-006",
+        "KU-HOU-007",
+        "KU-HOU-008",
+        "KU-HOU-009",
+        "KU-HOU-061",
+        "KU-HOU-062",
+        "KU-HOU-063",
+        "KU-HOU-064",
+        "KU-HOU-065",
+        "KU-HOU-066",
+        "KU-HOU-067",
+        "KU-HOU-068",
+        "KU-HOU-069",
+        "KU-HOU-070",
+        "KU-HOU-071",
+        "KU-HOU-072",
+        "KU-HOU-073"
+      ]
+    },
+    {
+      "subtopic": "荷蘭 woningcorporaties 社會住宅模式",
+      "unit_count": 9,
+      "unit_ids": [
+        "KU-HOU-010",
+        "KU-HOU-011",
+        "KU-HOU-012",
+        "KU-HOU-013",
+        "KU-HOU-014",
+        "KU-HOU-015",
+        "KU-HOU-016",
+        "KU-HOU-017",
+        "KU-HOU-074"
+      ]
+    },
+    {
+      "subtopic": "混合產權",
+      "unit_count": 9,
+      "unit_ids": [
+        "KU-HOU-018",
+        "KU-HOU-019",
+        "KU-HOU-020",
+        "KU-HOU-021",
+        "KU-HOU-022",
+        "KU-HOU-023",
+        "KU-HOU-024",
+        "KU-HOU-025",
+        "KU-HOU-075"
+      ]
+    },
+    {
+      "subtopic": "可負擔性",
+      "unit_count": 10,
+      "unit_ids": [
+        "KU-HOU-026",
+        "KU-HOU-027",
+        "KU-HOU-028",
+        "KU-HOU-029",
+        "KU-HOU-030",
+        "KU-HOU-031",
+        "KU-HOU-032",
+        "KU-HOU-033",
+        "KU-HOU-034",
+        "KU-HOU-076"
+      ]
+    },
+    {
+      "subtopic": "鄰里單元與批評",
+      "unit_count": 8,
+      "unit_ids": [
+        "KU-HOU-035",
+        "KU-HOU-036",
+        "KU-HOU-037",
+        "KU-HOU-038",
+        "KU-HOU-039",
+        "KU-HOU-040",
+        "KU-HOU-041",
+        "KU-HOU-042"
+      ]
+    },
+    {
+      "subtopic": "居住密度與生活品質",
+      "unit_count": 9,
+      "unit_ids": [
+        "KU-HOU-043",
+        "KU-HOU-044",
+        "KU-HOU-045",
+        "KU-HOU-046",
+        "KU-HOU-047",
+        "KU-HOU-048",
+        "KU-HOU-049",
+        "KU-HOU-050",
+        "KU-HOU-051"
+      ]
+    },
+    {
+      "subtopic": "老化與多世代居住",
+      "unit_count": 9,
+      "unit_ids": [
+        "KU-HOU-052",
+        "KU-HOU-053",
+        "KU-HOU-054",
+        "KU-HOU-055",
+        "KU-HOU-056",
+        "KU-HOU-057",
+        "KU-HOU-058",
+        "KU-HOU-059",
+        "KU-HOU-060"
+      ]
+    }
+  ]
+}

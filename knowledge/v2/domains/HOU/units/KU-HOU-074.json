@@ -1,0 +1,92 @@
+{
+  "id": "KU-HOU-074",
+  "domain": "HOU",
+  "subtopic": "荷蘭 woningcorporaties 社會住宅模式",
+  "type": "value_range",
+  "title_zh": "荷蘭社會租賃住宅存量占比",
+  "title_en": "Dutch social-rental housing stock share",
+  "summary_zh": "這是歷史制度比較帶，不是 2026 年即時統計或地方配額。 報告供應者、租金門檻和統計年份，勿只用一個國家比例描述制度。 記錄 荷蘭住宅制度的歷史比較 與「woningcorporaties 社會租賃住宅存量占全國住房比例」的量測分母，再和另一種尺度或用途並排比較。",
+  "key_points_zh": [
+    "荷蘭社會租賃住宅在歷史比較中約占住房存量 28–35% 的量級，年份與「社會住宅」定義會改變比例。",
+    "這是歷史制度比較帶，不是 2026 年即時統計或地方配額。",
+    "報告供應者、租金門檻和統計年份，勿只用一個國家比例描述制度。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "荷蘭社會租賃住宅在歷史比較中約占住房存量 28–35% 的量級，年份與「社會住宅」定義會改變比例。",
+        "effect_or_value": "約 28–35",
+        "study_design": "跨案例尺度對照或明示假設的規劃計算",
+        "context_region": "荷蘭住宅制度的歷史比較",
+        "library_id": "HOOIMEIJER1998",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "Scanlon 的歐洲比較涵蓋社會住宅定義、融資、私有化與都市更新；荷蘭存量比例須連同制度差異解讀。",
+        "effect_or_value": null,
+        "study_design": "形態／制度比較的補充閱讀",
+        "context_region": "荷蘭住宅制度的歷史比較",
+        "library_id": "SCANLON2007",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "荷蘭社會租賃住宅存量占比",
+      "range": "約 28–35",
+      "unit": "% 存量",
+      "context": "荷蘭住宅制度的歷史比較；用途：woningcorporaties 社會租賃住宅存量占全國住房比例；對照書目：HOOIMEIJER1998；適用於制度或形態比較，這不是本基地法規。",
+      "library_id": "HOOIMEIJER1998"
+    }
+  ],
+  "design_implications_zh": [
+    "報告供應者、租金門檻和統計年份，勿只用一個國家比例描述制度。",
+    "記錄 荷蘭住宅制度的歷史比較 與「woningcorporaties 社會租賃住宅存量占全國住房比例」的量測分母，再和另一種尺度或用途並排比較。"
+  ],
+  "applies_when_zh": "用於比較荷蘭住宅制度的歷史比較的woningcorporaties 社會租賃住宅存量占全國住房比例，並明示此數值的來源、年份和面積分母。",
+  "not_applicable_when_zh": "這是歷史制度比較帶，不是 2026 年即時統計或地方配額。",
+  "debates_zh": "大規模非營利存量可支援租屋選擇，也不會自動消除貧窮、集中和政治參與不平等。 查核：荷蘭社會租賃住宅占比約 29%（2020 年代），1990 年代約 40%；「28–35%」不足以代表歷史比較，需改寫並附年份。",
+  "sources": [
+    {
+      "library_id": "HOOIMEIJER1998",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "SCANLON2007",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "荷蘭社會住宅與社會排除",
+  "region": "荷蘭住宅制度的歷史比較",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "荷蘭 woningcorporaties 社會住宅模式"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "荷蘭 woningcorporaties 社會住宅模式"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "荷蘭 woningcorporaties 社會住宅模式"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "荷蘭 woningcorporaties 社會住宅模式"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+}

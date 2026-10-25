@@ -1,0 +1,81 @@
+{
+  "id": "KU-STR-041",
+  "domain": "STR",
+  "subtopic": "共享空間",
+  "type": "empirical_finding",
+  "title_zh": "共享空間改造前後的安全感與車速",
+  "title_en": "Shared-space safety and speed before and after",
+  "summary_zh": "九條街改造前後影片與橫斷面問卷分析，研究脈絡為首爾，南韓。地面整合與速度管理比只在路側新增行人帶更接近該計畫的作用機制。行人優先街改造後車速下降、主觀安全感提高；路側清楚劃分車行與人行的部分街段車速較高。限制包括未量得通用碰撞效果或可外推的速度差值，街數僅九條。",
+  "key_points_zh": [
+    "地面整合與速度管理比只在路側新增行人帶更接近該計畫的作用機制",
+    "限制：未量得通用碰撞效果或可外推的速度差值，街數僅九條",
+    "效果或方向：行人優先街改造後車速下降、主觀安全感提高；路側清楚劃分車行與人行的部分街段車速較高"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "共享空間改造前後的安全感與車速｜地面整合與速度管理比只在路側新增行人帶更接近該計畫的作用機制",
+        "effect_or_value": "行人優先街改造後車速下降、主觀安全感提高；路側清楚劃分車行與人行的部分街段車速較高",
+        "study_design": "九條街改造前後影片與橫斷面問卷分析",
+        "context_region": "首爾，南韓",
+        "library_id": "LEE2019",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "共享空間改造前後的安全感與車速｜公共空間同時面對過度管理與管理不足的批評；開放性與安全不能用單一形式解決",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "CARMONA10",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "先降低穿越性車速，再測試共享空間；保留分隔設計作替代"
+  ],
+  "applies_when_zh": "若本地觀察單位與首爾，南韓的研究脈絡可對照，可用「地面整合與速度管理比只在路側新增行人帶更接近該計畫的作用機制」作為共享空間的比較線索。",
+  "not_applicable_when_zh": "這項首爾，南韓的研究結果不能單獨證明因果或預測其他城市的街段；原研究未量得通用碰撞效果或可外推的速度差值，街數僅九條。",
+  "debates_zh": "關聯能否外推；未量得通用碰撞效果或可外推的速度差值，街數僅九條；檢視「共享空間改造前後的安全感與車速」的研究解讀時，還需判斷「限制：未量得通用碰撞效果或可外推的速度差值，街數僅九條」會如何改變方案結論。",
+  "sources": [
+    {
+      "library_id": "LEE2019",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "CARMONA10",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "共享街道與交通安全",
+  "region": "首爾，南韓",
+  "curriculum_refs": [
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "共享空間：課綱對應主題"
+    },
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.330J Theory of City Form",
+      "topic": "共享空間：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-STR-042",
+    "KU-STR-043",
+    "KU-STR-044",
+    "KU-STR-045",
+    "KU-STR-046",
+    "KU-STR-047",
+    "KU-STR-048"
+  ]
+}

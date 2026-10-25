@@ -1,0 +1,91 @@
+{
+  "id": "KU-LUP-072",
+  "domain": "LUP",
+  "subtopic": "15 分鐘城市與可及性",
+  "type": "value_range",
+  "title_zh": "基層醫療步行服務距離情境帶",
+  "title_en": "Primary-care walking-distance scenario",
+  "summary_zh": "按 3.0–4.8 km/h 和 10–20 分鐘計算，理想距離約 500–1,600 m。 這不是醫療服務覆蓋標準，因為門診容量、費用、候診和收治資格都不在距離式中。 家庭醫生、藥局和急診應分別建模，不能共用單一服務圈。",
+  "key_points_zh": [
+    "按 3.0–4.8 km/h 和 10–20 分鐘計算，理想距離約 500–1,600 m",
+    "這不是醫療服務覆蓋標準，因為門診容量、費用、候診和收治資格都不在距離式中",
+    "家庭醫生、藥局和急診應分別建模，不能共用單一服務圈"
+  ],
+  "evidence": {
+    "strength": "ASSUMED",
+    "findings": [
+      {
+        "claim_zh": "10–20 分鐘以3.0–4.8 km/h換算，理想距離為約 500–1,600 m；這是透明情境計算，非研究觀測出的通用服務標準。",
+        "effect_or_value": "約 500–1,600 m",
+        "study_design": "明示速度與時間的公式換算；非實證測量",
+        "context_region": "跨地域基層健康服務情境",
+        "library_id": "GEURS04",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "三種滿意度皆與主觀福祉顯著相關；住宅滿意有直接關聯，通勤滿意主要透過鄰里與工作滿意間接連結。",
+        "effect_or_value": null,
+        "study_design": "形態／制度比較的補充閱讀",
+        "context_region": "跨地域健康服務規劃比較示例",
+        "library_id": "MOURATIDIS2020",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "基層醫療步行服務距離情境帶",
+      "range": "約 500–1,600 m",
+      "unit": "m",
+      "context": "跨地域基層健康服務情境；用途：基層醫療或藥局步行初篩；計算：3.0–4.8 km/h × 10–20 分鐘，僅為無停等、無繞行的直線情境，非文獻直接報告的數值；方法背景書目：GEURS04；需改以路網與使用者條件核算，這不是本基地法規。",
+      "library_id": "GEURS04"
+    }
+  ],
+  "design_implications_zh": [
+    "把家庭醫療、藥局與急診分成層級，將開放時間和服務容量加入可及性表。"
+  ],
+  "applies_when_zh": "作為基層醫療與藥局的步行情境篩查；急診應使用不同的交通時間模型。",
+  "not_applicable_when_zh": "此距離帶不適用於緊急醫療判斷，也不能替代醫療服務資格和容量資料。",
+  "debates_zh": "醫療資源可及性有制度和收入門檻，不能只靠地圖服務圈判定公平。",
+  "sources": [
+    {
+      "library_id": "GEURS04",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "MOURATIDIS2020",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "可及性評估",
+  "region": "跨地域基層健康服務情境",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Planning Complex Cities",
+      "topic": "15 分鐘城市與可及性"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Cities by Design",
+      "topic": "15 分鐘城市與可及性"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "15 分鐘城市與可及性"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Sustainable Futures by Design",
+      "topic": "15 分鐘城市與可及性"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008"
+}

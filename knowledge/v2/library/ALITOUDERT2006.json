@@ -1,0 +1,43 @@
+{
+  "id": "ALITOUDERT2006",
+  "title": "Numerical study on the effects of aspect ratio and orientation of an urban street canyon on outdoor thermal comfort in hot and dry climate",
+  "authors": [
+    "Fazia Ali-Toudert",
+    "Helmut Mayer"
+  ],
+  "year": 2006,
+  "venue_or_publisher": "Building and Environment",
+  "doi": "https://doi.org/10.1016/j.buildenv.2005.01.013",
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "街谷高寬比與朝向",
+  "region": "炎熱乾燥氣候",
+  "method": "數值研究",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "書目確認文章以數值研究考察街谷高寬比與朝向；未取得摘要中的參數範圍，故不產生可直接套用的 H/W 數值。",
+      "strength": "THEORETICAL",
+      "scope_zh": "只支持此研究明確的議題、樣本地區與方法；不直接生成 M4H 數值、法規或工程容量。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref",
+    "query": {
+      "title": "Numerical study on the effects of aspect ratio and orientation of an urban street canyon on outdoor thermal comfort in hot and dry climate",
+      "author": "Fazia Ali-Toudert",
+      "year": 2006,
+      "api_query": "urban microclimate street canyon solar access outdoor thermal comfort wind comfort shade street trees"
+    },
+    "matched_record_id": "10.1016/j.buildenv.2005.01.013",
+    "checked_at_utc": "2026-10-08T10:08:21Z",
+    "match_notes_zh": "以 Crossref 公開書目記錄比對書名、作者與年份；摘要文字未保存到 repository。"
+  },
+  "limitations_zh": "只保留書目與自行撰寫的範圍摘要；除標示 ABSTRACT_REVIEW 者外，內容未由摘要核對，沒有下載全文。",
+  "critique_relationship_zh": "本記錄不宣稱與其他書目存在直接互引或逐一反駁關係。",
+  "metadata_licence_zh": "公開 API 書目欄位；精確 metadata licence 未核驗，標 UNKNOWN。"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "KRAYENHOFF2021",
+  "title": "Cooling hot cities: a systematic and critical review of the numerical modelling literature",
+  "authors": [
+    "E Scott Krayenhoff",
+    "Ashley M Broadbent",
+    "Lei Zhao",
+    "Matei Georgescu",
+    "Ariane Middel",
+    "James A Voogt",
+    "Alberto Martilli",
+    "David J Sailor",
+    "Evyatar Erell"
+  ],
+  "year": 2021,
+  "venue_or_publisher": "Environmental Research Letters",
+  "doi": "https://doi.org/10.1088/1748-9326/abdcf1",
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "綠藍基礎設施與城市降溫模型",
+  "region": "跨地域數值模擬研究",
+  "method": "系統性與批判性回顧 146 篇模擬研究",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "摘要指出 1987–2017 年的 146 篇物理數值研究對降溫量有顯著差異；樹木多用微尺度模擬，反照屋頂多用中尺度，尺度選擇限制策略比較。",
+      "strength": "STRONG_EMPIRICAL",
+      "scope_zh": "只支持此研究明確的議題、樣本地區與方法；不直接生成 M4H 數值、法規或工程容量。",
+      "assessment_basis": "ABSTRACT_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref",
+    "query": {
+      "title": "Cooling hot cities: a systematic and critical review of the numerical modelling literature",
+      "author": "Krayenhoff",
+      "year": 2021,
+      "api_query": "Crossref GET works?query.title=Cooling hot cities: a systematic and critical review of the numerical modelling literature"
+    },
+    "matched_record_id": "10.1088/1748-9326/abdcf1",
+    "checked_at_utc": "2026-10-08T10:06:53Z",
+    "match_notes_zh": "以 Crossref 公開書目記錄比對書名、作者與年份；摘要文字未保存到 repository。"
+  },
+  "limitations_zh": "只保留書目與自行撰寫的範圍摘要；除標示 ABSTRACT_REVIEW 者外，內容未由摘要核對，沒有下載全文。",
+  "critique_relationship_zh": "本記錄不宣稱與其他書目存在直接互引或逐一反駁關係。",
+  "metadata_licence_zh": "公開 API 書目欄位；精確 metadata licence 未核驗，標 UNKNOWN。"
+}

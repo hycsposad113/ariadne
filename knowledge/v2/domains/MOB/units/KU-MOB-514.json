@@ -1,0 +1,107 @@
+{
+  "id": "KU-MOB-514",
+  "domain": "MOB",
+  "subtopic": "密度與交通能源",
+  "type": "empirical_finding",
+  "title_zh": "1989 城市比較把密度與人均汽油消耗連在一起",
+  "title_en": "The 1989 cross-city density and gasoline-consumption relationship",
+  "summary_zh": "Newman 與 Kenworthy 的 1989 城市比較以汽油消耗和城市形態建立著名關聯：低密度、高汽車依賴城市的人均燃油使用較高。這條跨城曲線是研究發現而非建築配置的因果公式；現代土地使用、所得、燃油價格、公共運輸與車隊結構都會改變其解讀。",
+  "key_points_zh": [
+    "Newman 與 Kenworthy（1989）比較 32 個國際城市，發現都市人口密度與人均汽油消耗呈明顯的雙曲線關係：低密度的美國城市人均油耗最高，歐洲居中，高密度亞洲城市最低；此結果成為緊湊城市論述的經典依據。。",
+    "跨城相關可形成設計假設，不能直接設定基地交通目標。",
+    "量測年份、分母、燃油口徑和城市樣本都要留在卡片上。"
+  ],
+  "evidence": {
+    "strength": "STRONG_EMPIRICAL",
+    "findings": [
+      {
+        "library_id": "NEWMANKENWORTHY1989",
+        "claim_zh": "Newman 與 Kenworthy（1989）比較 32 個國際城市，發現都市人口密度與人均汽油消耗呈明顯的雙曲線關係：低密度的美國城市人均油耗最高，歐洲居中，高密度亞洲城市最低；此結果成為緊湊城市論述的經典依據。",
+        "effect_or_value": null,
+        "study_design": "城市層級比較研究",
+        "context_region": "跨城市比較",
+        "locator": null,
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+        "limitations_zh": "Crossref 只提供書目，不回傳樣本表和曲線係數；不得在此寫成已核實數字。"
+      },
+      {
+        "library_id": "MINDALE2004",
+        "claim_zh": "後續論文明確重新檢視都市密度和能源消耗舊統計，適合作為方法敏感性對照。",
+        "effect_or_value": null,
+        "study_design": "統計再分析",
+        "context_region": "跨地域統計研究",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "本次未取得摘要全文或量化重估結果。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "先量測基地與通勤區的密度、距離、可用大眾運輸及車輛使用，再決定是否採用此研究假設。",
+    "用本地行為和路網資料建立情境比較，不把全球或美國樣本作為鹿特丹係數。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "用密度和公共運輸作為降低汽車依賴的一組候選槓桿。",
+      "tradeoff_zh": "較符合緊湊城市策略，但需要本地可達性和交通服務支撐。",
+      "library_ids": [
+        "NEWMANKENWORTHY1989",
+        "MINDALE2004"
+      ]
+    },
+    {
+      "option_zh": "以停車供給、街道網和交通費用另建多變量比較。",
+      "tradeoff_zh": "能揭示其他驅動因素，資料需求及模型解釋會更複雜。",
+      "library_ids": [
+        "MINDALE2004",
+        "NEWMANKENWORTHY1989"
+      ]
+    }
+  ],
+  "applies_when_zh": "適用於提出密度、都市型態與交通燃油使用之間的研究假設。",
+  "not_applicable_when_zh": "不適用於將跨城市曲線轉成單一基地的固定密度門檻或排放預測。",
+  "debates_zh": "都市密度與交通能耗的關聯受尺度、城市樣本及政策配套影響；相關不是密度單一造成燃油消耗差異的證明。",
+  "counter_unit_ids": [
+    "KU-MOB-058"
+  ],
+  "related_unit_ids": [
+    "KU-MOB-009",
+    "KU-MOR-031",
+    "KU-MOR-036"
+  ],
+  "sources": [
+    {
+      "library_id": "NEWMANKENWORTHY1989",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "MINDALE2004",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "城市交通能源與都市密度比較研究",
+  "region": "跨城市比較",
+  "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "密度與交通能源：課綱對應主題"
+    }
+  ],
+  "version": "kb2-gaps-2026-10-08",
+  "check": {
+    "method_zh": "在同一年度、同一都市邊界與人均分母下計算密度及汽油使用，再加入公共運輸供給、所得、燃油價格和車輛擁有作敏感性分析。",
+    "inputs": [
+      "城市樣本及邊界",
+      "人口與土地面積分母",
+      "年度燃油與交通供給資料"
+    ],
+    "logic_zh": "只有樣本、單位和年份一致時才能比較斜率；模型需報告混雜因素、缺值和替代變數。",
+    "limitations_zh": "1989 原文曲線及 2004 再分析的具體係數由 Claude 逐篇核對；本卡不重製未取得的圖表。"
+  },
+  "case": null
+}

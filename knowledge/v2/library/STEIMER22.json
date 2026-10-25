@@ -1,0 +1,47 @@
+{
+  "id": "STEIMER22",
+  "title": "Zero-Emission Delivery Zones: Decarbonizing Urban Freight and Goods Delivery in U.S. Cities",
+  "authors": [
+    "Hamilton Steimer",
+    "Vishant Kothari",
+    "Sarah Cassius"
+  ],
+  "year": 2022,
+  "venue_or_publisher": "World Resources Institute",
+  "doi": "10.46830/wriwp.22.00022",
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "PROFESSIONAL_REPORT",
+  "tradition": "零排放城市貨運與配送治理",
+  "region": [
+    "美國"
+  ],
+  "method": "Crossref 摘要描述 15 位以上利害關係人訪談與美國城市案例；沒有可核對的量化因果估計。",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "摘要將訪談和案例用於整理零排放配送區的初步設計建議，沒有報告可移植的減排量或配送成本效果。",
+      "strength": "CASE_EVIDENCE",
+      "scope_zh": "僅據 Crossref 摘要核對報告主題與質性方法；不代表全文審閱、成效評估或本基地物流標準。",
+      "assessment_basis": "ABSTRACT_REVIEW"
+    }
+  ],
+  "known_critiques": [
+    "報告與訪談可提供政策實施經驗，但不等於有對照組的成效評估。"
+  ],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref",
+    "query": {
+      "title": "Zero-Emission Delivery Zones: Decarbonizing Urban Freight and Goods Delivery in U.S. Cities",
+      "author": "Hamilton Steimer; Vishant Kothari; Sarah Cassius",
+      "year": 2022
+    },
+    "matched_record_id": "10.46830/wriwp.22.00022",
+    "checked_at_utc": "2026-10-08T14:12:44Z",
+    "match_notes_zh": "Crossref DOI 紀錄命中題名、三位作者、2022 年及 World Resources Institute 出版者；摘要只用來核對自行撰寫的質性研究範圍，未保存摘要原文或下載全文。"
+  },
+  "limitations_zh": "僅核對公開書目與摘要；WRI 報告並非同行評審的因果效果研究，沒有從摘要推定具體城市成效。",
+  "critique_relationship_zh": "與貨運需求研究並置是為補足治理與物流脈絡，不表示兩篇作品互相引用或逐條反駁。",
+  "metadata_licence_zh": "只保存公開 API 書目與自行撰寫的摘要；精確 metadata licence 未核驗，標 UNKNOWN。"
+}

@@ -1,0 +1,132 @@
+{
+  "domain": "STR",
+  "unit_count": 78,
+  "topics": [
+    {
+      "topic": "街道階層與功能",
+      "unit_count": 9,
+      "unit_ids": [
+        "KU-STR-001",
+        "KU-STR-002",
+        "KU-STR-003",
+        "KU-STR-004",
+        "KU-STR-005",
+        "KU-STR-006",
+        "KU-STR-007",
+        "KU-STR-008",
+        "KU-STR-065"
+      ]
+    },
+    {
+      "topic": "完整街道",
+      "unit_count": 10,
+      "unit_ids": [
+        "KU-STR-009",
+        "KU-STR-010",
+        "KU-STR-011",
+        "KU-STR-012",
+        "KU-STR-013",
+        "KU-STR-014",
+        "KU-STR-015",
+        "KU-STR-016",
+        "KU-STR-068",
+        "KU-STR-076"
+      ]
+    },
+    {
+      "topic": "街道斷面",
+      "unit_count": 10,
+      "unit_ids": [
+        "KU-STR-017",
+        "KU-STR-018",
+        "KU-STR-019",
+        "KU-STR-020",
+        "KU-STR-021",
+        "KU-STR-022",
+        "KU-STR-023",
+        "KU-STR-024",
+        "KU-STR-067",
+        "KU-STR-072"
+      ]
+    },
+    {
+      "topic": "街廓大小與連結度",
+      "unit_count": 9,
+      "unit_ids": [
+        "KU-STR-025",
+        "KU-STR-026",
+        "KU-STR-027",
+        "KU-STR-028",
+        "KU-STR-029",
+        "KU-STR-030",
+        "KU-STR-031",
+        "KU-STR-032",
+        "KU-STR-069"
+      ]
+    },
+    {
+      "topic": "交叉口密度",
+      "unit_count": 9,
+      "unit_ids": [
+        "KU-STR-033",
+        "KU-STR-034",
+        "KU-STR-035",
+        "KU-STR-036",
+        "KU-STR-037",
+        "KU-STR-038",
+        "KU-STR-039",
+        "KU-STR-040",
+        "KU-STR-070"
+      ]
+    },
+    {
+      "topic": "共享空間",
+      "unit_count": 9,
+      "unit_ids": [
+        "KU-STR-041",
+        "KU-STR-042",
+        "KU-STR-043",
+        "KU-STR-044",
+        "KU-STR-045",
+        "KU-STR-046",
+        "KU-STR-047",
+        "KU-STR-048",
+        "KU-STR-066"
+      ]
+    },
+    {
+      "topic": "街道作為公共空間",
+      "unit_count": 11,
+      "unit_ids": [
+        "KU-STR-049",
+        "KU-STR-050",
+        "KU-STR-051",
+        "KU-STR-052",
+        "KU-STR-053",
+        "KU-STR-054",
+        "KU-STR-055",
+        "KU-STR-056",
+        "KU-STR-071",
+        "KU-STR-074",
+        "KU-STR-075"
+      ]
+    },
+    {
+      "topic": "路網形態（格子、放射、有機）",
+      "unit_count": 11,
+      "unit_ids": [
+        "KU-STR-057",
+        "KU-STR-058",
+        "KU-STR-059",
+        "KU-STR-060",
+        "KU-STR-061",
+        "KU-STR-062",
+        "KU-STR-063",
+        "KU-STR-064",
+        "KU-STR-073",
+        "KU-STR-077",
+        "KU-STR-078"
+      ]
+    }
+  ]
+}

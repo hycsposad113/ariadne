@@ -1,0 +1,44 @@
+{
+  "id": "TALEN99",
+  "title": "Sense of Community and Neighbourhood Form: An Assessment of the Social Doctrine of New Urbanism",
+  "authors": [
+    "Emily Talen"
+  ],
+  "year": 1999,
+  "venue_or_publisher": "Urban Studies",
+  "doi": "https://doi.org/10.1080/0042098993033",
+  "isbn": null,
+  "openalex_id": "https://openalex.org/W2118376313",
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "新都市主義批評",
+  "region": [
+    "美國"
+  ],
+  "method": "社會研究綜述",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "特定鄰里形式不保證社群感；社會互動可能透過中介條件發生，其他設計也可能達成。",
+      "strength": "MIXED",
+      "scope_zh": "僅限本研究或概念框架；不提供 M4H 的實測、法律效力或本卡試算門檻。",
+      "assessment_basis": "ABSTRACT_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "OpenAlex",
+    "query": {
+      "title": "Sense of Community and Neighbourhood Form: An Assessment of the Social Doctrine of New Urbanism",
+      "author": "Emily Talen",
+      "year": 1999,
+      "matched_record_id_lookup": "https://openalex.org/W2118376313"
+    },
+    "matched_record_id": "https://openalex.org/W2118376313",
+    "checked_at_utc": "2026-10-08T09:12:32Z",
+    "match_notes_zh": "本任務重新以允許的公開書目 API 核對書名、作者與出版年；只確認書目，不代表全文主張已核實。"
+  },
+  "limitations_zh": "僅核對公開書目及可得摘要，未下載全文；書目驗證不代表全文因果或所有主張均已確認。",
+  "critique_relationship_zh": "known_critiques 是編者指定的批評或替代閱讀，不宣稱實際互引或逐一反駁；Ratti 與 Hillier／Penn 的標題記錄確認明確對話。",
+  "metadata_licence_zh": "保存書目欄位和自行撰寫的來源說明；未保存 API 摘要或全文，資料服務授權細節未由本任務判定。"
+}

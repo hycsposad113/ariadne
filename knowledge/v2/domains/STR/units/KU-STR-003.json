@@ -1,0 +1,88 @@
+{
+  "id": "KU-STR-003",
+  "domain": "STR",
+  "subtopic": "街道階層與功能",
+  "type": "value_range",
+  "title_zh": "旅運彈性的研究上界",
+  "title_en": "Upper bound of pooled travel elasticities",
+  "summary_zh": "Ewing 與 Cervero 的加權統合分析中，各項建成環境變數的平均旅行彈性絕對值皆不高於 0.39，多數低於此上界。研究指出，目的地可及性與街網設計和 VMT 的關聯較強，而多樣用途與交叉口密度更貼近步行結果。樣本規模及住居自我選擇控制不足，限制了彈性的精確度與跨地區解讀。建成環境旅行彈性的加權平均絕對值的數值不是本基地法規或普遍設計目標。",
+  "key_points_zh": [
+    "數值與用途：建成環境旅行彈性的加權平均絕對值：≤ 0.39；多數指標明顯低於此上界",
+    "數值與用途：用於閱讀不同建成環境變數的研究量級；不是街道斷面門檻、基地法規或 M4H 標準"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "旅運彈性的研究上界｜統合研究報告所有建成環境變數的加權平均旅行彈性絕對值都不大於 0.39",
+        "effect_or_value": "≤ 0.39；多數指標明顯低於此上界",
+        "study_design": "整合分析",
+        "context_region": "美國規劃研究為主的多研究整合",
+        "library_id": "EWING10",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "旅運彈性的研究上界｜從街道案例比較尺度、界面與使用；案例特徵不能直接變成通用路寬",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "AJACOBS93",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "建成環境旅行彈性的加權平均絕對值",
+      "range": "≤ 0.39；多數指標明顯低於此上界",
+      "unit": "無因次彈性",
+      "context": "美國規劃研究為主的加權文獻整合；用於比較建成環境旅行彈性的研究量級，不是本基地法規。",
+      "library_id": "EWING10"
+    }
+  ],
+  "design_implications_zh": [
+    "讀取 0.39 時要同時呈現它是多項變數的彈性絕對值上界；不能把這個數字轉成街道寬度、密度配額或本地預測係數。"
+  ],
+  "applies_when_zh": "若比較對象同樣以旅行彈性表示建成環境與旅運關係，且能說明因變數、資料範圍和加權口徑，可將此上界當作文獻量級參照。",
+  "not_applicable_when_zh": "這個合併上界不是街道設計標準，也不能預測單一街段或居民的出行改變；原研究的樣本及自我選擇限制需一併保留。",
+  "debates_zh": "變數間的相對關聯不等於介入效果，且多數彈性低於 0.39；爭點在不同研究的定義和樣本能否支撐跨城市比較。",
+  "sources": [
+    {
+      "library_id": "EWING10",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "AJACOBS93",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "街道形態與交通系統",
+  "region": "美國規劃研究為主的多研究整合",
+  "curriculum_refs": [
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.330J Theory of City Form",
+      "topic": "街道階層與功能：課綱對應主題"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "街道階層與功能：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-STR-001",
+    "KU-STR-002",
+    "KU-STR-004",
+    "KU-STR-005",
+    "KU-STR-006",
+    "KU-STR-007",
+    "KU-STR-008"
+  ]
+}

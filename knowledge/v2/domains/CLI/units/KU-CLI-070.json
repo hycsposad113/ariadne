@@ -1,0 +1,74 @@
+{
+  "id": "KU-CLI-070",
+  "domain": "CLI",
+  "subtopic": "樹木降溫",
+  "type": "method",
+  "title_zh": "將樹冠健康和遮陰供應納入維護指標",
+  "title_en": "將樹冠健康和遮陰供應納入維護指標",
+  "summary_zh": "樹木的遮蔭和蒸散能力會隨樹冠健康、土壤水分和修剪方式改變。Boston 街景研究映射現有影子，Wuhan 微氣候研究檢視樹冠與熱環境。建成後的管理需同時追蹤樹木存活、冠層擴張和行人遮蔭。",
+  "key_points_zh": [
+    "新植樹木的前幾年遮蔭可能有限。",
+    "過度修剪會改變已預期的陰影供應。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "library_id": "HUANG2020",
+        "claim_zh": "題名確認研究分析武漢淺街谷的樹冠覆蓋、微氣候與人體熱舒適；效果量尚未由摘要核對；本單元 KU-CLI-070 對照「樹木的遮蔭和蒸散能力會隨樹冠健康、土壤水分和修剪方式改變」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "淺街谷樹冠覆蓋案例研究",
+        "context_region": "Wuhan, China",
+        "locator": null
+      },
+      {
+        "library_id": "SPAGNOLO2003",
+        "claim_zh": "題名確認該研究在副熱帶 Sydney 比較戶外與半戶外熱舒適；其發現不能跨氣候與人群直接外推；本單元 KU-CLI-070 對照「樹木的遮蔭和蒸散能力會隨樹冠健康、土壤水分和修剪方式改變」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "現地研究",
+        "context_region": "Sydney, Australia",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "分年度追蹤樹冠成熟和死亡替補。",
+    "讓樹木養護記錄接上公共空間熱點地圖。"
+  ],
+  "applies_when_zh": "適用於林蔭街道和熱適應設施維護。",
+  "not_applicable_when_zh": "不可只依設計年樹冠預測宣稱已提供遮蔭。",
+  "debates_zh": "維護支出和水資源供應會限制樹冠承諾能否持續。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "HUANG2020",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "SPAGNOLO2003",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "城市樹冠維運",
+  "region": "Boston, USA；Wuhan, China",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "樹木降溫"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": null,
+      "topic": "樹木降溫"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0"
+}

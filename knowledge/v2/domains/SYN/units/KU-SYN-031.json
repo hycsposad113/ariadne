@@ -1,0 +1,80 @@
+{
+  "id": "KU-SYN-031",
+  "domain": "SYN",
+  "subtopic": "多中心性（MCA）",
+  "type": "concept",
+  "title_zh": "多中心性（MCA）：概念界線",
+  "title_en": "Multiple centrality analysis: Concept and scope",
+  "summary_zh": "多中心性分析用多個網路中心性指標描述城市道路系統的骨架與局部節點，不將複雜網路縮成單一排名。此處要回答的是比較接近度、介數、直達和局部連接等指標，並指出指標間一致或分歧之處。對多中心性（MCA）而言，中心性指標依賴圖建構與邊成本；高分節點不一定是社會上重要、可進入或安全的地方；因此該概念只界定分析問題，不替不同街道和使用者預選答案。",
+  "key_points_zh": [
+    "概念界線：多中心性分析用多個網路中心性指標描述城市道路系統的骨架與局部節點，不將複雜網路縮成單一排名",
+    "概念界線：比較接近度、介數、直達和局部連接等指標，並指出指標間一致或分歧之處"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "多中心性（MCA）：概念界線｜波哥大的人口、工作及可及性分布不均；高平均密度可以和低收入群體的可及性不足並存",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "BOGOTA17",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "多中心性（MCA）：概念界線｜可及性評估需要同時交代交通、土地使用與個人條件；同一距離圈不代表同樣機會",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "GEURS04",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "用「多中心性分析用多個網路中心性指標描述城市道路系統的骨架與局部節點，不將複雜網路縮成單一排名」界定多中心性（MCA）的分析範圍，再以「比較接近度、介數、直達和局部連接等指標，並指出指標間一致或分歧之處」說明這個界線不涵蓋什麼。"
+  ],
+  "applies_when_zh": "界定多中心性（MCA）的分析邊界時，可用「多中心性分析用多個網路中心性指標描述城市道路系統的骨架與局部節點，不將複雜網路縮成單一排名」說明本單元涵蓋的關係，再另行檢查未納入的條件。",
+  "not_applicable_when_zh": "「多中心性分析用多個網路中心性指標描述城市道路系統的骨架與局部節點，不將複雜網路縮成單一排名」不能直接轉成法規或最佳方案判斷，尤其不能忽略「中心性指標依賴圖建構與邊成本；高分節點不一定是社會上重要、可進入或安全的地方」指出的限制。",
+  "debates_zh": "中心性指標依賴圖建構與邊成本；高分節點不一定是社會上重要、可進入或安全的地方；檢視「多中心性（MCA）：概念界線」的概念界線時，還需判斷「比較接近度、介數、直達和局部連接等指標，並指出指標間一致或分歧之處」會如何改變方案結論。",
+  "sources": [
+    {
+      "library_id": "BOGOTA17",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "GEURS04",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "城市網路科學",
+  "region": "跨地域理論或實務脈絡；來源地區依引用條目判讀",
+  "curriculum_refs": [
+    {
+      "school": "Harvard GSD",
+      "course": "Cities by Design",
+      "topic": "多中心性（MCA）：課綱對應主題"
+    },
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.330J Theory of City Form",
+      "topic": "多中心性（MCA）：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-SYN-025",
+    "KU-SYN-026",
+    "KU-SYN-027",
+    "KU-SYN-028",
+    "KU-SYN-029",
+    "KU-SYN-030",
+    "KU-SYN-032"
+  ]
+}

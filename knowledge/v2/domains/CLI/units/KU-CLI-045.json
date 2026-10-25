@@ -1,0 +1,74 @@
+{
+  "id": "KU-CLI-045",
+  "domain": "CLI",
+  "subtopic": "高密度城市的氣候設計",
+  "type": "method",
+  "title_zh": "將都市冠層模型和街道尺度模型接合",
+  "title_en": "將都市冠層模型和街道尺度模型接合",
+  "summary_zh": "都市冠層模型能處理較大的熱交換尺度，街道微氣候模型則解析建築、樹木和行人高度條件。高密度城市研究要求兼顧區域氣候和局部設計，新加坡街道研究則以更細尺度檢視使用者環境。模型交接需要保持氣象輸入、時間步長和邊界一致。",
+  "key_points_zh": [
+    "不同模型的空間解析度和輸出變量可能不同。",
+    "局部模型入口條件可能主導結果。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "library_id": "BLOCKEN2016",
+        "claim_zh": "題名確認文章比較建築周圍行人高度風環境的風洞與 CFD 評估方法；不把工具輸出直接當成通用舒適閾值；本單元 KU-CLI-045 對照「都市冠層模型能處理較大的熱交換尺度，街道微氣候模型則解析建築、樹木和行人高度條件」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "風洞與 CFD 技術回顧",
+        "context_region": "跨地域建築風環境研究",
+        "locator": null
+      },
+      {
+        "library_id": "TOMINAGA2008",
+        "claim_zh": "書目確認本文題名聚焦「AIJ guidelines for practical applications of CFD to pedestrian wind environment around buildings」；目前只完成作者、年份、題名與 DOI 核對，未將摘要或全文結論納入此記錄；本單元 KU-CLI-045 對照「都市冠層模型能處理較大的熱交換尺度，街道微氣候模型則解析建築、樹木和行人高度條件」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "方法或概念研究；目前僅核對書目範圍",
+        "context_region": "日本與國際風工程",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "記錄模型間傳遞的風、溫度和輻射邊界。",
+    "用少數現地測點檢查尺度轉換。"
+  ],
+  "applies_when_zh": "適用於街廓和都市尺度的微氣候分析。",
+  "not_applicable_when_zh": "不適用於未經檢查就混用不同氣象資料源。",
+  "debates_zh": "模型串接增加計算細節，不會自動減少輸入資料的不確定性。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "BLOCKEN2016",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "TOMINAGA2008",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "跨尺度都市微氣候模擬",
+  "region": "香港與亞洲；Singapore",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "高密度城市的氣候設計"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": null,
+      "topic": "高密度城市的氣候設計"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0"
+}

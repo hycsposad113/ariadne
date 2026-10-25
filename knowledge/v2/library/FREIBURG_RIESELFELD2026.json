@@ -1,0 +1,42 @@
+{
+  "id": "FREIBURG_RIESELFELD2026",
+  "title": "Rieselfeld - ein riesiges Feld für klare Lebens-Konzepte",
+  "authors": [
+    "Stadt Freiburg"
+  ],
+  "year": null,
+  "venue_or_publisher": "Stadt Freiburg",
+  "doi": null,
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "OFFICIAL_GOVERNMENT_WEBPAGE",
+  "tradition": "新市區的規劃目標與住宅類型",
+  "region": "德國弗萊堡",
+  "method": "於內容起草後直接檢視官方／營運方公開頁面；不把機構目標或自報數據當成獨立效果研究。",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "市府列出的 4,100 戶、10,000–11,000 人與平均 24 公尺地塊寬度屬規劃目標或類型描述，不等於實際人口或住房成效。",
+      "strength": "CASE_EVIDENCE",
+      "scope_zh": "只支持頁面明確公布的規劃口徑、歷史資料、行政數字或機構自報結果。",
+      "assessment_basis": "DIRECT_SOURCE_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Official organization webpage",
+    "query": {
+      "title": "Rieselfeld - ein riesiges Feld für klare Lebens-Konzepte",
+      "author": "Stadt Freiburg",
+      "year": null,
+      "api_query": "Read-only official source page: https://www.freiburg.de/pb/208612.html"
+    },
+    "matched_record_id": "https://www.freiburg.de/pb/208612.html",
+    "checked_at_utc": "2026-10-08T14:47:20Z",
+    "match_notes_zh": "直接檢視官方／場址營運方公開頁；該頁不是Crossref書目記錄，未宣稱經Crossref驗證。"
+  },
+  "limitations_zh": "官方或營運方頁面可能採機構自身的規劃與成果口徑；未有獨立評估處不推定效果。",
+  "critique_relationship_zh": "本記錄不宣稱與其他來源存在直接互引或逐一反駁關係。",
+  "metadata_licence_zh": "官方／營運方公開頁面；未確認個別資料的再利用授權。"
+}

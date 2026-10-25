@@ -1,0 +1,83 @@
+{
+  "id": "KU-CLI-063",
+  "domain": "CLI",
+  "subtopic": "材料與反照率",
+  "type": "value_range",
+  "title_zh": "淺色表面冷卻幅度要與眩光風險並列",
+  "title_en": "淺色表面冷卻幅度要與眩光風險並列",
+  "summary_zh": "街道上的高反射表面會同時影響吸收的短波能量和反射到行人的輻射。單一 albedo 值不能表示街谷中的總輻射暴露，因為立面反射和遮蔭也會改變人體熱負荷。數值應與方向、測點和材料狀態一起報告。",
+  "key_points_zh": [
+    "材料反射光譜和顏色不是同一測量。",
+    "反射的方向分布會影響局部人體暴露。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "library_id": "YANG2016",
+        "claim_zh": "都市表面的短波反照率以 0–1 表示反射比例；不同波段和量測條件下的材料數字不可直接混比。",
+        "effect_or_value": "反射率和表面降溫幅度要分開記錄，並補充視覺舒適。",
+        "study_design": "新加坡街道實證",
+        "context_region": "Singapore",
+        "locator": null,
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008"
+      },
+      {
+        "library_id": "KRUGER2011",
+        "claim_zh": "書目確認本文題名聚焦「Impact of urban geometry on outdoor thermal comfort and air quality from field measurements in Curitiba, Brazil」；目前只完成作者、年份、題名與 DOI 核對，未將摘要或全文結論納入此記錄；本單元 KU-CLI-063 對照「街道上的高反射表面會同時影響吸收的短波能量和反射到行人的輻射」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "案例或場地研究；目前僅核對書目範圍",
+        "context_region": "Curitiba, Brazil",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "在行人高度測量反射輻射和眩光。",
+    "比較高反射與遮蔭植栽的組合。"
+  ],
+  "applies_when_zh": "適用於冷屋頂和高反射鋪面方案。",
+  "not_applicable_when_zh": "數值效果待同尺度來源核對；不可只按材料顏色判定。",
+  "debates_zh": "城市能量平衡上的收益可能伴隨局部輻射負擔。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "YANG2016",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "KRUGER2011",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "高反照材料的使用邊界",
+  "region": "跨地域城市；Singapore",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "材料與反照率"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": null,
+      "topic": "材料與反照率"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0",
+  "values": [
+    {
+      "name": "都市表面的短波反照率",
+      "range": "0–1",
+      "unit": "dimensionless",
+      "context": "比較屋面、鋪面和立面時需註明測量波段與濕潤／老化狀態 這不是本基地法規；來源所列地域：Singapore。",
+      "library_id": "YANG2016"
+    }
+  ]
+}

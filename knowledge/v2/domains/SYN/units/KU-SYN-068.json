@@ -1,0 +1,82 @@
+{
+  "id": "KU-SYN-068",
+  "domain": "SYN",
+  "subtopic": "Place Syntax",
+  "type": "value_range",
+  "title_zh": "400 m 步行網路分析尺度情境",
+  "title_en": "400 m pedestrian network analysis scenario",
+  "summary_zh": "約 400 m 可作為步行網路局部尺度的一個敏感度情境，應從每個入口沿真實路網量測。河道、跨線設施和坡度可能讓短直線距離變成長路徑。這不是空間語法的統一半徑。此處的步行網路局部分析距離情境是附來源的比較參照，不是本基地法規。",
+  "key_points_zh": [
+    "用距離情境做模型敏感度比較。",
+    "出入口和目的地位置決定實際網路距離。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "Gehl（2010）以約 500 m 作為一般可接受的步行距離；400 m 為北美 1/4 英里慣例。步行可接受性依路線品質與目的而變，沒有普遍固定半徑。",
+        "library_id": "GEHL10",
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+        "effect_or_value": "約 400 m",
+        "study_design": "行人尺度和可及性模型；400 m 作敏感度情境而非標準",
+        "context_region": "丹麥公共生活設計",
+        "locator": null
+      },
+      {
+        "claim_zh": "可及性分析須交代目的地和個人條件，不能只看幾何距離。",
+        "library_id": "GEURS04",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "交通可及性方法",
+        "context_region": "跨地域交通研究",
+        "locator": null
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "步行網路局部分析距離情境",
+      "range": "約 400–500 m",
+      "unit": "公尺",
+      "context": "Gehl 原值約 500 m；400 m 為北美慣例。短程步行與鄰里可及性模型的敏感度分析情境；用途：用作局部網路比較的候選距離；以街道網路實際計算。；「步行網路局部分析距離情境」僅供來源脈絡內的比較，不是本基地法規、M4H 門檻或通用配額。",
+      "library_id": "GEHL10"
+    }
+  ],
+  "design_implications_zh": [
+    "在低尺度的行人分析中可試算 400 m，並同時展示短路和繞行造成的差別。"
+  ],
+  "applies_when_zh": "測試較近距離步行連接時，可把 400 m 當成一個候選尺度並沿實際路網重算。",
+  "not_applicable_when_zh": "400 m 不是所有行人都能接受的距離，也不代表服務圈或法規。",
+  "debates_zh": "距離帶容易把行走能力差異隱去；結果應按人群和目的分類。",
+  "sources": [
+    {
+      "library_id": "GEHL10",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "GEURS04",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "可及性與公共生活尺度",
+  "region": "短程步行與鄰里可及性模型的敏感度分析情境",
+  "curriculum_refs": [
+    {
+      "school": "Harvard GSD",
+      "course": "Cities by Design",
+      "topic": "Place Syntax：課綱對應主題"
+    },
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.330J Theory of City Form",
+      "topic": "Place Syntax：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-SYN-052"
+  ]
+}

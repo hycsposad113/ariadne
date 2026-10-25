@@ -1,0 +1,91 @@
+{
+  "id": "KU-LUP-064",
+  "domain": "LUP",
+  "subtopic": "15 分鐘城市與可及性",
+  "type": "value_range",
+  "title_zh": "二十分鐘步行服務圈換算",
+  "title_en": "Twenty-minute walk distance conversion",
+  "summary_zh": "3.0–4.8 km/h 的步速乘 20 分鐘，產生約 1.0–1.6 km 的理想直線距離。 這個數值只描述移動假設，沒有包含服務資格、等候或路徑延誤。 將次級服務圈和近鄰日常服務分開，才能看出較遠距離由哪些住戶承擔。",
+  "key_points_zh": [
+    "3.0–4.8 km/h 的步速乘 20 分鐘，產生約 1.0–1.6 km 的理想直線距離",
+    "這個數值只描述移動假設，沒有包含服務資格、等候或路徑延誤",
+    "將次級服務圈和近鄰日常服務分開，才能看出較遠距離由哪些住戶承擔"
+  ],
+  "evidence": {
+    "strength": "ASSUMED",
+    "findings": [
+      {
+        "claim_zh": "20 分鐘以3.0–4.8 km/h換算，理想距離為約 1,000–1,600 m；這是透明情境計算，非研究觀測出的通用服務標準。",
+        "effect_or_value": "約 1,000–1,600 m",
+        "study_design": "明示速度與時間的公式換算；非實證測量",
+        "context_region": "跨地域步行服務情境",
+        "library_id": "NOWOROL2022",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "三種滿意度皆與主觀福祉顯著相關；住宅滿意有直接關聯，通勤滿意主要透過鄰里與工作滿意間接連結。",
+        "effect_or_value": null,
+        "study_design": "形態／制度比較的補充閱讀",
+        "context_region": "跨地域規劃計算示例",
+        "library_id": "MOURATIDIS2020",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "二十分鐘步行服務圈換算",
+      "range": "約 1,000–1,600 m",
+      "unit": "m",
+      "context": "跨地域步行服務情境；用途：跨街區次級服務初篩；計算：3.0–4.8 km/h × 20 分鐘，僅為無停等、無繞行的直線情境，非文獻直接報告的數值；方法背景書目：NOWOROL2022；需改以路網與使用者條件核算，這不是本基地法規。",
+      "library_id": "NOWOROL2022"
+    }
+  ],
+  "design_implications_zh": [
+    "把二十分鐘步行作為長距離服務壓力測試，並以實際路網核算時間而非面積圓。"
+  ],
+  "applies_when_zh": "用來比較跨街區服務的情境尺度；應同步檢視公交或自行車替代路徑。",
+  "not_applicable_when_zh": "不能據此宣稱特定家庭願意步行二十分鐘；照護行程、天候和身體狀況會改變出行負擔。",
+  "debates_zh": "較大的服務圈可反映城市稀疏程度，但也可能把照護和出行時間成本轉嫁給住戶。",
+  "sources": [
+    {
+      "library_id": "NOWOROL2022",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "MOURATIDIS2020",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "近鄰服務可及性",
+  "region": "跨地域步行服務情境",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Planning Complex Cities",
+      "topic": "15 分鐘城市與可及性"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Cities by Design",
+      "topic": "15 分鐘城市與可及性"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "15 分鐘城市與可及性"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Sustainable Futures by Design",
+      "topic": "15 分鐘城市與可及性"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008"
+}

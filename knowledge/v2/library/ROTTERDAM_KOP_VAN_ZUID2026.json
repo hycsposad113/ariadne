@@ -1,0 +1,42 @@
+{
+  "id": "ROTTERDAM_KOP_VAN_ZUID2026",
+  "title": "Herontwikkeling Kop van Zuid",
+  "authors": [
+    "Stadsarchief Rotterdam"
+  ],
+  "year": null,
+  "venue_or_publisher": "Stadsarchief Rotterdam",
+  "doi": null,
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "OFFICIAL_CITY_ARCHIVE",
+  "tradition": "官方城市規劃與專案資料",
+  "region": "荷蘭鹿特丹",
+  "method": "直接核對官方公開頁面或政府報告；非學術成效研究",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "市檔案館記載1991年總體計畫、跨河橋梁與地鐵連接，以及港口建築和倉庫再利用的歷史。",
+      "strength": "CASE_EVIDENCE",
+      "scope_zh": "僅支持頁面明確公布的規劃口徑、歷史日期或行政資料，不將目標寫成實現成果。",
+      "assessment_basis": "DIRECT_SOURCE_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Official organization webpage",
+    "query": {
+      "title": "Herontwikkeling Kop van Zuid",
+      "author": "Stadsarchief Rotterdam",
+      "year": null,
+      "api_query": "Read-only official source page: https://stadsarchief.rotterdam.nl/herontwikkeling-kop-van-zuid"
+    },
+    "matched_record_id": "https://stadsarchief.rotterdam.nl/herontwikkeling-kop-van-zuid",
+    "checked_at_utc": "2026-10-08T14:10:33Z",
+    "match_notes_zh": "直接核對官方網站或政府報告；網站頁面不是Crossref書目記錄，未宣稱經Crossref驗證。"
+  },
+  "limitations_zh": "官方頁面可能呈現規劃者或管理者口徑；研究成效及獨立社會評估需另尋學術來源。",
+  "critique_relationship_zh": "本記錄不宣稱與其他來源存在直接互引或逐一反駁關係。",
+  "metadata_licence_zh": "官方公開頁面；未確認個別資料集的再利用授權。"
+}

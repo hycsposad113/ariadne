@@ -1,0 +1,101 @@
+{
+  "id": "KU-CAS-036",
+  "domain": "CAS",
+  "subtopic": "水岸與港區—失敗／撤回的數位都市方案",
+  "type": "case",
+  "title_zh": "Quayside：Sidewalk Labs 撤回後仍待公共利益重新協商",
+  "title_en": "Quayside: Sidewalk Labs’ Withdrawal and the Unfinished Waterfront Question",
+  "summary_zh": "多倫多 Quayside 曾以高科技新區方案引發資料治理、隱私、公共利益和土地開發權限的爭議。Waterfront Toronto 在 2020 年 5 月宣布 Sidewalk Labs 撤出原提案，同時明確表示 Quayside 仍是可由未來方案重新規劃的場址。Dadayan 的研究題名聚焦 Sidewalk Labs 方案的監控含意，本輪只核對其學術書目，不把題名當成已確認的研究結論。這是一個原始開發方案未實現的案例，不代表整個 Quayside 後續都停止開發。",
+  "key_points_zh": [
+    "方案撤回證明原提案未落地，不等同於水岸場址再開發永久取消。",
+    "數位感測、資料權利與土地開發安排需要在概念階段就納入公開協商和問責機制。"
+  ],
+  "evidence": {
+    "strength": "CASE_EVIDENCE",
+    "findings": [
+      {
+        "claim_zh": "Dadayan 的學術論文題名討論 Sidewalk Labs 多倫多智慧城市方案的監控意涵；本輪未核讀其摘要或全文，不能據題名歸納研究結論。",
+        "effect_or_value": "僅確認論文題目與方案範圍；未報告監控效果或受訪者結果",
+        "study_design": "學位研究／學術發表紀錄；本輪僅書目範圍核對",
+        "context_region": "加拿大多倫多",
+        "library_id": "DADAYAN2023QUAYSIDE",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "Waterfront Toronto 於 2020 年 5 月 7 日宣布 Sidewalk Labs 撤回 Quayside 原再開發方案，並說明場址仍可由後續規劃探索。",
+        "effect_or_value": "官方董事長聲明確認原方案撤回，並區分場址與原提案",
+        "study_design": "公共機構正式聲明",
+        "context_region": "加拿大多倫多 Quayside",
+        "library_id": "WATERFRONT_TORONTO_QUAYSIDE2020",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "為含有感測、公共資料或自動化管理的都市方案建立明確的資料治理責任、退出方式和獨立監督。",
+    "把原方案的承諾與後續場址計畫分別歸檔，避免將提案、協議和建成結果混為一談。"
+  ],
+  "applies_when_zh": "大型水岸開發提出技術型城市管理方案，而公部門仍有權重訂採購、資料與土地開發框架時。",
+  "not_applicable_when_zh": "若方案的資料所有權、收益分配、公共問責和居民退出機制尚未說清，不能以創新標籤取代制度審查。",
+  "debates_zh": "Quayside 原提案把智慧城市想像與土地開發綁在一起，卻在 2020 年撤回；Waterfront Toronto 同時保留場址繼續規劃的可能。故分析單位須明確是原提案、協議過程還是後續開發。學術文獻題名揭示研究關切涉及監控，但沒有核讀內容前不能把任何具體風險結論歸給作者。",
+  "sources": [
+    {
+      "library_id": "DADAYAN2023QUAYSIDE",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "WATERFRONT_TORONTO_QUAYSIDE2020",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "北美科技都市治理、資料權利與公共土地決策",
+  "region": "北美／加拿大多倫多",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": null,
+      "topic": "水岸再生、數位基礎設施與公共治理"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": null,
+      "topic": "智慧城市方案與公共利益"
+    },
+    {
+      "school": "MIT",
+      "course": null,
+      "topic": "城市資料治理與技術政策"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": null,
+      "topic": "公共土地、隱私與都市監督"
+    }
+  ],
+  "case": {
+    "location": "加拿大安大略省多倫多市 Quayside，Waterfront Toronto 管理的水岸場址",
+    "period": "2017–2020 年 Sidewalk Labs 原提案及退出；其後場址規劃仍可另行進行",
+    "area_ha": null,
+    "fsi": null,
+    "gsi": null,
+    "program_mix": "原提案包含住宅、公共領域、交通與數位基礎設施構想；原提案未實施，後續用途組成不以該方案推定。",
+    "key_strategies_zh": [
+      "在招標和概念規劃前公開資料治理、土地收益、智慧設施採購與問責條款。",
+      "把未實現提案作為治理過程案例，追蹤哪些承諾、爭議與制度變更被納入後續方案。"
+    ],
+    "outcomes_zh": [
+      "Waterfront Toronto 官方聲明記錄 Sidewalk Labs 在 2020 年撤回原 Quayside 提案，並指出場址仍可另行規劃。",
+      "學術書目題名將監控議題與該方案相連；未讀全文，故不據此報告實際資料收集或居民意見。"
+    ],
+    "critiques_zh": [
+      "原提案的數位設施與治理承諾未成為建成成果，不應當成實際運作案例。",
+      "資料權、公共問責和可退出性需以正式文件與決策過程核對，不能只引用企業願景或反對者標籤。"
+    ]
+  },
+  "version": "v2.0"
+}

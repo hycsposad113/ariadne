@@ -1,0 +1,97 @@
+{
+  "id": "MOB-004",
+  "title_zh": "共享服務街道",
+  "title_en": "Woonerf as candidate",
+  "domain": "mobility",
+  "stages": [
+    "S2",
+    "S3",
+    "S4",
+    "S7"
+  ],
+  "statement_zh": "住宅或混合用途服務街道可提議 woonerf 類型；普通交通、服務與步行的準入要逐項列出，不能用名稱推定法定地位。",
+  "rationale_zh": "需要配送、照護與生活活動共存而不把所有路都變車道。",
+  "applies_when": {
+    "scale": [
+      "*"
+    ],
+    "land_use": [
+      "*"
+    ],
+    "strategy": [
+      "*"
+    ],
+    "mode": [
+      "*"
+    ]
+  },
+  "parameters": [
+    {
+      "name": "service_speed_trial",
+      "value": 15,
+      "range": null,
+      "unit": "km/h",
+      "provenance": "ASSUMED_COMMANDER",
+      "source_ids": [],
+      "authority_ref": null,
+      "status": "PROPOSED_PENDING_FOUNDER",
+      "rationale_zh": "指揮官提出的敏感性試算值，文獻未提供此數值；須 Founder 確認、地方資料及確定性驗證，未生效。"
+    }
+  ],
+  "check": {
+    "method_zh": "檢查準入、卸貨點、無障礙連續路與行人衝突；法定 woonerf 狀態待查。",
+    "inputs": [
+      "凍結幾何／路網與 hash",
+      "已接受專案條件與版本",
+      "卡片參數與版本"
+    ],
+    "output": "檢查值、單位、方法、有效性、差異與限制；不自動採納",
+    "implementation_status": "SPECIFICATION_ONLY"
+  },
+  "check_unavailable_reason_zh": null,
+  "design_responses": [
+    {
+      "option": "1",
+      "action_zh": "共享低速服務街",
+      "source_ids": [
+        "MARSHALL05"
+      ],
+      "tradeoff_zh": "依賴行為與管理。"
+    },
+    {
+      "option": "2",
+      "action_zh": "服務路和步行庭院分開",
+      "source_ids": [
+        "PUCHER08"
+      ],
+      "tradeoff_zh": "空間佔用較多。"
+    }
+  ],
+  "evidence_level": "ACADEMIC",
+  "evidence_strength": "NORMATIVE_PRACTICE",
+  "sources": [
+    {
+      "library_id": "PUCHER08",
+      "claim_id": "C1",
+      "support_scope_zh": "文獻支持概念與比較角度；本卡具體操作是設計推導，試算值及專案約束不是文獻的普適結論。"
+    },
+    {
+      "library_id": "MARSHALL05",
+      "claim_id": "C1",
+      "support_scope_zh": "文獻支持概念與比較角度；本卡具體操作是設計推導，試算值及專案約束不是文獻的普適結論。"
+    },
+    {
+      "library_id": "CROW",
+      "claim_id": "C1",
+      "support_scope_zh": "文獻支持概念與比較角度；本卡具體操作是設計推導，試算值及專案約束不是文獻的普適結論。"
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "enforcement": "CANDIDATE_ONLY",
+  "authority_ref": null,
+  "debates_zh": "分離與共享的效果依速度、流量、行人脆弱性和管理而變；CROW 版本與細則未查證，不能宣稱規範合規。 已查證書目與主張的查閱層級見 library；不是逐頁核驗或本基地因果結論。",
+  "context_validity_zh": "荷蘭／丹麥／德國自行車研究支持整體系統，非 M4H 特定距離或寬度。港區貨運、消防、無障礙與兒童需求需地方資料。",
+  "exceptions_zh": "卡片不可替代現行法規、產權、無障礙或已接受 D1/D2。缺必要資料即回報 UNKNOWN；例外須由 Founder 明確決定並保留原結果。",
+  "version": "0.2.0",
+  "local_context_refs": []
+}

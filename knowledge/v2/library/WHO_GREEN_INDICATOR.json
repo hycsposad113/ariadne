@@ -1,0 +1,36 @@
+{
+  "id": "WHO_GREEN_INDICATOR",
+  "title": "Urban green space indicator and public health",
+  "authors": [
+    "World Health Organization Regional Office for Europe"
+  ],
+  "year": 2016,
+  "venue_or_publisher": "World Health Organization Regional Office for Europe",
+  "doi": null,
+  "isbn": null,
+  "kind": "PRACTICE_MANUAL",
+  "tradition": "官方制度與專業實務指引",
+  "region": [
+    "World Health Organization Regional Office for Europe"
+  ],
+  "method": "官方公開法規、政策頁或手冊；依verification.method註明可讀範圍",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "指標文件以300公尺直線距離和至少0.5公頃綠地作為可操作檢核，並討論1公頃分析門檻。",
+      "strength": "NORMATIVE_PRACTICE",
+      "scope_zh": "僅摘要官方公開頁面可直接支持之制度或實務內容；不外推為M4H地方法規。",
+      "assessment_basis": "OFFICIAL_SITE_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED_OFFICIAL_SITE",
+    "url": "https://iris.who.int/bitstream/handle/10665/345751/WHO%E2%80%90EURO%E2%80%902016%E2%80%903352%E2%80%9043111%E2%80%9060341%E2%80%90eng.pdf?sequence=3",
+    "accessed_utc": "2026-10-08T10:47:42Z",
+    "method": "official public technical resource",
+    "match_notes_zh": "核對官方來源網域與可公開讀取的頁面／摘錄；內容範圍限制已記錄。"
+  },
+  "limitations_zh": "official public technical resource",
+  "metadata_licence_zh": "保存官方公開文件的書目欄位與自行改寫的內容摘要；未保存付費全文。"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "BRAUBACH2017",
+  "title": "Effects of Urban Green Space on Environmental Health, Equity and Resilience",
+  "authors": [
+    "Matthias Braubach",
+    "Andrey I. Egorov",
+    "Pierpaolo Mudu",
+    "Tanja Wolf",
+    "Catharine Ward Thompson",
+    "Marco Martuzzi"
+  ],
+  "year": 2017,
+  "venue_or_publisher": "Theory and practice of urban sustainability transitions",
+  "doi": "https://doi.org/10.1007/978-3-319-56091-5_11",
+  "isbn": null,
+  "openalex_id": "https://openalex.org/W2752640507",
+  "kind": "ACADEMIC_BOOK_CHAPTER",
+  "tradition": "都市綠地與環境健康路徑",
+  "region": "歐洲城市研究綜述",
+  "method": "都市綠地健康效益章節；歸納心理、活動、社會與環境暴露路徑",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "綠地可能經由心理放鬆、身體活動、社會凝聚及降低污染、噪音與熱暴露影響健康；這些路徑應分開觀察。",
+      "strength": "MIXED",
+      "scope_zh": "章節摘要整理一般健康路徑，未提供本基地效果量或臨床治療比較。",
+      "assessment_basis": "ABSTRACT_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "OpenAlex",
+    "query": {
+      "record_id": "https://openalex.org/W2752640507",
+      "doi": "10.1007/978-3-319-56091-5_11",
+      "title": "Effects of Urban Green Space on Environmental Health, Equity and Resilience",
+      "author": "Matthias Braubach",
+      "year": 2017
+    },
+    "matched_record_id": "https://openalex.org/W2752640507",
+    "checked_at_utc": "2026-10-09T00:14:19Z",
+    "match_notes_zh": "以允許的公開書目 API 精確比對題名、首位作者與出版年；只保留自行撰寫的摘要範圍說明，未保存全文或 API 摘要原文。"
+  },
+  "limitations_zh": "本條目依公開摘要或書目範圍整理；未下載全文，也不外推摘要未列的樣本、效果量或因果結論。",
+  "metadata_licence_zh": "僅保存公開書目欄位與自行撰寫的繁體中文摘要；未複製摘要全文或論文全文。"
+}

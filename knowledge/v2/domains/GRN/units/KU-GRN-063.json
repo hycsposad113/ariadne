@@ -1,0 +1,69 @@
+{
+  "id": "KU-GRN-063",
+  "domain": "GRN",
+  "subtopic": "綠地可及性",
+  "type": "value_range",
+  "title_zh": "公園研究中的居民活動樣本",
+  "title_en": "Resident activity sample",
+  "summary_zh": "一項美國公園研究以三百八十位居民的活動日誌連結場地特徵。居民樣本量反映研究設計而非可及性目標。自陳活動容易受回憶與參與者選擇影響。樣本豐富仍需注意未回覆者和少數群體。",
+  "key_points_zh": [
+    "一項美國公園研究以三百八十位居民的活動日誌連結場地特徵",
+    "居民樣本量反映研究設計而非可及性目標"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "一項美國公園研究以三百八十位居民的活動日誌連結場地特徵。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "美國",
+        "library_id": "IACONO10",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "樣本豐富仍需注意未回覆者和少數群體。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "把使用者資料和現場計數配對，並描述樣本代表性。"
+  ],
+  "applies_when_zh": "適用於公園研究方法設計。",
+  "not_applicable_when_zh": "不應將樣本數當成調查最低法定規模。",
+  "debates_zh": "樣本豐富仍需注意未回覆者和少數群體。",
+  "sources": [
+    {
+      "library_id": "IACONO10",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "HILLIER93",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "非機動可及性",
+  "region": "美國",
+  "curriculum_refs": [
+    {
+      "school": "UCL Bartlett",
+      "course": "Critical Debates in Urban Design",
+      "topic": "綠地可及性"
+    }
+  ],
+  "version": "2.0.0",
+  "values": [
+    {
+      "name": "公園研究中的居民活動樣本",
+      "range": "380 位",
+      "unit": "居民人數",
+      "context": "美國鄰里公園研究的受訪居民樣本；非設計門檻。；「公園研究中的居民活動樣本」僅供其研究脈絡內比較，不構成本基地法規。",
+      "library_id": "KACZYNSKI08"
+    }
+  ],
+  "related_unit_ids": [
+    "KU-GRN-021"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "SEVTSUK2016",
+  "title": "Pedestrian accessibility in grid layouts: the role of block, plot and street dimensions",
+  "authors": [
+    "Andres Sevtsuk",
+    "Raul Kalvo",
+    "Onur Ekmekci"
+  ],
+  "year": 2016,
+  "venue_or_publisher": "Urban Morphology",
+  "doi": "10.51347/jum.v20i2.4056",
+  "isbn": null,
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "城市形態與網格可及性",
+  "region": [
+    "美國",
+    "澳洲",
+    "跨地域網格研究"
+  ],
+  "method": "Crossref abstract review; grid accessibility analysis of block, plot and street dimensions",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "摘要分析規則網格中的街廓尺寸、地塊尺寸與街道寬度如何影響步行可及性，並比較知名美國與澳洲原始城市計畫及模擬網格；摘要指出街廓大小與可及性的關係非線性。",
+      "strength": "MIXED",
+      "scope_zh": "只依 Crossref 可讀摘要描述研究範圍與方向；不外推為任一單一城市的尺寸標準。",
+      "assessment_basis": "ABSTRACT_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref",
+    "query": {
+      "doi": "10.51347/jum.v20i2.4056",
+      "title": "Pedestrian accessibility in grid layouts: the role of block, plot and street dimensions"
+    },
+    "matched_record_id": "https://doi.org/10.51347/jum.v20i2.4056",
+    "checked_at_utc": "2026-10-08T17:37:01Z",
+    "match_notes_zh": "Crossref 記錄中的 DOI、書名、作者、出版年與期刊相符；摘要明確討論街廓、地塊與街道尺寸。"
+  },
+  "limitations_zh": "只核對 Crossref 書目與摘要，未查閱全文；摘要未列出各個案例城市及其尺寸。",
+  "metadata_licence_zh": "保存公開 Crossref 書目欄位與自行摘要，未保存 API 摘要原文或全文。"
+}

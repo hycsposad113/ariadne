@@ -1,0 +1,96 @@
+{
+  "id": "KU-CAS-034",
+  "domain": "CAS",
+  "subtopic": "水岸與港區—棕地住宅區與環境系統",
+  "type": "case",
+  "title_zh": "Hammarby Sjöstad：以計畫邊界調整與環境系統推動港區轉型",
+  "title_en": "Hammarby Sjöstad: Port-Area Redevelopment and Environmental Systems",
+  "summary_zh": "斯德哥爾摩 Hammarby Sjöstad 把工業與港灣邊緣用地改為住宅、工作及公共交通支撐的新區，並將水、污水、廢棄物和能源系統納入規劃敘事。市府歷史頁記載 1991 年初案約 250 公頃，1997 年修訂計畫範圍約 200 公頃，兩個數字對應不同計畫邊界。環境計畫提出相對於 1990 年代建築的改善目標，這是設計意圖而非已驗證的減量成果。Pandis Iverot 與 Brandt 的論文題名直接涉及該區永續發展，但本輪未核對摘要或全文。",
+  "key_points_zh": [
+    "此案把都市設計和基礎設施循環系統連在一起，評估時仍需取得實際能源、水與廢棄物基線。",
+    "250 與 200 公頃分別對應 1991 初案和 1997 計畫，不可混作同一邊界。"
+  ],
+  "evidence": {
+    "strength": "CASE_EVIDENCE",
+    "findings": [
+      {
+        "claim_zh": "Pandis Iverot 與 Brandt 的論文以 Hammarby Sjöstad 為例探討永續都市區發展；本輪未核讀摘要或全文，不引用其績效結論。",
+        "effect_or_value": "僅確認研究題目與地點，不報告成效",
+        "study_design": "學術論文；本輪僅書目範圍核對",
+        "context_region": "瑞典斯德哥爾摩",
+        "library_id": "PANDISIVEROT_BRANDT2011",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "斯德哥爾摩市府歷史頁說明 1991 年提案約 250 公頃，1997 年修訂計畫約 200 公頃，並記載環境計畫涵蓋水、污水、廢棄物和能源。",
+        "effect_or_value": "官方歷程與計畫口徑；面積隨方案和邊界調整",
+        "study_design": "市府都市發展歷史頁",
+        "context_region": "瑞典斯德哥爾摩 Hammarby Sjöstad",
+        "library_id": "STOCKHOLM_HAMMARBY2026",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "在基地台帳中記錄每次都市計畫的年份、邊界和容量，避免跨版本比較密度或環境指標。",
+    "設計階段把能源、水、污水、廢棄物系統與公共交通服務分項提出基線、目標和營運後量測。"
+  ],
+  "applies_when_zh": "既有港灣或工業用地需轉為高密度街區，且城市能協調土地整治、公共交通與資源系統時。",
+  "not_applicable_when_zh": "若只取得環境目標、未有入住後監測或早期建築對照數據，就不應稱為實現某個減排倍數。",
+  "debates_zh": "Hammarby 常被當成永續街區代表，但市府歷程頁同時顯示計畫面積由 250 公頃修訂到 200 公頃，並說明環境目標屬於計畫要求。要判斷其成果，需核對哪些建築、哪些年份及哪些資源流被納入實測，並把交通與建築端的績效分開。",
+  "sources": [
+    {
+      "library_id": "PANDISIVEROT_BRANDT2011",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "STOCKHOLM_HAMMARBY2026",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "北歐港區再生、環境基礎設施與永續街區治理",
+  "region": "北歐／瑞典斯德哥爾摩",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": null,
+      "topic": "港區棕地轉型、環境系統與公共交通"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": null,
+      "topic": "永續街區與基礎設施規劃"
+    },
+    {
+      "school": "MIT",
+      "course": null,
+      "topic": "城市代謝、能源及水系統"
+    }
+  ],
+  "case": {
+    "location": "瑞典斯德哥爾摩 Hammarby Sjöstad",
+    "period": "1991 初步總體規劃約 250 公頃；1997 修訂計畫約 200 公頃，後續分期開發",
+    "area_ha": 200,
+    "fsi": null,
+    "gsi": null,
+    "program_mix": "住宅、工作與服務用途、學校及其他公共服務、電車、道路與資源循環設施；正式用途比例未查得。",
+    "key_strategies_zh": [
+      "將水、污水、能源和廢棄物設施設計納入都市區規劃，而非只以建築外觀標示永續。",
+      "分版本保留計畫邊界與用途容量，對照不同開發期的實際基礎設施績效。"
+    ],
+    "outcomes_zh": [
+      "市府資料記載 1997 年方案約 200 公頃；1991 年方案為約 250 公頃，應依研究年份選用。",
+      "市府記錄計畫中的資源循環模型及環境計畫；本單元不將目標等同實際成效。"
+    ],
+    "critiques_zh": [
+      "市府歷程提供多版邊界與環境目標，但未在該頁面提供一套可與基線比較的全區實際績效數據。",
+      "若以 Hammarby 作標竿，須先比對計畫範圍、建成年代、供能組合與監測方式。"
+    ]
+  },
+  "version": "v2.0"
+}

@@ -1,0 +1,81 @@
+{
+  "id": "KU-SYN-018",
+  "domain": "SYN",
+  "subtopic": "自然移動",
+  "type": "empirical_finding",
+  "title_zh": "Mymensingh 商業用途比組態更能解釋行人量",
+  "title_en": "Commercial uses and pedestrian volume in Mymensingh",
+  "summary_zh": "多街段空間語法值、土地使用及行人計數比較，研究脈絡為Mymensingh，孟加拉。自然移動是可測假說，不能取代活動資料。組態與行人量的相關偏弱，商業土地使用提供較強的解釋線索。限制包括單一歷史城鎮，摘要未列係數或時段控制。",
+  "key_points_zh": [
+    "自然移動是可測假說，不能取代活動資料",
+    "限制：單一歷史城鎮，摘要未列係數或時段控制",
+    "效果或方向：組態與行人量的相關偏弱，商業土地使用提供較強的解釋線索"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "Mymensingh 商業用途比組態更能解釋行人量｜自然移動是可測假說，不能取代活動資料",
+        "effect_or_value": "組態與行人量的相關偏弱，商業土地使用提供較強的解釋線索",
+        "study_design": "多街段空間語法值、土地使用及行人計數比較",
+        "context_region": "Mymensingh，孟加拉",
+        "library_id": "AZIZ2018",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "Mymensingh 商業用途比組態更能解釋行人量｜日常用途、街道互動及多樣性可作城市生活的討論起點；不能從外觀推定安全或社群",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "JACOBS61",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "在組態圖旁記錄吸引點與實際計數"
+  ],
+  "applies_when_zh": "若本地觀察單位與Mymensingh，孟加拉的研究脈絡可對照，可用「自然移動是可測假說，不能取代活動資料」作為自然移動的比較線索。",
+  "not_applicable_when_zh": "這項Mymensingh，孟加拉的研究結果不能單獨證明因果或預測其他城市的街段；原研究單一歷史城鎮，摘要未列係數或時段控制。",
+  "debates_zh": "關聯能否外推；單一歷史城鎮，摘要未列係數或時段控制；檢視「Mymensingh 商業用途比組態更能解釋行人量」的研究解讀時，還需判斷「限制：單一歷史城鎮，摘要未列係數或時段控制」會如何改變方案結論。",
+  "sources": [
+    {
+      "library_id": "AZIZ2018",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "JACOBS61",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "組態與行人移動理論",
+  "region": "Mymensingh，孟加拉",
+  "curriculum_refs": [
+    {
+      "school": "UCL Bartlett",
+      "course": "Critical Debates in Urban Design",
+      "topic": "自然移動：課綱對應主題"
+    },
+    {
+      "school": "TU Delft",
+      "course": "Methods of Analysis & Imagination",
+      "topic": "自然移動：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-SYN-017",
+    "KU-SYN-019",
+    "KU-SYN-020",
+    "KU-SYN-021",
+    "KU-SYN-022",
+    "KU-SYN-023",
+    "KU-SYN-024"
+  ]
+}

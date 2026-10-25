@@ -1,0 +1,80 @@
+{
+  "id": "KU-STR-047",
+  "domain": "STR",
+  "subtopic": "共享空間",
+  "type": "typology",
+  "title_zh": "共享空間：型態比較",
+  "title_en": "Shared space: Typology comparison",
+  "summary_zh": "整合式鋪面、局部行人優先帶、低速混行和時段式管制各有用途；邊界越不清楚越需要速度控制與使用者可讀性。類型比較要回到共享空間調整路面、邊界、速度和使用者互動，使車行與步行共處；它不是取消管理或把安全責任交給行人。各類型的成本和適用條件包括：共享空間對視覺或行動能力受限者可能更難判讀；安全感提升也不能替代碰撞或近失資料。",
+  "key_points_zh": [
+    "比較類型：共享空間調整路面、邊界、速度和使用者互動，使車行與步行共處；它不是取消管理或把安全責任交給行人",
+    "比較類型：整合式鋪面、局部行人優先帶、低速混行和時段式管制各有用途；邊界越不清楚越需要速度控制與使用者可讀性"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "共享空間：型態比較｜共享空間把道路交通、行人活動與地方角色放在同一設計問題中；書目與摘要未提供可普遍套用的安全數值",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "HAMILTONBAILLIE08",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "共享空間：型態比較｜公共空間同時面對過度管理與管理不足的批評；開放性與安全不能用單一形式解決",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "CARMONA10",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "類型表應比較「共享空間調整路面、邊界、速度和使用者互動，使車行與步行共處；它不是取消管理或把安全責任交給行人」及其使用代價「共享空間對視覺或行動能力受限者可能更難判讀；安全感提升也不能替代碰撞或近失資料」，不要只列名稱。"
+  ],
+  "applies_when_zh": "比較共享空間方案時，可先用「共享空間調整路面、邊界、速度和使用者互動，使車行與步行共處；它不是取消管理或把安全責任交給行人」描述各類型，再按「共享空間對視覺或行動能力受限者可能更難判讀；安全感提升也不能替代碰撞或近失資料」檢查分類的盲點。",
+  "not_applicable_when_zh": "這些類型不構成普遍排序；遇到「共享空間對視覺或行動能力受限者可能更難判讀；安全感提升也不能替代碰撞或近失資料」所述條件時，不應只依類名決定路網或街道配置。",
+  "debates_zh": "共享空間對視覺或行動能力受限者可能更難判讀；安全感提升也不能替代碰撞或近失資料；檢視「共享空間：型態比較」的分類邊界時，還需判斷「整合式鋪面、局部行人優先帶、低速混行和時段式管制各有用途；邊界越不清楚越需要速度控制與使用者可讀性」會如何改變方案結論。",
+  "sources": [
+    {
+      "library_id": "HAMILTONBAILLIE08",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "CARMONA10",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "共享街道與交通安全",
+  "region": "跨地域理論或實務脈絡；來源地區依引用條目判讀",
+  "curriculum_refs": [
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "共享空間：課綱對應主題"
+    },
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "共享空間：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-STR-041",
+    "KU-STR-042",
+    "KU-STR-043",
+    "KU-STR-044",
+    "KU-STR-045",
+    "KU-STR-046",
+    "KU-STR-048"
+  ]
+}

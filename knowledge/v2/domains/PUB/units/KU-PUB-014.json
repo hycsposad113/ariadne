@@ -1,0 +1,61 @@
+{
+  "id": "KU-PUB-014",
+  "domain": "PUB",
+  "subtopic": "邊緣效應",
+  "type": "concept",
+  "title_zh": "高低差會改變邊緣的使用權",
+  "title_en": "Level changes redistribute edge access",
+  "summary_zh": "台階可成為座位，但無坡道的高差會切斷某些使用者的到達路徑。邊緣的視覺連續不保證無障礙路徑連續。臨時設施和攤販也可能阻斷原本可走的斜坡。台階式公共生活和連續無障礙網絡可能爭用同一邊界。",
+  "key_points_zh": [
+    "台階可成為座位，但無坡道的高差會切斷某些使用者的到達路徑",
+    "邊緣的視覺連續不保證無障礙路徑連續"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "台階可成為座位，但無坡道的高差會切斷某些使用者的到達路徑。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "歐洲",
+        "library_id": "RATTI04",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "台階式公共生活和連續無障礙網絡可能爭用同一邊界。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "分開檢查可見入口、實際坡道、休息點和輪椅轉向空間。"
+  ],
+  "applies_when_zh": "適用於有地形差的場地與河岸界面。",
+  "not_applicable_when_zh": "不宜只以主要入口符合規範推定全場可用。",
+  "debates_zh": "台階式公共生活和連續無障礙網絡可能爭用同一邊界。",
+  "sources": [
+    {
+      "library_id": "RATTI04",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "MARSHALL05",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "空間語法批評",
+  "region": "歐洲",
+  "curriculum_refs": [
+    {
+      "school": "MIT",
+      "course": "11.330J Theory of City Form",
+      "topic": "邊緣效應"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-PUB-013",
+    "KU-PUB-015"
+  ]
+}

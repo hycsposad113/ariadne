@@ -1,0 +1,59 @@
+{
+  "case_id": "compare-no-climate",
+  "evaluation_scope": "FAKE_VALIDATOR_PLUMBING_ONLY",
+  "expectations": {
+    "claims": [
+      "limitations includes DATA_GAP",
+      "L4 does not cite climate metrics"
+    ],
+    "forbidden_content": [
+      "最佳方案",
+      "冠軍",
+      "勝出",
+      "排名第一即採用",
+      "已核准",
+      "批准",
+      "正式接受",
+      "人流量",
+      "實測人流",
+      "climate conclusion without input"
+    ],
+    "parameter_families": {
+      "must_include_any": []
+    },
+    "stance": {
+      "allowed": null
+    }
+  },
+  "input_readiness": "READY_FOR_INPUT_ABLATION",
+  "provenance": {
+    "note": "Climate source files are retained in the hashed base snapshot; the case removes climate metrics from the model input bundle.",
+    "spec_case": "J-COMPARE-zh.md §評測案例 2"
+  },
+  "required_inputs": [],
+  "required_metric_ids": [],
+  "schema_version": "ariadne-judgement-eval-case-v1",
+  "semantic_expectations_evaluated": false,
+  "skill_id": "J-COMPARE",
+  "snapshot": {
+    "bundle_sha256": "9431236959dca8524ca51e9c0c5118db60c92df648271d5cc04796a6e8af64e3",
+    "path": "knowledge/judgement/eval/snapshots/compare-all.json",
+    "sha256": "df6ed5ae0798396d414344c263883bc197a0d59b43afbabc71a7dd3a8f620d82",
+    "skill_id": "J-COMPARE",
+    "subject_ids": []
+  },
+  "subject_ids": [],
+  "transform": {
+    "append_data_gaps": [
+      "DATA_GAP:climate.*"
+    ],
+    "remove_metric_prefixes": [
+      "e1.",
+      "utci.",
+      "e2.",
+      "e3.",
+      "e4.",
+      "e5."
+    ]
+  }
+}

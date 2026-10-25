@@ -1,0 +1,104 @@
+{
+  "id": "KU-MOR-005",
+  "domain": "MOR",
+  "subtopic": "地塊、街廓與建築類型",
+  "type": "critique",
+  "title_zh": "地塊、街廓與建築類型｜批評與反例",
+  "title_en": "Plots, blocks and building types — Critique and counterexample",
+  "summary_zh": "分辨街道、地塊與建築的歷史層次，先讀既有格局再提出改動。 工具書統整城市形態描述與分析方法，適合作為術語和尺度的導航，不替代案例的量測。 讀「地塊、街廓與建築類型｜批評與反例」時，街廓小不必然代表活力；所有權、用途和公共通行權也會改變其表現；同時把分辨街道、地塊與建築的歷史層次，先讀既有格局再提出改動列為核對條件。",
+  "key_points_zh": [
+    "讀「地塊、街廓與建築類型｜批評與反例」時，街廓小不必然代表活力；所有權、用途和公共通行權也會改變其表現；同時把分辨街道、地塊與建築的歷史層次，先讀既有格局再提出改動列為核對條件。",
+    "讀「地塊、街廓與建築類型｜批評與反例」時，適用於比較歷史街區、更新地與新開發的細部粒度；同時把分辨街道、地塊與建築的歷史層次，先讀既有格局再提出改動列為核對條件。",
+    "讀「地塊、街廓與建築類型｜批評與反例」時，限制：地籍資料不完整或宗地權利不清時，只能描述可見形態；同時把分辨街道、地塊與建築的歷史層次，先讀既有格局再提出改動列為核對條件。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "Conzen 的城鎮平面分析把街道、地塊和建築地帶當作可分層閱讀的形態要素，適合用來說明街廓並非單一外觀尺度。",
+        "library_id": "CONZEN60",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "英國",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "Kropf 的形態學手冊提供跨街道、地塊與建築尺度的描述語彙，支援在同一比較中辨認街廓和建築類型的關係。",
+        "library_id": "KROPF2017",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "跨地域形態學",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "落實「地塊、街廓與建築類型｜批評與反例」時可先細分地塊可支持增量更新；整合大宗地較易統一建造但降低街巷穿透，再用分辨街道、地塊與建築的歷史層次，先讀既有格局再提出改動核對方案的空間後果。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "在「地塊、街廓與建築類型｜批評與反例」的來源情境裡，先畫出街道—街廓—宗地層級，再配置建築與開放空間；落到設計時還要按分辨街道、地塊與建築的歷史層次，先讀既有格局再提出改動調整。",
+      "tradeoff_zh": "「地塊、街廓與建築類型｜批評與反例」的主要代價不是抽象的建造成本，而是設計者可依地方目標選擇，也可提出反例；這是待驗證的主張，不是普遍法規；因此先以分辨街道、地塊與建築的歷史層次，先讀既有格局再提出改動作方案比較條件。",
+      "library_ids": [
+        "CONZEN60",
+        "KROPF2017"
+      ]
+    },
+    {
+      "option_zh": "「地塊、街廓與建築類型｜批評與反例」可把取向落在細分地塊可支持增量更新；整合大宗地較易統一建造但降低街巷穿透，但需連同分辨街道、地塊與建築的歷史層次，先讀既有格局再提出改動決定適用方式。",
+      "tradeoff_zh": "「地塊、街廓與建築類型｜批評與反例」的主要代價不是抽象的建造成本，而是設計者可依地方目標選擇，也可提出反例；這是待驗證的主張，不是普遍法規；因此先以分辨街道、地塊與建築的歷史層次，先讀既有格局再提出改動作方案比較條件。",
+      "library_ids": [
+        "CONZEN60",
+        "KROPF2017"
+      ]
+    }
+  ],
+  "applies_when_zh": "「地塊、街廓與建築類型｜批評與反例」可在適用於比較歷史街區、更新地與新開發的細部粒度時使用，前提是分辨街道、地塊與建築的歷史層次，先讀既有格局再提出改動與來源情境相符。",
+  "not_applicable_when_zh": "若分辨街道、地塊與建築的歷史層次，先讀既有格局再提出改動不成立，就不能把「地塊、街廓與建築類型｜批評與反例」的結論延伸到其他情況；地籍資料不完整或宗地權利不清時，只能描述可見形態。",
+  "debates_zh": "設計者可依地方目標選擇，也可提出反例；這是待驗證的主張，不是普遍法規。",
+  "sources": [
+    {
+      "library_id": "CONZEN60",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "KROPF2017",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "英國城鎮平面學；城市形態學",
+  "region": "英國；跨地域形態學",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "地塊、街廓與建築類型"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "地塊、街廓與建築類型"
+    },
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.330J Theory of City Form",
+      "topic": "地塊、街廓與建築類型"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban form and density",
+      "topic": "地塊、街廓與建築類型"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-MOR-001",
+    "KU-MOR-002",
+    "KU-MOR-003"
+  ]
+}

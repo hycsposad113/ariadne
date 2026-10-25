@@ -1,0 +1,43 @@
+{
+  "id": "DEVOR2010",
+  "title": "The Impact of Industrial Sites on Residential Property Values: A Hedonic Pricing Analysis from the Netherlands",
+  "authors": [
+    "Friso de Vor",
+    "H.L.F. de Groot"
+  ],
+  "year": 2010,
+  "venue_or_publisher": "Regional Studies, 45(5), 609–623",
+  "doi": "https://doi.org/10.1080/00343401003601925",
+  "isbn": null,
+  "openalex_id": "https://openalex.org/W2159520162",
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "荷蘭工業場址與住宅價格外部性",
+  "region": "荷蘭蘭斯塔德與北布拉班特",
+  "method": "以住宅成交資料進行享樂價格分析",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "荷蘭住宅成交分析估計住宅到工業場址的距離效應，研究報告價格影響為負向且具有局部性。",
+      "strength": "MIXED",
+      "scope_zh": "分析對象是工業場址鄰近性，不是 Koster 的混合用途平均估值或租金結果。",
+      "assessment_basis": "ABSTRACT_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "OpenAlex",
+    "query": {
+      "record_id": "https://openalex.org/W2159520162",
+      "doi": "10.1080/00343401003601925",
+      "title": "The Impact of Industrial Sites on Residential Property Values: A Hedonic Pricing Analysis from the Netherlands",
+      "author": "Friso de Vor",
+      "year": 2010
+    },
+    "matched_record_id": "https://openalex.org/W2159520162",
+    "checked_at_utc": "2026-10-09T00:14:22Z",
+    "match_notes_zh": "以允許的公開書目 API 精確比對題名、首位作者與出版年；只保留自行撰寫的摘要範圍說明，未保存全文或 API 摘要原文。"
+  },
+  "limitations_zh": "本條目依公開摘要或書目範圍整理；未下載全文，也不外推摘要未列的樣本、效果量或因果結論。",
+  "metadata_licence_zh": "僅保存公開書目欄位與自行撰寫的繁體中文摘要；未複製摘要全文或論文全文。"
+}

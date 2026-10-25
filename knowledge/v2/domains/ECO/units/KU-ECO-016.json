@@ -1,0 +1,75 @@
+{
+  "id": "KU-ECO-016",
+  "domain": "ECO",
+  "subtopic": "生態網絡與連結度",
+  "type": "value_range",
+  "title_zh": "昆蟲連通研究的類群數",
+  "title_en": "Taxa count in a connectivity study",
+  "summary_zh": "東京土地策略研究分析蝴蝶與地表步甲兩個昆蟲類群。類群數不多，但其分歧回應提醒生態規劃不能以單一分類群代替整體多樣性。研究結果適用範圍受物種及城市限制。可行的調查範圍和全面保育判斷之間存在資源取捨。",
+  "key_points_zh": [
+    "東京土地策略研究分析蝴蝶與地表步甲兩個昆蟲類群",
+    "類群數不多，但其分歧回應提醒生態規劃不能以單一分類群代替整體多樣性"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "東京土地策略研究分析蝴蝶與地表步甲兩個昆蟲類群。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "歐洲",
+        "library_id": "RATTI04",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "可行的調查範圍和全面保育判斷之間存在資源取捨。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "選擇多個功能群調查，並公開哪些類群未納入。"
+  ],
+  "applies_when_zh": "適用於制定生態監測抽樣設計。",
+  "not_applicable_when_zh": "不應把兩類群的結果當成整體生物多樣性百分比。",
+  "debates_zh": "可行的調查範圍和全面保育判斷之間存在資源取捨。",
+  "sources": [
+    {
+      "library_id": "RATTI04",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "HANSEN14",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "空間語法批評",
+  "region": "歐洲",
+  "curriculum_refs": [
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "生態網絡與連結度"
+    },
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "生態網絡與連結度"
+    }
+  ],
+  "version": "2.0.0",
+  "values": [
+    {
+      "name": "昆蟲連通研究的類群數",
+      "range": "2 類昆蟲",
+      "unit": "分類群數",
+      "context": "東京研究比較蝴蝶及地表步甲；說明研究範圍，非生態品質門檻。；「昆蟲連通研究的類群數」僅供其研究脈絡內比較，不構成本基地法規。",
+      "library_id": "SOGA14"
+    }
+  ],
+  "related_unit_ids": [
+    "KU-ECO-015",
+    "KU-ECO-017"
+  ]
+}

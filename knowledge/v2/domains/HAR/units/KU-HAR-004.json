@@ -1,0 +1,71 @@
+{
+  "id": "KU-HAR-004",
+  "domain": "HAR",
+  "subtopic": "工業遺產與 adaptive reuse",
+  "type": "empirical_finding",
+  "title_zh": "業主調查呈現適應性再利用的支持與判斷方式",
+  "title_en": "An owner survey documents support for adaptive reuse",
+  "summary_zh": "Bullen 對西澳商業建築業主進行調查並回顧相關文獻，研究業主對適應性再利用與永續性的理解。摘要指出，業主可能以支持態度及直覺判斷回應再利用選項；這是態度和決策過程的證據，不等於建築改造已實現特定環境效益。Langston 等人討論香港建築再利用機會評估，補充了前期篩選的專業議題。決策紀錄需區分意願、可行性和完工後實測結果。",
+  "key_points_zh": [
+    "業主支持不等於財務或環境效益已被證明。",
+    "再利用評估需分開記錄態度、建築條件與方案表現。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "library_id": "BULLEN2007",
+        "claim_zh": "研究包括西澳商業建築業主調查及文獻回顧，摘要描述業主對適應性再利用的支持和直覺性判斷。",
+        "effect_or_value": "調查業主對再利用的態度；非完工後能源節省量",
+        "study_design": "業主調查加文獻回顧",
+        "context_region": "西澳大利亞商業建築",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "library_id": "LANGSTON2008",
+        "claim_zh": "文章討論香港建築適應性再利用機會的策略評估。",
+        "effect_or_value": "評估框架議題；本次未取得可核對的數值績效",
+        "study_design": "策略評估方法討論，依書目範圍",
+        "context_region": "香港建築環境",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "前期評估表將業主偏好、結構狀況、改造限制、成本與後續能源表現分欄記錄。",
+    "完工後追蹤另量測使用率、碳排、能耗與公共效益，不以意願代替成果。"
+  ],
+  "applies_when_zh": "適用於既有商業或工業建築再利用的早期評估及利害關係人訪談。",
+  "not_applicable_when_zh": "不適用於由業主態度推算特定建築節能幅度或文化價值。",
+  "debates_zh": "業主支持可能受調查樣本、地產週期和資金條件影響；香港評估範圍也不等同澳洲的調查結果。",
+  "sources": [
+    {
+      "library_id": "BULLEN2007",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "LANGSTON2008",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "建築再利用與永續評估",
+  "region": "西澳大利亞及香港",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": null,
+      "topic": "工業遺產與 adaptive reuse"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": null,
+      "topic": "既有建築再利用"
+    }
+  ],
+  "version": "v2.0"
+}

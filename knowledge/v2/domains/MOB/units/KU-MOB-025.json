@@ -1,0 +1,81 @@
+{
+  "id": "KU-MOB-025",
+  "domain": "MOB",
+  "subtopic": "自行車停車",
+  "type": "empirical_finding",
+  "title_zh": "自行車停車與大眾運輸接駁障礙",
+  "title_en": "Parking barriers in bicycle-transit trips",
+  "summary_zh": "海牙電車乘客 revealed-preference 問卷、迴歸與質性分析，研究脈絡為海牙，荷蘭。安全停車和可取得自行車是接駁鏈條的一部分。缺少自行車、停車不足或不安全是自行車—電車組合的重要障礙之一。限制包括單一電車網及乘客問卷，沒有測試一種停車改造的前後因果效果。",
+  "key_points_zh": [
+    "安全停車和可取得自行車是接駁鏈條的一部分",
+    "限制：單一電車網及乘客問卷，沒有測試一種停車改造的前後因果效果",
+    "效果或方向：缺少自行車、停車不足或不安全是自行車—電車組合的重要障礙之一"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "自行車停車與大眾運輸接駁障礙｜安全停車和可取得自行車是接駁鏈條的一部分",
+        "effect_or_value": "缺少自行車、停車不足或不安全是自行車—電車組合的重要障礙之一",
+        "study_design": "海牙電車乘客 revealed-preference 問卷、迴歸與質性分析",
+        "context_region": "海牙，荷蘭",
+        "library_id": "RIJSMAN19",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "自行車停車與大眾運輸接駁障礙｜停車供給與成本分攤應被視為土地與交通政策選擇；本單元不把書中案例值外推為其他城市規範",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "SHOUP05",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "把停車安全與路線、站點入口同時規劃"
+  ],
+  "applies_when_zh": "若本地觀察單位與海牙，荷蘭的研究脈絡可對照，可用「安全停車和可取得自行車是接駁鏈條的一部分」作為自行車停車的比較線索。",
+  "not_applicable_when_zh": "這項海牙，荷蘭的研究結果不能單獨證明因果或預測其他城市的街段；原研究單一電車網及乘客問卷，沒有測試一種停車改造的前後因果效果。",
+  "debates_zh": "關聯能否外推；單一電車網及乘客問卷，沒有測試一種停車改造的前後因果效果；檢視「自行車停車與大眾運輸接駁障礙」的研究解讀時，還需判斷「限制：單一電車網及乘客問卷，沒有測試一種停車改造的前後因果效果」會如何改變方案結論。",
+  "sources": [
+    {
+      "library_id": "RIJSMAN19",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "SHOUP05",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "自行車接駁與停車政策",
+  "region": "海牙，荷蘭",
+  "curriculum_refs": [
+    {
+      "school": "UCL Bartlett",
+      "course": "Sustainable Futures by Design",
+      "topic": "自行車停車：課綱對應主題"
+    },
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "自行車停車：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-MOB-026",
+    "KU-MOB-027",
+    "KU-MOB-028",
+    "KU-MOB-029",
+    "KU-MOB-030",
+    "KU-MOB-031",
+    "KU-MOB-032"
+  ]
+}

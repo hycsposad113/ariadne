@@ -1,0 +1,61 @@
+{
+  "id": "KU-PUB-047",
+  "domain": "PUB",
+  "subtopic": "公共空間私有化與管理",
+  "type": "design_principle",
+  "title_zh": "維護經費與表達自由需要一起治理",
+  "title_en": "Maintenance and expression need joint governance",
+  "summary_zh": "穩定清潔、修繕與活動管理需要可追溯的預算責任。若維護規則只獎勵消費和安靜，公共空間會偏離集會和非正式交往功能。市政預算不足可能讓公共所有權成為無人照管的名義。自治與秩序需要透明規則，卻不應形成任意管制。",
+  "key_points_zh": [
+    "穩定清潔、修繕與活動管理需要可追溯的預算責任",
+    "若維護規則只獎勵消費和安靜，公共空間會偏離集會和非正式交往功能"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "穩定清潔、修繕與活動管理需要可追溯的預算責任。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "美國",
+        "library_id": "HEYNEN06",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "自治與秩序需要透明規則，卻不應形成任意管制。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "在設計方案同步提出維護來源、活動審批與申訴程序。"
+  ],
+  "applies_when_zh": "適用於長期運營尚未確定的公私合作項目。",
+  "not_applicable_when_zh": "不應先建設再假設未來某一方會承擔成本。",
+  "debates_zh": "自治與秩序需要透明規則，卻不應形成任意管制。",
+  "sources": [
+    {
+      "library_id": "HEYNEN06",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "ANGELOVSKI19",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "政治生態與環境不平等",
+  "region": "美國",
+  "curriculum_refs": [
+    {
+      "school": "UCL Bartlett",
+      "course": "Critical Debates in Urban Design",
+      "topic": "公共空間私有化與管理"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-PUB-046",
+    "KU-PUB-048"
+  ]
+}

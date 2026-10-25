@@ -1,0 +1,72 @@
+{
+  "id": "KU-SOC-005",
+  "domain": "SOC",
+  "subtopic": "參與階梯與合作式規劃",
+  "type": "theory",
+  "title_zh": "Innes 共識與批評",
+  "title_en": "Innes consensus building and critique",
+  "summary_zh": "Innes 將共識建構視為互動學習和形成新理解的過程，重視參與者在討論中改變原有問題定義。Flyvbjerg 的權力分析提醒理性論述可能被既有權力重新界定。保留初始立場、討論變化及未解分歧，另查誰有能力退出或否決。",
+  "key_points_zh": [
+    "保留初始立場、討論變化及未解分歧，另查誰有能力退出或否決。",
+    "共識可能是壓力下的服從，不可把沒有公開反對當成所有人同意。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "Innes 將共識建構視為互動學習和形成新理解的過程，重視參與者在討論中改變原有問題定義。",
+        "library_id": "INNES1996",
+        "locator": null,
+        "study_design": "理論／方法綜述；非基地實測",
+        "effect_or_value": null,
+        "context_region": null,
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008"
+      },
+      {
+        "claim_zh": "Flyvbjerg 的權力分析提醒理性論述可能被既有權力重新界定。",
+        "library_id": "FLYVBJERG1998",
+        "locator": null,
+        "study_design": "理論／方法綜述；非基地實測",
+        "effect_or_value": null,
+        "context_region": null,
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "保留初始立場、討論變化及未解分歧，另查誰有能力退出或否決。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "協商可形成可執行合作",
+      "tradeoff_zh": "須讓少數反對仍能被追踪。",
+      "library_ids": [
+        "INNES1996",
+        "FLYVBJERG1998"
+      ]
+    }
+  ],
+  "applies_when_zh": "用於釐清「Innes 共識與批評」涉及的空間、制度與行動選擇。",
+  "not_applicable_when_zh": "「Innes 共識與批評」不能直接替代基地的實測、法規或人類批准。",
+  "debates_zh": "共識可能是壓力下的服從，不可把沒有公開反對當成所有人同意。",
+  "sources": [
+    {
+      "library_id": "INNES1996",
+      "locator": null
+    },
+    {
+      "library_id": "FLYVBJERG1998",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+  "curriculum_refs": [
+    {
+      "school": "UCL Bartlett",
+      "course": null,
+      "topic": "編者主題對照，非已核實課程指定閱讀：Innes 共識與批評"
+    }
+  ],
+  "version": "2.0.0-theory-v3"
+}

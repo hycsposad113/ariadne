@@ -1,0 +1,101 @@
+{
+  "id": "MOB-007",
+  "title_zh": "尺度與用途決定交通",
+  "title_en": "Scale and land-use transport",
+  "domain": "mobility",
+  "stages": [
+    "S2",
+    "S3",
+    "S4",
+    "S7"
+  ],
+  "statement_zh": "試算面積<=10 ha 為中小、>10 ha 為較大；辦公 GFA 比例>=40% 提醒評估車行／停車。兩門檻僅候選，不自動增加車道。",
+  "rationale_zh": "是否需要車流取決於交通供給、物流與日常用途，不能只看面積。",
+  "applies_when": {
+    "land_use": [
+      "mixed",
+      "office"
+    ],
+    "scale": [
+      "small_medium",
+      "large"
+    ]
+  },
+  "parameters": [
+    {
+      "name": "small_medium_area_max",
+      "value": 10,
+      "range": null,
+      "unit": "ha",
+      "provenance": "ASSUMED_COMMANDER",
+      "source_ids": [],
+      "status": "PROPOSED_PENDING_FOUNDER",
+      "rationale_zh": "可調試算值，沒有普適證據；需 Founder 確認並做敏感性比較。 原數字保留；來源是作品集轉述或專案假設，未經公開書目佐證，不視為研究或實測。",
+      "authority_ref": null
+    },
+    {
+      "name": "office_share_review_min",
+      "value": 40,
+      "range": null,
+      "unit": "% GFA",
+      "provenance": "ASSUMED_COMMANDER",
+      "source_ids": [],
+      "status": "PROPOSED_PENDING_FOUNDER",
+      "rationale_zh": "可調試算值，沒有普適證據；需 Founder 確認並做敏感性比較。 原數字保留；來源是作品集轉述或專案假設，未經公開書目佐證，不視為研究或實測。",
+      "authority_ref": null
+    }
+  ],
+  "check": {
+    "method_zh": "計算確認基地面積與用途 GFA；缺政府規劃或現況用途則不下交通結論。",
+    "inputs": [
+      "凍結幾何／路網與 hash",
+      "已接受專案條件與版本",
+      "卡片參數與版本"
+    ],
+    "output": "檢查值、單位、方法、有效性、差異與限制；不自動採納",
+    "implementation_status": "SPECIFICATION_ONLY"
+  },
+  "check_unavailable_reason_zh": null,
+  "design_responses": [
+    {
+      "option": "1",
+      "action_zh": "中小混合區以慢行加服務為主",
+      "source_ids": [
+        "PUCHER08"
+      ],
+      "tradeoff_zh": "仍需無障礙與物流。"
+    },
+    {
+      "option": "2",
+      "action_zh": "比較較大辦公區公共交通及停車方案",
+      "source_ids": [
+        "EWING10"
+      ],
+      "tradeoff_zh": "車位會消耗土地且誘發依賴。"
+    }
+  ],
+  "evidence_level": "COMMON_SENSE_ASSUMED",
+  "evidence_strength": "MIXED",
+  "sources": [
+    {
+      "library_id": "EWING10",
+      "claim_id": "C1",
+      "support_scope_zh": "文獻支持概念與比較角度；本卡具體操作是設計推導，試算值及專案約束不是文獻的普適結論。"
+    },
+    {
+      "library_id": "PUCHER08",
+      "claim_id": "C1",
+      "support_scope_zh": "文獻支持概念與比較角度；本卡具體操作是設計推導，試算值及專案約束不是文獻的普適結論。"
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "enforcement": "CANDIDATE_ONLY",
+  "authority_ref": null,
+  "debates_zh": "分離與共享的效果依速度、流量、行人脆弱性和管理而變；CROW 版本與細則未查證，不能宣稱規範合規。 已查證書目與主張的查閱層級見 library；不是逐頁核驗或本基地因果結論。",
+  "context_validity_zh": "荷蘭／丹麥／德國自行車研究支持整體系統，非 M4H 特定距離或寬度。港區貨運、消防、無障礙與兒童需求需地方資料。",
+  "exceptions_zh": "卡片不可替代現行法規、產權、無障礙或已接受 D1/D2。缺必要資料即回報 UNKNOWN；例外須由 Founder 明確決定並保留原結果。",
+  "version": "0.2.0",
+  "local_context_refs": [
+    "FOUNDER"
+  ]
+}

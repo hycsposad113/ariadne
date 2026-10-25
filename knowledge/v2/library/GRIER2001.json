@@ -1,0 +1,42 @@
+{
+  "id": "GRIER2001",
+  "title": "Japan's Regulation of Large Retail Stores: Political Demands Versus Economic Interests",
+  "authors": [
+    "Jean Heilman Grier"
+  ],
+  "year": 2001,
+  "venue_or_publisher": "Penn Carey Law Legal Scholarship Repository, University of Pennsylvania",
+  "doi": null,
+  "isbn": null,
+  "openalex_id": "https://openalex.org/W763989892",
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "日本大型零售店管制與政治經濟",
+  "region": "日本",
+  "method": "以大型零售店規制為題的法律與制度分析",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "Grier 的研究以日本大型零售店規制為對象，並將政治訴求與經濟利益放在同一制度問題中。",
+      "strength": "MIXED",
+      "scope_zh": "只依公開書目題名和典藏欄位描述範圍；不據此推斷各自治體現行土地使用權限。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "OpenAlex",
+    "query": {
+      "record_id": "https://openalex.org/W763989892",
+      "doi": "",
+      "title": "Japan's Regulation of Large Retail Stores: Political Demands Versus Economic Interests",
+      "author": "Jean Heilman Grier",
+      "year": 2001
+    },
+    "matched_record_id": "https://openalex.org/W763989892",
+    "checked_at_utc": "2026-10-09T00:14:32Z",
+    "match_notes_zh": "以允許的公開書目 API 精確比對題名、首位作者與出版年；只保留自行撰寫的摘要範圍說明，未保存全文或 API 摘要原文。"
+  },
+  "limitations_zh": "本條目依公開摘要或書目範圍整理；未下載全文，也不外推摘要未列的樣本、效果量或因果結論。",
+  "metadata_licence_zh": "僅保存公開書目欄位與自行撰寫的繁體中文摘要；未複製摘要全文或論文全文。"
+}

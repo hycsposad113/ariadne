@@ -1,0 +1,145 @@
+{
+  "domain": "CLI",
+  "total_units": 72,
+  "topics": [
+    {
+      "topic": "街谷高寬比（H/W）",
+      "unit_ids": [
+        "KU-CLI-001",
+        "KU-CLI-012",
+        "KU-CLI-013",
+        "KU-CLI-014",
+        "KU-CLI-015",
+        "KU-CLI-065"
+      ],
+      "unit_count": 6,
+      "coverage_status": "COVERED"
+    },
+    {
+      "topic": "天空可視因子",
+      "unit_ids": [
+        "KU-CLI-002",
+        "KU-CLI-003",
+        "KU-CLI-009",
+        "KU-CLI-016",
+        "KU-CLI-017",
+        "KU-CLI-018",
+        "KU-CLI-019"
+      ],
+      "unit_count": 7,
+      "coverage_status": "COVERED"
+    },
+    {
+      "topic": "都市熱島",
+      "unit_ids": [
+        "KU-CLI-004",
+        "KU-CLI-020",
+        "KU-CLI-021",
+        "KU-CLI-022",
+        "KU-CLI-049",
+        "KU-CLI-064",
+        "KU-CLI-068",
+        "KU-CLI-071"
+      ],
+      "unit_count": 8,
+      "coverage_status": "COVERED"
+    },
+    {
+      "topic": "風舒適度準則（如 Lawson）",
+      "unit_ids": [
+        "KU-CLI-006",
+        "KU-CLI-023",
+        "KU-CLI-024",
+        "KU-CLI-025",
+        "KU-CLI-052",
+        "KU-CLI-053"
+      ],
+      "unit_count": 6,
+      "coverage_status": "COVERED"
+    },
+    {
+      "topic": "日照與遮陰",
+      "unit_ids": [
+        "KU-CLI-007",
+        "KU-CLI-026",
+        "KU-CLI-027",
+        "KU-CLI-028",
+        "KU-CLI-054",
+        "KU-CLI-055",
+        "KU-CLI-056"
+      ],
+      "unit_count": 7,
+      "coverage_status": "COVERED"
+    },
+    {
+      "topic": "材料與反照率",
+      "unit_ids": [
+        "KU-CLI-011",
+        "KU-CLI-032",
+        "KU-CLI-033",
+        "KU-CLI-034",
+        "KU-CLI-035",
+        "KU-CLI-036",
+        "KU-CLI-037",
+        "KU-CLI-051",
+        "KU-CLI-063",
+        "KU-CLI-069"
+      ],
+      "unit_count": 10,
+      "coverage_status": "COVERED"
+    },
+    {
+      "topic": "樹木降溫",
+      "unit_ids": [
+        "KU-CLI-005",
+        "KU-CLI-029",
+        "KU-CLI-030",
+        "KU-CLI-031",
+        "KU-CLI-048",
+        "KU-CLI-061",
+        "KU-CLI-062",
+        "KU-CLI-070"
+      ],
+      "unit_count": 8,
+      "coverage_status": "COVERED"
+    },
+    {
+      "topic": "室外熱舒適指標",
+      "unit_ids": [
+        "KU-CLI-008",
+        "KU-CLI-038",
+        "KU-CLI-039",
+        "KU-CLI-040",
+        "KU-CLI-041",
+        "KU-CLI-050",
+        "KU-CLI-057",
+        "KU-CLI-058",
+        "KU-CLI-059",
+        "KU-CLI-060"
+      ],
+      "unit_count": 10,
+      "coverage_status": "COVERED"
+    },
+    {
+      "topic": "高密度城市的氣候設計",
+      "unit_ids": [
+        "KU-CLI-010",
+        "KU-CLI-042",
+        "KU-CLI-043",
+        "KU-CLI-044",
+        "KU-CLI-045",
+        "KU-CLI-046",
+        "KU-CLI-047",
+        "KU-CLI-066",
+        "KU-CLI-067",
+        "KU-CLI-072"
+      ],
+      "unit_count": 10,
+      "coverage_status": "COVERED"
+    }
+  ],
+  "notes": [
+    "CLI 共 72 個單元；數值範圍依各自研究、指引或量測定義標註，不作 M4H 法規。",
+    "2026-10-08：加入倫敦草案的日光數值；草案值為 advisory，材料與樹蔭效果仍須以場址資料驗證。"
+  ]
+}

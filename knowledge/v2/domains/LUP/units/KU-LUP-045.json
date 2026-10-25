@@ -1,0 +1,107 @@
+{
+  "id": "KU-LUP-045",
+  "domain": "LUP",
+  "subtopic": "15 分鐘城市與可及性",
+  "type": "typology",
+  "title_zh": "15 分鐘城市與可及性｜類型取捨",
+  "title_en": "15-minute city and accessibility — Typology and trade-offs",
+  "summary_zh": "15 分鐘框架可用來檢查日常服務的空間分布，但近距離不等於居民實際可達或服務品質充足。 克拉科夫分析指出服務接近程度並不均勻，相關研究也把此框架放在地方治理脈絡中討論。 方案比較應分列步行、自行車和照護行程，並納入開放時間、無障礙與服務容量。",
+  "key_points_zh": [
+    "步行、自行車、公共運輸和照護行程可能需要不同服務圈。",
+    "讀「15 分鐘城市與可及性｜類型取捨」時，適用於鄰里服務缺口、交通公平和日常活動配置；同時把克拉科夫分析指出服務近鄰程度並非均勻，研究提出區位改善方向；距離指標不等於實際可及性或服務品質列為核對條件。",
+    "限制：不把步行網路模型結果等同所有居民實際可達性。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "克拉科夫分析指出服務近鄰程度並非均勻，研究提出區位改善方向；距離指標不等於實際可及性或服務品質。",
+        "library_id": "NOWOROL2022",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "克拉科夫，波蘭",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "研究提醒 15 分鐘城市須作為複合治理工具處理，僅把它當固定幾何模板會掩蓋地方政策差異。",
+        "library_id": "MARCHIGIANI2022",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "米蘭，義大利",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "量測實際路網時間並說明目的地清單、開放時間與無障礙條件。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "在「15 分鐘城市與可及性｜類型取捨」的來源情境裡，量測實際路網時間並說明目的地清單、開放時間與無障礙條件；落到設計時還要按克拉科夫分析指出服務近鄰程度並非均勻，研究提出區位改善方向；距離指標不等於實際可及性或服務品質調整。",
+      "tradeoff_zh": "「15 分鐘城市與可及性｜類型取捨」的主要代價不是抽象的建造成本，而是近鄰服務模型可能掩蓋住宅成本、服務品質和跨區工作需要；因此先以克拉科夫分析指出服務近鄰程度並非均勻，研究提出區位改善方向；距離指標不等於實際可及性或服務品質作方案比較條件。",
+      "library_ids": [
+        "NOWOROL2022",
+        "MARCHIGIANI2022"
+      ]
+    },
+    {
+      "option_zh": "在「15 分鐘城市與可及性｜類型取捨」的來源情境裡，步行、自行車、公共運輸和照護行程可能需要不同服務圈；落到設計時還要按克拉科夫分析指出服務近鄰程度並非均勻，研究提出區位改善方向；距離指標不等於實際可及性或服務品質調整。",
+      "tradeoff_zh": "此選項把「15 分鐘城市與可及性｜類型取捨」的工作放在克拉科夫分析指出服務近鄰程度並非均勻，研究提出區位改善方向；距離指標不等於實際可及性或服務品質上；需要承擔的協調或維護代價則由「近鄰服務模型可能掩蓋住宅成本、服務品質和跨區工作需要」界定。",
+      "library_ids": [
+        "NOWOROL2022",
+        "MARCHIGIANI2022"
+      ]
+    }
+  ],
+  "applies_when_zh": "適用於鄰里服務缺口、交通公平和日常活動配置。",
+  "not_applicable_when_zh": "不把步行網路模型結果等同所有居民實際可達性。",
+  "debates_zh": "近鄰服務模型可能掩蓋住宅成本、服務品質和跨區工作需要。",
+  "sources": [
+    {
+      "library_id": "NOWOROL2022",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "MARCHIGIANI2022",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "近鄰服務可及性；鄰里規劃與近鄰服務批判",
+  "region": "克拉科夫，波蘭；米蘭，義大利",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Planning Complex Cities",
+      "topic": "15 分鐘城市與可及性"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Cities by Design",
+      "topic": "15 分鐘城市與可及性"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "15 分鐘城市與可及性"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Sustainable Futures by Design",
+      "topic": "15 分鐘城市與可及性"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-LUP-044",
+    "KU-LUP-046",
+    "KU-LUP-047"
+  ],
+  "counter_unit_ids": [
+    "KU-LUP-048"
+  ]
+}

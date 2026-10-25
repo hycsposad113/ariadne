@@ -1,0 +1,80 @@
+{
+  "id": "KU-SYN-062",
+  "domain": "SYN",
+  "subtopic": "網路分析在設計中的使用與限制",
+  "type": "method",
+  "title_zh": "網路分析在設計中的使用與限制：可檢驗的方法",
+  "title_en": "Network analysis in design and its limits: Method and measurement",
+  "summary_zh": "存下輸入路網、參數、版本和中間圖層，將指標與行人資料、用途和可通行性逐項核對。這個流程用來檢驗網路指標可幫助比較替代方案與發現路徑關係，但無法取代活動觀察、幾何檢查或公共決策。方法的主要限制是模型結果可能受裁切邊界、道路分類和缺失通道支配；沒有觀測驗證時只能稱為相對網路假說。",
+  "key_points_zh": [
+    "分析步驟：網路指標可幫助比較替代方案與發現路徑關係，但無法取代活動觀察、幾何檢查或公共決策",
+    "分析步驟：存下輸入路網、參數、版本和中間圖層，將指標與行人資料、用途和可通行性逐項核對"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "網路分析在設計中的使用與限制：可檢驗的方法｜Mymensingh 街段比較發現，僅以組態值解釋行人量的相關性偏弱，商業土地使用提供了更強的解釋線索；摘要未列係數",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "AZIZ2018",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "網路分析在設計中的使用與限制：可檢驗的方法｜波哥大的人口、工作及可及性分布不均；高平均密度可以和低收入群體的可及性不足並存",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "BOGOTA17",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "存下輸入路網、參數、版本和中間圖層，將指標與行人資料、用途和可通行性逐項核對"
+  ],
+  "applies_when_zh": "需要測量「網路指標可幫助比較替代方案與發現路徑關係，但無法取代活動觀察、幾何檢查或公共決策」時，按「網路分析在設計中的使用與限制：可檢驗的方法」列出的資料範圍建構指標，同時保存網路版本與計算參數。",
+  "not_applicable_when_zh": "若資料無法支持「網路指標可幫助比較替代方案與發現路徑關係，但無法取代活動觀察、幾何檢查或公共決策」的測量，這套步驟不會產生可比較的結果；方法本身也不能選定設計目標。",
+  "debates_zh": "模型結果可能受裁切邊界、道路分類和缺失通道支配；沒有觀測驗證時只能稱為相對網路假說；檢視「網路分析在設計中的使用與限制：可檢驗的方法」的測量程序時，還需判斷「存下輸入路網、參數、版本和中間圖層，將指標與行人資料、用途和可通行性逐項核對」會如何改變方案結論。",
+  "sources": [
+    {
+      "library_id": "AZIZ2018",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "BOGOTA17",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "證據導向都市設計與網路分析",
+  "region": "跨地域理論或實務脈絡；來源地區依引用條目判讀",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Methods of Analysis & Imagination",
+      "topic": "網路分析在設計中的使用與限制：課綱對應主題"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Cities by Design",
+      "topic": "網路分析在設計中的使用與限制：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-SYN-057",
+    "KU-SYN-058",
+    "KU-SYN-059",
+    "KU-SYN-060",
+    "KU-SYN-061",
+    "KU-SYN-063",
+    "KU-SYN-064"
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "id": "KU-ECO-012",
+  "domain": "ECO",
+  "subtopic": "生態網絡與連結度",
+  "type": "empirical_finding",
+  "title_zh": "緊湊成長較能保留大型綠地",
+  "title_en": "Compact growth can retain larger greenspace",
+  "summary_zh": "Brisbane 情境模型把緊湊與蔓延的相同住宅成長量放在鳥類分布上比較。兩種情境均降低鳥類分布，但緊湊配置較能放慢全市損失並保留大型綠地。模擬依物種分布和土地變更假設，沒有驗證所有實際行為。密度選擇與公共綠地品質仍需同時討論。",
+  "key_points_zh": [
+    "Brisbane 情境模型把緊湊與蔓延的相同住宅成長量放在鳥類分布上比較",
+    "兩種情境均降低鳥類分布，但緊湊配置較能放慢全市損失並保留大型綠地"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "Brisbane 情境模型把緊湊與蔓延的相同住宅成長量放在鳥類分布上比較。",
+        "effect_or_value": "兩類增長都削減鳥類分布；緊湊情境在全市尺度較慢減損。",
+        "study_design": "物種分布模型與發展情境比較",
+        "context_region": "澳洲 Brisbane",
+        "library_id": "SUSHINSKY13",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW",
+        "limitations_zh": "模型輸入與假設限制因果及跨地區外推。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "將城市外延和大型斑塊損失同時列入成長方案比較。"
+  ],
+  "applies_when_zh": "適用於都市邊緣開發策略評估。",
+  "not_applicable_when_zh": "不應把緊湊發展宣稱為零生態代價。",
+  "debates_zh": "密度選擇與公共綠地品質仍需同時討論。",
+  "sources": [
+    {
+      "library_id": "SUSHINSKY13",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "RATTI04",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "都市擴張與保育規劃",
+  "region": "澳洲 Brisbane",
+  "curriculum_refs": [
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "生態網絡與連結度"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-ECO-011",
+    "KU-ECO-013"
+  ]
+}

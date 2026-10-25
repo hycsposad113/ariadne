@@ -1,0 +1,43 @@
+{
+  "id": "HIRT2014",
+  "title": "Zoned in the USA",
+  "authors": [
+    "Sonia Hirt"
+  ],
+  "year": 2014,
+  "venue_or_publisher": "Open Library bibliographic record; publisher not returned in the permitted search fields",
+  "doi": null,
+  "isbn": "0801453054",
+  "openalex_id": null,
+  "kind": "ACADEMIC_BOOK",
+  "tradition": "比較土地使用管制",
+  "region": [
+    "美國與比較制度"
+  ],
+  "method": "規劃制度專書",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "專書整理美國用途分區的歷史與制度後果，適合解讀法規如何塑造城市形態，不替代現行地方法規。",
+      "strength": "THEORETICAL",
+      "scope_zh": "書目核對與專業範圍摘要；不是特定基地法規或普遍數值門檻。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Open Library",
+    "query": {
+      "title": "Zoned in the USA",
+      "author": "Sonia Hirt",
+      "year": 2014,
+      "endpoint": "https://openlibrary.org/search.json"
+    },
+    "matched_record_id": "/works/OL18819492W",
+    "checked_at_utc": "2026-10-08T09:12:32Z",
+    "match_notes_zh": "Open Library 搜尋紀錄的書名、第一作者與年份相符；未下載全文。"
+  },
+  "limitations_zh": "僅核對 Open Library 書目欄位，未查閱全文；出版社欄位未由本次受限搜尋查回。",
+  "metadata_licence_zh": "保存書目欄位與自行撰寫摘要；未保存 API 摘要或全文。"
+}

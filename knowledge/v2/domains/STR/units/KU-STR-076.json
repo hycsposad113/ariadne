@@ -1,0 +1,74 @@
+{
+  "id": "KU-STR-076",
+  "domain": "STR",
+  "subtopic": "完整街道",
+  "type": "design_principle",
+  "title_zh": "CROW 自行車網路的五項品質要求",
+  "title_en": "CROW’s five quality requirements",
+  "summary_zh": "CROW 的自行車網路品質框架列出五項互補要求：連貫、直接、安全、舒適與吸引。連貫性關注路線是否接得起來，直接性關注繞行與延遲，安全涉及交通衝突，舒適與吸引則處理騎乘體驗和環境感受。五項條件要在路段、交叉口和目的地接駁中一起檢查。",
+  "key_points_zh": [
+    "五項要求是連貫、直接、安全、舒適、吸引。",
+    "任何單一品質得分都不能代表整個自行車旅程。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "CROW 自行車設計手冊以連貫性、直接性、安全性、舒適性、吸引力五項要求組織自行車網路品質。",
+        "library_id": "CROW",
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+        "effect_or_value": null,
+        "study_design": "自行車設計手冊；五項要求待正式版本核對",
+        "context_region": "荷蘭",
+        "locator": null
+      },
+      {
+        "claim_zh": "高自行車使用的政策環境同時包含基礎設施、交通寧靜、停車和公共運輸整合。",
+        "library_id": "PUCHER08",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "跨國自行車政策比較",
+        "context_region": "荷蘭、丹麥、德國與北美",
+        "locator": null
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "把五項要求轉成路段與交叉口的分項檢查，再由設計者比較需要優先改善的缺口。"
+  ],
+  "applies_when_zh": "比較自行車網路品質或定位路段與交叉口改善缺口時使用。",
+  "not_applicable_when_zh": "五項框架不是自行車道寬度標準，也不取代當地安全規範和弱勢用路者測試。",
+  "debates_zh": "五項品質可能互相衝突，例如直接路線穿越車流較快的道路；權衡結果應公開而非只加總分數。",
+  "sources": [
+    {
+      "library_id": "CROW",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "PUCHER08",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "自行車比較政策",
+  "region": "自行車網路設計",
+  "curriculum_refs": [
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "完整街道：課綱對應主題"
+    },
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "完整街道：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-STR-011"
+  ]
+}

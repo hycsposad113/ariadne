@@ -1,0 +1,83 @@
+{
+  "id": "KU-CLI-046",
+  "domain": "CLI",
+  "subtopic": "高密度城市的氣候設計",
+  "type": "value_range",
+  "title_zh": "街谷朝向和比例要以多方向情境呈現",
+  "title_en": "街谷朝向和比例要以多方向情境呈現",
+  "summary_zh": "街道方向會改變日照時段、陰影長度和與主風向的夾角。把道路視為軸線時，0–180° 足以描述其方位而不重複計算反向；不同緯度和季節會改變相同角度的日照結果。這是分析參數，不是所有城市的最適朝向。",
+  "key_points_zh": [
+    "朝向的效果會依緯度、季節和主要風向變化。",
+    "相同街道角度在不同街廓中有不同遮擋條件。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "library_id": "GIVONI1998",
+        "claim_zh": "Open Library 書目記錄確認此專著的書名、作者與年份；未據此摘錄書中任何定量設計規則；本單元 KU-CLI-046 對照「街道方向會改變日照時段、陰影長度和與主風向的夾角」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "專業學術專著；本地僅核對書目範圍",
+        "context_region": "跨地域",
+        "locator": null
+      },
+      {
+        "library_id": "STATHOPOULOS2006",
+        "claim_zh": "書目確認本文題名聚焦「Pedestrian level winds and outdoor human comfort」；目前只完成作者、年份、題名與 DOI 核對，未將摘要或全文結論納入此記錄；本單元 KU-CLI-046 對照「街道方向會改變日照時段、陰影長度和與主風向的夾角」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "文獻回顧；目前僅核對書目範圍",
+        "context_region": "跨地域風工程",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "將道路方位和使用活動放在同一個方案比較矩陣。",
+    "對冬夏季和主導風向分別檢查。"
+  ],
+  "applies_when_zh": "適用於街廓方向和公共空間佈局。",
+  "not_applicable_when_zh": "不適用於把單一案例的朝向建議當成通用標準。",
+  "debates_zh": "設計圖常把太陽和風分開分析，實際使用中兩者同時影響熱感。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "GIVONI1998",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "STATHOPOULOS2006",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "街道方位情境比較",
+  "region": "炎熱乾燥氣候；香港與亞洲",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "高密度城市的氣候設計"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": null,
+      "topic": "高密度城市的氣候設計"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0",
+  "values": [
+    {
+      "name": "街道軸線方位的分析參數",
+      "range": "0–180",
+      "unit": "degrees from north",
+      "context": "用途：以「街道軸線方位的分析參數」作為來源情境參照；街道為軸線而非單向箭頭，因此方位通常以半周角度表達；參考北向和季節要明列 這不是本基地法規；來源所列地域：跨地域。",
+      "library_id": "GIVONI1998"
+    }
+  ]
+}

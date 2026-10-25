@@ -1,0 +1,74 @@
+{
+  "id": "KU-WAT-030",
+  "domain": "WAT",
+  "subtopic": "潮汐與河口地景",
+  "type": "method",
+  "title_zh": "分開記錄潮位基準和相對海平面",
+  "title_en": "分開記錄潮位基準和相對海平面",
+  "summary_zh": "沿海變化研究整理海平面升降的潛在影響，但地方地面運動和河口幾何會改變相對水位。鹿特丹流域研究使用區域洪水資訊，說明全球背景需要與地方水文共同閱讀。疊合前應核對高程基準、觀測年代與潮位統計定義。",
+  "key_points_zh": [
+    "相對海平面包含海面變化和陸地垂直運動。",
+    "不同垂直基準的資料不能直接相減。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "library_id": "KLIJN2015",
+        "claim_zh": "書目確認本文題名聚焦「Adaptive flood risk management planning based on a comprehensive flood risk conceptualisation」；目前只完成作者、年份、題名與 DOI 核對，未將摘要或全文結論納入此記錄；本單元 KU-WAT-030 對照「沿海變化研究整理海平面升降的潛在影響，但地方地面運動和河口幾何會改變相對水位」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "方法或概念研究；目前僅核對書目範圍",
+        "context_region": "跨地域",
+        "locator": null
+      },
+      {
+        "library_id": "RIJKE2012",
+        "claim_zh": "書目確認本文題名聚焦「Room for the River: delivering integrated river basin management in the Netherlands」；目前只完成作者、年份、題名與 DOI 核對，未將摘要或全文結論納入此記錄；本單元 KU-WAT-030 對照「沿海變化研究整理海平面升降的潛在影響，但地方地面運動和河口幾何會改變相對水位」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "案例或場地研究；目前僅核對書目範圍",
+        "context_region": "荷蘭",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "建立水位資料字典保存基準、期間和不確定性。",
+    "以地方潮位站校核區域水位情境。"
+  ],
+  "applies_when_zh": "適用於沿海基礎資料整合。",
+  "not_applicable_when_zh": "不可將不同垂直基準直接拼接作設計水位。",
+  "debates_zh": "全球平均趨勢會平滑地方差異；資料解析度不足時不可縮放為街區結論。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "KLIJN2015",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "RIJKE2012",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "水位資料整合",
+  "region": "全球沿海地區；荷蘭 Rotterdam–Rijnmond",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "潮汐與河口地景"
+    },
+    {
+      "school": "MIT",
+      "course": null,
+      "topic": "潮汐與河口地景"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0"
+}

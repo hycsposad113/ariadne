@@ -1,0 +1,61 @@
+{
+  "id": "KU-PUB-062",
+  "domain": "PUB",
+  "subtopic": "夜間經濟",
+  "type": "empirical_finding",
+  "title_zh": "公共空間的夜間治理仍需問責",
+  "title_en": "Night-time public-space governance",
+  "summary_zh": "公共空間管理研究指出，監視和行為控制可能與開放使用同時存在。這種組合在夜間更可能影響青年、街頭工作者及無家者的停留方式。研究沒有提供跨城市夜間效果大小，群體差異需另行調查。秩序指標和安全感指標可能朝不同方向變化。",
+  "key_points_zh": [
+    "公共空間管理研究指出，監視和行為控制可能與開放使用同時存在",
+    "這種組合在夜間更可能影響青年、街頭工作者及無家者的停留方式"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "公共空間管理研究指出，監視和行為控制可能與開放使用同時存在。",
+        "effect_or_value": "私營場址較常採監視與行為控制；夜間分布需本地補充觀測。",
+        "study_design": "公私空間管理比較",
+        "context_region": "美國紐約市公共及私營空間",
+        "library_id": "NEMETH11",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW",
+        "limitations_zh": "比較研究未將此結果限定為夜間，夜間含義屬設計推論。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "夜間管理方案應公開規則、申訴管道與事件處置資料。"
+  ],
+  "applies_when_zh": "適用於私人或公部門共同管理的夜間場域。",
+  "not_applicable_when_zh": "不能把安靜或少人直接解讀為成功。",
+  "debates_zh": "秩序指標和安全感指標可能朝不同方向變化。",
+  "sources": [
+    {
+      "library_id": "NEMETH11",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "CHECKER11",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "公共空間治理與 publicness",
+  "region": "美國紐約市公共及私營空間",
+  "curriculum_refs": [
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "夜間經濟"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-PUB-061",
+    "KU-PUB-063"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": "JACOBS61",
+  "title": "The Death and Life of Great American Cities",
+  "authors": [
+    "Jane Jacobs"
+  ],
+  "year": 1961,
+  "venue_or_publisher": "Pierre Mardaga; Vintage; Viking Pr; Bavel; Mardaga; Penguin; Martins Fontes; The Modern Library; Penguin in association with Jonathan Cape; Penguin Random House; Modern Library; Capitán Swing; Jonathan Cape; Brand: Vintage; de Gruyter GmbH, Walter; Random House; Penguin in association with Cape; Giulio Einaudi editore; Books On Tape; Ediciones Península; Cape; Bertelsmann; Random House Children's Books; Vintage Books; Pimlico; Metis Yayinlari; Centrum Architektury",
+  "doi": null,
+  "isbn": "0679644334",
+  "openalex_id": null,
+  "kind": "ACADEMIC_BOOK",
+  "tradition": "街道生活與多樣性",
+  "region": [
+    "美國"
+  ],
+  "method": "觀察／理論",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "日常用途、街道互動及多樣性可作城市生活的討論起點；不能從外觀推定安全或社群。",
+      "strength": "THEORETICAL",
+      "scope_zh": "僅限本研究或概念框架；不提供 M4H 的實測、法律效力或本卡試算門檻。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [
+    "TALEN99"
+  ],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Open Library",
+    "query": {
+      "title": "The Death and Life of Great American Cities",
+      "author": "Jane Jacobs",
+      "year": 1961
+    },
+    "matched_record_id": "/works/OL93641W",
+    "checked_at_utc": "2026-10-08T09:12:32Z",
+    "match_notes_zh": "本任務重新以允許的公開書目 API 核對書名、作者與出版年；只確認書目，不代表全文主張已核實。"
+  },
+  "limitations_zh": "僅核對公開書目及可得摘要，未下載全文；書目驗證不代表全文因果或所有主張均已確認。",
+  "critique_relationship_zh": "known_critiques 是編者指定的批評或替代閱讀，不宣稱實際互引或逐一反駁；Ratti 與 Hillier／Penn 的標題記錄確認明確對話。",
+  "metadata_licence_zh": "保存書目欄位和自行撰寫的來源說明；未保存 API 摘要或全文，資料服務授權細節未由本任務判定。"
+}

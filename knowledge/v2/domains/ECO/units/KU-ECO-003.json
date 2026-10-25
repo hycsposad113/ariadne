@@ -1,0 +1,70 @@
+{
+  "id": "KU-ECO-003",
+  "domain": "ECO",
+  "subtopic": "地景生態學：嵌塊、廊道、基質",
+  "type": "value_range",
+  "title_zh": "面積敏感物種的大型場址參照",
+  "title_en": "Large habitat sites for area-sensitive species",
+  "summary_zh": "統合分析討論超過五十公頃的都市綠地對面積敏感物種的重要性。這是研究中避免某些物種快速流失的場址量級，不等於單一基地必須具備同樣面積。目標分類群、棲地品質與區域生態網絡會改變需求。大斑塊原則不能取代小型棲地的局部價值。",
+  "key_points_zh": [
+    "統合分析討論超過五十公頃的都市綠地對面積敏感物種的重要性",
+    "這是研究中避免某些物種快速流失的場址量級，不等於單一基地必須具備同樣面積"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "統合分析討論超過五十公頃的都市綠地對面積敏感物種的重要性。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "德國",
+        "library_id": "KOWARIK11",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "大斑塊原則不能取代小型棲地的局部價值。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "在區域尺度保留大型核心區，並以多尺度調查確認其作用。"
+  ],
+  "applies_when_zh": "適用於保育規劃比較大型斑塊和分散綠地。",
+  "not_applicable_when_zh": "不應把門檻機械化套在每種物種或地塊。",
+  "debates_zh": "大斑塊原則不能取代小型棲地的局部價值。",
+  "sources": [
+    {
+      "library_id": "KOWARIK11",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "GRIMM08",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "新型都市生態系與保育",
+  "region": "德國",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "地景生態學：嵌塊、廊道、基質"
+    }
+  ],
+  "version": "2.0.0",
+  "values": [
+    {
+      "name": "面積敏感物種的大型場址參照",
+      "range": "> 50 ha",
+      "unit": "公頃",
+      "context": "統合研究指出大型場址對面積敏感類群的重要性；作生態研究參照，不是本基地法規。；「面積敏感物種的大型場址參照」僅供其研究脈絡內比較，不構成本基地法規；來源所列地域：全球多城市。",
+      "library_id": "BENINDE15"
+    }
+  ],
+  "related_unit_ids": [
+    "KU-ECO-002",
+    "KU-ECO-004"
+  ]
+}

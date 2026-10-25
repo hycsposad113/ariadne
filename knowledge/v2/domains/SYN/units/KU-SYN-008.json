@@ -1,0 +1,80 @@
+{
+  "id": "KU-SYN-008",
+  "domain": "SYN",
+  "subtopic": "軸線／線段分析",
+  "type": "pattern",
+  "title_zh": "軸線／線段分析：可重用模式",
+  "title_en": "Axial and segment analysis: Reusable pattern",
+  "summary_zh": "將主要線性空間、路段與交點各自留存，並透過相同輸入比較替代表示。此模式以軸線和線段是把連續城市空間轉成可運算圖形的不同表示；分析結果取決於線段生成與交會規則。需要留意的代價是任何表示都會省略某些幾何、障礙或社會條件；不同圖的結果不能在未對齊定義時直接比較。",
+  "key_points_zh": [
+    "空間模式：軸線和線段是把連續城市空間轉成可運算圖形的不同表示；分析結果取決於線段生成與交會規則",
+    "空間模式：將主要線性空間、路段與交點各自留存，並透過相同輸入比較替代表示"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "軸線／線段分析：可重用模式｜用空間關係而非單一建築描述社會與空間組織，圖表示法是模型的一部分",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "HILLIER84",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "軸線／線段分析：可重用模式｜街道結構可以用連接與階層關係比較；不同網形的可達性與交通作用需另外計算",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "MARSHALL05",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "先畫出「軸線和線段是把連續城市空間轉成可運算圖形的不同表示；分析結果取決於線段生成與交會規則」所描述的空間關係，再用「任何表示都會省略某些幾何、障礙或社會條件；不同圖的結果不能在未對齊定義時直接比較」檢查它可能帶來的代價。"
+  ],
+  "applies_when_zh": "當設計需要回應「軸線和線段是把連續城市空間轉成可運算圖形的不同表示；分析結果取決於線段生成與交會規則」描述的空間關係，可先把模式畫入配置，再用現地使用資料檢查。",
+  "not_applicable_when_zh": "「軸線和線段是把連續城市空間轉成可運算圖形的不同表示；分析結果取決於線段生成與交會規則」不能原樣移植到缺少相同交通、界面或治理條件的場地；需先檢查「任何表示都會省略某些幾何、障礙或社會條件；不同圖的結果不能在未對齊定義時直接比較」指出的代價。",
+  "debates_zh": "任何表示都會省略某些幾何、障礙或社會條件；不同圖的結果不能在未對齊定義時直接比較；檢視「軸線／線段分析：可重用模式」的模式落地時，還需判斷「將主要線性空間、路段與交點各自留存，並透過相同輸入比較替代表示」會如何改變方案結論。",
+  "sources": [
+    {
+      "library_id": "HILLIER84",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "MARSHALL05",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "空間語法與網路表示",
+  "region": "跨地域理論或實務脈絡；來源地區依引用條目判讀",
+  "curriculum_refs": [
+    {
+      "school": "UCL Bartlett",
+      "course": "Critical Debates in Urban Design",
+      "topic": "軸線／線段分析：課綱對應主題"
+    },
+    {
+      "school": "TU Delft",
+      "course": "Methods of Analysis & Imagination",
+      "topic": "軸線／線段分析：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-SYN-001",
+    "KU-SYN-002",
+    "KU-SYN-003",
+    "KU-SYN-004",
+    "KU-SYN-005",
+    "KU-SYN-006",
+    "KU-SYN-007"
+  ]
+}

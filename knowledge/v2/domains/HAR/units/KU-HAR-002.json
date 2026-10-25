@@ -1,0 +1,71 @@
+{
+  "id": "KU-HAR-002",
+  "domain": "HAR",
+  "subtopic": "港城介面",
+  "type": "concept",
+  "title_zh": "港城介面延伸到物流網絡與區域競爭",
+  "title_en": "The port-city interface extends into logistics networks",
+  "summary_zh": "Ducruet 與 Lee 把港口城市放在全球化及區域競爭的脈絡中研究。Hesse 將城市、物質流和供應鏈地理連接起來，提醒港區不只是一段岸線或閒置土地。從港口到腹地的物流路徑會影響產業區位、交通需求與空間使用。現有兩筆來源主要界定分析範圍，尚未提供一套可直接套用的港區界面尺寸。",
+  "key_points_zh": [
+    "港城介面包含城市土地與更大的物流網絡。",
+    "貨物流向和區域連接應與公共岸線分析分開繪製。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "library_id": "DUCRUET2006",
+        "claim_zh": "研究題名將港口演化、全球化和區域競爭放在同一分析脈絡。",
+        "effect_or_value": "港口演化與區域競爭的研究範圍",
+        "study_design": "港口城市比較研究，依書目範圍",
+        "context_region": "跨區域港口網絡",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "library_id": "HESSE2010",
+        "claim_zh": "研究範圍連結城市物質流和供應鏈的空間互動。",
+        "effect_or_value": "物質流與供應鏈空間關係的概念範圍",
+        "study_design": "城市物質流與供應鏈地理論述",
+        "context_region": "城市系統與跨區域鏈結",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "港區空間圖同時呈現海側設施、陸側運輸、產業節點及可達公共界面。",
+    "若改變港區用途，先列出仍在運作的供應鏈和不宜中斷的服務。"
+  ],
+  "applies_when_zh": "適用於港區空間盤點、港城交通討論及土地使用轉變分析。",
+  "not_applicable_when_zh": "不能用抽象的全球化敘述代替當地貨流、就業和港務資料。",
+  "debates_zh": "網絡視角可以揭露城市外的依賴關係，但若只看流量會忽略勞動條件、污染和岸線公共性。",
+  "sources": [
+    {
+      "library_id": "DUCRUET2006",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "HESSE2010",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "港口地理及全球生產網絡",
+  "region": "跨區域港口城市",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": null,
+      "topic": "港城介面"
+    },
+    {
+      "school": "MIT",
+      "course": null,
+      "topic": "城市物質流與物流系統"
+    }
+  ],
+  "version": "v2.0"
+}

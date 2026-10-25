@@ -1,0 +1,116 @@
+{
+  "id": "KU-SYN-075",
+  "domain": "SYN",
+  "subtopic": "Place Syntax",
+  "type": "concept",
+  "title_zh": "Place Syntax：把空間可達與場所機會並讀",
+  "title_en": "Place Syntax: linking spatial accessibility and place opportunities",
+  "summary_zh": "Place Syntax 類方法將街網關係和沿線目的地或活動機會放進同一分析框架。它補充只按網路拓樸計算中心性的做法，讓設計者能檢查容易抵達的地方是否也有可用的服務、活動或公共空間。目的地資料品質和尺度會左右結果，不能把整合後分數當成觀察到的人流。",
+  "key_points_zh": [
+    "空間可達性與場所機會是相連但不同的分析面向。",
+    "土地使用分類、入口位置和目的地品質需保持可追溯。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "Place Syntax（Ståhle、Marcus 等）把空間組態可達性與場所吸引點（人口、商店等）結合計算；權重與距離衰減需依研究設定。",
+        "library_id": "MARCUS10",
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+        "effect_or_value": null,
+        "study_design": "都市密度及多維度分析",
+        "context_region": "澳洲",
+        "locator": null
+      },
+      {
+        "claim_zh": "都市形態研究強調街道、地塊與建築尺度應聯合解讀。",
+        "library_id": "MOUDON97",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "都市形態回顧",
+        "context_region": "跨地域",
+        "locator": null
+      },
+      {
+        "claim_zh": "可及性框架要求目的地和個人條件明確，而不是只用距離代替機會。",
+        "library_id": "GEURS04",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "交通可及性評估",
+        "context_region": "跨地域",
+        "locator": null
+      },
+      {
+        "claim_zh": "Marcus 把空間組態連到較廣的都市形態概念；此文支持方法脈絡，不替任何特定目的地權重背書。",
+        "library_id": "MARCUS10",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "空間語法與都市形態的概念延伸",
+        "context_region": "澳洲都市形態研究",
+        "locator": null
+      },
+      {
+        "claim_zh": "Bertolini 將公共運輸節點和站區場所分開分析；此模型可與目的地可及性對照，但不等同 Place Syntax。",
+        "library_id": "BERTOLINI99",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "荷蘭車站周邊的節點—場所分析模型",
+        "context_region": "荷蘭",
+        "locator": null
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "把網路分析結果和實際目的地清單分層呈現，標記資料來源、分類和入口位置。"
+  ],
+  "applies_when_zh": "評估街網可達性是否連到實際服務或活動機會時，加入目的地資料和入口位置。",
+  "not_applicable_when_zh": "Place Syntax 分數不能取代現地服務品質、價格可負擔性或使用者訪談。",
+  "debates_zh": "不同目的地吸引力如何換算成網路權重，是模型中的規範選擇而非中立事實。",
+  "sources": [
+    {
+      "library_id": "DOVEY14",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "MOUDON97",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "GEURS04",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "MARCUS10",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "BERTOLINI99",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "都市形態與交通可及性",
+  "region": "場所敏感型網路分析",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Methods of Analysis & Imagination",
+      "topic": "Place Syntax：課綱對應主題"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Cities by Design",
+      "topic": "Place Syntax：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-SYN-051"
+  ]
+}

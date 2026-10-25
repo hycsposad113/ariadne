@@ -1,0 +1,389 @@
+.human-decision-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 200;
+  display: grid;
+  place-items: center;
+  padding: 16px;
+  background: rgba(3, 7, 18, 0.78);
+  backdrop-filter: blur(5px);
+}
+
+.human-decision-dialog {
+  width: min(100%, 620px);
+  max-height: min(90vh, 780px);
+  overflow: auto;
+  color: var(--text-main);
+  background: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-lg);
+}
+
+.human-decision-dialog__header,
+.human-decision-dialog__footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 16px 20px;
+}
+
+.human-decision-dialog__header {
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.human-decision-dialog__header h2 {
+  font-size: 16px;
+  line-height: 1.35;
+}
+
+.human-decision-dialog__header p,
+.human-decision-dialog__privacy {
+  margin-top: 4px;
+  color: var(--text-muted);
+  font-size: 12px;
+}
+
+.human-decision-dialog__close {
+  display: inline-grid;
+  place-items: center;
+  width: 34px;
+  height: 34px;
+  color: var(--text-muted);
+  background: transparent;
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+}
+
+.human-decision-dialog__body {
+  display: grid;
+  gap: 14px;
+  padding: 18px 20px;
+}
+
+.human-decision-dialog__target {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px 16px;
+  padding: 12px;
+  background: var(--bg-surface-elevated);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+}
+
+.human-decision-dialog__target dt {
+  color: var(--text-dim);
+  font-size: 11px;
+}
+
+.human-decision-dialog__target dd {
+  overflow-wrap: anywhere;
+  font-size: 12px;
+}
+
+.human-decision-dialog__target dd.mono {
+  font-size: 10px;
+}
+
+.human-decision-dialog__field {
+  display: grid;
+  gap: 6px;
+  color: var(--text-muted);
+  font-size: 12px;
+}
+
+.human-decision-dialog__field input,
+.human-decision-dialog__field textarea {
+  width: 100%;
+  min-height: 40px;
+}
+
+.human-decision-dialog__field textarea {
+  min-height: 86px;
+  padding: 9px 10px;
+  resize: vertical;
+}
+
+.human-decision-dialog__field :focus-visible,
+.human-decision-dialog__close:focus-visible,
+.human-decision-dialog__footer button:focus-visible {
+  outline: 2px solid var(--border-focus);
+  outline-offset: 2px;
+}
+
+.human-decision-dialog__error {
+  color: var(--accent-rose);
+  font-size: 12px;
+}
+
+.human-decision-dialog__footer {
+  justify-content: flex-end;
+  border-top: 1px solid var(--border-subtle);
+}
+
+.human-decision-dialog__footer button {
+  min-height: 36px;
+  padding: 7px 12px;
+  color: var(--text-main);
+  background: var(--bg-surface-elevated);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+}
+
+.human-decision-dialog__footer button[type="submit"] {
+  color: #04111b;
+  background: var(--accent-cyan);
+  border-color: var(--accent-cyan);
+  font-weight: 650;
+}
+
+.human-decision-dialog__footer button:disabled,
+.human-decision-dialog__close:disabled {
+  cursor: not-allowed;
+  opacity: 0.55;
+}
+
+/* Day 1 Decision Summary Styles */
+.human-decision-dialog__summary {
+  display: grid;
+  gap: 12px;
+  padding: 12px;
+  background: rgba(15, 23, 42, 0.6);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+}
+
+.human-decision-dialog__section-title {
+  margin: 0;
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--accent-cyan);
+}
+
+.human-decision-dialog__summary-card {
+  display: grid;
+  gap: 8px;
+  padding: 10px 12px;
+  background: var(--bg-surface-elevated);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-sm);
+}
+
+.human-decision-dialog__card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 12px;
+  color: var(--text-main);
+}
+
+.human-decision-dialog__card-content {
+  display: grid;
+  gap: 4px;
+  font-size: 11px;
+}
+
+.human-decision-dialog__stat-row,
+.human-decision-dialog__hash-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--text-muted);
+}
+
+.human-decision-dialog__stat-value {
+  font-weight: 600;
+  color: var(--text-main);
+}
+
+.human-decision-dialog__empty-note {
+  font-size: 11px;
+  color: var(--text-dim);
+  font-style: italic;
+}
+
+.human-decision-dialog__disposition-group {
+  display: grid;
+  gap: 6px;
+  padding-top: 6px;
+  border-top: 1px solid var(--border-subtle);
+}
+
+.human-decision-dialog__disposition-group:first-of-type {
+  border-top: none;
+  padding-top: 0;
+}
+
+.human-decision-dialog__group-title {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--text-main);
+}
+
+.human-decision-dialog__stat-chips {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  padding: 2px 7px;
+  border-radius: 9999px;
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.chip--preserve {
+  background: rgba(16, 185, 129, 0.15);
+  color: var(--accent-emerald);
+  border: 1px solid rgba(16, 185, 129, 0.3);
+}
+
+.chip--editable {
+  background: rgba(56, 189, 248, 0.15);
+  color: var(--accent-cyan);
+  border: 1px solid rgba(56, 189, 248, 0.3);
+}
+
+.chip--undecided {
+  background: rgba(148, 163, 184, 0.12);
+  color: var(--text-muted);
+  border: 1px solid var(--border-subtle);
+}
+
+.human-decision-dialog__details-container {
+  display: grid;
+  gap: 4px;
+}
+
+.human-decision-dialog__details {
+  font-size: 11px;
+  color: var(--text-muted);
+}
+
+.human-decision-dialog__details summary {
+  cursor: pointer;
+  padding: 2px 0;
+  color: var(--accent-cyan);
+  user-select: none;
+}
+
+.human-decision-dialog__details summary:hover {
+  text-decoration: underline;
+}
+
+.human-decision-dialog__id-list {
+  margin: 4px 0 6px 16px;
+  padding: 0;
+  max-height: 100px;
+  overflow-y: auto;
+  font-family: var(--font-mono, monospace);
+  font-size: 10px;
+  color: var(--text-dim);
+}
+
+.human-decision-dialog__id-list li.empty {
+  font-family: inherit;
+  font-style: italic;
+}
+
+.human-decision-dialog__zones-list {
+  display: grid;
+  gap: 8px;
+}
+
+.human-decision-dialog__zone-item {
+  padding: 8px 10px;
+  background: var(--bg-app);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-sm);
+  display: grid;
+  gap: 4px;
+}
+
+.zone-item__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.zone-item__name {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--text-main);
+}
+
+.zone-item__use {
+  font-size: 10px;
+  color: var(--accent-cyan);
+}
+
+.zone-item__metrics {
+  display: flex;
+  gap: 12px;
+  font-size: 10px;
+  color: var(--text-muted);
+}
+
+.zone-item__conditions {
+  display: grid;
+  gap: 2px;
+  font-size: 10px;
+}
+
+.condition-row {
+  display: flex;
+  gap: 4px;
+}
+
+.condition-label {
+  color: var(--text-dim);
+  flex-shrink: 0;
+}
+
+.condition-values {
+  color: var(--text-muted);
+}
+
+.condition-none {
+  color: var(--text-dim);
+  font-style: italic;
+}
+
+.human-decision-dialog__unsaved-warning {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 14px;
+  border-radius: var(--radius-md);
+  background: rgba(244, 63, 94, 0.12);
+  border: 1px solid var(--accent-rose);
+  color: var(--accent-rose);
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+@media (max-width: 520px) {
+  .human-decision-dialog__header,
+  .human-decision-dialog__footer {
+    padding-inline: 14px;
+  }
+
+  .human-decision-dialog__body {
+    padding: 14px;
+  }
+
+  .human-decision-dialog__target {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+

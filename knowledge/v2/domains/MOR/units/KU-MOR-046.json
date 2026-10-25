@@ -1,0 +1,98 @@
+{
+  "id": "KU-MOR-046",
+  "domain": "MOR",
+  "subtopic": "周邊式、合院、板樓、點式、連棟與基座塔樓",
+  "type": "empirical_finding",
+  "title_zh": "亞洲與歐洲案例顯示型態依賴歷史與路網",
+  "title_en": "Comparative urban types",
+  "summary_zh": "每地一城的選擇不支持普遍類型排序，也未測量居民感受。 使用案例刺激提問，不把案例排序作為設計排名。 研究設計：跨洲描述性案例比較；地區：羅馬、倫敦、新加坡與東京。",
+  "key_points_zh": [
+    "四城描述比較把歷史脈絡、道路模式和建築視為形態差異的重要條件。",
+    "研究設計：跨洲描述性案例比較；地區：羅馬、倫敦、新加坡與東京",
+    "限制：每地一城的選擇不支持普遍類型排序，也未測量居民感受。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "四城描述比較把歷史脈絡、道路模式和建築視為形態差異的重要條件。",
+        "effect_or_value": "4 個城市案例；道路與建築模式呈現差異",
+        "study_design": "跨洲描述性案例比較",
+        "context_region": "羅馬、倫敦、新加坡與東京",
+        "library_id": "NAVASTARA2017",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "使用案例刺激提問，不把案例排序作為設計排名。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "使用案例刺激提問，不把案例排序作為設計排名。",
+      "tradeoff_zh": "「亞洲與歐洲案例顯示型態依賴歷史與路網」的主要代價不是抽象的建造成本，而是每地一城的選擇不支持普遍類型排序，也未測量居民感受；因此先以四城描述比較把歷史脈絡、道路模式和建築視為形態差異的重要條件作方案比較條件。",
+      "library_ids": [
+        "NAVASTARA2017",
+        "HABRAKEN98"
+      ]
+    },
+    {
+      "option_zh": "「亞洲與歐洲案例顯示型態依賴歷史與路網」可把取向落在周邊式可形成連續邊界；板樓易獲通風但可能產生空隙；塔樓釋放地面但高度集中，但需連同四城描述比較把歷史脈絡、道路模式和建築視為形態差異的重要條件決定適用方式。",
+      "tradeoff_zh": "「亞洲與歐洲案例顯示型態依賴歷史與路網」的主要代價不是抽象的建造成本，而是每地一城的選擇不支持普遍類型排序，也未測量居民感受；因此先以四城描述比較把歷史脈絡、道路模式和建築視為形態差異的重要條件作方案比較條件。",
+      "library_ids": [
+        "NAVASTARA2017",
+        "HABRAKEN98"
+      ]
+    }
+  ],
+  "applies_when_zh": "用於與羅馬、倫敦、新加坡與東京研究情境可比、且量測定義相近的分析。",
+  "not_applicable_when_zh": "每地一城的選擇不支持普遍類型排序，也未測量居民感受。",
+  "debates_zh": "每地一城的選擇不支持普遍類型排序，也未測量居民感受。",
+  "sources": [
+    {
+      "library_id": "NAVASTARA2017",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "HABRAKEN98",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "亞洲與歐洲比較形態學；開放建築",
+  "region": "羅馬、倫敦、新加坡與東京；荷蘭",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "周邊式、合院、板樓、點式、連棟與基座塔樓"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "周邊式、合院、板樓、點式、連棟與基座塔樓"
+    },
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.330J Theory of City Form",
+      "topic": "周邊式、合院、板樓、點式、連棟與基座塔樓"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban form and density",
+      "topic": "周邊式、合院、板樓、點式、連棟與基座塔樓"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-MOR-039",
+    "KU-MOR-040",
+    "KU-MOR-041"
+  ],
+  "counter_unit_ids": [
+    "KU-MOR-043"
+  ]
+}

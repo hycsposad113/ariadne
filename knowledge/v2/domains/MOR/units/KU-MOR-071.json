@@ -1,0 +1,91 @@
+{
+  "id": "KU-MOR-071",
+  "domain": "MOR",
+  "subtopic": "地塊、街廓與建築類型",
+  "type": "value_range",
+  "title_zh": "阿姆斯特丹運河屋地塊臨街面寬",
+  "title_en": "Amsterdam canal-house plot frontage",
+  "summary_zh": "阿姆斯特丹運河屋窄面寬應連同地塊深度、樓梯、採光井和後院位置一起記錄。Bobkova 等人比較阿姆斯特丹地塊的大小、形狀和臨街指標；Komossa 的荷蘭街廓研究提供公共領域與街廓配置的脈絡。兩筆來源都沒有在目前可讀書目或摘要中報告 5–8 m，該區間仍需量測原始地籍或圖面。",
+  "key_points_zh": [
+    "阿姆斯特丹運河屋常見窄面寬地塊，約 5–8 m 的臨街寬度使樓梯、採光井和後院配置高度緊湊。",
+    "這是歷史運河屋的類型尺度，不是今日整個城市住宅地塊的統計分布。",
+    "沿街面寬應和樓梯位置、地塊深度及建築層數同時記錄，才能比較連續街牆的實際可用性。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "Bobkova 等人以阿姆斯特丹、倫敦和斯德哥爾摩比較地塊大小、形狀與臨街指數，直接討論地塊系統與城市活動的關係；摘要未報告運河屋 5–8 m 面寬。",
+        "library_id": "BOBKOVA2019",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "阿姆斯特丹、荷蘭",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "Komossa 的專書以荷蘭都市街廓及公共領域為研究範圍，提供運河街廓形態的比較脈絡；不構成通用地塊面寬標準。",
+        "library_id": "KOMOSSA2010",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "荷蘭",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "阿姆斯特丹運河屋地塊臨街面寬",
+      "range": "約 5–8",
+      "unit": "m 臨街面寬",
+      "context": "阿姆斯特丹，荷蘭；用途：歷史運河屋地塊臨街面寬比較；5–8 m 為保留的案例範圍，非文章摘要直接報告值；不是本基地法規。",
+      "library_id": "BOBKOVA2019"
+    }
+  ],
+  "design_implications_zh": [
+    "從歷史地籍和建築圖面量每宗運河屋的臨街寬度，並同步記錄地塊深度與街廓位置。"
+  ],
+  "applies_when_zh": "用於比較阿姆斯特丹，荷蘭的歷史運河屋窄面寬地塊，並明示此數值的來源、年份和面積分母。",
+  "not_applicable_when_zh": "這是歷史運河屋的類型尺度，不是今日整個城市住宅地塊的統計分布。",
+  "debates_zh": "窄面寬可形成連續街牆，也限制樓梯、採光和住宅平面的組織。",
+  "sources": [
+    {
+      "library_id": "BOBKOVA2019",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "KOMOSSA2010",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "英國城鎮平面學",
+  "region": "阿姆斯特丹，荷蘭",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "地塊、街廓與建築類型"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "地塊、街廓與建築類型"
+    },
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.330J Theory of City Form",
+      "topic": "地塊、街廓與建築類型"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban form and density",
+      "topic": "地塊、街廓與建築類型"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008"
+}

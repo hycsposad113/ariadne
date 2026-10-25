@@ -1,0 +1,36 @@
+{
+  "id": "URA_GPR_COMM",
+  "title": "Gross Plot Ratio: Commercial",
+  "authors": [
+    "Urban Redevelopment Authority (URA), Singapore"
+  ],
+  "year": 2026,
+  "venue_or_publisher": "Urban Redevelopment Authority (URA), Singapore",
+  "doi": null,
+  "isbn": null,
+  "kind": "POLICY",
+  "tradition": "官方制度與專業實務指引",
+  "region": [
+    "Urban Redevelopment Authority (URA), Singapore"
+  ],
+  "method": "官方公開法規、政策頁或手冊；依verification.method註明可讀範圍",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "商業plot ratio依土地用途圖、分區及規劃條件判讀；退縮、形狀與技術條件會影響可實現樓地板量。",
+      "strength": "NORMATIVE_PRACTICE",
+      "scope_zh": "僅摘要官方公開頁面可直接支持之制度或實務內容；不外推為M4H地方法規。",
+      "assessment_basis": "OFFICIAL_SITE_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED_OFFICIAL_SITE",
+    "url": "https://www.ura.gov.sg/guidelines/development-control/development-control-handbooks/non-residential/commercial/gross-plot-ratio/",
+    "accessed_utc": "2026-10-08T10:47:42Z",
+    "method": "official public development-control guidance",
+    "match_notes_zh": "核對官方來源網域與可公開讀取的頁面／摘錄；內容範圍限制已記錄。"
+  },
+  "limitations_zh": "official public development-control guidance",
+  "metadata_licence_zh": "保存官方公開文件的書目欄位與自行改寫的內容摘要；未保存付費全文。"
+}

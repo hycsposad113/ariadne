@@ -1,0 +1,61 @@
+{
+  "id": "KU-ECO-023",
+  "domain": "ECO",
+  "subtopic": "都市森林與樹冠",
+  "type": "empirical_finding",
+  "title_zh": "樹冠微氣候變異具有可觀察幅度",
+  "title_en": "Street-level temperatures vary substantially",
+  "summary_zh": "同一城市多條路線的夏季量測顯示，街道溫度並非全市均一。研究報告平均變異約三點五攝氏度，觀測範圍約一點一至五點七度。這些是單季、單城空氣溫度資料，不等於個人熱暴露差或全年效益。人體熱舒適還受濕度、輻射和風速影響。",
+  "key_points_zh": [
+    "同一城市多條路線的夏季量測顯示，街道溫度並非全市均一",
+    "研究報告平均變異約三點五攝氏度，觀測範圍約一點一至五點七度"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "同一城市多條路線的夏季量測顯示，街道溫度並非全市均一。",
+        "effect_or_value": "平均約 3.5°C，觀測範圍 1.1–5.7°C；反映單城街道間的溫度變異。",
+        "study_design": "移動式夏季氣溫路線量測",
+        "context_region": "美國 Upper Midwest 中型城市",
+        "library_id": "ZITER19",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW",
+        "limitations_zh": "單城單季空氣溫度觀測，不等於個人熱暴露或全年降溫效益。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "熱舒適方案應在不同街區和時段布點，而不只用城市平均值。"
+  ],
+  "applies_when_zh": "適用於比較樹冠和街道微氣候。",
+  "not_applicable_when_zh": "不應將觀測範圍當成任一基地可保證降溫幅度。",
+  "debates_zh": "人體熱舒適還受濕度、輻射和風速影響。",
+  "sources": [
+    {
+      "library_id": "ZITER19",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "NG10",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "都市森林與微氣候",
+  "region": "美國 Upper Midwest 中型城市",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "都市森林與樹冠"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-ECO-022",
+    "KU-ECO-024"
+  ]
+}

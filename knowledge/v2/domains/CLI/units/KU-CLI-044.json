@@ -1,0 +1,84 @@
+{
+  "id": "KU-CLI-044",
+  "domain": "CLI",
+  "subtopic": "高密度城市的氣候設計",
+  "type": "value_range",
+  "title_zh": "街廓開敞度要配合周邊城市形態校核",
+  "title_en": "街廓開敞度要配合周邊城市形態校核",
+  "summary_zh": "高密度氣候設計要把建築高度、街道寬度、街向和開口共同呈現。H/W 約 1–3 可作為深街谷形態的比較情境，但它不是單獨的密度或通風性能指標。方案評估仍要用指定氣象條件測試陰影、風場與熱暴露。",
+  "key_points_zh": [
+    "開放空間面積不等於風道有效連通。",
+    "周圍高度和風向改變同一開口的氣流作用。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "library_id": "DOVEY14",
+        "claim_zh": "形態比較可用約 H/W 1–3 作高密度街谷的案例範圍，同時報告街廓、冠層和朝向；這不是普遍設計門檻。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "密度多維模型",
+        "context_region": "澳洲",
+        "locator": null,
+        "limitations_zh": " 查核：H/W 1–3 為案例描述範圍，無法追溯到 Dovey 原文的明確數值。"
+      },
+      {
+        "library_id": "NG10",
+        "claim_zh": "高密度設計必須同時比較社會與環境條件；不能由密度數字直接推出唯一建築型態；本單元 KU-CLI-044 對照「高密度氣候設計要把建築高度、街道寬度、街向和開口共同呈現」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "編輯專書／案例綜述",
+        "context_region": "香港、亞洲",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "用三維模型檢查開口與迎風方向的關係。",
+    "對候選街廓統一計算邊界和高度口徑。"
+  ],
+  "applies_when_zh": "適用於高密度街廓氣候方案的指標盤點。",
+  "not_applicable_when_zh": "具體比例待原研究定義核查；不是本基地法規。",
+  "debates_zh": "把不同尺度和定義的孔隙率放在同一張表容易造成虛假可比性。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "DOVEY14",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "NG10",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "城市形態通風指標",
+  "region": "香港與亞洲；香港",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "高密度城市的氣候設計"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": null,
+      "topic": "高密度城市的氣候設計"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0",
+  "values": [
+    {
+      "name": "高密度街谷幾何比較的 H/W 範圍",
+      "range": "約 1–3",
+      "unit": "height-to-width ratio",
+      "context": "用於深街谷與通風情境的形態方案比較；幾何比例不是密度單一指標 這不是本基地法規；來源所列地域：澳洲。",
+      "library_id": "DOVEY14"
+    }
+  ]
+}

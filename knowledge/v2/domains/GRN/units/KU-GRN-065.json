@@ -1,0 +1,69 @@
+{
+  "id": "KU-GRN-065",
+  "domain": "GRN",
+  "subtopic": "公園類型與階層",
+  "type": "value_range",
+  "title_zh": "大型斑塊的物種尺度參照",
+  "title_en": "Large-patch reference",
+  "summary_zh": "統合研究指出超過五十公頃的綠地對部分面積敏感物種可能重要。這一研究結論提醒區域規劃保留大型核心棲地。所需面積會依物種、棲地品質與都市矩陣而變。保留大塊和提供分散小生境需要並行評估。",
+  "key_points_zh": [
+    "統合研究指出超過五十公頃的綠地對部分面積敏感物種可能重要",
+    "這一研究結論提醒區域規劃保留大型核心棲地"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "統合研究指出超過五十公頃的綠地對部分面積敏感物種可能重要。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "德國",
+        "library_id": "MULLER10",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "保留大塊和提供分散小生境需要並行評估。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "將大斑塊作為區域方案的一種情境，另查本地類群需求。"
+  ],
+  "applies_when_zh": "適用於大型公園和自然保護地比較。",
+  "not_applicable_when_zh": "不可當作所有物種或基地的普遍下限。",
+  "debates_zh": "保留大塊和提供分散小生境需要並行評估。",
+  "sources": [
+    {
+      "library_id": "MULLER10",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "MCHARG69",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "都市生物多樣性與設計",
+  "region": "德國",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "公園類型與階層"
+    }
+  ],
+  "version": "2.0.0",
+  "values": [
+    {
+      "name": "大型斑塊的物種尺度參照",
+      "range": "> 50 ha",
+      "unit": "公頃",
+      "context": "統合研究中的面積敏感物種場址參照；非規劃標準或基地法規。；「大型斑塊的物種尺度參照」僅供其研究脈絡內比較，不構成本基地法規；來源所列地域：全球多城市。",
+      "library_id": "BENINDE15"
+    }
+  ],
+  "related_unit_ids": [
+    "KU-GRN-010"
+  ]
+}

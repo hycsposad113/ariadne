@@ -1,0 +1,66 @@
+{
+  "id": "KU-GRN-013",
+  "domain": "GRN",
+  "subtopic": "綠地可及性",
+  "type": "empirical_finding",
+  "title_zh": "距離和品質共同關聯休閒步行",
+  "title_en": "Distance and quality are jointly related to walking",
+  "summary_zh": "Perth 成人研究結合居民調查、GIS 和公園品質稽核。較近且較具吸引力的開放空間與休閒步行參與相關。資料為觀察性且行為自陳，不能判斷是公園吸引步行或步行者選擇居住位置。平均距離可能遮住不同群體的實際時間成本。",
+  "key_points_zh": [
+    "Perth 成人研究結合居民調查、GIS 和公園品質稽核",
+    "較近且較具吸引力的開放空間與休閒步行參與相關"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "Perth 成人研究結合居民調查、GIS 和公園品質稽核。",
+        "effect_or_value": "近且有吸引力的開放空間與休閒步行參與相關。",
+        "study_design": "成人問卷、GIS與空間稽核的觀察研究",
+        "context_region": "澳洲 Perth，1,366 位成人",
+        "library_id": "SUGIYAMA10",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW",
+        "limitations_zh": "橫斷面自陳資料，無法推論因果方向或對所有年齡外推。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "在可及性分析中加入品質、入口和感知安全維度。"
+  ],
+  "applies_when_zh": "適用於評估新綠地或路網修補。",
+  "not_applicable_when_zh": "不宜只按最近距離排列投資優先序。",
+  "debates_zh": "平均距離可能遮住不同群體的實際時間成本。",
+  "sources": [
+    {
+      "library_id": "SUGIYAMA10",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "GEURS04",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "公園可及性與健康地理",
+  "region": "澳洲 Perth，1,366 位成人",
+  "curriculum_refs": [
+    {
+      "school": "UCL Bartlett",
+      "course": "Critical Debates in Urban Design",
+      "topic": "綠地可及性"
+    },
+    {
+      "school": "MIT",
+      "course": "11.330J Theory of City Form",
+      "topic": "綠地可及性"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-GRN-012",
+    "KU-GRN-014"
+  ]
+}

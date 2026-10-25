@@ -1,0 +1,107 @@
+{
+  "id": "KU-HOU-026",
+  "domain": "HOU",
+  "subtopic": "可負擔性",
+  "type": "concept",
+  "title_zh": "可負擔性｜概念邊界",
+  "title_en": "Affordability — Conceptual boundaries",
+  "summary_zh": "可負擔性應同時看收入、住房成本、通勤支出與住宅品質；較低單價不必然減輕家庭總負擔。 社會住宅滿意度和混合用途估值是相鄰但不同的結果，不能替代可負擔性指標。 跨政策比較須說明收入門檻、樣本與制度範圍。",
+  "key_points_zh": [
+    "可負擔住宅的定義和政策工具隨國家制度而變化。",
+    "適用於住房政策、住宅選址和低收入住戶影響評估。",
+    "限制：本庫不設定普遍可負擔比例，也不作特定基地市場估值。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "住宅單元的滿意度約屬中等，支援服務、社會環境與公共設施的結果不一，不能把交屋數當作生活品質成效。",
+        "library_id": "MOHIT2011",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "雪蘭莪，馬來西亞",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "荷蘭樣本中混合街區住宅平均估值約高 2.5%，但偏好因住宅型態而異，製造與批發用途亦可能被認為不相容。",
+        "library_id": "KOSTER2012",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "荷蘭住宅市場",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "同時說明收入分組、住房成本、通勤費用和品質指標。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "同時說明收入分組、住房成本、通勤費用和品質指標。",
+      "tradeoff_zh": "「可負擔性｜概念邊界」的主要代價不是抽象的建造成本，而是較便宜的住宅若遠離工作或缺乏服務，總負擔未必較低；因此先以住宅單元的滿意度約屬中等，支援服務、社會環境與公共設施的結果不一，不能把交屋數當作生活品質成效作方案比較條件。",
+      "library_ids": [
+        "MOHIT2011",
+        "KOSTER2012"
+      ]
+    },
+    {
+      "option_zh": "直接補助、社會住宅和市場供給介入各自影響不同住戶。",
+      "tradeoff_zh": "此選項把「可負擔性｜概念邊界」的工作放在住宅單元的滿意度約屬中等，支援服務、社會環境與公共設施的結果不一，不能把交屋數當作生活品質成效上；需要承擔的協調或維護代價則由「較便宜的住宅若遠離工作或缺乏服務，總負擔未必較低」界定。",
+      "library_ids": [
+        "MOHIT2011",
+        "KOSTER2012"
+      ]
+    }
+  ],
+  "applies_when_zh": "適用於住房政策、住宅選址和低收入住戶影響評估。",
+  "not_applicable_when_zh": "本庫不設定普遍可負擔比例，也不作特定基地市場估值。",
+  "debates_zh": "較便宜的住宅若遠離工作或缺乏服務，總負擔未必較低。",
+  "sources": [
+    {
+      "library_id": "MOHIT2011",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "KOSTER2012",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "馬來西亞社會住宅滿意度；土地經濟與用途混合",
+  "region": "雪蘭莪，馬來西亞；荷蘭住宅市場",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "可負擔性"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "可負擔性"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "可負擔性"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "可負擔性"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-HOU-027",
+    "KU-HOU-028",
+    "KU-HOU-029"
+  ],
+  "counter_unit_ids": [
+    "KU-HOU-030"
+  ]
+}

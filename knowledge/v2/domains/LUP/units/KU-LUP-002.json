@@ -1,0 +1,110 @@
+{
+  "id": "KU-LUP-002",
+  "domain": "LUP",
+  "subtopic": "土地使用分類",
+  "type": "theory",
+  "title_zh": "Jacobs 的城市多樣性四條件",
+  "title_en": "Jacobs’s four conditions for urban diversity",
+  "summary_zh": "四條件是對紐約街區觀察的解釋，不是任一項成立便保證街道活躍的打分表。 後續 3D 研究把密度、多樣性與設計分開量測，提醒用途混合需和街廓網絡及人口條件一起看。 把此理論用於新區時，還要檢查租金上升、非正式工作與土地控制權如何改變誰能留下。",
+  "key_points_zh": [
+    "主要用途應跨越不同日夜時段，不能只用全區用途比例表示。",
+    "短街廓增加交叉路徑，但連通性也可能帶來車流、噪音與穿越衝突。",
+    "不同年代建築提供不同成本的空間；拆除低租金存量會削弱此條件。",
+    "密集使用者要和住房可負擔性、公共空間容量及服務供給並讀。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "Jacobs 將都市多樣性歸納為四個相互支持的條件：混合主要用途使不同時段有人活動；短街廓增加路徑選擇；不同年代、狀況與租金的建築容納成本不同的使用者；足夠密集的使用者為商業和公共生活提供需求。",
+        "library_id": "JACOBS61",
+        "effect_or_value": null,
+        "study_design": "經典理論與城鎮平面分析",
+        "context_region": "美國；以紐約街區觀察為主",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "密度、用途多樣性及設計是相互關聯的出行研究維度；不能單獨套用密度決定交通模式。",
+        "library_id": "CERVERO97",
+        "effect_or_value": null,
+        "study_design": "後續形態學綜述或比較",
+        "context_region": "美國；以紐約街區觀察為主",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "用樓層和時段表盤點主要用途，再以租金與營業時數檢查它們是否真正互補。",
+    "把街廓尺度和入口路徑列入比較，同時呈現穿越交通與安靜界面的代價。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "對照實際活動、建築登記與規劃類別，註明多用途和時間變化。",
+      "tradeoff_zh": "增加空間選擇與公共連結，但會增加協調、管理或建造成本。",
+      "library_ids": [
+        "KIRCHHERR17",
+        "ROY05"
+      ]
+    },
+    {
+      "option_zh": "居住、商業、製造、公共設施和開放空間可按不同規劃問題再分層。",
+      "tradeoff_zh": "保留另一種形式和使用條件，但可能改變連續性、可達性或私密性。",
+      "library_ids": [
+        "KIRCHHERR17",
+        "ROY05"
+      ]
+    }
+  ],
+  "applies_when_zh": "適用於盤點現況、評估分區和描述用途配置。",
+  "not_applicable_when_zh": "資料缺項不是空白用途；不得把未知直接編成零或無使用。",
+  "debates_zh": "四項條件由特定美國城市經驗歸納，可能忽略非正式經濟、土地權力和不同家庭的安全需求；密集與混用也可能伴隨租金排擠。",
+  "sources": [
+    {
+      "library_id": "JACOBS61",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "CERVERO97",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "街道生活觀察；都市政治經濟批判",
+  "region": "美國；以紐約街區觀察為主",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Planning Complex Cities",
+      "topic": "土地使用分類"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Cities by Design",
+      "topic": "土地使用分類"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "土地使用分類"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Sustainable Futures by Design",
+      "topic": "土地使用分類"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-LUP-001",
+    "KU-LUP-003",
+    "KU-LUP-004"
+  ],
+  "counter_unit_ids": [
+    "KU-LUP-005"
+  ],
+  "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008"
+}

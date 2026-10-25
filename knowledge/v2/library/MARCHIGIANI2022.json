@@ -1,0 +1,44 @@
+{
+  "id": "MARCHIGIANI2022",
+  "title": "Urban Transition and the Return of Neighbourhood Planning. Questioning the Proximity Syndrome and the 15-Minute City",
+  "authors": [
+    "Elena Marchigiani",
+    "Bertrando Bonfantini"
+  ],
+  "year": 2022,
+  "venue_or_publisher": "Sustainability",
+  "doi": "https://doi.org/10.3390/su14095468",
+  "isbn": null,
+  "openalex_id": "https://openalex.org/W4225328964",
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "鄰里規劃與近鄰服務批判",
+  "region": [
+    "米蘭，義大利"
+  ],
+  "method": "文獻回顧與政策實施案例分析",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "研究提醒 15 分鐘城市須作為複合治理工具處理，僅把它當固定幾何模板會掩蓋地方政策差異。",
+      "strength": "MIXED",
+      "scope_zh": "僅限摘要可核對的範圍；未讀全文，不推論摘要未列的數字、因果或普遍適用性。",
+      "assessment_basis": "ABSTRACT_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "OpenAlex",
+    "query": {
+      "record_id": "https://openalex.org/W4225328964",
+      "title": "Urban Transition and the Return of Neighbourhood Planning. Questioning the Proximity Syndrome and the 15-Minute City",
+      "author": "Elena Marchigiani",
+      "year": 2022
+    },
+    "matched_record_id": "https://openalex.org/W4225328964",
+    "checked_at_utc": "2026-10-08T09:12:32Z",
+    "match_notes_zh": "以 OpenAlex 精確 work 記錄核對書名、作者與出版年；只使用摘要作主張範圍檢查，未下載全文。"
+  },
+  "limitations_zh": "僅使用允許的書目欄位和摘要核對；未取得或保存全文。",
+  "metadata_licence_zh": "保存公開書目欄位與自行撰寫主張摘要；未保存 API 摘要原文或全文。"
+}

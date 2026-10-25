@@ -1,0 +1,80 @@
+{
+  "id": "KU-SYN-038",
+  "domain": "SYN",
+  "subtopic": "角度與度量距離",
+  "type": "method",
+  "title_zh": "角度與度量距離：可檢驗的方法",
+  "title_en": "Angular and metric distance: Method and measurement",
+  "summary_zh": "固定路段網後以角度、度量或拓樸權重重算，公開單位、轉向成本和半徑。這個流程用來檢驗拓樸、角度和公尺距離代表不同移動成本；距離選擇會改變最短路徑和中心性值。方法的主要限制是研究者若只報一種距離，模型選擇的不確定性會被誤當成精確的人流預測。",
+  "key_points_zh": [
+    "分析步驟：拓樸、角度和公尺距離代表不同移動成本；距離選擇會改變最短路徑和中心性值",
+    "分析步驟：固定路段網後以角度、度量或拓樸權重重算，公開單位、轉向成本和半徑"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "角度與度量距離：可檢驗的方法｜空間語法作者對表示法批評作回應，應與批評並列而非以一方的權威結束討論",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "HILLIERPENN04",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "角度與度量距離：可檢驗的方法｜以空間資本把路網關係與更廣的都市形態聯讀；不能只看中心性而忽略地塊與用途",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "MARCUS10",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "固定路段網後以角度、度量或拓樸權重重算，公開單位、轉向成本和半徑"
+  ],
+  "applies_when_zh": "需要測量「拓樸、角度和公尺距離代表不同移動成本；距離選擇會改變最短路徑和中心性值」時，按「角度與度量距離：可檢驗的方法」列出的資料範圍建構指標，同時保存網路版本與計算參數。",
+  "not_applicable_when_zh": "若資料無法支持「拓樸、角度和公尺距離代表不同移動成本；距離選擇會改變最短路徑和中心性值」的測量，這套步驟不會產生可比較的結果；方法本身也不能選定設計目標。",
+  "debates_zh": "研究者若只報一種距離，模型選擇的不確定性會被誤當成精確的人流預測；檢視「角度與度量距離：可檢驗的方法」的測量程序時，還需判斷「固定路段網後以角度、度量或拓樸權重重算，公開單位、轉向成本和半徑」會如何改變方案結論。",
+  "sources": [
+    {
+      "library_id": "HILLIERPENN04",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "MARCUS10",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "空間網路距離模型",
+  "region": "跨地域理論或實務脈絡；來源地區依引用條目判讀",
+  "curriculum_refs": [
+    {
+      "school": "Harvard GSD",
+      "course": "Cities by Design",
+      "topic": "角度與度量距離：課綱對應主題"
+    },
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.330J Theory of City Form",
+      "topic": "角度與度量距離：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-SYN-033",
+    "KU-SYN-034",
+    "KU-SYN-035",
+    "KU-SYN-036",
+    "KU-SYN-037",
+    "KU-SYN-039",
+    "KU-SYN-040"
+  ]
+}

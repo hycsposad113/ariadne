@@ -1,0 +1,100 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "ariadne-judgement-card-v1",
+  "title": "Ariadne judgement card v1",
+  "description": "One stage judgement by Ariadne. Numbers may only restate input metrics (metric_id + value + unit); the validator rejects any number not present in the assembled input. Knowledge references must come from the skill's required/optional KU list.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["skill_id", "skill_version", "stage", "subject", "observations", "judgement", "reasoning", "confidence", "revision_directions", "counterpoints", "limitations", "questions_for_designer"],
+  "properties": {
+    "skill_id": {"enum": ["J-SITE", "J-COMPARE", "J-CLIMATE"]},
+    "skill_version": {"type": "string", "pattern": "^1\\.[0-9]+\\.[0-9]+$"},
+    "stage": {"enum": ["site", "compare", "climate", "morphology"]},
+    "subject": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind", "ids"],
+      "properties": {
+        "kind": {"enum": ["site", "scheme_set", "scheme"]},
+        "ids": {"type": "array", "items": {"type": "string"}, "minItems": 1}
+      }
+    },
+    "observations": {
+      "type": "array", "minItems": 3, "maxItems": 8,
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["text", "refs"],
+        "properties": {
+          "text": {"type": "string", "minLength": 8, "maxLength": 280},
+          "refs": {
+            "type": "array", "minItems": 1,
+            "items": {
+              "type": "object", "additionalProperties": false,
+              "required": ["kind", "id"],
+              "properties": {
+                "kind": {"enum": ["evidence_card", "metric", "artifact"]},
+                "id": {"type": "string"},
+                "value": {"type": ["number", "string", "null"]},
+                "unit": {"type": ["string", "null"]}
+              }
+            }
+          }
+        }
+      }
+    },
+    "judgement": {
+      "type": "object", "additionalProperties": false,
+      "required": ["stance", "headline"],
+      "properties": {
+        "stance": {"enum": ["SUPPORT", "SUPPORT_WITH_CONDITIONS", "CONCERN", "OPPOSE", "INSUFFICIENT_EVIDENCE"]},
+        "headline": {"type": "string", "minLength": 12, "maxLength": 200, "description": "Ariadne's own position in one sentence, first person allowed ('我認為…')."}
+      }
+    },
+    "reasoning": {
+      "type": "array", "minItems": 2, "maxItems": 6,
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["lens", "text", "knowledge_refs"],
+        "properties": {
+          "lens": {"type": "string", "description": "Lens id from the skill framework, e.g. L2-movement."},
+          "text": {"type": "string", "minLength": 20, "maxLength": 400},
+          "knowledge_refs": {"type": "array", "items": {"type": "string", "pattern": "^KU-[A-Z]{3}-[0-9]{3}$"}}
+        }
+      }
+    },
+    "confidence": {
+      "type": "object", "additionalProperties": false,
+      "required": ["level", "why"],
+      "properties": {
+        "level": {"enum": ["high", "medium", "low"]},
+        "why": {"type": "string", "minLength": 10, "maxLength": 240}
+      }
+    },
+    "revision_directions": {
+      "type": "array", "minItems": 1, "maxItems": 4,
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["action", "target", "parameter_family", "expected_effect", "trade_off"],
+        "properties": {
+          "action": {"type": "string", "minLength": 8, "maxLength": 200},
+          "target": {"type": "string", "description": "Where: block id, street, open-space category, scheme, or 'site'."},
+          "parameter_family": {"enum": ["height", "setback", "courtyard_width", "block_subdivision", "street_add_remove", "street_section", "open_space_allocation", "land_use", "intensity", "retention", "planting_shade", "orientation", "analysis_needed"]},
+          "expected_effect": {"type": "string", "maxLength": 200, "description": "Qualitative direction only; no invented numbers."},
+          "trade_off": {"type": "string", "maxLength": 200}
+        }
+      }
+    },
+    "counterpoints": {
+      "type": "array", "minItems": 1, "maxItems": 3,
+      "items": {"type": "string", "minLength": 10, "maxLength": 240}
+    },
+    "limitations": {
+      "type": "array", "minItems": 1, "maxItems": 4,
+      "items": {"type": "string", "minLength": 8, "maxLength": 240}
+    },
+    "questions_for_designer": {
+      "type": "array", "minItems": 1, "maxItems": 3,
+      "items": {"type": "string", "minLength": 8, "maxLength": 200}
+    }
+  }
+}

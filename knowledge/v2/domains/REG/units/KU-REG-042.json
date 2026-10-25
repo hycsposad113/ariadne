@@ -1,0 +1,98 @@
+{
+  "id": "KU-REG-042",
+  "domain": "REG",
+  "subtopic": "日本用途地域與地方條例",
+  "type": "empirical_finding",
+  "title_zh": "日本監管制度重視行政委任與私人參與",
+  "title_en": "Japanese regulatory style",
+  "summary_zh": "文章研究 1990 年代監管制度，不代表後續法改。 不要只按分區地圖判斷審查權力配置。 研究設計：法律制度比較與歷史案例分析；地區：日本，兼論美國與歐洲。 限制：文章研究 1990 年代監管制度，不代表後續法改。",
+  "key_points_zh": [
+    "大型零售店法案例說明日本行政規制如何委任權力並納入私人角色，文章亦討論土地管制的限制。",
+    "研究設計：法律制度比較與歷史案例分析；地區：日本，兼論美國與歐洲",
+    "限制：文章研究 1990 年代監管制度，不代表後續法改。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "大型零售店法案例說明日本行政規制如何委任權力並納入私人角色，文章亦討論土地管制的限制。",
+        "effect_or_value": "多個行政監管領域的制度案例比較",
+        "study_design": "法律制度比較與歷史案例分析",
+        "context_region": "日本，兼論美國與歐洲",
+        "library_id": "UPHAM1996",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "不要只按分區地圖判斷審查權力配置。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "不要只按分區地圖判斷審查權力配置。",
+      "tradeoff_zh": "「日本監管制度重視行政委任與私人參與」採用「不要只按分區地圖判斷審查權力配置」時，得失要沿著大型零售店法案例說明日本行政規制如何委任權力並納入私人角色，文章亦討論土地管制的限制檢查；文章研究 1990 年代監管制度，不代表後續法改。",
+      "library_ids": [
+        "UPHAM1996",
+        "TALEN2012"
+      ]
+    },
+    {
+      "option_zh": "「日本監管制度重視行政委任與私人參與」可把取向落在地方規則可能加強引導，也可能在開發壓力下放寬管制，但需連同大型零售店法案例說明日本行政規制如何委任權力並納入私人角色，文章亦討論土地管制的限制決定適用方式。",
+      "tradeoff_zh": "「日本監管制度重視行政委任與私人參與」採用「「日本監管制度重視行政委任與私人參與」可把取向落在地方規則可能加強引導，也可能在開發壓力下放寬管制，但需連同大型零售店法案例說明日本行政規制如何委任權力並納入私人角色，文章亦討論土地管制的限制決定適用方式」時，得失要沿著大型零售店法案例說明日本行政規制如何委任權力並納入私人角色，文章亦討論土地管制的限制檢查；文章研究 1990 年代監管制度，不代表後續法改。",
+      "library_ids": [
+        "UPHAM1996",
+        "TALEN2012"
+      ]
+    }
+  ],
+  "applies_when_zh": "用於與日本，兼論美國與歐洲研究情境可比、且量測定義相近的分析。",
+  "not_applicable_when_zh": "文章研究 1990 年代監管制度，不代表後續法改。",
+  "debates_zh": "文章研究 1990 年代監管制度，不代表後續法改。",
+  "sources": [
+    {
+      "library_id": "UPHAM1996",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "TALEN2012",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "日本行政法與委任管制；城市形態與規劃規則",
+  "region": "日本，兼論美歐制度；美國",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Planning Complex Cities",
+      "topic": "日本用途地域與地方條例"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Urban Design Contexts and Operations",
+      "topic": "日本用途地域與地方條例"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "日本用途地域與地方條例"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban design governance",
+      "topic": "日本用途地域與地方條例"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-REG-036",
+    "KU-REG-037",
+    "KU-REG-038"
+  ],
+  "counter_unit_ids": [
+    "KU-REG-040"
+  ]
+}

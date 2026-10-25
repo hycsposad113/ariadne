@@ -1,0 +1,81 @@
+{
+  "id": "KU-SYN-050",
+  "domain": "SYN",
+  "subtopic": "Place Syntax",
+  "type": "empirical_finding",
+  "title_zh": "波哥大空間公平與可及性分布",
+  "title_en": "Spatial equity and accessibility in Bogotá",
+  "summary_zh": "城市形式、人口與交通空間可及性的觀察性分析，研究脈絡為波哥大，哥倫比亞。目的地權重和人口分布會改變可及性圖的公平含義。研究指出平均密度較高仍可能與低收入群體可及性不足並存。限制包括單一城市和特定資料分類不代表其他地區；摘要未提供通用閾值。",
+  "key_points_zh": [
+    "目的地權重和人口分布會改變可及性圖的公平含義",
+    "限制：單一城市和特定資料分類不代表其他地區；摘要未提供通用閾值",
+    "效果或方向：研究指出平均密度較高仍可能與低收入群體可及性不足並存"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "波哥大空間公平與可及性分布｜目的地權重和人口分布會改變可及性圖的公平含義",
+        "effect_or_value": "研究指出平均密度較高仍可能與低收入群體可及性不足並存",
+        "study_design": "城市形式、人口與交通空間可及性的觀察性分析",
+        "context_region": "波哥大，哥倫比亞",
+        "library_id": "BOGOTA17",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "波哥大空間公平與可及性分布｜巴西都市形態研究跨越地理、建築與都市學傳統；不宜假定歐洲分類可原樣套用",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "BRAZIL14",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "同時按群體與目的地類型呈現場所可及性"
+  ],
+  "applies_when_zh": "若本地觀察單位與波哥大，哥倫比亞的研究脈絡可對照，可用「目的地權重和人口分布會改變可及性圖的公平含義」作為Place Syntax的比較線索。",
+  "not_applicable_when_zh": "這項波哥大，哥倫比亞的研究結果不能單獨證明因果或預測其他城市的街段；原研究單一城市和特定資料分類不代表其他地區；摘要未提供通用閾值。",
+  "debates_zh": "關聯能否外推；單一城市和特定資料分類不代表其他地區；摘要未提供通用閾值；檢視「波哥大空間公平與可及性分布」的研究解讀時，還需判斷「限制：單一城市和特定資料分類不代表其他地區；摘要未提供通用閾值」會如何改變方案結論。",
+  "sources": [
+    {
+      "library_id": "BOGOTA17",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "BRAZIL14",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "目的地可及性與空間組態整合",
+  "region": "波哥大，哥倫比亞",
+  "curriculum_refs": [
+    {
+      "school": "UCL Bartlett",
+      "course": "Critical Debates in Urban Design",
+      "topic": "Place Syntax：課綱對應主題"
+    },
+    {
+      "school": "TU Delft",
+      "course": "Methods of Analysis & Imagination",
+      "topic": "Place Syntax：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-SYN-049",
+    "KU-SYN-051",
+    "KU-SYN-052",
+    "KU-SYN-053",
+    "KU-SYN-054",
+    "KU-SYN-055",
+    "KU-SYN-056"
+  ]
+}

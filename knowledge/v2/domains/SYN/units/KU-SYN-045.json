@@ -1,0 +1,94 @@
+{
+  "id": "KU-SYN-045",
+  "domain": "SYN",
+  "subtopic": "批評（Ratti）與回應",
+  "type": "typology",
+  "title_zh": "批評（Ratti）與回應：型態比較",
+  "title_en": "Ratti critique and response: Typology comparison",
+  "summary_zh": "理論內部修正、外部方法比較和資料驗證是不同回應方式，不必選擇接受或全盤否定。類型比較要回到Ratti 對空間語法表示和幾何處理提出方法批評，Hillier 與 Penn 的回應則捍衛其模型意圖與適用範圍。各類型的成本和適用條件包括：論文標題中的論戰不構成任何一方勝出證據；方法有效性須在具體資料和目標下檢查。",
+  "key_points_zh": [
+    "比較類型：Ratti 對空間語法表示和幾何處理提出方法批評，Hillier 與 Penn 的回應則捍衛其模型意圖與適用範圍",
+    "比較類型：理論內部修正、外部方法比較和資料驗證是不同回應方式，不必選擇接受或全盤否定"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "批評（Ratti）與回應：型態比較｜Primal 街道圖和多中心性指標可辨識城市結構骨架；規劃型與自組織城市的中心性分布不同，指標選擇仍受圖表示限制",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "PORTA06",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "批評（Ratti）與回應：型態比較｜非機動可及性必須說明網路、目的地與尺度，替代量測方式需保持定義可比較",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "IACONO10",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "書目確認 Hillier 與 Penn 發表了回應 Ratti 的論文；這只核實方法辯論存在，不代表其中一方勝出。",
+        "library_id": "HILLIERPENN04",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "方法論回應論文",
+        "context_region": "英國空間語法研究",
+        "locator": null
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "類型表應比較「Ratti 對空間語法表示和幾何處理提出方法批評，Hillier 與 Penn 的回應則捍衛其模型意圖與適用範圍」及其使用代價「論文標題中的論戰不構成任何一方勝出證據；方法有效性須在具體資料和目標下檢查」，不要只列名稱。"
+  ],
+  "applies_when_zh": "比較批評（Ratti）與回應方案時，可先用「Ratti 對空間語法表示和幾何處理提出方法批評，Hillier 與 Penn 的回應則捍衛其模型意圖與適用範圍」描述各類型，再按「論文標題中的論戰不構成任何一方勝出證據；方法有效性須在具體資料和目標下檢查」檢查分類的盲點。",
+  "not_applicable_when_zh": "這些類型不構成普遍排序；遇到「論文標題中的論戰不構成任何一方勝出證據；方法有效性須在具體資料和目標下檢查」所述條件時，不應只依類名決定路網或街道配置。",
+  "debates_zh": "論文標題中的論戰不構成任何一方勝出證據；方法有效性須在具體資料和目標下檢查；檢視「批評（Ratti）與回應：型態比較」的分類邊界時，還需判斷「理論內部修正、外部方法比較和資料驗證是不同回應方式，不必選擇接受或全盤否定」會如何改變方案結論。",
+  "sources": [
+    {
+      "library_id": "PORTA06",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "IACONO10",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "HILLIERPENN04",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "空間語法方法論辯論",
+  "region": "跨地域理論或實務脈絡；來源地區依引用條目判讀",
+  "curriculum_refs": [
+    {
+      "school": "Harvard GSD",
+      "course": "Cities by Design",
+      "topic": "批評（Ratti）與回應：課綱對應主題"
+    },
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.330J Theory of City Form",
+      "topic": "批評（Ratti）與回應：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-SYN-041",
+    "KU-SYN-042",
+    "KU-SYN-043",
+    "KU-SYN-044",
+    "KU-SYN-046",
+    "KU-SYN-047",
+    "KU-SYN-048"
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "id": "KU-HOU-068",
+  "domain": "HOU",
+  "subtopic": "住宅類型",
+  "type": "value_range",
+  "title_zh": "院落式集合住宅密度",
+  "title_en": "Courtyard housing density",
+  "summary_zh": "範圍跨越多種院落與集體住宅類型，不應當作單一原型值。 把院落使用者、開放時間、照護和維護權責寫入空間方案。 記錄 荷蘭與比利時院落住宅案例 與「院落住宅單元的淨住宅用地」的量測分母，再和另一種尺度或用途並排比較。",
+  "key_points_zh": [
+    "院落住宅案例可用約 60–160 戶／公頃作粗略比較帶，院落尺寸、入口控制和樓層數會改變戶數。",
+    "範圍跨越多種院落與集體住宅類型，不應當作單一原型值。",
+    "把院落使用者、開放時間、照護和維護權責寫入空間方案。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "院落住宅案例可用約 60–160 戶／公頃作粗略比較帶，院落尺寸、入口控制和樓層數會改變戶數。",
+        "effect_or_value": "約 60–160",
+        "study_design": "跨案例尺度對照或明示假設的規劃計算",
+        "context_region": "荷蘭與比利時院落住宅案例",
+        "library_id": "DEVOS2022",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "用相互關聯的空間模式討論入口、活動節點與建築關係；各模式仍需基地檢驗。",
+        "effect_or_value": null,
+        "study_design": "形態／制度比較的補充閱讀",
+        "context_region": "荷蘭與比利時院落住宅案例",
+        "library_id": "ALEX77",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "院落式集合住宅密度",
+      "range": "約 60–160",
+      "unit": "戶／公頃",
+      "context": "荷蘭與比利時院落住宅案例；用途：院落住宅單元的淨住宅用地；對照書目：DEVOS2022；適用於制度或形態比較，這不是本基地法規。",
+      "library_id": "DEVOS2022"
+    }
+  ],
+  "design_implications_zh": [
+    "把院落使用者、開放時間、照護和維護權責寫入空間方案。",
+    "記錄 荷蘭與比利時院落住宅案例 與「院落住宅單元的淨住宅用地」的量測分母，再和另一種尺度或用途並排比較。"
+  ],
+  "applies_when_zh": "用於比較荷蘭與比利時院落住宅案例的院落住宅單元的淨住宅用地，並明示此數值的來源、年份和面積分母。",
+  "not_applicable_when_zh": "範圍跨越多種院落與集體住宅類型，不應當作單一原型值。",
+  "debates_zh": "共同院落能支援鄰里接觸，也可能被管理制度封閉或把維護責任不均分配。 查核：「院落式集合住宅密度」的數值帶不確定，但所引文獻未提供，待補來源。",
+  "sources": [
+    {
+      "library_id": "DEVOS2022",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "ALEX77",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "比利時與荷蘭集體住宅",
+  "region": "荷蘭與比利時院落住宅案例",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "住宅類型"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "住宅類型"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "住宅類型"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "住宅類型"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+}

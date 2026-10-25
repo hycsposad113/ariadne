@@ -1,0 +1,42 @@
+{
+  "id": "HAMBURG_HAFENCITY_MASTERPLAN",
+  "title": "HafenCity",
+  "authors": [
+    "Freie und Hansestadt Hamburg"
+  ],
+  "year": null,
+  "venue_or_publisher": "Freie und Hansestadt Hamburg",
+  "doi": null,
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "OFFICIAL_WEBSITE",
+  "tradition": "官方城市規劃與專案資料",
+  "region": "德國漢堡",
+  "method": "直接核對官方公開頁面或政府報告；非學術成效研究",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "官方頁面記載總體規劃於2000年通過、2010年東區更新，以及158公頃與最多7,500戶的現行資料口徑。",
+      "strength": "CASE_EVIDENCE",
+      "scope_zh": "僅支持頁面明確公布的規劃口徑、歷史日期或行政資料，不將目標寫成實現成果。",
+      "assessment_basis": "DIRECT_SOURCE_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Official organization webpage",
+    "query": {
+      "title": "HafenCity",
+      "author": "Freie und Hansestadt Hamburg",
+      "year": null,
+      "api_query": "Read-only official source page: https://www.hamburg.de/politik-und-verwaltung/behoerden/behoerde-fuer-stadtentwicklung-und-wohnen/projekte-und-kampagnen/hafencity-184860"
+    },
+    "matched_record_id": "https://www.hamburg.de/politik-und-verwaltung/behoerden/behoerde-fuer-stadtentwicklung-und-wohnen/projekte-und-kampagnen/hafencity-184860",
+    "checked_at_utc": "2026-10-08T14:10:33Z",
+    "match_notes_zh": "直接核對官方網站或政府報告；網站頁面不是Crossref書目記錄，未宣稱經Crossref驗證。"
+  },
+  "limitations_zh": "官方頁面可能呈現規劃者或管理者口徑；研究成效及獨立社會評估需另尋學術來源。",
+  "critique_relationship_zh": "本記錄不宣稱與其他來源存在直接互引或逐一反駁關係。",
+  "metadata_licence_zh": "官方公開頁面；未確認個別資料集的再利用授權。"
+}

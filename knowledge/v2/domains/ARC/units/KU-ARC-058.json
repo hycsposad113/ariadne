@@ -1,0 +1,90 @@
+{
+  "id": "KU-ARC-058",
+  "domain": "ARC",
+  "subtopic": "街廓與建築",
+  "type": "method",
+  "title_zh": "庭院日照和對視應分開檢查",
+  "title_en": "courtyard sun and overlooking audit",
+  "summary_zh": "庭院日照與住宅私密是兩個不同的量測問題。 日影圖可以計算遮蔭時段，但不能直接推導住戶是否感到被窺視。 面對面開窗要按眼高、窗台和遮蔽元素分析。 把兩種分析合併會讓其中一類風險被另一類指標掩蓋。",
+  "key_points_zh": [
+    "核心主張：庭院日照與住宅私密是兩個不同的量測問題。",
+    "量測檢查：用太陽路徑產生日影時數；以窗中心、窗台高度和視錐交會標記對望戶數。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "庭院日照與住宅私密是兩個不同的量測問題。",
+        "effect_or_value": null,
+        "study_design": "跨地域設計參照綜整；數值狀態依 claim_verification 註記",
+        "context_region": "跨地域；用途與當地法規需分開核驗",
+        "library_id": "COURTYARD_HEALTH15",
+        "locator": null,
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "分別輸出院內日照時數圖與各戶窗間視線圖，避免以一個指標代替兩者。"
+  ],
+  "applies_when_zh": "「庭院日照和對視應分開檢查」可在用於方案前期的量體、平面或空間品質篩檢時使用，前提是庭院日照與住宅私密是兩個不同的量測問題與來源情境相符。",
+  "not_applicable_when_zh": "若庭院日照與住宅私密是兩個不同的量測問題不成立，就不能把「庭院日照和對視應分開檢查」的結論延伸到其他情況；不得單獨作為許可、消防、結構或基地法規判定。",
+  "debates_zh": "遮陽屏、樹冠和可變百葉會改變日照與視線，評估需要記錄其季節狀態。",
+  "sources": [
+    {
+      "library_id": "COURTYARD_HEALTH15",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "HK_HOUSING_PLAN24",
+      "claim_id": "C1",
+      "locator": "article; abstract/title scope only"
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+  "tradition": "庭院住宅；日照與私密性",
+  "region": "跨地域；用途與當地法規需分開核驗",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Housing and the City / Design of the Urban Fabric",
+      "topic": "建築尺度與住宅平面"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "建築尺度與街道界面"
+    },
+    {
+      "school": "MIT",
+      "course": "Architecture and Urban Design",
+      "topic": "建築尺度與空間型態"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "建築尺度與公共生活"
+    }
+  ],
+  "check": {
+    "method_zh": "用太陽路徑產生日影時數；以窗中心、窗台高度和視錐交會標記對望戶數。",
+    "inputs": [
+      "街廓與建築",
+      "尺寸／面積圖層",
+      "適用地區與用途標籤"
+    ],
+    "logic_zh": "將量測輸入轉成明確尺寸、比例或空間關係；越界只觸發複核，不自動取代設計決策。",
+    "limitations_zh": "量測結果只觸發「庭院日照和對視應分開檢查」的複核，不得單獨作為許可或法規判定。"
+  },
+  "version": "kb2-arc-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-ARC-049",
+    "KU-ARC-050",
+    "KU-ARC-051",
+    "KU-ARC-052",
+    "KU-ARC-053"
+  ]
+}

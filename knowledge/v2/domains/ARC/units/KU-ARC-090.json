@@ -1,0 +1,131 @@
+{
+  "id": "KU-ARC-090",
+  "domain": "ARC",
+  "subtopic": "荷蘭 Bbl 採光；第 4.146–4.147 條",
+  "type": "regulation_profile",
+  "title_zh": "Bbl 新建住宅採光：表 4.146 與 NEN 2057 計算",
+  "title_en": "Bbl daylight for new housing: Table 4.146 and NEN 2057 calculation",
+  "summary_zh": "現行 Bbl 第 4.146 條表 4.146 對 woonfunctie 列出 10% 與 0.5 m² 兩項等效採光面積值；第 4.147 條要求按 NEN 2057 計算。直接讀取 2026-07-01 版本後，也確認基地外遮擋不計、距地界小於 2 m 的採光開口排除；若基地鄰公共道路、水域或公共綠地，該距離改量至相鄰空間中心線；每個分段的遮擋角至少 20°。這是荷蘭新建法規，不替代 NEN 2057 計算或專案用途適用性判定。",
+  "key_points_zh": [
+    "verblijfsgebied 的等效採光面積不得低於表列比例；woonfunctie 此處為 10%。",
+    "每個適用 verblijfsruimte 另需至少 0.5 m² 等效採光面積。",
+    "遮擋角、基地邊界和公共道路／水面／綠地邊界的量法會改變合格值。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "library_id": "BBL_2026",
+        "claim_zh": "直接讀取 wetten.overheid.nl 2026-07-01 版本：表 4.146 對 woonfunctie 列 10% 與 0.5 m²；4.147(1)–(3)規定 NEN 2057、基地外遮擋不計、地界 2 m 內開口不計（鄰公共道路、水域或公共綠地時量至其中心線）及各分段至少 20°。",
+        "effect_or_value": null,
+        "study_design": "官方法規原文",
+        "context_region": "Netherlands",
+        "locator": "Art. 4.146, table 4.146; Art. 4.147(1)-(3); retrieved 2026-10-08T19:26:55Z",
+        "claim_verification": "OFFICIAL_PRIMARY_SOURCE_REVIEW",
+        "limitations_zh": "依新建住宅條文摘錄；不代表完成 NEN 2057 等效面積計算或確認每一具體用途均適用。"
+      },
+      {
+        "library_id": "CIRCADIAN_DAYLIGHT20",
+        "claim_zh": "Kose 與 Kazanasmaz 研究窗尺寸和房間進深對南向房間日光表現的影響，提供與法定最低值不同的設計性能視角。",
+        "effect_or_value": null,
+        "study_design": "模擬研究",
+        "context_region": "跨地域建築日光研究",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "這篇研究不是 Bbl 法規解釋，也不替代 NEN 2057 或法律適用判定。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "把法規採光面積檢查與日光品質、眩光、遮陽和視野分析分開列示。",
+    "用法規指定的空間分類和 NEN 2057 方法計算，保留各開口到地界的實測關係。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "先以 Bbl 下限設計住宅平面，再追加日光品質模擬。",
+      "tradeoff_zh": "先保證最低法規條件，但法定合格不代表房間日光體驗良好。",
+      "library_ids": [
+        "BBL_2026",
+        "CIRCADIAN_DAYLIGHT20"
+      ]
+    },
+    {
+      "option_zh": "在概念設計階段先比較多種窗位和進深，之後逐項核對法規。",
+      "tradeoff_zh": "能較早看見空間品質取捨，但早期模擬不能代替法規計算。",
+      "library_ids": [
+        "CIRCADIAN_DAYLIGHT20",
+        "BBL_2026"
+      ]
+    }
+  ],
+  "applies_when_zh": "適用於荷蘭 Bbl 第 4 章涵蓋的新建建築採光檢查，尤其住宅空間。",
+  "not_applicable_when_zh": "不適用於既有建築規定、其他使用功能，或未完成 NEN 2057 的等效採光面積核算。",
+  "debates_zh": "最低採光面積是法規底線而非完整居住品質指標；日光量、眩光、遮陽及相鄰建築權利仍需另評估。",
+  "counter_unit_ids": [
+    "KU-ARC-054"
+  ],
+  "related_unit_ids": [
+    "KU-ARC-073",
+    "KU-ARC-075",
+    "KU-ARC-058"
+  ],
+  "sources": [
+    {
+      "library_id": "BBL_2026",
+      "claim_id": null,
+      "locator": null
+    },
+    {
+      "library_id": "CIRCADIAN_DAYLIGHT20",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "荷蘭新建建築法規與建築日光研究",
+  "region": "Netherlands",
+  "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Housing and the City / Design of the Urban Fabric",
+      "topic": "荷蘭 Bbl 採光；第 4.146–4.147 條：課綱對應主題"
+    }
+  ],
+  "version": "kb2-gaps-2026-10-08",
+  "check": {
+    "method_zh": "先判定使用功能與 verblijfsgebied／verblijfsruimte，再按 NEN 2057 對每個採光開口及遮擋段計算等效面積，核對百分比、室內下限與法規幾何規則。",
+    "inputs": [
+      "適用使用功能與空間分類",
+      "各空間樓地板面積",
+      "開口位置與地界／公共道路等距離",
+      "NEN 2057 參數及遮擋分段"
+    ],
+    "logic_zh": "woonfunctie 的地區面積比門檻為 10%，適用居室值為 0.5 m²；每個分段遮擋角不得低於 20°。距一般地界小於 2 m 的開口不計，鄰接公共道路、水面或公共綠地時依法改量至相應中心線；基地外遮擋不計。",
+    "limitations_zh": "本卡摘錄現行官方條文但未執行 NEN 2057 算例；需核對用途表列、條文例外及地方計畫規則。直接頁面存取時間為 2026-10-08 19:26:55 UTC。"
+  },
+  "case": null,
+  "values": [
+    {
+      "name": "woonfunctie 的 verblijfsgebied 等效採光面積",
+      "range": "≥ 10% of floor area",
+      "unit": "%",
+      "context": "Netherlands, Bbl new construction, Woonfunctie in Table 4.146; statutory scope is not inferred for another use category.",
+      "library_id": "BBL_2026"
+    },
+    {
+      "name": "適用 verblijfsruimte 等效採光面積",
+      "range": "≥ 0.5",
+      "unit": "m²",
+      "context": "Netherlands, Bbl new construction, room-level threshold in Table 4.146; check that the room category is listed.",
+      "library_id": "BBL_2026"
+    },
+    {
+      "name": "每一遮擋分段的最低角度",
+      "range": "≥ 20",
+      "unit": "degrees",
+      "context": "Netherlands, Bbl Article 4.147(3)(c) using NEN 2057; each segment is evaluated under the statutory method.",
+      "library_id": "BBL_2026"
+    }
+  ]
+}

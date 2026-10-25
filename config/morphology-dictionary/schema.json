@@ -1,0 +1,1322 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:urban-design:morphology-dictionary:schema:1.0.0",
+  "title": "Urban Morphology Dictionary Entry",
+  "description": "Typed, sourced, reviewable reference entry; estimates and scores are non-authoritative editorial proposals.",
+  "$defs": {
+    "entry": {
+      "type": "object",
+      "properties": {
+        "schema_version": {
+          "const": "1.0.0"
+        },
+        "id": {
+          "type": "string",
+          "pattern": "^(building|block|space)\\.[a-z0-9_]+$"
+        },
+        "names": {
+          "type": "object",
+          "properties": {
+            "en": {
+              "type": "string",
+              "minLength": 1
+            },
+            "zh": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "en",
+            "zh"
+          ]
+        },
+        "level": {
+          "enum": [
+            "building_plan",
+            "block_assembly",
+            "street_open_space"
+          ]
+        },
+        "diagram_kind": {
+          "type": "string",
+          "minLength": 1
+        },
+        "description_zh": {
+          "type": "string",
+          "minLength": 1
+        },
+        "parameter_basis": {
+          "type": "object",
+          "properties": {
+            "status": {
+              "enum": [
+                "EDITORIAL",
+                "MEASURED_PRECEDENT",
+                "LITERATURE",
+                "MIXED"
+              ]
+            },
+            "profile_id": {
+              "const": "EDITORIAL_ENVELOPE_V2"
+            },
+            "note_zh": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "status",
+            "profile_id",
+            "note_zh"
+          ]
+        },
+        "plan_geometry": {
+          "type": "object",
+          "properties": {
+            "unit": {
+              "const": "m"
+            },
+            "dimension_basis_zh": {
+              "type": "string",
+              "minLength": 1
+            },
+            "frontage_m": {
+              "type": "object",
+              "properties": {
+                "minimum": {
+                  "type": "number"
+                },
+                "maximum": {
+                  "type": "number"
+                },
+                "unit": {
+                  "const": "m"
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "minimum",
+                "maximum"
+              ]
+            },
+            "depth_m": {
+              "type": "object",
+              "properties": {
+                "minimum": {
+                  "type": "number"
+                },
+                "maximum": {
+                  "type": "number"
+                },
+                "unit": {
+                  "const": "m"
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "minimum",
+                "maximum"
+              ]
+            },
+            "courtyard_void_ratio": {
+              "type": [
+                "object",
+                "null"
+              ],
+              "properties": {
+                "minimum": {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 1
+                },
+                "maximum": {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 1
+                }
+              },
+              "required": [
+                "minimum",
+                "maximum"
+              ],
+              "additionalProperties": false
+            },
+            "courtyard_clear_width_m": {
+              "type": "object",
+              "properties": {
+                "minimum": {
+                  "type": "number",
+                  "minimum": 20
+                },
+                "unit": {
+                  "const": "m"
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "minimum",
+                "unit"
+              ]
+            },
+            "opening_count": {
+              "type": "object",
+              "properties": {
+                "minimum": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "maximum": {
+                  "type": "integer",
+                  "minimum": 0
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "minimum",
+                "maximum"
+              ]
+            },
+            "opening_width_m": {
+              "type": [
+                "object",
+                "null"
+              ],
+              "properties": {
+                "minimum": {
+                  "type": "number",
+                  "minimum": 0
+                },
+                "maximum": {
+                  "type": "number",
+                  "minimum": 0
+                },
+                "unit": {
+                  "const": "m"
+                }
+              },
+              "required": [
+                "minimum",
+                "maximum",
+                "unit"
+              ],
+              "additionalProperties": false
+            },
+            "spacing_m": {
+              "type": "object",
+              "properties": {
+                "minimum": {
+                  "type": "number"
+                },
+                "maximum": {
+                  "type": "number"
+                },
+                "unit": {
+                  "const": "m"
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "minimum",
+                "maximum"
+              ]
+            },
+            "status": {
+              "enum": [
+                "EDITORIAL",
+                "MEASURED_PRECEDENT",
+                "LITERATURE",
+                "MIXED"
+              ]
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "unit",
+            "dimension_basis_zh",
+            "frontage_m",
+            "depth_m",
+            "courtyard_void_ratio",
+            "opening_count",
+            "opening_width_m",
+            "spacing_m",
+            "status"
+          ]
+        },
+        "density_reference": {
+          "type": "object",
+          "properties": {
+            "reference_area_basis_zh": {
+              "type": "string",
+              "minLength": 1
+            },
+            "gsi": {
+              "type": "object",
+              "properties": {
+                "range": {
+                  "type": "object",
+                  "properties": {
+                    "minimum": {
+                      "type": "number",
+                      "minimum": 0,
+                      "maximum": 1
+                    },
+                    "maximum": {
+                      "type": "number",
+                      "minimum": 0,
+                      "maximum": 1
+                    }
+                  },
+                  "required": [
+                    "minimum",
+                    "maximum"
+                  ],
+                  "additionalProperties": false
+                },
+                "status": {
+                  "enum": [
+                    "EDITORIAL",
+                    "MEASURED_PRECEDENT",
+                    "LITERATURE",
+                    "MIXED"
+                  ]
+                },
+                "source_ids": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "pattern": "^SRC_[A-Z0-9_]+$"
+                  },
+                  "minItems": 1,
+                  "uniqueItems": true
+                },
+                "note_zh": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "range",
+                "status",
+                "source_ids",
+                "note_zh"
+              ]
+            },
+            "fsi": {
+              "type": "object",
+              "properties": {
+                "range": {
+                  "type": "object",
+                  "properties": {
+                    "minimum": {
+                      "type": "number",
+                      "minimum": 0
+                    },
+                    "maximum": {
+                      "type": "number",
+                      "minimum": 0
+                    }
+                  },
+                  "required": [
+                    "minimum",
+                    "maximum"
+                  ],
+                  "additionalProperties": false
+                },
+                "status": {
+                  "enum": [
+                    "EDITORIAL",
+                    "MEASURED_PRECEDENT",
+                    "LITERATURE",
+                    "MIXED"
+                  ]
+                },
+                "source_ids": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "pattern": "^SRC_[A-Z0-9_]+$"
+                  },
+                  "minItems": 1,
+                  "uniqueItems": true
+                },
+                "note_zh": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "range",
+                "status",
+                "source_ids",
+                "note_zh"
+              ]
+            },
+            "floors": {
+              "type": "object",
+              "properties": {
+                "range": {
+                  "type": "object",
+                  "properties": {
+                    "minimum": {
+                      "type": "integer",
+                      "minimum": 0
+                    },
+                    "maximum": {
+                      "type": "integer",
+                      "minimum": 0
+                    }
+                  },
+                  "additionalProperties": false,
+                  "required": [
+                    "minimum",
+                    "maximum"
+                  ]
+                },
+                "unit": {
+                  "const": "storeys"
+                },
+                "status": {
+                  "enum": [
+                    "EDITORIAL",
+                    "MEASURED_PRECEDENT",
+                    "LITERATURE",
+                    "MIXED"
+                  ]
+                },
+                "source_ids": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "pattern": "^SRC_[A-Z0-9_]+$"
+                  },
+                  "minItems": 1,
+                  "uniqueItems": true
+                },
+                "note_zh": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "range",
+                "unit",
+                "status",
+                "source_ids",
+                "note_zh"
+              ]
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "reference_area_basis_zh",
+            "gsi",
+            "fsi",
+            "floors"
+          ]
+        },
+        "atmosphere_tags": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "enclosure",
+              "privacy",
+              "permeability",
+              "sunlight",
+              "green_blue",
+              "microclimate_shelter",
+              "street_vitality",
+              "industrial_scale",
+              "human_scale",
+              "density_feel",
+              "legibility",
+              "diversity",
+              "natural_surveillance",
+              "perceived_safety",
+              "sociability",
+              "belonging"
+            ]
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "atmosphere_scores": {
+          "type": "object",
+          "properties": {
+            "enclosure": {
+              "type": "object",
+              "properties": {
+                "value": {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 1
+                },
+                "status": {
+                  "const": "EDITORIAL_ESTIMATE"
+                },
+                "rationale_zh": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "source_ids": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "pattern": "^SRC_[A-Z0-9_]+$"
+                  },
+                  "minItems": 1,
+                  "uniqueItems": true
+                },
+                "decision_use": {
+                  "const": "NOT_FOR_DECISION"
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "value",
+                "status",
+                "rationale_zh",
+                "source_ids",
+                "decision_use"
+              ]
+            },
+            "privacy": {
+              "type": "object",
+              "properties": {
+                "value": {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 1
+                },
+                "status": {
+                  "const": "EDITORIAL_ESTIMATE"
+                },
+                "rationale_zh": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "source_ids": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "pattern": "^SRC_[A-Z0-9_]+$"
+                  },
+                  "minItems": 1,
+                  "uniqueItems": true
+                },
+                "decision_use": {
+                  "const": "NOT_FOR_DECISION"
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "value",
+                "status",
+                "rationale_zh",
+                "source_ids",
+                "decision_use"
+              ]
+            },
+            "permeability": {
+              "type": "object",
+              "properties": {
+                "value": {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 1
+                },
+                "status": {
+                  "const": "EDITORIAL_ESTIMATE"
+                },
+                "rationale_zh": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "source_ids": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "pattern": "^SRC_[A-Z0-9_]+$"
+                  },
+                  "minItems": 1,
+                  "uniqueItems": true
+                },
+                "decision_use": {
+                  "const": "NOT_FOR_DECISION"
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "value",
+                "status",
+                "rationale_zh",
+                "source_ids",
+                "decision_use"
+              ]
+            },
+            "sunlight": {
+              "type": "object",
+              "properties": {
+                "value": {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 1
+                },
+                "status": {
+                  "const": "EDITORIAL_ESTIMATE"
+                },
+                "rationale_zh": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "source_ids": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "pattern": "^SRC_[A-Z0-9_]+$"
+                  },
+                  "minItems": 1,
+                  "uniqueItems": true
+                },
+                "decision_use": {
+                  "const": "NOT_FOR_DECISION"
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "value",
+                "status",
+                "rationale_zh",
+                "source_ids",
+                "decision_use"
+              ]
+            },
+            "green_blue": {
+              "type": "object",
+              "properties": {
+                "value": {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 1
+                },
+                "status": {
+                  "const": "EDITORIAL_ESTIMATE"
+                },
+                "rationale_zh": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "source_ids": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "pattern": "^SRC_[A-Z0-9_]+$"
+                  },
+                  "minItems": 1,
+                  "uniqueItems": true
+                },
+                "decision_use": {
+                  "const": "NOT_FOR_DECISION"
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "value",
+                "status",
+                "rationale_zh",
+                "source_ids",
+                "decision_use"
+              ]
+            },
+            "microclimate_shelter": {
+              "type": "object",
+              "properties": {
+                "value": {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 1
+                },
+                "status": {
+                  "const": "EDITORIAL_ESTIMATE"
+                },
+                "rationale_zh": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "source_ids": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "pattern": "^SRC_[A-Z0-9_]+$"
+                  },
+                  "minItems": 1,
+                  "uniqueItems": true
+                },
+                "decision_use": {
+                  "const": "NOT_FOR_DECISION"
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "value",
+                "status",
+                "rationale_zh",
+                "source_ids",
+                "decision_use"
+              ]
+            },
+            "street_vitality": {
+              "type": "object",
+              "properties": {
+                "value": {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 1
+                },
+                "status": {
+                  "const": "EDITORIAL_ESTIMATE"
+                },
+                "rationale_zh": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "source_ids": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "pattern": "^SRC_[A-Z0-9_]+$"
+                  },
+                  "minItems": 1,
+                  "uniqueItems": true
+                },
+                "decision_use": {
+                  "const": "NOT_FOR_DECISION"
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "value",
+                "status",
+                "rationale_zh",
+                "source_ids",
+                "decision_use"
+              ]
+            },
+            "industrial_scale": {
+              "type": "object",
+              "properties": {
+                "value": {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 1
+                },
+                "status": {
+                  "const": "EDITORIAL_ESTIMATE"
+                },
+                "rationale_zh": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "source_ids": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "pattern": "^SRC_[A-Z0-9_]+$"
+                  },
+                  "minItems": 1,
+                  "uniqueItems": true
+                },
+                "decision_use": {
+                  "const": "NOT_FOR_DECISION"
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "value",
+                "status",
+                "rationale_zh",
+                "source_ids",
+                "decision_use"
+              ]
+            },
+            "human_scale": {
+              "type": "object",
+              "properties": {
+                "value": {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 1
+                },
+                "status": {
+                  "const": "EDITORIAL_ESTIMATE"
+                },
+                "rationale_zh": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "source_ids": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "pattern": "^SRC_[A-Z0-9_]+$"
+                  },
+                  "minItems": 1,
+                  "uniqueItems": true
+                },
+                "decision_use": {
+                  "const": "NOT_FOR_DECISION"
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "value",
+                "status",
+                "rationale_zh",
+                "source_ids",
+                "decision_use"
+              ]
+            },
+            "density_feel": {
+              "type": "object",
+              "properties": {
+                "value": {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 1
+                },
+                "status": {
+                  "const": "EDITORIAL_ESTIMATE"
+                },
+                "rationale_zh": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "source_ids": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "pattern": "^SRC_[A-Z0-9_]+$"
+                  },
+                  "minItems": 1,
+                  "uniqueItems": true
+                },
+                "decision_use": {
+                  "const": "NOT_FOR_DECISION"
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "value",
+                "status",
+                "rationale_zh",
+                "source_ids",
+                "decision_use"
+              ]
+            },
+            "legibility": {
+              "type": "object",
+              "properties": {
+                "value": {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 1
+                },
+                "status": {
+                  "const": "EDITORIAL_ESTIMATE"
+                },
+                "rationale_zh": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "source_ids": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "pattern": "^SRC_[A-Z0-9_]+$"
+                  },
+                  "minItems": 1,
+                  "uniqueItems": true
+                },
+                "decision_use": {
+                  "const": "NOT_FOR_DECISION"
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "value",
+                "status",
+                "rationale_zh",
+                "source_ids",
+                "decision_use"
+              ]
+            },
+            "diversity": {
+              "type": "object",
+              "properties": {
+                "value": {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 1
+                },
+                "status": {
+                  "const": "EDITORIAL_ESTIMATE"
+                },
+                "rationale_zh": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "source_ids": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "pattern": "^SRC_[A-Z0-9_]+$"
+                  },
+                  "minItems": 1,
+                  "uniqueItems": true
+                },
+                "decision_use": {
+                  "const": "NOT_FOR_DECISION"
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "value",
+                "status",
+                "rationale_zh",
+                "source_ids",
+                "decision_use"
+              ]
+            },
+            "natural_surveillance": {
+              "type": "object",
+              "properties": {
+                "value": {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 1
+                },
+                "status": {
+                  "const": "EDITORIAL_ESTIMATE"
+                },
+                "rationale_zh": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "source_ids": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "pattern": "^SRC_[A-Z0-9_]+$"
+                  },
+                  "minItems": 1,
+                  "uniqueItems": true
+                },
+                "decision_use": {
+                  "const": "NOT_FOR_DECISION"
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "value",
+                "status",
+                "rationale_zh",
+                "source_ids",
+                "decision_use"
+              ]
+            },
+            "perceived_safety": {
+              "type": "object",
+              "properties": {
+                "value": {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 1
+                },
+                "status": {
+                  "const": "EDITORIAL_ESTIMATE"
+                },
+                "rationale_zh": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "source_ids": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "pattern": "^SRC_[A-Z0-9_]+$"
+                  },
+                  "minItems": 1,
+                  "uniqueItems": true
+                },
+                "decision_use": {
+                  "const": "NOT_FOR_DECISION"
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "value",
+                "status",
+                "rationale_zh",
+                "source_ids",
+                "decision_use"
+              ]
+            },
+            "sociability": {
+              "type": "object",
+              "properties": {
+                "value": {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 1
+                },
+                "status": {
+                  "const": "EDITORIAL_ESTIMATE"
+                },
+                "rationale_zh": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "source_ids": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "pattern": "^SRC_[A-Z0-9_]+$"
+                  },
+                  "minItems": 1,
+                  "uniqueItems": true
+                },
+                "decision_use": {
+                  "const": "NOT_FOR_DECISION"
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "value",
+                "status",
+                "rationale_zh",
+                "source_ids",
+                "decision_use"
+              ]
+            },
+            "belonging": {
+              "type": "object",
+              "properties": {
+                "value": {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 1
+                },
+                "status": {
+                  "const": "EDITORIAL_ESTIMATE"
+                },
+                "rationale_zh": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "source_ids": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "pattern": "^SRC_[A-Z0-9_]+$"
+                  },
+                  "minItems": 1,
+                  "uniqueItems": true
+                },
+                "decision_use": {
+                  "const": "NOT_FOR_DECISION"
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "value",
+                "status",
+                "rationale_zh",
+                "source_ids",
+                "decision_use"
+              ]
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "enclosure",
+            "privacy",
+            "permeability",
+            "sunlight",
+            "green_blue",
+            "microclimate_shelter",
+            "street_vitality",
+            "industrial_scale",
+            "human_scale",
+            "density_feel",
+            "legibility",
+            "diversity",
+            "natural_surveillance",
+            "perceived_safety",
+            "sociability",
+            "belonging"
+          ]
+        },
+        "suitability": {
+          "type": "object",
+          "properties": {
+            "suitable_for": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "condition_zh": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "source_ids": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "pattern": "^SRC_[A-Z0-9_]+$"
+                    },
+                    "minItems": 1,
+                    "uniqueItems": true
+                  }
+                },
+                "additionalProperties": false,
+                "required": [
+                  "condition_zh",
+                  "source_ids"
+                ]
+              },
+              "minItems": 1
+            },
+            "review_or_avoid_when": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "condition_zh": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "source_ids": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "pattern": "^SRC_[A-Z0-9_]+$"
+                    },
+                    "minItems": 1,
+                    "uniqueItems": true
+                  }
+                },
+                "additionalProperties": false,
+                "required": [
+                  "condition_zh",
+                  "source_ids"
+                ]
+              },
+              "minItems": 1
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "suitable_for",
+            "review_or_avoid_when"
+          ]
+        },
+        "combination_rules": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "target_id": {
+                "type": "string",
+                "pattern": "^(building|block|space)\\.[a-z0-9_]+$"
+              },
+              "relationship": {
+                "type": "string",
+                "minLength": 1
+              },
+              "condition_zh": {
+                "type": "string",
+                "minLength": 1
+              },
+              "spacing_m": {
+                "type": "object",
+                "properties": {
+                  "minimum": {
+                    "type": "number"
+                  },
+                  "maximum": {
+                    "type": "number"
+                  },
+                  "unit": {
+                    "const": "m"
+                  }
+                },
+                "additionalProperties": false,
+                "required": [
+                  "minimum",
+                  "maximum"
+                ]
+              },
+              "orientation_zh": {
+                "type": "string",
+                "minLength": 1
+              },
+              "vertical_stack_allowed": {
+                "type": "boolean"
+              },
+              "rule_status": {
+                "const": "DESIGN_HYPOTHESIS"
+              },
+              "basis_zh": {
+                "type": "string",
+                "minLength": 1
+              },
+              "source_ids": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "pattern": "^SRC_[A-Z0-9_]+$"
+                },
+                "minItems": 1,
+                "uniqueItems": true
+              }
+            },
+            "additionalProperties": false,
+            "required": [
+              "target_id",
+              "relationship",
+              "condition_zh",
+              "spacing_m",
+              "orientation_zh",
+              "vertical_stack_allowed",
+              "rule_status",
+              "basis_zh",
+              "source_ids"
+            ]
+          },
+          "minItems": 1
+        },
+        "generator_parameters": {
+          "type": "object",
+          "properties": {
+            "profile_key": {
+              "type": "string",
+              "minLength": 1
+            },
+            "scale": {
+              "enum": [
+                "building_plan",
+                "block_assembly",
+                "street_open_space"
+              ]
+            },
+            "parameters": {
+              "type": "object",
+              "additionalProperties": {
+                "type": [
+                  "number",
+                  "integer",
+                  "string",
+                  "boolean",
+                  "array",
+                  "object",
+                  "null"
+                ]
+              }
+            },
+            "mapping_note_zh": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "profile_key",
+            "scale",
+            "parameters",
+            "mapping_note_zh"
+          ]
+        },
+        "precedents": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string",
+                "minLength": 1
+              },
+              "relevance_zh": {
+                "type": "string",
+                "minLength": 1
+              },
+              "source_ids": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "pattern": "^SRC_[A-Z0-9_]+$"
+                },
+                "minItems": 1,
+                "uniqueItems": true
+              }
+            },
+            "additionalProperties": false,
+            "required": [
+              "name",
+              "relevance_zh",
+              "source_ids"
+            ]
+          },
+          "maxItems": 3,
+          "minItems": 1
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string",
+                "pattern": "^SRC_[A-Z0-9_]+$"
+              },
+              "relevance_zh": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "additionalProperties": false,
+            "required": [
+              "id",
+              "relevance_zh"
+            ]
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "schema_version",
+        "id",
+        "names",
+        "level",
+        "diagram_kind",
+        "description_zh",
+        "parameter_basis",
+        "plan_geometry",
+        "density_reference",
+        "atmosphere_tags",
+        "atmosphere_scores",
+        "suitability",
+        "combination_rules",
+        "generator_parameters",
+        "precedents",
+        "sources"
+      ]
+    }
+  }
+}

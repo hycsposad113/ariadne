@@ -1,0 +1,107 @@
+{
+  "id": "KU-HOU-043",
+  "domain": "HOU",
+  "subtopic": "居住密度與生活品質",
+  "type": "theory",
+  "title_zh": "居住密度與生活品質｜理論主張",
+  "title_en": "Residential density and quality of life — Theoretical claim",
+  "summary_zh": "高密度設計必須同時比較社會與環境條件；不能由密度數字直接推出唯一建築型態。 居住密度與生活品質的關係經由戶型、服務、通勤、公共空間和住戶偏好共同形成。 居住密度與生活品質的關係經由戶型、服務、通勤、公共空間和住戶偏好共同形成。 把物理密度、住戶擁擠感、居住滿意和福祉分開。",
+  "key_points_zh": [
+    "居住密度與生活品質的關係經由戶型、服務、通勤、公共空間和住戶偏好共同形成。 把物理密度、住戶擁擠感、居住滿意和福祉分開。",
+    "適用於住宅密度方案比較和社會住宅居住後評估。",
+    "限制：沒有住戶和服務資料時，不聲稱密度改善或降低生活品質。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "Ng 的高密度城市案例同時比較社會和環境條件，提醒居住品質評估不能由密度數值直接代替。",
+        "library_id": "NG10",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "香港; 亞洲",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "密度是多種量測與空間關係的組合；單一 FAR 不能代表公共空間或活動強度。",
+        "library_id": "DOVEY14",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "澳洲",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "比較密度時同步蒐集住戶調查、服務條件和環境品質。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "比較密度時同步蒐集住戶調查、服務條件和環境品質。",
+      "tradeoff_zh": "「居住密度與生活品質｜理論主張」採用「比較密度時同步蒐集住戶調查、服務條件和環境品質」時，得失要沿著高密度設計必須同時比較社會與環境條件；不能由密度數字直接推出唯一建築型態檢查；單一城市、學生或安置住宅結果不可直接外推全體家庭。",
+      "library_ids": [
+        "NG10",
+        "DOVEY14"
+      ]
+    },
+    {
+      "option_zh": "高層集合住宅、低層高覆蓋與連棟住宅有不同服務和管理條件。",
+      "tradeoff_zh": "「居住密度與生活品質｜理論主張」的主要代價不是抽象的建造成本，而是單一城市、學生或安置住宅結果不可直接外推全體家庭；因此先以高密度設計必須同時比較社會與環境條件；不能由密度數字直接推出唯一建築型態作方案比較條件。",
+      "library_ids": [
+        "NG10",
+        "DOVEY14"
+      ]
+    }
+  ],
+  "applies_when_zh": "適用於住宅密度方案比較和社會住宅居住後評估。",
+  "not_applicable_when_zh": "沒有住戶和服務資料時，不聲稱密度改善或降低生活品質。",
+  "debates_zh": "單一城市、學生或安置住宅結果不可直接外推全體家庭。",
+  "sources": [
+    {
+      "library_id": "NG10",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "DOVEY14",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "高密度環境設計；組裝形態學",
+  "region": "香港；澳洲",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "居住密度與生活品質"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "居住密度與生活品質"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "居住密度與生活品質"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "居住密度與生活品質"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-HOU-044",
+    "KU-HOU-045",
+    "KU-HOU-046"
+  ],
+  "counter_unit_ids": [
+    "KU-HOU-047"
+  ]
+}

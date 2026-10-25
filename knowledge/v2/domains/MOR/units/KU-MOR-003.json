@@ -1,0 +1,112 @@
+{
+  "id": "KU-MOR-003",
+  "domain": "MOR",
+  "subtopic": "地塊、街廓與建築類型",
+  "type": "design_principle",
+  "title_zh": "地塊、街廓與建築類型｜設計原則",
+  "title_en": "Plots, blocks and building types — Design principle",
+  "summary_zh": "地籍資料不完整或宗地權利不清時，只能描述可見形態。 讀「地塊、街廓與建築類型｜設計原則」時，先畫出街道—街廓—宗地層級，再配置建築與開放空間；同時把街道結構可以用連接與階層關係比較；不同網形的可達性與交通作用需另外計算列為核對條件。 落實「地塊、街廓與建築類型｜設計原則」時可先先畫出街道—街廓—宗地層級，再配置建築與開放空間，再用街道結構可以用連接與階層關係比較；不同網形的可達性與交通作用需另外計算核對方案的空間後果。",
+  "key_points_zh": [
+    "讀「地塊、街廓與建築類型｜設計原則」時，先畫出街道—街廓—宗地層級，再配置建築與開放空間；同時把街道結構可以用連接與階層關係比較；不同網形的可達性與交通作用需另外計算列為核對條件。",
+    "讀「地塊、街廓與建築類型｜設計原則」時，先畫出街道—街廓—宗地層級，再配置建築與開放空間；同時把街道結構可以用連接與階層關係比較；不同網形的可達性與交通作用需另外計算列為核對條件。",
+    "限制：地籍資料不完整或宗地權利不清時，只能描述可見形態。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "街道結構可以用連接與階層關係比較；不同網形的可達性與交通作用需另外計算。",
+        "library_id": "MARSHALL05",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "英國; 跨地域",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "多城市分析以七種群集概括樣本城市形態，部分群集與文化地理區域重疊，也有跨區域相似型。",
+        "library_id": "TAUBENBOCK2020",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "全球 110 個城市",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "落實「地塊、街廓與建築類型｜設計原則」時可先先畫出街道—街廓—宗地層級，再配置建築與開放空間，再用街道結構可以用連接與階層關係比較；不同網形的可達性與交通作用需另外計算核對方案的空間後果。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "在「地塊、街廓與建築類型｜設計原則」的來源情境裡，先畫出街道—街廓—宗地層級，再配置建築與開放空間；落到設計時還要按街道結構可以用連接與階層關係比較；不同網形的可達性與交通作用需另外計算調整。",
+      "tradeoff_zh": "增加空間選擇與公共連結，但會增加協調、管理或建造成本。",
+      "library_ids": [
+        "MARSHALL05",
+        "TAUBENBOCK2020"
+      ]
+    },
+    {
+      "option_zh": "「地塊、街廓與建築類型｜設計原則」可把取向落在細分地塊可支持增量更新；整合大宗地較易統一建造但降低街巷穿透，但需連同街道結構可以用連接與階層關係比較；不同網形的可達性與交通作用需另外計算決定適用方式。",
+      "tradeoff_zh": "保留另一種形式和使用條件，但可能改變連續性、可達性或私密性。",
+      "library_ids": [
+        "MARSHALL05",
+        "TAUBENBOCK2020"
+      ]
+    }
+  ],
+  "applies_when_zh": "「地塊、街廓與建築類型｜設計原則」可在適用於比較歷史街區、更新地與新開發的細部粒度時使用，前提是街道結構可以用連接與階層關係比較；不同網形的可達性與交通作用需另外計算與來源情境相符。",
+  "not_applicable_when_zh": "若街道結構可以用連接與階層關係比較；不同網形的可達性與交通作用需另外計算不成立，就不能把「地塊、街廓與建築類型｜設計原則」的結論延伸到其他情況；地籍資料不完整或宗地權利不清時，只能描述可見形態。",
+  "debates_zh": "街廓小不必然代表活力；所有權、用途和公共通行權也會改變其表現。",
+  "sources": [
+    {
+      "library_id": "MARSHALL05",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "TAUBENBOCK2020",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "GEHL10",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "街道形態；全球比較形態學",
+  "region": "英國；全球 110 個城市",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "地塊、街廓與建築類型"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "地塊、街廓與建築類型"
+    },
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.330J Theory of City Form",
+      "topic": "地塊、街廓與建築類型"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban form and density",
+      "topic": "地塊、街廓與建築類型"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-MOR-001",
+    "KU-MOR-002",
+    "KU-MOR-004"
+  ],
+  "counter_unit_ids": [
+    "KU-MOR-005"
+  ]
+}

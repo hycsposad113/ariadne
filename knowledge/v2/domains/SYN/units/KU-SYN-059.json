@@ -1,0 +1,81 @@
+{
+  "id": "KU-SYN-059",
+  "domain": "SYN",
+  "subtopic": "網路分析在設計中的使用與限制",
+  "type": "empirical_finding",
+  "title_zh": "統合結果的異質性與連通度",
+  "title_en": "Heterogeneity and connectivity in meta-analysis",
+  "summary_zh": "隨機效果統合分析比較連通、控制、整合與選擇度，研究脈絡為跨地區文獻；摘要未列各國完整分布。不是每一種網路指標都能穩定解釋行人移動。連通度 ES=-0.001、95% CI -0.117–0.115、p=0.990；控制值亦未呈顯著影響。限制包括研究異質性高，且摘要未列完整子組資料。",
+  "key_points_zh": [
+    "不是每一種網路指標都能穩定解釋行人移動",
+    "限制：研究異質性高，且摘要未列完整子組資料",
+    "效果或方向：連通度 ES=-0.001、95% CI -0.117–0.115、p=0.990；控制值亦未呈顯著影響"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "統合結果的異質性與連通度｜不是每一種網路指標都能穩定解釋行人移動",
+        "effect_or_value": "連通度 ES=-0.001、95% CI -0.117–0.115、p=0.990；控制值亦未呈顯著影響",
+        "study_design": "隨機效果統合分析比較連通、控制、整合與選擇度",
+        "context_region": "跨地區文獻；摘要未列各國完整分布",
+        "library_id": "SHARMIN17",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "統合結果的異質性與連通度｜Mymensingh 街段比較發現，僅以組態值解釋行人量的相關性偏弱，商業土地使用提供了更強的解釋線索；摘要未列係數",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "AZIZ2018",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "選指標要對準問題，不能因為可算就當成有效"
+  ],
+  "applies_when_zh": "若本地觀察單位與跨地區文獻；摘要未列各國完整分布的研究脈絡可對照，可用「不是每一種網路指標都能穩定解釋行人移動」作為網路分析在設計中的使用與限制的比較線索。",
+  "not_applicable_when_zh": "這項跨地區文獻；摘要未列各國完整分布的研究結果不能單獨證明因果或預測其他城市的街段；原研究研究異質性高，且摘要未列完整子組資料。",
+  "debates_zh": "關聯能否外推；研究異質性高，且摘要未列完整子組資料；檢視「統合結果的異質性與連通度」的研究解讀時，還需判斷「限制：研究異質性高，且摘要未列完整子組資料」會如何改變方案結論。",
+  "sources": [
+    {
+      "library_id": "SHARMIN17",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "AZIZ2018",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "證據導向都市設計與網路分析",
+  "region": "跨地區文獻；摘要未列各國完整分布",
+  "curriculum_refs": [
+    {
+      "school": "Harvard GSD",
+      "course": "Cities by Design",
+      "topic": "網路分析在設計中的使用與限制：課綱對應主題"
+    },
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.330J Theory of City Form",
+      "topic": "網路分析在設計中的使用與限制：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-SYN-057",
+    "KU-SYN-058",
+    "KU-SYN-060",
+    "KU-SYN-061",
+    "KU-SYN-062",
+    "KU-SYN-063",
+    "KU-SYN-064"
+  ]
+}

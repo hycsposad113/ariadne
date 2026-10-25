@@ -1,0 +1,80 @@
+{
+  "id": "KU-SYN-048",
+  "domain": "SYN",
+  "subtopic": "批評（Ratti）與回應",
+  "type": "theory",
+  "title_zh": "批評（Ratti）與回應：機制假說",
+  "title_en": "Ratti critique and response: Theory and mechanism",
+  "summary_zh": "一個待檢驗的機制假說是：Ratti 對空間語法表示和幾何處理提出方法批評，Hillier 與 Penn 的回應則捍衛其模型意圖與適用範圍。它預期的設計關係為把批評、回應和替代網路分析並讀，將爭點轉為可測試的圖表示、尺度和距離敏感度。相反或補充解釋包括論文標題中的論戰不構成任何一方勝出證據；方法有效性須在具體資料和目標下檢查。",
+  "key_points_zh": [
+    "機制假說：Ratti 對空間語法表示和幾何處理提出方法批評，Hillier 與 Penn 的回應則捍衛其模型意圖與適用範圍",
+    "機制假說：把批評、回應和替代網路分析並讀，將爭點轉為可測試的圖表示、尺度和距離敏感度"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "批評（Ratti）與回應：機制假說｜用空間關係而非單一建築描述社會與空間組織，圖表示法是模型的一部分",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "HILLIER84",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "批評（Ratti）與回應：機制假說｜可及性評估需要同時交代交通、土地使用與個人條件；同一距離圈不代表同樣機會",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "GEURS04",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "把「Ratti 對空間語法表示和幾何處理提出方法批評，Hillier 與 Penn 的回應則捍衛其模型意圖與適用範圍」當作機制假說，另列「論文標題中的論戰不構成任何一方勝出證據；方法有效性須在具體資料和目標下檢查」要求的反證觀察。"
+  ],
+  "applies_when_zh": "若分析要解釋「Ratti 對空間語法表示和幾何處理提出方法批評，Hillier 與 Penn 的回應則捍衛其模型意圖與適用範圍」所述作用機制，將理論預測與觀測結果並列後再判讀。",
+  "not_applicable_when_zh": "模型假說「Ratti 對空間語法表示和幾何處理提出方法批評，Hillier 與 Penn 的回應則捍衛其模型意圖與適用範圍」尚不足以解釋所有觀察；若沒有能檢驗「論文標題中的論戰不構成任何一方勝出證據；方法有效性須在具體資料和目標下檢查」的資料，不得把它當作經驗定律。",
+  "debates_zh": "論文標題中的論戰不構成任何一方勝出證據；方法有效性須在具體資料和目標下檢查；檢視「批評（Ratti）與回應：機制假說」的機制驗證時，還需判斷「把批評、回應和替代網路分析並讀，將爭點轉為可測試的圖表示、尺度和距離敏感度」會如何改變方案結論。",
+  "sources": [
+    {
+      "library_id": "HILLIER84",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "GEURS04",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "空間語法方法論辯論",
+  "region": "跨地域理論或實務脈絡；來源地區依引用條目判讀",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Methods of Analysis & Imagination",
+      "topic": "批評（Ratti）與回應：課綱對應主題"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Cities by Design",
+      "topic": "批評（Ratti）與回應：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-SYN-041",
+    "KU-SYN-042",
+    "KU-SYN-043",
+    "KU-SYN-044",
+    "KU-SYN-045",
+    "KU-SYN-046",
+    "KU-SYN-047"
+  ]
+}

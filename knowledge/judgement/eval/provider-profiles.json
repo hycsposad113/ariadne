@@ -1,0 +1,29 @@
+{
+  "default_profile": "deterministic-fake",
+  "profiles": {
+    "commander-live": {
+      "default": false,
+      "explicit_opt_in_only": true,
+      "note": "The CLI supports explicit Commander-authorized profiles via --provider-profile. It never reads Keychain/secrets, requires use_ariadne_persona=true, and does not fall back.",
+      "required_gates": [
+        "PROJECT_AI_AUTHORIZED=1",
+        "ARIADNE_LIVE=1",
+        "durable project ModelRun accounting"
+      ],
+      "status": "EXPLICIT_PROFILE_SUPPORTED_NOT_EXECUTED",
+      "type": "production JudgementService / configured Ariadne provider",
+      "weekly_call_limit": 200
+    },
+    "deterministic-fake": {
+      "default": true,
+      "makes_network_calls": false,
+      "semantic_consistency": "NOT_EVALUATED",
+      "tests": [
+        "assemble snapshot integrity",
+        "core.validate schema/source/number/forbidden-input plumbing"
+      ],
+      "type": "local_fixture"
+    }
+  },
+  "schema_version": "ariadne-judgement-eval-provider-profiles-v1"
+}

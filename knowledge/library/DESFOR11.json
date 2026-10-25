@@ -1,0 +1,43 @@
+{
+  "id": "DESFOR11",
+  "title": "Transforming urban waterfronts",
+  "authors": [
+    "Gene Desfor"
+  ],
+  "year": 2010,
+  "venue_or_publisher": "Taylor & Francis Group; Routledge",
+  "doi": null,
+  "isbn": "9781136897665",
+  "openalex_id": null,
+  "kind": "ACADEMIC_BOOK",
+  "tradition": "港區轉型批評",
+  "region": [
+    "跨地域"
+  ],
+  "method": "編輯專書",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "水岸轉型可從固定設施與流動活動的張力討論；編者與出版年仍需進一步核實。",
+      "strength": "THEORETICAL",
+      "scope_zh": "僅限本研究或概念框架；不提供 M4H 的實測、法律效力或本卡試算門檻。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "AMBIGUOUS",
+    "api": "Open Library",
+    "query": {
+      "title": "Transforming urban waterfronts",
+      "author": "Gene Desfor",
+      "year": 2010
+    },
+    "matched_record_id": "/works/OL15987991W",
+    "checked_at_utc": "2026-10-08T03:43:25Z",
+    "match_notes_zh": "Open Library 記為 2010 且僅列 Desfor；初稿是 2011 編輯專書，完整編者與版次未解決。"
+  },
+  "limitations_zh": "本次只使用公開書目與可得摘要；沒有下載或查閱全文。書目查證不等於主張、因果或參數驗證。",
+  "critique_relationship_zh": "known_critiques 是編者指定的批評或替代閱讀，不宣稱實際互引或逐一反駁；Ratti 與 Hillier／Penn 的標題記錄確認明確對話。",
+  "metadata_licence_zh": "只保存公開 API 書目與自行摘要；未取得全文授權，未保存 API 摘要原文。精確 metadata licence 未經本任務核驗，標 UNKNOWN。"
+}

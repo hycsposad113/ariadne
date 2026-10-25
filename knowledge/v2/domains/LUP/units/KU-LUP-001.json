@@ -1,0 +1,107 @@
+{
+  "id": "KU-LUP-001",
+  "domain": "LUP",
+  "subtopic": "土地使用分類",
+  "type": "concept",
+  "title_zh": "土地使用分類｜概念邊界",
+  "title_en": "Land-use classification — Conceptual boundaries",
+  "summary_zh": "用途分類把複雜活動轉成可管理的資料欄位，卻可能漏掉樓層混用、非正式活動和時段變化。 出行與可及性框架還需交代交通、土地使用和個人條件，不能從分類碼或密度直接推斷行為。 盤點時應並列實際活動、登記用途與規劃用途。",
+  "key_points_zh": [
+    "分類碼代表資料治理選擇，不是完整的城市生活描述。",
+    "適用於盤點現況、評估分區和描述用途配置。",
+    "限制：資料缺項不是空白用途；不得把未知直接編成零或無使用。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "密度、用途多樣性及設計是相互關聯的出行研究維度；不能單獨套用密度決定交通模式。",
+        "library_id": "CERVERO97",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "美國",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "可及性評估需要同時交代交通、土地使用與個人條件；同一距離圈不代表同樣機會。",
+        "library_id": "GEURS04",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "荷蘭; 跨地域",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "對照實際活動、建築登記與規劃類別，註明多用途和時間變化。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "對照實際活動、建築登記與規劃類別，註明多用途和時間變化。",
+      "tradeoff_zh": "增加空間選擇與公共連結，但會增加協調、管理或建造成本。",
+      "library_ids": [
+        "CERVERO97",
+        "GEURS04"
+      ]
+    },
+    {
+      "option_zh": "居住、商業、製造、公共設施和開放空間可按不同規劃問題再分層。",
+      "tradeoff_zh": "保留另一種形式和使用條件，但可能改變連續性、可達性或私密性。",
+      "library_ids": [
+        "CERVERO97",
+        "GEURS04"
+      ]
+    }
+  ],
+  "applies_when_zh": "適用於盤點現況、評估分區和描述用途配置。",
+  "not_applicable_when_zh": "資料缺項不是空白用途；不得把未知直接編成零或無使用。",
+  "debates_zh": "單一用途碼會掩蓋樓層混用、非正式經濟和日夜轉換。",
+  "sources": [
+    {
+      "library_id": "CERVERO97",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "GEURS04",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "建成環境交通實證；可及性評估",
+  "region": "美國；荷蘭",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Planning Complex Cities",
+      "topic": "土地使用分類"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Cities by Design",
+      "topic": "土地使用分類"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "土地使用分類"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Sustainable Futures by Design",
+      "topic": "土地使用分類"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-LUP-002",
+    "KU-LUP-003",
+    "KU-LUP-004"
+  ],
+  "counter_unit_ids": [
+    "KU-LUP-005"
+  ]
+}

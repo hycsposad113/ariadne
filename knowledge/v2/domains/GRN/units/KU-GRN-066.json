@@ -1,0 +1,70 @@
+{
+  "id": "KU-GRN-066",
+  "domain": "GRN",
+  "subtopic": "健康效益實證",
+  "type": "value_range",
+  "title_zh": "荷蘭健康資料的診所網絡",
+  "title_en": "Primary-care registry coverage",
+  "summary_zh": "荷蘭健康研究連結了一百零四間全科診所的登錄資料。這使研究覆蓋到不同城市化背景的居民。登錄資料仍不等同個人的完整綠地使用軌跡。健康登錄的地理覆蓋和戶外暴露資料精度不一致。",
+  "key_points_zh": [
+    "荷蘭健康研究連結了一百零四間全科診所的登錄資料",
+    "這使研究覆蓋到不同城市化背景的居民"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "荷蘭健康研究連結了一百零四間全科診所的登錄資料。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "哥倫比亞",
+        "library_id": "BOGOTA17",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "健康登錄的地理覆蓋和戶外暴露資料精度不一致。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "閱讀大型健康研究時查看資料來源、群聚結構和失訪情況。"
+  ],
+  "applies_when_zh": "適用於設計健康與空間資料連結。",
+  "not_applicable_when_zh": "不應以診所數代表城市綠地樣本數。",
+  "debates_zh": "健康登錄的地理覆蓋和戶外暴露資料精度不一致。",
+  "sources": [
+    {
+      "library_id": "BOGOTA17",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "GEURS04",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "拉美可及性與公平",
+  "region": "哥倫比亞",
+  "curriculum_refs": [
+    {
+      "school": "UCL Bartlett",
+      "course": "Critical Debates in Urban Design",
+      "topic": "健康效益實證"
+    }
+  ],
+  "version": "2.0.0",
+  "values": [
+    {
+      "name": "荷蘭健康資料的診所網絡",
+      "range": "104 間",
+      "unit": "全科診所數",
+      "context": "荷蘭居民自評健康研究的資料提供機構；非基地服務標準。；「荷蘭健康資料的診所網絡」僅供其研究脈絡內比較，不構成本基地法規。",
+      "library_id": "MAAS06"
+    }
+  ],
+  "related_unit_ids": [
+    "KU-GRN-054",
+    "KU-GRN-067"
+  ]
+}

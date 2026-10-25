@@ -1,0 +1,83 @@
+{
+  "id": "KU-MOR-077",
+  "domain": "MOR",
+  "subtopic": "周邊式、合院、板樓、點式、連棟與基座塔樓",
+  "type": "pattern",
+  "title_zh": "Alexander 的公共空間模式",
+  "title_en": "Alexander patterns for small public spaces",
+  "summary_zh": "模式名稱提出可觀察的空間關係，不保證每個文化或氣候都會產生相同使用。 設計時要將活動位置、入口、座位和管理者放在同一張圖上。 Small Public Squares、Street Cafes、Activity Pockets 是具體模式名稱，非抽象的「活力」口號。",
+  "key_points_zh": [
+    "Small Public Squares、Street Cafes、Activity Pockets 是具體模式名稱，非抽象的「活力」口號。",
+    "模式需轉譯成位置、入口、遮蔭、座位和臨街活動等空間關係。",
+    "模式語言提出設計假設，不是已證明的因果規則。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "《A Pattern Language》把 Small Public Squares、Street Cafes 和 Activity Pockets 視為城市公共生活的具體空間模式：小廣場靠近日常行走路徑，街邊咖啡座把停留和觀看帶到建築邊緣，活動口袋在長街或大地塊中提供較小尺度的停留點。",
+        "library_id": "ALEX77",
+        "effect_or_value": null,
+        "study_design": "經典理論與後續形態學討論",
+        "context_region": "美國；跨地域模式設計",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "以公共空間的實際停留與使用作觀察依據；不能由案例直接推定其他城市的廣場尺寸。",
+        "library_id": "WHYTE80",
+        "effect_or_value": null,
+        "study_design": "後續理論或案例對讀",
+        "context_region": "美國；跨地域模式設計",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "把小型停留空間布置在日常路徑的可見位置，並交代座位、遮蔭和營運責任。",
+    "在不同街廓尺度測試活動口袋，保留穿越路徑和安靜界面的替代方案。"
+  ],
+  "applies_when_zh": "用於描述居民如何讀取城市形式；不以圖面可辨識性替代日常使用調查。",
+  "not_applicable_when_zh": "抽象分類不能單獨解釋權力、租金、使用排斥或地方歷史。",
+  "debates_zh": "模式會受公共空間權利、氣候、性別安全感和商業管理影響；照搬名稱可能只留下形式，沒有形成可持續使用的條件。",
+  "sources": [
+    {
+      "library_id": "ALEX77",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "WHYTE80",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "模式語言與公共空間設計",
+  "region": "美國；跨地域模式設計",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "周邊式、合院、板樓、點式、連棟與基座塔樓"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "周邊式、合院、板樓、點式、連棟與基座塔樓"
+    },
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.330J Theory of City Form",
+      "topic": "周邊式、合院、板樓、點式、連棟與基座塔樓"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban form and density",
+      "topic": "周邊式、合院、板樓、點式、連棟與基座塔樓"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008"
+}

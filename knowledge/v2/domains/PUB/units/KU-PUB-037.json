@@ -1,0 +1,66 @@
+{
+  "id": "KU-PUB-037",
+  "domain": "PUB",
+  "subtopic": "安全：CPTED 與批評",
+  "type": "design_principle",
+  "title_zh": "CPTED應被當作可檢驗的假設",
+  "title_en": "CPTED is a testable proposition",
+  "summary_zh": "自然監看、活動支持和維護可作為改善路徑的假設。每項干預都需明確指出預期影響的是犯罪機會、被害者求助還是主觀安心。不同群體可能從同一干預中得到不同結果。空間設計可支援安全，但制度與警務決定亦影響結果。",
+  "key_points_zh": [
+    "自然監看、活動支持和維護可作為改善路徑的假設",
+    "每項干預都需明確指出預期影響的是犯罪機會、被害者求助還是主觀安心"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "自然監看、活動支持和維護可作為改善路徑的假設。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "加拿大",
+        "library_id": "MCCANN02",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "空間設計可支援安全，但制度與警務決定亦影響結果。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "為每一個安全措施設定對應指標和回訪時間。"
+  ],
+  "applies_when_zh": "適用於需比較多種安全方案的設計階段。",
+  "not_applicable_when_zh": "不能將 CPTED 名稱當成自動有效的證據。",
+  "debates_zh": "空間設計可支援安全，但制度與警務決定亦影響結果。",
+  "sources": [
+    {
+      "library_id": "MCCANN02",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "WOLCH14",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "批判都市地理與城市權",
+  "region": "加拿大",
+  "curriculum_refs": [
+    {
+      "school": "UCL Bartlett",
+      "course": "Critical Debates in Urban Design",
+      "topic": "安全：CPTED 與批評"
+    },
+    {
+      "school": "MIT",
+      "course": "11.330J Theory of City Form",
+      "topic": "安全：CPTED 與批評"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-PUB-036",
+    "KU-PUB-038"
+  ]
+}

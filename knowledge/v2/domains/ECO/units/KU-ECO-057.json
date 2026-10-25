@@ -1,0 +1,61 @@
+{
+  "id": "KU-ECO-057",
+  "domain": "ECO",
+  "subtopic": "生態服務",
+  "type": "empirical_finding",
+  "title_zh": "植被與城市熱環境的效果依尺度而變",
+  "title_en": "Vegetation cooling varies by spatial scale",
+  "summary_zh": "中西部單城路線研究比較樹冠覆蓋與不同街廓尺度的日間氣溫。較高樹冠和六十至九十公尺尺度呈現較強冷卻訊號。結果未涵蓋其他季節或不同氣候區。冷卻服務受濕度、風速和輻射影響，需多變量測量。",
+  "key_points_zh": [
+    "中西部單城路線研究比較樹冠覆蓋與不同街廓尺度的日間氣溫",
+    "較高樹冠和六十至九十公尺尺度呈現較強冷卻訊號"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "中西部單城路線研究比較樹冠覆蓋與不同街廓尺度的日間氣溫。",
+        "effect_or_value": "樹冠覆蓋提高和局部降溫相關，作用尺度約 60–90 m 較明顯。",
+        "study_design": "單城微氣候路線觀察",
+        "context_region": "美國 Upper Midwest",
+        "library_id": "AHERN11",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW",
+        "limitations_zh": "研究是單城市夏季觀測，服務估計不可直接外推。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "使用本地溫度布點測量植栽服務，而不只依模型估算。"
+  ],
+  "applies_when_zh": "適用於熱調適和健康暴露分析。",
+  "not_applicable_when_zh": "不應將模型溫差視為實際個人熱風險下降。",
+  "debates_zh": "冷卻服務受濕度、風速和輻射影響，需多變量測量。",
+  "sources": [
+    {
+      "library_id": "AHERN11",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "BROWN09",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "韌性設計",
+  "region": "美國 Upper Midwest",
+  "curriculum_refs": [
+    {
+      "school": "MIT",
+      "course": "11.330J Theory of City Form",
+      "topic": "生態服務"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-ECO-056",
+    "KU-ECO-058"
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "id": "KU-WAT-020",
+  "domain": "WAT",
+  "subtopic": "鹿特丹水廣場（如 Benthemplein）",
+  "type": "method",
+  "title_zh": "以事件序列驗證水廣場而非只看總量",
+  "title_en": "以事件序列驗證水廣場而非只看總量",
+  "summary_zh": "水廣場在多場降雨間能否排空、清潔和恢復使用，取決於事件先後與排水條件。鹿特丹區域防洪研究將水管理置於空間尺度和時間尺度的協調中；綜合都市水管理回顧則支持跨系統觀察。模擬時應追蹤入流、儲存、外排和回到日常用途的時間。",
+  "key_points_zh": [
+    "同一總降雨量以不同時序發生，可能造成不同溢流結果。",
+    "降雨後復原時間會影響場地功能的可用性。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "library_id": "GODSCHALK2003",
+        "claim_zh": "題名與書目顯示文章討論城市災害減緩與韌性規劃；不提供特定基地的防洪標準；本單元 KU-WAT-020 對照「水廣場在多場降雨間能否排空、清潔和恢復使用，取決於事件先後與排水條件」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "規劃框架論述",
+        "context_region": "美國都市規劃脈絡",
+        "locator": null
+      },
+      {
+        "library_id": "MITCHELL2006",
+        "claim_zh": "書目確認本文回顧澳洲整合式都市水管理經驗；未由書目資料支持單一技術的容量或因果效益；本單元 KU-WAT-020 對照「水廣場在多場降雨間能否排空、清潔和恢復使用，取決於事件先後與排水條件」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "回顧澳洲整合式都市水管理經驗",
+        "context_region": "澳洲城市",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "對連續降雨與受納河道高水位做壓力測試。",
+    "將設施運作紀錄與使用者回饋並行收集。"
+  ],
+  "applies_when_zh": "適用於方案階段的動態排水和維運檢查。",
+  "not_applicable_when_zh": "不適用於無校準模型下宣稱法定防洪等級。",
+  "debates_zh": "如果沒有實際高程、進流和排水資料，事件序列只可作探索情境。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "GODSCHALK2003",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "MITCHELL2006",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "多功能水廣場測試",
+  "region": "荷蘭；澳洲",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "鹿特丹水廣場（如 Benthemplein）"
+    },
+    {
+      "school": "MIT",
+      "course": null,
+      "topic": "鹿特丹水廣場（如 Benthemplein）"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0"
+}

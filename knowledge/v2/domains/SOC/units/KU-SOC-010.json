@@ -1,0 +1,71 @@
+{
+  "id": "KU-SOC-010",
+  "domain": "SOC",
+  "subtopic": "都市更新的社會影響",
+  "type": "theory",
+  "title_zh": "Smith 租隙理論",
+  "title_en": "Smith rent gap theory",
+  "summary_zh": "租隙理論關注現有土地收益和潛在收益之間的差距，說明再投資的經濟誘因。仕紳化因而不只由居住偏好解釋，也與資本移動和土地再開發有關。以明確時點、權利及估值方式檢查現有與潛在收益，另核對投資及政策機制。",
+  "key_points_zh": [
+    "以明確時點、權利及估值方式檢查現有與潛在收益，另核對投資及政策機制。",
+    "租隙不能單獨預測何時發生居民排除，金融、政策和抵抗會改變過程。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "租隙理論關注現有土地收益和潛在收益之間的差距，說明再投資的經濟誘因。仕紳化因而不只由居住偏好解釋，也與資本移動和土地再開發有關。",
+        "library_id": "SMITH1996",
+        "locator": null,
+        "study_design": "理論／方法綜述；非基地實測",
+        "effect_or_value": null,
+        "context_region": null,
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008"
+      },
+      {
+        "claim_zh": "Lees、Slater 與 Wyly 的仕紳化綜述跨越多種城市情境，獨立補充 Smith 的租隙理論脈絡。",
+        "library_id": "LEES2007",
+        "locator": null,
+        "study_design": "comparative literature synthesis",
+        "effect_or_value": null,
+        "context_region": "United Kingdom、United States、Global South",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "以明確時點、權利及估值方式檢查現有與潛在收益，另核對投資及政策機制。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "限制投機與保障租戶可降低排除，但可能影響投資時序及財務結構。",
+      "tradeoff_zh": "租隙不能單獨預測何時發生居民排除，金融、政策和抵抗會改變過程。",
+      "library_ids": [
+        "SMITH1996"
+      ]
+    }
+  ],
+  "applies_when_zh": "用於釐清「Smith 租隙理論」涉及的空間、制度與行動選擇。",
+  "not_applicable_when_zh": "「Smith 租隙理論」不能直接替代基地的實測、法規或人類批准。",
+  "debates_zh": "租隙不能單獨預測何時發生居民排除，金融、政策和抵抗會改變過程。",
+  "sources": [
+    {
+      "library_id": "SMITH1996",
+      "locator": null
+    },
+    {
+      "library_id": "LEES2007",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+  "curriculum_refs": [
+    {
+      "school": "UCL Bartlett",
+      "course": null,
+      "topic": "編者主題對照，非已核實課程指定閱讀：Smith 租隙理論"
+    }
+  ],
+  "version": "2.0.0-theory-v3"
+}

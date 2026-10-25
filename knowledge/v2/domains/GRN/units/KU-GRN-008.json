@@ -1,0 +1,61 @@
+{
+  "id": "KU-GRN-008",
+  "domain": "GRN",
+  "subtopic": "公園類型與階層",
+  "type": "concept",
+  "title_zh": "街道綠地與公園服務互補",
+  "title_en": "Street greenery complements parks",
+  "summary_zh": "行道樹、綠道和小型庭院可提供連續日常接觸自然的機會。它們難以替代大型活動場地或具備多樣生境的公園。部分道路綠地無法安全停留或進入。城市綠化指標可能將功能差異壓平。",
+  "key_points_zh": [
+    "行道樹、綠道和小型庭院可提供連續日常接觸自然的機會",
+    "它們難以替代大型活動場地或具備多樣生境的公園"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "行道樹、綠道和小型庭院可提供連續日常接觸自然的機會。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "德國",
+        "library_id": "KOWARIK11",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "城市綠化指標可能將功能差異壓平。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "比較不同綠地的可達、停留和生態功能，而非加總所有綠色像素。"
+  ],
+  "applies_when_zh": "適用於公園供給有限的街區策略。",
+  "not_applicable_when_zh": "不能把街道樹冠面積直接當成遊憩綠地面積。",
+  "debates_zh": "城市綠化指標可能將功能差異壓平。",
+  "sources": [
+    {
+      "library_id": "KOWARIK11",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "THOMPSON02",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "新型都市生態系與保育",
+  "region": "德國",
+  "curriculum_refs": [
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "公園類型與階層"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-GRN-007",
+    "KU-GRN-009"
+  ]
+}

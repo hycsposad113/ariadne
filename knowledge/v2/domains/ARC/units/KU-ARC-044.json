@@ -1,0 +1,98 @@
+{
+  "id": "KU-ARC-044",
+  "domain": "ARC",
+  "subtopic": "樓層高度",
+  "type": "value_range",
+  "title_zh": "辦公樓層高度與設備帶",
+  "title_en": "office floor-to-floor height",
+  "summary_zh": "辦公樓層可先以 3.6–4.2 m 層間高度協調結構跨度、吊頂和設備管線。 混合辦公模式與高效空調可能改變設備帶需求。 若只看淨高而忽略風管，機電方案會被迫穿越梁位。",
+  "key_points_zh": [
+    "核心主張：辦公樓層可先以 3.6–4.2 m 層間高度協調結構跨度、吊頂和設備管線。",
+    "量測檢查：量測板面至板面高度並標出設備最深交叉點，計算剩餘可用淨高。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "辦公樓層可先以 3.6–4.2 m 層間高度協調結構跨度、吊頂和設備管線。",
+        "effect_or_value": "約 3.6–4.2 m 初期服務協調帶",
+        "study_design": "跨地域設計參照綜整；數值狀態依 claim_verification 註記",
+        "context_region": "跨地域；用途與當地法規需分開核驗",
+        "library_id": "METRIC_HB08",
+        "locator": null,
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008"
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "office floor-to-floor height",
+      "range": "約 3.6–4.2 m 初期服務協調帶",
+      "unit": "m",
+      "context": "地區：跨地域；用途：辦公樓層概念排布，按機電系統重算；出處：Metric Handbook: Planning and Design Data；本基地法規：否；核對狀態：數值待原典交叉核對。",
+      "library_id": "METRIC_HB08"
+    }
+  ],
+  "design_implications_zh": [
+    "用整層服務剖面把主風管、噴淋、照明、梁深和吊頂標高逐一排列。"
+  ],
+  "applies_when_zh": "「辦公樓層高度與設備帶」可在用於方案前期的量體、平面或空間品質篩檢時使用，前提是辦公樓層可先以 3.6–4.2 m 層間高度協調結構跨度、吊頂和設備管線與來源情境相符。",
+  "not_applicable_when_zh": "若辦公樓層可先以 3.6–4.2 m 層間高度協調結構跨度、吊頂和設備管線不成立，就不能把「辦公樓層高度與設備帶」的結論延伸到其他情況；不得單獨作為許可、消防、結構或基地法規判定。",
+  "debates_zh": "樓層高度增加也會提高立面成本與垂直交通總長，並非無代價的彈性。",
+  "sources": [
+    {
+      "library_id": "METRIC_HB08",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "RODE2013",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+  "tradition": "建築設計與住宅類型學",
+  "region": "跨地域；用途與當地法規需分開核驗",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Housing and the City / Design of the Urban Fabric",
+      "topic": "建築尺度與住宅平面"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "建築尺度與街道界面"
+    },
+    {
+      "school": "MIT",
+      "course": "Architecture and Urban Design",
+      "topic": "建築尺度與空間型態"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "建築尺度與公共生活"
+    }
+  ],
+  "check": {
+    "method_zh": "量測板面至板面高度並標出設備最深交叉點，計算剩餘可用淨高。",
+    "inputs": [
+      "樓層高度",
+      "尺寸／面積圖層",
+      "適用地區與用途標籤"
+    ],
+    "logic_zh": "將量測輸入轉成明確尺寸、比例或空間關係；越界只觸發複核，不自動取代設計決策。",
+    "limitations_zh": "量測結果只觸發「辦公樓層高度與設備帶」的複核，不得單獨作為許可或法規判定。"
+  },
+  "version": "kb2-arc-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-ARC-042",
+    "KU-ARC-043",
+    "KU-ARC-045",
+    "KU-ARC-046",
+    "KU-ARC-047"
+  ]
+}

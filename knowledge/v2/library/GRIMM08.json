@@ -1,0 +1,49 @@
+{
+  "id": "GRIMM08",
+  "title": "Global Change and the Ecology of Cities",
+  "authors": [
+    "Nancy B. Grimm",
+    "Stanley H. Faeth",
+    "Nancy E. Golubiewski",
+    "Charles L. Redman",
+    "Jianguo Wu",
+    "Xuemei Bai",
+    "John M. Briggs"
+  ],
+  "year": 2008,
+  "venue_or_publisher": "Science",
+  "doi": "https://doi.org/10.1126/science.1150195",
+  "isbn": null,
+  "crossref_id": "https://doi.org/10.1126/science.1150195",
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "都市社會生態系統",
+  "region": [
+    "跨地域"
+  ],
+  "method": "跨學科綜述",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "城市生態綜述把土地覆蓋、生物多樣性、水系與人類消費連到區域及全球變化；城市既是環境壓力來源，也是可調整的治理尺度。",
+      "strength": "THEORETICAL",
+      "scope_zh": "跨地域城市生態研究；主張限於此來源的研究設計與樣本，不外推為本基地規範。",
+      "assessment_basis": "ABSTRACT_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref",
+    "query": {
+      "title": "Global Change and the Ecology of Cities",
+      "author": "Nancy B. Grimm",
+      "year": 2008
+    },
+    "matched_record_id": "https://doi.org/10.1126/science.1150195",
+    "checked_at_utc": "2026-10-08T09:54:50Z",
+    "match_notes_zh": "核對 Crossref 回傳書名、主要作者、出版年與 DOI；摘要只在實際取得並閱讀的論文上標 ABSTRACT_REVIEW。"
+  },
+  "limitations_zh": "跨地域城市生態研究；書目核對不替代完整論文審查。",
+  "critique_relationship_zh": "此條目的批評連結供編者並讀，不宣稱存在直接互引。",
+  "metadata_licence_zh": "僅保存公開書目欄位與自行撰寫的摘要；未保存摘要原文，metadata 授權未單獨核定。"
+}

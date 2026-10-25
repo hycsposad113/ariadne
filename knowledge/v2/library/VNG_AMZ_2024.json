@@ -1,0 +1,36 @@
+{
+  "id": "VNG_AMZ_2024",
+  "title": "Handreiking Activiteiten en Milieuzonering 2024",
+  "authors": [
+    "VNG"
+  ],
+  "year": 2024,
+  "venue_or_publisher": "VNG",
+  "doi": null,
+  "isbn": null,
+  "kind": "PRACTICE_MANUAL",
+  "tradition": "官方制度與專業實務指引",
+  "region": [
+    "VNG"
+  ],
+  "method": "官方公開法規、政策頁或手冊；依verification.method註明可讀範圍",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "公開摘錄顯示新版手冊將舊環境分區距離放入轉換脈絡，並按居住／混合居住情境呈現。",
+      "strength": "NORMATIVE_PRACTICE",
+      "scope_zh": "僅摘要官方公開頁面可直接支持之制度或實務內容；不外推為M4H地方法規。",
+      "assessment_basis": "OFFICIAL_SITE_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED_OFFICIAL_SITE",
+    "url": "https://vng.nl/sites/default/files/2024-10/handreiking-activiteiten-en-milieuzonering.pdf",
+    "accessed_utc": "2026-10-08T10:47:42Z",
+    "method": "official PDF; indexed public extracts reviewed; direct PDF open timed out",
+    "match_notes_zh": "核對官方來源網域與可公開讀取的頁面／摘錄；內容範圍限制已記錄。"
+  },
+  "limitations_zh": "official PDF; indexed public extracts reviewed; direct PDF open timed out",
+  "metadata_licence_zh": "保存官方公開文件的書目欄位與自行改寫的內容摘要；未保存付費全文。"
+}

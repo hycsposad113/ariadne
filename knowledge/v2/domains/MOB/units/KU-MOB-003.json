@@ -1,0 +1,88 @@
+{
+  "id": "KU-MOB-003",
+  "domain": "MOB",
+  "subtopic": "建成環境與旅運（3D／5D）",
+  "type": "value_range",
+  "title_zh": "旅運環境彈性的合併量級",
+  "title_en": "Pooled elasticity magnitude",
+  "summary_zh": "Ewing 與 Cervero 的統合分析報告，建成環境變數的加權平均旅行彈性絕對值均不超過 0.39，多數更小。目的地可及性和街網設計與 VMT 的關聯較強，步行則更貼近用途多樣性、交叉口密度和近距離目的地。研究樣本偏小且少有住居自我選擇控制，係數不可直接搬作單一城市預測。建成環境旅行彈性的加權平均絕對值的數值不是本基地法規或普遍設計目標。",
+  "key_points_zh": [
+    "數值與用途：建成環境旅行彈性的加權平均絕對值：≤ 0.39；多數指標更低",
+    "數值與用途：作為旅運關聯量級摘要，不是 3D／5D 設計目標、法規或 M4H 門檻"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "旅運環境彈性的合併量級｜統合研究發現單一建成環境變數的加權平均彈性多偏小",
+        "effect_or_value": "≤ 0.39；多數指標更低",
+        "study_design": "整合分析",
+        "context_region": "美國規劃研究為主的多研究整合",
+        "library_id": "EWING10",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "旅運環境彈性的合併量級｜可及性評估需要同時交代交通、土地使用與個人條件；同一距離圈不代表同樣機會",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "GEURS04",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "建成環境旅行彈性的加權平均絕對值",
+      "range": "≤ 0.39；多數指標更低",
+      "unit": "無因次彈性",
+      "context": "以美國規劃研究為主的加權統合分析；作旅運彈性量級比較，不是基地法規或密度目標。",
+      "library_id": "EWING10"
+    }
+  ],
+  "design_implications_zh": [
+    "把 0.39 標成多變數統合結果的上界；說明被解釋的旅運指標和加權口徑，避免用它推算基地的模式轉移。"
+  ],
+  "applies_when_zh": "只有在建成環境變數和旅運結果的定義、樣本與加權方式可比較時，才用此彈性範圍作為研究量級參照。",
+  "not_applicable_when_zh": "這不是 3D／5D 的設計目標或單一環境變數的普遍效果；也不能取代本地出行資料和自我選擇檢驗。",
+  "debates_zh": "建成環境—旅運關聯通常小於單一規劃口號所暗示的幅度；不確定性來自樣本不足、變數定義差異與自我選擇。",
+  "sources": [
+    {
+      "library_id": "EWING10",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "GEURS04",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "建成環境與旅運研究",
+  "region": "美國規劃研究為主的多研究整合",
+  "curriculum_refs": [
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "建成環境與旅運（3D／5D）：課綱對應主題"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Sustainable Futures by Design",
+      "topic": "建成環境與旅運（3D／5D）：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-MOB-001",
+    "KU-MOB-002",
+    "KU-MOB-004",
+    "KU-MOB-005",
+    "KU-MOB-006",
+    "KU-MOB-007",
+    "KU-MOB-008"
+  ]
+}

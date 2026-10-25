@@ -1,0 +1,124 @@
+{
+  "id": "KU-REG-503",
+  "domain": "REG",
+  "subtopic": "德國 BauNVO 制度輪廓",
+  "type": "value_range",
+  "title_zh": "德國 BauNVO 用途區與 §17 建蔽／容積指導值",
+  "title_en": "German BauNVO use zones and §17 orientation values",
+  "summary_zh": "德國BauNVO第2至11條界定不同建築用途區，第17條依區型列出GRZ、GFZ及部分BMZ上限參考值。 2021年修法後，第17條表列數值是規劃時的Orientierungswerte，須連同環境條件、計畫理由及其他法規解讀。 純住宅WR與一般住宅WA、混合MI／MU、核心MK及商業GE／工業GI的用途允許性並不相同。 這是德國聯邦制度，不是M4H本基地法規；設計用途是比較用途相容與建築量控制的制度選項，不可移植成基地指標。",
+  "key_points_zh": [
+    "§17 Orientierungswerte：WS 0.2/0.4；WR、WA與Ferienhaus 0.4/1.2。",
+    "WB 0.6/1.6；MD、MI與MDW 0.6/1.2；MU 0.8/3.0；MK 1.0/3.0。",
+    "GE、GI及其他特別用途區0.8/2.4；工業與部分特別用途另列BMZ參考值10。",
+    "WR為純住宅、WA為一般住宅、MI為混合、MU為都市混合、MK為核心、GE為商業、GI為工業用途區。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "BauNVO第17條將表列比率定義為Orientierungswerte，並按用途區列出GRZ、GFZ與BMZ。",
+        "effect_or_value": null,
+        "study_design": "法規／官方政策或實務指引內容核對",
+        "context_region": "德國",
+        "library_id": "BAUNVO",
+        "locator": "§§2–11用途區定義；§17表與說明",
+        "claim_verification": "OFFICIAL_PRIMARY_SOURCE_REVIEW"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "用同一地塊面積口徑比較GRZ與GFZ，並將用途允許性和建築量分開檢核。",
+    "若作跨制度比較，明示這些數字是德國導向值而非可直接套用的設計權利。"
+  ],
+  "applies_when_zh": "用於德國分區用途與建築量比較，或理解Orientierungswerte的制度位置。",
+  "not_applicable_when_zh": "不能當成荷蘭或M4H法定GRZ／FAR，也不能忽略地方發展計畫與特例。",
+  "debates_zh": "指導值不是單獨的建築許可；計畫可依規劃理由設定差異，且不同用途區定義會影響可行的功能組合。",
+  "sources": [
+    {
+      "library_id": "BAUNVO",
+      "claim_id": "C1",
+      "locator": "§§2–11用途區定義；§17表與說明"
+    }
+  ],
+  "source_count_flag": "SINGLE_SOURCE",
+  "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+  "tradition": "BauNVO用途分區與建築量控制",
+  "region": "德國",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "topic": "德國 BauNVO 制度輪廓"
+    },
+    {
+      "school": "Harvard GSD",
+      "topic": "德國 BauNVO 制度輪廓"
+    },
+    {
+      "school": "MIT",
+      "topic": "德國 BauNVO 制度輪廓"
+    },
+    {
+      "school": "UCL Bartlett",
+      "topic": "德國 BauNVO 制度輪廓"
+    }
+  ],
+  "version": "kb2-policy-2026-10-08",
+  "values": [
+    {
+      "name": "WS GRZ／GFZ",
+      "range": "0.2／0.4",
+      "unit": "比率",
+      "context": "適用地區：Bundesministerium der Justiz；這是外國或地方制度／指引，不是 M4H 本基地法規；用途：德國BauNVO §17導向值；用途：週末住宅區開發量比較；來源：https://www.gesetze-im-internet.de/baunvo/BJNR004290962.html",
+      "library_id": "BAUNVO"
+    },
+    {
+      "name": "WR／WA／Ferienhaus GRZ／GFZ",
+      "range": "0.4／1.2",
+      "unit": "比率",
+      "context": "適用地區：Bundesministerium der Justiz；這是外國或地方制度／指引，不是 M4H 本基地法規；用途：德國BauNVO §17導向值；用途：住宅區開發量比較；來源：https://www.gesetze-im-internet.de/baunvo/BJNR004290962.html",
+      "library_id": "BAUNVO"
+    },
+    {
+      "name": "WB GRZ／GFZ",
+      "range": "0.6／1.6",
+      "unit": "比率",
+      "context": "適用地區：Bundesministerium der Justiz；這是外國或地方制度／指引，不是 M4H 本基地法規；用途：德國BauNVO §17導向值；用途：特別住宅區開發量比較；來源：https://www.gesetze-im-internet.de/baunvo/BJNR004290962.html",
+      "library_id": "BAUNVO"
+    },
+    {
+      "name": "MD／MI／MDW GRZ／GFZ",
+      "range": "0.6／1.2",
+      "unit": "比率",
+      "context": "適用地區：Bundesministerium der Justiz；這是外國或地方制度／指引，不是 M4H 本基地法規；用途：德國BauNVO §17導向值；用途：鄉村與混合區開發量比較；來源：https://www.gesetze-im-internet.de/baunvo/BJNR004290962.html",
+      "library_id": "BAUNVO"
+    },
+    {
+      "name": "MU GRZ／GFZ",
+      "range": "0.8／3.0",
+      "unit": "比率",
+      "context": "適用地區：Bundesministerium der Justiz；這是外國或地方制度／指引，不是 M4H 本基地法規；用途：德國BauNVO §17導向值；用途：都市混合區開發量比較；來源：https://www.gesetze-im-internet.de/baunvo/BJNR004290962.html",
+      "library_id": "BAUNVO"
+    },
+    {
+      "name": "MK GRZ／GFZ",
+      "range": "1.0／3.0",
+      "unit": "比率",
+      "context": "適用地區：Bundesministerium der Justiz；這是外國或地方制度／指引，不是 M4H 本基地法規；用途：德國BauNVO §17導向值；用途：核心區開發量比較；來源：https://www.gesetze-im-internet.de/baunvo/BJNR004290962.html",
+      "library_id": "BAUNVO"
+    },
+    {
+      "name": "GE／GI及其他特別用途區 GRZ／GFZ",
+      "range": "0.8／2.4",
+      "unit": "比率",
+      "context": "適用地區：Bundesministerium der Justiz；這是外國或地方制度／指引，不是 M4H 本基地法規；用途：德國BauNVO §17導向值；用途：商業與工業區開發量比較；來源：https://www.gesetze-im-internet.de/baunvo/BJNR004290962.html",
+      "library_id": "BAUNVO"
+    },
+    {
+      "name": "GE／GI BMZ",
+      "range": "10",
+      "unit": "立方公尺／平方公尺",
+      "context": "適用地區：Bundesministerium der Justiz；這是外國或地方制度／指引，不是 M4H 本基地法規；用途：德國BauNVO §17表列參考值；用途：理解工業用地建築量指標；來源：https://www.gesetze-im-internet.de/baunvo/BJNR004290962.html",
+      "library_id": "BAUNVO"
+    }
+  ]
+}

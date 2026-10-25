@@ -1,0 +1,109 @@
+{
+  "id": "KU-MOR-023",
+  "domain": "MOR",
+  "subtopic": "Spacematrix：FSI、GSI、OSR、L",
+  "type": "concept",
+  "title_zh": "Spacematrix：FSI、GSI、OSR、L｜概念邊界",
+  "title_en": "Spacematrix metrics — Conceptual boundaries",
+  "summary_zh": "FSI 相同的街區可以由低層高覆蓋或高層低覆蓋形成，因此把 FSI 單獨當作城市型態會漏掉地面開放程度與建築堆疊方式。 分類前要先固定街道、宗地和公共空間的分母，並說明地下層與非住宅樓層是否計入。 這套指標可支援比較，不能單憑數值推斷公共生活、能源或住宅品質。",
+  "key_points_zh": [
+    "FSI、GSI、OSR 的分子與分母必須隨表格明示。",
+    "L 由 FSI/GSI 得出，表示平均樓層層數，不是最大建築高度。",
+    "相同 FSI 可對應多種覆蓋與高度組合。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "Spacematrix 將密度拆為可比較的量測：FSI 是總樓地板面積除以研究範圍面積，GSI 是建築基底面積除以同一範圍面積，OSR 表示可用開放空間相對於樓地板量，L=FSI/GSI 是平均層數指標。",
+        "library_id": "BERGHAUSERPONT2017",
+        "effect_or_value": null,
+        "study_design": "經典理論與城鎮平面分析",
+        "context_region": "摘要未列案例城市；澳洲",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "密度是多種量測與空間關係的組合；單一 FAR 不能代表公共空間或活動強度。",
+        "library_id": "DOVEY14",
+        "effect_or_value": null,
+        "study_design": "後續形態學綜述或比較",
+        "context_region": "摘要未列案例城市；澳洲",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "同一個方案同時計算 FSI、GSI、OSR 與 L，並把公共街道面積的處理方式列出。",
+    "用兩個幾何不同但 FSI 接近的方案，檢查基地開放空間如何重新分布。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "同時呈現 FSI、GSI、OSR、層數及計算範圍。",
+      "tradeoff_zh": "「Spacematrix：FSI、GSI、OSR、L｜概念邊界」採用「同時呈現 FSI、GSI、OSR、層數及計算範圍」時，得失要沿著Spacematrix 將密度拆為可比較的量測：FSI 是總樓地板面積除以研究範圍面積，GSI 是建築基底面積除以同一範圍面積，OSR 表示可用開放空間相對於樓地板量，L=FSI/GSI 是平均層數指標檢查；Spacematrix 的三個指標能補足單一容積率，但任何分類仍受研究單位和計容口徑支配；分類座標不是因果模型，也不是普遍的優劣排序。",
+      "library_ids": [
+        "BERGHAUSERPONT2017",
+        "DOVEY14"
+      ]
+    },
+    {
+      "option_zh": "相近 FSI 可以由低矮高覆蓋或高樓低覆蓋組成，街道體驗並不相同。",
+      "tradeoff_zh": "「Spacematrix：FSI、GSI、OSR、L｜概念邊界」的主要代價不是抽象的建造成本，而是Spacematrix 的三個指標能補足單一容積率，但任何分類仍受研究單位和計容口徑支配；分類座標不是因果模型，也不是普遍的優劣排序；因此先以Spacematrix 將密度拆為可比較的量測：FSI 是總樓地板面積除以研究範圍面積，GSI 是建築基底面積除以同一範圍面積，OSR 表示可用開放空間相對於樓地板量，L=FSI/GSI 是平均層數指標作方案比較條件。",
+      "library_ids": [
+        "BERGHAUSERPONT2017",
+        "DOVEY14"
+      ]
+    }
+  ],
+  "applies_when_zh": "適用於比較住宅街區、更新區和形態情境。",
+  "not_applicable_when_zh": "未明確建築、開放空間和地下空間計入方式時不可橫向比較。",
+  "debates_zh": "Spacematrix 的三個指標能補足單一容積率，但任何分類仍受研究單位和計容口徑支配；分類座標不是因果模型，也不是普遍的優劣排序。",
+  "sources": [
+    {
+      "library_id": "BERGHAUSERPONT2017",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "DOVEY14",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "荷蘭量化形態學／Spacematrix 延伸；組裝形態學",
+  "region": "摘要未列案例城市；澳洲",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "Spacematrix：FSI、GSI、OSR、L"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "Spacematrix：FSI、GSI、OSR、L"
+    },
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.330J Theory of City Form",
+      "topic": "Spacematrix：FSI、GSI、OSR、L"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban form and density",
+      "topic": "Spacematrix：FSI、GSI、OSR、L"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-MOR-024",
+    "KU-MOR-025",
+    "KU-MOR-026"
+  ],
+  "counter_unit_ids": [
+    "KU-MOR-027"
+  ],
+  "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008"
+}

@@ -1,0 +1,74 @@
+{
+  "id": "KU-CLI-027",
+  "domain": "CLI",
+  "subtopic": "日照與遮陰",
+  "type": "method",
+  "title_zh": "以時間序列而非單張陰影圖比較日照",
+  "title_en": "以時間序列而非單張陰影圖比較日照",
+  "summary_zh": "建築陰影隨日期、時刻和天氣改變，單張圖只描述一個太陽位置。日照規劃研究指出工具和指標應配合政策問題；微氣候研究則關注行人活動時段。方案比較需生成同一季節和使用時間的序列。",
+  "key_points_zh": [
+    "日期、時區和模型朝向會改變影子位置。",
+    "落葉季和葉盛季需要不同樹冠情境。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "library_id": "DOVEY14",
+        "claim_zh": "密度是多種量測與空間關係的組合；單一 FAR 不能代表公共空間或活動強度；本單元 KU-CLI-027 對照「建築陰影隨日期、時刻和天氣改變，單張圖只描述一個太陽位置」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "密度多維模型",
+        "context_region": "澳洲",
+        "locator": null
+      },
+      {
+        "library_id": "NG10",
+        "claim_zh": "高密度設計必須同時比較社會與環境條件；不能由密度數字直接推出唯一建築型態；本單元 KU-CLI-027 對照「建築陰影隨日期、時刻和天氣改變，單張圖只描述一個太陽位置」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "編輯專書／案例綜述",
+        "context_region": "香港、亞洲",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "固定座標、模型北向和分析時段後再比較。",
+    "將日照疊合座位、步道和敏感用途。"
+  ],
+  "applies_when_zh": "適用於街區體量和公共空間方案比較。",
+  "not_applicable_when_zh": "缺少座標或模型驗證時不適用於合規認定。",
+  "debates_zh": "動態視覺化不會自行驗證建築幾何或樹冠假設。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "DOVEY14",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "NG10",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "日照模擬方法",
+  "region": "Sweden；跨氣候帶",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "日照與遮陰"
+    },
+    {
+      "school": "MIT",
+      "course": "Theory of City Form",
+      "topic": "日照與遮陰"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0"
+}

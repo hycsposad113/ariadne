@@ -1,0 +1,47 @@
+{
+  "id": "FLYVBJERG1998",
+  "title": "Rationality and Power: Democracy in Practice",
+  "authors": [
+    "Bent Flyvbjerg"
+  ],
+  "year": 1998,
+  "venue_or_publisher": "Open Library record; publisher not returned in the metadata query",
+  "doi": null,
+  "isbn": "9780226254494",
+  "openalex_id": null,
+  "kind": "ACADEMIC_BOOK",
+  "tradition": "規劃權力／實踐理性",
+  "region": [
+    "丹麥",
+    "歐洲"
+  ],
+  "method": "案例研究／規劃權力",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "從規劃實踐分析知識、權力與理性如何交織；本條不以書目紀錄代替其案例論證。",
+      "strength": "THEORETICAL",
+      "scope_zh": "只支持所標示的理論範圍或個案；不提供 M4H 法規、基地實測或未查證的數值。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [
+    "HEALEY97",
+    "FANSTEIN10"
+  ],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Open Library",
+    "query": {
+      "title": "Rationality and Power: Democracy in Practice",
+      "author": "Bent Flyvbjerg",
+      "year": 1998
+    },
+    "matched_record_id": "/works/OL2667559W",
+    "checked_at_utc": "2026-10-08T09:27:34Z",
+    "match_notes_zh": "公開 API 比對書名、作者及年份。僅確認書目；新書條目未保存 API 摘要。"
+  },
+  "limitations_zh": "本次只使用核准的公開書目 API；除明標 ABSTRACT_REVIEW 的來源外，未核讀全文。書目查證不等於主張、因果或參數驗證。",
+  "critique_relationship_zh": "known_critiques 是編者指定的替代閱讀，不代表來源間逐一互引或直接反駁。",
+  "metadata_licence_zh": "只保存必要書目欄位與自行摘要；未保存 API 摘要全文，metadata 授權未逐筆核驗，標 UNKNOWN。"
+}

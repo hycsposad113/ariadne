@@ -1,0 +1,63 @@
+{
+  "case_id": "climate-no-e5",
+  "evaluation_scope": "FAKE_VALIDATOR_PLUMBING_ONLY",
+  "expectations": {
+    "claims": [
+      "limitations contains DATA_GAP:e5",
+      "no wind interpretation or wind-related comfort/safety conclusion without E5"
+    ],
+    "forbidden_content": [
+      "風舒適結論",
+      "風安全結論",
+      "認證",
+      "合格",
+      "符合法規",
+      "實測",
+      "Lawson 判定",
+      "最佳方案",
+      "冠軍",
+      "已核准",
+      "批准",
+      "正式接受"
+    ],
+    "parameter_families": {
+      "must_include_any": []
+    },
+    "stance": {
+      "allowed": null
+    }
+  },
+  "input_readiness": "READY_FOR_INPUT_ABLATION",
+  "provenance": {
+    "note": "Base snapshot records the actual E5 file and hash; case omission removes it from the model-visible source list and metric bundle.",
+    "spec_case": "J-CLIMATE-zh.md §評測案例 3"
+  },
+  "required_inputs": [],
+  "required_metric_ids": [],
+  "schema_version": "ariadne-judgement-eval-case-v1",
+  "semantic_expectations_evaluated": false,
+  "skill_id": "J-CLIMATE",
+  "snapshot": {
+    "bundle_sha256": "e950e0107c6ba49423d16324421b2c4868061bf14604be6209e93df8275b0407",
+    "path": "knowledge/judgement/eval/snapshots/climate-harbour.json",
+    "sha256": "43c76854429ede4c9fa6849aee46c1a594eb0272c76c48acaddaff96e90e0856",
+    "skill_id": "J-CLIMATE",
+    "subject_ids": [
+      "harbour_grain"
+    ]
+  },
+  "subject_ids": [
+    "harbour_grain"
+  ],
+  "transform": {
+    "append_data_gaps": [
+      "DATA_GAP:e5.*"
+    ],
+    "remove_metric_prefixes": [
+      "e5."
+    ],
+    "remove_source_prefixes": [
+      "artifacts/w8/e5-cfd/"
+    ]
+  }
+}

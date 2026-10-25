@@ -1,0 +1,165 @@
+{
+  "schema_version": "syntax-network-policy-v2",
+  "status": "EXPLORATORY_PENDING_DESIGNER_APPROVAL",
+  "approved_by_designer": false,
+  "policy_name": "mode-specific-syntax-network-policy-v2",
+  "description": "Mode-specific network extraction and Space Syntax analysis policy (PD-20) for Rotterdam M4H across pedestrian (800m), bicycle (2km, RVV), and motor vehicle (10km) networks.",
+  "legal_basis": "Netherlands Reglement verkeersregels en verkeerstekens 1990 (RVV 1990) and Dutch default road usage principles",
+  "scale_modes": {
+    "local_800m": {
+      "mode": "pedestrian",
+      "radius_m": 800.0,
+      "buffer_radius_m": 1500.0,
+      "target_mobility": "pedestrian_walkable",
+      "scale_label": "Local Scale (800m) · Pedestrian",
+      "included_highways": [
+        "footway",
+        "pedestrian",
+        "living_street",
+        "residential",
+        "unclassified",
+        "service",
+        "path",
+        "steps",
+        "track",
+        "tertiary",
+        "tertiary_link",
+        "secondary",
+        "secondary_link",
+        "primary",
+        "primary_link"
+      ],
+      "conditional_highways": {
+        "cycleway": "included only when foot in ['yes', 'designated', 'permissive']"
+      },
+      "excluded_highways": [
+        "motorway",
+        "motorway_link",
+        "trunk",
+        "trunk_link",
+        "construction",
+        "proposed",
+        "abandoned",
+        "disused",
+        "raceway",
+        "corridor",
+        "platform",
+        "elevator"
+      ],
+      "access_rules": {
+        "excluded_conditions": [
+          "motorroad=yes",
+          "foot=no",
+          "access in ['no', 'private'] without foot in ['yes', 'designated', 'permissive']"
+        ]
+      }
+    },
+    "mid_2000m": {
+      "mode": "bicycle",
+      "radius_m": 2000.0,
+      "buffer_radii_m": [4000.0, 6000.0],
+      "target_mobility": "bicycle_rvv",
+      "scale_label": "Mid Scale (2000m) · Bicycle (RVV)",
+      "included_highways": [
+        "cycleway",
+        "residential",
+        "living_street",
+        "unclassified",
+        "tertiary",
+        "tertiary_link",
+        "service"
+      ],
+      "conditional_highways": {
+        "cyclestreet_or_bicycle_road": "included (fietsstraat)",
+        "path_or_footway": "included only when bicycle in ['yes', 'designated', 'permissive']",
+        "secondary_and_primary": "included only when NOT marked bicycle=use_sidepath or cycleway*=separate/track"
+      },
+      "excluded_highways": [
+        "motorway",
+        "motorway_link",
+        "trunk",
+        "trunk_link",
+        "construction",
+        "proposed",
+        "abandoned",
+        "disused",
+        "raceway",
+        "corridor",
+        "platform",
+        "elevator"
+      ],
+      "access_rules": {
+        "excluded_conditions": [
+          "motorroad=yes",
+          "bicycle=no",
+          "bicycle=use_sidepath",
+          "footway/pedestrian/steps without bicycle permission",
+          "access in ['no', 'private'] without bicycle in ['yes', 'designated', 'permissive']"
+        ]
+      }
+    },
+    "regional_10000m": {
+      "mode": "motor_vehicle",
+      "radius_m": 10000.0,
+      "buffer_radii_m": [15000.0, 20000.0],
+      "target_mobility": "motor_vehicle",
+      "scale_label": "Regional Scale (10000m) · Motor Vehicle",
+      "included_highways": [
+        "motorway",
+        "motorway_link",
+        "trunk",
+        "trunk_link",
+        "primary",
+        "primary_link",
+        "secondary",
+        "secondary_link",
+        "tertiary",
+        "tertiary_link",
+        "unclassified",
+        "residential",
+        "living_street",
+        "service"
+      ],
+      "excluded_highways": [
+        "pedestrian",
+        "footway",
+        "cycleway",
+        "path",
+        "steps",
+        "track",
+        "bridleway",
+        "construction",
+        "proposed",
+        "abandoned",
+        "disused",
+        "raceway",
+        "corridor",
+        "platform",
+        "elevator"
+      ],
+      "access_rules": {
+        "excluded_conditions": [
+          "service in ['driveway', 'parking_aisle', 'drive-through']",
+          "motor_vehicle=no or motorcar=no",
+          "access in ['no', 'private'] without motor_vehicle/motorcar in ['yes', 'permissive']",
+          "bus-only infrastructure (highway=bus_guideway or motor_vehicle=no/access=no + bus=yes)"
+        ]
+      }
+    }
+  },
+  "imputation_policy": {
+    "version": "dutch_default_traffic_rules_v1",
+    "description": "When explicit access tags (foot, bicycle, motor_vehicle) are missing, permission is imputed based on Dutch road hierarchy defaults and documented with imputation ratios in network metadata.",
+    "rules": {
+      "pedestrian": "General roads and walkable ways default to foot=yes; dedicated cycleway defaults to foot=no.",
+      "bicycle": "General urban roads default to bicycle=yes; major roads without sidepath indication default to bicycle=yes; dedicated footways and steps default to bicycle=no.",
+      "motor_vehicle": "Car carriageways default to motor_vehicle=yes."
+    }
+  },
+  "topology_and_unlinks": {
+    "pst_engine": "PST 3.3.1",
+    "radius_mode": "walking",
+    "grade_separation_rule": "Intersections between ways with differing vertical grade signatures or unshared OSM nodes are extracted as unlinks to prevent non-physical planar connections.",
+    "directionality_limitation": "PST angular segment analysis models networks as undirected graphs; one-way directional constraints are not reflected."
+  }
+}

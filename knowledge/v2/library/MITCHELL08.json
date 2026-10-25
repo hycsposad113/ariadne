@@ -1,0 +1,45 @@
+{
+  "id": "MITCHELL08",
+  "title": "Effect of exposure to natural environment on health inequalities: an observational population study",
+  "authors": [
+    "Richard Mitchell",
+    "Frank Popham"
+  ],
+  "year": 2008,
+  "venue_or_publisher": "The Lancet",
+  "doi": "https://doi.org/10.1016/s0140-6736(08)61689-x",
+  "isbn": null,
+  "crossref_id": "https://doi.org/10.1016/s0140-6736(08)61689-x",
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "環境流行病學與健康公平",
+  "region": [
+    "英格蘭",
+    "西歐"
+  ],
+  "method": "觀察性人口研究",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "研究以英格蘭人口資料討論自然環境暴露與健康不平等；本次只查核到書目，故不報比例或因果效果。",
+      "strength": "MIXED",
+      "scope_zh": "英格蘭；主張限於此來源的研究設計與樣本，不外推為本基地規範。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref",
+    "query": {
+      "title": "Effect of exposure to natural environment on health inequalities: an observational population study",
+      "author": "Richard Mitchell",
+      "year": 2008
+    },
+    "matched_record_id": "https://doi.org/10.1016/s0140-6736(08)61689-x",
+    "checked_at_utc": "2026-10-08T09:54:00Z",
+    "match_notes_zh": "核對 Crossref 回傳書名、主要作者、出版年與 DOI；摘要只在實際取得並閱讀的論文上標 ABSTRACT_REVIEW。"
+  },
+  "limitations_zh": "英格蘭；書目核對不替代完整論文審查。",
+  "critique_relationship_zh": "此條目的批評連結供編者並讀，不宣稱存在直接互引。",
+  "metadata_licence_zh": "僅保存公開書目欄位與自行撰寫的摘要；未保存摘要原文，metadata 授權未單獨核定。"
+}

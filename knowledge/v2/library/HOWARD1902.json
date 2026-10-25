@@ -1,0 +1,46 @@
+{
+  "id": "HOWARD1902",
+  "title": "Garden cities of to-morrow",
+  "authors": [
+    "Ebenezer Howard"
+  ],
+  "year": 1902,
+  "venue_or_publisher": "Swan Sonnenschein & Co., Ltd.",
+  "doi": null,
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "ACADEMIC_BOOK",
+  "tradition": "Garden City reform and planned settlement",
+  "region": [
+    "United Kingdom"
+  ],
+  "method": "normative planning proposal",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "書目範圍支持以 Garden City 為題檢視城鎮、農業腹地與土地制度的整體規劃構想；人口與面積細節標為待交叉核對。",
+      "strength": "THEORETICAL",
+      "scope_zh": "僅就書目與著作主題定位；具體數值與歷史結果需讀原著及檔案核對。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [
+    "JACOBS61",
+    "HALL1988"
+  ],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Open Library",
+    "query": {
+      "title": "Garden Cities of To-morrow",
+      "author": "Ebenezer Howard",
+      "year": 1902
+    },
+    "matched_record_id": "/works/OL16102282W",
+    "checked_at_utc": "2026-10-08T09:43:36Z",
+    "match_notes_zh": "Open Library 搜尋結果的書名、作者與首版年份匹配。只確認書目身份，不確認原著數值或後續實踐成效。"
+  },
+  "limitations_zh": "未下載全文；未以書目查證替代 Garden City 數值與實踐史交叉核對。",
+  "critique_relationship_zh": "批評閱讀用來對照規劃意圖與街道日常，不宣稱存在直接互引。",
+  "metadata_licence_zh": "保存書目欄位與自撰摘要；未保存全文或 API 摘要。"
+}

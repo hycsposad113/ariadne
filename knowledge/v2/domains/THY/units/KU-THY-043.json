@@ -1,0 +1,71 @@
+{
+  "id": "KU-THY-043",
+  "domain": "THY",
+  "subtopic": "荷蘭都市主義傳統",
+  "type": "theory",
+  "title_zh": "Bijlmermeer 失敗與更新",
+  "title_en": "Bijlmermeer and renewal",
+  "summary_zh": "Bijlmermeer 以高層住宅、綠地及交通分離構成大尺度居住環境，後續更新調整建築、地面和管理。對失敗的解釋應同時檢查空間形式、租賃制度、維護、社會條件與污名。對比更新前後的入口、地面使用、住房供應與居民遷移。",
+  "key_points_zh": [
+    "對比更新前後的入口、地面使用、住房供應與居民遷移。",
+    "更新案例的具體時期與居民影響需逐項核對；不得把多因素問題歸咎於單一形態。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "Bijlmermeer 以高層住宅、綠地及交通分離構成大尺度居住環境，後續更新調整建築、地面和管理。對失敗的解釋應同時檢查空間形式、租賃制度、維護、社會條件與污名。",
+        "library_id": "WASSENBERG2013",
+        "locator": null,
+        "study_design": "理論／方法綜述；非基地實測",
+        "effect_or_value": null,
+        "context_region": null,
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008"
+      },
+      {
+        "claim_zh": "Van Beckhoven 與 Van Kempen 對阿姆斯特丹、烏特勒支都市重整的社會效應研究，補足 Bijlmermeer 更新議題的另一組作者。",
+        "library_id": "VANBECKHOVEN2003",
+        "locator": null,
+        "study_design": "跨城市個案研究；未保存Crossref摘要",
+        "effect_or_value": null,
+        "context_region": "荷、蘭、阿、姆、斯、特、丹、與、烏、特、勒、支",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "對比更新前後的入口、地面使用、住房供應與居民遷移。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "拆除與低層重建可改善地面關係",
+      "tradeoff_zh": "減少原住房和搬遷風險。",
+      "library_ids": [
+        "WASSENBERG2013"
+      ]
+    }
+  ],
+  "applies_when_zh": "用於釐清「Bijlmermeer 失敗與更新」涉及的空間、制度與行動選擇。",
+  "not_applicable_when_zh": "「Bijlmermeer 失敗與更新」不能直接替代基地的實測、法規或人類批准。",
+  "debates_zh": "更新案例的具體時期與居民影響需逐項核對；不得把多因素問題歸咎於單一形態。",
+  "sources": [
+    {
+      "library_id": "WASSENBERG2013",
+      "locator": null
+    },
+    {
+      "library_id": "VANBECKHOVEN2003",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+  "curriculum_refs": [
+    {
+      "school": "MIT",
+      "course": null,
+      "topic": "編者主題對照，非已核實課程指定閱讀：Bijlmermeer 失敗與更新"
+    }
+  ],
+  "version": "2.0.0-theory-v3"
+}

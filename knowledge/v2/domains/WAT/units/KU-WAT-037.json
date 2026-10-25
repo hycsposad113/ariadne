@@ -1,0 +1,74 @@
+{
+  "id": "KU-WAT-037",
+  "domain": "WAT",
+  "subtopic": "韌性理論與批評",
+  "type": "empirical_finding",
+  "title_zh": "社會生態韌性分析把生計依賴納入風險",
+  "title_en": "社會生態韌性分析把生計依賴納入風險",
+  "summary_zh": "Adger 的概念論證與社群案例分析探討生計如何依賴環境資源，並比較社會和生態韌性的關聯。研究指出制度和資源使用關係會影響應對變化的能力，但沒有測試都市防洪設施效果。Folke 等人的社會生態韌性論述補充了系統層級的觀點，仍不是都市個案的防洪試驗。借用這些研究時，應說明風險來源和受影響生計。",
+  "key_points_zh": [
+    "研究設計含概念論證與社群案例。",
+    "研究方向指出社會脆弱性和生態依賴可能相互作用。"
+  ],
+  "evidence": {
+    "strength": "CASE_EVIDENCE",
+    "findings": [
+      {
+        "library_id": "ADGER2000",
+        "claim_zh": "摘要指出社群韌性和生態韌性可能相互關聯，但生態系統韌性是否必然轉化為社群韌性仍未明確；本單元 KU-WAT-037 對照「Adger 的概念論證與社群案例分析探討生計如何依賴環境資源，並比較社會和生態韌性的關聯」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "ABSTRACT_REVIEW",
+        "effect_or_value": "KU-WAT-037 的效應量仍以其原列研究結果為準；ADGER2000 僅提供相鄰主題脈絡，未作量值來源。",
+        "study_design": "概念分析",
+        "context_region": "社群與依賴環境資源的生計脈絡",
+        "locator": null
+      },
+      {
+        "library_id": "FOLKE2002",
+        "claim_zh": "題名將韌性與永續發展、適應能力及轉變連結；具體操作定義需在更高層次來源中逐項核對；本單元 KU-WAT-037 對照「Adger 的概念論證與社群案例分析探討生計如何依賴環境資源，並比較社會和生態韌性的關聯」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": "KU-WAT-037 的效應量仍以其原列研究結果為準；FOLKE2002 僅提供相鄰主題脈絡，未作量值來源。",
+        "study_design": "理論回顧",
+        "context_region": "跨地域生態與治理研究",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "辨認水岸或綠地變化對地方生計的連鎖影響。",
+    "把分配效果與工程性能分開呈現。"
+  ],
+  "applies_when_zh": "適用於水岸調適的社會影響盤點。",
+  "not_applicable_when_zh": "不適用於當作設施降低洪水損害的量化證據。",
+  "debates_zh": "社群案例不代表所有都市居民，不能推導普遍的因果係數。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "ADGER2000",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "FOLKE2002",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "社會生態韌性",
+  "region": "環境資源依賴社群；跨學科社會—生態研究",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "韌性理論與批評"
+    },
+    {
+      "school": "MIT",
+      "course": null,
+      "topic": "韌性理論與批評"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0"
+}

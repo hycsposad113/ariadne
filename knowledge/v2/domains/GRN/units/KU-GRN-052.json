@@ -1,0 +1,66 @@
+{
+  "id": "KU-GRN-052",
+  "domain": "GRN",
+  "subtopic": "健康效益實證",
+  "type": "method",
+  "title_zh": "大型樣本仍可能有居住選擇偏差",
+  "title_en": "Large samples retain residential-selection bias",
+  "summary_zh": "居民可能因收入、健康或偏好選擇不同居住區。大型資料降低抽樣誤差，卻不會自動消除這類混雜。個人移動範圍亦超出住家緩衝區。證據強度應依識別策略而非樣本總量判定。在因果敘述中標示研究設計並尋找自然實驗或縱向證據。",
+  "key_points_zh": [
+    "居民可能因收入、健康或偏好選擇不同居住區",
+    "大型資料降低抽樣誤差，卻不會自動消除這類混雜"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "居民可能因收入、健康或偏好選擇不同居住區。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "跨地域",
+        "library_id": "BOWLER10",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "證據強度應依識別策略而非樣本總量判定。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "在因果敘述中標示研究設計並尋找自然實驗或縱向證據。"
+  ],
+  "applies_when_zh": "適用於研究結果被用作資本投資理由時。",
+  "not_applicable_when_zh": "不可把統計顯著直接等同政策因果。",
+  "debates_zh": "證據強度應依識別策略而非樣本總量判定。",
+  "sources": [
+    {
+      "library_id": "BOWLER10",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "TZUOLAS07",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "城市綠化與熱環境綜述",
+  "region": "跨地域",
+  "curriculum_refs": [
+    {
+      "school": "UCL Bartlett",
+      "course": "Critical Debates in Urban Design",
+      "topic": "健康效益實證"
+    },
+    {
+      "school": "MIT",
+      "course": "11.330J Theory of City Form",
+      "topic": "健康效益實證"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-GRN-051",
+    "KU-GRN-053"
+  ]
+}

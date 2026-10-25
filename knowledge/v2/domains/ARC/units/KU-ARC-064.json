@@ -1,0 +1,98 @@
+{
+  "id": "KU-ARC-064",
+  "domain": "ARC",
+  "subtopic": "停車與自行車",
+  "type": "value_range",
+  "title_zh": "自行車停放的車位間距與取車通道",
+  "title_en": "bicycle rack pitch and aisle",
+  "summary_zh": "自行車停放可用約 0.6–0.75 m 車位間距及 1.8–2.2 m 取車通道進行初排。 車把交錯、輪架型式和雙層架會改變有效操作空間。 高密度架數不等於停車設施好用。",
+  "key_points_zh": [
+    "核心主張：自行車停放可用約 0.6–0.75 m 車位間距及 1.8–2.2 m 取車通道進行初排。",
+    "量測檢查：在設備平面量車架中心距和淨通道，抽測最不利的相鄰車位取放動作。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "自行車停放可用約 0.6–0.75 m 車位間距及 1.8–2.2 m 取車通道進行初排。",
+        "effect_or_value": "約 0.6–0.75 m 車位節距；1.8–2.2 m 通道初篩",
+        "study_design": "跨地域設計參照綜整；數值狀態依 claim_verification 註記",
+        "context_region": "跨地域；用途與當地法規需分開核驗",
+        "library_id": "BIKE_PARKING21",
+        "locator": "chapter Bicycle Parking; exact page not checked",
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008"
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "bicycle parking pitch and aisle",
+      "range": "約 0.6–0.75 m 車位節距；1.8–2.2 m 通道初篩",
+      "unit": "m",
+      "context": "地區：跨地域研究與設計假設；用途：一般自行車室方案；貨運車與無障礙需求另行加大；出處：Bicycle Parking；本基地法規：否；核對狀態：數值待原典交叉核對。",
+      "library_id": "BIKE_PARKING21"
+    }
+  ],
+  "design_implications_zh": [
+    "按單車把手、腳踏和轉向空間建立實際佔用框，再檢查兩側同時取車。"
+  ],
+  "applies_when_zh": "「自行車停放的車位間距與取車通道」可在用於方案前期的量體、平面或空間品質篩檢時使用，前提是自行車停放可用約 0.6–0.75 m 車位間距及 1.8–2.2 m 取車通道進行初排與來源情境相符。",
+  "not_applicable_when_zh": "若自行車停放可用約 0.6–0.75 m 車位間距及 1.8–2.2 m 取車通道進行初排不成立，就不能把「自行車停放的車位間距與取車通道」的結論延伸到其他情況；不得單獨作為許可、消防、結構或基地法規判定。",
+  "debates_zh": "不同車種、貨運自行車和輔助自行車需要更大包絡，標準車位不能代表所有使用者。",
+  "sources": [
+    {
+      "library_id": "BIKE_PARKING21",
+      "claim_id": "C1",
+      "locator": "chapter Bicycle Parking; exact page not checked"
+    },
+    {
+      "library_id": "CROW_BIKE_PARK",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+  "tradition": "建築設計與住宅類型學",
+  "region": "跨地域；用途與當地法規需分開核驗",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Housing and the City / Design of the Urban Fabric",
+      "topic": "建築尺度與住宅平面"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "建築尺度與街道界面"
+    },
+    {
+      "school": "MIT",
+      "course": "Architecture and Urban Design",
+      "topic": "建築尺度與空間型態"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "建築尺度與公共生活"
+    }
+  ],
+  "check": {
+    "method_zh": "在設備平面量車架中心距和淨通道，抽測最不利的相鄰車位取放動作。",
+    "inputs": [
+      "停車與自行車",
+      "尺寸／面積圖層",
+      "適用地區與用途標籤"
+    ],
+    "logic_zh": "將量測輸入轉成明確尺寸、比例或空間關係；越界只觸發複核，不自動取代設計決策。",
+    "limitations_zh": "量測結果只觸發「自行車停放的車位間距與取車通道」的複核，不得單獨作為許可或法規判定。"
+  },
+  "version": "kb2-arc-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-ARC-060",
+    "KU-ARC-061",
+    "KU-ARC-062",
+    "KU-ARC-063",
+    "KU-ARC-065"
+  ]
+}

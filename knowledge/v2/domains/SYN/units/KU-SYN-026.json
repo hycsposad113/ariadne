@@ -1,0 +1,81 @@
+{
+  "id": "KU-SYN-026",
+  "domain": "SYN",
+  "subtopic": "多中心性（MCA）",
+  "type": "empirical_finding",
+  "title_zh": "空間資本將路網與形態聯讀",
+  "title_en": "Spatial capital and urban morphology",
+  "summary_zh": "空間語法延伸至都市形態的理論提案，研究脈絡為瑞典理論脈絡與跨地域概念應用。中心性不是形態分析的全部。研究框架把街道空間關係與地塊、建築及土地使用聯合討論。限制包括屬理論延伸提案，需以可觀察資料檢驗。",
+  "key_points_zh": [
+    "中心性不是形態分析的全部",
+    "限制：屬理論延伸提案，需以可觀察資料檢驗",
+    "效果或方向：研究框架把街道空間關係與地塊、建築及土地使用聯合討論"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "空間資本將路網與形態聯讀｜中心性不是形態分析的全部",
+        "effect_or_value": "研究框架把街道空間關係與地塊、建築及土地使用聯合討論",
+        "study_design": "空間語法延伸至都市形態的理論提案",
+        "context_region": "瑞典理論脈絡與跨地域概念應用",
+        "library_id": "MARCUS10",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "空間資本將路網與形態聯讀｜聚合行動資料可研究都市移動時序；它不等於所有行人觀測，必須交代樣本與空間粒度",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "SEVTSUK10",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "在網路分析中保留地塊和用途尺度"
+  ],
+  "applies_when_zh": "若本地觀察單位與瑞典理論脈絡與跨地域概念應用的研究脈絡可對照，可用「中心性不是形態分析的全部」作為多中心性（MCA）的比較線索。",
+  "not_applicable_when_zh": "這項瑞典理論脈絡與跨地域概念應用的研究結果不能單獨證明因果或預測其他城市的街段；原研究屬理論延伸提案，需以可觀察資料檢驗。",
+  "debates_zh": "關聯能否外推；屬理論延伸提案，需以可觀察資料檢驗；檢視「空間資本將路網與形態聯讀」的研究解讀時，還需判斷「限制：屬理論延伸提案，需以可觀察資料檢驗」會如何改變方案結論。",
+  "sources": [
+    {
+      "library_id": "MARCUS10",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "SEVTSUK10",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "城市網路科學",
+  "region": "瑞典理論脈絡與跨地域概念應用",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Methods of Analysis & Imagination",
+      "topic": "多中心性（MCA）：課綱對應主題"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Cities by Design",
+      "topic": "多中心性（MCA）：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-SYN-025",
+    "KU-SYN-027",
+    "KU-SYN-028",
+    "KU-SYN-029",
+    "KU-SYN-030",
+    "KU-SYN-031",
+    "KU-SYN-032"
+  ]
+}

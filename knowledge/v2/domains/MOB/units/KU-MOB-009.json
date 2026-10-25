@@ -1,0 +1,81 @@
+{
+  "id": "KU-MOB-009",
+  "domain": "MOB",
+  "subtopic": "步行性",
+  "type": "empirical_finding",
+  "title_zh": "步行的環境關聯不只來自密度",
+  "title_en": "Walking and multiple built-environment dimensions",
+  "summary_zh": "建成環境—旅運文獻加權整合分析，研究脈絡為美國規劃研究為主的跨研究集合。步行性是目的地和網路共同作用的議題，而不只是人口密度。步行和土地使用多樣性、交叉口密度及步行範圍內目的地的關聯較強。限制包括各研究的距離、目的地分類和樣本不同，不能直接拿單一係數套用。",
+  "key_points_zh": [
+    "步行性是目的地和網路共同作用的議題，而不只是人口密度",
+    "限制：各研究的距離、目的地分類和樣本不同，不能直接拿單一係數套用",
+    "效果或方向：步行和土地使用多樣性、交叉口密度及步行範圍內目的地的關聯較強"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "步行的環境關聯不只來自密度｜步行性是目的地和網路共同作用的議題，而不只是人口密度",
+        "effect_or_value": "步行和土地使用多樣性、交叉口密度及步行範圍內目的地的關聯較強",
+        "study_design": "建成環境—旅運文獻加權整合分析",
+        "context_region": "美國規劃研究為主的跨研究集合",
+        "library_id": "EWING10",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "步行的環境關聯不只來自密度｜人的停留、步行與沿街互動是公共空間設計的觀察方向；需要地方活動與季節資料",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "GEHL10",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "將路徑完整性、目的地和街道舒適度分項核對"
+  ],
+  "applies_when_zh": "若本地觀察單位與美國規劃研究為主的跨研究集合的研究脈絡可對照，可用「步行性是目的地和網路共同作用的議題，而不只是人口密度」作為步行性的比較線索。",
+  "not_applicable_when_zh": "這項美國規劃研究為主的跨研究集合的研究結果不能單獨證明因果或預測其他城市的街段；原研究各研究的距離、目的地分類和樣本不同，不能直接拿單一係數套用。",
+  "debates_zh": "關聯能否外推；各研究的距離、目的地分類和樣本不同，不能直接拿單一係數套用；檢視「步行的環境關聯不只來自密度」的研究解讀時，還需判斷「限制：各研究的距離、目的地分類和樣本不同，不能直接拿單一係數套用」會如何改變方案結論。",
+  "sources": [
+    {
+      "library_id": "EWING10",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "GEHL10",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "步行設計與可及性",
+  "region": "美國規劃研究為主的跨研究集合",
+  "curriculum_refs": [
+    {
+      "school": "Harvard GSD",
+      "course": "Urban Design Contexts and Operations",
+      "topic": "步行性：課綱對應主題"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "步行性：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-MOB-010",
+    "KU-MOB-011",
+    "KU-MOB-012",
+    "KU-MOB-013",
+    "KU-MOB-014",
+    "KU-MOB-015",
+    "KU-MOB-016"
+  ]
+}

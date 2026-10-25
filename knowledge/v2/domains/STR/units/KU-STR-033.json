@@ -1,0 +1,81 @@
+{
+  "id": "KU-STR-033",
+  "domain": "STR",
+  "subtopic": "交叉口密度",
+  "type": "empirical_finding",
+  "title_zh": "街網組態與行人量的關聯異質",
+  "title_en": "Heterogeneity in syntax and pedestrian movement",
+  "summary_zh": "1975–2016 已發表與未發表研究的隨機效果統合分析，研究脈絡為跨地區研究文獻；摘要未列出各國完整樣本分布。街網可達特徵能解釋部分行人移動，但連通度與控制值不顯著。整體整合度與選擇度支持行人量關聯，但效果依角度、拓樸或度量推導方式而變。限制包括研究間異質性高，研究設計和指標操作差異是可能來源。",
+  "key_points_zh": [
+    "街網可達特徵能解釋部分行人移動，但連通度與控制值不顯著",
+    "限制：研究間異質性高，研究設計和指標操作差異是可能來源",
+    "效果或方向：整體整合度與選擇度支持行人量關聯，但效果依角度、拓樸或度量推導方式而變"
+  ],
+  "evidence": {
+    "strength": "STRONG_EMPIRICAL",
+    "findings": [
+      {
+        "claim_zh": "街網組態與行人量的關聯異質｜街網可達特徵能解釋部分行人移動，但連通度與控制值不顯著",
+        "effect_or_value": "整體整合度與選擇度支持行人量關聯，但效果依角度、拓樸或度量推導方式而變",
+        "study_design": "1975–2016 已發表與未發表研究的隨機效果統合分析",
+        "context_region": "跨地區研究文獻；摘要未列出各國完整樣本分布",
+        "library_id": "SHARMIN17",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "街網組態與行人量的關聯異質｜整合多項研究顯示目的地可及性、路網與用途等因素和出行有關；密度單獨的關聯較弱，且自我選擇及樣本限制妨礙普遍因果推論",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "EWING10",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "公布交叉口密度以外的圖表示、尺度與路徑成本，避免把關聯當固定規則"
+  ],
+  "applies_when_zh": "若本地觀察單位與跨地區研究文獻；摘要未列出各國完整樣本分布的研究脈絡可對照，可用「街網可達特徵能解釋部分行人移動，但連通度與控制值不顯著」作為交叉口密度的比較線索。",
+  "not_applicable_when_zh": "這項跨地區研究文獻；摘要未列出各國完整樣本分布的研究結果不能單獨證明因果或預測其他城市的街段；原研究研究間異質性高，研究設計和指標操作差異是可能來源。",
+  "debates_zh": "關聯能否外推；研究間異質性高，研究設計和指標操作差異是可能來源；檢視「街網組態與行人量的關聯異質」的研究解讀時，還需判斷「限制：研究間異質性高，研究設計和指標操作差異是可能來源」會如何改變方案結論。",
+  "sources": [
+    {
+      "library_id": "SHARMIN17",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "EWING10",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "步行路網與街道網絡分析",
+  "region": "跨地區研究文獻；摘要未列出各國完整樣本分布",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "交叉口密度：課綱對應主題"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "交叉口密度：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-STR-034",
+    "KU-STR-035",
+    "KU-STR-036",
+    "KU-STR-037",
+    "KU-STR-038",
+    "KU-STR-039",
+    "KU-STR-040"
+  ]
+}

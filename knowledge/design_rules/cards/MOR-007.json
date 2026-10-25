@@ -1,0 +1,95 @@
+{
+  "id": "MOR-007",
+  "title_zh": "連棟",
+  "title_en": "Row housing",
+  "domain": "morphology",
+  "stages": [
+    "S3",
+    "S4",
+    "S6",
+    "S7"
+  ],
+  "statement_zh": "連棟沿路配置獨立入口與服務邊，端部保留步行穿越；報告土地佔用和不同戶型可用性。",
+  "rationale_zh": "門前生活易形成，但過長連續排屋會增加繞行。",
+  "applies_when": {
+    "scale": [
+      "*"
+    ],
+    "land_use": [
+      "*"
+    ],
+    "strategy": [
+      "*"
+    ],
+    "mode": [
+      "*"
+    ]
+  },
+  "parameters": [
+    {
+      "name": "row_plot_width_trial",
+      "value": null,
+      "range": [
+        5,
+        9
+      ],
+      "unit": "m",
+      "provenance": "ASSUMED_COMMANDER",
+      "source_ids": [],
+      "authority_ref": null,
+      "status": "PROPOSED_PENDING_FOUNDER",
+      "rationale_zh": "指揮官提出的敏感性試算值，文獻未提供此數值；須 Founder 確認、地方資料及確定性驗證，未生效。"
+    }
+  ],
+  "check": {
+    "method_zh": "比較排長、橫向連通、入口和服務可達。",
+    "inputs": [
+      "凍結幾何／路網與 hash",
+      "已接受專案條件與版本",
+      "卡片參數與版本"
+    ],
+    "output": "檢查值、單位、方法、有效性、差異與限制；不自動採納",
+    "implementation_status": "SPECIFICATION_ONLY"
+  },
+  "check_unavailable_reason_zh": null,
+  "design_responses": [
+    {
+      "option": "1",
+      "action_zh": "短排連棟與橫向通路",
+      "source_ids": [
+        "CONZEN60"
+      ],
+      "tradeoff_zh": "端牆與服務佔地增加。"
+    },
+    {
+      "option": "2",
+      "action_zh": "長排加共享入口穿廊",
+      "source_ids": [
+        "CANIGGIA"
+      ],
+      "tradeoff_zh": "通廊管理與私密衝突。"
+    }
+  ],
+  "evidence_level": "ACADEMIC",
+  "evidence_strength": "THEORETICAL",
+  "sources": [
+    {
+      "library_id": "CANIGGIA",
+      "claim_id": "C1",
+      "support_scope_zh": "文獻支持概念與比較角度；本卡具體操作是設計推導，試算值及專案約束不是文獻的普適結論。"
+    },
+    {
+      "library_id": "CONZEN60",
+      "claim_id": "C1",
+      "support_scope_zh": "文獻支持概念與比較角度；本卡具體操作是設計推導，試算值及專案約束不是文獻的普適結論。"
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "enforcement": "CANDIDATE_ONLY",
+  "authority_ref": null,
+  "debates_zh": "相同密度可由不同形態形成；傳統街廓、現代板樓和高密度策略的公共性、日照與控制方式不同。書目尚未逐頁查證，不能預設一派較好。 已查證書目與主張的查閱層級見 library；不是逐頁核驗或本基地因果結論。",
+  "context_validity_zh": "英國歷史形態、義大利類型學、荷蘭密度與亞洲高密度各有取樣偏向；M4H 倉庫結構與保留邊界需實測，類型不構成偏好排名。",
+  "exceptions_zh": "卡片不可替代現行法規、產權、無障礙或已接受 D1/D2。缺必要資料即回報 UNKNOWN；例外須由 Founder 明確決定並保留原結果。",
+  "version": "0.2.0",
+  "local_context_refs": []
+}

@@ -1,0 +1,79 @@
+{
+  "id": "KU-HAR-040",
+  "type": "value_range",
+  "subtopic": "港區轉型案例",
+  "title_zh": "King’s Cross 更新範圍約 67 公頃",
+  "title_en": "King's Cross Regeneration Covers About 67 Hectares",
+  "summary_zh": "Greater London Authority 將 King’s Cross 更新區列為約 67 公頃，並分別記載住宅、辦公與零售規劃量。這些是區域開發計畫的面積與目標，不是已完成的住戶或零售使用結果。英國交通部後續個案研究把車站投資與周邊更新放在同一分析中，提供檢驗連結成效的研究入口。",
+  "values": [
+    {
+      "name": "GLA文件所列更新區範圍",
+      "range": "約67",
+      "unit": "公頃",
+      "context": "用途：以「GLA文件所列更新區範圍」作為來源情境參照；Camden與Islington之間的King’s Cross更新範圍；非地籍邊界，也不是本基地法規；來源所列地域：英國倫敦。",
+      "library_id": "GLA_KINGS_CROSS2017"
+    }
+  ],
+  "key_points_zh": [
+    "更新區面積需與站區及鄰近街區邊界區分。",
+    "辦公、住宅和零售規劃量應另列已建成數據。"
+  ],
+  "design_implications_zh": [
+    "以同一邊界逐期標註開發面積、站點投資與公共空間交付。"
+  ],
+  "applies_when_zh": "比較站區投資與相鄰大型更新區時。",
+  "not_applicable_when_zh": "估算單一地塊的法定淨面積或權屬面積時。",
+  "debates_zh": "土地總面積和交通投資被納入同一故事，仍需確認就業與發展變化是否由車站投資造成。",
+  "tradition": "英國站區再生／歷史環境規劃",
+  "region": "英格蘭倫敦",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": null,
+      "topic": "Transport infrastructure and waterfront regeneration"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": null,
+      "topic": "Heritage-led regeneration"
+    }
+  ],
+  "domain": "HAR",
+  "evidence": {
+    "strength": "CASE_EVIDENCE",
+    "findings": [
+      {
+        "claim_zh": "Greater London Authority報告將King’s Cross更新列為約67公頃。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "英格蘭倫敦",
+        "library_id": "GLA_KINGS_CROSS2017",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "學術章節以King’s Cross重建為主題，提供對照地方再生過程的書目來源。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "英格蘭倫敦",
+        "library_id": "TREW2018",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "library_id": "GLA_KINGS_CROSS2017",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "TREW2018",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "version": "v2.0"
+}

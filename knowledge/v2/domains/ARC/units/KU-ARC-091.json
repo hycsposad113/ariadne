@@ -1,0 +1,180 @@
+{
+  "id": "KU-ARC-091",
+  "domain": "ARC",
+  "subtopic": "maker 與輕工業建築尺度",
+  "type": "value_range",
+  "title_zh": "maker／輕工業的柱跨、淨高與卸貨開口參照",
+  "title_en": "Span, clear height and loading-opening references for maker / light industry",
+  "summary_zh": "小型生產和輕工業平面至少要同時檢查結構柱網、工作淨高與貨物進出；把其中一個尺寸拿來當整體進深會造成錯誤。下列手冊範圍是跨地域的概念設計參照，不是本基地法規；各自的工作載重、設備包絡、消防、車種與實際屋架系統仍需另行校核。倫敦產業土地研究說明生產空間面臨的規劃壓力，但不提供這些建築尺寸的證明。整體平面進深不設通用值，應依製程流程推算。",
+  "key_points_zh": [
+    "輕工業與 maker 廠房常見結構跨度約 18–30 m（以製程與吊車需求決定），與 ARC-035 一致；此為前期參照，非法規值。。",
+    "4.5–7.0 m 淨高僅供 maker／輕工業早期排設備與儲放。",
+    "3.0–3.6 m 寬、3.2–4.2 m 高的門洞是輕型交付的概念範圍，不等於重型物流規格。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "library_id": "INDUSTRIAL_LATTICE61",
+        "claim_zh": "輕工業與 maker 廠房常見結構跨度約 18–30 m（以製程與吊車需求決定），與 ARC-035 一致；此為前期參照，非法規值。",
+        "effect_or_value": null,
+        "study_design": "工業大跨度結構章節",
+        "context_region": "跨地域",
+        "locator": null,
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+        "limitations_zh": "本次只核對書目；跨度範圍在此標示待交叉檢查。"
+      },
+      {
+        "library_id": "NEUFERT12",
+        "claim_zh": "一般 maker／輕工業室內淨高約 4.5–7.0 m，倉儲貨架或吊車需求較高時更高，與 ARC-036 一致。",
+        "effect_or_value": null,
+        "study_design": "建築設計手冊",
+        "context_region": "跨地域",
+        "locator": null,
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+        "limitations_zh": "本卡不把手冊書目本身當成數字的全文證明。"
+      },
+      {
+        "library_id": "METRIC_HB08",
+        "claim_zh": "Metric Handbook 是建築規劃資料手冊；卸貨門尺寸仍需按設計車輛、裝卸方式和設備校核。",
+        "effect_or_value": null,
+        "study_design": "建築規劃手冊",
+        "context_region": "跨地域",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "只支持明示的文獻範圍與本次可查證內容；未由書目資料推定未讀數值或因果。"
+      },
+      {
+        "library_id": "ARCH_STUDIO11",
+        "claim_zh": "Architect’s Studio Companion 提供建築系統規劃參照，支持把柱網與設備配置放在同一前期審核中。",
+        "effect_or_value": null,
+        "study_design": "建築專業手冊",
+        "context_region": "跨地域",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "只支持明示的文獻範圍與本次可查證內容；未由書目資料推定未讀數值或因果。"
+      },
+      {
+        "claim_zh": "Ferm 與 Jones 對倫敦工業土地的研究提供產業留存與高地價壓力的獨立規劃脈絡，不驗證本卡的柱跨、淨高或門洞數值。",
+        "effect_or_value": null,
+        "study_design": "倫敦產業土地規劃研究",
+        "context_region": "London, United Kingdom",
+        "library_id": "FERM_JONES2017",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW",
+        "limitations_zh": "這篇研究支援生產空間規劃背景，不是工業建築尺寸手冊。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "先把車輛包絡、卸貨口、裝卸暫置和作業流程畫在同一平面，再調整柱距與開間。",
+    "在剖面中檢查設備、管線、排煙和存放高度，不讓樓層標高冒充淨高。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "以較大跨度形成連續工作面，減少柱位對設備與物流的干擾。",
+      "tradeoff_zh": "結構高度、用鋼量和造價可能上升，需作結構最佳化。",
+      "library_ids": [
+        "INDUSTRIAL_LATTICE61",
+        "ARCH_STUDIO11"
+      ]
+    },
+    {
+      "option_zh": "採較密柱網並用模組化工作間組成 maker hall。",
+      "tradeoff_zh": "材料和跨度需求可能下降，但設備更新與貨物流會受柱位限制。",
+      "library_ids": [
+        "NEUFERT12",
+        "METRIC_HB08"
+      ]
+    }
+  ],
+  "applies_when_zh": "適用於小型製造、修理、maker hall 與 light-industrial 單元的概念排布。",
+  "not_applicable_when_zh": "不適用於重型製程、特種倉儲、消防設施或法定物流尺寸未被納入的情境。",
+  "debates_zh": "總進深不是柱跨的同義詞；設備工作區、交叉通道、收發貨和存放會依租戶流程變動，因此不給一個跨用途通用進深值。",
+  "counter_unit_ids": [
+    "KU-ARC-024"
+  ],
+  "related_unit_ids": [
+    "KU-ARC-035",
+    "KU-ARC-036",
+    "KU-ARC-037",
+    "KU-ARC-046"
+  ],
+  "sources": [
+    {
+      "library_id": "INDUSTRIAL_LATTICE61",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "NEUFERT12",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "METRIC_HB08",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "ARCH_STUDIO11",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "FERM_JONES2017",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "工業建築結構、建築資料手冊與生產空間",
+  "region": "跨地域；手冊範圍需依當地工業與消防規定重算",
+  "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Housing and the City / Design of the Urban Fabric",
+      "topic": "maker 與輕工業建築尺度：課綱對應主題"
+    }
+  ],
+  "version": "kb2-gaps-2026-10-08",
+  "check": {
+    "method_zh": "在比例平面和剖面中量柱中心距、作業淨高與門洞淨尺寸；再放入機具包絡、貨架、裝卸車和人員通道逐一檢查碰撞與轉向。",
+    "inputs": [
+      "柱網與主要結構方向",
+      "設備／機具和操作淨空",
+      "淨高、管線及排煙",
+      "實際交付車型與門洞"
+    ],
+    "logic_zh": "跨距、淨高及門洞須各自對應來源與用途；整體平面進深由實際製程區段加通道組成，不可把跨距範圍當作深度規則。",
+    "limitations_zh": "ARC 既有已核對書目單元提供這些初期參照；本新卡把相關尺度合併成工作表，待 Claude 對原典頁面交叉核對數值。每條 value_range 均非本基地法規。"
+  },
+  "case": null,
+  "values": [
+    {
+      "name": "少柱工業工作面結構跨度",
+      "range": "18–30",
+      "unit": "m",
+      "context": "跨地域工業建築的概念設計參照；非本基地法規，結構跨度仍須按載重和系統計算。",
+      "library_id": "INDUSTRIAL_LATTICE61",
+      "claim_verification": "CANONICAL_CROSS_CHECK_PENDING"
+    },
+    {
+      "name": "maker／輕工業工作淨高",
+      "range": "4.5–7.0",
+      "unit": "m clear height",
+      "context": "跨地域 maker 與輕工業的設備配置參照；非本基地法規，須按機具、管線與消防核對。",
+      "library_id": "NEUFERT12",
+      "claim_verification": "CANONICAL_CROSS_CHECK_PENDING"
+    },
+    {
+      "name": "輕型交付門洞淨開口",
+      "range": "3.0–3.6 W × 3.2–4.2 H",
+      "unit": "m",
+      "context": "跨地域輕型交付門洞的早期參照；非本基地法規，最後尺寸由車輛包絡控制。",
+      "library_id": "METRIC_HB08",
+      "claim_verification": "CANONICAL_CROSS_CHECK_PENDING"
+    }
+  ]
+}

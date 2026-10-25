@@ -1,0 +1,87 @@
+{
+  "id": "PUB-007",
+  "title_zh": "公共空間管理與文化差異",
+  "title_en": "Public-space governance and cultural differences",
+  "domain": "public_space",
+  "stages": [
+    "S2",
+    "S3",
+    "S6",
+    "S7",
+    "S8"
+  ],
+  "statement_zh": "除了停留及通行，列可使用時段、管理限制、可負擔性與不同群體的活動需求。",
+  "rationale_zh": "公共性受管理與文化差異影響，不由廣場形式單獨確定。",
+  "applies_when": {},
+  "parameters": [
+    {
+      "name": "public_hours_comparison_trial",
+      "value": null,
+      "range": [
+        12,
+        24
+      ],
+      "unit": "h/day",
+      "provenance": "ASSUMED_COMMANDER",
+      "source_ids": [],
+      "authority_ref": null,
+      "status": "PROPOSED_PENDING_FOUNDER",
+      "rationale_zh": "指揮官提出的敏感性試算值，文獻未提供此數值；須 Founder 確認、地方資料及確定性驗證，未生效。"
+    }
+  ],
+  "check": {
+    "method_zh": "依規則逐項輸出對照表、輸入版本、定義、數值／未知及替代方案；實際計算由確定性工具負責。",
+    "inputs": [
+      "凍結基地、模式路網及用途／政策資料",
+      "已接受條件、卡片版本與試算參數"
+    ],
+    "output": "可比較的診斷與設計回應；沒有觀測或校準不輸出人數或法定結論。",
+    "implementation_status": "SPECIFICATION_ONLY"
+  },
+  "check_unavailable_reason_zh": null,
+  "design_responses": [
+    {
+      "option": "1",
+      "action_zh": "廣泛開放多種日常活動",
+      "source_ids": [
+        "CARMONA10"
+      ],
+      "tradeoff_zh": "增加包容，需維護及衝突協調。"
+    },
+    {
+      "option": "2",
+      "action_zh": "分時管理特定活動",
+      "source_ids": [
+        "LOW05"
+      ],
+      "tradeoff_zh": "便於管理，可能排除部分使用者。"
+    }
+  ],
+  "evidence_level": "ACADEMIC",
+  "evidence_strength": "THEORETICAL",
+  "sources": [
+    {
+      "library_id": "CARMONA10",
+      "claim_id": "C1",
+      "support_scope_zh": "文獻支持概念與比較角度；本卡具體操作是設計推導，試算值及專案約束不是文獻的普適結論。"
+    },
+    {
+      "library_id": "LOW05",
+      "claim_id": "C1",
+      "support_scope_zh": "文獻支持概念與比較角度；本卡具體操作是設計推導，試算值及專案約束不是文獻的普適結論。"
+    },
+    {
+      "library_id": "FANSTEIN10",
+      "claim_id": "C1",
+      "support_scope_zh": "文獻支持概念與比較角度；本卡具體操作是設計推導，試算值及專案約束不是文獻的普適結論。"
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "enforcement": "CANDIDATE_ONLY",
+  "authority_ref": null,
+  "local_context_refs": [],
+  "debates_zh": "上述做法是文獻引導的設計推導，兩種方案各有代價；不得以某一方法、作者或地域替 Founder 決定。",
+  "context_validity_zh": "文獻地域與方法見 library；跨地域只能借用比較框架，數值須本地量測、校準與審核。",
+  "exceptions_zh": "法規、門禁、資料缺口、無障礙及已接受 D1/D2 優先；資料不足列 UNKNOWN，試算參數須 Founder 確認。",
+  "version": "0.2.0"
+}

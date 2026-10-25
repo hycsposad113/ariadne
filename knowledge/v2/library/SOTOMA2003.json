@@ -1,0 +1,46 @@
+{
+  "id": "SOTOMA2003",
+  "title": "Analysis of Land Use Zoning Regulations and Green Coverage Ratio",
+  "authors": [
+    "Masahiro Sotoma",
+    "Hiroshi Miyazaki",
+    "Takashi Kyakuno",
+    "Masakazu Moriyama"
+  ],
+  "year": 2003,
+  "venue_or_publisher": "Journal of Asian Architecture and Building Engineering",
+  "doi": "10.3130/jaabe.2.b29",
+  "tradition": "日本土地使用分區與綠地管制",
+  "region": [
+    "日本"
+  ],
+  "method": "分區法規與綠覆率關聯分析",
+  "claim": "研究題名與書目範圍確認其檢視日本土地使用分區規則和綠覆率；本條目未由摘要核對各用途地域的數值表。",
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "ACADEMIC_PAPER",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "研究題名與書目範圍確認其檢視日本土地使用分區規則和綠覆率；本條目未由摘要核對各用途地域的數值表。",
+      "strength": "THEORETICAL",
+      "scope_zh": "僅核對 Crossref 書目欄位；本任務未下載全文，也未把書目主題當成精確法規表或研究結果。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref",
+    "query": {
+      "title": "Analysis of Land Use Zoning Regulations and Green Coverage Ratio",
+      "author": "Masahiro Sotoma",
+      "year": 2003
+    },
+    "matched_record_id": "10.3130/jaabe.2.b29",
+    "checked_at_utc": "2026-10-08T09:43:44Z",
+    "match_notes_zh": "直接 Crossref DOI 記錄核對書名、作者與出版年；只確認書目。"
+  },
+  "limitations_zh": "僅保存公開書目欄位與自行撰寫的範圍說明，沒有保存摘要或全文。",
+  "metadata_licence_zh": "只保存公開書目欄位和自行撰寫的來源說明；本任務未判定資料服務授權細節。"
+}

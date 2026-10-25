@@ -1,0 +1,71 @@
+{
+  "id": "KU-CLI-008",
+  "domain": "CLI",
+  "subtopic": "室外熱舒適指標",
+  "type": "concept",
+  "title_zh": "熱舒適要同時閱讀氣象與人的適應",
+  "title_en": "Thermal comfort combines weather and human adaptation",
+  "summary_zh": "Nikolopoulou 與 Steemers 將心理適應放入戶外空間熱舒適的設計討論。Brager 與 de Dear 回顧熱適應研究，說明建成環境中的舒適判斷不只取決於固定空氣溫度。這些概念提醒設計團隊把輻射、風、濕度、活動和使用者經驗並列。若只報一種氣象指標，便難以說明特定群體在特定時段的實際感受。",
+  "key_points_zh": [
+    "戶外舒適是氣候條件和適應行為共同形成的經驗。",
+    "指標應服務於具體族群、活動和季節問題。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "library_id": "NIKOLOPOULOU2003",
+        "claim_zh": "題名確認研究把心理適應納入都市空間熱舒適設計；不把單一生理指標等同所有使用者的舒適判斷；本單元 KU-CLI-008 對照「Nikolopoulou 與 Steemers 將心理適應放入戶外空間熱舒適的設計討論」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "熱舒適與心理適應研究",
+        "context_region": "都市公共空間",
+        "locator": null
+      },
+      {
+        "library_id": "BRAGER1998",
+        "claim_zh": "題名確認文章回顧建成環境中的熱適應模型；不能把適應性舒適研究替代戶外風、遮陰與輻射量測；本單元 KU-CLI-008 對照「Nikolopoulou 與 Steemers 將心理適應放入戶外空間熱舒適的設計討論」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "文獻回顧",
+        "context_region": "跨地域建築環境",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "戶外舒適報告一併記錄氣象條件、活動類型和訪談或問卷的取樣方式。",
+    "按季節和群體呈現分布，而非假設所有人共享一個舒適感。"
+  ],
+  "applies_when_zh": "適用於公共空間熱舒適研究及設計前後評估。",
+  "not_applicable_when_zh": "不能以氣候平均或單一舒適圖表替代實際使用者資料。",
+  "debates_zh": "適應性的觀察可能反映選擇、服裝或停留時長；研究期間與樣本構成會限制其外推。",
+  "sources": [
+    {
+      "library_id": "NIKOLOPOULOU2003",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "BRAGER1998",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "適應性熱舒適",
+  "region": "戶外空間與建築環境",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": null,
+      "topic": "室外熱舒適指標"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": null,
+      "topic": "公共空間熱舒適"
+    }
+  ],
+  "version": "v2.0"
+}

@@ -1,0 +1,74 @@
+{
+  "id": "KU-CLI-055",
+  "domain": "CLI",
+  "subtopic": "日照與遮陰",
+  "type": "critique",
+  "title_zh": "住宅日照要求不等同公共空間遮蔭需求",
+  "title_en": "住宅日照要求不等同公共空間遮蔭需求",
+  "summary_zh": "窗面日照、庭院日照和戶外活動遮蔭需要不同的時間窗口和使用者假設。瑞典規劃工具研究聚焦日照在行政流程中的使用，戶外熱舒適研究則考量暴露和心理適應。若把一種日照門檻套到所有用途，可能同時過度曝曬或過度遮蔽。",
+  "key_points_zh": [
+    "住宅採光和避暑遮陰可能方向相反。",
+    "兒童遊戲和長者座位需要不同季節策略。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "library_id": "KANTERS2021",
+        "claim_zh": "題名確認研究整理瑞典的日照規劃流程、指標與工具；它是特定制度脈絡，不是 M4H 法規；本單元 KU-CLI-055 對照「窗面日照、庭院日照和戶外活動遮蔭需要不同的時間窗口和使用者假設」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "日照規劃程序與指標研究",
+        "context_region": "Sweden",
+        "locator": null
+      },
+      {
+        "library_id": "NG10",
+        "claim_zh": "高密度設計必須同時比較社會與環境條件；不能由密度數字直接推出唯一建築型態；本單元 KU-CLI-055 對照「窗面日照、庭院日照和戶外活動遮蔭需要不同的時間窗口和使用者假設」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "編輯專書／案例綜述",
+        "context_region": "香港、亞洲",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "為每種用途設定分析時段和敏感人群。",
+    "以日照與熱暴露兩張圖共同解讀公共空間。"
+  ],
+  "applies_when_zh": "適用於住宅和公共空間日照取捨。",
+  "not_applicable_when_zh": "不可只靠一個準則決定所有戶外空間的遮蔭比例。",
+  "debates_zh": "公開指南若只重視太陽取得，可能低估熱浪期間遮蔭的健康價值。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "KANTERS2021",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "NG10",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "日照公平與熱適應",
+  "region": "Sweden；都市公共空間",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "日照與遮陰"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": null,
+      "topic": "日照與遮陰"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0"
+}

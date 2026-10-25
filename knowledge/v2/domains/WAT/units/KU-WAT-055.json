@@ -1,0 +1,104 @@
+{
+  "id": "KU-WAT-055",
+  "domain": "WAT",
+  "subtopic": "雨水滯留量的設計值",
+  "type": "value_range",
+  "title_zh": "生物滯留凹地尺寸應以匯水區和土壤測試決定",
+  "title_en": "生物滯留凹地尺寸應以匯水區和土壤測試決定",
+  "summary_zh": "wadi 以淺凹地暫存並讓雨水入滲，排空能力取決於土層滲透、底部標高和地下水位。Den Helder 指引要求表層 K 值落在每日 0.5 至 1.5 公尺並在 24 小時內排空，另限制水深不超過 0.30 公尺。這些是該市的工程要求，不是跨氣候帶的最佳值。",
+  "key_points_zh": [
+    "面積比例不能替代入流與滲透計算。",
+    "預處理可降低泥沙對介質的堵塞。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "library_id": "DENHELDER_LIOR2026",
+        "claim_zh": "Den Helder 的 wadi 條款把表層 K 值列為 0.5–1.5 m/day，積水深度上限為 0.30 m，並以 24 小時排空控制滯水；這與本單元討論的入滲及水深參數相對應。",
+        "claim_verification": "OFFICIAL_PRIMARY_SOURCE_REVIEW",
+        "effect_or_value": "0.5–1.5",
+        "study_design": "市政基礎設施設計指引",
+        "context_region": "Den Helder, Nederland",
+        "locator": "LIOR 2026–2027, sections 4.4.6.7–4.4.6.8, lines 2393–2423"
+      },
+      {
+        "library_id": "BERNDTSSON2010",
+        "claim_zh": "書目確認本文題名聚焦「Green roof performance towards management of runoff water quantity and quality: A review」；目前只完成作者、年份、題名與 DOI 核對，未將摘要或全文結論納入此記錄；本單元 KU-WAT-055 對照「wadi 以淺凹地暫存並讓雨水入滲，排空能力取決於土層滲透、底部標高和地下水位」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "文獻回顧；目前僅核對書目範圍",
+        "context_region": "跨地域",
+        "locator": null
+      },
+      {
+        "library_id": "STOVIN2010",
+        "claim_zh": "書目確認本文題名聚焦「The potential of green roofs to manage Urban Stormwater」；目前只完成作者、年份、題名與 DOI 核對，未將摘要或全文結論納入此記錄；本單元 KU-WAT-055 對照「wadi 以淺凹地暫存並讓雨水入滲，排空能力取決於土層滲透、底部標高和地下水位」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "案例或場地研究；目前僅核對書目範圍",
+        "context_region": "英國研究脈絡",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "記錄匯水區和設施底層滲透試驗。",
+    "為安全溢流和植栽耐水性留出空間。"
+  ],
+  "applies_when_zh": "適用於下凹綠地、雨水花園和道路樹池。",
+  "not_applicable_when_zh": "不適用於以通用百分比取代場址計算。",
+  "debates_zh": "K 值測量方法、季節性地下水與前期含水狀態會使實際排空速度偏離設計；建成後仍須驗證入滲。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "DENHELDER_LIOR2026",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "BERNDTSSON2010",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "STOVIN2010",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "生物滯留設計參數",
+  "region": "英國與國際經驗；跨地域",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "雨水滯留量的設計值"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Sustainable Futures by Design",
+      "topic": "雨水滯留量的設計值"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0",
+  "values": [
+    {
+      "name": "wadi 表層滲透係數 K",
+      "range": "0.5–1.5",
+      "unit": "m/day",
+      "context": "用途：以「wadi 表層滲透係數 K」作為來源情境參照；Den Helder wadi 指引值，須以場地試驗確認並滿足 24 小時排空；這不是本基地法規；來源所列地域：Den Helder, Nederland。",
+      "library_id": "DENHELDER_LIOR2026"
+    },
+    {
+      "name": "wadi 最大暫存水深",
+      "range": "0.30",
+      "unit": "m",
+      "context": "用途：以「wadi 最大暫存水深」作為來源情境參照；Den Helder 指引為降低溺水風險所列最大水位；這不是本基地法規；來源所列地域：Den Helder, Nederland。",
+      "library_id": "DENHELDER_LIOR2026"
+    }
+  ]
+}

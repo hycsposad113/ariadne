@@ -1,0 +1,43 @@
+{
+  "id": "VANBECKHOVEN2003",
+  "title": "Social effects of urban restructuring: a case study in Amsterdam and Utrecht, the Netherlands",
+  "authors": [
+    "Ellen van Beckhoven",
+    "Ronald van Kempen"
+  ],
+  "year": 2003,
+  "venue_or_publisher": "Housing Studies",
+  "doi": "https://doi.org/10.1080/0267303032000135474",
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "荷蘭住宅重組與社會效果研究",
+  "region": "荷蘭阿姆斯特丹與烏特勒支",
+  "method": "跨城市個案研究；未保存Crossref摘要",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "研究以Amsterdam和Utrecht為都市重組與社會效果的比較情境；本記錄不能確認Amsterdam樣本涵蓋Oostelijk Havengebied。",
+      "strength": "THEORETICAL",
+      "scope_zh": "此條目僅支持書目範圍與可確認的案例背景；未核對摘要或全文的社會結果不可由此推斷。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref",
+    "query": {
+      "title": "Social effects of urban restructuring: a case study in Amsterdam and Utrecht, the Netherlands",
+      "author": "Beckhoven",
+      "year": 2003,
+      "api_query": "Crossref GET /works?query.bibliographic=Oostelijk Havengebied Amsterdam case study housing regeneration"
+    },
+    "matched_record_id": "10.1080/0267303032000135474",
+    "checked_at_utc": "2026-10-08T14:13:16Z",
+    "match_notes_zh": "Crossref核對題名、作者欄、年份及DOI；沒有將API摘要存入repository。"
+  },
+  "limitations_zh": "未取得全文；對該案例的地界、用途或效果需以更直接的規劃及學術資料核對。",
+  "critique_relationship_zh": "本記錄不宣稱與其他來源存在直接互引或逐一反駁關係。",
+  "metadata_licence_zh": "Crossref公開書目欄位；精確metadata授權未核驗，標UNKNOWN。"
+}

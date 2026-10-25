@@ -1,0 +1,98 @@
+{
+  "id": "KU-HOU-014",
+  "domain": "HOU",
+  "subtopic": "荷蘭 woningcorporaties 社會住宅模式",
+  "type": "critique",
+  "title_zh": "荷蘭 woningcorporaties 社會住宅模式｜批評與反例",
+  "title_en": "Dutch social housing associations — Critique and counterexample",
+  "summary_zh": "荷蘭 woningcorporaties 的制度角色應與社會住宅的融資、租金和目標住戶一併理解。歐洲比較顯示各國供應與私有化路徑不同；荷蘭研究也提醒，大規模社會租屋不會自動消除貧窮或排除。這些歷史與政策研究不能代替現行資格及租金規則。",
+  "key_points_zh": [
+    "讀「荷蘭 woningcorporaties 社會住宅模式｜批評與反例」時，制度名稱相同也可能涵蓋不同對象和補助模式；同時把住房政策的名稱相同，補助對象、租金規則和供應者角色仍可能不同列為核對條件。",
+    "讀「荷蘭 woningcorporaties 社會住宅模式｜批評與反例」時，適用於住宅制度比較和社會住宅設計研究；同時把住房政策的名稱相同，補助對象、租金規則和供應者角色仍可能不同列為核對條件。",
+    "讀「荷蘭 woningcorporaties 社會住宅模式｜批評與反例」時，限制：本節是制度歷史描述，不提供當前荷蘭資格或租金法律標準；同時把住房政策的名稱相同，補助對象、租金規則和供應者角色仍可能不同列為核對條件。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "Scanlon 等人比較歐洲社會住宅的定義、融資、私有化與都市更新，並指出制度差異限制各國比例的直接移植。",
+        "library_id": "SCANLON2007",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "歐洲",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "Hooimeijer 以荷蘭社會住宅討論社會排除，指出住宅供給未消除貧窮，勞動市場、空間集中與政治參與也影響居住處境。",
+        "library_id": "HOOIMEIJER1998",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "荷蘭",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "對照供應者、租金制度、受益住戶和地方治理責任，並以現行荷蘭規則核對制度沿革。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "在「荷蘭 woningcorporaties 社會住宅模式｜批評與反例」的來源情境裡，分開記錄供應者、租金規則、目標對象和地方土地政策；落到設計時還要按住房政策的名稱相同，補助對象、租金規則和供應者角色仍可能不同調整。",
+      "tradeoff_zh": "此選項把「荷蘭 woningcorporaties 社會住宅模式｜批評與反例」的工作放在住房政策的名稱相同，補助對象、租金規則和供應者角色仍可能不同上；需要承擔的協調或維護代價則由「設計者可依地方目標選擇，也可提出反例；這是待驗證的主張，不是普遍法規」界定。",
+      "library_ids": []
+    },
+    {
+      "option_zh": "「荷蘭 woningcorporaties 社會住宅模式｜批評與反例」可把取向落在公共、非營利與市場供應比例會改變可負擔性和居住選擇，但需連同住房政策的名稱相同，補助對象、租金規則和供應者角色仍可能不同決定適用方式。",
+      "tradeoff_zh": "此選項把「荷蘭 woningcorporaties 社會住宅模式｜批評與反例」的工作放在住房政策的名稱相同，補助對象、租金規則和供應者角色仍可能不同上；需要承擔的協調或維護代價則由「設計者可依地方目標選擇，也可提出反例；這是待驗證的主張，不是普遍法規」界定。",
+      "library_ids": []
+    }
+  ],
+  "applies_when_zh": "「荷蘭 woningcorporaties 社會住宅模式｜批評與反例」可在適用於住宅制度比較和社會住宅設計研究時使用，前提是住房政策的名稱相同，補助對象、租金規則和供應者角色仍可能不同與來源情境相符。",
+  "not_applicable_when_zh": "若住房政策的名稱相同，補助對象、租金規則和供應者角色仍可能不同不成立，就不能把「荷蘭 woningcorporaties 社會住宅模式｜批評與反例」的結論延伸到其他情況；本節是制度歷史描述，不提供當前荷蘭資格或租金法律標準。",
+  "debates_zh": "公共或非營利供應可擴大住房保障，集中供應也可能和空間排除並存。",
+  "sources": [
+    {
+      "library_id": "HOOIMEIJER1998",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "SCANLON2007",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "加拿大社會住宅與城市空間；協作規劃",
+  "region": "加拿大安大略與多倫多，1965–1995；英國",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "荷蘭 woningcorporaties 社會住宅模式"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "荷蘭 woningcorporaties 社會住宅模式"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "荷蘭 woningcorporaties 社會住宅模式"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "荷蘭 woningcorporaties 社會住宅模式"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-HOU-010",
+    "KU-HOU-011",
+    "KU-HOU-012"
+  ]
+}

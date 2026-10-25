@@ -1,0 +1,88 @@
+{
+  "id": "KU-REG-052",
+  "domain": "REG",
+  "subtopic": "開發獎勵與容積移轉",
+  "type": "method",
+  "title_zh": "開發獎勵與容積移轉｜分析方法",
+  "title_en": "Development incentives and transfer of development rights — Analytical method",
+  "summary_zh": "可負擔住宅的供給缺口與分區造成的成本壓力，需和開發權的交易、接收容量及公共回饋分開估算。 基加利研究指出分區對成本有中度影響，且政策落實仍受制度條件限制；Noble 的研究範圍確認 FAR 可作為開發工具，但沒有可核對的通用獎勵比例。 方案評估因此應展示因果假設與實際交付，而非套用固定折算率。",
+  "key_points_zh": [
+    "分析土地價格、公共回饋與形態變化的因果鏈。",
+    "分析土地價格、公共回饋與形態變化的因果鏈。",
+    "讀「開發獎勵與容積移轉｜分析方法」時，限制：本庫沒有建立任何普遍獎勵比例或容積移轉公式；同時把可負擔住宅的供給缺口與分區造成的成本壓力，需和開發權的交易、接收容量及公共回饋分開估算列為核對條件。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "書目確認該研究討論 FAR 作為城市開發工具；本條目不據此推定任何特定城市現行上限。",
+        "library_id": "NOBLE1993",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "落實「開發獎勵與容積移轉｜分析方法」時可先土地拍賣、密度獎勵與權利移轉是不同工具，需分別建模，再用可負擔住宅的供給缺口與分區造成的成本壓力，需和開發權的交易、接收容量及公共回饋分開估算核對方案的空間後果。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "「開發獎勵與容積移轉｜分析方法」可把取向落在辨認基準容積、獎勵條件、接收容量及履約追蹤，但需連同可負擔住宅的供給缺口與分區造成的成本壓力，需和開發權的交易、接收容量及公共回饋分開估算決定適用方式。",
+      "tradeoff_zh": "「開發獎勵與容積移轉｜分析方法」採用「「開發獎勵與容積移轉｜分析方法」可把取向落在辨認基準容積、獎勵條件、接收容量及履約追蹤，但需連同可負擔住宅的供給缺口與分區造成的成本壓力，需和開發權的交易、接收容量及公共回饋分開估算決定適用方式」時，得失要沿著可負擔住宅的供給缺口與分區造成的成本壓力，需和開發權的交易、接收容量及公共回饋分開估算檢查；荷蘭樣本中混合街區住宅平均估值約高 2.5%，但偏好因住宅型態而異，製造與批發用途亦可能被認為不相容。",
+      "library_ids": [
+        "NOBLE1993"
+      ]
+    },
+    {
+      "option_zh": "「開發獎勵與容積移轉｜分析方法」可把取向落在土地拍賣、密度獎勵與權利移轉是不同工具，需分別建模，但需連同可負擔住宅的供給缺口與分區造成的成本壓力，需和開發權的交易、接收容量及公共回饋分開估算決定適用方式。",
+      "tradeoff_zh": "「開發獎勵與容積移轉｜分析方法」的主要代價不是抽象的建造成本，而是荷蘭樣本中混合街區住宅平均估值約高 2.5%，但偏好因住宅型態而異，製造與批發用途亦可能被認為不相容；因此先以可負擔住宅的供給缺口與分區造成的成本壓力，需和開發權的交易、接收容量及公共回饋分開估算作方案比較條件。",
+      "library_ids": [
+        "NOBLE1993"
+      ]
+    }
+  ],
+  "applies_when_zh": "「開發獎勵與容積移轉｜分析方法」可在適用於政策工具比較和土地價值捕捉的概念分析時使用，前提是可負擔住宅的供給缺口與分區造成的成本壓力，需和開發權的交易、接收容量及公共回饋分開估算與來源情境相符。",
+  "not_applicable_when_zh": "若可負擔住宅的供給缺口與分區造成的成本壓力，需和開發權的交易、接收容量及公共回饋分開估算不成立，就不能把「開發獎勵與容積移轉｜分析方法」的結論延伸到其他情況；本庫沒有建立任何普遍獎勵比例或容積移轉公式。",
+  "debates_zh": "荷蘭樣本中混合街區住宅平均估值約高 2.5%，但偏好因住宅型態而異，製造與批發用途亦可能被認為不相容。",
+  "sources": [
+    {
+      "library_id": "NOBLE1993",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "SINGLE_SOURCE",
+  "tradition": "非洲分區與可負擔住宅；土地經濟與用途混合",
+  "region": "基加利，盧安達；荷蘭住宅市場",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Planning Complex Cities",
+      "topic": "開發獎勵與容積移轉"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Urban Design Contexts and Operations",
+      "topic": "開發獎勵與容積移轉"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "開發獎勵與容積移轉"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban design governance",
+      "topic": "開發獎勵與容積移轉"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-REG-049",
+    "KU-REG-050",
+    "KU-REG-051"
+  ]
+}

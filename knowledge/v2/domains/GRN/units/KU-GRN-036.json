@@ -1,0 +1,60 @@
+{
+  "id": "KU-GRN-036",
+  "domain": "GRN",
+  "subtopic": "遊戲與兒童",
+  "type": "design_principle",
+  "title_zh": "兒童遊戲區需與街道安全銜接",
+  "title_en": "Play areas need safe street connections",
+  "summary_zh": "兒童能否從家和學校獨立抵達，比園內設備華麗更直接影響日常使用。過街距離、車速和人行連續性會決定陪伴負擔。附近交通管理變更也會影響安全感。公園圍欄可以保護幼童，也可能阻斷可達性。",
+  "key_points_zh": [
+    "兒童能否從家和學校獨立抵達，比園內設備華麗更直接影響日常使用",
+    "過街距離、車速和人行連續性會決定陪伴負擔"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "兒童能否從家和學校獨立抵達，比園內設備華麗更直接影響日常使用。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "瑞典",
+        "library_id": "NORDH09",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "公園圍欄可以保護幼童，也可能阻斷可達性。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "從社區路線追蹤到遊戲場入口並記錄跨越道路的位置。"
+  ],
+  "applies_when_zh": "適用於規劃兒童友善的公園網絡。",
+  "not_applicable_when_zh": "不宜將場內安全與場外到達拆開評估。",
+  "debates_zh": "公園圍欄可以保護幼童，也可能阻斷可達性。",
+  "sources": [
+    {
+      "library_id": "NORDH09",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "KACZYNSKI08",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "恢復性環境與北歐景觀",
+  "region": "瑞典",
+  "curriculum_refs": [
+    {
+      "school": "UCL Bartlett",
+      "course": "Critical Debates in Urban Design",
+      "topic": "遊戲與兒童"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-GRN-035"
+  ]
+}

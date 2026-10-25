@@ -1,0 +1,110 @@
+{
+  "id": "KU-CAS-024",
+  "domain": "CAS",
+  "subtopic": "街道與交通—大眾運輸與臨時道路開放",
+  "type": "case",
+  "title_zh": "波哥大 TransMilenio 與 Ciclovía：固定走廊和週期性公共道路",
+  "title_en": "Bogotá TransMilenio and Ciclovía: Dedicated Corridors and Recurring Open Streets",
+  "summary_zh": "TransMilenio 以專用幹線、車站和端點門戶構成快速公車骨架；Ciclovía 則在星期日與假日按時段開放相連道路，兩者是不同尺度的交通安排。研究者 Moreno 與 Miralles-Guasch 專門討論自行車作為 TransMilenio 接駁方式；官方機構另外公布 Ciclovía 路網和服務時段。官方公布的參與人數是計畫管理者統計，不等同於獨立效果評估。比較案例時應分開檢視日常通勤、接駁、安全，以及週末休閒使用。",
+  "key_points_zh": [
+    "BRT 的乘車走廊與自行車接駁共同決定站點可達性，停車與安全接續不能略過。",
+    "Ciclovía 是定時共享公共道路的休閒計畫，不能拿它的週末人流替代日常交通模式轉移。"
+  ],
+  "evidence": {
+    "strength": "CASE_EVIDENCE",
+    "findings": [
+      {
+        "claim_zh": "Moreno 與 Miralles-Guasch 的論文題名和書目確認其研究自行車接駁 TransMilenio 系統及波哥大—Soacha 關係；此處不聲稱未核讀的接駁成效。",
+        "effect_or_value": "研究問題聚焦自行車與 BRT 接駁",
+        "study_design": "交通與城市發展期刊個案研究；方法及結果未核全文",
+        "context_region": "哥倫比亞波哥大與 Soacha",
+        "library_id": "MORENO_MIRALLES2017",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "TransMilenio 官方資料說明幹線使用專用走廊、端點門戶及車站，並列出與整合公交的運作組成。",
+        "effect_or_value": "營運者對系統構成的說明",
+        "study_design": "交通機構公開系統介紹",
+        "context_region": "哥倫比亞波哥大",
+        "library_id": "TRANSMILENIO2025",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "IDRD 公布 Ciclovía 在星期日及假日開放 141.46 公里相連道路，時段為上午7時至下午2時，並報告每週使用者數；這是管理機構口徑。",
+        "effect_or_value": "官方公布路網長度與週期時段；人流數屬計畫方統計",
+        "study_design": "市級休閒運動計畫行政資料",
+        "context_region": "哥倫比亞波哥大",
+        "library_id": "BOGOTA_CICLOVIA2026",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "將站點步行圈、可鎖車設施、道路穿越和轉乘成本納入 BRT 接駁評估，並按居住地和通勤時段拆分。",
+    "把定期道路開放的路線、人行替代動線、沿線商家出入及急救通道一起畫進活動管理圖。"
+  ],
+  "applies_when_zh": "城市在建設大容量公車走廊的同時，也希望用週期性道路開放測試新的公共空間使用方式時。",
+  "not_applicable_when_zh": "若站點周邊缺少安全跨越、可靠營運或週末道路管制替代方案，示範活動不會補上日常可達缺口。",
+  "debates_zh": "TransMilenio 與 Ciclovía 的治理機制、服務對象和評估時間尺度不同。大型 BRT 的可達性與容量需和投資、票價、接駁品質一起檢查；週末道路開放則須避免把管理機構的參與人數直接解讀成普遍健康或交通效果。",
+  "sources": [
+    {
+      "library_id": "MORENO_MIRALLES2017",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "TRANSMILENIO2025",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "BOGOTA_CICLOVIA2026",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "拉丁美洲快速公車、公共道路再分配與健康休閒",
+  "region": "拉丁美洲／哥倫比亞波哥大",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": null,
+      "topic": "大眾運輸與自行車接駁"
+    },
+    {
+      "school": "MIT",
+      "course": null,
+      "topic": "交通公平與公共道路政策"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": null,
+      "topic": "都市公共空間與日常生活"
+    }
+  ],
+  "case": {
+    "location": "哥倫比亞波哥大市 TransMilenio 網絡與 IDRD 管理的 Ciclovía 週期性道路開放路線",
+    "period": "TransMilenio 自 2000 年起營運；Ciclovía 官方沿革追溯至 1976 年",
+    "area_ha": null,
+    "fsi": null,
+    "gsi": null,
+    "program_mix": "快速公車幹線、車站與轉乘門戶、整合公交、部分自行車接駁；Ciclovía 在特定星期日與假日開放道路供自行車和休閒活動。",
+    "key_strategies_zh": [
+      "以專用公車走廊和分級站點提供高容量城市運輸。",
+      "在每週固定時段封閉或調整部分道路，提供跨區的步行、騎車和運動空間。"
+    ],
+    "outcomes_zh": [
+      "TransMilenio 官方確認專用幹線、站點與整合公交服務構成。",
+      "IDRD 公布 Ciclovía 路線及開放時段；官方每週人流資料尚需以統計方法和歷年表格另核。"
+    ],
+    "critiques_zh": [
+      "BRT 成效應包括票價承受度、服務可靠度、接駁安全與被走廊切割的街區，而不只看乘客量。",
+      "Ciclovía 的週末使用不能替代日常自行車網、工作地接駁或對汽車依賴的分析。"
+    ]
+  },
+  "version": "v2.0"
+}

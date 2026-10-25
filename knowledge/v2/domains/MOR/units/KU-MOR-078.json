@@ -1,0 +1,92 @@
+{
+  "id": "KU-MOR-078",
+  "domain": "MOR",
+  "subtopic": "周邊式、合院、板樓、點式、連棟與基座塔樓",
+  "type": "value_range",
+  "title_zh": "Gehl 公共生活中的社會視距",
+  "title_en": "Gehl social field of vision in public life",
+  "summary_zh": "距離受到視力、光線、背景、年齡和文化情境影響，不是固定的人際行為閾值。 安排座位、活動口袋和入口時，以實際遮蔽物和視線高度檢查互相看見的條件。 記錄 哥本哈根與歐洲公共空間觀察 與「公共空間中辨認表情、活動與人際互動的尺度」的量測分母，再和另一種尺度或用途並排比較。",
+  "key_points_zh": [
+    "Gehl 的公共生活尺度常以約 20–25 m 的面部可辨識距離和約 100 m 的活動觀察距離說明公共空間中的視覺接觸。",
+    "距離受到視力、光線、背景、年齡和文化情境影響，不是固定的人際行為閾值。",
+    "安排座位、活動口袋和入口時，以實際遮蔽物和視線高度檢查互相看見的條件。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "Gehl 的公共生活尺度常以約 20–25 m 的面部可辨識距離和約 100 m 的活動觀察距離說明公共空間中的視覺接觸。",
+        "effect_or_value": "約 20–25 m 可辨認面部表情；約 100 m 可察覺較大範圍活動",
+        "study_design": "跨案例尺度對照或明示假設的規劃計算",
+        "context_region": "哥本哈根與歐洲公共空間觀察",
+        "library_id": "GEHL10",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "以公共空間的實際停留與使用作觀察依據；不能由案例直接推定其他城市的廣場尺寸。",
+        "effect_or_value": null,
+        "study_design": "形態／制度比較的補充閱讀",
+        "context_region": "哥本哈根與歐洲公共空間觀察",
+        "library_id": "WHYTE80",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "Gehl 公共生活中的社會視距",
+      "range": "約 20–25 m 可辨認面部表情；約 100 m 可察覺較大範圍活動",
+      "unit": "m",
+      "context": "哥本哈根與歐洲公共空間觀察；用途：公共空間中辨認表情、活動與人際互動的尺度；對照書目：GEHL10；適用於制度或形態比較，這不是本基地法規。",
+      "library_id": "GEHL10"
+    }
+  ],
+  "design_implications_zh": [
+    "安排座位、活動口袋和入口時，以實際遮蔽物和視線高度檢查互相看見的條件。",
+    "記錄 哥本哈根與歐洲公共空間觀察 與「公共空間中辨認表情、活動與人際互動的尺度」的量測分母，再和另一種尺度或用途並排比較。"
+  ],
+  "applies_when_zh": "用於比較哥本哈根與歐洲公共空間觀察的公共空間中辨認表情、活動與人際互動的尺度，並明示此數值的來源、年份和面積分母。",
+  "not_applicable_when_zh": "距離受到視力、光線、背景、年齡和文化情境影響，不是固定的人際行為閾值。",
+  "debates_zh": "可見性支持辨識與互動，但也可能帶來監看壓力；視覺接觸不等於社會安全或包容。",
+  "sources": [
+    {
+      "library_id": "GEHL10",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "WHYTE80",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "公共生活設計",
+  "region": "哥本哈根與歐洲公共空間觀察",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "周邊式、合院、板樓、點式、連棟與基座塔樓"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "周邊式、合院、板樓、點式、連棟與基座塔樓"
+    },
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.330J Theory of City Form",
+      "topic": "周邊式、合院、板樓、點式、連棟與基座塔樓"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban form and density",
+      "topic": "周邊式、合院、板樓、點式、連棟與基座塔樓"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008"
+}

@@ -1,0 +1,98 @@
+{
+  "id": "KU-ARC-032",
+  "domain": "ARC",
+  "subtopic": "用途建築",
+  "type": "value_range",
+  "title_zh": "小型零售店的平面進深",
+  "title_en": "small retail unit depth",
+  "summary_zh": "街邊零售單元可用約 12–24 m 進深作初步試排，深度需與展示、服務區及後場的比例一起判讀。 入口面寬和店內可見深度影響商品辨識，不應只追求最大樓板面積。 後場若切斷採光，宜分層安排用途。",
+  "key_points_zh": [
+    "核心主張：街邊零售單元可用約 12–24 m 進深作初步試排，深度需與展示、服務區及後場的比例一起判讀。",
+    "量測檢查：用租戶面積圖記錄 storefront、sales floor 與 back-of-house 的尺寸和視線。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "街邊零售單元可用約 12–24 m 進深作初步試排，深度需與展示、服務區及後場的比例一起判讀。",
+        "effect_or_value": "約 12–24 m 作型態比較，依店種調整",
+        "study_design": "跨地域設計參照綜整；數值狀態依 claim_verification 註記",
+        "context_region": "跨地域；用途與當地法規需分開核驗",
+        "library_id": "TIMESAVER_TYPES01",
+        "locator": null,
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008"
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "small retail unit plan depth",
+      "range": "約 12–24 m 作型態比較，依店種調整",
+      "unit": "m",
+      "context": "地區：跨地域；用途：街道零售單元初期排布，不是規範；出處：Time-Saver Standards for Building Types；本基地法規：否；核對狀態：數值待原典交叉核對。",
+      "library_id": "TIMESAVER_TYPES01"
+    }
+  ],
+  "design_implications_zh": [
+    "由櫥窗內側量到後牆，標出可見銷售區、庫房與員工設施的邊界。"
+  ],
+  "applies_when_zh": "「小型零售店的平面進深」可在用於方案前期的量體、平面或空間品質篩檢時使用，前提是街邊零售單元可用約 12–24 m 進深作初步試排，深度需與展示、服務區及後場的比例一起判讀與來源情境相符。",
+  "not_applicable_when_zh": "若街邊零售單元可用約 12–24 m 進深作初步試排，深度需與展示、服務區及後場的比例一起判讀不成立，就不能把「小型零售店的平面進深」的結論延伸到其他情況；不得單獨作為許可、消防、結構或基地法規判定。",
+  "debates_zh": "零售業態從便利店到目的型商店差異很大，不能套用同一深度作成績標準。",
+  "sources": [
+    {
+      "library_id": "TIMESAVER_TYPES01",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "DOVEY14",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+  "tradition": "建築設計與住宅類型學",
+  "region": "跨地域；用途與當地法規需分開核驗",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Housing and the City / Design of the Urban Fabric",
+      "topic": "建築尺度與住宅平面"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "建築尺度與街道界面"
+    },
+    {
+      "school": "MIT",
+      "course": "Architecture and Urban Design",
+      "topic": "建築尺度與空間型態"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "建築尺度與公共生活"
+    }
+  ],
+  "check": {
+    "method_zh": "用租戶面積圖記錄 storefront、sales floor 與 back-of-house 的尺寸和視線。",
+    "inputs": [
+      "用途建築",
+      "尺寸／面積圖層",
+      "適用地區與用途標籤"
+    ],
+    "logic_zh": "將量測輸入轉成明確尺寸、比例或空間關係；越界只觸發複核，不自動取代設計決策。",
+    "limitations_zh": "量測結果只觸發「小型零售店的平面進深」的複核，不得單獨作為許可或法規判定。"
+  },
+  "version": "kb2-arc-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-ARC-027",
+    "KU-ARC-028",
+    "KU-ARC-029",
+    "KU-ARC-030",
+    "KU-ARC-031"
+  ]
+}

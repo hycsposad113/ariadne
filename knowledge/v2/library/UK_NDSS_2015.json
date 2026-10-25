@@ -1,0 +1,37 @@
+{
+  "id": "UK_NDSS_2015",
+  "title": "Technical housing standards – nationally described space standard",
+  "authors": [
+    "UK Ministry of Housing, Communities and Local Government"
+  ],
+  "year": 2015,
+  "venue_or_publisher": "UK Government",
+  "doi": null,
+  "isbn": "978-1-4098-4567-6",
+  "openalex_id": null,
+  "kind": "PRACTICE_MANUAL",
+  "tradition": "英格蘭住宅空間標準",
+  "region": [
+    "England"
+  ],
+  "method": "逐段檢視 GOV.UK 官方公開頁與表 1；新住宅標準，可由地方規劃政策採用。",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "英格蘭 NDSS 規定特定入住人數下的最小住宅總室內面積、臥室尺寸、儲物與樓板至天花高度。",
+      "strength": "NORMATIVE_PRACTICE",
+      "scope_zh": "僅適用英格蘭；頁面明示須由地方計畫採用，不能外推為其他地區法律。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED_OFFICIAL_SITE",
+    "url": "https://www.gov.uk/government/publications/technical-housing-standards-nationally-described-space-standard/technical-housing-standards-nationally-described-space-standard",
+    "accessed_utc": "2026-10-08T15:08:39Z",
+    "method": "official public guidance; page paragraphs 83–112 and Table 1 read",
+    "match_notes_zh": "已讀官方 HTML 條文與完整 Table 1；確認適用 England，且標準需地方計畫採用。"
+  },
+  "limitations_zh": "英格蘭的新住宅空間標準；並非英國所有地區或荷蘭基地的通用法規。",
+  "metadata_licence_zh": "保存官方文件書目欄位與自行改寫摘要；未複製表格原文。"
+}

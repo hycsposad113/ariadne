@@ -1,0 +1,74 @@
+{
+  "id": "KU-WAT-061",
+  "domain": "WAT",
+  "subtopic": "洪水風險與多層安全",
+  "type": "method",
+  "title_zh": "以暴露清單追蹤洪水期間失效服務",
+  "title_en": "以暴露清單追蹤洪水期間失效服務",
+  "summary_zh": "風險盤點可以將住宅、醫療、能源和交通等資產連到淹水情境與服務中斷。沿海暴露研究展示人口與地勢資料對估算的影響；都市韌性框架則提醒服務中斷的後果並非平均分布。盤點表要記錄資料日期、空間解析度和缺漏。",
+  "key_points_zh": [
+    "資產暴露不等於預期損失或法律責任。",
+    "服務互相依賴可能放大局部故障的影響。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "library_id": "ADGER2000",
+        "claim_zh": "摘要指出社群韌性和生態韌性可能相互關聯，但生態系統韌性是否必然轉化為社群韌性仍未明確；本單元 KU-WAT-061 對照「風險盤點可以將住宅、醫療、能源和交通等資產連到淹水情境與服務中斷」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "ABSTRACT_REVIEW",
+        "effect_or_value": null,
+        "study_design": "概念分析",
+        "context_region": "社群與依賴環境資源的生計脈絡",
+        "locator": null
+      },
+      {
+        "library_id": "DAVOUDI12",
+        "claim_zh": "韌性概念的適用與政治作用需被追問；適應能力不能遮蓋誰承受失效風險；本單元 KU-WAT-061 對照「風險盤點可以將住宅、醫療、能源和交通等資產連到淹水情境與服務中斷」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "理論討論組文",
+        "context_region": "跨地域",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "逐項列出服務對象、替代路徑及停擺後果。",
+    "用地方資料替換全球初篩圖層。"
+  ],
+  "applies_when_zh": "適用於洪水暴露和關鍵服務盤點。",
+  "not_applicable_when_zh": "不適用於把資料缺失的資產計為零風險。",
+  "debates_zh": "用戶與資產清單的完整性通常不均，未登錄對象不能當成不存在。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "ADGER2000",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "DAVOUDI12",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "風險暴露和服務韌性",
+  "region": "全球低海拔沿海區；跨地域",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "洪水風險與多層安全"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Sustainable Futures by Design",
+      "topic": "洪水風險與多層安全"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0"
+}

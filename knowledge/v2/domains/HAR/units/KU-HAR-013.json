@@ -1,0 +1,65 @@
+{
+  "id": "KU-HAR-013",
+  "domain": "HAR",
+  "subtopic": "工業遺產與 adaptive reuse",
+  "type": "critique",
+  "title_zh": "棕地非正式使用的治理角色需要被看見",
+  "title_en": "Governance must account for informal use in brownfields",
+  "summary_zh": "上海棕地再生研究把政府與適應性再利用的關係放在核心問題中，並以「讓步式非正式性」提示正式規劃之外的使用秩序。這個研究題目要求規劃者辨認誰在使用閒置建築、誰取得正式租約，以及轉型時誰承擔搬遷風險。遺產建築再利用文獻同時把執行障礙列為重要議題。現有書目紀錄尚未核對這些案例中的參與者分配，因此本單元提出查核問題而不宣稱某一群體已受益。",
+  "key_points_zh": [
+    "盤點非正式使用者、正式租戶與權責機關，不能只看建物空置狀態。",
+    "尚未核實分配結果時應標為待查，不推定包容或排除。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "上海研究探討政府與棕地適應性再利用的關係；參與者及收益分配尚未從摘要核對。",
+        "effect_or_value": "研究明確提出治理與非正式性問題；個案結果待查",
+        "study_design": "上海棕地案例研究",
+        "context_region": "中國上海",
+        "library_id": "FAN2022",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "遺產建築再利用的實施挑戰需和低碳城市目標分開評估。",
+        "effect_or_value": "實施障礙是研究焦點，無通用解決率",
+        "study_design": "政策與實施挑戰研究",
+        "context_region": "亞洲城市脈絡",
+        "library_id": "YUNG2012",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "在基地調查階段補上非正式工作、短租、文化活動與空間共享紀錄，再安排轉型協商。"
+  ],
+  "applies_when_zh": "工業棕地仍有生產、文化或暫時使用的港區。",
+  "not_applicable_when_zh": "不適用於尚未訪談使用者便判斷其合法性或社會價值。",
+  "debates_zh": "正式用地分類可能看不見實際使用；也不能因此浪漫化不安全或被迫的非正式狀態。",
+  "sources": [
+    {
+      "library_id": "FAN2022",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "YUNG2012",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "治理與工業再利用",
+  "region": "中國上海與亞洲城市",
+  "curriculum_refs": [
+    {
+      "school": "UCL Bartlett",
+      "course": null,
+      "topic": "Industrial brownfields and governance"
+    }
+  ],
+  "version": "v2.0"
+}

@@ -1,0 +1,80 @@
+{
+  "id": "KU-STR-024",
+  "domain": "STR",
+  "subtopic": "街道斷面",
+  "type": "pattern",
+  "title_zh": "街道斷面：可重用模式",
+  "title_en": "Street cross-sections: Reusable pattern",
+  "summary_zh": "以連續步行帶為底，將停靠、植栽與短暫停留放在不切斷無障礙動線的位置。此模式以斷面同時分配移動、停留、植栽、排水、停靠和門前活動的橫向空間，總寬度只是眾多條件之一。需要留意的代價是一張典型斷面可能遮蔽沿線差異；把名義寬度當作實際可用寬度也會忽略家具、裝卸、排隊和通行障礙。",
+  "key_points_zh": [
+    "空間模式：斷面同時分配移動、停留、植栽、排水、停靠和門前活動的橫向空間，總寬度只是眾多條件之一",
+    "空間模式：以連續步行帶為底，將停靠、植栽與短暫停留放在不切斷無障礙動線的位置"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "街道斷面：可重用模式｜街道網與周邊土地發展共同塑造城鎮形式；不同網格應連同地形、歷史與用途脈絡比較",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "SOUTHWORTH03",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "街道斷面：可重用模式｜街道的交通條件會影響居住環境與日常活動；本單元不把案例尺度直接當通用標準",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "APPLEYARD81",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "先畫出「斷面同時分配移動、停留、植栽、排水、停靠和門前活動的橫向空間，總寬度只是眾多條件之一」所描述的空間關係，再用「一張典型斷面可能遮蔽沿線差異；把名義寬度當作實際可用寬度也會忽略家具、裝卸、排隊和通行障礙」檢查它可能帶來的代價。"
+  ],
+  "applies_when_zh": "當設計需要回應「斷面同時分配移動、停留、植栽、排水、停靠和門前活動的橫向空間，總寬度只是眾多條件之一」描述的空間關係，可先把模式畫入配置，再用現地使用資料檢查。",
+  "not_applicable_when_zh": "「斷面同時分配移動、停留、植栽、排水、停靠和門前活動的橫向空間，總寬度只是眾多條件之一」不能原樣移植到缺少相同交通、界面或治理條件的場地；需先檢查「一張典型斷面可能遮蔽沿線差異；把名義寬度當作實際可用寬度也會忽略家具、裝卸、排隊和通行障礙」指出的代價。",
+  "debates_zh": "一張典型斷面可能遮蔽沿線差異；把名義寬度當作實際可用寬度也會忽略家具、裝卸、排隊和通行障礙；檢視「街道斷面：可重用模式」的模式落地時，還需判斷「以連續步行帶為底，將停靠、植栽與短暫停留放在不切斷無障礙動線的位置」會如何改變方案結論。",
+  "sources": [
+    {
+      "library_id": "SOUTHWORTH03",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "APPLEYARD81",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "街道空間與道路設計",
+  "region": "跨地域理論或實務脈絡；來源地區依引用條目判讀",
+  "curriculum_refs": [
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "街道斷面：課綱對應主題"
+    },
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.330J Theory of City Form",
+      "topic": "街道斷面：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-STR-017",
+    "KU-STR-018",
+    "KU-STR-019",
+    "KU-STR-020",
+    "KU-STR-021",
+    "KU-STR-022",
+    "KU-STR-023"
+  ]
+}

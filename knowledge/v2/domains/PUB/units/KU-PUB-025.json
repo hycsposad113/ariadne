@@ -1,0 +1,66 @@
+{
+  "id": "KU-PUB-025",
+  "domain": "PUB",
+  "subtopic": "座位與停留",
+  "type": "concept",
+  "title_zh": "座位周邊必須容納照護動作",
+  "title_en": "Seating must fit care activities",
+  "summary_zh": "陪伴幼兒或長者的人常需要同時看顧周遭和放置物品。單人長椅未必能支持助行器、嬰兒車或多人短暫休息。照護情境會隨時段和家庭結構變化。增加停留空間時要保留可通過的連續路線。",
+  "key_points_zh": [
+    "陪伴幼兒或長者的人常需要同時看顧周遭和放置物品",
+    "單人長椅未必能支持助行器、嬰兒車或多人短暫休息"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "陪伴幼兒或長者的人常需要同時看顧周遭和放置物品。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "美國",
+        "library_id": "BEDIMORUNG05",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "增加停留空間時要保留可通過的連續路線。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "用照護者和被照護者共同檢查轉身、並坐、停車和遮蔭空間。"
+  ],
+  "applies_when_zh": "適用於遊戲場、診所外部和轉乘等候區。",
+  "not_applicable_when_zh": "不適用於把照護需求簡化為一般座位數量。",
+  "debates_zh": "增加停留空間時要保留可通過的連續路線。",
+  "sources": [
+    {
+      "library_id": "BEDIMORUNG05",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "THOMPSON02",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "公共健康與公園設計",
+  "region": "美國",
+  "curriculum_refs": [
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "座位與停留"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Critical Debates in Urban Design",
+      "topic": "座位與停留"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-PUB-024",
+    "KU-PUB-026"
+  ]
+}

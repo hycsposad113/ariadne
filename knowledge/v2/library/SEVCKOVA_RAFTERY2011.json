@@ -1,0 +1,44 @@
+{
+  "id": "SEVCKOVA_RAFTERY2011",
+  "title": "Uncertain benefits: Application of Bayesian melding to the Alaskan Way Viaduct in Seattle",
+  "authors": [
+    "Hana Ševčíková",
+    "Adrian E. Raftery",
+    "Paul A. Waddell"
+  ],
+  "year": 2011,
+  "venue_or_publisher": "Transportation Research Part A: Policy and Practice",
+  "doi": "https://doi.org/10.1016/j.tra.2011.03.009",
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "大型交通設施方案的不確定效益",
+  "region": "北美／美國 Seattle",
+  "method": "只核對書目與題名範圍；研究設計及實證結果未在此條目核讀",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "題名確認研究以 Seattle Alaskan Way Viaduct 檢視 Bayesian melding 與方案效益不確定性；本條目不記載未核讀的效果估計。",
+      "strength": "CASE_EVIDENCE",
+      "scope_zh": "只支持 Crossref 書目可確認的作者、年份、出版物與題旨；未據此複述摘要、全文結果或個案效果。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref REST API",
+    "query": {
+      "title": "Uncertain benefits: Application of Bayesian melding to the Alaskan Way Viaduct in Seattle",
+      "author": "Hana Ševčíková",
+      "year": 2011,
+      "api_query": "Crossref GET /works/10.1016/j.tra.2011.03.009"
+    },
+    "matched_record_id": "10.1016/j.tra.2011.03.009",
+    "checked_at_utc": "2026-10-08T14:23:52Z",
+    "match_notes_zh": "本批 Crossref 回應精確匹配 DOI、題名、作者與年份；未將 API 摘要存入 repository。"
+  },
+  "limitations_zh": "只保存書目和以自述方式限定的研究範圍；未讀全文，不能據此陳述效果量或因果。",
+  "critique_relationship_zh": "本記錄不宣稱與其他書目存在直接互引或逐一反駁關係。",
+  "metadata_licence_zh": "Crossref 公開書目欄位；精確 metadata license 未核驗，標 UNKNOWN。"
+}

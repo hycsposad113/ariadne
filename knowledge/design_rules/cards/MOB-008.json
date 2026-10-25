@@ -1,0 +1,94 @@
+{
+  "id": "MOB-008",
+  "title_zh": "城市車道保留",
+  "title_en": "Preserve city roads",
+  "domain": "mobility",
+  "stages": [
+    "S2",
+    "S3",
+    "S4",
+    "S7"
+  ],
+  "statement_zh": "既有城市車行道路預設保留，不能以方案偏好封路；逐路列出保留、改造或移除與權限，改變須 Founder 特別指示。",
+  "rationale_zh": "周邊交通與產業不能因一塊基地設計被切斷。",
+  "applies_when": {
+    "scale": [
+      "*"
+    ],
+    "land_use": [
+      "*"
+    ],
+    "strategy": [
+      "*"
+    ],
+    "mode": [
+      "*"
+    ]
+  },
+  "parameters": [
+    {
+      "name": "protected_geometry_change_max",
+      "value": 0,
+      "range": null,
+      "unit": "m²",
+      "provenance": "FOUNDER",
+      "source_ids": [],
+      "authority_ref": "Founder 2026-10-08 修正計畫及 J7 派工；正式生效仍以已接受專案紀錄解析",
+      "status": "PROJECT_INSTRUCTION",
+      "rationale_zh": "原專案保留／不相交條件的零違反值，維持既有意義；仍須從正式已接受狀態解析，載入卡不啟用。"
+    }
+  ],
+  "check": {
+    "method_zh": "比對凍結道路 id、幾何、功能與新方案 disposition；未核準改動 INVALID。",
+    "inputs": [
+      "凍結幾何／路網與 hash",
+      "已接受專案條件與版本",
+      "卡片參數與版本"
+    ],
+    "output": "檢查值、單位、方法、有效性、差異與限制；不自動採納",
+    "implementation_status": "SPECIFICATION_ONLY"
+  },
+  "check_unavailable_reason_zh": null,
+  "design_responses": [
+    {
+      "option": "1",
+      "action_zh": "保留車道並改善跨越位置",
+      "source_ids": [
+        "MARSHALL05"
+      ],
+      "tradeoff_zh": "行人仍需安全穿越。"
+    },
+    {
+      "option": "2",
+      "action_zh": "保持車道功能，在基地內另建慢行網",
+      "source_ids": [
+        "EWING10"
+      ],
+      "tradeoff_zh": "可能增加路網佔地。"
+    }
+  ],
+  "evidence_level": "ACADEMIC",
+  "evidence_strength": "NORMATIVE_PRACTICE",
+  "sources": [
+    {
+      "library_id": "MARSHALL05",
+      "claim_id": "C1",
+      "support_scope_zh": "文獻支持概念與比較角度；本卡具體操作是設計推導，試算值及專案約束不是文獻的普適結論。"
+    },
+    {
+      "library_id": "EWING10",
+      "claim_id": "C1",
+      "support_scope_zh": "文獻支持概念與比較角度；本卡具體操作是設計推導，試算值及專案約束不是文獻的普適結論。"
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "enforcement": "PROJECT_GUARDRAIL",
+  "authority_ref": "Founder 2026-10-08 修正計畫及 J7 派工；正式生效仍以已接受專案紀錄解析",
+  "debates_zh": "分離與共享的效果依速度、流量、行人脆弱性和管理而變；CROW 版本與細則未查證，不能宣稱規範合規。 已查證書目與主張的查閱層級見 library；不是逐頁核驗或本基地因果結論。",
+  "context_validity_zh": "荷蘭／丹麥／德國自行車研究支持整體系統，非 M4H 特定距離或寬度。港區貨運、消防、無障礙與兒童需求需地方資料。",
+  "exceptions_zh": "卡片不可替代現行法規、產權、無障礙或已接受 D1/D2。缺必要資料即回報 UNKNOWN；例外須由 Founder 明確決定並保留原結果。",
+  "version": "0.2.0",
+  "local_context_refs": [
+    "FOUNDER"
+  ]
+}

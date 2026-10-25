@@ -1,0 +1,48 @@
+{
+  "id": "TAUBENBOCK2020",
+  "title": "Seven city types representing morphologic configurations of cities across the globe",
+  "authors": [
+    "Hannes Taubenböck",
+    "Henri Debray",
+    "Chunping Qiu",
+    "Michael Schmitt",
+    "Yuanyuan Wang",
+    "Xiao Xiang Zhu"
+  ],
+  "year": 2020,
+  "venue_or_publisher": "Cities",
+  "doi": "https://doi.org/10.1016/j.cities.2020.102814",
+  "isbn": null,
+  "openalex_id": "https://openalex.org/W3035324159",
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "全球比較形態學",
+  "region": [
+    "全球 110 個城市"
+  ],
+  "method": "橫斷面城市形態分類",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "多城市分析以七種群集概括樣本城市形態，部分群集與文化地理區域重疊，也有跨區域相似型。",
+      "strength": "MIXED",
+      "scope_zh": "僅限摘要可核對的範圍；未讀全文，不推論摘要未列的數字、因果或普遍適用性。",
+      "assessment_basis": "ABSTRACT_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "OpenAlex",
+    "query": {
+      "record_id": "https://openalex.org/W3035324159",
+      "title": "Seven city types representing morphologic configurations of cities across the globe",
+      "author": "Hannes Taubenböck",
+      "year": 2020
+    },
+    "matched_record_id": "https://openalex.org/W3035324159",
+    "checked_at_utc": "2026-10-08T09:12:32Z",
+    "match_notes_zh": "以 OpenAlex 精確 work 記錄核對書名、作者與出版年；只使用摘要作主張範圍檢查，未下載全文。"
+  },
+  "limitations_zh": "僅使用允許的書目欄位和摘要核對；未取得或保存全文。",
+  "metadata_licence_zh": "保存公開書目欄位與自行撰寫主張摘要；未保存 API 摘要原文或全文。"
+}

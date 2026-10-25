@@ -1,0 +1,82 @@
+{
+  "id": "KU-STR-071",
+  "domain": "STR",
+  "subtopic": "街道作為公共空間",
+  "type": "value_range",
+  "title_zh": "Appleyard 居住街交通量比較",
+  "title_en": "Appleyard residential street traffic comparison",
+  "summary_zh": "Appleyard 的舊金山街道比較常以約 2,000、8,000 和 16,000 輛／日區分低、中、高交通暴露。這些數字用來呈現鄰里生活與車流之間的案例差異，不是通用安全分界。原始計數與案例年份待核。此處的舊金山居住街日交通量分組是附來源的比較參照，不是本基地法規。",
+  "key_points_zh": [
+    "三組流量代表案例差異，不等於線性因果尺度。",
+    "街道交往、停留和居住品質須與現地觀察並列。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "Appleyard 的三街比較以約 2,000、8,000、16,000 輛／日呈現交通暴露差異；原始研究詳情待經典核查。",
+        "library_id": "APPLEYARD81",
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+        "effect_or_value": "約 2,000、8,000、16,000 輛／日",
+        "study_design": "舊金山三條居住街案例比較；車流數待原書核對",
+        "context_region": "美國舊金山",
+        "locator": null
+      },
+      {
+        "claim_zh": "街道生活和人行互動也受用途、管理和使用權影響。",
+        "library_id": "JACOBS61",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "城市生活與街道多樣性",
+        "context_region": "美國城市街道生活研究",
+        "locator": null
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "舊金山居住街日交通量分組",
+      "range": "約 2,000、8,000、16,000 輛／日",
+      "unit": "機動車輛／日",
+      "context": "Donald Appleyard 舊金山居住街比較研究的三種交通量情境；用途：說明不同車流暴露下的鄰里生活差異；不是現代交通容量門檻。；「舊金山居住街日交通量分組」僅供來源脈絡內的比較，不是本基地法規、M4H 門檻或通用配額；來源所列地域：美國。",
+      "library_id": "APPLEYARD81"
+    }
+  ],
+  "design_implications_zh": [
+    "用這些組別說明交通暴露可能改變街道生活，並對照本地車流、速度和社群觀察。"
+  ],
+  "applies_when_zh": "分析居住街交通暴露與鄰里生活時，將三個舊金山案例組別和當地車流量對照。",
+  "not_applicable_when_zh": "不能把三個案例數字當成碰撞風險、安全上限或所有城市的社群品質預測。",
+  "debates_zh": "交通流量和居住街道互動的因果方向仍需謹慎辨別；城市、年代和交通組成不同。",
+  "sources": [
+    {
+      "library_id": "APPLEYARD81",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "JACOBS61",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "居住街道與交通影響",
+  "region": "Donald Appleyard 舊金山居住街比較研究的三種交通量情境",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "街道作為公共空間：課綱對應主題"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "街道作為公共空間：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-STR-051"
+  ]
+}

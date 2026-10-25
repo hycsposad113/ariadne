@@ -1,0 +1,42 @@
+{
+  "id": "APPLEYARD81",
+  "title": "Livable Streets",
+  "authors": [
+    "Donald Appleyard"
+  ],
+  "year": 1981,
+  "venue_or_publisher": "Open Library search result did not provide publisher metadata",
+  "doi": null,
+  "openalex_id": null,
+  "kind": "ACADEMIC_BOOK",
+  "tradition": "居住街道與交通影響",
+  "region": [
+    "美國"
+  ],
+  "method": "街道案例與設計論述",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "街道的交通條件會影響居住環境與日常活動；本單元不把案例尺度直接當通用標準。",
+      "strength": "THEORETICAL",
+      "scope_zh": "只支持所述研究脈絡；不提供 M4H 法規、普遍因果或未查證的設計門檻。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Open Library",
+    "query": {
+      "title": "Livable Streets",
+      "author": "Donald Appleyard",
+      "year": 1981
+    },
+    "matched_record_id": "/works/OL6303867W",
+    "checked_at_utc": "2026-10-08T08:47:03Z",
+    "match_notes_zh": "Open Library 回傳書名 Livable streets、作者 Donald Appleyard、首次出版年 1981。"
+  },
+  "limitations_zh": "只使用公開書目與 API 摘要核對；未下載或查閱全文，摘要以外的頁碼和量化結果不推定。",
+  "critique_relationship_zh": "引用只表示本單元並置不同研究觀點，不宣稱作者間互引或逐一反駁。",
+  "metadata_licence_zh": "只保存公開 API 書目與自行撰寫摘要；未保存 API 摘要原文。"
+}

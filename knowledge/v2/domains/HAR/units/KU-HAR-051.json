@@ -1,0 +1,100 @@
+{
+  "id": "KU-HAR-051",
+  "type": "value_range",
+  "subtopic": "工業遺產與 adaptive reuse",
+  "title_zh": "Zollverein 世界遺產區域為 100 公頃，公園範圍另有口徑",
+  "title_en": "Zollverein World Heritage Area and Park Have Different Boundaries",
+  "summary_zh": "Zollverein Foundation 將世界遺產工業區記載為 100 公頃；同一機構對 Zollverein Park 使用「超過 70 公頃」的描述。兩者分別指向工業遺產整體和公園／景觀範圍，不應用其中一個數字取代另一個。煤礦與焦化廠停產後，文化、教育、設計及休閒用途逐步進入原有設施。",
+  "values": [
+    {
+      "name": "世界遺產工業區範圍",
+      "range": "約100",
+      "unit": "公頃",
+      "context": "用途：以「世界遺產工業區範圍」作為來源情境參照；Zollverein Foundation描述的礦場與焦化廠整體範圍；非公園淨面積，且不是本基地法規；來源所列地域：德國埃森。",
+      "library_id": "ZOLLVEREIN_FOUNDATION2026"
+    },
+    {
+      "name": "Zollverein Park範圍",
+      "range": "超過70",
+      "unit": "公頃",
+      "context": "用途：以「Zollverein Park範圍」作為來源情境參照；營運方對園區與開放地景的描述，邊界不同於100公頃世界遺產區；不是本基地法規；來源所列地域：德國埃森。",
+      "library_id": "ZOLLVEREIN_PARK2026"
+    }
+  ],
+  "key_points_zh": [
+    "世界遺產邊界和公園範圍不要混作單一用地。",
+    "保存、營運和新用途是長期管理工作，不是一次性工程。"
+  ],
+  "design_implications_zh": [
+    "分開製作工業建築保留圖、景觀公園圖和遊客服務圖。"
+  ],
+  "applies_when_zh": "工業遺產園區同時含建築、鐵路、景觀和文化設施時。",
+  "not_applicable_when_zh": "只比較一棟建築的改造範圍時。",
+  "debates_zh": "文化與旅遊能延續使用，也會把工作地景轉成參觀地景；需檢查原有產業痕跡是否仍可閱讀。",
+  "tradition": "德國工業文化／遺產地景",
+  "region": "德國埃森魯爾區",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": null,
+      "topic": "Industrial heritage and adaptive reuse"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": null,
+      "topic": "Cultural landscapes and industrial heritage"
+    }
+  ],
+  "domain": "HAR",
+  "evidence": {
+    "strength": "CASE_EVIDENCE",
+    "findings": [
+      {
+        "claim_zh": "Zollverein Foundation將世界遺產區描述為100公頃並列出其組成範圍。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "德國埃森魯爾區",
+        "library_id": "ZOLLVEREIN_FOUNDATION2026",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "營運方將公園描述為超過70公頃，並記錄分期建設和保留既有地表。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "德國埃森魯爾區",
+        "library_id": "ZOLLVEREIN_PARK2026",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "工業遺產研究討論當代建築如何將工業遺產轉化為新的文化與使用情境。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "德國埃森魯爾區",
+        "library_id": "PALMEROIGLESIAS2022",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "library_id": "ZOLLVEREIN_FOUNDATION2026",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "ZOLLVEREIN_PARK2026",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "PALMEROIGLESIAS2022",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "version": "v2.0"
+}

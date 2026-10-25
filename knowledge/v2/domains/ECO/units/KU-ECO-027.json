@@ -1,0 +1,61 @@
+{
+  "id": "KU-ECO-027",
+  "domain": "ECO",
+  "subtopic": "都市森林與樹冠",
+  "type": "typology",
+  "title_zh": "都市林多尺度管理需跨部門",
+  "title_en": "Urban forestry needs multiscale governance",
+  "summary_zh": "樹木管理跨越單株、街道、社區和整座城市。多尺度統籌可對接水文、熱風險和綠地網絡。權責分散時，資料格式和修剪周期也可能不一致。技術資產管理與社群價值可能使用不同指標。",
+  "key_points_zh": [
+    "樹木管理跨越單株、街道、社區和整座城市",
+    "多尺度統籌可對接水文、熱風險和綠地網絡"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "樹木管理跨越單株、街道、社區和整座城市。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "香港",
+        "library_id": "NG09",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "技術資產管理與社群價值可能使用不同指標。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "建立樹木資產資料、社區優先序和城市熱風險的共同管理流程。"
+  ],
+  "applies_when_zh": "適用於市政林蔭長期維護。",
+  "not_applicable_when_zh": "不能假設單一部門掌握所有樹木決策。",
+  "debates_zh": "技術資產管理與社群價值可能使用不同指標。",
+  "sources": [
+    {
+      "library_id": "NG09",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "ZITER19",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "高密度通風評估",
+  "region": "香港",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "都市森林與樹冠"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-ECO-026",
+    "KU-ECO-028"
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "id": "KU-REG-014",
+  "domain": "REG",
+  "subtopic": "歐氏分區與形式準則",
+  "type": "empirical_finding",
+  "title_zh": "計畫外實作與違規可能是治理網絡結果",
+  "title_en": "Planning and violations in Bangalore",
+  "summary_zh": "結論是地方脈絡理論，不代表其他制度的違規動因。 制度審查要觀察執行關係和利益網絡。 研究設計：規劃實作網絡民族誌；地區：班加羅爾，印度。 限制：結論是地方脈絡理論，不代表其他制度的違規動因。",
+  "key_points_zh": [
+    "班加羅爾民族誌把規劃違規放回公私網絡和地方政治實作中解讀，而非當成脫離制度的偶發偏差。",
+    "研究設計：規劃實作網絡民族誌；地區：班加羅爾，印度",
+    "限制：結論是地方脈絡理論，不代表其他制度的違規動因。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "班加羅爾民族誌把規劃違規放回公私網絡和地方政治實作中解讀，而非當成脫離制度的偶發偏差。",
+        "effect_or_value": "分析指出相互競逐的治理網絡共同塑造計畫與違規",
+        "study_design": "規劃實作網絡民族誌",
+        "context_region": "班加羅爾，印度",
+        "library_id": "SUNDARESAN2017",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "制度審查要觀察執行關係和利益網絡。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "制度審查要觀察執行關係和利益網絡。",
+      "tradeoff_zh": "此選項把「計畫外實作與違規可能是治理網絡結果」的工作放在班加羅爾民族誌把規劃違規放回公私網絡和地方政治實作中解讀，而非當成脫離制度的偶發偏差上；需要承擔的協調或維護代價則由「結論是地方脈絡理論，不代表其他制度的違規動因」界定。",
+      "library_ids": [
+        "SUNDARESAN2017",
+        "BENJOSEPH2005"
+      ]
+    },
+    {
+      "option_zh": "在「計畫外實作與違規可能是治理網絡結果」的來源情境裡，用途分區可提供明確允許用途；形式準則可直接規範空間關係；落到設計時還要按班加羅爾民族誌把規劃違規放回公私網絡和地方政治實作中解讀，而非當成脫離制度的偶發偏差調整。",
+      "tradeoff_zh": "此選項把「計畫外實作與違規可能是治理網絡結果」的工作放在班加羅爾民族誌把規劃違規放回公私網絡和地方政治實作中解讀，而非當成脫離制度的偶發偏差上；需要承擔的協調或維護代價則由「結論是地方脈絡理論，不代表其他制度的違規動因」界定。",
+      "library_ids": [
+        "SUNDARESAN2017",
+        "BENJOSEPH2005"
+      ]
+    }
+  ],
+  "applies_when_zh": "用於與班加羅爾，印度研究情境可比、且量測定義相近的分析。",
+  "not_applicable_when_zh": "結論是地方脈絡理論，不代表其他制度的違規動因。",
+  "debates_zh": "結論是地方脈絡理論，不代表其他制度的違規動因。",
+  "sources": [
+    {
+      "library_id": "SUNDARESAN2017",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "BENJOSEPH2005",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "印度規劃治理與日常實作；城市設計規範與形式管制",
+  "region": "班加羅爾，印度；美國",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Planning Complex Cities",
+      "topic": "歐氏分區與形式準則"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Urban Design Contexts and Operations",
+      "topic": "歐氏分區與形式準則"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "歐氏分區與形式準則"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban design governance",
+      "topic": "歐氏分區與形式準則"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-REG-008",
+    "KU-REG-009",
+    "KU-REG-010"
+  ],
+  "counter_unit_ids": [
+    "KU-REG-012"
+  ]
+}

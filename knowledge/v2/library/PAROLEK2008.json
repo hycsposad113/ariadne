@@ -1,0 +1,46 @@
+{
+  "id": "PAROLEK2008",
+  "title": "Form-Based Codes",
+  "authors": [
+    "Daniel Parolek",
+    "Daniel G., AIA Parolek",
+    "Karen Parolek",
+    "Paul C., FAICP Crawford"
+  ],
+  "year": 2008,
+  "venue_or_publisher": "Open Library bibliographic record; publisher not returned in the permitted search fields",
+  "doi": null,
+  "isbn": "0470049855",
+  "openalex_id": null,
+  "kind": "PROFESSIONAL_PRACTICE_BOOK",
+  "tradition": "形式準則",
+  "region": [
+    "美國"
+  ],
+  "method": "專業實務指南",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "實務指南將建築與街道形式作為規範對象，提供形式準則的操作框架，但不證明其治理成效必然優於用途分區。",
+      "strength": "THEORETICAL",
+      "scope_zh": "書目核對與專業範圍摘要；不是特定基地法規或普遍數值門檻。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Open Library",
+    "query": {
+      "title": "Form-Based Codes",
+      "author": "Daniel Parolek",
+      "year": 2008,
+      "endpoint": "https://openlibrary.org/search.json"
+    },
+    "matched_record_id": "/works/OL12302331W",
+    "checked_at_utc": "2026-10-08T09:12:32Z",
+    "match_notes_zh": "Open Library 搜尋紀錄的書名、第一作者與年份相符；未下載全文。"
+  },
+  "limitations_zh": "僅核對 Open Library 書目欄位，未查閱全文；出版社欄位未由本次受限搜尋查回。",
+  "metadata_licence_zh": "保存書目欄位與自行撰寫摘要；未保存 API 摘要或全文。"
+}

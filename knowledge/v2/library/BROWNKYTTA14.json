@@ -1,0 +1,28 @@
+{
+  "id": "BROWNKYTTA14",
+  "title": "Key issues and research priorities for public participation GIS (PPGIS): A synthesis based on empirical research",
+  "authors": [
+    "Greg Brown",
+    "Marketta Kyttä"
+  ],
+  "year": 2014,
+  "kind": "ACADEMIC_PAPER",
+  "claims": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref",
+    "query": {
+      "title": "Key issues and research priorities for public participation GIS (PPGIS): A synthesis based on empirical research",
+      "author": "Greg Brown",
+      "year": 2014
+    },
+    "matched_record_id": "10.1016/j.apgeog.2013.11.004",
+    "checked_at_utc": "2026-10-08T11:02:48Z",
+    "match_notes_zh": "本輪人工比對 API 題名、作者與出版年；只驗證書目身份，主張仍待原著逐條交叉核對。",
+    "receipt_path": "artifacts/kb2-theory-v3/extra-source-lookups.json"
+  },
+  "limitations_zh": "不以書目命中證明主張；主張待原著交叉核對。",
+  "metadata_licence_zh": "Metadata only; licence UNKNOWN",
+  "doi": "10.1016/j.apgeog.2013.11.004",
+  "venue_or_publisher": "Applied Geography"
+}

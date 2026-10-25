@@ -1,0 +1,81 @@
+{
+  "id": "KU-STR-042",
+  "domain": "STR",
+  "subtopic": "共享空間",
+  "type": "empirical_finding",
+  "title_zh": "虛擬街景中的行人優先空間",
+  "title_en": "Pedestrian-priority streets in a virtual-reality experiment",
+  "summary_zh": "虛擬實境影片評估、訪談和行走軌跡分析，研究脈絡為首爾，南韓。行人活動可能隨街道可讀性和邊界設計改變。整合式街道受試者評估安全較高、路徑較自由；路側分隔型與一般巷道的移動差異不大。限制包括虛擬評估不能替代碰撞、近失或長期現場觀察。",
+  "key_points_zh": [
+    "行人活動可能隨街道可讀性和邊界設計改變",
+    "限制：虛擬評估不能替代碰撞、近失或長期現場觀察",
+    "效果或方向：整合式街道受試者評估安全較高、路徑較自由；路側分隔型與一般巷道的移動差異不大"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "虛擬街景中的行人優先空間｜行人活動可能隨街道可讀性和邊界設計改變",
+        "effect_or_value": "整合式街道受試者評估安全較高、路徑較自由；路側分隔型與一般巷道的移動差異不大",
+        "study_design": "虛擬實境影片評估、訪談和行走軌跡分析",
+        "context_region": "首爾，南韓",
+        "library_id": "LEE2021",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "虛擬街景中的行人優先空間｜自行車安全需將暴露、道路條件及移動行為一起分析，不能只數事故或路長",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "SCHEPERS14",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "讓高齡者與視障者參與街道可讀性檢查"
+  ],
+  "applies_when_zh": "若本地觀察單位與首爾，南韓的研究脈絡可對照，可用「行人活動可能隨街道可讀性和邊界設計改變」作為共享空間的比較線索。",
+  "not_applicable_when_zh": "這項首爾，南韓的研究結果不能單獨證明因果或預測其他城市的街段；原研究虛擬評估不能替代碰撞、近失或長期現場觀察。",
+  "debates_zh": "關聯能否外推；虛擬評估不能替代碰撞、近失或長期現場觀察；檢視「虛擬街景中的行人優先空間」的研究解讀時，還需判斷「限制：虛擬評估不能替代碰撞、近失或長期現場觀察」會如何改變方案結論。",
+  "sources": [
+    {
+      "library_id": "LEE2021",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "SCHEPERS14",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "共享街道與交通安全",
+  "region": "首爾，南韓",
+  "curriculum_refs": [
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.330J Theory of City Form",
+      "topic": "共享空間：課綱對應主題"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "共享空間：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-STR-041",
+    "KU-STR-043",
+    "KU-STR-044",
+    "KU-STR-045",
+    "KU-STR-046",
+    "KU-STR-047",
+    "KU-STR-048"
+  ]
+}

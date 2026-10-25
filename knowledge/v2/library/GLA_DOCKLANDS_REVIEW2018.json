@@ -1,0 +1,43 @@
+{
+  "id": "GLA_DOCKLANDS_REVIEW2018",
+  "title": "Capital Gains: A Better Land Assembly Model for London",
+  "authors": [
+    "Nicholas Falk",
+    "Greater London Authority"
+  ],
+  "year": 2018,
+  "venue_or_publisher": "Greater London Authority",
+  "doi": null,
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "OFFICIAL_GOVERNMENT_REPORT",
+  "tradition": "官方或專業機構公開頁面；直接來源核對",
+  "region": "英國倫敦 Docklands",
+  "method": "直接檢視官方或專業機構公開頁面；非獨立學術成效評估",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "政府委託報告的 Docklands 個案列出開發公司、土地取得、交通投資、住宅和就業等歷史統計，也指出公共投資令鄰近土地所有人獲益及可負擔性爭議。",
+      "strength": "CASE_EVIDENCE",
+      "scope_zh": "報告回顧數字屬行政與二手資料彙整，應和獨立效果評估及不同時段數據分開。",
+      "assessment_basis": "DIRECT_SOURCE_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Official webpage or public report (direct review)",
+    "query": {
+      "title": "Capital Gains: A Better Land Assembly Model for London",
+      "author": "Nicholas Falk",
+      "year": 2018,
+      "api_query": "Read-only page reviewed directly: https://www.london.gov.uk/sites/default/files/gla_capital_gains_report_.pdf"
+    },
+    "matched_record_id": "https://www.london.gov.uk/sites/default/files/gla_capital_gains_report_.pdf",
+    "checked_at_utc": "2026-10-08T14:27:24Z",
+    "match_notes_zh": "直接核對機構公開頁面或報告；此狀態不是 Crossref 書目驗證。"
+  },
+  "limitations_zh": "報告回顧數字屬行政與二手資料彙整，應和獨立效果評估及不同時段數據分開。",
+  "critique_relationship_zh": "本記錄不宣稱與其他書目存在直接互引或逐一反駁關係。",
+  "metadata_licence_zh": "官方或機構公開資料；個別文本的再利用授權未核驗。"
+}

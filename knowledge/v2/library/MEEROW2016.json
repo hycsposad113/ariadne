@@ -1,0 +1,44 @@
+{
+  "id": "MEEROW2016",
+  "title": "Defining urban resilience: A review",
+  "authors": [
+    "Sara Meerow",
+    "Joshua P. Newell",
+    "Melissa Stults"
+  ],
+  "year": 2016,
+  "venue_or_publisher": "Landscape and Urban Planning",
+  "doi": "https://doi.org/10.1016/j.landurbplan.2015.11.011",
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "都市韌性理論",
+  "region": "跨地域都市研究",
+  "method": "文獻回顧",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "題名確認本文為都市韌性定義回顧；在未讀取摘要前，不將它簡化成單一可量測指標。",
+      "strength": "THEORETICAL",
+      "scope_zh": "只支持此研究明確的議題、樣本地區與方法；不直接生成 M4H 數值、法規或工程容量。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref",
+    "query": {
+      "title": "Defining urban resilience: A review",
+      "author": "Meerow",
+      "year": 2016,
+      "api_query": "Crossref GET works?query.title=Defining urban resilience: A review"
+    },
+    "matched_record_id": "10.1016/j.landurbplan.2015.11.011",
+    "checked_at_utc": "2026-10-08T09:49:24Z",
+    "match_notes_zh": "以 Crossref 公開書目記錄比對書名、作者與年份；摘要文字未保存到 repository。"
+  },
+  "limitations_zh": "只保留書目與自行撰寫的範圍摘要；除標示 ABSTRACT_REVIEW 者外，內容未由摘要核對，沒有下載全文。",
+  "critique_relationship_zh": "本記錄不宣稱與其他書目存在直接互引或逐一反駁關係。",
+  "metadata_licence_zh": "公開 API 書目欄位；精確 metadata licence 未核驗，標 UNKNOWN。"
+}

@@ -1,0 +1,98 @@
+{
+  "id": "KU-ARC-061",
+  "domain": "ARC",
+  "subtopic": "停車與自行車",
+  "type": "value_range",
+  "title_zh": "直角停車的單向車道寬度",
+  "title_en": "90-degree parking one-way aisle",
+  "summary_zh": "直角停車可先測試約 6.0–6.5 m 單向車道寬度。 車位角度、車種和柱位會改變倒車路徑需求。 用 CAD 直線量寬可能掩蓋車尾實際掃掠範圍。 轉向時還要納入車體前後懸與柱腳保護範圍。",
+  "key_points_zh": [
+    "核心主張：直角停車可先測試約 6.0–6.5 m 單向車道寬度。",
+    "量測檢查：在最窄柱間做車輛轉向分析，沿行車線量有效淨寬並檢查兩側固定障礙。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "直角停車可先測試約 6.0–6.5 m 單向車道寬度。",
+        "effect_or_value": "約 6.0–6.5 m 概念設計帶",
+        "study_design": "跨地域設計參照綜整；數值狀態依 claim_verification 註記",
+        "context_region": "跨地域；用途與當地法規需分開核驗",
+        "library_id": "METRIC_HB08",
+        "locator": null,
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008"
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "one-way aisle width for 90-degree bays",
+      "range": "約 6.0–6.5 m 概念設計帶",
+      "unit": "m",
+      "context": "地區：跨地域；不代表停車法規；用途：地下室直角車位配置初篩；需車輛掃掠驗證；出處：Metric Handbook: Planning and Design Data；本基地法規：否；核對狀態：數值待原典交叉核對。",
+      "library_id": "METRIC_HB08"
+    }
+  ],
+  "design_implications_zh": [
+    "以設計車輛從車道倒入最不利車格，標出車頭和車尾掃掠面。"
+  ],
+  "applies_when_zh": "「直角停車的單向車道寬度」可在用於方案前期的量體、平面或空間品質篩檢時使用，前提是直角停車可先測試約 6.0–6.5 m 單向車道寬度與來源情境相符。",
+  "not_applicable_when_zh": "若直角停車可先測試約 6.0–6.5 m 單向車道寬度不成立，就不能把「直角停車的單向車道寬度」的結論延伸到其他情況；不得單獨作為許可、消防、結構或基地法規判定。",
+  "debates_zh": "提高車道寬度可以減少修正次數，但會消耗可停車面積並增加地下室挖掘量。",
+  "sources": [
+    {
+      "library_id": "METRIC_HB08",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "BIKE_PARKING21",
+      "claim_id": "C1",
+      "locator": "chapter Bicycle Parking; exact page not checked"
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+  "tradition": "建築設計與住宅類型學",
+  "region": "跨地域；用途與當地法規需分開核驗",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Housing and the City / Design of the Urban Fabric",
+      "topic": "建築尺度與住宅平面"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "建築尺度與街道界面"
+    },
+    {
+      "school": "MIT",
+      "course": "Architecture and Urban Design",
+      "topic": "建築尺度與空間型態"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "建築尺度與公共生活"
+    }
+  ],
+  "check": {
+    "method_zh": "在最窄柱間做車輛轉向分析，沿行車線量有效淨寬並檢查兩側固定障礙。",
+    "inputs": [
+      "停車與自行車",
+      "尺寸／面積圖層",
+      "適用地區與用途標籤"
+    ],
+    "logic_zh": "將量測輸入轉成明確尺寸、比例或空間關係；越界只觸發複核，不自動取代設計決策。",
+    "limitations_zh": "量測結果只觸發「直角停車的單向車道寬度」的複核，不得單獨作為許可或法規判定。"
+  },
+  "version": "kb2-arc-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-ARC-060",
+    "KU-ARC-062",
+    "KU-ARC-063",
+    "KU-ARC-064",
+    "KU-ARC-065"
+  ]
+}

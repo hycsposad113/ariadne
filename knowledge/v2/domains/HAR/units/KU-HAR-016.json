@@ -1,0 +1,65 @@
+{
+  "id": "KU-HAR-016",
+  "domain": "HAR",
+  "subtopic": "生產性城市",
+  "type": "design_principle",
+  "title_zh": "水岸設計要與港口腹地的工作流共同推演",
+  "title_en": "Design waterfronts alongside working-port flows",
+  "summary_zh": "物流的空間分布會延伸至城市和供應鏈節點，港口區域化研究也把腹地關係當作港口發展的一部分。若水岸更新只畫公共空間和住宅地塊，貨運、維修與倉儲的移轉成本就可能消失在基地邊界外。設計比較應先確認哪些生產功能繼續運作、哪些轉移、由誰承擔替代用地。這是分析次序的原則，不是要求所有港口保留同一類產業。",
+  "key_points_zh": [
+    "為貨運與工作空間標出基地外延續的路徑和替代位置。",
+    "生產功能應逐項討論相容性，不以「生產性城市」口號代替配置。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "城市物質流與供應鏈研究將物流活動視為具有地理位置的空間互動。",
+        "effect_or_value": "要求追蹤物質流與鏈條位置，未提供單一港區配置值",
+        "study_design": "都市物質流與空間互動概念研究",
+        "context_region": "跨區域城市供應鏈",
+        "library_id": "HESSE2010",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "港口區域化研究把港口與腹地連結納入港口發展分析。",
+        "effect_or_value": "腹地連結是需納入的尺度，不是固定開發比例",
+        "study_design": "港口發展階段理論",
+        "context_region": "全球港口網絡",
+        "library_id": "NOTTEBOOM2005",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "讓每個住宅、水岸或文化方案都附港口服務路徑與工作空間的影響說明。"
+  ],
+  "applies_when_zh": "港區再生鄰接仍在運作的港務、物流或維修活動時。",
+  "not_applicable_when_zh": "不適用於貨物流量、污染或作業安全未盤點時直接決定哪些產業保留。",
+  "debates_zh": "保留生產可能維持工作，也可能帶來噪音、污染與交通衝突；需依項目逐案權衡。",
+  "sources": [
+    {
+      "library_id": "HESSE2010",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "NOTTEBOOM2005",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "物流地理與生產性城市",
+  "region": "跨區域港口城市",
+  "curriculum_refs": [
+    {
+      "school": "MIT",
+      "course": null,
+      "topic": "Urban material flows and productive city"
+    }
+  ],
+  "version": "v2.0"
+}

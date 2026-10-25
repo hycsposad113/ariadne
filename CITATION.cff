@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this software in your research or design work, please cite it as below."
+title: "Ariadne: A Contestable AI Design Partner for Early-Stage Urban Design"
+abstract: "An open-source, contestable AI co-design environment for early-stage urban design integrating QGIS, Place Syntax Tool, Ladybug/Radiance, EnergyPlus, OpenFOAM, and LLM judgement skills under human decision authority."
+version: 1.0.0
+date-released: 2026-10-25
+license: MIT
+repository-code: "https://github.com/hycsposad113/ariadne"
+authors:
+  - family-names: "Hsieh"
+    given-names: "Yu Cheng"
+    affiliation: "Delft University of Technology (TU Delft)"
+keywords:
+  - "urban design"
+  - "generative AI"
+  - "space syntax"
+  - "microclimate simulation"
+  - "contestable AI"
+  - "human-in-the-loop"
+  - "model context protocol"

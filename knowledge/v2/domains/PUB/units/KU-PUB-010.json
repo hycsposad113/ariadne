@@ -1,0 +1,66 @@
+{
+  "id": "KU-PUB-010",
+  "domain": "PUB",
+  "subtopic": "邊緣效應",
+  "type": "empirical_finding",
+  "title_zh": "街網組態與行人移動相關",
+  "title_en": "Street configuration and pedestrian movement",
+  "summary_zh": "倫敦街道研究把路網構形與行人分布作了實地比較。研究提出，結構上容易抵達的路段可能吸引較多自然通行，目的地會再放大或改變人流。關聯強度取決於空間尺度和活動吸引，不能直接外推到另一個街區。空間組態是解釋變數之一，個人選擇和土地使用仍會改變結果。",
+  "key_points_zh": [
+    "倫敦街道研究把路網構形與行人分布作了實地比較",
+    "研究提出，結構上容易抵達的路段可能吸引較多自然通行，目的地會再放大或改變人流"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "倫敦街道研究把路網構形與行人分布作了實地比較。",
+        "effect_or_value": "路網構形和步行分布呈關聯，活動吸引物可增加或改變行人量；未給本基地效果量。",
+        "study_design": "空間語法路網分析與現地行人觀察",
+        "context_region": "英國城市街道",
+        "library_id": "HILLIER93",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW",
+        "limitations_zh": "案例與分析尺度有限，觀察關聯不能證明構形單獨造成行人活動。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "以多種路網半徑計算可達性，並用觀察計數校正活動目的地的影響。"
+  ],
+  "applies_when_zh": "適用於比較街道連接方式與公共空間入口位置。",
+  "not_applicable_when_zh": "不適合把路網指標當成未經校準的人流預測值。",
+  "debates_zh": "空間組態是解釋變數之一，個人選擇和土地使用仍會改變結果。",
+  "sources": [
+    {
+      "library_id": "HILLIER93",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "BOGOTA17",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "空間語法",
+  "region": "英國城市街道",
+  "curriculum_refs": [
+    {
+      "school": "MIT",
+      "course": "11.330J Theory of City Form",
+      "topic": "邊緣效應"
+    },
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "邊緣效應"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-PUB-009",
+    "KU-PUB-011"
+  ]
+}

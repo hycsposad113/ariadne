@@ -1,0 +1,43 @@
+{
+  "id": "HOLGERSENHULT2021",
+  "title": "Spatial myopia: sustainability, urban politics and Malmö city",
+  "authors": [
+    "Ståle Holgersen",
+    "Anna Hult"
+  ],
+  "year": 2021,
+  "venue_or_publisher": "European Urban and Regional Studies",
+  "doi": "https://doi.org/10.1080/19463138.2020.1855432",
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "永續城市治理與政治經濟批判",
+  "region": "瑞典馬爾默",
+  "method": "都市政治批判研究；具體方法尚待全文核對",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "書目題名將永續、城市政治及Malmö相連；其分析尺度是城市，不能直接當成Västra Hamnen特定街區成效。",
+      "strength": "THEORETICAL",
+      "scope_zh": "只支持此來源明確記載的研究對象與範圍；不作跨城市因果外推，也不以書目資料推估未報告的空間數值。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref",
+    "query": {
+      "title": "Spatial myopia: sustainability, urban politics and Malmö city",
+      "author": "Holgersen",
+      "year": 2021,
+      "api_query": "Crossref GET /works?query.bibliographic=Västra Hamnen Malmö sustainable urban development Lu 2020"
+    },
+    "matched_record_id": "10.1080/19463138.2020.1855432",
+    "checked_at_utc": "2026-10-08T14:05:13Z",
+    "match_notes_zh": "Crossref公開書目欄位核對題名、作者、年份及 DOI；摘要內容未保存到repository。"
+  },
+  "limitations_zh": "未將API摘要寫入repo；除claim標示的內容外，研究發現與效果量須回到來源全文核對。",
+  "critique_relationship_zh": "本記錄不宣稱與其他來源存在直接互引或逐一反駁關係。",
+  "metadata_licence_zh": "Crossref公開書目欄位；精確metadata授權未核驗，標UNKNOWN。"
+}

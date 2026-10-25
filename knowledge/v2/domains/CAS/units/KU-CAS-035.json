@@ -1,0 +1,96 @@
+{
+  "id": "KU-CAS-035",
+  "domain": "CAS",
+  "subtopic": "水岸與港區—辦公區轉型及公共空間治理",
+  "type": "case",
+  "title_zh": "Kalvebod Brygge：辦公型港岸如何面對日常活力不足",
+  "title_en": "Kalvebod Brygge: Office-Led Waterfront and the Public-Life Gap",
+  "summary_zh": "哥本哈根 Kalvebod Brygge 從工業港口逐步轉為辦公區，但市府 2026 年議案指出沿岸缺少城市生活與可達性，並說明地段多為私人產權、限制了市府直接推動改造的能力。市府議案討論增加餐飲與休憩活動時，也記錄噪音條件和業主投資意願等治理限制。Bruns-Berentelg、Noring 與 Grydehøj 的論文比較哥本哈根和漢堡的都市成長與再開發；本輪只把它作為比較研究範圍，不主張其分析直接評估 Kalvebod。此案提醒設計方案要辨認公共通行、管理權與私人投資之間的實際關係。",
+  "key_points_zh": [
+    "沿岸空間有公共用途，不等於公眾對土地、營業活動或開放時段有充分控制權。",
+    "市府的議案顯示「增加活力」也要協商音量、商業可行性和私人產權。"
+  ],
+  "evidence": {
+    "strength": "CASE_EVIDENCE",
+    "findings": [
+      {
+        "claim_zh": "Bruns-Berentelg 等人的論文比較哥本哈根與漢堡的成長治理和都市再開發；本輪只核對書目，不將研究內容外推到 Kalvebod 個案。",
+        "effect_or_value": "確認跨城研究範圍；未核讀本案分析或效果",
+        "study_design": "學術比較論文；本輪僅書目範圍核對",
+        "context_region": "丹麥哥本哈根與德國漢堡",
+        "library_id": "BRUNSBERENTELG2022",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "哥本哈根市府 2026 年議案指出 Kalvebod Brygge 自 1990 年代由工業港轉成現代辦公區，並稱沿岸被批評缺乏活力與可達性；議案記錄區域非市有。",
+        "effect_or_value": "市府議案對問題與權限限制的描述",
+        "study_design": "市議會議案與行政分析",
+        "context_region": "丹麥哥本哈根 Kalvebod Brygge",
+        "library_id": "COPENHAGEN_KALVEBOD2026",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "在設計前繪製土地所有權、通行權、營業時間與活動管理圖，把公共使用承諾轉成可執行條款。",
+    "以工作日和週末、日間和夜間的現場觀察，分辨辦公人流、休閒使用及岸線連通的時間差。"
+  ],
+  "applies_when_zh": "沿岸已形成辦公用途但缺少晚間或週末活動，且市府正與土地持有人討論公共空間改善時。",
+  "not_applicable_when_zh": "若通行權、活動許可與維護責任無法保障，就不要僅靠增加餐飲店或活動場次宣稱岸線已公共化。",
+  "debates_zh": "市府議案把缺乏活力與土地私有、商業可行性及噪音治理同時提出，顯示水岸品質不是單靠公共空間設計即可解決。私人產權既限制市府直接行動，也讓長期開放性需要合約或規劃工具支撐。學術來源只提供哥本哈根／漢堡再開發比較的書目範圍，本輪尚不能據此下結論。",
+  "sources": [
+    {
+      "library_id": "BRUNSBERENTELG2022",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "COPENHAGEN_KALVEBOD2026",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "北歐港岸再開發、企業型治理與公共性批評",
+  "region": "北歐／丹麥哥本哈根",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": null,
+      "topic": "港岸都市設計、土地治理與公共空間"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": null,
+      "topic": "公共領域、私人管理與都市活力"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": null,
+      "topic": "企業型都市治理及再開發爭議"
+    }
+  ],
+  "case": {
+    "location": "丹麥哥本哈根 Kalvebod Brygge",
+    "period": "1990 年代起由工業港岸轉型為辦公區；2025–2026 年市府再次處理增加日常活動的提案",
+    "area_ha": null,
+    "fsi": null,
+    "gsi": null,
+    "program_mix": "辦公、旅館、商業、濱水休憩和活動空間；比例及岸線公共使用時段未查得。",
+    "key_strategies_zh": [
+      "把辦公活動與居民可使用的日常目的地配置在可步行連續的沿岸路徑上。",
+      "以地役權、開放時間、維護責任及活動許可約定公共使用條件，降低對單一業主自願投資的依賴。"
+    ],
+    "outcomes_zh": [
+      "市府記錄 1990 年代起的港區辦公化、沿岸活力／通達性批評與非市有的治理限制。",
+      "市府議案討論活動增加的同時，列明商業條件、公共管理和噪音規則；未提供使用者調查或人流效果。"
+    ],
+    "critiques_zh": [
+      "岸邊「缺乏活力」是市府議案所載的規劃問題描述，沒有在該文件中量化使用者或空間時段。",
+      "辦公再開發的地面公共性應以地籍、通行權、使用時段和維護義務檢驗，而非以景觀設計意圖代替。"
+    ]
+  },
+  "version": "v2.0"
+}

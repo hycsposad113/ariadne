@@ -1,0 +1,43 @@
+{
+  "id": "SCHNABELSOURIS2025",
+  "title": "Exploring affordable housing policy in federal states: social housing and housing allowances in Australia, Austria, Canada, and Germany",
+  "authors": [
+    "Johanna Schnabel",
+    "Antonios Souris"
+  ],
+  "year": 2024,
+  "venue_or_publisher": "Regional & Federal Studies, 35(5), 887–905 (2025 issue; online 2024)",
+  "doi": "https://doi.org/10.1080/13597566.2024.2398426",
+  "isbn": null,
+  "openalex_id": "https://openalex.org/W4402422341",
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "聯邦制中的可負擔住宅政策工具",
+  "region": "澳洲、奧地利、加拿大與德國",
+  "method": "比較聯邦國家社會住宅與住房津貼的權責配置",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "四國政策研究分別梳理社會住宅與住房津貼，並關注聯邦與構成單位之間的職責分配。",
+      "strength": "MIXED",
+      "scope_zh": "研究提供政策工具與治理層級的比較框架，沒有重新估算 Suttor 所列加拿大歷史比例。",
+      "assessment_basis": "ABSTRACT_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "OpenAlex and Crossref",
+    "query": {
+      "record_id": "https://openalex.org/W4402422341",
+      "doi": "10.1080/13597566.2024.2398426",
+      "title": "Exploring affordable housing policy in federal states: social housing and housing allowances in Australia, Austria, Canada, and Germany",
+      "author": "Johanna Schnabel",
+      "year": 2024
+    },
+    "matched_record_id": "https://doi.org/10.1080/13597566.2024.2398426",
+    "checked_at_utc": "2026-10-09T00:15:07Z",
+    "match_notes_zh": "Crossref 列出版卷期為 2025，OpenAlex 與 DOI 顯示 2024 online-first；條目保留 online 年並在期刊欄標明 2025 卷期。"
+  },
+  "limitations_zh": "本條目依公開摘要或書目範圍整理；未下載全文，也不外推摘要未列的樣本、效果量或因果結論。",
+  "metadata_licence_zh": "僅保存公開書目欄位與自行撰寫的繁體中文摘要；未複製摘要全文或論文全文。"
+}

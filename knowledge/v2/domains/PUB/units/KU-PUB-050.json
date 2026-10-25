@@ -1,0 +1,61 @@
+{
+  "id": "KU-PUB-050",
+  "domain": "PUB",
+  "subtopic": "公共空間私有化與管理",
+  "type": "method",
+  "title_zh": "規劃交易需要公開履約資料",
+  "title_en": "Planning agreements need public records",
+  "summary_zh": "公共空間交易涉及多年營運和限制，不應只留下交付時的平面圖。開放時間、設施故障和違規排除事件會影響實際公共使用。不透明契約使居民難以知道該找哪個管理者處理問題。資訊透明提升問責，也需配套實際申訴權。",
+  "key_points_zh": [
+    "公共空間交易涉及多年營運和限制，不應只留下交付時的平面圖",
+    "開放時間、設施故障和違規排除事件會影響實際公共使用"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "公共空間交易涉及多年營運和限制，不應只留下交付時的平面圖。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "美國",
+        "library_id": "ZUKIN95",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "資訊透明提升問責，也需配套實際申訴權。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "要求公布可讀的使用規則、聯絡方式和年度維護表現。"
+  ],
+  "applies_when_zh": "適用於以公共利益為條件的開發許可。",
+  "not_applicable_when_zh": "不適用於將管理失誤留給設計團隊事後補救。",
+  "debates_zh": "資訊透明提升問責，也需配套實際申訴權。",
+  "sources": [
+    {
+      "library_id": "ZUKIN95",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "BYRNEWOLCH09",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "都市文化政治經濟",
+  "region": "美國",
+  "curriculum_refs": [
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "公共空間私有化與管理"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-PUB-049",
+    "KU-PUB-051"
+  ]
+}

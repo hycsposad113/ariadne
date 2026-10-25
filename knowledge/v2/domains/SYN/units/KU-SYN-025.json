@@ -1,0 +1,81 @@
+{
+  "id": "KU-SYN-025",
+  "domain": "SYN",
+  "subtopic": "多中心性（MCA）",
+  "type": "empirical_finding",
+  "title_zh": "多中心性指標比較街網骨架",
+  "title_en": "Multiple centrality measures and network skeletons",
+  "summary_zh": "primal 圖街道網路科學分析，並比較多種中心性，研究脈絡為跨城市；摘要未列完整研究城市。網路骨架需要多指標判讀而非只挑最高值。多種中心性可辨識城市結構骨架，規劃和自組織網格的分布型態不同。限制包括摘要未報告樣本城市、信賴區間或因果模型。",
+  "key_points_zh": [
+    "網路骨架需要多指標判讀而非只挑最高值",
+    "限制：摘要未報告樣本城市、信賴區間或因果模型",
+    "效果或方向：多種中心性可辨識城市結構骨架，規劃和自組織網格的分布型態不同"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "多中心性指標比較街網骨架｜網路骨架需要多指標判讀而非只挑最高值",
+        "effect_or_value": "多種中心性可辨識城市結構骨架，規劃和自組織網格的分布型態不同",
+        "study_design": "primal 圖街道網路科學分析，並比較多種中心性",
+        "context_region": "跨城市；摘要未列完整研究城市",
+        "library_id": "PORTA06",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "多中心性指標比較街網骨架｜聚合行動資料可研究都市移動時序；它不等於所有行人觀測，必須交代樣本與空間粒度",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "SEVTSUK10",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "將候選中心與歷史、土地使用和活動資料交叉檢查"
+  ],
+  "applies_when_zh": "若本地觀察單位與跨城市；摘要未列完整研究城市的研究脈絡可對照，可用「網路骨架需要多指標判讀而非只挑最高值」作為多中心性（MCA）的比較線索。",
+  "not_applicable_when_zh": "這項跨城市；摘要未列完整研究城市的研究結果不能單獨證明因果或預測其他城市的街段；原研究摘要未報告樣本城市、信賴區間或因果模型。",
+  "debates_zh": "關聯能否外推；摘要未報告樣本城市、信賴區間或因果模型；檢視「多中心性指標比較街網骨架」的研究解讀時，還需判斷「限制：摘要未報告樣本城市、信賴區間或因果模型」會如何改變方案結論。",
+  "sources": [
+    {
+      "library_id": "PORTA06",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "SEVTSUK10",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "城市網路科學",
+  "region": "跨城市；摘要未列完整研究城市",
+  "curriculum_refs": [
+    {
+      "school": "UCL Bartlett",
+      "course": "Critical Debates in Urban Design",
+      "topic": "多中心性（MCA）：課綱對應主題"
+    },
+    {
+      "school": "TU Delft",
+      "course": "Methods of Analysis & Imagination",
+      "topic": "多中心性（MCA）：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-SYN-026",
+    "KU-SYN-027",
+    "KU-SYN-028",
+    "KU-SYN-029",
+    "KU-SYN-030",
+    "KU-SYN-031",
+    "KU-SYN-032"
+  ]
+}

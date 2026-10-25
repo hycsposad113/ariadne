@@ -1,0 +1,86 @@
+{
+  "id": "KU-CLI-064",
+  "domain": "CLI",
+  "subtopic": "都市熱島",
+  "type": "value_range",
+  "title_zh": "樹木和屋頂的冷卻效應需使用同一參照基線",
+  "title_en": "樹木和屋頂的冷卻效應需使用同一參照基線",
+  "summary_zh": "樹冠與冷屋頂的降溫比較，先要讓城市測點和參照站處於相近的天氣背景。此卡討論的是介入前後如何共用氣象基線並按 LCZ 分層，不再重述熱島差值的定義；晴朗弱風夜間的觀察量級只用來提示敏感度檢查。模型平均仍可能抹平局部樹蔭或屋頂材料的差異。",
+  "key_points_zh": [
+    "基線年、熱浪事件和空間範圍會改變結果。",
+    "模擬效果和實測效果需分開標記。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "library_id": "MILLS2014",
+        "claim_zh": "晴朗弱風夜間城市—郊區近地氣溫差可達約 0–10°C 的經典量級；城市背景、站點和觀測時段決定實際差值。",
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+        "effect_or_value": null,
+        "study_design": "文獻回顧；目前僅核對書目範圍",
+        "context_region": "跨地域",
+        "locator": null
+      },
+      {
+        "library_id": "NORTON2015",
+        "claim_zh": "書目確認本文題名聚焦「Planning for cooler cities: A framework to prioritise green infrastructure to mitigate high temperatures in urban landscapes」；目前只完成作者、年份、題名與 DOI 核對，未將摘要或全文結論納入此記錄；本單元 KU-CLI-064 對照「城市熱島強度取決於城市和參照站是否處在相近的天氣背景」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "方法或概念研究；目前僅核對書目範圍",
+        "context_region": "澳洲",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "同一地區用相同氣象和網格比較措施。",
+    "以多種方案和敏感度範圍呈現不確定性。"
+  ],
+  "applies_when_zh": "適用於城市熱島方案比較。",
+  "not_applicable_when_zh": "不適用於直接將跨城市平均幅度套用到單一基地。",
+  "debates_zh": "模型集成可提升城市尺度比較，但局部樹木和材料細節仍可能被平均化。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [
+    "KU-CLI-022",
+    "KU-CLI-071"
+  ],
+  "sources": [
+    {
+      "library_id": "MILLS2014",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "NORTON2015",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "城市熱緩解效果量",
+  "region": "跨地域模擬研究；跨地域城鎮研究",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "都市熱島"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": null,
+      "topic": "都市熱島"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0",
+  "values": [
+    {
+      "name": "夜間城市熱島強度的經典量級",
+      "range": "約 0–10",
+      "unit": "°C urban–reference air temperature difference",
+      "context": "主要作晴朗弱風夜間的城市—參照站量級對照；需依 LCZ、時段和背景氣候分層 這不是本基地法規；來源書目地域：跨地域。",
+      "library_id": "MILLS2014"
+    }
+  ]
+}

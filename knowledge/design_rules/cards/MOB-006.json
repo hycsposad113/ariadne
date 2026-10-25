@@ -1,0 +1,94 @@
+{
+  "id": "MOB-006",
+  "title_zh": "消防服務 40 m 是專案條件",
+  "title_en": "Project service reach 40 m",
+  "domain": "mobility",
+  "stages": [
+    "S2",
+    "S3",
+    "S4",
+    "S7"
+  ],
+  "statement_zh": "沿用既有專案每個分離 footprint 到路面的最短平面距離均 <=40 m 的 road-access 條件；多塊建築取各塊距離的最大值。這不是消防服務路徑或荷蘭消防合規證明。另列救援入口、作業面與准入資料缺口。",
+  "rationale_zh": "救援和配送需要實際可用的路、入口和作業位置。",
+  "applies_when": {
+    "scale": [
+      "*"
+    ],
+    "land_use": [
+      "*"
+    ],
+    "strategy": [
+      "*"
+    ],
+    "mode": [
+      "*"
+    ]
+  },
+  "parameters": [
+    {
+      "name": "service_reach_max",
+      "value": 40,
+      "range": null,
+      "unit": "m",
+      "provenance": "FOUNDER",
+      "source_ids": [],
+      "status": "PROJECT_INSTRUCTION",
+      "rationale_zh": "Founder 在 J7 指示沿用 40 m；原 generation/road_access.py 記錄 provenance=ASSUMED_COMMANDER。這是既有平面 proximity proxy，非新授權或消防合規；正式條件仍由已接受狀態解析。",
+      "authority_ref": "2026-10-08 修正計畫及 J7 指示；正式作用由已接受專案狀態解析"
+    }
+  ],
+  "check": {
+    "method_zh": "整合時沿 generation/road_access.py 的 footprint_access_distance 計算：Polygon 為 footprint.distance(road_surface)；MultiPolygon 取各 component 距離的最大值。路面由每條已接受道路的 width_m/2 buffer 合併；缺已批准路寬或路面則 UNKNOWN，不能臆測。記錄參數、方法與版本；另驗服務入口路徑，缺淨空、承重或救援資料不能標消防 PASS。",
+    "inputs": [
+      "凍結幾何／路網與 hash",
+      "已接受專案條件與版本",
+      "卡片參數與版本"
+    ],
+    "output": "檢查值、單位、方法、有效性、差異與限制；不自動採納",
+    "implementation_status": "SPECIFICATION_ONLY"
+  },
+  "check_unavailable_reason_zh": null,
+  "design_responses": [
+    {
+      "option": "1",
+      "action_zh": "環路提供服務面",
+      "source_ids": [
+        "MARSHALL05"
+      ],
+      "tradeoff_zh": "佔地與交叉多。"
+    },
+    {
+      "option": "2",
+      "action_zh": "服務支路到達入口",
+      "source_ids": [
+        "AJACOBS93"
+      ],
+      "tradeoff_zh": "盡端回車與消防載重另待查。"
+    }
+  ],
+  "evidence_level": "ACADEMIC",
+  "evidence_strength": "NORMATIVE_PRACTICE",
+  "sources": [
+    {
+      "library_id": "MARSHALL05",
+      "claim_id": "C1",
+      "support_scope_zh": "文獻支持概念與比較角度；本卡具體操作是設計推導，試算值及專案約束不是文獻的普適結論。"
+    },
+    {
+      "library_id": "AJACOBS93",
+      "claim_id": "C1",
+      "support_scope_zh": "文獻支持概念與比較角度；本卡具體操作是設計推導，試算值及專案約束不是文獻的普適結論。"
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "enforcement": "PROJECT_GUARDRAIL",
+  "authority_ref": "Founder 2026-10-08 修正計畫及 J7 派工；正式生效仍以已接受專案紀錄解析",
+  "debates_zh": "分離與共享的效果依速度、流量、行人脆弱性和管理而變；CROW 版本與細則未查證，不能宣稱規範合規。 已查證書目與主張的查閱層級見 library；不是逐頁核驗或本基地因果結論。",
+  "context_validity_zh": "荷蘭／丹麥／德國自行車研究支持整體系統，非 M4H 特定距離或寬度。港區貨運、消防、無障礙與兒童需求需地方資料。",
+  "exceptions_zh": "卡片不可替代現行法規、產權、無障礙或已接受 D1/D2。缺必要資料即回報 UNKNOWN；例外須由 Founder 明確決定並保留原結果。",
+  "version": "0.2.0",
+  "local_context_refs": [
+    "FOUNDER"
+  ]
+}

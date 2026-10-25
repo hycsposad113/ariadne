@@ -1,0 +1,95 @@
+{
+  "id": "KU-THY-034",
+  "domain": "THY",
+  "subtopic": "現代主義（CIAM、機能城市）與批判（Jacobs、Team 10、Collage City、Rossi、Krier）",
+  "type": "value_range",
+  "title_zh": "Pattern Language 的具體模式",
+  "title_en": "Pattern Language count",
+  "summary_zh": "《模式語言》收錄 253 個跨城鎮、建築和施工尺度的模式。例子包括 Small Public Squares、Street Café 和 Entrance Transition，分別把公共空間、街道活動與入口過渡寫成有脈絡的設計問題。模式是可組合的設計假設，不是把圖樣複製到各地的標準答案。模式數和個別標題屬經典內容，仍待原書逐項核對。",
+  "key_points_zh": [
+    "《模式語言》收錄 253 個跨城鎮、建築和施工尺度的模式。",
+    "例子包括 Small Public Squares、Street Café 和 Entrance Transition，分別把公共空間、街道活動與入口過渡寫成有脈絡的設計問題。",
+    "模式是可組合的設計假設，不是把圖樣複製到各地的標準答案。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "【BIBLIOGRAPHIC_SCOPE_ONLY】就「Pattern Language 的具體模式」而言，「A Pattern Language: Towns, Buildings, Construction」提供模式語言的比較坐標；此處僅使用其已標明的書目／摘要範圍，不延伸為未核對的效果或因果。",
+        "effect_or_value": null,
+        "study_design": "理論／設計模式",
+        "context_region": "美國；跨地域",
+        "library_id": "ALEX77",
+        "locator": null,
+        "claim_verification": "CANONICAL_CROSS_CHECK_PENDING"
+      },
+      {
+        "claim_zh": "【BIBLIOGRAPHIC_SCOPE_ONLY】就「Pattern Language 的具體模式」而言，「Streets and Patterns」提供街道形態的比較坐標；此處僅使用其已標明的書目／摘要範圍，不延伸為未核對的效果或因果。",
+        "effect_or_value": null,
+        "study_design": "理論／形態比較",
+        "context_region": "英國；跨地域",
+        "library_id": "MARSHALL05",
+        "locator": null,
+        "claim_verification": "CANONICAL_CROSS_CHECK_PENDING"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "把模式當作可檢驗的設計假設，每次採用都說明地方脈絡和反例。"
+  ],
+  "design_options": [],
+  "applies_when_zh": "當問題包含「Pattern Language count」且需比較比較可步行鄰里、街道連接與混合用途策略時時使用。",
+  "not_applicable_when_zh": "若研究缺少對應尺度或群體資料，不以「Pattern Language count」取代把新都市主義的宣言當作實證因果或普遍居民偏好時。",
+  "debates_zh": "「Pattern Language count」的爭點在於社群感和旅運結果不由形式單獨決定；價格、選擇偏誤、住房供給及治理同樣重要；街道生活與多樣性與公共生活設計的研究對象不同，需保留差異而不能合併成單一規則。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "ALEX77",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "MARSHALL05",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "新都市主義／鄰里尺度",
+  "region": "美國；丹麥；跨地域",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "Pattern Language 的具體模式 — 現代主義（CIAM、機能城市）與批判（Jacobs、Team 10、Collage City、Rossi、Krier）"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Urban Design Contexts and Operations",
+      "topic": "Pattern Language 的具體模式 — 現代主義（CIAM、機能城市）與批判（Jacobs、Team 10、Collage City、Rossi、Krier）"
+    },
+    {
+      "school": "MIT",
+      "course": "4.241J Theory of City Form / 11.301J Urban Design and Development",
+      "topic": "Pattern Language 的具體模式 — 現代主義（CIAM、機能城市）與批判（Jacobs、Team 10、Collage City、Rossi、Krier）"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Critical Debates in Urban Design",
+      "topic": "Pattern Language 的具體模式 — 現代主義（CIAM、機能城市）與批判（Jacobs、Team 10、Collage City、Rossi、Krier）"
+    }
+  ],
+  "version": "2.0.0",
+  "values": [
+    {
+      "name": "《模式語言》模式數量",
+      "range": "253個模式，按城鎮、建築與構造等尺度編排",
+      "unit": "patterns",
+      "context": "跨地域建築與都市設計方法的1977年著作；用於說明模式庫規模，不表示每個模式均適用；這不是本基地法規。",
+      "library_id": "ALEX77",
+      "claim_verification": "CANONICAL_CROSS_CHECK_PENDING"
+    }
+  ],
+  "claim_verification": "CANONICAL_CROSS_CHECK_PENDING"
+}

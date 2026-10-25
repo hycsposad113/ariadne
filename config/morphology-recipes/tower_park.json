@@ -1,0 +1,68 @@
+{
+  "schema_version": "morphology-recipe-v1",
+  "id": "tower_park",
+  "label_zh": "塔樓＋公園",
+  "strategy_family": "tower_park",
+  "summary_zh": "以點狀高層和連續公園網絡配置開放空間，實際樓層仍服從強度高度上限。",
+  "atmosphere_targets": {
+    "green_blue": 0.82,
+    "sunlight": 0.78,
+    "permeability": 0.76,
+    "density_feel": 0.75,
+    "legibility": 0.84,
+    "human_scale": 0.48,
+    "enclosure": 0.38
+  },
+  "atmosphere_dimension_weights": {
+    "green_blue": 1.1,
+    "sunlight": 1.05,
+    "permeability": 1.0,
+    "density_feel": 1.0,
+    "legibility": 0.9,
+    "human_scale": 0.7,
+    "enclosure": 0.7
+  },
+  "zone_function_atmosphere_targets": {
+    "energy_hub": {"industrial_scale": 0.68, "legibility": 0.86, "density_feel": 0.7, "diversity": 0.74},
+    "residential_tidal_park": {"green_blue": 0.96, "sunlight": 0.9, "permeability": 0.88, "belonging": 0.7},
+    "art_space_recreation": {"sociability": 0.88, "diversity": 0.84, "permeability": 0.86, "green_blue": 0.82},
+    "residential": {"human_scale": 0.68, "privacy": 0.6, "belonging": 0.72, "perceived_safety": 0.7},
+    "maker_recycle_hub": {"industrial_scale": 0.86, "diversity": 0.8, "legibility": 0.82, "street_vitality": 0.72}
+  },
+  "block_assembly_types": [
+    {"id": "block.towers_park", "weight": 1.15},
+    {"id": "block.open", "weight": 0.95},
+    {"id": "block.hybrid", "weight": 0.8}
+  ],
+  "building_types": [
+    {"id": "building.point_array", "weight": 1.25},
+    {"id": "building.podium_tower", "weight": 1.05},
+    {"id": "building.terraced", "weight": 0.8}
+  ],
+  "selection_weights": "Each dictionary entry weight multiplies its weighted atmosphere-query fit; scores rank options and are not performance evidence.",
+  "road_grid": {
+    "cross_street_spacing_m": 110.0,
+    "longitudinal_spacing_m": 100.0,
+    "site_edge_inset_m": 30.0,
+    "alley_every_nth_cross_street": 3
+  },
+  "road_widths_m": {
+    "main": 14.0,
+    "main_source": "ASSUMED_FROM_space.street_canyon.street_width_m",
+    "secondary": 10.0,
+    "secondary_source": "ASSUMED_FROM_space.shared_street.total_width_m",
+    "alley": 6.0,
+    "alley_source": "ASSUMED_FROM_space.shared_street.carriageway_width_m",
+    "quay_promenade": 6.0,
+    "quay_source": "DESIGNER_DECISION_6M"
+  },
+  "block_size_target_m": {"minimum": 60.0, "maximum": 120.0},
+  "building_edge_setback_m": 7.0,
+  "density_target_fraction": 0.88,
+  "green_axis_width_m": 0.0,
+  "quay_sample_spacing_m": 38.0,
+  "zone_use_notes_zh": "高層候選需通過 A/B 字典樓層範圍及高度相容性；塔樓氛圍分數不代表法定許可。",
+  "open_space_tradeoff_zh": "open-spaces.geojson 作公園與開放空間偏好；不作為新的設計批准。",
+  "quay_promenade": {"width_m": 6.0, "inside_waterfront_band_m": [3.0, 15.0], "allows_building": false},
+  "assumptions_zh": ["道路寬度為策略 ASSUMED 值。", "點狀配置參數只作樣板擬合。", "提案未經設計者接受。"]
+}

@@ -1,0 +1,93 @@
+{
+  "id": "KU-HAR-030",
+  "type": "value_range",
+  "subtopic": "港區轉型案例",
+  "title_zh": "HafenCity 的公布範圍有 157–158 公頃兩種口徑",
+  "title_en": "HafenCity Has Two Officially Reported Area Figures",
+  "summary_zh": "漢堡市兩份官方資料分別把 HafenCity 描述為 157 公頃與 158 公頃，顯示計畫範圍會因資料版本或邊界口徑略有差異。這個一公頃的差值不足以判定哪份資料錯誤，應保留原始來源而非自行挑一個數字。Landis 將該案放在都市再生與永續性的脈絡中，但面積採用漢堡市資料。",
+  "values": [
+    {
+      "name": "官方公布計畫範圍",
+      "range": "157–158",
+      "unit": "公頃",
+      "context": "用途：以「官方公布計畫範圍」作為來源情境參照；漢堡港區內城更新的官方描述，來源版本有差異；是案例面積，不是本基地法規；來源所列地域：德國漢堡。",
+      "library_id": "HAMBURG_URBAN_PROJECTS2020_2035"
+    }
+  ],
+  "key_points_zh": [
+    "把面積附上來源版本和觀測日期。",
+    "比較密度前先統一岸線、道路和水面的計入方式。"
+  ],
+  "design_implications_zh": [
+    "把157與158公頃作為官方口徑差異呈現，待統一邊界後再計算密度。"
+  ],
+  "applies_when_zh": "跨資料源比較同一港區更新邊界時。",
+  "not_applicable_when_zh": "需要法定土地測量面積或權屬面積時。",
+  "debates_zh": "以一個精確數字呈現會掩蓋計畫邊界定義差異；現有官方資料不說明一公頃差距來自何處。",
+  "sources": [
+    {
+      "library_id": "HAMBURG_URBAN_PROJECTS2020_2035",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "HAMBURG_HAFENCITY_MASTERPLAN",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "LANDIS2022",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "tradition": "德國港區更新／城市發展規劃",
+  "region": "德國漢堡",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": null,
+      "topic": "Waterfront regeneration and phasing"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": null,
+      "topic": "Urban regeneration and sustainability"
+    }
+  ],
+  "domain": "HAR",
+  "evidence": {
+    "strength": "CASE_EVIDENCE",
+    "findings": [
+      {
+        "claim_zh": "漢堡市發展報告列出 HafenCity 約157公頃。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "德國漢堡",
+        "library_id": "HAMBURG_URBAN_PROJECTS2020_2035",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "漢堡市專案頁列出158公頃前港區面積。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "德國漢堡",
+        "library_id": "HAMBURG_HAFENCITY_MASTERPLAN",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "學術章節將 HafenCity 置於城市再生及永續議題中，未提供與市府數字不同的面積測量。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "德國漢堡",
+        "library_id": "LANDIS2022",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "source_count_flag": "MULTI_SOURCE",
+  "version": "v2.0"
+}

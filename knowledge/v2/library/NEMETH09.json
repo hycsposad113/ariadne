@@ -1,0 +1,44 @@
+{
+  "id": "NEMETH09",
+  "title": "Defining a Public: The Management of Privately Owned Public Space",
+  "authors": [
+    "Jeremy Németh"
+  ],
+  "year": 2009,
+  "venue_or_publisher": "Urban Studies",
+  "doi": "https://doi.org/10.1177/0042098009342903",
+  "isbn": null,
+  "crossref_id": "https://doi.org/10.1177/0042098009342903",
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "公共空間治理與 publicness",
+  "region": [
+    "美國",
+    "北美"
+  ],
+  "method": "163 處空間的觀察研究",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "紐約 incentive-zoning 交換方案的 163 處公共可及空間呈現多種管理方式；以財務為導向的管理會限縮政治、社會與民主使用。",
+      "strength": "MIXED",
+      "scope_zh": "美國紐約市；主張限於此來源的研究設計與樣本，不外推為本基地規範。",
+      "assessment_basis": "ABSTRACT_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref",
+    "query": {
+      "title": "Defining a Public: The Management of Privately Owned Public Space",
+      "author": "Jeremy Németh",
+      "year": 2009
+    },
+    "matched_record_id": "https://doi.org/10.1177/0042098009342903",
+    "checked_at_utc": "2026-10-08T09:52:08Z",
+    "match_notes_zh": "核對 Crossref 回傳書名、主要作者、出版年與 DOI；摘要只在實際取得並閱讀的論文上標 ABSTRACT_REVIEW。"
+  },
+  "limitations_zh": "美國紐約市；書目核對不替代完整論文審查。",
+  "critique_relationship_zh": "此條目的批評連結供編者並讀，不宣稱存在直接互引。",
+  "metadata_licence_zh": "僅保存公開書目欄位與自行撰寫的摘要；未保存摘要原文，metadata 授權未單獨核定。"
+}

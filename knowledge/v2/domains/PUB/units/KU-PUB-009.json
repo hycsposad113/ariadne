@@ -1,0 +1,60 @@
+{
+  "id": "KU-PUB-009",
+  "domain": "PUB",
+  "subtopic": "邊緣效應",
+  "type": "concept",
+  "title_zh": "街道與廣場的邊緣是活動帶",
+  "title_en": "Edges carry stationary activity",
+  "summary_zh": "座位、販售、遮蔭和出入口常使停留聚集在邊緣。邊緣也讓使用者觀察中心活動，同時保留退出或轉換活動的選擇。過窄的通行帶會令停留者與穿行者互相衝突。活動集中於邊緣可能方便觀察，也可能讓輪椅使用者被迫繞行。",
+  "key_points_zh": [
+    "座位、販售、遮蔭和出入口常使停留聚集在邊緣",
+    "邊緣也讓使用者觀察中心活動，同時保留退出或轉換活動的選擇"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "座位、販售、遮蔭和出入口常使停留聚集在邊緣。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "跨地域",
+        "library_id": "SHARMIN17",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "活動集中於邊緣可能方便觀察，也可能讓輪椅使用者被迫繞行。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "把沿邊停留深度與行人淨空分開測量，再檢查是否有可坐靠的多種姿勢。"
+  ],
+  "applies_when_zh": "適用於廣場、市集和步行街的斷面調整。",
+  "not_applicable_when_zh": "不應在無資料時把中心空地全部判為浪費。",
+  "debates_zh": "活動集中於邊緣可能方便觀察，也可能讓輪椅使用者被迫繞行。",
+  "sources": [
+    {
+      "library_id": "SHARMIN17",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "RATTI04",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "空間語法整合分析",
+  "region": "跨地域",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "邊緣效應"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-PUB-010"
+  ]
+}

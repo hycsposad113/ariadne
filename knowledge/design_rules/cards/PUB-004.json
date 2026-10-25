@@ -1,0 +1,96 @@
+{
+  "id": "PUB-004",
+  "title_zh": "入口與活動口袋",
+  "title_en": "Entrances and activity pockets",
+  "domain": "public_space",
+  "stages": [
+    "S3",
+    "S4",
+    "S6",
+    "S7",
+    "S8"
+  ],
+  "statement_zh": "在可達入口或路口側邊提議小活動口袋；門前不得被停車或家具擋住，口袋與中心主路保持看得懂的連結。",
+  "rationale_zh": "人会在轉換與等待處停留，不能只靠遠處大廣場。",
+  "applies_when": {
+    "scale": [
+      "*"
+    ],
+    "land_use": [
+      "*"
+    ],
+    "strategy": [
+      "*"
+    ],
+    "mode": [
+      "*"
+    ]
+  },
+  "parameters": [
+    {
+      "name": "activity_pocket_spacing_trial",
+      "value": null,
+      "range": [
+        30,
+        60
+      ],
+      "unit": "m",
+      "provenance": "ASSUMED_COMMANDER",
+      "source_ids": [],
+      "authority_ref": null,
+      "status": "PROPOSED_PENDING_FOUNDER",
+      "rationale_zh": "指揮官提出的敏感性試算值，文獻未提供此數值；須 Founder 確認、地方資料及確定性驗證，未生效。"
+    }
+  ],
+  "check": {
+    "method_zh": "列入口、口袋 polygon 與路徑，檢查碰撞；使用頻率未知。",
+    "inputs": [
+      "凍結幾何／路網與 hash",
+      "已接受專案條件與版本",
+      "卡片參數與版本"
+    ],
+    "output": "檢查值、單位、方法、有效性、差異與限制；不自動採納",
+    "implementation_status": "SPECIFICATION_ONLY"
+  },
+  "check_unavailable_reason_zh": null,
+  "design_responses": [
+    {
+      "option": "1",
+      "action_zh": "門側活動口袋",
+      "source_ids": [
+        "ALEX77"
+      ],
+      "tradeoff_zh": "佔用入口面積。"
+    },
+    {
+      "option": "2",
+      "action_zh": "可見節點串聯小空間",
+      "source_ids": [
+        "LYNCH60"
+      ],
+      "tradeoff_zh": "序列較長、需要導向。"
+    }
+  ],
+  "evidence_level": "ACADEMIC",
+  "evidence_strength": "NORMATIVE_PRACTICE",
+  "sources": [
+    {
+      "library_id": "ALEX77",
+      "claim_id": "C1",
+      "support_scope_zh": "文獻支持概念與比較角度；本卡具體操作是設計推導，試算值及專案約束不是文獻的普適結論。"
+    },
+    {
+      "library_id": "LYNCH60",
+      "claim_id": "C1",
+      "support_scope_zh": "文獻支持概念與比較角度；本卡具體操作是設計推導，試算值及專案約束不是文獻的普適結論。"
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "enforcement": "CANDIDATE_ONLY",
+  "authority_ref": null,
+  "debates_zh": "公共生活觀察與場所意象不等同普適處方；氣候、階級、性別、管理與使用時段改變結果。原書未逐頁核對。 已查證書目與主張的查閱層級見 library；不是逐頁核驗或本基地因果結論。",
+  "context_validity_zh": "美國小空間與丹麥公共生活經驗可提出試案；港區工人、居民與騎行者的 M4H 使用行為仍未知。",
+  "exceptions_zh": "卡片不可替代現行法規、產權、無障礙或已接受 D1/D2。缺必要資料即回報 UNKNOWN；例外須由 Founder 明確決定並保留原結果。",
+  "version": "0.2.0",
+  "local_context_refs": []
+}

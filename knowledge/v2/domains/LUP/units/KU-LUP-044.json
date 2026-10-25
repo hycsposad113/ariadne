@@ -1,0 +1,107 @@
+{
+  "id": "KU-LUP-044",
+  "domain": "LUP",
+  "subtopic": "15 分鐘城市與可及性",
+  "type": "concept",
+  "title_zh": "15 分鐘城市與可及性｜概念邊界",
+  "title_en": "15-minute city and accessibility — Conceptual boundaries",
+  "summary_zh": "可及性量測需交代路網、目的地集合、時間和交通節點活動；固定半徑不等於居民實際能到達服務。 非機動通行的替代算法需使用一致定義，node-place 分析則將站點連結能力和場所活動分開。 檢查 15 分鐘範圍時還要考慮住宅成本、開放時間和使用者能力。",
+  "key_points_zh": [
+    "服務距離和時間是可檢驗指標，不是「15 分鐘」單一標準。",
+    "適用於鄰里服務缺口、交通公平和日常活動配置。",
+    "限制：不把步行網路模型結果等同所有居民實際可達性。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "非機動可及性必須說明網路、目的地與尺度，替代量測方式需保持定義可比較。",
+        "library_id": "IACONO10",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "美國",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "交通節點能力與站區場所活動應並列比較；靠近車站不等於站區用途已適配。",
+        "library_id": "BERTOLINI99",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "荷蘭",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "量測實際路網時間並說明目的地清單、開放時間與無障礙條件。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "量測實際路網時間並說明目的地清單、開放時間與無障礙條件。",
+      "tradeoff_zh": "此選項把「15 分鐘城市與可及性｜概念邊界」的工作放在非機動可及性必須說明網路、目的地與尺度，替代量測方式需保持定義可比較上；需要承擔的協調或維護代價則由「近鄰服務模型可能掩蓋住宅成本、服務品質和跨區工作需要」界定。",
+      "library_ids": [
+        "IACONO10",
+        "BERTOLINI99"
+      ]
+    },
+    {
+      "option_zh": "步行、自行車、公共運輸和照護行程可能需要不同服務圈。",
+      "tradeoff_zh": "「15 分鐘城市與可及性｜概念邊界」採用「步行、自行車、公共運輸和照護行程可能需要不同服務圈」時，得失要沿著非機動可及性必須說明網路、目的地與尺度，替代量測方式需保持定義可比較檢查；近鄰服務模型可能掩蓋住宅成本、服務品質和跨區工作需要。",
+      "library_ids": [
+        "IACONO10",
+        "BERTOLINI99"
+      ]
+    }
+  ],
+  "applies_when_zh": "適用於鄰里服務缺口、交通公平和日常活動配置。",
+  "not_applicable_when_zh": "不把步行網路模型結果等同所有居民實際可達性。",
+  "debates_zh": "近鄰服務模型可能掩蓋住宅成本、服務品質和跨區工作需要。",
+  "sources": [
+    {
+      "library_id": "IACONO10",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "BERTOLINI99",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "非機動可及性；節點與場所",
+  "region": "美國；荷蘭",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Planning Complex Cities",
+      "topic": "15 分鐘城市與可及性"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Cities by Design",
+      "topic": "15 分鐘城市與可及性"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "15 分鐘城市與可及性"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Sustainable Futures by Design",
+      "topic": "15 分鐘城市與可及性"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-LUP-045",
+    "KU-LUP-046",
+    "KU-LUP-047"
+  ],
+  "counter_unit_ids": [
+    "KU-LUP-048"
+  ]
+}

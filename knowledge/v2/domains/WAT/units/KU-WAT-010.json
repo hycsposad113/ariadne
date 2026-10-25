@@ -1,0 +1,74 @@
+{
+  "id": "KU-WAT-010",
+  "domain": "WAT",
+  "subtopic": "水敏感都市設計（WSUD）",
+  "type": "method",
+  "title_zh": "用水路徑圖找出設計責任接口",
+  "title_en": "用水路徑圖找出設計責任接口",
+  "summary_zh": "水路徑圖從屋頂、街道、廣場與地下空間追蹤降雨如何流動，再標出每個節點的蓄水、滲透、處理或排放功能。澳洲整合水管理文獻提醒，單一設施很難代表整個都市水系統。這張圖適合提出方案問題；若沒有流量資料和水文模型，它本身不是容量計算。",
+  "key_points_zh": [
+    "水路徑要標出匯水面積與下游接點，而不是只標綠色設施位置。",
+    "跨越地界的水流需要明確的維護與溢流責任。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "library_id": "ECKART2017",
+        "claim_zh": "書目確認本文題名聚焦「Performance and implementation of low impact development – A review」；目前只完成作者、年份、題名與 DOI 核對，未將摘要或全文結論納入此記錄；本單元 KU-WAT-010 對照「水路徑圖從屋頂、街道、廣場與地下空間追蹤降雨如何流動，再標出每個節點的蓄水、滲透、處理或排放功能」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "文獻回顧；目前僅核對書目範圍",
+        "context_region": "跨地域",
+        "locator": null
+      },
+      {
+        "library_id": "KABISCH2017",
+        "claim_zh": "書目確認本文題名聚焦「Nature-Based Solutions to Climate Change Adaptation in Urban Areas—Linkages Between Science, Policy and Practice」；目前只完成作者、年份、題名與 DOI 核對，未將摘要或全文結論納入此記錄；本單元 KU-WAT-010 對照「水路徑圖從屋頂、街道、廣場與地下空間追蹤降雨如何流動，再標出每個節點的蓄水、滲透、處理或排放功能」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "文獻回顧；目前僅核對書目範圍",
+        "context_region": "歐洲與國際",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "比較現況和提案時，逐個記錄新增的水處理節點及其接收對象。",
+    "把高程、土壤和地下水位補作後續水力分析的輸入。"
+  ],
+  "applies_when_zh": "適用於前期水循環盤點與跨專業交接。",
+  "not_applicable_when_zh": "不適用於取代排水系統水力演算或工程設計圖。",
+  "debates_zh": "水路徑圖可能忽略地下管網和權屬邊界；沒有這些資料時應把缺口直接標出。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "ECKART2017",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "KABISCH2017",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "整合都市水管理",
+  "region": "澳洲；英國及國際經驗",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "水敏感都市設計（WSUD）"
+    },
+    {
+      "school": "MIT",
+      "course": null,
+      "topic": "水敏感都市設計（WSUD）"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0"
+}

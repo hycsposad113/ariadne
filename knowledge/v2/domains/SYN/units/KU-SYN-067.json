@@ -1,0 +1,82 @@
+{
+  "id": "KU-SYN-067",
+  "domain": "SYN",
+  "subtopic": "角度與度量距離",
+  "type": "value_range",
+  "title_zh": "角度成本的轉向範圍",
+  "title_en": "Angular path-turn cost range",
+  "summary_zh": "角度路徑成本把方向變化納入最短路徑比較，幾何上可從 0° 的直行到 180° 的反向轉折。這描述的是模型成本角度，不是街道可接受轉彎值。如何加權和是否累積角度需依模型設置說明。此處的路徑轉向角度成本範圍是附來源的比較參照，不是本基地法規。",
+  "key_points_zh": [
+    "0°–180°是幾何角度範圍。",
+    "角度成本和公尺距離、拓樸步數代表不同路徑概念。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "角度線段分析以轉角作路徑成本；Depthmap 慣例把轉角除以 90° 作角度深度（直行 0°＝0、90°＝1、180°＝2）。",
+        "library_id": "HILLIERPENN04",
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+        "effect_or_value": "0°–180°",
+        "study_design": "角度路徑成本；角度記號的操作細節待核對",
+        "context_region": "英國空間語法方法討論",
+        "locator": null
+      },
+      {
+        "claim_zh": "都市網路指標需同時說明圖建構和計算尺度。",
+        "library_id": "DOVEY14",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "城市形態和多維度量測",
+        "context_region": "澳洲都市形態研究",
+        "locator": null
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "路徑轉向角度成本範圍",
+      "range": "0°–180°",
+      "unit": "角度",
+      "context": "以幾何轉向成本計算路徑的城市網路分析；用途：比較轉向敏感與非轉向敏感的路徑模型；不是空間品質評分。；「路徑轉向角度成本範圍」僅供來源脈絡內的比較，不是本基地法規、M4H 門檻或通用配額；來源所列地域：英國。",
+      "library_id": "HILLIERPENN04"
+    }
+  ],
+  "design_implications_zh": [
+    "同一網路上並列角度成本與公尺距離模型，檢查路徑排序對轉向權重的敏感性。"
+  ],
+  "applies_when_zh": "比較路徑受轉向影響的程度時，把角度成本和公尺距離模型在同一底圖上並列。",
+  "not_applicable_when_zh": "角度範圍不設定道路轉彎半徑或行人舒適門檻。",
+  "debates_zh": "轉向成本可能影響模型中的路徑順位，但無法獨自解釋目的地吸引和實際選路。",
+  "sources": [
+    {
+      "library_id": "HILLIERPENN04",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "DOVEY14",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "網路科學與角度分析",
+  "region": "以幾何轉向成本計算路徑的城市網路分析",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Methods of Analysis & Imagination",
+      "topic": "角度與度量距離：課綱對應主題"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Cities by Design",
+      "topic": "角度與度量距離：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-SYN-037"
+  ]
+}

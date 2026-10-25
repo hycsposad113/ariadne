@@ -1,0 +1,66 @@
+{
+  "id": "KU-GRN-058",
+  "domain": "GRN",
+  "subtopic": "綠地仕紳化",
+  "type": "method",
+  "title_zh": "受益者分析要追蹤遷入和遷出",
+  "title_en": "Track both incoming and displaced residents",
+  "summary_zh": "只調查項目完工後的使用者會漏掉被迫搬離的人。社區組成變化也可能造成平均滿意度上升而公平下降。居民遷移資料有隱私和可取得性限制。受益的地理位置和受益者身份要分別報告。",
+  "key_points_zh": [
+    "只調查項目完工後的使用者會漏掉被迫搬離的人",
+    "社區組成變化也可能造成平均滿意度上升而公平下降"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "只調查項目完工後的使用者會漏掉被迫搬離的人。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "UK",
+        "library_id": "MADANIPOUR96",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "受益的地理位置和受益者身份要分別報告。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "建立匿名且可持續的租戶追蹤與地方商業變動資料。"
+  ],
+  "applies_when_zh": "適用於重大綠化投資的長期評估。",
+  "not_applicable_when_zh": "不宜將房價上漲視為居民福祉的等價指標。",
+  "debates_zh": "受益的地理位置和受益者身份要分別報告。",
+  "sources": [
+    {
+      "library_id": "MADANIPOUR96",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "WATSON09",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "critical spatial theory",
+  "region": "UK",
+  "curriculum_refs": [
+    {
+      "school": "MIT",
+      "course": "11.330J Theory of City Form",
+      "topic": "綠地仕紳化"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Critical Debates in Urban Design",
+      "topic": "綠地仕紳化"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-GRN-057",
+    "KU-GRN-059"
+  ]
+}

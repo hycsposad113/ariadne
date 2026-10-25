@@ -1,0 +1,81 @@
+{
+  "id": "KU-SYN-058",
+  "domain": "SYN",
+  "subtopic": "網路分析在設計中的使用與限制",
+  "type": "empirical_finding",
+  "title_zh": "診斷工具的初步行為檢驗",
+  "title_en": "Initial behavior validation of a diagnostic tool",
+  "summary_zh": "GIS 組合 Space Syntax、Spacematrix 和混合用途指標，以 GPS 行為記錄初步測試，研究脈絡為荷蘭城鎮研究。多項資料可形成可檢查的設計診斷。整合診斷可揭露舊城與新城在整合、密度和混合用途上的差異。限制包括行為核對是初步有效性檢查，不是普遍因果驗證。",
+  "key_points_zh": [
+    "多項資料可形成可檢查的設計診斷",
+    "限制：行為核對是初步有效性檢查，不是普遍因果驗證",
+    "效果或方向：整合診斷可揭露舊城與新城在整合、密度和混合用途上的差異"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "診斷工具的初步行為檢驗｜多項資料可形成可檢查的設計診斷",
+        "effect_or_value": "整合診斷可揭露舊城與新城在整合、密度和混合用途上的差異",
+        "study_design": "GIS 組合 Space Syntax、Spacematrix 和混合用途指標，以 GPS 行為記錄初步測試",
+        "context_region": "荷蘭城鎮研究",
+        "library_id": "YE14",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "診斷工具的初步行為檢驗｜Mymensingh 街段比較發現，僅以組態值解釋行人量的相關性偏弱，商業土地使用提供了更強的解釋線索；摘要未列係數",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "AZIZ2018",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "每次設計分析保留輸入、參數和實地核對方法"
+  ],
+  "applies_when_zh": "若本地觀察單位與荷蘭城鎮研究的研究脈絡可對照，可用「多項資料可形成可檢查的設計診斷」作為網路分析在設計中的使用與限制的比較線索。",
+  "not_applicable_when_zh": "這項荷蘭城鎮研究的研究結果不能單獨證明因果或預測其他城市的街段；原研究行為核對是初步有效性檢查，不是普遍因果驗證。",
+  "debates_zh": "關聯能否外推；行為核對是初步有效性檢查，不是普遍因果驗證；檢視「診斷工具的初步行為檢驗」的研究解讀時，還需判斷「限制：行為核對是初步有效性檢查，不是普遍因果驗證」會如何改變方案結論。",
+  "sources": [
+    {
+      "library_id": "YE14",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "AZIZ2018",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "證據導向都市設計與網路分析",
+  "region": "荷蘭城鎮研究",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Methods of Analysis & Imagination",
+      "topic": "網路分析在設計中的使用與限制：課綱對應主題"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Cities by Design",
+      "topic": "網路分析在設計中的使用與限制：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-SYN-057",
+    "KU-SYN-059",
+    "KU-SYN-060",
+    "KU-SYN-061",
+    "KU-SYN-062",
+    "KU-SYN-063",
+    "KU-SYN-064"
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "id": "KU-REG-069",
+  "domain": "REG",
+  "subtopic": "日本用途地域與地方條例",
+  "type": "value_range",
+  "title_zh": "日本一般與準住居地域建蔽容積選項",
+  "title_en": "Japan residential and quasi-residential FAR options",
+  "summary_zh": "一般住居及準住居地域的制度選項常見容積率 200–400%，建蔽率常見指定 60%；道路寬度仍可能限制可用容積。 用途類別和實際指定表會因地方計畫而異，範圍不能代替查圖。 對同一指定值跑道路幅員、日影和斜線包絡敏感度分析。",
+  "key_points_zh": [
+    "一般住居及準住居地域的制度選項常見容積率 200–400%，建蔽率常見指定 60%；道路寬度仍可能限制可用容積。",
+    "用途類別和實際指定表會因地方計畫而異，範圍不能代替查圖。",
+    "對同一指定值跑道路幅員、日影和斜線包絡敏感度分析。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "國土交通省官方用途地域圖表分列一般住居與準住居地域的建蔽、容積選項；前面道路寬度仍可能調整可用容積。",
+        "effect_or_value": "容積率 200–400%；建蔽率常見 60%",
+        "study_design": "跨案例尺度對照或明示假設的規劃計算",
+        "context_region": "日本住居地域及準住居地域",
+        "library_id": "MLIT_USE_ZONES",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "日本一般與準住居地域建蔽容積選項",
+      "range": "容積率 200–400%；建蔽率常見 60%",
+      "unit": "法定選項區間",
+      "context": "日本用途地域比較；用途：比較第一種住居、第二種住居及準住居地域的建蔽與容積選項；前面道路寬度可能限制可用容積；來源：國土交通省用途地域官方圖表；不是本基地法規。",
+      "library_id": "MLIT_USE_ZONES"
+    }
+  ],
+  "design_implications_zh": [
+    "對同一指定值跑道路幅員、日影和斜線包絡敏感度分析。",
+    "記錄 日本住居地域及準住居地域 與「一般住宅與準住居用途的地方指定」的量測分母，再和另一種尺度或用途並排比較。"
+  ],
+  "applies_when_zh": "用於比較日本住居地域及準住居地域的一般住宅與準住居用途的地方指定，並明示此數值的來源、年份和面積分母。",
+  "not_applicable_when_zh": "用途類別和實際指定表會因地方計畫而異，範圍不能代替查圖。",
+  "debates_zh": "看得到容積數字不代表建築會達到該數值，街道和高度規則可能成為真正約束。 查核：日本住居系用途地域的法定選項為容積率 100–500%、建蔽率 50／60／80%；此處列值不完整。",
+  "sources": [
+    {
+      "library_id": "MLIT_USE_ZONES",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "SINGLE_SOURCE",
+  "tradition": "日本郊區土地使用條例",
+  "region": "日本住居地域及準住居地域",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Planning Complex Cities",
+      "topic": "日本用途地域與地方條例"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Urban Design Contexts and Operations",
+      "topic": "日本用途地域與地方條例"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "日本用途地域與地方條例"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban design governance",
+      "topic": "日本用途地域與地方條例"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+}

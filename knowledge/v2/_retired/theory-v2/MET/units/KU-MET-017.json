@@ -1,0 +1,82 @@
+{
+  "id": "KU-MET-017",
+  "domain": "MET",
+  "subtopic": "類型形態分析",
+  "type": "critique",
+  "title_zh": "類型形態：分類的盲點",
+  "title_en": "Typomorphological analysis — critique unit 017",
+  "summary_zh": "形態分類切出類型邊界時，可能忽略混合型、漸變和非正式增建；分類穩定性需要由多位分析者比較。本項主張可與跨學派形態學及空間資本對照，並保留它們的地域和制度範圍。套用「類型形態：分類的盲點」時仍需檢查分類尺度與邊界會影響結果；相似的形態不保證相同用途、密度或社會結果。",
+  "key_points_zh": [
+    "形態分類切出類型邊界時，可能忽略混合型、漸變和非正式增建；分類穩定性需要由多位分析者比較。",
+    "本項主張可與跨學派形態學及空間資本對照，並保留它們的地域和制度範圍。",
+    "套用「類型形態：分類的盲點」時仍需檢查分類尺度與邊界會影響結果；相似的形態不保證相同用途、密度或社會結果。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "【BIBLIOGRAPHIC_SCOPE_ONLY】就「類型形態：分類的盲點」而言，「Alnwick, Northumberland: A Study in Town-Plan Analysis」提供英國城鎮平面學的比較坐標；此處僅使用其已標明的書目／摘要範圍，不延伸為未核對的效果或因果。",
+        "effect_or_value": null,
+        "study_design": "歷史案例",
+        "context_region": "英國",
+        "library_id": "CONZEN60",
+        "locator": null
+      },
+      {
+        "claim_zh": "【BIBLIOGRAPHIC_SCOPE_ONLY】就「類型形態：分類的盲點」而言，「Spatial Capital : A Proposal for an Extension of Space Syntax into a More General Urban Morphology」提供空間資本的比較坐標；此處僅使用其已標明的書目／摘要範圍，不延伸為未核對的效果或因果。",
+        "effect_or_value": null,
+        "study_design": "理論延伸",
+        "context_region": "瑞典",
+        "library_id": "MARCUS10",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "方案圖面應呈現「類型形態：分類的盲點」所指出的空間關係，並為關鍵判斷附上跨學派形態學與空間資本各自支持和無法支持的部分。"
+  ],
+  "design_options": [],
+  "applies_when_zh": "當問題包含「類型形態：分類的盲點」且需比較需要理解既有肌理、比較替代類型或追蹤形態變遷時時使用。",
+  "not_applicable_when_zh": "若研究缺少對應尺度或群體資料，不以「類型形態：分類的盲點」取代把類型名稱直接當成績效、審美或公平判斷時。",
+  "debates_zh": "「類型形態：分類的盲點」的爭點在於分類尺度與邊界會影響結果；相似的形態不保證相同用途、密度或社會結果；跨學派形態學與空間資本的研究對象不同，需保留差異而不能合併成單一規則。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "CONZEN60",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "MARCUS10",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "都市形態學／類型—街廓—地塊",
+  "region": "全球南方；跨地域",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Methods of Analysis & Imagination",
+      "topic": "類型形態：分類的盲點 — 類型形態分析"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "類型形態：分類的盲點 — 類型形態分析"
+    },
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.301J",
+      "topic": "類型形態：分類的盲點 — 類型形態分析"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "類型形態：分類的盲點 — 類型形態分析"
+    }
+  ],
+  "version": "2.0.0"
+}

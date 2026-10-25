@@ -1,0 +1,91 @@
+{
+  "id": "KU-HOU-063",
+  "domain": "HOU",
+  "subtopic": "住宅類型",
+  "type": "value_range",
+  "title_zh": "連棟住宅密度",
+  "title_en": "Terraced-house density",
+  "summary_zh": "連棟住宅密度會隨街道比例、地塊深度、後院和住宅戶型改變。Komossa 的荷蘭街廓研究提供連續街牆與公共領域的形態脈絡；Spacematrix 則要求把樓地板量、覆蓋與開放空間分開描述。35–70 戶／公頃是本單元保留的比較帶，不是兩項來源直接報告的標準。",
+  "key_points_zh": [
+    "連棟住宅街區可用約 35–70 戶／公頃作形態比較，實際值由街道比例、後院和樓層共同決定。",
+    "密度範圍不反映戶型可變性或家庭人數，不能單獨作生活品質指標。",
+    "先排街道、院落和服務入口，再計算每公頃單元數。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "Komossa 以荷蘭都市街廓和公共領域為研究主題，可作連續街屋及街廓界面的形態比較；其書目不設定通用戶／公頃門檻。",
+        "library_id": "KOMOSSA2010",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "荷蘭",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "《Spacematrix》以 FSI、GSI、OSR 與平均層數描述密度形態；戶／公頃換算還需明列戶型與分母，不能由單一形態指標推得。",
+        "library_id": "BERGHAUSERPONT_HAUPT2020",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "荷蘭與跨地域",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "連棟住宅密度",
+      "range": "約 35–70",
+      "unit": "戶／公頃",
+      "context": "英國、荷蘭與北美連棟街區；用途：淨住宅用地密度的類型比較；保留範圍是工作假設，非來源直接報告，應按地塊與單元數重算；不是本基地法規。",
+      "library_id": "BERGHAUSERPONT_HAUPT2020"
+    }
+  ],
+  "design_implications_zh": [
+    "先固定住宅淨地分母與街道／庭院計入方式，再用戶數和形態指標並列測算連棟方案。"
+  ],
+  "applies_when_zh": "用於比較英國、荷蘭與北美連棟街區的連續街屋或 row house 的淨住宅用地，並明示此數值的來源、年份和面積分母。",
+  "not_applicable_when_zh": "密度範圍不反映戶型可變性或家庭人數，不能單獨作生活品質指標。",
+  "debates_zh": "較高戶數可支援街道服務，但縮小庭院或過度切分地塊會改變採光與共享空間。 查核：「連棟住宅密度」的數值帶合理，但所引文獻未提供，待補來源。",
+  "sources": [
+    {
+      "library_id": "BERGHAUSERPONT_HAUPT2020",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "KOMOSSA2010",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "亞洲高層生活",
+  "region": "英國、荷蘭與北美連棟街區",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "住宅類型"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "住宅類型"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "住宅類型"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "住宅類型"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+}

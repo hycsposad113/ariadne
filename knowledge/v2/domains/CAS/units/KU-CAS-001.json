@@ -1,0 +1,100 @@
+{
+  "id": "KU-CAS-001",
+  "domain": "CAS",
+  "subtopic": "港區轉型案例",
+  "type": "case",
+  "title_zh": "HafenCity：大型港區更新的分期與社會配套",
+  "title_en": "HafenCity: Phasing and Social Provision in a Large Waterfront Redevelopment",
+  "summary_zh": "HafenCity 以舊港區為新城市中心延伸，官方總體規劃在 2000 年通過，並透過多個街區分期推進。市府資料同時列出住宅、就業和補貼住宅目標，顯示土地開發與公共配套並非同一指標。不同官方資料的基地面積口徑略有差異，因此本單元不填單一面積數字。",
+  "key_points_zh": [
+    "把實際已建量與遠期計畫量分開記錄，尤其是住宅和就業。",
+    "面積邊界需註明採用總體規劃範圍或子區範圍。"
+  ],
+  "evidence": {
+    "strength": "CASE_EVIDENCE",
+    "findings": [
+      {
+        "claim_zh": "官方資料記錄總體規劃於2000年通過，並提供約7,500戶住宅、45,000個工作機會及約2,000戶補貼住宅的規劃量。",
+        "effect_or_value": "規劃資料；非實際完成量",
+        "study_design": "規劃資料；非實際完成量",
+        "context_region": "德國漢堡",
+        "library_id": "HAMBURG_HAFENCITY_PROFILE",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "Landis的章節以HafenCity為城市更新案例，現有書目核對未確認其具體績效結論。",
+        "effect_or_value": "案例研究章節；細節待全文核對",
+        "study_design": "案例研究章節；細節待全文核對",
+        "context_region": "德國漢堡",
+        "library_id": "HAMBURG_URBAN_PROJECTS2020_2035",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "將分期邊界、住宅交付、公共空間開放與交通接通拆成不同里程碑。"
+  ],
+  "applies_when_zh": "大型港區更新並需平衡住宅、就業和公共投資的情境。",
+  "not_applicable_when_zh": "基地規模小、土地權屬單純，且不存在長期分期決策時。",
+  "debates_zh": "市府資料提到空置店面及街區冷清感等使用者批評；這些觀察提示住宅交付本身不能代表日常活力已建立。",
+  "sources": [
+    {
+      "library_id": "HAMBURG_HAFENCITY_PROFILE",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "HAMBURG_URBAN_PROJECTS2020_2035",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "LANDIS2022",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "歐洲港區大型整體開發與城市行銷批判",
+  "region": "西歐／德國漢堡",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": null,
+      "topic": "港城介面與分期開發"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": null,
+      "topic": "住房可負擔性與都市再生"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": null,
+      "topic": "文化導向再生與地方批判"
+    }
+  ],
+  "case": {
+    "location": "漢堡，德國",
+    "period": "2000年總體規劃通過後分期開發；官方資料展望至2030年前後",
+    "area_ha": null,
+    "fsi": null,
+    "gsi": null,
+    "program_mix": "住宅、辦公、零售、教育文化設施與公共水岸；官方規劃約7,500戶住宅、45,000個工作機會及約2,000戶補貼住宅。",
+    "key_strategies_zh": [
+      "以街區分期釋出地塊，逐步把港區接入市中心。",
+      "在商品住宅之外安排補貼住宅和公共文化設施。"
+    ],
+    "outcomes_zh": [
+      "官方報告記錄早期開發已形成住宅與企業活動，所列遠期戶數和工作機會仍屬規劃目標。",
+      "官方頁面彙整了店面空置和公共生活不足的批評，未提供具代表性的使用者調查。"
+    ],
+    "critiques_zh": [
+      "總體規劃面積在官方材料中出現157與158公頃兩種口徑，故此案面積欄留空。",
+      "文化地標和高品質公共空間的建成，不能替代對租住可負擔性與日常服務的追蹤。"
+    ]
+  },
+  "version": "v2.0"
+}

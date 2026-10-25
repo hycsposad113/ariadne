@@ -1,0 +1,81 @@
+{
+  "id": "KU-MOB-026",
+  "domain": "MOB",
+  "subtopic": "自行車停車",
+  "type": "empirical_finding",
+  "title_zh": "政策方案中的自行車停放",
+  "title_en": "Bicycle parking within cycling policy packages",
+  "summary_zh": "荷蘭、丹麥、德國政策比較與城市案例，研究脈絡為荷蘭、丹麥、德國。停車不是孤立設施，而是整體旅程和政策組合的一環。高自行車使用城市的政策組合包含充足停車與公共運輸整合。限制包括跨國政策資料無法單獨估計停車供給的因果效果。",
+  "key_points_zh": [
+    "停車不是孤立設施，而是整體旅程和政策組合的一環",
+    "限制：跨國政策資料無法單獨估計停車供給的因果效果",
+    "效果或方向：高自行車使用城市的政策組合包含充足停車與公共運輸整合"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "政策方案中的自行車停放｜停車不是孤立設施，而是整體旅程和政策組合的一環",
+        "effect_or_value": "高自行車使用城市的政策組合包含充足停車與公共運輸整合",
+        "study_design": "荷蘭、丹麥、德國政策比較與城市案例",
+        "context_region": "荷蘭、丹麥、德國",
+        "library_id": "PUCHER08",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "政策方案中的自行車停放｜停車供給與成本分攤應被視為土地與交通政策選擇；本單元不把書中案例值外推為其他城市規範",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "SHOUP05",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "依停留時間和轉乘需求設計短停、長停與保管方案"
+  ],
+  "applies_when_zh": "若本地觀察單位與荷蘭、丹麥、德國的研究脈絡可對照，可用「停車不是孤立設施，而是整體旅程和政策組合的一環」作為自行車停車的比較線索。",
+  "not_applicable_when_zh": "這項荷蘭、丹麥、德國的研究結果不能單獨證明因果或預測其他城市的街段；原研究跨國政策資料無法單獨估計停車供給的因果效果。",
+  "debates_zh": "關聯能否外推；跨國政策資料無法單獨估計停車供給的因果效果；檢視「政策方案中的自行車停放」的研究解讀時，還需判斷「限制：跨國政策資料無法單獨估計停車供給的因果效果」會如何改變方案結論。",
+  "sources": [
+    {
+      "library_id": "PUCHER08",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "SHOUP05",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "自行車接駁與停車政策",
+  "region": "荷蘭、丹麥、德國",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "自行車停車：課綱對應主題"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Urban Design Contexts and Operations",
+      "topic": "自行車停車：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-MOB-025",
+    "KU-MOB-027",
+    "KU-MOB-028",
+    "KU-MOB-029",
+    "KU-MOB-030",
+    "KU-MOB-031",
+    "KU-MOB-032"
+  ]
+}

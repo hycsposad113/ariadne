@@ -1,0 +1,80 @@
+{
+  "id": "KU-STR-051",
+  "domain": "STR",
+  "subtopic": "街道作為公共空間",
+  "type": "design_principle",
+  "title_zh": "街道作為公共空間：設計原則與取捨",
+  "title_en": "Street as public space: Design principle and trade-off",
+  "summary_zh": "在通行、門前活動、座位、遮蔭和裝卸之間協商可變空間，並記錄不同使用者的時段與需求。關鍵取捨是商業街、居住街、校園周邊、廣場化街道和市場街的停留與管理需求不同，應比較地方實際使用。執行前應按實際速度、目的地、行程和使用者能力檢查：以觀察、使用者訪談和管理規則檢視停留、穿越、邊緣活動與排除情況，避免單用設計圖推斷公共生活。",
+  "key_points_zh": [
+    "操作原則：街道承載日常交往、停留、通行和服務；公共性來自可進入、可使用和管理方式，不能只由路面外觀推定",
+    "操作原則：在通行、門前活動、座位、遮蔭和裝卸之間協商可變空間，並記錄不同使用者的時段與需求"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "街道作為公共空間：設計原則與取捨｜人的停留、步行與沿街互動是公共空間設計的觀察方向；需要地方活動與季節資料",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "GEHL10",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "街道作為公共空間：設計原則與取捨｜以公共空間的實際停留與使用作觀察依據；不能由案例直接推定其他城市的廣場尺寸",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "WHYTE80",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "在通行、門前活動、座位、遮蔭和裝卸之間協商可變空間，並記錄不同使用者的時段與需求"
+  ],
+  "applies_when_zh": "在街道作為公共空間的方案比較中，可用「街道承載日常交往、停留、通行和服務；公共性來自可進入、可使用和管理方式，不能只由路面外觀推定」整理空間配置取捨，並註明採用的服務與使用者目標。",
+  "not_applicable_when_zh": "「街道承載日常交往、停留、通行和服務；公共性來自可進入、可使用和管理方式，不能只由路面外觀推定」不能直接轉成法規或最佳方案判斷，尤其不能忽略「設計良好的公共空間不保證社群形成；私有管理、治安措施和商業化可能改變誰能使用」指出的限制。",
+  "debates_zh": "設計良好的公共空間不保證社群形成；私有管理、治安措施和商業化可能改變誰能使用；檢視「街道作為公共空間：設計原則與取捨」的方案取捨時，還需判斷「在通行、門前活動、座位、遮蔭和裝卸之間協商可變空間，並記錄不同使用者的時段與需求」會如何改變方案結論。",
+  "sources": [
+    {
+      "library_id": "GEHL10",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "WHYTE80",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "公共生活與街道治理",
+  "region": "跨地域理論或實務脈絡；來源地區依引用條目判讀",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "街道作為公共空間：課綱對應主題"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "街道作為公共空間：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-STR-049",
+    "KU-STR-050",
+    "KU-STR-052",
+    "KU-STR-053",
+    "KU-STR-054",
+    "KU-STR-055",
+    "KU-STR-056"
+  ]
+}

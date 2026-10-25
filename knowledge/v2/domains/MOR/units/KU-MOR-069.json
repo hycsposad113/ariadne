@@ -1,0 +1,77 @@
+{
+  "id": "KU-MOR-069",
+  "domain": "MOR",
+  "subtopic": "地塊、街廓與建築類型",
+  "type": "value_range",
+  "title_zh": "阿得雷德中心網格街廓",
+  "title_en": "Adelaide city grid block",
+  "summary_zh": "阿得雷德中心網格的街廓尺寸需和周邊公園帶及主要道路一同判讀。網格步行研究納入澳洲原始城市計畫，比較街廓、地塊與街道尺寸，但摘要未指明 Adelaide 個案或 350 ft 數值。107 m 方格應作待原圖核對的歷史比較，不是已由該摘要確認的尺寸。",
+  "key_points_zh": [
+    "阿得雷德中心網格常以約 350 ft 方格街廓及環繞公園帶的計畫結構描述。",
+    "現有街廓經土地整合和公共設施建設後，不一定維持初始模數。",
+    "把城牆／公園邊界和內部道路網一起繪出，理解城市尺度與街區尺度如何套疊。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "網格可及性研究分析美國與澳洲原始城市計畫中的街廓尺寸及街道寬度；摘要未指定 Adelaide，不能當作其 350 ft 模數的直接量測。",
+        "library_id": "SEVTSUK2016",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "澳洲與美國網格案例",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "阿得雷德中心網格街廓",
+      "range": "約 107 × 107",
+      "unit": "m（約 350 ft）",
+      "context": "阿得雷德，澳洲；用途：規劃城市中心網格街廓比較；107 × 107 m 是保留的工作值，需回查原始城市計畫量測；不是本基地法規。",
+      "library_id": "SEVTSUK2016"
+    }
+  ],
+  "design_implications_zh": [
+    "使用早期 Adelaide 計畫圖與現況街網交叉量測，分開計算公園邊界與中心區街廓。"
+  ],
+  "applies_when_zh": "用於比較阿得雷德，澳洲的規劃城市中心街廓，並明示此數值的來源、年份和面積分母。",
+  "not_applicable_when_zh": "現有街廓經土地整合和公共設施建設後，不一定維持初始模數。",
+  "debates_zh": "方格模數便於建立規則街網，環繞公園的尺度套疊則會改變城市中心的步行範圍。 查核：阿得雷德街廓模數無法核實。",
+  "sources": [
+    {
+      "library_id": "SEVTSUK2016",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "SINGLE_SOURCE",
+  "tradition": "街道形態",
+  "region": "阿得雷德，澳洲",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "地塊、街廓與建築類型"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "地塊、街廓與建築類型"
+    },
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.330J Theory of City Form",
+      "topic": "地塊、街廓與建築類型"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban form and density",
+      "topic": "地塊、街廓與建築類型"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+}

@@ -1,0 +1,71 @@
+{
+  "id": "KU-THY-038",
+  "domain": "THY",
+  "subtopic": "日常都市主義",
+  "type": "theory",
+  "title_zh": "戰術都市主義",
+  "title_en": "Tactical urbanism",
+  "summary_zh": "戰術都市主義以短期、低成本介入試驗較長期的城市改變，例如暫時街道重分配與小型公共空間。試驗應有可追蹤的目標、觀察與調整機制，而非把一次活動視為永久政策成功。先定義測試期間、基線、受影響者和退出安排，再決定是否擴大。",
+  "key_points_zh": [
+    "先定義測試期間、基線、受影響者和退出安排，再決定是否擴大。",
+    "能參與試驗者不一定代表全體居民；志工資源也分布不均。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "戰術都市主義以短期、低成本介入試驗較長期的城市改變，例如暫時街道重分配與小型公共空間。試驗應有可追蹤的目標、觀察與調整機制，而非把一次活動視為永久政策成功。",
+        "library_id": "LYDON15",
+        "locator": null,
+        "study_design": "理論／方法綜述；非基地實測",
+        "effect_or_value": null,
+        "context_region": null,
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008"
+      },
+      {
+        "claim_zh": "Stevens 與 Dovey 專門研究暫時及戰術都市主義，從時間性與容量議題補充 Lydon 的實務指南。",
+        "library_id": "STEVENSDOVEY2022",
+        "locator": null,
+        "study_design": "書目範圍核對；未以書目代替全文分析",
+        "effect_or_value": null,
+        "context_region": "跨地域",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "先定義測試期間、基線、受影響者和退出安排，再決定是否擴大。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "可逆試驗能減少一次性決策風險，但短期行為未必代表長期效果。",
+      "tradeoff_zh": "能參與試驗者不一定代表全體居民；志工資源也分布不均。",
+      "library_ids": [
+        "LYDON15"
+      ]
+    }
+  ],
+  "applies_when_zh": "用於釐清「戰術都市主義」涉及的空間、制度與行動選擇。",
+  "not_applicable_when_zh": "「戰術都市主義」不能直接替代基地的實測、法規或人類批准。",
+  "debates_zh": "能參與試驗者不一定代表全體居民；志工資源也分布不均。",
+  "sources": [
+    {
+      "library_id": "LYDON15",
+      "locator": null
+    },
+    {
+      "library_id": "STEVENSDOVEY2022",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+  "curriculum_refs": [
+    {
+      "school": "MIT",
+      "course": null,
+      "topic": "編者主題對照，非已核實課程指定閱讀：戰術都市主義"
+    }
+  ],
+  "version": "2.0.0-theory-v3"
+}

@@ -1,0 +1,86 @@
+{
+  "id": "MOB-012",
+  "title_zh": "各側沿路網到站",
+  "title_en": "Network access to transit by site edge",
+  "domain": "mobility",
+  "stages": [
+    "S2",
+    "S3",
+    "S7",
+    "S8"
+  ],
+  "statement_zh": "從每一側合法入口到站點計算步行最短路徑，另列直線距離、不可達及路網斷點；不把附近站點直接視作可達。",
+  "rationale_zh": "站點距離需要合法可通行路網和各側入口，不同使用者的服務範圍未必相同。",
+  "applies_when": {},
+  "parameters": [
+    {
+      "name": "station_catchment_trial",
+      "value": null,
+      "range": [
+        400,
+        800
+      ],
+      "unit": "m",
+      "provenance": "ASSUMED_COMMANDER",
+      "source_ids": [],
+      "authority_ref": null,
+      "status": "PROPOSED_PENDING_FOUNDER",
+      "rationale_zh": "指揮官提出的敏感性試算值，文獻未提供此數值；須 Founder 確認、地方資料及確定性驗證，未生效。"
+    }
+  ],
+  "check": {
+    "method_zh": "依規則逐項輸出對照表、輸入版本、定義、數值／未知及替代方案；實際計算由確定性工具負責。",
+    "inputs": [
+      "凍結基地、模式路網及用途／政策資料",
+      "已接受條件、卡片版本與試算參數"
+    ],
+    "output": "可比較的診斷與設計回應；沒有觀測或校準不輸出人數或法定結論。",
+    "implementation_status": "SPECIFICATION_ONLY"
+  },
+  "check_unavailable_reason_zh": null,
+  "design_responses": [
+    {
+      "option": "1",
+      "action_zh": "優先接近最近站點",
+      "source_ids": [
+        "GEURS04"
+      ],
+      "tradeoff_zh": "可能集中投資一側，忽略其他方向。"
+    },
+    {
+      "option": "2",
+      "action_zh": "分散連接各側站點",
+      "source_ids": [
+        "ELGENEIDY14"
+      ],
+      "tradeoff_zh": "路網較長，但提供多方向備援。"
+    }
+  ],
+  "evidence_level": "ACADEMIC",
+  "evidence_strength": "MIXED",
+  "sources": [
+    {
+      "library_id": "GEURS04",
+      "claim_id": "C1",
+      "support_scope_zh": "文獻支持概念與比較角度；本卡具體操作是設計推導，試算值及專案約束不是文獻的普適結論。"
+    },
+    {
+      "library_id": "ELGENEIDY14",
+      "claim_id": "C1",
+      "support_scope_zh": "文獻支持概念與比較角度；本卡具體操作是設計推導，試算值及專案約束不是文獻的普適結論。"
+    },
+    {
+      "library_id": "FORSYTH15",
+      "claim_id": "C1",
+      "support_scope_zh": "文獻支持概念與比較角度；本卡具體操作是設計推導，試算值及專案約束不是文獻的普適結論。"
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "enforcement": "CANDIDATE_ONLY",
+  "authority_ref": null,
+  "local_context_refs": [],
+  "debates_zh": "上述做法是文獻引導的設計推導，兩種方案各有代價；不得以某一方法、作者或地域替 Founder 決定。",
+  "context_validity_zh": "文獻地域與方法見 library；跨地域只能借用比較框架，數值須本地量測、校準與審核。",
+  "exceptions_zh": "法規、門禁、資料缺口、無障礙及已接受 D1/D2 優先；資料不足列 UNKNOWN，試算參數須 Founder 確認。",
+  "version": "0.2.0"
+}

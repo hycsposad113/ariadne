@@ -1,0 +1,60 @@
+{
+  "id": "KU-ECO-029",
+  "domain": "ECO",
+  "subtopic": "都市森林與樹冠",
+  "type": "design_principle",
+  "title_zh": "遮蔭和通風可能需要分段配置",
+  "title_en": "Shade and ventilation may need different layouts",
+  "summary_zh": "樹列可以降低直射熱，也可能影響街谷風場。不同街向和天候下的效果可能相反。簡化設計圖無法呈現全年變化。降溫和通風不是永遠同方向的目標。用微氣候分析和季節現勘比較連續與斷續樹冠。",
+  "key_points_zh": [
+    "樹列可以降低直射熱，也可能影響街谷風場",
+    "不同街向和天候下的效果可能相反"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "樹列可以降低直射熱，也可能影響街谷風場。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "跨地域",
+        "library_id": "ARONSON17",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "降溫和通風不是永遠同方向的目標。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "用微氣候分析和季節現勘比較連續與斷續樹冠。"
+  ],
+  "applies_when_zh": "適用於熱暴露顯著的街道更新。",
+  "not_applicable_when_zh": "不應把最大冠層覆蓋當成唯一性能指標。",
+  "debates_zh": "降溫和通風不是永遠同方向的目標。",
+  "sources": [
+    {
+      "library_id": "ARONSON17",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "HANSEN14",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "都市保育與綠地管理",
+  "region": "跨地域",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "都市森林與樹冠"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-ECO-028"
+  ]
+}

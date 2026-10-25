@@ -1,0 +1,61 @@
+{
+  "id": "KU-GRN-053",
+  "domain": "GRN",
+  "subtopic": "健康效益實證",
+  "type": "design_principle",
+  "title_zh": "綠地與心理復原需連到具體環境",
+  "title_en": "Restorative effects depend on settings",
+  "summary_zh": "自然景觀、安靜和社交互動可能透過不同途徑影響身心感受。同一座公園的忙碌遊戲區與安靜步道不應視為一種暴露。研究者對復原性和健康的測量可能不同。福利敘事容易過度承諾，需保留測量和人群限制。",
+  "key_points_zh": [
+    "自然景觀、安靜和社交互動可能透過不同途徑影響身心感受",
+    "同一座公園的忙碌遊戲區與安靜步道不應視為一種暴露"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "自然景觀、安靜和社交互動可能透過不同途徑影響身心感受。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "美國",
+        "library_id": "HANDY02",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "福利敘事容易過度承諾，需保留測量和人群限制。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "按活動和使用者劃分不同環境情境，避免以公園面積推算。"
+  ],
+  "applies_when_zh": "適用於設計安靜與活躍並存的綠地。",
+  "not_applicable_when_zh": "不適用於以單一心理健康宣稱作投資保證。",
+  "debates_zh": "福利敘事容易過度承諾，需保留測量和人群限制。",
+  "sources": [
+    {
+      "library_id": "HANDY02",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "EWING10",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "交通與健康",
+  "region": "美國",
+  "curriculum_refs": [
+    {
+      "school": "MIT",
+      "course": "11.330J Theory of City Form",
+      "topic": "健康效益實證"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-GRN-052",
+    "KU-GRN-054"
+  ]
+}

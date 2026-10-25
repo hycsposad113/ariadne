@@ -1,0 +1,61 @@
+{
+  "id": "KU-PUB-048",
+  "domain": "PUB",
+  "subtopic": "公共空間私有化與管理",
+  "type": "critique",
+  "title_zh": "非消費者也應被視為常態使用者",
+  "title_en": "Non-consumers are regular users",
+  "summary_zh": "等候、閱讀、休息和參與公共事件都可能不帶來消費。場地若把座位只留給顧客，實際形成了以消費能力篩選的公共性。商業營運有其合法空間需求，但不能自動代表社區所有需求。公共補貼與私營收益如何平衡需由制度和社群協商。",
+  "key_points_zh": [
+    "等候、閱讀、休息和參與公共事件都可能不帶來消費",
+    "場地若把座位只留給顧客，實際形成了以消費能力篩選的公共性"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "等候、閱讀、休息和參與公共事件都可能不帶來消費。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "美國",
+        "library_id": "FANSTEIN10",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "公共補貼與私營收益如何平衡需由制度和社群協商。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "將免費座位、飲水、遮蔭和活動空間與店鋪外擺分開盤點。"
+  ],
+  "applies_when_zh": "適用於高商業強度街區的公共空間設計。",
+  "not_applicable_when_zh": "不適用於要求小型店家承擔所有公共服務責任。",
+  "debates_zh": "公共補貼與私營收益如何平衡需由制度和社群協商。",
+  "sources": [
+    {
+      "library_id": "FANSTEIN10",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "ROY05",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "都市分配正義",
+  "region": "美國",
+  "curriculum_refs": [
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "公共空間私有化與管理"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-PUB-047",
+    "KU-PUB-049"
+  ]
+}

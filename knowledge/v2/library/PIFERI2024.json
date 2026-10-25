@@ -1,0 +1,40 @@
+{
+  "id": "PIFERI2024",
+  "title": "E(in)volution of standards in student housing design",
+  "authors": [
+    "Claudio Piferi"
+  ],
+  "year": 2024,
+  "venue_or_publisher": "TECHNE - Journal of Technology for Architecture and Environment",
+  "doi": "10.36253/techne-15103",
+  "isbn": null,
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "義大利學生住宅設計標準與空間規範",
+  "region": [
+    "義大利"
+  ],
+  "method": "Crossref abstract review; comparison of the regulatory framework with more than 350 co-financed university-residence projects.",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "摘要比較義大利大學住宅資助規範與 350 多個宿舍專案，指出 2001 年以來規定的標準及功能面積逐步縮減；摘要未提供床位／公頃密度，也不支持本單元的 150–400 床位／公頃範圍。",
+      "strength": "MIXED",
+      "scope_zh": "可用於說明學生住宅規範與空間配置如何變動；不能當作特定密度範圍的直接數值證據。",
+      "assessment_basis": "ABSTRACT_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref",
+    "query": {
+      "doi": "10.36253/techne-15103",
+      "title": "E(in)volution of standards in student housing design"
+    },
+    "matched_record_id": "https://doi.org/10.36253/techne-15103",
+    "checked_at_utc": "2026-10-08T17:46:43Z",
+    "match_notes_zh": "Crossref 書目與摘要列出義大利學生住宅規範、功能面積要求，以及 350 多個大學宿舍專案；摘要未提供床位／公頃密度。"
+  },
+  "limitations_zh": "只核對 Crossref 公開書目與摘要，未查閱全文；不得將其當作本單元床位／公頃範圍的量化驗證。",
+  "metadata_licence_zh": "保存公開 Crossref 書目欄位與自行撰寫的範圍摘要，未保存摘要原文或全文。"
+}

@@ -1,0 +1,71 @@
+{
+  "id": "KU-HAR-001",
+  "domain": "HAR",
+  "subtopic": "水岸再生的世代與模式",
+  "type": "typology",
+  "title_zh": "港區轉型模式不應視為必經的單一路徑",
+  "title_en": "Port transformation models are not a universal sequence",
+  "summary_zh": "港城研究曾以港口與城市介面的變化整理趨勢和轉型階段。Hoyle 將介面問題放在跨城市案例中討論，Notteboom 與 Rodrigue 則提出港口區域化作為港口發展的新階段。這些模型可協助定位港口、物流與都市之間的關係，卻不能推定每個港區都會按相同順序完成轉型。分析一個港區時應先核對其貨運功能、腹地連接和土地治理條件。",
+  "key_points_zh": [
+    "「世代」模型是解讀框架，不是自動發生的開發時間表。",
+    "港口與城市的關係受到物流網絡及在地土地制度共同影響。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "library_id": "HOYLE1989",
+        "claim_zh": "文章題名和書目確認其討論港城介面趨勢、問題和案例；本次沒有全文足以固定單一路徑。",
+        "effect_or_value": "港城介面模型與跨地案例範圍",
+        "study_design": "比較性概念論述",
+        "context_region": "跨地域港口城市",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "library_id": "NOTTEBOOM2005",
+        "claim_zh": "文章提出港口區域化是港口發展中的新階段，作為連接港口與腹地網絡的研究框架。",
+        "effect_or_value": "區域化階段概念；不代表每個港口按同一序列轉型",
+        "study_design": "港口發展階段理論",
+        "context_region": "跨地域港口網絡",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "把港區轉型史拆成碼頭功能、物流連接、土地使用和治理權責等可觀察變項。",
+    "以地方港務、地籍和產業資料檢查模型適用性，不用通用階段取代歷史研究。"
+  ],
+  "applies_when_zh": "適用於比較港城關係與討論港區再生前提。",
+  "not_applicable_when_zh": "不適用於預測每個港區的固定轉型順序或再生時間。",
+  "debates_zh": "階段模型帶來比較語彙，也可能把不同制度和地域歷史壓成一條線性發展史。",
+  "sources": [
+    {
+      "library_id": "HOYLE1989",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "NOTTEBOOM2005",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "港口地理與港城介面模型",
+  "region": "跨地域港口城市",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": null,
+      "topic": "水岸再生的世代與模式"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": null,
+      "topic": "港城轉型比較"
+    }
+  ],
+  "version": "v2.0"
+}

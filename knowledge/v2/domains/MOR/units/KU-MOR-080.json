@@ -1,0 +1,110 @@
+{
+  "id": "KU-MOR-080",
+  "domain": "MOR",
+  "subtopic": "街廓尺寸與建築類型配合；幾何檢查",
+  "type": "method",
+  "title_zh": "用內院剩餘寬度檢查 20 m 街廓的周邊式／合院選項",
+  "title_en": "Check perimeter-block and courtyard options on a 20 m block by residual court width",
+  "summary_zh": "20 m 見方的街廓不應被機械地判為「只有單棟」：是否形成可用院落，要由建築翼深和院落目標淨寬計算。若街廓橫向寬度 B 由兩側等深翼樓 D 圍合，幾何剩餘寬度是 C = B − 2D；當 D 達到 B/2 時院落消失。C 為正仍不代表日照、消防、私密或可通行條件合格。",
+  "key_points_zh": [
+    "幾何公式提供透明的初篩，而不是替代法規或設計判斷。",
+    "翼深不對稱時，應以 C = B − D1 − D2 計算剩餘空間。",
+    "20 m 街廓可測試淺翼小院、單棟、板樓和穿越型配置，結果依輸入而變。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "library_id": "SEVTSUK2016",
+        "claim_zh": "Sevtsuk 等人直接分析街廓、地塊和街道尺寸與步行可及性的關係，摘要指出尺寸和可及性並非簡單線性。",
+        "effect_or_value": null,
+        "study_design": "規則網格與模擬街網比較",
+        "context_region": "United States; Australia",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW",
+        "limitations_zh": "研究主題是步行可及性，不是對 20 m 住宅庭院的法規認證。"
+      },
+      {
+        "library_id": "PANERAI2004",
+        "claim_zh": "Panerai 街廓研究提供類型分析入口；本方法把尺寸關係轉成可逐方案核對的平面公式。",
+        "effect_or_value": null,
+        "study_design": "都市街廓專書",
+        "context_region": "Europe; cross-regional morphology",
+        "locator": null,
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+        "limitations_zh": "本次只核對書目，沒有引用書中未核實頁碼或尺寸。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "每個選項都提交外框、翼深、內院淨空、採光面和出入口標註。",
+    "若內院太窄，改試單側建築或穿越通道並說明其公共性和私密性取捨。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "以淺翼圍出小院，保留連續街牆。",
+      "tradeoff_zh": "可能改善街道連續性，但淺翼的戶型、設備與核心配置需測試。",
+      "library_ids": [
+        "PANERAI2004",
+        "SEVTSUK2016"
+      ]
+    },
+    {
+      "option_zh": "在短邊採單側建築或一棟獨立量體，留出通行空間。",
+      "tradeoff_zh": "能讓街廓更通透，但街道邊界和院落保護較弱。",
+      "library_ids": [
+        "SEVTSUK2016",
+        "PANERAI2004"
+      ]
+    }
+  ],
+  "applies_when_zh": "適用於街廓初步配置、生成器幾何 fit-check 及形態方案比較。",
+  "not_applicable_when_zh": "不適用於用正值院落寬度直接宣稱日照、消防、公共性或住宅品質合格。",
+  "debates_zh": "「能不能圍出空間」和「院落是否可用」是兩個不同問題；合法開口、遮擋角、消防及隱私需各自驗證。",
+  "counter_unit_ids": [
+    "KU-MOR-005",
+    "KU-MOR-035"
+  ],
+  "related_unit_ids": [
+    "KU-MOR-001",
+    "KU-MOR-002",
+    "KU-MOR-004",
+    "KU-MOR-079"
+  ],
+  "sources": [
+    {
+      "library_id": "SEVTSUK2016",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "PANERAI2004",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "街廓幾何、步行可及性與建築類型分析",
+  "region": "United States; Australia; Europe",
+  "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "街廓尺寸與建築類型配合；幾何檢查：課綱對應主題"
+    }
+  ],
+  "version": "kb2-gaps-2026-10-08",
+  "check": {
+    "method_zh": "沿街廓每一橫剖面量 B、D1、D2 和設計者設定的庭院淨寬；計算 C = B − D1 − D2，再與法規、日照、消防和出入口要求逐項比較。",
+    "inputs": [
+      "街廓橫向淨寬 B",
+      "兩側實際建築翼深 D1、D2",
+      "院落及通道需求",
+      "法規與採光輸入"
+    ],
+    "logic_zh": "C ≤ 0 表示該剖面沒有內院剩餘；C > 0 只表示幾何上有空隙。20 m 測例若 D1=D2=10 m 則 C=0，若翼深較小則另行檢查淨院寬。",
+    "limitations_zh": "公式只處理平面幾何，未計外牆、退縮、核心、柱網或高程；模型結果不可標成法規符合或適居性結論。"
+  },
+  "case": null
+}

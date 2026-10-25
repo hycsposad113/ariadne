@@ -1,0 +1,27 @@
+{
+  "id": "HAYDEN80",
+  "title": "What Would a Non-Sexist City Be Like? Speculations on Housing, Urban Design, and Human Work",
+  "authors": [
+    "Dolores Hayden"
+  ],
+  "year": 1980,
+  "kind": "ACADEMIC_PAPER",
+  "claims": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref",
+    "query": {
+      "title": "What Would a Non Sexist City Be Like Speculations on Housing Urban Design and Human Work",
+      "author": "Dolores Hayden",
+      "year": 1980
+    },
+    "matched_record_id": "10.1086/495718",
+    "checked_at_utc": "2026-10-08T13:42:39Z",
+    "match_notes_zh": "人工核對 Crossref 題名、完整作者與年份；保存實際命中書目，主張尚未交叉核對。",
+    "receipt_path": "artifacts/kb2-theory-v3/resume-source-lookups.json"
+  },
+  "limitations_zh": "不以書目命中證明主張；主張待原著交叉核對。",
+  "metadata_licence_zh": "Metadata only; licence UNKNOWN",
+  "doi": "10.1086/495718",
+  "venue_or_publisher": "Signs: Journal of Women in Culture and Society"
+}

@@ -1,0 +1,74 @@
+{
+  "id": "KU-GRN-064",
+  "domain": "GRN",
+  "subtopic": "開放空間系統與綠色網絡",
+  "type": "value_range",
+  "title_zh": "跨城市生物多樣性研究涵蓋面",
+  "title_en": "Urban-biodiversity city coverage",
+  "summary_zh": "都市生物多樣性統合研究涵蓋七十五座城市。不同城市資料有助比較斑塊和廊道的整體作用方向。樣本城市的棲地與物種調查不一。多城市涵蓋不會消除研究間異質性。依據跨城綜合證據選擇需要本地驗證的網絡假設。",
+  "key_points_zh": [
+    "都市生物多樣性統合研究涵蓋七十五座城市",
+    "不同城市資料有助比較斑塊和廊道的整體作用方向"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "都市生物多樣性統合研究涵蓋七十五座城市。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "跨地域",
+        "library_id": "LIVESELY16",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "多城市涵蓋不會消除研究間異質性。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "依據跨城綜合證據選擇需要本地驗證的網絡假設。"
+  ],
+  "applies_when_zh": "適用於都市生態研究讀本。",
+  "not_applicable_when_zh": "不能把城市數量轉成綠地網絡配置要求。",
+  "debates_zh": "多城市涵蓋不會消除研究間異質性。",
+  "sources": [
+    {
+      "library_id": "LIVESELY16",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "NORTON15",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "都市森林與生態系統服務",
+  "region": "跨地域",
+  "curriculum_refs": [
+    {
+      "school": "UCL Bartlett",
+      "course": "Critical Debates in Urban Design",
+      "topic": "開放空間系統與綠色網絡"
+    },
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "開放空間系統與綠色網絡"
+    }
+  ],
+  "version": "2.0.0",
+  "values": [
+    {
+      "name": "跨城市生物多樣性研究涵蓋面",
+      "range": "75 座",
+      "unit": "城市數",
+      "context": "都市生物多樣性統合分析的納入範圍；非基地法規。；「跨城市生物多樣性研究涵蓋面」僅供其研究脈絡內比較，不構成本基地法規；來源所列地域：全球多城市。",
+      "library_id": "BENINDE15"
+    }
+  ],
+  "related_unit_ids": [
+    "KU-GRN-029"
+  ]
+}

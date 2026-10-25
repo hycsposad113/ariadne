@@ -1,0 +1,71 @@
+{
+  "id": "KU-THY-033",
+  "domain": "THY",
+  "subtopic": "新都市主義",
+  "type": "theory",
+  "title_zh": "新都市主義憲章",
+  "title_en": "Charter of the New Urbanism 1996",
+  "summary_zh": "1996 年新都市主義憲章從區域、鄰里與街廓到街道及建築提出相互銜接的原則，重視混合使用、步行及公共空間。1999 年出版的憲章書籍不能與憲章採納年份混淆。在區域交通、街區機能和街道界面三層檢查原則是否一致。",
+  "key_points_zh": [
+    "在區域交通、街區機能和街道界面三層檢查原則是否一致。",
+    "良好形式不能自行創造社群或可負擔住房，需檢查制度和市場條件。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "1996 年新都市主義憲章從區域、鄰里與街廓到街道及建築提出相互銜接的原則，重視混合使用、步行及公共空間。1999 年出版的憲章書籍不能與憲章採納年份混淆。",
+        "library_id": "CNU1999",
+        "locator": null,
+        "study_design": "理論／方法綜述；非基地實測",
+        "effect_or_value": null,
+        "context_region": null,
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008"
+      },
+      {
+        "claim_zh": "Talen 對鄰里形式及社群結果的研究，提供評估新都市主義原則的獨立學術視角。",
+        "library_id": "TALEN99",
+        "locator": null,
+        "study_design": "社會研究綜述",
+        "effect_or_value": null,
+        "context_region": "美國",
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "在區域交通、街區機能和街道界面三層檢查原則是否一致。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "連通街道與混合用途能增加活動選擇，但可能受土地價格及開發分期限制。",
+      "tradeoff_zh": "良好形式不能自行創造社群或可負擔住房，需檢查制度和市場條件。",
+      "library_ids": [
+        "CNU1999"
+      ]
+    }
+  ],
+  "applies_when_zh": "用於釐清「新都市主義憲章」涉及的空間、制度與行動選擇。",
+  "not_applicable_when_zh": "「新都市主義憲章」不能直接替代基地的實測、法規或人類批准。",
+  "debates_zh": "良好形式不能自行創造社群或可負擔住房，需檢查制度和市場條件。（Claude 交叉核對註記：憲章 1996 年採納無誤；同名出版書的年份在不同版本記為 1999 或 2000，待核對版本。）",
+  "sources": [
+    {
+      "library_id": "CNU1999",
+      "locator": null
+    },
+    {
+      "library_id": "TALEN99",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+  "curriculum_refs": [
+    {
+      "school": "MIT",
+      "course": null,
+      "topic": "編者主題對照，非已核實課程指定閱讀：新都市主義憲章"
+    }
+  ],
+  "version": "2.0.0-theory-v3"
+}

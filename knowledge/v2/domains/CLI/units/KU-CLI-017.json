@@ -1,0 +1,74 @@
+{
+  "id": "KU-CLI-017",
+  "domain": "CLI",
+  "subtopic": "天空可視因子",
+  "type": "method",
+  "title_zh": "計算 SVF 前固定遮蔽物和觀測高度",
+  "title_en": "計算 SVF 前固定遮蔽物和觀測高度",
+  "summary_zh": "魚眼照片、DSM 和三維建築模型對樹冠、陽台與細部遮蔽物的處理方式不同。局部氣候區研究需要可重複的地表描述；街谷研究則指出幾何量要和實際熱環境互相校核。跨地點比較前應統一觀測高度、方位和遮擋規則。",
+  "key_points_zh": [
+    "葉季和落葉季形成不同的可見天空。",
+    "DSM 格網可能漏掉細窄遮擋物。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "library_id": "OKE1988",
+        "claim_zh": "局部氣候區研究需要可重複的地表描述；街谷研究則指出幾何量要和實際熱環境互相校核。",
+        "effect_or_value": "跨地點比較前應統一觀測高度、方位和遮擋規則。",
+        "study_design": "都市冠層氣候研究",
+        "context_region": "一般都市冠層",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "library_id": "MILLS2014",
+        "claim_zh": "書目確認本文題名聚焦「Urban climatology: History, status and prospects」；目前只完成作者、年份、題名與 DOI 核對，未將摘要或全文結論納入此記錄；本單元 KU-CLI-017 對照「魚眼照片、DSM 和三維建築模型對樹冠、陽台與細部遮蔽物的處理方式不同」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "文獻回顧；目前僅核對書目範圍",
+        "context_region": "跨地域",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "保存原始影像或幾何網格、方位和版本。",
+    "在樹冠茂密與建築密集處做現場核對。"
+  ],
+  "applies_when_zh": "適用於街道和公共空間微氣候基礎資料。",
+  "not_applicable_when_zh": "不可以不同分辨率和樹冠規則直接比較。",
+  "debates_zh": "演算法差異可能小於資料處理方式造成的差異。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "OKE1988",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "MILLS2014",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "可視天空量測方法",
+  "region": "全球城市測站；一般都市冠層",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "天空可視因子"
+    },
+    {
+      "school": "MIT",
+      "course": "Theory of City Form",
+      "topic": "天空可視因子"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0"
+}

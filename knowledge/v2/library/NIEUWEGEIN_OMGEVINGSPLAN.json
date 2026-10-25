@@ -1,0 +1,42 @@
+{
+  "id": "NIEUWEGEIN_OMGEVINGSPLAN",
+  "title": "Omgevingsplan gemeente Nieuwegein, versie 5",
+  "authors": [
+    "Gemeente Nieuwegein"
+  ],
+  "year": null,
+  "venue_or_publisher": "Lokale wet- en regelgeving",
+  "doi": null,
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "OFFICIAL_PRIMARY_SOURCE",
+  "tradition": "荷蘭地方雨水與氣候適應規則",
+  "region": "Nieuwegein, Nederland",
+  "method": "地方政府規劃法規文本",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "Nieuwegein 規定適用建築地塊需在 70 mm/h 事件中保留或處理至少 50 mm，前 24 小時維持蓄水且最遲 60 小時恢復容量；另要求處理平均年雨量 936 mm 的至少一半。",
+      "strength": "NORMATIVE_PRACTICE",
+      "scope_zh": "僅代表該政府頁面、政策文件或地方制度所述的地區和用途；不得轉成其他城市法規或普遍工程性能。",
+      "assessment_basis": "OFFICIAL_PRIMARY_SOURCE_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Official primary website",
+    "query": {
+      "title": "Omgevingsplan gemeente Nieuwegein, versie 5",
+      "url": "https://lokaleregelgeving.overheid.nl/CVDR696286/5",
+      "locator": "Omgevingsplan, Article 5.15, lines 1539–1551; explanatory text lines 8448–8456",
+      "api_query": "Directly opened public official page; no API abstract stored."
+    },
+    "matched_record_id": "https://lokaleregelgeving.overheid.nl/CVDR696286/5",
+    "checked_at_utc": "2026-10-08T14:07:10Z",
+    "match_notes_zh": "已讀取官方公開頁面並核對指定段落；頁面年份未顯示者標為 null，不以擷取日代替出版年。"
+  },
+  "limitations_zh": "僅保存官方頁面書目與自行撰寫的範圍摘要；數值是該地區規範或專案資料，不代表 M4H 規範。",
+  "critique_relationship_zh": "本記錄不推論其他城市採相同標準。",
+  "metadata_licence_zh": "公開官方網頁；頁面授權條款未逐項核驗，標 UNKNOWN。"
+}

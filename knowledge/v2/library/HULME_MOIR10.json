@@ -1,0 +1,42 @@
+{
+  "id": "HULME_MOIR10",
+  "title": "Making Way for the Car: Minimum Parking Requirements and Porirua City Centre",
+  "authors": [
+    "Angus Hulme-Moir"
+  ],
+  "year": 2010,
+  "venue_or_publisher": "Victoria University of Wellington thesis repository",
+  "doi": "10.26686/wgtn.16973812",
+  "openalex_id": "https://openalex.org/W4233321526",
+  "kind": "ACADEMIC_DISSERTATION",
+  "tradition": "停車最低標準批評",
+  "region": [
+    "紐西蘭"
+  ],
+  "method": "Porirua CBD 案例、土地使用繪圖、stated choice 與成本回收模型",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "Porirua CBD 案例將 24% 面積計為汽車停車場，研究亦指出最低標準與超額供給、分散式發展及開車偏好相連；數值只描述該地。",
+      "strength": "MIXED",
+      "scope_zh": "只支持所述研究脈絡；不提供 M4H 法規、普遍因果或未查證的設計門檻。",
+      "assessment_basis": "ABSTRACT_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "OpenAlex",
+    "query": {
+      "title": "Making Way for the Car: Minimum Parking Requirements and Porirua City Centre",
+      "author": "Angus Hulme-Moir",
+      "year": 2010
+    },
+    "matched_record_id": "https://openalex.org/W4233321526",
+    "checked_at_utc": "2026-10-08T08:57:36Z",
+    "match_notes_zh": "OpenAlex 命中標題、作者、年份與摘要；摘要明列紐西蘭 Porirua CBD 及 24% 停車用地。"
+  },
+  "limitations_zh": "只使用公開書目與 API 摘要核對；未下載或查閱全文，摘要以外的頁碼和量化結果不推定。",
+  "critique_relationship_zh": "引用只表示本單元並置不同研究觀點，不宣稱作者間互引或逐一反駁。",
+  "metadata_licence_zh": "只保存公開 API 書目與自行撰寫摘要；未保存 API 摘要原文。"
+}

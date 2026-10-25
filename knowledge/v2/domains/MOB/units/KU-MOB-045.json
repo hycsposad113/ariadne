@@ -1,0 +1,80 @@
+{
+  "id": "KU-MOB-045",
+  "domain": "MOB",
+  "subtopic": "大眾運輸服務圈",
+  "type": "design_principle",
+  "title_zh": "大眾運輸服務圈：設計原則與取捨",
+  "title_en": "Transit service areas: Design principle and trade-off",
+  "summary_zh": "先選擇步行、騎行或轉乘模式，再以網路距離、班次、服務品質和路線障礙估算可服務人群。關鍵取捨是步行圈、自行車接駁圈和含轉乘成本的服務圈衡量不同旅程；站點密度和服務頻率會改變結果。執行前應按實際速度、目的地、行程和使用者能力檢查：以實際路網建立多模式服務區，將直線緩衝、路網距離和觀測到的接駁距離分開呈現。",
+  "key_points_zh": [
+    "操作原則：服務圈是依步行或自行車網路、站點服務和使用者條件描繪的可達範圍，不等於以站點為圓心的固定半徑",
+    "操作原則：先選擇步行、騎行或轉乘模式，再以網路距離、班次、服務品質和路線障礙估算可服務人群"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "大眾運輸服務圈：設計原則與取捨｜非機動可及性必須說明網路、目的地與尺度，替代量測方式需保持定義可比較",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "IACONO10",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "大眾運輸服務圈：設計原則與取捨｜墨爾本旅運資料顯示，步行到公共運輸的可接受與可忍受距離宜用區域分布描述；Burr Type XII 能配適該資料，但不會自動成為其他城市的門檻",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "TAYLOR24",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "先選擇步行、騎行或轉乘模式，再以網路距離、班次、服務品質和路線障礙估算可服務人群"
+  ],
+  "applies_when_zh": "在大眾運輸服務圈的方案比較中，可用「服務圈是依步行或自行車網路、站點服務和使用者條件描繪的可達範圍，不等於以站點為圓心的固定半徑」整理空間配置取捨，並註明採用的服務與使用者目標。",
+  "not_applicable_when_zh": "「服務圈是依步行或自行車網路、站點服務和使用者條件描繪的可達範圍，不等於以站點為圓心的固定半徑」不能直接轉成法規或最佳方案判斷，尤其不能忽略「固定距離圈方便溝通但可能錯估河流、坡度、穿越障礙、轉乘和不同群體的可接受距離」指出的限制。",
+  "debates_zh": "固定距離圈方便溝通但可能錯估河流、坡度、穿越障礙、轉乘和不同群體的可接受距離；檢視「大眾運輸服務圈：設計原則與取捨」的方案取捨時，還需判斷「先選擇步行、騎行或轉乘模式，再以網路距離、班次、服務品質和路線障礙估算可服務人群」會如何改變方案結論。",
+  "sources": [
+    {
+      "library_id": "IACONO10",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "TAYLOR24",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "交通可及性與服務範圍",
+  "region": "跨地域理論或實務脈絡；來源地區依引用條目判讀",
+  "curriculum_refs": [
+    {
+      "school": "Harvard GSD",
+      "course": "Urban Design Contexts and Operations",
+      "topic": "大眾運輸服務圈：課綱對應主題"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "大眾運輸服務圈：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-MOB-041",
+    "KU-MOB-042",
+    "KU-MOB-043",
+    "KU-MOB-044",
+    "KU-MOB-046",
+    "KU-MOB-047",
+    "KU-MOB-048"
+  ]
+}

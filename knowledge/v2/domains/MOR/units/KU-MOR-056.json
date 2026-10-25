@@ -1,0 +1,112 @@
+{
+  "id": "KU-MOR-056",
+  "domain": "MOR",
+  "subtopic": "形態指標與類型比較方法",
+  "type": "design_principle",
+  "title_zh": "形態指標與類型比較方法｜設計原則",
+  "title_en": "Methods for typology and indicators — Design principle",
+  "summary_zh": "將空間語法表示法與幾何資訊的限制列為方法審查問題；應與作者回應和替代圖方法並讀。 沒有一致的分母和來源版本時，不比較不同研究的數值排名。 讀「形態指標與類型比較方法｜設計原則」時，先定分析單位、指標方向與資料品質，再進行分類及敏感度比較；同時把整合度與選擇度的人流關聯得到綜合研究支持，但研究結果高度異質，指標與表示方式會影響關聯列為核對條件。",
+  "key_points_zh": [
+    "讀「形態指標與類型比較方法｜設計原則」時，先定分析單位、指標方向與資料品質，再進行分類及敏感度比較；同時把整合度與選擇度的人流關聯得到綜合研究支持，但研究結果高度異質，指標與表示方式會影響關聯列為核對條件。",
+    "讀「形態指標與類型比較方法｜設計原則」時，先定分析單位、指標方向與資料品質，再進行分類及敏感度比較；同時把整合度與選擇度的人流關聯得到綜合研究支持，但研究結果高度異質，指標與表示方式會影響關聯列為核對條件。",
+    "限制：沒有一致的分母和來源版本時，不比較不同研究的數值排名。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "整合度與選擇度的人流關聯得到綜合研究支持，但研究結果高度異質，指標與表示方式會影響關聯。",
+        "library_id": "SHARMIN17",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "跨地域",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "Ratti 對空間語法表示法提出方法審查，質疑軸線和幾何資訊如何被編入圖模型；分析需說明所選表示會保留或省略什麼。",
+        "library_id": "RATTI04",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "歐洲",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "落實「形態指標與類型比較方法｜設計原則」時可先先定分析單位、指標方向與資料品質，再進行分類及敏感度比較，再用整合度與選擇度的人流關聯得到綜合研究支持，但研究結果高度異質，指標與表示方式會影響關聯核對方案的空間後果。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "「形態指標與類型比較方法｜設計原則」可把取向落在先定分析單位、指標方向與資料品質，再進行分類及敏感度比較，但需連同整合度與選擇度的人流關聯得到綜合研究支持，但研究結果高度異質，指標與表示方式會影響關聯決定適用方式。",
+      "tradeoff_zh": "「形態指標與類型比較方法｜設計原則」的主要代價不是抽象的建造成本，而是指標和群集取決於樣本及演算法，分類結果不是自然存在的唯一類型；因此先以整合度與選擇度的人流關聯得到綜合研究支持，但研究結果高度異質，指標與表示方式會影響關聯作方案比較條件。",
+      "library_ids": [
+        "SHARMIN17",
+        "RATTI04"
+      ]
+    },
+    {
+      "option_zh": "「形態指標與類型比較方法｜設計原則」可把取向落在多尺度建築指標、地塊形態和街道網絡可互相補足，但需連同整合度與選擇度的人流關聯得到綜合研究支持，但研究結果高度異質，指標與表示方式會影響關聯決定適用方式。",
+      "tradeoff_zh": "「形態指標與類型比較方法｜設計原則」採用「「形態指標與類型比較方法｜設計原則」可把取向落在多尺度建築指標、地塊形態和街道網絡可互相補足，但需連同整合度與選擇度的人流關聯得到綜合研究支持，但研究結果高度異質，指標與表示方式會影響關聯決定適用方式」時，得失要沿著整合度與選擇度的人流關聯得到綜合研究支持，但研究結果高度異質，指標與表示方式會影響關聯檢查；指標和群集取決於樣本及演算法，分類結果不是自然存在的唯一類型。",
+      "library_ids": [
+        "SHARMIN17",
+        "RATTI04"
+      ]
+    }
+  ],
+  "applies_when_zh": "「形態指標與類型比較方法｜設計原則」可在適用於跨城市比較、形態診斷和參數化設計驗證時使用，前提是整合度與選擇度的人流關聯得到綜合研究支持，但研究結果高度異質，指標與表示方式會影響關聯與來源情境相符。",
+  "not_applicable_when_zh": "若整合度與選擇度的人流關聯得到綜合研究支持，但研究結果高度異質，指標與表示方式會影響關聯不成立，就不能把「形態指標與類型比較方法｜設計原則」的結論延伸到其他情況；沒有一致的分母和來源版本時，不比較不同研究的數值排名。",
+  "debates_zh": "指標和群集取決於樣本及演算法，分類結果不是自然存在的唯一類型。",
+  "sources": [
+    {
+      "library_id": "SHARMIN17",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "RATTI04",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "HILLIER84",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "空間語法整合分析；空間語法批評",
+  "region": "跨地域；歐洲",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "形態指標與類型比較方法"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "形態指標與類型比較方法"
+    },
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.330J Theory of City Form",
+      "topic": "形態指標與類型比較方法"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban form and density",
+      "topic": "形態指標與類型比較方法"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-MOR-054",
+    "KU-MOR-055",
+    "KU-MOR-057"
+  ],
+  "counter_unit_ids": [
+    "KU-MOR-058"
+  ]
+}

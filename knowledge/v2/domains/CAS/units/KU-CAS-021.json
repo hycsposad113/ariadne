@@ -1,0 +1,91 @@
+{
+  "id": "KU-CAS-021",
+  "domain": "CAS",
+  "subtopic": "街道與交通—低車流街區",
+  "type": "case",
+  "title_zh": "Vauban：把車行邊界與日常步行放進同一個街區結構",
+  "title_en": "Vauban: Integrating Traffic Hierarchy and Everyday Access",
+  "summary_zh": "Vauban 由弗萊堡舊軍營地轉型為以住宅為主、接上電車與區域交通的街區，社區團體也參與了早期規劃。市府資料把它描述為「減車」而非完全無車，並記錄由外圍道路、主街、低速住宅街到步行與自行車通道的分層。市府不同頁面對街區面積採用不同口徑，因此本單元不填總面積。Fraker 的專章以 Vauban 為案例；此處只用它確認研究對象，不把書目資訊當成成效證據。",
+  "key_points_zh": [
+    "外圍環道與步行／自行車內部連通，需同時檢查跨區可達性與街道安寧。",
+    "「減車」安排仍包含道路、停車與車輛服務，設計評估應指出這些空間被放到哪裡。"
+  ],
+  "evidence": {
+    "strength": "CASE_EVIDENCE",
+    "findings": [
+      {
+        "claim_zh": "Fraker 的書籍專章以 Vauban（德國弗萊堡）為個案；沒有在本輪核讀章節內容，因此不據此列出交通或能源效果。",
+        "effect_or_value": "僅確認研究對象，不報告效果量",
+        "study_design": "學術專書個案章；研究方法未由全文核對",
+        "context_region": "德國弗萊堡",
+        "library_id": "FRAKER2013",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "弗萊堡市府記載 Vauban 的道路層級、減車住宅街、步行與自行車系統，並說明私人建商和共同建屋團體的角色。",
+        "effect_or_value": "市府公布的規劃與行政資料",
+        "study_design": "市府街區介紹與統計資料",
+        "context_region": "德國弗萊堡 Vauban",
+        "library_id": "FREIBURG_VAUBAN2026",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "畫出外圍道路、停車點、電車站、住宅街與無車通道的連續網絡，再檢查服務車、搬家和無障礙接送路徑。",
+    "參與式小地塊開發可以增加住宅樣式，但需另查房價、居民組成與長期維運是否讓多樣性留得下來。"
+  ],
+  "applies_when_zh": "新街區需要控制車流，又不希望把公共交通與日常服務隔在步行生活圈之外時。",
+  "not_applicable_when_zh": "若公共交通班次、無障礙連接或外圍停車轉乘未先落實，單靠內部禁車可能把出行負擔轉嫁給部分居民。",
+  "debates_zh": "「無車街區」常被簡化成禁車標籤；Vauban 的市府說明其實呈現的是分級通行。居民參與、建築節能和出行模式是不同成效，需要分開找基線與追蹤資料。",
+  "sources": [
+    {
+      "library_id": "FRAKER2013",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "FREIBURG_VAUBAN2026",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "德國生態街區、社區共建與交通減量",
+  "region": "西歐／德國弗萊堡",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": null,
+      "topic": "自行車優先街區、街道層級與街區規劃"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": null,
+      "topic": "居民參與與分期城市開發"
+    }
+  ],
+  "case": {
+    "location": "德國弗萊堡市 Vauban 街區，舊法軍軍營基地",
+    "period": "1992 年軍方撤離後進入轉型；1990 年代起分期建設",
+    "area_ha": null,
+    "fsi": null,
+    "gsi": null,
+    "program_mix": "住宅、街區商店、學校、社區設施、電車與公共開放空間；區內用途比例未查得。",
+    "key_strategies_zh": [
+      "以外圍環道接駁跨區汽車交通，住宅街採低速及減車設計。",
+      "把步行、自行車和電車連接納入街區骨架；以私人建商和共同建屋等方式形成不同住宅產品。"
+    ],
+    "outcomes_zh": [
+      "市府現況頁描述電車與步行／自行車路網及已建成街區；本單元沒有獨立交通模式轉移量。",
+      "市府不同頁面分別出現38與41公頃口徑，未確認邊界後不填 area_ha。"
+    ],
+    "critiques_zh": [
+      "減車不等於不需停車或服務交通；需檢查停車設施位置、外圍道路負荷及不同移動能力者的便利性。",
+      "市府資料及案例專章目前不足以證明住房可負擔性或參與成果對所有群體均衡。"
+    ]
+  },
+  "version": "v2.0"
+}

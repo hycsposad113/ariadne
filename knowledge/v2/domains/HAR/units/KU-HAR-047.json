@@ -1,0 +1,65 @@
+{
+  "id": "KU-HAR-047",
+  "type": "critique",
+  "subtopic": "文化導向再生與仕紳化批評",
+  "title_zh": "公園財務自給可能把收入來源嵌入公共空間治理",
+  "title_en": "Park Self-Financing Can Embed Revenue Generation in Public-Space Governance",
+  "summary_zh": "Brooklyn Bridge Park 的治理法人被要求以財務自給維持園區，並在部分園區地塊安排開發。此制度可為營運提供收入，但也使公共空間邊界、商業用途和開發收益之間形成直接的治理關係。相關公園研究把財務安排連到社會公平，應檢查其管理規則和可進入性，而非只看景觀品質。",
+  "key_points_zh": [
+    "列出營運收入、出租地塊和公共活動的財務關係。",
+    "檢查商業設施的開放條件、時段與非消費性使用。"
+  ],
+  "design_implications_zh": [
+    "將財務自給方案的收入用途和公共使用保障一併公開。"
+  ],
+  "applies_when_zh": "公園或水岸設施透過鄰近地產開發支持長期營運時。",
+  "not_applicable_when_zh": "公園由穩定公共預算全額維護且沒有商業開發時。",
+  "debates_zh": "市場收入可以減輕公共財政負擔，也可能讓商業性活動影響設施配置和使用者組成。",
+  "tradition": "公園治理／公共空間批判",
+  "region": "美國紐約",
+  "curriculum_refs": [
+    {
+      "school": "Harvard GSD",
+      "course": null,
+      "topic": "Public space governance and equity"
+    }
+  ],
+  "domain": "HAR",
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "紐約市資料說明園區公司負責規劃建造維護，並以財務自給作為治理任務。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "美國紐約",
+        "library_id": "NYC_BROOKLYN_BRIDGE_PARK2012",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "公園研究要求把公共使用、社會關係和管理方式納入分析。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "美國紐約",
+        "library_id": "LOW05",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "library_id": "NYC_BROOKLYN_BRIDGE_PARK2012",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "LOW05",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "version": "v2.0"
+}

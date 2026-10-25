@@ -1,0 +1,61 @@
+{
+  "id": "KU-PUB-056",
+  "domain": "PUB",
+  "subtopic": "包容、性別與可用性",
+  "type": "design_principle",
+  "title_zh": "性別安全需要經驗而非人口平均",
+  "title_en": "Gendered safety is experiential",
+  "summary_zh": "女性和性別少數者可能因騷擾風險改變路線與停留時間。若調查只問是否曾使用，會漏掉被迫繞行或早退的人。經驗差異亦會受年齡、種族、移民身份和照護責任交織影響。增加警務或照明不一定解除權力差異造成的風險。",
+  "key_points_zh": [
+    "女性和性別少數者可能因騷擾風險改變路線與停留時間",
+    "若調查只問是否曾使用，會漏掉被迫繞行或早退的人"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "女性和性別少數者可能因騷擾風險改變路線與停留時間。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "荷蘭",
+        "library_id": "MAAS06",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "增加警務或照明不一定解除權力差異造成的風險。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "用匿名路線訪談、陪走和夜間檢查補充一般滿意度問卷。"
+  ],
+  "applies_when_zh": "適用於站點、入口與晚歸動線更新。",
+  "not_applicable_when_zh": "不宜將個人經驗歸結為某種女性天生偏好。",
+  "debates_zh": "增加警務或照明不一定解除權力差異造成的風險。",
+  "sources": [
+    {
+      "library_id": "MAAS06",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "MITCHELL08",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "公共健康與環境流行病學",
+  "region": "荷蘭",
+  "curriculum_refs": [
+    {
+      "school": "MIT",
+      "course": "11.330J Theory of City Form",
+      "topic": "包容、性別與可用性"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-PUB-055",
+    "KU-PUB-057"
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "id": "KU-REG-015",
+  "domain": "REG",
+  "subtopic": "德國 BauNVO 制度輪廓",
+  "type": "concept",
+  "title_zh": "德國 BauNVO 制度輪廓｜概念邊界",
+  "title_en": "German BauNVO profile — Conceptual boundaries",
+  "summary_zh": "BauNVO 的 GRZ 是建築覆蓋率上限計算值，GFZ 是可計入樓地板面積相對地塊面積的比率；兩者需和用途區及地方 Bebauungsplan 同讀。 常見附表值包括 WR/WS 與 WA 的 GRZ 0.4、GFZ 1.2；WB/MI 為 0.6／1.6；MU 為 0.8／3.0；MK 為 1.0／3.0；GE/GI 為 0.8／2.4。 2021 年修法後，§17 的數值改為 Orientierungwerte（指引值），不是可直接套用到每一地塊的強制上限；地方計畫、例外條款和計算口徑仍決定實際可建量。",
+  "key_points_zh": [
+    "WR/WS、WA：常見 GRZ 0.4、GFZ 1.2；WB/MI：0.6、1.6。",
+    "MU：0.8、3.0；MK：1.0、3.0；GE/GI：0.8、2.4。",
+    "2021 年起 §17 表列值是 Orientierungwerte，需與地方計畫及法條版本核對。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "Hirt 比較美德土地使用規制，指出德國用途區較常按主要用途容納多種活動，而美國分區較常以用途互斥為預設；這是制度脈絡比較，不替代 BauNVO 條文。",
+        "library_id": "HIRT2010",
+        "effect_or_value": null,
+        "study_design": "經典理論與城鎮平面分析",
+        "context_region": "荷蘭、比利時與波蘭；荷蘭",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "BauNVO §§2–11 定義用途區，第17條列出 GRZ、GFZ 與 BMZ 的 Orientierungwerte；地方 Bebauungsplan 和例外條款仍須另行核對。",
+        "library_id": "BAUNVO",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "德國",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "本條依公開摘要或書目範圍整理；未據此推定本基地法規、普遍效果或未核對的數值。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "比較制度時把 GRZ、GFZ 與用途區一一配對，並記錄計入例外和地塊覆蓋口徑。",
+    "設計試算只把這些數字作比較參考；正式判定須核對現行法規與地方計畫。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "先辨認聯邦法、地區計畫和地方建築計畫的角色。",
+      "tradeoff_zh": "「德國 BauNVO 制度輪廓｜概念邊界」採用「先辨認聯邦法、地區計畫和地方建築計畫的角色」時，得失要沿著BauNVO 的 GRZ 是建築覆蓋率上限計算值，GFZ 是可計入樓地板面積相對地塊面積的比率；兩者需和用途區及地方 Bebauungsplan 同讀檢查；相同用途代碼不保證相同可建量；把 2021 年前的「上限」敘述沿用到修法後，或把全國指引值視為地方許可值，都會造成錯誤合規判讀。",
+      "library_ids": []
+    },
+    {
+      "option_zh": "用途類別較可能按主要用途容許相鄰活動，但仍有噪音和建築限制。",
+      "tradeoff_zh": "「德國 BauNVO 制度輪廓｜概念邊界」的主要代價不是抽象的建造成本，而是相同用途代碼不保證相同可建量；把 2021 年前的「上限」敘述沿用到修法後，或把全國指引值視為地方許可值，都會造成錯誤合規判讀；因此先以BauNVO 的 GRZ 是建築覆蓋率上限計算值，GFZ 是可計入樓地板面積相對地塊面積的比率；兩者需和用途區及地方 Bebauungsplan 同讀作方案比較條件。",
+      "library_ids": []
+    }
+  ],
+  "applies_when_zh": "適用於制度比較和學習德國規劃的多層級治理。",
+  "not_applicable_when_zh": "不得以本輪文獻摘要作為當前 BauNVO 法規判讀。",
+  "debates_zh": "相同用途代碼不保證相同可建量；把 2021 年前的「上限」敘述沿用到修法後，或把全國指引值視為地方許可值，都會造成錯誤合規判讀。",
+  "sources": [
+    {
+      "library_id": "HIRT2010",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "BAUNVO",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "歐洲土地使用規劃制度比較；荷蘭整合環境與規劃法討論",
+  "region": "荷蘭、比利時與波蘭；荷蘭",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Planning Complex Cities",
+      "topic": "德國 BauNVO 制度輪廓"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Urban Design Contexts and Operations",
+      "topic": "德國 BauNVO 制度輪廓"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "德國 BauNVO 制度輪廓"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban design governance",
+      "topic": "德國 BauNVO 制度輪廓"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-REG-016",
+    "KU-REG-017",
+    "KU-REG-018"
+  ],
+  "counter_unit_ids": [
+    "KU-REG-019"
+  ],
+  "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008"
+}

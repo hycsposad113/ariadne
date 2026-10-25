@@ -1,0 +1,70 @@
+{
+  "id": "KU-PUB-005",
+  "domain": "PUB",
+  "subtopic": "廣場尺度與圍合",
+  "type": "value_range",
+  "title_zh": "廣場研究的樣本尺度",
+  "title_en": "Observed plaza sample size",
+  "summary_zh": "紐約 incentive-zoning 研究檢視了一百六十三處公共可及空間。這個數字說明研究的比較範圍，而非建議城市應設置相同數量的廣場。其場所由特定規劃制度產生，不能與一般街角開放空間直接等同。大樣本的制度比較仍不會消除制度背景差異。",
+  "key_points_zh": [
+    "紐約 incentive-zoning 研究檢視了一百六十三處公共可及空間",
+    "這個數字說明研究的比較範圍，而非建議城市應設置相同數量的廣場"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "紐約 incentive-zoning 研究檢視了一百六十三處公共可及空間。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "美國",
+        "library_id": "AJACOBS93",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "大樣本的制度比較仍不會消除制度背景差異。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "讀取空間供給清冊時，將所有權、維護契約和可用時段一併登記。"
+  ],
+  "applies_when_zh": "適合評估開發交換制度下的空間組合。",
+  "not_applicable_when_zh": "不適用作任何城市的公共空間數量配額。",
+  "debates_zh": "大樣本的制度比較仍不會消除制度背景差異。",
+  "sources": [
+    {
+      "library_id": "AJACOBS93",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "MARSHALL05",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "街道案例比較",
+  "region": "美國",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "廣場尺度與圍合"
+    }
+  ],
+  "version": "2.0.0",
+  "values": [
+    {
+      "name": "廣場研究的樣本尺度",
+      "range": "163 處",
+      "unit": "空間數",
+      "context": "美國紐約市 incentive-zoning 研究的樣本量；表徵研究範圍，非供給標準。；「廣場研究的樣本尺度」僅供其研究脈絡內比較，不構成本基地法規。",
+      "library_id": "NEMETH09"
+    }
+  ],
+  "related_unit_ids": [
+    "KU-PUB-004",
+    "KU-PUB-006"
+  ]
+}

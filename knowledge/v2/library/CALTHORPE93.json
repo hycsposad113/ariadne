@@ -1,0 +1,42 @@
+{
+  "id": "CALTHORPE93",
+  "title": "The Next American Metropolis",
+  "authors": [
+    "Peter Calthorpe"
+  ],
+  "year": 1993,
+  "venue_or_publisher": "Open Library search result did not provide publisher metadata",
+  "doi": null,
+  "openalex_id": null,
+  "kind": "ACADEMIC_BOOK",
+  "tradition": "公共運輸導向發展",
+  "region": [
+    "美國"
+  ],
+  "method": "設計方法與案例論述",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "TOD 將大眾運輸節點、混合用途與步行環境作為共同規劃對象；本單元只引用其規劃框架。",
+      "strength": "THEORETICAL",
+      "scope_zh": "只支持所述研究脈絡；不提供 M4H 法規、普遍因果或未查證的設計門檻。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Open Library",
+    "query": {
+      "title": "The Next American Metropolis",
+      "author": "Peter Calthorpe",
+      "year": 1993
+    },
+    "matched_record_id": "/works/OL3912756W",
+    "checked_at_utc": "2026-10-08T08:47:09Z",
+    "match_notes_zh": "Open Library 命中書名、作者 Peter Calthorpe 與首次出版年 1993。"
+  },
+  "limitations_zh": "只使用公開書目與 API 摘要核對；未下載或查閱全文，摘要以外的頁碼和量化結果不推定。",
+  "critique_relationship_zh": "引用只表示本單元並置不同研究觀點，不宣稱作者間互引或逐一反駁。",
+  "metadata_licence_zh": "只保存公開 API 書目與自行撰寫摘要；未保存 API 摘要原文。"
+}

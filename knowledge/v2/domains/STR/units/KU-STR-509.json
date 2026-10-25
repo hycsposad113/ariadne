@@ -1,0 +1,117 @@
+{
+  "id": "KU-STR-509",
+  "domain": "STR",
+  "subtopic": "交通安全與街道速度",
+  "type": "value_range",
+  "title_zh": "荷蘭Duurzaam Veilig原則、30公里區與woon-erf",
+  "title_en": "Dutch sustainable safety, 30 km/h zones and woonerf",
+  "summary_zh": "Duurzaam Veilig以道路功能、速度與質量同質性、可辨識可預期、容錯，以及道路使用者狀態認知作為安全設計原則。荷蘭RVV在建成區的一般法定汽車速限為50公里／時；30公里／時區需由道路標誌及地方設計條件辨識，CROW建議混合車流街道須讓速度維持在適合混行的30公里／時。Erf內機動車速限為15公里／時，行人可使用整個道路寬度。這是荷蘭交通法規與指引，不是M4H本基地法規；設計時需以道路功能、標誌、速度管理和行人空間共同驗證。",
+  "key_points_zh": [
+    "Duurzaam Veilig五原則：道路功能、同質性、可預期性、容錯性及狀態認知。",
+    "RVV第20條建成區一般速限為50km/h；30km/h須依適用標誌／區段規則確認。",
+    "CROW指出混合自行車與機動車街道應使行駛速度不超過30km/h。",
+    "RVV第45條erf內機動車速限15km/h；第44條行人可使用道路全寬。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "CROW公開頁列出道路功能、同質性、可預期性、容錯與狀態認知原則。",
+        "effect_or_value": null,
+        "study_design": "法規／官方政策或實務指引內容核對",
+        "context_region": "荷蘭",
+        "library_id": "CROW_DUURZAAM",
+        "locator": "Duurzaam Veilig五項設計原則",
+        "claim_verification": "OFFICIAL_PRIMARY_SOURCE_REVIEW"
+      },
+      {
+        "claim_zh": "CROW自行車設計公開摘錄要求混合交通道路速度維持在30km/h以下。",
+        "effect_or_value": null,
+        "study_design": "法規／官方政策或實務指引內容核對",
+        "context_region": "荷蘭",
+        "library_id": "CROW_CYCLE_5",
+        "locator": "混合交通道路應使速度適合30km/h情境",
+        "claim_verification": "OFFICIAL_PRIMARY_SOURCE_REVIEW"
+      },
+      {
+        "claim_zh": "RVV官方條文搜尋摘錄顯示建成區一般限速50km/h及erf內15km/h。",
+        "effect_or_value": null,
+        "study_design": "法規／官方政策或實務指引內容核對",
+        "context_region": "荷蘭",
+        "library_id": "RVV_20260701",
+        "locator": "RVV 1990第20、44、45條；官方搜尋摘錄",
+        "claim_verification": "OFFICIAL_PRIMARY_SOURCE_REVIEW"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "按道路功能分配車流、速度和斷面，讓慢速混合街道不靠標誌單獨維持安全。",
+    "在erf或30區檢核入口標誌、幾何減速、視距、行人全寬權利及應急通行。"
+  ],
+  "applies_when_zh": "用於荷蘭道路安全原則與30km/h區、erf速限的制度比較。",
+  "not_applicable_when_zh": "不能把荷蘭速限直接套用為M4H街道法定速限或施工設計值。",
+  "debates_zh": "法定一般速限、地方標誌與道路幾何是不同層次；使用者實際速度與道路功能仍須現地驗證。",
+  "sources": [
+    {
+      "library_id": "CROW_DUURZAAM",
+      "claim_id": "C1",
+      "locator": "Duurzaam Veilig五項設計原則"
+    },
+    {
+      "library_id": "CROW_CYCLE_5",
+      "claim_id": "C1",
+      "locator": "混合交通道路應使速度適合30km/h情境"
+    },
+    {
+      "library_id": "RVV_20260701",
+      "claim_id": "C1",
+      "locator": "RVV 1990第20、44、45條；官方搜尋摘錄"
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+  "tradition": "Duurzaam Veilig與荷蘭道路交通規則",
+  "region": "荷蘭",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "topic": "交通安全與街道速度"
+    },
+    {
+      "school": "Harvard GSD",
+      "topic": "交通安全與街道速度"
+    },
+    {
+      "school": "MIT",
+      "topic": "交通安全與街道速度"
+    },
+    {
+      "school": "UCL Bartlett",
+      "topic": "交通安全與街道速度"
+    }
+  ],
+  "version": "kb2-policy-2026-10-08",
+  "values": [
+    {
+      "name": "建成區一般最高速限",
+      "range": "50",
+      "unit": "km/h",
+      "context": "適用地區：Kingdom of the Netherlands；這是外國或地方制度／指引，不是 M4H 本基地法規；用途：RVV第20條一般規定；用途：理解30區為特定標誌／區段安排；來源：https://wetten.overheid.nl/BWBR0004825/2026-07-01",
+      "library_id": "RVV_20260701"
+    },
+    {
+      "name": "混合自行車與機動車街道速度設計參考",
+      "range": "≤30",
+      "unit": "km/h",
+      "context": "適用地區：CROW；這是外國或地方制度／指引，不是 M4H 本基地法規；用途：CROW混合交通安全設計；用途：降低不同道路使用者速度差異；來源：https://kennisbank.crow.nl/public/gastgebruiker/WOBI/ASVV_2021/Hoofdeisen_fietsinfrastructuur/113185",
+      "library_id": "CROW_CYCLE_5"
+    },
+    {
+      "name": "erf內機動車最高速限",
+      "range": "15",
+      "unit": "km/h",
+      "context": "適用地區：Kingdom of the Netherlands；這是外國或地方制度／指引，不是 M4H 本基地法規；用途：RVV第45條；用途：共享街道／生活街區速度規則比較；來源：https://wetten.overheid.nl/BWBR0004825/2026-07-01",
+      "library_id": "RVV_20260701"
+    }
+  ]
+}

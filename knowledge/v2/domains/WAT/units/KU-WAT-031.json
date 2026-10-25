@@ -1,0 +1,74 @@
+{
+  "id": "KU-WAT-031",
+  "domain": "WAT",
+  "subtopic": "潮汐與河口地景",
+  "type": "typology",
+  "title_zh": "濕地、堤岸和硬質護岸各有空間代價",
+  "title_en": "濕地、堤岸和硬質護岸各有空間代價",
+  "summary_zh": "河口邊緣可以採硬質防護、可受水岸帶或濕地系統，選擇取決於土地、航運與生態條件。沿海風險回顧把暴露與防護放在同一分析中；都市水管理研究則強調跨尺度協調。類型比較需要列出水力作用、土地需求和管理責任。",
+  "key_points_zh": [
+    "硬質設施提供清晰防護線，但依賴持續維修。",
+    "自然岸帶需要空間，也受沉積、鹽度和生境條件限制。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "library_id": "KLIJN2015",
+        "claim_zh": "書目確認本文題名聚焦「Adaptive flood risk management planning based on a comprehensive flood risk conceptualisation」；目前只完成作者、年份、題名與 DOI 核對，未將摘要或全文結論納入此記錄；本單元 KU-WAT-031 對照「河口邊緣可以採硬質防護、可受水岸帶或濕地系統，選擇取決於土地、航運與生態條件」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "方法或概念研究；目前僅核對書目範圍",
+        "context_region": "跨地域",
+        "locator": null
+      },
+      {
+        "library_id": "MITCHELL2006",
+        "claim_zh": "沿海風險回顧把暴露與防護放在同一分析中；都市水管理研究則強調跨尺度協調。",
+        "effect_or_value": "類型比較需要列出水力作用、土地需求和管理責任。",
+        "study_design": "都市水治理回顧",
+        "context_region": "澳洲",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "用岸線剖面比對高潮、洪水和日常通行空間。",
+    "分開處理航運、生態和公共通行的要求。"
+  ],
+  "applies_when_zh": "適用於河口和港區邊界方案比較。",
+  "not_applicable_when_zh": "不可只憑景觀類型宣稱洪水防護能力。",
+  "debates_zh": "自然為本措施不一定能取代高風險地段的工程防護，需用在地證據比較。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "KLIJN2015",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "MITCHELL2006",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "河口岸線比選",
+  "region": "全球沿海地區；澳洲",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "潮汐與河口地景"
+    },
+    {
+      "school": "MIT",
+      "course": null,
+      "topic": "潮汐與河口地景"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0"
+}

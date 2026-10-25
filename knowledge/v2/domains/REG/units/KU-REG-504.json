@@ -1,0 +1,265 @@
+{
+  "id": "KU-REG-504",
+  "domain": "REG",
+  "subtopic": "日本用途地域與地方條例",
+  "type": "value_range",
+  "title_zh": "日本13類用途地域、建蔽率容積率與斜線控制",
+  "title_en": "Japan’s 13 use zones, FAR/BCR ranges and slant-plane controls",
+  "summary_zh": "日本制度列出13類用途地域，從低層住宅到工業專用地域，並以用途限制、建蔽率及容積率共同控制建築。 MLIT公開資料所列數值是指定選項範圍，實際指標由地方都市計畫選定；田園住居地域的形態控制參照低層住居地域。 斜線限制以道路及鄰地等幾何條件控制建築外形，若前面道路不足12公尺，容積率還可能受道路寬度乘上用途係數限制。 這是日本制度，不是M4H本基地法規；設計用途是比較用途分類與日照／街道尺度控制如何共同形成建築包絡。",
+  "key_points_zh": [
+    "13類包括低層住居2類、中高層住居2類、住居3類、近隣商業、商業、準工業、工業、工業專用及田園住居地域。",
+    "低層住宅與田園住居FAR指定範圍50–200%、BCR 30–60%；中高層住宅FAR 100–500%、BCR 30–60%。",
+    "住居及準住居地域FAR 100–500%、BCR 50–80%；近隣商業FAR 100–500%、BCR 60–80%；商業FAR 200–1300%、BCR 80%。",
+    "準工業FAR 100–500%、BCR 50–80%；工業FAR 100–400%、BCR 50–60%；工業專用FAR 100–400%、BCR 30–60%。",
+    "斜線控制與道路寬度可限制建築包絡與實際容積；住宅系道路係數0.4，其他用途係數0.6。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "MLIT公開資料列出用途地域形態規制選項，並說明道路寬度不足12公尺時的容積率係數限制。",
+        "effect_or_value": null,
+        "study_design": "法規／官方政策或實務指引內容核對",
+        "context_region": "日本",
+        "library_id": "MLIT_USE_ZONES",
+        "locator": "用途地域制度、各類FAR/BCR表及斜線／道路寬度說明",
+        "claim_verification": "OFFICIAL_PRIMARY_SOURCE_REVIEW"
+      },
+      {
+        "claim_zh": "MLIT官方手冊摘錄確認田園住居地域沿用低層住居型形態限制，FAR為50–200%、BCR為30–60%。",
+        "effect_or_value": null,
+        "study_design": "法規／官方政策或實務指引內容核對",
+        "context_region": "日本",
+        "library_id": "MLIT_DENTEI",
+        "locator": "田園住居地域的FAR/BCR範圍與形態控制",
+        "claim_verification": "OFFICIAL_PRIMARY_SOURCE_REVIEW"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "先讀地方都市計畫圖取得指定用途地域與個別FAR/BCR，再用道路、日照與鄰地條件檢查斜線包絡。",
+    "在制度比較中同時記錄用途類別、道路條件和地方指定值，避免只比較名目容積率。"
+  ],
+  "applies_when_zh": "用於解讀日本用途地域制度或比較用途與建築形態控制。",
+  "not_applicable_when_zh": "這些指定範圍不是M4H的可建容積、建蔽率或斜線標準。",
+  "debates_zh": "全國菜單範圍與地方實際指定值不同；道路寬度、指定係數與地方條例會改變可實現建築量。 查核：多組數值中住居系、商業、工業選項有不完整處，見 REG-069／070／072。",
+  "sources": [
+    {
+      "library_id": "MLIT_USE_ZONES",
+      "claim_id": "C1",
+      "locator": "用途地域制度、各類FAR/BCR表及斜線／道路寬度說明"
+    },
+    {
+      "library_id": "MLIT_DENTEI",
+      "claim_id": "C1",
+      "locator": "田園住居地域的FAR/BCR範圍與形態控制"
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+  "tradition": "日本都市計畫用途地域制度",
+  "region": "日本",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "topic": "日本用途地域與地方條例"
+    },
+    {
+      "school": "Harvard GSD",
+      "topic": "日本用途地域與地方條例"
+    },
+    {
+      "school": "MIT",
+      "topic": "日本用途地域與地方條例"
+    },
+    {
+      "school": "UCL Bartlett",
+      "topic": "日本用途地域與地方條例"
+    }
+  ],
+  "version": "kb2-policy-2026-10-08",
+  "values": [
+    {
+      "name": "第一種低層住居專用地域FAR選項",
+      "range": "50–200%",
+      "unit": "%",
+      "context": "適用地區：Ministry of Land, Infrastructure, Transport and Tourism (MLIT), Shikoku Regional Development Bureau；這是外國或地方制度／指引，不是 M4H 本基地法規；用途：日本指定可能範圍；用途：比較用途地域的樓地板量，實際值須查地方都市計畫；來源：https://www.skr.mlit.go.jp/kensei/machizukuri/01toshikeikaku/mirainimuketa.pdf",
+      "library_id": "MLIT_USE_ZONES"
+    },
+    {
+      "name": "第一種低層住居專用地域建蔽率選項",
+      "range": "30–60%",
+      "unit": "%",
+      "context": "適用地區：Ministry of Land, Infrastructure, Transport and Tourism (MLIT), Shikoku Regional Development Bureau；這是外國或地方制度／指引，不是 M4H 本基地法規；用途：日本指定可能範圍；用途：比較建築覆蓋，實際值須查地方都市計畫；來源：https://www.skr.mlit.go.jp/kensei/machizukuri/01toshikeikaku/mirainimuketa.pdf",
+      "library_id": "MLIT_USE_ZONES"
+    },
+    {
+      "name": "第二種低層住居專用地域FAR選項",
+      "range": "50–200%",
+      "unit": "%",
+      "context": "適用地區：Ministry of Land, Infrastructure, Transport and Tourism (MLIT), Shikoku Regional Development Bureau；這是外國或地方制度／指引，不是 M4H 本基地法規；用途：日本指定可能範圍；用途：比較用途地域的樓地板量，實際值須查地方都市計畫；來源：https://www.skr.mlit.go.jp/kensei/machizukuri/01toshikeikaku/mirainimuketa.pdf",
+      "library_id": "MLIT_USE_ZONES"
+    },
+    {
+      "name": "第二種低層住居專用地域建蔽率選項",
+      "range": "30–60%",
+      "unit": "%",
+      "context": "適用地區：Ministry of Land, Infrastructure, Transport and Tourism (MLIT), Shikoku Regional Development Bureau；這是外國或地方制度／指引，不是 M4H 本基地法規；用途：日本指定可能範圍；用途：比較建築覆蓋，實際值須查地方都市計畫；來源：https://www.skr.mlit.go.jp/kensei/machizukuri/01toshikeikaku/mirainimuketa.pdf",
+      "library_id": "MLIT_USE_ZONES"
+    },
+    {
+      "name": "田園住居地域FAR選項",
+      "range": "50–200%",
+      "unit": "%",
+      "context": "適用地區：Ministry of Land, Infrastructure, Transport and Tourism (MLIT)；這是外國或地方制度／指引，不是 M4H 本基地法規；用途：日本指定可能範圍；用途：比較用途地域的樓地板量，實際值須查地方都市計畫；來源：https://www.mlit.go.jp/toshi/city_plan/content/001379331.pdf",
+      "library_id": "MLIT_DENTEI"
+    },
+    {
+      "name": "田園住居地域建蔽率選項",
+      "range": "30–60%",
+      "unit": "%",
+      "context": "適用地區：Ministry of Land, Infrastructure, Transport and Tourism (MLIT)；這是外國或地方制度／指引，不是 M4H 本基地法規；用途：日本指定可能範圍；用途：比較建築覆蓋，實際值須查地方都市計畫；來源：https://www.mlit.go.jp/toshi/city_plan/content/001379331.pdf",
+      "library_id": "MLIT_DENTEI"
+    },
+    {
+      "name": "第一種中高層住居専用地域FAR選項",
+      "range": "100–500%",
+      "unit": "%",
+      "context": "適用地區：Ministry of Land, Infrastructure, Transport and Tourism (MLIT), Shikoku Regional Development Bureau；這是外國或地方制度／指引，不是 M4H 本基地法規；用途：日本指定可能範圍；用途：比較用途地域的樓地板量，實際值須查地方都市計畫；來源：https://www.skr.mlit.go.jp/kensei/machizukuri/01toshikeikaku/mirainimuketa.pdf",
+      "library_id": "MLIT_USE_ZONES"
+    },
+    {
+      "name": "第一種中高層住居専用地域建蔽率選項",
+      "range": "30–60%",
+      "unit": "%",
+      "context": "適用地區：Ministry of Land, Infrastructure, Transport and Tourism (MLIT), Shikoku Regional Development Bureau；這是外國或地方制度／指引，不是 M4H 本基地法規；用途：日本指定可能範圍；用途：比較建築覆蓋，實際值須查地方都市計畫；來源：https://www.skr.mlit.go.jp/kensei/machizukuri/01toshikeikaku/mirainimuketa.pdf",
+      "library_id": "MLIT_USE_ZONES"
+    },
+    {
+      "name": "第二種中高層住居専用地域FAR選項",
+      "range": "100–500%",
+      "unit": "%",
+      "context": "「日本13類用途地域、建蔽率容積率與斜線控制」中的「第二種中高層住居専用地域FAR選項」需依日本制度列出13類用途地域，從低層住宅到工業專用地域，並以用途限制、建蔽率及容積率共同控制建築解讀；適用地區：Ministry of Land, Infrastructure, Transport and Tourism (MLIT), Shikoku Regional Development Bureau；這是外國或地方制度／指引，不是 M4H 本基地法規；用途：日本指定可能範圍；用途：比較用途地域的樓地板量，實際值須查地方都市計畫；來源：https://www.skr.mlit.go.jp/kensei/machizukuri/01toshikeikaku/mirainimuketa.pdf。",
+      "library_id": "MLIT_USE_ZONES"
+    },
+    {
+      "name": "第二種中高層住居専用地域建蔽率選項",
+      "range": "30–60%",
+      "unit": "%",
+      "context": "「日本13類用途地域、建蔽率容積率與斜線控制」中的「第二種中高層住居専用地域建蔽率選項」需依日本制度列出13類用途地域，從低層住宅到工業專用地域，並以用途限制、建蔽率及容積率共同控制建築解讀；適用地區：Ministry of Land, Infrastructure, Transport and Tourism (MLIT), Shikoku Regional Development Bureau；這是外國或地方制度／指引，不是 M4H 本基地法規；用途：日本指定可能範圍；用途：比較建築覆蓋，實際值須查地方都市計畫；來源：https://www.skr.mlit.go.jp/kensei/machizukuri/01toshikeikaku/mirainimuketa.pdf。",
+      "library_id": "MLIT_USE_ZONES"
+    },
+    {
+      "name": "第一種住居地域FAR選項",
+      "range": "100–500%",
+      "unit": "%",
+      "context": "「日本13類用途地域、建蔽率容積率與斜線控制」中的「第一種住居地域FAR選項」需依日本制度列出13類用途地域，從低層住宅到工業專用地域，並以用途限制、建蔽率及容積率共同控制建築解讀；適用地區：Ministry of Land, Infrastructure, Transport and Tourism (MLIT), Shikoku Regional Development Bureau；這是外國或地方制度／指引，不是 M4H 本基地法規；用途：日本指定可能範圍；用途：比較用途地域的樓地板量，實際值須查地方都市計畫；來源：https://www.skr.mlit.go.jp/kensei/machizukuri/01toshikeikaku/mirainimuketa.pdf。",
+      "library_id": "MLIT_USE_ZONES"
+    },
+    {
+      "name": "第一種住居地域建蔽率選項",
+      "range": "50–80%",
+      "unit": "%",
+      "context": "「日本13類用途地域、建蔽率容積率與斜線控制」中的「第一種住居地域建蔽率選項」需依日本制度列出13類用途地域，從低層住宅到工業專用地域，並以用途限制、建蔽率及容積率共同控制建築解讀；適用地區：Ministry of Land, Infrastructure, Transport and Tourism (MLIT), Shikoku Regional Development Bureau；這是外國或地方制度／指引，不是 M4H 本基地法規；用途：日本指定可能範圍；用途：比較建築覆蓋，實際值須查地方都市計畫；來源：https://www.skr.mlit.go.jp/kensei/machizukuri/01toshikeikaku/mirainimuketa.pdf。",
+      "library_id": "MLIT_USE_ZONES"
+    },
+    {
+      "name": "第二種住居地域FAR選項",
+      "range": "100–500%",
+      "unit": "%",
+      "context": "「日本13類用途地域、建蔽率容積率與斜線控制」中的「第二種住居地域FAR選項」需依日本制度列出13類用途地域，從低層住宅到工業專用地域，並以用途限制、建蔽率及容積率共同控制建築解讀；適用地區：Ministry of Land, Infrastructure, Transport and Tourism (MLIT), Shikoku Regional Development Bureau；這是外國或地方制度／指引，不是 M4H 本基地法規；用途：日本指定可能範圍；用途：比較用途地域的樓地板量，實際值須查地方都市計畫；來源：https://www.skr.mlit.go.jp/kensei/machizukuri/01toshikeikaku/mirainimuketa.pdf。",
+      "library_id": "MLIT_USE_ZONES"
+    },
+    {
+      "name": "第二種住居地域建蔽率選項",
+      "range": "50–80%",
+      "unit": "%",
+      "context": "「日本13類用途地域、建蔽率容積率與斜線控制」中的「第二種住居地域建蔽率選項」需依日本制度列出13類用途地域，從低層住宅到工業專用地域，並以用途限制、建蔽率及容積率共同控制建築解讀；適用地區：Ministry of Land, Infrastructure, Transport and Tourism (MLIT), Shikoku Regional Development Bureau；這是外國或地方制度／指引，不是 M4H 本基地法規；用途：日本指定可能範圍；用途：比較建築覆蓋，實際值須查地方都市計畫；來源：https://www.skr.mlit.go.jp/kensei/machizukuri/01toshikeikaku/mirainimuketa.pdf。",
+      "library_id": "MLIT_USE_ZONES"
+    },
+    {
+      "name": "準住居地域FAR選項",
+      "range": "100–500%",
+      "unit": "%",
+      "context": "「日本13類用途地域、建蔽率容積率與斜線控制」中的「準住居地域FAR選項」需依日本制度列出13類用途地域，從低層住宅到工業專用地域，並以用途限制、建蔽率及容積率共同控制建築解讀；適用地區：Ministry of Land, Infrastructure, Transport and Tourism (MLIT), Shikoku Regional Development Bureau；這是外國或地方制度／指引，不是 M4H 本基地法規；用途：日本指定可能範圍；用途：比較用途地域的樓地板量，實際值須查地方都市計畫；來源：https://www.skr.mlit.go.jp/kensei/machizukuri/01toshikeikaku/mirainimuketa.pdf。",
+      "library_id": "MLIT_USE_ZONES"
+    },
+    {
+      "name": "準住居地域建蔽率選項",
+      "range": "50–80%",
+      "unit": "%",
+      "context": "「日本13類用途地域、建蔽率容積率與斜線控制」中的「準住居地域建蔽率選項」需依日本制度列出13類用途地域，從低層住宅到工業專用地域，並以用途限制、建蔽率及容積率共同控制建築解讀；適用地區：Ministry of Land, Infrastructure, Transport and Tourism (MLIT), Shikoku Regional Development Bureau；這是外國或地方制度／指引，不是 M4H 本基地法規；用途：日本指定可能範圍；用途：比較建築覆蓋，實際值須查地方都市計畫；來源：https://www.skr.mlit.go.jp/kensei/machizukuri/01toshikeikaku/mirainimuketa.pdf。",
+      "library_id": "MLIT_USE_ZONES"
+    },
+    {
+      "name": "近隣商業地域FAR選項",
+      "range": "100–500%",
+      "unit": "%",
+      "context": "「日本13類用途地域、建蔽率容積率與斜線控制」中的「近隣商業地域FAR選項」需依日本制度列出13類用途地域，從低層住宅到工業專用地域，並以用途限制、建蔽率及容積率共同控制建築解讀；適用地區：Ministry of Land, Infrastructure, Transport and Tourism (MLIT), Shikoku Regional Development Bureau；這是外國或地方制度／指引，不是 M4H 本基地法規；用途：日本指定可能範圍；用途：比較用途地域的樓地板量，實際值須查地方都市計畫；來源：https://www.skr.mlit.go.jp/kensei/machizukuri/01toshikeikaku/mirainimuketa.pdf。",
+      "library_id": "MLIT_USE_ZONES"
+    },
+    {
+      "name": "近隣商業地域建蔽率選項",
+      "range": "60–80%",
+      "unit": "%",
+      "context": "「日本13類用途地域、建蔽率容積率與斜線控制」中的「近隣商業地域建蔽率選項」需依日本制度列出13類用途地域，從低層住宅到工業專用地域，並以用途限制、建蔽率及容積率共同控制建築解讀；適用地區：Ministry of Land, Infrastructure, Transport and Tourism (MLIT), Shikoku Regional Development Bureau；這是外國或地方制度／指引，不是 M4H 本基地法規；用途：日本指定可能範圍；用途：比較建築覆蓋，實際值須查地方都市計畫；來源：https://www.skr.mlit.go.jp/kensei/machizukuri/01toshikeikaku/mirainimuketa.pdf。",
+      "library_id": "MLIT_USE_ZONES"
+    },
+    {
+      "name": "商業地域FAR選項",
+      "range": "200–1300%",
+      "unit": "%",
+      "context": "「日本13類用途地域、建蔽率容積率與斜線控制」中的「商業地域FAR選項」需依日本制度列出13類用途地域，從低層住宅到工業專用地域，並以用途限制、建蔽率及容積率共同控制建築解讀；適用地區：Ministry of Land, Infrastructure, Transport and Tourism (MLIT), Shikoku Regional Development Bureau；這是外國或地方制度／指引，不是 M4H 本基地法規；用途：日本指定可能範圍；用途：比較用途地域的樓地板量，實際值須查地方都市計畫；來源：https://www.skr.mlit.go.jp/kensei/machizukuri/01toshikeikaku/mirainimuketa.pdf。",
+      "library_id": "MLIT_USE_ZONES"
+    },
+    {
+      "name": "商業地域建蔽率選項",
+      "range": "80%",
+      "unit": "%",
+      "context": "「日本13類用途地域、建蔽率容積率與斜線控制」中的「商業地域建蔽率選項」需依日本制度列出13類用途地域，從低層住宅到工業專用地域，並以用途限制、建蔽率及容積率共同控制建築解讀；適用地區：Ministry of Land, Infrastructure, Transport and Tourism (MLIT), Shikoku Regional Development Bureau；這是外國或地方制度／指引，不是 M4H 本基地法規；用途：日本指定可能範圍；用途：比較建築覆蓋，實際值須查地方都市計畫；來源：https://www.skr.mlit.go.jp/kensei/machizukuri/01toshikeikaku/mirainimuketa.pdf。",
+      "library_id": "MLIT_USE_ZONES"
+    },
+    {
+      "name": "準工業地域FAR選項",
+      "range": "100–500%",
+      "unit": "%",
+      "context": "「日本13類用途地域、建蔽率容積率與斜線控制」中的「準工業地域FAR選項」需依日本制度列出13類用途地域，從低層住宅到工業專用地域，並以用途限制、建蔽率及容積率共同控制建築解讀；適用地區：Ministry of Land, Infrastructure, Transport and Tourism (MLIT), Shikoku Regional Development Bureau；這是外國或地方制度／指引，不是 M4H 本基地法規；用途：日本指定可能範圍；用途：比較用途地域的樓地板量，實際值須查地方都市計畫；來源：https://www.skr.mlit.go.jp/kensei/machizukuri/01toshikeikaku/mirainimuketa.pdf。",
+      "library_id": "MLIT_USE_ZONES"
+    },
+    {
+      "name": "準工業地域建蔽率選項",
+      "range": "50–80%",
+      "unit": "%",
+      "context": "「日本13類用途地域、建蔽率容積率與斜線控制」中的「準工業地域建蔽率選項」需依日本制度列出13類用途地域，從低層住宅到工業專用地域，並以用途限制、建蔽率及容積率共同控制建築解讀；適用地區：Ministry of Land, Infrastructure, Transport and Tourism (MLIT), Shikoku Regional Development Bureau；這是外國或地方制度／指引，不是 M4H 本基地法規；用途：日本指定可能範圍；用途：比較建築覆蓋，實際值須查地方都市計畫；來源：https://www.skr.mlit.go.jp/kensei/machizukuri/01toshikeikaku/mirainimuketa.pdf。",
+      "library_id": "MLIT_USE_ZONES"
+    },
+    {
+      "name": "工業地域FAR選項",
+      "range": "100–400%",
+      "unit": "%",
+      "context": "「日本13類用途地域、建蔽率容積率與斜線控制」中的「工業地域FAR選項」需依日本制度列出13類用途地域，從低層住宅到工業專用地域，並以用途限制、建蔽率及容積率共同控制建築解讀；適用地區：Ministry of Land, Infrastructure, Transport and Tourism (MLIT), Shikoku Regional Development Bureau；這是外國或地方制度／指引，不是 M4H 本基地法規；用途：日本指定可能範圍；用途：比較用途地域的樓地板量，實際值須查地方都市計畫；來源：https://www.skr.mlit.go.jp/kensei/machizukuri/01toshikeikaku/mirainimuketa.pdf。",
+      "library_id": "MLIT_USE_ZONES"
+    },
+    {
+      "name": "工業地域建蔽率選項",
+      "range": "50–60%",
+      "unit": "%",
+      "context": "「日本13類用途地域、建蔽率容積率與斜線控制」中的「工業地域建蔽率選項」需依日本制度列出13類用途地域，從低層住宅到工業專用地域，並以用途限制、建蔽率及容積率共同控制建築解讀；適用地區：Ministry of Land, Infrastructure, Transport and Tourism (MLIT), Shikoku Regional Development Bureau；這是外國或地方制度／指引，不是 M4H 本基地法規；用途：日本指定可能範圍；用途：比較建築覆蓋，實際值須查地方都市計畫；來源：https://www.skr.mlit.go.jp/kensei/machizukuri/01toshikeikaku/mirainimuketa.pdf。",
+      "library_id": "MLIT_USE_ZONES"
+    },
+    {
+      "name": "工業専用地域FAR選項",
+      "range": "100–400%",
+      "unit": "%",
+      "context": "「日本13類用途地域、建蔽率容積率與斜線控制」中的「工業専用地域FAR選項」需依日本制度列出13類用途地域，從低層住宅到工業專用地域，並以用途限制、建蔽率及容積率共同控制建築解讀；適用地區：Ministry of Land, Infrastructure, Transport and Tourism (MLIT), Shikoku Regional Development Bureau；這是外國或地方制度／指引，不是 M4H 本基地法規；用途：日本指定可能範圍；用途：比較用途地域的樓地板量，實際值須查地方都市計畫；來源：https://www.skr.mlit.go.jp/kensei/machizukuri/01toshikeikaku/mirainimuketa.pdf。",
+      "library_id": "MLIT_USE_ZONES"
+    },
+    {
+      "name": "工業専用地域建蔽率選項",
+      "range": "30–60%",
+      "unit": "%",
+      "context": "「日本13類用途地域、建蔽率容積率與斜線控制」中的「工業専用地域建蔽率選項」需依日本制度列出13類用途地域，從低層住宅到工業專用地域，並以用途限制、建蔽率及容積率共同控制建築解讀；適用地區：Ministry of Land, Infrastructure, Transport and Tourism (MLIT), Shikoku Regional Development Bureau；這是外國或地方制度／指引，不是 M4H 本基地法規；用途：日本指定可能範圍；用途：比較建築覆蓋，實際值須查地方都市計畫；來源：https://www.skr.mlit.go.jp/kensei/machizukuri/01toshikeikaku/mirainimuketa.pdf。",
+      "library_id": "MLIT_USE_ZONES"
+    }
+  ]
+}

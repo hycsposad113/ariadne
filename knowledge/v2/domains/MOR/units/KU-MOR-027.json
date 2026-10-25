@@ -1,0 +1,100 @@
+{
+  "id": "KU-MOR-027",
+  "domain": "MOR",
+  "subtopic": "Spacematrix：FSI、GSI、OSR、L",
+  "type": "critique",
+  "title_zh": "Spacematrix：FSI、GSI、OSR、L｜批評與反例",
+  "title_en": "Spacematrix metrics — Critique and counterexample",
+  "summary_zh": "Spacematrix 以 FSI、GSI、OSR 和 L 分別描述樓地板量、建築覆蓋、開放空間與平均層數，避免把密度縮成單一 FAR。 相同 FSI 可以由低覆蓋高樓或高覆蓋低樓形成，因此數字相同並不代表街道和院落經驗相同。 跨案比較前需統一街廓分母、地下層計入和開放空間定義，缺少這些口徑時不能排出可靠的密度名次。",
+  "key_points_zh": [
+    "讀「Spacematrix：FSI、GSI、OSR、L｜批評與反例」時，指標易受分母、用途計入和街區邊界影響；數字相同不等於形式相同；同時把Spacematrix 以 FSI、GSI、OSR 和 L 分別描述樓地板量、建築覆蓋、開放空間與平均層數，避免把密度縮成單一 FAR列為核對條件。",
+    "讀「Spacematrix：FSI、GSI、OSR、L｜批評與反例」時，適用於比較住宅街區、更新區和形態情境；同時把Spacematrix 以 FSI、GSI、OSR 和 L 分別描述樓地板量、建築覆蓋、開放空間與平均層數，避免把密度縮成單一 FAR列為核對條件。",
+    "讀「Spacematrix：FSI、GSI、OSR、L｜批評與反例」時，限制：未明確建築、開放空間和地下空間計入方式時不可橫向比較；同時把Spacematrix 以 FSI、GSI、OSR 和 L 分別描述樓地板量、建築覆蓋、開放空間與平均層數，避免把密度縮成單一 FAR列為核對條件。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "Berghauser Pont 與 Haupt 的《Spacematrix》並列 FSI、GSI、OSR 與 L，以區分樓地板量、覆蓋、開放空間和平均層數；指標仍須先統一分母與地下層口徑。",
+        "library_id": "BERGHAUSERPONT_HAUPT2020",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "荷蘭與跨地域",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "本條依公開摘要或書目範圍整理；未據此推定本基地法規、普遍效果或未核對的數值。"
+      },
+      {
+        "claim_zh": "Dovey 與 Pafka 把密度視為由多個量測和空間關係構成的 assemblage；單一 FAR 不能代替覆蓋、開放空間或使用強度。",
+        "library_id": "DOVEY14",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "澳洲與跨地域",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW",
+        "limitations_zh": "本條依公開摘要或書目範圍整理；未據此推定本基地法規、普遍效果或未核對的數值。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "把 OSR 和層數併列，檢查相同 FSI 下建築覆蓋差異對戶外空間的影響。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "把 OSR 和層數併列，檢查相同 FSI 下建築覆蓋差異對戶外空間的影響。",
+      "tradeoff_zh": "此選項把「Spacematrix：FSI、GSI、OSR、L｜批評與反例」的工作放在Spacematrix 以 FSI、GSI、OSR 和 L 分別描述樓地板量、建築覆蓋、開放空間與平均層數，避免把密度縮成單一 FAR上；需要承擔的協調或維護代價則由「「Spacematrix：FSI、GSI、OSR、L｜批評與反例」的爭議不只在於未明確建築、開放空間和地下空間計入方式時不可橫向比較；還要檢視Spacematrix 以 FSI、GSI、OSR 和 L 分別描述樓地板量、建築覆蓋、開放空間與平均層數，避免把密度縮成單一 FAR會讓哪些使用者承擔不同後果」界定。",
+      "library_ids": []
+    },
+    {
+      "option_zh": "「Spacematrix：FSI、GSI、OSR、L｜批評與反例」可把取向落在相近 FSI 可以由低矮高覆蓋或高樓低覆蓋組成，街道體驗並不相同，但需連同Spacematrix 以 FSI、GSI、OSR 和 L 分別描述樓地板量、建築覆蓋、開放空間與平均層數，避免把密度縮成單一 FAR決定適用方式。",
+      "tradeoff_zh": "「Spacematrix：FSI、GSI、OSR、L｜批評與反例」採用「「Spacematrix：FSI、GSI、OSR、L｜批評與反例」可把取向落在相近 FSI 可以由低矮高覆蓋或高樓低覆蓋組成，街道體驗並不相同，但需連同Spacematrix 以 FSI、GSI、OSR 和 L 分別描述樓地板量、建築覆蓋、開放空間與平均層數，避免把密度縮成單一 FAR決定適用方式」時，得失要沿著Spacematrix 以 FSI、GSI、OSR 和 L 分別描述樓地板量、建築覆蓋、開放空間與平均層數，避免把密度縮成單一 FAR檢查；「Spacematrix：FSI、GSI、OSR、L｜批評與反例」的爭議不只在於未明確建築、開放空間和地下空間計入方式時不可橫向比較；還要檢視Spacematrix 以 FSI、GSI、OSR 和 L 分別描述樓地板量、建築覆蓋、開放空間與平均層數，避免把密度縮成單一 FAR會讓哪些使用者承擔不同後果。",
+      "library_ids": []
+    }
+  ],
+  "applies_when_zh": "「Spacematrix：FSI、GSI、OSR、L｜批評與反例」可在適用於比較住宅街區、更新區和形態情境時使用，前提是Spacematrix 以 FSI、GSI、OSR 和 L 分別描述樓地板量、建築覆蓋、開放空間與平均層數，避免把密度縮成單一 FAR與來源情境相符。",
+  "not_applicable_when_zh": "若Spacematrix 以 FSI、GSI、OSR 和 L 分別描述樓地板量、建築覆蓋、開放空間與平均層數，避免把密度縮成單一 FAR不成立，就不能把「Spacematrix：FSI、GSI、OSR、L｜批評與反例」的結論延伸到其他情況；未明確建築、開放空間和地下空間計入方式時不可橫向比較。",
+  "debates_zh": "「Spacematrix：FSI、GSI、OSR、L｜批評與反例」的爭議不只在於未明確建築、開放空間和地下空間計入方式時不可橫向比較；還要檢視Spacematrix 以 FSI、GSI、OSR 和 L 分別描述樓地板量、建築覆蓋、開放空間與平均層數，避免把密度縮成單一 FAR會讓哪些使用者承擔不同後果。",
+  "sources": [
+    {
+      "library_id": "BERGHAUSERPONT_HAUPT2020",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "DOVEY14",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "空間資本；城市形態學",
+  "region": "瑞典；跨地域形態學",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "Spacematrix：FSI、GSI、OSR、L"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "Spacematrix：FSI、GSI、OSR、L"
+    },
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.330J Theory of City Form",
+      "topic": "Spacematrix：FSI、GSI、OSR、L"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban form and density",
+      "topic": "Spacematrix：FSI、GSI、OSR、L"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-MOR-023",
+    "KU-MOR-024",
+    "KU-MOR-025"
+  ]
+}

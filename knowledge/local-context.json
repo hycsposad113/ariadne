@@ -1,0 +1,16 @@
+{
+  "status": "CONTEXT_ONLY_NOT_RESEARCH",
+  "PORTFOLIO": {
+    "title": "Urbanism Q2 Portfolio",
+    "author": "Founder",
+    "verification": "公開書目 API NOT_FOUND；只保留 J7 派工轉述，未查原 PDF",
+    "scope": "18 張 portfolio 卡的設計意圖；不計研究來源，不宣稱已實測或合法。"
+  },
+  "FOUNDER": {
+    "source": "2026-10-08 修正計畫第 10 節及 J7 指示",
+    "scope": "僅記專案決策；不是 library 來源，不建立 HumanDecision。"
+  },
+  "M4H_PENDING": {
+    "scope": "缺精確法定文件／範圍／版本，POL-001 不能形成法定用途約束。"
+  }
+}

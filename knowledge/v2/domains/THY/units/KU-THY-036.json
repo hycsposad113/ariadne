@@ -1,0 +1,71 @@
+{
+  "id": "KU-THY-036",
+  "domain": "THY",
+  "subtopic": "地景都市主義／生態都市主義",
+  "type": "theory",
+  "title_zh": "生態都市主義",
+  "title_en": "Ecological urbanism",
+  "summary_zh": "Mostafavi 主編的生態都市主義將都市設計和生態、文化及社會問題交織，強調跨尺度與跨專業思考。它不只是增加綠化，也不等同於一套已標準化的生態性能算法。將資源流、生活方式和治理責任與空間措施逐項連接，另用專業工具測量效益。",
+  "key_points_zh": [
+    "將資源流、生活方式和治理責任與空間措施逐項連接，另用專業工具測量效益。",
+    "廣泛整合的概念可能難以設定可反駁的成效標準。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "Mostafavi 主編的生態都市主義將都市設計和生態、文化及社會問題交織，強調跨尺度與跨專業思考。它不只是增加綠化，也不等同於一套已標準化的生態性能算法。",
+        "library_id": "MOSTAFAVI10",
+        "locator": null,
+        "study_design": "理論／方法綜述；非基地實測",
+        "effect_or_value": null,
+        "context_region": null,
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008"
+      },
+      {
+        "claim_zh": "Campbell 的永續發展三角框架讓生態都市主義可以同時接受環境、成長與公平的檢視。",
+        "library_id": "CAMPBELL96",
+        "locator": null,
+        "study_design": "理論",
+        "effect_or_value": null,
+        "context_region": "跨地域",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "將資源流、生活方式和治理責任與空間措施逐項連接，另用專業工具測量效益。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "跨專業整合能揭露互相依賴，但會提高協調成本與證據需求。",
+      "tradeoff_zh": "廣泛整合的概念可能難以設定可反駁的成效標準。",
+      "library_ids": [
+        "MOSTAFAVI10"
+      ]
+    }
+  ],
+  "applies_when_zh": "用於釐清「生態都市主義」涉及的空間、制度與行動選擇。",
+  "not_applicable_when_zh": "「生態都市主義」不能直接替代基地的實測、法規或人類批准。",
+  "debates_zh": "廣泛整合的概念可能難以設定可反駁的成效標準。",
+  "sources": [
+    {
+      "library_id": "MOSTAFAVI10",
+      "locator": null
+    },
+    {
+      "library_id": "CAMPBELL96",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+  "curriculum_refs": [
+    {
+      "school": "MIT",
+      "course": null,
+      "topic": "編者主題對照，非已核實課程指定閱讀：生態都市主義"
+    }
+  ],
+  "version": "2.0.0-theory-v3"
+}

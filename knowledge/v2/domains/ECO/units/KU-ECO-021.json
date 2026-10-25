@@ -1,0 +1,70 @@
+{
+  "id": "KU-ECO-021",
+  "domain": "ECO",
+  "subtopic": "都市森林與樹冠",
+  "type": "value_range",
+  "title_zh": "街區樹冠覆蓋研究的條件",
+  "title_en": "Canopy cover in a local cooling study",
+  "summary_zh": "Ziter 的夏季調查觀察到樹冠超過百分之四十時較明顯的冷卻。這個比例是特定城市的觀察條件，並非跨氣候設計處方。地表材料、風速和蒸散水分會調節樹冠作用。高冠覆蓋會改善部分熱暴露，也可能改變通風和冬季日照。",
+  "key_points_zh": [
+    "Ziter 的夏季調查觀察到樹冠超過百分之四十時較明顯的冷卻",
+    "這個比例是特定城市的觀察條件，並非跨氣候設計處方"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "Ziter 的夏季調查觀察到樹冠超過百分之四十時較明顯的冷卻。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "跨地域",
+        "library_id": "BOWLER10",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "高冠覆蓋會改善部分熱暴露，也可能改變通風和冬季日照。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "把覆蓋率作為本地比較區間，配合熱點和水分觀測。"
+  ],
+  "applies_when_zh": "適用於分析街區植樹的降溫研究。",
+  "not_applicable_when_zh": "不可直接用作建築基地法規或所有道路目標值。",
+  "debates_zh": "高冠覆蓋會改善部分熱暴露，也可能改變通風和冬季日照。",
+  "sources": [
+    {
+      "library_id": "BOWLER10",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "MAAS06",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "城市綠化與熱環境綜述",
+  "region": "跨地域",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "都市森林與樹冠"
+    }
+  ],
+  "version": "2.0.0",
+  "values": [
+    {
+      "name": "街區樹冠覆蓋研究的條件",
+      "range": "> 40% 樹冠覆蓋",
+      "unit": "百分比",
+      "context": "美國單一城市夏季研究觀察到的條件；非普遍標準或基地法規。；「街區樹冠覆蓋研究的條件」僅供其研究脈絡內比較，不構成本基地法規。",
+      "library_id": "ZITER19"
+    }
+  ],
+  "related_unit_ids": [
+    "KU-ECO-020",
+    "KU-ECO-022"
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "domain": "REG",
+  "topics": [
+    {
+      "subtopic": "容積率、建蔽率、高度與斜線",
+      "unit_count": 7,
+      "unit_ids": [
+        "KU-REG-001",
+        "KU-REG-002",
+        "KU-REG-003",
+        "KU-REG-004",
+        "KU-REG-005",
+        "KU-REG-006",
+        "KU-REG-007"
+      ]
+    },
+    {
+      "subtopic": "歐氏分區與形式準則",
+      "unit_count": 7,
+      "unit_ids": [
+        "KU-REG-008",
+        "KU-REG-009",
+        "KU-REG-010",
+        "KU-REG-011",
+        "KU-REG-012",
+        "KU-REG-013",
+        "KU-REG-014"
+      ]
+    },
+    {
+      "subtopic": "德國 BauNVO 制度輪廓",
+      "unit_count": 14,
+      "unit_ids": [
+        "KU-REG-015",
+        "KU-REG-016",
+        "KU-REG-017",
+        "KU-REG-018",
+        "KU-REG-019",
+        "KU-REG-020",
+        "KU-REG-021",
+        "KU-REG-061",
+        "KU-REG-062",
+        "KU-REG-063",
+        "KU-REG-064",
+        "KU-REG-065",
+        "KU-REG-066",
+        "KU-REG-503"
+      ]
+    },
+    {
+      "subtopic": "荷蘭 Omgevingswet 與 omgevingsplan",
+      "unit_count": 8,
+      "unit_ids": [
+        "KU-REG-022",
+        "KU-REG-023",
+        "KU-REG-024",
+        "KU-REG-025",
+        "KU-REG-026",
+        "KU-REG-027",
+        "KU-REG-028",
+        "KU-REG-502"
+      ]
+    },
+    {
+      "subtopic": "英國裁量式規劃",
+      "unit_count": 8,
+      "unit_ids": [
+        "KU-REG-029",
+        "KU-REG-030",
+        "KU-REG-031",
+        "KU-REG-032",
+        "KU-REG-033",
+        "KU-REG-034",
+        "KU-REG-035",
+        "KU-REG-505"
+      ]
+    },
+    {
+      "subtopic": "日本用途地域與地方條例",
+      "unit_count": 14,
+      "unit_ids": [
+        "KU-REG-036",
+        "KU-REG-037",
+        "KU-REG-038",
+        "KU-REG-039",
+        "KU-REG-040",
+        "KU-REG-041",
+        "KU-REG-042",
+        "KU-REG-067",
+        "KU-REG-068",
+        "KU-REG-069",
+        "KU-REG-070",
+        "KU-REG-071",
+        "KU-REG-072",
+        "KU-REG-504"
+      ]
+    },
+    {
+      "subtopic": "新加坡用途與容積治理",
+      "unit_count": 9,
+      "unit_ids": [
+        "KU-REG-043",
+        "KU-REG-044",
+        "KU-REG-045",
+        "KU-REG-046",
+        "KU-REG-047",
+        "KU-REG-048",
+        "KU-REG-075",
+        "KU-REG-076",
+        "KU-REG-507"
+      ]
+    },
+    {
+      "subtopic": "開發獎勵與容積移轉",
+      "unit_count": 6,
+      "unit_ids": [
+        "KU-REG-049",
+        "KU-REG-050",
+        "KU-REG-051",
+        "KU-REG-052",
+        "KU-REG-053",
+        "KU-REG-054"
+      ]
+    },
+    {
+      "subtopic": "制度比較與數值適用性",
+      "unit_count": 9,
+      "unit_ids": [
+        "KU-REG-055",
+        "KU-REG-056",
+        "KU-REG-057",
+        "KU-REG-058",
+        "KU-REG-059",
+        "KU-REG-060",
+        "KU-REG-073",
+        "KU-REG-074",
+        "KU-REG-506"
+      ]
+    }
+  ]
+}

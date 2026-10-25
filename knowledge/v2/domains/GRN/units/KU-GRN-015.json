@@ -1,0 +1,61 @@
+{
+  "id": "KU-GRN-015",
+  "domain": "GRN",
+  "subtopic": "綠地可及性",
+  "type": "concept",
+  "title_zh": "品質差距會弱化名義覆蓋",
+  "title_en": "Quality gaps weaken nominal coverage",
+  "summary_zh": "位於服務圈內的綠地若缺少遮蔭、維護或活動設施，未必被居民選用。供給量高不等於所有社區享有同等品質。品質評估需避免只按設備新舊判斷。居民偏好和公共服務責任之間需要透明說明。",
+  "key_points_zh": [
+    "位於服務圈內的綠地若缺少遮蔭、維護或活動設施，未必被居民選用",
+    "供給量高不等於所有社區享有同等品質"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "位於服務圈內的綠地若缺少遮蔭、維護或活動設施，未必被居民選用。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "美國",
+        "library_id": "EWING10",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "居民偏好和公共服務責任之間需要透明說明。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "將安全感、舒適、維護和活動機會按使用群體分開記錄。"
+  ],
+  "applies_when_zh": "適用於公園投資的分配評估。",
+  "not_applicable_when_zh": "不適用於只用面積/人口比宣稱公平。",
+  "debates_zh": "居民偏好和公共服務責任之間需要透明說明。",
+  "sources": [
+    {
+      "library_id": "EWING10",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "HILLIER93",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "交通與建成環境實證",
+  "region": "美國",
+  "curriculum_refs": [
+    {
+      "school": "UCL Bartlett",
+      "course": "Critical Debates in Urban Design",
+      "topic": "綠地可及性"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-GRN-014",
+    "KU-GRN-016"
+  ]
+}

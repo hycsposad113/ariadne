@@ -1,0 +1,74 @@
+{
+  "id": "KU-CLI-035",
+  "domain": "CLI",
+  "subtopic": "材料與反照率",
+  "type": "empirical_finding",
+  "title_zh": "屋頂反射材料效果依技術和氣候而變",
+  "title_en": "屋頂反射材料效果依技術和氣候而變",
+  "summary_zh": "Santamouris 回顧不同反射屋頂和綠屋頂緩解城市熱島的研究，整理了多種材料技術與性能條件。文獻顯示降溫方向有證據支持，但不同研究的氣候、屋面和評估尺度不一致。不能把其中一項結果視為所有建築的保證節能量。",
+  "key_points_zh": [
+    "研究設計為跨技術文獻回顧。",
+    "效果方向支持反射材料降低部分表面受熱，幅度依情境變化。"
+  ],
+  "evidence": {
+    "strength": "CASE_EVIDENCE",
+    "findings": [
+      {
+        "library_id": "SANTAMOURIS2014",
+        "claim_zh": "Santamouris 回顧不同反射屋頂和綠屋頂緩解城市熱島的研究，整理了多種材料技術與性能條件。",
+        "effect_or_value": "不能把其中一項結果視為所有建築的保證節能量。",
+        "study_design": "技術綜述",
+        "context_region": "跨地域都市",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "library_id": "YANG2016",
+        "claim_zh": "題名確認研究以新加坡都市街道分析街道設計與戶外熱舒適；不把熱舒適方向等同日照、通風或普遍偏好；本單元 KU-CLI-035 對照「Santamouris 回顧不同反射屋頂和綠屋頂緩解城市熱島的研究，整理了多種材料技術與性能條件」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": "KU-CLI-035 的效應量仍以其原列研究結果為準；YANG2016 僅提供相鄰主題脈絡，未作量值來源。",
+        "study_design": "都市街道案例研究",
+        "context_region": "Singapore",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "比較屋面表面溫度、室內熱負荷和街道輻射三類結果。",
+    "納入眩光、冬季能耗和材料老化的取捨。"
+  ],
+  "applies_when_zh": "適用於冷屋頂和綠屋頂策略比較。",
+  "not_applicable_when_zh": "不適用於僅依屋面溫度宣稱人體熱舒適提升。",
+  "debates_zh": "屋頂冷卻不必然改善街道熱舒適，反射能量可能在其他表面吸收。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "SANTAMOURIS2014",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "YANG2016",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "城市熱緩解技術評估",
+  "region": "跨地域都市；跨地域模擬研究",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "材料與反照率"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": null,
+      "topic": "材料與反照率"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0"
+}

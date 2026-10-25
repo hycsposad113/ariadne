@@ -1,0 +1,74 @@
+{
+  "id": "KU-CLI-061",
+  "domain": "CLI",
+  "subtopic": "樹木降溫",
+  "type": "empirical_finding",
+  "title_zh": "樹蔭時空分布比單一冠層總量更貼近日常步行",
+  "title_en": "樹蔭時空分布比單一冠層總量更貼近日常步行",
+  "summary_zh": "Boston 街景研究把街道樹木的影子位置轉成空間遮蔭資料，呈現同一城市內樹蔭分布不均。Wuhan 街谷研究則在局部尺度量測樹冠和微氣候。兩者都支持看遮蔭位置，但影像和現地量測不能互換成同一種降溫值。",
+  "key_points_zh": [
+    "研究設計分別使用街景影像分析和現地微氣候量測。",
+    "結果方向顯示樹蔭具有空間差異，不能只看城市平均。"
+  ],
+  "evidence": {
+    "strength": "CASE_EVIDENCE",
+    "findings": [
+      {
+        "library_id": "LI2018SHADE",
+        "claim_zh": "Boston 街景研究把街道樹木的影子位置轉成空間遮蔭資料，呈現同一城市內樹蔭分布不均。",
+        "effect_or_value": "兩者都支持看遮蔭位置，但影像和現地量測不能互換成同一種降溫值。",
+        "study_design": "Boston 街景影像分析",
+        "context_region": "Boston, USA",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "library_id": "HUANG2020",
+        "claim_zh": "題名確認研究分析武漢淺街谷的樹冠覆蓋、微氣候與人體熱舒適；效果量尚未由摘要核對；本單元 KU-CLI-061 對照「Boston 街景研究把街道樹木的影子位置轉成空間遮蔭資料，呈現同一城市內樹蔭分布不均」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": "KU-CLI-061 的效應量仍以其原列研究結果為準；HUANG2020 僅提供相鄰主題脈絡，未作量值來源。",
+        "study_design": "淺街谷樹冠覆蓋案例研究",
+        "context_region": "Wuhan, China",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "沿主要步行路線查找午後遮蔭缺口。",
+    "把樹木生長空間和公共設施位置共同設計。"
+  ],
+  "applies_when_zh": "適用於綠蔭步行網絡的空間檢查。",
+  "not_applicable_when_zh": "不可將遮蔭圖直接解讀為熱舒適圖。",
+  "debates_zh": "影像法可以擴大覆蓋，卻未直接量到人體熱暴露和空氣溫度。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "LI2018SHADE",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "HUANG2020",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "樹蔭公平和微氣候量測",
+  "region": "Boston, USA；Wuhan, China",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "樹木降溫"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": null,
+      "topic": "樹木降溫"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0"
+}

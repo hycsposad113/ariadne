@@ -1,0 +1,61 @@
+{
+  "id": "KU-PUB-033",
+  "domain": "PUB",
+  "subtopic": "活躍立面",
+  "type": "concept",
+  "title_zh": "可讀的入口降低使用不確定性",
+  "title_en": "Legible entrances reduce uncertainty",
+  "summary_zh": "清楚的入口、招牌和視覺線索使首次到訪者較容易理解能否進入。不同語言能力、視力和認知狀況者需要多種資訊形式。過度依賴文字標牌會排除非本地語者。明確入口若搭配隱性消費規則仍可能造成排除。",
+  "key_points_zh": [
+    "清楚的入口、招牌和視覺線索使首次到訪者較容易理解能否進入",
+    "不同語言能力、視力和認知狀況者需要多種資訊形式"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "清楚的入口、招牌和視覺線索使首次到訪者較容易理解能否進入。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "跨地域",
+        "library_id": "CARMONA10",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "明確入口若搭配隱性消費規則仍可能造成排除。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "結合觸覺、圖像、照明與人員服務測試入口辨識。"
+  ],
+  "applies_when_zh": "適用於大型公共建築與穿越性街區的首層界面。",
+  "not_applicable_when_zh": "不適用於將辨識度等同於實際的法律進入權。",
+  "debates_zh": "明確入口若搭配隱性消費規則仍可能造成排除。",
+  "sources": [
+    {
+      "library_id": "CARMONA10",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "THOMPSON02",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "公共空間治理批評",
+  "region": "跨地域",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "活躍立面"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-PUB-032",
+    "KU-PUB-034"
+  ]
+}

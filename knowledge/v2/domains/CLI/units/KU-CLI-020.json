@@ -1,0 +1,74 @@
+{
+  "id": "KU-CLI-020",
+  "domain": "CLI",
+  "subtopic": "都市熱島",
+  "type": "concept",
+  "title_zh": "熱島分析先指定測量層次和參照區",
+  "title_en": "熱島分析先指定測量層次和參照區",
+  "summary_zh": "都市熱島可指近地面氣溫、城市冠層層級或地表溫度的城市—鄉村差異。Arnfield 的回顧整理能量交換、尺度和熱島測量方法，指出參照區與觀測方式會影響比較。若不說明變量、時段和參照站，熱島幅度便無法解讀。",
+  "key_points_zh": [
+    "氣溫熱島和地表溫度熱島不是同一指標。",
+    "城市與參照站選址影響差值。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "library_id": "ARNFIELD2003",
+        "claim_zh": "摘要回顧尺度、空間異質性、湍流通量與城市熱島研究，並提醒結果會依感測媒介與量測技術而異；本單元 KU-CLI-020 對照「都市熱島可指近地面氣溫、城市冠層層級或地表溫度的城市—鄉村差異」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "ABSTRACT_REVIEW",
+        "effect_or_value": null,
+        "study_design": "兩十年研究回顧",
+        "context_region": "跨地域都市氣候文獻",
+        "locator": null
+      },
+      {
+        "library_id": "SHASHUABAR2009",
+        "claim_zh": "書目確認本文題名聚焦「The cooling efficiency of urban landscape strategies in a hot dry climate」；目前只完成作者、年份、題名與 DOI 核對，未將摘要或全文結論納入此記錄；本單元 KU-CLI-020 對照「都市熱島可指近地面氣溫、城市冠層層級或地表溫度的城市—鄉村差異」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "數值模擬研究；目前僅核對書目範圍",
+        "context_region": "以色列等乾熱城市",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "記錄感測高度、時間和周邊形態。",
+    "用 LCZ 描述參照站的建成和覆蓋特徵。"
+  ],
+  "applies_when_zh": "適用於熱島資料解讀和監測設計。",
+  "not_applicable_when_zh": "不適用於把單張衛星影像差值當全年氣溫熱島。",
+  "debates_zh": "城市—鄉村二分法難呈現城市內部的多種局部氣候。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "ARNFIELD2003",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "SHASHUABAR2009",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "都市熱島研究",
+  "region": "跨地域城市；全球城市測站",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "都市熱島"
+    },
+    {
+      "school": "MIT",
+      "course": "Theory of City Form",
+      "topic": "都市熱島"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0"
+}

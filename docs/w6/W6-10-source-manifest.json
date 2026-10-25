@@ -1,0 +1,41 @@
+{
+  "status": "DRAFT_EXECUTOR_EVIDENCE_NOT_ACCEPTANCE",
+  "base_commit": "6bb2d9f",
+  "branch": "wp/w6-10-snapping",
+  "frozen_at": "2026-10-01T11:43:04.355837+00:00",
+  "files": {
+    "src/urban_design/editing/roads.py": "8138126119913057dc572598a2095f1b5d7a66e536f0cd3f73c59487c3695dd8",
+    "src/urban_design/editing/road_dependencies.py": "f3bedcc805a243723e438d7f45704e2018a82323a5804a5e29d04b4abbcb1f83",
+    "src/urban_design/scenario_editing_api.py": "aed8921b1a144db073afe676aa56a3c90c69085714af04ab17e5b1267fe2f007",
+    "tests/test_road_editing.py": "abdd835055425aa6b45edea2415cafbde8a03c5259edb97b414abac144dace30",
+    "tests/test_road_snapping.py": "8c014b45657ccce8b1eabf936687e10ef8a28826c5db74e4234fdb81dd7b4aca",
+    "tests/test_road_invalidation.py": "fb73204c1b6e4dcea57f4c9fde1d38dffccca51a4f0e1fcf1c53c60b3c6a5534",
+    "tests/test_road_snapping_api.py": "1502252f344efe662ad7e3d6e058a9ecc6932f62629560f89eec27e70c09667b",
+    "web/src/utils/scenarioEdits.ts": "a4f06ed98eadc351ef91322fe3ff6d50d7eb3ed2a6ae694d639979a5fdd366a8",
+    "web/src/utils/scenarioEdits.test.ts": "3edf9d2e832da5382d45507cfbd64496f14e1589ec6ecf9cd874f694547eeab0",
+    "web/src/components/RoadSnapPanel.tsx": "204914251e53ef53748ef4ba9fc4b4de2916578bbf8f258d28e27a75480c7797",
+    "web/src/components/RoadSnapPanel.css": "d9b2212477064609cbafdb442b4bbabeedef6567a1c9a6e9584d711d20680c89",
+    "web/src/components/RoadSnapPanel.test.tsx": "1ed3c303b22bf350936be55ef3bd87a2bfa4187e592ace6acfd35b6abe6aae5f",
+    "docs/w6/W6-10-snapping-handoff.md": "a8464d995767d05142ec840ca0d6d463ddf8b5a7b3d752332ea2714588aaf92d",
+    "docs/w6/W6-10-commit-message.txt": "aa678aea236b031f3e178d2dcdbfd8be8d66db741fa0ab8df2e9b98939e95310"
+  },
+  "tests": {
+    "python": {
+      "passed": 62
+    },
+    "frontend": {
+      "files": 32,
+      "passed": 199
+    },
+    "typescript": "PASS",
+    "vite_runner": "PASS"
+  },
+  "pending": [
+    "Claude independent review",
+    "formal baseline W6-8 integration",
+    "App Refine wiring",
+    "browser visual bounds and recovery acceptance"
+  ],
+  "git_delivery": "BLOCKED_SANDBOX_GIT_METADATA_READ_ONLY",
+  "commit_sha": null
+}

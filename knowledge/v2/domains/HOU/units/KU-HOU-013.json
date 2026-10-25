@@ -1,0 +1,107 @@
+{
+  "id": "KU-HOU-013",
+  "domain": "HOU",
+  "subtopic": "荷蘭 woningcorporaties 社會住宅模式",
+  "type": "method",
+  "title_zh": "荷蘭 woningcorporaties 社會住宅模式｜分析方法",
+  "title_en": "Dutch social housing associations — Analytical method",
+  "summary_zh": "不同政策策略曾達到相近的可負擔住宅供給結果；市場化依賴上升後，低收入家庭負擔狀況惡化且各國路徑不同。 比較荷蘭與其他國家時採用同一收入和住房負擔定義。 讀「荷蘭 woningcorporaties 社會住宅模式｜分析方法」時，限制：本節是制度歷史描述，不提供當前荷蘭資格或租金法律標準；同時把不同政策策略曾達到相近的可負擔住宅供給結果；市場化依賴上升後，低收入家庭負擔狀況惡化且各國路徑不同列為核對條件。",
+  "key_points_zh": [
+    "比較荷蘭與其他國家時採用同一收入和住房負擔定義。",
+    "比較荷蘭與其他國家時採用同一收入和住房負擔定義。",
+    "讀「荷蘭 woningcorporaties 社會住宅模式｜分析方法」時，限制：本節是制度歷史描述，不提供當前荷蘭資格或租金法律標準；同時把不同政策策略曾達到相近的可負擔住宅供給結果；市場化依賴上升後，低收入家庭負擔狀況惡化且各國路徑不同列為核對條件。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "Milligan 比較澳洲與荷蘭的住房政策，呈現相近的可負擔供給結果可能來自不同的公共、非營利與市場安排。",
+        "library_id": "MILLIGAN2003",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "澳洲與荷蘭",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "社會住宅約占該時期住宅生產一成；以收入計租使近四成低收入租戶租金低於市場四成，並與其部分居住流動相關。",
+        "library_id": "SUTTOR2014",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "加拿大安大略與多倫多，1965–1995",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "落實「荷蘭 woningcorporaties 社會住宅模式｜分析方法」時可先公共、非營利與市場供應比例會改變可負擔性和居住選擇，再用不同政策策略曾達到相近的可負擔住宅供給結果；市場化依賴上升後，低收入家庭負擔狀況惡化且各國路徑不同核對方案的空間後果。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "「荷蘭 woningcorporaties 社會住宅模式｜分析方法」可把取向落在分開記錄供應者、租金規則、目標對象和地方土地政策，但需連同不同政策策略曾達到相近的可負擔住宅供給結果；市場化依賴上升後，低收入家庭負擔狀況惡化且各國路徑不同決定適用方式。",
+      "tradeoff_zh": "「荷蘭 woningcorporaties 社會住宅模式｜分析方法」採用「「荷蘭 woningcorporaties 社會住宅模式｜分析方法」可把取向落在分開記錄供應者、租金規則、目標對象和地方土地政策，但需連同不同政策策略曾達到相近的可負擔住宅供給結果；市場化依賴上升後，低收入家庭負擔狀況惡化且各國路徑不同決定適用方式」時，得失要沿著不同政策策略曾達到相近的可負擔住宅供給結果；市場化依賴上升後，低收入家庭負擔狀況惡化且各國路徑不同檢查；社會住宅約占該時期住宅生產一成；以收入計租使近四成低收入租戶租金低於市場四成，並與其部分居住流動相關。",
+      "library_ids": [
+        "MILLIGAN2003",
+        "SUTTOR2014"
+      ]
+    },
+    {
+      "option_zh": "「荷蘭 woningcorporaties 社會住宅模式｜分析方法」可把取向落在公共、非營利與市場供應比例會改變可負擔性和居住選擇，但需連同不同政策策略曾達到相近的可負擔住宅供給結果；市場化依賴上升後，低收入家庭負擔狀況惡化且各國路徑不同決定適用方式。",
+      "tradeoff_zh": "「荷蘭 woningcorporaties 社會住宅模式｜分析方法」採用「「荷蘭 woningcorporaties 社會住宅模式｜分析方法」可把取向落在公共、非營利與市場供應比例會改變可負擔性和居住選擇，但需連同不同政策策略曾達到相近的可負擔住宅供給結果；市場化依賴上升後，低收入家庭負擔狀況惡化且各國路徑不同決定適用方式」時，得失要沿著不同政策策略曾達到相近的可負擔住宅供給結果；市場化依賴上升後，低收入家庭負擔狀況惡化且各國路徑不同檢查；社會住宅約占該時期住宅生產一成；以收入計租使近四成低收入租戶租金低於市場四成，並與其部分居住流動相關。",
+      "library_ids": [
+        "MILLIGAN2003",
+        "SUTTOR2014"
+      ]
+    }
+  ],
+  "applies_when_zh": "「荷蘭 woningcorporaties 社會住宅模式｜分析方法」可在適用於住宅制度比較和社會住宅設計研究時使用，前提是不同政策策略曾達到相近的可負擔住宅供給結果；市場化依賴上升後，低收入家庭負擔狀況惡化且各國路徑不同與來源情境相符。",
+  "not_applicable_when_zh": "若不同政策策略曾達到相近的可負擔住宅供給結果；市場化依賴上升後，低收入家庭負擔狀況惡化且各國路徑不同不成立，就不能把「荷蘭 woningcorporaties 社會住宅模式｜分析方法」的結論延伸到其他情況；本節是制度歷史描述，不提供當前荷蘭資格或租金法律標準。",
+  "debates_zh": "社會住宅約占該時期住宅生產一成；以收入計租使近四成低收入租戶租金低於市場四成，並與其部分居住流動相關。",
+  "sources": [
+    {
+      "library_id": "MILLIGAN2003",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "SUTTOR2014",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "低收入住宅可負擔性制度比較；加拿大社會住宅與城市空間",
+  "region": "澳洲與荷蘭；加拿大安大略與多倫多，1965–1995",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "荷蘭 woningcorporaties 社會住宅模式"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "荷蘭 woningcorporaties 社會住宅模式"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "荷蘭 woningcorporaties 社會住宅模式"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "荷蘭 woningcorporaties 社會住宅模式"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-HOU-010",
+    "KU-HOU-011",
+    "KU-HOU-012"
+  ],
+  "counter_unit_ids": [
+    "KU-HOU-014"
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "id": "KU-HOU-027",
+  "domain": "HOU",
+  "subtopic": "可負擔性",
+  "type": "typology",
+  "title_zh": "可負擔性｜類型取捨",
+  "title_en": "Affordability — Typology and trade-offs",
+  "summary_zh": "可負擔住宅政策可能使用包容性分區、補助或其他規制工具，但各地的受益對象與執行能力並不相同。國際比較專書聚焦 inclusionary housing；基加利研究則呈現分區對成本和供給的有限影響。比較方案時應分列住宅負擔、品質和政策執行，不以交屋量代替結果。",
+  "key_points_zh": [
+    "直接補助、社會住宅和市場供給介入各自影響不同住戶。",
+    "讀「可負擔性｜類型取捨」時，適用於住房政策、住宅選址和低收入住戶影響評估；同時把住宅單元的滿意度約屬中等，支援服務、社會環境與公共設施的結果不一，不能把交屋數當作生活品質成效列為核對條件。",
+    "限制：本庫不設定普遍可負擔比例，也不作特定基地市場估值。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "Calavita 與 Mallach 的國際比較專書聚焦 inclusionary housing 政策工具；具體資格與比例仍須按各地制度核對。",
+        "library_id": "CALAVITA10",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "跨地域",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "Nkubito 等人研究基加利的規劃規制與可負擔住宅，摘要指出供給缺口、分區成本影響與實施限制並存。",
+        "library_id": "NKUBITO2019",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "基加利，盧安達",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "將租金負擔、目標收入層、品質條件和政策執行能力分開比較，並標示每一工具的地方制度來源。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "在「可負擔性｜類型取捨」的來源情境裡，同時說明收入分組、住房成本、通勤費用和品質指標；落到設計時還要按住宅單元的滿意度約屬中等，支援服務、社會環境與公共設施的結果不一，不能把交屋數當作生活品質成效調整。",
+      "tradeoff_zh": "「可負擔性｜類型取捨」採用「在「可負擔性｜類型取捨」的來源情境裡，同時說明收入分組、住房成本、通勤費用和品質指標；落到設計時還要按住宅單元的滿意度約屬中等，支援服務、社會環境與公共設施的結果不一，不能把交屋數當作生活品質成效調整」時，得失要沿著住宅單元的滿意度約屬中等，支援服務、社會環境與公共設施的結果不一，不能把交屋數當作生活品質成效檢查；較便宜的住宅若遠離工作或缺乏服務，總負擔未必較低。",
+      "library_ids": []
+    },
+    {
+      "option_zh": "在「可負擔性｜類型取捨」的來源情境裡，直接補助、社會住宅和市場供給介入各自影響不同住戶；落到設計時還要按住宅單元的滿意度約屬中等，支援服務、社會環境與公共設施的結果不一，不能把交屋數當作生活品質成效調整。",
+      "tradeoff_zh": "「可負擔性｜類型取捨」的主要代價不是抽象的建造成本，而是較便宜的住宅若遠離工作或缺乏服務，總負擔未必較低；因此先以住宅單元的滿意度約屬中等，支援服務、社會環境與公共設施的結果不一，不能把交屋數當作生活品質成效作方案比較條件。",
+      "library_ids": []
+    }
+  ],
+  "applies_when_zh": "適用於住房政策、住宅選址和低收入住戶影響評估。",
+  "not_applicable_when_zh": "本庫不設定普遍可負擔比例，也不作特定基地市場估值。",
+  "debates_zh": "設定可負擔要求能增加低收入住戶的選擇，也可能在執行能力不足時縮小總供給。",
+  "sources": [
+    {
+      "library_id": "CALAVITA10",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "NKUBITO2019",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "馬來西亞社會住宅滿意度；土地經濟與用途混合",
+  "region": "雪蘭莪，馬來西亞；荷蘭住宅市場",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "可負擔性"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "可負擔性"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "可負擔性"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "可負擔性"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-HOU-026",
+    "KU-HOU-028",
+    "KU-HOU-029"
+  ],
+  "counter_unit_ids": [
+    "KU-HOU-030"
+  ]
+}

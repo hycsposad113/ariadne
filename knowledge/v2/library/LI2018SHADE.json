@@ -1,0 +1,44 @@
+{
+  "id": "LI2018SHADE",
+  "title": "Quantifying the shade provision of street trees in urban landscape: A case study in Boston, USA, using Google Street View",
+  "authors": [
+    "Xiaojiang Li",
+    "Carlo Ratti",
+    "Ian Seiferling"
+  ],
+  "year": 2018,
+  "venue_or_publisher": "Landscape and Urban Planning",
+  "doi": "https://doi.org/10.1016/j.landurbplan.2017.08.011",
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "街樹遮蔭測繪",
+  "region": "Boston, USA",
+  "method": "以街景影像量化街樹遮蔭的案例研究",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "題名確認研究使用 Google Street View 量化 Boston 街道樹蔭；資料方法與季節條件須在摘要或全文核對後才可比較遮蔭效益。",
+      "strength": "THEORETICAL",
+      "scope_zh": "只支持此研究明確的議題、樣本地區與方法；不直接生成 M4H 數值、法規或工程容量。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref",
+    "query": {
+      "title": "Quantifying the shade provision of street trees in urban landscape: A case study in Boston, USA, using Google Street View",
+      "author": "Xiaojiang Li",
+      "year": 2018,
+      "api_query": "urban sunlight access shade shadow solar envelope urban street design planning daylighting"
+    },
+    "matched_record_id": "10.1016/j.landurbplan.2017.08.011",
+    "checked_at_utc": "2026-10-08T10:15:15Z",
+    "match_notes_zh": "以 Crossref 公開書目記錄比對書名、作者與年份；摘要文字未保存到 repository。"
+  },
+  "limitations_zh": "只保留書目與自行撰寫的範圍摘要；除標示 ABSTRACT_REVIEW 者外，內容未由摘要核對，沒有下載全文。",
+  "critique_relationship_zh": "本記錄不宣稱與其他書目存在直接互引或逐一反駁關係。",
+  "metadata_licence_zh": "公開 API 書目欄位；精確 metadata licence 未核驗，標 UNKNOWN。"
+}

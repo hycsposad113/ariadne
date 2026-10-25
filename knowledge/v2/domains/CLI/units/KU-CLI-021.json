@@ -1,0 +1,74 @@
+{
+  "id": "KU-CLI-021",
+  "domain": "CLI",
+  "subtopic": "都市熱島",
+  "type": "method",
+  "title_zh": "固定測站背景與參照條件以比較都市熱島",
+  "title_en": "局部氣候區使跨城市溫度比較更可比",
+  "summary_zh": "都市熱島觀測可比較近地面氣溫、城市冠層層級或地表溫度，但三者不是同一變量。Arnfield 的文獻回顧整理測量方法與站點背景問題；Curitiba 的現地研究則把街道幾何、戶外熱舒適和空氣品質放在場地條件中檢視。這些來源的書目範圍不足以推出通用降溫幅度，因此報告應固定變量、測量高度、參照區和季節。",
+  "key_points_zh": [
+    "研究設計為分類方法建構與測站比較。",
+    "分類改善背景描述，但不會消除氣象條件差異。"
+  ],
+  "evidence": {
+    "strength": "CASE_EVIDENCE",
+    "findings": [
+      {
+        "library_id": "ARNFIELD2003",
+        "claim_zh": "此分類回應城市—鄉村對照過於粗略的問題，但分類本身不直接估算設計降溫效果。",
+        "effect_or_value": "比較仍需保留測站位置和季節條件。",
+        "study_design": "熱島文獻回顧",
+        "context_region": "跨地域城市",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "library_id": "KRUGER2011",
+        "claim_zh": "書目確認本文題名聚焦「Impact of urban geometry on outdoor thermal comfort and air quality from field measurements in Curitiba, Brazil」；目前只完成作者、年份、題名與 DOI 核對，未將摘要或全文結論納入此記錄；本單元 KU-CLI-021 對照「都市熱島觀測可比較近地面氣溫、城市冠層層級或地表溫度，但三者不是同一變量」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "案例或場地研究；目前僅核對書目範圍",
+        "context_region": "Curitiba, Brazil",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "每個熱島數值都附上測量變量、測站高度、參照區及時間條件。",
+    "不要把地表熱圖和近地空氣溫度差值混為一談。"
+  ],
+  "applies_when_zh": "適用於熱島監測網和跨城市研究。",
+  "not_applicable_when_zh": "測站背景、天氣或量測高度不同時，不直接比較兩個熱島差值。",
+  "debates_zh": "分類邊界及遙測解析度會影響站點歸類，方法仍需記錄判斷。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "ARNFIELD2003",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "KRUGER2011",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "都市氣候分類與量測",
+  "region": "全球城市測站；跨地域城市",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "都市熱島"
+    },
+    {
+      "school": "MIT",
+      "course": "Theory of City Form",
+      "topic": "都市熱島"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0"
+}

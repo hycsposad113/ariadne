@@ -1,0 +1,61 @@
+{
+  "id": "KU-ECO-036",
+  "domain": "ECO",
+  "subtopic": "物種友善設計",
+  "type": "empirical_finding",
+  "title_zh": "土地分享與保留的昆蟲結果分歧",
+  "title_en": "Insect responses diverge across urbanization",
+  "summary_zh": "東京研究把蝴蝶與地表步甲沿都市化程度作比較。高都市化區多支持集中保留自然區，較低都市化時兩類昆蟲對策略回應不同。昆蟲結果無法直接代表鳥類或植物。多分類群差異需要轉化為場地分區與調查選擇。",
+  "key_points_zh": [
+    "東京研究把蝴蝶與地表步甲沿都市化程度作比較",
+    "高都市化區多支持集中保留自然區，較低都市化時兩類昆蟲對策略回應不同"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "東京研究把蝴蝶與地表步甲沿都市化程度作比較。",
+        "effect_or_value": "高度都市化下多數類群支持土地保留；較低都市化下反應有差異。",
+        "study_design": "都市梯度比較",
+        "context_region": "東京蝴蝶和地表步甲",
+        "library_id": "SOGA14",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW",
+        "limitations_zh": "單城兩類群資料，無法推廣為總體生物多樣性規則。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "列出目標功能群並比較不同開發密度下的棲地方案。"
+  ],
+  "applies_when_zh": "適用於物種友善型城市更新。",
+  "not_applicable_when_zh": "不應以一類物種的喜好主張生態策略普遍適用。",
+  "debates_zh": "多分類群差異需要轉化為場地分區與調查選擇。",
+  "sources": [
+    {
+      "library_id": "SOGA14",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "GRIMM08",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "都市生態與土地分享／保留",
+  "region": "東京蝴蝶和地表步甲",
+  "curriculum_refs": [
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "物種友善設計"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-ECO-035",
+    "KU-ECO-037"
+  ]
+}

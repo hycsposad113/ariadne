@@ -1,0 +1,74 @@
+{
+  "id": "KU-CLI-040",
+  "domain": "CLI",
+  "subtopic": "室外熱舒適指標",
+  "type": "concept",
+  "title_zh": "UTCI 把氣象條件映射到標準化人體反應",
+  "title_en": "UTCI 把氣象條件映射到標準化人體反應",
+  "summary_zh": "通用熱氣候指數（UTCI）以人體熱生理模型評估空氣溫度、平均輻射溫度、風和濕度的綜合作用。都市氣候研究使用它描述熱冷壓力，而非把各種氣象變量簡單平均。報告需要說明輸入資料品質和適用氣候情境。",
+  "key_points_zh": [
+    "UTCI 反映多種環境變量的綜合熱壓力。",
+    "風速換算和平均輻射溫度模型會影響輸出。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "library_id": "JENDRITZKY2012",
+        "claim_zh": "書目確認本文題名聚焦「UTCI—Why another thermal index；」；目前只完成作者、年份、題名與 DOI 核對，未將摘要或全文結論納入此記錄；本單元 KU-CLI-040 對照「通用熱氣候指數（UTCI）以人體熱生理模型評估空氣溫度、平均輻射溫度、風和濕度的綜合作用」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "方法或概念研究；目前僅核對書目範圍",
+        "context_region": "跨地域",
+        "locator": null
+      },
+      {
+        "library_id": "MATZARAKIS1999",
+        "claim_zh": "書目確認本文題名聚焦「Applications of a universal thermal index: physiological equivalent temperature」；目前只完成作者、年份、題名與 DOI 核對，未將摘要或全文結論納入此記錄；本單元 KU-CLI-040 對照「通用熱氣候指數（UTCI）以人體熱生理模型評估空氣溫度、平均輻射溫度、風和濕度的綜合作用」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "方法或概念研究；目前僅核對書目範圍",
+        "context_region": "跨地域",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "將街區遮蔭和風場資料導入同一時間步長。",
+    "對極端熱日和一般日分開呈現。"
+  ],
+  "applies_when_zh": "適用於方案熱壓力比較和氣候情境分析。",
+  "not_applicable_when_zh": "不適用於將UTCI分級直接當作醫療診斷。",
+  "debates_zh": "標準化模型有助比較，但不同群體的敏感性不會自動納入。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "JENDRITZKY2012",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "MATZARAKIS1999",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "都市熱壓力評估",
+  "region": "跨地域模擬研究；跨地域建築環境",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "室外熱舒適指標"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": null,
+      "topic": "室外熱舒適指標"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0"
+}

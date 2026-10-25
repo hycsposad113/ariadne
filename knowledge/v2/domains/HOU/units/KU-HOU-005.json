@@ -1,0 +1,104 @@
+{
+  "id": "KU-HOU-005",
+  "domain": "HOU",
+  "subtopic": "住宅類型",
+  "type": "critique",
+  "title_zh": "住宅類型｜批評與反例",
+  "title_en": "Housing typologies — Critique and counterexample",
+  "summary_zh": "住戶滿意不能由建築外觀或樓層數代理。 斯德哥爾摩學生住宅調查把廚房、清潔與公共運輸可及性列為較強預測因素，且 studio 住戶的評價高於走廊房住戶。 校園居住樣本不足以判定戶型本身造成滿意度差異，服務條件與選房偏好也需納入解釋。",
+  "key_points_zh": [
+    "讀「住宅類型｜批評與反例」時，外觀類型不能替代戶型適用性、產權或服務分析；同時把住戶滿意不能由建築外觀或樓層數代理列為核對條件。",
+    "讀「住宅類型｜批評與反例」時，適用於新住宅、社會住宅和高密度更新；同時把住戶滿意不能由建築外觀或樓層數代理列為核對條件。",
+    "讀「住宅類型｜批評與反例」時，限制：不從建築高度直接推斷住戶滿意或社區形成；同時把住戶滿意不能由建築外觀或樓層數代理列為核對條件。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "Ng 的高密度設計案例並列社會與環境條件，將密度當作設計情境，而非指向單一住宅類型的處方。",
+        "library_id": "NG10",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "香港; 亞洲",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "受訪住戶整體滿意；廚房、清潔與大眾運輸可及性是較強預測因子，居住時間較短者與 studio 住戶滿意度較高。",
+        "library_id": "GONG2023",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "斯德哥爾摩，瑞典",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "落實「住宅類型｜批評與反例」時可先高層、連棟、集合式住宅和共居住宅各有不同支援與管理需求，再用住戶滿意不能由建築外觀或樓層數代理核對方案的空間後果。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "在「住宅類型｜批評與反例」的來源情境裡，以住戶、公共空間和服務路徑三層對照住宅類型；落到設計時還要按住戶滿意不能由建築外觀或樓層數代理調整。",
+      "tradeoff_zh": "「住宅類型｜批評與反例」的主要代價不是抽象的建造成本，而是設計者可依地方目標選擇，也可提出反例；這是待驗證的主張，不是普遍法規；因此先以住戶滿意不能由建築外觀或樓層數代理作方案比較條件。",
+      "library_ids": [
+        "NG10",
+        "GONG2023"
+      ]
+    },
+    {
+      "option_zh": "「住宅類型｜批評與反例」可把取向落在高層、連棟、集合式住宅和共居住宅各有不同支援與管理需求，但需連同住戶滿意不能由建築外觀或樓層數代理決定適用方式。",
+      "tradeoff_zh": "「住宅類型｜批評與反例」的主要代價不是抽象的建造成本，而是設計者可依地方目標選擇，也可提出反例；這是待驗證的主張，不是普遍法規；因此先以住戶滿意不能由建築外觀或樓層數代理作方案比較條件。",
+      "library_ids": [
+        "NG10",
+        "GONG2023"
+      ]
+    }
+  ],
+  "applies_when_zh": "「住宅類型｜批評與反例」可在適用於新住宅、社會住宅和高密度更新時使用，前提是住戶滿意不能由建築外觀或樓層數代理與來源情境相符。",
+  "not_applicable_when_zh": "若住戶滿意不能由建築外觀或樓層數代理不成立，就不能把「住宅類型｜批評與反例」的結論延伸到其他情況；不從建築高度直接推斷住戶滿意或社區形成。",
+  "debates_zh": "設計者可依地方目標選擇，也可提出反例；這是待驗證的主張，不是普遍法規。",
+  "sources": [
+    {
+      "library_id": "NG10",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "GONG2023",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "高密度環境設計；瑞典學生住宅與居住滿意",
+  "region": "香港；斯德哥爾摩，瑞典",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "住宅類型"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "住宅類型"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "住宅類型"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "住宅類型"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-HOU-001",
+    "KU-HOU-002",
+    "KU-HOU-003"
+  ]
+}

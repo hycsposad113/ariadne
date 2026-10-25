@@ -1,0 +1,404 @@
+{
+  "id": "KU-MOR-089",
+  "domain": "MOR",
+  "subtopic": "形態先例庫；實測圖底與量體指標",
+  "type": "case",
+  "title_zh": "富能公園",
+  "title_en": "Funenpark",
+  "summary_zh": "公園邊界與建築前緣相鄰時，圖底只指出可能的接面；入口、穿越權及停留活動都需要獨立資料。本次從 65751.34 m² 陸地範圍內解析 104 棟建築、合併成 31 個量體，由主要街道切出 20 個面積至少 1,000 m² 的街廓，其中完整窗內 14 個。陸地分母 GSI 為 0.3013，可比 FSI 為 1.5997；在 14 個完整街廓的自動判型樣本中，點式最多（8 個）；主要建築外牆間距中位數 45.96 m。這份數值記錄僅對應富能公園本次取樣窗與來源快照。",
+  "key_points_zh": [
+    "以 OSM 地名物件中心作錨點，在 EPSG:28992 中向四周量取 300 m × 220 m 矩形；這是研究窗，不代表歷史開發案或法定邊界。",
+    "OSM 日期 2026-10-09T10:29:49Z；高度來源 3DBAG observed BAG-id join; no OSM fallback；有效高度 104／104 棟。",
+    "富能公園量測說明：OSM building:levels 直接用於 L；3DBAG roof-ground height 或 OSM height 僅在沒有樓層標記時以 3.0 m/層換算，為明示假設。富能公園的缺值不補猜。"
+  ],
+  "evidence": {
+    "strength": "CASE_EVIDENCE",
+    "findings": [
+      {
+        "library_id": "OSM_KB4_PRECEDENTS",
+        "claim_zh": "富能公園 使用回應 2438b5efc396 計算；未映射建築沒有插補。",
+        "effect_or_value": "104 棟建築；高度覆蓋率 1。",
+        "study_design": "研究窗 OSM 幾何測量",
+        "context_region": "Amsterdam, Netherlands",
+        "locator": null,
+        "claim_verification": "OBSERVED_OPEN_DATA_MEASUREMENT",
+        "limitations_zh": "OSM 是社群編輯資料；此值只描述快照，不代表完整盤點。"
+      },
+      {
+        "library_id": "BILJECKI2022",
+        "claim_zh": "Biljecki 與 Chow 的跨尺度形態指標研究強調來源和尺度可追溯；本案把該原則用於 富能公園 的 6.6 ha 觀察窗。",
+        "effect_or_value": null,
+        "study_design": "形態指標研究",
+        "context_region": "全球多城市資料",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW",
+        "limitations_zh": "該研究不驗證此窗 OSM 完整度或 M4H 法規。"
+      },
+      {
+        "library_id": "EASTERN_HARBOUR_AMSTERDAM2012",
+        "claim_zh": "富能公園引用來源記載：Crossref記錄有題為Eastern Harbour, Amsterdam的地區章節；作者欄未列姓名，故此來源只作案例範圍提示。",
+        "effect_or_value": null,
+        "study_design": "書目或官方案例資料",
+        "context_region": "Amsterdam, Netherlands",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "只按已核對的書目或官方來源範圍引用，未查證的設計細節不推定。"
+      },
+      {
+        "library_id": "3DBAG_KB4_HEIGHTS",
+        "claim_zh": "富能公園 的高度欄位以可連結 BAG 識別碼配對 3DBAG 屋頂與地面高度；沒有匹配的建物不補值。",
+        "effect_or_value": "高度覆蓋 104/104 棟；FSI 可比性為 COMPARABLE。",
+        "study_design": "3DBAG 公開建物高度資料的 BAG-ID 配對",
+        "context_region": "Amsterdam, Netherlands",
+        "locator": null,
+        "claim_verification": "OBSERVED_OPEN_DATA_MEASUREMENT",
+        "limitations_zh": "只計可連結到 3DBAG 高度的足跡；高度轉樓層時採明列 3.0 m／層假設。"
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "建築覆蓋率 GSI",
+      "range": "0.3013",
+      "unit": "無量綱",
+      "context": "富能公園的建築覆蓋率 GSI：Amsterdam研究窗 6.6 ha；以 OSM 地名物件中心作錨點，在 EPSG:28992 中向四周量取 300 m × 220 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T10:29:49Z，回應 SHA-256 2438b5efc396ec49be7e6d27d6866e7e937366eb7d6fa1ce2f5393c243b5eb08；OSM 下載時間 2026-10-09T10:31:59Z；3DBAG tile 下載時間 2026-10-09T11:01:37Z、2026-10-09T11:01:40Z；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "已知樓層面積比 FSI 下限",
+      "range": "1.5997",
+      "unit": "無量綱",
+      "context": "富能公園的已知樓層面積比 FSI 下限：Amsterdam研究窗 6.6 ha；以 OSM 地名物件中心作錨點，在 EPSG:28992 中向四周量取 300 m × 220 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T10:29:49Z，回應 SHA-256 2438b5efc396ec49be7e6d27d6866e7e937366eb7d6fa1ce2f5393c243b5eb08；OSM 下載時間 2026-10-09T10:31:59Z；3DBAG tile 下載時間 2026-10-09T11:01:37Z、2026-10-09T11:01:40Z；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "3DBAG_KB4_HEIGHTS"
+    },
+    {
+      "name": "足跡加權平均樓層 L",
+      "range": "5.309",
+      "unit": "層",
+      "context": "富能公園的足跡加權平均樓層 L：Amsterdam研究窗 6.6 ha；以 OSM 地名物件中心作錨點，在 EPSG:28992 中向四周量取 300 m × 220 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T10:29:49Z，回應 SHA-256 2438b5efc396ec49be7e6d27d6866e7e937366eb7d6fa1ce2f5393c243b5eb08；OSM 下載時間 2026-10-09T10:31:59Z；3DBAG tile 下載時間 2026-10-09T11:01:37Z、2026-10-09T11:01:40Z；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "3DBAG_KB4_HEIGHTS"
+    },
+    {
+      "name": "開放空間比 OSR（已知 FSI）",
+      "range": "0.4367",
+      "unit": "無量綱",
+      "context": "富能公園的開放空間比 OSR（已知 FSI）：Amsterdam研究窗 6.6 ha；以 OSM 地名物件中心作錨點，在 EPSG:28992 中向四周量取 300 m × 220 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T10:29:49Z，回應 SHA-256 2438b5efc396ec49be7e6d27d6866e7e937366eb7d6fa1ce2f5393c243b5eb08；OSM 下載時間 2026-10-09T10:31:59Z；3DBAG tile 下載時間 2026-10-09T11:01:37Z、2026-10-09T11:01:40Z；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "3DBAG_KB4_HEIGHTS"
+    },
+    {
+      "name": "街廓數",
+      "range": "20",
+      "unit": "個；含截邊街廓",
+      "context": "富能公園的街廓數：Amsterdam研究窗 6.6 ha；以 OSM 地名物件中心作錨點，在 EPSG:28992 中向四周量取 300 m × 220 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T10:29:49Z，回應 SHA-256 2438b5efc396ec49be7e6d27d6866e7e937366eb7d6fa1ce2f5393c243b5eb08；OSM 下載時間 2026-10-09T10:31:59Z；3DBAG tile 下載時間 2026-10-09T11:01:37Z、2026-10-09T11:01:40Z；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "完整街廓數",
+      "range": "14",
+      "unit": "個；完整研究窗內街廓",
+      "context": "富能公園的完整街廓數：Amsterdam研究窗 6.6 ha；以 OSM 地名物件中心作錨點，在 EPSG:28992 中向四周量取 300 m × 220 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T10:29:49Z，回應 SHA-256 2438b5efc396ec49be7e6d27d6866e7e937366eb7d6fa1ce2f5393c243b5eb08；OSM 下載時間 2026-10-09T10:31:59Z；3DBAG tile 下載時間 2026-10-09T11:01:37Z、2026-10-09T11:01:40Z；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "完整街廓面積分布",
+      "range": "min 1047.08；p25 1560.92；median 2002.5；p75 4317.27；max 6864.15",
+      "unit": "m²；完整街廓最小／P25／中位／P75／最大",
+      "context": "富能公園的完整街廓面積分布：Amsterdam研究窗 6.6 ha；以 OSM 地名物件中心作錨點，在 EPSG:28992 中向四周量取 300 m × 220 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T10:29:49Z，回應 SHA-256 2438b5efc396ec49be7e6d27d6866e7e937366eb7d6fa1ce2f5393c243b5eb08；OSM 下載時間 2026-10-09T10:31:59Z；3DBAG tile 下載時間 2026-10-09T11:01:37Z、2026-10-09T11:01:40Z；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "全觀察街廓面積分布（含截邊）",
+      "range": "min 1000.86；p25 1627.97；median 2211.91；p75 4161.11；max 10672.79",
+      "unit": "m²；全觀察街廓含截邊最小／P25／中位／P75／最大",
+      "context": "富能公園的全觀察街廓面積分布（含截邊）：Amsterdam研究窗 6.6 ha；以 OSM 地名物件中心作錨點，在 EPSG:28992 中向四周量取 300 m × 220 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T10:29:49Z，回應 SHA-256 2438b5efc396ec49be7e6d27d6866e7e937366eb7d6fa1ce2f5393c243b5eb08；OSM 下載時間 2026-10-09T10:31:59Z；3DBAG tile 下載時間 2026-10-09T11:01:37Z、2026-10-09T11:01:40Z；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "主要街道交叉口間街段長分布",
+      "range": "min 2.25；p25 19.55；median 35.31；p75 41.23；max 131.34",
+      "unit": "m；主要街道交叉口間街段最小／P25／中位／P75／最大",
+      "context": "富能公園的主要街道交叉口間街段長分布：Amsterdam研究窗 6.6 ha；以 OSM 地名物件中心作錨點，在 EPSG:28992 中向四周量取 300 m × 220 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T10:29:49Z，回應 SHA-256 2438b5efc396ec49be7e6d27d6866e7e937366eb7d6fa1ce2f5393c243b5eb08；OSM 下載時間 2026-10-09T10:31:59Z；3DBAG tile 下載時間 2026-10-09T11:01:37Z、2026-10-09T11:01:40Z；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "街道寬度代理（建築間距）",
+      "range": "min 6.56；p25 30.14；median 45.96；p75 56.91；max 69.86",
+      "unit": "m；最小／P25／中位／P75／最大",
+      "context": "富能公園的街道寬度代理（建築間距）：Amsterdam研究窗 6.6 ha；以 OSM 地名物件中心作錨點，在 EPSG:28992 中向四周量取 300 m × 220 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T10:29:49Z，回應 SHA-256 2438b5efc396ec49be7e6d27d6866e7e937366eb7d6fa1ce2f5393c243b5eb08；OSM 下載時間 2026-10-09T10:31:59Z；3DBAG tile 下載時間 2026-10-09T11:01:37Z、2026-10-09T11:01:40Z；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "建築翼深代理",
+      "range": "min 1.2；p25 7.49；median 9.68；p75 10.92；max 14.62；低信心（偏離住宅常規 10–16 m）",
+      "unit": "m；最小／P25／中位／P75／最大",
+      "context": "富能公園的建築翼深代理：Amsterdam研究窗 6.6 ha；以 OSM 地名物件中心作錨點，在 EPSG:28992 中向四周量取 300 m × 220 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T10:29:49Z，回應 SHA-256 2438b5efc396ec49be7e6d27d6866e7e937366eb7d6fa1ce2f5393c243b5eb08；OSM 下載時間 2026-10-09T10:31:59Z；3DBAG tile 下載時間 2026-10-09T11:01:37Z、2026-10-09T11:01:40Z；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "翼深交叉檢查（最小旋轉外接矩形短邊）",
+      "range": "min 2.98；p25 12.06；median 19.95；p75 22.49；max 27.77",
+      "unit": "m；最小／P25／中位／P75／最大",
+      "context": "富能公園的翼深交叉檢查（最小旋轉外接矩形短邊）：Amsterdam研究窗 6.6 ha；以 OSM 地名物件中心作錨點，在 EPSG:28992 中向四周量取 300 m × 220 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T10:29:49Z，回應 SHA-256 2438b5efc396ec49be7e6d27d6866e7e937366eb7d6fa1ce2f5393c243b5eb08；OSM 下載時間 2026-10-09T10:31:59Z；3DBAG tile 下載時間 2026-10-09T11:01:37Z、2026-10-09T11:01:40Z；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "翼深代理低於 4 m 樣本占比",
+      "range": "0.0645",
+      "unit": "比例；2A／周長代理低於 4 m 的樣本占比",
+      "context": "富能公園的翼深代理低於 4 m 樣本占比：Amsterdam研究窗 6.6 ha；以 OSM 地名物件中心作錨點，在 EPSG:28992 中向四周量取 300 m × 220 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T10:29:49Z，回應 SHA-256 2438b5efc396ec49be7e6d27d6866e7e937366eb7d6fa1ce2f5393c243b5eb08；OSM 下載時間 2026-10-09T10:31:59Z；3DBAG tile 下載時間 2026-10-09T11:01:37Z、2026-10-09T11:01:40Z；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "主要形態量體低於 100 m² 占比",
+      "range": "0.0645",
+      "unit": "比例；主要形態量體低於 100 m² 的占比",
+      "context": "富能公園的主要形態量體低於 100 m² 占比：Amsterdam研究窗 6.6 ha；以 OSM 地名物件中心作錨點，在 EPSG:28992 中向四周量取 300 m × 220 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T10:29:49Z，回應 SHA-256 2438b5efc396ec49be7e6d27d6866e7e937366eb7d6fa1ce2f5393c243b5eb08；OSM 下載時間 2026-10-09T10:31:59Z；3DBAG tile 下載時間 2026-10-09T11:01:37Z、2026-10-09T11:01:40Z；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "主要形態樣本建築數",
+      "range": "104",
+      "unit": "棟；主要形態樣本",
+      "context": "富能公園的主要形態樣本建築數：Amsterdam研究窗 6.6 ha；以 OSM 地名物件中心作錨點，在 EPSG:28992 中向四周量取 300 m × 220 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T10:29:49Z，回應 SHA-256 2438b5efc396ec49be7e6d27d6866e7e937366eb7d6fa1ce2f5393c243b5eb08；OSM 下載時間 2026-10-09T10:31:59Z；3DBAG tile 下載時間 2026-10-09T11:01:37Z、2026-10-09T11:01:40Z；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "翼深／類型排除的輔助建物數",
+      "range": "0",
+      "unit": "棟；僅不納入翼深／類型",
+      "context": "富能公園的翼深／類型排除的輔助建物數：Amsterdam研究窗 6.6 ha；以 OSM 地名物件中心作錨點，在 EPSG:28992 中向四周量取 300 m × 220 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T10:29:49Z，回應 SHA-256 2438b5efc396ec49be7e6d27d6866e7e937366eb7d6fa1ce2f5393c243b5eb08；OSM 下載時間 2026-10-09T10:31:59Z；3DBAG tile 下載時間 2026-10-09T11:01:37Z、2026-10-09T11:01:40Z；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "完整街廓判型樣本數",
+      "range": "14",
+      "unit": "個；完整街廓判型樣本",
+      "context": "富能公園的完整街廓判型樣本數：Amsterdam研究窗 6.6 ha；以 OSM 地名物件中心作錨點，在 EPSG:28992 中向四周量取 300 m × 220 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T10:29:49Z，回應 SHA-256 2438b5efc396ec49be7e6d27d6866e7e937366eb7d6fa1ce2f5393c243b5eb08；OSM 下載時間 2026-10-09T10:31:59Z；3DBAG tile 下載時間 2026-10-09T11:01:37Z、2026-10-09T11:01:40Z；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "建築至映射水岸距離",
+      "range": "min 未取得；p25 未取得；median 未取得；p75 未取得；max 未取得",
+      "unit": "m；最小／P25／中位／P75／最大",
+      "context": "富能公園的建築至映射水岸距離：Amsterdam研究窗 6.6 ha；以 OSM 地名物件中心作錨點，在 EPSG:28992 中向四周量取 300 m × 220 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T10:29:49Z，回應 SHA-256 2438b5efc396ec49be7e6d27d6866e7e937366eb7d6fa1ce2f5393c243b5eb08；OSM 下載時間 2026-10-09T10:31:59Z；3DBAG tile 下載時間 2026-10-09T11:01:37Z、2026-10-09T11:01:40Z；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "水岸行人路徑 OSM 標記",
+      "range": "NO_MAPPED_WATER_GEOMETRY；近水路徑 0 條；明示開放標記 0 條；明示受限標記 0 條；未判定 0 條",
+      "unit": "OSM 水岸行人路徑標記與數量",
+      "context": "富能公園的水岸行人路徑 OSM 標記：Amsterdam研究窗 6.6 ha；以 OSM 地名物件中心作錨點，在 EPSG:28992 中向四周量取 300 m × 220 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T10:29:49Z，回應 SHA-256 2438b5efc396ec49be7e6d27d6866e7e937366eb7d6fa1ce2f5393c243b5eb08；OSM 下載時間 2026-10-09T10:31:59Z；3DBAG tile 下載時間 2026-10-09T11:01:37Z、2026-10-09T11:01:40Z；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "主要形態類型分布（街廓代理）",
+      "range": "周邊式 0 個／比例 0；板樓 1 個／比例 0.0714；連棟 0 個／比例 0；點式 8 個／比例 0.5714；合院 0 個／比例 0；混合／未分類 5 個／比例 0.3571",
+      "unit": "街廓分類數量與比例",
+      "context": "富能公園的主要形態類型分布（街廓代理）：Amsterdam研究窗 6.6 ha；以 OSM 地名物件中心作錨點，在 EPSG:28992 中向四周量取 300 m × 220 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T10:29:49Z，回應 SHA-256 2438b5efc396ec49be7e6d27d6866e7e937366eb7d6fa1ce2f5393c243b5eb08；OSM 下載時間 2026-10-09T10:31:59Z；3DBAG tile 下載時間 2026-10-09T11:01:37Z、2026-10-09T11:01:40Z；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "高度或樓層資訊覆蓋率",
+      "range": "1",
+      "unit": "比例",
+      "context": "富能公園的高度或樓層資訊覆蓋率：Amsterdam研究窗 6.6 ha；以 OSM 地名物件中心作錨點，在 EPSG:28992 中向四周量取 300 m × 220 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T10:29:49Z，回應 SHA-256 2438b5efc396ec49be7e6d27d6866e7e937366eb7d6fa1ce2f5393c243b5eb08；OSM 下載時間 2026-10-09T10:31:59Z；3DBAG tile 下載時間 2026-10-09T11:01:37Z、2026-10-09T11:01:40Z；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "3DBAG_KB4_HEIGHTS"
+    },
+    {
+      "name": "高度或樓層缺值建築數",
+      "range": "0",
+      "unit": "棟",
+      "context": "富能公園的高度或樓層缺值建築數：Amsterdam研究窗 6.6 ha；以 OSM 地名物件中心作錨點，在 EPSG:28992 中向四周量取 300 m × 220 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T10:29:49Z，回應 SHA-256 2438b5efc396ec49be7e6d27d6866e7e937366eb7d6fa1ce2f5393c243b5eb08；OSM 下載時間 2026-10-09T10:31:59Z；3DBAG tile 下載時間 2026-10-09T11:01:37Z、2026-10-09T11:01:40Z；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "3DBAG_KB4_HEIGHTS"
+    },
+    {
+      "name": "GSI（含映射水域分母）",
+      "range": "0.3013",
+      "unit": "無量綱",
+      "context": "富能公園的GSI（含映射水域分母）：Amsterdam研究窗 6.6 ha；以 OSM 地名物件中心作錨點，在 EPSG:28992 中向四周量取 300 m × 220 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T10:29:49Z，回應 SHA-256 2438b5efc396ec49be7e6d27d6866e7e937366eb7d6fa1ce2f5393c243b5eb08；OSM 下載時間 2026-10-09T10:31:59Z；3DBAG tile 下載時間 2026-10-09T11:01:37Z、2026-10-09T11:01:40Z；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "FSI 下限（含映射水域分母）",
+      "range": "1.5997",
+      "unit": "無量綱",
+      "context": "富能公園的FSI 下限（含映射水域分母）：Amsterdam研究窗 6.6 ha；以 OSM 地名物件中心作錨點，在 EPSG:28992 中向四周量取 300 m × 220 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T10:29:49Z，回應 SHA-256 2438b5efc396ec49be7e6d27d6866e7e937366eb7d6fa1ce2f5393c243b5eb08；OSM 下載時間 2026-10-09T10:31:59Z；3DBAG tile 下載時間 2026-10-09T11:01:37Z、2026-10-09T11:01:40Z；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "3DBAG_KB4_HEIGHTS"
+    },
+    {
+      "name": "陸地分母面積",
+      "range": "65751.34",
+      "unit": "m²",
+      "context": "富能公園的陸地分母面積：Amsterdam研究窗 6.6 ha；以 OSM 地名物件中心作錨點，在 EPSG:28992 中向四周量取 300 m × 220 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T10:29:49Z，回應 SHA-256 2438b5efc396ec49be7e6d27d6866e7e937366eb7d6fa1ce2f5393c243b5eb08；OSM 下載時間 2026-10-09T10:31:59Z；3DBAG tile 下載時間 2026-10-09T11:01:37Z、2026-10-09T11:01:40Z；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "建築合併後量體數",
+      "range": "31",
+      "unit": "量體",
+      "context": "富能公園的建築合併後量體數：Amsterdam研究窗 6.6 ha；以 OSM 地名物件中心作錨點，在 EPSG:28992 中向四周量取 300 m × 220 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T10:29:49Z，回應 SHA-256 2438b5efc396ec49be7e6d27d6866e7e937366eb7d6fa1ce2f5393c243b5eb08；OSM 下載時間 2026-10-09T10:31:59Z；3DBAG tile 下載時間 2026-10-09T11:01:37Z、2026-10-09T11:01:40Z；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "輔助建物以外主要形態樣本數",
+      "range": "104",
+      "unit": "棟",
+      "context": "富能公園的輔助建物以外主要形態樣本數：Amsterdam研究窗 6.6 ha；以 OSM 地名物件中心作錨點，在 EPSG:28992 中向四周量取 300 m × 220 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T10:29:49Z，回應 SHA-256 2438b5efc396ec49be7e6d27d6866e7e937366eb7d6fa1ce2f5393c243b5eb08；OSM 下載時間 2026-10-09T10:31:59Z；3DBAG tile 下載時間 2026-10-09T11:01:37Z、2026-10-09T11:01:40Z；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "翼深交叉檢查：最小旋轉外接矩形短邊",
+      "range": "min 2.98；p25 12.06；median 19.95；p75 22.49；max 27.77",
+      "unit": "m；分位數",
+      "context": "富能公園的翼深交叉檢查：最小旋轉外接矩形短邊：Amsterdam研究窗 6.6 ha；以 OSM 地名物件中心作錨點，在 EPSG:28992 中向四周量取 300 m × 220 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T10:29:49Z，回應 SHA-256 2438b5efc396ec49be7e6d27d6866e7e937366eb7d6fa1ce2f5393c243b5eb08；OSM 下載時間 2026-10-09T10:31:59Z；3DBAG tile 下載時間 2026-10-09T11:01:37Z、2026-10-09T11:01:40Z；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "小於 1,000 m² 排除碎片數",
+      "range": "7",
+      "unit": "個",
+      "context": "富能公園的小於 1,000 m² 排除碎片數：Amsterdam研究窗 6.6 ha；以 OSM 地名物件中心作錨點，在 EPSG:28992 中向四周量取 300 m × 220 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T10:29:49Z，回應 SHA-256 2438b5efc396ec49be7e6d27d6866e7e937366eb7d6fa1ce2f5393c243b5eb08；OSM 下載時間 2026-10-09T10:31:59Z；3DBAG tile 下載時間 2026-10-09T11:01:37Z、2026-10-09T11:01:40Z；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "完整街廓判型樣本數",
+      "range": "14",
+      "unit": "個",
+      "context": "富能公園的完整街廓判型樣本數：Amsterdam研究窗 6.6 ha；以 OSM 地名物件中心作錨點，在 EPSG:28992 中向四周量取 300 m × 220 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T10:29:49Z，回應 SHA-256 2438b5efc396ec49be7e6d27d6866e7e937366eb7d6fa1ce2f5393c243b5eb08；OSM 下載時間 2026-10-09T10:31:59Z；3DBAG tile 下載時間 2026-10-09T11:01:37Z、2026-10-09T11:01:40Z；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "未分類街廓比例",
+      "range": "0.3571",
+      "unit": "比例",
+      "context": "富能公園的未分類街廓比例：Amsterdam研究窗 6.6 ha；以 OSM 地名物件中心作錨點，在 EPSG:28992 中向四周量取 300 m × 220 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T10:29:49Z，回應 SHA-256 2438b5efc396ec49be7e6d27d6866e7e937366eb7d6fa1ce2f5393c243b5eb08；OSM 下載時間 2026-10-09T10:31:59Z；3DBAG tile 下載時間 2026-10-09T11:01:37Z、2026-10-09T11:01:40Z；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "OSM 建築數",
+      "range": "104",
+      "unit": "棟",
+      "context": "富能公園的OSM 建築數：Amsterdam研究窗 6.6 ha；以 OSM 地名物件中心作錨點，在 EPSG:28992 中向四周量取 300 m × 220 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T10:29:49Z，回應 SHA-256 2438b5efc396ec49be7e6d27d6866e7e937366eb7d6fa1ce2f5393c243b5eb08；OSM 下載時間 2026-10-09T10:31:59Z；3DBAG tile 下載時間 2026-10-09T11:01:37Z、2026-10-09T11:01:40Z；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "高度覆蓋率",
+      "range": "1",
+      "unit": "比例",
+      "context": "富能公園的高度覆蓋率：Amsterdam研究窗 6.6 ha；以 OSM 地名物件中心作錨點，在 EPSG:28992 中向四周量取 300 m × 220 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T10:29:49Z，回應 SHA-256 2438b5efc396ec49be7e6d27d6866e7e937366eb7d6fa1ce2f5393c243b5eb08；OSM 下載時間 2026-10-09T10:31:59Z；3DBAG tile 下載時間 2026-10-09T11:01:37Z、2026-10-09T11:01:40Z；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "3DBAG_KB4_HEIGHTS"
+    },
+    {
+      "name": "街廓中位面積",
+      "range": "2002.5",
+      "unit": "m²",
+      "context": "富能公園的街廓中位面積：Amsterdam研究窗 6.6 ha；以 OSM 地名物件中心作錨點，在 EPSG:28992 中向四周量取 300 m × 220 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T10:29:49Z，回應 SHA-256 2438b5efc396ec49be7e6d27d6866e7e937366eb7d6fa1ce2f5393c243b5eb08；OSM 下載時間 2026-10-09T10:31:59Z；3DBAG tile 下載時間 2026-10-09T11:01:37Z、2026-10-09T11:01:40Z；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "完整窗內街廓數",
+      "range": "14",
+      "unit": "個",
+      "context": "富能公園的完整窗內街廓數：Amsterdam研究窗 6.6 ha；以 OSM 地名物件中心作錨點，在 EPSG:28992 中向四周量取 300 m × 220 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T10:29:49Z，回應 SHA-256 2438b5efc396ec49be7e6d27d6866e7e937366eb7d6fa1ce2f5393c243b5eb08；OSM 下載時間 2026-10-09T10:31:59Z；3DBAG tile 下載時間 2026-10-09T11:01:37Z、2026-10-09T11:01:40Z；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "主要形態樣本建築數",
+      "range": "104",
+      "unit": "棟",
+      "context": "富能公園的主要形態樣本建築數：Amsterdam研究窗 6.6 ha；以 OSM 地名物件中心作錨點，在 EPSG:28992 中向四周量取 300 m × 220 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T10:29:49Z，回應 SHA-256 2438b5efc396ec49be7e6d27d6866e7e937366eb7d6fa1ce2f5393c243b5eb08；OSM 下載時間 2026-10-09T10:31:59Z；3DBAG tile 下載時間 2026-10-09T11:01:37Z、2026-10-09T11:01:40Z；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    }
+  ],
+  "design_implications_zh": [
+    "分圖顯示公園和建築足跡，追蹤綠地邊界的入口及街道接面。",
+    "比較綠地周邊不同的建築邊界情境和穿越路徑。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "分圖顯示公園和建築足跡，追蹤綠地邊界的入口及街道接面。",
+      "tradeoff_zh": "富能公園的主要場地條件仍需實地核實；幾何參考不能取代現場資料。",
+      "library_ids": [
+        "OSM_KB4_PRECEDENTS",
+        "EASTERN_HARBOUR_AMSTERDAM2012"
+      ]
+    },
+    {
+      "option_zh": "比較綠地周邊不同的建築邊界情境和穿越路徑。",
+      "tradeoff_zh": "若 M4H 的基地寬度、用途或岸線條件不同於富能公園，須重算幾何並由設計者取捨。",
+      "library_ids": [
+        "OSM_KB4_PRECEDENTS",
+        "BILJECKI2022"
+      ]
+    }
+  ],
+  "applies_when_zh": "比較 富能公園 的足跡、街廓和岸線幾何，並為量體生成建立案例參照。",
+  "not_applicable_when_zh": "不可把富能公園跨城數值當作本基地法規、設計目標或公共通行權證明。",
+  "debates_zh": "公園帶來開放空間，周邊是否提供可進入的邊界需用入口資料確認。",
+  "sources": [
+    {
+      "library_id": "OSM_KB4_PRECEDENTS",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "BILJECKI2022",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "EASTERN_HARBOUR_AMSTERDAM2012",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "3DBAG_KB4_HEIGHTS",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "跨城市建築形態測量與都市設計案例",
+  "region": "Amsterdam, Netherlands",
+  "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "形態先例比較：富能公園"
+    }
+  ],
+  "version": "kb4-precedents-2026-10-09",
+  "check": {
+    "method_zh": "在研究窗扣除已映射水域後計算陸地分母，局部公尺投影；量體合併只用於翼深和類型，GSI／FSI 仍按去重原始足跡計。荷蘭案例僅以 BAG 識別碼連結 3DBAG 高度。",
+    "inputs": [
+      "研究窗和 OSM 錨點",
+      "具 SHA-256 的 OSM 快照",
+      "BAG 高度欄位或 OSM 樓層／高度標籤"
+    ],
+    "logic_zh": "GSI 為足跡面積除扣除映射水域的陸地面積；FSI 為已知樓層建築足跡乘樓層數除同一陸地面積；高度覆蓋低於 80% 時標示下限且不可比較。",
+    "limitations_zh": "未知高度不插補；映射以外水體仍在陸地分母內；翼深以合併量體 2A／周長估算，最小旋轉矩形短邊作交叉檢查。"
+  },
+  "case": {
+    "location": "Funenpark, Amsterdam, Netherlands",
+    "period": "現況 OSM／3DBAG 快照；設計者與建成年代未由本輪可用來源完整確認。",
+    "area_ha": 6.6,
+    "fsi": 1.5997,
+    "gsi": 0.3013,
+    "program_mix": "富能公園 快照中可讀取到的 OSM 建築型別與明示用途標籤：建築型別：building=apartments 76 筆、building=house 6 筆、building=school 2 筆；明示用途活動：未提供明示用途活動標籤。；未標註用途不猜補。可解析建築 104 棟。",
+    "key_strategies_zh": [
+      "分圖顯示公園和建築足跡，追蹤綠地邊界的入口及街道接面。",
+      "比較綠地周邊不同的建築邊界情境和穿越路徑。"
+    ],
+    "outcomes_zh": [
+      "陸地分母 GSI 0.3013；含映射水域分母 GSI 0.3013，兩者差異來自水域扣除口徑。",
+      "街廓共 20 個，完整 14 個、截邊 6 個；低於 1,000 m² 的碎片 7 個另計。完整街廓判型樣本為 14 個，點式分類 8 個。"
+    ],
+    "critiques_zh": [
+      "0 棟建築沒有可用高度或樓層資料（覆蓋 1）；本案 FSI 狀態為 COMPARABLE。",
+      "富能公園的 14 個完整街廓判型結果為 板樓 1 個、點式 8 個、混合／未分類 5 個；其中 5 個（0.3571）維持混合／未分類，這是依本輪幾何門檻自動計算、尚未人工逐街廓核圖的結果。",
+      "公園帶來開放空間，周邊是否提供可進入的邊界需用入口資料確認。",
+      "富能公園 的翼深代理中位數 9.68 m 偏離住宅常規範圍（約 10–16 m），標記為低信心，不可硬套於標準住宅量體生成。"
+    ]
+  }
+}

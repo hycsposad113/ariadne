@@ -1,0 +1,47 @@
+{
+  "id": "KRIER2007",
+  "title": "Architecture Choice or Fate (Architectural Documents)",
+  "authors": [
+    "Leon Krier"
+  ],
+  "year": 2007,
+  "venue_or_publisher": "Papadakis Publisher",
+  "doi": null,
+  "isbn": "9781901092752",
+  "openalex_id": null,
+  "kind": "ACADEMIC_BOOK",
+  "tradition": "traditional urbanism and urban-space typology",
+  "region": [
+    "Luxembourg",
+    "Europe"
+  ],
+  "method": "normative design theory",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "書目範圍將 Krier 定位於建築與都市空間形式的規範性論述；街道、廣場及建築類型的操作細節仍需原著核讀。",
+      "strength": "THEORETICAL",
+      "scope_zh": "只確認理論討論範圍，不把立場當作跨地域實證結論。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [
+    "JACOBS61",
+    "ROWE1978"
+  ],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Open Library",
+    "query": {
+      "title": "Architecture Choice or Fate",
+      "author": "Leon Krier",
+      "year": 2007
+    },
+    "matched_record_id": "/works/OL9044309W",
+    "checked_at_utc": "2026-10-08T09:43:36Z",
+    "match_notes_zh": "Open Library 搜尋結果的書名、作者與年份匹配。只確認書目身份。"
+  },
+  "limitations_zh": "未下載全文；以不同理論和使用者經驗核對形式主張。",
+  "critique_relationship_zh": "批評閱讀用於呈現傳統城市形式的規範性假設與其反方，不宣稱直接互引。",
+  "metadata_licence_zh": "保存書目欄位與自撰摘要；未保存全文或 API 摘要。"
+}

@@ -1,0 +1,74 @@
+{
+  "id": "KU-WAT-028",
+  "domain": "WAT",
+  "subtopic": "韌性理論與批評",
+  "type": "critique",
+  "title_zh": "韌性目標要說清楚誰回復到什麼狀態",
+  "title_en": "Resilience goals must specify who recovers what",
+  "summary_zh": "「恢復得快」本身不是充分的公共目標，因為災前系統可能已不公平地分配風險和資源。都市韌性回顧整理不同系統、擾動和時間尺度的定義；規劃理論批評則指出恢復話語可能避開權力關係。評估者應明列要維持的功能、服務對象和允許改變的制度條件。",
+  "key_points_zh": [
+    "恢復指標必須交代基準狀態及服務對象。",
+    "調適或轉型有時比回復原樣更能處理長期暴露。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "library_id": "BERKES2013",
+        "claim_zh": "文章聚焦社區韌性的整合觀點；未以書目紀錄推論所有社區共享相同的調適能力；本單元 KU-WAT-028 對照「「恢復得快」本身不是充分的公共目標，因為災前系統可能已不公平地分配風險和資源」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "概念整合回顧",
+        "context_region": "跨學科社會－生態研究",
+        "locator": null
+      },
+      {
+        "library_id": "OSTROM2009",
+        "claim_zh": "摘要說明跨領域共同框架有助累積社會－生態系統知識，並指出使用者有時能自組織管理資源；這不是免除政府責任的普遍規則；本單元 KU-WAT-028 對照「「恢復得快」本身不是充分的公共目標，因為災前系統可能已不公平地分配風險和資源」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "ABSTRACT_REVIEW",
+        "effect_or_value": null,
+        "study_design": "跨學科概念框架",
+        "context_region": "跨地域自然資源治理",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "將公平、服務連續性和生態功能與恢復速度分列。",
+    "讓受影響社群參與界定可接受風險。"
+  ],
+  "applies_when_zh": "適用於韌性指標、氣候政策目標和方案敘事審查。",
+  "not_applicable_when_zh": "不適用於以單一韌性分數排序社區或代替人為決策。",
+  "debates_zh": "不同韌性理論對何種狀態值得維持有不同價值前提；單一分數不能代替對受益者與負擔者的判斷。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "BERKES2013",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "OSTROM2009",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "批判韌性與適應治理",
+  "region": "跨地域都市研究；跨地域",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "韌性理論與批評"
+    },
+    {
+      "school": "MIT",
+      "course": null,
+      "topic": "韌性理論與批評"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0"
+}

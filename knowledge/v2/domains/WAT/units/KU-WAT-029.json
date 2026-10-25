@@ -1,0 +1,74 @@
+{
+  "id": "KU-WAT-029",
+  "domain": "WAT",
+  "subtopic": "潮汐與河口地景",
+  "type": "concept",
+  "title_zh": "河口風險要拆分海潮與流域來水",
+  "title_en": "河口風險要拆分海潮與流域來水",
+  "summary_zh": "河口同時受到上游流量、海側潮位和局部降雨影響，水位條件不是單一海平面圖可以代表。鹿特丹河口研究把洪水治理放進區域系統，沿海變化研究則區分全球趨勢與地方相對水位。方案應保留各種水源的邊界條件。",
+  "key_points_zh": [
+    "上游洪水、潮汐頂托和短時雨洪需分別列出。",
+    "不同水源可能在同一事件中疊加。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "library_id": "GODSCHALK2003",
+        "claim_zh": "題名與書目顯示文章討論城市災害減緩與韌性規劃；不提供特定基地的防洪標準；本單元 KU-WAT-029 對照「河口同時受到上游流量、海側潮位和局部降雨影響，水位條件不是單一海平面圖可以代表」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "規劃框架論述",
+        "context_region": "美國都市規劃脈絡",
+        "locator": null
+      },
+      {
+        "library_id": "VANVLIET2015",
+        "claim_zh": "題名確認討論 Rotterdam–Rijnmond 區域的氣候調適與洪水管理；書目紀錄不足以指定某座公共空間的儲水量；本單元 KU-WAT-029 對照「河口同時受到上游流量、海側潮位和局部降雨影響，水位條件不是單一海平面圖可以代表」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "區域洪水管理案例章節",
+        "context_region": "荷蘭 Rotterdam–Rijnmond 區域",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "對齊流域、河口和基地模型的水位基準。",
+    "以受納水體高水位測試排水出口。"
+  ],
+  "applies_when_zh": "適用於河港、三角洲及受潮汐影響的水系統。",
+  "not_applicable_when_zh": "不適用於用全球平均海平面直接推定基地設計水位。",
+  "debates_zh": "若把不同水源合併成單一平均值，事件重疊會被掩蓋。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "GODSCHALK2003",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "VANVLIET2015",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "河口水文與調適",
+  "region": "荷蘭 Rotterdam–Rijnmond；全球沿海地區",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "潮汐與河口地景"
+    },
+    {
+      "school": "MIT",
+      "course": null,
+      "topic": "潮汐與河口地景"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0"
+}

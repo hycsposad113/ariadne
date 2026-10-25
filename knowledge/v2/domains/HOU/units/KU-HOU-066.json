@@ -1,0 +1,92 @@
+{
+  "id": "KU-HOU-066",
+  "domain": "HOU",
+  "subtopic": "住宅類型",
+  "type": "value_range",
+  "title_zh": "中層板樓住宅密度",
+  "title_en": "Mid-rise slab housing density",
+  "summary_zh": "中層板樓能以不同間距和樓長配置容納相近戶數，形態密度不能只用樓層判讀。Ng 的高密度設計案例並列社會與環境條件；Spacematrix 提供覆蓋、開放空間和平均層數等補充量測。100–250 戶／公頃是類型比較範圍，不是通用建築標準。",
+  "key_points_zh": [
+    "六至十層板樓組合可用約 100–250 戶／公頃作類型比較，板樓間距和服務設施比例是主要形態變數。",
+    "文獻中的 gross 與 net density 定義不一致，不能直接拿數字比較。",
+    "把通風廊道、兒童遊戲空間和消防通路和樓數一併試算。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "Ng 編輯的高密度城市設計案例把社會與環境條件納入討論；該書目範圍不設定六至十層板樓的 100–250 戶／公頃值。",
+        "effect_or_value": "約 100–250",
+        "study_design": "跨案例尺度對照或明示假設的規劃計算",
+        "context_region": "亞洲與歐洲中高密住宅區",
+        "library_id": "NG10",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "《Spacematrix》將密度拆成樓地板量、覆蓋、開放空間和層數；板樓的戶／公頃仍須依戶型和基地分母計算。",
+        "library_id": "BERGHAUSERPONT_HAUPT2020",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "荷蘭與跨地域",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "中層板樓住宅密度",
+      "range": "約 100–250",
+      "unit": "戶／公頃",
+      "context": "跨地域中層住宅形態比較；用途：板樓住宅密度工作帶；所列戶數需配合樓層、間距和公共空間重算；不是本基地法規。",
+      "library_id": "BERGHAUSERPONT_HAUPT2020"
+    }
+  ],
+  "design_implications_zh": [
+    "把通風廊道、兒童遊戲空間和消防通路和樓數一併試算。",
+    "記錄 亞洲與歐洲中高密住宅區 與「六至十層板樓組合的淨住宅用地」的量測分母，再和另一種尺度或用途並排比較。"
+  ],
+  "applies_when_zh": "用於比較亞洲與歐洲中高密住宅區的六至十層板樓組合的淨住宅用地，並明示此數值的來源、年份和面積分母。",
+  "not_applicable_when_zh": "文獻中的 gross 與 net density 定義不一致，不能直接拿數字比較。",
+  "debates_zh": "板樓有利於採光和通風的組合不會自動成立，朝向、樓距與氣候條件仍需模擬。 查核：「中層板樓住宅密度」的數值帶不確定，但所引文獻未提供，待補來源。",
+  "sources": [
+    {
+      "library_id": "BERGHAUSERPONT_HAUPT2020",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "NG10",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "高密度環境設計",
+  "region": "亞洲與歐洲中高密住宅區",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "住宅類型"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "住宅類型"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "住宅類型"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "住宅類型"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+}

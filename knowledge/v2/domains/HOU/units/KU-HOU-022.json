@@ -1,0 +1,103 @@
+{
+  "id": "KU-HOU-022",
+  "domain": "HOU",
+  "subtopic": "混合產權",
+  "type": "critique",
+  "title_zh": "混合產權｜批評與反例",
+  "title_en": "Mixed tenure — Critique and counterexample",
+  "summary_zh": "混合產權政策可能改變住宅供應組合，但空間上的 tenure 混合不能證明社會資源分配更平等。 加拿大安大略與多國政策材料顯示，「可負擔住宅」和「社會住宅」的界線會隨定義及制度變化。 評估結果應追蹤租金、居住權、服務取得和管理權，不能把產權種類多樣直接當成社會融合。",
+  "key_points_zh": [
+    "讀「混合產權｜批評與反例」時，社會混合政策可能以空間混合掩蓋不平等的權利和資源；同時把混合產權政策可能改變住宅供應組合，但空間上的 tenure 混合不能證明社會資源分配更平等列為核對條件。",
+    "讀「混合產權｜批評與反例」時，適用於社會住宅更新、混合社區和集體住宅規劃；同時把混合產權政策可能改變住宅供應組合，但空間上的 tenure 混合不能證明社會資源分配更平等列為核對條件。",
+    "讀「混合產權｜批評與反例」時，限制：不把產權多樣性當作社會融合成效的替代量；同時把混合產權政策可能改變住宅供應組合，但空間上的 tenure 混合不能證明社會資源分配更平等列為核對條件。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "研究發現可負擔住宅逐漸成為獨立政策領域，但它與社會住宅的邊界仍不清楚且各地定義不同。",
+        "library_id": "CZISCHKE2018",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "英格蘭、義大利、波蘭與荷蘭",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "Lees 檢視以仕紳化追求社會混合的政策論述，摘要指出證據薄弱且可能伴隨排斥性政治；空間上的權屬混合不能直接當成平等結果。",
+        "library_id": "LEES2008",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "英國",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW",
+        "limitations_zh": "本條依公開摘要或書目範圍整理；未據此推定本基地法規、普遍效果或未核對的數值。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "逐棟標記租賃形式、管理決策權和公共空間責任，判斷混合產權是否伴隨共享治理。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "逐棟標記租賃形式、管理決策權和公共空間責任，判斷混合產權是否伴隨共享治理。",
+      "tradeoff_zh": "此選項把「混合產權｜批評與反例」的工作放在混合產權政策可能改變住宅供應組合，但空間上的 tenure 混合不能證明社會資源分配更平等上；需要承擔的協調或維護代價則由「「混合產權｜批評與反例」的爭議不只在於不把產權多樣性當作社會融合成效的替代量；還要檢視混合產權政策可能改變住宅供應組合，但空間上的 tenure 混合不能證明社會資源分配更平等會讓哪些使用者承擔不同後果」界定。",
+      "library_ids": [
+        "CZISCHKE2018"
+      ]
+    },
+    {
+      "option_zh": "在「混合產權｜批評與反例」的來源情境裡，社會租屋、合作住宅、自有住宅和私人租屋可在同街區並存；落到設計時還要按混合產權政策可能改變住宅供應組合，但空間上的 tenure 混合不能證明社會資源分配更平等調整。",
+      "tradeoff_zh": "「混合產權｜批評與反例」採用「在「混合產權｜批評與反例」的來源情境裡，社會租屋、合作住宅、自有住宅和私人租屋可在同街區並存；落到設計時還要按混合產權政策可能改變住宅供應組合，但空間上的 tenure 混合不能證明社會資源分配更平等調整」時，得失要沿著混合產權政策可能改變住宅供應組合，但空間上的 tenure 混合不能證明社會資源分配更平等檢查；「混合產權｜批評與反例」的爭議不只在於不把產權多樣性當作社會融合成效的替代量；還要檢視混合產權政策可能改變住宅供應組合，但空間上的 tenure 混合不能證明社會資源分配更平等會讓哪些使用者承擔不同後果。",
+      "library_ids": [
+        "CZISCHKE2018"
+      ]
+    }
+  ],
+  "applies_when_zh": "「混合產權｜批評與反例」可在適用於社會住宅更新、混合社區和集體住宅規劃時使用，前提是混合產權政策可能改變住宅供應組合，但空間上的 tenure 混合不能證明社會資源分配更平等與來源情境相符。",
+  "not_applicable_when_zh": "若混合產權政策可能改變住宅供應組合，但空間上的 tenure 混合不能證明社會資源分配更平等不成立，就不能把「混合產權｜批評與反例」的結論延伸到其他情況；不把產權多樣性當作社會融合成效的替代量。",
+  "debates_zh": "「混合產權｜批評與反例」的爭議不只在於不把產權多樣性當作社會融合成效的替代量；還要檢視混合產權政策可能改變住宅供應組合，但空間上的 tenure 混合不能證明社會資源分配更平等會讓哪些使用者承擔不同後果。",
+  "sources": [
+    {
+      "library_id": "CZISCHKE2018",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "LEES2008",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "加拿大社會住宅與城市空間；歐洲可負擔住宅政策",
+  "region": "加拿大安大略與多倫多，1965–1995；英格蘭、義大利、波蘭與荷蘭",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "混合產權"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "混合產權"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "混合產權"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "混合產權"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-HOU-018",
+    "KU-HOU-019",
+    "KU-HOU-020"
+  ]
+}

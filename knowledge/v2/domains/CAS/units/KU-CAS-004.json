@@ -1,0 +1,95 @@
+{
+  "id": "KU-CAS-004",
+  "domain": "CAS",
+  "subtopic": "港區轉型案例",
+  "type": "case",
+  "title_zh": "Kop van Zuid：跨河連接與旗艦型水岸更新",
+  "title_en": "Kop van Zuid: Cross-River Connections and Flagship Waterfront Regeneration",
+  "summary_zh": "Kop van Zuid 以橋梁、商業和文化投資把鹿特丹南岸舊港區接到中央城市發展敘事中。Doucet、van Kempen與van Weesep的研究直接以居民對旗艦型水岸更新的觀感為題，提醒規劃者不能只用新建地標或土地價值評價社會成效。現有來源未提供可一致對照的全區面積、FSI或GSI，因此這些數值留空。",
+  "key_points_zh": [
+    "把跨河交通改善、地標投資和居民感受分別記錄。",
+    "居民感受研究不等於全體居民對分配結果的代表性調查。"
+  ],
+  "evidence": {
+    "strength": "CASE_EVIDENCE",
+    "findings": [
+      {
+        "claim_zh": "學術研究以鹿特丹Kop van Zuid為例，檢視居民對旗艦型水岸再生的感知。",
+        "effect_or_value": "個案研究；居民感知",
+        "study_design": "個案研究；居民感知",
+        "context_region": "荷蘭鹿特丹",
+        "library_id": "DOUCET2011KOPVANZUID",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "官方城市資料將Kop van Zuid作為南岸城市發展區；官方範圍需與學術樣本邊界分開。",
+        "effect_or_value": "官方專案資訊；規劃範圍",
+        "study_design": "官方專案資訊；規劃範圍",
+        "context_region": "荷蘭鹿特丹",
+        "library_id": "ROTTERDAM_KOP_VAN_ZUID2026",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "將跨河連接與本地街道網絡一起檢查，辨認新捷徑是否真正改善南岸社區可達性。"
+  ],
+  "applies_when_zh": "評估以地標、橋梁及商業投資帶動的內城水岸更新時。",
+  "not_applicable_when_zh": "缺乏居民層次資料，只能做建築或景觀形式比較時。",
+  "debates_zh": "旗艦開發可能改善城市形象與連接，也可能把投資收益集中在新建區；居民觀感研究應和租金、搬遷及就業資料一起讀。",
+  "sources": [
+    {
+      "library_id": "DOUCET2011KOPVANZUID",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "ROTTERDAM_KOP_VAN_ZUID2026",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "歐洲旗艦型再生與居民感知研究",
+  "region": "西歐／荷蘭鹿特丹",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": null,
+      "topic": "港城介面與交通連結"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": null,
+      "topic": "旗艦再生及居民感知"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": null,
+      "topic": "更新利益分配"
+    }
+  ],
+  "case": {
+    "location": "鹿特丹，荷蘭",
+    "period": "1980年代後期至2000年代的港區與南岸更新",
+    "area_ha": null,
+    "fsi": null,
+    "gsi": null,
+    "program_mix": "住宅、商辦、文化設施、公共空間與跨河交通；可靠的全區比例未核實。",
+    "key_strategies_zh": [
+      "以跨河橋梁和大眾運輸連結南岸。",
+      "把新建商業、住宅及文化設施組合成旗艦區域。"
+    ],
+    "outcomes_zh": [
+      "研究直接關注居民如何理解更新，不以單純建成面積或地標數量代表受益。",
+      "個案邊界和調查樣本需要回到原研究方法核實後，才可比較居民群體間差異。"
+    ],
+    "critiques_zh": [
+      "市區級更新敘事可能弱化原有港區產業和居民對土地變化的影響。",
+      "沒有公開同口徑租金、就業和公共空間使用數據，不能推出整體社會效益。"
+    ]
+  },
+  "version": "v2.0"
+}

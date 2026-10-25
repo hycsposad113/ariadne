@@ -1,0 +1,44 @@
+{
+  "id": "TIMESAVER_HOUSING94",
+  "title": "Time-Saver Standards for Housing and Residential Development",
+  "authors": [
+    "Joseph De Chiara",
+    "Julius Panero"
+  ],
+  "year": 1994,
+  "venue_or_publisher": "McGraw-Hill",
+  "doi": null,
+  "isbn": "9780070163010",
+  "openalex_id": null,
+  "kind": "PROFESSIONAL_PRACTICE_BOOK",
+  "tradition": "建築尺度；設計實務與研究",
+  "region": [
+    "跨地域；依來源適用範圍而異"
+  ],
+  "method": "書目核對；未取得全文，不以書目資料證明特定數值。",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "住宅與居住開發的設計手冊；所列典型尺寸須按版次及地區交叉核對。",
+      "strength": "THEORETICAL",
+      "scope_zh": "書目範圍可核對；數值或因果主張須另查原文。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Open Library",
+    "query": {
+      "title": "Time-Saver Standards for Housing and Residential Development",
+      "author": "Joseph De Chiara",
+      "year": 1994
+    },
+    "matched_record_id": "OL19057380W",
+    "checked_at_utc": "2026-10-08T14:46:47Z",
+    "match_notes_zh": "以允許的公開書目 API 核對書名、作者及出版年；未下載或保存全文。",
+    "url": "https://openlibrary.org/works/OL19057380W"
+  },
+  "limitations_zh": "書目記錄已核對；具體尺度內容標示交叉核對狀態，不把書名或摘要當作數值證據。",
+  "metadata_licence_zh": "保存公開書目欄位與自行撰寫的範圍說明；未保存全文。"
+}

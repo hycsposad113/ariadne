@@ -1,0 +1,61 @@
+{
+  "id": "KU-ECO-015",
+  "domain": "ECO",
+  "subtopic": "生態網絡與連結度",
+  "type": "empirical_finding",
+  "title_zh": "土地策略對蝴蝶與步甲的反應不同",
+  "title_en": "Land-use strategy differs for beetles and butterflies",
+  "summary_zh": "東京研究比較都市化梯度上的蝴蝶和地表步甲。高度都市化地區多數物種支持集中保留棲地；較低都市化時兩類群反應分歧。只有兩類昆蟲和特定城市，不能推廣到鳥類或植物。生物多樣性總指標可能掩蓋分類群之間的取捨。",
+  "key_points_zh": [
+    "東京研究比較都市化梯度上的蝴蝶和地表步甲",
+    "高度都市化地區多數物種支持集中保留棲地；較低都市化時兩類群反應分歧"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "東京研究比較都市化梯度上的蝴蝶和地表步甲。",
+        "effect_or_value": "高度都市化條件下多數物種較支持土地保留；低都市化區的類群回應不同。",
+        "study_design": "兩類昆蟲比較與都市化梯度分析",
+        "context_region": "日本東京",
+        "library_id": "SOGA14",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW",
+        "limitations_zh": "研究只涵蓋蝴蝶與步甲，地域和類群範圍有限。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "按類群和都市化程度分別評估土地分享與保留。"
+  ],
+  "applies_when_zh": "適用於都市生態策略的條件比較。",
+  "not_applicable_when_zh": "不能選一種景觀策略就宣稱適合所有物種。",
+  "debates_zh": "生物多樣性總指標可能掩蓋分類群之間的取捨。",
+  "sources": [
+    {
+      "library_id": "SOGA14",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "MARCUS10",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "都市生態與土地分享／保留",
+  "region": "日本東京",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "生態網絡與連結度"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-ECO-014",
+    "KU-ECO-016"
+  ]
+}

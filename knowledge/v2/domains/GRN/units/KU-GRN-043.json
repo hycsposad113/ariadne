@@ -1,0 +1,66 @@
+{
+  "id": "KU-GRN-043",
+  "domain": "GRN",
+  "subtopic": "公園使用與維護",
+  "type": "method",
+  "title_zh": "樹木成活需多年追蹤",
+  "title_en": "Tree establishment needs long-term tracking",
+  "summary_zh": "種植當年完成不代表樹木已適應場地。灌溉、土壤容積和後續修剪影響樹冠服務形成。城市氣候和樹種會改變成活率。即時植栽成本和長期遮蔭收益需跨年度治理。把保固和樹冠長成的追蹤期列入工程交付條件。",
+  "key_points_zh": [
+    "種植當年完成不代表樹木已適應場地",
+    "灌溉、土壤容積和後續修剪影響樹冠服務形成"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "種植當年完成不代表樹木已適應場地。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "跨地域",
+        "library_id": "AHERN11",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "即時植栽成本和長期遮蔭收益需跨年度治理。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "把保固和樹冠長成的追蹤期列入工程交付條件。"
+  ],
+  "applies_when_zh": "適用於公園更新和街道植樹。",
+  "not_applicable_when_zh": "不應只按苗木數量結算綠化成果。",
+  "debates_zh": "即時植栽成本和長期遮蔭收益需跨年度治理。",
+  "sources": [
+    {
+      "library_id": "AHERN11",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "ELMQVIST13",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "韌性設計",
+  "region": "跨地域",
+  "curriculum_refs": [
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "公園使用與維護"
+    },
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "公園使用與維護"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-GRN-042",
+    "KU-GRN-044"
+  ]
+}

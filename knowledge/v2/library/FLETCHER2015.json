@@ -1,0 +1,47 @@
+{
+  "id": "FLETCHER2015",
+  "title": "SUDS, LID, BMPs, WSUD and more – The evolution and application of terminology surrounding urban drainage",
+  "authors": [
+    "Tim D. Fletcher",
+    "William Shuster",
+    "William F. Hunt",
+    "Richard Ashley",
+    "David Butler"
+  ],
+  "year": 2015,
+  "venue_or_publisher": null,
+  "doi": "10.1080/1573062x.2014.916314",
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "都市雨水管理與水敏感都市設計",
+  "region": [
+    "跨地域"
+  ],
+  "method": "術語範圍依標題與書目辨識；摘要不可得，研究方法未核驗",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "本文的書目範圍涉及城市排水相關術語的演變與使用；僅憑書目不能判定不同措施的水文效能或政策成效。",
+      "strength": "THEORETICAL",
+      "scope_zh": "只作為術語與研究範圍提示，不作工程效能、因果或基地門檻的證據。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref",
+    "query": {
+      "title": "SUDS, LID, BMPs, WSUD and more: the evolution and application of terminology surrounding urban drainage",
+      "author": "Fletcher",
+      "year": 2015
+    },
+    "matched_record_id": "10.1080/1573062x.2014.916314",
+    "checked_at_utc": "2026-10-08T09:26:02Z",
+    "match_notes_zh": "Crossref 回傳書名、作者、出版年與 DOI；摘要欄位不可得。只核驗書目。"
+  },
+  "limitations_zh": "沒有下載全文；API 回應沒有摘要。此記錄不證明某種雨水技術的定量表現。",
+  "critique_relationship_zh": "尚未建立互引或直接批評關係；沒有將書目範圍推成論文結論。",
+  "metadata_licence_zh": "保留公開 Crossref 書目欄位與自行撰寫的範圍說明；全文未取得，授權未核驗。"
+}

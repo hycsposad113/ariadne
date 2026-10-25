@@ -1,0 +1,46 @@
+{
+  "id": "MOHONGKONG2023",
+  "title": "Housing Preference for Ageing-in-Place: Are There Differences among Emerging-Old, Young-Old and Old-Old Adults Living in Hong Kong’s Private Housing Estates?",
+  "authors": [
+    "Kar Him Mo",
+    "Danyang Lei",
+    "Jean Woo",
+    "Rina Ko"
+  ],
+  "year": 2023,
+  "venue_or_publisher": "OpenAlex bibliographic search record; venue not returned in bounded fields",
+  "doi": "https://doi.org/10.1080/26892618.2023.2291762",
+  "isbn": null,
+  "openalex_id": "https://openalex.org/W4389686159",
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "高齡住宅偏好與在地老化",
+  "region": [
+    "香港私人住宅屋苑"
+  ],
+  "method": "分齡住宅偏好研究；摘要未列抽樣方法",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "研究摘要指出安全、熱舒適與健康資訊需求隨年齡組別提高；由於樣本和方法細節未公開於摘要，不能推估全港效果大小。",
+      "strength": "MIXED",
+      "scope_zh": "摘要提供有限的研究範圍，不可外推摘要未報告的樣本和效果。",
+      "assessment_basis": "ABSTRACT_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "OpenAlex",
+    "query": {
+      "search_query": "housing older adults ageing in place urban neighborhoods design residential satisfaction",
+      "title": "Housing Preference for Ageing-in-Place: Are There Differences among Emerging-Old, Young-Old and Old-Old Adults Living in Hong Kong’s Private Housing Estates?",
+      "author": "Kar Him Mo",
+      "year": 2023
+    },
+    "matched_record_id": "https://openalex.org/W4389686159",
+    "checked_at_utc": "2026-10-08T09:12:32Z",
+    "match_notes_zh": "OpenAlex 書目搜尋結果的書名、作者和年份一致；只用摘要確認範圍。"
+  },
+  "limitations_zh": "本次僅核對 API 書目和摘要，未下載全文。",
+  "metadata_licence_zh": "保存書目欄位及自行摘要，未保存 API 摘要原文或全文。"
+}

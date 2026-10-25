@@ -1,0 +1,66 @@
+{
+  "id": "KU-PUB-055",
+  "domain": "PUB",
+  "subtopic": "包容、性別與可用性",
+  "type": "design_principle",
+  "title_zh": "身體可達性要測實際阻礙",
+  "title_en": "Physical access requires barrier audits",
+  "summary_zh": "連續坡道、路面品質和可休息點共同影響無障礙通行。入口合規不代表整段旅程都可達。臨時施工、停放物與積水會改變實際條件。通用設計的理想仍需和地方使用經驗持續校正。讓使用者以輪椅、手杖和嬰兒車等不同方式走完整條到達路線。",
+  "key_points_zh": [
+    "連續坡道、路面品質和可休息點共同影響無障礙通行",
+    "入口合規不代表整段旅程都可達"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "連續坡道、路面品質和可休息點共同影響無障礙通行。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "荷蘭",
+        "library_id": "GEURS04",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "通用設計的理想仍需和地方使用經驗持續校正。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "讓使用者以輪椅、手杖和嬰兒車等不同方式走完整條到達路線。"
+  ],
+  "applies_when_zh": "適用於公園、廣場和公共交通的連接設計。",
+  "not_applicable_when_zh": "不適合以設計規範的靜態檢查取代日常維護。",
+  "debates_zh": "通用設計的理想仍需和地方使用經驗持續校正。",
+  "sources": [
+    {
+      "library_id": "GEURS04",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "KACZYNSKI08",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "可及性評估",
+  "region": "荷蘭",
+  "curriculum_refs": [
+    {
+      "school": "UCL Bartlett",
+      "course": "Critical Debates in Urban Design",
+      "topic": "包容、性別與可用性"
+    },
+    {
+      "school": "MIT",
+      "course": "11.330J Theory of City Form",
+      "topic": "包容、性別與可用性"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-PUB-054",
+    "KU-PUB-056"
+  ]
+}

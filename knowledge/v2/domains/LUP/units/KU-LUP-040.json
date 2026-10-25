@@ -1,0 +1,100 @@
+{
+  "id": "KU-LUP-040",
+  "domain": "LUP",
+  "subtopic": "用途配比與日夜活動",
+  "type": "critique",
+  "title_zh": "用途配比與日夜活動｜批評與反例",
+  "title_en": "Program mix and time of day — Critique and counterexample",
+  "summary_zh": "用途配比是方案選擇，現有研究沒有給出適用所有地區的最佳百分比。 荷蘭與芝加哥都會區研究發現，就業可及性與房價上升相關而與租金沒有顯著關聯；混合用途對價格指標也可能呈現不同方向。 判斷日夜活動是否互補，需對照營業時間、人流和樓層用途，不能由全區配比推論。",
+  "key_points_zh": [
+    "讀「用途配比與日夜活動｜批評與反例」時，設計者提出的用途百分比是策略，不是研究普遍證明的最佳值；同時把用途配比是方案選擇，現有研究沒有給出適用所有地區的最佳百分比列為核對條件。",
+    "讀「用途配比與日夜活動｜批評與反例」時，適用於混合用途、鄰里服務和夜間經濟規劃；同時把用途配比是方案選擇，現有研究沒有給出適用所有地區的最佳百分比列為核對條件。",
+    "讀「用途配比與日夜活動｜批評與反例」時，限制：未取得營業時間或人流資料時，不推估日夜使用量；同時把用途配比是方案選擇，現有研究沒有給出適用所有地區的最佳百分比列為核對條件。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "都市時間使用的規劃研究題旨支持將服務和活動按時段分類；它沒有建立跨地區通用的用途百分比。",
+        "library_id": "MARSALLACUNA2014",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "跨地域",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "本條依公開摘要或書目範圍整理；未據此推定本基地法規、普遍效果或未核對的數值。"
+      },
+      {
+        "claim_zh": "夜間城市規劃專書將夜間公共生活與治理納入同一討論範圍；評估夜間互補性需取得場址的人流與營業時間資料。",
+        "library_id": "ROBERTSELDRIDGE2012",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "英國與跨地域",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "本條依公開摘要或書目範圍整理；未據此推定本基地法規、普遍效果或未核對的數值。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "分開繪出夜間人流與工作日裝卸時段，避免以全日用途比例推論夜間公共生活。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "分開繪出夜間人流與工作日裝卸時段，避免以全日用途比例推論夜間公共生活。",
+      "tradeoff_zh": "「用途配比與日夜活動｜批評與反例」採用「分開繪出夜間人流與工作日裝卸時段，避免以全日用途比例推論夜間公共生活」時，得失要沿著用途配比是方案選擇，現有研究沒有給出適用所有地區的最佳百分比檢查；「用途配比與日夜活動｜批評與反例」的爭議不只在於未取得營業時間或人流資料時，不推估日夜使用量；還要檢視用途配比是方案選擇，現有研究沒有給出適用所有地區的最佳百分比會讓哪些使用者承擔不同後果。",
+      "library_ids": []
+    },
+    {
+      "option_zh": "「用途配比與日夜活動｜批評與反例」可把取向落在全天型服務、夜間活動與工作日生產用途形成不同時序組合，但需連同用途配比是方案選擇，現有研究沒有給出適用所有地區的最佳百分比決定適用方式。",
+      "tradeoff_zh": "「用途配比與日夜活動｜批評與反例」的主要代價不是抽象的建造成本，而是「用途配比與日夜活動｜批評與反例」的爭議不只在於未取得營業時間或人流資料時，不推估日夜使用量；還要檢視用途配比是方案選擇，現有研究沒有給出適用所有地區的最佳百分比會讓哪些使用者承擔不同後果；因此先以用途配比是方案選擇，現有研究沒有給出適用所有地區的最佳百分比作方案比較條件。",
+      "library_ids": []
+    }
+  ],
+  "applies_when_zh": "「用途配比與日夜活動｜批評與反例」可在適用於混合用途、鄰里服務和夜間經濟規劃時使用，前提是用途配比是方案選擇，現有研究沒有給出適用所有地區的最佳百分比與來源情境相符。",
+  "not_applicable_when_zh": "若用途配比是方案選擇，現有研究沒有給出適用所有地區的最佳百分比不成立，就不能把「用途配比與日夜活動｜批評與反例」的結論延伸到其他情況；未取得營業時間或人流資料時，不推估日夜使用量。",
+  "debates_zh": "「用途配比與日夜活動｜批評與反例」的爭議不只在於未取得營業時間或人流資料時，不推估日夜使用量；還要檢視用途配比是方案選擇，現有研究沒有給出適用所有地區的最佳百分比會讓哪些使用者承擔不同後果。",
+  "sources": [
+    {
+      "library_id": "MARSALLACUNA2014",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "ROBERTSELDRIDGE2012",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "可及性評估；城市土地經濟與混合用途",
+  "region": "荷蘭；芝加哥都會區，美國",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Planning Complex Cities",
+      "topic": "用途配比與日夜活動"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Cities by Design",
+      "topic": "用途配比與日夜活動"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "用途配比與日夜活動"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Sustainable Futures by Design",
+      "topic": "用途配比與日夜活動"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-LUP-036",
+    "KU-LUP-037",
+    "KU-LUP-038"
+  ]
+}

@@ -1,0 +1,404 @@
+{
+  "id": "KU-MOR-087",
+  "domain": "MOR",
+  "subtopic": "形態先例庫；實測圖底與量體指標",
+  "type": "case",
+  "title_zh": "勞埃德區",
+  "title_en": "Lloydkwartier",
+  "summary_zh": "舊港區地塊與新用途的接合需要看空間序列；街廓面積與翼深分布比單一中位數更適合定位尺度轉換處。本次從 68078.19 m² 陸地範圍內解析 35 棟建築、合併成 17 個量體，由主要街道切出 6 個面積至少 1,000 m² 的街廓，其中完整窗內 0 個。陸地分母 GSI 為 0.218，可比 FSI 為 2.2736；在 0 個完整街廓的自動判型樣本中，完整街廓樣本不足最多（0 個）；主要建築外牆間距中位數 47.94 m。這份數值記錄僅對應勞埃德區本次取樣窗與來源快照。",
+  "key_points_zh": [
+    "以 OSM 地名物件中心作錨點，在 EPSG:28992 中向四周量取 320 m × 240 m 矩形；這是研究窗，不代表歷史開發案或法定邊界。",
+    "OSM 日期 2026-10-09T10:35:00Z；高度來源 3DBAG observed BAG-id join; no OSM fallback；有效高度 31／35 棟。",
+    "勞埃德區量測說明：OSM building:levels 直接用於 L；3DBAG roof-ground height 或 OSM height 僅在沒有樓層標記時以 3.0 m/層換算，為明示假設。勞埃德區的缺值不補猜。"
+  ],
+  "evidence": {
+    "strength": "CASE_EVIDENCE",
+    "findings": [
+      {
+        "library_id": "OSM_KB4_PRECEDENTS",
+        "claim_zh": "勞埃德區 使用回應 d75daa1f3632 計算；未映射建築沒有插補。",
+        "effect_or_value": "35 棟建築；高度覆蓋率 0.8857。",
+        "study_design": "研究窗 OSM 幾何測量",
+        "context_region": "Rotterdam, Netherlands",
+        "locator": null,
+        "claim_verification": "OBSERVED_OPEN_DATA_MEASUREMENT",
+        "limitations_zh": "OSM 是社群編輯資料；此值只描述快照，不代表完整盤點。"
+      },
+      {
+        "library_id": "BILJECKI2022",
+        "claim_zh": "Biljecki 與 Chow 的跨尺度形態指標研究強調來源和尺度可追溯；本案把該原則用於 勞埃德區 的 7.68 ha 觀察窗。",
+        "effect_or_value": null,
+        "study_design": "形態指標研究",
+        "context_region": "全球多城市資料",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW",
+        "limitations_zh": "該研究不驗證此窗 OSM 完整度或 M4H 法規。"
+      },
+      {
+        "library_id": "STOUTEN2017",
+        "claim_zh": "勞埃德區引用來源記載：論文討論鹿特丹城市設計與仕紳化的關係。",
+        "effect_or_value": null,
+        "study_design": "書目或官方案例資料",
+        "context_region": "Rotterdam, Netherlands",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW",
+        "limitations_zh": "只按已核對的書目或官方來源範圍引用，未查證的設計細節不推定。"
+      },
+      {
+        "library_id": "3DBAG_KB4_HEIGHTS",
+        "claim_zh": "勞埃德區 的高度欄位以可連結 BAG 識別碼配對 3DBAG 屋頂與地面高度；沒有匹配的建物不補值。",
+        "effect_or_value": "高度覆蓋 31/35 棟；FSI 可比性為 COMPARABLE。",
+        "study_design": "3DBAG 公開建物高度資料的 BAG-ID 配對",
+        "context_region": "Rotterdam, Netherlands",
+        "locator": null,
+        "claim_verification": "OBSERVED_OPEN_DATA_MEASUREMENT",
+        "limitations_zh": "只計可連結到 3DBAG 高度的足跡；高度轉樓層時採明列 3.0 m／層假設。"
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "建築覆蓋率 GSI",
+      "range": "0.218",
+      "unit": "無量綱",
+      "context": "勞埃德區的建築覆蓋率 GSI：Rotterdam研究窗 7.68 ha；以 OSM 地名物件中心作錨點，在 EPSG:28992 中向四周量取 320 m × 240 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T10:35:00Z，回應 SHA-256 d75daa1f3632f4671b52acab8ec94eb957160d5d3e89458054225456bc76394a；OSM 下載時間 2026-10-09T10:37:15Z；3DBAG tile 下載時間 2026-10-09T11:01:17Z；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "已知樓層面積比 FSI 下限",
+      "range": "2.2736",
+      "unit": "無量綱",
+      "context": "勞埃德區的已知樓層面積比 FSI 下限：Rotterdam研究窗 7.68 ha；以 OSM 地名物件中心作錨點，在 EPSG:28992 中向四周量取 320 m × 240 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T10:35:00Z，回應 SHA-256 d75daa1f3632f4671b52acab8ec94eb957160d5d3e89458054225456bc76394a；OSM 下載時間 2026-10-09T10:37:15Z；3DBAG tile 下載時間 2026-10-09T11:01:17Z；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "3DBAG_KB4_HEIGHTS"
+    },
+    {
+      "name": "足跡加權平均樓層 L",
+      "range": "10.461",
+      "unit": "層",
+      "context": "勞埃德區的足跡加權平均樓層 L：Rotterdam研究窗 7.68 ha；以 OSM 地名物件中心作錨點，在 EPSG:28992 中向四周量取 320 m × 240 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T10:35:00Z，回應 SHA-256 d75daa1f3632f4671b52acab8ec94eb957160d5d3e89458054225456bc76394a；OSM 下載時間 2026-10-09T10:37:15Z；3DBAG tile 下載時間 2026-10-09T11:01:17Z；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "3DBAG_KB4_HEIGHTS"
+    },
+    {
+      "name": "開放空間比 OSR（已知 FSI）",
+      "range": "0.344",
+      "unit": "無量綱",
+      "context": "勞埃德區的開放空間比 OSR（已知 FSI）：Rotterdam研究窗 7.68 ha；以 OSM 地名物件中心作錨點，在 EPSG:28992 中向四周量取 320 m × 240 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T10:35:00Z，回應 SHA-256 d75daa1f3632f4671b52acab8ec94eb957160d5d3e89458054225456bc76394a；OSM 下載時間 2026-10-09T10:37:15Z；3DBAG tile 下載時間 2026-10-09T11:01:17Z；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "3DBAG_KB4_HEIGHTS"
+    },
+    {
+      "name": "街廓數",
+      "range": "6",
+      "unit": "個；含截邊街廓",
+      "context": "勞埃德區的街廓數：Rotterdam研究窗 7.68 ha；以 OSM 地名物件中心作錨點，在 EPSG:28992 中向四周量取 320 m × 240 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T10:35:00Z，回應 SHA-256 d75daa1f3632f4671b52acab8ec94eb957160d5d3e89458054225456bc76394a；OSM 下載時間 2026-10-09T10:37:15Z；3DBAG tile 下載時間 2026-10-09T11:01:17Z；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "完整街廓數",
+      "range": "0",
+      "unit": "個；完整研究窗內街廓",
+      "context": "勞埃德區的完整街廓數：Rotterdam研究窗 7.68 ha；以 OSM 地名物件中心作錨點，在 EPSG:28992 中向四周量取 320 m × 240 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T10:35:00Z，回應 SHA-256 d75daa1f3632f4671b52acab8ec94eb957160d5d3e89458054225456bc76394a；OSM 下載時間 2026-10-09T10:37:15Z；3DBAG tile 下載時間 2026-10-09T11:01:17Z；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "完整街廓面積分布",
+      "range": "min 未取得；p25 未取得；median 未取得；p75 未取得；max 未取得",
+      "unit": "m²；完整街廓最小／P25／中位／P75／最大",
+      "context": "勞埃德區的完整街廓面積分布：Rotterdam研究窗 7.68 ha；以 OSM 地名物件中心作錨點，在 EPSG:28992 中向四周量取 320 m × 240 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T10:35:00Z，回應 SHA-256 d75daa1f3632f4671b52acab8ec94eb957160d5d3e89458054225456bc76394a；OSM 下載時間 2026-10-09T10:37:15Z；3DBAG tile 下載時間 2026-10-09T11:01:17Z；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "全觀察街廓面積分布（含截邊）",
+      "range": "min 1609.22；p25 6398.9；median 9095.09；p75 12746.79；max 25897.14",
+      "unit": "m²；全觀察街廓含截邊最小／P25／中位／P75／最大",
+      "context": "勞埃德區的全觀察街廓面積分布（含截邊）：Rotterdam研究窗 7.68 ha；以 OSM 地名物件中心作錨點，在 EPSG:28992 中向四周量取 320 m × 240 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T10:35:00Z，回應 SHA-256 d75daa1f3632f4671b52acab8ec94eb957160d5d3e89458054225456bc76394a；OSM 下載時間 2026-10-09T10:37:15Z；3DBAG tile 下載時間 2026-10-09T11:01:17Z；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "主要街道交叉口間街段長分布",
+      "range": "min 0.12；p25 8.32；median 22.57；p75 76.4；max 109.31",
+      "unit": "m；主要街道交叉口間街段最小／P25／中位／P75／最大",
+      "context": "勞埃德區的主要街道交叉口間街段長分布：Rotterdam研究窗 7.68 ha；以 OSM 地名物件中心作錨點，在 EPSG:28992 中向四周量取 320 m × 240 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T10:35:00Z，回應 SHA-256 d75daa1f3632f4671b52acab8ec94eb957160d5d3e89458054225456bc76394a；OSM 下載時間 2026-10-09T10:37:15Z；3DBAG tile 下載時間 2026-10-09T11:01:17Z；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "街道寬度代理（建築間距）",
+      "range": "min 15.59；p25 40.09；median 47.94；p75 58.3；max 67.58",
+      "unit": "m；最小／P25／中位／P75／最大",
+      "context": "勞埃德區的街道寬度代理（建築間距）：Rotterdam研究窗 7.68 ha；以 OSM 地名物件中心作錨點，在 EPSG:28992 中向四周量取 320 m × 240 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T10:35:00Z，回應 SHA-256 d75daa1f3632f4671b52acab8ec94eb957160d5d3e89458054225456bc76394a；OSM 下載時間 2026-10-09T10:37:15Z；3DBAG tile 下載時間 2026-10-09T11:01:17Z；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "建築翼深代理",
+      "range": "min 1.33；p25 4.27；median 8.49；p75 16.34；max 21.03；低信心（偏離住宅常規 10–16 m）",
+      "unit": "m；最小／P25／中位／P75／最大",
+      "context": "勞埃德區的建築翼深代理：Rotterdam研究窗 7.68 ha；以 OSM 地名物件中心作錨點，在 EPSG:28992 中向四周量取 320 m × 240 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T10:35:00Z，回應 SHA-256 d75daa1f3632f4671b52acab8ec94eb957160d5d3e89458054225456bc76394a；OSM 下載時間 2026-10-09T10:37:15Z；3DBAG tile 下載時間 2026-10-09T11:01:17Z；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "翼深交叉檢查（最小旋轉外接矩形短邊）",
+      "range": "min 2.76；p25 9.09；median 24.77；p75 32.42；max 55.75",
+      "unit": "m；最小／P25／中位／P75／最大",
+      "context": "勞埃德區的翼深交叉檢查（最小旋轉外接矩形短邊）：Rotterdam研究窗 7.68 ha；以 OSM 地名物件中心作錨點，在 EPSG:28992 中向四周量取 320 m × 240 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T10:35:00Z，回應 SHA-256 d75daa1f3632f4671b52acab8ec94eb957160d5d3e89458054225456bc76394a；OSM 下載時間 2026-10-09T10:37:15Z；3DBAG tile 下載時間 2026-10-09T11:01:17Z；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "翼深代理低於 4 m 樣本占比",
+      "range": "0.2353",
+      "unit": "比例；2A／周長代理低於 4 m 的樣本占比",
+      "context": "勞埃德區的翼深代理低於 4 m 樣本占比：Rotterdam研究窗 7.68 ha；以 OSM 地名物件中心作錨點，在 EPSG:28992 中向四周量取 320 m × 240 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T10:35:00Z，回應 SHA-256 d75daa1f3632f4671b52acab8ec94eb957160d5d3e89458054225456bc76394a；OSM 下載時間 2026-10-09T10:37:15Z；3DBAG tile 下載時間 2026-10-09T11:01:17Z；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "主要形態量體低於 100 m² 占比",
+      "range": "0.2941",
+      "unit": "比例；主要形態量體低於 100 m² 的占比",
+      "context": "勞埃德區的主要形態量體低於 100 m² 占比：Rotterdam研究窗 7.68 ha；以 OSM 地名物件中心作錨點，在 EPSG:28992 中向四周量取 320 m × 240 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T10:35:00Z，回應 SHA-256 d75daa1f3632f4671b52acab8ec94eb957160d5d3e89458054225456bc76394a；OSM 下載時間 2026-10-09T10:37:15Z；3DBAG tile 下載時間 2026-10-09T11:01:17Z；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "主要形態樣本建築數",
+      "range": "35",
+      "unit": "棟；主要形態樣本",
+      "context": "勞埃德區的主要形態樣本建築數：Rotterdam研究窗 7.68 ha；以 OSM 地名物件中心作錨點，在 EPSG:28992 中向四周量取 320 m × 240 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T10:35:00Z，回應 SHA-256 d75daa1f3632f4671b52acab8ec94eb957160d5d3e89458054225456bc76394a；OSM 下載時間 2026-10-09T10:37:15Z；3DBAG tile 下載時間 2026-10-09T11:01:17Z；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "翼深／類型排除的輔助建物數",
+      "range": "0",
+      "unit": "棟；僅不納入翼深／類型",
+      "context": "勞埃德區的翼深／類型排除的輔助建物數：Rotterdam研究窗 7.68 ha；以 OSM 地名物件中心作錨點，在 EPSG:28992 中向四周量取 320 m × 240 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T10:35:00Z，回應 SHA-256 d75daa1f3632f4671b52acab8ec94eb957160d5d3e89458054225456bc76394a；OSM 下載時間 2026-10-09T10:37:15Z；3DBAG tile 下載時間 2026-10-09T11:01:17Z；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "完整街廓判型樣本數",
+      "range": "0",
+      "unit": "個；完整街廓判型樣本",
+      "context": "勞埃德區的完整街廓判型樣本數：Rotterdam研究窗 7.68 ha；以 OSM 地名物件中心作錨點，在 EPSG:28992 中向四周量取 320 m × 240 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T10:35:00Z，回應 SHA-256 d75daa1f3632f4671b52acab8ec94eb957160d5d3e89458054225456bc76394a；OSM 下載時間 2026-10-09T10:37:15Z；3DBAG tile 下載時間 2026-10-09T11:01:17Z；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "建築至映射水岸距離",
+      "range": "min 10.51；p25 73.82；median 157.37；p75 181.1；max 195.83",
+      "unit": "m；最小／P25／中位／P75／最大",
+      "context": "勞埃德區的建築至映射水岸距離：Rotterdam研究窗 7.68 ha；以 OSM 地名物件中心作錨點，在 EPSG:28992 中向四周量取 320 m × 240 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T10:35:00Z，回應 SHA-256 d75daa1f3632f4671b52acab8ec94eb957160d5d3e89458054225456bc76394a；OSM 下載時間 2026-10-09T10:37:15Z；3DBAG tile 下載時間 2026-10-09T11:01:17Z；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "水岸行人路徑 OSM 標記",
+      "range": "ACCESS_UNRESOLVED_FROM_OSM；近水路徑 10 條；明示開放標記 0 條；明示受限標記 0 條；未判定 10 條",
+      "unit": "OSM 水岸行人路徑標記與數量",
+      "context": "勞埃德區的水岸行人路徑 OSM 標記：Rotterdam研究窗 7.68 ha；以 OSM 地名物件中心作錨點，在 EPSG:28992 中向四周量取 320 m × 240 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T10:35:00Z，回應 SHA-256 d75daa1f3632f4671b52acab8ec94eb957160d5d3e89458054225456bc76394a；OSM 下載時間 2026-10-09T10:37:15Z；3DBAG tile 下載時間 2026-10-09T11:01:17Z；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "主要形態類型分布（街廓代理）",
+      "range": "周邊式 0 個／比例 未取得；板樓 0 個／比例 未取得；連棟 0 個／比例 未取得；點式 0 個／比例 未取得；合院 0 個／比例 未取得；混合／未分類 0 個／比例 未取得",
+      "unit": "街廓分類數量與比例",
+      "context": "勞埃德區的主要形態類型分布（街廓代理）：Rotterdam研究窗 7.68 ha；以 OSM 地名物件中心作錨點，在 EPSG:28992 中向四周量取 320 m × 240 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T10:35:00Z，回應 SHA-256 d75daa1f3632f4671b52acab8ec94eb957160d5d3e89458054225456bc76394a；OSM 下載時間 2026-10-09T10:37:15Z；3DBAG tile 下載時間 2026-10-09T11:01:17Z；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "高度或樓層資訊覆蓋率",
+      "range": "0.8857",
+      "unit": "比例",
+      "context": "勞埃德區的高度或樓層資訊覆蓋率：Rotterdam研究窗 7.68 ha；以 OSM 地名物件中心作錨點，在 EPSG:28992 中向四周量取 320 m × 240 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T10:35:00Z，回應 SHA-256 d75daa1f3632f4671b52acab8ec94eb957160d5d3e89458054225456bc76394a；OSM 下載時間 2026-10-09T10:37:15Z；3DBAG tile 下載時間 2026-10-09T11:01:17Z；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "3DBAG_KB4_HEIGHTS"
+    },
+    {
+      "name": "高度或樓層缺值建築數",
+      "range": "4",
+      "unit": "棟",
+      "context": "勞埃德區的高度或樓層缺值建築數：Rotterdam研究窗 7.68 ha；以 OSM 地名物件中心作錨點，在 EPSG:28992 中向四周量取 320 m × 240 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T10:35:00Z，回應 SHA-256 d75daa1f3632f4671b52acab8ec94eb957160d5d3e89458054225456bc76394a；OSM 下載時間 2026-10-09T10:37:15Z；3DBAG tile 下載時間 2026-10-09T11:01:17Z；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "3DBAG_KB4_HEIGHTS"
+    },
+    {
+      "name": "GSI（含映射水域分母）",
+      "range": "0.194",
+      "unit": "無量綱",
+      "context": "勞埃德區的GSI（含映射水域分母）：Rotterdam研究窗 7.68 ha；以 OSM 地名物件中心作錨點，在 EPSG:28992 中向四周量取 320 m × 240 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T10:35:00Z，回應 SHA-256 d75daa1f3632f4671b52acab8ec94eb957160d5d3e89458054225456bc76394a；OSM 下載時間 2026-10-09T10:37:15Z；3DBAG tile 下載時間 2026-10-09T11:01:17Z；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "FSI 下限（含映射水域分母）",
+      "range": "2.0229",
+      "unit": "無量綱",
+      "context": "勞埃德區的FSI 下限（含映射水域分母）：Rotterdam研究窗 7.68 ha；以 OSM 地名物件中心作錨點，在 EPSG:28992 中向四周量取 320 m × 240 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T10:35:00Z，回應 SHA-256 d75daa1f3632f4671b52acab8ec94eb957160d5d3e89458054225456bc76394a；OSM 下載時間 2026-10-09T10:37:15Z；3DBAG tile 下載時間 2026-10-09T11:01:17Z；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "3DBAG_KB4_HEIGHTS"
+    },
+    {
+      "name": "陸地分母面積",
+      "range": "68078.19",
+      "unit": "m²",
+      "context": "勞埃德區的陸地分母面積：Rotterdam研究窗 7.68 ha；以 OSM 地名物件中心作錨點，在 EPSG:28992 中向四周量取 320 m × 240 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T10:35:00Z，回應 SHA-256 d75daa1f3632f4671b52acab8ec94eb957160d5d3e89458054225456bc76394a；OSM 下載時間 2026-10-09T10:37:15Z；3DBAG tile 下載時間 2026-10-09T11:01:17Z；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "建築合併後量體數",
+      "range": "17",
+      "unit": "量體",
+      "context": "勞埃德區的建築合併後量體數：Rotterdam研究窗 7.68 ha；以 OSM 地名物件中心作錨點，在 EPSG:28992 中向四周量取 320 m × 240 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T10:35:00Z，回應 SHA-256 d75daa1f3632f4671b52acab8ec94eb957160d5d3e89458054225456bc76394a；OSM 下載時間 2026-10-09T10:37:15Z；3DBAG tile 下載時間 2026-10-09T11:01:17Z；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "輔助建物以外主要形態樣本數",
+      "range": "35",
+      "unit": "棟",
+      "context": "勞埃德區的輔助建物以外主要形態樣本數：Rotterdam研究窗 7.68 ha；以 OSM 地名物件中心作錨點，在 EPSG:28992 中向四周量取 320 m × 240 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T10:35:00Z，回應 SHA-256 d75daa1f3632f4671b52acab8ec94eb957160d5d3e89458054225456bc76394a；OSM 下載時間 2026-10-09T10:37:15Z；3DBAG tile 下載時間 2026-10-09T11:01:17Z；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "翼深交叉檢查：最小旋轉外接矩形短邊",
+      "range": "min 2.76；p25 9.09；median 24.77；p75 32.42；max 55.75",
+      "unit": "m；分位數",
+      "context": "勞埃德區的翼深交叉檢查：最小旋轉外接矩形短邊：Rotterdam研究窗 7.68 ha；以 OSM 地名物件中心作錨點，在 EPSG:28992 中向四周量取 320 m × 240 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T10:35:00Z，回應 SHA-256 d75daa1f3632f4671b52acab8ec94eb957160d5d3e89458054225456bc76394a；OSM 下載時間 2026-10-09T10:37:15Z；3DBAG tile 下載時間 2026-10-09T11:01:17Z；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "小於 1,000 m² 排除碎片數",
+      "range": "5",
+      "unit": "個",
+      "context": "勞埃德區的小於 1,000 m² 排除碎片數：Rotterdam研究窗 7.68 ha；以 OSM 地名物件中心作錨點，在 EPSG:28992 中向四周量取 320 m × 240 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T10:35:00Z，回應 SHA-256 d75daa1f3632f4671b52acab8ec94eb957160d5d3e89458054225456bc76394a；OSM 下載時間 2026-10-09T10:37:15Z；3DBAG tile 下載時間 2026-10-09T11:01:17Z；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "完整街廓判型樣本數",
+      "range": "0",
+      "unit": "個",
+      "context": "勞埃德區的完整街廓判型樣本數：Rotterdam研究窗 7.68 ha；以 OSM 地名物件中心作錨點，在 EPSG:28992 中向四周量取 320 m × 240 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T10:35:00Z，回應 SHA-256 d75daa1f3632f4671b52acab8ec94eb957160d5d3e89458054225456bc76394a；OSM 下載時間 2026-10-09T10:37:15Z；3DBAG tile 下載時間 2026-10-09T11:01:17Z；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "未分類街廓比例",
+      "range": "未取得",
+      "unit": "比例",
+      "context": "勞埃德區的未分類街廓比例：Rotterdam研究窗 7.68 ha；以 OSM 地名物件中心作錨點，在 EPSG:28992 中向四周量取 320 m × 240 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T10:35:00Z，回應 SHA-256 d75daa1f3632f4671b52acab8ec94eb957160d5d3e89458054225456bc76394a；OSM 下載時間 2026-10-09T10:37:15Z；3DBAG tile 下載時間 2026-10-09T11:01:17Z；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "OSM 建築數",
+      "range": "35",
+      "unit": "棟",
+      "context": "勞埃德區的OSM 建築數：Rotterdam研究窗 7.68 ha；以 OSM 地名物件中心作錨點，在 EPSG:28992 中向四周量取 320 m × 240 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T10:35:00Z，回應 SHA-256 d75daa1f3632f4671b52acab8ec94eb957160d5d3e89458054225456bc76394a；OSM 下載時間 2026-10-09T10:37:15Z；3DBAG tile 下載時間 2026-10-09T11:01:17Z；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "高度覆蓋率",
+      "range": "0.8857",
+      "unit": "比例",
+      "context": "勞埃德區的高度覆蓋率：Rotterdam研究窗 7.68 ha；以 OSM 地名物件中心作錨點，在 EPSG:28992 中向四周量取 320 m × 240 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T10:35:00Z，回應 SHA-256 d75daa1f3632f4671b52acab8ec94eb957160d5d3e89458054225456bc76394a；OSM 下載時間 2026-10-09T10:37:15Z；3DBAG tile 下載時間 2026-10-09T11:01:17Z；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "3DBAG_KB4_HEIGHTS"
+    },
+    {
+      "name": "街廓中位面積",
+      "range": "未取得",
+      "unit": "m²",
+      "context": "勞埃德區的街廓中位面積：Rotterdam研究窗 7.68 ha；以 OSM 地名物件中心作錨點，在 EPSG:28992 中向四周量取 320 m × 240 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T10:35:00Z，回應 SHA-256 d75daa1f3632f4671b52acab8ec94eb957160d5d3e89458054225456bc76394a；OSM 下載時間 2026-10-09T10:37:15Z；3DBAG tile 下載時間 2026-10-09T11:01:17Z；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "完整窗內街廓數",
+      "range": "0",
+      "unit": "個",
+      "context": "勞埃德區的完整窗內街廓數：Rotterdam研究窗 7.68 ha；以 OSM 地名物件中心作錨點，在 EPSG:28992 中向四周量取 320 m × 240 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T10:35:00Z，回應 SHA-256 d75daa1f3632f4671b52acab8ec94eb957160d5d3e89458054225456bc76394a；OSM 下載時間 2026-10-09T10:37:15Z；3DBAG tile 下載時間 2026-10-09T11:01:17Z；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "主要形態樣本建築數",
+      "range": "35",
+      "unit": "棟",
+      "context": "勞埃德區的主要形態樣本建築數：Rotterdam研究窗 7.68 ha；以 OSM 地名物件中心作錨點，在 EPSG:28992 中向四周量取 320 m × 240 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T10:35:00Z，回應 SHA-256 d75daa1f3632f4671b52acab8ec94eb957160d5d3e89458054225456bc76394a；OSM 下載時間 2026-10-09T10:37:15Z；3DBAG tile 下載時間 2026-10-09T11:01:17Z；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    }
+  ],
+  "design_implications_zh": [
+    "比較倉儲街廓與岸線開口的位置關係。",
+    "為帶狀基地測試多個垂直岸線入口，並檢查平行水岸路徑的依賴程度。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "比較倉儲街廓與岸線開口的位置關係。",
+      "tradeoff_zh": "勞埃德區的主要場地條件仍需實地核實；幾何參考不能取代現場資料。",
+      "library_ids": [
+        "OSM_KB4_PRECEDENTS",
+        "STOUTEN2017"
+      ]
+    },
+    {
+      "option_zh": "為帶狀基地測試多個垂直岸線入口，並檢查平行水岸路徑的依賴程度。",
+      "tradeoff_zh": "若 M4H 的基地寬度、用途或岸線條件不同於勞埃德區，須重算幾何並由設計者取捨。",
+      "library_ids": [
+        "OSM_KB4_PRECEDENTS",
+        "BILJECKI2022"
+      ]
+    }
+  ],
+  "applies_when_zh": "比較 勞埃德區 的足跡、街廓和岸線幾何，並為量體生成建立案例參照。",
+  "not_applicable_when_zh": "不可把勞埃德區跨城數值當作本基地法規、設計目標或公共通行權證明。",
+  "debates_zh": "倉儲尺度與住宅尺度同時出現時，平均翼深會抹平尺度轉換。",
+  "sources": [
+    {
+      "library_id": "OSM_KB4_PRECEDENTS",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "BILJECKI2022",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "STOUTEN2017",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "3DBAG_KB4_HEIGHTS",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "跨城市建築形態測量與都市設計案例",
+  "region": "Rotterdam, Netherlands",
+  "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "形態先例比較：勞埃德區"
+    }
+  ],
+  "version": "kb4-precedents-2026-10-09",
+  "check": {
+    "method_zh": "在研究窗扣除已映射水域後計算陸地分母，局部公尺投影；量體合併只用於翼深和類型，GSI／FSI 仍按去重原始足跡計。荷蘭案例僅以 BAG 識別碼連結 3DBAG 高度。",
+    "inputs": [
+      "研究窗和 OSM 錨點",
+      "具 SHA-256 的 OSM 快照",
+      "BAG 高度欄位或 OSM 樓層／高度標籤"
+    ],
+    "logic_zh": "GSI 為足跡面積除扣除映射水域的陸地面積；FSI 為已知樓層建築足跡乘樓層數除同一陸地面積；高度覆蓋低於 80% 時標示下限且不可比較。",
+    "limitations_zh": "未知高度不插補；映射以外水體仍在陸地分母內；翼深以合併量體 2A／周長估算，最小旋轉矩形短邊作交叉檢查。"
+  },
+  "case": {
+    "location": "Lloydkwartier, Rotterdam, Netherlands",
+    "period": "現況 OSM／3DBAG 快照；設計者與建成年代未由本輪可用來源完整確認。",
+    "area_ha": 7.68,
+    "fsi": 2.2736,
+    "gsi": 0.218,
+    "program_mix": "勞埃德區 快照中可讀取到的 OSM 建築型別與明示用途標籤：建築型別：building=apartments 13 筆、building=house 3 筆、building=office 2 筆、building=commercial 1 筆、building=industrial 1 筆、building=school 1 筆；明示用途活動：未提供明示用途活動標籤。；未標註用途不猜補。可解析建築 35 棟。",
+    "key_strategies_zh": [
+      "比較倉儲街廓與岸線開口的位置關係。",
+      "為帶狀基地測試多個垂直岸線入口，並檢查平行水岸路徑的依賴程度。"
+    ],
+    "outcomes_zh": [
+      "陸地分母 GSI 0.218；含映射水域分母 GSI 0.194，兩者差異來自水域扣除口徑。",
+      "街廓共 6 個，完整 0 個、截邊 6 個；低於 1,000 m² 的碎片 5 個另計。完整街廓判型樣本為 0 個，完整街廓樣本不足分類 0 個。"
+    ],
+    "critiques_zh": [
+      "4 棟建築沒有可用高度或樓層資料（覆蓋 0.8857）；本案 FSI 狀態為 COMPARABLE。",
+      "勞埃德區沒有完整窗內街廓可供自動判型，故未分類比例不計算；截邊街廓沒有代替完整樣本。",
+      "倉儲尺度與住宅尺度同時出現時，平均翼深會抹平尺度轉換。",
+      "勞埃德區 的翼深代理中位數 8.49 m 偏離住宅常規範圍（約 10–16 m），標記為低信心，不可硬套於標準住宅量體生成。"
+    ]
+  }
+}

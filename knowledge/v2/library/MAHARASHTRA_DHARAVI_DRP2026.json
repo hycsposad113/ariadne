@@ -1,0 +1,42 @@
+{
+  "id": "MAHARASHTRA_DHARAVI_DRP2026",
+  "title": "Dharavi Redevelopment Project",
+  "authors": [
+    "Government of Maharashtra, Dharavi Redevelopment Project / Slum Rehabilitation Authority"
+  ],
+  "year": null,
+  "venue_or_publisher": "Government of Maharashtra, Dharavi Redevelopment Project / Slum Rehabilitation Authority",
+  "doi": null,
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "OFFICIAL_GOVERNMENT_WEBPAGE",
+  "tradition": "更新政策、土地融資、FSI與住戶調查",
+  "region": "印度孟買",
+  "method": "於內容起草後直接檢視官方／營運方公開頁面；不把機構目標或自報數據當成獨立效果研究。",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "政府網站說明 2004 年啟動決議、土地作為居民安置資源及市場單位融資設計，並顯示住屋編號和調查進度；資料為專案機關口徑。",
+      "strength": "CASE_EVIDENCE",
+      "scope_zh": "只支持頁面明確公布的規劃口徑、歷史資料、行政數字或機構自報結果。",
+      "assessment_basis": "DIRECT_SOURCE_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Official organization webpage",
+    "query": {
+      "title": "Dharavi Redevelopment Project",
+      "author": "Government of Maharashtra, Dharavi Redevelopment Project / Slum Rehabilitation Authority",
+      "year": null,
+      "api_query": "Read-only official source page: https://drpmumbai.maharashtra.gov.in/"
+    },
+    "matched_record_id": "https://drpmumbai.maharashtra.gov.in/",
+    "checked_at_utc": "2026-10-08T14:47:20Z",
+    "match_notes_zh": "直接檢視官方／場址營運方公開頁；該頁不是Crossref書目記錄，未宣稱經Crossref驗證。"
+  },
+  "limitations_zh": "官方或營運方頁面可能採機構自身的規劃與成果口徑；未有獨立評估處不推定效果。",
+  "critique_relationship_zh": "本記錄不宣稱與其他來源存在直接互引或逐一反駁關係。",
+  "metadata_licence_zh": "官方／營運方公開頁面；未確認個別資料的再利用授權。"
+}

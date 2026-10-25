@@ -1,0 +1,80 @@
+{
+  "id": "KU-SYN-056",
+  "domain": "SYN",
+  "subtopic": "Place Syntax",
+  "type": "pattern",
+  "title_zh": "Place Syntax：可重用模式",
+  "title_en": "Place Syntax: Reusable pattern",
+  "summary_zh": "把機會分布與網路成本分層保存，讓設計者檢查何種群體接近何種目的地。此模式以Place Syntax 類方法把空間組態與目的地或活動機會聯結，讓路網可達關係與場所吸引條件一起診斷。需要留意的代價是本次 API 未找到指定 Place Syntax 工具候選書目；此單元只涵蓋經核對的目的地敏感型可及性整合思想。",
+  "key_points_zh": [
+    "空間模式：Place Syntax 類方法把空間組態與目的地或活動機會聯結，讓路網可達關係與場所吸引條件一起診斷",
+    "空間模式：把機會分布與網路成本分層保存，讓設計者檢查何種群體接近何種目的地"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "Place Syntax：可重用模式｜步行性有多種定義與設計訴求；需明確說明量測的是距離、舒適、活動還是可及性",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "FORSYTH15",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "Place Syntax：可重用模式｜街道結構可以用連接與階層關係比較；不同網形的可達性與交通作用需另外計算",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "MARSHALL05",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "先畫出「Place Syntax 類方法把空間組態與目的地或活動機會聯結，讓路網可達關係與場所吸引條件一起診斷」所描述的空間關係，再用「本次 API 未找到指定 Place Syntax 工具候選書目；此單元只涵蓋經核對的目的地敏感型可及性整合思想」檢查它可能帶來的代價。"
+  ],
+  "applies_when_zh": "當設計需要回應「Place Syntax 類方法把空間組態與目的地或活動機會聯結，讓路網可達關係與場所吸引條件一起診斷」描述的空間關係，可先把模式畫入配置，再用現地使用資料檢查。",
+  "not_applicable_when_zh": "「Place Syntax 類方法把空間組態與目的地或活動機會聯結，讓路網可達關係與場所吸引條件一起診斷」不能原樣移植到缺少相同交通、界面或治理條件的場地；需先檢查「本次 API 未找到指定 Place Syntax 工具候選書目；此單元只涵蓋經核對的目的地敏感型可及性整合思想」指出的代價。",
+  "debates_zh": "本次 API 未找到指定 Place Syntax 工具候選書目；此單元只涵蓋經核對的目的地敏感型可及性整合思想；檢視「Place Syntax：可重用模式」的模式落地時，還需判斷「把機會分布與網路成本分層保存，讓設計者檢查何種群體接近何種目的地」會如何改變方案結論。",
+  "sources": [
+    {
+      "library_id": "FORSYTH15",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "MARSHALL05",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "目的地可及性與空間組態整合",
+  "region": "跨地域理論或實務脈絡；來源地區依引用條目判讀",
+  "curriculum_refs": [
+    {
+      "school": "Harvard GSD",
+      "course": "Cities by Design",
+      "topic": "Place Syntax：課綱對應主題"
+    },
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.330J Theory of City Form",
+      "topic": "Place Syntax：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-SYN-049",
+    "KU-SYN-050",
+    "KU-SYN-051",
+    "KU-SYN-052",
+    "KU-SYN-053",
+    "KU-SYN-054",
+    "KU-SYN-055"
+  ]
+}

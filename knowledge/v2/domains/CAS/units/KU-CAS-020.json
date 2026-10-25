@@ -1,0 +1,96 @@
+{
+  "id": "KU-CAS-020",
+  "domain": "CAS",
+  "subtopic": "港區轉型案例",
+  "type": "case",
+  "title_zh": "上海黃浦江濱江：連續公共岸線與多功能活動",
+  "title_en": "Shanghai Huangpu Riverside: Continuous Public Access and Multiple Uses",
+  "summary_zh": "上海黃浦江濱江把原本分散的工業岸線、倉儲地和碼頭空間逐步轉成步行與自行車通道、綠地、文化場館及公共活動地點。上海市政府 2026 年公布的 2030 年計畫提出新增 100 公頃濱水綠地與公共空間，並在中心城區建設 9 公里高標準岸段；這些是未來目標，不是已完成成果。Liu 與 Lai 的研究直接以黃浦江開放空間活力為題，適合引入使用差異問題，但數值與研究結論仍須回到原文核對。",
+  "key_points_zh": [
+    "把既有已開放岸線與 2030 年新建目標分開量測和標記。",
+    "濱水活力應按區段、時間、活動類型和使用者群體拆分，避免以總人流代表包容性。"
+  ],
+  "evidence": {
+    "strength": "CASE_EVIDENCE",
+    "findings": [
+      {
+        "claim_zh": "上海市政府 2026 年規劃提出截至 2030 年黃浦江新增 100 公頃水岸綠地與公共空間，並建設中心城區 9 公里高品質岸段。",
+        "effect_or_value": "政府規劃目標；尚非完成量",
+        "study_design": "市級五年發展計畫",
+        "context_region": "中國上海黃浦江沿線",
+        "library_id": "SHANGHAI_HUANGPU_PLAN2030",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "Liu 與 Lai 的研究題名將黃浦江濱水開放空間活力及影響因素作為案例問題；本條目不從書目資訊推估活力分數或因果關係。",
+        "effect_or_value": "濱水開放空間活力研究範圍",
+        "study_design": "都市開放空間個案研究；細節待全文核",
+        "context_region": "中國上海黃浦江",
+        "library_id": "LIU_LAI2021HUANGPU",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "把岸線通行連續度、過街連接、公共設施分布、可停留空間及洪水韌性作為分開的設計與維運指標。",
+    "建成後重訪同一岸段，記錄工作日、週末和不同季節的活動組成及服務可達性。"
+  ],
+  "applies_when_zh": "大型河港沿岸分段開放，並逐步把工業地帶連成城市公共空間網絡時。",
+  "not_applicable_when_zh": "河岸仍須保持封閉的核心作業功能，或潮汐洪水風險尚無可行公共安全安排時。",
+  "debates_zh": "連續岸線與文化活動可提升公共接觸水域的機會，但也可能把勞動港口轉成消費景觀，並帶來地價上升和使用管理收緊。市級計畫目標與研究中的場址觀察尺度不同，不能直接相互替代。",
+  "sources": [
+    {
+      "library_id": "SHANGHAI_HUANGPU_PLAN2030",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "LIU_LAI2021HUANGPU",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "中國大型河岸治理、工業岸線轉型與公共空間研究",
+  "region": "東亞／中國上海",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": null,
+      "topic": "港城介面與水岸連續性"
+    },
+    {
+      "school": "MIT",
+      "course": null,
+      "topic": "城市轉型和公共投資"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": null,
+      "topic": "公共空間活力及使用者包容"
+    }
+  ],
+  "case": {
+    "location": "上海黃浦江沿岸，中國",
+    "period": "2010 年代起分段開放濱江空間；市府 2026–2030 計畫提出後續擴建目標",
+    "area_ha": null,
+    "fsi": null,
+    "gsi": null,
+    "program_mix": "水岸步道、自行車道、綠地、文化活動場地、歷史工業設施、公共服務設施與部分港運功能；區段用途比例未查得。",
+    "key_strategies_zh": [
+      "沿河分段整治並逐步連通公共步行和自行車岸線。",
+      "將工業遺產、綠地、文化活動和公共服務配置在濱江空間中。"
+    ],
+    "outcomes_zh": [
+      "市府公開 2030 年前新增 100 公頃公共綠地與 9 公里高標準岸段的目標。",
+      "學術研究以黃浦江公共開放空間活力為研究對象；本條目未引用未核讀的效果量。"
+    ],
+    "critiques_zh": [
+      "官方目標不能當作現況成果，必須按年份和岸段核對工程交付。",
+      "若公共空間以活動消費取代工作和日常生活用途，岸線更新可能重排使用權與周邊地價。"
+    ]
+  },
+  "version": "v2.0"
+}

@@ -1,0 +1,98 @@
+{
+  "id": "KU-ARC-036",
+  "domain": "ARC",
+  "subtopic": "用途建築",
+  "type": "value_range",
+  "title_zh": "maker 與輕工業的室內淨高",
+  "title_en": "maker and light-industrial clear height",
+  "summary_zh": "一般 maker 或輕工業場地可先以 4.5–7.0 m 淨高測試排風、堆置及小型吊運。 淨高需求會受設備最高點、消防灑水與照明維修通道共同影響。 要從剖面確認最低障礙點，而非引用屋脊高度。",
+  "key_points_zh": [
+    "核心主張：一般 maker 或輕工業場地可先以 4.5–7.0 m 淨高測試排風、堆置及小型吊運。",
+    "量測檢查：以完成地坪至最低固定障礙量最小淨高，對照設備手冊及消防顧問條件。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "一般 maker 或輕工業場地可先以 4.5–7.0 m 淨高測試排風、堆置及小型吊運。",
+        "effect_or_value": "約 4.5–7.0 m 作初步用途評估",
+        "study_design": "跨地域設計參照綜整；數值狀態依 claim_verification 註記",
+        "context_region": "跨地域；用途與當地法規需分開核驗",
+        "library_id": "NEUFERT12",
+        "locator": null,
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008"
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "maker/light-industrial clear height",
+      "range": "約 4.5–7.0 m 作初步用途評估",
+      "unit": "m",
+      "context": "地區：跨地域；用途：maker 與輕工業空間，不代表特定工廠標準；出處：Architects’ Data；本基地法規：否；核對狀態：數值待原典交叉核對。",
+      "library_id": "NEUFERT12"
+    }
+  ],
+  "design_implications_zh": [
+    "把機台頂高、管線最低點、灑水頭與安全淨距逐項標記。"
+  ],
+  "applies_when_zh": "「maker 與輕工業的室內淨高」可在用於方案前期的量體、平面或空間品質篩檢時使用，前提是一般 maker 或輕工業場地可先以 4.5–7.0 m 淨高測試排風、堆置及小型吊運與來源情境相符。",
+  "not_applicable_when_zh": "若一般 maker 或輕工業場地可先以 4.5–7.0 m 淨高測試排風、堆置及小型吊運不成立，就不能把「maker 與輕工業的室內淨高」的結論延伸到其他情況；不得單獨作為許可、消防、結構或基地法規判定。",
+  "debates_zh": "工業危險物、堆高機和自動倉儲可能要求不同高度及防火策略。",
+  "sources": [
+    {
+      "library_id": "NEUFERT12",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "RODE2013",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+  "tradition": "建築設計與住宅類型學",
+  "region": "跨地域；用途與當地法規需分開核驗",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Housing and the City / Design of the Urban Fabric",
+      "topic": "建築尺度與住宅平面"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "建築尺度與街道界面"
+    },
+    {
+      "school": "MIT",
+      "course": "Architecture and Urban Design",
+      "topic": "建築尺度與空間型態"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "建築尺度與公共生活"
+    }
+  ],
+  "check": {
+    "method_zh": "以完成地坪至最低固定障礙量最小淨高，對照設備手冊及消防顧問條件。",
+    "inputs": [
+      "用途建築",
+      "尺寸／面積圖層",
+      "適用地區與用途標籤"
+    ],
+    "logic_zh": "將量測輸入轉成明確尺寸、比例或空間關係；越界只觸發複核，不自動取代設計決策。",
+    "limitations_zh": "量測結果只觸發「maker 與輕工業的室內淨高」的複核，不得單獨作為許可或法規判定。"
+  },
+  "version": "kb2-arc-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-ARC-027",
+    "KU-ARC-028",
+    "KU-ARC-029",
+    "KU-ARC-030",
+    "KU-ARC-031"
+  ]
+}

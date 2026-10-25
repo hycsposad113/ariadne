@@ -1,0 +1,69 @@
+{
+  "id": "KU-ECO-041",
+  "domain": "ECO",
+  "subtopic": "自然為本的解決方案",
+  "type": "value_range",
+  "title_zh": "住宅綠度研究的暴露半徑",
+  "title_en": "Residential greenness exposure buffers",
+  "summary_zh": "荷蘭健康研究以住家周邊一公里與三公里作綠地比例分析。這些尺度可展示自然為本規劃如何連結健康研究。緩衝區不代表可步行或可進入。一種空間量測無法涵蓋全部生態與健康效益。",
+  "key_points_zh": [
+    "荷蘭健康研究以住家周邊一公里與三公里作綠地比例分析",
+    "這些尺度可展示自然為本規劃如何連結健康研究"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "荷蘭健康研究以住家周邊一公里與三公里作綠地比例分析。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "北美",
+        "library_id": "WOLCH14",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "一種空間量測無法涵蓋全部生態與健康效益。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "把健康暴露與實際通行和地面滯洪功能分開表示。"
+  ],
+  "applies_when_zh": "適用於NbS跨部門效益研讀。",
+  "not_applicable_when_zh": "不能作為工程服務範圍或法規界線。",
+  "debates_zh": "一種空間量測無法涵蓋全部生態與健康效益。",
+  "sources": [
+    {
+      "library_id": "WOLCH14",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "ANGELOVSKI19",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "環境正義與綠地治理",
+  "region": "北美",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "自然為本的解決方案"
+    }
+  ],
+  "version": "2.0.0",
+  "values": [
+    {
+      "name": "住宅綠度研究的暴露半徑",
+      "range": "1 km 與 3 km",
+      "unit": "公里",
+      "context": "荷蘭自評健康研究使用的周邊綠地暴露範圍；非基地法規。；「住宅綠度研究的暴露半徑」僅供其研究脈絡內比較，不構成本基地法規。",
+      "library_id": "MAAS06"
+    }
+  ],
+  "related_unit_ids": [
+    "KU-ECO-042"
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "id": "KU-PUB-021",
+  "domain": "PUB",
+  "subtopic": "座位與停留",
+  "type": "typology",
+  "title_zh": "座位的形式組合擴大選擇",
+  "title_en": "Seat diversity supports different postures",
+  "summary_zh": "有靠背、可移動、可並坐和可倚靠的表面服務不同身體狀況。座位彼此的距離、朝向與遮蔭常比造型更能決定是否願意使用。把座位放在主要通道正中也可能讓停留和通行互相干擾。防止躺臥的設計可能與休息、夜間避難等需求衝突。",
+  "key_points_zh": [
+    "有靠背、可移動、可並坐和可倚靠的表面服務不同身體狀況",
+    "座位彼此的距離、朝向與遮蔭常比造型更能決定是否願意使用"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "有靠背、可移動、可並坐和可倚靠的表面服務不同身體狀況。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "跨國",
+        "library_id": "RIGOLON21",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "防止躺臥的設計可能與休息、夜間避難等需求衝突。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "設置多種姿勢與朝向，再以不同年齡者的現場使用觀察修正。"
+  ],
+  "applies_when_zh": "適用於需要獨處、照護和社交並存的公共空間。",
+  "not_applicable_when_zh": "不適用於只計算座椅總數而忽略可達性與維護。",
+  "debates_zh": "防止躺臥的設計可能與休息、夜間避難等需求衝突。",
+  "sources": [
+    {
+      "library_id": "RIGOLON21",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "SUGIYAMA10",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "健康公平與環境正義",
+  "region": "跨國",
+  "curriculum_refs": [
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "座位與停留"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-PUB-020",
+    "KU-PUB-022"
+  ]
+}

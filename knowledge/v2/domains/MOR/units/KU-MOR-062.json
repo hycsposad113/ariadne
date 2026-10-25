@@ -1,0 +1,92 @@
+{
+  "id": "KU-MOR-062",
+  "domain": "MOR",
+  "subtopic": "地塊、街廓與建築類型",
+  "type": "value_range",
+  "title_zh": "巴塞隆納 Eixample 主要街道寬度",
+  "title_en": "Barcelona Eixample street width",
+  "summary_zh": "歷史計畫斷面不等於今日每條街的實測寬度，且實施曾分期變動。 把道路斷面分成人行、車行、樹帶和轉角視距，才能解讀街廓面積如何讓位給公共空間。 記錄 巴塞隆納，西班牙 與「Cerdà 街網中的一般街道斷面」的量測分母，再和另一種尺度或用途並排比較。",
+  "key_points_zh": [
+    "Eixample 規劃中的一般街道斷面常以 20 m 作歷史設計尺度，林蔭大道另有更寬配置。",
+    "歷史計畫斷面不等於今日每條街的實測寬度，且實施曾分期變動。",
+    "把道路斷面分成人行、車行、樹帶和轉角視距，才能解讀街廓面積如何讓位給公共空間。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "Eixample 規劃中的一般街道斷面常以 20 m 作歷史設計尺度，林蔭大道另有更寬配置。",
+        "effect_or_value": "約 20",
+        "study_design": "跨案例尺度對照或明示假設的規劃計算",
+        "context_region": "巴塞隆納，西班牙",
+        "library_id": "MARSHALL05",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "從街道案例比較尺度、界面與使用；案例特徵不能直接變成通用路寬。",
+        "effect_or_value": null,
+        "study_design": "形態／制度比較的補充閱讀",
+        "context_region": "巴塞隆納，西班牙",
+        "library_id": "AJACOBS93",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "巴塞隆納 Eixample 主要街道寬度",
+      "range": "約 20",
+      "unit": "m",
+      "context": "巴塞隆納，西班牙；用途：Cerdà 街網中的一般街道斷面；對照書目：MARSHALL05；適用於制度或形態比較，這不是本基地法規。 Claude 依共識核對：一般街寬約 20 m，主要大道 30–60 m。",
+      "library_id": "MARSHALL05"
+    }
+  ],
+  "design_implications_zh": [
+    "把道路斷面分成人行、車行、樹帶和轉角視距，才能解讀街廓面積如何讓位給公共空間。",
+    "記錄 巴塞隆納，西班牙 與「Cerdà 街網中的一般街道斷面」的量測分母，再和另一種尺度或用途並排比較。"
+  ],
+  "applies_when_zh": "用於比較巴塞隆納，西班牙的Cerdà 街網中的一般街道斷面，並明示此數值的來源、年份和面積分母。",
+  "not_applicable_when_zh": "歷史計畫斷面不等於今日每條街的實測寬度，且實施曾分期變動。",
+  "debates_zh": "寬街增加公共空間與交通容量，但熱遮蔭和穿越距離仍取決於樹冠、車速和路口間距。",
+  "sources": [
+    {
+      "library_id": "MARSHALL05",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "AJACOBS93",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "街道形態",
+  "region": "巴塞隆納，西班牙",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "地塊、街廓與建築類型"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "地塊、街廓與建築類型"
+    },
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.330J Theory of City Form",
+      "topic": "地塊、街廓與建築類型"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban form and density",
+      "topic": "地塊、街廓與建築類型"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008"
+}

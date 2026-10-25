@@ -1,0 +1,114 @@
+{
+  "id": "KU-MOR-009",
+  "domain": "MOR",
+  "subtopic": "Conzen 城鎮平面分析",
+  "type": "concept",
+  "title_zh": "Conzen 城鎮平面分析｜概念邊界",
+  "title_en": "Conzenian town-plan analysis — Conceptual boundaries",
+  "summary_zh": "burgage cycle 描述狹長中世紀地塊由臨街建築向後院逐步加密、再因合併或再開發而改組的地塊使用過程。 fringe belt 則出現在城市擴張放緩的外緣，常由墓園、工業或大型公共設施等不易切割的用地累積而成。 這些概念用來讀出城市成長留下的層次，不表示歷史狀態必須原樣保存。",
+  "key_points_zh": [
+    "plan unit 需在街道、地塊和建築三個層次辨認，不以單一街廓邊界代替。",
+    "burgage cycle 追蹤地塊內部加密、後院侵入與之後的整合或再開發。",
+    "fringe belt 透過外緣大型用地讀取城市擴張停滯與再啟動的痕跡。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "Conzen 的城鎮平面分析分讀街道系統、地塊系統與建築地帶；三者形成於不同時期，變化速度也不相同。",
+        "library_id": "CONZEN60",
+        "effect_or_value": null,
+        "study_design": "經典理論與城鎮平面分析",
+        "context_region": "跨地域學術傳統；瑞典",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "Kropf 將城鎮平面置於城市形態的多尺度分析工具中；街道、地塊和建築地帶可以分讀，也要交代各自的時間層次。",
+        "library_id": "KROPF2017",
+        "effect_or_value": null,
+        "study_design": "後續形態學綜述或比較",
+        "context_region": "跨地域學術傳統；瑞典",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "把 plan unit 邊界與宗地、街巷和建築年代分層繪出，再辨認哪些部分仍在使用。",
+    "若增密 burgage plot，保留後院空間的採光、通行和消防條件，並說明哪些歷史層次被改變。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "先辨認形態單元，再描述各單元的形成階段及變化程度。",
+      "tradeoff_zh": "「Conzen 城鎮平面分析｜概念邊界」的主要代價不是抽象的建造成本，而是歷史形態可以解釋地塊慣性，卻不能單獨說明產權、社會排除或今日使用需求；把形態類型等同於應保存的價值會把描述變成規範；因此先以Conzen 的城鎮平面分析分讀街道系統、地塊系統與建築地帶；三者形成於不同時期，變化速度也不相同作方案比較條件。",
+      "library_ids": [
+        "KRISTJANSDOTTIR2019",
+        "MARCUS10"
+      ]
+    },
+    {
+      "option_zh": "核心區、擴張區與邊緣帶可呈現不同的形態慣性和更新節奏。",
+      "tradeoff_zh": "此選項把「Conzen 城鎮平面分析｜概念邊界」的工作放在Conzen 的城鎮平面分析分讀街道系統、地塊系統與建築地帶；三者形成於不同時期，變化速度也不相同上；需要承擔的協調或維護代價則由「歷史形態可以解釋地塊慣性，卻不能單獨說明產權、社會排除或今日使用需求；把形態類型等同於應保存的價值會把描述變成規範」界定。",
+      "library_ids": [
+        "KRISTJANSDOTTIR2019",
+        "MARCUS10"
+      ]
+    }
+  ],
+  "applies_when_zh": "適用於歷史城鎮、更新地和不同建設階段的比較。",
+  "not_applicable_when_zh": "欠缺可靠歷史圖資時，不應推定地塊年代或演變順序。",
+  "debates_zh": "歷史形態可以解釋地塊慣性，卻不能單獨說明產權、社會排除或今日使用需求；把形態類型等同於應保存的價值會把描述變成規範。",
+  "sources": [
+    {
+      "library_id": "CONZEN60",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "KROPF2017",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "LYNCH60",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "跨學科城市形態史；空間資本",
+  "region": "跨地域學術傳統；瑞典",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "Conzen 城鎮平面分析"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "Conzen 城鎮平面分析"
+    },
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.330J Theory of City Form",
+      "topic": "Conzen 城鎮平面分析"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban form and density",
+      "topic": "Conzen 城鎮平面分析"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-MOR-010",
+    "KU-MOR-011",
+    "KU-MOR-012"
+  ],
+  "counter_unit_ids": [
+    "KU-MOR-013"
+  ],
+  "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008"
+}

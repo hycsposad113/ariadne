@@ -1,0 +1,71 @@
+{
+  "id": "KU-MET-018",
+  "domain": "MET",
+  "subtopic": "參與式方法",
+  "type": "method",
+  "title_zh": "設計審議",
+  "title_en": "Design review",
+  "summary_zh": "設計審議以專業及公共討論檢查方案品質，重點是清楚準則、審查程序與可追踪的修改理由。它通常運用判斷處理情境，不應假裝所有品質都能數值化。公開審議者、利益衝突、版本及評語，區分建議、必要條件和最終決定。",
+  "key_points_zh": [
+    "公開審議者、利益衝突、版本及評語，區分建議、必要條件和最終決定。",
+    "專業權威可能排除地方知識；程序透明不代表權力已平等。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "設計審議以專業及公共討論檢查方案品質，重點是清楚準則、審查程序與可追踪的修改理由。它通常運用判斷處理情境，不應假裝所有品質都能數值化。",
+        "library_id": "CARMONAGOV17",
+        "locator": null,
+        "study_design": "理論／方法綜述；非基地實測",
+        "effect_or_value": null,
+        "context_region": null,
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008"
+      },
+      {
+        "claim_zh": "Punter 直接評估設計審議能否提升設計品質，與 Carmona 等人的設計治理專書形成獨立程序觀點。",
+        "library_id": "PUNTER2011",
+        "locator": null,
+        "study_design": "書目範圍核對；未以書目代替全文分析",
+        "effect_or_value": null,
+        "context_region": "英國、歐洲",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "公開審議者、利益衝突、版本及評語，區分建議、必要條件和最終決定。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "早期審議可減少後期返工",
+      "tradeoff_zh": "需控制一致性和避免風格偏好主導。",
+      "library_ids": [
+        "CARMONAGOV17"
+      ]
+    }
+  ],
+  "applies_when_zh": "用於釐清「設計審議」涉及的空間、制度與行動選擇。",
+  "not_applicable_when_zh": "「設計審議」不能直接替代基地的實測、法規或人類批准。",
+  "debates_zh": "專業權威可能排除地方知識；程序透明不代表權力已平等。",
+  "sources": [
+    {
+      "library_id": "CARMONAGOV17",
+      "locator": null
+    },
+    {
+      "library_id": "PUNTER2011",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": null,
+      "topic": "編者主題對照，非已核實課程指定閱讀：設計審議"
+    }
+  ],
+  "version": "2.0.0-theory-v3"
+}

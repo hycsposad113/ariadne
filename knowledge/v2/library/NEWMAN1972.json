@@ -1,0 +1,44 @@
+{
+  "id": "NEWMAN1972",
+  "title": "Defensible Space: Crime Prevention Through Urban Design",
+  "authors": [
+    "Oscar Newman"
+  ],
+  "year": 1972,
+  "venue_or_publisher": "Macmillan",
+  "doi": null,
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "ACADEMIC_BOOK",
+  "tradition": "城市設計與都市形態；依來源主題標註",
+  "region": [
+    "United States"
+  ],
+  "method": "Open Library 公開書目核對；未查閱或保存全文。",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "Open Library catalogs Newman’s 1972 book on crime prevention through urban design; the four-part framework is retained as a canonical claim for cross-check.",
+      "strength": "THEORETICAL",
+      "scope_zh": "書目記錄確認作者、題名與出版範圍；不能單靠書目證明未查閱的頁面主張或數字。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Open Library",
+    "query": {
+      "title": "Defensible Space: Crime Prevention Through Urban Design",
+      "author": "Oscar Newman",
+      "year": 1972
+    },
+    "matched_record_id": "/books/OL5478575M",
+    "checked_at_utc": "2026-10-08T19:49:31Z",
+    "match_notes_zh": "Open Library edition record lists Oscar Newman, 1972, Macmillan and the title; bibliographic scope only.",
+    "url": "https://openlibrary.org/books/OL5478575M"
+  },
+  "limitations_zh": "僅核對公開書目欄位；未查閱全文，書目相符不代表具體主張已核實。",
+  "critique_relationship_zh": "此書目只用來界定作品範圍，不暗示其與並列研究有直接引用關係。",
+  "metadata_licence_zh": "只保存 Open Library 公開書目欄位與自行撰寫摘要；未保存全文。"
+}

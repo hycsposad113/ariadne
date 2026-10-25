@@ -1,0 +1,112 @@
+{
+  "id": "KU-HOU-036",
+  "domain": "HOU",
+  "subtopic": "鄰里單元與批評",
+  "type": "typology",
+  "title_zh": "鄰里單元與批評｜類型取捨",
+  "title_en": "Neighborhood unit and critiques — Typology and trade-offs",
+  "summary_zh": "鄰里單元的服務圈和地方中心可作為配置起點，但路網通達與居民實際使用仍需另外觀察。 Jacobs 對鄰里邊界提出城市生活層面的批評，奧斯陸研究則把住宅、鄰里與通勤滿意分開檢視。 步行範圍不能直接代表社會凝聚或福祉。",
+  "key_points_zh": [
+    "設施圈、地方中心和穿越路徑可有不同組織方式。",
+    "適用於鄰里規劃、服務配置和公共空間連結。",
+    "限制：不把「步行可達」直接等同社會凝聚或住宅滿意。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "日常用途、街道互動及多樣性可作城市生活的討論起點；不能從外觀推定安全或社群。",
+        "library_id": "JACOBS61",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "美國",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "三種滿意度皆與主觀福祉顯著相關；住宅滿意有直接關聯，通勤滿意主要透過鄰里與工作滿意間接連結。",
+        "library_id": "MOURATIDIS2020",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "奧斯陸城市區域，挪威",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "把公共設施服務圈、路網可達性和居民使用分別量測。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "把公共設施服務圈、路網可達性和居民使用分別量測。",
+      "tradeoff_zh": "「鄰里單元與批評｜類型取捨」的主要代價不是抽象的建造成本，而是社區感可能透過中介條件產生，外來者和跨區使用也不應被排除；因此先以日常用途、街道互動及多樣性可作城市生活的討論起點；不能從外觀推定安全或社群作方案比較條件。",
+      "library_ids": [
+        "JACOBS61",
+        "MOURATIDIS2020"
+      ]
+    },
+    {
+      "option_zh": "在「鄰里單元與批評｜類型取捨」的來源情境裡，設施圈、地方中心和穿越路徑可有不同組織方式；落到設計時還要按日常用途、街道互動及多樣性可作城市生活的討論起點；不能從外觀推定安全或社群調整。",
+      "tradeoff_zh": "此選項把「鄰里單元與批評｜類型取捨」的工作放在日常用途、街道互動及多樣性可作城市生活的討論起點；不能從外觀推定安全或社群上；需要承擔的協調或維護代價則由「社區感可能透過中介條件產生，外來者和跨區使用也不應被排除」界定。",
+      "library_ids": [
+        "JACOBS61",
+        "MOURATIDIS2020"
+      ]
+    }
+  ],
+  "applies_when_zh": "適用於鄰里規劃、服務配置和公共空間連結。",
+  "not_applicable_when_zh": "不把「步行可達」直接等同社會凝聚或住宅滿意。",
+  "debates_zh": "社區感可能透過中介條件產生，外來者和跨區使用也不應被排除。",
+  "sources": [
+    {
+      "library_id": "JACOBS61",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "MOURATIDIS2020",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "MORIKAWA1981",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "街道生活與多樣性；住宅、鄰里與生活福祉",
+  "region": "美國；奧斯陸城市區域，挪威",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "鄰里單元與批評"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "鄰里單元與批評"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "鄰里單元與批評"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "鄰里單元與批評"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-HOU-035",
+    "KU-HOU-037",
+    "KU-HOU-038"
+  ],
+  "counter_unit_ids": [
+    "KU-HOU-039"
+  ]
+}

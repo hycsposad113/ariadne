@@ -1,0 +1,48 @@
+{
+  "id": "PORTA06",
+  "title": "The Network Analysis of Urban Streets: A Primal Approach",
+  "authors": [
+    "Sergio Porta",
+    "Paolo Crucitti",
+    "Vito Latora"
+  ],
+  "year": 2006,
+  "venue_or_publisher": "Environment and Planning B: Planning and Design",
+  "doi": "10.1068/b32045",
+  "isbn": null,
+  "openalex_id": "https://openalex.org/W2153154621",
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "網路科學 MCA",
+  "region": [
+    "跨地域"
+  ],
+  "method": "方法／案例比較",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "Primal 街道圖和多中心性指標可辨識城市結構骨架；規劃型與自組織城市的中心性分布不同，指標選擇仍受圖表示限制。",
+      "strength": "THEORETICAL",
+      "scope_zh": "僅限本研究或概念框架；不提供 M4H 的實測、法律效力或本卡試算門檻。",
+      "assessment_basis": "ABSTRACT_REVIEW"
+    }
+  ],
+  "known_critiques": [
+    "HILLIERPENN04",
+    "BARTHELEMY11"
+  ],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "OpenAlex",
+    "query": {
+      "title": "The Network Analysis of Urban Streets: A Primal Approach",
+      "author": "Sergio Porta; Paolo Crucitti; Vito Latora",
+      "year": 2006
+    },
+    "matched_record_id": "https://openalex.org/W2153154621",
+    "checked_at_utc": "2026-10-08T08:50:04Z",
+    "match_notes_zh": "重用 v0.2 已查證書目，另以 OpenAlex 摘要交叉核對本次所用研究發現。"
+  },
+  "limitations_zh": "本次只使用公開書目與可得摘要；沒有下載或查閱全文。書目查證不等於主張、因果或參數驗證。",
+  "critique_relationship_zh": "known_critiques 是編者指定的批評或替代閱讀，不宣稱實際互引或逐一反駁；Ratti 與 Hillier／Penn 的標題記錄確認明確對話。",
+  "metadata_licence_zh": "只保存公開 API 書目與自行摘要；未取得全文授權，未保存 API 摘要原文。精確 metadata licence 未經本任務核驗，標 UNKNOWN。"
+}

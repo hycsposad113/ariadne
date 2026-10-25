@@ -1,0 +1,319 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:urban-design:knowledge:v2:fabric",
+  "title": "Urban fabric knowledge unit v2",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "names",
+    "concept_zh",
+    "when_to_use_zh",
+    "when_not_to_use_zh",
+    "height_cap_adaptation_zh",
+    "street_network",
+    "blocks",
+    "building_composition",
+    "open_space_system",
+    "edges",
+    "density_targets",
+    "drawing_steps",
+    "land_use_budget",
+    "common_errors_zh",
+    "precedents",
+    "sources"
+  ],
+  "properties": {
+    "id": {"type": "string", "pattern": "^fabric\\.[a-z0-9_]+$"},
+    "names": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["zh", "en"],
+      "properties": {
+        "zh": {"type": "string", "minLength": 2},
+        "en": {"type": "string", "minLength": 2}
+      }
+    },
+    "concept_zh": {"type": "string", "minLength": 80},
+    "when_to_use_zh": {"type": "string", "minLength": 30},
+    "when_not_to_use_zh": {"type": "string", "minLength": 30},
+    "height_cap_adaptation_zh": {"type": "string", "minLength": 30},
+    "street_network": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["pattern", "orientation_rule_zh", "hierarchy", "connection_rule_zh", "street_width_building_gap_proxy_m"],
+      "properties": {
+        "pattern": {
+          "enum": ["orthogonal_grid", "linear_parallel", "radial", "deformed_grid", "landscape_led", "irregular_fine"]
+        },
+        "orientation_rule_zh": {"type": "string", "minLength": 15},
+        "street_width_building_gap_proxy_m": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["p25", "median", "p75", "unit", "status", "basis_zh", "ku_ids"],
+          "properties": {
+            "p25": {"type": "number", "minimum": 0},
+            "median": {"type": "number", "minimum": 0},
+            "p75": {"type": "number", "minimum": 0},
+            "unit": {"const": "m"},
+            "status": {"const": "MEASURED_PRECEDENT_PROXY"},
+            "basis_zh": {"type": "string", "minLength": 30},
+            "ku_ids": {
+              "type": "array",
+              "minItems": 1,
+              "items": {"type": "string", "pattern": "^KU-MOR-[0-9]{3}$"}
+            }
+          }
+        },
+        "hierarchy": {
+          "type": "array",
+          "minItems": 3,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["name_zh", "section_width_m", "modes", "spacing_m", "status", "basis_zh"],
+            "properties": {
+              "name_zh": {"type": "string", "minLength": 2},
+              "section_width_m": {"$ref": "#/$defs/range_m"},
+              "modes": {
+                "type": "array",
+                "minItems": 1,
+                "uniqueItems": true,
+                "items": {"enum": ["步行", "自行車", "汽車", "服務"]}
+              },
+              "spacing_m": {"$ref": "#/$defs/range_m"},
+              "status": {"const": "EDITORIAL"},
+              "basis_zh": {"type": "string", "minLength": 20}
+            }
+          }
+        },
+        "connection_rule_zh": {"type": "string", "minLength": 20}
+      }
+    },
+    "blocks": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["short_edge_m", "long_edge_m", "shape_rule_zh", "plot_subdivision_zh"],
+      "properties": {
+        "short_edge_m": {"$ref": "#/$defs/block_edge"},
+        "long_edge_m": {"$ref": "#/$defs/block_edge"},
+        "shape_rule_zh": {"type": "string", "minLength": 30},
+        "plot_subdivision_zh": {"type": "string", "minLength": 30}
+      }
+    },
+    "building_composition": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["components", "height_profile_zh"],
+      "properties": {
+        "components": {
+          "type": "array",
+          "minItems": 2,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["part_id", "recommended_share_percent", "share_denominator_zh", "basis_zh"],
+            "properties": {
+              "part_id": {"type": "string", "pattern": "^(building|block|space)\\.[a-z0-9_]+$"},
+              "recommended_share_percent": {"type": "number", "minimum": 0, "maximum": 100},
+              "share_denominator_zh": {"type": "string", "minLength": 10},
+              "basis_zh": {"type": "string", "minLength": 20}
+            }
+          }
+        },
+        "height_profile_zh": {"type": "string", "minLength": 30}
+      }
+    },
+    "open_space_system": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["types", "configuration_rule_zh", "site_area_share_percent"],
+      "properties": {
+        "types": {
+          "type": "array",
+          "minItems": 1,
+          "items": {"type": "string", "pattern": "^space\\.[a-z0-9_]+$"}
+        },
+        "configuration_rule_zh": {"type": "string", "minLength": 30},
+        "site_area_share_percent": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["minimum", "maximum", "status", "basis_zh"],
+          "properties": {
+            "minimum": {"type": "number", "minimum": 0, "maximum": 100},
+            "maximum": {"type": "number", "minimum": 0, "maximum": 100},
+            "status": {"const": "EDITORIAL"},
+            "basis_zh": {"type": "string", "minLength": 15}
+          }
+        },
+        "courtyard_min_clear_width_m": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["minimum", "unit", "status", "basis_zh"],
+          "properties": {
+            "minimum": {"type": "number", "minimum": 0},
+            "unit": {"const": "m"},
+            "status": {"const": "EDITORIAL"},
+            "basis_zh": {"type": "string", "minLength": 20}
+          }
+        }
+      }
+    },
+    "edges": {
+      "type": "array",
+      "minItems": 5,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["type", "rule_zh"],
+        "properties": {
+          "type": {"enum": ["waterfront", "large_park", "topographic_edge", "retained_building", "existing_city_road"]},
+          "rule_zh": {"type": "string", "minLength": 20}
+        }
+      }
+    },
+    "density_targets": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["GSI", "FSI", "L", "OSR"],
+      "properties": {
+        "GSI": {"$ref": "#/$defs/density_value"},
+        "FSI": {"$ref": "#/$defs/density_value"},
+        "L": {"$ref": "#/$defs/density_value"},
+        "OSR": {"$ref": "#/$defs/density_value"}
+      }
+    },
+    "drawing_steps": {
+      "type": "array",
+      "minItems": 6,
+      "maxItems": 10,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["order", "action_zh"],
+        "properties": {
+          "order": {"type": "integer", "minimum": 1},
+          "action_zh": {"type": "string", "minLength": 20}
+        }
+      }
+    },
+    "land_use_budget": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["roads", "blocks", "parks", "plazas", "waterfront", "service"],
+      "properties": {
+        "roads": {"$ref": "#/$defs/budget_range"},
+        "blocks": {"$ref": "#/$defs/budget_range"},
+        "parks": {"$ref": "#/$defs/budget_range"},
+        "plazas": {"$ref": "#/$defs/budget_range"},
+        "waterfront": {"$ref": "#/$defs/budget_range"},
+        "service": {"$ref": "#/$defs/budget_range"}
+      }
+    },
+    "common_errors_zh": {"type": "array", "minItems": 5, "items": {"type": "string", "minLength": 10}},
+    "precedents": {
+      "type": "array",
+      "minItems": 2,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["name_zh", "ku_id", "measurements", "borrow_zh", "do_not_borrow_zh"],
+        "properties": {
+          "name_zh": {"type": "string", "minLength": 2},
+          "ku_id": {"type": "string", "pattern": "^KU-MOR-[0-9]{3}$"},
+          "measurements": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["metric", "value", "unit", "status", "limitation_zh"],
+              "properties": {
+                "metric": {"type": "string", "minLength": 1},
+                "value": {"type": "number"},
+                "unit": {"type": "string", "minLength": 1},
+                "status": {"enum": ["MEASURED_PRECEDENT", "LOWER_BOUND_NONCOMPARABLE", "PROXY_MEASUREMENT"]},
+                "limitation_zh": {"type": "string", "minLength": 15}
+              }
+            }
+          },
+          "borrow_zh": {"type": "string", "minLength": 20},
+          "do_not_borrow_zh": {"type": "string", "minLength": 20}
+        }
+      }
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 2,
+      "uniqueItems": true,
+      "items": {"type": "string", "minLength": 2}
+    }
+  },
+  "$defs": {
+    "range_m": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["minimum", "maximum", "unit"],
+      "properties": {
+        "minimum": {"type": "number", "minimum": 0},
+        "maximum": {"type": "number", "minimum": 0},
+        "unit": {"const": "m"}
+      }
+    },
+    "budget_range": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["minimum", "maximum", "unit", "status", "basis_zh"],
+      "properties": {
+        "minimum": {"type": "number", "minimum": 0, "maximum": 100},
+        "maximum": {"type": "number", "minimum": 0, "maximum": 100},
+        "unit": {"const": "percent_site_area"},
+        "status": {"const": "EDITORIAL"},
+        "basis_zh": {"type": "string", "minLength": 10}
+      }
+    },
+    "basis": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["status", "note_zh", "ku_ids"],
+      "properties": {
+        "status": {"enum": ["MEASURED_PRECEDENT", "MEASURED_PRECEDENT_DERIVED", "LITERATURE", "EDITORIAL"]},
+        "note_zh": {"type": "string", "minLength": 12},
+        "ku_ids": {
+          "type": "array",
+          "items": {"type": "string", "pattern": "^KU-MOR-[0-9]{3}$"}
+        }
+      }
+    },
+    "block_edge": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["minimum", "maximum", "unit", "basis"],
+      "properties": {
+        "minimum": {"type": "number", "minimum": 0},
+        "maximum": {"type": "number", "minimum": 0},
+        "unit": {"const": "m"},
+        "basis": {"$ref": "#/$defs/basis"}
+      }
+    },
+    "density_value": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["range", "unit", "basis", "status"],
+      "properties": {
+        "range": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["minimum", "maximum"],
+          "properties": {
+            "minimum": {"type": "number", "minimum": 0},
+            "maximum": {"type": "number", "minimum": 0}
+          }
+        },
+        "unit": {"type": "string", "minLength": 1},
+        "basis": {"type": "string", "minLength": 10},
+        "status": {"enum": ["MEASURED_PRECEDENT", "LITERATURE", "EDITORIAL"]}
+      }
+    }
+  }
+}

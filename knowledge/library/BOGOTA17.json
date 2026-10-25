@@ -1,0 +1,46 @@
+{
+  "id": "BOGOTA17",
+  "title": "Urban form and spatial urban equity in Bogota, Colombia",
+  "authors": [
+    "Luis A. Guzman",
+    "Juan P. Bocarejo"
+  ],
+  "year": 2017,
+  "venue_or_publisher": "Transportation Research Procedia",
+  "doi": "10.1016/j.trpro.2017.05.345",
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "拉美可及性與公平",
+  "region": [
+    "哥倫比亞"
+  ],
+  "method": "空間分布／可及性實證",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "波哥大的人口、工作及可及性分布不均；高平均密度可以和低收入群體的可及性不足並存。",
+      "strength": "MIXED",
+      "scope_zh": "僅限本研究或概念框架；不提供 M4H 的實測、法律效力或本卡試算門檻。",
+      "assessment_basis": "ABSTRACT_REVIEW"
+    }
+  ],
+  "known_critiques": [
+    "NAESS12"
+  ],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref",
+    "query": {
+      "title": "Urban form and spatial urban equity in Bogota, Colombia",
+      "author": "Luis Guzmán",
+      "year": 2017
+    },
+    "matched_record_id": "10.1016/j.trpro.2017.05.345",
+    "checked_at_utc": "2026-10-08T03:43:21Z",
+    "match_notes_zh": "人工核對 API 書名、作者與出版年；縮寫、大小寫或副標題省略視為同一書目。只確認書目，不代表全文主張已審核。"
+  },
+  "limitations_zh": "本次只使用公開書目與可得摘要；沒有下載或查閱全文。書目查證不等於主張、因果或參數驗證。",
+  "critique_relationship_zh": "known_critiques 是編者指定的批評或替代閱讀，不宣稱實際互引或逐一反駁；Ratti 與 Hillier／Penn 的標題記錄確認明確對話。",
+  "metadata_licence_zh": "只保存公開 API 書目與自行摘要；未取得全文授權，未保存 API 摘要原文。精確 metadata licence 未經本任務核驗，標 UNKNOWN。"
+}

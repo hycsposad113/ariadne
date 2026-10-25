@@ -1,0 +1,91 @@
+{
+  "id": "KU-LUP-068",
+  "domain": "LUP",
+  "subtopic": "15 分鐘城市與可及性",
+  "type": "value_range",
+  "title_zh": "十五分鐘自行車圈換算",
+  "title_en": "Fifteen-minute cycling distance conversion",
+  "summary_zh": "依 12–20 km/h 的速度假設，十五分鐘理想騎行距離約為 3–5 km。 這不是單段自行車道帶來的實際模式轉移，也沒有計入路口和停放時間。 自行車網絡研究強調連通性；區域服務評估應追蹤缺口是否切斷整條可用路徑。",
+  "key_points_zh": [
+    "依 12–20 km/h 的速度假設，十五分鐘理想騎行距離約為 3–5 km",
+    "這不是單段自行車道帶來的實際模式轉移，也沒有計入路口和停放時間",
+    "自行車網絡研究強調連通性；區域服務評估應追蹤缺口是否切斷整條可用路徑"
+  ],
+  "evidence": {
+    "strength": "ASSUMED",
+    "findings": [
+      {
+        "claim_zh": "15 分鐘以12–20 km/h換算，理想距離為約 3.0–5.0 km；這是透明情境計算，非研究觀測出的通用服務標準。",
+        "effect_or_value": "約 3.0–5.0 km",
+        "study_design": "明示速度與時間的公式換算；非實證測量",
+        "context_region": "荷蘭與其他自行車城市的情境計算",
+        "library_id": "CROW",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "自行車網路與騎行效果需整體評估；局部新增路段不能自行證明模式轉移。",
+        "effect_or_value": null,
+        "study_design": "形態／制度比較的補充閱讀",
+        "context_region": "荷蘭與其他自行車城市的比較計算",
+        "library_id": "BUEHLER16",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "十五分鐘自行車圈換算",
+      "range": "約 3.0–5.0 km",
+      "unit": "km",
+      "context": "荷蘭與其他自行車城市的情境計算；用途：區域級自行車服務初篩；計算：12–20 km/h × 15 分鐘，僅為無停等、無繞行的直線情境，非文獻直接報告的數值；方法背景書目：BUEHLER16；需改以路網與使用者條件核算，這不是本基地法規。",
+      "library_id": "BUEHLER16"
+    }
+  ],
+  "design_implications_zh": [
+    "為區域服務點建立連續路徑圖，另列出高延誤交叉口和缺少停車的目的地。"
+  ],
+  "applies_when_zh": "適合做十五分鐘騎行的上限情境；需再以安全、連通的實際網絡修正。",
+  "not_applicable_when_zh": "忽略網絡中斷時，理想距離會高估可及性，不能用作人口覆蓋率的實測結果。",
+  "debates_zh": "若只以平均速度畫圈，危險路口會被數學上忽略，造成服務圈高估。",
+  "sources": [
+    {
+      "library_id": "CROW",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "BUEHLER16",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "自行車設計實務",
+  "region": "荷蘭與其他自行車城市的情境計算",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Planning Complex Cities",
+      "topic": "15 分鐘城市與可及性"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Cities by Design",
+      "topic": "15 分鐘城市與可及性"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "15 分鐘城市與可及性"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Sustainable Futures by Design",
+      "topic": "15 分鐘城市與可及性"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008"
+}

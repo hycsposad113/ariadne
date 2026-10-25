@@ -1,0 +1,47 @@
+{
+  "id": "NA2014",
+  "title": "At the crossroads between rehabilitation and redevelopment: A critique of Seoul’s Sewunsangga inner-city renewal project",
+  "authors": [
+    "In Su Na"
+  ],
+  "year": 2014,
+  "venue_or_publisher": "Crossref indexed journal record",
+  "doi": "https://doi.org/10.69554/egbv5614",
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "首爾更新／保存與重建爭議",
+  "region": [
+    "南韓",
+    "亞洲"
+  ],
+  "method": "首爾更新計畫版本追蹤",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "Sewunsangga 計畫在復修與重建間多次轉向；此案例呈現政策路徑的可逆與爭議，並未提供可普遍外推的居民結果量。",
+      "strength": "CASE_EVIDENCE",
+      "scope_zh": "只支持所標示的理論範圍或個案；不提供 M4H 法規、基地實測或未查證的數值。",
+      "assessment_basis": "ABSTRACT_REVIEW"
+    }
+  ],
+  "known_critiques": [
+    "SAVINI2010",
+    "WATSON09"
+  ],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref",
+    "query": {
+      "title": "At the crossroads between rehabilitation and redevelopment: A critique of Seoul’s Sewunsangga inner-city renewal project",
+      "author": "In Su Na",
+      "year": 2014
+    },
+    "matched_record_id": "10.69554/egbv5614",
+    "checked_at_utc": "2026-10-08T09:27:34Z",
+    "match_notes_zh": "公開 API 比對書名、作者及年份。僅確認書目；新書條目未保存 API 摘要。"
+  },
+  "limitations_zh": "本次只使用核准的公開書目 API；除明標 ABSTRACT_REVIEW 的來源外，未核讀全文。書目查證不等於主張、因果或參數驗證。",
+  "critique_relationship_zh": "known_critiques 是編者指定的替代閱讀，不代表來源間逐一互引或直接反駁。",
+  "metadata_licence_zh": "只保存必要書目欄位與自行摘要；未保存 API 摘要全文，metadata 授權未逐筆核驗，標 UNKNOWN。"
+}

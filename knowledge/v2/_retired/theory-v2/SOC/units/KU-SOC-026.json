@@ -1,0 +1,82 @@
+{
+  "id": "KU-SOC-026",
+  "domain": "SOC",
+  "subtopic": "正義城市",
+  "type": "critique",
+  "title_zh": "正義城市：公共性與效率",
+  "title_en": "Governance and public-private collaboration — critique unit 026",
+  "summary_zh": "公共性與效率的衝突需檢查誰能進入、使用和管理空間，以及效率收益是否由公眾共享。私部門參與可調動資源，卻可能藉營運規則縮限集會、非消費性停留或弱勢使用。績效指標應納入管理權和退出條款。",
+  "key_points_zh": [
+    "公共性與效率的衝突需檢查誰能進入、使用和管理空間，以及效率收益是否由公眾共享。",
+    "私部門參與可調動資源，卻可能藉營運規則縮限集會、非消費性停留或弱勢使用。",
+    "績效指標應納入管理權和退出條款。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "【ABSTRACT_REVIEW】就「正義城市：公共性與效率」而言，「Contemporary Public Space: Critique and Classification, Part One: Critique」提供公共空間治理批評的比較坐標；此處僅使用其已標明的書目／摘要範圍，不延伸為未核對的效果或因果。",
+        "effect_or_value": null,
+        "study_design": "批評綜述",
+        "context_region": "跨地域",
+        "library_id": "CARMONA10",
+        "locator": null
+      },
+      {
+        "claim_zh": "【BIBLIOGRAPHIC_SCOPE_ONLY】就「正義城市：公共性與效率」而言，「Justice and the politics of difference」提供difference, inclusion and structural justice的比較坐標；此處僅使用其已標明的書目／摘要範圍，不延伸為未核對的效果或因果。",
+        "effect_or_value": null,
+        "study_design": "normative political theory",
+        "context_region": "United States",
+        "library_id": "YOUNG1990",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "評估管理規則對非消費性停留、集會和弱勢使用者的影響。"
+  ],
+  "design_options": [],
+  "applies_when_zh": "在評估「治理與公私合作：公共性與效率」涉及的資源分配、權力或居住影響時，先界定受影響群體與決策階段。",
+  "not_applicable_when_zh": "若沒有「治理與公私合作：公共性與效率」所需的群體、時序或市場資料，不把概念類比當作已驗證的效果或法律結論。",
+  "debates_zh": "開放性和維護效率之間存在張力，私人營運規則可能重新定義公共性。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "CARMONA10",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "YOUNG1990",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "都市治理／國家、市場與社區",
+  "region": "美國；歐洲；跨地域",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Planning Complex Cities",
+      "topic": "正義城市：公共性與效率 — 正義城市"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Urban Design Contexts and Operations",
+      "topic": "正義城市：公共性與效率 — 正義城市"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "正義城市：公共性與效率 — 正義城市"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design Governance",
+      "topic": "正義城市：公共性與效率 — 正義城市"
+    }
+  ],
+  "version": "2.0.0"
+}

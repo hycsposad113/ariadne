@@ -1,0 +1,71 @@
+{
+  "id": "KU-SOC-022",
+  "domain": "SOC",
+  "subtopic": "正義城市",
+  "type": "theory",
+  "title_zh": "性別與城市",
+  "title_en": "Gender and the city",
+  "summary_zh": "Hayden 批判住宅、工作和照顧空間的分離如何維持性別化的日常負擔。城市設計需關注照顧路線、服務配置及勞動分工，而不是只增加夜間照明。以照顧行程及不同家庭結構檢查交通、住房和服務的組合。",
+  "key_points_zh": [
+    "以照顧行程及不同家庭結構檢查交通、住房和服務的組合。",
+    "女性不是同質群體；階级、族群、年齡和身心能力會改變需求。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "Hayden 批判住宅、工作和照顧空間的分離如何維持性別化的日常負擔。城市設計需關注照顧路線、服務配置及勞動分工，而不是只增加夜間照明。",
+        "library_id": "HAYDEN80",
+        "locator": null,
+        "study_design": "理論／方法綜述；非基地實測",
+        "effect_or_value": null,
+        "context_region": null,
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008"
+      },
+      {
+        "claim_zh": "Lange-Maney 與 Weier 從女性主義城市空間出發討論不同的都市生活實驗，獨立補充 Hayden 的照顧與勞動空間批判。",
+        "library_id": "LANGEMANEY2020",
+        "locator": null,
+        "study_design": "書目範圍核對；未以書目代替全文分析",
+        "effect_or_value": null,
+        "context_region": "跨地域",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "以照顧行程及不同家庭結構檢查交通、住房和服務的組合。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "接近住房的共用照顧設施可縮短日常行程",
+      "tradeoff_zh": "需公共資源及穩定運營。",
+      "library_ids": [
+        "HAYDEN80"
+      ]
+    }
+  ],
+  "applies_when_zh": "用於釐清「性別與城市」涉及的空間、制度與行動選擇。",
+  "not_applicable_when_zh": "「性別與城市」不能直接替代基地的實測、法規或人類批准。",
+  "debates_zh": "女性不是同質群體；階级、族群、年齡和身心能力會改變需求。",
+  "sources": [
+    {
+      "library_id": "HAYDEN80",
+      "locator": null
+    },
+    {
+      "library_id": "LANGEMANEY2020",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+  "curriculum_refs": [
+    {
+      "school": "UCL Bartlett",
+      "course": null,
+      "topic": "編者主題對照，非已核實課程指定閱讀：性別與城市"
+    }
+  ],
+  "version": "2.0.0-theory-v3"
+}

@@ -1,0 +1,69 @@
+{
+  "id": "KU-ECO-011",
+  "domain": "ECO",
+  "subtopic": "生態網絡與連結度",
+  "type": "value_range",
+  "title_zh": "緊湊與蔓延情境的模型住宅量",
+  "title_en": "Housing scenarios in an urban-expansion model",
+  "summary_zh": "Brisbane 鳥類模型比較八萬四千六百四十二戶住宅的緊湊與蔓延配置。總量相近而空間配置不同，讓研究可以比較城市成長形式的生態影響。模型結果依賴住宅分布和物種適宜棲地假設。情境模型比較的是設置條件，非實際建成後監測。",
+  "key_points_zh": [
+    "Brisbane 鳥類模型比較八萬四千六百四十二戶住宅的緊湊與蔓延配置",
+    "總量相近而空間配置不同，讓研究可以比較城市成長形式的生態影響"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "Brisbane 鳥類模型比較八萬四千六百四十二戶住宅的緊湊與蔓延配置。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "跨地域",
+        "library_id": "PORTA06",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "情境模型比較的是設置條件，非實際建成後監測。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "閱讀土地配置模型時保留住宅總量、空間假設和物種資料。"
+  ],
+  "applies_when_zh": "適用於分析成長形態和棲地連續性的交換。",
+  "not_applicable_when_zh": "不應把此住宅量轉作城市發展密度標準。",
+  "debates_zh": "情境模型比較的是設置條件，非實際建成後監測。",
+  "sources": [
+    {
+      "library_id": "PORTA06",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "MARCUS10",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "網路科學 MCA",
+  "region": "跨地域",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "生態網絡與連結度"
+    }
+  ],
+  "version": "2.0.0",
+  "values": [
+    {
+      "name": "緊湊與蔓延情境的模型住宅量",
+      "range": "84,642 戶",
+      "unit": "住宅戶數",
+      "context": "澳洲 Brisbane 模型的成長情境規模；用於方法理解，不是都市容量建議。；「緊湊與蔓延情境的模型住宅量」僅供其研究脈絡內比較，不構成本基地法規。",
+      "library_id": "SUSHINSKY13"
+    }
+  ],
+  "related_unit_ids": [
+    "KU-ECO-012"
+  ]
+}

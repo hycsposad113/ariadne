@@ -1,0 +1,70 @@
+{
+  "id": "KU-ECO-053",
+  "domain": "ECO",
+  "subtopic": "生態服務",
+  "type": "value_range",
+  "title_zh": "都市鳥類資料的城市覆蓋",
+  "title_en": "City coverage of urban bird estimates",
+  "summary_zh": "鳥類比較資料包含五十四座城市。其比較可揭示城市層級差異，卻不提供特定街區的生態服務數值。樣本範圍和調查方法會影響估計。城市平均會掩蓋同一市內的生境差異。把城市尺度結果用來界定背景問題，再設計細尺度樣區。",
+  "key_points_zh": [
+    "鳥類比較資料包含五十四座城市",
+    "其比較可揭示城市層級差異，卻不提供特定街區的生態服務數值"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "鳥類比較資料包含五十四座城市。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "香港",
+        "library_id": "NG10",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "城市平均會掩蓋同一市內的生境差異。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "把城市尺度結果用來界定背景問題，再設計細尺度樣區。"
+  ],
+  "applies_when_zh": "適用於全球都市生態的基準閱讀。",
+  "not_applicable_when_zh": "不宜當作鳥類普查或公園目標值。",
+  "debates_zh": "城市平均會掩蓋同一市內的生境差異。",
+  "sources": [
+    {
+      "library_id": "NG10",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "TZUOLAS07",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "高密度環境設計",
+  "region": "香港",
+  "curriculum_refs": [
+    {
+      "school": "MIT",
+      "course": "11.330J Theory of City Form",
+      "topic": "生態服務"
+    }
+  ],
+  "version": "2.0.0",
+  "values": [
+    {
+      "name": "都市鳥類資料的城市覆蓋",
+      "range": "54 座",
+      "unit": "城市數",
+      "context": "全球鳥類資料集的比較覆蓋；文獻範圍，非規劃標準。；「都市鳥類資料的城市覆蓋」僅供其研究脈絡內比較，不構成本基地法規。",
+      "library_id": "ARONSON14"
+    }
+  ],
+  "related_unit_ids": [
+    "KU-ECO-052",
+    "KU-ECO-054"
+  ]
+}

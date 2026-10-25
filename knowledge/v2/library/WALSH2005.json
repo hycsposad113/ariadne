@@ -1,0 +1,47 @@
+{
+  "id": "WALSH2005",
+  "title": "The urban stream syndrome: current knowledge and the search for a cure",
+  "authors": [
+    "Christopher J. Walsh",
+    "Allison H. Roy",
+    "Jack W. Feminella",
+    "Peter D. Cottingham",
+    "Peter M. Groffman",
+    "Raymond P. Morgan"
+  ],
+  "year": 2005,
+  "venue_or_publisher": "Journal of the North American Benthological Society",
+  "doi": "https://doi.org/10.1899/04-028.1",
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "都市溪流生態",
+  "region": "澳洲與北美",
+  "method": "文獻回顧；目前僅核對書目範圍",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "書目確認本文題名聚焦「The urban stream syndrome: current knowledge and the search for a cure」；目前只完成作者、年份、題名與 DOI 核對，未將摘要或全文結論納入此記錄。",
+      "strength": "THEORETICAL",
+      "scope_zh": "只支持題名所顯示的研究議題與書目範圍；具體研究設計、樣本、效果量及外推界限須由摘要或全文另行核對。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref",
+    "query": {
+      "title": "The urban stream syndrome: current knowledge and the search for a cure",
+      "author": "Walsh",
+      "year": 2005,
+      "api_query": "https://api.crossref.org/works?query.bibliographic=The%20urban%20stream%20syndrome%3A%20current%20knowledge%20and%20the%20search%20for%20a%20cure%20Walsh%202005&rows=5"
+    },
+    "matched_record_id": "10.1899/04-028.1",
+    "checked_at_utc": "2026-10-08T14:02:37Z",
+    "match_notes_zh": "Crossref 回傳記錄的作者和年份相符；題名按匹配度核對，repo 僅採用 API 回傳的完整標題。"
+  },
+  "limitations_zh": "只保留書目欄位與自行概括的研究範圍，沒有保存 API 回傳摘要；未標 ABSTRACT_REVIEW 的主張不得據此聲稱效果量。",
+  "critique_relationship_zh": "尚未核對本文與其他文獻的互引或直接反駁關係。",
+  "metadata_licence_zh": "Crossref 公開書目 metadata；精確授權未核驗，標 UNKNOWN。"
+}

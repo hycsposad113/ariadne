@@ -1,0 +1,104 @@
+{
+  "id": "KU-WAT-059",
+  "domain": "WAT",
+  "subtopic": "雨水滯留量的設計值",
+  "type": "value_range",
+  "title_zh": "降雨設計值需要同時標示歷時與重現機率",
+  "title_en": "降雨設計值需要同時標示歷時與重現機率",
+  "summary_zh": "降雨設計值必須同時交代總量、歷時、匯水面和排空條件，否則相同毫米數也可能形成不同峰值流量。Oosterhout 條例用 70 毫米／小時檢查鄰近建築是否進水，並列出 40 毫米／平方米的處理容量和一天內排空要求。這些數字屬該地區法規情境，不是 M4H 的設計雨。",
+  "key_points_zh": [
+    "毫米總量與毫米每小時代表不同物理量。",
+    "重現機率受資料年代和氣候平穩假設影響。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "library_id": "OOSTERHOUT_HEMELWATER2023",
+        "claim_zh": "Oosterhout 2023 雨水條例在適用條件下要求每平方公尺不透水面積至少處理 40 mm 雨水，且以 70 mm/h 強降雨檢查不得使水流入鄰近建築；一般蓄水需在一天內排空。",
+        "claim_verification": "OFFICIAL_PRIMARY_SOURCE_REVIEW",
+        "effect_or_value": "70",
+        "study_design": "地方政府法規文本",
+        "context_region": "Oosterhout, Nederland",
+        "locator": "Verordening Hemelwater 2023, Article 7, lines 319–341"
+      },
+      {
+        "library_id": "BEAN2007",
+        "claim_zh": "書目確認本文題名聚焦「Field Survey of Permeable Pavement Surface Infiltration Rates」；目前只完成作者、年份、題名與 DOI 核對，未將摘要或全文結論納入此記錄；本單元 KU-WAT-059 對照「降雨設計值必須同時交代總量、歷時、匯水面和排空條件，否則相同毫米數也可能形成不同峰值流量」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "案例或場地研究；目前僅核對書目範圍",
+        "context_region": "美國多地",
+        "locator": null
+      },
+      {
+        "library_id": "BRATTEBO2003",
+        "claim_zh": "書目確認本文題名聚焦「Long-term stormwater quantity and quality performance of permeable pavement systems」；目前只完成作者、年份、題名與 DOI 核對，未將摘要或全文結論納入此記錄；本單元 KU-WAT-059 對照「降雨設計值必須同時交代總量、歷時、匯水面和排空條件，否則相同毫米數也可能形成不同峰值流量」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "案例或場地研究；目前僅核對書目範圍",
+        "context_region": "美國西北太平洋地區",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "每個雨量值附起訖時段、資料來源和概率定義。",
+    "以多種歷時的降雨歷線測試設施。"
+  ],
+  "applies_when_zh": "適用於雨洪設施設計輸入比較。",
+  "not_applicable_when_zh": "不可只報單一雨量而不說歷時與頻率。",
+  "debates_zh": "條例允許公共空間暫時積水以保護建築；移用前要界定容許淹水深度、流速和安全疏散路徑。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "OOSTERHOUT_HEMELWATER2023",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "BEAN2007",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "BRATTEBO2003",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "設計降雨統計",
+  "region": "澳洲；跨地域",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "雨水滯留量的設計值"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Sustainable Futures by Design",
+      "topic": "雨水滯留量的設計值"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0",
+  "values": [
+    {
+      "name": "短延時設計雨量情境",
+      "range": "70",
+      "unit": "mm/hour",
+      "context": "用途：以「短延時設計雨量情境」作為來源情境參照；Oosterhout 條例以此檢查水是否流入鄰近建築；不是 M4H 設計事件；這不是本基地法規；來源所列地域：Oosterhout, Nederland。",
+      "library_id": "OOSTERHOUT_HEMELWATER2023"
+    },
+    {
+      "name": "蓄水容量與排空條件",
+      "range": "40 mm/m²；最長 24",
+      "unit": "rain depth / hours",
+      "context": "用途：以「蓄水容量與排空條件」作為來源情境參照；Oosterhout 條例的地方化蓄水與排空條件；這不是本基地法規；來源所列地域：Oosterhout, Nederland。",
+      "library_id": "OOSTERHOUT_HEMELWATER2023"
+    }
+  ]
+}

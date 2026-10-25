@@ -1,0 +1,71 @@
+{
+  "id": "KU-HAR-007",
+  "domain": "HAR",
+  "subtopic": "文化導向再生與仕紳化批評",
+  "type": "critique",
+  "title_zh": "社會混合口號需要接受排除效果檢驗",
+  "title_en": "Social-mix claims need tests for exclusion",
+  "summary_zh": "Lees 對社會混合與城市更新的論述提出批判，質疑把中產階級進入視為自動包容的證據。Miles 的文化導向再生批評也提醒，城市發展話語與實際分配結果可能不一致。若原居民面臨租金或商業空間壓力，新增設施未必能保留原有社群的使用權。評估應追蹤搬遷、租金、在地商業和公共資源可達性。",
+  "key_points_zh": [
+    "「混合」描述人口構成，不自動證明公平或互動。",
+    "追蹤被排除者與離開者，避免只觀察新使用者。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "library_id": "LEES2008",
+        "claim_zh": "文章批判城市更新政策中的社會混合目標，指出包容性主張需要更強的實證檢視。",
+        "effect_or_value": "政策目標和實際包容之間存在可檢驗落差",
+        "study_design": "批判性文獻回顧",
+        "context_region": "英國城市更新政策討論",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "library_id": "MILES2005",
+        "claim_zh": "研究檢視文化導向發展政策修辭與城市社會效果的關係。",
+        "effect_or_value": "政策話語與社會結果不應直接等同",
+        "study_design": "批判性城市研究",
+        "context_region": "英國及跨城政策案例",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "用租戶與商戶追蹤資料標記租金負擔、續租和搬遷情況。",
+    "為既有社群安排可負擔空間、決策席位及可持續的公共服務。"
+  ],
+  "applies_when_zh": "適用於港區文化活化、藝術區、創意產業園和混合用途再生評估。",
+  "not_applicable_when_zh": "不適用於只憑新增人口多樣性或公共空間使用者數量宣稱包容。",
+  "debates_zh": "社會混合可能帶來服務和公共投資，但資產升值亦可能改變誰能留下；此矛盾需要長期追蹤，而非宣傳性標籤。",
+  "sources": [
+    {
+      "library_id": "LEES2008",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "MILES2005",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "仕紳化與社會混合批判",
+  "region": "英國城市更新及跨城討論",
+  "curriculum_refs": [
+    {
+      "school": "UCL Bartlett",
+      "course": null,
+      "topic": "文化導向再生與仕紳化批評"
+    },
+    {
+      "school": "MIT",
+      "course": null,
+      "topic": "居住公平與土地市場"
+    }
+  ],
+  "version": "v2.0"
+}

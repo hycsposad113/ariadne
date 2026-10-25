@@ -1,0 +1,116 @@
+{
+  "id": "KU-SYN-074",
+  "domain": "SYN",
+  "subtopic": "自然移動",
+  "type": "theory",
+  "title_zh": "Movement Economy：移動與沿線活動的回饋",
+  "title_en": "Movement economy: feedback between movement and activities",
+  "summary_zh": "Movement Economy 延伸自然移動論點，描述街網通過潛力如何吸引沿線零售和活動，再由活動與目的地吸引進一步增加人流。這形成組態、移動和用途之間的回饋，而不是「街道形態單向造成繁榮」的簡化因果。沿線活動、管理與租金條件都可能改變回饋方向。",
+  "key_points_zh": [
+    "自然移動描述組態形成的通過潛力，movement economy 加入吸引活動的回饋。",
+    "零售密度既可能是原因，也可能是結果或共同變項。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "Hillier（1993、1996）把自然移動連到「移動經濟」：組態決定移動，移動吸引沿線土地使用，土地使用再放大移動。",
+        "library_id": "HILLIER93",
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+        "effect_or_value": null,
+        "study_design": "空間語法理論與案例",
+        "context_region": "英國",
+        "locator": null
+      },
+      {
+        "claim_zh": "公共空間管理和活動品質會影響街道場所的實際使用。",
+        "library_id": "CARMONA10",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "都市公共空間治理",
+        "context_region": "跨地域",
+        "locator": null
+      },
+      {
+        "claim_zh": "街道行為觀察支持用途和停留需用現地資料描述。",
+        "library_id": "WHYTE80",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "街道邊界行為觀察",
+        "context_region": "城市街道案例",
+        "locator": null
+      },
+      {
+        "claim_zh": "可步行形態不能單獨保證社群凝聚，需留意中介條件。",
+        "library_id": "TALEN99",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "社群形態研究",
+        "context_region": "美國",
+        "locator": null
+      },
+      {
+        "claim_zh": "視線注意力研究可補充界面如何吸引行人，但不等同於長期經濟成效。",
+        "library_id": "SIMPSON19",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "行人視覺注意實驗",
+        "context_region": "摘要未列國家",
+        "locator": null
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "比較街網與商業活動時，分開量測過境人流、目的地停留和沿線店面，再說明時間順序。"
+  ],
+  "applies_when_zh": "分析街網、沿線活動和移動的互動時，分開記錄人流、目的地與使用時段。",
+  "not_applicable_when_zh": "這個理論不能保證增加整合度就會帶來店舖或經濟活動。",
+  "debates_zh": "回饋模型面臨因果方向和共同原因問題；租金、治理與社會階層亦會影響誰能留下。",
+  "sources": [
+    {
+      "library_id": "HILLIER93",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "CARMONA10",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "WHYTE80",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "TALEN99",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "SIMPSON19",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "公共空間治理與行為觀察",
+  "region": "空間語法、公共生活與都市治理",
+  "curriculum_refs": [
+    {
+      "school": "Harvard GSD",
+      "course": "Cities by Design",
+      "topic": "自然移動：課綱對應主題"
+    },
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.330J Theory of City Form",
+      "topic": "自然移動：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-SYN-024"
+  ]
+}

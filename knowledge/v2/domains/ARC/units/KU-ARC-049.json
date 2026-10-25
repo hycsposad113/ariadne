@@ -1,0 +1,98 @@
+{
+  "id": "KU-ARC-049",
+  "domain": "ARC",
+  "subtopic": "街廓與建築",
+  "type": "value_range",
+  "title_zh": "庭院住宅的內院淨寬",
+  "title_en": "courtyard clear width",
+  "summary_zh": "庭院型住宅可用約 20–30 m 內院淨寬測試日照、視線距離與院內活動。 若院寬小於約 20 m，面對面窗戶和日照時段應列入高風險檢查，而非直接判定失敗。 中庭高度和方位同樣重要。",
+  "key_points_zh": [
+    "核心主張：庭院型住宅可用約 20–30 m 內院淨寬測試日照、視線距離與院內活動。",
+    "量測檢查：從完成立面到對向立面取最短距離，依地理緯度模擬季節日照並量視線相交戶數。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "庭院型住宅可用約 20–30 m 內院淨寬測試日照、視線距離與院內活動。",
+        "effect_or_value": "約 20–30 m 作院落型態測試；低於 20 m 觸發日照與私密檢查",
+        "study_design": "跨地域設計參照綜整；數值狀態依 claim_verification 註記",
+        "context_region": "跨地域；用途與當地法規需分開核驗",
+        "library_id": "COURTYARD_HOUSES07",
+        "locator": null,
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008"
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "courtyard clear width",
+      "range": "約 20–30 m 作院落型態測試；低於 20 m 觸發日照與私密檢查",
+      "unit": "m",
+      "context": "地區：跨地域；緯度、院高與用途共同影響；用途：合院住宅前期空間比較，不是通用下限；出處：Courtyard Houses；本基地法規：否；核對狀態：數值待原典交叉核對。",
+      "library_id": "COURTYARD_HOUSES07"
+    }
+  ],
+  "design_implications_zh": [
+    "量測院內立面間最短淨距，搭配建築高度、方位與冬至日影一起看。"
+  ],
+  "applies_when_zh": "「庭院住宅的內院淨寬」可在用於方案前期的量體、平面或空間品質篩檢時使用，前提是庭院型住宅可用約 20–30 m 內院淨寬測試日照、視線距離與院內活動與來源情境相符。",
+  "not_applicable_when_zh": "若庭院型住宅可用約 20–30 m 內院淨寬測試日照、視線距離與院內活動不成立，就不能把「庭院住宅的內院淨寬」的結論延伸到其他情況；不得單獨作為許可、消防、結構或基地法規判定。",
+  "debates_zh": "隱私、植栽和社區共享可能偏好不同院寬；面積大也可能降低日常監督。",
+  "sources": [
+    {
+      "library_id": "COURTYARD_HOUSES07",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "KROPF2017",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+  "tradition": "建築設計與住宅類型學",
+  "region": "跨地域；用途與當地法規需分開核驗",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Housing and the City / Design of the Urban Fabric",
+      "topic": "建築尺度與住宅平面"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "建築尺度與街道界面"
+    },
+    {
+      "school": "MIT",
+      "course": "Architecture and Urban Design",
+      "topic": "建築尺度與空間型態"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "建築尺度與公共生活"
+    }
+  ],
+  "check": {
+    "method_zh": "從完成立面到對向立面取最短距離，依地理緯度模擬季節日照並量視線相交戶數。",
+    "inputs": [
+      "街廓與建築",
+      "尺寸／面積圖層",
+      "適用地區與用途標籤"
+    ],
+    "logic_zh": "將量測輸入轉成明確尺寸、比例或空間關係；越界只觸發複核，不自動取代設計決策。",
+    "limitations_zh": "量測結果只觸發「庭院住宅的內院淨寬」的複核，不得單獨作為許可或法規判定。"
+  },
+  "version": "kb2-arc-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-ARC-050",
+    "KU-ARC-051",
+    "KU-ARC-052",
+    "KU-ARC-053",
+    "KU-ARC-054"
+  ]
+}

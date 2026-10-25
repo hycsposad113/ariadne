@@ -1,0 +1,74 @@
+{
+  "id": "KU-PUB-052",
+  "domain": "PUB",
+  "subtopic": "包容、性別與可用性",
+  "type": "value_range",
+  "title_zh": "自然步行研究的公園可達範圍",
+  "title_en": "Park accessibility study buffer",
+  "summary_zh": "Perth 的成人研究把住家周邊一點六公里範圍作為開放空間分析尺度。這是該研究的 GIS 暴露設定，不代表一點六公里是所有人都能接受的步行距離。年齡、坡度、交通安全和障礙物會改變實際路程。距離可及性需和品質、安全及使用動機一起解讀。",
+  "key_points_zh": [
+    "Perth 的成人研究把住家周邊一點六公里範圍作為開放空間分析尺度",
+    "這是該研究的 GIS 暴露設定，不代表一點六公里是所有人都能接受的步行距離"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "Perth 的成人研究把住家周邊一點六公里範圍作為開放空間分析尺度。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "荷蘭",
+        "library_id": "MAAS06",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "距離可及性需和品質、安全及使用動機一起解讀。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "同時計算網絡路徑與使用者自述可接受範圍，避免只畫直線緩衝區。"
+  ],
+  "applies_when_zh": "適用於分析公園與住宅的空間關係。",
+  "not_applicable_when_zh": "不可轉用為通用步行服務標準。",
+  "debates_zh": "距離可及性需和品質、安全及使用動機一起解讀。",
+  "sources": [
+    {
+      "library_id": "MAAS06",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "MITCHELL08",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "公共健康與環境流行病學",
+  "region": "荷蘭",
+  "curriculum_refs": [
+    {
+      "school": "MIT",
+      "course": "11.330J Theory of City Form",
+      "topic": "包容、性別與可用性"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Critical Debates in Urban Design",
+      "topic": "包容、性別與可用性"
+    }
+  ],
+  "version": "2.0.0",
+  "values": [
+    {
+      "name": "自然步行研究的公園可達範圍",
+      "range": "1.6 km 網絡／緩衝尺度",
+      "unit": "公里",
+      "context": "澳洲 Perth RESIDE 研究的公園暴露尺度；只描述研究方法，非本基地服務半徑。；「自然步行研究的公園可達範圍」僅供其研究脈絡內比較，不構成本基地法規。",
+      "library_id": "SUGIYAMA10"
+    }
+  ],
+  "related_unit_ids": [
+    "KU-PUB-053"
+  ]
+}

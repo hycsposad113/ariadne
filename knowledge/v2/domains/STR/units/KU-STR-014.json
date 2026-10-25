@@ -1,0 +1,80 @@
+{
+  "id": "KU-STR-014",
+  "domain": "STR",
+  "subtopic": "完整街道",
+  "type": "typology",
+  "title_zh": "完整街道：型態比較",
+  "title_en": "Complete streets: Typology comparison",
+  "summary_zh": "可用分隔型、低速混行型與時間分配型比較；選擇取決於速度、流量、街寬和弱勢使用者暴露。類型比較要回到完整街道把不同年齡、能力和交通方式的使用者納入道路配置，而不是把道路只當成車輛通行設施。各類型的成本和適用條件包括：把所有模式都畫進同一斷面不等於公平；若實際速度、過街距離或停車裝卸未處理，圖面的完整性不會轉成可用性。",
+  "key_points_zh": [
+    "比較類型：完整街道把不同年齡、能力和交通方式的使用者納入道路配置，而不是把道路只當成車輛通行設施",
+    "比較類型：可用分隔型、低速混行型與時間分配型比較；選擇取決於速度、流量、街寬和弱勢使用者暴露"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "完整街道：型態比較｜自行車設計需連續路線、交叉口與目的地配套；本次沒有查閱手冊條文或尺寸",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "CROW",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "完整街道：型態比較｜步行性有多種定義與設計訴求；需明確說明量測的是距離、舒適、活動還是可及性",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "FORSYTH15",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "類型表應比較「完整街道把不同年齡、能力和交通方式的使用者納入道路配置，而不是把道路只當成車輛通行設施」及其使用代價「把所有模式都畫進同一斷面不等於公平；若實際速度、過街距離或停車裝卸未處理，圖面的完整性不會轉成可用性」，不要只列名稱。"
+  ],
+  "applies_when_zh": "比較完整街道方案時，可先用「完整街道把不同年齡、能力和交通方式的使用者納入道路配置，而不是把道路只當成車輛通行設施」描述各類型，再按「把所有模式都畫進同一斷面不等於公平；若實際速度、過街距離或停車裝卸未處理，圖面的完整性不會轉成可用性」檢查分類的盲點。",
+  "not_applicable_when_zh": "這些類型不構成普遍排序；遇到「把所有模式都畫進同一斷面不等於公平；若實際速度、過街距離或停車裝卸未處理，圖面的完整性不會轉成可用性」所述條件時，不應只依類名決定路網或街道配置。",
+  "debates_zh": "把所有模式都畫進同一斷面不等於公平；若實際速度、過街距離或停車裝卸未處理，圖面的完整性不會轉成可用性；檢視「完整街道：型態比較」的分類邊界時，還需判斷「可用分隔型、低速混行型與時間分配型比較；選擇取決於速度、流量、街寬和弱勢使用者暴露」會如何改變方案結論。",
+  "sources": [
+    {
+      "library_id": "CROW",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "FORSYTH15",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "多模式街道與安全設計",
+  "region": "跨地域理論或實務脈絡；來源地區依引用條目判讀",
+  "curriculum_refs": [
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.330J Theory of City Form",
+      "topic": "完整街道：課綱對應主題"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "完整街道：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-STR-009",
+    "KU-STR-010",
+    "KU-STR-011",
+    "KU-STR-012",
+    "KU-STR-013",
+    "KU-STR-015",
+    "KU-STR-016"
+  ]
+}

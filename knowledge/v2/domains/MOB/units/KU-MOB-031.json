@@ -1,0 +1,80 @@
+{
+  "id": "KU-MOB-031",
+  "domain": "MOB",
+  "subtopic": "自行車停車",
+  "type": "concept",
+  "title_zh": "自行車停車：概念界線",
+  "title_en": "Bicycle parking: Concept and scope",
+  "summary_zh": "自行車停車影響旅程起訖和轉乘便利，設計需同時處理位置、可用性、保管和與入口的連接。此處要回答的是把安全停車布在可見、可到達的位置，並將車站、建築入口和自行車路線視為一條完整接駁鏈。對自行車停車而言，增加停車架不等於解決轉乘；若位置不安全、步行接駁不便或目的地不接受自行車，供給可能不被使用；因此該概念只界定分析問題，不替不同街道和使用者預選答案。",
+  "key_points_zh": [
+    "概念界線：自行車停車影響旅程起訖和轉乘便利，設計需同時處理位置、可用性、保管和與入口的連接",
+    "概念界線：把安全停車布在可見、可到達的位置，並將車站、建築入口和自行車路線視為一條完整接駁鏈"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "自行車停車：概念界線｜停車供給與成本分攤應被視為土地與交通政策選擇；本單元不把書中案例值外推為其他城市規範",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "SHOUP05",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "自行車停車：概念界線｜人的停留、步行與沿街互動是公共空間設計的觀察方向；需要地方活動與季節資料",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "GEHL10",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "用「自行車停車影響旅程起訖和轉乘便利，設計需同時處理位置、可用性、保管和與入口的連接」界定自行車停車的分析範圍，再以「把安全停車布在可見、可到達的位置，並將車站、建築入口和自行車路線視為一條完整接駁鏈」說明這個界線不涵蓋什麼。"
+  ],
+  "applies_when_zh": "界定自行車停車的分析邊界時，可用「自行車停車影響旅程起訖和轉乘便利，設計需同時處理位置、可用性、保管和與入口的連接」說明本單元涵蓋的關係，再另行檢查未納入的條件。",
+  "not_applicable_when_zh": "「自行車停車影響旅程起訖和轉乘便利，設計需同時處理位置、可用性、保管和與入口的連接」不能直接轉成法規或最佳方案判斷，尤其不能忽略「增加停車架不等於解決轉乘；若位置不安全、步行接駁不便或目的地不接受自行車，供給可能不被使用」指出的限制。",
+  "debates_zh": "增加停車架不等於解決轉乘；若位置不安全、步行接駁不便或目的地不接受自行車，供給可能不被使用；檢視「自行車停車：概念界線」的概念界線時，還需判斷「把安全停車布在可見、可到達的位置，並將車站、建築入口和自行車路線視為一條完整接駁鏈」會如何改變方案結論。",
+  "sources": [
+    {
+      "library_id": "SHOUP05",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "GEHL10",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "自行車接駁與停車政策",
+  "region": "跨地域理論或實務脈絡；來源地區依引用條目判讀",
+  "curriculum_refs": [
+    {
+      "school": "Harvard GSD",
+      "course": "Urban Design Contexts and Operations",
+      "topic": "自行車停車：課綱對應主題"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "自行車停車：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-MOB-025",
+    "KU-MOB-026",
+    "KU-MOB-027",
+    "KU-MOB-028",
+    "KU-MOB-029",
+    "KU-MOB-030",
+    "KU-MOB-032"
+  ]
+}

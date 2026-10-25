@@ -1,0 +1,82 @@
+{
+  "id": "KU-SYN-066",
+  "domain": "SYN",
+  "subtopic": "軸線／線段分析",
+  "type": "value_range",
+  "title_zh": "全域整合度的 Rn 範圍",
+  "title_en": "Rn global radius",
+  "summary_zh": "Rn 表示將分析範圍延伸至可達網路全域，而非設定固定距離上限。它與局部 R3 的問題不同，對網路邊界、斷裂和圖形連通性特別敏感。這是模型設定，不是設計尺寸。此處的全域空間語法分析半徑是附來源的比較參照，不是本基地法規。",
+  "key_points_zh": [
+    "Rn 概括整個分析圖的全域關係。",
+    "邊界裁切或不連通分量會改變全域結果。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "Rn 常表示計算涵蓋整個連通圖的全域範圍，具體定義待教材交叉核對。",
+        "library_id": "HILLIER84",
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+        "effect_or_value": "Rn，即整張連通網路",
+        "study_design": "空間語法全域半徑慣例待核對",
+        "context_region": "英國理論研究",
+        "locator": null
+      },
+      {
+        "claim_zh": "都市分析指標需說明邊界和測量尺度，避免將數值當成地方品質。",
+        "library_id": "CARMONA10",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "都市設計與形態分析方法",
+        "context_region": "跨地域都市設計",
+        "locator": null
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "全域空間語法分析半徑",
+      "range": "Rn，即整張連通網路",
+      "unit": "拓樸網路範圍",
+      "context": "空間語法全域網路分析情境；用途：用來描述相對全域的網路深度；只有連通圖中才可計算。；「全域空間語法分析半徑」僅供來源脈絡內的比較，不是本基地法規、M4H 門檻或通用配額；來源所列地域：英國。",
+      "library_id": "HILLIER84"
+    }
+  ],
+  "design_implications_zh": [
+    "需要比較全市或跨區街網骨架時可用 Rn，並在結果中註明分析邊界和網路連通規則。"
+  ],
+  "applies_when_zh": "比較全域街網關係時，說明分析邊界、連通分量和網路裁切規則。",
+  "not_applicable_when_zh": "Rn 不能代表任何一個人的實際移動範圍，亦不等於所有街道之間都有可通行連接。",
+  "debates_zh": "全域數值容易受研究區範圍左右；尺度敏感性應和局部模型一同呈現。",
+  "sources": [
+    {
+      "library_id": "HILLIER84",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "CARMONA10",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "空間語法與都市設計方法",
+  "region": "空間語法全域網路分析情境",
+  "curriculum_refs": [
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.330J Theory of City Form",
+      "topic": "軸線／線段分析：課綱對應主題"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Critical Debates in Urban Design",
+      "topic": "軸線／線段分析：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-SYN-003"
+  ]
+}

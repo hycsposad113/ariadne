@@ -1,0 +1,94 @@
+{
+  "id": "KU-REG-507",
+  "domain": "REG",
+  "subtopic": "新加坡用途與容積治理",
+  "type": "regulation_profile",
+  "title_zh": "新加坡URA Master Plan與plot ratio治理",
+  "title_en": "Singapore URA Master Plan and plot ratio controls",
+  "summary_zh": "新加坡URA Master Plan是中期法定土地使用計畫，規劃視野約10至15年，透過用途及plot ratio地圖為地塊設定發展框架。 plot ratio不能當成自動可建樓地板量，住宅或商業發展仍須依用途、地塊條件及development control handbook檢核。 退縮、建築高度、基地形狀和技術條件可能使可實現樓地板量低於圖示上限；若未指定plot ratio，主管機關依位置與脈絡審查。 這是新加坡制度，不是M4H本基地法規；設計上先查地塊地圖與分區，再以退縮和技術規則重算可行體量。",
+  "key_points_zh": [
+    "Master Plan是約10–15年期的法定土地使用計畫。",
+    "地塊plot ratio由Master Plan圖示及發展控制條件共同決定，住宅與商業手冊分別說明。",
+    "圖示上限不保證可實現同等樓地板量；退縮、地形、建築高度及技術條件仍須檢查。",
+    "沒有指定plot ratio時，主管機關依地點、周邊脈絡及交通影響評估。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "URA說明Master Plan為法定中期規劃，時間視野約10至15年。",
+        "effect_or_value": null,
+        "study_design": "法規／官方政策或實務指引內容核對",
+        "context_region": "新加坡",
+        "library_id": "URA_MASTER_PLAN",
+        "locator": "Master Plan法定性及時間跨度",
+        "claim_verification": "OFFICIAL_PRIMARY_SOURCE_REVIEW"
+      },
+      {
+        "claim_zh": "住宅plot ratio需依地塊指定及發展控制規則判讀。",
+        "effect_or_value": null,
+        "study_design": "法規／官方政策或實務指引內容核對",
+        "context_region": "新加坡",
+        "library_id": "URA_GPR_RES",
+        "locator": "住宅plot ratio指引",
+        "claim_verification": "OFFICIAL_PRIMARY_SOURCE_REVIEW"
+      },
+      {
+        "claim_zh": "商業plot ratio需配合地塊條件、退縮、建築高度與技術審查。",
+        "effect_or_value": null,
+        "study_design": "法規／官方政策或實務指引內容核對",
+        "context_region": "新加坡",
+        "library_id": "URA_GPR_COMM",
+        "locator": "商業plot ratio指引",
+        "claim_verification": "OFFICIAL_PRIMARY_SOURCE_REVIEW"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "將plot ratio圖值當作規劃邊界而非可建量承諾，並測試退縮與高度限制後的實際方案。",
+    "把用途圖、plot ratio圖、分區條件與個別審查條件分層記錄。"
+  ],
+  "applies_when_zh": "用於理解URA法定Master Plan及plot ratio的規劃控制流程。",
+  "not_applicable_when_zh": "不能把新加坡的plot ratio圖值當作M4H地塊指標或規劃批准。",
+  "debates_zh": "Master Plan圖值與可行設計量可能有差異，個案的技術條件及主管機關審查會影響結果。",
+  "sources": [
+    {
+      "library_id": "URA_MASTER_PLAN",
+      "claim_id": "C1",
+      "locator": "Master Plan法定性及時間跨度"
+    },
+    {
+      "library_id": "URA_GPR_RES",
+      "claim_id": "C1",
+      "locator": "住宅plot ratio指引"
+    },
+    {
+      "library_id": "URA_GPR_COMM",
+      "claim_id": "C1",
+      "locator": "商業plot ratio指引"
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+  "tradition": "URA土地使用與plot ratio法定規劃",
+  "region": "新加坡",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "topic": "新加坡用途與容積治理"
+    },
+    {
+      "school": "Harvard GSD",
+      "topic": "新加坡用途與容積治理"
+    },
+    {
+      "school": "MIT",
+      "topic": "新加坡用途與容積治理"
+    },
+    {
+      "school": "UCL Bartlett",
+      "topic": "新加坡用途與容積治理"
+    }
+  ],
+  "version": "kb2-policy-2026-10-08"
+}

@@ -1,0 +1,109 @@
+{
+  "id": "KU-ARC-092",
+  "domain": "ARC",
+  "subtopic": "maker 與輕工業平面進深量測",
+  "type": "method",
+  "title_zh": "生產平面進深按製程流線推算，不借用單一標準值",
+  "title_en": "Derive production-plan depth from the process flow rather than a generic value",
+  "summary_zh": "不同 maker 租戶的加工、組裝、存貨、包裝與交付順序各異，平面進深應從最長的實際作業鏈計算。Ferm 與 Jones 記錄倫敦產業用地在住宅壓力下的混合再生挑戰；Wang 等人則把工業土地集約化拆成可量測的用地效率與產出問題。這些研究支持保留生產活動和土地使用的明確假設，不替任何租戶預設公尺數。",
+  "key_points_zh": [
+    "生產進深由作業順序、暫置和交叉通道共同決定。",
+    "以平面中的貨流和人流標示衝突點，比只填建築外框更可檢查。",
+    "資料不足時記錄製程缺口，不以常見倉庫尺度冒充 maker 的需求。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "library_id": "FERM_JONES2016",
+        "claim_zh": "Crossref 確認研究 London 後工業城市 mixed-use regeneration 對 employment land 的挑戰範圍。",
+        "effect_or_value": null,
+        "study_design": "employment-land 規劃研究",
+        "context_region": "London, United Kingdom",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "只支持明示的文獻範圍與本次可查證內容；未由書目資料推定未讀數值或因果。"
+      },
+      {
+        "library_id": "WANG2020",
+        "claim_zh": "摘要以效率損失與集約化潛力定義城市工業用地研究問題，將節地和產出作為可量測面向。",
+        "effect_or_value": null,
+        "study_design": "三個城市群的工業用地量化研究",
+        "context_region": "China",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW",
+        "limitations_zh": "只支持明示的文獻範圍與本次可查證內容；未由書目資料推定未讀數值或因果。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "要求每個工作單元提交流程圖和設備包絡，才決定單元進深及共同裝卸區。",
+    "把廢料、噪音、氣味、危險物和貨物暫置納入空間需求輸入。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "按製程分段配置入口、加工、組裝、儲放和交付。",
+      "tradeoff_zh": "流程清楚、易於調整，可能需要較長平面或更多共用空間。",
+      "library_ids": [
+        "FERM_JONES2016",
+        "WANG2020"
+      ]
+    },
+    {
+      "option_zh": "把高頻作業區集中並共享裝卸與設備。",
+      "tradeoff_zh": "減少重複面積，但共享規則、時段和責任需明確。",
+      "library_ids": [
+        "WANG2020",
+        "FERM_JONES2016"
+      ]
+    }
+  ],
+  "applies_when_zh": "適用於 maker hall、light-industrial unit 及複合生產空間的平面初步設計。",
+  "not_applicable_when_zh": "不適用於租戶製程、設備、物料流和交付車型均未知時直接核定進深。",
+  "debates_zh": "地面集約化可以降低用地壓力，但高密度配置也可能壓縮裝卸、儲存與鄰里緩衝；用地效率不等於運營效率。",
+  "counter_unit_ids": [
+    "KU-ARC-024"
+  ],
+  "related_unit_ids": [
+    "KU-ARC-035",
+    "KU-ARC-036",
+    "KU-ARC-037",
+    "KU-HAR-058"
+  ],
+  "sources": [
+    {
+      "library_id": "FERM_JONES2016",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "WANG2020",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "productive-city 研究與工業用地量化",
+  "region": "London; China",
+  "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Housing and the City / Design of the Urban Fabric",
+      "topic": "maker 與輕工業平面進深量測：課綱對應主題"
+    }
+  ],
+  "version": "kb2-gaps-2026-10-08",
+  "check": {
+    "method_zh": "沿物流主方向將平面分成接收、暫置、加工、組裝、儲存與出貨帶，量測每帶設備包絡和通道後加總為所需深度，並用車輛掃掠路徑檢查端部空間。",
+    "inputs": [
+      "每個製程步驟及頻率",
+      "設備外廓和維修區",
+      "物料與人員流線",
+      "入庫／出貨車型及時段"
+    ],
+    "logic_zh": "D_work = 各連續作業帶深度總和 + 必要橫向通道；任一需求未知就標記資料缺口，不能填入通用進深值。",
+    "limitations_zh": "此檢查是可量測的空間推導方法，並非 Ferm、Jones 或 Wang 等人發布的普遍進深標準。"
+  },
+  "case": null
+}

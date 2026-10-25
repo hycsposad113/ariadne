@@ -1,0 +1,108 @@
+{
+  "id": "KU-MOB-516",
+  "domain": "MOB",
+  "subtopic": "交通能源與建築隱含碳",
+  "type": "critique",
+  "title_zh": "樓高和密度不能替代建築隱含碳的生命週期比較",
+  "title_en": "Building height and density do not replace embodied-carbon life-cycle analysis",
+  "summary_zh": "Röck 等人把建築隱含溫室氣體排放列為建築減碳的重要議題；Teng 與 Pan 對預製高層住宅明示考慮參數、情境與模型的不確定性。因而，樓高不是單獨的碳排序規則：結構系統、材料量、建造方式、樓地板效率、使用年限與運轉能源都要在相同邊界下比較。",
+  "key_points_zh": [
+    "建築營運能源與材料／施工隱含碳是不同生命週期項目。",
+    "高層結構和預製方式需用其實際材料與構件清單計算。",
+    "密度、交通排放和建築碳要分項呈現，避免重複計入或漏項。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "library_id": "ROCK2020",
+        "claim_zh": "論文題名確認建築隱含 GHG 是有效減碳的重要挑戰，支援將建造階段納入建築比較。",
+        "effect_or_value": null,
+        "study_design": "研究綜述範圍",
+        "context_region": "跨地域建築生命週期研究",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "本輪沒有文章摘要或生命週期數值，不能據此推定樓高排名。"
+      },
+      {
+        "library_id": "TENGPAN2020",
+        "claim_zh": "研究題名明示高層預製住宅的隱含碳估算納入參數、情境與模型不確定性。",
+        "effect_or_value": null,
+        "study_design": "高層住宅模型研究",
+        "context_region": "跨地域高層住宅研究",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "書目範圍確認方法問題，不等於已核實特定建築的碳值。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "以相同功能、樓地板面積、使用年限和生命週期邊界比較不同高度型態。",
+    "分列結構、外牆、運輸、施工、維護和營運能源，保留材料數量及排放因子來源。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "優先比較可減材料量的結構與構件方案，再檢查其樓高適用範圍。",
+      "tradeoff_zh": "可能降低結構碳，但需重新評估跨度、耐久、振動和成本。",
+      "library_ids": [
+        "ROCK2020",
+        "TENGPAN2020"
+      ]
+    },
+    {
+      "option_zh": "將密度和公共交通作為城市尺度條件，另行計算建築全生命週期碳。",
+      "tradeoff_zh": "較完整呈現外部交通效益，但需要一致的系統邊界。",
+      "library_ids": [
+        "TENGPAN2020",
+        "ROCK2020"
+      ]
+    }
+  ],
+  "applies_when_zh": "適用於比較高層住宅、低中層街廓和預製建築的減碳方案。",
+  "not_applicable_when_zh": "不適用於僅按樓層數或都市密度宣稱一種高度必然低碳。",
+  "debates_zh": "隱含碳資料庫、使用壽命和能源系統會改變結果；若不同研究採用不同邊界，排名不成立。",
+  "counter_unit_ids": [
+    "KU-MOR-035"
+  ],
+  "related_unit_ids": [
+    "KU-MOB-009",
+    "KU-MOR-036",
+    "KU-ARC-035"
+  ],
+  "sources": [
+    {
+      "library_id": "ROCK2020",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "TENGPAN2020",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "建築生命週期碳核算與都市型態研究",
+  "region": "跨地域建築研究",
+  "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "交通能源與建築隱含碳：課綱對應主題"
+    }
+  ],
+  "version": "kb2-gaps-2026-10-08",
+  "check": {
+    "method_zh": "對每一方案用相同功能單位與生命週期階段計算材料和施工 GHG，再與運轉能源及交通情境分開列出。",
+    "inputs": [
+      "材料數量與排放因子",
+      "結構系統與高度",
+      "使用年限、維護和運轉能源",
+      "生命週期邊界與功能單位"
+    ],
+    "logic_zh": "同一套基準及情境變數下比較；不把不同系統邊界的每平方公尺數值排成同一榜單。",
+    "limitations_zh": "此卡記錄的是來源範圍和比較方法；未提供任何專案碳係數或未查證樓高優劣。"
+  },
+  "case": null
+}

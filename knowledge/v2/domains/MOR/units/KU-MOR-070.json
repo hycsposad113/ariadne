@@ -1,0 +1,78 @@
+{
+  "id": "KU-MOR-070",
+  "domain": "MOR",
+  "subtopic": "地塊、街廓與建築類型",
+  "type": "value_range",
+  "title_zh": "京都傳統棋盤街廓模數",
+  "title_en": "Kyoto historic grid module",
+  "summary_zh": "歷史尺度經歷多次切分與合併，今天的街區邊界不必然沿襲原始模數。 將街廓尺寸放回東西向街道、寺社用地和町組織脈絡中判讀，不把方格視為純幾何網格。 記錄 京都，日本 與「平安京棋盤式街路的城市模數」的量測分母，再和另一種尺度或用途並排比較。",
+  "key_points_zh": [
+    "京都傳統都城格局的街區模數常以約 120 m 方格作歷史尺度參考。",
+    "歷史尺度經歷多次切分與合併，今天的街區邊界不必然沿襲原始模數。",
+    "將街廓尺寸放回東西向街道、寺社用地和町組織脈絡中判讀，不把方格視為純幾何網格。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "京都傳統都城格局的街區模數常以約 120 m 方格作歷史尺度參考。",
+        "effect_or_value": "約 120",
+        "study_design": "跨案例尺度對照或明示假設的規劃計算",
+        "context_region": "京都，日本",
+        "library_id": "NAVASTARA2017",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "京都傳統棋盤街廓模數",
+      "range": "約 120",
+      "unit": "m 方格單元",
+      "context": "京都，日本；用途：平安京棋盤式街路的城市模數；對照書目：NAVASTARA2017；適用於制度或形態比較，這不是本基地法規。",
+      "library_id": "NAVASTARA2017"
+    }
+  ],
+  "design_implications_zh": [
+    "將街廓尺寸放回東西向街道、寺社用地和町組織脈絡中判讀，不把方格視為純幾何網格。",
+    "記錄 京都，日本 與「平安京棋盤式街路的城市模數」的量測分母，再和另一種尺度或用途並排比較。"
+  ],
+  "applies_when_zh": "用於比較京都，日本的平安京棋盤式街路的城市模數，並明示此數值的來源、年份和面積分母。",
+  "not_applicable_when_zh": "歷史尺度經歷多次切分與合併，今天的街區邊界不必然沿襲原始模數。",
+  "debates_zh": "棋盤格有利方向辨識與地址定位，局部細分則可能承載更小尺度的共同體管理。",
+  "sources": [
+    {
+      "library_id": "NAVASTARA2017",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "SINGLE_SOURCE",
+  "tradition": "亞洲與歐洲比較形態學",
+  "region": "京都，日本",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "地塊、街廓與建築類型"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "地塊、街廓與建築類型"
+    },
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.330J Theory of City Form",
+      "topic": "地塊、街廓與建築類型"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban form and density",
+      "topic": "地塊、街廓與建築類型"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008"
+}

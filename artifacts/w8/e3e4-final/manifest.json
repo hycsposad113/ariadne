@@ -1,0 +1,9 @@
+{
+ "sources": {
+  "e3e4/e3e4_results_zh.csv": "sha256:bc3ac4de42cbf8c2126fcca40a76c502c37251a3bdc419e780cdfe726f90d7e2",
+  "e3e4-harbour-full/e3e4_results_zh.csv": "sha256:79c1e40ce04fe63077e6a1f586df03152389a60c6cc96c9e128573789d75a653",
+  "e3e4/manifest.json": "sha256:9826fab3eacb6b9dab63cd221d59522f93f5a969c4f23b2aab0f8893f1254d19",
+  "e3e4-harbour-full/manifest.json": "sha256:c7c46cf77d53ff091a615c72585276896a738a0e7fa7cf448aad469081ea3c8a"
+ },
+ "note": "Harbour full-model (253 buildings, 4 cases, 7,256 s wall) replaces 3/253 sampled extrapolation."
+}

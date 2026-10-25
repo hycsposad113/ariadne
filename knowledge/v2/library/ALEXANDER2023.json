@@ -1,0 +1,46 @@
+{
+  "id": "ALEXANDER2023",
+  "title": "A City is not a Tree (1965)",
+  "authors": [
+    "Christopher Alexander"
+  ],
+  "year": 2023,
+  "venue_or_publisher": "Anthologie zum Städtebau. Band III: Vom Wiederaufbau nach dem Zweiten Weltkrieg bis zur zeitgenössischen Stadt",
+  "doi": "10.5771/9783786175247-415",
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "ACADEMIC_CHAPTER",
+  "tradition": "都市系統層級與集合交疊的規劃理論批判",
+  "region": [
+    "跨地域"
+  ],
+  "method": "理論論證；本輪未核對章節全文",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "Crossref 書目核對到 2023 年重收章節，題名標示 Alexander 的 1965 年〈A City is not a Tree〉；章內樹狀與半格狀論證仍須對照原文核驗。",
+      "strength": "THEORETICAL",
+      "scope_zh": "只確認重收章節的題名、作者與版本年；不以書目匹配代替對論證的全文核查。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [
+    "ROWE1978",
+    "HABRAKEN98"
+  ],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref",
+    "query": {
+      "title": "A City is not a Tree (1965)",
+      "author": "Christopher Alexander",
+      "year": 2023
+    },
+    "matched_record_id": "10.5771/9783786175247-415",
+    "checked_at_utc": "2026-10-08T10:38:18Z",
+    "match_notes_zh": "Crossref 回傳 2023 年論文集重收章節，題名含原文年份 1965，作者 Christopher Alexander 相符；採 2023 作本條目版本年，未冒稱 1965 原版已由 API 核對。"
+  },
+  "limitations_zh": "僅核對章節書目，不下載全文；內容層級另標 CANONICAL_CROSS_CHECK_PENDING。",
+  "critique_relationship_zh": "Rowe 與 Habraken 作為不同作者的規劃結構對讀，不宣稱逐條反駁 Alexander。",
+  "metadata_licence_zh": "保存公開 Crossref 書目欄位與自撰說明；未保存全文或 API 摘要。"
+}

@@ -1,0 +1,107 @@
+{
+  "id": "KU-MOR-001",
+  "domain": "MOR",
+  "subtopic": "地塊、街廓與建築類型",
+  "type": "concept",
+  "title_zh": "地塊、街廓與建築類型｜概念邊界",
+  "title_en": "Plots, blocks and building types — Conceptual boundaries",
+  "summary_zh": "街道、街廓、地塊與建築是彼此作用的形態尺度，建築類型也會隨累積改造而變。 多尺度指標資料流程支持跨城量測，但比較前要標示分析單元、宗地和建築狀態。 小街廓本身不能證明活力、包容或公共性。",
+  "key_points_zh": [
+    "以街道、地塊、建築群作為彼此關聯的形態單位。",
+    "適用於比較歷史街區、更新地與新開發的細部粒度。",
+    "限制：地籍資料不完整或宗地權利不清時，只能描述可見形態。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "將基本建築類型與累積轉變過程並讀，避免把類型看成固定外觀。",
+        "library_id": "CANIGGIA",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "義大利",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "研究整理多尺度建築形態指標並建置可擴充資料流程，重點是改善跨城比較與重現性，不宣稱單一最佳形態。",
+        "library_id": "BILJECKI2022",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "全球多城市資料",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "先畫出街道—街廓—宗地層級，再配置建築與開放空間。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "先畫出街道—街廓—宗地層級，再配置建築與開放空間。",
+      "tradeoff_zh": "增加空間選擇與公共連結，但會增加協調、管理或建造成本。",
+      "library_ids": [
+        "CANIGGIA",
+        "BILJECKI2022"
+      ]
+    },
+    {
+      "option_zh": "細分地塊可支持增量更新；整合大宗地較易統一建造但降低街巷穿透。",
+      "tradeoff_zh": "保留另一種形式和使用條件，但可能改變連續性、可達性或私密性。",
+      "library_ids": [
+        "CANIGGIA",
+        "BILJECKI2022"
+      ]
+    }
+  ],
+  "applies_when_zh": "適用於比較歷史街區、更新地與新開發的細部粒度。",
+  "not_applicable_when_zh": "地籍資料不完整或宗地權利不清時，只能描述可見形態。",
+  "debates_zh": "街廓小不必然代表活力；所有權、用途和公共通行權也會改變其表現。",
+  "sources": [
+    {
+      "library_id": "CANIGGIA",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "BILJECKI2022",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "義大利類型形態學；城市資料科學／形態指標",
+  "region": "義大利；全球多城市資料",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "地塊、街廓與建築類型"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "地塊、街廓與建築類型"
+    },
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.330J Theory of City Form",
+      "topic": "地塊、街廓與建築類型"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban form and density",
+      "topic": "地塊、街廓與建築類型"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-MOR-002",
+    "KU-MOR-003",
+    "KU-MOR-004"
+  ],
+  "counter_unit_ids": [
+    "KU-MOR-005"
+  ]
+}

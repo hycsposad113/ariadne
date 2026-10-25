@@ -1,0 +1,107 @@
+{
+  "id": "KU-HOU-012",
+  "domain": "HOU",
+  "subtopic": "荷蘭 woningcorporaties 社會住宅模式",
+  "type": "design_principle",
+  "title_zh": "荷蘭 woningcorporaties 社會住宅模式｜設計原則",
+  "title_en": "Dutch social housing associations — Design principle",
+  "summary_zh": "本節是制度歷史描述，不提供當前荷蘭資格或租金法律標準。 讀「荷蘭 woningcorporaties 社會住宅模式｜設計原則」時，分開記錄供應者、租金規則、目標對象和地方土地政策；同時把不同政策策略曾達到相近的可負擔住宅供給結果；市場化依賴上升後，低收入家庭負擔狀況惡化且各國路徑不同列為核對條件。 落實「荷蘭 woningcorporaties 社會住宅模式｜設計原則」時可先分開記錄供應者、租金規則、目標對象和地方土地政策，再用不同政策策略曾達到相近的可負擔住宅供給結果；市場化依賴上升後，低收入家庭負擔狀況惡化且各國路徑不同核對方案的空間後果。",
+  "key_points_zh": [
+    "讀「荷蘭 woningcorporaties 社會住宅模式｜設計原則」時，分開記錄供應者、租金規則、目標對象和地方土地政策；同時把不同政策策略曾達到相近的可負擔住宅供給結果；市場化依賴上升後，低收入家庭負擔狀況惡化且各國路徑不同列為核對條件。",
+    "讀「荷蘭 woningcorporaties 社會住宅模式｜設計原則」時，分開記錄供應者、租金規則、目標對象和地方土地政策；同時把不同政策策略曾達到相近的可負擔住宅供給結果；市場化依賴上升後，低收入家庭負擔狀況惡化且各國路徑不同列為核對條件。",
+    "限制：本節是制度歷史描述，不提供當前荷蘭資格或租金法律標準。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "不同政策策略曾達到相近的可負擔住宅供給結果；市場化依賴上升後，低收入家庭負擔狀況惡化且各國路徑不同。",
+        "library_id": "MILLIGAN2003",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "澳洲與荷蘭",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "比較涵蓋社會住宅定義、融資、私有化與都市再生；制度差異使單一國家的占比不能直接移植。",
+        "library_id": "SCANLON2007",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "九個歐洲國家",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "落實「荷蘭 woningcorporaties 社會住宅模式｜設計原則」時可先分開記錄供應者、租金規則、目標對象和地方土地政策，再用不同政策策略曾達到相近的可負擔住宅供給結果；市場化依賴上升後，低收入家庭負擔狀況惡化且各國路徑不同核對方案的空間後果。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "在「荷蘭 woningcorporaties 社會住宅模式｜設計原則」的來源情境裡，分開記錄供應者、租金規則、目標對象和地方土地政策；落到設計時還要按不同政策策略曾達到相近的可負擔住宅供給結果；市場化依賴上升後，低收入家庭負擔狀況惡化且各國路徑不同調整。",
+      "tradeoff_zh": "「荷蘭 woningcorporaties 社會住宅模式｜設計原則」的主要代價不是抽象的建造成本，而是制度名稱相同也可能涵蓋不同對象和補助模式；因此先以不同政策策略曾達到相近的可負擔住宅供給結果；市場化依賴上升後，低收入家庭負擔狀況惡化且各國路徑不同作方案比較條件。",
+      "library_ids": [
+        "MILLIGAN2003",
+        "SCANLON2007"
+      ]
+    },
+    {
+      "option_zh": "「荷蘭 woningcorporaties 社會住宅模式｜設計原則」可把取向落在公共、非營利與市場供應比例會改變可負擔性和居住選擇，但需連同不同政策策略曾達到相近的可負擔住宅供給結果；市場化依賴上升後，低收入家庭負擔狀況惡化且各國路徑不同決定適用方式。",
+      "tradeoff_zh": "「荷蘭 woningcorporaties 社會住宅模式｜設計原則」的主要代價不是抽象的建造成本，而是制度名稱相同也可能涵蓋不同對象和補助模式；因此先以不同政策策略曾達到相近的可負擔住宅供給結果；市場化依賴上升後，低收入家庭負擔狀況惡化且各國路徑不同作方案比較條件。",
+      "library_ids": [
+        "MILLIGAN2003",
+        "SCANLON2007"
+      ]
+    }
+  ],
+  "applies_when_zh": "「荷蘭 woningcorporaties 社會住宅模式｜設計原則」可在適用於住宅制度比較和社會住宅設計研究時使用，前提是不同政策策略曾達到相近的可負擔住宅供給結果；市場化依賴上升後，低收入家庭負擔狀況惡化且各國路徑不同與來源情境相符。",
+  "not_applicable_when_zh": "若不同政策策略曾達到相近的可負擔住宅供給結果；市場化依賴上升後，低收入家庭負擔狀況惡化且各國路徑不同不成立，就不能把「荷蘭 woningcorporaties 社會住宅模式｜設計原則」的結論延伸到其他情況；本節是制度歷史描述，不提供當前荷蘭資格或租金法律標準。",
+  "debates_zh": "制度名稱相同也可能涵蓋不同對象和補助模式。",
+  "sources": [
+    {
+      "library_id": "MILLIGAN2003",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "SCANLON2007",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "低收入住宅可負擔性制度比較；歐洲社會住宅制度比較",
+  "region": "澳洲與荷蘭；九個歐洲國家",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "荷蘭 woningcorporaties 社會住宅模式"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "荷蘭 woningcorporaties 社會住宅模式"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "荷蘭 woningcorporaties 社會住宅模式"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "荷蘭 woningcorporaties 社會住宅模式"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-HOU-010",
+    "KU-HOU-011",
+    "KU-HOU-013"
+  ],
+  "counter_unit_ids": [
+    "KU-HOU-014"
+  ]
+}

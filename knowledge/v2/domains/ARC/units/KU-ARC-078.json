@@ -1,0 +1,96 @@
+{
+  "id": "KU-ARC-078",
+  "domain": "ARC",
+  "subtopic": "跨國住宅標準",
+  "type": "value_range",
+  "title_zh": "德國住宅面積按高度與露台類別折算",
+  "title_en": "German WoFlV area accounting",
+  "summary_zh": "德國 WoFlV §4 將淨高至少 2 m 的面積全額計入，1–2 m 高的面積以一半計入。 陽台、loggia、屋頂花園和露台通常以四分之一計，最高可到二分之一。 這是住宅面積計算法規，不是居室最低尺度。",
+  "key_points_zh": [
+    "核心主張：德國 WoFlV §4 將淨高至少 2 m 的面積全額計入，1–2 m 高的面積以一半計入。",
+    "量測檢查：按官方 §4 對每個多邊形區域分類高度及用途，逐項套用 1、0.5、0.25 或最高 0.5 的面積係數。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "德國 WoFlV §4 將淨高至少 2 m 的面積全額計入，1–2 m 高的面積以一半計入。",
+        "effect_or_value": "室內淨高 ≥2 m：100%；1–<2 m：50%；陽台／露台：通常 25%，最高 50%",
+        "study_design": "跨地域設計參照綜整；數值狀態依 claim_verification 註記",
+        "context_region": "Germany；Wohnflächenverordnung §4",
+        "library_id": "GER_WOFLV",
+        "locator": "§4",
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "German WoFlV area factors",
+      "range": "室內淨高 ≥2 m：100%；1–<2 m：50%；陽台／露台：通常 25%，最高 50%",
+      "unit": "計入面積比例",
+      "context": "地區：Germany；用途：德國 WoFlV 下住宅面積計算，不是住宅尺寸最小值；出處：Verordnung zur Berechnung der Wohnfläche (Wohnflächenverordnung – WoFlV)；本基地法規：否；核對狀態：官方頁面直接讀取。",
+      "library_id": "GER_WOFLV"
+    }
+  ],
+  "design_implications_zh": [
+    "分區量測室內淨高和戶外空間類型，按 §4 設定折算欄位後才加總 Wohnfläche。"
+  ],
+  "applies_when_zh": "「德國住宅面積按高度與露台類別折算」可在用於方案前期的量體、平面或空間品質篩檢時使用，前提是德國 WoFlV §4 將淨高至少 2 m 的面積全額計入，1–2 m 高的面積以一半計入與來源情境相符。",
+  "not_applicable_when_zh": "若德國 WoFlV §4 將淨高至少 2 m 的面積全額計入，1–2 m 高的面積以一半計入不成立，就不能把「德國住宅面積按高度與露台類別折算」的結論延伸到其他情況；不得單獨作為許可、消防、結構或基地法規判定。",
+  "debates_zh": "市場或補貼用途可能另有計算規則，不能把 WoFlV 面積直接和英格蘭 GIA 對比。",
+  "sources": [
+    {
+      "library_id": "GER_WOFLV",
+      "claim_id": "C1",
+      "locator": "§4"
+    },
+    {
+      "library_id": "DEVOS2022",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "claim_verification": "ABSTRACT_REVIEW",
+  "tradition": "建築設計與住宅類型學",
+  "region": "Germany；Wohnflächenverordnung §4",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Housing and the City / Design of the Urban Fabric",
+      "topic": "建築尺度與住宅平面"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "建築尺度與街道界面"
+    },
+    {
+      "school": "MIT",
+      "course": "Architecture and Urban Design",
+      "topic": "建築尺度與空間型態"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "建築尺度與公共生活"
+    }
+  ],
+  "check": {
+    "method_zh": "按官方 §4 對每個多邊形區域分類高度及用途，逐項套用 1、0.5、0.25 或最高 0.5 的面積係數。",
+    "inputs": [
+      "跨國住宅標準",
+      "尺寸／面積圖層",
+      "適用地區與用途標籤"
+    ],
+    "logic_zh": "將量測輸入轉成明確尺寸、比例或空間關係；越界只觸發複核，不自動取代設計決策。",
+    "limitations_zh": "量測結果只觸發「德國住宅面積按高度與露台類別折算」的複核，不得單獨作為許可或法規判定。"
+  },
+  "version": "kb2-arc-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-ARC-076",
+    "KU-ARC-077",
+    "KU-ARC-079"
+  ]
+}

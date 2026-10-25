@@ -1,0 +1,84 @@
+{
+  "id": "LAN-005",
+  "title_zh": "各方位用途與介面",
+  "title_en": "Directional land-use interfaces",
+  "domain": "land_use",
+  "stages": [
+    "S2",
+    "S3",
+    "S6",
+    "S7",
+    "S8"
+  ],
+  "statement_zh": "以基地 centroid 方位分段、外側 buffer 用途分母和入口位置生成各側摘要；說明座標北向及不規則基地分段限制。",
+  "rationale_zh": "混合用途、路網及密度需聯讀；總用途比例無法代表每一側面對的情境。",
+  "applies_when": {},
+  "parameters": [
+    {
+      "name": "interface_buffer_trial",
+      "value": 200,
+      "range": null,
+      "unit": "m",
+      "provenance": "ASSUMED_COMMANDER",
+      "source_ids": [],
+      "authority_ref": null,
+      "status": "PROPOSED_PENDING_FOUNDER",
+      "rationale_zh": "指揮官提出的敏感性試算值，文獻未提供此數值；須 Founder 確認、地方資料及確定性驗證，未生效。"
+    }
+  ],
+  "check": {
+    "method_zh": "依規則逐項輸出對照表、輸入版本、定義、數值／未知及替代方案；實際計算由確定性工具負責。",
+    "inputs": [
+      "凍結基地、模式路網及用途／政策資料",
+      "已接受條件、卡片版本與試算參數"
+    ],
+    "output": "可比較的診斷與設計回應；沒有觀測或校準不輸出人數或法定結論。",
+    "implementation_status": "SPECIFICATION_ONLY"
+  },
+  "check_unavailable_reason_zh": null,
+  "design_responses": [
+    {
+      "option": "1",
+      "action_zh": "回應住宅側的入口與安靜活動",
+      "source_ids": [
+        "YE14"
+      ],
+      "tradeoff_zh": "改善鄰近使用者介面，可能限制夜間產業活動。"
+    },
+    {
+      "option": "2",
+      "action_zh": "保留工業側的服務物流介面",
+      "source_ids": [
+        "GEURS04"
+      ],
+      "tradeoff_zh": "保障生產，但須避免壓縮住宅與行人的安全。"
+    }
+  ],
+  "evidence_level": "ACADEMIC",
+  "evidence_strength": "MIXED",
+  "sources": [
+    {
+      "library_id": "YE14",
+      "claim_id": "C1",
+      "support_scope_zh": "文獻支持概念與比較角度；本卡具體操作是設計推導，試算值及專案約束不是文獻的普適結論。"
+    },
+    {
+      "library_id": "GEURS04",
+      "claim_id": "C1",
+      "support_scope_zh": "文獻支持概念與比較角度；本卡具體操作是設計推導，試算值及專案約束不是文獻的普適結論。"
+    },
+    {
+      "library_id": "DOVEY14",
+      "claim_id": "C1",
+      "support_scope_zh": "文獻支持概念與比較角度；本卡具體操作是設計推導，試算值及專案約束不是文獻的普適結論。"
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "enforcement": "CANDIDATE_ONLY",
+  "authority_ref": null,
+  "local_context_refs": [],
+  "debates_zh": "上述做法是文獻引導的設計推導，兩種方案各有代價；不得以某一方法、作者或地域替 Founder 決定。",
+  "context_validity_zh": "文獻地域與方法見 library；跨地域只能借用比較框架，數值須本地量測、校準與審核。",
+  "exceptions_zh": "法規、門禁、資料缺口、無障礙及已接受 D1/D2 優先；資料不足列 UNKNOWN，試算參數須 Founder 確認。",
+  "version": "0.2.0"
+}

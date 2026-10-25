@@ -1,0 +1,389 @@
+{
+  "id": "fabric.closed_block_extension",
+  "names": {
+    "zh": "圍合街廓延伸",
+    "en": "Closed Block Extension"
+  },
+  "concept_zh": "圍合街廓延伸先從相鄰城區讀取街道方向、路口節奏、街牆高度和地塊界面，再以連續臨街建築形成清楚的公共空間邊界。街廓內部由院落、通道或小型公共空間消化採光與穿越需求；既有街道是主要生成線，不以單一大型量體取代周邊城市紋理。本文尺寸是設計包絡，量測先例只支撐密度參照。",
+  "when_to_use_zh": "適用於邊界直接接上既有住宅或混合街區、街道方向可延續且基地能被分成一般街廓的情境；尤其適合修補空缺地段、接續周邊街牆與維持多個臨街入口。",
+  "when_not_to_use_zh": "若基地被大型物流、鐵道或水岸切成長條，或高差及保留建築使完整周邊式街牆無法形成，不應追求每側全封閉；若公共性必須穿過街廓內部，也要明確畫通路與開放時間，不能以住宅內院冒充公共空間。",
+  "height_cap_adaptation_zh": "20 m 高度上限下以中尺度周邊式街牆和內院為主，約控制在 4–5 層；內院側可降低一至數層或退台，依日照與通風檢核調整。樓層數須按首層用途、樓層高度和實際法規校核。（本基地首層 4 m、標準層 3.5 m：5 層＝18 m 為上限，6 層＝21.5 m 會超過 20 m）",
+  "street_network": {
+    "pattern": "deformed_grid",
+    "orientation_rule_zh": "延續相鄰城區主要街道和路口方向；只在保留建築、樹列或地形迫使時輕微偏轉，讓新街道仍能與外部路口對接。",
+    "street_width_building_gap_proxy_m": {
+      "p25": 41.84,
+      "median": 55.64,
+      "p75": 63.1,
+      "unit": "m",
+      "status": "MEASURED_PRECEDENT_PROXY",
+      "basis_zh": "阿姆斯特丹舊南區 的建築外牆最近點間距：P25 41.84 m、中位數 55.64 m、P75 63.1 m（KU-MOR-096）。數值含建築退縮，是外牆間距代理，不是法定路權、車道淨寬或道路斷面；道路幾何仍需另測。",
+      "ku_ids": [
+        "KU-MOR-096"
+      ]
+    },
+    "hierarchy": [
+      {
+        "name_zh": "延續主街",
+        "section_width_m": {
+          "minimum": 14,
+          "maximum": 18,
+          "unit": "m"
+        },
+        "modes": [
+          "步行",
+          "自行車",
+          "汽車",
+          "服務"
+        ],
+        "spacing_m": {
+          "minimum": 120,
+          "maximum": 180,
+          "unit": "m"
+        },
+        "status": "EDITORIAL",
+        "basis_zh": "KB4 案例未提供法定路幅；此範圍是連接既有街道和安排雙側街廓時的設計包絡，仍須按規範及服務需求校核。"
+      },
+      {
+        "name_zh": "街廓次街",
+        "section_width_m": {
+          "minimum": 10,
+          "maximum": 14,
+          "unit": "m"
+        },
+        "modes": [
+          "步行",
+          "自行車",
+          "汽車",
+          "服務"
+        ],
+        "spacing_m": {
+          "minimum": 60,
+          "maximum": 100,
+          "unit": "m"
+        },
+        "status": "EDITORIAL",
+        "basis_zh": "道路中心線間距未由案例庫統計；以每個步行街廓保持多個轉角和入口為繪圖控制。"
+      },
+      {
+        "name_zh": "院落通巷",
+        "section_width_m": {
+          "minimum": 4,
+          "maximum": 7,
+          "unit": "m"
+        },
+        "modes": [
+          "步行",
+          "自行車",
+          "服務"
+        ],
+        "spacing_m": {
+          "minimum": 30,
+          "maximum": 60,
+          "unit": "m"
+        },
+        "status": "EDITORIAL",
+        "basis_zh": "通巷寬度與間距是院落和消防動線草圖範圍，並非 Spangen 或 Oud-Zuid 實測道路尺寸。"
+      }
+    ],
+    "connection_rule_zh": "每條外部既有街道都要在邊界找到連續的行人入口；主要道路沿線延續路口，不在鄰接街道端點形成盲端。車輛服務入口集中在次街或巷道，公共穿越路徑與住戶專用院落分層標示。"
+  },
+  "blocks": {
+    "short_edge_m": {
+      "minimum": 64.9,
+      "maximum": 64.9,
+      "unit": "m",
+      "basis": {
+        "status": "MEASURED_PRECEDENT_DERIVED",
+        "note_zh": "Spangen：完整街廓 n=3、面積中位數 6,666.63 m²；以交叉口間街段長 P75 102.68 m 作暫定長邊代理，短邊=6,666.63÷102.68=64.92 m，落在邊長 P25–P75（15.81–102.68 m）內，推估 64.9×102.7 m。Oud-Zuid 候選短邊約 35.0 m，低於 P25 35.38 m 約 0.38 m；Dalmannkai 無完整街廓面積中位數，均不納入。僅 Spangen 合格，推估點非跨案設計區間。",
+        "ku_ids": [
+          "KU-MOR-088"
+        ]
+      }
+    },
+    "long_edge_m": {
+      "minimum": 102.7,
+      "maximum": 102.7,
+      "unit": "m",
+      "basis": {
+        "status": "MEASURED_PRECEDENT_DERIVED",
+        "note_zh": "Spangen：完整街廓 n=3、面積中位數 6,666.63 m²；以交叉口間街段長 P75 102.68 m 作暫定長邊代理，短邊=6,666.63÷102.68=64.92 m，落在邊長 P25–P75（15.81–102.68 m）內，推估 64.9×102.7 m。Oud-Zuid 候選短邊約 35.0 m，低於 P25 35.38 m 約 0.38 m；Dalmannkai 無完整街廓面積中位數，均不納入。僅 Spangen 合格，推估點非跨案設計區間。",
+        "ku_ids": [
+          "KU-MOR-088"
+        ]
+      }
+    },
+    "shape_rule_zh": "先以相鄰道路延長線切出近矩形街廓，長短邊接近垂直；基地轉角若形成銳角，切角或退縮成可用公共空間，街牆在轉角連續但不得堵住視線及路口穿越。",
+    "plot_subdivision_zh": "住宅地塊以 6–12 m 臨街面寬作 EDITORIAL 起稿尺度，沿街逐戶或小組合併；大面寬公共建築需拆成多個可辨識入口。數字不是地籍調查或荷蘭法規，需按既有宗地與消防配置修正。"
+  },
+  "building_composition": {
+    "components": [
+      {
+        "part_id": "block.perimeter",
+        "recommended_share_percent": 65,
+        "share_denominator_zh": "以候選街廓數為分母；中尺度周邊式街廓的建議份額。",
+        "basis_zh": "鄰接 19 世紀周邊式街區時，延續街牆與院落是策略；Spangen/Oud-Zuid block_type_mix 未呈現周邊式主導，65% 是設計規則而非測值。"
+      },
+      {
+        "part_id": "block.hybrid",
+        "recommended_share_percent": 35,
+        "share_denominator_zh": "以候選街廓數為分母；混合街廓保留公共設施或開口。",
+        "basis_zh": "Spangen 有 1/3、Oud-Zuid 有 2/3 完整街廓列為混合／未分類；屬類型訊號，不直接當跨案建議占比。"
+      },
+      {
+        "part_id": "building.courtyard_closed",
+        "recommended_share_percent": 40,
+        "share_denominator_zh": "以建築地面足跡面積為分母；完整院落翼的起稿配置。",
+        "basis_zh": "Oud-Zuid 完整街廓類型有 1/3 為合院；40% 為周邊街牆內側院落原型建議，非 footprint 實測比例。"
+      },
+      {
+        "part_id": "building.terraced",
+        "recommended_share_percent": 45,
+        "share_denominator_zh": "以建築地面足跡面積為分母；連續臨街住宅翼的建議份額。",
+        "basis_zh": "中尺度周邊式需要連續街面，terraced 用於維持街牆並可向院內退縮；屬形態策略。"
+      },
+      {
+        "part_id": "building.i_slab",
+        "recommended_share_percent": 20,
+        "share_denominator_zh": "以建築地面足跡面積為分母；局部替代或保留量體。",
+        "basis_zh": "Spangen 完整街廓類型 2/3 為板樓；保留為局部量體選項，不把板樓實測訊號誤寫為周邊式。"
+      }
+    ],
+    "height_profile_zh": "沿主街建立連續中層街牆，內院側降低一至數層以取得日照與採光；主要廣場或既有地標處可局部退台。這是空間剖面策略，不是案例法定高度，不可只靠樓層平均數代替日照檢核。"
+  },
+  "open_space_system": {
+    "types": [
+      "space.courtyard",
+      "space.shared_street",
+      "space.plaza"
+    ],
+    "configuration_rule_zh": "每個街廓內先留出連續、可管理的採光院落；需要公眾穿越時另畫街道或通巷並標註開放權責。小廣場放在既有路口、公共設施入口或街道轉折，不把零碎後院加總成一座公園。",
+    "site_area_share_percent": {
+      "minimum": 12,
+      "maximum": 26,
+      "status": "EDITORIAL",
+      "basis_zh": "開放空間份額是院落與街道的設計預算，案例庫沒有完整院落及道路用地盤點；各項按同一基地分母互斥計算。"
+    }
+  },
+  "edges": [
+    {
+      "type": "waterfront",
+      "rule_zh": "若街區碰到水岸，將水邊步行帶獨立於圍合院落配置；保留面水通口，不以住宅院牆封住公共岸線。"
+    },
+    {
+      "type": "large_park",
+      "rule_zh": "街廓沿大型公園一側配置公共入口、轉角空地或可穿越段，街牆維持地址感但避免連續背牆。"
+    },
+    {
+      "type": "topographic_edge",
+      "rule_zh": "先在高差兩側各畫一條連續街道，再標出坡道、階梯及無障礙路徑；不可把圍合街牆貼住無法跨越的擋土邊。"
+    },
+    {
+      "type": "retained_building",
+      "rule_zh": "保留建築先按實測位置和入口固定，將其作為街廓內部公共節點或街角錨點，不因追求完整院落而假設可拆。"
+    },
+    {
+      "type": "existing_city_road",
+      "rule_zh": "把相鄰路口中心線和行人過街延續進基地；若需錯位，於街角畫明確轉向空間及可見入口，不製造封閉街廓端點。"
+    }
+  ],
+  "density_targets": {
+    "GSI": {
+      "range": {
+        "minimum": 0.4,
+        "maximum": 0.6
+      },
+      "unit": "dimensionless",
+      "basis": "街廓淨密度（街廓為分母）：19 世紀末至 20 世紀初周邊式街廓的 Spacematrix 常見範圍（BERGHAUSERPONT_HAUPT2020；一般專業知識）。原 KU-MOR-088 Spangen／KU-MOR-096 Oud-Zuid 研究窗值（GSI 0.17–0.26、FSI 0.94–1.13 下限）是含街道、公園與水岸的**地區毛密度**，且高度資料不全，不可當作街廓淨密度使用。",
+      "status": "LITERATURE"
+    },
+    "FSI": {
+      "range": {
+        "minimum": 1.6,
+        "maximum": 3.0
+      },
+      "unit": "dimensionless",
+      "basis": "街廓淨密度：4–6 層周邊式街廓常見範圍（BERGHAUSERPONT_HAUPT2020）。原 KU-MOR-088 Spangen／KU-MOR-096 Oud-Zuid 研究窗值（GSI 0.17–0.26、FSI 0.94–1.13 下限）是含街道、公園與水岸的**地區毛密度**，且高度資料不全，不可當作街廓淨密度使用。",
+      "status": "LITERATURE"
+    },
+    "L": {
+      "range": {
+        "minimum": 4.0,
+        "maximum": 5.5
+      },
+      "unit": "storeys",
+      "basis": "沿街 4–5 層、轉角與主街以 5 層（18 m）為上限；與 KU-MOR-088／096 觀察的 4.3–5.6 層一致。",
+      "status": "LITERATURE"
+    },
+    "OSR": {
+      "range": {
+        "minimum": 0.15,
+        "maximum": 0.35
+      },
+      "unit": "dimensionless",
+      "basis": "由上列淨 GSI 與 FSI 推導（OSR=(1−GSI)/FSI）；開放空間主要在內院。",
+      "status": "LITERATURE"
+    }
+  },
+  "drawing_steps": [
+    {
+      "order": 1,
+      "action_zh": "描出相鄰街道、路口、建築街牆、院落入口、地形和需保留的建築 footprint，標出每一條邊界的公共性。"
+    },
+    {
+      "order": 2,
+      "action_zh": "延伸相鄰主要道路方向到基地內，保留路口視線和行人過街線；只在障礙物處微調街道方向。"
+    },
+    {
+      "order": 3,
+      "action_zh": "先畫 14–18 m 主街，再以 10–14 m 次街切出街廓；需公共穿越時補 4–7 m 通巷並標示權責。"
+    },
+    {
+      "order": 4,
+      "action_zh": "用 60–100 m 短邊、80–140 m 長邊的 EDITORIAL 包絡檢查街廓，遇尖角先切角，不留尖端建築地塊。"
+    },
+    {
+      "order": 5,
+      "action_zh": "沿街牆分割 6–12 m 起稿面寬的宗地；保留既有宗地、入口與大型公共建築的多入口節奏。"
+    },
+    {
+      "order": 6,
+      "action_zh": "在街廓邊界放周邊式建築，確定轉角和街道界面後才畫院落；標出院落內外公共通路。"
+    },
+    {
+      "order": 7,
+      "action_zh": "配置院落、街角廣場與公園連接；檢查開放空間不是封閉私院，也沒有零碎無管理殘地。"
+    },
+    {
+      "order": 8,
+      "action_zh": "用同一陸地分母計算 GSI、FSI、L、OSR，對照 Spangen 與 Oud-Zuid 的測量範圍並註明其情境差異。"
+    }
+  ],
+  "land_use_budget": {
+    "roads": {
+      "minimum": 20,
+      "maximum": 26,
+      "unit": "percent_site_area",
+      "status": "EDITORIAL",
+      "basis_zh": "道路用地比例是街廓延伸草圖包絡，不是先例道路面積統計。"
+    },
+    "blocks": {
+      "minimum": 48,
+      "maximum": 58,
+      "unit": "percent_site_area",
+      "status": "EDITORIAL",
+      "basis_zh": "可建街廓用地須按同一基地分母扣除道路、公園和廣場。"
+    },
+    "parks": {
+      "minimum": 8,
+      "maximum": 14,
+      "unit": "percent_site_area",
+      "status": "EDITORIAL",
+      "basis_zh": "公園比例未由 KU-MOR-088/096 量測，依基地服務與既有綠地配置。"
+    },
+    "plazas": {
+      "minimum": 4,
+      "maximum": 8,
+      "unit": "percent_site_area",
+      "status": "EDITORIAL",
+      "basis_zh": "廣場比例是路口和公共設施前場的草圖預留值，不代表活動績效。"
+    },
+    "waterfront": {
+      "minimum": 0,
+      "maximum": 8,
+      "unit": "percent_site_area",
+      "status": "EDITORIAL",
+      "basis_zh": "僅在基地實際臨水時配置，無水岸時此類面積可轉作公園但不得重複加總。"
+    },
+    "service": {
+      "minimum": 3,
+      "maximum": 8,
+      "unit": "percent_site_area",
+      "status": "EDITORIAL",
+      "basis_zh": "服務空間需配合垃圾、消防及卸貨需求另行核算。"
+    }
+  },
+  "common_errors_zh": [
+    "只延伸外圍街道，不檢查路口是否真的接通。",
+    "把封閉私有院落畫成公園或公共穿越路徑。",
+    "每個街廓採完全相同面寬，抹除既有街道和宗地差異。",
+    "尖角地塊內縮後留下尖角量體或狹窄採光縫。",
+    "把街牆連續誤當成所有街廓都必須全封閉。",
+    "留下沒有機能、入口或管理責任的未配置土地。"
+  ],
+  "precedents": [
+    {
+      "name_zh": "斯潘根／尤斯圖斯・范・埃芬區",
+      "ku_id": "KU-MOR-088",
+      "measurements": [
+        {
+          "metric": "GSI",
+          "value": 0.263,
+          "unit": "dimensionless",
+          "status": "MEASURED_PRECEDENT",
+          "limitation_zh": "研究窗陸地指標，不等於單一建築街廓指標。"
+        },
+        {
+          "metric": "FSI",
+          "value": 1.1318,
+          "unit": "dimensionless",
+          "status": "MEASURED_PRECEDENT",
+          "limitation_zh": "已知樓地板面積下限；高度資料缺漏及來源依 KU-MOR-088 說明。"
+        }
+      ],
+      "borrow_zh": "借用可辨認的周邊街牆、街廓院落關係及保留一座公共院落作為內部節點的讀圖方式。",
+      "do_not_borrow_zh": "不把研究窗街廓計數當成完整街廓軸向尺寸，也不把歷史社會組織直接套入新基地。"
+    },
+    {
+      "name_zh": "阿姆斯特丹舊南區",
+      "ku_id": "KU-MOR-096",
+      "measurements": [
+        {
+          "metric": "GSI",
+          "value": 0.1684,
+          "unit": "dimensionless",
+          "status": "MEASURED_PRECEDENT",
+          "limitation_zh": "研究窗含水分母已扣除映射水域，仍不是全區普查。"
+        },
+        {
+          "metric": "FSI",
+          "value": 0.9387,
+          "unit": "dimensionless",
+          "status": "MEASURED_PRECEDENT",
+          "limitation_zh": "通過案例可比門檻的已知樓地板面積下限。"
+        }
+      ],
+      "borrow_zh": "借用轉角連續街牆、住宅臨街界面和清楚內院邊界的組合問題。",
+      "do_not_borrow_zh": "不把外牆間距當作道路寬度，也不把低 GSI 解讀為應在任何基地降低密度。"
+    },
+    {
+      "name_zh": "漢堡港城／達爾曼碼頭",
+      "ku_id": "KU-MOR-090",
+      "measurements": [
+        {
+          "metric": "GSI",
+          "value": 0.2526,
+          "unit": "dimensionless",
+          "status": "MEASURED_PRECEDENT",
+          "limitation_zh": "研究窗 GSI 可讀；FSI 高度缺值下限不可跨案比較。"
+        },
+        {
+          "metric": "FSI",
+          "value": 1.1489,
+          "unit": "dimensionless",
+          "status": "LOWER_BOUND_NONCOMPARABLE",
+          "limitation_zh": "已知量體下限且不可比較，不能作為設計目標。"
+        }
+      ],
+      "borrow_zh": "借用水岸街廓如何接入既有城市方向的問題。",
+      "do_not_borrow_zh": "不借用單一研究窗尺寸作圍合街廓模數，也不採用不可比較的 FSI。"
+    }
+  ],
+  "sources": [
+    "OSM_KB4_PRECEDENTS",
+    "3DBAG_KB4_HEIGHTS",
+    "BILJECKI2022",
+    "BRINKMANN2009_SPANGEN",
+    "KOSHIZAWA1991_ZUID"
+  ]
+}

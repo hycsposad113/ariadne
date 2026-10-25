@@ -1,0 +1,61 @@
+{
+  "id": "KU-GRN-005",
+  "domain": "GRN",
+  "subtopic": "公園類型與階層",
+  "type": "design_principle",
+  "title_zh": "運動公園需連接日常路線",
+  "title_en": "Sports parks need everyday connections",
+  "summary_zh": "專門運動設施吸引使用者，但可能在非活動時段形成低使用邊界。周邊步行路線、看台和開放草地有助把單一設施連入日常活動。團體預約和照明管理會改變場地的公共性。專業運動要求和非正式使用權可能發生衝突。",
+  "key_points_zh": [
+    "專門運動設施吸引使用者，但可能在非活動時段形成低使用邊界",
+    "周邊步行路線、看台和開放草地有助把單一設施連入日常活動"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "專門運動設施吸引使用者，但可能在非活動時段形成低使用邊界。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "美國",
+        "library_id": "MCHARG69",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "專業運動要求和非正式使用權可能發生衝突。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "把團體活動時段與自由使用時段分開評估。"
+  ],
+  "applies_when_zh": "適用於大型運動場地更新。",
+  "not_applicable_when_zh": "不應將團體預訂容量等同日常可用空間。",
+  "debates_zh": "專業運動要求和非正式使用權可能發生衝突。",
+  "sources": [
+    {
+      "library_id": "MCHARG69",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "MULLER10",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "景觀生態與疊圖規劃",
+  "region": "美國",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "公園類型與階層"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-GRN-004",
+    "KU-GRN-006"
+  ]
+}

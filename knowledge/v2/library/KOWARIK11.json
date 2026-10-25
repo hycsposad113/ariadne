@@ -1,0 +1,44 @@
+{
+  "id": "KOWARIK11",
+  "title": "Novel urban ecosystems, biodiversity, and conservation",
+  "authors": [
+    "Ingo Kowarik"
+  ],
+  "year": 2011,
+  "venue_or_publisher": "Environmental Pollution",
+  "doi": "https://doi.org/10.1016/j.envpol.2011.02.022",
+  "isbn": null,
+  "crossref_id": "https://doi.org/10.1016/j.envpol.2011.02.022",
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "新型都市生態系與保育",
+  "region": [
+    "德國",
+    "西歐"
+  ],
+  "method": "保育概念論述",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "文章將新型都市生態系納入保育討論；人為形成不代表生態價值必然為零，保育對象仍須按物種、過程與場所證據判斷。",
+      "strength": "THEORETICAL",
+      "scope_zh": "德國／歐洲都市生態；主張限於此來源的研究設計與樣本，不外推為本基地規範。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref",
+    "query": {
+      "title": "Novel urban ecosystems, biodiversity, and conservation",
+      "author": "Ingo Kowarik",
+      "year": 2011
+    },
+    "matched_record_id": "https://doi.org/10.1016/j.envpol.2011.02.022",
+    "checked_at_utc": "2026-10-08T09:55:33Z",
+    "match_notes_zh": "核對 Crossref 回傳書名、主要作者、出版年與 DOI；摘要只在實際取得並閱讀的論文上標 ABSTRACT_REVIEW。"
+  },
+  "limitations_zh": "德國／歐洲都市生態；書目核對不替代完整論文審查。",
+  "critique_relationship_zh": "此條目的批評連結供編者並讀，不宣稱存在直接互引。",
+  "metadata_licence_zh": "僅保存公開書目欄位與自行撰寫的摘要；未保存摘要原文，metadata 授權未單獨核定。"
+}

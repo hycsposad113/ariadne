@@ -1,0 +1,84 @@
+{
+  "id": "CTX-003",
+  "title_zh": "水岸高度與公共面",
+  "title_en": "Waterfront response",
+  "domain": "context_response",
+  "stages": [
+    "S2",
+    "S3",
+    "S6",
+    "S7",
+    "S8"
+  ],
+  "statement_zh": "水岸界面保留已接受退縮與連續公共路徑；比較低層開放面與後退較高量體，不編造退縮數值或洪水標高。",
+  "rationale_zh": "水岸散步與港區作業需要明確分界和可用連結。",
+  "applies_when": {
+    "context": [
+      "waterfront"
+    ]
+  },
+  "parameters": [
+    {
+      "name": "waterfront_height_variants",
+      "value": 3,
+      "range": null,
+      "unit": "variants",
+      "provenance": "ASSUMED_COMMANDER",
+      "source_ids": [],
+      "authority_ref": null,
+      "status": "PROPOSED_PENDING_FOUNDER",
+      "rationale_zh": "指揮官提出的敏感性試算值，文獻未提供此數值；須 Founder 確認、地方資料及確定性驗證，未生效。"
+    }
+  ],
+  "check": {
+    "method_zh": "依已接受退縮驗證幾何；洪水／水岸權利 TODO_SOURCE。",
+    "inputs": [
+      "凍結幾何／路網與 hash",
+      "已接受專案條件與版本",
+      "卡片參數與版本"
+    ],
+    "output": "檢查值、單位、方法、有效性、差異與限制；不自動採納",
+    "implementation_status": "SPECIFICATION_ONLY"
+  },
+  "check_unavailable_reason_zh": null,
+  "design_responses": [
+    {
+      "option": "1",
+      "action_zh": "低層水岸加後排量體",
+      "source_ids": [
+        "NG10"
+      ],
+      "tradeoff_zh": "後排仍可能遮陰。"
+    },
+    {
+      "option": "2",
+      "action_zh": "可淹沒景觀前場",
+      "source_ids": [
+        "AHERN11"
+      ],
+      "tradeoff_zh": "污染、潮汐與安全未驗。"
+    }
+  ],
+  "evidence_level": "ACADEMIC",
+  "evidence_strength": "THEORETICAL",
+  "sources": [
+    {
+      "library_id": "AHERN11",
+      "claim_id": "C1",
+      "support_scope_zh": "文獻支持概念與比較角度；本卡具體操作是設計推導，試算值及專案約束不是文獻的普適結論。"
+    },
+    {
+      "library_id": "NG10",
+      "claim_id": "C1",
+      "support_scope_zh": "文獻支持概念與比較角度；本卡具體操作是設計推導，試算值及專案約束不是文獻的普適結論。"
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "enforcement": "CANDIDATE_ONLY",
+  "authority_ref": null,
+  "debates_zh": "地形意象、日照與公共可達可能互相衝突；作品集是候選策略，資料缺口不能填成效果。 已查證書目與主張的查閱層級見 library；不是逐頁核驗或本基地因果結論。",
+  "context_validity_zh": "亞洲高密度與英美認知研究可供比較，M4H 的 Dakpark 高程、產權與水岸風險需要地方證據。",
+  "exceptions_zh": "卡片不可替代現行法規、產權、無障礙或已接受 D1/D2。缺必要資料即回報 UNKNOWN；例外須由 Founder 明確決定並保留原結果。",
+  "version": "0.2.0",
+  "local_context_refs": []
+}

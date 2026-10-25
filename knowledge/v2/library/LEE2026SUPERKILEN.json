@@ -1,0 +1,42 @@
+{
+  "id": "LEE2026SUPERKILEN",
+  "title": "A Study on the Attraction Staging Characteristics for the Activation of Street Spaces as Urban Public Spaces : Focus on the Superkilen Case in Copenhagen, Denmark",
+  "authors": [
+    "Yong-Ju Lee"
+  ],
+  "year": 2026,
+  "venue_or_publisher": "PLUS URBAN DESIGN ASSOCIATION",
+  "doi": "https://doi.org/10.69913/udj.2026.08.8.2.66",
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "公共空間策展與街道活動",
+  "region": "丹麥哥本哈根 Nørrebro",
+  "method": "Crossref 書目資料確認到文獻種類與題目範圍；全文方法未由本次核讀",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "論文題目以 Superkilen 為例研究街道空間中的吸引物編排。",
+      "strength": "CASE_EVIDENCE",
+      "scope_zh": "Crossref 記錄包含一筆空白作者欄位；本記錄省略該空欄，只列出可讀作者姓名。未引用未核讀的研究結論。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref",
+    "query": {
+      "title": "A Study on the Attraction Staging Characteristics for the Activation of Street Spaces as Urban Public Spaces : Focus on the Superkilen Case in Copenhagen, Denmark",
+      "author": "Yong-Ju Lee",
+      "year": 2026,
+      "api_query": "Crossref GET /works/10.69913/udj.2026.08.8.2.66"
+    },
+    "matched_record_id": "10.69913/udj.2026.08.8.2.66",
+    "checked_at_utc": "2026-10-08T14:40:02Z",
+    "match_notes_zh": "Crossref 公開書目欄位核對題名、作者、年份與 DOI；未保存 API 摘要。"
+  },
+  "limitations_zh": "書目範圍確認不等於研究發現、方法、因果或數值已全文核查。",
+  "critique_relationship_zh": "本記錄不宣稱與其他文獻存在直接互引或逐一反駁。",
+  "metadata_licence_zh": "Crossref 公開書目欄位；精確 metadata 授權未核驗，標 UNKNOWN。"
+}

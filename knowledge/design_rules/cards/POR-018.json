@@ -1,0 +1,101 @@
+{
+  "id": "POR-018",
+  "title_zh": "標準層高僅試算",
+  "title_en": "Indicative floor height",
+  "domain": "portfolio",
+  "stages": [
+    "S2",
+    "S3",
+    "S4",
+    "S6",
+    "S7",
+    "S8"
+  ],
+  "statement_zh": "使用約3.5 m 層高估算新建候選層數，混合用途可另提層高；不得用樓層乘法取代量測高度與逐層GFA。",
+  "rationale_zh": "工坊、住宅和設施淨高不同，統一層高可能無法使用。",
+  "applies_when": {
+    "scale": [
+      "*"
+    ],
+    "land_use": [
+      "*"
+    ],
+    "strategy": [
+      "*"
+    ],
+    "mode": [
+      "*"
+    ]
+  },
+  "parameters": [
+    {
+      "name": "indicative_floor_height",
+      "value": 3.5,
+      "range": null,
+      "unit": "m",
+      "provenance": "ASSUMED_COMMANDER",
+      "source_ids": [],
+      "status": "PROPOSED_PENDING_FOUNDER",
+      "rationale_zh": "派工提供 p24；非法定或各用途通用層高。 原數字保留；來源是作品集轉述或專案假設，未經公開書目佐證，不視為研究或實測。",
+      "authority_ref": null
+    }
+  ],
+  "check": {
+    "method_zh": "以候選分層高度計算總高及逐層GFA，再核對20 m；3.5 m僅試算，不能覆寫已接受用途層高或實測高度。",
+    "inputs": [
+      "凍結幾何與路網版本／hash",
+      "已接受D1/D2與准入證據",
+      "卡片參數與版本"
+    ],
+    "output": "值、單位、方法、status、限制與缺口；不能自行採納",
+    "implementation_status": "SPECIFICATION_ONLY"
+  },
+  "check_unavailable_reason_zh": null,
+  "design_responses": [
+    {
+      "option": "1",
+      "action_zh": "3.5 m 等層試算",
+      "source_ids": [
+        "SPACEMATRIX10"
+      ],
+      "tradeoff_zh": "只適合早期量體。 作品集提供設計意圖，學術引用僅為類似概念的佐證，未驗證作品集本身。"
+    },
+    {
+      "option": "2",
+      "action_zh": "首層較高與上層分開試算",
+      "source_ids": [
+        "NG10"
+      ],
+      "tradeoff_zh": "總層數可能減少。 作品集提供設計意圖，學術引用僅為類似概念的佐證，未驗證作品集本身。"
+    }
+  ],
+  "evidence_level": "PORTFOLIO",
+  "evidence_strength": "NORMATIVE_PRACTICE",
+  "sources": [
+    {
+      "library_id": "SPACEMATRIX10",
+      "claim_id": "C1",
+      "support_scope_zh": "文獻支持概念與比較角度；本卡具體操作是設計推導，試算值及專案約束不是文獻的普適結論。"
+    },
+    {
+      "library_id": "NG10",
+      "claim_id": "C1",
+      "support_scope_zh": "文獻支持概念與比較角度；本卡具體操作是設計推導，試算值及專案約束不是文獻的普適結論。"
+    },
+    {
+      "library_id": "DOUGLAS06",
+      "claim_id": "C1",
+      "support_scope_zh": "獨立的密度比較或建築適應觀點，用來比較量體及使用條件；不支持本卡的高度、層高或日照試算數字。"
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "enforcement": "CANDIDATE_ONLY",
+  "authority_ref": null,
+  "debates_zh": "作品集構想可用於提出選項，學術來源提供比較概念而非該設計的驗證；相反取向保留給設計者比較。 已查證書目與主張的查閱層級見 library；不是逐頁核驗或本基地因果結論。",
+  "context_validity_zh": "作品集為 M4H 個案；引用的外地研究只支持概念，不能證明本案營運、權利、性能或偏好。",
+  "exceptions_zh": "卡片不可替代現行法規、產權、無障礙或已接受 D1/D2。缺必要資料即回報 UNKNOWN；例外須由 Founder 明確決定並保留原結果。",
+  "version": "0.2.0",
+  "local_context_refs": [
+    "PORTFOLIO"
+  ]
+}

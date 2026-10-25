@@ -1,0 +1,103 @@
+{
+  "id": "PUB-005",
+  "title_zh": "公共空間公平與控制",
+  "title_en": "Public access and control",
+  "domain": "public_space",
+  "stages": [
+    "S3",
+    "S4",
+    "S6",
+    "S7",
+    "S8"
+  ],
+  "statement_zh": "每個開放空間列 public/shared/private/unknown、開放時段與管理者資料缺口；漂亮圖面不能證明公共使用權。",
+  "rationale_zh": "工人、居民、兒童與非消費者都應被考慮。",
+  "applies_when": {
+    "scale": [
+      "*"
+    ],
+    "land_use": [
+      "*"
+    ],
+    "strategy": [
+      "*"
+    ],
+    "mode": [
+      "*"
+    ]
+  },
+  "parameters": [
+    {
+      "name": "public_access_hours_trial",
+      "value": 24,
+      "range": null,
+      "unit": "h/day",
+      "provenance": "ASSUMED_COMMANDER",
+      "source_ids": [],
+      "authority_ref": null,
+      "status": "PROPOSED_PENDING_FOUNDER",
+      "rationale_zh": "指揮官提出的敏感性試算值，文獻未提供此數值；須 Founder 確認、地方資料及確定性驗證，未生效。"
+    }
+  ],
+  "check": {
+    "method_zh": "逐空間列權利證據與未知，缺證據不得標已確認公共。",
+    "inputs": [
+      "凍結幾何／路網與 hash",
+      "已接受專案條件與版本",
+      "卡片參數與版本"
+    ],
+    "output": "檢查值、單位、方法、有效性、差異與限制；不自動採納",
+    "implementation_status": "SPECIFICATION_ONLY"
+  },
+  "check_unavailable_reason_zh": null,
+  "design_responses": [
+    {
+      "option": "1",
+      "action_zh": "公開公共空間與非消費坐處",
+      "source_ids": [
+        "FANSTEIN10"
+      ],
+      "tradeoff_zh": "需要持續公共維護。"
+    },
+    {
+      "option": "2",
+      "action_zh": "住戶共管庭院加公共通道",
+      "source_ids": [
+        "HABRAKEN98"
+      ],
+      "tradeoff_zh": "通道權利與排他風險。"
+    }
+  ],
+  "evidence_level": "ACADEMIC",
+  "evidence_strength": "NORMATIVE_PRACTICE",
+  "sources": [
+    {
+      "library_id": "FANSTEIN10",
+      "claim_id": "C1",
+      "support_scope_zh": "文獻支持概念與比較角度；本卡具體操作是設計推導，試算值及專案約束不是文獻的普適結論。"
+    },
+    {
+      "library_id": "HABRAKEN98",
+      "claim_id": "C1",
+      "support_scope_zh": "文獻支持概念與比較角度；本卡具體操作是設計推導，試算值及專案約束不是文獻的普適結論。"
+    },
+    {
+      "library_id": "CARMONA10",
+      "claim_id": "C1",
+      "support_scope_zh": "文獻支持概念與比較角度；本卡具體操作是設計推導，試算值及專案約束不是文獻的普適結論。"
+    },
+    {
+      "library_id": "LOW05",
+      "claim_id": "C1",
+      "support_scope_zh": "文獻支持概念與比較角度；本卡具體操作是設計推導，試算值及專案約束不是文獻的普適結論。"
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "enforcement": "CANDIDATE_ONLY",
+  "authority_ref": null,
+  "debates_zh": "公共生活觀察與場所意象不等同普適處方；氣候、階級、性別、管理與使用時段改變結果。原書未逐頁核對。 已查證書目與主張的查閱層級見 library；不是逐頁核驗或本基地因果結論。",
+  "context_validity_zh": "美國小空間與丹麥公共生活經驗可提出試案；港區工人、居民與騎行者的 M4H 使用行為仍未知。",
+  "exceptions_zh": "卡片不可替代現行法規、產權、無障礙或已接受 D1/D2。缺必要資料即回報 UNKNOWN；例外須由 Founder 明確決定並保留原結果。",
+  "version": "0.2.0",
+  "local_context_refs": []
+}

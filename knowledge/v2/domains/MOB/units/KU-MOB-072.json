@@ -1,0 +1,82 @@
+{
+  "id": "KU-MOB-072",
+  "domain": "MOB",
+  "subtopic": "無車區與物流",
+  "type": "value_range",
+  "title_zh": "低車社區受訪者減少汽車持有比例",
+  "title_en": "Respondents reducing car ownership in a low-car neighbourhood",
+  "summary_zh": "該研究摘要指出，約 16% 的受訪搬遷者減少汽車持有。這是受訪者比例，不等於整個社區的車輛減量，也沒有排除家庭變化和居住自我選擇。它提供的是一個案例量級。此處的受訪者減少家庭汽車持有的比例是附來源的比較參照，不是本基地法規。",
+  "key_points_zh": [
+    "16% 是受訪搬遷者中的變化比例。",
+    "減少一輛車和完全無車是不同的結果類別。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "摘要報告約 16% 受訪者減少汽車持有；結果是搬遷者觀察，非隨機介入。",
+        "library_id": "KLEIN26",
+        "claim_verification": "ABSTRACT_REVIEW",
+        "effect_or_value": "16%",
+        "study_design": "準縱向住戶研究；339 位搬遷者",
+        "context_region": "德國 Darmstadt",
+        "locator": null
+      },
+      {
+        "claim_zh": "建成環境和個人出行選擇相互作用，不宜把密度視為單一原因。",
+        "library_id": "CERVERO97",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "建成環境—旅運研究",
+        "context_region": "美國",
+        "locator": null
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "受訪者減少家庭汽車持有的比例",
+      "range": "16%",
+      "unit": "受訪者比例",
+      "context": "德國 Lincoln car-reduced neighborhood 搬遷者調查；用途：描述部分受訪住戶搬遷前後車輛變化；需保留樣本與回憶限制。；「受訪者減少家庭汽車持有的比例」僅供來源脈絡內的比較，不是本基地法規、M4H 門檻或通用配額。",
+      "library_id": "KLEIN26"
+    }
+  ],
+  "design_implications_zh": [
+    "評估低車社區時，分開記錄家庭車輛數、是否無車和出行模式的前後變化。"
+  ],
+  "applies_when_zh": "評估低車住宅的車輛持有時，分開報告完全無車、減少車輛和出行模式變化。",
+  "not_applicable_when_zh": "此值不能用作預測比例或交通減碳效果。",
+  "debates_zh": "不同家庭的搬遷原因和服務需求會影響車輛持有，且自陳變化不等於獨立觀察。",
+  "sources": [
+    {
+      "library_id": "KLEIN26",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "CERVERO97",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "低車社區與建成環境研究",
+  "region": "德國 Lincoln car-reduced neighborhood 搬遷者調查",
+  "curriculum_refs": [
+    {
+      "school": "Harvard GSD",
+      "course": "Urban Design Contexts and Operations",
+      "topic": "無車區與物流：課綱對應主題"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "無車區與物流：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-MOB-059"
+  ]
+}

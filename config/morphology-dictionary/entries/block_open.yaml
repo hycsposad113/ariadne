@@ -1,0 +1,370 @@
+{
+  "schema_version": "1.0.0",
+  "id": "block.open",
+  "names": {
+    "en": "Open block / îlot ouvert",
+    "zh": "開放街廓／îlot ouvert"
+  },
+  "level": "block_assembly",
+  "diagram_kind": "open_block",
+  "description_zh": "以分散體量與街廓開口形成內外連接，仍需定義哪些通路真正公共。",
+  "parameter_basis": {
+    "status": "EDITORIAL",
+    "profile_id": "EDITORIAL_ENVELOPE_V2",
+    "note_zh": "V2 參數是較窄的設計起稿包絡，不是規範或基地實測；無對應直接量測的欄位明確標為 EDITORIAL。密度指標來源只支撐定義與比較方法，不背書本條數值。"
+  },
+  "plan_geometry": {
+    "unit": "m",
+    "dimension_basis_zh": "building_plan 為 footprint 面寬／進深；block_assembly 為街廓短／長軸；street_open_space 為空間短軸／路徑長軸。",
+    "frontage_m": {
+      "minimum": 60,
+      "maximum": 150,
+      "unit": "m"
+    },
+    "depth_m": {
+      "minimum": 60,
+      "maximum": 150,
+      "unit": "m"
+    },
+    "courtyard_void_ratio": {
+      "minimum": 0.15,
+      "maximum": 0.364
+    },
+    "opening_count": {
+      "minimum": 2,
+      "maximum": 5
+    },
+    "opening_width_m": {
+      "minimum": 8,
+      "maximum": 23,
+      "unit": "m"
+    },
+    "spacing_m": {
+      "minimum": 12,
+      "maximum": 26,
+      "unit": "m"
+    },
+    "status": "EDITORIAL"
+  },
+  "density_reference": {
+    "reference_area_basis_zh": "街廓總面積；若比較公設或道路，須統一分母。",
+    "gsi": {
+      "range": {
+        "minimum": 0.22,
+        "maximum": 0.58
+      },
+      "status": "EDITORIAL",
+      "source_ids": [
+        "SRC_SPACEMATRIX_2023"
+      ],
+      "note_zh": "GSI 範圍是 EDITORIAL 相鄰街廓情境包絡；KU-MOR-089/094 的研究窗可作整體密度對讀，並非單一開放街廓量測。 SRC_SPACEMATRIX_2023 支持指標框架，不提供此數值。"
+    },
+    "fsi": {
+      "range": {
+        "minimum": 1.2,
+        "maximum": 4.0
+      },
+      "status": "EDITORIAL",
+      "source_ids": [
+        "SRC_SPACEMATRIX_2023"
+      ],
+      "note_zh": "FSI 範圍是 EDITORIAL 相鄰街廓情境包絡；KU-MOR-089/094 的研究窗可作整體密度對讀，並非單一開放街廓量測。 SRC_SPACEMATRIX_2023 支持指標框架，不提供此數值。"
+    },
+    "floors": {
+      "range": {
+        "minimum": 3,
+        "maximum": 12
+      },
+      "unit": "storeys",
+      "status": "EDITORIAL",
+      "source_ids": [
+        "SRC_SPACEMATRIX_2023"
+      ],
+      "note_zh": "足跡加權樓層 範圍是 EDITORIAL 相鄰街廓情境包絡；KU-MOR-089/094 的研究窗可作整體密度對讀，並非單一開放街廓量測。 SRC_SPACEMATRIX_2023 支持指標框架，不提供此數值。"
+    }
+  },
+  "atmosphere_tags": [
+    "diversity",
+    "sociability",
+    "legibility",
+    "natural_surveillance",
+    "permeability",
+    "street_vitality"
+  ],
+  "atmosphere_scores": {
+    "enclosure": {
+      "value": 0.66,
+      "status": "EDITORIAL_ESTIMATE",
+      "rationale_zh": "此型在幾何上可能提供「同時包含支持與限制線索，需由基地配置及使用者評估定義」，故暫列 0.66 作為設計討論起點。這不是本地實測、使用者調查或模擬值；來源只支撐面向與代理指標，不背書此分數。",
+      "source_ids": [
+        "SRC_SPACEMATRIX_2023",
+        "SRC_ALEXANDER_1977"
+      ],
+      "decision_use": "NOT_FOR_DECISION"
+    },
+    "privacy": {
+      "value": 0.58,
+      "status": "EDITORIAL_ESTIMATE",
+      "rationale_zh": "此型在幾何上可能提供「同時包含支持與限制線索，需由基地配置及使用者評估定義」，故暫列 0.58 作為設計討論起點。這不是本地實測、使用者調查或模擬值；來源只支撐面向與代理指標，不背書此分數。",
+      "source_ids": [
+        "SRC_ALEXANDER_1977",
+        "SRC_MASSENA_2019"
+      ],
+      "decision_use": "NOT_FOR_DECISION"
+    },
+    "permeability": {
+      "value": 0.77,
+      "status": "EDITORIAL_ESTIMATE",
+      "rationale_zh": "此型在幾何上可能提供「多條可辨識的公共路徑或連接」，故暫列 0.77 作為設計討論起點。這不是本地實測、使用者調查或模擬值；來源只支撐面向與代理指標，不背書此分數。",
+      "source_ids": [
+        "SRC_OPEN_BLOCK_2020",
+        "SRC_EWING_CERVERO_2010"
+      ],
+      "decision_use": "NOT_FOR_DECISION"
+    },
+    "sunlight": {
+      "value": 0.66,
+      "status": "EDITORIAL_ESTIMATE",
+      "rationale_zh": "此型在幾何上可能提供「同時包含支持與限制線索，需由基地配置及使用者評估定義」，故暫列 0.66 作為設計討論起點。這不是本地實測、使用者調查或模擬值；來源只支撐面向與代理指標，不背書此分數。",
+      "source_ids": [
+        "SRC_OKE_1988",
+        "SRC_SVF_2020"
+      ],
+      "decision_use": "NOT_FOR_DECISION"
+    },
+    "green_blue": {
+      "value": 0.55,
+      "status": "EDITORIAL_ESTIMATE",
+      "rationale_zh": "此型在幾何上可能提供「同時包含支持與限制線索，需由基地配置及使用者評估定義」，故暫列 0.55 作為設計討論起點。這不是本地實測、使用者調查或模擬值；來源只支撐面向與代理指標，不背書此分數。",
+      "source_ids": [
+        "SRC_GEHL_2010",
+        "SRC_AGROTOPIA_2021"
+      ],
+      "decision_use": "NOT_FOR_DECISION"
+    },
+    "microclimate_shelter": {
+      "value": 0.54,
+      "status": "EDITORIAL_ESTIMATE",
+      "rationale_zh": "此型在幾何上可能提供「同時包含支持與限制線索，需由基地配置及使用者評估定義」，故暫列 0.54 作為設計討論起點。這不是本地實測、使用者調查或模擬值；來源只支撐面向與代理指標，不背書此分數。",
+      "source_ids": [
+        "SRC_OKE_1988",
+        "SRC_SVF_2020"
+      ],
+      "decision_use": "NOT_FOR_DECISION"
+    },
+    "street_vitality": {
+      "value": 0.77,
+      "status": "EDITORIAL_ESTIMATE",
+      "rationale_zh": "此型在幾何上可能提供「能配置入口與面向公共空間的地面層」，故暫列 0.77 作為設計討論起點。這不是本地實測、使用者調查或模擬值；來源只支撐面向與代理指標，不背書此分數。",
+      "source_ids": [
+        "SRC_GEHL_2010",
+        "SRC_WHYTE_1980"
+      ],
+      "decision_use": "NOT_FOR_DECISION"
+    },
+    "industrial_scale": {
+      "value": 0.22,
+      "status": "EDITORIAL_ESTIMATE",
+      "rationale_zh": "此型在幾何上可能提供「尺度較細，較難形成大型跨距或生產場景」，故暫列 0.22 作為設計討論起點。這不是本地實測、使用者調查或模擬值；來源只支撐面向與代理指標，不背書此分數。",
+      "source_ids": [
+        "SRC_LOCHAL_2019",
+        "SRC_GARE_MARITIME_2020"
+      ],
+      "decision_use": "NOT_FOR_DECISION"
+    },
+    "human_scale": {
+      "value": 0.76,
+      "status": "EDITORIAL_ESTIMATE",
+      "rationale_zh": "此型在幾何上可能提供「可切分為步行者可讀的入口與界面節奏」，故暫列 0.76 作為設計討論起點。這不是本地實測、使用者調查或模擬值；來源只支撐面向與代理指標，不背書此分數。",
+      "source_ids": [
+        "SRC_GEHL_2010",
+        "SRC_LYNCH_1960"
+      ],
+      "decision_use": "NOT_FOR_DECISION"
+    },
+    "density_feel": {
+      "value": 0.65,
+      "status": "EDITORIAL_ESTIMATE",
+      "rationale_zh": "此型在幾何上可能提供「同時包含支持與限制線索，需由基地配置及使用者評估定義」，故暫列 0.65 作為設計討論起點。這不是本地實測、使用者調查或模擬值；來源只支撐面向與代理指標，不背書此分數。",
+      "source_ids": [
+        "SRC_SPACEMATRIX_2023",
+        "SRC_MORPHINT_2025"
+      ],
+      "decision_use": "NOT_FOR_DECISION"
+    },
+    "legibility": {
+      "value": 0.78,
+      "status": "EDITORIAL_ESTIMATE",
+      "rationale_zh": "此型在幾何上可能提供「可建立辨認路徑、節點、邊界或地標的差異」，故暫列 0.78 作為設計討論起點。這不是本地實測、使用者調查或模擬值；來源只支撐面向與代理指標，不背書此分數。",
+      "source_ids": [
+        "SRC_LYNCH_1960",
+        "SRC_URBAN_MORPHOMETRICS_2015"
+      ],
+      "decision_use": "NOT_FOR_DECISION"
+    },
+    "diversity": {
+      "value": 0.86,
+      "status": "EDITORIAL_ESTIMATE",
+      "rationale_zh": "此型在幾何上可能提供「可混合或分段安排不同體量和活動」，故暫列 0.86 作為設計討論起點。這不是本地實測、使用者調查或模擬值；來源只支撐面向與代理指標，不背書此分數。",
+      "source_ids": [
+        "SRC_OPEN_BLOCK_2020",
+        "SRC_EWING_CERVERO_2010"
+      ],
+      "decision_use": "NOT_FOR_DECISION"
+    },
+    "natural_surveillance": {
+      "value": 0.77,
+      "status": "EDITORIAL_ESTIMATE",
+      "rationale_zh": "此型在幾何上可能提供「有機會形成室內開口對公共路徑的視線」，故暫列 0.77 作為設計討論起點。這不是本地實測、使用者調查或模擬值；來源只支撐面向與代理指標，不背書此分數。",
+      "source_ids": [
+        "SRC_SAFETY_2024"
+      ],
+      "decision_use": "NOT_FOR_DECISION"
+    },
+    "perceived_safety": {
+      "value": 0.71,
+      "status": "EDITORIAL_ESTIMATE",
+      "rationale_zh": "此型在幾何上可能提供「可支援照明、視線與明確通行界面的設計審核」，故暫列 0.71 作為設計討論起點。這不是本地實測、使用者調查或模擬值；來源只支撐面向與代理指標，不背書此分數。",
+      "source_ids": [
+        "SRC_SAFETY_2024",
+        "SRC_GEHL_2010"
+      ],
+      "decision_use": "NOT_FOR_DECISION"
+    },
+    "sociability": {
+      "value": 0.81,
+      "status": "EDITORIAL_ESTIMATE",
+      "rationale_zh": "此型在幾何上可能提供「可容納停留、交會、座位或共同活動的空間」，故暫列 0.81 作為設計討論起點。這不是本地實測、使用者調查或模擬值；來源只支撐面向與代理指標，不背書此分數。",
+      "source_ids": [
+        "SRC_WHYTE_1980",
+        "SRC_SOCIAL_COHESION_2024"
+      ],
+      "decision_use": "NOT_FOR_DECISION"
+    },
+    "belonging": {
+      "value": 0.72,
+      "status": "EDITORIAL_ESTIMATE",
+      "rationale_zh": "此型在幾何上可能提供「可清楚界定或共同使用的地方性空間」，故暫列 0.72 作為設計討論起點。這不是本地實測、使用者調查或模擬值；來源只支撐面向與代理指標，不背書此分數。",
+      "source_ids": [
+        "SRC_SOCIAL_COHESION_2024",
+        "SRC_ALEXANDER_1977"
+      ],
+      "decision_use": "NOT_FOR_DECISION"
+    }
+  },
+  "suitability": {
+    "suitable_for": [
+      {
+        "condition_zh": "需要混合體量、通透路線與不同公共空間層級",
+        "source_ids": [
+          "SRC_OPEN_BLOCK_2020",
+          "SRC_MASSENA_2019"
+        ]
+      }
+    ],
+    "review_or_avoid_when": [
+      {
+        "condition_zh": "需要不間斷私密邊界、或地面管理無法維持通行規則",
+        "source_ids": [
+          "SRC_OPEN_BLOCK_2020",
+          "SRC_MASSENA_2019"
+        ]
+      }
+    ]
+  },
+  "combination_rules": [
+    {
+      "target_id": "space.plaza",
+      "relationship": "連接",
+      "condition_zh": "把街廓開口對齊廣場或公共節點",
+      "spacing_m": {
+        "minimum": 12.0,
+        "maximum": 30.0,
+        "unit": "m"
+      },
+      "orientation_zh": "開口串接既有或新增公共路徑，避免只留視覺縫隙",
+      "vertical_stack_allowed": false,
+      "rule_status": "DESIGN_HYPOTHESIS",
+      "basis_zh": "由本條型態機制提出的初步組合假設；不是法規、通用尺寸或已驗證的生成器限制。",
+      "source_ids": [
+        "SRC_OPEN_BLOCK_2020",
+        "SRC_MASSENA_2019"
+      ]
+    },
+    {
+      "target_id": "space.covered_public_passage",
+      "relationship": "連接",
+      "condition_zh": "可用有明確開放權利的穿越廊道串聯體量",
+      "spacing_m": {
+        "minimum": 8.0,
+        "maximum": 24.0,
+        "unit": "m"
+      },
+      "orientation_zh": "室內外連通範圍與開放時間需成為設計決定",
+      "vertical_stack_allowed": false,
+      "rule_status": "DESIGN_HYPOTHESIS",
+      "basis_zh": "由本條型態機制提出的初步組合假設；不是法規、通用尺寸或已驗證的生成器限制。",
+      "source_ids": [
+        "SRC_OPEN_BLOCK_2020",
+        "SRC_MASSENA_2019"
+      ]
+    }
+  ],
+  "generator_parameters": {
+    "profile_key": "open_block",
+    "scale": "block_assembly",
+    "parameters": {
+      "profile_key": "open_block",
+      "block_width_m": [
+        70,
+        240
+      ],
+      "block_depth_m": [
+        70,
+        240
+      ],
+      "public_openings": [
+        2,
+        8
+      ],
+      "building_types": [
+        "slab",
+        "point",
+        "L",
+        "courtyard"
+      ]
+    },
+    "mapping_note_zh": "建議的未來生成器欄位名稱；目前只供查詢和方案討論，不呼叫任何生成器。"
+  },
+  "precedents": [
+    {
+      "name": "Quartier Masséna",
+      "relevance_zh": "官方案例作為組合參照，編輯適用度 0.9，不代表案例效果評估。",
+      "source_ids": [
+        "SRC_MASSENA_2019"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "SRC_OPEN_BLOCK_2020",
+      "relevance_zh": "開放街廓的設計規則與多樣性研究脈絡。"
+    },
+    {
+      "id": "SRC_MASSENA_2019",
+      "relevance_zh": "巴黎 Masséna 開放街廓案例參照。"
+    },
+    {
+      "id": "SRC_CONZEN_1960",
+      "relevance_zh": "歷史形態與街道、地塊、建築分析的書目錨點。"
+    },
+    {
+      "id": "SRC_SPACEMATRIX_2023",
+      "relevance_zh": "密度與形態量測脈絡；不提供本條的數值估算。"
+    },
+    {
+      "id": "SRC_MORPHINT_2025",
+      "relevance_zh": "QGIS 指標工具清單；本字典不安裝或執行外掛。"
+    }
+  ]
+}

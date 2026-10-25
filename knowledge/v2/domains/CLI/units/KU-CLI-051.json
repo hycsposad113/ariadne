@@ -1,0 +1,83 @@
+{
+  "id": "KU-CLI-051",
+  "domain": "CLI",
+  "subtopic": "材料與反照率",
+  "type": "value_range",
+  "title_zh": "冷屋頂效果須在城市尺度和建築尺度分開計",
+  "title_en": "冷屋頂效果須在城市尺度和建築尺度分開計",
+  "summary_zh": "高反射屋面可減少屋面吸收短波能量，但對室內冷房負荷和街道輻射環境的影響途徑不同。屋面被遮蔭、積灰或受潮都可能改變反照率。理論上下界不能代替產品或現場量測，也不構成材料採用門檻。",
+  "key_points_zh": [
+    "屋頂比例和建築能耗條件會改變城市效益。",
+    "冬季供暖和夏季冷卻需要分別分析。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "library_id": "SANTAMOURIS2014",
+        "claim_zh": "屋面短波反照率的物理範圍為 0–1；材料比較須保留波段、老化、濕潤與維護條件。",
+        "effect_or_value": "典型反照率或降溫範圍需回到相同評估尺度的來源。",
+        "study_design": "反射屋面文獻回顧",
+        "context_region": "跨地域城市",
+        "locator": null,
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008"
+      },
+      {
+        "library_id": "ARMSON2012",
+        "claim_zh": "書目確認本文題名聚焦「The effect of tree shade and grass on surface and globe temperatures in an urban area」；目前只完成作者、年份、題名與 DOI 核對，未將摘要或全文結論納入此記錄；本單元 KU-CLI-051 對照「高反射屋面可減少屋面吸收短波能量，但對室內冷房負荷和街道輻射環境的影響途徑不同」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "案例或場地研究；目前僅核對書目範圍",
+        "context_region": "英國都市",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "分列屋面溫度、室內負荷與近地空氣溫度。",
+    "比較新屋面與老化後材料的表現。"
+  ],
+  "applies_when_zh": "適用於屋頂材料與城市降溫策略比較。",
+  "not_applicable_when_zh": "數值範圍待同尺度資料核對；不是本基地法規。",
+  "debates_zh": "城市尺度降溫模型可能無法代表單棟建築的能源結果。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "SANTAMOURIS2014",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "ARMSON2012",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "冷屋頂量化評估",
+  "region": "跨地域城市；跨地域模擬",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "材料與反照率"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": null,
+      "topic": "材料與反照率"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0",
+  "values": [
+    {
+      "name": "反射屋面短波反照率的設計比較域",
+      "range": "0–1",
+      "unit": "dimensionless",
+      "context": "同一材料的初始值、老化值和受潮值可能不同；比較時記錄量測波段和狀態 這不是本基地法規；來源所列地域：跨地域都市研究。",
+      "library_id": "SANTAMOURIS2014"
+    }
+  ]
+}

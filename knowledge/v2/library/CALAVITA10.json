@@ -1,0 +1,32 @@
+{
+  "id": "CALAVITA10",
+  "title": "Inclusionary housing in international perspective",
+  "authors": [
+    "Nico Calavita",
+    "Alan Mallach"
+  ],
+  "year": 2010,
+  "venue_or_publisher": null,
+  "doi": null,
+  "isbn": null,
+  "kind": "ACADEMIC_BOOK",
+  "tradition": "待指揮官書目分類",
+  "region": [],
+  "method": "理論／方法原著候選",
+  "claims": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Open Library",
+    "query": {
+      "title": "Inclusionary housing in international perspective",
+      "author": "Nico Calavita",
+      "year": 2010
+    },
+    "matched_record_id": "/works/OL23252148W",
+    "checked_at_utc": "2026-10-08T11:02:48Z",
+    "match_notes_zh": "本輪人工比對 API 題名、作者與出版年；只驗證書目身份，主張仍待原著逐條交叉核對。",
+    "receipt_path": "artifacts/kb2-theory-v3/source-lookups.json"
+  },
+  "limitations_zh": "主張待原著交叉核對；搜尋命中只作書目候選。",
+  "metadata_licence_zh": "公開書目 metadata；授權未核對 UNKNOWN。"
+}

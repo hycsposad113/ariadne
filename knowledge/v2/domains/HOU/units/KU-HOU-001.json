@@ -1,0 +1,107 @@
+{
+  "id": "KU-HOU-001",
+  "domain": "HOU",
+  "subtopic": "住宅類型",
+  "type": "concept",
+  "title_zh": "住宅類型｜概念邊界",
+  "title_en": "Housing typologies — Conceptual boundaries",
+  "summary_zh": "住宅類型需連同戶型、入口、樓層和共同空間辨認，不能只按建築外觀命名。 形態學工具提供跨街道、地塊與建築尺度的描述語彙；住戶適配仍取決於服務與管理。 方案可把住戶動線、公共空間和服務路徑放在同圖比較。",
+  "key_points_zh": [
+    "類型名稱需對應戶型、樓層、入口和共同空間。",
+    "適用於新住宅、社會住宅和高密度更新。",
+    "限制：不從建築高度直接推斷住戶滿意或社區形成。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "用相互關聯的空間模式討論入口、活動節點與建築關係；各模式仍需基地檢驗。",
+        "library_id": "ALEX77",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "美國; 跨地域",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "工具書統整城市形態描述與分析方法，適合作為術語和尺度的導航，不替代案例的量測。",
+        "library_id": "KROPF2017",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "跨地域形態學",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "以住戶、公共空間和服務路徑三層對照住宅類型。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "以住戶、公共空間和服務路徑三層對照住宅類型。",
+      "tradeoff_zh": "增加空間選擇與公共連結，但會增加協調、管理或建造成本。",
+      "library_ids": [
+        "ALEX77",
+        "KROPF2017"
+      ]
+    },
+    {
+      "option_zh": "高層、連棟、集合式住宅和共居住宅各有不同支援與管理需求。",
+      "tradeoff_zh": "保留另一種形式和使用條件，但可能改變連續性、可達性或私密性。",
+      "library_ids": [
+        "ALEX77",
+        "KROPF2017"
+      ]
+    }
+  ],
+  "applies_when_zh": "適用於新住宅、社會住宅和高密度更新。",
+  "not_applicable_when_zh": "不從建築高度直接推斷住戶滿意或社區形成。",
+  "debates_zh": "外觀類型不能替代戶型適用性、產權或服務分析。",
+  "sources": [
+    {
+      "library_id": "ALEX77",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "KROPF2017",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "模式語言；城市形態學",
+  "region": "美國；跨地域形態學",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "住宅類型"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "住宅類型"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "住宅類型"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "住宅類型"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-HOU-002",
+    "KU-HOU-003",
+    "KU-HOU-004"
+  ],
+  "counter_unit_ids": [
+    "KU-HOU-005"
+  ]
+}

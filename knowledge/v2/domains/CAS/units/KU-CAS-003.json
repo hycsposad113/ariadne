@@ -1,0 +1,109 @@
+{
+  "id": "KU-CAS-003",
+  "domain": "CAS",
+  "subtopic": "港區轉型案例",
+  "type": "case",
+  "title_zh": "Västra Hamnen：Bo01 示範區與整體港區的尺度差異",
+  "title_en": "Västra Hamnen: Distinguishing the Bo01 Demonstration from the Wider District",
+  "summary_zh": "Malmö 的 Västra Hamnen 從造船與港區用途轉向住宅、辦公及公共水岸，Bo01 在2001年作為早期示範階段出現。市府將整體發展區列為約187公頃，並預期後續工程延續至2035年前後。兩項學術研究分別關注沿岸開發的風舒適與城市永續政治，但不應把不同研究邊界混成同一組成效。",
+  "key_points_zh": [
+    "明確標出Bo01、已完成街區和全區發展範圍。",
+    "把市府的長期居民預測與已觀察人口分開。"
+  ],
+  "evidence": {
+    "strength": "CASE_EVIDENCE",
+    "findings": [
+      {
+        "claim_zh": "Malmö市府頁面記載整體Västra Hamnen約187公頃，Bo01於2001年作為第一階段；後續發展持續至約2035年。",
+        "effect_or_value": "官方規劃資料；分區及時間線",
+        "study_design": "官方規劃資料；分區及時間線",
+        "context_region": "瑞典馬爾默",
+        "library_id": "MALMO_VASTRA_HAMNEN",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "Johansson與Yahia研究Malmö沿岸開發區的風舒適與日照，題名不證明其樣本覆蓋整個Västra Hamnen。",
+        "effect_or_value": "學術研究；案例邊界待確認",
+        "study_design": "學術研究；案例邊界待確認",
+        "context_region": "瑞典馬爾默",
+        "library_id": "JOHANSSON2020MALMO",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "Holgersen與Hult從城市政治角度分析Malmö的永續發展敘事；研究尺度不能直接替代本區居民結果。",
+        "effect_or_value": "城市尺度批判研究；未外推至本區",
+        "study_design": "城市政治分析；研究設計待全文核對",
+        "context_region": "瑞典馬爾默",
+        "library_id": "HOLGERSENHULT2021",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "在圖面和數據表中以不同欄位表示全區、Bo01和單一街廓的面積與建成年份。"
+  ],
+  "applies_when_zh": "使用 Bo01 等示範區作為更大港區更新比較案例時。",
+  "not_applicable_when_zh": "研究問題限定於Bo01內部單一建築或公共設施時。",
+  "debates_zh": "示範區常把高性能建築和設計語彙呈現為全區轉型的代表，但示範首期不等於居民組成、能源表現或公共性已在全區普遍落實。",
+  "sources": [
+    {
+      "library_id": "MALMO_VASTRA_HAMNEN",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "JOHANSSON2020MALMO",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "HOLGERSENHULT2021",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "北歐生態街區與港區再生",
+  "region": "西歐／瑞典馬爾默",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": null,
+      "topic": "港區分期與水岸公共性"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": null,
+      "topic": "永續展示區的社會效果"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": null,
+      "topic": "棕地及工業轉型"
+    }
+  ],
+  "case": {
+    "location": "馬爾默，瑞典",
+    "period": "Bo01於2001年啟動；整體港區建設延續至約2035年",
+    "area_ha": 187,
+    "fsi": null,
+    "gsi": null,
+    "program_mix": "住宅、辦公、教育、商業與公共水岸；不同階段的比例未由同一口徑資料確認。",
+    "key_strategies_zh": [
+      "以Bo01作為早期示範，再向周邊港區分期擴展。",
+      "將海岸公共空間與新建街區連接。"
+    ],
+    "outcomes_zh": [
+      "市府公布約187公頃的全區規劃範圍，並預告到2031年前後居民數量將持續增加。",
+      "Bo01的展覽與先期建設資料不能直接代表全區建成後的社會和環境成果。"
+    ],
+    "critiques_zh": [
+      "公部門目標與已測量成果須分開。",
+      "外觀整齊與濱水環境改善也可能掩蓋住房可負擔性及既有工作空間消失等問題。"
+    ]
+  },
+  "version": "v2.0"
+}

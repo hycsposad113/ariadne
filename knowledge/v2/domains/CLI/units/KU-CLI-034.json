@@ -1,0 +1,83 @@
+{
+  "id": "KU-CLI-034",
+  "domain": "CLI",
+  "subtopic": "材料與反照率",
+  "type": "value_range",
+  "title_zh": "建材反照率範圍需依表面狀態核實",
+  "title_en": "建材反照率範圍需依表面狀態核實",
+  "summary_zh": "不同顏色、粒料和老化狀態會讓屋面與鋪面的短波反照率不同。反射提高可能降低材料吸熱，卻也可能把更多輻射導向立面或行人。此處只列物理定義的上下界，不把「淺色」直接當作性能保證。",
+  "key_points_zh": [
+    "新材料型錄值未必代表多年後現場狀態。",
+    "反射率增高可能改變鄰近立面的短波負荷。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "library_id": "YANG2016",
+        "claim_zh": "表面短波反照率可用 0–1 的無量綱比例表示；實際材料值仍需標示波段、入射條件和表面狀態。",
+        "effect_or_value": "各類材質典型區間待原研究核對後填入。",
+        "study_design": "新加坡街道熱舒適研究",
+        "context_region": "Singapore",
+        "locator": null,
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008"
+      },
+      {
+        "library_id": "GIVONI1998",
+        "claim_zh": "Open Library 書目記錄確認此專著的書名、作者與年份；未據此摘錄書中任何定量設計規則；本單元 KU-CLI-034 對照「不同顏色、粒料和老化狀態會讓屋面與鋪面的短波反照率不同」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "專業學術專著；本地僅核對書目範圍",
+        "context_region": "跨地域",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "採樣或取得產品測試報告並記錄老化條件。",
+    "檢查高反射材料對行人和對側立面的二次反射。"
+  ],
+  "applies_when_zh": "適用於屋頂和鋪面材料比選。",
+  "not_applicable_when_zh": "數值待查證；不可用商品類別代替本地實測。",
+  "debates_zh": "城市尺度降溫效益與個人尺度熱舒適不一定同向。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "YANG2016",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "GIVONI1998",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "反照材料設計與街道熱環境",
+  "region": "跨地域都市研究；Singapore",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "材料與反照率"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": null,
+      "topic": "材料與反照率"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0",
+  "values": [
+    {
+      "name": "建築與地面材料短波反照率的可能物理域",
+      "range": "0–1",
+      "unit": "dimensionless",
+      "context": "用途：以「建築與地面材料短波反照率的可能物理域」作為來源情境參照；多種都市材料都以無量綱短波反照率表示；實際材質分布需採現地或產品資料 這不是本基地法規；來源所列地域：Singapore。",
+      "library_id": "YANG2016"
+    }
+  ]
+}

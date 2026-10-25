@@ -1,0 +1,83 @@
+{
+  "id": "KU-CLI-062",
+  "domain": "CLI",
+  "subtopic": "樹木降溫",
+  "type": "value_range",
+  "title_zh": "樹冠冷卻幅度需區分空氣和表面溫度",
+  "title_en": "樹冠冷卻幅度需區分空氣和表面溫度",
+  "summary_zh": "樹木的冷卻途徑包括遮蔭和蒸散，但研究可能量測空氣溫度、地表溫度或人體熱感。相同樹冠比例在不同街谷和天氣下不會產生相同效果。此處以可重現的遮蔭覆蓋比例作數值域；目前來源尚未支持一個可跨城市套用的降溫幅度。",
+  "key_points_zh": [
+    "公園內外溫差不等於樹下空氣溫差。",
+    "最大日間表面差不能代替夜間熱環境。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "library_id": "ARMSON2012",
+        "claim_zh": "書目確認本文題名聚焦「The effect of tree shade and grass on surface and globe temperatures in an urban area」；目前只完成作者、年份、題名與 DOI 核對，未將摘要或全文結論納入此記錄；本單元 KU-CLI-062 對照「樹木的冷卻途徑包括遮蔭和蒸散，但研究可能量測空氣溫度、地表溫度或人體熱感」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "案例或場地研究；目前僅核對書目範圍",
+        "context_region": "英國都市",
+        "locator": null
+      },
+      {
+        "library_id": "SPAGNOLO2003",
+        "claim_zh": "題名確認該研究在副熱帶 Sydney 比較戶外與半戶外熱舒適；其發現不能跨氣候與人群直接外推；本單元 KU-CLI-062 對照「樹木的冷卻途徑包括遮蔭和蒸散，但研究可能量測空氣溫度、地表溫度或人體熱感」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "現地研究",
+        "context_region": "Sydney, Australia",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "按量測變量、測點高度和觀測期間分組。",
+    "同時呈現遮蔭、溫度和熱舒適結果。"
+  ],
+  "applies_when_zh": "適用於比較樹木和綠地降溫證據。",
+  "not_applicable_when_zh": "數值範圍待分開核對溫度指標；不是性能保證。",
+  "debates_zh": "文獻中效果大小高度依賴場景，單一「樹木降幾度」容易過度承諾。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "ARMSON2012",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "SPAGNOLO2003",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "植栽降溫效果量",
+  "region": "跨地域城鎮研究；Wuhan, China",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "樹木降溫"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": null,
+      "topic": "樹木降溫"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0",
+  "values": [
+    {
+      "name": "街段樹蔭覆蓋比例的空間比較範圍",
+      "range": "0–100",
+      "unit": "% of pedestrian route or public space",
+      "context": "每個研究需固定人行路徑或公共空間作為分母；覆蓋比例不等同空氣溫度變化 這不是本基地法規；來源所列地域：英國都市。",
+      "library_id": "ARMSON2012"
+    }
+  ]
+}

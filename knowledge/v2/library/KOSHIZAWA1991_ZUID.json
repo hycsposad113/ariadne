@@ -1,0 +1,39 @@
+{
+  "id": "KOSHIZAWA1991_ZUID",
+  "title": "Planning History of Amsterdam and the Significance of the Southern Extension Plan (the Extension Plan “Zuid”) by H. P. Berlage Approved in 1917",
+  "authors": [
+    "Akira Koshizawa"
+  ],
+  "year": 1991,
+  "venue_or_publisher": "Historical Studies in Civil Engineering",
+  "doi": "https://doi.org/10.2208/journalhs1990.11.155",
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "Amsterdam Zuid 城市規劃史",
+  "region": "Amsterdam Zuid, Netherlands",
+  "method": "Crossref 書目記錄",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "Crossref 記錄 Koshizawa 於 1991 年發表 Amsterdam Zuid 的 Berlage 計畫研究。",
+      "strength": "CASE_EVIDENCE",
+      "scope_zh": "摘要或原文細節尚未核對，僅作歷史計畫的書目線索。",
+      "assessment_basis": "BIBLIOGRAPHIC_RECORD_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref",
+    "query": {
+      "author": "Akira Koshizawa",
+      "year": 1991
+    },
+    "matched_record_id": "https://doi.org/10.2208/journalhs1990.11.155",
+    "checked_at_utc": "2026-10-09T10:25:19Z",
+    "match_notes_zh": "Crossref 書目記錄與 DOI。"
+  },
+  "limitations_zh": "未讀全文；標題所述計畫年份及設計細節待原文核對。",
+  "metadata_licence_zh": "公開 Crossref 書目 metadata；未保存全文。"
+}

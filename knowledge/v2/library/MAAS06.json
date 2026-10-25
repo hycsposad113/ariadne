@@ -1,0 +1,48 @@
+{
+  "id": "MAAS06",
+  "title": "Green space, urbanity, and health: how strong is the relation?",
+  "authors": [
+    "Jolanda Maas",
+    "Robert A Verheij",
+    "Peter P Groenewegen",
+    "Sjerp de Vries",
+    "Peter Spreeuwenberg"
+  ],
+  "year": 2006,
+  "venue_or_publisher": "Journal of Epidemiology and Community Health",
+  "doi": "https://doi.org/10.1136/jech.2005.043125",
+  "isbn": null,
+  "crossref_id": "https://doi.org/10.1136/jech.2005.043125",
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "公共健康與環境流行病學",
+  "region": [
+    "荷蘭",
+    "西歐"
+  ],
+  "method": "104 間全科診所登錄樣本、多層次邏輯斯迴歸",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "荷蘭 250,782 位居民的健康自評資料顯示，住家 1 km 與 3 km 內綠地比例均與自評健康相關，關聯在不同都市化程度可見；橫斷面資料不能排除選擇與混雜。",
+      "strength": "MIXED",
+      "scope_zh": "荷蘭；主張限於此來源的研究設計與樣本，不外推為本基地規範。",
+      "assessment_basis": "ABSTRACT_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref",
+    "query": {
+      "title": "Green space, urbanity, and health: how strong is the relation?",
+      "author": "Jolanda Maas",
+      "year": 2006
+    },
+    "matched_record_id": "https://doi.org/10.1136/jech.2005.043125",
+    "checked_at_utc": "2026-10-08T09:53:26Z",
+    "match_notes_zh": "核對 Crossref 回傳書名、主要作者、出版年與 DOI；摘要只在實際取得並閱讀的論文上標 ABSTRACT_REVIEW。"
+  },
+  "limitations_zh": "荷蘭；書目核對不替代完整論文審查。",
+  "critique_relationship_zh": "此條目的批評連結供編者並讀，不宣稱存在直接互引。",
+  "metadata_licence_zh": "僅保存公開書目欄位與自行撰寫的摘要；未保存摘要原文，metadata 授權未單獨核定。"
+}

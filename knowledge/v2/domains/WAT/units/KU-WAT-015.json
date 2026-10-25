@@ -1,0 +1,74 @@
+{
+  "id": "KU-WAT-015",
+  "domain": "WAT",
+  "subtopic": "海綿城市",
+  "type": "method",
+  "title_zh": "把海綿城市績效拆成可觀測鏈條",
+  "title_en": "把海綿城市績效拆成可觀測鏈條",
+  "summary_zh": "濟南試點研究以都市雨洪管理作為整體評估問題，指出評估對象可以超過單一設施。海綿城市概念文獻則提醒，目標涵蓋雨水利用、滲透、滯留及生態價值。資料設計應把降雨、逕流、設施狀態和維護記錄連在一起，否則政策成效無法歸因。",
+  "key_points_zh": [
+    "暴雨量、逕流量、蓄水變化和污染指標各自回答不同問題。",
+    "以設施數量代替長期監測會漏掉堵塞和失效。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "library_id": "ROY2008",
+        "claim_zh": "書目確認本文題名聚焦「Impediments and Solutions to Sustainable, Watershed-Scale Urban Stormwater Management: Lessons from Australia and the United States」；目前只完成作者、年份、題名與 DOI 核對，未將摘要或全文結論納入此記錄；本單元 KU-WAT-015 對照「濟南試點研究以都市雨洪管理作為整體評估問題，指出評估對象可以超過單一設施」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "文獻回顧；目前僅核對書目範圍",
+        "context_region": "澳洲與美國",
+        "locator": null
+      },
+      {
+        "library_id": "SHUSTER2005",
+        "claim_zh": "書目確認本文題名聚焦「Impacts of impervious surface on watershed hydrology: A review」；目前只完成作者、年份、題名與 DOI 核對，未將摘要或全文結論納入此記錄；本單元 KU-WAT-015 對照「濟南試點研究以都市雨洪管理作為整體評估問題，指出評估對象可以超過單一設施」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "文獻回顧；目前僅核對書目範圍",
+        "context_region": "美國",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "預先指定觀測期間與暴雨事件的納入條件。",
+    "記錄比較區、儀器和缺值處理，讓結果可以重現。"
+  ],
+  "applies_when_zh": "適用於海綿城市建設後的監測計畫。",
+  "not_applicable_when_zh": "不適用於把未監測的政策目標報成已達成效果。",
+  "debates_zh": "單一試點的結果通常受當地土壤、排水系統和監測期間限制。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "ROY2008",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "SHUSTER2005",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "城市雨洪績效評估",
+  "region": "中國濟南；中國",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "海綿城市"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Sustainable Futures by Design",
+      "topic": "海綿城市"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0"
+}

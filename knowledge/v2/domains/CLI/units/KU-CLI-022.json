@@ -1,0 +1,86 @@
+{
+  "id": "KU-CLI-022",
+  "domain": "CLI",
+  "subtopic": "都市熱島",
+  "type": "value_range",
+  "title_zh": "熱島強度需以場址差值和時段呈現",
+  "title_en": "熱島強度需以場址差值和時段呈現",
+  "summary_zh": "都市熱島強度描述城市測點和參照站之間的近地氣溫差，不是城市永久固定的常數。晴朗、弱風夜間較容易觀察到較大的正差，但站點背景、季節和採樣時刻會改變結果。這張卡界定差值與時間條件；樹木／屋頂介入的同基線比較見 KU-CLI-064，地表遙測口徑見 KU-CLI-071。",
+  "key_points_zh": [
+    "報告差值時需說明白天或夜間及天氣條件。",
+    "城市站與參照站的距離和形態會改變估計。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "library_id": "OKE2017",
+        "claim_zh": "晴朗弱風夜間，城市與郊區近地空氣熱島可達約 0–10°C 的經典量級；此範圍不是所有城市、季節或白天的固定值。",
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+        "effect_or_value": null,
+        "study_design": "都市氣候科學專著綜述",
+        "context_region": "跨氣候帶",
+        "locator": null
+      },
+      {
+        "library_id": "MILLS2014",
+        "claim_zh": "書目確認本文題名聚焦「Urban climatology: History, status and prospects」；目前只完成作者、年份、題名與 DOI 核對，未將摘要或全文結論納入此記錄；本單元 KU-CLI-022 對照「都市熱島強度是指定城市測點與參照站之間的溫度差，而不是城市固定的常數」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "文獻回顧；目前僅核對書目範圍",
+        "context_region": "跨地域",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "按季節、風速和雲量分層報告溫差。",
+    "保留城市內不同 LCZ 的空間差異。"
+  ],
+  "applies_when_zh": "適用於監測方案及文獻比較。",
+  "not_applicable_when_zh": "未核對氣候、站點和統計期時不可報通用數值。",
+  "debates_zh": "「典型熱島強度」可能把多個測量層次和氣候條件混為一談。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [
+    "KU-CLI-064",
+    "KU-CLI-071"
+  ],
+  "sources": [
+    {
+      "library_id": "OKE2017",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "MILLS2014",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "熱島強度統計",
+  "region": "跨地域城市；全球城市測站",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "都市熱島"
+    },
+    {
+      "school": "MIT",
+      "course": "Theory of City Form",
+      "topic": "都市熱島"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0",
+  "values": [
+    {
+      "name": "夜間城市—郊區氣溫差的典型量級",
+      "range": "約 0–10",
+      "unit": "°C",
+      "context": "晴朗、弱風夜間的城市熱島量級對照；不是固定城市平均，也不是白天通用值 這不是本基地法規；來源書目地域：跨氣候帶。",
+      "library_id": "OKE2017"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "id": "KU-MOB-064",
+  "domain": "MOB",
+  "subtopic": "無車區與物流",
+  "type": "pattern",
+  "title_zh": "無車區與物流：可重用模式",
+  "title_en": "Car-free districts and urban logistics: Reusable pattern",
+  "summary_zh": "以外圍服務路與明確裝卸窗口承接物流，再讓內部街道以步行和自行車連接日常目的地。此模式以限制私人汽車穿越的街區仍需維持配送、維修、緊急服務和無障礙出入，交通管理與物流設計必須一併處理。需要留意的代價是無車政策若不安排貨運和照護出行，可能把交通負擔轉移給商戶、服務工作者或行動受限者。",
+  "key_points_zh": [
+    "空間模式：限制私人汽車穿越的街區仍需維持配送、維修、緊急服務和無障礙出入，交通管理與物流設計必須一併處理",
+    "空間模式：以外圍服務路與明確裝卸窗口承接物流，再讓內部街道以步行和自行車連接日常目的地"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "無車區與物流：可重用模式｜街道結構可以用連接與階層關係比較；不同網形的可達性與交通作用需另外計算",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "MARSHALL05",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "無車區與物流：可重用模式｜交通專業知識具有殖民歷史；應讓地方概念與既有模型對話，而非把西方方法當唯一標準",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "SCHWANEN18",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "先畫出「限制私人汽車穿越的街區仍需維持配送、維修、緊急服務和無障礙出入，交通管理與物流設計必須一併處理」所描述的空間關係，再用「無車政策若不安排貨運和照護出行，可能把交通負擔轉移給商戶、服務工作者或行動受限者」檢查它可能帶來的代價。"
+  ],
+  "applies_when_zh": "當設計需要回應「限制私人汽車穿越的街區仍需維持配送、維修、緊急服務和無障礙出入，交通管理與物流設計必須一併處理」描述的空間關係，可先把模式畫入配置，再用現地使用資料檢查。",
+  "not_applicable_when_zh": "「限制私人汽車穿越的街區仍需維持配送、維修、緊急服務和無障礙出入，交通管理與物流設計必須一併處理」不能原樣移植到缺少相同交通、界面或治理條件的場地；需先檢查「無車政策若不安排貨運和照護出行，可能把交通負擔轉移給商戶、服務工作者或行動受限者」指出的代價。",
+  "debates_zh": "無車政策若不安排貨運和照護出行，可能把交通負擔轉移給商戶、服務工作者或行動受限者；檢視「無車區與物流：可重用模式」的模式落地時，還需判斷「以外圍服務路與明確裝卸窗口承接物流，再讓內部街道以步行和自行車連接日常目的地」會如何改變方案結論。",
+  "sources": [
+    {
+      "library_id": "MARSHALL05",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "SCHWANEN18",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "無車街區與城市物流",
+  "region": "跨地域理論或實務脈絡；來源地區依引用條目判讀",
+  "curriculum_refs": [
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "無車區與物流：課綱對應主題"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Sustainable Futures by Design",
+      "topic": "無車區與物流：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-MOB-057",
+    "KU-MOB-058",
+    "KU-MOB-059",
+    "KU-MOB-060",
+    "KU-MOB-061",
+    "KU-MOB-062",
+    "KU-MOB-063"
+  ]
+}

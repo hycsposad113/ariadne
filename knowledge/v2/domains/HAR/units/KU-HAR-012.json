@@ -1,0 +1,65 @@
+{
+  "id": "KU-HAR-012",
+  "domain": "HAR",
+  "subtopic": "工業遺產與 adaptive reuse",
+  "type": "critique",
+  "title_zh": "商業可行性不能跨城市照搬",
+  "title_en": "Commercial viability does not transfer unchanged across cities",
+  "summary_zh": "再利用能否成立，受到地價、建造成本、租賃需求和保育條件共同影響。Shipley 等人的研究明確把問題放在加拿大安大略的建築翻修市場；Oakley 的澳洲港區研究則關注地方對全球水岸轉型趨勢的回應。這兩個研究題目本身已提示尺度和制度差異，不支持把某個案例的財務可行性直接套到另一座港城。可比的評估需要交代市場期間、資產類別與公共補貼。",
+  "key_points_zh": [
+    "安大略建築翻修研究不能代表其他城市的租金與成本結構。",
+    "港區再生應分開列市場收益和公共投入。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "安大略研究聚焦商業建築翻修的商業可行性，不提供可直接移植的其他市場結論。",
+        "effect_or_value": "財務結果需以當地市場重新估算",
+        "study_design": "商業案例研究",
+        "context_region": "加拿大安大略省",
+        "library_id": "SHIPLEY2006",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "澳洲研究檢視地方回應退役碼頭再想像的全球趨勢；港口條件仍需地方核對。",
+        "effect_or_value": "地方脈絡會影響再生回應",
+        "study_design": "跨案例地方回應研究",
+        "context_region": "澳洲港區",
+        "library_id": "OAKLEY2021",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "把地價假設、租戶需求、修復責任與公共補助拆開列示，為每項數據附年份及案例邊界。"
+  ],
+  "applies_when_zh": "比較港區舊建築的市場型轉用和公共用途方案。",
+  "not_applicable_when_zh": "不適用於缺少權屬、污染或成本資料時推估投資回收。",
+  "debates_zh": "以國際標竿代替地方成本核算，會掩蓋公共補貼與土地制度差異。",
+  "sources": [
+    {
+      "library_id": "SHIPLEY2006",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "OAKLEY2021",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "政治經濟與港區治理",
+  "region": "澳洲與加拿大",
+  "curriculum_refs": [
+    {
+      "school": "MIT",
+      "course": null,
+      "topic": "Urban redevelopment economics"
+    }
+  ],
+  "version": "v2.0"
+}

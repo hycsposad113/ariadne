@@ -1,0 +1,81 @@
+{
+  "id": "KU-MOB-017",
+  "domain": "MOB",
+  "subtopic": "荷蘭自行車設計原則（連貫、直接、安全、舒適、吸引）",
+  "type": "empirical_finding",
+  "title_zh": "自行車道鄰近度與通勤占比",
+  "title_en": "Bikeway proximity and bicycle commute share",
+  "summary_zh": "2011 年 census tract 通勤模式占比與自行車道鄰近度橫斷面分析，研究脈絡為蒙特婁與溫哥華，加拿大。連成網路的 cycle track 比單一設施類型更能解釋模式占比；女性比例在高自行車占比地區接近男性。離任一自行車道每近一公里與四倍較高的區域通勤自行車占比相關，cycle track 在兩城均有較高占比關聯。限制包括觀察性區域資料不能證明設施造成轉移；其他路型在兩城的調整後結果不一致。",
+  "key_points_zh": [
+    "連成網路的 cycle track 比單一設施類型更能解釋模式占比；女性比例在高自行車占比地區接近男性",
+    "限制：觀察性區域資料不能證明設施造成轉移；其他路型在兩城的調整後結果不一致",
+    "效果或方向：離任一自行車道每近一公里與四倍較高的區域通勤自行車占比相關，cycle track 在兩城均有較高占比關聯"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "自行車道鄰近度與通勤占比｜連成網路的 cycle track 比單一設施類型更能解釋模式占比；女性比例在高自行車占比地區接近男性",
+        "effect_or_value": "離任一自行車道每近一公里與四倍較高的區域通勤自行車占比相關，cycle track 在兩城均有較高占比關聯",
+        "study_design": "2011 年 census tract 通勤模式占比與自行車道鄰近度橫斷面分析",
+        "context_region": "蒙特婁與溫哥華，加拿大",
+        "library_id": "TESCHKE17",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "自行車道鄰近度與通勤占比｜自行車設計需連續路線、交叉口與目的地配套；本次沒有查閱手冊條文或尺寸",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "CROW",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "檢查連續網路和不同群體的安全需求，不只計算車道總長"
+  ],
+  "applies_when_zh": "若本地觀察單位與蒙特婁與溫哥華，加拿大的研究脈絡可對照，可用「連成網路的 cycle track 比單一設施類型更能解釋模式占比；女性比例在高自行車占比地區接近男性」作為荷蘭自行車設計原則（連貫、直接、安全、舒適、吸引）的比較線索。",
+  "not_applicable_when_zh": "這項蒙特婁與溫哥華，加拿大的研究結果不能單獨證明因果或預測其他城市的街段；原研究觀察性區域資料不能證明設施造成轉移；其他路型在兩城的調整後結果不一致。",
+  "debates_zh": "關聯能否外推；觀察性區域資料不能證明設施造成轉移；其他路型在兩城的調整後結果不一致；檢視「自行車道鄰近度與通勤占比」的研究解讀時，還需判斷「限制：觀察性區域資料不能證明設施造成轉移；其他路型在兩城的調整後結果不一致」會如何改變方案結論。",
+  "sources": [
+    {
+      "library_id": "TESCHKE17",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "CROW",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "荷蘭自行車網與政策",
+  "region": "蒙特婁與溫哥華，加拿大",
+  "curriculum_refs": [
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "荷蘭自行車設計原則（連貫、直接、安全、舒適、吸引）：課綱對應主題"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Sustainable Futures by Design",
+      "topic": "荷蘭自行車設計原則（連貫、直接、安全、舒適、吸引）：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-MOB-018",
+    "KU-MOB-019",
+    "KU-MOB-020",
+    "KU-MOB-021",
+    "KU-MOB-022",
+    "KU-MOB-023",
+    "KU-MOB-024"
+  ]
+}

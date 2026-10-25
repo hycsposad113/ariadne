@@ -1,0 +1,124 @@
+{
+  "domain": "LUP",
+  "topics": [
+    {
+      "subtopic": "土地使用分類",
+      "unit_count": 8,
+      "unit_ids": [
+        "KU-LUP-001",
+        "KU-LUP-002",
+        "KU-LUP-003",
+        "KU-LUP-004",
+        "KU-LUP-005",
+        "KU-LUP-006",
+        "KU-LUP-007",
+        "KU-LUP-075"
+      ]
+    },
+    {
+      "subtopic": "相容與衝突：工業與住宅介面",
+      "unit_count": 11,
+      "unit_ids": [
+        "KU-LUP-008",
+        "KU-LUP-009",
+        "KU-LUP-010",
+        "KU-LUP-011",
+        "KU-LUP-012",
+        "KU-LUP-013",
+        "KU-LUP-014",
+        "KU-LUP-015",
+        "KU-LUP-016",
+        "KU-LUP-017",
+        "KU-LUP-501"
+      ]
+    },
+    {
+      "subtopic": "混合使用尺度：建築、街廓、街區",
+      "unit_count": 9,
+      "unit_ids": [
+        "KU-LUP-018",
+        "KU-LUP-019",
+        "KU-LUP-020",
+        "KU-LUP-021",
+        "KU-LUP-022",
+        "KU-LUP-023",
+        "KU-LUP-024",
+        "KU-LUP-025",
+        "KU-LUP-026"
+      ]
+    },
+    {
+      "subtopic": "生產性城市與 maker 經濟",
+      "unit_count": 10,
+      "unit_ids": [
+        "KU-LUP-027",
+        "KU-LUP-028",
+        "KU-LUP-029",
+        "KU-LUP-030",
+        "KU-LUP-031",
+        "KU-LUP-032",
+        "KU-LUP-033",
+        "KU-LUP-034",
+        "KU-LUP-035",
+        "KU-LUP-512"
+      ]
+    },
+    {
+      "subtopic": "用途配比與日夜活動",
+      "unit_count": 9,
+      "unit_ids": [
+        "KU-LUP-036",
+        "KU-LUP-037",
+        "KU-LUP-038",
+        "KU-LUP-039",
+        "KU-LUP-040",
+        "KU-LUP-041",
+        "KU-LUP-042",
+        "KU-LUP-043",
+        "KU-LUP-074"
+      ]
+    },
+    {
+      "subtopic": "15 分鐘城市與可及性",
+      "unit_count": 21,
+      "unit_ids": [
+        "KU-LUP-044",
+        "KU-LUP-045",
+        "KU-LUP-046",
+        "KU-LUP-047",
+        "KU-LUP-048",
+        "KU-LUP-049",
+        "KU-LUP-050",
+        "KU-LUP-051",
+        "KU-LUP-052",
+        "KU-LUP-061",
+        "KU-LUP-062",
+        "KU-LUP-063",
+        "KU-LUP-064",
+        "KU-LUP-065",
+        "KU-LUP-066",
+        "KU-LUP-067",
+        "KU-LUP-068",
+        "KU-LUP-069",
+        "KU-LUP-070",
+        "KU-LUP-072",
+        "KU-LUP-073"
+      ]
+    },
+    {
+      "subtopic": "商業與零售區位",
+      "unit_count": 9,
+      "unit_ids": [
+        "KU-LUP-053",
+        "KU-LUP-054",
+        "KU-LUP-055",
+        "KU-LUP-056",
+        "KU-LUP-057",
+        "KU-LUP-058",
+        "KU-LUP-059",
+        "KU-LUP-060",
+        "KU-LUP-071"
+      ]
+    }
+  ]
+}

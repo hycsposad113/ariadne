@@ -1,0 +1,43 @@
+{
+  "id": "KJELDSEN2022",
+  "title": "Bringing social sustainability into the mix: framing planning dilemmas in mixed-tenure regeneration",
+  "authors": [
+    "Lasse Kjeldsen",
+    "Marie Stender"
+  ],
+  "year": 2022,
+  "venue_or_publisher": "Building Research & Information",
+  "doi": "https://doi.org/10.1080/09613218.2022.2081120",
+  "isbn": null,
+  "openalex_id": "https://openalex.org/W4281708795",
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "混合產權再生與社會永續",
+  "region": "西方社會住宅更新案例與理論討論",
+  "method": "混合產權再生的社會永續框架與既有結果回顧",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "混合產權更新的研究結果並不一致：住戶滿意可能提高，低收入住戶也可能承受新的邊緣化；研究主張檢視更新早期如何形成方案。",
+      "strength": "MIXED",
+      "scope_zh": "摘要表達文獻中的多種結果與框架，不可當成任何基地混合產權必然改善或惡化的證明。",
+      "assessment_basis": "ABSTRACT_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "OpenAlex",
+    "query": {
+      "record_id": "https://openalex.org/W4281708795",
+      "doi": "10.1080/09613218.2022.2081120",
+      "title": "Bringing social sustainability into the mix: framing planning dilemmas in mixed-tenure regeneration",
+      "author": "Lasse Kjeldsen",
+      "year": 2022
+    },
+    "matched_record_id": "https://openalex.org/W4281708795",
+    "checked_at_utc": "2026-10-09T00:14:20Z",
+    "match_notes_zh": "以允許的公開書目 API 精確比對題名、首位作者與出版年；只保留自行撰寫的摘要範圍說明，未保存全文或 API 摘要原文。"
+  },
+  "limitations_zh": "本條目依公開摘要或書目範圍整理；未下載全文，也不外推摘要未列的樣本、效果量或因果結論。",
+  "metadata_licence_zh": "僅保存公開書目欄位與自行撰寫的繁體中文摘要；未複製摘要全文或論文全文。"
+}

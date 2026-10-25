@@ -1,0 +1,89 @@
+{
+  "id": "KU-ARC-083",
+  "domain": "ARC",
+  "subtopic": "經典設計知識",
+  "type": "theory",
+  "title_zh": "Gehl 的人尺度與近距離活動觀察",
+  "title_en": "Gehl human-scale and optional activities",
+  "summary_zh": "Gehl 的公共生活研究把行人尺度、感官距離與可選擇活動放在街道設計核心。 設計者應觀察人是否能停留、看見彼此並選擇加入，而非只以交通容量推斷公共生活。 具體距離與量化主張需由指揮官依原典核對。",
+  "key_points_zh": [
+    "核心主張：Gehl 的公共生活研究把行人尺度、感官距離與可選擇活動放在街道設計核心。",
+    "量測檢查：在不同時段繪製停留行為熱點和移動線，再將其與可坐邊緣、入口和微氣候圖層疊合。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "Gehl 的公共生活研究把行人尺度、感官距離與可選擇活動放在街道設計核心。",
+        "effect_or_value": null,
+        "study_design": "跨地域設計參照綜整；數值狀態依 claim_verification 註記",
+        "context_region": "Gehl 的北歐案例脈絡；跨城市套用需本地觀察",
+        "library_id": "GEHL10",
+        "locator": null,
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "用行為觀察記錄停留點、速度、坐靠、視線和活動發生位置，連結到立面和遮蔭。"
+  ],
+  "applies_when_zh": "「Gehl 的人尺度與近距離活動觀察」可在用於方案前期的量體、平面或空間品質篩檢時使用，前提是Gehl 的公共生活研究把行人尺度、感官距離與可選擇活動放在街道設計核心與來源情境相符。",
+  "not_applicable_when_zh": "若Gehl 的公共生活研究把行人尺度、感官距離與可選擇活動放在街道設計核心不成立，就不能把「Gehl 的人尺度與近距離活動觀察」的結論延伸到其他情況；不得單獨作為許可、消防、結構或基地法規判定。",
+  "debates_zh": "公共生活還受性別安全、天候、管理與排除性設計影響，不能只靠座椅或尺度製造。",
+  "sources": [
+    {
+      "library_id": "GEHL10",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "ALEX77",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+  "tradition": "公共生活觀察；人本街道",
+  "region": "Gehl 的北歐案例脈絡；跨城市套用需本地觀察",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Housing and the City / Design of the Urban Fabric",
+      "topic": "建築尺度與住宅平面"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "建築尺度與街道界面"
+    },
+    {
+      "school": "MIT",
+      "course": "Architecture and Urban Design",
+      "topic": "建築尺度與空間型態"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "建築尺度與公共生活"
+    }
+  ],
+  "check": {
+    "method_zh": "在不同時段繪製停留行為熱點和移動線，再將其與可坐邊緣、入口和微氣候圖層疊合。",
+    "inputs": [
+      "經典設計知識",
+      "尺寸／面積圖層",
+      "適用地區與用途標籤"
+    ],
+    "logic_zh": "將量測輸入轉成明確尺寸、比例或空間關係；越界只觸發複核，不自動取代設計決策。",
+    "limitations_zh": "量測結果只觸發「Gehl 的人尺度與近距離活動觀察」的複核，不得單獨作為許可或法規判定。"
+  },
+  "version": "kb2-arc-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-ARC-080",
+    "KU-ARC-081",
+    "KU-ARC-082",
+    "KU-ARC-084"
+  ]
+}

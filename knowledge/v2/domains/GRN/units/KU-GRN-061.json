@@ -1,0 +1,66 @@
+{
+  "id": "KU-GRN-061",
+  "domain": "GRN",
+  "subtopic": "綠地仕紳化",
+  "type": "critique",
+  "title_zh": "環境公平需納入種族與階級的交織",
+  "title_en": "Environmental equity is intersectional",
+  "summary_zh": "收入、族群、移民身份和照護工作可能共同影響綠地使用。只用收入五分位可能漏掉面對種族化管理的群體。資料收集方式需尊重隱私及自我認同。公平分析需在地化分類，避免把北美框架當成普遍答案。",
+  "key_points_zh": [
+    "收入、族群、移民身份和照護工作可能共同影響綠地使用",
+    "只用收入五分位可能漏掉面對種族化管理的群體"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "收入、族群、移民身份和照護工作可能共同影響綠地使用。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "北美",
+        "library_id": "ANGELOVSKI19",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "公平分析需在地化分類，避免把北美框架當成普遍答案。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "讓不同群體共同定義可接受的公平指標。"
+  ],
+  "applies_when_zh": "適用於跨社區綠地分配研究。",
+  "not_applicable_when_zh": "不能將美國種族分類直接套用到其他制度。",
+  "debates_zh": "公平分析需在地化分類，避免把北美框架當成普遍答案。",
+  "sources": [
+    {
+      "library_id": "ANGELOVSKI19",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "MCCANN02",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "氣候正義與綠色仕紳化",
+  "region": "北美",
+  "curriculum_refs": [
+    {
+      "school": "UCL Bartlett",
+      "course": "Critical Debates in Urban Design",
+      "topic": "綠地仕紳化"
+    },
+    {
+      "school": "MIT",
+      "course": "11.330J Theory of City Form",
+      "topic": "綠地仕紳化"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-GRN-060",
+    "KU-GRN-062"
+  ]
+}

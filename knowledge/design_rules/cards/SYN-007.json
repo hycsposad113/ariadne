@@ -1,0 +1,90 @@
+{
+  "id": "SYN-007",
+  "title_zh": "800 m 局部尺度",
+  "title_en": "Local radius 800 m",
+  "domain": "space_syntax",
+  "stages": [
+    "S2",
+    "S3",
+    "S5",
+    "S6",
+    "S7"
+  ],
+  "statement_zh": "800 m 用於近鄰步行與最後一段騎行比較；半徑是網路度量距離，不是保證每人能走到的時間。",
+  "rationale_zh": "近鄰路網要回應買菜、回家和入口分布。",
+  "applies_when": {
+    "radius_m": [
+      "800"
+    ],
+    "mode": [
+      "pedestrian",
+      "bicycle"
+    ]
+  },
+  "parameters": [
+    {
+      "name": "radius_m",
+      "value": 800,
+      "range": null,
+      "unit": "m",
+      "provenance": "FOUNDER",
+      "source_ids": [],
+      "status": "PROJECT_INSTRUCTION",
+      "rationale_zh": "專案指定分析尺度，非普適步行距離。",
+      "authority_ref": "2026-10-08 修正計畫及 J7 指示；正式作用由已接受專案狀態解析"
+    }
+  ],
+  "check": {
+    "method_zh": "檢查 metric radius、模式與覆蓋邊界；記錄無法到達路段。",
+    "inputs": [
+      "凍結幾何／路網與 hash",
+      "已接受專案條件與版本",
+      "卡片參數與版本"
+    ],
+    "output": "檢查值、單位、方法、有效性、差異與限制；不自動採納",
+    "implementation_status": "SPECIFICATION_ONLY"
+  },
+  "check_unavailable_reason_zh": null,
+  "design_responses": [
+    {
+      "option": "1",
+      "action_zh": "以局部整合度尋找生活路線",
+      "source_ids": [
+        "HILLIER84"
+      ],
+      "tradeoff_zh": "不代表設施存在。"
+    },
+    {
+      "option": "2",
+      "action_zh": "以目的地最短路徑補充",
+      "source_ids": [
+        "EWING10"
+      ],
+      "tradeoff_zh": "需要可靠用途與入口。"
+    }
+  ],
+  "evidence_level": "ACADEMIC",
+  "evidence_strength": "THEORETICAL",
+  "sources": [
+    {
+      "library_id": "HILLIER84",
+      "claim_id": "C1",
+      "support_scope_zh": "文獻支持概念與比較角度；本卡具體操作是設計推導，試算值及專案約束不是文獻的普適結論。"
+    },
+    {
+      "library_id": "EWING10",
+      "claim_id": "C1",
+      "support_scope_zh": "文獻支持概念與比較角度；本卡具體操作是設計推導，試算值及專案約束不是文獻的普適結論。"
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "enforcement": "CANDIDATE_ONLY",
+  "authority_ref": null,
+  "debates_zh": "整合度不是人流因果保證；Ratti 指出表示法與幾何資訊限制，MCA 可作替代比較；本次僅憑書目知識，尚未逐頁查證。 已查證書目與主張的查閱層級見 library；不是逐頁核驗或本基地因果結論。",
+  "context_validity_zh": "英國形態／人流研究與跨城市網路方法只能提出假說；M4H 港區的門禁、產業時段、自行車與高差需另驗證。",
+  "exceptions_zh": "卡片不可替代現行法規、產權、無障礙或已接受 D1/D2。缺必要資料即回報 UNKNOWN；例外須由 Founder 明確決定並保留原結果。",
+  "version": "0.2.0",
+  "local_context_refs": [
+    "FOUNDER"
+  ]
+}

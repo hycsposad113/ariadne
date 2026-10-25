@@ -1,0 +1,74 @@
+{
+  "id": "KU-WAT-045",
+  "domain": "WAT",
+  "subtopic": "海綿城市",
+  "type": "design_principle",
+  "title_zh": "地方土壤和地下水應決定設施分區",
+  "title_en": "地方土壤和地下水應決定設施分區",
+  "summary_zh": "同一城市內的滲透能力、土壤污染和地下水深度也會隨地段改變。海綿城市研究描述政策框架與個案實踐，WSUD 回顧則指出措施須適應地方條件。忽略地下條件會把不適合滲透的位置誤畫成通用解法。",
+  "key_points_zh": [
+    "滲透設施需要現地土壤與地下水調查。",
+    "受污染土地可能需先處理污染遷移風險。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "library_id": "ROY2008",
+        "claim_zh": "書目確認本文題名聚焦「Impediments and Solutions to Sustainable, Watershed-Scale Urban Stormwater Management: Lessons from Australia and the United States」；目前只完成作者、年份、題名與 DOI 核對，未將摘要或全文結論納入此記錄；本單元 KU-WAT-045 對照「同一城市內的滲透能力、土壤污染和地下水深度也會隨地段改變」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "文獻回顧；目前僅核對書目範圍",
+        "context_region": "澳洲與美國",
+        "locator": null
+      },
+      {
+        "library_id": "SHUSTER2005",
+        "claim_zh": "書目確認本文題名聚焦「Impacts of impervious surface on watershed hydrology: A review」；目前只完成作者、年份、題名與 DOI 核對，未將摘要或全文結論納入此記錄；本單元 KU-WAT-045 對照「同一城市內的滲透能力、土壤污染和地下水深度也會隨地段改變」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "文獻回顧；目前僅核對書目範圍",
+        "context_region": "美國",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "依地質、地下水和污染資料劃分適用措施。",
+    "分開標記可滲透、需隔離及以調蓄為主的地點。"
+  ],
+  "applies_when_zh": "適用於海綿城市措施的地段配置。",
+  "not_applicable_when_zh": "沒有地質資料時不應承諾地下補注量。",
+  "debates_zh": "前期資料常有解析度和年份限制，分區需要保留不確定標籤。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "ROY2008",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "SHUSTER2005",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "海綿城市場址適配",
+  "region": "中國；英國與國際經驗",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "海綿城市"
+    },
+    {
+      "school": "MIT",
+      "course": null,
+      "topic": "海綿城市"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0"
+}

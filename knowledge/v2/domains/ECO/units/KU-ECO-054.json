@@ -1,0 +1,70 @@
+{
+  "id": "KU-ECO-054",
+  "domain": "ECO",
+  "subtopic": "生態服務",
+  "type": "value_range",
+  "title_zh": "都市植物資料的城市覆蓋",
+  "title_en": "City coverage of urban plant estimates",
+  "summary_zh": "全球植物比較納入一百一十座城市。較多城市增加地域覆蓋，但不會消除各地調查方案差異。植物密度、豐富度和原生種比例不可混用。跨城範圍和跨研究可比性並不相同。記錄資料究竟量測物種密度還是其他生態指標。",
+  "key_points_zh": [
+    "全球植物比較納入一百一十座城市",
+    "較多城市增加地域覆蓋，但不會消除各地調查方案差異"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "全球植物比較納入一百一十座城市。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "荷蘭",
+        "library_id": "MAAS06",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "跨城範圍和跨研究可比性並不相同。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "記錄資料究竟量測物種密度還是其他生態指標。"
+  ],
+  "applies_when_zh": "適用於比較都市植物研究的證據基礎。",
+  "not_applicable_when_zh": "不應將樣本城市數當成植物多樣性指標。",
+  "debates_zh": "跨城範圍和跨研究可比性並不相同。",
+  "sources": [
+    {
+      "library_id": "MAAS06",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "LIVESELY16",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "公共健康與環境流行病學",
+  "region": "荷蘭",
+  "curriculum_refs": [
+    {
+      "school": "UCL Bartlett",
+      "course": "Critical Debates in Urban Design",
+      "topic": "生態服務"
+    }
+  ],
+  "version": "2.0.0",
+  "values": [
+    {
+      "name": "都市植物資料的城市覆蓋",
+      "range": "110 座",
+      "unit": "城市數",
+      "context": "全球都市植物資料的城市覆蓋；屬研究範圍，非設計配額。；「都市植物資料的城市覆蓋」僅供其研究脈絡內比較，不構成本基地法規。",
+      "library_id": "ARONSON14"
+    }
+  ],
+  "related_unit_ids": [
+    "KU-ECO-053",
+    "KU-ECO-055"
+  ]
+}

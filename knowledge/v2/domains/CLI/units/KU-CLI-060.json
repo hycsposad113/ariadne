@@ -1,0 +1,74 @@
+{
+  "id": "KU-CLI-060",
+  "domain": "CLI",
+  "subtopic": "室外熱舒適指標",
+  "type": "method",
+  "title_zh": "用實測微氣候與問卷一起解讀熱舒適",
+  "title_en": "用實測微氣候與問卷一起解讀熱舒適",
+  "summary_zh": "氣象感測器能量測環境條件，問卷則記錄使用者對熱、風和遮蔭的感受，兩種資料回答互補問題。Sydney 戶外研究使用現場舒適調查；適應性文獻回顧整理建成環境中的感受差異。分析需同步時間與位置，以免把不同情境拼在一起。",
+  "key_points_zh": [
+    "問卷時間戳要和感測器量測對齊。",
+    "樣本組成會改變平均舒適評分。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "library_id": "BRODE2012",
+        "claim_zh": "書目確認本文題名聚焦「Deriving the operational procedure for the Universal Thermal Climate Index (UTCI)」；目前只完成作者、年份、題名與 DOI 核對，未將摘要或全文結論納入此記錄；本單元 KU-CLI-060 對照「氣象感測器能量測環境條件，問卷則記錄使用者對熱、風和遮蔭的感受，兩種資料回答互補問題」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "方法或概念研究；目前僅核對書目範圍",
+        "context_region": "跨地域",
+        "locator": null
+      },
+      {
+        "library_id": "NIKOLOPOULOU2003",
+        "claim_zh": "題名確認研究把心理適應納入都市空間熱舒適設計；不把單一生理指標等同所有使用者的舒適判斷；本單元 KU-CLI-060 對照「氣象感測器能量測環境條件，問卷則記錄使用者對熱、風和遮蔭的感受，兩種資料回答互補問題」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "熱舒適與心理適應研究",
+        "context_region": "都市公共空間",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "在代表性季節和使用時段同步收集資料。",
+    "按年齡、活動與遮蔭狀態分層檢查回應。"
+  ],
+  "applies_when_zh": "適用於設計後評估和模型校準。",
+  "not_applicable_when_zh": "不可只用短期問卷代表全年使用者。",
+  "debates_zh": "現地調查受自我選擇和天氣偏差影響，不能當作普遍人群反應。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "BRODE2012",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "NIKOLOPOULOU2003",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "戶外舒適實測方法",
+  "region": "Sydney, Australia；跨地域建築環境",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "室外熱舒適指標"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": null,
+      "topic": "室外熱舒適指標"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0"
+}

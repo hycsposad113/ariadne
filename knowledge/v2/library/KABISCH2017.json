@@ -1,0 +1,45 @@
+{
+  "id": "KABISCH2017",
+  "title": "Nature-Based Solutions to Climate Change Adaptation in Urban Areas—Linkages Between Science, Policy and Practice",
+  "authors": [
+    "Nadja Kabisch",
+    "Horst Korn",
+    "Jutta Stadler",
+    "Aletta Bonn"
+  ],
+  "year": 2017,
+  "venue_or_publisher": "Theory and Practice of Urban Sustainability Transitions",
+  "doi": "https://doi.org/10.1007/978-3-319-56091-5_1",
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "ACADEMIC_BOOK_CHAPTER",
+  "tradition": "自然為本的氣候調適",
+  "region": "歐洲與國際",
+  "method": "文獻回顧；目前僅核對書目範圍",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "書目確認本文題名聚焦「Nature-Based Solutions to Climate Change Adaptation in Urban Areas—Linkages Between Science, Policy and Practice」；目前只完成作者、年份、題名與 DOI 核對，未將摘要或全文結論納入此記錄。",
+      "strength": "THEORETICAL",
+      "scope_zh": "只支持題名所顯示的研究議題與書目範圍；具體研究設計、樣本、效果量及外推界限須由摘要或全文另行核對。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref",
+    "query": {
+      "title": "Nature-based solutions to climate change adaptation in urban areas: linkages between science, policy and practice",
+      "author": "Kabisch",
+      "year": 2017,
+      "api_query": "https://api.crossref.org/works?query.bibliographic=Nature-based%20solutions%20to%20climate%20change%20adaptation%20in%20urban%20areas%3A%20linkages%20between%20science%2C%20policy%20and%20practice%20Kabisch%202017&rows=5"
+    },
+    "matched_record_id": "10.1007/978-3-319-56091-5_1",
+    "checked_at_utc": "2026-10-08T14:02:44Z",
+    "match_notes_zh": "Crossref 回傳記錄的作者和年份相符；題名按匹配度核對，repo 僅採用 API 回傳的完整標題。"
+  },
+  "limitations_zh": "只保留書目欄位與自行概括的研究範圍，沒有保存 API 回傳摘要；未標 ABSTRACT_REVIEW 的主張不得據此聲稱效果量。",
+  "critique_relationship_zh": "尚未核對本文與其他文獻的互引或直接反駁關係。",
+  "metadata_licence_zh": "Crossref 公開書目 metadata；精確授權未核驗，標 UNKNOWN。"
+}

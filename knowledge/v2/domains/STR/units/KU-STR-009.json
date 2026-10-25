@@ -1,0 +1,81 @@
+{
+  "id": "KU-STR-009",
+  "domain": "STR",
+  "subtopic": "完整街道",
+  "type": "empirical_finding",
+  "title_zh": "自行車使用與政策組合",
+  "title_en": "Cycling and coordinated policy packages",
+  "summary_zh": "荷蘭、丹麥、德國國家資料與大小城市案例比較，研究脈絡為荷蘭、丹麥、德國，並以英國和美國作對照。研究支持的是相互配合的一攬子政策，不能分離某一種斷面或設施的單獨效果。高自行車使用與繁忙道路分隔設施、住宅區交通寧靜、停車、公共運輸整合、教育和汽車管理的組合相伴。限制包括國家比較與案例資料有政策、土地使用和文化差異，非單一因果試驗。",
+  "key_points_zh": [
+    "研究支持的是相互配合的一攬子政策，不能分離某一種斷面或設施的單獨效果",
+    "限制：國家比較與案例資料有政策、土地使用和文化差異，非單一因果試驗",
+    "效果或方向：高自行車使用與繁忙道路分隔設施、住宅區交通寧靜、停車、公共運輸整合、教育和汽車管理的組合相伴"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "自行車使用與政策組合｜研究支持的是相互配合的一攬子政策，不能分離某一種斷面或設施的單獨效果",
+        "effect_or_value": "高自行車使用與繁忙道路分隔設施、住宅區交通寧靜、停車、公共運輸整合、教育和汽車管理的組合相伴",
+        "study_design": "荷蘭、丹麥、德國國家資料與大小城市案例比較",
+        "context_region": "荷蘭、丹麥、德國，並以英國和美國作對照",
+        "library_id": "PUCHER08",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "自行車使用與政策組合｜自行車設計需連續路線、交叉口與目的地配套；本次沒有查閱手冊條文或尺寸",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "CROW",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "完整街道需同時規劃設施、停車和管理，不把單一車道當成成功保證"
+  ],
+  "applies_when_zh": "若本地觀察單位與荷蘭、丹麥、德國，並以英國和美國作對照的研究脈絡可對照，可用「研究支持的是相互配合的一攬子政策，不能分離某一種斷面或設施的單獨效果」作為完整街道的比較線索。",
+  "not_applicable_when_zh": "這項荷蘭、丹麥、德國，並以英國和美國作對照的研究結果不能單獨證明因果或預測其他城市的街段；原研究國家比較與案例資料有政策、土地使用和文化差異，非單一因果試驗。",
+  "debates_zh": "關聯能否外推；國家比較與案例資料有政策、土地使用和文化差異，非單一因果試驗；檢視「自行車使用與政策組合」的研究解讀時，還需判斷「限制：國家比較與案例資料有政策、土地使用和文化差異，非單一因果試驗」會如何改變方案結論。",
+  "sources": [
+    {
+      "library_id": "PUCHER08",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "CROW",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "多模式街道與安全設計",
+  "region": "荷蘭、丹麥、德國，並以英國和美國作對照",
+  "curriculum_refs": [
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "完整街道：課綱對應主題"
+    },
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.330J Theory of City Form",
+      "topic": "完整街道：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-STR-010",
+    "KU-STR-011",
+    "KU-STR-012",
+    "KU-STR-013",
+    "KU-STR-014",
+    "KU-STR-015",
+    "KU-STR-016"
+  ]
+}

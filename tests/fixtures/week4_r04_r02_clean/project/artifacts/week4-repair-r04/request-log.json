@@ -1,0 +1,12 @@
+{
+  "fixture_only": true,
+  "requests": {
+    "candidate_api_requests": 0,
+    "osm_requests": 0,
+    "outbound_external_http_requests": 0,
+    "outbound_model_requests": 0,
+    "pdok_requests": 0,
+    "qgis_mcp_calls": 0,
+    "weather_requests": 0
+  }
+}

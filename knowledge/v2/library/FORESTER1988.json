@@ -1,0 +1,46 @@
+{
+  "id": "FORESTER1988",
+  "title": "Planning in the Face of Power",
+  "authors": [
+    "John Forester"
+  ],
+  "year": 1988,
+  "venue_or_publisher": "University of California Press",
+  "doi": "10.1525/9780520908918",
+  "isbn": "9780520908918",
+  "openalex_id": null,
+  "kind": "ACADEMIC_BOOK",
+  "tradition": "critical communicative planning",
+  "region": [
+    "United States"
+  ],
+  "method": "normative theory with planning practice cases",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "Crossref 將本書版本記作 1988；本單元用其書目範圍指出規劃中的權力與溝通問題，不將其當作成效實證。",
+      "strength": "THEORETICAL",
+      "scope_zh": "僅依已核對書目範圍作學術定位；不保存或轉述 API 摘要為研究結論。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [
+    "FLYVBJERG1998",
+    "WATSON09"
+  ],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref",
+    "query": {
+      "title": "Planning in the Face of Power",
+      "author": "John Forester",
+      "year": 1988
+    },
+    "matched_record_id": "10.1525/9780520908918",
+    "checked_at_utc": "2026-10-08T10:24:41Z",
+    "match_notes_zh": "API 回傳的作品／文章題名、作者與年份相符；不以書評、引用或同名異作代替原始書目。"
+  },
+  "limitations_zh": "本輪只核對公開書目欄位與題名範圍，未下載全文；具體理論或效果需由 Claude 依原始文獻另行交叉核對。",
+  "critique_relationship_zh": "列出的批評來源用於對讀不同理論與範圍，不表示它們逐條反駁本書目。",
+  "metadata_licence_zh": "保存書目欄位與自撰範圍描述；未保存全文或 API 摘要。"
+}

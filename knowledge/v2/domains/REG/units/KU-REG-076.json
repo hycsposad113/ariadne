@@ -1,0 +1,78 @@
+{
+  "id": "KU-REG-076",
+  "domain": "REG",
+  "subtopic": "新加坡用途與容積治理",
+  "type": "value_range",
+  "title_zh": "新加坡商業地區 plot ratio 對照帶",
+  "title_en": "Singapore commercial plot-ratio band",
+  "summary_zh": "新加坡商業地區常見 gross plot ratio 規劃標示約 2.8–5.6，特別區與地塊條件可能另有設定。 範圍只供跨制度比較，正式項目須查最新 Master Plan 及地塊條件。 分開記錄用途分類、計畫 plot ratio 和土地招標條件，避免將競標價當作規劃容量。",
+  "key_points_zh": [
+    "新加坡商業地區常見 gross plot ratio 規劃標示約 2.8–5.6，特別區與地塊條件可能另有設定。",
+    "範圍只供跨制度比較，正式項目須查最新 Master Plan 及地塊條件。",
+    "分開記錄用途分類、計畫 plot ratio 和土地招標條件，避免將競標價當作規劃容量。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "URA 說明商業 gross plot ratio 應按用途圖、分區及地塊條件判讀；本文保留的比較區間不是官方公布的全市固定值。",
+        "effect_or_value": "約 2.8–5.6",
+        "study_design": "Master Plan 圖示待核對的規劃範圍彙整；不屬於 OOI2006 研究結果",
+        "context_region": "新加坡商業與中心區規劃",
+        "library_id": "URA_GPR_COMM",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "新加坡商業地區 plot ratio 對照帶",
+      "range": "約 2.8–5.6",
+      "unit": "gross plot ratio",
+      "context": "新加坡商業 Master Plan 的 gross plot ratio 比較；用途：所列區間僅為待核對的圖面案例帶，URA 官方指南說明用途圖與地塊條件，未在本次核實每一數值；須按指定版次逐宗地確認，這不是本基地法規。",
+      "library_id": "URA_GPR_COMM"
+    }
+  ],
+  "design_implications_zh": [
+    "分開記錄用途分類、計畫 plot ratio 和土地招標條件，避免將競標價當作規劃容量。",
+    "記錄 新加坡商業與中心區規劃 與「Master Plan 商業地塊 gross plot ratio」的量測分母，再和另一種尺度或用途並排比較。"
+  ],
+  "applies_when_zh": "用於比較新加坡商業與中心區規劃的Master Plan 商業地塊 gross plot ratio，並明示此數值的來源、年份和面積分母。",
+  "not_applicable_when_zh": "範圍只供跨制度比較，正式項目須查最新 Master Plan 及地塊條件。",
+  "debates_zh": "土地拍賣競爭和公共交通位置會影響價格，不能由 plot ratio 單獨推估開發成果。 查核：條文已說明非官方固定值。",
+  "sources": [
+    {
+      "library_id": "URA_GPR_COMM",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "SINGLE_SOURCE",
+  "tradition": "新加坡土地拍賣與開發競爭",
+  "region": "新加坡商業與中心區規劃",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Planning Complex Cities",
+      "topic": "新加坡用途與容積治理"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Urban Design Contexts and Operations",
+      "topic": "新加坡用途與容積治理"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "新加坡用途與容積治理"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban design governance",
+      "topic": "新加坡用途與容積治理"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+}

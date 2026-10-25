@@ -1,0 +1,110 @@
+{
+  "id": "KU-MOB-066",
+  "domain": "MOB",
+  "subtopic": "大眾運輸服務圈",
+  "type": "value_range",
+  "title_zh": "軌道站步行接駁的 800 m 參照",
+  "title_en": "800 m walking access to rail stations",
+  "summary_zh": "800 m 常作為軌道站步行接駁的規劃參照，常與約半英里的概念相連。沿實際路網的距離可能遠大於地圖圓半徑，尤其站區被快速道路或大型地塊切斷時。不同年齡和能力群體也不會有相同的可接受距離。此處的軌道站步行服務距離參照是附來源的比較參照，不是本基地法規。",
+  "key_points_zh": [
+    "服務圈應按站點入口和路網入口計算。",
+    "800 m 是檢視尺度，不是所有人都能接受的距離。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "Calthorpe（1993）的 TOD 原定義約 2,000 英尺（約 600 m）；半英里（約 800 m）是後續 TOD 研究常用的車站接駁範圍，實際接駁距離依路網與運具而異。",
+        "library_id": "CALTHORPE93",
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+        "effect_or_value": "約 800 m",
+        "study_design": "TOD 步行服務範圍；來源條目待交叉核對",
+        "context_region": "美國 TOD 規劃脈絡",
+        "locator": null
+      },
+      {
+        "claim_zh": "交通可及性衡量必須交代人口、目的地與網路成本。",
+        "library_id": "GEURS04",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "可及性評估方法",
+        "context_region": "跨地域交通可及性研究",
+        "locator": null
+      },
+      {
+        "claim_zh": "海牙電車乘客研究的步行接駁距離中位數為 380 m；這是電車樣本結果，不代表軌道站的普遍門檻。",
+        "library_id": "RIJSMAN19",
+        "claim_verification": "ABSTRACT_REVIEW",
+        "effect_or_value": "步行中位數 380 m",
+        "study_design": "海牙電車乘客 revealed-preference 問卷、迴歸與質性分析",
+        "context_region": "荷蘭海牙",
+        "locator": null
+      },
+      {
+        "claim_zh": "墨爾本研究以分布描述公共運輸步行接駁的可接受與可忍受距離；本單元不把其樣本距離當成服務門檻。",
+        "library_id": "TAYLOR24",
+        "claim_verification": "ABSTRACT_REVIEW",
+        "effect_or_value": null,
+        "study_design": "可接受與可忍受步行距離分布分析",
+        "context_region": "澳洲墨爾本",
+        "locator": null
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "軌道站步行服務距離參照",
+      "range": "約 800 m",
+      "unit": "公尺",
+      "context": "800 m 為後續研究慣例，非 Calthorpe 原值；Calthorpe 原值約 600 m。TOD 與大眾運輸規劃中的步行接駁比較情境；用途：用於檢視站區步行網路和目的地分布；半徑不可取代路網距離。；「軌道站步行服務距離參照」僅供來源脈絡內的比較，不是本基地法規、M4H 門檻或通用配額；來源所列地域：美國。",
+      "library_id": "CALTHORPE93"
+    }
+  ],
+  "design_implications_zh": [
+    "以 800 m 比較方案的站區覆蓋時，另行呈現有坡度、穿越障礙或缺乏人行道的路段。"
+  ],
+  "applies_when_zh": "初步比較軌道站步行覆蓋時，沿實際路網核對站口、穿越點和不同步行能力。",
+  "not_applicable_when_zh": "這個尺度不保證實際服務可達，也不應成為站點設置或土地開發的唯一門檻。",
+  "debates_zh": "以同一圓形半徑衡量不同站區會忽略路網品質和乘客能力差異。",
+  "sources": [
+    {
+      "library_id": "CALTHORPE93",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "GEURS04",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "RIJSMAN19",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "TAYLOR24",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "TOD 與大眾運輸可及性",
+  "region": "TOD 與大眾運輸規劃中的步行接駁比較情境",
+  "curriculum_refs": [
+    {
+      "school": "Harvard GSD",
+      "course": "Urban Design Contexts and Operations",
+      "topic": "大眾運輸服務圈：課綱對應主題"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "大眾運輸服務圈：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-MOB-045"
+  ]
+}

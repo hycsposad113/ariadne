@@ -1,0 +1,82 @@
+{
+  "id": "KU-SYN-065",
+  "domain": "SYN",
+  "subtopic": "軸線／線段分析",
+  "type": "value_range",
+  "title_zh": "局部整合度的 R3 半徑",
+  "title_en": "R3 topological radius",
+  "summary_zh": "R3 表示以三個拓樸步驟為範圍的局部分析情境，與以米數定義的距離半徑不同。它用於比較局部整合度或近鄰結構，並非全域中心性。各軟體和研究對半徑設定的細節仍需交叉核對。此處的局部空間語法分析半徑是附來源的比較參照，不是本基地法規。",
+  "key_points_zh": [
+    "R3 以拓樸步數界定範圍，不等於 3 m 或 300 m。",
+    "局部結果須與全域尺度和實際街道距離一起判讀。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "R3 常用作局部網路半徑的分析記號，具體操作須對照空間語法研究設定。",
+        "library_id": "HILLIER93",
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+        "effect_or_value": "R3，即三個拓樸步驟",
+        "study_design": "局部空間語法分析的半徑慣例待核對",
+        "context_region": "英國空間語法研究",
+        "locator": null
+      },
+      {
+        "claim_zh": "城市移動和街道空間指標需放在指定尺度內計算。",
+        "library_id": "CAMPBELL96",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "城市路網與移動分析",
+        "context_region": "跨地域城市網路研究",
+        "locator": null
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "局部空間語法分析半徑",
+      "range": "R3，即三個拓樸步驟",
+      "unit": "拓樸深度",
+      "context": "空間語法局部網路分析情境；用途：用來比較近鄰尺度的局部整合度；分析範圍須隨研究問題調整。；「局部空間語法分析半徑」僅供來源脈絡內的比較，不是本基地法規、M4H 門檻或通用配額；來源所列地域：英國。",
+      "library_id": "HILLIER93"
+    }
+  ],
+  "design_implications_zh": [
+    "若研究問題聚焦步行近鄰結構，可設定 R3 作比較模型，並把步數設定寫入方法紀錄。"
+  ],
+  "applies_when_zh": "聚焦步行近鄰網路結構時，將 R3 局部模型和公尺距離或全域結果並列。",
+  "not_applicable_when_zh": "R3 不是建築規範或固定步行服務圈；它也不能替代實際路網長度和障礙分析。",
+  "debates_zh": "拓樸半徑在網格和樹狀街網中代表不同的公尺距離，跨地區比較前需檢查尺度差異。",
+  "sources": [
+    {
+      "library_id": "HILLIER93",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "CAMPBELL96",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "空間語法尺度設定",
+  "region": "空間語法局部網路分析情境",
+  "curriculum_refs": [
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.330J Theory of City Form",
+      "topic": "軸線／線段分析：課綱對應主題"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Critical Debates in Urban Design",
+      "topic": "軸線／線段分析：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-SYN-003"
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "KU-HAR-048",
+  "type": "method",
+  "subtopic": "分期開發",
+  "title_zh": "公共空間要按開放時間而非完工圖面判讀",
+  "title_en": "Read Public Space by Opening Sequence, Not the Final Plan Alone",
+  "summary_zh": "分期更新的總圖會同時展示已開放、施工中和遠期計畫空間，若不標註狀態，就容易把未交付的公共性當成現況。High Line 和 Brooklyn Bridge Park 的官方資料均以階段描述設施逐步開放；研究者應為每段記錄啟用日期、入口、開放時間和臨時封閉。這種時間切片也能協助比較開發階段對周邊街網的實際影響。",
+  "key_points_zh": [
+    "以狀態圖層區分已開放、施工中、核准未建和願景。",
+    "為每個可進入段落保留時間戳和入口清單。"
+  ],
+  "design_implications_zh": [
+    "以可實際通行的步行網而非渲染圖上的連續色塊計算開放空間。"
+  ],
+  "applies_when_zh": "公共空間分批施工或分區開放時。",
+  "not_applicable_when_zh": "已完成且長期維護狀態穩定的公園。",
+  "debates_zh": "即使單一分期已開放，也可能因活動、維修和私有管理而出現時段性限制。",
+  "tradition": "公共空間實施評估／分期治理",
+  "region": "美國紐約",
+  "curriculum_refs": [
+    {
+      "school": "UCL Bartlett",
+      "course": null,
+      "topic": "Public-space implementation and access"
+    }
+  ],
+  "domain": "HAR",
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "紐約市2011年公告以新增階段描述High Line的開放次序。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "美國紐約",
+        "library_id": "NYC_HIGHLINE_PHASE2_2011",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "紐約市公告按碼頭分期記錄公園建設與開放。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "美國紐約",
+        "library_id": "NYC_BROOKLYN_BRIDGE_PARK2012",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "Loughran以High Line分析公園投資、城市增長和空間發展不均；此批判不替代官方開放日期。",
+        "effect_or_value": null,
+        "study_design": "都市社會學個案分析；細節待全文核對",
+        "context_region": "美國紐約",
+        "library_id": "LOUGHRAN2014",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "library_id": "NYC_HIGHLINE_PHASE2_2011",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "NYC_BROOKLYN_BRIDGE_PARK2012",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "LOUGHRAN2014",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "version": "v2.0"
+}

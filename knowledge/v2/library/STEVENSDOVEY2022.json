@@ -1,0 +1,44 @@
+{
+  "id": "STEVENSDOVEY2022",
+  "title": "Temporary and Tactical Urbanism",
+  "authors": [
+    "Quentin Stevens",
+    "Kim Dovey"
+  ],
+  "year": 2022,
+  "venue_or_publisher": "Routledge",
+  "doi": "10.4324/9781003284390",
+  "isbn": "9781003284390",
+  "openalex_id": null,
+  "kind": "ACADEMIC_BOOK",
+  "tradition": "暫時與戰術都市主義",
+  "region": [
+    "跨地域"
+  ],
+  "method": "書目範圍核對；未以書目代替全文分析",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "核對書目確認《Temporary and Tactical Urbanism》的作者、題名與出版脈絡；此記錄不單獨證明單元中的效應、因果或基地條件。",
+      "strength": "THEORETICAL",
+      "scope_zh": "只界定可查證的書目與研究範圍；不提供本基地法規、實測值或通用設計門檻。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref",
+    "query": {
+      "title": "Temporary and Tactical Urbanism",
+      "author": "Quentin Stevens; Kim Dovey",
+      "year": 2022
+    },
+    "matched_record_id": "10.4324/9781003284390",
+    "checked_at_utc": "2026-10-08T16:17:59Z",
+    "match_notes_zh": "Crossref 書目匹配兩位作者、書名、Routledge 與 2022 年。"
+  },
+  "limitations_zh": "只核對允許使用的公開書目 API；未查閱全文。書目確認不等於主張、因果或參數驗證。",
+  "critique_relationship_zh": "本筆作為單元主題的獨立書目來源；未由書目資料推定來源間直接互引或逐條反駁。",
+  "metadata_licence_zh": "僅保存必要書目欄位與自撰摘要；未保存全文或 API 摘要，metadata 授權未逐筆核驗，標 UNKNOWN。"
+}

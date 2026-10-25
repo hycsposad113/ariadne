@@ -1,0 +1,71 @@
+{
+  "id": "KU-THY-004",
+  "domain": "THY",
+  "subtopic": "城市作為神聖秩序、機器、有機體",
+  "type": "theory",
+  "title_zh": "三種規範城市模型",
+  "title_en": "Cosmic machine and organic models",
+  "summary_zh": "Lynch 討論宇宙、機器與有機體三種規範模型。宇宙模型將空間秩序連到神聖或宇宙秩序，機器模型以功能組件的有效運作理解城市，有機模型強調成長、整體關聯與內部平衡。在設計論述中辨認所用隱喻，說清楚它如何影響道路、中心與成長方式。",
+  "key_points_zh": [
+    "在設計論述中辨認所用隱喻，說清楚它如何影響道路、中心與成長方式。",
+    "城市不是生物體；有機隱喻可能掩蓋權力差異與衝突。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "Lynch 討論宇宙、機器與有機體三種規範模型。宇宙模型將空間秩序連到神聖或宇宙秩序，機器模型以功能組件的有效運作理解城市，有機模型強調成長、整體關聯與內部平衡。",
+        "library_id": "LYNCH81",
+        "locator": null,
+        "study_design": "理論／方法綜述；非基地實測",
+        "effect_or_value": null,
+        "context_region": null,
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008"
+      },
+      {
+        "claim_zh": "Mumford 對城市文明、機械秩序及有機生活的歷史書寫構成不同作者的模型對照。",
+        "library_id": "MUMFORD1961",
+        "locator": null,
+        "study_design": "歷史／城市文明",
+        "effect_or_value": null,
+        "context_region": "美國、跨地域",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "在設計論述中辨認所用隱喻，說清楚它如何影響道路、中心與成長方式。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "機能分區利於專業系統管理，卻可能犧牲日常活動的交錯。",
+      "tradeoff_zh": "城市不是生物體；有機隱喻可能掩蓋權力差異與衝突。",
+      "library_ids": [
+        "LYNCH81"
+      ]
+    }
+  ],
+  "applies_when_zh": "用於釐清「三種規範城市模型」涉及的空間、制度與行動選擇。",
+  "not_applicable_when_zh": "「三種規範城市模型」不能直接替代基地的實測、法規或人類批准。",
+  "debates_zh": "城市不是生物體；有機隱喻可能掩蓋權力差異與衝突。",
+  "sources": [
+    {
+      "library_id": "LYNCH81",
+      "locator": null
+    },
+    {
+      "library_id": "MUMFORD1961",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+  "curriculum_refs": [
+    {
+      "school": "MIT",
+      "course": null,
+      "topic": "編者主題對照，非已核實課程指定閱讀：三種規範城市模型"
+    }
+  ],
+  "version": "2.0.0-theory-v3"
+}

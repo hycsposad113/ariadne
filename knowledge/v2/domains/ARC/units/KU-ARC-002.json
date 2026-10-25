@@ -1,0 +1,103 @@
+{
+  "id": "KU-ARC-002",
+  "domain": "ARC",
+  "subtopic": "住宅單元與類型",
+  "type": "value_range",
+  "title_zh": "一房二人住宅的面積與樓層差異",
+  "title_en": "1b2p dwelling area by storey count",
+  "summary_zh": "NDSS 表列一房二人住宅一層式最低 50 m²，兩層式最低 58 m²。 樓層增加會帶入樓梯與上下層交通面積，因此相同床位數不能用單一面積值概括。 比較公寓與連棟住宅時，須把樓層數當成面積標準的輸入。",
+  "key_points_zh": [
+    "核心主張：NDSS 表列一房二人住宅一層式最低 50 m²，兩層式最低 58 m²。",
+    "量測檢查：依居室床位數分類，再從官方 Table 1 取對應的一層或兩層欄位。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "NDSS 表列一房二人住宅一層式最低 50 m²，兩層式最低 58 m²。",
+        "effect_or_value": "50 m²（一層）；58 m²（兩層）",
+        "study_design": "跨地域設計參照綜整；數值狀態依 claim_verification 註記",
+        "context_region": "England；新住宅",
+        "library_id": "UK_NDSS_2015",
+        "locator": "technical requirements paras 10–11; Table 1",
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "1b2p minimum GIA",
+      "range": "50 m²（一層）；58 m²（兩層）",
+      "unit": "m² GIA",
+      "context": "地區：England；用途：英格蘭新建一房二人住宅；依樓層數選表值；出處：Technical housing standards – nationally described space standard；本基地法規：否；核對狀態：官方頁面直接讀取。",
+      "library_id": "UK_NDSS_2015"
+    }
+  ],
+  "design_implications_zh": [
+    "把總面積拆成起居、睡眠、衛浴、內部收納與垂直交通，避免只比一個總數。"
+  ],
+  "applies_when_zh": "用於方案前期檢查「一房二人住宅的面積與樓層差異」相關的量體、平面或空間品質。",
+  "not_applicable_when_zh": "「一房二人住宅的面積與樓層差異」的區間不得單獨作為許可、消防、結構或基地法規判定。",
+  "debates_zh": "相同 GIA 可能因平面效率與家具配置而呈現不同使用品質，法定標準本身不保證空間舒適。",
+  "sources": [
+    {
+      "library_id": "UK_NDSS_2015",
+      "claim_id": "C1",
+      "locator": "technical requirements paras 10–11; Table 1"
+    },
+    {
+      "library_id": "METRIC_HB08",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "SINGLE_FAMILY_DESIGN18",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "claim_verification": "ABSTRACT_REVIEW",
+  "tradition": "建築設計與住宅類型學",
+  "region": "England；新住宅",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Housing and the City / Design of the Urban Fabric",
+      "topic": "建築尺度與住宅平面"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "建築尺度與街道界面"
+    },
+    {
+      "school": "MIT",
+      "course": "Architecture and Urban Design",
+      "topic": "建築尺度與空間型態"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "建築尺度與公共生活"
+    }
+  ],
+  "check": {
+    "method_zh": "依居室床位數分類，再從官方 Table 1 取對應的一層或兩層欄位。",
+    "inputs": [
+      "住宅單元與類型",
+      "尺寸／面積圖層",
+      "適用地區與用途標籤"
+    ],
+    "logic_zh": "將量測輸入轉成明確尺寸、比例或空間關係；越界只觸發複核，不自動取代設計決策。",
+    "limitations_zh": "量測結果只觸發「一房二人住宅的面積與樓層差異」的複核，不得單獨作為許可或法規判定。"
+  },
+  "version": "kb2-arc-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-ARC-001",
+    "KU-ARC-003",
+    "KU-ARC-004",
+    "KU-ARC-005",
+    "KU-ARC-006"
+  ]
+}

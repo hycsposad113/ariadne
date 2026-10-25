@@ -1,0 +1,31 @@
+{
+  "id": "GLASS64",
+  "title": "London Aspects of Change",
+  "authors": [
+    "Ruth Glass"
+  ],
+  "year": 1964,
+  "venue_or_publisher": null,
+  "doi": null,
+  "isbn": null,
+  "kind": "ACADEMIC_BOOK",
+  "tradition": "待指揮官書目分類",
+  "region": [],
+  "method": "理論／方法原著候選",
+  "claims": [],
+  "verification": {
+    "status": "AMBIGUOUS",
+    "api": "Open Library",
+    "query": {
+      "title": "London Aspects of Change",
+      "author": "Ruth Glass",
+      "year": 1964
+    },
+    "matched_record_id": null,
+    "checked_at_utc": "2026-10-08T16:19:44Z",
+    "match_notes_zh": "Open Library 可核對 1964 年《London: Aspects of Change》edition，但 catalog author 是 University College London Centre for Urban Studies，不是 Ruth Glass；因此 GLASS64 仍標 AMBIGUOUS 且不得引用。單元改用機構作者版次 LONDONASPECTS1964，並附 Johnson-Schlee 的獨立書目研究；Ruth Glass 的全書作者身分未由此目錄確認。",
+    "receipt_path": "artifacts/kb2-theory-v3/resume-source-lookups.json"
+  },
+  "limitations_zh": "主張待原著交叉核對；搜尋命中只作書目候選。",
+  "metadata_licence_zh": "公開書目 metadata；授權未核對 UNKNOWN。"
+}

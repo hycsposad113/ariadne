@@ -1,0 +1,112 @@
+{
+  "id": "KU-MOR-048",
+  "domain": "MOR",
+  "subtopic": "細粒度與大尺度開發",
+  "type": "typology",
+  "title_zh": "細粒度與大尺度開發｜類型取捨",
+  "title_en": "Fine grain and megaprojects — Typology and trade-offs",
+  "summary_zh": "細粒度開發可增加路徑選擇和街道介面，大尺度基地則可能集中設施但需要補足通行連結。 Marshall 的路網分析以連接和階層比較街道模式；Jacobs 把短街廓列為城市多樣性的四項條件之一，並未提出通用尺寸門檻。 由此不能直接推論安全、包容或社群形成。",
+  "key_points_zh": [
+    "細分小地塊通常提供更多介面；大地塊可集中設施，但需補足連通與公共性。",
+    "讀「細粒度與大尺度開發｜類型取捨」時，適用於港區再開發、分期開發和大型基地規劃；同時把街道結構可以用連接與階層關係比較；不同網形的可達性與交通作用需另外計算；「細粒度與大尺度開發｜類型取捨」還須對照日常用途、街道互動及多樣性可作城市生活的討論起點；不能從外觀推定安全或社群，才能把研究發現轉成有邊界的設計判斷列為核對條件。",
+    "限制：沒有土地權屬和通行規則資料時，不能僅由地圖推斷實際公共性。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "Marshall 以路網連接和道路階層比較街道模式；細粒度與大尺度方案可據此檢查街廓如何接入步行路徑。",
+        "library_id": "MARSHALL05",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "英國; 跨地域",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "Jacobs 將短街廓列為城市多樣性四項條件之一，提出細街廓可能增加路徑選擇與相遇機會；她沒有設定通用街廓長度門檻。",
+        "library_id": "JACOBS61",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "美國",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "比較內部街網、地塊面積分布和公共通道，而非只比街廓外框。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "在「細粒度與大尺度開發｜類型取捨」的來源情境裡，比較內部街網、地塊面積分布和公共通道，而非只比街廓外框；落到設計時還要按街道結構可以用連接與階層關係比較；不同網形的可達性與交通作用需另外計算；「細粒度與大尺度開發｜類型取捨」還須對照日常用途、街道互動及多樣性可作城市生活的討論起點；不能從外觀推定安全或社群，才能把研究發現轉成有邊界的設計判斷調整。",
+      "tradeoff_zh": "「細粒度與大尺度開發｜類型取捨」的主要代價不是抽象的建造成本，而是小街廓不必然更包容，大型開發也不必然封閉；管理方式是中介條件；因此先以街道結構可以用連接與階層關係比較；不同網形的可達性與交通作用需另外計算；「細粒度與大尺度開發｜類型取捨」還須對照日常用途、街道互動及多樣性可作城市生活的討論起點；不能從外觀推定安全或社群，才能把研究發現轉成有邊界的設計判斷作方案比較條件。",
+      "library_ids": [
+        "MARSHALL05",
+        "JACOBS61"
+      ]
+    },
+    {
+      "option_zh": "在「細粒度與大尺度開發｜類型取捨」的來源情境裡，細分小地塊通常提供更多介面；大地塊可集中設施，但需補足連通與公共性；落到設計時還要按街道結構可以用連接與階層關係比較；不同網形的可達性與交通作用需另外計算；「細粒度與大尺度開發｜類型取捨」還須對照日常用途、街道互動及多樣性可作城市生活的討論起點；不能從外觀推定安全或社群，才能把研究發現轉成有邊界的設計判斷調整。",
+      "tradeoff_zh": "「細粒度與大尺度開發｜類型取捨」採用「在「細粒度與大尺度開發｜類型取捨」的來源情境裡，細分小地塊通常提供更多介面；大地塊可集中設施，但需補足連通與公共性；落到設計時還要按街道結構可以用連接與階層關係比較；不同網形的可達性與交通作用需另外計算；「細粒度與大尺度開發｜類型取捨」還須對照日常用途、街道互動及多樣性可作城市生活的討論起點；不能從外觀推定安全或社群，才能把研究發現轉成有邊界的設計判斷調整」時，得失要沿著街道結構可以用連接與階層關係比較；不同網形的可達性與交通作用需另外計算；「細粒度與大尺度開發｜類型取捨」還須對照日常用途、街道互動及多樣性可作城市生活的討論起點；不能從外觀推定安全或社群，才能把研究發現轉成有邊界的設計判斷檢查；小街廓不必然更包容，大型開發也不必然封閉；管理方式是中介條件。",
+      "library_ids": [
+        "MARSHALL05",
+        "JACOBS61"
+      ]
+    }
+  ],
+  "applies_when_zh": "適用於港區再開發、分期開發和大型基地規劃。",
+  "not_applicable_when_zh": "沒有土地權屬和通行規則資料時，不能僅由地圖推斷實際公共性。",
+  "debates_zh": "小街廓不必然更包容，大型開發也不必然封閉；管理方式是中介條件。",
+  "sources": [
+    {
+      "library_id": "MARSHALL05",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "JACOBS61",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "TALEN99",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "街道形態；街道生活與多樣性",
+  "region": "英國；美國",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "細粒度與大尺度開發"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "細粒度與大尺度開發"
+    },
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.330J Theory of City Form",
+      "topic": "細粒度與大尺度開發"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban form and density",
+      "topic": "細粒度與大尺度開發"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-MOR-047",
+    "KU-MOR-049",
+    "KU-MOR-050"
+  ],
+  "counter_unit_ids": [
+    "KU-MOR-051"
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "KU-ECO-020",
+  "domain": "ECO",
+  "subtopic": "都市森林與樹冠",
+  "type": "empirical_finding",
+  "title_zh": "高樹冠覆蓋下的降溫更明顯",
+  "title_en": "Cooling rises above a canopy threshold in one city",
+  "summary_zh": "美國中西部一座中型城市以移動式感測沿路量測夏季氣溫。研究看到樹冠超過百分之四十時降溫增加，效應在約六十至九十公尺街廓尺度較大。結果限定於單城夏季路線，不能預測冬季或不同氣候。單一門檻容易遮蔽樹種、風場和土壤差異。",
+  "key_points_zh": [
+    "美國中西部一座中型城市以移動式感測沿路量測夏季氣溫",
+    "研究看到樹冠超過百分之四十時降溫增加，效應在約六十至九十公尺街廓尺度較大"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "美國中西部一座中型城市以移動式感測沿路量測夏季氣溫。",
+        "effect_or_value": "樹冠 >40% 與較強降溫相關；60–90 m 街廓尺度的冷卻訊號較大。",
+        "study_design": "移動式溫度路線量測與空間尺度比較",
+        "context_region": "美國 Upper Midwest 中型城市",
+        "library_id": "ZITER19",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW",
+        "limitations_zh": "單一城市夏季資料，量測次數和季節限制外推。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "在當地樣區測量樹冠、溫度和街廓尺度的交互變化。"
+  ],
+  "applies_when_zh": "適用於都市熱島與街樹方案的本地試驗。",
+  "not_applicable_when_zh": "不應將百分之四十直接寫成普遍植栽法規。",
+  "debates_zh": "單一門檻容易遮蔽樹種、風場和土壤差異。",
+  "sources": [
+    {
+      "library_id": "ZITER19",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "LIVESELY16",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "都市森林與微氣候",
+  "region": "美國 Upper Midwest 中型城市",
+  "curriculum_refs": [
+    {
+      "school": "UCL Bartlett",
+      "course": "Critical Debates in Urban Design",
+      "topic": "都市森林與樹冠"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-ECO-021"
+  ]
+}

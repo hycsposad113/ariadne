@@ -1,0 +1,96 @@
+{
+  "id": "KU-CAS-028",
+  "domain": "CAS",
+  "subtopic": "公共空間與水敏感都市設計—雨水廣場",
+  "type": "case",
+  "title_zh": "Benthemplein 水廣場：乾天活動空間與暴雨調蓄盆地共址",
+  "title_en": "Benthemplein Water Square: Combining Everyday Activity with Stormwater Storage",
+  "summary_zh": "鹿特丹 Benthemplein 把球場、休憩平台與蓄水盆地結合，平時作為公共廣場，降雨時則暫存廣場和周邊屋頂、鋪面的雨水。市府公布三個盆地的設計蓄水量約 170 萬公升，並說明周邊落水管改接廣場的水路安排。Zhao 與 Li 的論文題名確認這是一項水廣場韌性案例研究；由於沒有核讀全文，本文不引用其計算方法或成效量。設計是否降低實際淹水損失，還需用降雨事件和維護紀錄評估。",
+  "key_points_zh": [
+    "降雨路徑、盆地容量與使用空間的高程關係需要在圖面上清楚呈現。",
+    "旱天的可用性和暴雨時的安全關閉是雙重功能，設施管理應明確界定責任。"
+  ],
+  "evidence": {
+    "strength": "CASE_EVIDENCE",
+    "findings": [
+      {
+        "claim_zh": "Zhao 與 Li 的論文以 Benthemplein 為雨水韌性案例；本條目只引用其書目顯示的研究對象，不複述未核讀的模型結果。",
+        "effect_or_value": "研究問題指向雨水調適與空間組合",
+        "study_design": "水廣場個案研究；研究步驟與效果量未核全文",
+        "context_region": "荷蘭鹿特丹",
+        "library_id": "ZHAO_LI2017",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "鹿特丹市府說明 Benthemplein 在乾燥時供運動和停留，暴雨時由三座盆地暫存水，設計容量約 170 萬公升。",
+        "effect_or_value": "市府公布的設計容量，非事件後成效量",
+        "study_design": "官方公共工程說明",
+        "context_region": "荷蘭鹿特丹 Noord",
+        "library_id": "ROTTERDAM_BENTHEMPLEIN2013",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "核算有效調蓄體積、進水口堵塞風險、溢流路徑、清淤頻率和極端事件下的人員撤離。",
+    "以旱季、一般降雨及極端降雨分別記錄使用方式，避免只在工程驗收時核對容量。"
+  ],
+  "applies_when_zh": "高密度街區缺乏傳統水池用地，且可把蓄水空間嵌入可日常使用的廣場時。",
+  "not_applicable_when_zh": "匯水區、設計暴雨、地下管網或極端溢流路徑未經工程核定時，不應把廣場當作可直接複製的排水模型。",
+  "debates_zh": "水廣場將水務基礎設施展示在公共空間中，但可見性不等於防洪績效。設計容量、實際降雨表現、排水系統減載、日常活動安全與維護成本需要各自的長期資料。",
+  "sources": [
+    {
+      "library_id": "ZHAO_LI2017",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "ROTTERDAM_BENTHEMPLEIN2013",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "荷蘭水管理、公共空間複合使用與氣候調適",
+  "region": "西歐／荷蘭鹿特丹",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": null,
+      "topic": "水敏感都市設計與公共空間"
+    },
+    {
+      "school": "MIT",
+      "course": null,
+      "topic": "雨洪管理與韌性基礎設施"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": null,
+      "topic": "日常使用與環境風險管理"
+    }
+  ],
+  "case": {
+    "location": "荷蘭鹿特丹北區 Benthemplein 廣場",
+    "period": "構想約於 2005 年提出；工程於 2013 年正式開放",
+    "area_ha": null,
+    "fsi": null,
+    "gsi": null,
+    "program_mix": "運動球場、停留平台、階梯與三個雨水蓄集盆地；周邊道路和建築屋頂共同匯水。",
+    "key_strategies_zh": [
+      "將廣場分成不同標高的活動空間與蓄水盆地。",
+      "把周邊屋頂落水管導向廣場，雨時暫存後再排入城市水系。"
+    ],
+    "outcomes_zh": [
+      "市府公布約 170 萬公升設計蓄水量，並說明廣場旱天使用和雨天暫存功能。",
+      "未引用基於監測資料的實際削峰、淹水損失減少或使用者調查結果。"
+    ],
+    "critiques_zh": [
+      "盆地安全、清潔、設施故障和極端雨量超出設計值時的溢流須納入維運計畫。",
+      "把水收進廣場可能增加日常使用與觀察性，但不能單獨替代街區排水和地下管網升級。"
+    ]
+  },
+  "version": "v2.0"
+}

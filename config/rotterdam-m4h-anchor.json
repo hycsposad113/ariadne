@@ -1,0 +1,27 @@
+{
+  "analysis_eligible": false,
+  "anchor_extent": [88401.4790521005, 435281.12015655235, 89841.58902089408, 436535.7178507046],
+  "context_display_only": true,
+  "context_layer_name": "NON_AUTHORITATIVE_DRAWING_CONTEXT",
+  "context_layer_path": "artifacts/milestone2-site-proposal-rotterdam-m4h-v4/run-20260915T125400Z/context-display-epsg28992-v2.geojson",
+  "context_layer_sha256": "sha256:5f4a237da9e4ba5b6d6bad269d72769baa7dd6544f63436bb979e66e4178191c",
+  "crs_area_of_use_projected": [646.3609077222354, 308289.55733745254, 284347.2501572968, 637111.0244158027],
+  "horizontal_crs": "EPSG:28992",
+  "project_id": "rotterdam-m4h-pilot-project",
+  "source_provenance": {
+    "anchor_extent_method": "retained M2-R05 v4 site-proposal viewport bbox in EPSG:28992; used only as drawing-location guard",
+    "anchor_source_artifact": "artifacts/milestone2-site-proposal-rotterdam-m4h-v4/run-20260915T125400Z/site-proposal.json",
+    "anchor_source_artifact_sha256": "sha256:4d99a5986fce4c30b609586a8f56701cf55a513530feb551399ef28782a32237",
+    "context_source_record": "source-osm-m4h-context plus retained transformed display context",
+    "context_source_records": "artifacts/milestone2-site-proposal-rotterdam-m4h-v4/run-20260915T125400Z/sources/source-records-v4.json",
+    "context_source_records_sha256": "sha256:8ddd1c48b92fb8b8f1c7d706dce9b1c9749838c512603612d8e2695b5c029ad3",
+    "limitations": [
+      "Retained source-backed context establishes a geographic drawing guard only.",
+      "It does not establish a Site, DesignBoundary, ownership, zoning, permission, buildability, or analysis snapshot.",
+      "No external PDOK, OSM, or EPW request is made by this repair."
+    ],
+    "source_class": "DATASET_OBSERVATION"
+  },
+  "status": "DRAWING_LOCATION_GUARD_ONLY",
+  "units": "m"
+}

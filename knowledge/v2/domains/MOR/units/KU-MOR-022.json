@@ -1,0 +1,98 @@
+{
+  "id": "KU-MOR-022",
+  "domain": "MOR",
+  "subtopic": "Muratori／Caniggia 類型過程",
+  "type": "empirical_finding",
+  "title_zh": "歐亞城市道路與歷史脈絡不相同",
+  "title_en": "European and Asian city forms",
+  "summary_zh": "每洲只選代表城市的設計不支持洲際通則，研究未量化形態差異大小。 比較案例時先寫明選樣理由及城市內部差異。 研究設計：描述性比較案例研究；地區：羅馬、倫敦、新加坡與東京。",
+  "key_points_zh": [
+    "羅馬、倫敦、新加坡和東京的描述性比較指出，道路格局、建築及城市歷史共同參與形態變化。",
+    "研究設計：描述性比較案例研究；地區：羅馬、倫敦、新加坡與東京",
+    "限制：每洲只選代表城市的設計不支持洲際通則，研究未量化形態差異大小。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "羅馬、倫敦、新加坡和東京的描述性比較指出，道路格局、建築及城市歷史共同參與形態變化。",
+        "effect_or_value": "4 個代表城市；差異呈現在道路、建築和歷史脈絡",
+        "study_design": "描述性比較案例研究",
+        "context_region": "羅馬、倫敦、新加坡與東京",
+        "library_id": "NAVASTARA2017",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "比較案例時先寫明選樣理由及城市內部差異。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "比較案例時先寫明選樣理由及城市內部差異。",
+      "tradeoff_zh": "「歐亞城市道路與歷史脈絡不相同」採用「比較案例時先寫明選樣理由及城市內部差異」時，得失要沿著羅馬、倫敦、新加坡和東京的描述性比較指出，道路格局、建築及城市歷史共同參與形態變化檢查；每洲只選代表城市的設計不支持洲際通則，研究未量化形態差異大小。",
+      "library_ids": [
+        "NAVASTARA2017",
+        "SAMUELS2008"
+      ]
+    },
+    {
+      "option_zh": "在「歐亞城市道路與歷史脈絡不相同」的來源情境裡，連續街屋、院落和商住混合型會隨地方生活方式調整；落到設計時還要按羅馬、倫敦、新加坡和東京的描述性比較指出，道路格局、建築及城市歷史共同參與形態變化調整。",
+      "tradeoff_zh": "「歐亞城市道路與歷史脈絡不相同」採用「在「歐亞城市道路與歷史脈絡不相同」的來源情境裡，連續街屋、院落和商住混合型會隨地方生活方式調整；落到設計時還要按羅馬、倫敦、新加坡和東京的描述性比較指出，道路格局、建築及城市歷史共同參與形態變化調整」時，得失要沿著羅馬、倫敦、新加坡和東京的描述性比較指出，道路格局、建築及城市歷史共同參與形態變化檢查；每洲只選代表城市的設計不支持洲際通則，研究未量化形態差異大小。",
+      "library_ids": [
+        "NAVASTARA2017",
+        "SAMUELS2008"
+      ]
+    }
+  ],
+  "applies_when_zh": "用於與羅馬、倫敦、新加坡與東京研究情境可比、且量測定義相近的分析。",
+  "not_applicable_when_zh": "每洲只選代表城市的設計不支持洲際通則，研究未量化形態差異大小。",
+  "debates_zh": "每洲只選代表城市的設計不支持洲際通則，研究未量化形態差異大小。",
+  "sources": [
+    {
+      "library_id": "NAVASTARA2017",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "SAMUELS2008",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "亞洲與歐洲比較形態學；類型形態學與設計實務",
+  "region": "羅馬、倫敦、新加坡與東京；歐洲城市設計論述",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "Muratori／Caniggia 類型過程"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "Muratori／Caniggia 類型過程"
+    },
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.330J Theory of City Form",
+      "topic": "Muratori／Caniggia 類型過程"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban form and density",
+      "topic": "Muratori／Caniggia 類型過程"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-MOR-016",
+    "KU-MOR-017",
+    "KU-MOR-018"
+  ],
+  "counter_unit_ids": [
+    "KU-MOR-020"
+  ]
+}

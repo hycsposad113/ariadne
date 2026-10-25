@@ -1,0 +1,74 @@
+{
+  "id": "KU-STR-078",
+  "domain": "STR",
+  "subtopic": "路網形態（格子、放射、有機）",
+  "type": "pattern",
+  "title_zh": "Alexander 的街道與公共空間模式",
+  "title_en": "Alexander’s street and public-space patterns",
+  "summary_zh": "Alexander 的模式語言將可重複出現的空間問題與關係放在具名模式中，例如 Activity Nodes、Small Public Squares、Public Outdoor Room 和 Street Cafe。每個模式描述使用條件及其與周邊空間的關係，適合用來提出配置假說。模式名稱不等於一套可以脫離地方文化的標準圖紙。",
+  "key_points_zh": [
+    "模式以問題、情境和空間關係連結，不只是一張形式範本。",
+    "活動節點、小廣場、戶外公共房間和街道咖啡館可作具體閱讀例子。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "Alexander 等（1977）《模式語言》列出 253 個編號模式，從區域、城鎮到建築與構造細部。",
+        "library_id": "ALEX77",
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+        "effect_or_value": null,
+        "study_design": "城市設計模式語言；模式編號待原書核對",
+        "context_region": "跨地域建築與城市設計理論",
+        "locator": null
+      },
+      {
+        "claim_zh": "公共生活研究可協助觀察人群如何使用街道與小廣場。",
+        "library_id": "WHYTE80",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "公共生活觀察",
+        "context_region": "美國公共空間案例",
+        "locator": null
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "以模式名稱引導方案草圖，再檢查入口、沿街活動和公共空間是否能由本地使用者實際使用。"
+  ],
+  "applies_when_zh": "以模式語言整理街道和公共空間構想時，將每個模式當成待驗假說。",
+  "not_applicable_when_zh": "模式語言不能證明一種形式在不同城市必然有效，也不能取代場地與使用者研究。",
+  "debates_zh": "模式的可重用性與文化脈絡存在張力；複製形式可能忽略地方氣候、經濟和公共生活習慣。",
+  "sources": [
+    {
+      "library_id": "ALEX77",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "WHYTE80",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "公共生活觀察",
+  "region": "城市設計模式語言",
+  "curriculum_refs": [
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.330J Theory of City Form",
+      "topic": "路網形態（格子、放射、有機）：課綱對應主題"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "路網形態（格子、放射、有機）：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-STR-064"
+  ]
+}

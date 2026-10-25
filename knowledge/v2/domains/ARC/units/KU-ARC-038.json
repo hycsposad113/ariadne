@@ -1,0 +1,98 @@
+{
+  "id": "KU-ARC-038",
+  "domain": "ARC",
+  "subtopic": "用途建築",
+  "type": "value_range",
+  "title_zh": "學校一般教室的淨進深",
+  "title_en": "school classroom plan depth",
+  "summary_zh": "一般教室平面可用約 7.2–8.4 m 淨進深作桌列、教師面與後排視線的早期試排。 窗面深度要配合採光、遮陽與黑板反光控制。 教室深度達標仍需觀察最後一排和兩側的可視角。",
+  "key_points_zh": [
+    "核心主張：一般教室平面可用約 7.2–8.4 m 淨進深作桌列、教師面與後排視線的早期試排。",
+    "量測檢查：由內牆完成面量到對向牆，並用座位數與視線遮擋圖交叉驗證。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "一般教室平面可用約 7.2–8.4 m 淨進深作桌列、教師面與後排視線的早期試排。",
+        "effect_or_value": "約 7.2–8.4 m 作教室排布假設",
+        "study_design": "跨地域設計參照綜整；數值狀態依 claim_verification 註記",
+        "context_region": "跨地域；用途與當地法規需分開核驗",
+        "library_id": "TIMESAVER_TYPES01",
+        "locator": null,
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008"
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "general classroom net depth",
+      "range": "約 7.2–8.4 m 作教室排布假設",
+      "unit": "m",
+      "context": "地區：跨地域；用途：學校一般教室初始設計比較；非教育法規；出處：Time-Saver Standards for Building Types；本基地法規：否；核對狀態：數值待原典交叉核對。",
+      "library_id": "TIMESAVER_TYPES01"
+    }
+  ],
+  "design_implications_zh": [
+    "以桌椅模組排出教室淨寬和進深，畫出學生視線及教師巡視路徑。"
+  ],
+  "applies_when_zh": "「學校一般教室的淨進深」可在用於方案前期的量體、平面或空間品質篩檢時使用，前提是一般教室平面可用約 7.2–8.4 m 淨進深作桌列、教師面與後排視線的早期試排與來源情境相符。",
+  "not_applicable_when_zh": "若一般教室平面可用約 7.2–8.4 m 淨進深作桌列、教師面與後排視線的早期試排不成立，就不能把「學校一般教室的淨進深」的結論延伸到其他情況；不得單獨作為許可、消防、結構或基地法規判定。",
+  "debates_zh": "教學方法、年級、特殊教育和技術設備均會改變桌列與通道所需空間。",
+  "sources": [
+    {
+      "library_id": "TIMESAVER_TYPES01",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "CLASSROOM_DAYLIGHT24",
+      "claim_id": "C1",
+      "locator": "article; abstract/title scope only"
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+  "tradition": "建築設計與住宅類型學",
+  "region": "跨地域；用途與當地法規需分開核驗",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Housing and the City / Design of the Urban Fabric",
+      "topic": "建築尺度與住宅平面"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "建築尺度與街道界面"
+    },
+    {
+      "school": "MIT",
+      "course": "Architecture and Urban Design",
+      "topic": "建築尺度與空間型態"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "建築尺度與公共生活"
+    }
+  ],
+  "check": {
+    "method_zh": "由內牆完成面量到對向牆，並用座位數與視線遮擋圖交叉驗證。",
+    "inputs": [
+      "用途建築",
+      "尺寸／面積圖層",
+      "適用地區與用途標籤"
+    ],
+    "logic_zh": "將量測輸入轉成明確尺寸、比例或空間關係；越界只觸發複核，不自動取代設計決策。",
+    "limitations_zh": "量測結果只觸發「學校一般教室的淨進深」的複核，不得單獨作為許可或法規判定。"
+  },
+  "version": "kb2-arc-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-ARC-027",
+    "KU-ARC-028",
+    "KU-ARC-029",
+    "KU-ARC-030",
+    "KU-ARC-031"
+  ]
+}

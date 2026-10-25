@@ -1,0 +1,417 @@
+{
+  "domain": "THY",
+  "units_total": 51,
+  "topics": [
+    {
+      "topic": "規範性城市理論（Lynch 的城市好形式、性能向度）",
+      "unit_ids": [
+        "KU-THY-001",
+        "KU-THY-002",
+        "KU-THY-003"
+      ],
+      "unit_count": 3
+    },
+    {
+      "topic": "城市作為神聖秩序、機器、有機體",
+      "unit_ids": [
+        "KU-THY-004"
+      ],
+      "unit_count": 1
+    },
+    {
+      "topic": "Sitte 與城市藝術",
+      "unit_ids": [
+        "KU-THY-005",
+        "KU-THY-006",
+        "KU-THY-016"
+      ],
+      "unit_count": 3
+    },
+    {
+      "topic": "現代主義（CIAM、機能城市）與批判（Jacobs、Team 10、Collage City、Rossi、Krier）",
+      "unit_ids": [
+        "KU-THY-011",
+        "KU-THY-012",
+        "KU-THY-013",
+        "KU-THY-014",
+        "KU-THY-020",
+        "KU-THY-021",
+        "KU-THY-023",
+        "KU-THY-024",
+        "KU-THY-025",
+        "KU-THY-026",
+        "KU-THY-027",
+        "KU-THY-028",
+        "KU-THY-029",
+        "KU-THY-030",
+        "KU-THY-031",
+        "KU-THY-032"
+      ],
+      "unit_count": 16
+    },
+    {
+      "topic": "新都市主義",
+      "unit_ids": [
+        "KU-THY-033",
+        "KU-THY-034"
+      ],
+      "unit_count": 2
+    },
+    {
+      "topic": "地景都市主義／生態都市主義",
+      "unit_ids": [
+        "KU-THY-035",
+        "KU-THY-036"
+      ],
+      "unit_count": 2
+    },
+    {
+      "topic": "日常都市主義",
+      "unit_ids": [
+        "KU-THY-037",
+        "KU-THY-038",
+        "KU-THY-039",
+        "KU-THY-040",
+        "KU-THY-047",
+        "KU-THY-048",
+        "KU-THY-049",
+        "KU-THY-050",
+        "KU-THY-051"
+      ],
+      "unit_count": 9
+    },
+    {
+      "topic": "城市轉型史（倫敦、巴黎 Haussmann、維也納 Ringstrasse、巴塞隆納 Cerdà、芝加哥）",
+      "unit_ids": [
+        "KU-THY-007",
+        "KU-THY-008",
+        "KU-THY-009",
+        "KU-THY-010",
+        "KU-THY-015",
+        "KU-THY-017",
+        "KU-THY-018",
+        "KU-THY-019",
+        "KU-THY-022"
+      ],
+      "unit_count": 9
+    },
+    {
+      "topic": "荷蘭都市主義傳統",
+      "unit_ids": [
+        "KU-THY-041",
+        "KU-THY-042",
+        "KU-THY-043",
+        "KU-THY-044",
+        "KU-THY-045",
+        "KU-THY-046"
+      ],
+      "unit_count": 6
+    }
+  ],
+  "coverage_status": "DRAFT_CANONICAL_CROSS_CHECK_PENDING",
+  "required_items": [
+    {
+      "requirement": "Lynch 城市意象五元素與可意象性",
+      "unit_ids": [
+        "KU-THY-001",
+        "KU-THY-002"
+      ],
+      "status": "DRAFT_PENDING_CROSS_CHECK"
+    },
+    {
+      "requirement": "Lynch Good City Form 性能向度與效率、公平",
+      "unit_ids": [
+        "KU-THY-003"
+      ],
+      "status": "DRAFT_PENDING_CROSS_CHECK"
+    },
+    {
+      "requirement": "Lynch 三種規範模型：宇宙、機器、有機體",
+      "unit_ids": [
+        "KU-THY-004"
+      ],
+      "status": "DRAFT_PENDING_CROSS_CHECK"
+    },
+    {
+      "requirement": "Sitte 圍合廣場、不規則、中央留空",
+      "unit_ids": [
+        "KU-THY-005",
+        "KU-THY-006"
+      ],
+      "status": "DRAFT_PENDING_CROSS_CHECK"
+    },
+    {
+      "requirement": "Howard 三磁鐵、規模、綠帶、土地共有",
+      "unit_ids": [
+        "KU-THY-007",
+        "KU-THY-008",
+        "KU-THY-009"
+      ],
+      "status": "DRAFT_PENDING_CROSS_CHECK"
+    },
+    {
+      "requirement": "Geddes survey before plan 與區域",
+      "unit_ids": [
+        "KU-THY-010"
+      ],
+      "status": "DRAFT_PENDING_CROSS_CHECK"
+    },
+    {
+      "requirement": "Garnier 工業城",
+      "unit_ids": [
+        "KU-THY-011"
+      ],
+      "status": "DRAFT_PENDING_CROSS_CHECK"
+    },
+    {
+      "requirement": "Le Corbusier 光輝城市與 1925 Plan Voisin",
+      "unit_ids": [
+        "KU-THY-012",
+        "KU-THY-013"
+      ],
+      "status": "DRAFT_PENDING_CROSS_CHECK"
+    },
+    {
+      "requirement": "CIAM 與雅典憲章四大機能",
+      "unit_ids": [
+        "KU-THY-014"
+      ],
+      "status": "DRAFT_PENDING_CROSS_CHECK"
+    },
+    {
+      "requirement": "Haussmann 巴黎改造",
+      "unit_ids": [
+        "KU-THY-015"
+      ],
+      "status": "DRAFT_PENDING_CROSS_CHECK"
+    },
+    {
+      "requirement": "維也納 Ringstrasse 與 Sitte 批評",
+      "unit_ids": [
+        "KU-THY-016"
+      ],
+      "status": "DRAFT_PENDING_CROSS_CHECK"
+    },
+    {
+      "requirement": "Cerdà Eixample 尺寸、倒角、原案與加密",
+      "unit_ids": [
+        "KU-THY-017"
+      ],
+      "status": "DRAFT_PENDING_CROSS_CHECK"
+    },
+    {
+      "requirement": "1811 曼哈頓格子計畫",
+      "unit_ids": [
+        "KU-THY-018"
+      ],
+      "status": "DRAFT_PENDING_CROSS_CHECK"
+    },
+    {
+      "requirement": "1909 芝加哥計畫與城市美化",
+      "unit_ids": [
+        "KU-THY-019"
+      ],
+      "status": "DRAFT_PENDING_CROSS_CHECK"
+    },
+    {
+      "requirement": "Perry 鄰里單元與批評",
+      "unit_ids": [
+        "KU-THY-020"
+      ],
+      "status": "DRAFT_PENDING_CROSS_CHECK"
+    },
+    {
+      "requirement": "Radburn",
+      "unit_ids": [
+        "KU-THY-021"
+      ],
+      "status": "DRAFT_PENDING_CROSS_CHECK"
+    },
+    {
+      "requirement": "英國第一、二、三代新城",
+      "unit_ids": [
+        "KU-THY-022"
+      ],
+      "status": "DRAFT_PENDING_CROSS_CHECK"
+    },
+    {
+      "requirement": "Jacobs 多樣性四條件與街道之眼",
+      "unit_ids": [
+        "KU-THY-023",
+        "KU-THY-024"
+      ],
+      "status": "DRAFT_PENDING_CROSS_CHECK"
+    },
+    {
+      "requirement": "Team 10 與 Smithson",
+      "unit_ids": [
+        "KU-THY-025"
+      ],
+      "status": "DRAFT_PENDING_CROSS_CHECK"
+    },
+    {
+      "requirement": "Rowe 與 Koetter Collage City",
+      "unit_ids": [
+        "KU-THY-026"
+      ],
+      "status": "DRAFT_PENDING_CROSS_CHECK"
+    },
+    {
+      "requirement": "Rossi 類型、紀念物、集體記憶",
+      "unit_ids": [
+        "KU-THY-027"
+      ],
+      "status": "DRAFT_PENDING_CROSS_CHECK"
+    },
+    {
+      "requirement": "Krier 兄弟空間類型與重建",
+      "unit_ids": [
+        "KU-THY-028"
+      ],
+      "status": "DRAFT_PENDING_CROSS_CHECK"
+    },
+    {
+      "requirement": "Alexander 非樹狀城市與模式語言",
+      "unit_ids": [
+        "KU-THY-029",
+        "KU-THY-030"
+      ],
+      "status": "DRAFT_PENDING_CROSS_CHECK"
+    },
+    {
+      "requirement": "Venturi 等 Learning from Las Vegas",
+      "unit_ids": [
+        "KU-THY-031"
+      ],
+      "status": "DRAFT_PENDING_CROSS_CHECK"
+    },
+    {
+      "requirement": "Koolhaas 都市主義與 Bigness",
+      "unit_ids": [
+        "KU-THY-032"
+      ],
+      "status": "DRAFT_PENDING_CROSS_CHECK"
+    },
+    {
+      "requirement": "CNU 1996 憲章與 transect",
+      "unit_ids": [
+        "KU-THY-033",
+        "KU-THY-034"
+      ],
+      "status": "DRAFT_PENDING_CROSS_CHECK"
+    },
+    {
+      "requirement": "Waldheim、Corner 地景都市主義",
+      "unit_ids": [
+        "KU-THY-035"
+      ],
+      "status": "DRAFT_PENDING_CROSS_CHECK"
+    },
+    {
+      "requirement": "Mostafavi 生態都市主義",
+      "unit_ids": [
+        "KU-THY-036"
+      ],
+      "status": "DRAFT_PENDING_CROSS_CHECK"
+    },
+    {
+      "requirement": "Crawford 等日常都市主義",
+      "unit_ids": [
+        "KU-THY-037"
+      ],
+      "status": "DRAFT_PENDING_CROSS_CHECK"
+    },
+    {
+      "requirement": "戰術都市主義",
+      "unit_ids": [
+        "KU-THY-038"
+      ],
+      "status": "DRAFT_PENDING_CROSS_CHECK"
+    },
+    {
+      "requirement": "Gehl 公共生活理論轉向",
+      "unit_ids": [
+        "KU-THY-039"
+      ],
+      "status": "DRAFT_PENDING_CROSS_CHECK"
+    },
+    {
+      "requirement": "Hillier 空間語法理論",
+      "unit_ids": [
+        "KU-THY-040"
+      ],
+      "status": "DRAFT_PENDING_CROSS_CHECK"
+    },
+    {
+      "requirement": "Berlage Plan Zuid",
+      "unit_ids": [
+        "KU-THY-041"
+      ],
+      "status": "DRAFT_PENDING_CROSS_CHECK"
+    },
+    {
+      "requirement": "Van Eesteren AUP 1935",
+      "unit_ids": [
+        "KU-THY-042"
+      ],
+      "status": "DRAFT_PENDING_CROSS_CHECK"
+    },
+    {
+      "requirement": "Bijlmermeer 失敗與更新",
+      "unit_ids": [
+        "KU-THY-043"
+      ],
+      "status": "DRAFT_PENDING_CROSS_CHECK"
+    },
+    {
+      "requirement": "VINEX",
+      "unit_ids": [
+        "KU-THY-044"
+      ],
+      "status": "DRAFT_PENDING_CROSS_CHECK"
+    },
+    {
+      "requirement": "Randstad 與綠心",
+      "unit_ids": [
+        "KU-THY-045"
+      ],
+      "status": "DRAFT_PENDING_CROSS_CHECK"
+    },
+    {
+      "requirement": "荷蘭 layers approach",
+      "unit_ids": [
+        "KU-THY-046"
+      ],
+      "status": "DRAFT_PENDING_CROSS_CHECK"
+    },
+    {
+      "requirement": "Harvey、Lefebvre 城市權",
+      "unit_ids": [
+        "KU-THY-047",
+        "KU-THY-048"
+      ],
+      "status": "DRAFT_PENDING_CROSS_CHECK"
+    },
+    {
+      "requirement": "King 後殖民城市",
+      "unit_ids": [
+        "KU-THY-049"
+      ],
+      "status": "DRAFT_PENDING_CROSS_CHECK"
+    },
+    {
+      "requirement": "Roy 非正式城市",
+      "unit_ids": [
+        "KU-THY-050"
+      ],
+      "status": "DRAFT_PENDING_CROSS_CHECK"
+    },
+    {
+      "requirement": "Sennett 開放城市",
+      "unit_ids": [
+        "KU-THY-051"
+      ],
+      "status": "DRAFT_PENDING_CROSS_CHECK"
+    }
+  ]
+}

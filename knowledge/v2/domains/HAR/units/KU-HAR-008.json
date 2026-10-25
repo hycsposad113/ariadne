@@ -1,0 +1,71 @@
+{
+  "id": "KU-HAR-008",
+  "domain": "HAR",
+  "subtopic": "港區轉型案例",
+  "type": "concept",
+  "title_zh": "案例比較必須先有可追溯的港區個案資料",
+  "title_en": "Port-district comparisons require traceable case evidence",
+  "summary_zh": "港區再生研究經常以個別案例說明港城介面的變化，但跨城類比前需要確認案例邊界、使用時段與貨運功能。Hoyle 的比較文章題名確認包含港城案例，Ducruet 與 Lee 則把港口演化置於區域競爭脈絡。現有來源未提供本任務所需的完整案例面積、FSI、GSI、路網、用途比例和成果追蹤。故本單元只定義案例資料需求，並不將任何港區宣稱為已驗證的成功模式。",
+  "key_points_zh": [
+    "案例邊界和觀測期間需先固定。",
+    "缺少面積或用途資料時應明記未知，不能從示意圖補值。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "library_id": "HOYLE1989",
+        "claim_zh": "文章範圍包括港城介面趨勢、問題及案例，但目前未核對各案例的詳細數值。",
+        "effect_or_value": "比較案例議題範圍；量測資料尚未取得",
+        "study_design": "跨案例概念研究",
+        "context_region": "跨地域港口城市",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "library_id": "DUCRUET2006",
+        "claim_zh": "研究討論港口城市演化和區域競爭，可作案例比較的網絡視角。",
+        "effect_or_value": "演化及競爭框架；不提供港區地塊指標",
+        "study_design": "港口城市比較研究，依書目範圍",
+        "context_region": "跨區域港口網絡",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "建立案例資料表，要求官方邊界、土地面積、道路與公共空間來源、用途及結果指標都有出處。",
+    "先區分論文觀察、官方規劃承諾及後續成效評估。"
+  ],
+  "applies_when_zh": "適用於選擇和比較港區轉型案例前的資料品質控管。",
+  "not_applicable_when_zh": "不可用作任何具名港區的實證案例描述或成功排名。",
+  "debates_zh": "高知名度案例常有宣傳資料偏重、批判研究滯後的問題；須納入搬遷、產業流失和長期維護資料。",
+  "sources": [
+    {
+      "library_id": "HOYLE1989",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "DUCRUET2006",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "港區案例研究方法",
+  "region": "跨地域港區",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": null,
+      "topic": "港區轉型案例"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": null,
+      "topic": "港區案例比較方法"
+    }
+  ],
+  "version": "v2.0"
+}

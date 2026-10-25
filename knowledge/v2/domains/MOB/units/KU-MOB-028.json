@@ -1,0 +1,80 @@
+{
+  "id": "KU-MOB-028",
+  "domain": "MOB",
+  "subtopic": "自行車停車",
+  "type": "method",
+  "title_zh": "自行車停車：可檢驗的方法",
+  "title_en": "Bicycle parking: Method and measurement",
+  "summary_zh": "調查不同時段的供需、佔用、停放位置、失竊風險與無障礙動線，分開記錄住戶、訪客和轉乘者。這個流程用來檢驗自行車停車影響旅程起訖和轉乘便利，設計需同時處理位置、可用性、保管和與入口的連接。方法的主要限制是增加停車架不等於解決轉乘；若位置不安全、步行接駁不便或目的地不接受自行車，供給可能不被使用。",
+  "key_points_zh": [
+    "分析步驟：自行車停車影響旅程起訖和轉乘便利，設計需同時處理位置、可用性、保管和與入口的連接",
+    "分析步驟：調查不同時段的供需、佔用、停放位置、失竊風險與無障礙動線，分開記錄住戶、訪客和轉乘者"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "自行車停車：可檢驗的方法｜停車供給與成本分攤應被視為土地與交通政策選擇；本單元不把書中案例值外推為其他城市規範",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "SHOUP05",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "自行車停車：可檢驗的方法｜人的停留、步行與沿街互動是公共空間設計的觀察方向；需要地方活動與季節資料",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "GEHL10",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "調查不同時段的供需、佔用、停放位置、失竊風險與無障礙動線，分開記錄住戶、訪客和轉乘者"
+  ],
+  "applies_when_zh": "需要測量「自行車停車影響旅程起訖和轉乘便利，設計需同時處理位置、可用性、保管和與入口的連接」時，按「自行車停車：可檢驗的方法」列出的資料範圍建構指標，同時保存網路版本與計算參數。",
+  "not_applicable_when_zh": "若資料無法支持「自行車停車影響旅程起訖和轉乘便利，設計需同時處理位置、可用性、保管和與入口的連接」的測量，這套步驟不會產生可比較的結果；方法本身也不能選定設計目標。",
+  "debates_zh": "增加停車架不等於解決轉乘；若位置不安全、步行接駁不便或目的地不接受自行車，供給可能不被使用；檢視「自行車停車：可檢驗的方法」的測量程序時，還需判斷「調查不同時段的供需、佔用、停放位置、失竊風險與無障礙動線，分開記錄住戶、訪客和轉乘者」會如何改變方案結論。",
+  "sources": [
+    {
+      "library_id": "SHOUP05",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "GEHL10",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "自行車接駁與停車政策",
+  "region": "跨地域理論或實務脈絡；來源地區依引用條目判讀",
+  "curriculum_refs": [
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "自行車停車：課綱對應主題"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Sustainable Futures by Design",
+      "topic": "自行車停車：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-MOB-025",
+    "KU-MOB-026",
+    "KU-MOB-027",
+    "KU-MOB-029",
+    "KU-MOB-030",
+    "KU-MOB-031",
+    "KU-MOB-032"
+  ]
+}

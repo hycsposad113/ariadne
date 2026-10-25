@@ -1,0 +1,40 @@
+{
+  "id": "EASTERN_HARBOUR_AMSTERDAM2012",
+  "title": "Eastern Harbour, Amsterdam",
+  "authors": [],
+  "year": 2012,
+  "venue_or_publisher": "Palimpsests: Biographies of 50 City Districts; De Gruyter",
+  "doi": "https://doi.org/10.1515/9783034612128.70",
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "PROFESSIONAL_BOOK_CHAPTER",
+  "tradition": "歐洲城市地區案例圖錄",
+  "region": "荷蘭阿姆斯特丹",
+  "method": "專業書籍章節；未取得作者姓名或章節全文",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "Crossref記錄有題為Eastern Harbour, Amsterdam的地區章節；作者欄未列姓名，故此來源只作案例範圍提示。",
+      "strength": "THEORETICAL",
+      "scope_zh": "此條目僅支持書目範圍與可確認的案例背景；未核對摘要或全文的社會結果不可由此推斷。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref",
+    "query": {
+      "title": "Eastern Harbour, Amsterdam",
+      "author": null,
+      "year": 2012,
+      "api_query": "Crossref GET /works?query.bibliographic=Amsterdam eastern harbour district KNSM urban development case study"
+    },
+    "matched_record_id": "10.1515/9783034612128.70",
+    "checked_at_utc": "2026-10-08T14:13:16Z",
+    "match_notes_zh": "Crossref核對題名、作者欄、年份及DOI；沒有將API摘要存入repository。"
+  },
+  "limitations_zh": "未取得全文；對該案例的地界、用途或效果需以更直接的規劃及學術資料核對。",
+  "critique_relationship_zh": "本記錄不宣稱與其他來源存在直接互引或逐一反駁關係。",
+  "metadata_licence_zh": "Crossref公開書目欄位；精確metadata授權未核驗，標UNKNOWN。"
+}

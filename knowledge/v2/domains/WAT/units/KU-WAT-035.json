@@ -1,0 +1,74 @@
+{
+  "id": "KU-WAT-035",
+  "domain": "WAT",
+  "subtopic": "洪水風險與多層安全",
+  "type": "method",
+  "title_zh": "用失效樹梳理防洪措施的相依性",
+  "title_en": "用失效樹梳理防洪措施的相依性",
+  "summary_zh": "防洪系統可能同時依賴堤防、抽水、電力、警報和道路，失效樹能整理哪些組合會中斷服務。都市洪水研究跨越空間和時間尺度，防災規劃論述則把應變機能納入土地治理。這種方法先呈現依賴，再交由風險模型估計概率。",
+  "key_points_zh": [
+    "單點故障可能令表面獨立的措施一起失效。",
+    "相依關係要區分觀測資料和專家假設。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "library_id": "NICHOLLS2010",
+        "claim_zh": "回顧指出 20 世紀全球海平面已上升，後續增幅仍受冰蓋、區域差異、地面下陷與調適成效不確定性影響；本單元 KU-WAT-035 對照「防洪系統可能同時依賴堤防、抽水、電力、警報和道路，失效樹能整理哪些組合會中斷服務」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "ABSTRACT_REVIEW",
+        "effect_or_value": null,
+        "study_design": "沿海海平面變化與影響回顧",
+        "context_region": "全球沿海地區",
+        "locator": null
+      },
+      {
+        "library_id": "WISE2014",
+        "claim_zh": "本文把調適放入變遷路徑與回應的脈絡；適用於比較漸進修補與制度轉型，不給定基地工程值；本單元 KU-WAT-035 對照「防洪系統可能同時依賴堤防、抽水、電力、警報和道路，失效樹能整理哪些組合會中斷服務」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "概念論述",
+        "context_region": "跨地域氣候調適研究",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "列出措施的能源、通信、人力和交通依賴。",
+    "為高影響故障設計可執行的備援程序。"
+  ],
+  "applies_when_zh": "適用於排水、防護與應急系統相互依賴的檢查。",
+  "not_applicable_when_zh": "資料不足時不能報告精確失效機率。",
+  "debates_zh": "失效樹的精確程度受系統邊界和故障率資料支配，圖面複雜不等於證據充分。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "NICHOLLS2010",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "WISE2014",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "防洪服務連續性規劃",
+  "region": "跨尺度都市水治理；美國都市規劃",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "洪水風險與多層安全"
+    },
+    {
+      "school": "MIT",
+      "course": null,
+      "topic": "洪水風險與多層安全"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0"
+}

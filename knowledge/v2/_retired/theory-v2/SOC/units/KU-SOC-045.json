@@ -1,0 +1,82 @@
+{
+  "id": "KU-SOC-045",
+  "domain": "SOC",
+  "subtopic": "開發經濟與可行性（土地價值、殘值法）",
+  "type": "critique",
+  "title_zh": "開發經濟與可行性：市場和公共承諾",
+  "title_en": "Phasing and risk — critique unit 045",
+  "summary_zh": "市場不確定性與公共承諾的時間尺度並不相同：開發者可能退出，公共設施和居民搬遷後果卻會持續。契約和分期條件需在市場轉差時仍保障公共服務及已作承諾。承諾本身也要能因新證據調整，並說明受影響者如何參與。",
+  "key_points_zh": [
+    "市場不確定性與公共承諾的時間尺度並不相同：開發者可能退出，公共設施和居民搬遷後果卻會持續。",
+    "契約和分期條件需在市場轉差時仍保障公共服務及已作承諾。",
+    "承諾本身也要能因新證據調整，並說明受影響者如何參與。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "【BIBLIOGRAPHIC_SCOPE_ONLY】就「開發經濟與可行性：市場和公共承諾」而言，「From Managerialism to Entrepreneurialism: The Transformation in Urban Governance in Late Capitalism」提供critical urban political economy的比較坐標；此處僅使用其已標明的書目／摘要範圍，不延伸為未核對的效果或因果。",
+        "effect_or_value": null,
+        "study_design": "historical-theoretical analysis",
+        "context_region": "United States；Western Europe",
+        "library_id": "HARVEY1989",
+        "locator": null
+      },
+      {
+        "claim_zh": "【BIBLIOGRAPHIC_SCOPE_ONLY】就「開發經濟與可行性：市場和公共承諾」而言，「Seeking Spatial Justice」提供spatial justice and critical urban geography的比較坐標；此處僅使用其已標明的書目／摘要範圍，不延伸為未核對的效果或因果。",
+        "effect_or_value": null,
+        "study_design": "theoretical synthesis and case discussion",
+        "context_region": "United States；Los Angeles",
+        "library_id": "SOJA2010",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "確保市場下行時公共設施、服務和居民保障仍能履行。"
+  ],
+  "design_options": [],
+  "applies_when_zh": "在評估「分期與風險：市場和公共承諾」涉及的資源分配、權力或居住影響時，先界定受影響群體與決策階段。",
+  "not_applicable_when_zh": "若沒有「分期與風險：市場和公共承諾」所需的群體、時序或市場資料，不把概念類比當作已驗證的效果或法律結論。",
+  "debates_zh": "公共承諾應有調整機制，否則市場風險會被轉嫁給居民和納稅人。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "HARVEY1989",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "SOJA2010",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "都市開發／時間路徑與不確定性",
+  "region": "英國；歐洲；美國；跨地域",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Planning Complex Cities",
+      "topic": "開發經濟與可行性：市場和公共承諾 — 開發經濟與可行性（土地價值、殘值法）"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Urban Design Contexts and Operations",
+      "topic": "開發經濟與可行性：市場和公共承諾 — 開發經濟與可行性（土地價值、殘值法）"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "開發經濟與可行性：市場和公共承諾 — 開發經濟與可行性（土地價值、殘值法）"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design Governance",
+      "topic": "開發經濟與可行性：市場和公共承諾 — 開發經濟與可行性（土地價值、殘值法）"
+    }
+  ],
+  "version": "2.0.0"
+}

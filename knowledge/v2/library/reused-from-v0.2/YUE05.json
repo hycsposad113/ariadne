@@ -1,0 +1,50 @@
+{
+  "id": "YUE05",
+  "title": "High-rise Living in Singapore Public Housing",
+  "authors": [
+    "Belinda Yuen",
+    "Anthony Yeh",
+    "Stephen John Appold",
+    "George Earl",
+    "John Ting",
+    "Lanny Kurnianingrum Kwee"
+  ],
+  "year": 2006,
+  "venue_or_publisher": "Urban Studies",
+  "doi": "10.1080/00420980500533133",
+  "isbn": null,
+  "openalex_id": "https://openalex.org/W2150018507",
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "亞洲高層生活",
+  "region": [
+    "新加坡"
+  ],
+  "method": "住宅生活實證",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "新加坡公共住宅提供高層生活的地方研究案例；不能把同樣高度當作跨城市接受程度。",
+      "strength": "MIXED",
+      "scope_zh": "僅限本研究或概念框架；不提供 M4H 的實測、法律效力或本卡試算門檻。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [
+    "NG09"
+  ],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref",
+    "query": {
+      "title": "High-rise Living in Singapore Public Housing",
+      "author": "Belinda Yuen",
+      "year": 2006
+    },
+    "matched_record_id": "10.1080/00420980500533133",
+    "checked_at_utc": "2026-10-08T09:12:32Z",
+    "match_notes_zh": "本任務重新以允許的公開書目 API 核對書名、作者與出版年；只確認書目，不代表全文主張已核實。"
+  },
+  "limitations_zh": "僅核對公開書目及可得摘要，未下載全文；書目驗證不代表全文因果或所有主張均已確認。",
+  "critique_relationship_zh": "known_critiques 是編者指定的批評或替代閱讀，不宣稱實際互引或逐一反駁；Ratti 與 Hillier／Penn 的標題記錄確認明確對話。",
+  "metadata_licence_zh": "保存書目欄位和自行撰寫的來源說明；未保存 API 摘要或全文，資料服務授權細節未由本任務判定。"
+}

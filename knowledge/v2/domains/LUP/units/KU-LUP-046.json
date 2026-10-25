@@ -1,0 +1,106 @@
+{
+  "id": "KU-LUP-046",
+  "domain": "LUP",
+  "subtopic": "15 分鐘城市與可及性",
+  "type": "design_principle",
+  "title_zh": "15 分鐘城市與可及性｜設計原則",
+  "title_en": "15-minute city and accessibility — Design principle",
+  "summary_zh": "15 分鐘城市是接近性與治理的複合議題，不是只畫固定半徑。 服務分布、步行網路、住宅成本和跨區工作需要會改變誰能實際使用附近設施。 比較方案時需呈現服務種類與地方政策條件。",
+  "key_points_zh": [
+    "讀「15 分鐘城市與可及性｜設計原則」時，量測實際路網時間並說明目的地清單、開放時間與無障礙條件；同時把研究提醒 15 分鐘城市須作為複合治理工具處理，僅把它當固定幾何模板會掩蓋地方政策差異列為核對條件。",
+    "讀「15 分鐘城市與可及性｜設計原則」時，量測實際路網時間並說明目的地清單、開放時間與無障礙條件；同時把研究提醒 15 分鐘城市須作為複合治理工具處理，僅把它當固定幾何模板會掩蓋地方政策差異列為核對條件。",
+    "限制：不把步行網路模型結果等同所有居民實際可達性。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "Marchigiani 等人把 15 分鐘城市視為受地方治理影響的接近性框架，不是單靠固定圓形距離就能保證公平可及的模板。",
+        "library_id": "MARCHIGIANI2022",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "米蘭，義大利",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "巴塞隆納的社會人口分析發現，附近有服務並不代表家庭會在附近完成所有日常活動；15 分鐘生活方式的實際採用與公平性仍有差異。",
+        "effect_or_value": null,
+        "study_design": "15 分鐘城市生活方式的社會人口分析",
+        "context_region": "西班牙巴塞隆納",
+        "library_id": "MACIEJEWSKA2025",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW",
+        "limitations_zh": "本文比較概念採用情形，不為固定半徑或單一治理模型背書。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "落實「15 分鐘城市與可及性｜設計原則」時可先量測實際路網時間並說明目的地清單、開放時間與無障礙條件，再用研究提醒 15 分鐘城市須作為複合治理工具處理，僅把它當固定幾何模板會掩蓋地方政策差異核對方案的空間後果。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "在「15 分鐘城市與可及性｜設計原則」的來源情境裡，量測實際路網時間並說明目的地清單、開放時間與無障礙條件；落到設計時還要按研究提醒 15 分鐘城市須作為複合治理工具處理，僅把它當固定幾何模板會掩蓋地方政策差異調整。",
+      "tradeoff_zh": "「15 分鐘城市與可及性｜設計原則」採用「在「15 分鐘城市與可及性｜設計原則」的來源情境裡，量測實際路網時間並說明目的地清單、開放時間與無障礙條件；落到設計時還要按研究提醒 15 分鐘城市須作為複合治理工具處理，僅把它當固定幾何模板會掩蓋地方政策差異調整」時，得失要沿著研究提醒 15 分鐘城市須作為複合治理工具處理，僅把它當固定幾何模板會掩蓋地方政策差異檢查；近鄰服務模型可能掩蓋住宅成本、服務品質和跨區工作需要。",
+      "library_ids": [
+        "MARCHIGIANI2022"
+      ]
+    },
+    {
+      "option_zh": "「15 分鐘城市與可及性｜設計原則」可把取向落在步行、自行車、公共運輸和照護行程可能需要不同服務圈，但需連同研究提醒 15 分鐘城市須作為複合治理工具處理，僅把它當固定幾何模板會掩蓋地方政策差異決定適用方式。",
+      "tradeoff_zh": "「15 分鐘城市與可及性｜設計原則」的主要代價不是抽象的建造成本，而是近鄰服務模型可能掩蓋住宅成本、服務品質和跨區工作需要；因此先以研究提醒 15 分鐘城市須作為複合治理工具處理，僅把它當固定幾何模板會掩蓋地方政策差異作方案比較條件。",
+      "library_ids": [
+        "MARCHIGIANI2022"
+      ]
+    }
+  ],
+  "applies_when_zh": "「15 分鐘城市與可及性｜設計原則」可在適用於鄰里服務缺口、交通公平和日常活動配置時使用，前提是研究提醒 15 分鐘城市須作為複合治理工具處理，僅把它當固定幾何模板會掩蓋地方政策差異與來源情境相符。",
+  "not_applicable_when_zh": "若研究提醒 15 分鐘城市須作為複合治理工具處理，僅把它當固定幾何模板會掩蓋地方政策差異不成立，就不能把「15 分鐘城市與可及性｜設計原則」的結論延伸到其他情況；不把步行網路模型結果等同所有居民實際可達性。",
+  "debates_zh": "近鄰服務模型可能掩蓋住宅成本、服務品質和跨區工作需要。",
+  "sources": [
+    {
+      "library_id": "MARCHIGIANI2022",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "MACIEJEWSKA2025",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "鄰里規劃與近鄰服務批判；節點與場所",
+  "region": "米蘭，義大利；荷蘭",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Planning Complex Cities",
+      "topic": "15 分鐘城市與可及性"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Cities by Design",
+      "topic": "15 分鐘城市與可及性"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "15 分鐘城市與可及性"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Sustainable Futures by Design",
+      "topic": "15 分鐘城市與可及性"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-LUP-044",
+    "KU-LUP-045",
+    "KU-LUP-047"
+  ],
+  "counter_unit_ids": [
+    "KU-LUP-048"
+  ]
+}

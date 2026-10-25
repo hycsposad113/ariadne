@@ -1,0 +1,47 @@
+{
+  "id": "NORDH09",
+  "title": "Components of small urban parks that predict the possibility for restoration",
+  "authors": [
+    "H. Nordh",
+    "T. Hartig",
+    "C.M. Hagerhall",
+    "G. Fry"
+  ],
+  "year": 2009,
+  "venue_or_publisher": "Urban Forestry & Urban Greening",
+  "doi": "https://doi.org/10.1016/j.ufug.2009.06.003",
+  "isbn": null,
+  "crossref_id": "https://doi.org/10.1016/j.ufug.2009.06.003",
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "恢復性環境與北歐景觀",
+  "region": [
+    "瑞典",
+    "北歐"
+  ],
+  "method": "小型公園實證研究",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "研究以小型城市公園的環境組成討論復原可能性；本次未取摘要，不把任何一種景觀元素宣稱為普遍有效。",
+      "strength": "MIXED",
+      "scope_zh": "北歐城市公園研究；主張限於此來源的研究設計與樣本，不外推為本基地規範。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref",
+    "query": {
+      "title": "Components of small urban parks that predict the possibility for restoration",
+      "author": "H. Nordh",
+      "year": 2009
+    },
+    "matched_record_id": "https://doi.org/10.1016/j.ufug.2009.06.003",
+    "checked_at_utc": "2026-10-08T09:54:03Z",
+    "match_notes_zh": "核對 Crossref 回傳書名、主要作者、出版年與 DOI；摘要只在實際取得並閱讀的論文上標 ABSTRACT_REVIEW。"
+  },
+  "limitations_zh": "北歐城市公園研究；書目核對不替代完整論文審查。",
+  "critique_relationship_zh": "此條目的批評連結供編者並讀，不宣稱存在直接互引。",
+  "metadata_licence_zh": "僅保存公開書目欄位與自行撰寫的摘要；未保存摘要原文，metadata 授權未單獨核定。"
+}

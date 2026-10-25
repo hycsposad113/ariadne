@@ -1,0 +1,45 @@
+{
+  "id": "FORSYTH2019",
+  "title": "Improving housing and neighborhoods for the vulnerable: older people, small households, urban design, and planning",
+  "authors": [
+    "Ann Forsyth",
+    "Jennifer Molinsky",
+    "Har Ye Kan"
+  ],
+  "year": 2019,
+  "venue_or_publisher": "OpenAlex bibliographic search record; venue not returned in bounded fields",
+  "doi": "https://doi.org/10.1057/s41289-019-00081-x",
+  "isbn": null,
+  "openalex_id": "https://openalex.org/W2911051790",
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "高齡住宅與全齡鄰里設計",
+  "region": [
+    "美國為主要政策背景，含跨國設計文獻"
+  ],
+  "method": "住宅與都市設計文獻回顧",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "回顧辨識全齡鄰里、集體服務與小規模跨世代住宅等方向，同時指出多數住宅和周邊尚未普遍支援衰弱長者。",
+      "strength": "MIXED",
+      "scope_zh": "摘要提供有限的研究範圍，不可外推摘要未報告的樣本和效果。",
+      "assessment_basis": "ABSTRACT_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "OpenAlex",
+    "query": {
+      "search_query": "housing older adults ageing in place urban neighborhoods design residential satisfaction",
+      "title": "Improving housing and neighborhoods for the vulnerable: older people, small households, urban design, and planning",
+      "author": "Ann Forsyth",
+      "year": 2019
+    },
+    "matched_record_id": "https://openalex.org/W2911051790",
+    "checked_at_utc": "2026-10-08T09:12:32Z",
+    "match_notes_zh": "OpenAlex 書目搜尋結果的書名、作者和年份一致；只用摘要確認範圍。"
+  },
+  "limitations_zh": "本次僅核對 API 書目和摘要，未下載全文。",
+  "metadata_licence_zh": "保存書目欄位及自行摘要，未保存 API 摘要原文或全文。"
+}

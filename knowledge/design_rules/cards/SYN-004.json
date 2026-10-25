@@ -1,0 +1,98 @@
+{
+  "id": "SYN-004",
+  "title_zh": "高選擇度穿越路線",
+  "title_en": "High choice routes",
+  "domain": "space_syntax",
+  "stages": [
+    "S2",
+    "S3",
+    "S5",
+    "S6",
+    "S7"
+  ],
+  "statement_zh": "對高 choice 路段比較直達穿越與分流；沿線不放阻斷物，另檢查交叉衝突及旁邊住宅。",
+  "rationale_zh": "穿越方便可能帶來快速騎行與停留人群衝突。",
+  "applies_when": {
+    "scale": [
+      "*"
+    ],
+    "land_use": [
+      "*"
+    ],
+    "strategy": [
+      "*"
+    ],
+    "mode": [
+      "*"
+    ]
+  },
+  "parameters": [
+    {
+      "name": "through_route_detour_trial",
+      "value": 1.3,
+      "range": null,
+      "unit": "ratio",
+      "provenance": "ASSUMED_COMMANDER",
+      "source_ids": [],
+      "authority_ref": null,
+      "status": "PROPOSED_PENDING_FOUNDER",
+      "rationale_zh": "指揮官提出的敏感性試算值，文獻未提供此數值；須 Founder 確認、地方資料及確定性驗證，未生效。"
+    }
+  ],
+  "check": {
+    "method_zh": "報告 choice、繞行率、路口與門禁；choice 不當作流量。",
+    "inputs": [
+      "凍結幾何／路網與 hash",
+      "已接受專案條件與版本",
+      "卡片參數與版本"
+    ],
+    "output": "檢查值、單位、方法、有效性、差異與限制；不自動採納",
+    "implementation_status": "SPECIFICATION_ONLY"
+  },
+  "check_unavailable_reason_zh": null,
+  "design_responses": [
+    {
+      "option": "1",
+      "action_zh": "保留清楚直達通路",
+      "source_ids": [
+        "MARSHALL05"
+      ],
+      "tradeoff_zh": "快行與慢行衝突。"
+    },
+    {
+      "option": "2",
+      "action_zh": "平行慢行支線分流",
+      "source_ids": [
+        "PORTA06"
+      ],
+      "tradeoff_zh": "繞行增加、中心人流減少。"
+    }
+  ],
+  "evidence_level": "ACADEMIC",
+  "evidence_strength": "THEORETICAL",
+  "sources": [
+    {
+      "library_id": "HILLIER84",
+      "claim_id": "C1",
+      "support_scope_zh": "文獻支持概念與比較角度；本卡具體操作是設計推導，試算值及專案約束不是文獻的普適結論。"
+    },
+    {
+      "library_id": "PORTA06",
+      "claim_id": "C1",
+      "support_scope_zh": "文獻支持概念與比較角度；本卡具體操作是設計推導，試算值及專案約束不是文獻的普適結論。"
+    },
+    {
+      "library_id": "MARSHALL05",
+      "claim_id": "C1",
+      "support_scope_zh": "文獻支持概念與比較角度；本卡具體操作是設計推導，試算值及專案約束不是文獻的普適結論。"
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "enforcement": "CANDIDATE_ONLY",
+  "authority_ref": null,
+  "debates_zh": "整合度不是人流因果保證；Ratti 指出表示法與幾何資訊限制，MCA 可作替代比較；本次僅憑書目知識，尚未逐頁查證。 已查證書目與主張的查閱層級見 library；不是逐頁核驗或本基地因果結論。",
+  "context_validity_zh": "英國形態／人流研究與跨城市網路方法只能提出假說；M4H 港區的門禁、產業時段、自行車與高差需另驗證。",
+  "exceptions_zh": "卡片不可替代現行法規、產權、無障礙或已接受 D1/D2。缺必要資料即回報 UNKNOWN；例外須由 Founder 明確決定並保留原結果。",
+  "version": "0.2.0",
+  "local_context_refs": []
+}

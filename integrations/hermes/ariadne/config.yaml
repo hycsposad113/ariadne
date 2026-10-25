@@ -1,0 +1,35 @@
+# Hermes Agent Configuration for Ariadne Profile
+# NOTICE: This distribution contains NO credentials or authentication materials.
+# Authentication is completed by the designer via Hermes OAuth login CLI commands.
+
+model:
+  default: gpt-6-luna
+  provider: openai-codex
+  context_length: 200000
+  effort: max
+fallback_providers: []
+
+agent:
+  name: Ariadne
+  system_prompt_file: SOUL.md
+
+mcp_servers:
+  ariadne:
+    command: python
+    args:
+      - -m
+      - urban_design.ariadne_mcp
+    env:
+      ARIADNE_API_BASE_URL: "http://127.0.0.1:8795"
+    enabled: true
+    timeout: 120
+
+tools:
+  web:
+    enabled: true
+  terminal:
+    enabled: true
+
+skills:
+  directory: skills
+  auto_discover: true

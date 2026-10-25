@@ -1,0 +1,71 @@
+{
+  "id": "KU-MET-011",
+  "domain": "MET",
+  "subtopic": "情境與策略規劃",
+  "type": "method",
+  "title_zh": "SWOT 及其限制",
+  "title_en": "SWOT and its limitations",
+  "summary_zh": "SWOT 分別整理內部優勢與弱點、外部機會與威脅，適合將初步診斷轉成待研究問題。其分類需指定目標和行動者，同一條件對不同群體可能同時是機會與威脅。每項列出證據、責任者與可驗證問題，再用其他分析檢查策略。",
+  "key_points_zh": [
+    "每項列出證據、責任者與可驗證問題，再用其他分析檢查策略。",
+    "Hill 與 Westbrook 的批評指出 SWOT 可能流於缺乏排序與驗證的列表；SWOT 列表本身不能排序或證明因果。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "SWOT 分別整理內部優勢與弱點、外部機會與威脅，適合將初步診斷轉成待研究問題。其分類需指定目標和行動者，同一條件對不同群體可能同時是機會與威脅。",
+        "library_id": "HILLWESTBROOK97",
+        "locator": null,
+        "study_design": "理論／方法綜述；非基地實測",
+        "effect_or_value": null,
+        "context_region": null,
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008"
+      },
+      {
+        "claim_zh": "Helms 與 Nixon 回顧 SWOT 的方法發展與批評，獨立於 Hill 與 Westbrook 的早期產品召回文章。",
+        "library_id": "HELMSNIXON2010",
+        "locator": null,
+        "study_design": "書目範圍核對；未以書目代替全文分析",
+        "effect_or_value": null,
+        "context_region": "跨地域",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "每項列出證據、責任者與可驗證問題，再用其他分析檢查策略。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "共同分類能建立討論起點",
+      "tradeoff_zh": "可能把結構性權力問題簡化成清單。",
+      "library_ids": [
+        "HILLWESTBROOK97"
+      ]
+    }
+  ],
+  "applies_when_zh": "用於釐清「SWOT 及其限制」涉及的空間、制度與行動選擇。",
+  "not_applicable_when_zh": "「SWOT 及其限制」不能直接替代基地的實測、法規或人類批准。",
+  "debates_zh": "Hill 與 Westbrook 的批評指出 SWOT 可能流於缺乏排序與驗證的列表；SWOT 列表本身不能排序或證明因果。",
+  "sources": [
+    {
+      "library_id": "HILLWESTBROOK97",
+      "locator": null
+    },
+    {
+      "library_id": "HELMSNIXON2010",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": null,
+      "topic": "編者主題對照，非已核實課程指定閱讀：SWOT 及其限制"
+    }
+  ],
+  "version": "2.0.0-theory-v3"
+}

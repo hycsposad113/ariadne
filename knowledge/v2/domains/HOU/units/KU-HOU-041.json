@@ -1,0 +1,98 @@
+{
+  "id": "KU-HOU-041",
+  "domain": "HOU",
+  "subtopic": "鄰里單元與批評",
+  "type": "empirical_finding",
+  "title_zh": "建築形式與社區感之間可能有中介條件",
+  "title_en": "New urbanism and sense of community",
+  "summary_zh": "概念定義和研究設計不一致，仍需要更直接的比較研究。 以居民使用和社會網絡測量補足街區形式。 研究設計：社會科學理論與實證研究評述；地區：新都市主義論述與美國研究。",
+  "key_points_zh": [
+    "研究評估新都市主義社區主張，指出社會研究只部分支持環境和社區感關係，效果常透過其他條件發生。",
+    "研究設計：社會科學理論與實證研究評述；地區：新都市主義論述與美國研究",
+    "限制：概念定義和研究設計不一致，仍需要更直接的比較研究。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "研究評估新都市主義社區主張，指出社會研究只部分支持環境和社區感關係，效果常透過其他條件發生。",
+        "effect_or_value": "文獻證據不支持物理形式直接保證社區感",
+        "study_design": "社會科學理論與實證研究評述",
+        "context_region": "新都市主義論述與美國研究",
+        "library_id": "TALEN99",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "以居民使用和社會網絡測量補足街區形式。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "以居民使用和社會網絡測量補足街區形式。",
+      "tradeoff_zh": "「建築形式與社區感之間可能有中介條件」採用「以居民使用和社會網絡測量補足街區形式」時，得失要沿著研究評估新都市主義社區主張，指出社會研究只部分支持環境和社區感關係，效果常透過其他條件發生檢查；概念定義和研究設計不一致，仍需要更直接的比較研究。",
+      "library_ids": [
+        "TALEN99",
+        "MOURATIDIS2020"
+      ]
+    },
+    {
+      "option_zh": "「建築形式與社區感之間可能有中介條件」可把取向落在設施圈、地方中心和穿越路徑可有不同組織方式，但需連同研究評估新都市主義社區主張，指出社會研究只部分支持環境和社區感關係，效果常透過其他條件發生決定適用方式。",
+      "tradeoff_zh": "「建築形式與社區感之間可能有中介條件」採用「「建築形式與社區感之間可能有中介條件」可把取向落在設施圈、地方中心和穿越路徑可有不同組織方式，但需連同研究評估新都市主義社區主張，指出社會研究只部分支持環境和社區感關係，效果常透過其他條件發生決定適用方式」時，得失要沿著研究評估新都市主義社區主張，指出社會研究只部分支持環境和社區感關係，效果常透過其他條件發生檢查；概念定義和研究設計不一致，仍需要更直接的比較研究。",
+      "library_ids": [
+        "TALEN99",
+        "MOURATIDIS2020"
+      ]
+    }
+  ],
+  "applies_when_zh": "用於與新都市主義論述與美國研究研究情境可比、且量測定義相近的分析。",
+  "not_applicable_when_zh": "概念定義和研究設計不一致，仍需要更直接的比較研究。",
+  "debates_zh": "概念定義和研究設計不一致，仍需要更直接的比較研究。",
+  "sources": [
+    {
+      "library_id": "TALEN99",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "MOURATIDIS2020",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "新都市主義批評；住宅、鄰里與生活福祉",
+  "region": "美國；奧斯陸城市區域，挪威",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "鄰里單元與批評"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "鄰里單元與批評"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "鄰里單元與批評"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "鄰里單元與批評"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-HOU-035",
+    "KU-HOU-036",
+    "KU-HOU-037"
+  ],
+  "counter_unit_ids": [
+    "KU-HOU-039"
+  ]
+}

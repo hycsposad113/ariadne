@@ -1,0 +1,74 @@
+{
+  "files": [
+    {
+      "parent_paths": [],
+      "parent_sha256": {},
+      "path": "browser/report.json",
+      "sha256": "b0d88b91d73679c288c7f55a185faab8ebf399912991fcae3f468e16c76dfc1b",
+      "size_bytes": 447
+    },
+    {
+      "parent_paths": [],
+      "parent_sha256": {},
+      "path": "decision-docket.md",
+      "sha256": "d50591147d42f24ea732535b11d3918722f0b7e0a699ca976f2d5d828dc3f063",
+      "size_bytes": 81
+    },
+    {
+      "parent_paths": [],
+      "parent_sha256": {},
+      "path": "evidence-bundle.json",
+      "sha256": "7a4c72af725a99827bf548f0b54c28e25d0e65ab9ba2c3be03cb39206698459e",
+      "size_bytes": 531
+    },
+    {
+      "parent_paths": [],
+      "parent_sha256": {},
+      "path": "gate-status.json",
+      "sha256": "78b2cfb22fa203369e23de858079e806c49cd36cf9086043d3dc81c00ddde1cc",
+      "size_bytes": 462
+    },
+    {
+      "parent_paths": [
+        "scripts/append_week4_repair_r04_docket_r01.py"
+      ],
+      "parent_sha256": {
+        "scripts/append_week4_repair_r04_docket_r01.py": "42eb0cbee4ccc74395dcc2792cf6a99ecea758cf68dd7e27e95b77bcec3cfbe0"
+      },
+      "path": "implementation-record.json",
+      "sha256": "55f70cff93dcf7fc4b84f285bbde5502e7bd4bc16ab3960d6ca41c1f6af343bf",
+      "size_bytes": 77
+    },
+    {
+      "parent_paths": [],
+      "parent_sha256": {},
+      "path": "package-record.json",
+      "sha256": "5741f72646006174d151833d3c28ed0d8bb3e11b22a25eeb53164fe978bf1280",
+      "size_bytes": 360
+    },
+    {
+      "parent_paths": [],
+      "parent_sha256": {},
+      "path": "request-log.json",
+      "sha256": "599750973310b0d5c3e1a4926de773ce3e7210ea3309eb1a968642d22f5ed642",
+      "size_bytes": 255
+    },
+    {
+      "parent_paths": [],
+      "parent_sha256": {},
+      "path": "road-metric-decision.json",
+      "sha256": "84635c635b0dd88dbab69a8a48a63e4e361b0d09eb9ef60a5a627512ecc0b38d",
+      "size_bytes": 92
+    },
+    {
+      "parent_paths": [],
+      "parent_sha256": {},
+      "path": "test-results.json",
+      "sha256": "dcd055fd4093146ba398a575161182563da56e0b641082d16518f7a25bb65d44",
+      "size_bytes": 157
+    }
+  ],
+  "manifest_excludes_self": true,
+  "package_path": "artifacts/week4-repair-r04",
+  "schema_version": "week4-r04-integrity-manifest-v1"
+}

@@ -1,0 +1,82 @@
+{
+  "id": "KU-LUP-062",
+  "domain": "LUP",
+  "subtopic": "15 分鐘城市與可及性",
+  "type": "value_range",
+  "title_zh": "十分鐘步行服務圈換算",
+  "title_en": "Ten-minute walk distance conversion",
+  "summary_zh": "以 3.0–4.8 km/h 乘 10 分鐘，理想直線距離約為 500–800 m；距離由設定的步速和時間直接算出。 這沒有計入等燈、坡道、休息或進出建築的時間。 比較社區設施時，應把服務入口、道路連通和可通行時間一起記錄。",
+  "key_points_zh": [
+    "以 3.0–4.8 km/h 乘 10 分鐘，理想直線距離約為 500–800 m；距離由設定的步速和時間直接算出",
+    "這沒有計入等燈、坡道、休息或進出建築的時間",
+    "比較社區設施時，應把服務入口、道路連通和可通行時間一起記錄"
+  ],
+  "evidence": {
+    "strength": "ASSUMED",
+    "findings": [
+      {
+        "claim_zh": "10 分鐘以3.0–4.8 km/h換算，理想距離為約 500–800 m；這是透明情境計算，非研究觀測出的通用服務標準。",
+        "effect_or_value": "約 500–800 m",
+        "study_design": "明示速度與時間的公式換算；非實證測量",
+        "context_region": "跨地域步行服務情境",
+        "library_id": "GEHL10",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "十分鐘步行服務圈換算",
+      "range": "約 500–800 m",
+      "unit": "m",
+      "context": "跨地域步行服務情境；用途：日常採買與小型服務的初篩；計算：3.0–4.8 km/h × 10 分鐘，僅為無停等、無繞行的直線情境，非文獻直接報告的數值；方法背景書目：IACONO10；需改以路網與使用者條件核算，這不是本基地法規。",
+      "library_id": "IACONO10"
+    }
+  ],
+  "design_implications_zh": [
+    "把家門、行人入口與服務入口連成路網後，分別計算無障礙與一般步行成本。"
+  ],
+  "applies_when_zh": "作為十分鐘日常服務的透明換算例；路網時間與速度假設應與幾何距離分開呈現。",
+  "not_applicable_when_zh": "不能用固定半徑代表所有人的可達性，尤其不能替代兒童、長者或輪椅使用者的實際路徑檢查。",
+  "debates_zh": "時間相同不代表服務機會相等，設施價格、開放時段與使用資格會改變可及性。",
+  "sources": [
+    {
+      "library_id": "GEHL10",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "IACONO10",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "公共生活設計",
+  "region": "跨地域步行服務情境",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Planning Complex Cities",
+      "topic": "15 分鐘城市與可及性"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Cities by Design",
+      "topic": "15 分鐘城市與可及性"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "15 分鐘城市與可及性"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Sustainable Futures by Design",
+      "topic": "15 分鐘城市與可及性"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008"
+}

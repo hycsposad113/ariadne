@@ -1,0 +1,96 @@
+{
+  "id": "KU-CAS-040",
+  "domain": "CAS",
+  "subtopic": "水岸與港區—港口工業遺產及商業化濱水區",
+  "type": "case",
+  "title_zh": "V&A Waterfront：工作港口再生的旅遊、就業與公共可達性",
+  "title_en": "V&A Waterfront: From Working Harbour to Tourism-Led Mixed-Use District",
+  "summary_zh": "開普敦 V&A Waterfront 自 1988 年起把仍有港口功能的海岸轉成混合商業、旅宿、住宅、文化和觀光目的地，並逐步加入公共空間與海岸連接。營運方宣稱場址支撐三萬個直接工作，並報告經濟貢獻金額；這些數字是公司自報，未由本單元獨立驗算。Ferreira 與 Visser 的 2007 年論文以「非洲里維耶拉」為題重新檢視其影響，單看書目無法判定作者的最終結論。案例因此適合比較海岸開放、遺產利用與高價旅遊商業用途如何並存。",
+  "key_points_zh": [
+    "海港再利用能重接城市和海岸，也可能優先發展消費、旅宿與高價目的地。",
+    "營運方公布的工作與經濟貢獻需與工作品質、在地採購和公共進入資料分開核對。"
+  ],
+  "evidence": {
+    "strength": "CASE_EVIDENCE",
+    "findings": [
+      {
+        "claim_zh": "Ferreira 與 Visser 的論文題名以 V&A Waterfront 發展影響為研究對象；本輪未核讀摘要或全文，不能依題名概括其結論。",
+        "effect_or_value": "僅確認研究對象與議題，不報告因果效果",
+        "study_design": "學術論文；本輪僅書目範圍核對",
+        "context_region": "南非開普敦",
+        "library_id": "FERREIRAVISSER2007VA",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "V&A Waterfront 營運方記載計畫於 1988 年起發展，並列出住宅、工作、旅館、零售、文化設施及公共空間；網站自報 30,000 個直接工作與經濟貢獻。",
+        "effect_or_value": "營運方公布的發展歷程、用途和經濟影響口徑",
+        "study_design": "港區營運方官方發展資料",
+        "context_region": "南非開普敦 V&A Waterfront",
+        "library_id": "VA_WATERFRONT_CPT2026",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "沿海通行應以可步行路線、開放時段、公共交通接駁及商業設施門檻等實際條件檢查。",
+    "把港口工作、文化遺產、住房和商業活動納入同一份土地與就業盤點，避免目的地品牌成為唯一績效。"
+  ],
+  "applies_when_zh": "仍有作業港口或工業海岸，而城市計畫要引入旅遊、文化、辦公及住宅等多種濱水用途時。",
+  "not_applicable_when_zh": "若岸線通行、工作港運作或公共空間治理權限未保障，新增商業和景觀不能單獨證明濱海公共性。",
+  "debates_zh": "營運方把「重接城市與海洋」、目的地活動和就業貢獻作為開發敘事；這些主張需與誰能到達海岸、是否有門檻、港口工作是否留存並列。學術論文確為該場址發展影響研究，但其內容在本輪僅核對書目，不能拿標題替代批判結論。公共通行與經濟外溢仍須由獨立空間和勞動資料檢驗。",
+  "sources": [
+    {
+      "library_id": "FERREIRAVISSER2007VA",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "VA_WATERFRONT_CPT2026",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "南非港灣再生、旅遊經濟與後殖民城市空間批評",
+  "region": "非洲／南非開普敦",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": null,
+      "topic": "工作港口轉型與濱水公共空間"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": null,
+      "topic": "港區觀光、遺產與城市經濟"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": null,
+      "topic": "全球南方再生模式與空間不平等"
+    }
+  ],
+  "case": {
+    "location": "南非西開普省開普敦 V&A Waterfront",
+    "period": "1988 年起分期更新至今；營運方現行發展包含不同港區子區塊",
+    "area_ha": null,
+    "fsi": null,
+    "gsi": null,
+    "program_mix": "作業港口、零售餐飲、旅館、辦公、住宅、文化設施與公共空間；營運方未在所核頁面公布全區用途比例。",
+    "key_strategies_zh": [
+      "保存工作港口與工業記憶，同時配置旅宿、文化、辦公和零售等混合功能。",
+      "以連續海岸步道、公共空間和城市交通連接檢驗「開放海岸」主張的實際可達性。"
+    ],
+    "outcomes_zh": [
+      "營運方記載 1988 年起的發展歷程及多類使用，並自報 30,000 個直接工作。",
+      "營運方自報工作及經濟貢獻數字，沒有在該頁提供獨立評估方法或工作品質分布。"
+    ],
+    "critiques_zh": [
+      "作業港區轉為旅遊目的地可能增加消費與訪客，但要另核對岸線使用權、公共空間時段、租用門檻與在地港口就業。",
+      "本單元未填面積與用途比例，因所核來源未提供可確認的統一全區邊界及分母。"
+    ]
+  },
+  "version": "v2.0"
+}

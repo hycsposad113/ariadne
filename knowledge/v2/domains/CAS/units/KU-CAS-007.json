@@ -1,0 +1,100 @@
+{
+  "id": "KU-CAS-007",
+  "domain": "CAS",
+  "subtopic": "港區轉型案例",
+  "type": "case",
+  "title_zh": "King’s Cross：交通樞紐投資與地產更新的交疊",
+  "title_en": "King’s Cross: The Interaction of Station Investment and Property-Led Regeneration",
+  "summary_zh": "King’s Cross 的更新與車站改善、鐵路土地再開發和中央區位投資同步發生。官方資料把開發範圍列為約67公頃，並公布住宅、辦公和零售的規劃量；英國交通部的回顧則將車站連通性和周邊再生視為彼此作用的過程。這些資料不支持把全部就業或房價變化單獨歸因於一項規劃介入。",
+  "key_points_zh": [
+    "分清公共車站投資、鐵路用地開發和私人地產建設的時間及範圍。",
+    "把官方宣稱的新增樓地板量與研究中觀察到的廣域經濟變化分開。"
+  ],
+  "evidence": {
+    "strength": "CASE_EVIDENCE",
+    "findings": [
+      {
+        "claim_zh": "官方開發資料把King’s Cross列為約67公頃，含約2,000戶住宅、300萬平方英尺辦公及50萬平方英尺零售規劃量。",
+        "effect_or_value": "專案資料；規劃規模",
+        "study_design": "專案資料；規劃規模",
+        "context_region": "英國倫敦",
+        "library_id": "GLA_KINGS_CROSS2017",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "交通部2024年案例研究回顧1996至2020年的車站投資和周邊再生，指出多項連結及發展因素同時變動。",
+        "effect_or_value": "政府案例研究；交互作用而非單一因果",
+        "study_design": "政府案例研究；交互作用而非單一因果",
+        "context_region": "英國倫敦",
+        "library_id": "TREW2018",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "用事件時間線與土地使用圖交叉呈現車站工程、公共投資和開發交付。"
+  ],
+  "applies_when_zh": "分析交通樞紐附近的大型棕地或鐵路用地轉型時。",
+  "not_applicable_when_zh": "需要單獨識別車站工程因果效果，但沒有對照區或反事實設計時。",
+  "debates_zh": "交通改善可能擴大地區可達性和投資吸引力；同一變化也會提高土地競爭壓力，單靠商業空間或住宅交付數量無法說明誰取得價值。",
+  "sources": [
+    {
+      "library_id": "GLA_KINGS_CROSS2017",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "TREW2018",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "GOVUK_KX_DFT2024",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "交通導向發展、鐵路棕地再生與批判城市政治經濟",
+  "region": "西歐／英國倫敦",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": null,
+      "topic": "車站投資與街區再生"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": null,
+      "topic": "地產導向更新的社會效應"
+    },
+    {
+      "school": "MIT",
+      "course": null,
+      "topic": "交通可達性與區域經濟"
+    }
+  ],
+  "case": {
+    "location": "倫敦，英國",
+    "period": "1996至2020年交通與更新觀察期；地產開發於2000年代起分期建設",
+    "area_ha": 67,
+    "fsi": null,
+    "gsi": null,
+    "program_mix": "約2,000戶住宅、約300萬平方英尺辦公、約50萬平方英尺零售，加上公共空間及教育文化設施。",
+    "key_strategies_zh": [
+      "將車站投資、交通換乘和鐵路棕地開發串接。",
+      "以分區總體規劃安排住宅、辦公、零售和公共空間。"
+    ],
+    "outcomes_zh": [
+      "官方公布了規劃用途和建築量；交通部研究將連通性、投資和地區發展視作互相作用的條件。",
+      "研究期內產出、就業、開發和地區感知都有變化，但不能只歸因於車站工程。"
+    ],
+    "critiques_zh": [
+      "開發方的樓地板及投資指標不代表可負擔住宅或既有居民留存。",
+      "應補充租金、公共空間治理及原有鐵路社群結果，避免只看樞紐成功敘事。"
+    ]
+  },
+  "version": "v2.0"
+}

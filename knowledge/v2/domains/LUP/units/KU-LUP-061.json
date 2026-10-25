@@ -1,0 +1,91 @@
+{
+  "id": "KU-LUP-061",
+  "domain": "LUP",
+  "subtopic": "15 分鐘城市與可及性",
+  "type": "value_range",
+  "title_zh": "五分鐘步行服務圈換算",
+  "title_en": "Five-minute walk distance conversion",
+  "summary_zh": "以 3.0–4.8 km/h 乘 5 分鐘，理想直線距離約為 250–400 m；這是公式換算，不是居民實際行程的觀測值。 坡度、路口、入口位置和慢行速度會縮短可走到的範圍。 盤點便利商店或日用品時，應再以無障礙路網計算入口到入口的時間。",
+  "key_points_zh": [
+    "以 3.0–4.8 km/h 乘 5 分鐘，理想直線距離約為 250–400 m；這是公式換算，不是居民實際行程的觀測值",
+    "坡度、路口、入口位置和慢行速度會縮短可走到的範圍",
+    "盤點便利商店或日用品時，應再以無障礙路網計算入口到入口的時間"
+  ],
+  "evidence": {
+    "strength": "ASSUMED",
+    "findings": [
+      {
+        "claim_zh": "5 分鐘以3.0–4.8 km/h換算，理想距離為約 250–400 m；這是透明情境計算，非研究觀測出的通用服務標準。",
+        "effect_or_value": "約 250–400 m",
+        "study_design": "明示速度與時間的公式換算；非實證測量",
+        "context_region": "跨地域步行服務情境",
+        "library_id": "GEHL10",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "Iacono 等人比較非機動可及性量測，要求交代路網、目的地集合和分析尺度；這能補充步行服務圈的路徑限制，但不提供 3.0–4.8 km/h 的步速。",
+        "library_id": "IACONO10",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "跨地域步行可及性研究",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "五分鐘步行服務圈換算",
+      "range": "約 250–400 m",
+      "unit": "m",
+      "context": "跨地域步行服務情境；用途：近鄰日用品初篩；計算：3.0–4.8 km/h × 5 分鐘，僅為無停等、無繞行的直線情境，非文獻直接報告的數值；方法背景書目：GEHL10；需改以路網與使用者條件核算，這不是本基地法規。",
+      "library_id": "GEHL10"
+    }
+  ],
+  "design_implications_zh": [
+    "先用日用品清單定位候選商店，再量測每個住入口至商店入口的實際行走時間。"
+  ],
+  "applies_when_zh": "適合做近鄰日用品的初步情境掃描；速度、時間及直線距離假設均須同時列出。",
+  "not_applicable_when_zh": "圓形半徑無法表示鐵路、水道、封閉街廓或不可通行入口造成的繞路。",
+  "debates_zh": "以單一圓形服務圈衡量會高估被鐵路、水道或封閉地塊切斷的可達性。",
+  "sources": [
+    {
+      "library_id": "GEHL10",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "IACONO10",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "公共生活設計",
+  "region": "跨地域步行服務情境",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Planning Complex Cities",
+      "topic": "15 分鐘城市與可及性"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Cities by Design",
+      "topic": "15 分鐘城市與可及性"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "15 分鐘城市與可及性"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Sustainable Futures by Design",
+      "topic": "15 分鐘城市與可及性"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008"
+}

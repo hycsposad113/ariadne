@@ -1,0 +1,42 @@
+{
+  "id": "GOVUK_KX_DFT2024",
+  "title": "Wider impacts of station investment: King’s Cross and St Pancras",
+  "authors": [
+    "Department for Transport"
+  ],
+  "year": 2024,
+  "venue_or_publisher": "Department for Transport",
+  "doi": null,
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "OFFICIAL_GOVERNMENT_REPORT",
+  "tradition": "官方城市規劃與專案資料",
+  "region": "英國倫敦",
+  "method": "直接核對官方公開頁面或政府報告；非學術成效研究",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "英國交通部案例回顧1996–2020年車站投資與周邊更新，並將連通性、投資、就業及開發視為彼此交織的變化。",
+      "strength": "CASE_EVIDENCE",
+      "scope_zh": "僅支持頁面明確公布的規劃口徑、歷史日期或行政資料，不將目標寫成實現成果。",
+      "assessment_basis": "DIRECT_SOURCE_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Official organization webpage",
+    "query": {
+      "title": "Wider impacts of station investment: King’s Cross and St Pancras",
+      "author": "Department for Transport",
+      "year": 2024,
+      "api_query": "Read-only official source page: https://www.gov.uk/government/publications/wider-impacts-of-station-investment-kings-cross-and-st-pancras"
+    },
+    "matched_record_id": "https://www.gov.uk/government/publications/wider-impacts-of-station-investment-kings-cross-and-st-pancras",
+    "checked_at_utc": "2026-10-08T14:10:33Z",
+    "match_notes_zh": "直接核對官方網站或政府報告；網站頁面不是Crossref書目記錄，未宣稱經Crossref驗證。"
+  },
+  "limitations_zh": "官方頁面可能呈現規劃者或管理者口徑；研究成效及獨立社會評估需另尋學術來源。",
+  "critique_relationship_zh": "本記錄不宣稱與其他來源存在直接互引或逐一反駁關係。",
+  "metadata_licence_zh": "官方公開頁面；未確認個別資料集的再利用授權。"
+}

@@ -1,0 +1,80 @@
+{
+  "id": "KU-SYN-047",
+  "domain": "SYN",
+  "subtopic": "批評（Ratti）與回應",
+  "type": "pattern",
+  "title_zh": "批評（Ratti）與回應：可重用模式",
+  "title_en": "Ratti critique and response: Reusable pattern",
+  "summary_zh": "保留同一底圖和參數，對照 Syntax 與 primal 網路指標及實際行人觀測。此模式以Ratti 對空間語法表示和幾何處理提出方法批評，Hillier 與 Penn 的回應則捍衛其模型意圖與適用範圍。需要留意的代價是論文標題中的論戰不構成任何一方勝出證據；方法有效性須在具體資料和目標下檢查。",
+  "key_points_zh": [
+    "空間模式：Ratti 對空間語法表示和幾何處理提出方法批評，Hillier 與 Penn 的回應則捍衛其模型意圖與適用範圍",
+    "空間模式：保留同一底圖和參數，對照 Syntax 與 primal 網路指標及實際行人觀測"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "批評（Ratti）與回應：可重用模式｜以空間資本把路網關係與更廣的都市形態聯讀；不能只看中心性而忽略地塊與用途",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "MARCUS10",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "批評（Ratti）與回應：可重用模式｜步行性有多種定義與設計訴求；需明確說明量測的是距離、舒適、活動還是可及性",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "FORSYTH15",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "先畫出「Ratti 對空間語法表示和幾何處理提出方法批評，Hillier 與 Penn 的回應則捍衛其模型意圖與適用範圍」所描述的空間關係，再用「論文標題中的論戰不構成任何一方勝出證據；方法有效性須在具體資料和目標下檢查」檢查它可能帶來的代價。"
+  ],
+  "applies_when_zh": "當設計需要回應「Ratti 對空間語法表示和幾何處理提出方法批評，Hillier 與 Penn 的回應則捍衛其模型意圖與適用範圍」描述的空間關係，可先把模式畫入配置，再用現地使用資料檢查。",
+  "not_applicable_when_zh": "「Ratti 對空間語法表示和幾何處理提出方法批評，Hillier 與 Penn 的回應則捍衛其模型意圖與適用範圍」不能原樣移植到缺少相同交通、界面或治理條件的場地；需先檢查「論文標題中的論戰不構成任何一方勝出證據；方法有效性須在具體資料和目標下檢查」指出的代價。",
+  "debates_zh": "論文標題中的論戰不構成任何一方勝出證據；方法有效性須在具體資料和目標下檢查；檢視「批評（Ratti）與回應：可重用模式」的模式落地時，還需判斷「保留同一底圖和參數，對照 Syntax 與 primal 網路指標及實際行人觀測」會如何改變方案結論。",
+  "sources": [
+    {
+      "library_id": "MARCUS10",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "FORSYTH15",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "空間語法方法論辯論",
+  "region": "跨地域理論或實務脈絡；來源地區依引用條目判讀",
+  "curriculum_refs": [
+    {
+      "school": "UCL Bartlett",
+      "course": "Critical Debates in Urban Design",
+      "topic": "批評（Ratti）與回應：課綱對應主題"
+    },
+    {
+      "school": "TU Delft",
+      "course": "Methods of Analysis & Imagination",
+      "topic": "批評（Ratti）與回應：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-SYN-041",
+    "KU-SYN-042",
+    "KU-SYN-043",
+    "KU-SYN-044",
+    "KU-SYN-045",
+    "KU-SYN-046",
+    "KU-SYN-048"
+  ]
+}

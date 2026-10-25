@@ -1,0 +1,100 @@
+{
+  "id": "KU-CAS-009",
+  "domain": "CAS",
+  "subtopic": "街道與交通案例",
+  "type": "case",
+  "title_zh": "巴塞隆納 Superblock：交通重配的健康效益模型",
+  "title_en": "Barcelona Superblocks: A Health Impact Model of Street Reallocation",
+  "summary_zh": "Mueller等人以巴塞隆納規劃中的503個超級街區作健康影響評估，估算若汽車交通減少並重新配置街道，人口暴露和健康結果可能如何改變。模型推估二氧化氮、噪音和綠地暴露出現改善，並估計每年可避免667例過早死亡；這是情境模型，不是介入後的實測死亡數。使用這些結果時要保留人口、暴露與政策落實假設。",
+  "key_points_zh": [
+    "將模型估算與實際實施前後量測分欄呈現。",
+    "交通量、污染暴露和健康風險之間的推算依賴多個情境假設。"
+  ],
+  "evidence": {
+    "strength": "CASE_EVIDENCE",
+    "findings": [
+      {
+        "claim_zh": "健康影響評估以巴塞隆納人口及503個規劃超級街區為情境，估算NO₂下降24.3%、噪音下降5.4%，並推估每年避免667例過早死亡。",
+        "effect_or_value": "模型化健康影響評估；情境推估",
+        "study_design": "模型化健康影響評估；情境推估",
+        "context_region": "西班牙巴塞隆納",
+        "library_id": "MUELLER2020SUPERBLOCK",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "巴塞隆納的官方規劃頁面可說明超級街區政策的空間安排，但不能獨立驗證模型健康結果。",
+        "effect_or_value": "官方政策資料；規劃安排",
+        "study_design": "官方政策資料；規劃安排",
+        "context_region": "西班牙巴塞隆納",
+        "library_id": "BARCELONA_SUPERILLA_PLAN2024",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "對照規劃情境與實際街段量測，逐步更新交通、空氣品質、噪音和健康指標。"
+  ],
+  "applies_when_zh": "評估以街道空間重新分配降低汽車暴露的都市政策時。",
+  "not_applicable_when_zh": "把模型結果直接作為其他城市或基地的健康效益預測時。",
+  "debates_zh": "健康效益的量化使交通調整更可比較，但情境模型會受實施範圍、替代交通方式和暴露假設影響；應搭配實際追蹤。",
+  "sources": [
+    {
+      "library_id": "MUELLER2020SUPERBLOCK",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "BARCELONA_SUPERILLA_PLAN2024",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "城市健康影響評估與低車流街區規劃",
+  "region": "西歐／西班牙巴塞隆納",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": null,
+      "topic": "街道網絡與交通重配"
+    },
+    {
+      "school": "MIT",
+      "course": null,
+      "topic": "城市健康模型與暴露評估"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": null,
+      "topic": "公共空間公平與交通政策"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": null,
+      "topic": "步行化規劃的評估方法"
+    }
+  ],
+  "case": {
+    "location": "巴塞隆納，西班牙",
+    "period": "2010年代政策規劃；研究以規劃中的503個超級街區作情境",
+    "area_ha": null,
+    "fsi": null,
+    "gsi": null,
+    "program_mix": "住宅街道、步行與自行車優先空間、綠化及鄰里公共生活；研究未將單一案例面積作統計單位。",
+    "key_strategies_zh": [
+      "透過交通網重組限制穿越性車流。",
+      "將街道面積轉為步行、綠化及鄰里使用空間。"
+    ],
+    "outcomes_zh": [
+      "研究估算城市整體NO₂與噪音暴露下降，並推估年度死亡風險變化。",
+      "上述健康數值來自模型情境，不是已觀測到的政策效果。"
+    ],
+    "critiques_zh": [
+      "因果效應需以真實實施後的暴露、健康資料和對照設計驗證。",
+      "街道改造的交通轉移、鄰里分配和執行差異可能使實際結果偏離模型。"
+    ]
+  },
+  "version": "v2.0"
+}

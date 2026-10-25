@@ -1,0 +1,61 @@
+{
+  "id": "KU-ECO-014",
+  "domain": "ECO",
+  "subtopic": "生態網絡與連結度",
+  "type": "concept",
+  "title_zh": "廊道也會傳遞干擾",
+  "title_en": "Corridors can transmit disturbance",
+  "summary_zh": "線性綠地可連接生境，也可能輸送入侵種、人流和寵物活動。連通的好處與風險取決於物種、寬度和管理。廊道並不必然讓所有目標物種受益。連通性原則需與生物安全和管理方案合寫。",
+  "key_points_zh": [
+    "線性綠地可連接生境，也可能輸送入侵種、人流和寵物活動",
+    "連通的好處與風險取決於物種、寬度和管理"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "線性綠地可連接生境，也可能輸送入侵種、人流和寵物活動。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "跨地域",
+        "library_id": "BARTHELEMY11",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "連通性原則需與生物安全和管理方案合寫。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "同時檢查移動、干擾和入侵風險，而非只追求最短連接。"
+  ],
+  "applies_when_zh": "適用於自然保育和休閒通道相鄰。",
+  "not_applicable_when_zh": "不適用於沒有目標類群和監測計畫的寬泛宣稱。",
+  "debates_zh": "連通性原則需與生物安全和管理方案合寫。",
+  "sources": [
+    {
+      "library_id": "BARTHELEMY11",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "PORTA06",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "空間網路科學",
+  "region": "跨地域",
+  "curriculum_refs": [
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "生態網絡與連結度"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-ECO-013",
+    "KU-ECO-015"
+  ]
+}

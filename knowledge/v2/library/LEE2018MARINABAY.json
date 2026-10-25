@@ -1,0 +1,42 @@
+{
+  "id": "LEE2018MARINABAY",
+  "title": "Planning as State-Effect: Calculation, Historicity and Imagination at Marina Bay, Singapore",
+  "authors": [
+    "Kah-Wee Lee"
+  ],
+  "year": 2018,
+  "venue_or_publisher": "Planning Theory & Practice",
+  "doi": "https://doi.org/10.1080/14649357.2018.1501510",
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "新加坡國家規劃、歷史與空間計算",
+  "region": "東南亞／新加坡 Marina Bay",
+  "method": "只核對書目與題名範圍；研究設計及實證結果未在此條目核讀",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "題名直接將 Marina Bay 作為規劃與國家治理分析對象；具體論證不從書目欄位推估。",
+      "strength": "THEORETICAL",
+      "scope_zh": "只支持 Crossref 書目可確認的作者、年份、出版物與題旨；未據此複述摘要、全文結果或個案效果。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref REST API",
+    "query": {
+      "title": "Planning as State-Effect: Calculation, Historicity and Imagination at Marina Bay, Singapore",
+      "author": "Kah-Wee Lee",
+      "year": 2018,
+      "api_query": "Crossref GET /works/10.1080/14649357.2018.1501510"
+    },
+    "matched_record_id": "10.1080/14649357.2018.1501510",
+    "checked_at_utc": "2026-10-08T14:23:52Z",
+    "match_notes_zh": "本批 Crossref 回應精確匹配 DOI、題名、作者與年份；未將 API 摘要存入 repository。"
+  },
+  "limitations_zh": "只保存書目和以自述方式限定的研究範圍；未讀全文，不能據此陳述效果量或因果。",
+  "critique_relationship_zh": "本記錄不宣稱與其他書目存在直接互引或逐一反駁關係。",
+  "metadata_licence_zh": "Crossref 公開書目欄位；精確 metadata license 未核驗，標 UNKNOWN。"
+}

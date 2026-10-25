@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version='0.6' generator='context-fixture-v1'>
+  <bounds minlat='51.9059' minlon='4.4298' maxlat='51.9065' maxlon='4.4317'/>
+  <node id='1' lat='51.905994132' lon='4.430573895'/>
+  <node id='2' lat='51.905995314' lon='4.430719194'/>
+  <node id='3' lat='51.906085187' lon='4.430717282'/>
+  <node id='4' lat='51.906084004' lon='4.430571983'/>
+  <node id='5' lat='51.906040251' lon='4.430718238'/>
+  <node id='6' lat='51.906041433' lon='4.430863537'/>
+  <node id='7' lat='51.906131306' lon='4.430861625'/>
+  <node id='8' lat='51.906130123' lon='4.430716326'/>
+  <node id='9' lat='51.906172102' lon='4.430352122'/>
+  <node id='10' lat='51.906173285' lon='4.430497421'/>
+  <node id='11' lat='51.906263158' lon='4.430495508'/>
+  <node id='12' lat='51.906261975' lon='4.430350209'/>
+  <node id='13' lat='51.905943279' lon='4.429848359'/>
+  <node id='14' lat='51.905956289' lon='4.431446643'/>
+  <node id='15' lat='51.906269661' lon='4.431294656'/>
+  <node id='16' lat='51.906272025' lon='4.431585255'/>
+  <node id='17' lat='51.906451770' lon='4.431581435'/>
+  <node id='18' lat='51.906449406' lon='4.431290834'/>
+  <node id='19' lat='51.906000' lon='4.431000'/>
+  <node id='20' lat='51.906020' lon='4.431100'/>
+  <node id='21' lat='51.906100' lon='4.431090'/>
+  <node id='22' lat='51.906080' lon='4.430990'/>
+  <way id='100'>
+    <nd ref='1'/><nd ref='2'/><nd ref='3'/><nd ref='4'/><nd ref='1'/>
+    <tag k='building' v='yes'/>
+    <tag k='height' v='9 m'/>
+    <tag k='building:levels' v='3'/>
+    <tag k='ref:bag' v='NL.IMBAG.Pand.0599100000018261'/>
+  </way>
+  <way id='200'>
+    <nd ref='5'/><nd ref='6'/><nd ref='7'/><nd ref='8'/><nd ref='5'/>
+    <tag k='natural' v='water'/>
+    <tag k='name' v='Fixture water'/>
+  </way>
+  <way id='300'>
+    <nd ref='9'/><nd ref='10'/><nd ref='11'/><nd ref='12'/><nd ref='9'/>
+    <tag k='landuse' v='grass'/>
+  </way>
+  <way id='400'>
+    <nd ref='13'/><nd ref='14'/>
+    <tag k='highway' v='residential'/>
+    <tag k='name' v='Fixture road'/>
+  </way>
+  <way id='500'>
+    <nd ref='15'/><nd ref='16'/><nd ref='17'/><nd ref='18'/><nd ref='15'/>
+    <tag k='building' v='industrial'/>
+    <tag k='building:levels' v='2'/>
+  </way>
+  <way id='600'>
+    <nd ref='19'/><nd ref='20'/><nd ref='21'/><nd ref='22'/><nd ref='19'/>
+    <tag k='building' v='yes'/>
+  </way>
+</osm>

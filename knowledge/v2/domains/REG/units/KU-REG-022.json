@@ -1,0 +1,107 @@
+{
+  "id": "KU-REG-022",
+  "domain": "REG",
+  "subtopic": "荷蘭 Omgevingswet 與 omgevingsplan",
+  "type": "concept",
+  "title_zh": "荷蘭 Omgevingswet 與 omgevingsplan｜概念邊界",
+  "title_en": "Dutch integrated environment and plan profile — Conceptual boundaries",
+  "summary_zh": "Omgevingswet 與 omgevingsplan 的制度關係需分開呈現中央立法目標、地方規則和許可流程。 決策過程也牽涉誰能參與協商，以及開發利益如何分配，總量指標無法代替這些討論。 2016 年法案辯論可解讀改革脈絡，現行條文仍須核對官方版本。",
+  "key_points_zh": [
+    "omgevingsplan 是制度結構的一部分，地方程序和政策時點需要區分。",
+    "適用於分析整合型規劃制度如何改變計畫和規則關係。",
+    "限制：正式基地判斷需另查當前官方法規與地區 plan。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "分歧中的協作需要呈現參與者與討論程序；技術評估不替代人類決定。",
+        "library_id": "HEALEY97",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "英國; 跨地域",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "以公平、參與及差異討論都市發展的受益與負擔，不能只用總量效率選方案。",
+        "library_id": "FANSTEIN10",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "美國; 歐洲",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "按研究時點繪製中央立法、地方計畫、許可和實施的關係。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "按研究時點繪製中央立法、地方計畫、許可和實施的關係。",
+      "tradeoff_zh": "「荷蘭 Omgevingswet 與 omgevingsplan｜概念邊界」的主要代價不是抽象的建造成本，而是2016 年法案辯論不能當成 2026 年現行法條的完整說明；因此先以分歧中的協作需要呈現參與者與討論程序；技術評估不替代人類決定作方案比較條件。",
+      "library_ids": [
+        "HEALEY97",
+        "FANSTEIN10"
+      ]
+    },
+    {
+      "option_zh": "整合計畫可連結環境、建築和土地使用，不代表所有決定自動簡化。",
+      "tradeoff_zh": "此選項把「荷蘭 Omgevingswet 與 omgevingsplan｜概念邊界」的工作放在分歧中的協作需要呈現參與者與討論程序；技術評估不替代人類決定上；需要承擔的協調或維護代價則由「2016 年法案辯論不能當成 2026 年現行法條的完整說明」界定。",
+      "library_ids": [
+        "HEALEY97",
+        "FANSTEIN10"
+      ]
+    }
+  ],
+  "applies_when_zh": "適用於分析整合型規劃制度如何改變計畫和規則關係。",
+  "not_applicable_when_zh": "正式基地判斷需另查當前官方法規與地區 plan。",
+  "debates_zh": "2016 年法案辯論不能當成 2026 年現行法條的完整說明。",
+  "sources": [
+    {
+      "library_id": "HEALEY97",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "FANSTEIN10",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "協作規劃；都市分配正義",
+  "region": "英國；美國",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Planning Complex Cities",
+      "topic": "荷蘭 Omgevingswet 與 omgevingsplan"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Urban Design Contexts and Operations",
+      "topic": "荷蘭 Omgevingswet 與 omgevingsplan"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "荷蘭 Omgevingswet 與 omgevingsplan"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban design governance",
+      "topic": "荷蘭 Omgevingswet 與 omgevingsplan"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-REG-023",
+    "KU-REG-024",
+    "KU-REG-025"
+  ],
+  "counter_unit_ids": [
+    "KU-REG-026"
+  ]
+}

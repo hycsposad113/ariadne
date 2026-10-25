@@ -1,0 +1,98 @@
+{
+  "id": "KU-HOU-024",
+  "domain": "HOU",
+  "subtopic": "混合產權",
+  "type": "empirical_finding",
+  "title_zh": "集體住宅的制度背景影響合作型態",
+  "title_en": "Collective housing in Belgium and the Netherlands",
+  "summary_zh": "案例研究不量化混合產權對社會融合或負擔的因果效應。 將共同空間治理和產權制度在方案初期一起設計。 研究設計：文獻研究、利害關係人訪談與案例比較；地區：比利時與荷蘭。",
+  "key_points_zh": [
+    "比利時與荷蘭兩案例比較指出，住宅政策歷史和建築師角色影響集體住宅的形成方式。",
+    "研究設計：文獻研究、利害關係人訪談與案例比較；地區：比利時與荷蘭",
+    "限制：案例研究不量化混合產權對社會融合或負擔的因果效應。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "比利時與荷蘭兩案例比較指出，住宅政策歷史和建築師角色影響集體住宅的形成方式。",
+        "effect_or_value": "兩國案例在新建與改造、個體與共同生活上呈現差異",
+        "study_design": "文獻研究、利害關係人訪談與案例比較",
+        "context_region": "比利時與荷蘭",
+        "library_id": "DEVOS2022",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "將共同空間治理和產權制度在方案初期一起設計。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "將共同空間治理和產權制度在方案初期一起設計。",
+      "tradeoff_zh": "「集體住宅的制度背景影響合作型態」的主要代價不是抽象的建造成本，而是案例研究不量化混合產權對社會融合或負擔的因果效應；因此先以比利時與荷蘭兩案例比較指出，住宅政策歷史和建築師角色影響集體住宅的形成方式作方案比較條件。",
+      "library_ids": [
+        "DEVOS2022",
+        "MADDEN2016"
+      ]
+    },
+    {
+      "option_zh": "在「集體住宅的制度背景影響合作型態」的來源情境裡，社會租屋、合作住宅、自有住宅和私人租屋可在同街區並存；落到設計時還要按比利時與荷蘭兩案例比較指出，住宅政策歷史和建築師角色影響集體住宅的形成方式調整。",
+      "tradeoff_zh": "「集體住宅的制度背景影響合作型態」的主要代價不是抽象的建造成本，而是案例研究不量化混合產權對社會融合或負擔的因果效應；因此先以比利時與荷蘭兩案例比較指出，住宅政策歷史和建築師角色影響集體住宅的形成方式作方案比較條件。",
+      "library_ids": [
+        "DEVOS2022",
+        "MADDEN2016"
+      ]
+    }
+  ],
+  "applies_when_zh": "用於與比利時與荷蘭研究情境可比、且量測定義相近的分析。",
+  "not_applicable_when_zh": "案例研究不量化混合產權對社會融合或負擔的因果效應。",
+  "debates_zh": "案例研究不量化混合產權對社會融合或負擔的因果效應。",
+  "sources": [
+    {
+      "library_id": "DEVOS2022",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "MADDEN2016",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "比利時與荷蘭集體住宅；住房權與政治經濟批判",
+  "region": "比利時與荷蘭；美國與跨國住房政治",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "混合產權"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "混合產權"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "混合產權"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "混合產權"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-HOU-018",
+    "KU-HOU-019",
+    "KU-HOU-020"
+  ],
+  "counter_unit_ids": [
+    "KU-HOU-022"
+  ]
+}

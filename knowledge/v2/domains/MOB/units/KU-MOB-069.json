@@ -1,0 +1,82 @@
+{
+  "id": "KU-MOB-069",
+  "domain": "MOB",
+  "subtopic": "停車政策與最低停車標準的影響",
+  "type": "value_range",
+  "title_zh": "工作地月繳停車與開車勝算",
+  "title_en": "Monthly workplace parking and driving odds",
+  "summary_zh": "挪威全國旅運調查發現，工作地月繳停車與接近兩倍的開車勝算相關，和每日付費者相比。摘要未在本單元轉錄精確係數或信賴區間。這是觀察模型，付款週期本身不能被當作因果機制。此處的月繳相對日繳工作地停車的開車勝算量級是附來源的比較參照，不是本基地法規。",
+  "key_points_zh": [
+    "工作地付款週期和開車勝算是相關，不是確定的價格彈性。",
+    "家與工作地的停車供給可能一起影響選擇。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "挪威全國調查摘要報告月繳停車者開車勝算接近日繳者兩倍；精確係數與信賴區間未在本單元轉錄。",
+        "library_id": "CHRISTIANSEN16",
+        "claim_verification": "ABSTRACT_REVIEW",
+        "effect_or_value": "約 2 倍勝算",
+        "study_design": "全國旅運調查與多變量觀察模型",
+        "context_region": "挪威",
+        "locator": null
+      },
+      {
+        "claim_zh": "停車價格和免費供給會影響土地使用及出行誘因。",
+        "library_id": "SHOUP05",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "停車供給與價格的政策分析",
+        "context_region": "美國停車政策",
+        "locator": null
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "月繳相對日繳工作地停車的開車勝算量級",
+      "range": "約 2 倍勝算",
+      "unit": "勝算比量級",
+      "context": "挪威全國旅運調查中的工作地停車付款方式比較；用途：用於解讀付款制度與開車出行的觀察關聯；不視為價格因果。；「月繳相對日繳工作地停車的開車勝算量級」僅供來源脈絡內的比較，不是本基地法規、M4H 門檻或通用配額。",
+      "library_id": "CHRISTIANSEN16"
+    }
+  ],
+  "design_implications_zh": [
+    "討論停車改革時，可把付款方式和停車可用性分列，並收集本地工作旅次和替代運輸資料。"
+  ],
+  "applies_when_zh": "解讀工作地停車付款與開車的關聯時，和替代交通、家庭停車及工作地條件並列。",
+  "not_applicable_when_zh": "約兩倍是特定挪威調查的量級，不代表每種停車價格或城市會出現同樣變化。",
+  "debates_zh": "家庭住址、工作地密度、公共運輸選項和支付安排可能共同解釋車輛使用。",
+  "sources": [
+    {
+      "library_id": "CHRISTIANSEN16",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "SHOUP05",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "停車政策與旅運實證",
+  "region": "挪威全國旅運調查中的工作地停車付款方式比較",
+  "curriculum_refs": [
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "停車政策與最低停車標準的影響：課綱對應主題"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Sustainable Futures by Design",
+      "topic": "停車政策與最低停車標準的影響：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-MOB-049"
+  ]
+}

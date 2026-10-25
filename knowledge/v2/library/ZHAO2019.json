@@ -1,0 +1,44 @@
+{
+  "id": "ZHAO2019",
+  "title": "The evolution of George Town's urban morphology in the Straits of Malacca, late 18th century-early 21st century",
+  "authors": [
+    "Long Zhao",
+    "Wun Bin Wong",
+    "Zulkifli Bin Hanafi"
+  ],
+  "year": 2019,
+  "venue_or_publisher": "Frontiers of Architectural Research, 8(4), 513–534",
+  "doi": "https://doi.org/10.1016/j.foar.2019.09.001",
+  "isbn": null,
+  "openalex_id": "https://openalex.org/W2982262770",
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "馬六甲海峽港市形態演變",
+  "region": "馬來西亞喬治市",
+  "method": "檔案、地圖、人口普查與貿易名錄的歷史形態分析",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "George Town 研究把地理、政治、經濟與文化變化放入港市形態的歷時分析，使用地圖與檔案資料追蹤城市層積。",
+      "strength": "MIXED",
+      "scope_zh": "它是單一港市的獨立個案，不能代替兩座港城的完整比較。",
+      "assessment_basis": "ABSTRACT_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "OpenAlex",
+    "query": {
+      "record_id": "https://openalex.org/W2982262770",
+      "doi": "10.1016/j.foar.2019.09.001",
+      "title": "The evolution of George Town's urban morphology in the Straits of Malacca, late 18th century-early 21st century",
+      "author": "Long Zhao",
+      "year": 2019
+    },
+    "matched_record_id": "https://openalex.org/W2982262770",
+    "checked_at_utc": "2026-10-09T00:14:27Z",
+    "match_notes_zh": "以允許的公開書目 API 精確比對題名、首位作者與出版年；只保留自行撰寫的摘要範圍說明，未保存全文或 API 摘要原文。"
+  },
+  "limitations_zh": "本條目依公開摘要或書目範圍整理；未下載全文，也不外推摘要未列的樣本、效果量或因果結論。",
+  "metadata_licence_zh": "僅保存公開書目欄位與自行撰寫的繁體中文摘要；未複製摘要全文或論文全文。"
+}

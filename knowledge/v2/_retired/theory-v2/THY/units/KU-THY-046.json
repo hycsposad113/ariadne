@@ -1,0 +1,82 @@
+{
+  "id": "KU-THY-046",
+  "domain": "THY",
+  "subtopic": "日常都市主義",
+  "type": "critique",
+  "title_zh": "日常都市：非正式活動",
+  "title_en": "Everyday urbanism — critique unit 046",
+  "summary_zh": "非正式使用能揭露空間規則與生計需求的落差；設計介入若只把活動視為違規，就可能把問題移往更不安全或更不可見的位置。本項主張可與非正式都市化及全球南方規劃批評對照，並保留它們的地域和制度範圍。套用「日常都市：非正式活動」時仍需檢查現場觀察受時間、研究者位置、法律地位與取樣方式影響；非正式性不可被浪漫化。",
+  "key_points_zh": [
+    "非正式使用能揭露空間規則與生計需求的落差；設計介入若只把活動視為違規，就可能把問題移往更不安全或更不可見的位置。",
+    "本項主張可與非正式都市化及全球南方規劃批評對照，並保留它們的地域和制度範圍。",
+    "套用「日常都市：非正式活動」時仍需檢查現場觀察受時間、研究者位置、法律地位與取樣方式影響；非正式性不可被浪漫化。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "【ABSTRACT_REVIEW】就「日常都市：非正式活動」而言，「Urban Informality: Toward an Epistemology of Planning」提供非正式都市化的比較坐標；此處僅使用其已標明的書目／摘要範圍，不延伸為未核對的效果或因果。",
+        "effect_or_value": null,
+        "study_design": "理論／規劃批評",
+        "context_region": "全球南方",
+        "library_id": "ROY05",
+        "locator": null
+      },
+      {
+        "claim_zh": "【BIBLIOGRAPHIC_SCOPE_ONLY】就「日常都市：非正式活動」而言，「‘The planned city sweeps the poor away…’: Urban planning and 21st century urbanisation」提供全球南方規劃批評的比較坐標；此處僅使用其已標明的書目／摘要範圍，不延伸為未核對的效果或因果。",
+        "effect_or_value": null,
+        "study_design": "規劃批評",
+        "context_region": "非洲；全球南方",
+        "library_id": "WATSON09",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "方案圖面應呈現「日常都市：非正式活動」所指出的空間關係，並為關鍵判斷附上非正式都市化與全球南方規劃批評各自支持和無法支持的部分。"
+  ],
+  "design_options": [],
+  "applies_when_zh": "當問題包含「日常都市：非正式活動」且需比較需要讓設計回應不同時段的實際使用與臨時需求時時使用。",
+  "not_applicable_when_zh": "若研究缺少對應尺度或群體資料，不以「日常都市：非正式活動」取代推定所有未登記使用都安全、合法或受到社群共同支持時。",
+  "debates_zh": "「日常都市：非正式活動」的爭點在於現場觀察受時間、研究者位置、法律地位與取樣方式影響；非正式性不可被浪漫化；非正式都市化與全球南方規劃批評的研究對象不同，需保留差異而不能合併成單一規則。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "ROY05",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "WATSON09",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "日常都市主義／非正式使用",
+  "region": "全球南方；非洲",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "日常都市：非正式活動 — 日常都市主義"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Urban Design Contexts and Operations",
+      "topic": "日常都市：非正式活動 — 日常都市主義"
+    },
+    {
+      "school": "MIT",
+      "course": "4.241J Theory of City Form / 11.301J Urban Design and Development",
+      "topic": "日常都市：非正式活動 — 日常都市主義"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Critical Debates in Urban Design",
+      "topic": "日常都市：非正式活動 — 日常都市主義"
+    }
+  ],
+  "version": "2.0.0"
+}

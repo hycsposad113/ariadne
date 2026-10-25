@@ -1,0 +1,22 @@
+{
+  "cards": [
+    {
+      "algorithm_version": "r04-deduplicated-osm-centerline-union-v1",
+      "dataset_snapshot_ids": [
+        "fixture:dataset-snapshot"
+      ],
+      "method_diagnostics": [
+        {
+          "fixture_only": true
+        }
+      ],
+      "metric_key": "osm_highway_unique_centerline_length",
+      "source_artifact_ids": [
+        "fixture:source-artifact"
+      ],
+      "value": 8496.540522
+    }
+  ],
+  "schema_version": "week4-r04-evidence-bundle-v1",
+  "status": "VERIFIED_SOURCE_RESULT_ALIGNMENT"
+}

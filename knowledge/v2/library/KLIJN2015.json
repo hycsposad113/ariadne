@@ -1,0 +1,45 @@
+{
+  "id": "KLIJN2015",
+  "title": "Adaptive flood risk management planning based on a comprehensive flood risk conceptualisation",
+  "authors": [
+    "Frans Klijn",
+    "Heidi Kreibich",
+    "Hans de Moel",
+    "Edmund Penning-Rowsell"
+  ],
+  "year": 2015,
+  "venue_or_publisher": "Mitigation and Adaptation Strategies for Global Change",
+  "doi": "https://doi.org/10.1007/s11027-015-9638-z",
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "洪水風險調適",
+  "region": "跨地域",
+  "method": "方法或概念研究；目前僅核對書目範圍",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "書目確認本文題名聚焦「Adaptive flood risk management planning based on a comprehensive flood risk conceptualisation」；目前只完成作者、年份、題名與 DOI 核對，未將摘要或全文結論納入此記錄。",
+      "strength": "THEORETICAL",
+      "scope_zh": "只支持題名所顯示的研究議題與書目範圍；具體研究設計、樣本、效果量及外推界限須由摘要或全文另行核對。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref",
+    "query": {
+      "title": "Adaptive flood risk management planning based on a comprehensive flood-risk assessment",
+      "author": "Klijn",
+      "year": 2015,
+      "api_query": "https://api.crossref.org/works?query.bibliographic=Adaptive%20flood%20risk%20management%20planning%20based%20on%20a%20comprehensive%20flood-risk%20assessment%20Klijn%202015&rows=5"
+    },
+    "matched_record_id": "10.1007/s11027-015-9638-z",
+    "checked_at_utc": "2026-10-08T13:58:43Z",
+    "match_notes_zh": "Crossref 回傳記錄的作者和年份相符；題名按匹配度核對，repo 僅採用 API 回傳的完整標題。"
+  },
+  "limitations_zh": "只保留書目欄位與自行概括的研究範圍，沒有保存 API 回傳摘要；未標 ABSTRACT_REVIEW 的主張不得據此聲稱效果量。",
+  "critique_relationship_zh": "尚未核對本文與其他文獻的互引或直接反駁關係。",
+  "metadata_licence_zh": "Crossref 公開書目 metadata；精確授權未核驗，標 UNKNOWN。"
+}

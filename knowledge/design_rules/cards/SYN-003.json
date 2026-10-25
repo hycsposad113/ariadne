@@ -1,0 +1,107 @@
+{
+  "id": "SYN-003",
+  "title_zh": "高整合度節點有多種回應",
+  "title_en": "Integrated node alternatives",
+  "domain": "space_syntax",
+  "stages": [
+    "S2",
+    "S3",
+    "S5",
+    "S6",
+    "S7"
+  ],
+  "statement_zh": "High 節點至少比較廣場、相對較高入口地標、廣場加地標三種配置；分別寫出用途、視線及面積代價。",
+  "rationale_zh": "人需要聚集場所，也需要看懂入口；地標不能取代能停留的地方。",
+  "applies_when": {
+    "scale": [
+      "*"
+    ],
+    "land_use": [
+      "*"
+    ],
+    "strategy": [
+      "*"
+    ],
+    "mode": [
+      "*"
+    ]
+  },
+  "parameters": [
+    {
+      "name": "node_options_min",
+      "value": 3,
+      "range": null,
+      "unit": "options",
+      "provenance": "ASSUMED_COMMANDER",
+      "source_ids": [],
+      "authority_ref": null,
+      "status": "PROPOSED_PENDING_FOUNDER",
+      "rationale_zh": "指揮官提出的敏感性試算值，文獻未提供此數值；須 Founder 確認、地方資料及確定性驗證，未生效。"
+    }
+  ],
+  "check": {
+    "method_zh": "對比各選項開放空間面積、相對高度、入口路徑與日照；不合成總冠軍。",
+    "inputs": [
+      "凍結幾何／路網與 hash",
+      "已接受專案條件與版本",
+      "卡片參數與版本"
+    ],
+    "output": "檢查值、單位、方法、有效性、差異與限制；不自動採納",
+    "implementation_status": "SPECIFICATION_ONLY"
+  },
+  "check_unavailable_reason_zh": null,
+  "design_responses": [
+    {
+      "option": "1",
+      "action_zh": "留廣場與座位",
+      "source_ids": [
+        "WHYTE80"
+      ],
+      "tradeoff_zh": "減少可建樓地板並需維護。"
+    },
+    {
+      "option": "2",
+      "action_zh": "在上限內設相對高地標",
+      "source_ids": [
+        "LYNCH60"
+      ],
+      "tradeoff_zh": "可能增加陰影及視覺支配。"
+    },
+    {
+      "option": "3",
+      "action_zh": "小廣場加入口地標",
+      "source_ids": [
+        "WHYTE80",
+        "LYNCH60"
+      ],
+      "tradeoff_zh": "面積與形象折衷，仍需日照驗證。"
+    }
+  ],
+  "evidence_level": "ACADEMIC",
+  "evidence_strength": "THEORETICAL",
+  "sources": [
+    {
+      "library_id": "HILLIER93",
+      "claim_id": "C1",
+      "support_scope_zh": "文獻支持概念與比較角度；本卡具體操作是設計推導，試算值及專案約束不是文獻的普適結論。"
+    },
+    {
+      "library_id": "WHYTE80",
+      "claim_id": "C1",
+      "support_scope_zh": "文獻支持概念與比較角度；本卡具體操作是設計推導，試算值及專案約束不是文獻的普適結論。"
+    },
+    {
+      "library_id": "LYNCH60",
+      "claim_id": "C1",
+      "support_scope_zh": "文獻支持概念與比較角度；本卡具體操作是設計推導，試算值及專案約束不是文獻的普適結論。"
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "enforcement": "CANDIDATE_ONLY",
+  "authority_ref": null,
+  "debates_zh": "整合度不是人流因果保證；Ratti 指出表示法與幾何資訊限制，MCA 可作替代比較；本次僅憑書目知識，尚未逐頁查證。 已查證書目與主張的查閱層級見 library；不是逐頁核驗或本基地因果結論。",
+  "context_validity_zh": "英國形態／人流研究與跨城市網路方法只能提出假說；M4H 港區的門禁、產業時段、自行車與高差需另驗證。",
+  "exceptions_zh": "卡片不可替代現行法規、產權、無障礙或已接受 D1/D2。缺必要資料即回報 UNKNOWN；例外須由 Founder 明確決定並保留原結果。",
+  "version": "0.2.0",
+  "local_context_refs": []
+}

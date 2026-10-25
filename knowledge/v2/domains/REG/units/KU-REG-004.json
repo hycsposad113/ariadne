@@ -1,0 +1,107 @@
+{
+  "id": "KU-REG-004",
+  "domain": "REG",
+  "subtopic": "容積率、建蔽率、高度與斜線",
+  "type": "method",
+  "title_zh": "容積率、建蔽率、高度與斜線｜分析方法",
+  "title_en": "FAR, coverage, height and envelope — Analytical method",
+  "summary_zh": "同一法律制度內也需辨認土地區位與審查程序的差異。 讀「容積率、建蔽率、高度與斜線｜分析方法」時，限制：此處是通用制度輪廓，不是本基地法規或法律意見；同時把Crossref 書目確認該研究討論 FAR 作為城市開發工具；這個概念框架不提供任何基地現行法定許可結論列為核對條件。 落實「容積率、建蔽率、高度與斜線｜分析方法」時可先同一容積可以用不同高度和覆蓋組合落地，再用Crossref 書目確認該研究討論 FAR 作為城市開發工具；這個概念框架不提供任何基地現行法定許可結論核對方案的空間後果。",
+  "key_points_zh": [
+    "同一法律制度內也需辨認土地區位與審查程序的差異。",
+    "同一法律制度內也需辨認土地區位與審查程序的差異。",
+    "讀「容積率、建蔽率、高度與斜線｜分析方法」時，限制：此處是通用制度輪廓，不是本基地法規或法律意見；同時把Crossref 書目確認該研究討論 FAR 作為城市開發工具；這個概念框架不提供任何基地現行法定許可結論列為核對條件。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "Crossref 書目確認該研究討論 FAR 作為城市開發工具；這個概念框架不提供任何基地現行法定許可結論。",
+        "library_id": "NOBLE1993",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "美國；FAR 制度分析",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "專書把標準、街道與地方形式連結起來，指出設計規範也會承載治理及公共價值。",
+        "library_id": "BENJOSEPH2005",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "美國",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "落實「容積率、建蔽率、高度與斜線｜分析方法」時可先同一容積可以用不同高度和覆蓋組合落地，再用Crossref 書目確認該研究討論 FAR 作為城市開發工具；這個概念框架不提供任何基地現行法定許可結論核對方案的空間後果。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "「容積率、建蔽率、高度與斜線｜分析方法」可把取向落在記錄分母、計容用途、退縮、樓層和轉角條件，再做形式方案比較，但需連同Crossref 書目確認該研究討論 FAR 作為城市開發工具；這個概念框架不提供任何基地現行法定許可結論決定適用方式。",
+      "tradeoff_zh": "此選項把「容積率、建蔽率、高度與斜線｜分析方法」的工作放在Crossref 書目確認該研究討論 FAR 作為城市開發工具；這個概念框架不提供任何基地現行法定許可結論上；需要承擔的協調或維護代價則由「專書把標準、街道與地方形式連結起來，指出設計規範也會承載治理及公共價值」界定。",
+      "library_ids": [
+        "HIRT2014",
+        "BENJOSEPH2005"
+      ]
+    },
+    {
+      "option_zh": "在「容積率、建蔽率、高度與斜線｜分析方法」的來源情境裡，同一容積可以用不同高度和覆蓋組合落地；落到設計時還要按Crossref 書目確認該研究討論 FAR 作為城市開發工具；這個概念框架不提供任何基地現行法定許可結論調整。",
+      "tradeoff_zh": "此選項把「容積率、建蔽率、高度與斜線｜分析方法」的工作放在Crossref 書目確認該研究討論 FAR 作為城市開發工具；這個概念框架不提供任何基地現行法定許可結論上；需要承擔的協調或維護代價則由「專書把標準、街道與地方形式連結起來，指出設計規範也會承載治理及公共價值」界定。",
+      "library_ids": [
+        "HIRT2014",
+        "BENJOSEPH2005"
+      ]
+    }
+  ],
+  "applies_when_zh": "「容積率、建蔽率、高度與斜線｜分析方法」可在適用於制度比較及草案情境分析，不直接判定基地合規時使用，前提是Crossref 書目確認該研究討論 FAR 作為城市開發工具；這個概念框架不提供任何基地現行法定許可結論與來源情境相符。",
+  "not_applicable_when_zh": "若Crossref 書目確認該研究討論 FAR 作為城市開發工具；這個概念框架不提供任何基地現行法定許可結論不成立，就不能把「容積率、建蔽率、高度與斜線｜分析方法」的結論延伸到其他情況；此處是通用制度輪廓，不是本基地法規或法律意見。",
+  "debates_zh": "專書把標準、街道與地方形式連結起來，指出設計規範也會承載治理及公共價值。",
+  "sources": [
+    {
+      "library_id": "NOBLE1993",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "BENJOSEPH2005",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "比較土地使用管制；城市設計規範與形式管制",
+  "region": "美國與比較制度；美國",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Planning Complex Cities",
+      "topic": "容積率、建蔽率、高度與斜線"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Urban Design Contexts and Operations",
+      "topic": "容積率、建蔽率、高度與斜線"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "容積率、建蔽率、高度與斜線"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban design governance",
+      "topic": "容積率、建蔽率、高度與斜線"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-REG-001",
+    "KU-REG-002",
+    "KU-REG-003"
+  ],
+  "counter_unit_ids": [
+    "KU-REG-005"
+  ]
+}

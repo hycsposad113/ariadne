@@ -1,0 +1,42 @@
+{
+  "id": "CERVERO2001",
+  "title": "Walk-and-Ride: Factors Influencing Pedestrian Access to Transit",
+  "authors": [
+    "Robert Cervero"
+  ],
+  "year": 2001,
+  "venue_or_publisher": "Journal of Public Transportation, 3(4), 1–23",
+  "doi": "https://doi.org/10.5038/2375-0901.3.4.1",
+  "isbn": null,
+  "openalex_id": "https://openalex.org/W827342609",
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "軌道站步行接駁與建成環境",
+  "region": "美國舊金山灣區",
+  "method": "灣區彙總資料與兩種空間解析度的實證分析",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "Cervero 以灣區軌道站資料，在兩種空間解析度檢視建成環境如何關聯步行進站；摘要指出當時步行接駁的實證仍有限。",
+      "strength": "MIXED",
+      "scope_zh": "Crossref 核實作者為 Robert Cervero；研究未提出可通用的站點步行距離數值。",
+      "assessment_basis": "ABSTRACT_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "OpenAlex and Crossref",
+    "query": {
+      "record_id": "https://openalex.org/W827342609",
+      "doi": "10.5038/2375-0901.3.4.1",
+      "title": "Walk-and-Ride: Factors Influencing Pedestrian Access to Transit",
+      "author": "Robert Cervero",
+      "year": 2001
+    },
+    "matched_record_id": "https://doi.org/10.5038/2375-0901.3.4.1",
+    "checked_at_utc": "2026-10-09T00:15:04Z",
+    "match_notes_zh": "OpenAlex 精確 work 的作者首位誤列機構字串；作者欄依 Crossref 作者記錄修正為 Robert Cervero。"
+  },
+  "limitations_zh": "本條目依公開摘要或書目範圍整理；未下載全文，也不外推摘要未列的樣本、效果量或因果結論。",
+  "metadata_licence_zh": "僅保存公開書目欄位與自行撰寫的繁體中文摘要；未複製摘要全文或論文全文。"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "TAYLOR24",
+  "title": "Distributions of walking access to public transport in Melbourne, Australia – Evidence on acceptable and tolerable walking distances",
+  "authors": [
+    "Michael A. P. Taylor",
+    "Sekhar Somenahalli"
+  ],
+  "year": 2024,
+  "venue_or_publisher": "International Journal of Sustainable Transportation",
+  "doi": "10.1080/15568318.2024.2385641",
+  "openalex_id": "https://openalex.org/W4401360088",
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "澳洲大眾運輸步行可及性",
+  "region": [
+    "澳洲"
+  ],
+  "method": "墨爾本旅運資料分布分析與 Burr Type XII 配適",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "墨爾本旅運資料顯示，步行到公共運輸的可接受與可忍受距離宜用區域分布描述；Burr Type XII 能配適該資料，但不會自動成為其他城市的門檻。",
+      "strength": "MIXED",
+      "scope_zh": "只支持所述研究脈絡；不提供 M4H 法規、普遍因果或未查證的設計門檻。",
+      "assessment_basis": "ABSTRACT_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "OpenAlex",
+    "query": {
+      "title": "Distributions of walking access to public transport in Melbourne, Australia – Evidence on acceptable and tolerable walking distances",
+      "author": "Michael A. P. Taylor; Sekhar Somenahalli",
+      "year": 2024
+    },
+    "matched_record_id": "https://openalex.org/W4401360088",
+    "checked_at_utc": "2026-10-08T08:59:40Z",
+    "match_notes_zh": "OpenAlex 命中標題、兩位作者、年份、期刊與摘要；摘要明列墨爾本資料及分布配適。"
+  },
+  "limitations_zh": "只使用公開書目與 API 摘要核對；未下載或查閱全文，摘要以外的頁碼和量化結果不推定。",
+  "critique_relationship_zh": "引用只表示本單元並置不同研究觀點，不宣稱作者間互引或逐一反駁。",
+  "metadata_licence_zh": "只保存公開 API 書目與自行撰寫摘要；未保存 API 摘要原文。"
+}

@@ -1,0 +1,90 @@
+{
+  "id": "POR-010",
+  "title_zh": "雨水潮汐公園",
+  "title_en": "Rainwater tidal park",
+  "domain": "portfolio",
+  "stages": [
+    "S2",
+    "S3",
+    "S4",
+    "S6",
+    "S7",
+    "S8"
+  ],
+  "statement_zh": "分開雨水滯留與潮汐交換機製，列水位、污染、容量與安全 DATA_GAP，先做候選空間不得填性能。",
+  "rationale_zh": "水與生活可以接近，但港區水與土壤風險须被看見。",
+  "applies_when": {
+    "scale": [
+      "*"
+    ],
+    "land_use": [
+      "*"
+    ],
+    "strategy": [
+      "*"
+    ],
+    "mode": [
+      "*"
+    ]
+  },
+  "parameters": [
+    {
+      "name": "rain_event_depth_trial",
+      "value": null,
+      "range": [
+        10,
+        30
+      ],
+      "unit": "mm",
+      "provenance": "ASSUMED_COMMANDER",
+      "source_ids": [],
+      "authority_ref": null,
+      "status": "PROPOSED_PENDING_FOUNDER",
+      "rationale_zh": "指揮官提出的敏感性試算值，文獻未提供此數值；須 Founder 確認、地方資料及確定性驗證，未生效。"
+    }
+  ],
+  "check": null,
+  "check_unavailable_reason_zh": "缺水位、污染、潮汐／暴雨條件與水工模型；不能從公園面積推定滯留容量或安全。",
+  "design_responses": [
+    {
+      "option": "1",
+      "action_zh": "分散雨水庭",
+      "source_ids": [
+        "AHERN11"
+      ],
+      "tradeoff_zh": "容量與維護分散。 作品集提供設計意圖，學術引用僅為類似概念的佐證，未驗證作品集本身。"
+    },
+    {
+      "option": "2",
+      "action_zh": "集中潮汐景觀",
+      "source_ids": [
+        "BROWN09"
+      ],
+      "tradeoff_zh": "污染與水工審查。 作品集提供設計意圖，學術引用僅為類似概念的佐證，未驗證作品集本身。"
+    }
+  ],
+  "evidence_level": "PORTFOLIO",
+  "evidence_strength": "NORMATIVE_PRACTICE",
+  "sources": [
+    {
+      "library_id": "BROWN09",
+      "claim_id": "C1",
+      "support_scope_zh": "文獻支持概念與比較角度；本卡具體操作是設計推導，試算值及專案約束不是文獻的普適結論。"
+    },
+    {
+      "library_id": "AHERN11",
+      "claim_id": "C1",
+      "support_scope_zh": "文獻支持概念與比較角度；本卡具體操作是設計推導，試算值及專案約束不是文獻的普適結論。"
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "enforcement": "CANDIDATE_ONLY",
+  "authority_ref": null,
+  "debates_zh": "作品集構想可用於提出選項，學術來源提供比較概念而非該設計的驗證；相反取向保留給設計者比較。 已查證書目與主張的查閱層級見 library；不是逐頁核驗或本基地因果結論。",
+  "context_validity_zh": "作品集為 M4H 個案；引用的外地研究只支持概念，不能證明本案營運、權利、性能或偏好。",
+  "exceptions_zh": "卡片不可替代現行法規、產權、無障礙或已接受 D1/D2。缺必要資料即回報 UNKNOWN；例外須由 Founder 明確決定並保留原結果。",
+  "version": "0.2.0",
+  "local_context_refs": [
+    "PORTFOLIO"
+  ]
+}

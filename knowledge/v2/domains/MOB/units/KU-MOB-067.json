@@ -1,0 +1,84 @@
+{
+  "id": "KU-MOB-067",
+  "domain": "MOB",
+  "subtopic": "荷蘭自行車設計原則（連貫、直接、安全、舒適、吸引）",
+  "type": "value_range",
+  "title_zh": "單向自行車設施的寬度範圍",
+  "title_en": "One-way bicycle facility width range",
+  "summary_zh": "單向自行車設施的淨寬比較須先交代流量、車種和兩側界面。2.0–2.5 m 是本單元引用的荷蘭與北美參照區間，標線寬不等於可通行淨寬。路口、停車出入口和側向障礙應另外檢查；相鄰雙向設施比較見 KU-MOB-068，合併型態總覽見 KU-STR-068。",
+  "key_points_zh": [
+    "量測寬度時須說明是否包含緩衝帶和路緣。",
+    "高流量、貨運自行車與超車需求會改變斷面取捨。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "CROW 自行車設計手冊建議單向自行車道約 2.0–2.5 m，尖峰流量高時可達 3.0 m 以上；以流量分級選用。",
+        "library_id": "CROW",
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+        "effect_or_value": "約 2.0–2.5 m",
+        "study_design": "荷蘭自行車設計手冊；數值待核對",
+        "context_region": "荷蘭",
+        "locator": null
+      },
+      {
+        "claim_zh": "跨國比較顯示自行車使用依賴路網與政策組合，不能從單一路段寬度推定模式效果。",
+        "library_id": "PUCHER08",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "荷蘭自行車設計指南；跨國政策比較",
+        "context_region": "荷蘭；荷蘭、丹麥、德國與北美",
+        "locator": null
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "單向自行車道／路的寬度參照",
+      "range": "約 2.0–2.5 m",
+      "unit": "公尺",
+      "context": "荷蘭及北美自行車設施設計比較；用途：依自行車流量、路緣和超車情境檢查單向路線。；「單向自行車道／路的寬度參照」僅供來源脈絡內的比較，不是本基地法規、M4H 門檻或通用配額。",
+      "library_id": "CROW"
+    }
+  ],
+  "design_implications_zh": [
+    "把這個區間作為單向設施推敲的起點，並在交叉口和停車出入口另做衝突分析。"
+  ],
+  "applies_when_zh": "初擬單向自行車設施時，將寬度和高峰流量、路緣障礙與停車出入口一起檢查。",
+  "not_applicable_when_zh": "該寬度不會自動構成安全標準或荷蘭法律要求，實際配置須核對地方指南。",
+  "debates_zh": "標線寬度和實際淨空不一定相同；使用者安全也取決於車速差與路口設計。",
+  "sources": [
+    {
+      "library_id": "CROW",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "PUCHER08",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "自行車設計實務",
+  "region": "荷蘭及北美自行車設施設計比較",
+  "curriculum_refs": [
+    {
+      "school": "Harvard GSD",
+      "course": "Urban Design Contexts and Operations",
+      "topic": "荷蘭自行車設計原則（連貫、直接、安全、舒適、吸引）：課綱對應主題"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "荷蘭自行車設計原則（連貫、直接、安全、舒適、吸引）：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-MOB-020",
+    "KU-MOB-068",
+    "KU-STR-068"
+  ]
+}

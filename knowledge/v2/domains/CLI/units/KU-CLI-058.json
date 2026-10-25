@@ -1,0 +1,84 @@
+{
+  "id": "KU-CLI-058",
+  "domain": "CLI",
+  "subtopic": "室外熱舒適指標",
+  "type": "value_range",
+  "title_zh": "PET 分級要標出氣候適應和受訪者背景",
+  "title_en": "PET 分級要標出氣候適應和受訪者背景",
+  "summary_zh": "PET 分級提供跨方案共用的熱感語言，卻不能代替居民對當地氣候的適應。中歐參考舒適帶約為 18–23°C，冷熱分級約跨 4–41°C；與 KU-CLI-039 的分類表解讀不同，本卡著重問卷、月份、衣著和代謝假設如何一併報告。這些背景決定了分級差異能否作公平比較。",
+  "key_points_zh": [
+    "不同氣候群體的中性區間可能偏移。",
+    "活動量和衣著變化會改變生理等效溫度。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "library_id": "MATZARAKIS1999",
+        "claim_zh": "PET 的中歐參考分類常將約 18–23°C 視為舒適帶，約 4–41°C 覆蓋主要冷熱感分級；本地適應資料可能改變舒適界線。",
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+        "effect_or_value": null,
+        "study_design": "方法或概念研究；目前僅核對書目範圍",
+        "context_region": "跨地域",
+        "locator": null
+      },
+      {
+        "library_id": "HOPPE1999",
+        "claim_zh": "書目確認本文題名聚焦「The physiological equivalent temperature - a universal index for the biometeorological assessment of the thermal environment」；目前只完成作者、年份、題名與 DOI 核對，未將摘要或全文結論納入此記錄；本單元 KU-CLI-058 對照「PET 的分級提供跨方案比較語言，但不會自動替代居民對當地氣候的適應」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "方法或概念研究；目前僅核對書目範圍",
+        "context_region": "跨地域",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "調查時同步記錄月份、活動、衣著與代謝假設，再比較遮蔭或不同時段下的 PET 分布。"
+  ],
+  "applies_when_zh": "適用於建立地方 PET 解讀範圍。",
+  "not_applicable_when_zh": "分級數值待來源核實；不是本基地法規或健康診斷。",
+  "debates_zh": "PET 便於比較，卻可能讓讀者忽略被模型標準化掉的人群差異。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [
+    "KU-CLI-039"
+  ],
+  "sources": [
+    {
+      "library_id": "MATZARAKIS1999",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "HOPPE1999",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "PET 在地分級",
+  "region": "Sydney, Australia；跨地域建築環境",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "室外熱舒適指標"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": null,
+      "topic": "室外熱舒適指標"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0",
+  "values": [
+    {
+      "name": "PET 戶外熱感知參考範圍",
+      "range": "約 4–41",
+      "unit": "°C PET scale",
+      "context": "中歐戶外熱生理分類可作跨季節比較起點；本地適應性研究需重新估計舒適帶 這不是本基地法規；來源書目地域：跨地域。",
+      "library_id": "MATZARAKIS1999"
+    }
+  ]
+}

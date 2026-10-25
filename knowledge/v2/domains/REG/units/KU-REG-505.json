@@ -1,0 +1,80 @@
+{
+  "id": "KU-REG-505",
+  "domain": "REG",
+  "subtopic": "英國裁量式規劃",
+  "type": "regulation_profile",
+  "title_zh": "英國NPPF設計原則與National Design Guide十項特徵",
+  "title_en": "UK NPPF design principles and ten National Design Guide characteristics",
+  "summary_zh": "英國NPPF要求新開發回應地方脈絡、明確的設計期待與社區參與，並使步行、自行車和公共運輸形成便利連結。 National Design Guide以Context、Identity、Built form、Movement、Nature、Public spaces、Uses、Homes and buildings、Resources、Lifespan十項特徵協助地方評估設計品質。 指南指出細部可量測標準通常由地方計畫或設計規範決定。 這是英格蘭的國家政策與指引，不是M4H本基地法規；設計上可用十項特徵作提案檢核架構，但需對照鹿特丹本地正式規則。",
+  "key_points_zh": [
+    "NPPF設計章節要求回應脈絡、社區參與和明確設計期待。",
+    "移動原則要求便利的步行、騎行與公共運輸連結。",
+    "National Design Guide十項特徵為Context、Identity、Built form、Movement、Nature、Public spaces、Uses、Homes/buildings、Resources及Lifespan。",
+    "指南不提供適用全國的統一尺寸值，地方政策可補足可量測規格。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "NPPF設計章節指出脈絡、地方期待、社區參與及可持續移動連結等原則。",
+        "effect_or_value": null,
+        "study_design": "法規／官方政策或實務指引內容核對",
+        "context_region": "英格蘭",
+        "library_id": "UK_NPPF_DP",
+        "locator": "NPPF Chapter 14 DP1–4",
+        "claim_verification": "OFFICIAL_PRIMARY_SOURCE_REVIEW"
+      },
+      {
+        "claim_zh": "National Design Guide列出十項場所特徵並指向地方設計政策的細部化。",
+        "effect_or_value": null,
+        "study_design": "法規／官方政策或實務指引內容核對",
+        "context_region": "英格蘭",
+        "library_id": "UK_NDG",
+        "locator": "National Design Guide十項characteristics",
+        "claim_verification": "OFFICIAL_PRIMARY_SOURCE_REVIEW"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "以十項特徵作為設計說明架構，逐項連結基地證據、方案回應和後續驗證。",
+    "將公共空間、自然、移動與資源策略視為整合議題，並依基地適用的地方規則設定數值。"
+  ],
+  "applies_when_zh": "用於英格蘭國家規劃政策和場所品質審查架構的比較。",
+  "not_applicable_when_zh": "不能把英國NPPF或National Design Guide當作鹿特丹或M4H的法源或尺寸標準。",
+  "debates_zh": "國家層級原則保留地方解釋空間；以原則作評分時須先訂出在地證據及權重。",
+  "sources": [
+    {
+      "library_id": "UK_NPPF_DP",
+      "claim_id": "C1",
+      "locator": "NPPF Chapter 14 DP1–4"
+    },
+    {
+      "library_id": "UK_NDG",
+      "claim_id": "C1",
+      "locator": "National Design Guide十項characteristics"
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+  "tradition": "英國國家規劃政策與場所設計指引",
+  "region": "英格蘭",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "topic": "英國裁量式規劃"
+    },
+    {
+      "school": "Harvard GSD",
+      "topic": "英國裁量式規劃"
+    },
+    {
+      "school": "MIT",
+      "topic": "英國裁量式規劃"
+    },
+    {
+      "school": "UCL Bartlett",
+      "topic": "英國裁量式規劃"
+    }
+  ],
+  "version": "kb2-policy-2026-10-08"
+}

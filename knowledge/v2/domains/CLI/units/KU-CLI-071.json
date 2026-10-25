@@ -1,0 +1,86 @@
+{
+  "id": "KU-CLI-071",
+  "domain": "CLI",
+  "subtopic": "都市熱島",
+  "type": "value_range",
+  "title_zh": "地表材料熱圖需要標出影像日期和比較區",
+  "title_en": "地表材料熱圖需要標出影像日期和比較區",
+  "summary_zh": "近地空氣、屋頂層與衛星地表溫度代表不同熱環境，不應混作同一指標。Arnfield 的回顧指出，量測高度、感測媒介和城市—鄉村站點的選取會左右估值。這張卡專看遙測地表熱圖的日期、雲況和比較區設定；近地氣溫差值的時段定義參見 KU-CLI-022。",
+  "key_points_zh": [
+    "地表溫度不等於近地空氣溫度。",
+    "跨年影像需考慮降雨和植被季節。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "library_id": "ARNFIELD2003",
+        "claim_zh": "夜間城市—郊區近地空氣熱島可落在約 0–10°C 的經典量級；量測高度、參照站和天氣條件必須一併說明。",
+        "effect_or_value": "典型表面溫差範圍要依季節與成像條件分層。",
+        "study_design": "都市氣候觀測回顧",
+        "context_region": "跨地域城市",
+        "locator": null,
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008"
+      },
+      {
+        "library_id": "SHASHUABAR2009",
+        "claim_zh": "書目確認本文題名聚焦「The cooling efficiency of urban landscape strategies in a hot dry climate」；目前只完成作者、年份、題名與 DOI 核對，未將摘要或全文結論納入此記錄；本單元 KU-CLI-071 對照「都市熱島數值需要區分近地空氣、屋頂層與衛星地表溫度」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "數值模擬研究；目前僅核對書目範圍",
+        "context_region": "以色列等乾熱城市",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "保存影像時間、雲遮、地表分類和校正流程。",
+    "用地面測站驗證高溫區排序。"
+  ],
+  "applies_when_zh": "適用於熱圖數值解讀和跨期比較。",
+  "not_applicable_when_zh": "範圍待場景來源核對；不適用於直接當人體熱暴露值。",
+  "debates_zh": "遙測解析度可能將陰影與混合像元錯判成材料效應。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [
+    "KU-CLI-022",
+    "KU-CLI-064"
+  ],
+  "sources": [
+    {
+      "library_id": "ARNFIELD2003",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "SHASHUABAR2009",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "遙測熱島量測",
+  "region": "跨地域城市；跨地域城鎮研究",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "都市熱島"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": null,
+      "topic": "都市熱島"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0",
+  "values": [
+    {
+      "name": "夜間城市—郊區空氣熱島差值量級",
+      "range": "約 0–10",
+      "unit": "°C",
+      "context": "以固定高度、相近地形且具 LCZ 背景資料的城市與參照站比較；不是地表溫度差 這不是本基地法規；來源書目地域：跨地域都市氣候文獻。",
+      "library_id": "ARNFIELD2003"
+    }
+  ]
+}

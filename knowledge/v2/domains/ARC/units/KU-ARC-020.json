@@ -1,0 +1,98 @@
+{
+  "id": "KU-ARC-020",
+  "domain": "ARC",
+  "subtopic": "住宅單元與類型",
+  "type": "value_range",
+  "title_zh": "住宅核心服務距離",
+  "title_en": "residential core spacing",
+  "summary_zh": "板式住宅初排核心間距可用約 24–36 m 作平面比較，不等於法定逃生距離。 間距過大時，中段戶型可能只剩狹長平面或共用走廊過長。 最終核心間距要由可通行路徑與消防策略決定。",
+  "key_points_zh": [
+    "核心主張：板式住宅初排核心間距可用約 24–36 m 作平面比較，不等於法定逃生距離。",
+    "量測檢查：GIS 或 CAD 以走廊中心線做最短可行路徑，將每個住宅入口映射到服務核心並計算距離。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "板式住宅初排核心間距可用約 24–36 m 作平面比較，不等於法定逃生距離。",
+        "effect_or_value": "約 24–36 m 平面間距；不可替代逃生距離核算",
+        "study_design": "跨地域設計參照綜整；數值狀態依 claim_verification 註記",
+        "context_region": "跨地域；用途與當地法規需分開核驗",
+        "library_id": "RESIDENTIAL_CORE21",
+        "locator": "chapter Residential core design; exact page not checked",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "early core spacing for plan comparison",
+      "range": "約 24–36 m 平面間距；不可替代逃生距離核算",
+      "unit": "m",
+      "context": "地區：跨地域；需依消防規則重算；用途：集合住宅平面構想初篩；出處：Residential core design；本基地法規：否；核對狀態：數值待原典交叉核對。",
+      "library_id": "RESIDENTIAL_CORE21"
+    }
+  ],
+  "design_implications_zh": [
+    "從每戶最遠門點沿走廊量到符合條件的樓梯或出口，記錄路徑長而非直線距離。"
+  ],
+  "applies_when_zh": "「住宅核心服務距離」可在用於方案前期的量體、平面或空間品質篩檢時使用，前提是板式住宅初排核心間距可用約 24–36 m 作平面比較，不等於法定逃生距離與來源情境相符。",
+  "not_applicable_when_zh": "若板式住宅初排核心間距可用約 24–36 m 作平面比較，不等於法定逃生距離不成立，就不能把「住宅核心服務距離」的結論延伸到其他情況；不得單獨作為許可、消防、結構或基地法規判定。",
+  "debates_zh": "服務範圍取決於建築高度、出口數、灑水與當地法規，本值只能用於早期比較。 查核：24–36 m 核心間距為推估帶，無法追溯到所引手冊的明確數值。",
+  "sources": [
+    {
+      "library_id": "RESIDENTIAL_CORE21",
+      "claim_id": "C1",
+      "locator": "chapter Residential core design; exact page not checked"
+    },
+    {
+      "library_id": "COURTYARD_HEALTH15",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+  "tradition": "建築設計與住宅類型學",
+  "region": "跨地域；用途與當地法規需分開核驗",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Housing and the City / Design of the Urban Fabric",
+      "topic": "建築尺度與住宅平面"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "建築尺度與街道界面"
+    },
+    {
+      "school": "MIT",
+      "course": "Architecture and Urban Design",
+      "topic": "建築尺度與空間型態"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "建築尺度與公共生活"
+    }
+  ],
+  "check": {
+    "method_zh": "GIS 或 CAD 以走廊中心線做最短可行路徑，將每個住宅入口映射到服務核心並計算距離。",
+    "inputs": [
+      "住宅單元與類型",
+      "尺寸／面積圖層",
+      "適用地區與用途標籤"
+    ],
+    "logic_zh": "將量測輸入轉成明確尺寸、比例或空間關係；越界只觸發複核，不自動取代設計決策。",
+    "limitations_zh": "量測結果只觸發「住宅核心服務距離」的複核，不得單獨作為許可或法規判定。"
+  },
+  "version": "kb2-arc-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-ARC-001",
+    "KU-ARC-002",
+    "KU-ARC-003",
+    "KU-ARC-004",
+    "KU-ARC-005"
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "KU-HAR-036",
+  "type": "method",
+  "subtopic": "分期開發",
+  "title_zh": "把更新里程碑寫成可檢查的交付條件",
+  "title_en": "Make Regeneration Milestones Auditable",
+  "summary_zh": "分期開發的節點應對應可觀測的條件，例如污染修復完成、公共交通啟用、岸線通行權確立或原有企業搬遷安排落實。Haasnoot 的動態路徑方法提供在不確定下保留選項的規劃思維，但其研究不是港區開發成效的實證。將每一期的觸發條件、責任方和未達成時的替代路徑寫清楚，能減少願景與實際承諾混淆。",
+  "key_points_zh": [
+    "每一個節點須對應可查證的交付證據。",
+    "將延遲、未達標和停止開發的後續安排一併記錄。"
+  ],
+  "design_implications_zh": [
+    "用里程碑把基礎設施、公共空間和建築分期連接。",
+    "保留未啟動用地的安全維護與臨時用途方案。"
+  ],
+  "applies_when_zh": "多方投資、土壤修復和基礎設施有不同時程的更新區。",
+  "not_applicable_when_zh": "單棟建築且工程界面已確定的改造案。",
+  "debates_zh": "彈性節點不能成為無限延期的藉口，應設定公開期限和未達成時的處理方式。",
+  "tradition": "動態調適規劃／分期開發",
+  "region": "歐洲與跨地域",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": null,
+      "topic": "Phasing and implementation strategy"
+    }
+  ],
+  "domain": "HAR",
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "動態調適路徑研究提出在深度不確定下組織分階段選項的方法。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "歐洲與跨地域",
+        "library_id": "HAASNOOT2013",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "漢堡市報告呈現HafenCity按社區逐段開發的時程與不同進度。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "歐洲與跨地域",
+        "library_id": "HAMBURG_URBAN_PROJECTS2020_2035",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "library_id": "HAASNOOT2013",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "HAMBURG_URBAN_PROJECTS2020_2035",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "version": "v2.0"
+}

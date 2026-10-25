@@ -1,0 +1,43 @@
+{
+  "id": "SIEWBEE2016",
+  "title": "The Provision of Vertical Social Pockets for Better Social Interaction in High-Rise Living",
+  "authors": [
+    "Aw Siew Bee",
+    "Lim Poh Im"
+  ],
+  "year": 2016,
+  "venue_or_publisher": "Planning Malaysia, 14(4)",
+  "doi": "https://doi.org/10.21837/pmjournal.v14.i4.156",
+  "isbn": null,
+  "openalex_id": "https://openalex.org/W4254572148",
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "高層住宅的垂直共享空間",
+  "region": "馬來西亞",
+  "method": "以高層居住中的社交空間問題提出設計方案",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "文章指出高層社區即使設有地面、平台、中層或屋頂社交空間，龐大住戶數仍使互動不易形成，並主張把社交空間設在更接近住戶的位置。",
+      "strength": "MIXED",
+      "scope_zh": "這項討論提出空間策略，不是居民滿意度或高樓接受度的跨城市測量。",
+      "assessment_basis": "ABSTRACT_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "OpenAlex",
+    "query": {
+      "record_id": "https://openalex.org/W4254572148",
+      "doi": "10.21837/pmjournal.v14.i4.156",
+      "title": "The Provision of Vertical Social Pockets for Better Social Interaction in High-Rise Living",
+      "author": "Aw Siew Bee",
+      "year": 2016
+    },
+    "matched_record_id": "https://openalex.org/W4254572148",
+    "checked_at_utc": "2026-10-09T00:14:28Z",
+    "match_notes_zh": "以允許的公開書目 API 精確比對題名、首位作者與出版年；只保留自行撰寫的摘要範圍說明，未保存全文或 API 摘要原文。"
+  },
+  "limitations_zh": "本條目依公開摘要或書目範圍整理；未下載全文，也不外推摘要未列的樣本、效果量或因果結論。",
+  "metadata_licence_zh": "僅保存公開書目欄位與自行撰寫的繁體中文摘要；未複製摘要全文或論文全文。"
+}

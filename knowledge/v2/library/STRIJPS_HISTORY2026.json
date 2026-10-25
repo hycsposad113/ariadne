@@ -1,0 +1,42 @@
+{
+  "id": "STRIJPS_HISTORY2026",
+  "title": "The history of Strijp-S",
+  "authors": [
+    "Strijp-S / Park Strijp Beheer"
+  ],
+  "year": null,
+  "venue_or_publisher": "Strijp-S / Park Strijp Beheer",
+  "doi": null,
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "OFFICIAL_SITE_OPERATOR",
+  "tradition": "工業園區轉型、分期規劃與保護建築",
+  "region": "荷蘭埃因霍芬",
+  "method": "於內容起草後直接檢視官方／營運方公開頁面；不把機構目標或自報數據當成獨立效果研究。",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "場址管理頁記錄 27 公頃範圍、2002 年購入、混合居住工作公共用途與受保護廠房；屬管理方歷史資料。",
+      "strength": "CASE_EVIDENCE",
+      "scope_zh": "只支持頁面明確公布的規劃口徑、歷史資料、行政數字或機構自報結果。",
+      "assessment_basis": "DIRECT_SOURCE_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Official organization webpage",
+    "query": {
+      "title": "The history of Strijp-S",
+      "author": "Strijp-S / Park Strijp Beheer",
+      "year": null,
+      "api_query": "Read-only official source page: https://www.strijp-s.nl/en/history"
+    },
+    "matched_record_id": "https://www.strijp-s.nl/en/history",
+    "checked_at_utc": "2026-10-08T14:47:20Z",
+    "match_notes_zh": "直接檢視官方／場址營運方公開頁；該頁不是Crossref書目記錄，未宣稱經Crossref驗證。"
+  },
+  "limitations_zh": "官方或營運方頁面可能採機構自身的規劃與成果口徑；未有獨立評估處不推定效果。",
+  "critique_relationship_zh": "本記錄不宣稱與其他來源存在直接互引或逐一反駁關係。",
+  "metadata_licence_zh": "官方／營運方公開頁面；未確認個別資料的再利用授權。"
+}

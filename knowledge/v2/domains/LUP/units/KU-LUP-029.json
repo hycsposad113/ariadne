@@ -1,0 +1,106 @@
+{
+  "id": "KU-LUP-029",
+  "domain": "LUP",
+  "subtopic": "生產性城市與 maker 經濟",
+  "type": "design_principle",
+  "title_zh": "生產性城市與 maker 經濟｜設計原則",
+  "title_en": "Productive city and urban manufacturing — Design principle",
+  "summary_zh": "Maker 經濟的城市策略不能只用產業標籤判斷是否可持續。 土地供應、企業生存、物流和排放資料缺一不可，否則無法評估循環效益或鄰里代價。 方案應列出可執行的共用設施和維運責任。",
+  "key_points_zh": [
+    "讀「生產性城市與 maker 經濟｜設計原則」時，盤點行業類型、噪音、物流、面積需求和共用設施；同時把研究指出擴張前緣出現土地零碎化、囤置及長期閒置；制度執行是作者提出的重要解釋，不能外推到所有城市；「生產性城市與 maker 經濟｜設計原則」還須對照成長、公平及環境目標可能相互衝突；方案應呈現代價而不是宣稱全面改善，才能把研究發現轉成有邊界的設計判斷列為核對條件。",
+    "讀「生產性城市與 maker 經濟｜設計原則」時，盤點行業類型、噪音、物流、面積需求和共用設施；同時把研究指出擴張前緣出現土地零碎化、囤置及長期閒置；制度執行是作者提出的重要解釋，不能外推到所有城市；「生產性城市與 maker 經濟｜設計原則」還須對照成長、公平及環境目標可能相互衝突；方案應呈現代價而不是宣稱全面改善，才能把研究發現轉成有邊界的設計判斷列為核對條件。",
+    "限制：沒有企業生存、物流和排放資料時，不推估經濟或環境淨效益。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "Campbell 的規劃框架要求同時面對成長、正義與環境的拉扯；maker 策略若宣稱三者兼得，仍須說明代價如何分配。",
+        "library_id": "CAMPBELL96",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "跨地域",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "倫敦政策研究把製造業回流的期待與高價用途排擠小型工業空間的現象並列，提醒循環生產方案仍要交代企業能否在目標區位存續。",
+        "effect_or_value": null,
+        "study_design": "都市製造規劃政策案例",
+        "context_region": "英國倫敦",
+        "library_id": "FERM2023",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW",
+        "limitations_zh": "該文未計算本地材料循環量、排放或共享設施效益。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "盤點都市製造的企業空間、物流、噪音、材料流和共用設施，並檢查土地權屬與供給能否支持長期營運。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "在「生產性城市與 maker 經濟｜設計原則」的來源情境裡，盤點行業類型、噪音、物流、面積需求和共用設施；落到設計時還要按研究指出擴張前緣出現土地零碎化、囤置及長期閒置；制度執行是作者提出的重要解釋，不能外推到所有城市；「生產性城市與 maker 經濟｜設計原則」還須對照成長、公平及環境目標可能相互衝突；方案應呈現代價而不是宣稱全面改善，才能把研究發現轉成有邊界的設計判斷調整。",
+      "tradeoff_zh": "此選項把「生產性城市與 maker 經濟｜設計原則」的工作放在研究指出擴張前緣出現土地零碎化、囤置及長期閒置；制度執行是作者提出的重要解釋，不能外推到所有城市；「生產性城市與 maker 經濟｜設計原則」還須對照成長、公平及環境目標可能相互衝突；方案應呈現代價而不是宣稱全面改善，才能把研究發現轉成有邊界的設計判斷上；需要承擔的協調或維護代價則由「循環經濟話語不保證本地製造能減少總資源使用或衝突」界定。",
+      "library_ids": [
+        "CAMPBELL96"
+      ]
+    },
+    {
+      "option_zh": "「生產性城市與 maker 經濟｜設計原則」可把取向落在垂直混合、工坊街區和計畫型工業區是不同選擇，但需連同研究指出擴張前緣出現土地零碎化、囤置及長期閒置；制度執行是作者提出的重要解釋，不能外推到所有城市；「生產性城市與 maker 經濟｜設計原則」還須對照成長、公平及環境目標可能相互衝突；方案應呈現代價而不是宣稱全面改善，才能把研究發現轉成有邊界的設計判斷決定適用方式。",
+      "tradeoff_zh": "此選項把「生產性城市與 maker 經濟｜設計原則」的工作放在研究指出擴張前緣出現土地零碎化、囤置及長期閒置；制度執行是作者提出的重要解釋，不能外推到所有城市；「生產性城市與 maker 經濟｜設計原則」還須對照成長、公平及環境目標可能相互衝突；方案應呈現代價而不是宣稱全面改善，才能把研究發現轉成有邊界的設計判斷上；需要承擔的協調或維護代價則由「循環經濟話語不保證本地製造能減少總資源使用或衝突」界定。",
+      "library_ids": [
+        "CAMPBELL96"
+      ]
+    }
+  ],
+  "applies_when_zh": "「生產性城市與 maker 經濟｜設計原則」可在適用於工業轉型、港區再生和 maker 空間政策討論時使用，前提是研究指出擴張前緣出現土地零碎化、囤置及長期閒置；制度執行是作者提出的重要解釋，不能外推到所有城市；「生產性城市與 maker 經濟｜設計原則」還須對照成長、公平及環境目標可能相互衝突；方案應呈現代價而不是宣稱全面改善，才能把研究發現轉成有邊界的設計判斷與來源情境相符。",
+  "not_applicable_when_zh": "若研究指出擴張前緣出現土地零碎化、囤置及長期閒置；制度執行是作者提出的重要解釋，不能外推到所有城市；「生產性城市與 maker 經濟｜設計原則」還須對照成長、公平及環境目標可能相互衝突；方案應呈現代價而不是宣稱全面改善，才能把研究發現轉成有邊界的設計判斷不成立，就不能把「生產性城市與 maker 經濟｜設計原則」的結論延伸到其他情況；沒有企業生存、物流和排放資料時，不推估經濟或環境淨效益。",
+  "debates_zh": "循環經濟話語不保證本地製造能減少總資源使用或衝突。",
+  "sources": [
+    {
+      "library_id": "CAMPBELL96",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "FERM2023",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "非洲土地使用與都市擴張；永續規劃批評",
+  "region": "阿迪斯阿貝巴，衣索比亞；跨地域",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Planning Complex Cities",
+      "topic": "生產性城市與 maker 經濟"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Cities by Design",
+      "topic": "生產性城市與 maker 經濟"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "生產性城市與 maker 經濟"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Sustainable Futures by Design",
+      "topic": "生產性城市與 maker 經濟"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-LUP-027",
+    "KU-LUP-028",
+    "KU-LUP-030"
+  ],
+  "counter_unit_ids": [
+    "KU-LUP-031"
+  ]
+}

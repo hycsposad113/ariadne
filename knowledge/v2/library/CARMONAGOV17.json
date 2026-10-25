@@ -1,0 +1,33 @@
+{
+  "id": "CARMONAGOV17",
+  "title": "Design Governance",
+  "authors": [
+    "Matthew Carmona",
+    "Claudio De Magalhaes",
+    "Lucy Natarajan"
+  ],
+  "year": 2016,
+  "venue_or_publisher": null,
+  "doi": null,
+  "isbn": null,
+  "kind": "ACADEMIC_BOOK",
+  "tradition": "待指揮官書目分類",
+  "region": [],
+  "method": "理論／方法原著候選",
+  "claims": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Open Library",
+    "query": {
+      "title": "Design Governance",
+      "author": "Matthew Carmona",
+      "year": 2017
+    },
+    "matched_record_id": "/works/OL25784732W",
+    "checked_at_utc": "2026-10-08T13:42:37Z",
+    "match_notes_zh": "人工核對 Open Library 題名、作者及此作品記錄年份；保留舊穩定 id，id 尾碼不是版本年份證據。主張仍待核對。",
+    "receipt_path": "artifacts/kb2-theory-v3/resume-source-lookups.json"
+  },
+  "limitations_zh": "主張待原著交叉核對；搜尋命中只作書目候選。",
+  "metadata_licence_zh": "公開書目 metadata；授權未核對 UNKNOWN。"
+}

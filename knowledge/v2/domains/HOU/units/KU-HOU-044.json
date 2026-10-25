@@ -1,0 +1,112 @@
+{
+  "id": "KU-HOU-044",
+  "domain": "HOU",
+  "subtopic": "居住密度與生活品質",
+  "type": "typology",
+  "title_zh": "居住密度與生活品質｜類型取捨",
+  "title_en": "Residential density and quality of life — Typology and trade-offs",
+  "summary_zh": "居住密度由多種量測和空間關係組成，單一 FAR 不表示公共空間或活動強度。 研究分別檢視住宅、鄰里和通勤滿意度與主觀福祉的關聯，說明居住品質不能由密度值單獨代理。 比較高層、低層高覆蓋和連棟方案時，需同步交代形態指標、服務與住戶資料。",
+  "key_points_zh": [
+    "高層集合住宅、低層高覆蓋與連棟住宅有不同服務和管理條件。",
+    "讀「居住密度與生活品質｜類型取捨」時，適用於住宅密度方案比較和社會住宅居住後評估；同時把三種滿意度皆與主觀福祉顯著相關；住宅滿意有直接關聯，通勤滿意主要透過鄰里與工作滿意間接連結；「居住密度與生活品質｜類型取捨」還須對照密度是多種量測與空間關係的組合；單一 FAR 不能代表公共空間或活動強度，才能把研究發現轉成有邊界的設計判斷列為核對條件。",
+    "限制：沒有住戶和服務資料時，不聲稱密度改善或降低生活品質。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "Mouratidis 發現住宅、鄰里和通勤滿意度皆與主觀福祉相關，並分別說明通勤滿意與鄰里及工作滿意的中介關係。",
+        "library_id": "MOURATIDIS2020",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "奧斯陸城市區域，挪威",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "Dovey 與 Pafka 將密度拆成多種量測與空間關係；住宅品質比較因此應說明所用密度指標，而非只報 FAR。",
+        "library_id": "DOVEY14",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "澳洲",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "比較密度時同步蒐集住戶調查、服務條件和環境品質。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "在「居住密度與生活品質｜類型取捨」的來源情境裡，比較密度時同步蒐集住戶調查、服務條件和環境品質；落到設計時還要按三種滿意度皆與主觀福祉顯著相關；住宅滿意有直接關聯，通勤滿意主要透過鄰里與工作滿意間接連結；「居住密度與生活品質｜類型取捨」還須對照密度是多種量測與空間關係的組合；單一 FAR 不能代表公共空間或活動強度，才能把研究發現轉成有邊界的設計判斷調整。",
+      "tradeoff_zh": "此選項把「居住密度與生活品質｜類型取捨」的工作放在三種滿意度皆與主觀福祉顯著相關；住宅滿意有直接關聯，通勤滿意主要透過鄰里與工作滿意間接連結；「居住密度與生活品質｜類型取捨」還須對照密度是多種量測與空間關係的組合；單一 FAR 不能代表公共空間或活動強度，才能把研究發現轉成有邊界的設計判斷上；需要承擔的協調或維護代價則由「單一城市、學生或安置住宅結果不可直接外推全體家庭」界定。",
+      "library_ids": [
+        "MOURATIDIS2020",
+        "DOVEY14"
+      ]
+    },
+    {
+      "option_zh": "在「居住密度與生活品質｜類型取捨」的來源情境裡，高層集合住宅、低層高覆蓋與連棟住宅有不同服務和管理條件；落到設計時還要按三種滿意度皆與主觀福祉顯著相關；住宅滿意有直接關聯，通勤滿意主要透過鄰里與工作滿意間接連結；「居住密度與生活品質｜類型取捨」還須對照密度是多種量測與空間關係的組合；單一 FAR 不能代表公共空間或活動強度，才能把研究發現轉成有邊界的設計判斷調整。",
+      "tradeoff_zh": "「居住密度與生活品質｜類型取捨」採用「在「居住密度與生活品質｜類型取捨」的來源情境裡，高層集合住宅、低層高覆蓋與連棟住宅有不同服務和管理條件；落到設計時還要按三種滿意度皆與主觀福祉顯著相關；住宅滿意有直接關聯，通勤滿意主要透過鄰里與工作滿意間接連結；「居住密度與生活品質｜類型取捨」還須對照密度是多種量測與空間關係的組合；單一 FAR 不能代表公共空間或活動強度，才能把研究發現轉成有邊界的設計判斷調整」時，得失要沿著三種滿意度皆與主觀福祉顯著相關；住宅滿意有直接關聯，通勤滿意主要透過鄰里與工作滿意間接連結；「居住密度與生活品質｜類型取捨」還須對照密度是多種量測與空間關係的組合；單一 FAR 不能代表公共空間或活動強度，才能把研究發現轉成有邊界的設計判斷檢查；單一城市、學生或安置住宅結果不可直接外推全體家庭。",
+      "library_ids": [
+        "MOURATIDIS2020",
+        "DOVEY14"
+      ]
+    }
+  ],
+  "applies_when_zh": "適用於住宅密度方案比較和社會住宅居住後評估。",
+  "not_applicable_when_zh": "沒有住戶和服務資料時，不聲稱密度改善或降低生活品質。",
+  "debates_zh": "單一城市、學生或安置住宅結果不可直接外推全體家庭。",
+  "sources": [
+    {
+      "library_id": "MOURATIDIS2020",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "DOVEY14",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "NG09",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "住宅、鄰里與生活福祉；組裝形態學",
+  "region": "奧斯陸城市區域，挪威；澳洲",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "居住密度與生活品質"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "居住密度與生活品質"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "居住密度與生活品質"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "居住密度與生活品質"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-HOU-043",
+    "KU-HOU-045",
+    "KU-HOU-046"
+  ],
+  "counter_unit_ids": [
+    "KU-HOU-047"
+  ]
+}

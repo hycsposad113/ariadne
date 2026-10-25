@@ -1,0 +1,103 @@
+{
+  "domain": "SOC",
+  "units_total": 60,
+  "topics": [
+    {
+      "topic": "正義城市",
+      "unit_ids": [
+        "KU-SOC-001",
+        "KU-SOC-002",
+        "KU-SOC-003",
+        "KU-SOC-006",
+        "KU-SOC-007",
+        "KU-SOC-008",
+        "KU-SOC-009",
+        "KU-SOC-026",
+        "KU-SOC-059"
+      ],
+      "unit_count": 9
+    },
+    {
+      "topic": "參與階梯與合作式規劃",
+      "unit_ids": [
+        "KU-SOC-004",
+        "KU-SOC-011",
+        "KU-SOC-012",
+        "KU-SOC-013",
+        "KU-SOC-014",
+        "KU-SOC-015",
+        "KU-SOC-016",
+        "KU-SOC-017",
+        "KU-SOC-018",
+        "KU-SOC-019",
+        "KU-SOC-020",
+        "KU-SOC-053"
+      ],
+      "unit_count": 12
+    },
+    {
+      "topic": "治理與公私合作",
+      "unit_ids": [
+        "KU-SOC-010",
+        "KU-SOC-021",
+        "KU-SOC-022",
+        "KU-SOC-023",
+        "KU-SOC-024",
+        "KU-SOC-025",
+        "KU-SOC-027",
+        "KU-SOC-028",
+        "KU-SOC-029",
+        "KU-SOC-030",
+        "KU-SOC-032"
+      ],
+      "unit_count": 11
+    },
+    {
+      "topic": "開發經濟與可行性（土地價值、殘值法）",
+      "unit_ids": [
+        "KU-SOC-005",
+        "KU-SOC-031",
+        "KU-SOC-033",
+        "KU-SOC-034",
+        "KU-SOC-035",
+        "KU-SOC-036",
+        "KU-SOC-037",
+        "KU-SOC-039",
+        "KU-SOC-040",
+        "KU-SOC-041",
+        "KU-SOC-043",
+        "KU-SOC-045"
+      ],
+      "unit_count": 12
+    },
+    {
+      "topic": "分期與風險",
+      "unit_ids": [
+        "KU-SOC-038",
+        "KU-SOC-042",
+        "KU-SOC-044",
+        "KU-SOC-046",
+        "KU-SOC-047",
+        "KU-SOC-048",
+        "KU-SOC-049",
+        "KU-SOC-050"
+      ],
+      "unit_count": 8
+    },
+    {
+      "topic": "都市更新的社會影響",
+      "unit_ids": [
+        "KU-SOC-051",
+        "KU-SOC-052",
+        "KU-SOC-054",
+        "KU-SOC-055",
+        "KU-SOC-056",
+        "KU-SOC-057",
+        "KU-SOC-058",
+        "KU-SOC-060"
+      ],
+      "unit_count": 8
+    }
+  ],
+  "coverage_status": "DRAFT_FOR_INDEPENDENT_REVIEW"
+}

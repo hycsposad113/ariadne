@@ -1,0 +1,12 @@
+{
+  "approved_weather_source_count": 0,
+  "dataset_snapshots_published": 0,
+  "fixture_only": true,
+  "formal_analysis_started": false,
+  "formal_site_or_design_boundary_approved": false,
+  "live_ai_tested": false,
+  "outbound_model_requests": 0,
+  "qgis_gui_tested": false,
+  "status": "R04_REPAIR_EVIDENCE_COMPLETE",
+  "week4_overall_status": "INCOMPLETE"
+}

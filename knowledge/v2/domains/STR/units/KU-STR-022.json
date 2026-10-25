@@ -1,0 +1,80 @@
+{
+  "id": "KU-STR-022",
+  "domain": "STR",
+  "subtopic": "街道斷面",
+  "type": "typology",
+  "title_zh": "街道斷面：型態比較",
+  "title_en": "Street cross-sections: Typology comparison",
+  "summary_zh": "可比較分隔式、共用式和路側活動帶等斷面；分隔能降低部分衝突，共用能增加彈性，但需要速度管理與可讀性。類型比較要回到斷面同時分配移動、停留、植栽、排水、停靠和門前活動的橫向空間，總寬度只是眾多條件之一。各類型的成本和適用條件包括：一張典型斷面可能遮蔽沿線差異；把名義寬度當作實際可用寬度也會忽略家具、裝卸、排隊和通行障礙。",
+  "key_points_zh": [
+    "比較類型：斷面同時分配移動、停留、植栽、排水、停靠和門前活動的橫向空間，總寬度只是眾多條件之一",
+    "比較類型：可比較分隔式、共用式和路側活動帶等斷面；分隔能降低部分衝突，共用能增加彈性，但需要速度管理與可讀性"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "街道斷面：型態比較｜街道的交通條件會影響居住環境與日常活動；本單元不把案例尺度直接當通用標準",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "APPLEYARD81",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "街道斷面：型態比較｜亞洲街道使用的文化詮釋指出，偏重車輛的設計標準容易忽略行人行為與地方社會性；這是脈絡化觀點，不代表亞洲內部同質",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "MATEOBABIANO07",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "類型表應比較「斷面同時分配移動、停留、植栽、排水、停靠和門前活動的橫向空間，總寬度只是眾多條件之一」及其使用代價「一張典型斷面可能遮蔽沿線差異；把名義寬度當作實際可用寬度也會忽略家具、裝卸、排隊和通行障礙」，不要只列名稱。"
+  ],
+  "applies_when_zh": "比較街道斷面方案時，可先用「斷面同時分配移動、停留、植栽、排水、停靠和門前活動的橫向空間，總寬度只是眾多條件之一」描述各類型，再按「一張典型斷面可能遮蔽沿線差異；把名義寬度當作實際可用寬度也會忽略家具、裝卸、排隊和通行障礙」檢查分類的盲點。",
+  "not_applicable_when_zh": "這些類型不構成普遍排序；遇到「一張典型斷面可能遮蔽沿線差異；把名義寬度當作實際可用寬度也會忽略家具、裝卸、排隊和通行障礙」所述條件時，不應只依類名決定路網或街道配置。",
+  "debates_zh": "一張典型斷面可能遮蔽沿線差異；把名義寬度當作實際可用寬度也會忽略家具、裝卸、排隊和通行障礙；檢視「街道斷面：型態比較」的分類邊界時，還需判斷「可比較分隔式、共用式和路側活動帶等斷面；分隔能降低部分衝突，共用能增加彈性，但需要速度管理與可讀性」會如何改變方案結論。",
+  "sources": [
+    {
+      "library_id": "APPLEYARD81",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "MATEOBABIANO07",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "街道空間與道路設計",
+  "region": "跨地域理論或實務脈絡；來源地區依引用條目判讀",
+  "curriculum_refs": [
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "街道斷面：課綱對應主題"
+    },
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "街道斷面：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-STR-017",
+    "KU-STR-018",
+    "KU-STR-019",
+    "KU-STR-020",
+    "KU-STR-021",
+    "KU-STR-023",
+    "KU-STR-024"
+  ]
+}

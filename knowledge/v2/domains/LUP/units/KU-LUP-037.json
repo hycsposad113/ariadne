@@ -1,0 +1,103 @@
+{
+  "id": "KU-LUP-037",
+  "domain": "LUP",
+  "subtopic": "用途配比與日夜活動",
+  "type": "typology",
+  "title_zh": "用途配比與日夜活動｜類型取捨",
+  "title_en": "Program mix and time of day — Typology and trade-offs",
+  "summary_zh": "混合用途方案可能在同一區域安排全天服務、夜間活動和工作日生產，但空間鄰接不代表活動時序互補。 都市時間使用和夜間城市研究支持將營業時間、使用者與公共空間分時段觀察。 用途百分比沒有跨地區通用的最佳值。",
+  "key_points_zh": [
+    "全天型服務、夜間活動與工作日生產用途形成不同時序組合。",
+    "讀「用途配比與日夜活動｜類型取捨」時，適用於混合用途、鄰里服務和夜間經濟規劃；同時把荷蘭樣本中步行與自行車受到不同因素影響，應視作不同選項而非同一主動交通類別列為核對條件。",
+    "限制：未取得營業時間或人流資料時，不推估日夜使用量。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "Marsal-Llacuna 與 López-Ibáñez 將都市時間使用納入土地使用規劃討論；時段是混合用途分析的獨立維度，不能用白天平均比例代替。",
+        "library_id": "MARSALLACUNA2014",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "跨地域",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "本條依公開摘要或書目範圍整理；未據此推定本基地法規、普遍效果或未核對的數值。"
+      },
+      {
+        "claim_zh": "Roberts 與 Eldridge 以夜間城市規劃和設計為專書範圍；這使夜間服務和公共空間成為可分開比較的方案條件。",
+        "library_id": "ROBERTSELDRIDGE2012",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "英國與跨地域",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "本條依公開摘要或書目範圍整理；未據此推定本基地法規、普遍效果或未核對的數值。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "把用途資料與時間表、入口、路徑和服務人口交叉檢查。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "在「用途配比與日夜活動｜類型取捨」的來源情境裡，把用途資料與時間表、入口、路徑和服務人口交叉檢查；落到設計時還要按荷蘭樣本中步行與自行車受到不同因素影響，應視作不同選項而非同一主動交通類別調整。",
+      "tradeoff_zh": "「用途配比與日夜活動｜類型取捨」採用「在「用途配比與日夜活動｜類型取捨」的來源情境裡，把用途資料與時間表、入口、路徑和服務人口交叉檢查；落到設計時還要按荷蘭樣本中步行與自行車受到不同因素影響，應視作不同選項而非同一主動交通類別調整」時，得失要沿著荷蘭樣本中步行與自行車受到不同因素影響，應視作不同選項而非同一主動交通類別檢查；設計者提出的用途百分比是策略，不是研究普遍證明的最佳值。",
+      "library_ids": []
+    },
+    {
+      "option_zh": "在「用途配比與日夜活動｜類型取捨」的來源情境裡，全天型服務、夜間活動與工作日生產用途形成不同時序組合；落到設計時還要按荷蘭樣本中步行與自行車受到不同因素影響，應視作不同選項而非同一主動交通類別調整。",
+      "tradeoff_zh": "「用途配比與日夜活動｜類型取捨」的主要代價不是抽象的建造成本，而是設計者提出的用途百分比是策略，不是研究普遍證明的最佳值；因此先以荷蘭樣本中步行與自行車受到不同因素影響，應視作不同選項而非同一主動交通類別作方案比較條件。",
+      "library_ids": []
+    }
+  ],
+  "applies_when_zh": "適用於混合用途、鄰里服務和夜間經濟規劃。",
+  "not_applicable_when_zh": "未取得營業時間或人流資料時，不推估日夜使用量。",
+  "debates_zh": "設計者提出的用途百分比是策略，不是研究普遍證明的最佳值。",
+  "sources": [
+    {
+      "library_id": "MARSALLACUNA2014",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "ROBERTSELDRIDGE2012",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "荷蘭模式選擇實證；可及性評估",
+  "region": "荷蘭",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Planning Complex Cities",
+      "topic": "用途配比與日夜活動"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Cities by Design",
+      "topic": "用途配比與日夜活動"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "用途配比與日夜活動"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Sustainable Futures by Design",
+      "topic": "用途配比與日夜活動"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-LUP-036",
+    "KU-LUP-038",
+    "KU-LUP-039"
+  ],
+  "counter_unit_ids": [
+    "KU-LUP-040"
+  ]
+}

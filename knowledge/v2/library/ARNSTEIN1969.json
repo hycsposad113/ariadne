@@ -1,0 +1,47 @@
+{
+  "id": "ARNSTEIN1969",
+  "title": "A Ladder of Citizen Participation",
+  "authors": [
+    "Sherry R. Arnstein"
+  ],
+  "year": 1969,
+  "venue_or_publisher": "Crossref indexed journal record",
+  "doi": "https://doi.org/10.1080/01944366908977225",
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "參與階梯／公民權力",
+  "region": [
+    "美國",
+    "跨地域"
+  ],
+  "method": "規劃參與理論",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "參與程度可按公民實際影響力而非出席人數辨識；階梯是權力分析框架，不是各情境共用的品質總分。",
+      "strength": "THEORETICAL",
+      "scope_zh": "只支持所標示的理論範圍或個案；不提供 M4H 法規、基地實測或未查證的數值。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [
+    "HEALEY97",
+    "AHUJA2017"
+  ],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref",
+    "query": {
+      "title": "A Ladder of Citizen Participation",
+      "author": "Sherry R. Arnstein",
+      "year": 1969
+    },
+    "matched_record_id": "10.1080/01944366908977225",
+    "checked_at_utc": "2026-10-08T09:27:34Z",
+    "match_notes_zh": "公開 API 比對書名、作者及年份。僅確認書目；新書條目未保存 API 摘要。"
+  },
+  "limitations_zh": "本次只使用核准的公開書目 API；除明標 ABSTRACT_REVIEW 的來源外，未核讀全文。書目查證不等於主張、因果或參數驗證。",
+  "critique_relationship_zh": "known_critiques 是編者指定的替代閱讀，不代表來源間逐一互引或直接反駁。",
+  "metadata_licence_zh": "只保存必要書目欄位與自行摘要；未保存 API 摘要全文，metadata 授權未逐筆核驗，標 UNKNOWN。"
+}

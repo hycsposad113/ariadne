@@ -1,0 +1,98 @@
+{
+  "id": "KU-HOU-031",
+  "domain": "HOU",
+  "subtopic": "可負擔性",
+  "type": "empirical_finding",
+  "title_zh": "歐洲四國的可負擔住宅概念邊界不同",
+  "title_en": "Affordable housing policy in Europe",
+  "summary_zh": "研究不是住房成本的共同量化比較，政策概念不能直接代表住戶實際負擔。 每個方案明列目標收入、成本口徑和供應者。 研究設計：政策文件研究、關鍵知情者訪談和工作坊；地區：英格蘭、義大利、波蘭與荷蘭。",
+  "key_points_zh": [
+    "英格蘭、義大利、波蘭與荷蘭的文件、訪談和工作坊研究指出，可負擔住宅逐漸成為獨立政策類別，但與社會住宅界線仍模糊。",
+    "研究設計：政策文件研究、關鍵知情者訪談和工作坊；地區：英格蘭、義大利、波蘭與荷蘭",
+    "限制：研究不是住房成本的共同量化比較，政策概念不能直接代表住戶實際負擔。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "英格蘭、義大利、波蘭與荷蘭的文件、訪談和工作坊研究指出，可負擔住宅逐漸成為獨立政策類別，但與社會住宅界線仍模糊。",
+        "effect_or_value": "4 國政策定義不同且正在分化",
+        "study_design": "政策文件研究、關鍵知情者訪談和工作坊",
+        "context_region": "英格蘭、義大利、波蘭與荷蘭",
+        "library_id": "CZISCHKE2018",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "每個方案明列目標收入、成本口徑和供應者。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "每個方案明列目標收入、成本口徑和供應者。",
+      "tradeoff_zh": "此選項把「歐洲四國的可負擔住宅概念邊界不同」的工作放在英格蘭、義大利、波蘭與荷蘭的文件、訪談和工作坊研究指出，可負擔住宅逐漸成為獨立政策類別，但與社會住宅界線仍模糊上；需要承擔的協調或維護代價則由「研究不是住房成本的共同量化比較，政策概念不能直接代表住戶實際負擔」界定。",
+      "library_ids": [
+        "CZISCHKE2018",
+        "MADDEN2016"
+      ]
+    },
+    {
+      "option_zh": "在「歐洲四國的可負擔住宅概念邊界不同」的來源情境裡，直接補助、社會住宅和市場供給介入各自影響不同住戶；落到設計時還要按英格蘭、義大利、波蘭與荷蘭的文件、訪談和工作坊研究指出，可負擔住宅逐漸成為獨立政策類別，但與社會住宅界線仍模糊調整。",
+      "tradeoff_zh": "此選項把「歐洲四國的可負擔住宅概念邊界不同」的工作放在英格蘭、義大利、波蘭與荷蘭的文件、訪談和工作坊研究指出，可負擔住宅逐漸成為獨立政策類別，但與社會住宅界線仍模糊上；需要承擔的協調或維護代價則由「研究不是住房成本的共同量化比較，政策概念不能直接代表住戶實際負擔」界定。",
+      "library_ids": [
+        "CZISCHKE2018",
+        "MADDEN2016"
+      ]
+    }
+  ],
+  "applies_when_zh": "用於與英格蘭、義大利、波蘭與荷蘭研究情境可比、且量測定義相近的分析。",
+  "not_applicable_when_zh": "研究不是住房成本的共同量化比較，政策概念不能直接代表住戶實際負擔。",
+  "debates_zh": "研究不是住房成本的共同量化比較，政策概念不能直接代表住戶實際負擔。",
+  "sources": [
+    {
+      "library_id": "CZISCHKE2018",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "MADDEN2016",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "歐洲可負擔住宅政策；住房權與政治經濟批判",
+  "region": "英格蘭、義大利、波蘭與荷蘭；美國與跨國住房政治",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "可負擔性"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "可負擔性"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "可負擔性"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "可負擔性"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-HOU-026",
+    "KU-HOU-027",
+    "KU-HOU-028"
+  ],
+  "counter_unit_ids": [
+    "KU-HOU-030"
+  ]
+}

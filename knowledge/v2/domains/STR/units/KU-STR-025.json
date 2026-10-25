@@ -1,0 +1,81 @@
+{
+  "id": "KU-STR-025",
+  "domain": "STR",
+  "subtopic": "街廓大小與連結度",
+  "type": "empirical_finding",
+  "title_zh": "組態單獨解釋行人量的限制",
+  "title_en": "Limits of configuration-only pedestrian explanation",
+  "summary_zh": "孟加拉歷史城鎮多條街段的組態值、土地使用與行人計數比較，研究脈絡為Mymensingh，孟加拉。小街廓和網路連接需與目的地活動共同理解。空間組態值與行人計數的關聯偏弱，商業土地使用對行人量提供較強解釋。限制包括單一歷史城鎮研究，摘要未列相關係數、計數時段和街段總數。",
+  "key_points_zh": [
+    "小街廓和網路連接需與目的地活動共同理解",
+    "限制：單一歷史城鎮研究，摘要未列相關係數、計數時段和街段總數",
+    "效果或方向：空間組態值與行人計數的關聯偏弱，商業土地使用對行人量提供較強解釋"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "組態單獨解釋行人量的限制｜小街廓和網路連接需與目的地活動共同理解",
+        "effect_or_value": "空間組態值與行人計數的關聯偏弱，商業土地使用對行人量提供較強解釋",
+        "study_design": "孟加拉歷史城鎮多條街段的組態值、土地使用與行人計數比較",
+        "context_region": "Mymensingh，孟加拉",
+        "library_id": "AZIZ2018",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "組態單獨解釋行人量的限制｜波哥大的人口、工作及可及性分布不均；高平均密度可以和低收入群體的可及性不足並存",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "BOGOTA17",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "街廓網評估同時盤點商業、服務與其他吸引點"
+  ],
+  "applies_when_zh": "若本地觀察單位與Mymensingh，孟加拉的研究脈絡可對照，可用「小街廓和網路連接需與目的地活動共同理解」作為街廓大小與連結度的比較線索。",
+  "not_applicable_when_zh": "這項Mymensingh，孟加拉的研究結果不能單獨證明因果或預測其他城市的街段；原研究單一歷史城鎮研究，摘要未列相關係數、計數時段和街段總數。",
+  "debates_zh": "關聯能否外推；單一歷史城鎮研究，摘要未列相關係數、計數時段和街段總數；檢視「組態單獨解釋行人量的限制」的研究解讀時，還需判斷「限制：單一歷史城鎮研究，摘要未列相關係數、計數時段和街段總數」會如何改變方案結論。",
+  "sources": [
+    {
+      "library_id": "AZIZ2018",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "BOGOTA17",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "城市路網形態",
+  "region": "Mymensingh，孟加拉",
+  "curriculum_refs": [
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "街廓大小與連結度：課綱對應主題"
+    },
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "街廓大小與連結度：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-STR-026",
+    "KU-STR-027",
+    "KU-STR-028",
+    "KU-STR-029",
+    "KU-STR-030",
+    "KU-STR-031",
+    "KU-STR-032"
+  ]
+}

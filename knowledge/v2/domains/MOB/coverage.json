@@ -1,0 +1,129 @@
+{
+  "domain": "MOB",
+  "unit_count": 75,
+  "topics": [
+    {
+      "topic": "建成環境與旅運（3D／5D）",
+      "unit_count": 8,
+      "unit_ids": [
+        "KU-MOB-001",
+        "KU-MOB-002",
+        "KU-MOB-003",
+        "KU-MOB-004",
+        "KU-MOB-005",
+        "KU-MOB-006",
+        "KU-MOB-007",
+        "KU-MOB-008"
+      ]
+    },
+    {
+      "topic": "步行性",
+      "unit_count": 8,
+      "unit_ids": [
+        "KU-MOB-009",
+        "KU-MOB-010",
+        "KU-MOB-011",
+        "KU-MOB-012",
+        "KU-MOB-013",
+        "KU-MOB-014",
+        "KU-MOB-015",
+        "KU-MOB-016"
+      ]
+    },
+    {
+      "topic": "荷蘭自行車設計原則（連貫、直接、安全、舒適、吸引）",
+      "unit_count": 11,
+      "unit_ids": [
+        "KU-MOB-017",
+        "KU-MOB-018",
+        "KU-MOB-019",
+        "KU-MOB-020",
+        "KU-MOB-021",
+        "KU-MOB-022",
+        "KU-MOB-023",
+        "KU-MOB-024",
+        "KU-MOB-067",
+        "KU-MOB-068",
+        "KU-MOB-075"
+      ]
+    },
+    {
+      "topic": "自行車停車",
+      "unit_count": 8,
+      "unit_ids": [
+        "KU-MOB-025",
+        "KU-MOB-026",
+        "KU-MOB-027",
+        "KU-MOB-028",
+        "KU-MOB-029",
+        "KU-MOB-030",
+        "KU-MOB-031",
+        "KU-MOB-032"
+      ]
+    },
+    {
+      "topic": "TOD 與節點—場所模型",
+      "unit_count": 9,
+      "unit_ids": [
+        "KU-MOB-033",
+        "KU-MOB-034",
+        "KU-MOB-035",
+        "KU-MOB-036",
+        "KU-MOB-037",
+        "KU-MOB-038",
+        "KU-MOB-039",
+        "KU-MOB-040",
+        "KU-MOB-074"
+      ]
+    },
+    {
+      "topic": "大眾運輸服務圈",
+      "unit_count": 10,
+      "unit_ids": [
+        "KU-MOB-041",
+        "KU-MOB-042",
+        "KU-MOB-043",
+        "KU-MOB-044",
+        "KU-MOB-045",
+        "KU-MOB-046",
+        "KU-MOB-047",
+        "KU-MOB-048",
+        "KU-MOB-065",
+        "KU-MOB-066"
+      ]
+    },
+    {
+      "topic": "停車政策與最低停車標準的影響",
+      "unit_count": 10,
+      "unit_ids": [
+        "KU-MOB-049",
+        "KU-MOB-050",
+        "KU-MOB-051",
+        "KU-MOB-052",
+        "KU-MOB-053",
+        "KU-MOB-054",
+        "KU-MOB-055",
+        "KU-MOB-056",
+        "KU-MOB-069",
+        "KU-MOB-070"
+      ]
+    },
+    {
+      "topic": "無車區與物流",
+      "unit_count": 11,
+      "unit_ids": [
+        "KU-MOB-057",
+        "KU-MOB-058",
+        "KU-MOB-059",
+        "KU-MOB-060",
+        "KU-MOB-061",
+        "KU-MOB-062",
+        "KU-MOB-063",
+        "KU-MOB-064",
+        "KU-MOB-071",
+        "KU-MOB-072",
+        "KU-MOB-073"
+      ]
+    }
+  ]
+}

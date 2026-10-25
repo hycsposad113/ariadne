@@ -1,0 +1,71 @@
+{
+  "id": "KU-MET-004",
+  "domain": "MET",
+  "subtopic": "類型形態分析",
+  "type": "method",
+  "title_zh": "Muratori 類型研究",
+  "title_en": "Muratori operative history",
+  "summary_zh": "Muratori 的操作性歷史從建築類型與都市組織的演變理解當代設計。研究由既有建築、街廓和城市肌理讀取類型及其轉化，將歷史視為設計知識而非風格目錄。以現場測繪與歷史圖辨認典型單元、組合及變異，再提出可被核對的演化序列。",
+  "key_points_zh": [
+    "以現場測繪與歷史圖辨認典型單元、組合及變異，再提出可被核對的演化序列。",
+    "把演化描述當作應然方向會忽略政治、制度和中斷事件。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "Muratori 的操作性歷史從建築類型與都市組織的演變理解當代設計。研究由既有建築、街廓和城市肌理讀取類型及其轉化，將歷史視為設計知識而非風格目錄。",
+        "library_id": "MOUDON97",
+        "locator": null,
+        "study_design": "理論／方法綜述；非基地實測",
+        "effect_or_value": null,
+        "context_region": null,
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008"
+      },
+      {
+        "claim_zh": "Kropf 的都市形態手冊整理類型與形態分析方法，為 Muratori 的歷史類型學提供獨立方法視角。",
+        "library_id": "KROPF2017",
+        "locator": null,
+        "study_design": "形態學工具書",
+        "effect_or_value": null,
+        "context_region": "跨地域形態學",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "以現場測繪與歷史圖辨認典型單元、組合及變異，再提出可被核對的演化序列。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "延續既有類型利於肌理接合",
+      "tradeoff_zh": "必須證明當代用途仍適配。",
+      "library_ids": [
+        "MOUDON97"
+      ]
+    }
+  ],
+  "applies_when_zh": "用於釐清「Muratori 類型研究」涉及的空間、制度與行動選擇。",
+  "not_applicable_when_zh": "「Muratori 類型研究」不能直接替代基地的實測、法規或人類批准。",
+  "debates_zh": "把演化描述當作應然方向會忽略政治、制度和中斷事件。",
+  "sources": [
+    {
+      "library_id": "MOUDON97",
+      "locator": null
+    },
+    {
+      "library_id": "KROPF2017",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": null,
+      "topic": "編者主題對照，非已核實課程指定閱讀：Muratori 類型研究"
+    }
+  ],
+  "version": "2.0.0-theory-v3"
+}

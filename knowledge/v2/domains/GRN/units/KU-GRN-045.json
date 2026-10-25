@@ -1,0 +1,69 @@
+{
+  "id": "KU-GRN-045",
+  "domain": "GRN",
+  "subtopic": "健康效益實證",
+  "type": "value_range",
+  "title_zh": "荷蘭健康研究的綠地暴露範圍",
+  "title_en": "Dutch residential exposure buffers",
+  "summary_zh": "荷蘭大型研究比較住家一公里與三公里內綠地比例。樣本涵蓋不同都市化程度，兩個尺度都與自評健康有關聯。觀察性資料不能排除收入、住宅選擇和個人健康混雜。健康關聯的空間尺度並非固定不變。",
+  "key_points_zh": [
+    "荷蘭大型研究比較住家一公里與三公里內綠地比例",
+    "樣本涵蓋不同都市化程度，兩個尺度都與自評健康有關聯"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "荷蘭大型研究比較住家一公里與三公里內綠地比例。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "跨地域",
+        "library_id": "BOWLER10",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "健康關聯的空間尺度並非固定不變。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "閱讀綠地健康研究時記錄其緩衝尺度和結果定義。"
+  ],
+  "applies_when_zh": "適用於設計本地健康暴露分析。",
+  "not_applicable_when_zh": "不可用作住宅到公園的強制服務半徑。",
+  "debates_zh": "健康關聯的空間尺度並非固定不變。",
+  "sources": [
+    {
+      "library_id": "BOWLER10",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "TZUOLAS07",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "城市綠化與熱環境綜述",
+  "region": "跨地域",
+  "curriculum_refs": [
+    {
+      "school": "MIT",
+      "course": "11.330J Theory of City Form",
+      "topic": "健康效益實證"
+    }
+  ],
+  "version": "2.0.0",
+  "values": [
+    {
+      "name": "荷蘭健康研究的綠地暴露範圍",
+      "range": "1 km、3 km",
+      "unit": "公里",
+      "context": "荷蘭居民研究使用的綠地暴露緩衝；非基地服務標準。；「荷蘭健康研究的綠地暴露範圍」僅供其研究脈絡內比較，不構成本基地法規。",
+      "library_id": "MAAS06"
+    }
+  ],
+  "related_unit_ids": [
+    "KU-GRN-046"
+  ]
+}

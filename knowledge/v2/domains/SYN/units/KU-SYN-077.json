@@ -1,0 +1,74 @@
+{
+  "id": "KU-SYN-077",
+  "domain": "SYN",
+  "subtopic": "網路分析在設計中的使用與限制",
+  "type": "concept",
+  "title_zh": "Lynch 的城市意象五元素與街網閱讀",
+  "title_en": "Lynch’s five image elements for reading street networks",
+  "summary_zh": "Lynch 將城市意象拆成路徑、邊界、區域、節點和地標五種可辨識元素。路徑指人移動的線索，節點是活動或方向匯聚處，邊界和區域幫助組織空間，地標則提供辨識參照。這套語彙連接網路圖和使用者感知，但不等於網路中心性分析。",
+  "key_points_zh": [
+    "五項城市意象元素是路徑、邊界、區域、節點和地標。",
+    "同一地點可以同時具有多種意象功能。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "Lynch 以五種空間要素描述城市意象的結構。",
+        "library_id": "LYNCH60",
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+        "effect_or_value": null,
+        "study_design": "城市意象理論；要素列表待經典交叉核對",
+        "context_region": "美國",
+        "locator": null
+      },
+      {
+        "claim_zh": "Alexander 的模式語言提供可重複討論的空間關係，但不能取代地方經驗。",
+        "library_id": "ALEX77",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "城市設計模式語言",
+        "context_region": "跨地域建築與城市設計",
+        "locator": null
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "在街網分析圖旁另做走讀或認知地圖，呈現居民如何辨識路徑、邊界和節點。"
+  ],
+  "applies_when_zh": "研究社區對路徑、邊界、區域、節點和地標的辨識時使用。",
+  "not_applicable_when_zh": "五元素分類不能直接量化通行能力或推斷所有使用者都有相同的城市意象。",
+  "debates_zh": "圖上的地標與邊界可能因文化、年齡和移動能力而不同；單一觀察者的認知圖不足以代表群體。",
+  "sources": [
+    {
+      "library_id": "LYNCH60",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "ALEX77",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "城市設計理論",
+  "region": "城市意象與街網感知",
+  "curriculum_refs": [
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.330J Theory of City Form",
+      "topic": "網路分析在設計中的使用與限制：課綱對應主題"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Critical Debates in Urban Design",
+      "topic": "網路分析在設計中的使用與限制：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-SYN-064"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "M4H_MERWEHAVEN",
+  "title": "Merwehaven: gebiedsontwikkeling in M4H",
+  "authors": [
+    "Gemeente Rotterdam"
+  ],
+  "year": 2026,
+  "venue_or_publisher": "Gemeente Rotterdam",
+  "doi": null,
+  "isbn": null,
+  "kind": "POLICY",
+  "tradition": "官方制度與專業實務指引",
+  "region": [
+    "Gemeente Rotterdam"
+  ],
+  "method": "官方公開法規、政策頁或手冊；依verification.method註明可讀範圍",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "市府指出Merwehaven Masterplan延續2019 Ruimtelijk Raamwerk M4H，並描述居住、工作、服務與公共空間方向。",
+      "strength": "NORMATIVE_PRACTICE",
+      "scope_zh": "僅摘要官方公開頁面可直接支持之制度或實務內容；不外推為M4H地方法規。",
+      "assessment_basis": "OFFICIAL_SITE_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED_OFFICIAL_SITE",
+    "url": "https://www.rotterdam.nl/merwehaven",
+    "accessed_utc": "2026-10-08T10:47:42Z",
+    "method": "official public project page",
+    "match_notes_zh": "核對官方來源網域與可公開讀取的頁面／摘錄；內容範圍限制已記錄。"
+  },
+  "limitations_zh": "official public project page",
+  "metadata_licence_zh": "保存官方公開文件的書目欄位與自行改寫的內容摘要；未保存付費全文。"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "ROBERTSELDRIDGE2012",
+  "title": "Planning the Night-time City",
+  "authors": [
+    "Marion Roberts",
+    "Adam Eldridge"
+  ],
+  "year": 2012,
+  "venue_or_publisher": "Crossref DOI record; publisher not returned in the checked fields",
+  "doi": "10.4324/9780203609064",
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "ACADEMIC_BOOK",
+  "tradition": "夜間城市規劃",
+  "region": [
+    "英國",
+    "跨地域"
+  ],
+  "method": "urban planning and design of night-time activity",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "Roberts 與 Eldridge 的專書討論夜間城市的規劃與設計，可支持把營業時段、夜間公共空間和服務安排納入方案檢視；不提供普遍活動時數或比例。",
+      "strength": "THEORETICAL",
+      "scope_zh": "僅依允許的公開書目資訊與專業範圍描述；沒有查閱全文，不提供本基地法規、成效估計、因果結論或數值門檻。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref",
+    "query": {
+      "title": "Planning the Night-time City",
+      "author": "Marion Roberts",
+      "year": 2012
+    },
+    "matched_record_id": "10.4324/9780203609064",
+    "checked_at_utc": "2026-10-08T16:17:33Z",
+    "match_notes_zh": "以 Crossref DOI 記錄核對書名、作者與出版年；出版者與 ISBN 未由本次核對欄位確認。僅確認書目，不代表全文主張已審核。"
+  },
+  "limitations_zh": "僅核對公開書目欄位與標題範圍，未取得或查閱全文；不推論研究效果或因果。",
+  "metadata_licence_zh": "保存公開 API 書目欄位與自行撰寫的範圍摘要；未保存 API 摘要原文或全文。"
+}

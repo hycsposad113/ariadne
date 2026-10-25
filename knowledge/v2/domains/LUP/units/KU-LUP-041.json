@@ -1,0 +1,98 @@
+{
+  "id": "KU-LUP-041",
+  "domain": "LUP",
+  "subtopic": "用途配比與日夜活動",
+  "type": "empirical_finding",
+  "title_zh": "建成環境效果多偏小但可累積",
+  "title_en": "Travel and built environment meta-analysis",
+  "summary_zh": "偏好自選與小樣本控制不足，且信賴區間未知。 避免把單一密度或混合比例當作旅次轉型保證。 研究設計：截至 2009 年研究的加權統合分析；地區：跨城市文獻。 限制：偏好自選與小樣本控制不足，且信賴區間未知。",
+  "key_points_zh": [
+    "建成環境對旅次的單項彈性多不大，作者指出多個變數合併後仍可能形成實際差異。",
+    "研究設計：截至 2009 年研究的加權統合分析；地區：跨城市文獻",
+    "限制：偏好自選與小樣本控制不足，且信賴區間未知。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "建成環境對旅次的單項彈性多不大，作者指出多個變數合併後仍可能形成實際差異。",
+        "effect_or_value": "加權旅次彈性絕對值最高 0.39，絕大多數更低",
+        "study_design": "截至 2009 年研究的加權統合分析",
+        "context_region": "跨城市文獻",
+        "library_id": "EWING10",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "避免把單一密度或混合比例當作旅次轉型保證。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "避免把單一密度或混合比例當作旅次轉型保證。",
+      "tradeoff_zh": "「建成環境效果多偏小但可累積」採用「避免把單一密度或混合比例當作旅次轉型保證」時，得失要沿著建成環境對旅次的單項彈性多不大，作者指出多個變數合併後仍可能形成實際差異檢查；偏好自選與小樣本控制不足，且信賴區間未知。",
+      "library_ids": [
+        "EWING10",
+        "TON19"
+      ]
+    },
+    {
+      "option_zh": "在「建成環境效果多偏小但可累積」的來源情境裡，全天型服務、夜間活動與工作日生產用途形成不同時序組合；落到設計時還要按建成環境對旅次的單項彈性多不大，作者指出多個變數合併後仍可能形成實際差異調整。",
+      "tradeoff_zh": "「建成環境效果多偏小但可累積」採用「在「建成環境效果多偏小但可累積」的來源情境裡，全天型服務、夜間活動與工作日生產用途形成不同時序組合；落到設計時還要按建成環境對旅次的單項彈性多不大，作者指出多個變數合併後仍可能形成實際差異調整」時，得失要沿著建成環境對旅次的單項彈性多不大，作者指出多個變數合併後仍可能形成實際差異檢查；偏好自選與小樣本控制不足，且信賴區間未知。",
+      "library_ids": [
+        "EWING10",
+        "TON19"
+      ]
+    }
+  ],
+  "applies_when_zh": "用於與跨城市文獻研究情境可比、且量測定義相近的分析。",
+  "not_applicable_when_zh": "偏好自選與小樣本控制不足，且信賴區間未知。",
+  "debates_zh": "偏好自選與小樣本控制不足，且信賴區間未知。",
+  "sources": [
+    {
+      "library_id": "EWING10",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "TON19",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "交通與建成環境實證；荷蘭模式選擇實證",
+  "region": "美國；荷蘭",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Planning Complex Cities",
+      "topic": "用途配比與日夜活動"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Cities by Design",
+      "topic": "用途配比與日夜活動"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "用途配比與日夜活動"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Sustainable Futures by Design",
+      "topic": "用途配比與日夜活動"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-LUP-036",
+    "KU-LUP-037",
+    "KU-LUP-038"
+  ],
+  "counter_unit_ids": [
+    "KU-LUP-040"
+  ]
+}

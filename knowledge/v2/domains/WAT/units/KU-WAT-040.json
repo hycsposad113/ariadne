@@ -1,0 +1,74 @@
+{
+  "id": "KU-WAT-040",
+  "domain": "WAT",
+  "subtopic": "韌性理論與批評",
+  "type": "critique",
+  "title_zh": "恢復原狀可能延續既有風險不平等",
+  "title_en": "恢復原狀可能延續既有風險不平等",
+  "summary_zh": "若災前城市配置已讓部分居民長期承受洪水或污染，恢復原狀會重新固定不公平。韌性規劃批評追問誰定義系統、誰承擔損失；社會生態研究則把生計資源納入判讀。空間方案應公開重建優先順序和可能被排除者。",
+  "key_points_zh": [
+    "恢復速度平均值會遮住群體資源差異。",
+    "轉型可能重新分配風險，也會增加遷居成本。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "library_id": "HAASNOOT2013",
+        "claim_zh": "題名確認文章提出在深度不確定情境中規劃調適路徑的方法；不據題名宣稱它保證避免所有失效；本單元 KU-WAT-040 對照「若災前城市配置已讓部分居民長期承受洪水或污染，恢復原狀會重新固定不公平」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "動態調適政策路徑方法論",
+        "context_region": "荷蘭與跨地域水治理方法",
+        "locator": null
+      },
+      {
+        "library_id": "MEEROW2016",
+        "claim_zh": "題名確認本文為都市韌性定義回顧；在未讀取摘要前，不將它簡化成單一可量測指標；本單元 KU-WAT-040 對照「若災前城市配置已讓部分居民長期承受洪水或污染，恢復原狀會重新固定不公平」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "文獻回顧",
+        "context_region": "跨地域都市研究",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "用受益者與負擔者矩陣檢查重建策略。",
+    "在退讓方案中處理補償、住房和社區連續性。"
+  ],
+  "applies_when_zh": "適用於災後重建和氣候公正審查。",
+  "not_applicable_when_zh": "不適用於替居民決定是否離開既有地方。",
+  "debates_zh": "批判理論提出審查問題，不能取代居民對遷居和補償的選擇。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "HAASNOOT2013",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "MEEROW2016",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "批判韌性與氣候公正",
+  "region": "跨地域；環境資源依賴社群",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "韌性理論與批評"
+    },
+    {
+      "school": "MIT",
+      "course": null,
+      "topic": "韌性理論與批評"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0"
+}

@@ -1,0 +1,66 @@
+{
+  "id": "KU-ECO-052",
+  "domain": "ECO",
+  "subtopic": "生態服務",
+  "type": "empirical_finding",
+  "title_zh": "土地覆蓋和城市年齡解釋物種差異",
+  "title_en": "Land cover and city age explain variation",
+  "summary_zh": "跨城市物種比較檢視都市內本地鳥類和植物密度。土地覆蓋與城市年齡比地理位置和氣候更能解釋研究觀察的部分差異。資料可用性和城市樣本仍限制模型。長期土地變化會與當前綠地服務相互作用。",
+  "key_points_zh": [
+    "跨城市物種比較檢視都市內本地鳥類和植物密度",
+    "土地覆蓋與城市年齡比地理位置和氣候更能解釋研究觀察的部分差異"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "跨城市物種比較檢視都市內本地鳥類和植物密度。",
+        "effect_or_value": "土地覆蓋及城市年齡對部分差異的解釋力高於氣候或地理。",
+        "study_design": "跨城市統計比較",
+        "context_region": "54 座城市鳥類、110 座城市植物",
+        "library_id": "NG09",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW",
+        "limitations_zh": "分類群資料、城市抽樣與歷史變數不完全一致。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "把城市發展歷史與現況覆蓋納入生態服務模型。"
+  ],
+  "applies_when_zh": "適用於比較同一區域的城市或街區。",
+  "not_applicable_when_zh": "不能假定氣候或地理完全不重要。",
+  "debates_zh": "長期土地變化會與當前綠地服務相互作用。",
+  "sources": [
+    {
+      "library_id": "NG09",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "HANSEN14",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "高密度通風評估",
+  "region": "54 座城市鳥類、110 座城市植物",
+  "curriculum_refs": [
+    {
+      "school": "UCL Bartlett",
+      "course": "Critical Debates in Urban Design",
+      "topic": "生態服務"
+    },
+    {
+      "school": "MIT",
+      "course": "11.330J Theory of City Form",
+      "topic": "生態服務"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-ECO-051",
+    "KU-ECO-053"
+  ]
+}

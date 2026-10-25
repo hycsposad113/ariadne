@@ -1,0 +1,107 @@
+{
+  "id": "KU-MOB-517",
+  "domain": "MOB",
+  "subtopic": "停車政策；價格與供給",
+  "type": "theory",
+  "title_zh": "Shoup 的免費停車成本論述與交通選擇",
+  "title_en": "Shoup’s account of free-parking costs and travel choices",
+  "summary_zh": "Shoup 將停車視為土地、建築成本和出行誘因的政策選擇：未由使用者直接支付的車位成本仍可能透過住宅價格、商業租金或公共土地承擔。Christiansen 等人的停車設施研究把停車環境連到旅運行為，兩者合讀可將價格、供給和出行選擇拆開分析。",
+  "key_points_zh": [
+    "Shoup（2005）主張「免費停車」的成本被轉嫁到住宅、商品與交通行為中，並提出三項改革：取消最低停車要求；路邊停車依需求定價，使每個街區約有一兩個空位（約 85% 佔用率）；把停車收入回饋給所在街區（停車收益特區）。。",
+    "停車價格會與目的地、通勤制度和公共運輸條件一起改變選擇。",
+    "分時費率和地區收入用途需公開，否則價格政策的分配影響不易辨認。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "library_id": "SHOUP05",
+        "claim_zh": "Shoup（2005）主張「免費停車」的成本被轉嫁到住宅、商品與交通行為中，並提出三項改革：取消最低停車要求；路邊停車依需求定價，使每個街區約有一兩個空位（約 85% 佔用率）；把停車收入回饋給所在街區（停車收益特區）。",
+        "effect_or_value": null,
+        "study_design": "停車政策專書",
+        "context_region": "United States",
+        "locator": null,
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+        "limitations_zh": "已核對書目而未取得正文頁碼；細部政策論證待指揮官複核。"
+      },
+      {
+        "library_id": "CHRISTIANSEN16",
+        "claim_zh": "期刊論文題名確認停車設施與建成環境對旅運行為的影響研究範圍。",
+        "effect_or_value": null,
+        "study_design": "停車與旅運研究",
+        "context_region": "Norway",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "引用只界定研究題目，不移植挪威效果估計。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "把停車位成本顯示在租金／房價、地面空間和道路管理帳目中。",
+    "按地點、時段和使用者設計費率，並追蹤收入如何回到街道或交通服務。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "以需求管理費率收取使用成本，搭配透明的街區回饋。",
+      "tradeoff_zh": "能揭露需求並回收管理資源，但要處理低收入者和夜間工作者負擔。",
+      "library_ids": [
+        "SHOUP05",
+        "CHRISTIANSEN16"
+      ]
+    },
+    {
+      "option_zh": "保留部分免費或折抵供給以支援短停和特定服務。",
+      "tradeoff_zh": "維持某些可近性，卻可能讓公共空間承擔被隱藏的停車成本。",
+      "library_ids": [
+        "CHRISTIANSEN16",
+        "SHOUP05"
+      ]
+    }
+  ],
+  "applies_when_zh": "適用於評估免費停車、收費政策、停車供給和住宅成本的關係。",
+  "not_applicable_when_zh": "不適用於將 Shoup 的美國案例或挪威旅運研究直接當作 M4H 費率。",
+  "debates_zh": "提高價格可能降低部分需求，也會讓照護、配送和低所得出行者面臨不同成本；需同時看替代交通與收入用途。",
+  "counter_unit_ids": [
+    "KU-MOB-053"
+  ],
+  "related_unit_ids": [
+    "KU-MOB-050",
+    "KU-MOB-051",
+    "KU-MOB-069"
+  ],
+  "sources": [
+    {
+      "library_id": "SHOUP05",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "CHRISTIANSEN16",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "停車政策經濟與旅運行為研究",
+  "region": "United States; Norway",
+  "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "停車政策；價格與供給：課綱對應主題"
+    }
+  ],
+  "version": "kb2-gaps-2026-10-08",
+  "check": {
+    "method_zh": "分別登錄車位建造與維護成本、使用者實付費率、占用率、目的地與出行方式，再檢查不同群體的變化。",
+    "inputs": [
+      "停車供給與資產成本",
+      "時段費率及免收條件",
+      "使用者出行方式和所得分組"
+    ],
+    "logic_zh": "比較同區、同時段、同類使用者的前後資料；價格政策不能只以車位收入判定成功。",
+    "limitations_zh": "Shoup 專書的具體公式與方案細節待 Claude 原典核對；此卡沒有把書中政策數字當作本基地標準。"
+  },
+  "case": null
+}

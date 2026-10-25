@@ -1,0 +1,39 @@
+{
+  "id": "SAVANNAH_SQUARES2016",
+  "title": "To Gather in War and Peace: The City Squares of Savannah, Georgia",
+  "authors": [],
+  "year": 2016,
+  "venue_or_publisher": "Ordnance: War + Architecture & Space; Routledge",
+  "doi": "10.4324/9781315247588-11",
+  "isbn": "9781315247588",
+  "kind": "ACADEMIC_BOOK_CHAPTER",
+  "tradition": "薩凡納城市廣場與歷史街區",
+  "region": [
+    "薩凡納，喬治亞州，美國"
+  ],
+  "method": "Crossref bibliographic scope only; title-level chapter record",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "Crossref 書目確認章節題名聚焦薩凡納城市廣場及其歷史脈絡；來源記錄未提供作者和摘要，不能單獨核實 600 ft ward 尺寸。",
+      "strength": "THEORETICAL",
+      "scope_zh": "只依書目題名界定案例範圍；具體模數需另以計畫圖或正文量測確認。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref",
+    "query": {
+      "doi": "10.4324/9781315247588-11",
+      "title": "To Gather in War and Peace: The City Squares of Savannah, Georgia",
+      "year": 2016
+    },
+    "matched_record_id": "https://doi.org/10.4324/9781315247588-11",
+    "checked_at_utc": "2026-10-08T17:37:01Z",
+    "match_notes_zh": "Crossref 返回題名、出版年、書章類型、出版者與 ISBN；作者欄和摘要未返回。"
+  },
+  "limitations_zh": "只核對 Crossref 書目欄位；作者與摘要缺失，未查閱全文，不能將其作為模數的直接數值證據。",
+  "metadata_licence_zh": "保存公開 Crossref 書目欄位與自行撰寫的範圍摘要；未保存全文。"
+}

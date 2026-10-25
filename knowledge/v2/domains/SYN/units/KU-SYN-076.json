@@ -1,0 +1,88 @@
+{
+  "id": "KU-SYN-076",
+  "domain": "SYN",
+  "subtopic": "多中心性（MCA）",
+  "type": "method",
+  "title_zh": "多中心性分析：用多種中心性讀街網",
+  "title_en": "Multiple Centrality Assessment for street networks",
+  "summary_zh": "Multiple Centrality Assessment 將城市道路視為網路，並比較多種中心性指標，而非只給每條街一個「重要度」。度數、接近度、介數或直線性等指標回答不同問題：局部連接、到達其他節點、路徑中介和幾何直接程度。指標結果會受 primal graph 的建構、距離成本和邊界影響。",
+  "key_points_zh": [
+    "多種中心性描述連接、到達、通過和幾何直接度等不同關係。",
+    "先確定 primal graph 的節點與邊，才比較排名。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "Porta 等人以 primal approach 分析街網中的多種中心性，具體指標須對照研究版本。",
+        "library_id": "PORTA06",
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+        "effect_or_value": null,
+        "study_design": "primal graph 多中心性方法",
+        "context_region": "義大利",
+        "locator": null
+      },
+      {
+        "claim_zh": "街道形態比較重視路線選擇和網路結構，而不只道路級別。",
+        "library_id": "SOUTHWORTH03",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "街道形態比較",
+        "context_region": "跨地域",
+        "locator": null
+      },
+      {
+        "claim_zh": "網路科學回顧提醒連接和幾何成本都會影響中心性。",
+        "library_id": "BARTHELEMY11",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "城市網路科學回顧",
+        "context_region": "跨地域",
+        "locator": null
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "對同一街網並列多種指標圖層，檢查重要節點是否因單一度量或邊界設定而改變。"
+  ],
+  "applies_when_zh": "比較不同街道在連接、接近或中介作用上的網路角色時使用。",
+  "not_applicable_when_zh": "中心性排名不能替代人流、安全、公共服務或社會重要性的現地資料。",
+  "debates_zh": "多指標能呈現不同網路角色，但排名仍受圖建構、空間尺度和成本設定影響。",
+  "sources": [
+    {
+      "library_id": "PORTA06",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "SOUTHWORTH03",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "BARTHELEMY11",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "街道形態與網路分析",
+  "region": "城市網路科學與空間語法",
+  "curriculum_refs": [
+    {
+      "school": "Harvard GSD",
+      "course": "Cities by Design",
+      "topic": "多中心性（MCA）：課綱對應主題"
+    },
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.330J Theory of City Form",
+      "topic": "多中心性（MCA）：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-SYN-027"
+  ]
+}

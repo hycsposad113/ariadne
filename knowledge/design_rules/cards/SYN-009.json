@@ -1,0 +1,91 @@
+{
+  "id": "SYN-009",
+  "title_zh": "10 km 區域尺度與邊界",
+  "title_en": "Regional radius and boundary",
+  "domain": "space_syntax",
+  "stages": [
+    "S2",
+    "S3",
+    "S5",
+    "S6",
+    "S7"
+  ],
+  "statement_zh": "10 km 用於較廣自行車／車行結構；步行只作區域形態探索。覆蓋僅 3 km 時保留 EXPLORATORY，不宣稱穩定區域結果。",
+  "rationale_zh": "裁切網路會改變路徑排序與區域入口判斷。",
+  "applies_when": {
+    "radius_m": [
+      "10000"
+    ],
+    "mode": [
+      "pedestrian",
+      "bicycle",
+      "motor_vehicle"
+    ]
+  },
+  "parameters": [
+    {
+      "name": "radius_m",
+      "value": 10000,
+      "range": null,
+      "unit": "m",
+      "provenance": "FOUNDER",
+      "source_ids": [],
+      "status": "PROJECT_INSTRUCTION",
+      "rationale_zh": "指定尺度；需涵蓋半徑並測邊界敏感性。",
+      "authority_ref": "2026-10-08 修正計畫及 J7 指示；正式作用由已接受專案狀態解析"
+    }
+  ],
+  "check": {
+    "method_zh": "在多個擴展邊界比較共同核心路段排序；缺驗證仍 EXPLORATORY。",
+    "inputs": [
+      "凍結幾何／路網與 hash",
+      "已接受專案條件與版本",
+      "卡片參數與版本"
+    ],
+    "output": "檢查值、單位、方法、有效性、差異與限制；不自動採納",
+    "implementation_status": "SPECIFICATION_ONLY"
+  },
+  "check_unavailable_reason_zh": null,
+  "design_responses": [
+    {
+      "option": "1",
+      "action_zh": "擴展凍結上下文後重算",
+      "source_ids": [
+        "HILLIER84"
+      ],
+      "tradeoff_zh": "資料與計算增加，擴展也需穩定性比較。"
+    },
+    {
+      "option": "2",
+      "action_zh": "保留局部方案評估並標 10 km 資料缺口",
+      "source_ids": [
+        "RATTI04"
+      ],
+      "tradeoff_zh": "不能下區域結論。"
+    }
+  ],
+  "evidence_level": "ACADEMIC",
+  "evidence_strength": "THEORETICAL",
+  "sources": [
+    {
+      "library_id": "HILLIER84",
+      "claim_id": "C1",
+      "support_scope_zh": "文獻支持概念與比較角度；本卡具體操作是設計推導，試算值及專案約束不是文獻的普適結論。"
+    },
+    {
+      "library_id": "RATTI04",
+      "claim_id": "C1",
+      "support_scope_zh": "文獻支持概念與比較角度；本卡具體操作是設計推導，試算值及專案約束不是文獻的普適結論。"
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "enforcement": "CANDIDATE_ONLY",
+  "authority_ref": null,
+  "debates_zh": "整合度不是人流因果保證；Ratti 指出表示法與幾何資訊限制，MCA 可作替代比較；本次僅憑書目知識，尚未逐頁查證。 已查證書目與主張的查閱層級見 library；不是逐頁核驗或本基地因果結論。",
+  "context_validity_zh": "英國形態／人流研究與跨城市網路方法只能提出假說；M4H 港區的門禁、產業時段、自行車與高差需另驗證。",
+  "exceptions_zh": "卡片不可替代現行法規、產權、無障礙或已接受 D1/D2。缺必要資料即回報 UNKNOWN；例外須由 Founder 明確決定並保留原結果。",
+  "version": "0.2.0",
+  "local_context_refs": [
+    "FOUNDER"
+  ]
+}

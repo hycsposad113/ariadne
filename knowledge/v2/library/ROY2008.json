@@ -1,0 +1,49 @@
+{
+  "id": "ROY2008",
+  "title": "Impediments and Solutions to Sustainable, Watershed-Scale Urban Stormwater Management: Lessons from Australia and the United States",
+  "authors": [
+    "Allison H. Roy",
+    "Seth J. Wenger",
+    "Tim D. Fletcher",
+    "Christopher J. Walsh",
+    "Anthony R. Ladson",
+    "William D. Shuster",
+    "Hale W. Thurston",
+    "Rebekah R. Brown"
+  ],
+  "year": 2008,
+  "venue_or_publisher": "Environmental Management",
+  "doi": "https://doi.org/10.1007/s00267-008-9119-1",
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "流域尺度都市雨水治理",
+  "region": "澳洲與美國",
+  "method": "文獻回顧；目前僅核對書目範圍",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "書目確認本文題名聚焦「Impediments and Solutions to Sustainable, Watershed-Scale Urban Stormwater Management: Lessons from Australia and the United States」；目前只完成作者、年份、題名與 DOI 核對，未將摘要或全文結論納入此記錄。",
+      "strength": "THEORETICAL",
+      "scope_zh": "只支持題名所顯示的研究議題與書目範圍；具體研究設計、樣本、效果量及外推界限須由摘要或全文另行核對。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref",
+    "query": {
+      "title": "Impediments and solutions to sustainable, watershed-scale urban stormwater management: lessons from Australia and the United States",
+      "author": "Roy",
+      "year": 2008,
+      "api_query": "https://api.crossref.org/works?query.bibliographic=Impediments%20and%20solutions%20to%20sustainable%2C%20watershed-scale%20urban%20stormwater%20management%3A%20lessons%20from%20Australia%20and%20the%20United%20States%20Roy%202008&rows=5"
+    },
+    "matched_record_id": "10.1007/s00267-008-9119-1",
+    "checked_at_utc": "2026-10-08T14:02:42Z",
+    "match_notes_zh": "Crossref 回傳記錄的作者和年份相符；題名按匹配度核對，repo 僅採用 API 回傳的完整標題。"
+  },
+  "limitations_zh": "只保留書目欄位與自行概括的研究範圍，沒有保存 API 回傳摘要；未標 ABSTRACT_REVIEW 的主張不得據此聲稱效果量。",
+  "critique_relationship_zh": "尚未核對本文與其他文獻的互引或直接反駁關係。",
+  "metadata_licence_zh": "Crossref 公開書目 metadata；精確授權未核驗，標 UNKNOWN。"
+}

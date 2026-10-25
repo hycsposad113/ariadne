@@ -1,0 +1,19 @@
+{
+  "schema_version": "q5-readonly-fixture-manifest-v1",
+  "purpose": "Parent inputs required to verify the frozen Week 4 R02 archive from a worktree without local runtime files.",
+  "source_root_env": "Q5_READONLY_FIXTURE_ROOT",
+  "immutable_files": [
+    {
+      "path": ".urban_design_runtime/artifacts/study-area-bridge/study-areas/4818687ee13f2c4fe78471d52320074948de269d5687c494ca2fa213afe39533.geojson",
+      "size_bytes": 347,
+      "sha256": "9a59159505505dbe658ec6667ecfeb9024b868faf6377e7cd91889c763170d32",
+      "reason": "Current read-only StudyArea Artifact parent; copied only after this manifest entry is verified."
+    }
+  ],
+  "dynamic_sqlite": {
+    "path": ".urban_design_runtime/state.sqlite3",
+    "read_mode": "mode=ro",
+    "copy_method": "sqlite3.Connection.backup",
+    "hash_policy": "Compute size and SHA-256 for each disposable backup; the authority database is live and is not pinned as a permanent test count or byte fixture."
+  }
+}

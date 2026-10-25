@@ -1,0 +1,75 @@
+{
+  "id": "KU-PUB-011",
+  "domain": "PUB",
+  "subtopic": "邊緣效應",
+  "type": "value_range",
+  "title_zh": "視線中可辨識的公共活動",
+  "title_en": "Perceived public activity",
+  "summary_zh": "Gehl 以百公尺左右的視距描述觀察城市活動的可能尺度。邊緣若遮蔽所有活動，路過者可能無法辨認空間內正在發生什麼。視覺連續性仍受街道轉折、植栽高度與光線左右。可見性增加既可能支持相互察覺，也可能增加被監視感。",
+  "key_points_zh": [
+    "Gehl（2010）以約 100 m 為「社交視域」：此距離內可看見並辨認城市活動中的人",
+    "邊緣若遮蔽所有活動，路過者可能無法辨認空間內正在發生什麼"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "Gehl（2010）以約 100 m 為「社交視域」：此距離內可看見並辨認城市活動中的人。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "美國",
+        "library_id": "GEHL10",
+        "locator": null,
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+        "limitations_zh": "可見性增加既可能支持相互察覺，也可能增加被監視感。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "沿主要步行線記錄何處能看見停留者、入口和活動，不只畫軸線。"
+  ],
+  "applies_when_zh": "可用於入口辨識與街角視線討論。",
+  "not_applicable_when_zh": "不適用於以全域透明來取代隱私和生態遮蔽。",
+  "debates_zh": "可見性增加既可能支持相互察覺，也可能增加被監視感。",
+  "sources": [
+    {
+      "library_id": "GEHL10",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "NEMETH09",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "JACOBS61",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "公共空間治理與 publicness",
+  "region": "美國",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "邊緣效應"
+    }
+  ],
+  "version": "2.0.0",
+  "values": [
+    {
+      "name": "視線中可辨識的公共活動",
+      "range": "約 100 m",
+      "unit": "公尺",
+      "context": "Gehl 公共生活的經典視距描述；需現地檢查遮擋，非安全法規。；「視線中可辨識的公共活動」僅供其研究脈絡內比較，不構成本基地法規；來源所列地域：丹麥、跨地域。",
+      "library_id": "GEHL10"
+    }
+  ],
+  "related_unit_ids": [
+    "KU-PUB-010",
+    "KU-PUB-012"
+  ]
+}

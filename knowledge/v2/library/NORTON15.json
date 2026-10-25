@@ -1,0 +1,48 @@
+{
+  "id": "NORTON15",
+  "title": "Planning for cooler cities: A framework to prioritise green infrastructure to mitigate high temperatures in urban landscapes",
+  "authors": [
+    "Briony A. Norton",
+    "Andrew M. Coutts",
+    "Stephen J. Livesley",
+    "Richard J. Harris",
+    "Annie M. Hunter",
+    "Nicholas S.G. Williams"
+  ],
+  "year": 2015,
+  "venue_or_publisher": "Landscape and Urban Planning",
+  "doi": "https://doi.org/10.1016/j.landurbplan.2014.10.018",
+  "isbn": null,
+  "crossref_id": "https://doi.org/10.1016/j.landurbplan.2014.10.018",
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "氣候調適與綠色基礎設施",
+  "region": [
+    "澳洲"
+  ],
+  "method": "規劃框架",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "架構把城市熱點、氣候風險與綠色基礎設施優先序連結；它是排序方法而非可直接套用的植栽數值處方。",
+      "strength": "NORMATIVE_PRACTICE",
+      "scope_zh": "澳洲墨爾本研究脈絡；主張限於此來源的研究設計與樣本，不外推為本基地規範。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref",
+    "query": {
+      "title": "Planning for cooler cities: A framework to prioritise green infrastructure to mitigate high temperatures in urban landscapes",
+      "author": "Briony A. Norton",
+      "year": 2015
+    },
+    "matched_record_id": "https://doi.org/10.1016/j.landurbplan.2014.10.018",
+    "checked_at_utc": "2026-10-08T09:55:35Z",
+    "match_notes_zh": "核對 Crossref 回傳書名、主要作者、出版年與 DOI；摘要只在實際取得並閱讀的論文上標 ABSTRACT_REVIEW。"
+  },
+  "limitations_zh": "澳洲墨爾本研究脈絡；書目核對不替代完整論文審查。",
+  "critique_relationship_zh": "此條目的批評連結供編者並讀，不宣稱存在直接互引。",
+  "metadata_licence_zh": "僅保存公開書目欄位與自行撰寫的摘要；未保存摘要原文，metadata 授權未單獨核定。"
+}

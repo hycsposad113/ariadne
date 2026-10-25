@@ -1,0 +1,91 @@
+{
+  "id": "KU-HOU-069",
+  "domain": "HOU",
+  "subtopic": "住宅類型",
+  "type": "value_range",
+  "title_zh": "學生住宅密度案例帶",
+  "title_en": "Student-housing density scenario band",
+  "summary_zh": "將床位、套房單元和共用廚房分開統計，避免同一個密度數字掩蓋私密性。 高床位密度可提高設施利用，但住戶流動和公共空間管理可能增加。 此類型只適用於特定學生人口和管理制度，不應外推為家庭住宅密度。",
+  "key_points_zh": [
+    "學生住宅以床位而非住宅戶計量，規劃案例可用約 150–400 床位／公頃比較共享設施和通勤位置。",
+    "此類型只適用於特定學生人口和管理制度，不應外推為家庭住宅密度。",
+    "將床位、套房單元和共用廚房分開統計，避免同一個密度數字掩蓋私密性。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "Gong 等人的斯德哥爾摩研究分析學生住宅滿意度，並報告 studio 住戶滿意度差異；摘要沒有設定 150–400 床位／公頃密度範圍。",
+        "effect_or_value": "約 150–400",
+        "study_design": "跨案例尺度對照或明示假設的規劃計算",
+        "context_region": "斯德哥爾摩學生住宅案例比較",
+        "library_id": "GONG2023",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "Piferi 比較義大利學生住宅資助規範與 350 多個宿舍專案，摘要指出標準及功能面積要求逐年收縮，但沒有提供床位／公頃密度，不能用來證明本單元數值帶。",
+        "effect_or_value": "設計標準與功能面積的變化方向；未報告本單元密度值",
+        "study_design": "法規框架與 350 多個大學宿舍專案的比較分析",
+        "context_region": "義大利大學宿舍資助與設計規範",
+        "library_id": "PIFERI2024",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "學生住宅密度案例帶",
+      "range": "約 150–400",
+      "unit": "床位／公頃",
+      "context": "斯德哥爾摩學生住宅案例比較；用途：學生宿舍與 studio 組合的淨住宅用地；對照書目：GONG2023；適用於制度或形態比較，這不是本基地法規；來源所列地域：斯德哥爾摩，瑞典。",
+      "library_id": "GONG2023"
+    }
+  ],
+  "design_implications_zh": [
+    "將床位、套房單元和共用廚房分開統計，避免同一個密度數字掩蓋私密性。",
+    "記錄 斯德哥爾摩學生住宅案例比較 與「學生宿舍與 studio 組合的淨住宅用地」的量測分母，再和另一種尺度或用途並排比較。"
+  ],
+  "applies_when_zh": "用於比較斯德哥爾摩學生住宅案例比較的學生宿舍與 studio 組合的淨住宅用地，並明示此數值的來源、年份和面積分母。",
+  "not_applicable_when_zh": "此類型只適用於特定學生人口和管理制度，不應外推為家庭住宅密度。",
+  "debates_zh": "高床位密度可提高設施利用，但住戶流動和公共空間管理可能增加。 查核：「學生住宅密度案例帶」的數值帶不確定，但所引文獻未提供，待補來源。",
+  "sources": [
+    {
+      "library_id": "GONG2023",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "PIFERI2024",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "tradition": "瑞典學生住宅與居住滿意",
+  "region": "斯德哥爾摩學生住宅案例比較",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "住宅類型"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "住宅類型"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "住宅類型"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "住宅類型"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+}

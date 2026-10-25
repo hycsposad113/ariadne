@@ -1,0 +1,43 @@
+{
+  "id": "HIRT2010",
+  "title": "To zone or not to zone? Comparing European and American Land-use Regulation",
+  "authors": [
+    "Sonia A. Hirt"
+  ],
+  "year": 2010,
+  "venue_or_publisher": "VTechWorks (Virginia Tech)",
+  "doi": null,
+  "isbn": null,
+  "openalex_id": "https://openalex.org/W2579978867",
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "比較土地使用管制",
+  "region": [
+    "德國斯圖加特與美國"
+  ],
+  "method": "法規文件回顧與專家訪談",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "比較指出美國分區常以用途互斥為預設，德國制度較常以主要用途容許多種活動；類別名稱相似不代表許可內容相同。",
+      "strength": "MIXED",
+      "scope_zh": "僅限摘要可核對的範圍；未讀全文，不推論摘要未列的數字、因果或普遍適用性。",
+      "assessment_basis": "ABSTRACT_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "OpenAlex",
+    "query": {
+      "record_id": "https://openalex.org/W2579978867",
+      "title": "To zone or not to zone? Comparing European and American Land-use Regulation",
+      "author": "Sonia A. Hirt",
+      "year": 2010
+    },
+    "matched_record_id": "https://openalex.org/W2579978867",
+    "checked_at_utc": "2026-10-08T09:12:32Z",
+    "match_notes_zh": "以 OpenAlex 精確 work 記錄核對書名、作者與出版年；只使用摘要作主張範圍檢查，未下載全文。"
+  },
+  "limitations_zh": "僅使用允許的書目欄位和摘要核對；未取得或保存全文。",
+  "metadata_licence_zh": "保存公開書目欄位與自行撰寫主張摘要；未保存 API 摘要原文或全文。"
+}

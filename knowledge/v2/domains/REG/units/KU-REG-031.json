@@ -1,0 +1,103 @@
+{
+  "id": "KU-REG-031",
+  "domain": "REG",
+  "subtopic": "英國裁量式規劃",
+  "type": "design_principle",
+  "title_zh": "英國裁量式規劃｜設計原則",
+  "title_en": "UK discretionary planning profile — Design principle",
+  "summary_zh": "英格蘭土地推廣者的研究說明規劃風險如何進入持地和融資策略。 逐案裁量須連同政策依據、上訴理由和許可條件一起閱讀；宏觀政策目標不保證微觀場址已有可執行工具。 制度研究也不能取代現行法律意見。",
+  "key_points_zh": [
+    "讀「英國裁量式規劃｜設計原則」時，檢視決策案例、上訴理由、政策依據和實施條件；同時把非正式性並非只屬於貧民區；規劃需處理制度例外與分配正義，不能把非正式使用當空白基地列為核對條件。",
+    "讀「英國裁量式規劃｜設計原則」時，檢視決策案例、上訴理由、政策依據和實施條件；同時把非正式性並非只屬於貧民區；規劃需處理制度例外與分配正義，不能把非正式使用當空白基地列為核對條件。",
+    "限制：本文引用是制度研究，不是英國現行法規的法律建議。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "Shepherd 等人以英格蘭土地推廣者為案例，分析規劃風險如何進入持地與融資策略；這是市場與制度實證，不能作成英國法規意見。",
+        "library_id": "SHEPHERD2022",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "英格蘭",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW",
+        "limitations_zh": "本條依公開摘要或書目範圍整理；未據此推定本基地法規、普遍效果或未核對的數值。"
+      },
+      {
+        "claim_zh": "英國國家規劃政策框架提供 plan-led 決策的官方政策文本；個案仍須對照當前地方發展計畫與裁量理由。",
+        "library_id": "UK_NPPF_DP",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "英格蘭",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "本條依公開摘要或書目範圍整理；未據此推定本基地法規、普遍效果或未核對的數值。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "落實「英國裁量式規劃｜設計原則」時可先檢視決策案例、上訴理由、政策依據和實施條件，再用非正式性並非只屬於貧民區；規劃需處理制度例外與分配正義，不能把非正式使用當空白基地核對方案的空間後果。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "在「英國裁量式規劃｜設計原則」的來源情境裡，檢視決策案例、上訴理由、政策依據和實施條件；落到設計時還要按非正式性並非只屬於貧民區；規劃需處理制度例外與分配正義，不能把非正式使用當空白基地調整。",
+      "tradeoff_zh": "「英國裁量式規劃｜設計原則」採用「在「英國裁量式規劃｜設計原則」的來源情境裡，檢視決策案例、上訴理由、政策依據和實施條件；落到設計時還要按非正式性並非只屬於貧民區；規劃需處理制度例外與分配正義，不能把非正式使用當空白基地調整」時，得失要沿著非正式性並非只屬於貧民區；規劃需處理制度例外與分配正義，不能把非正式使用當空白基地檢查；有政策目標不代表微觀場址一定有可執行工具。",
+      "library_ids": []
+    },
+    {
+      "option_zh": "「英國裁量式規劃｜設計原則」可把取向落在同一政策目標可能透過上訴、條件和開發協商形成不同結果，但需連同非正式性並非只屬於貧民區；規劃需處理制度例外與分配正義，不能把非正式使用當空白基地決定適用方式。",
+      "tradeoff_zh": "「英國裁量式規劃｜設計原則」的主要代價不是抽象的建造成本，而是有政策目標不代表微觀場址一定有可執行工具；因此先以非正式性並非只屬於貧民區；規劃需處理制度例外與分配正義，不能把非正式使用當空白基地作方案比較條件。",
+      "library_ids": []
+    }
+  ],
+  "applies_when_zh": "「英國裁量式規劃｜設計原則」可在適用於了解逐案裁量及規劃風險的制度後果時使用，前提是非正式性並非只屬於貧民區；規劃需處理制度例外與分配正義，不能把非正式使用當空白基地與來源情境相符。",
+  "not_applicable_when_zh": "若非正式性並非只屬於貧民區；規劃需處理制度例外與分配正義，不能把非正式使用當空白基地不成立，就不能把「英國裁量式規劃｜設計原則」的結論延伸到其他情況；本文引用是制度研究，不是英國現行法規的法律建議。",
+  "debates_zh": "有政策目標不代表微觀場址一定有可執行工具。",
+  "sources": [
+    {
+      "library_id": "SHEPHERD2022",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "UK_NPPF_DP",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "非正式都市化；全球南方規劃批評",
+  "region": "全球南方；非洲",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Planning Complex Cities",
+      "topic": "英國裁量式規劃"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Urban Design Contexts and Operations",
+      "topic": "英國裁量式規劃"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "英國裁量式規劃"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban design governance",
+      "topic": "英國裁量式規劃"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-REG-029",
+    "KU-REG-030",
+    "KU-REG-032"
+  ],
+  "counter_unit_ids": [
+    "KU-REG-033"
+  ]
+}

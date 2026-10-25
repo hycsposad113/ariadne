@@ -1,0 +1,71 @@
+{
+  "id": "KU-THY-018",
+  "domain": "THY",
+  "subtopic": "城市轉型史（倫敦、巴黎 Haussmann、維也納 Ringstrasse、巴塞隆納 Cerdà、芝加哥）",
+  "type": "theory",
+  "title_zh": "曼哈頓 1811 格子計畫",
+  "title_en": "Manhattan Commissioners Plan 1811",
+  "summary_zh": "1811 年曼哈頓委員會計畫以大規模格子為島上後續擴張建立道路與土地分割框架。它強調可延伸的秩序與地產開發，但格子和地形、水岸及公共空間之間仍有張力。比較網格對土地可分割性、路線選擇及地形改造的不同影響。",
+  "key_points_zh": [
+    "比較網格對土地可分割性、路線選擇及地形改造的不同影響。",
+    "幾何規則不等於社會公平；也不能把後來中央公園視為原計畫既有內容。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "1811 年曼哈頓委員會計畫以大規模格子為島上後續擴張建立道路與土地分割框架。它強調可延伸的秩序與地產開發，但格子和地形、水岸及公共空間之間仍有張力。",
+        "library_id": "KOSTOF1991",
+        "locator": null,
+        "study_design": "理論／方法綜述；非基地實測",
+        "effect_or_value": null,
+        "context_region": null,
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008"
+      },
+      {
+        "claim_zh": "Mumford 的城市史提供格子計畫和城市擴張的獨立脈絡；其論述作者不同於作為單一引文的 Kostof。",
+        "library_id": "MUMFORD1961",
+        "locator": null,
+        "study_design": "歷史／城市文明",
+        "effect_or_value": null,
+        "context_region": "美國、跨地域",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "比較網格對土地可分割性、路線選擇及地形改造的不同影響。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "保留規則格子利於地塊交易",
+      "tradeoff_zh": "部分自然地形可能被整平。",
+      "library_ids": [
+        "KOSTOF1991"
+      ]
+    }
+  ],
+  "applies_when_zh": "用於釐清「曼哈頓 1811 格子計畫」涉及的空間、制度與行動選擇。",
+  "not_applicable_when_zh": "「曼哈頓 1811 格子計畫」不能直接替代基地的實測、法規或人類批准。",
+  "debates_zh": "幾何規則不等於社會公平；也不能把後來中央公園視為原計畫既有內容。",
+  "sources": [
+    {
+      "library_id": "KOSTOF1991",
+      "locator": null
+    },
+    {
+      "library_id": "MUMFORD1961",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+  "curriculum_refs": [
+    {
+      "school": "MIT",
+      "course": null,
+      "topic": "編者主題對照，非已核實課程指定閱讀：曼哈頓 1811 格子計畫"
+    }
+  ],
+  "version": "2.0.0-theory-v3"
+}

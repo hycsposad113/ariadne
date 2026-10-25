@@ -1,0 +1,91 @@
+{
+  "id": "KU-CAS-031",
+  "domain": "CAS",
+  "subtopic": "住宅與街區—現代主義大型住宅區更新",
+  "type": "case",
+  "title_zh": "Bijlmermeer：從蜂巢式高樓理想走向拆除與混合住宅",
+  "title_en": "Bijlmermeer: From Modernist Superblocks to Demolition and Housing Diversification",
+  "summary_zh": "阿姆斯特丹東南部 Bijlmermeer 在 1960 年代以蜂巢式高層住宅、綠地和人車分流實踐功能分區。市府刊載的地方史訪談指出，1990 年代拆除約六成高樓；該比例來自受訪者敘述，並非本單元獨立核算。Wassenberg 的 2011 年論文以大型住宅區轉型與拆除為研究題目，但這裡沒有把未讀全文的結果寫成因果證據。案例顯示物理多樣化可與社區記憶及長期社會政策的爭論同時存在。",
+  "key_points_zh": [
+    "更新策略涵蓋拆除、翻新和住宅形式多樣化，不能只用「改善形象」概括。",
+    "地方史訪談保留了不同居民對原有高樓的情感，應與行政更新說明並置。"
+  ],
+  "evidence": {
+    "strength": "CASE_EVIDENCE",
+    "findings": [
+      {
+        "claim_zh": "Wassenberg 的論文題名以 Bijlmermeer 大型住宅區轉型與拆除為研究主題；本輪未核讀摘要或全文，不引用效果結論。",
+        "effect_or_value": "僅確認研究案例與題目範圍；不報告效果量",
+        "study_design": "學術論文；本輪僅書目範圍核對",
+        "context_region": "荷蘭阿姆斯特丹",
+        "library_id": "WASSENBERG2011",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "阿姆斯特丹市府 2023 年刊載 Bijlmer Museum 創辦人 Henno Eggenkamp 的訪談，受訪者稱 1990 年代拆除約 60% 高樓。",
+        "effect_or_value": "市府刊載的地方史訪談說法；非獨立拆除清冊",
+        "study_design": "地方史訪談／市府文化文章",
+        "context_region": "荷蘭阿姆斯特丹 Bijlmermeer",
+        "library_id": "AMSTERDAM_BIJLMER2023",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "以區段時間軸分開標示拆除、翻修、保留樓群與新增住房，避免總體數字抹去街區差異。",
+    "納入長期居民、租戶與地方史團體敘事，並查核哪些服務及公共空間在更新後仍可使用。"
+  ],
+  "applies_when_zh": "大型住宅區同時面臨維修、空置或服務落差，而更新決策仍能比較保留、翻新與拆建方案時。",
+  "not_applicable_when_zh": "若拆除與重建已造成搬遷，而租戶保障、回遷和新房可負擔性沒有資料時，不能用建築外觀多樣化代替社會成效評估。",
+  "debates_zh": "Bijlmer 的支持者記得高樓周邊的開放空間，批評者則把空置、維修與犯罪問題連在一起；市府訪談保存了一位地方史工作者對拆除的反對。單一受訪者不能代表全體居民，學術論文在本輪也只核對書目，因此拆除比例和更新效果仍需以行政檔案、住房資料及多方訪談交叉檢查。",
+  "sources": [
+    {
+      "library_id": "WASSENBERG2011",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "AMSTERDAM_BIJLMER2023",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "荷蘭戰後現代主義住宅、都市更新與地方記憶",
+  "region": "西歐／荷蘭阿姆斯特丹東南區",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": null,
+      "topic": "戰後大型住宅區更新與社會住宅治理"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": null,
+      "topic": "都市更新、社會空間與居民記憶"
+    }
+  ],
+  "case": {
+    "location": "荷蘭阿姆斯特丹 Bijlmermeer",
+    "period": "1960 年代末開始入住；1990 年代進入大型改造與高樓拆除階段",
+    "area_ha": null,
+    "fsi": null,
+    "gsi": null,
+    "program_mix": "住宅、綠地、社區服務及多種後續住房形式；未查得可比用途比例。",
+    "key_strategies_zh": [
+      "把樓群維修、拆除與新建的決策分區、分期公開，讓居民看得到選擇及其後果。",
+      "將社會住房、公共服務、步行空間與交通連通一併評估，不把單一建築類型視為社區問題的唯一成因。"
+    ],
+    "outcomes_zh": [
+      "市府刊載的地方史訪談稱 1990 年代約六成高樓被拆；該數據屬受訪者回憶口徑，尚無本單元獨立清冊核對。",
+      "市府文章記錄自 1968 年起有居民入住，並概述蜂巢式高樓與功能分區的初始規劃概念。"
+    ],
+    "critiques_zh": [
+      "若引用拆除比例，須另核對拆除樓棟清單與統計口徑。",
+      "新建住房數量不等於原租戶回遷率，也不證明生活服務或社區網絡改善。"
+    ]
+  },
+  "version": "v2.0"
+}

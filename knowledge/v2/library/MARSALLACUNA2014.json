@@ -1,0 +1,43 @@
+{
+  "id": "MARSALLACUNA2014",
+  "title": "Smart Urban Planning: Designing Urban Land Use from Urban Time Use",
+  "authors": [
+    "Maria-Lluïsa Marsal-Llacuna",
+    "Maria-Beatriz López-Ibáñez"
+  ],
+  "year": 2014,
+  "venue_or_publisher": "Journal of Urban Technology",
+  "doi": "10.1080/10630732.2014.884385",
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "都市時間使用與土地使用規劃",
+  "region": [
+    "跨地域"
+  ],
+  "method": "urban time-use framing for land-use planning",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "Marsal-Llacuna 與 López-Ibáñez 將都市土地使用規劃與都市時間使用相連；本條僅據書目題旨建立時序分析的閱讀方向，不據此推定活動量或因果。",
+      "strength": "THEORETICAL",
+      "scope_zh": "僅依允許的公開書目資訊與專業範圍描述；沒有查閱全文，不提供本基地法規、成效估計、因果結論或數值門檻。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref",
+    "query": {
+      "title": "Smart Urban Planning: Designing Urban Land Use from Urban Time Use",
+      "author": "Maria-Lluïsa Marsal-Llacuna",
+      "year": 2014
+    },
+    "matched_record_id": "10.1080/10630732.2014.884385",
+    "checked_at_utc": "2026-10-08T16:17:33Z",
+    "match_notes_zh": "以允許的公開 API 回傳之書名、作者與年份核對；僅確認書目，不代表全文主張已審核。"
+  },
+  "limitations_zh": "僅核對公開書目欄位與標題範圍，未取得或查閱全文；不推論研究效果或因果。",
+  "metadata_licence_zh": "保存公開 API 書目欄位與自行撰寫的範圍摘要；未保存 API 摘要原文或全文。"
+}

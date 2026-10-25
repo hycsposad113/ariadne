@@ -1,0 +1,131 @@
+{
+  "id": "KU-MOB-073",
+  "domain": "MOB",
+  "subtopic": "無車區與物流",
+  "type": "empirical_finding",
+  "title_zh": "零排放配送區的訪談與案例證據",
+  "title_en": "Interview and case evidence on zero-emission delivery zones",
+  "summary_zh": "Steimer、Kothari 與 Cassius 的 WRI 報告以 15 位以上利害關係人訪談和美國城市案例整理零排放配送區。摘要提出初步的有效性與公平性設計建議，摘要未報告可通用的排放減量或配送成本係數。Jaller 等人的貨運產生點研究和 Nuzzolo 等人的浮動車資料研究提醒，規劃無車或低排放區時仍須先理解貨運目的地與車流。",
+  "key_points_zh": [
+    "WRI 摘要描述 15 位以上訪談及多個美國案例，屬質性政策證據。",
+    "報告未提供可外推的減排效果量；配送需求與貨運流仍需在地調查。",
+    "零排放配送區和完全無車區的管制對象不同。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "Crossref 摘要描述 15 位以上訪談和美國城市零排放配送區案例，並整理初步設計建議。",
+        "library_id": "STEIMER22",
+        "claim_verification": "ABSTRACT_REVIEW",
+        "effect_or_value": "15 位以上利害關係人訪談和案例比較，沒有因果對照組。",
+        "study_design": "WRI 質性報告：多城市案例與利害關係人訪談",
+        "context_region": "美國城市案例",
+        "locator": null
+      },
+      {
+        "claim_zh": "貨運產生點研究強調商業設施是重要配送目的地；不能從摘要推斷具體基地流量。",
+        "library_id": "JALLER15",
+        "claim_verification": "ABSTRACT_REVIEW",
+        "effect_or_value": "貨運目的地與配送車流需與步行優先空間一併盤點。",
+        "study_design": "貨運產生點模型研究",
+        "context_region": "都會區，摘要未列城市",
+        "locator": null
+      },
+      {
+        "claim_zh": "浮動車資料可用於分析貨運配送模式，但本單元不推定其地區數值。",
+        "library_id": "NUZZOLO20",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": "案例資料未提供可直接移植的減排率或裝卸需求係數。",
+        "study_design": "浮動車資料分析框架",
+        "context_region": "城市貨運研究",
+        "locator": null
+      },
+      {
+        "claim_zh": "書目題名涵蓋市中心區城市物流措施；沒有摘要或全文依據時，不從題名推定措施的成效。",
+        "library_id": "TADIC19",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "書目與題名範圍；無摘要成效可核",
+        "context_region": "中心都市區；具體案例未核",
+        "locator": null
+      },
+      {
+        "claim_zh": "Kushner 討論無車住宅發展與分區政策；本單元只採其書目範圍，不推定政策造成的出行效果。",
+        "library_id": "KUSHNER05",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "無車住宅與分區政策的書目範圍",
+        "context_region": "美國",
+        "locator": null
+      },
+      {
+        "claim_zh": "Campbell 討論永續與公平城市規劃的張力；此來源提供評估物流區分配效果的概念背景，不是配送成效研究。",
+        "library_id": "CAMPBELL96",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "永續城市規劃的概念論文",
+        "context_region": "北美都市規劃理論",
+        "locator": null
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "把配送時段、裝卸點、貨運產生點和零排放目標分開設計，再訪談商戶、物流業者與服務工作者。"
+  ],
+  "applies_when_zh": "規劃低車或零排放區時，盤點配送時段、裝卸點、貨運目的地和車流。",
+  "not_applicable_when_zh": "這份報告不能證明零排放配送區必然降低成本或不增加繞行，也不能代表完全無車區的物流結果。",
+  "debates_zh": "質性政策建議呈現實施障礙和公平考量，但缺少因果比較；城市規模、車隊組成與配送市場會改變結果。",
+  "sources": [
+    {
+      "library_id": "STEIMER22",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "JALLER15",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "NUZZOLO20",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "TADIC19",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "KUSHNER05",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "CAMPBELL96",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "城市貨運政策、貨運產生點與配送流分析",
+  "region": "美國多城市政策案例",
+  "curriculum_refs": [
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "無車區與物流：課綱對應主題"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Sustainable Futures by Design",
+      "topic": "無車區與物流：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-MOB-064"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "id": "PITTSBURGH_SOUTH_SIDE_WORKS_PLAN2026",
+  "title": "Specially Planned Districts: South Side Works SP-5",
+  "authors": [
+    "City of Pittsburgh, Department of City Planning"
+  ],
+  "year": 2026,
+  "venue_or_publisher": "City of Pittsburgh, Department of City Planning",
+  "doi": null,
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "OFFICIAL_CITY_PLANNING_DOCUMENT",
+  "tradition": "官方或專業機構公開頁面；直接來源核對",
+  "region": "美國賓夕法尼亞州 Pittsburgh",
+  "method": "直接檢視官方或專業機構公開頁面；非獨立學術成效評估",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "市府規劃頁列出 South Side Works SP-5 及其 Preliminary Land Development Plan 與設計指引，說明特別規劃區審議及設計審查程序。",
+      "strength": "CASE_EVIDENCE",
+      "scope_zh": "頁面確認規劃制度與文件入口，不把規劃目標當作已建成結果。",
+      "assessment_basis": "DIRECT_SOURCE_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Official webpage or public report (direct review)",
+    "query": {
+      "title": "Specially Planned Districts: South Side Works SP-5",
+      "author": "City of Pittsburgh, Department of City Planning",
+      "year": 2026,
+      "api_query": "Read-only page reviewed directly: https://www.pittsburghpa.gov/Business-Development/City-Planning/Zoning/Planning-Applications-and-Processes/Specially-Planned-Districts"
+    },
+    "matched_record_id": "https://www.pittsburghpa.gov/Business-Development/City-Planning/Zoning/Planning-Applications-and-Processes/Specially-Planned-Districts",
+    "checked_at_utc": "2026-10-08T14:27:24Z",
+    "match_notes_zh": "直接核對機構公開頁面或報告；此狀態不是 Crossref 書目驗證。"
+  },
+  "limitations_zh": "頁面確認規劃制度與文件入口，不把規劃目標當作已建成結果。",
+  "critique_relationship_zh": "本記錄不宣稱與其他書目存在直接互引或逐一反駁關係。",
+  "metadata_licence_zh": "官方或機構公開資料；個別文本的再利用授權未核驗。"
+}

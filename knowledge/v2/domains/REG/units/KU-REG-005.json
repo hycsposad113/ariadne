@@ -1,0 +1,103 @@
+{
+  "id": "KU-REG-005",
+  "domain": "REG",
+  "subtopic": "容積率、建蔽率、高度與斜線",
+  "type": "critique",
+  "title_zh": "容積率、建蔽率、高度與斜線｜批評與反例",
+  "title_en": "FAR, coverage, height and envelope — Critique and counterexample",
+  "summary_zh": "規則的名稱不足以說明其對城市形態的作用；容積、覆蓋、高度和街道斷面要分開檢視。 規劃史能揭示標準背後的土地價值與治理選擇，形式準則則把建築與街道納入規範對象。 對照具體許可案例，才能看見文本如何經由地方審查和協商變成建成結果。",
+  "key_points_zh": [
+    "讀「容積率、建蔽率、高度與斜線｜批評與反例」時，法定上限、設計目標和研究指標是不同證據類別；同時把規則的名稱不足以說明其對城市形態的作用；容積、覆蓋、高度和街道斷面要分開檢視列為核對條件。",
+    "讀「容積率、建蔽率、高度與斜線｜批評與反例」時，適用於制度比較及草案情境分析，不直接判定基地合規；同時把規則的名稱不足以說明其對城市形態的作用；容積、覆蓋、高度和街道斷面要分開檢視列為核對條件。",
+    "讀「容積率、建蔽率、高度與斜線｜批評與反例」時，限制：此處是通用制度輪廓，不是本基地法規或法律意見；同時把規則的名稱不足以說明其對城市形態的作用；容積、覆蓋、高度和街道斷面要分開檢視列為核對條件。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "專書從規劃規則與城市形態關係切入，提醒讀者檢視規則背後的價值選擇與空間後果。",
+        "library_id": "TALEN2012",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "美國",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "Guaralda 的期刊評論同時討論 Talen、Marshall 與 Tomlinson 的規劃規則及形式規劃著作，直接涵蓋規範如何與城市形態相連。",
+        "effect_or_value": null,
+        "study_design": "城市規則與形式規劃專書評論",
+        "context_region": "美國與澳洲規劃文獻",
+        "library_id": "GUARALDA2014",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW",
+        "limitations_zh": "這是文獻評論，不是對特定容積、高度或斜線規定的成效估計。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "落實「容積率、建蔽率、高度與斜線｜批評與反例」時可先同一容積可以用不同高度和覆蓋組合落地，再用規則的名稱不足以說明其對城市形態的作用；容積、覆蓋、高度和街道斷面要分開檢視核對方案的空間後果。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "在「容積率、建蔽率、高度與斜線｜批評與反例」的來源情境裡，記錄分母、計容用途、退縮、樓層和轉角條件，再做形式方案比較；落到設計時還要按規則的名稱不足以說明其對城市形態的作用；容積、覆蓋、高度和街道斷面要分開檢視調整。",
+      "tradeoff_zh": "「容積率、建蔽率、高度與斜線｜批評與反例」的主要代價不是抽象的建造成本，而是設計者可依地方目標選擇，也可提出反例；這是待驗證的主張，不是普遍法規；因此先以規則的名稱不足以說明其對城市形態的作用；容積、覆蓋、高度和街道斷面要分開檢視作方案比較條件。",
+      "library_ids": [
+        "TALEN2012"
+      ]
+    },
+    {
+      "option_zh": "在「容積率、建蔽率、高度與斜線｜批評與反例」的來源情境裡，同一容積可以用不同高度和覆蓋組合落地；落到設計時還要按規則的名稱不足以說明其對城市形態的作用；容積、覆蓋、高度和街道斷面要分開檢視調整。",
+      "tradeoff_zh": "「容積率、建蔽率、高度與斜線｜批評與反例」的主要代價不是抽象的建造成本，而是設計者可依地方目標選擇，也可提出反例；這是待驗證的主張，不是普遍法規；因此先以規則的名稱不足以說明其對城市形態的作用；容積、覆蓋、高度和街道斷面要分開檢視作方案比較條件。",
+      "library_ids": [
+        "TALEN2012"
+      ]
+    }
+  ],
+  "applies_when_zh": "「容積率、建蔽率、高度與斜線｜批評與反例」可在適用於制度比較及草案情境分析，不直接判定基地合規時使用，前提是規則的名稱不足以說明其對城市形態的作用；容積、覆蓋、高度和街道斷面要分開檢視與來源情境相符。",
+  "not_applicable_when_zh": "若規則的名稱不足以說明其對城市形態的作用；容積、覆蓋、高度和街道斷面要分開檢視不成立，就不能把「容積率、建蔽率、高度與斜線｜批評與反例」的結論延伸到其他情況；此處是通用制度輪廓，不是本基地法規或法律意見。",
+  "debates_zh": "設計者可依地方目標選擇，也可提出反例；這是待驗證的主張，不是普遍法規。",
+  "sources": [
+    {
+      "library_id": "TALEN2012",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "GUARALDA2014",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "比較土地使用管制；城市形態與規劃規則",
+  "region": "德國斯圖加特與美國；美國",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Planning Complex Cities",
+      "topic": "容積率、建蔽率、高度與斜線"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Urban Design Contexts and Operations",
+      "topic": "容積率、建蔽率、高度與斜線"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "容積率、建蔽率、高度與斜線"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban design governance",
+      "topic": "容積率、建蔽率、高度與斜線"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-REG-001",
+    "KU-REG-002",
+    "KU-REG-003"
+  ]
+}

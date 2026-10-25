@@ -1,0 +1,78 @@
+{
+  "id": "KU-HOU-076",
+  "domain": "HOU",
+  "subtopic": "可負擔性",
+  "type": "value_range",
+  "title_zh": "低收入租戶的收入計租效果比例",
+  "title_en": "Income-based rent effect among low-income tenants",
+  "summary_zh": "此結果限於加拿大特定政策時期，不能套用到其他國家的補助制度。 分開列出收入資格、租金計算方式和租戶實際支付，避免把補貼比例當成可負擔率。 記錄 多倫多社會住宅政策史 與「收入計租低收入租戶相對於市場租金的折減情境」的量測分母，再和另一種尺度或用途並排比較。",
+  "key_points_zh": [
+    "多倫多歷史資料顯示收入計租使近四成低收入租戶的租金低於市場租金四成。",
+    "此結果限於加拿大特定政策時期，不能套用到其他國家的補助制度。",
+    "分開列出收入資格、租金計算方式和租戶實際支付，避免把補貼比例當成可負擔率。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "多倫多歷史資料顯示收入計租使近四成低收入租戶的租金低於市場租金四成。",
+        "effect_or_value": "約 40% 租戶低於市場租金的 40%",
+        "study_design": "跨案例尺度對照或明示假設的規劃計算",
+        "context_region": "多倫多社會住宅政策史",
+        "library_id": "SUTTOR2014",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "低收入租戶的收入計租效果比例",
+      "range": "約 40% 租戶低於市場租金的 40%",
+      "unit": "租戶占比與租金比例",
+      "context": "多倫多社會住宅政策史；用途：收入計租低收入租戶相對於市場租金的折減情境；對照書目：SUTTOR2014；適用於制度或形態比較，這不是本基地法規；來源所列地域：加拿大安大略與多倫多，1965–1995。",
+      "library_id": "SUTTOR2014"
+    }
+  ],
+  "design_implications_zh": [
+    "分開列出收入資格、租金計算方式和租戶實際支付，避免把補貼比例當成可負擔率。",
+    "記錄 多倫多社會住宅政策史 與「收入計租低收入租戶相對於市場租金的折減情境」的量測分母，再和另一種尺度或用途並排比較。"
+  ],
+  "applies_when_zh": "用於比較多倫多社會住宅政策史的收入計租低收入租戶相對於市場租金的折減情境，並明示此數值的來源、年份和面積分母。",
+  "not_applicable_when_zh": "此結果限於加拿大特定政策時期，不能套用到其他國家的補助制度。",
+  "debates_zh": "按收入計租能降低部分住戶負擔，但資格門檻和等待名單仍可能排除有需要的家庭。 查核：無法核實。",
+  "sources": [
+    {
+      "library_id": "SUTTOR2014",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "SINGLE_SOURCE",
+  "tradition": "加拿大社會住宅與城市空間",
+  "region": "多倫多社會住宅政策史",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "可負擔性"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "可負擔性"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "可負擔性"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "可負擔性"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+}

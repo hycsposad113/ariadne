@@ -1,0 +1,79 @@
+{
+  "id": "KU-HAR-043",
+  "type": "value_range",
+  "subtopic": "港區轉型案例",
+  "title_zh": "High Line 第二階段延伸半英里",
+  "title_en": "The High Line Second Section Added Half a Mile",
+  "summary_zh": "紐約市 2011 年公告記錄 High Line 第二階段新增半英里，並指出該工程使公園長度加倍。這是單一階段的延伸長度，不能當成整條高架公園的當前總長。用分期尺度描述有助辨認新增公共空間如何逐段接入周邊街區，但不評估沿線租金或搬遷效果。",
+  "values": [
+    {
+      "name": "第二階段新增公園長度",
+      "range": "0.5",
+      "unit": "英里",
+      "context": "用途：以「第二階段新增公園長度」作為來源情境參照；紐約市2011年公告所列High Line第二階段長度；不是全線總長，也不是本基地法規。",
+      "library_id": "NYC_HIGHLINE_PHASE2_2011"
+    }
+  ],
+  "key_points_zh": [
+    "新增段長與全線長度不得混用。",
+    "公共設施的延伸成效需搭配入口、無障礙和周邊街道資料。"
+  ],
+  "design_implications_zh": [
+    "把高架路段、垂直入口和街面公共路徑分開統計。"
+  ],
+  "applies_when_zh": "比較分期開放的線性公園及周邊更新時。",
+  "not_applicable_when_zh": "推估公園對房價、就業或居民組成的因果效應時。",
+  "debates_zh": "公園建成可增加可用公共空間，同時也可能成為周邊投資與租金上升的焦點；兩者需要不同研究設計。",
+  "tradition": "線性公園／公園私有化批判",
+  "region": "美國紐約曼哈頓",
+  "curriculum_refs": [
+    {
+      "school": "Harvard GSD",
+      "course": null,
+      "topic": "Public space and urban change"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": null,
+      "topic": "Green gentrification"
+    }
+  ],
+  "domain": "HAR",
+  "evidence": {
+    "strength": "CASE_EVIDENCE",
+    "findings": [
+      {
+        "claim_zh": "紐約市2011年公告記錄第二階段約半英里並使既有公園長度加倍。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "美國紐約曼哈頓",
+        "library_id": "NYC_HIGHLINE_PHASE2_2011",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "公園私有化與社會公平研究以High Line為案例，提出土地價值和治理面向。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "美國紐約曼哈頓",
+        "library_id": "LOUGHRAN2014",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "library_id": "NYC_HIGHLINE_PHASE2_2011",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "LOUGHRAN2014",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "version": "v2.0"
+}

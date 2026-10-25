@@ -1,0 +1,66 @@
+{
+  "id": "KU-PUB-046",
+  "domain": "PUB",
+  "subtopic": "公共空間私有化與管理",
+  "type": "critique",
+  "title_zh": "公共性需拆成權利和服務",
+  "title_en": "Publicness has several dimensions",
+  "summary_zh": "進入權、停留權、表達權、組織活動權和使用設施的公平不必同時出現。管理協議可以提供維護服務，也可能限制某些政治或非消費活動。形式上全天開放也可能缺乏實際可用的服務。公共性分類本身有爭議，需保留各使用者的不同判斷。",
+  "key_points_zh": [
+    "進入權、停留權、表達權、組織活動權和使用設施的公平不必同時出現",
+    "管理協議可以提供維護服務，也可能限制某些政治或非消費活動"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "進入權、停留權、表達權、組織活動權和使用設施的公平不必同時出現。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "北美",
+        "library_id": "ANGELOVSKI19",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "公共性分類本身有爭議，需保留各使用者的不同判斷。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "以權利矩陣檢查現場管理規則和決策權歸屬。"
+  ],
+  "applies_when_zh": "適用於公共資產、商場和私營廣場的比較。",
+  "not_applicable_when_zh": "不能以單一公有／私有標籤結束判斷。",
+  "debates_zh": "公共性分類本身有爭議，需保留各使用者的不同判斷。",
+  "sources": [
+    {
+      "library_id": "ANGELOVSKI19",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "BYRNEWOLCH09",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "氣候正義與綠色仕紳化",
+  "region": "北美",
+  "curriculum_refs": [
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "公共空間私有化與管理"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Critical Debates in Urban Design",
+      "topic": "公共空間私有化與管理"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-PUB-045",
+    "KU-PUB-047"
+  ]
+}

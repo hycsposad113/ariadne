@@ -1,0 +1,80 @@
+{
+  "id": "KU-SYN-020",
+  "domain": "SYN",
+  "subtopic": "自然移動",
+  "type": "method",
+  "title_zh": "自然移動：可檢驗的方法",
+  "title_en": "Natural movement: Method and measurement",
+  "summary_zh": "同時量測路網中心性、土地使用和人流，按時段比較穿越與目的性活動。這個流程用來檢驗自然移動理論提出街網組態會先分配穿越機會，沿線吸引用途可能進一步放大既有移動分布。方法的主要限制是理論的關聯不保證因果；觀測到的商業或活動密度可能既是結果也是移動原因。",
+  "key_points_zh": [
+    "分析步驟：自然移動理論提出街網組態會先分配穿越機會，沿線吸引用途可能進一步放大既有移動分布",
+    "分析步驟：同時量測路網中心性、土地使用和人流，按時段比較穿越與目的性活動"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "自然移動：可檢驗的方法｜荷蘭新舊城案例將路網整合、密度與混合用途聯合診斷，初步行為資料檢驗並非通用因果模型",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "YE14",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "自然移動：可檢驗的方法｜巴西都市形態研究跨越地理、建築與都市學傳統；不宜假定歐洲分類可原樣套用",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "BRAZIL14",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "同時量測路網中心性、土地使用和人流，按時段比較穿越與目的性活動"
+  ],
+  "applies_when_zh": "需要測量「自然移動理論提出街網組態會先分配穿越機會，沿線吸引用途可能進一步放大既有移動分布」時，按「自然移動：可檢驗的方法」列出的資料範圍建構指標，同時保存網路版本與計算參數。",
+  "not_applicable_when_zh": "若資料無法支持「自然移動理論提出街網組態會先分配穿越機會，沿線吸引用途可能進一步放大既有移動分布」的測量，這套步驟不會產生可比較的結果；方法本身也不能選定設計目標。",
+  "debates_zh": "理論的關聯不保證因果；觀測到的商業或活動密度可能既是結果也是移動原因；檢視「自然移動：可檢驗的方法」的測量程序時，還需判斷「同時量測路網中心性、土地使用和人流，按時段比較穿越與目的性活動」會如何改變方案結論。",
+  "sources": [
+    {
+      "library_id": "YE14",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "BRAZIL14",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "組態與行人移動理論",
+  "region": "跨地域理論或實務脈絡；來源地區依引用條目判讀",
+  "curriculum_refs": [
+    {
+      "school": "Harvard GSD",
+      "course": "Cities by Design",
+      "topic": "自然移動：課綱對應主題"
+    },
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.330J Theory of City Form",
+      "topic": "自然移動：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-SYN-017",
+    "KU-SYN-018",
+    "KU-SYN-019",
+    "KU-SYN-021",
+    "KU-SYN-022",
+    "KU-SYN-023",
+    "KU-SYN-024"
+  ]
+}

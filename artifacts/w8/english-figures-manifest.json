@@ -1,0 +1,171 @@
+{
+  "manifest_version": "1.0.0",
+  "language": "en",
+  "files": {
+    "e1-fabric/closed_block_extension-20260321-sunlight-en.png": {
+      "zh_counterpart": "e1-fabric/closed_block_extension-20260321-sunlight-zh.png",
+      "sha256": "f2c986de5566bcd37fe7d8263fdbd01f9544a9fb9339cbb59da275e58397a083",
+      "zh_sha256": "caa2f00a541fef0694aec8c27f2ab51eb7f18b9f3af34179d46418701d145759"
+    },
+    "e1-fabric/closed_block_extension-20260621-sunlight-en.png": {
+      "zh_counterpart": "e1-fabric/closed_block_extension-20260621-sunlight-zh.png",
+      "sha256": "ef6eab3d0fcceffdb25caebb8be48238e01a227980d47c48c72264e0e4258cac",
+      "zh_sha256": "13a5d993bddd0b28e32ed68f7067757484ed981ea85b7eb4c17b9230548af914"
+    },
+    "e1-fabric/closed_block_extension-20261221-sunlight-en.png": {
+      "zh_counterpart": "e1-fabric/closed_block_extension-20261221-sunlight-zh.png",
+      "sha256": "2b50fc2d8a81ce12cf3450275c7bba4fec971b25fe1188f8354c04ff2767fa97",
+      "zh_sha256": "4582ce14f555c41db3bafd7f34ff5eabf8ed4b47f2e051f57337e0cec0210889"
+    },
+    "e1-fabric/comparison_summary_en.png": {
+      "zh_counterpart": "e1-fabric/comparison_summary_zh.png",
+      "sha256": "c8a36a9d549e7196898bff0c3f3167be3d03695729932a193ad2daae8e113c2a",
+      "zh_sha256": "a067386e075d4a065f7102100cc3a6efcb00531b6dc6e766085fe580bafdea66"
+    },
+    "e1-fabric/courtyard_islands-20260321-sunlight-en.png": {
+      "zh_counterpart": "e1-fabric/courtyard_islands-20260321-sunlight-zh.png",
+      "sha256": "aa8b88b7acfd4ade5d98a6942dcb4f52f44e281810b5f8cadb970725f5e577bc",
+      "zh_sha256": "1b15adfdab23831e5b910e780a1faaca809d3c030c9f196bb3a8cfe3d6b4fbb7"
+    },
+    "e1-fabric/courtyard_islands-20260621-sunlight-en.png": {
+      "zh_counterpart": "e1-fabric/courtyard_islands-20260621-sunlight-zh.png",
+      "sha256": "a3a58c5715786cfce0b58bdbe926f450353ee49bcfbf813375e9518e66a5a19a",
+      "zh_sha256": "e5168127e270cee074e354e7918dad337b736fe1289db7a19f741515d26c8d8d"
+    },
+    "e1-fabric/courtyard_islands-20261221-sunlight-en.png": {
+      "zh_counterpart": "e1-fabric/courtyard_islands-20261221-sunlight-zh.png",
+      "sha256": "a66ea5859f983d2186563fff4a2df762e9b28c10cd3fe2dd3062e6028bb0d002",
+      "zh_sha256": "521c484a9bf16d3eee0d0a1064e546933931c97a71bb1e571eccc87aeaf67f55"
+    },
+    "e1-fabric/e1-compare-20260321-spring-equinox-en.png": {
+      "zh_counterpart": "e1-fabric/e1-compare-20260321-春分-zh.png",
+      "sha256": "f65cfac6b3b64d246cd9562e294ac293f48b71de87ca10a5fed527c99cba0c5e",
+      "zh_sha256": "f9c33c1261195d19feb97213013b9fa26cb2286e17b6bcb665a760d1885e0178"
+    },
+    "e1-fabric/e1-compare-20260621-summer-solstice-en.png": {
+      "zh_counterpart": "e1-fabric/e1-compare-20260621-夏至-zh.png",
+      "sha256": "16e7205e97c19074f412b64c0eeee180278337d7a0a7ba2e2e1ba54540886b8c",
+      "zh_sha256": "332332e26cdff8b237b6dba09e62a115d870d7ce062126371924677fc539dec7"
+    },
+    "e1-fabric/e1-compare-20261221-winter-solstice-en.png": {
+      "zh_counterpart": "e1-fabric/e1-compare-20261221-冬至-zh.png",
+      "sha256": "2a43d9ec293d9a6cc456abd6fe7e4942036e18aa2e382b3e4495fe8ad1dd64f7",
+      "zh_sha256": "dbd38fa479e232d0f01dbe739c01f6d93349eff9c54c8b0a8a249d6d4b7548b5"
+    },
+    "e1-fabric/harbour_grain-20260321-sunlight-en.png": {
+      "zh_counterpart": "e1-fabric/harbour_grain-20260321-sunlight-zh.png",
+      "sha256": "2fda279eb5dc51568c37a122a4563dc38fb0be0c4ec8032cb290817a854e6a1f",
+      "zh_sha256": "5cc1b7f884241579a238751ee892c6c98dc30443155d130c5d5369c9b1797c94"
+    },
+    "e1-fabric/harbour_grain-20260621-sunlight-en.png": {
+      "zh_counterpart": "e1-fabric/harbour_grain-20260621-sunlight-zh.png",
+      "sha256": "8c22dceea32bcf1ec93c7b4a177eca3db01ffcdd900e359404386f53a09ff515",
+      "zh_sha256": "be81d61252475fe61f0f646780351f0e76d7a1bd5cda0d37c18eb06bed27b62b"
+    },
+    "e1-fabric/harbour_grain-20261221-sunlight-en.png": {
+      "zh_counterpart": "e1-fabric/harbour_grain-20261221-sunlight-zh.png",
+      "sha256": "9e6aac77e2249472b672475b77ab2c7b8e047d2e02fc3280cd854f0284663dd9",
+      "zh_sha256": "aacc040abbd408e807fd8cc5d35176a02e78ebb017733ae39400dac6d6aea65c"
+    },
+    "e1-fabric/landscape_figure-20260321-sunlight-en.png": {
+      "zh_counterpart": "e1-fabric/landscape_figure-20260321-sunlight-zh.png",
+      "sha256": "8be02bb6255680f71dabdf925d11248bbf89da1726517e385e8596f9ad97e1c4",
+      "zh_sha256": "9d409d4767ef70a100f45e4e598e9f3a12dbdbbefd96a0bc46bc28af6979276e"
+    },
+    "e1-fabric/landscape_figure-20260621-sunlight-en.png": {
+      "zh_counterpart": "e1-fabric/landscape_figure-20260621-sunlight-zh.png",
+      "sha256": "3f58b30e3ccc9602bc269936482f89d7c99ca778f5a971b1dcf4ecd10825dc75",
+      "zh_sha256": "e8e040de17c8f7fc152645f954e41866f2dfb19347080f933089226f9da9fa2b"
+    },
+    "e1-fabric/landscape_figure-20261221-sunlight-en.png": {
+      "zh_counterpart": "e1-fabric/landscape_figure-20261221-sunlight-zh.png",
+      "sha256": "ff5f2ddbd25c54e01d41054eef6defa92e6644f15d581dd9780653b9ebffb137",
+      "zh_sha256": "41c67761bb4f973a019383645c8019efe489262c8ebd98a5c0e4ef3bed1f3bec"
+    },
+    "utci/closed_block_extension_utci_1400-en.png": {
+      "zh_counterpart": "utci/closed_block_extension_utci_1400.png",
+      "sha256": "404cc3ad1522f5603a05527c8a3e168fdc02d8762be07a6d4bf9733b948e76db",
+      "zh_sha256": "af5d07c740d5298f1d768c0609d5ea4f79d96a23628d1e45fce4d8dac4b212f2"
+    },
+    "utci/closed_block_extension_utci_1400-en.svg": {
+      "zh_counterpart": "utci/closed_block_extension_utci_1400.svg",
+      "sha256": "332f3c7d01e3637371267b703a803437a5077cdb47db754c14708340e668c019",
+      "zh_sha256": "1e585c6d4783428bbe8e83f07e41173a028b58ca9359fdbb0199cca872db8343"
+    },
+    "utci/courtyard_islands_utci_1400-en.png": {
+      "zh_counterpart": "utci/courtyard_islands_utci_1400.png",
+      "sha256": "8ac840d05d6f929fb441b6416fc4855a29fabf17864830eb957f357e5dff9994",
+      "zh_sha256": "06767d78266c5601603988f8b521333fd90a82a211a1ddcf2a893f2acb3d294f"
+    },
+    "utci/courtyard_islands_utci_1400-en.svg": {
+      "zh_counterpart": "utci/courtyard_islands_utci_1400.svg",
+      "sha256": "eaff6b9d3a9b4e74d4c68b9185731514c767134c06b85abd2278b9c8ed07641a",
+      "zh_sha256": "95c2e019480b3518e77433ae2609c622009709b63fe6bdb1bb611884e6af0196"
+    },
+    "utci/harbour_grain_utci_1400-en.png": {
+      "zh_counterpart": "utci/harbour_grain_utci_1400.png",
+      "sha256": "87fc6865778535ded9adb2802cde36b0699d924d888557be6b111c7509388934",
+      "zh_sha256": "4b2b5918572a7dfd75d566483bf3040cc956f4a040f0b7ce74bf49864f797c6b"
+    },
+    "utci/harbour_grain_utci_1400-en.svg": {
+      "zh_counterpart": "utci/harbour_grain_utci_1400.svg",
+      "sha256": "bf57a18f834ced01a3c13b5b3c71e309327426aea35d80a35708ca2f18518b68",
+      "zh_sha256": "51bf43b5ef5990267a5c5c15830c6aaa0f5bea433367d991153afdc21da9469b"
+    },
+    "utci/landscape_figure_utci_1400-en.png": {
+      "zh_counterpart": "utci/landscape_figure_utci_1400.png",
+      "sha256": "96556a6d6e9f37477f95b7b312c95dff603da9b4307396874dc96346ecd13edf",
+      "zh_sha256": "a5f6f635eff2427a36f784b99e4120e88d906ba59786a099f75c19db0aa37f23"
+    },
+    "utci/landscape_figure_utci_1400-en.svg": {
+      "zh_counterpart": "utci/landscape_figure_utci_1400.svg",
+      "sha256": "cde795728f7a0a0df43fff6ecc118a138ff9e92346fb4b9083fda3b922fc8e60",
+      "zh_sha256": "355d08fa0f3e726e32e6ad859d225611fafde99a67ebd84ef9be1756ef2c2fa5"
+    },
+    "e3e4-final/e3_eui_by_fabric-en.png": {
+      "zh_counterpart": "e3e4-final/e3_eui_by_fabric.png",
+      "sha256": "8107aec64e574c3d3384803d0ef6f82713d29b02177ef3da1876c08e7352f4bc",
+      "zh_sha256": "ac29b27d2cae6269ce23055112c9f1407a92be3d669eca358bf5009370e2a9b8"
+    },
+    "e3e4-final/e4_harbour_mass_vs_light-en.png": {
+      "zh_counterpart": "e3e4-final/e4_harbour_mass_vs_light.png",
+      "sha256": "426cddf30ea619f1f92568a544a919bcbb8947221ef66839b1004f8e623c0143",
+      "zh_sha256": "f2eaac8d4b5cf559a843427050acb53f61b5be0eaf1bda68dac04acd01b166b5"
+    },
+    "e5-cfd/cfd_4winds_summary-en.png": {
+      "zh_counterpart": "e5-cfd/cfd_4winds_summary.png",
+      "sha256": "480aef19adafa37770ddb260aa883586f8fe3b061f85a47bd59a6bb8c9a96cc9",
+      "zh_sha256": "8a27d70d2217f478007cc082bbe9d76dd2f26d67726034c012b45bc2fbb21ad9"
+    },
+    "e5-cfd/cfd_lawson_comfort-en.png": {
+      "zh_counterpart": "e5-cfd/cfd_lawson_comfort.png",
+      "sha256": "d33eeb19d4e2c7ae7ec005c26c0dc54dbbb78372f527f79cee55e9e454ad13c0",
+      "zh_sha256": "8863e30f795024d96e896b51e0fbe0291482de990dbb5d9aa69e6c172717b41b"
+    },
+    "e5-cfd/cfd_nw_wind_ratio-en.png": {
+      "zh_counterpart": "e5-cfd/cfd_nw_wind_ratio.png",
+      "sha256": "6e3577e17f15abbe99b6dcf21ff69d6b9b0942fa8cd993aed9f5446c98489dbe",
+      "zh_sha256": "dcd722ec917f591528f3d9864f1e91a93a8547fee52682ceb15970ff00f9c603"
+    },
+    "e5-cfd/cfd_s_wind_ratio-en.png": {
+      "zh_counterpart": "e5-cfd/cfd_s_wind_ratio.png",
+      "sha256": "280c1af8fcd8be6aa2743c9b7715d1f5b92787a8ad3cc9af0bbb4a58513efdda",
+      "zh_sha256": "9126895d015e74ec0dcbd19b1dcfa4265ef81b0412e2ca83ee0b6a3c9fd6cae5"
+    },
+    "e5-cfd/cfd_sw_wind_ratio-en.png": {
+      "zh_counterpart": "e5-cfd/cfd_sw_wind_ratio.png",
+      "sha256": "4bebc9bb9a617abb743da99ffdcfb3b0224afd702fab5fc9fe1a1a081128e727",
+      "zh_sha256": "6acc69e152eb67bb6c5bd681a4a0d2001e76226185422767dc2a184ca9e3ab79"
+    },
+    "e5-cfd/cfd_w_wind_ratio-en.png": {
+      "zh_counterpart": "e5-cfd/cfd_w_wind_ratio.png",
+      "sha256": "dae36ba170cd461f761b5db3bc170108c643400b9ca36a2a05585d04d7cd4434",
+      "zh_sha256": "bbda9028d5862ebda802809ebe4db68c0dd7f7572853c3f474476c355f4c4dc8"
+    },
+    "e5-cfd/cfd_wind_risk_zones-en.png": {
+      "zh_counterpart": "e5-cfd/cfd_wind_risk_zones.png",
+      "sha256": "8b45833011ec5ed94fc347756c7cc9d19d53faf4316e9c22ae6d7d8e14e2d101",
+      "zh_sha256": "e2f9c50a41a2da211437c3cf058b9474e27b873ffc7e61f335b12a67f4cb3e99"
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id": "WANGDENG2022",
+  "title": "Re-Examining Urban Vitality through Jane Jacobs’ Criteria Using GIS-sDNA: The Case of Qingdao, China",
+  "authors": [
+    "Siyu Wang",
+    "Qingtan Deng",
+    "Shuai Jin",
+    "Guangbin Wang"
+  ],
+  "year": 2022,
+  "venue_or_publisher": "Buildings, 12(10), 1586",
+  "doi": "https://doi.org/10.3390/buildings12101586",
+  "isbn": null,
+  "openalex_id": "https://openalex.org/W4303613648",
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "Jacobs 城市活力條件的 GIS 評估",
+  "region": "中國青島",
+  "method": "以 GIS-sDNA 重檢歷史城區活力指標",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "青島研究將 Jacobs 的小街廓與土地使用、建築多樣性、密度及可達性條件一併操作化分析。",
+      "strength": "MIXED",
+      "scope_zh": "單一中國城市的測量結果不設定跨城通用的街廓長度門檻。",
+      "assessment_basis": "ABSTRACT_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "OpenAlex",
+    "query": {
+      "record_id": "https://openalex.org/W4303613648",
+      "doi": "10.3390/buildings12101586",
+      "title": "Re-Examining Urban Vitality through Jane Jacobs’ Criteria Using GIS-sDNA: The Case of Qingdao, China",
+      "author": "Siyu Wang",
+      "year": 2022
+    },
+    "matched_record_id": "https://openalex.org/W4303613648",
+    "checked_at_utc": "2026-10-09T00:14:29Z",
+    "match_notes_zh": "以允許的公開書目 API 精確比對題名、首位作者與出版年；只保留自行撰寫的摘要範圍說明，未保存全文或 API 摘要原文。"
+  },
+  "limitations_zh": "本條目依公開摘要或書目範圍整理；未下載全文，也不外推摘要未列的樣本、效果量或因果結論。",
+  "metadata_licence_zh": "僅保存公開書目欄位與自行撰寫的繁體中文摘要；未複製摘要全文或論文全文。"
+}

@@ -1,0 +1,97 @@
+{
+  "id": "KU-WAT-054",
+  "domain": "WAT",
+  "subtopic": "雨水滯留量的設計值",
+  "type": "value_range",
+  "title_zh": "透水鋪面蓄水層的有效容積取決於孔隙",
+  "title_en": "透水鋪面蓄水層的有效容積取決於孔隙",
+  "summary_zh": "透水鋪面與蓄水基層的有效容量取決於基層厚度、骨料孔隙率、側向約束和排水出口。Den Helder 的地方工程指引指定 300 毫米蓄水基層，並另外要求壓實後孔隙率至少 35%。這兩個構造參數不能替代入滲試驗或地下水檢核。",
+  "key_points_zh": [
+    "孔隙率和底土滲透會改變排空時間。",
+    "堵塞會使原有設計儲量失效。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "library_id": "DENHELDER_LIOR2026",
+        "claim_zh": "Den Helder 的道路指引對透水鋪面蓄水層列出 300 mm 厚度，並另要求至少 35% 壓實孔隙率與 12 小時排空；本單元只用厚度核對鋪面截面。",
+        "claim_verification": "OFFICIAL_PRIMARY_SOURCE_REVIEW",
+        "effect_or_value": "300",
+        "study_design": "市政基礎設施設計指引",
+        "context_region": "Den Helder, Nederland",
+        "locator": "LIOR 2026–2027, sections 4.4.6.7–4.4.6.8, lines 2393–2423"
+      },
+      {
+        "library_id": "BEAN2007",
+        "claim_zh": "書目確認本文題名聚焦「Field Survey of Permeable Pavement Surface Infiltration Rates」；目前只完成作者、年份、題名與 DOI 核對，未將摘要或全文結論納入此記錄；本單元 KU-WAT-054 對照「透水鋪面與蓄水基層的有效容量取決於基層厚度、骨料孔隙率、側向約束和排水出口」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "案例或場地研究；目前僅核對書目範圍",
+        "context_region": "美國多地",
+        "locator": null
+      },
+      {
+        "library_id": "MENTENS2006",
+        "claim_zh": "書目確認本文題名聚焦「Green roofs as a tool for solving the rainwater runoff problem in the urbanized 21st century；」；目前只完成作者、年份、題名與 DOI 核對，未將摘要或全文結論納入此記錄；本單元 KU-WAT-054 對照「透水鋪面與蓄水基層的有效容量取決於基層厚度、骨料孔隙率、側向約束和排水出口」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "文獻回顧；目前僅核對書目範圍",
+        "context_region": "比利時都市",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "分開記錄骨料厚度、孔隙率、底土和出水管設定。",
+    "規劃檢查、吸掃和堵塞後的恢復程序。"
+  ],
+  "applies_when_zh": "適用於街道和停車空間的透水鋪面概念設計。",
+  "not_applicable_when_zh": "缺少現場滲透與骨料資料時不可聲稱可用容量。",
+  "debates_zh": "基層理論孔隙量不等於設計暴雨下的可用容量；細料遷移、堵塞和高地下水位都會改變實際表現。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "DENHELDER_LIOR2026",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "BEAN2007",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "MENTENS2006",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "透水鋪面工程參數",
+  "region": "跨地域；澳洲",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "雨水滯留量的設計值"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Sustainable Futures by Design",
+      "topic": "雨水滯留量的設計值"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0",
+  "values": [
+    {
+      "name": "水蓄存基層厚度",
+      "range": "300",
+      "unit": "mm compacted foundation",
+      "context": "用途：以「水蓄存基層厚度」作為來源情境參照；Den Helder 市政工程指引列出的蓄水基層尺寸；需依土壤、地下水和排空條件設計；這不是本基地法規；來源所列地域：Den Helder, Nederland。",
+      "library_id": "DENHELDER_LIOR2026"
+    }
+  ]
+}

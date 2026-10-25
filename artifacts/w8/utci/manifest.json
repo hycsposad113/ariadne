@@ -1,0 +1,157 @@
+{
+  "manifest_version": "1.0.0",
+  "generated_at_utc": "2026-10-17T01:25:52.816663+00:00",
+  "task": "E2/W8 Outdoor Thermal Comfort UTCI Simulation for Four Urban Fabrics",
+  "status": "COMPLETED",
+  "notice": "探索性；風速未考慮建築遮蔽（依對數律換算至 1.1m 高度，粗糙度採都市值 z0=0.5m，不做 CFD，風場遮蔽留給 E5）",
+  "inputs": {
+    "epw": {
+      "path": "/Users/jackhsieh/Downloads/TUD/Q5/project/artifacts/w5-weather-derived-method-proposal-20260926T115309Z/candidate-01/derived-minute60.epw",
+      "sha256": "d6cc646473f2805002e28c99d13eb0c6d5fa08d40734b8fb2c89dbaae1371369",
+      "hottest_summer_day": "2017-08-19",
+      "mean_daily_temp_c": 25.39,
+      "max_daily_temp_c": 33.1,
+      "analysis_hours": "10:00 - 17:00"
+    },
+    "context_buildings": {
+      "path": "/Users/jackhsieh/.local/share/urban-design-data/context/context-20260927T153054Z/buildings.geojson",
+      "sha256": "3d4ac0cea51bed38caa149d04fb8326fa775b6228819190866ce51805764e099",
+      "buffer_m": 300.0,
+      "total_obstacles": 390,
+      "assumed_height_m": 12.0
+    },
+    "fabric_plans": {
+      "harbour_grain": {
+        "path": "/Users/jackhsieh/Downloads/TUD/Q5/w6-07-compare/artifacts/fab1/run-8/harbour_grain-plan.json",
+        "sha256": "88445febe1b657019b9e52d024de978bd628672e244423d1b07480ebfede06dd",
+        "name_zh": "港埠線性紋理"
+      },
+      "closed_block_extension": {
+        "path": "/Users/jackhsieh/Downloads/TUD/Q5/w6-07-compare/artifacts/fab1/run-8/closed_block_extension-plan.json",
+        "sha256": "f3eaef98a328f48f846b480bdf1452867bb0e58d3d63f8043e0abed663960bae",
+        "name_zh": "圍合街廓延伸"
+      },
+      "courtyard_islands": {
+        "path": "/Users/jackhsieh/Downloads/TUD/Q5/w6-07-compare/artifacts/fab1/run-8/courtyard_islands-plan.json",
+        "sha256": "e3db0311c26a49d627e2343eef40603589b2cb65beec99222d06ec168971812b",
+        "name_zh": "大型院落島"
+      },
+      "landscape_figure": {
+        "path": "/Users/jackhsieh/Downloads/TUD/Q5/w6-07-compare/artifacts/fab1/run-8/landscape_figure-plan.json",
+        "sha256": "397fcbcb53acb84cfaa4a41601a2fd9e5e48c161aa983d38ee866f533894830d",
+        "name_zh": "地景為圖"
+      }
+    }
+  },
+  "assumptions": {
+    "sensor_height_m": 1.1,
+    "surface_offset_m": 0.05,
+    "grid_spacing_m": 5.0,
+    "wind_profile": {
+      "method": "Logarithmic law: v(1.1) = v(10) * ln(1.1/z0) / ln(10/z0)",
+      "z0_m": 0.5,
+      "description": "Davenport-Wieringa class 6 / suburban-urban roughness length; no CFD sheltering modeled",
+      "v_min_clamp_m_s": 0.5
+    },
+    "solar_and_mrt": {
+      "mrt_model": "Ladybug Comfort SolarCal (outdoor_sky_heat_exch)",
+      "sky_view_factor_model": "Ladybug Radiance Tregenza dome (145 sky patch vectors with solid angle weighting)",
+      "direct_sun_obstruction": "Radiance 6.0.2 intersection_matrix with 3D buildings and 300m context",
+      "floor_reflectance": 0.25,
+      "posture": "standing",
+      "sharp_deg": 135.0,
+      "body_absorptivity": 0.7,
+      "body_emissivity": 0.95,
+      "surrounding_surface_temp_proxy": "EPW dry-bulb temperature Ta"
+    },
+    "utci_model": "Ladybug Comfort universal_thermal_climate_index polynomial"
+  },
+  "environment_versions": {
+    "python": "3.12.13 (main, Apr  4 2026, 09:19:06) [Clang 15.0.0 (clang-1500.0.40.1)]",
+    "ladybug_core": "0.44.59",
+    "ladybug_comfort": "0.19.8",
+    "ladybug_radiance": "0.2.12",
+    "honeybee_radiance": "1.66.288",
+    "shapely": "2.2.0",
+    "numpy": "2.5.4",
+    "radiance": "6.0.2-arm64"
+  },
+  "runtime_metrics": {
+    "harbour_grain": {
+      "sensor_count": 5316,
+      "elapsed_seconds": 7.64,
+      "radiance_svf_s": 3.8,
+      "radiance_sun_s": 2.83
+    },
+    "closed_block_extension": {
+      "sensor_count": 5709,
+      "elapsed_seconds": 7.73,
+      "radiance_svf_s": 3.93,
+      "radiance_sun_s": 2.85
+    },
+    "courtyard_islands": {
+      "sensor_count": 5492,
+      "elapsed_seconds": 6.66,
+      "radiance_svf_s": 3.42,
+      "radiance_sun_s": 2.43
+    },
+    "landscape_figure": {
+      "sensor_count": 5797,
+      "elapsed_seconds": 6.96,
+      "radiance_svf_s": 3.62,
+      "radiance_sun_s": 2.57
+    }
+  },
+  "output_files": {
+    "harbour_grain_utci_1400.svg": {
+      "path": "/Users/jackhsieh/Downloads/TUD/Q5/w6-07-compare/artifacts/w8/utci/harbour_grain_utci_1400.svg",
+      "sha256": "51bf43b5ef5990267a5c5c15830c6aaa0f5bea433367d991153afdc21da9469b",
+      "size_bytes": 1019306
+    },
+    "harbour_grain_utci_1400.png": {
+      "path": "/Users/jackhsieh/Downloads/TUD/Q5/w6-07-compare/artifacts/w8/utci/harbour_grain_utci_1400.png",
+      "sha256": "4b2b5918572a7dfd75d566483bf3040cc956f4a040f0b7ce74bf49864f797c6b",
+      "size_bytes": 969491
+    },
+    "closed_block_extension_utci_1400.svg": {
+      "path": "/Users/jackhsieh/Downloads/TUD/Q5/w6-07-compare/artifacts/w8/utci/closed_block_extension_utci_1400.svg",
+      "sha256": "1e585c6d4783428bbe8e83f07e41173a028b58ca9359fdbb0199cca872db8343",
+      "size_bytes": 1074342
+    },
+    "closed_block_extension_utci_1400.png": {
+      "path": "/Users/jackhsieh/Downloads/TUD/Q5/w6-07-compare/artifacts/w8/utci/closed_block_extension_utci_1400.png",
+      "sha256": "af5d07c740d5298f1d768c0609d5ea4f79d96a23628d1e45fce4d8dac4b212f2",
+      "size_bytes": 903644
+    },
+    "courtyard_islands_utci_1400.svg": {
+      "path": "/Users/jackhsieh/Downloads/TUD/Q5/w6-07-compare/artifacts/w8/utci/courtyard_islands_utci_1400.svg",
+      "sha256": "95c2e019480b3518e77433ae2609c622009709b63fe6bdb1bb611884e6af0196",
+      "size_bytes": 1023028
+    },
+    "courtyard_islands_utci_1400.png": {
+      "path": "/Users/jackhsieh/Downloads/TUD/Q5/w6-07-compare/artifacts/w8/utci/courtyard_islands_utci_1400.png",
+      "sha256": "06767d78266c5601603988f8b521333fd90a82a211a1ddcf2a893f2acb3d294f",
+      "size_bytes": 873091
+    },
+    "landscape_figure_utci_1400.svg": {
+      "path": "/Users/jackhsieh/Downloads/TUD/Q5/w6-07-compare/artifacts/w8/utci/landscape_figure_utci_1400.svg",
+      "sha256": "355d08fa0f3e726e32e6ad859d225611fafde99a67ebd84ef9be1756ef2c2fa5",
+      "size_bytes": 1068987
+    },
+    "landscape_figure_utci_1400.png": {
+      "path": "/Users/jackhsieh/Downloads/TUD/Q5/w6-07-compare/artifacts/w8/utci/landscape_figure_utci_1400.png",
+      "sha256": "a5f6f635eff2427a36f784b99e4120e88d906ba59786a099f75c19db0aa37f23",
+      "size_bytes": 821260
+    },
+    "utci_stress_hours_comparison.md": {
+      "path": "/Users/jackhsieh/Downloads/TUD/Q5/w6-07-compare/artifacts/w8/utci/utci_stress_hours_comparison.md",
+      "sha256": "75c2d6a826bf865621481811ab443307a2c1abd94aa24a93a6ceace8064a78a5",
+      "size_bytes": 5890
+    },
+    "utci_stress_hours_comparison.json": {
+      "path": "/Users/jackhsieh/Downloads/TUD/Q5/w6-07-compare/artifacts/w8/utci/utci_stress_hours_comparison.json",
+      "sha256": "2d73dd4e1fcee0680e2cbade943ef7892fa56bec730321a7e3f947d246ee6c84",
+      "size_bytes": 32215
+    }
+  }
+}

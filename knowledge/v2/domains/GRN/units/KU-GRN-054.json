@@ -1,0 +1,76 @@
+{
+  "id": "KU-GRN-054",
+  "domain": "GRN",
+  "subtopic": "健康效益實證",
+  "type": "critique",
+  "title_zh": "自然接觸不等於醫療服務",
+  "title_en": "Nature contact is not clinical care",
+  "summary_zh": "綠地可能支援日常活動、社交和壓力調適。它不能取代心理健康或醫療服務。個人創傷和疾病會改變戶外環境的作用。健康促進策略需要專業服務和場所品質並行。避免把景觀設計包裝成臨床療效。",
+  "key_points_zh": [
+    "綠地可能支援日常活動、社交和壓力調適",
+    "它不能取代心理健康或醫療服務"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "綠地可能支援日常活動、社交和壓力調適。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "北美",
+        "library_id": "WOLCH14",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "健康促進策略需要專業服務和場所品質並行。"
+      },
+      {
+        "claim_zh": "這篇綜述把住宅綠化與公園連結到壓力緩解、活動及社會凝聚；其範圍是公共健康條件，並未比較景觀與臨床治療。",
+        "effect_or_value": null,
+        "study_design": "綠地健康路徑綜述",
+        "context_region": "都市綠地一般文獻",
+        "library_id": "BRAUBACH2017",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW",
+        "limitations_zh": "作者沒有研究個別疾病治療，故本條不據以主張公園能替代醫療。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "避免把景觀設計包裝成臨床療效。"
+  ],
+  "applies_when_zh": "適用於健康導向的公共空間溝通。",
+  "not_applicable_when_zh": "不應用公園替代必要的照護資源。",
+  "debates_zh": "健康促進策略需要專業服務和場所品質並行。",
+  "sources": [
+    {
+      "library_id": "WOLCH14",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "BYRNEWOLCH09",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "BRAUBACH2017",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "環境正義與綠地治理",
+  "region": "北美",
+  "curriculum_refs": [
+    {
+      "school": "UCL Bartlett",
+      "course": "Critical Debates in Urban Design",
+      "topic": "健康效益實證"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-GRN-053",
+    "KU-GRN-066"
+  ]
+}

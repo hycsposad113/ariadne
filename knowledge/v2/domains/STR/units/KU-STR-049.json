@@ -1,0 +1,81 @@
+{
+  "id": "KU-STR-049",
+  "domain": "STR",
+  "subtopic": "街道作為公共空間",
+  "type": "empirical_finding",
+  "title_zh": "街道形式與社群感的中介條件",
+  "title_en": "Mediators between neighborhood form and community",
+  "summary_zh": "新都市主義社會主張與社會科學文獻的批判性評估，研究脈絡為美國鄰里設計研究。單一街道形式不能保證社群結果，也不能排除其他設計理念的可能。部分研究支持環境條件與居民互動、社群感相關，但常經由中介變數發生。限制包括文章整理的是當時研究與概念，並指出直接驗證不足。",
+  "key_points_zh": [
+    "單一街道形式不能保證社群結果，也不能排除其他設計理念的可能",
+    "限制：文章整理的是當時研究與概念，並指出直接驗證不足",
+    "效果或方向：部分研究支持環境條件與居民互動、社群感相關，但常經由中介變數發生"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "街道形式與社群感的中介條件｜單一街道形式不能保證社群結果，也不能排除其他設計理念的可能",
+        "effect_or_value": "部分研究支持環境條件與居民互動、社群感相關，但常經由中介變數發生",
+        "study_design": "新都市主義社會主張與社會科學文獻的批判性評估",
+        "context_region": "美國鄰里設計研究",
+        "library_id": "TALEN99",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "街道形式與社群感的中介條件｜人的停留、步行與沿街互動是公共空間設計的觀察方向；需要地方活動與季節資料",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "GEHL10",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "公共空間要與社會網絡、管理和使用者參與一起評估"
+  ],
+  "applies_when_zh": "若本地觀察單位與美國鄰里設計研究的研究脈絡可對照，可用「單一街道形式不能保證社群結果，也不能排除其他設計理念的可能」作為街道作為公共空間的比較線索。",
+  "not_applicable_when_zh": "這項美國鄰里設計研究的研究結果不能單獨證明因果或預測其他城市的街段；原研究文章整理的是當時研究與概念，並指出直接驗證不足。",
+  "debates_zh": "關聯能否外推；文章整理的是當時研究與概念，並指出直接驗證不足；檢視「街道形式與社群感的中介條件」的研究解讀時，還需判斷「限制：文章整理的是當時研究與概念，並指出直接驗證不足」會如何改變方案結論。",
+  "sources": [
+    {
+      "library_id": "TALEN99",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "GEHL10",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "公共生活與街道治理",
+  "region": "美國鄰里設計研究",
+  "curriculum_refs": [
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.330J Theory of City Form",
+      "topic": "街道作為公共空間：課綱對應主題"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "街道作為公共空間：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-STR-050",
+    "KU-STR-051",
+    "KU-STR-052",
+    "KU-STR-053",
+    "KU-STR-054",
+    "KU-STR-055",
+    "KU-STR-056"
+  ]
+}

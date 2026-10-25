@@ -1,0 +1,81 @@
+{
+  "id": "KU-MOB-058",
+  "domain": "MOB",
+  "subtopic": "無車區與物流",
+  "type": "empirical_finding",
+  "title_zh": "停車限制在緊湊城市的旅運關聯",
+  "title_en": "Parking restrictions in compact cities",
+  "summary_zh": "挪威全國旅運資料及家庭、工作地停車迴歸，研究脈絡為挪威。無車區應與交通替代和空間密度一起評估。家庭和目的地停車限制疊加時開車勝算較低，研究指出緊湊城市的關聯較強。限制包括模型為觀察性分析，不能直接推定限制在任一城市的效果大小。",
+  "key_points_zh": [
+    "無車區應與交通替代和空間密度一起評估",
+    "限制：模型為觀察性分析，不能直接推定限制在任一城市的效果大小",
+    "效果或方向：家庭和目的地停車限制疊加時開車勝算較低，研究指出緊湊城市的關聯較強"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "停車限制在緊湊城市的旅運關聯｜無車區應與交通替代和空間密度一起評估",
+        "effect_or_value": "家庭和目的地停車限制疊加時開車勝算較低，研究指出緊湊城市的關聯較強",
+        "study_design": "挪威全國旅運資料及家庭、工作地停車迴歸",
+        "context_region": "挪威",
+        "library_id": "CHRISTIANSEN16",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "停車限制在緊湊城市的旅運關聯｜街道結構可以用連接與階層關係比較；不同網形的可達性與交通作用需另外計算",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "MARSHALL05",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "把無車政策和服務可及性、物流與照護出行一併設計"
+  ],
+  "applies_when_zh": "若本地觀察單位與挪威的研究脈絡可對照，可用「無車區應與交通替代和空間密度一起評估」作為無車區與物流的比較線索。",
+  "not_applicable_when_zh": "這項挪威的研究結果不能單獨證明因果或預測其他城市的街段；原研究模型為觀察性分析，不能直接推定限制在任一城市的效果大小。",
+  "debates_zh": "關聯能否外推；模型為觀察性分析，不能直接推定限制在任一城市的效果大小；檢視「停車限制在緊湊城市的旅運關聯」的研究解讀時，還需判斷「限制：模型為觀察性分析，不能直接推定限制在任一城市的效果大小」會如何改變方案結論。",
+  "sources": [
+    {
+      "library_id": "CHRISTIANSEN16",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "MARSHALL05",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "無車街區與城市物流",
+  "region": "挪威",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "無車區與物流：課綱對應主題"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Urban Design Contexts and Operations",
+      "topic": "無車區與物流：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-MOB-057",
+    "KU-MOB-059",
+    "KU-MOB-060",
+    "KU-MOB-061",
+    "KU-MOB-062",
+    "KU-MOB-063",
+    "KU-MOB-064"
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "id": "KU-PUB-039",
+  "domain": "PUB",
+  "subtopic": "安全：CPTED 與批評",
+  "type": "method",
+  "title_zh": "照明品質需以路徑任務評估",
+  "title_en": "Lighting should follow tasks",
+  "summary_zh": "行走、辨識表情和找到入口需要不同的照明條件。均勻亮度並非唯一目標，眩光和陰影也會影響可辨識性。照明增強可能打擾住戶或夜行動物。夜間照明改善安全感的同時也可能擴大監控。",
+  "key_points_zh": [
+    "行走、辨識表情和找到入口需要不同的照明條件",
+    "均勻亮度並非唯一目標，眩光和陰影也會影響可辨識性"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "行走、辨識表情和找到入口需要不同的照明條件。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "非洲",
+        "library_id": "WATSON09",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "夜間照明改善安全感的同時也可能擴大監控。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "夜間踏勘記錄燈具位置、視線遮蔽與實際行走路線。"
+  ],
+  "applies_when_zh": "適用於晚間公共交通接駁與活動場地。",
+  "not_applicable_when_zh": "不能以燈具數或照度單一數值取代使用者檢核。",
+  "debates_zh": "夜間照明改善安全感的同時也可能擴大監控。",
+  "sources": [
+    {
+      "library_id": "WATSON09",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "NEMETH11",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "全球南方規劃批評",
+  "region": "非洲",
+  "curriculum_refs": [
+    {
+      "school": "UCL Bartlett",
+      "course": "Critical Debates in Urban Design",
+      "topic": "安全：CPTED 與批評"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-PUB-038",
+    "KU-PUB-040"
+  ]
+}

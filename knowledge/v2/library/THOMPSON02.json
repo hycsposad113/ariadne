@@ -1,0 +1,44 @@
+{
+  "id": "THOMPSON02",
+  "title": "Urban open space in the 21st century",
+  "authors": [
+    "Catharine Ward Thompson"
+  ],
+  "year": 2002,
+  "venue_or_publisher": "Landscape and Urban Planning",
+  "doi": "https://doi.org/10.1016/s0169-2046(02)00059-2",
+  "isbn": null,
+  "crossref_id": "https://doi.org/10.1016/s0169-2046(02)00059-2",
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "都市開放空間規劃",
+  "region": [
+    "英國",
+    "西歐"
+  ],
+  "method": "領域綜述",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "文章盤點二十一世紀都市開放空間的角色與議題；可支援跨尺度分類，不能單由文章標題推定適用面積標準。",
+      "strength": "THEORETICAL",
+      "scope_zh": "英國／歐洲都市設計脈絡；主張限於此來源的研究設計與樣本，不外推為本基地規範。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref",
+    "query": {
+      "title": "Urban open space in the 21st century",
+      "author": "Catharine Ward Thompson",
+      "year": 2002
+    },
+    "matched_record_id": "https://doi.org/10.1016/s0169-2046(02)00059-2",
+    "checked_at_utc": "2026-10-08T09:54:12Z",
+    "match_notes_zh": "核對 Crossref 回傳書名、主要作者、出版年與 DOI；摘要只在實際取得並閱讀的論文上標 ABSTRACT_REVIEW。"
+  },
+  "limitations_zh": "英國／歐洲都市設計脈絡；書目核對不替代完整論文審查。",
+  "critique_relationship_zh": "此條目的批評連結供編者並讀，不宣稱存在直接互引。",
+  "metadata_licence_zh": "僅保存公開書目欄位與自行撰寫的摘要；未保存摘要原文，metadata 授權未單獨核定。"
+}

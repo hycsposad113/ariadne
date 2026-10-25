@@ -1,0 +1,21 @@
+.generation-workflow-panel { display: grid; gap: 0.75rem; padding: 1rem; border: 1px solid #869ba5; border-radius: 0.5rem; }
+.generation-workflow-panel h2, .generation-workflow-panel p { margin: 0; }
+.generation-workflow-panel label { display: flex; gap: 0.6rem; align-items: center; flex-wrap: wrap; }
+.generation-workflow-panel dl { display: grid; grid-template-columns: minmax(7rem, auto) 1fr; gap: 0.4rem 1rem; margin: 0; }
+.generation-workflow-panel dd { margin: 0; overflow-wrap: anywhere; }
+.generation-workflow-panel code { overflow-wrap: anywhere; font-size: 0.75rem; }
+.generation-workflow-panel fieldset { display: grid; gap: 0.6rem; min-width: 0; }
+.generation-workflow-panel button, .generation-workflow-panel select { min-height: 2.5rem; }
+.generation-workflow-panel [role=alert] { color: #b94435; }
+.generation-readiness-checking { display: inline-flex; align-items: center; gap: 0.5rem; color: #486581; font-weight: 500; }
+.generation-readiness-checking .spinner {
+  width: 1rem; height: 1rem; border: 2px solid #cbd5e1; border-top-color: #0284c7;
+  border-radius: 50%; display: inline-block; box-sizing: border-box;
+  animation: generation-workflow-spin 0.8s linear infinite;
+}
+@keyframes generation-workflow-spin { to { transform: rotate(360deg); } }
+.generation-workflow-panel button.view-in-compare-btn {
+  background-color: #0284c7; color: #ffffff; border: none; border-radius: 0.25rem; font-weight: 600; cursor: pointer;
+}
+.generation-workflow-panel button.view-in-compare-btn:hover { background-color: #0369a1; }
+

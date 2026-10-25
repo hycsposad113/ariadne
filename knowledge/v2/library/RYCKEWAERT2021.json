@@ -1,0 +1,45 @@
+{
+  "id": "RYCKEWAERT2021",
+  "title": "Variable Arrangements Between Residential and Productive Activities: Conceiving Mixed-Use for Urban Development in Brussels",
+  "authors": [
+    "Michaël Ryckewaert",
+    "Jan Zaman",
+    "Sarah De Boeck"
+  ],
+  "year": 2021,
+  "venue_or_publisher": "Urban Planning",
+  "doi": "https://doi.org/10.17645/up.v6i3.4274",
+  "isbn": null,
+  "openalex_id": "https://openalex.org/W3199569146",
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "生產性城市與混合用途",
+  "region": [
+    "布魯塞爾，比利時"
+  ],
+  "method": "三個公共房地產混合用途案例比較",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "三案顯示用途混合需同時處理共享空間、物流與干擾管理；垂直共置只是多種可行配置之一。",
+      "strength": "MIXED",
+      "scope_zh": "僅限摘要可核對的範圍；未讀全文，不推論摘要未列的數字、因果或普遍適用性。",
+      "assessment_basis": "ABSTRACT_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "OpenAlex",
+    "query": {
+      "record_id": "https://openalex.org/W3199569146",
+      "title": "Variable Arrangements Between Residential and Productive Activities: Conceiving Mixed-Use for Urban Development in Brussels",
+      "author": "Michaël Ryckewaert",
+      "year": 2021
+    },
+    "matched_record_id": "https://openalex.org/W3199569146",
+    "checked_at_utc": "2026-10-08T09:12:32Z",
+    "match_notes_zh": "以 OpenAlex 精確 work 記錄核對書名、作者與出版年；只使用摘要作主張範圍檢查，未下載全文。"
+  },
+  "limitations_zh": "僅使用允許的書目欄位和摘要核對；未取得或保存全文。",
+  "metadata_licence_zh": "保存公開書目欄位與自行撰寫主張摘要；未保存 API 摘要原文或全文。"
+}

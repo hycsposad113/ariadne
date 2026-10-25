@@ -1,0 +1,82 @@
+{
+  "id": "KU-SOC-053",
+  "domain": "SOC",
+  "subtopic": "參與階梯與合作式規劃",
+  "type": "empirical_finding",
+  "title_zh": "參與與合作規劃：都市更新參與",
+  "title_en": "Social impacts of urban regeneration — empirical finding unit 053",
+  "summary_zh": "印度道路更新的兩案比較呈現社區參與安排會受核心區與邊緣區的使用模式和制度能力影響。更新設計應公開道路功能改動、受影響群體與替代通行方案，並讓意見能回到圖面。案例數有限，無法據此認定某種參與格式一定更有效。限制是「都市更新社會影響：更新參與」所用的城市或案例資料不能單獨證明設計因果，外推仍需重新檢驗。",
+  "key_points_zh": [
+    "印度道路更新的兩案比較呈現社區參與安排會受核心區與邊緣區的使用模式和制度能力影響。",
+    "更新設計應公開道路功能改動、受影響群體與替代通行方案，並讓意見能回到圖面。",
+    "案例數有限，無法據此認定某種參與格式一定更有效。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "【ABSTRACT_REVIEW】印度道路更新的兩案比較呈現社區參與安排會受核心區與邊緣區的使用模式和制度能力影響。更新設計應公開道路功能改動、受影響群體與替代通行方案，並讓意見能回到圖面。案例數有限，無法據此認定某種參與格式一定更有效。限制是「都市更新社會影響：更新參與」所用的城市或案例資料不能單獨證明設計因果，外推仍需重新檢驗。",
+        "effect_or_value": "核心城區和都市邊緣所需的諮詢議題與參與安排不同",
+        "study_design": "印度核心城區與都市邊緣兩項道路更新案例比較",
+        "context_region": "印度",
+        "library_id": "AHUJA2017",
+        "locator": null
+      },
+      {
+        "claim_zh": "【BIBLIOGRAPHIC_SCOPE_ONLY】就「參與與合作規劃：都市更新參與」而言，「A Ladder of Citizen Participation」提供參與階梯／公民權力的比較坐標；此處僅使用其已標明的書目／摘要範圍，不延伸為未核對的效果或因果。",
+        "effect_or_value": null,
+        "study_design": "規劃參與理論",
+        "context_region": "美國；跨地域",
+        "library_id": "ARNSTEIN1969",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "在道路改動前公開替代通行方式並讓使用意見回到方案。"
+  ],
+  "design_options": [],
+  "applies_when_zh": "在評估「都市更新社會影響：更新參與」涉及的資源分配、權力或居住影響時，先界定受影響群體與決策階段。",
+  "not_applicable_when_zh": "若沒有「都市更新社會影響：更新參與」所需的群體、時序或市場資料，不把概念類比當作已驗證的效果或法律結論。",
+  "debates_zh": "道路更新的交通改善可能伴隨攤販、行人或小商業空間的流失。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "AHUJA2017",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "ARNSTEIN1969",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "都市更新／搬遷、保存與生活連續性",
+  "region": "印度；亞洲；美國；跨地域",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Planning Complex Cities",
+      "topic": "參與與合作規劃：都市更新參與 — 參與階梯與合作式規劃"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Urban Design Contexts and Operations",
+      "topic": "參與與合作規劃：都市更新參與 — 參與階梯與合作式規劃"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "參與與合作規劃：都市更新參與 — 參與階梯與合作式規劃"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design Governance",
+      "topic": "參與與合作規劃：都市更新參與 — 參與階梯與合作式規劃"
+    }
+  ],
+  "version": "2.0.0"
+}

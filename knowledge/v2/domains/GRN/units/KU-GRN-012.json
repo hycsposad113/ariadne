@@ -1,0 +1,70 @@
+{
+  "id": "KU-GRN-012",
+  "domain": "GRN",
+  "subtopic": "綠地可及性",
+  "type": "value_range",
+  "title_zh": "開放空間暴露的Perth研究尺度",
+  "title_en": "Perth open-space exposure range",
+  "summary_zh": "澳洲研究以住家周邊約一點六公里評估開放空間暴露。被研究者是否使用綠地仍取決於品質、道路安全和個人偏好。同一距離對兒童、長者或行動不便者代表不同旅程成本。暴露模型和實際使用之間仍有落差。",
+  "key_points_zh": [
+    "澳洲研究以住家周邊約一點六公里評估開放空間暴露",
+    "被研究者是否使用綠地仍取決於品質、道路安全和個人偏好"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "澳洲研究以住家周邊約一點六公里評估開放空間暴露。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "跨國",
+        "library_id": "RIGOLON21",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "暴露模型和實際使用之間仍有落差。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "把研究距離用作初步範圍，再由地方步行網絡和使用者資料校正。"
+  ],
+  "applies_when_zh": "適用於比較公園研究的暴露設計。",
+  "not_applicable_when_zh": "不能把此值宣稱為任何地區的普遍步行距離。",
+  "debates_zh": "暴露模型和實際使用之間仍有落差。",
+  "sources": [
+    {
+      "library_id": "RIGOLON21",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "BOGOTA17",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "健康公平與環境正義",
+  "region": "跨國",
+  "curriculum_refs": [
+    {
+      "school": "MIT",
+      "course": "11.330J Theory of City Form",
+      "topic": "綠地可及性"
+    }
+  ],
+  "version": "2.0.0",
+  "values": [
+    {
+      "name": "開放空間暴露的Perth研究尺度",
+      "range": "約 1.6 km",
+      "unit": "公里",
+      "context": "澳洲 Perth RESIDE 開放空間暴露設定；供研究比較，非本基地規範。；「開放空間暴露的Perth研究尺度」僅供其研究脈絡內比較，不構成本基地法規。",
+      "library_id": "SUGIYAMA10"
+    }
+  ],
+  "related_unit_ids": [
+    "KU-GRN-011",
+    "KU-GRN-013"
+  ]
+}

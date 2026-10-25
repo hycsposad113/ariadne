@@ -1,0 +1,79 @@
+{
+  "id": "KU-HAR-044",
+  "type": "value_range",
+  "subtopic": "公共空間與公園案例",
+  "title_zh": "Park am Gleisdreieck 公園面積約 26 公頃",
+  "title_en": "Park am Gleisdreieck Covers About 26 Hectares",
+  "summary_zh": "柏林市府將 Park am Gleisdreieck 描述為約 26 公頃，並將其分為受鐵路分隔的東、西公園部分。其前身是貨運鐵路場地，保留軌道遺跡與自然演替斑塊，步行和自行車路徑穿過多種環境。市府資料也指出園區規劃曾有居民參與；這可支持參與程序的事實描述，不能直接代表所有群體的偏好都獲得採納。",
+  "values": [
+    {
+      "name": "Park am Gleisdreieck官方總面積",
+      "range": "約26",
+      "unit": "公頃",
+      "context": "用途：以「Park am Gleisdreieck官方總面積」作為來源情境參照；柏林市府對公園範圍的描述；不同資料可能按公園分期劃界，不是本基地法規。",
+      "library_id": "BERLIN_GLEISDREIECK2025"
+    }
+  ],
+  "key_points_zh": [
+    "將舊鐵路構造、自然棲地和新公園用途一起盤點。",
+    "居民參與的存在不等於所有意見均被接受。"
+  ],
+  "design_implications_zh": [
+    "把工業遺跡和自生生態視為設計資源，也測量其維護需求。"
+  ],
+  "applies_when_zh": "鐵路或工業棕地轉成都市公園並保留歷史痕跡時。",
+  "not_applicable_when_zh": "估算棲地品質或居民受益分布時。",
+  "debates_zh": "大型公園能保存開放空間和生態斑塊，但周邊開發以及遊憩壓力會重新分配土地和使用權。",
+  "tradition": "德國鐵路棕地公園／城市自然",
+  "region": "德國柏林",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": null,
+      "topic": "Industrial heritage and public open space"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": null,
+      "topic": "Urban parks and public participation"
+    }
+  ],
+  "domain": "HAR",
+  "evidence": {
+    "strength": "CASE_EVIDENCE",
+    "findings": [
+      {
+        "claim_zh": "Berlin.de市府頁面列公園約26公頃，並描述前鐵路地及參與過程。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "德國柏林",
+        "library_id": "BERLIN_GLEISDREIECK2025",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "公園社會生活研究指出使用、治理及地方關係是理解公園價值的不同面向。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "德國柏林",
+        "library_id": "LOW05",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "library_id": "BERLIN_GLEISDREIECK2025",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "LOW05",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "version": "v2.0"
+}

@@ -1,0 +1,139 @@
+{
+  "id": "KU-MOR-100",
+  "domain": "MOR",
+  "subtopic": "都市紋理；路網、街廓與開放空間生成",
+  "type": "pattern",
+  "title_zh": "港埠線性紋理：岸線、鐵道與長街廓",
+  "title_en": "Harbour Grain: Quays, Railways, and Long Blocks",
+  "summary_zh": "港埠紋理把岸線、舊倉庫帶與鐵道方向當成同一張骨架圖，先區分物流界面和可公共到達的岸線。Borneo-Sporenburg 研究窗 GSI／已知 FSI 下限／L／OSR 為 0.5065／2.1015／4.154／0.2348；KNSM 為 0.2787／1.9643／7.878／0.3672，Lloydkwartier 為 0.2180／2.2736／10.461／0.3440。這些值只描述各自觀察窗，FSI 是已知量下限；街廓軸向尺寸與道路法定寬度並未直接量得。畫圖先沿岸線／鐵道定主街，再用橫向街巷接岸；物流和公共步道分層。借用線性骨架，不借用案例數值當作規範。",
+  "key_points_zh": [
+    "借用：先定與岸線／鐵道平行的主軸，再補橫向連接；在每個水岸接點註明公共通行或物流服務。",
+    "不借用：不要將多島研究窗或案例 FSI 直接變成單一基地目標。",
+    "街廓軸向短／長邊、地籍地塊寬與法定道路斷面未由該組形態量測直接取得。"
+  ],
+  "evidence": {
+    "strength": "CASE_EVIDENCE",
+    "findings": [
+      {
+        "library_id": "OSM_KB4_PRECEDENTS",
+        "claim_zh": "婆羅洲—斯波倫堡 使用回應 fa2a80c516a0 計算；未映射建築沒有插補。",
+        "effect_or_value": "217 棟建築；高度覆蓋率 0.9908。",
+        "study_design": "研究窗 OSM 幾何測量",
+        "context_region": "Amsterdam, Netherlands",
+        "locator": null,
+        "claim_verification": "OBSERVED_OPEN_DATA_MEASUREMENT",
+        "limitations_zh": "OSM 是社群編輯資料；此值只描述快照，不代表完整盤點。"
+      },
+      {
+        "library_id": "EASTERN_HARBOUR_AMSTERDAM2012",
+        "claim_zh": "婆羅洲—斯波倫堡引用來源記載：Crossref記錄有題為Eastern Harbour, Amsterdam的地區章節；作者欄未列姓名，故此來源只作案例範圍提示。",
+        "effect_or_value": null,
+        "study_design": "書目或官方案例資料",
+        "context_region": "Amsterdam, Netherlands",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "只按已核對的書目或官方來源範圍引用，未查證的設計細節不推定。"
+      },
+      {
+        "library_id": "3DBAG_KB4_HEIGHTS",
+        "claim_zh": "婆羅洲—斯波倫堡 的高度欄位以可連結 BAG 識別碼配對 3DBAG 屋頂與地面高度；沒有匹配的建物不補值。",
+        "effect_or_value": "高度覆蓋 215/217 棟；FSI 可比性為 COMPARABLE。",
+        "study_design": "3DBAG 公開建物高度資料的 BAG-ID 配對",
+        "context_region": "Amsterdam, Netherlands",
+        "locator": null,
+        "claim_verification": "OBSERVED_OPEN_DATA_MEASUREMENT",
+        "limitations_zh": "只計可連結到 3DBAG 高度的足跡；高度轉樓層時採明列 3.0 m／層假設。"
+      },
+      {
+        "library_id": "OSM_KB4_PRECEDENTS",
+        "claim_zh": "補充案例值依同一 KB4 morphometrics 快照摘錄；此紋理的另一個參照值及限制已列於摘要：Borneo-Sporenburg 研究窗 GSI／已知 FSI 下限／L／OSR 為 0.5065／2.1015／4.154／0.2348；KNSM 為 0.2787／1.9643／7.878／0.3672，Lloydkwartier 為 0.2180／2.2736／10.461／0.3440。",
+        "effect_or_value": "Borneo-Sporenburg 研究窗 GSI／已知 FSI 下限／L／OSR 為 0.5065／2.1015／4.154／0.2348；KNSM 為 0.2787／1.9643／7.878／0.3672，Lloydkwartier 為 0.2180／2.2736／10.461／0.3440",
+        "study_design": "保存 OSM 與公開建物高度快照的研究窗量測",
+        "context_region": "依摘要所列案例窗；不是基地法定邊界",
+        "locator": null,
+        "claim_verification": "OBSERVED_OPEN_DATA_MEASUREMENT",
+        "limitations_zh": "不同研究窗不可合併為單一案例平均；FSI 為已知樓地板面積下限。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "平行主軸與橫向接岸可作起稿規則；量測街段或建築間距不能冒充法定路幅。",
+    "完成路網與街廓後才分割地塊，再配置建築零件及開放空間。",
+    "不要將多島研究窗或案例 FSI 直接變成單一基地目標。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "先定與岸線／鐵道平行的主軸，再補橫向連接；在每個水岸接點註明公共通行或物流服務。",
+      "tradeoff_zh": "平行長街能維持港埠辨識度，卻可能減少橫向穿越；以支巷和可驗證的公共接點補足。",
+      "library_ids": [
+        "STOUTEN2017"
+      ]
+    },
+    {
+      "option_zh": "以相同基地邊界另畫規則網格，作為比較基準。",
+      "tradeoff_zh": "兩案採相同土地分母與外部連接條件後，才能比較密度與公共空間。",
+      "library_ids": []
+    }
+  ],
+  "applies_when_zh": "基地長向受港池、碼頭、倉庫帶或鐵道控制，且須安排物流與公共岸線時。",
+  "not_applicable_when_zh": "岸線權屬、危險品、防洪或裝卸需求尚未釐清時，不可先假設岸邊可連續開放。",
+  "debates_zh": "平行長街能維持港埠辨識度，卻可能減少橫向穿越；以支巷和可驗證的公共接點補足。",
+  "sources": [
+    {
+      "library_id": "OSM_KB4_PRECEDENTS",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "EASTERN_HARBOUR_AMSTERDAM2012",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "3DBAG_KB4_HEIGHTS",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "LYNCH60",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "STOUTEN2017",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "DOUCET2011KOPVANZUID",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "跨城市建築形態測量與都市設計案例",
+  "region": "Amsterdam, Netherlands",
+  "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "形態先例比較：婆羅洲—斯波倫堡"
+    }
+  ],
+  "version": "kb4-precedents-2026-10-09",
+  "check": {
+    "method_zh": "在研究窗扣除已映射水域後計算陸地分母，局部公尺投影；量體合併只用於翼深和類型，GSI／FSI 仍按去重原始足跡計。荷蘭案例僅以 BAG 識別碼連結 3DBAG 高度。",
+    "inputs": [
+      "研究窗和 OSM 錨點",
+      "具 SHA-256 的 OSM 快照",
+      "BAG 高度欄位或 OSM 樓層／高度標籤"
+    ],
+    "logic_zh": "GSI、已知 FSI 下限、L、OSR 僅摘錄同一案例窗的保存欄位；街廓面積和交叉口間街段長不等於街廓軸向短／長邊、地籍寬或法定路幅。只有標示可比較的研究窗可做跨案例比較。",
+    "limitations_zh": "OSM 及高度覆蓋只代表來源快照；未知值不插補。尺寸和空間配置規則是明列的編輯起稿假設，未經基地測繪或規範核對不得升格為量測或法定條件。"
+  },
+  "related_unit_ids": [
+    "KU-MOR-083",
+    "KU-MOR-087"
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "id": "KU-MOR-079",
+  "domain": "MOR",
+  "subtopic": "街廓尺寸與建築類型配合",
+  "type": "value_range",
+  "title_zh": "約 40–60 m 是街廓類型適配的觸發帶，不是硬門檻",
+  "title_en": "A 40–60 m band is a type-fit trigger, not a universal block-size rule",
+  "summary_zh": "Siksna 的北美與澳洲市中心街廓比較、Kropf 的形態學手冊及 Panerai 的街廓研究，提供把街廓尺寸和建築類型一起檢查的經典入口。約 40–60 m 在此只作為待交叉核對的初篩帶：落入帶內不代表周邊式或合院一定可行，落在帶外也不自動排除。",
+  "key_points_zh": [
+    "Siksna 比較北美與澳洲市中心街廓，發現約 50–70 m（或 80–110 m）邊長的街廓較能長期維持細分與步行性，過大街廓常在演變中被切分。。",
+    "類型適配取決於可建深度和院落淨寬，外框尺寸單獨不足以判斷。",
+    "20 m 見方作為測試案例，不預先判定必然只能放單棟。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "library_id": "SIKSNA1996",
+        "claim_zh": "Siksna 比較北美與澳洲市中心街廓，發現約 50–70 m（或 80–110 m）邊長的街廓較能長期維持細分與步行性，過大街廓常在演變中被切分。",
+        "effect_or_value": null,
+        "study_design": "八個市中心形態比較範圍",
+        "context_region": "North America; Australia",
+        "locator": null,
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+        "limitations_zh": "只支持明示的文獻範圍與本次可查證內容；未由書目資料推定未讀數值或因果。"
+      },
+      {
+        "library_id": "KROPF2017",
+        "claim_zh": "Kropf 形態學手冊提供街道、地塊和建築類型的分析語彙，支持跨尺度比較。",
+        "effect_or_value": null,
+        "study_design": "都市形態手冊",
+        "context_region": "跨地域形態學",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "只支持明示的文獻範圍與本次可查證內容；未由書目資料推定未讀數值或因果。"
+      },
+      {
+        "library_id": "PANERAI2004",
+        "claim_zh": "Panerai 等在《Urban Forms》追溯周邊式街廓從 Haussmann 巴黎到 Amsterdam South 的演變與瓦解；周邊式街廓需要足夠內院，算術上至少約 2×翼深（10–14 m）＋內院（≥20 m），即邊長約 40–48 m 以上，否則只能放單棟。",
+        "effect_or_value": null,
+        "study_design": "都市街廓專書",
+        "context_region": "Europe; cross-regional morphology",
+        "locator": null,
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+        "limitations_zh": "Open Library 搜尋未回傳出版社與版本頁碼，未做逐頁核對。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "先量街廓外框與道路界線，再指定翼深、院落淨寬和可穿越通道作方案輸入。",
+    "把尺寸帶用作提醒設計者啟動平面檢查，不直接作生成器的硬性拒絕條件。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "在短街廓嘗試淺翼、單側建築或小型穿越空間。",
+      "tradeoff_zh": "可保留多種尺度的街道界面，院落私密與日照需另算。",
+      "library_ids": [
+        "SIKSNA1996",
+        "KROPF2017"
+      ]
+    },
+    {
+      "option_zh": "採取較深翼和完整周邊式街廓，但先證明內院、出入口和服務空間成立。",
+      "tradeoff_zh": "街牆連續性較強，低街廓深度可能迅速壓縮院落淨空。",
+      "library_ids": [
+        "PANERAI2004",
+        "SIKSNA1996"
+      ]
+    }
+  ],
+  "applies_when_zh": "適用於前期比較周邊式街廓、合院、單棟或板樓是否適配候選地塊。",
+  "not_applicable_when_zh": "不適用於把 40–60 m 當作跨國法規、街廓品質分數或可行性自動界線。",
+  "debates_zh": "不同城市的道路、地塊、採光和消防條件不同；觸發帶需以當地建築模數及基地量測再校準。",
+  "counter_unit_ids": [
+    "KU-MOR-005",
+    "KU-MOR-035"
+  ],
+  "related_unit_ids": [
+    "KU-MOR-001",
+    "KU-MOR-002",
+    "KU-MOR-004",
+    "KU-MOR-061"
+  ],
+  "sources": [
+    {
+      "library_id": "SIKSNA1996",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "KROPF2017",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "PANERAI2004",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "比較都市形態學與街廓類型研究",
+  "region": "North America; Australia; Europe; cross-regional",
+  "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "街廓尺寸與建築類型配合：課綱對應主題"
+    }
+  ],
+  "version": "kb2-gaps-2026-10-08",
+  "check": {
+    "method_zh": "由 GIS 量測候選街廓的外邊長，再在 CAD 中輸入兩側翼深和院落目標寬度，計算剩餘內院並與出入口、消防和採光需求比對。",
+    "inputs": [
+      "街廓多邊形及道路邊線",
+      "各邊建築翼深",
+      "設計者選定的內院淨寬和通道需求"
+    ],
+    "logic_zh": "約 40–60 m 只觸發幾何 fit-check；任何類型通過與否以剩餘院落、通道和法規輸入實算，不以範圍值自行判定。",
+    "limitations_zh": "數值帶依任務要求先列為經典待核主張；它不是從本基地資料測出的法規或普遍規則。20 m 例亦只作使用者提供的幾何測例。"
+  },
+  "case": null,
+  "values": [
+    {
+      "name": "街廓類型適配的初篩觸發帶",
+      "range": "約 40–60",
+      "unit": "m block edge",
+      "context": "跨地域都市形態學的待核初篩帶；非本基地法規，也不是通過／不通過門檻。",
+      "library_id": "SIKSNA1996",
+      "claim_verification": "CANONICAL_CROSS_CHECK_PENDING"
+    },
+    {
+      "name": "小街廓幾何測試值",
+      "range": "20 × 20",
+      "unit": "m square block",
+      "context": "跨地域都市街廓比較的測例；20 × 20 m 是使用者提供的幾何輸入，並非 Siksna 報告的尺寸或本基地法規。",
+      "library_id": "SIKSNA1996",
+      "claim_verification": "CANONICAL_CROSS_CHECK_PENDING"
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "id": "KU-MOR-020",
+  "domain": "MOR",
+  "subtopic": "Muratori／Caniggia 類型過程",
+  "type": "critique",
+  "title_zh": "Muratori／Caniggia 類型過程｜批評與反例",
+  "title_en": "Typological process — Critique and counterexample",
+  "summary_zh": "Muratori／Caniggia 類型過程把城市形態視為長期建造與改造累積的結果，分析時要分讀街道、地塊與建築類型。 羅馬、倫敦、新加坡和東京的比較顯示，道路格局、建築與歷史條件會共同塑造地方形式，但少數案例不能代表整個區域。 類型延續性可支援舊城修補；若將既有類型當成唯一正統，也可能抹去非正式建造與後續生活變化。",
+  "key_points_zh": [
+    "讀「Muratori／Caniggia 類型過程｜批評與反例」時，歷史連續性不等於應凍結形式；類型理論也可能低估非正式建造；同時把Muratori／Caniggia 類型過程把城市形態視為長期建造與改造累積的結果，分析時要分讀街道、地塊與建築類型列為核對條件。",
+    "讀「Muratori／Caniggia 類型過程｜批評與反例」時，適用於歷史街區更新、港市街屋與增量式修補；同時把Muratori／Caniggia 類型過程把城市形態視為長期建造與改造累積的結果，分析時要分讀街道、地塊與建築類型列為核對條件。",
+    "讀「Muratori／Caniggia 類型過程｜批評與反例」時，限制：跨文化移植類型前須先確認居住制度、氣候和建造方式；同時把Muratori／Caniggia 類型過程把城市形態視為長期建造與改造累積的結果，分析時要分讀街道、地塊與建築類型列為核對條件。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "Samuels 將類型形態分析視為設計工作方法；其討論不要求把歷史連續性理解成複製或凍結既有外觀。",
+        "library_id": "SAMUELS2008",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "歐洲城市設計論述",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "Yelken Kar 等人把傳統聚落的地方規則視為逐步生成城市形態的力量，並探討這種 typomorphology 如何進入當代情境設計。",
+        "effect_or_value": null,
+        "study_design": "生成式類型形態理論與設計方法",
+        "context_region": "傳統聚落跨案例討論",
+        "library_id": "YELKEN2026",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW",
+        "limitations_zh": "這篇文章處理當代設計方法，並非 Caniggia 理論的逐條校勘。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "對照院落、街屋和商住混合型的建造序列，標出延續部分以及因居住制度改變而重組的部分。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "對照院落、街屋和商住混合型的建造序列，標出延續部分以及因居住制度改變而重組的部分。",
+      "tradeoff_zh": "「Muratori／Caniggia 類型過程｜批評與反例」的主要代價不是抽象的建造成本，而是「Muratori／Caniggia 類型過程｜批評與反例」的爭議不只在於跨文化移植類型前須先確認居住制度、氣候和建造方式；還要檢視Muratori／Caniggia 類型過程把城市形態視為長期建造與改造累積的結果，分析時要分讀街道、地塊與建築類型會讓哪些使用者承擔不同後果；因此先以Muratori／Caniggia 類型過程把城市形態視為長期建造與改造累積的結果，分析時要分讀街道、地塊與建築類型作方案比較條件。",
+      "library_ids": [
+        "SAMUELS2008"
+      ]
+    },
+    {
+      "option_zh": "在「Muratori／Caniggia 類型過程｜批評與反例」的來源情境裡，連續街屋、院落和商住混合型會隨地方生活方式調整；落到設計時還要按Muratori／Caniggia 類型過程把城市形態視為長期建造與改造累積的結果，分析時要分讀街道、地塊與建築類型調整。",
+      "tradeoff_zh": "此選項把「Muratori／Caniggia 類型過程｜批評與反例」的工作放在Muratori／Caniggia 類型過程把城市形態視為長期建造與改造累積的結果，分析時要分讀街道、地塊與建築類型上；需要承擔的協調或維護代價則由「「Muratori／Caniggia 類型過程｜批評與反例」的爭議不只在於跨文化移植類型前須先確認居住制度、氣候和建造方式；還要檢視Muratori／Caniggia 類型過程把城市形態視為長期建造與改造累積的結果，分析時要分讀街道、地塊與建築類型會讓哪些使用者承擔不同後果」界定。",
+      "library_ids": [
+        "SAMUELS2008"
+      ]
+    }
+  ],
+  "applies_when_zh": "「Muratori／Caniggia 類型過程｜批評與反例」可在適用於歷史街區更新、港市街屋與增量式修補時使用，前提是Muratori／Caniggia 類型過程把城市形態視為長期建造與改造累積的結果，分析時要分讀街道、地塊與建築類型與來源情境相符。",
+  "not_applicable_when_zh": "若Muratori／Caniggia 類型過程把城市形態視為長期建造與改造累積的結果，分析時要分讀街道、地塊與建築類型不成立，就不能把「Muratori／Caniggia 類型過程｜批評與反例」的結論延伸到其他情況；跨文化移植類型前須先確認居住制度、氣候和建造方式。",
+  "debates_zh": "「Muratori／Caniggia 類型過程｜批評與反例」的爭議不只在於跨文化移植類型前須先確認居住制度、氣候和建造方式；還要檢視Muratori／Caniggia 類型過程把城市形態視為長期建造與改造累積的結果，分析時要分讀街道、地塊與建築類型會讓哪些使用者承擔不同後果。",
+  "sources": [
+    {
+      "library_id": "SAMUELS2008",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "YELKEN2026",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "類型形態學與設計實務；亞洲與歐洲比較形態學",
+  "region": "歐洲城市設計論述；羅馬、倫敦、新加坡與東京",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "Muratori／Caniggia 類型過程"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "Muratori／Caniggia 類型過程"
+    },
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.330J Theory of City Form",
+      "topic": "Muratori／Caniggia 類型過程"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban form and density",
+      "topic": "Muratori／Caniggia 類型過程"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-MOR-016",
+    "KU-MOR-017",
+    "KU-MOR-018"
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "id": "KU-LUP-075",
+  "domain": "LUP",
+  "subtopic": "土地使用分類",
+  "type": "value_range",
+  "title_zh": "建成環境出行彈性的統合分析上界",
+  "title_en": "Upper bound of built-environment travel elasticities in a meta-analysis",
+  "summary_zh": "Ewing 與 Cervero 對 2000 年前後研究做統合分析，報告各建成環境變數的出行彈性絕對值均低於 0.39，多數估計更小。 此數值表達相對敏感度，不是增加某種用途便會產生的出行變化幅度。 研究樣本、變數定義與居住自我選擇限制了跨城市外推，精確數值仍待原文交叉核對。",
+  "key_points_zh": [
+    "統合分析報告的建成環境變數出行彈性絕對值上界低於 0.39。",
+    "彈性是相對變化率；不同研究的變數定義和樣本不可直接混算。",
+    "統合結果不代表單一設計干預會造成相同比例的出行改變。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "Ewing 與 Cervero 的統合分析報告，各建成環境變數的出行彈性絕對值都未超過 0.39，多數低於此值；精確結果待原文核對。",
+        "effect_or_value": "|出行彈性| < 0.39；多數估計更小",
+        "study_design": "對多項研究彈性的加權統合分析",
+        "context_region": "跨研究，含北美與其他地區文獻",
+        "library_id": "EWING10",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "Næss 指出城市尺度和住業位置會影響出行；這是解讀統合分析時的尺度限制，不是 0.39 上界的來源。",
+        "effect_or_value": null,
+        "study_design": "北歐城市出行行為研究與尺度批評",
+        "context_region": "北歐",
+        "library_id": "NAESS12",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "建成環境變數與出行之彈性幅度",
+      "range": "絕對值低於 0.39；多數估計更低",
+      "unit": "出行量對建成環境變數的彈性，無量綱",
+      "context": "Ewing 與 Cervero 的跨研究統合分析；用途：比較建成環境變數與旅次的相對關聯尺度；精確分布及原文定位待指揮官交叉核對，方法書目：EWING10 為數值來源，NAESS12 僅提供尺度批評，這不是本基地法規；來源所列地域：美國、跨地域。",
+      "library_id": "EWING10"
+    }
+  ],
+  "design_implications_zh": [
+    "以彈性作相對敏感度比較時，列明指標、旅次分母與研究設計，並對單一方案做情境敏感度分析。"
+  ],
+  "applies_when_zh": "適合在研究方法與彈性定義可比時，對照建成環境變數與出行量的相對關聯幅度。",
+  "not_applicable_when_zh": "不能把跨研究的彈性上界直接當成本基地政策效果或設計承諾。",
+  "debates_zh": "自我選擇、變數間關聯與樣本差異會讓統合值難以解讀為單一設計因果效果。",
+  "sources": [
+    {
+      "library_id": "EWING10",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "NAESS12",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "建成環境交通實證與統合分析",
+  "region": "跨研究；北美與其他地區",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Planning Complex Cities",
+      "topic": "生產性城市與 maker 經濟"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Cities by Design",
+      "topic": "生產性城市與 maker 經濟"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "生產性城市與 maker 經濟"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Sustainable Futures by Design",
+      "topic": "生產性城市與 maker 經濟"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008"
+}

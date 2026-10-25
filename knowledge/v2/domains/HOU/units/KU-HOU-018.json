@@ -1,0 +1,107 @@
+{
+  "id": "KU-HOU-018",
+  "domain": "HOU",
+  "subtopic": "混合產權",
+  "type": "concept",
+  "title_zh": "混合產權｜概念邊界",
+  "title_en": "Mixed tenure — Conceptual boundaries",
+  "summary_zh": "混合產權不只是把不同權屬單元放在同一地塊；管理責任、租金、公共服務和權利分配都會影響結果。 集體住宅跨國案例呈現共同生活與個人自主的制度差異，公平框架則要求追問誰控制資源、誰能使用設施。 空間混合無法單獨證明社會融合。",
+  "key_points_zh": [
+    "產權、管理責任、租金和公共服務會共同塑造混合結果。",
+    "適用於社會住宅更新、混合社區和集體住宅規劃。",
+    "限制：不把產權多樣性當作社會融合成效的替代量。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "兩國集體住宅都在復興，但其歷史與住宅政策不同；建築師角色、個人自主與共同生活的平衡會因地而異。",
+        "library_id": "DEVOS2022",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "比利時與荷蘭",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "以公平、參與及差異討論都市發展的受益與負擔，不能只用總量效率選方案。",
+        "library_id": "FANSTEIN10",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "美國; 歐洲",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "繪出產權與管理空間，不只統計住宅單元類型。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "繪出產權與管理空間，不只統計住宅單元類型。",
+      "tradeoff_zh": "「混合產權｜概念邊界」的主要代價不是抽象的建造成本，而是社會混合政策可能以空間混合掩蓋不平等的權利和資源；因此先以兩國集體住宅都在復興，但其歷史與住宅政策不同；建築師角色、個人自主與共同生活的平衡會因地而異作方案比較條件。",
+      "library_ids": [
+        "DEVOS2022",
+        "FANSTEIN10"
+      ]
+    },
+    {
+      "option_zh": "社會租屋、合作住宅、自有住宅和私人租屋可在同街區並存。",
+      "tradeoff_zh": "「混合產權｜概念邊界」的主要代價不是抽象的建造成本，而是社會混合政策可能以空間混合掩蓋不平等的權利和資源；因此先以兩國集體住宅都在復興，但其歷史與住宅政策不同；建築師角色、個人自主與共同生活的平衡會因地而異作方案比較條件。",
+      "library_ids": [
+        "DEVOS2022",
+        "FANSTEIN10"
+      ]
+    }
+  ],
+  "applies_when_zh": "適用於社會住宅更新、混合社區和集體住宅規劃。",
+  "not_applicable_when_zh": "不把產權多樣性當作社會融合成效的替代量。",
+  "debates_zh": "社會混合政策可能以空間混合掩蓋不平等的權利和資源。",
+  "sources": [
+    {
+      "library_id": "DEVOS2022",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "FANSTEIN10",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "比利時與荷蘭集體住宅；都市分配正義",
+  "region": "比利時與荷蘭；美國",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "混合產權"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "混合產權"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "混合產權"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "混合產權"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-HOU-019",
+    "KU-HOU-020",
+    "KU-HOU-021"
+  ],
+  "counter_unit_ids": [
+    "KU-HOU-022"
+  ]
+}

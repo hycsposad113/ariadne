@@ -1,0 +1,107 @@
+{
+  "id": "KU-LUP-030",
+  "domain": "LUP",
+  "subtopic": "生產性城市與 maker 經濟",
+  "type": "method",
+  "title_zh": "生產性城市與 maker 經濟｜分析方法",
+  "title_en": "Productive city and urban manufacturing — Analytical method",
+  "summary_zh": "作者歸納都市製造可能連結資源循環，也列出空間、社會與材料條件帶來的阻礙；未估計單一因果效應。 在街區、建築和區域尺度同時分析產業與住宅。 讀「生產性城市與 maker 經濟｜分析方法」時，限制：沒有企業生存、物流和排放資料時，不推估經濟或環境淨效益；同時把作者歸納都市製造可能連結資源循環，也列出空間、社會與材料條件帶來的阻礙；未估計單一因果效應列為核對條件。",
+  "key_points_zh": [
+    "在街區、建築和區域尺度同時分析產業與住宅。",
+    "在街區、建築和區域尺度同時分析產業與住宅。",
+    "讀「生產性城市與 maker 經濟｜分析方法」時，限制：沒有企業生存、物流和排放資料時，不推估經濟或環境淨效益；同時把作者歸納都市製造可能連結資源循環，也列出空間、社會與材料條件帶來的阻礙；未估計單一因果效應列為核對條件。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "Tsui 等人回顧都市製造如何連結循環經濟，也列出空間、社會和材料條件造成的障礙；文章未估計單一因果效應。",
+        "library_id": "TSUI2020",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "跨城市文獻與專家",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "Campbell 把經濟成長、社會正義和環境保護列為互相牽制的城市規劃目標，適合用來檢視循環製造方案的外部成本。",
+        "library_id": "CAMPBELL96",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "跨地域",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "落實「生產性城市與 maker 經濟｜分析方法」時可先垂直混合、工坊街區和計畫型工業區是不同選擇，再用作者歸納都市製造可能連結資源循環，也列出空間、社會與材料條件帶來的阻礙；未估計單一因果效應核對方案的空間後果。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "「生產性城市與 maker 經濟｜分析方法」可把取向落在盤點行業類型、噪音、物流、面積需求和共用設施，但需連同作者歸納都市製造可能連結資源循環，也列出空間、社會與材料條件帶來的阻礙；未估計單一因果效應決定適用方式。",
+      "tradeoff_zh": "「生產性城市與 maker 經濟｜分析方法」採用「「生產性城市與 maker 經濟｜分析方法」可把取向落在盤點行業類型、噪音、物流、面積需求和共用設施，但需連同作者歸納都市製造可能連結資源循環，也列出空間、社會與材料條件帶來的阻礙；未估計單一因果效應決定適用方式」時，得失要沿著作者歸納都市製造可能連結資源循環，也列出空間、社會與材料條件帶來的阻礙；未估計單一因果效應檢查；「生產性城市與 maker 經濟｜分析方法」的爭議不只在於增加空間選擇與公共連結，但會增加協調、管理或建造成本；還要檢視作者歸納都市製造可能連結資源循環，也列出空間、社會與材料條件帶來的阻礙；未估計單一因果效應會讓哪些使用者承擔不同後果。",
+      "library_ids": [
+        "TSUI2020",
+        "CAMPBELL96"
+      ]
+    },
+    {
+      "option_zh": "「生產性城市與 maker 經濟｜分析方法」可把取向落在垂直混合、工坊街區和計畫型工業區是不同選擇，但需連同作者歸納都市製造可能連結資源循環，也列出空間、社會與材料條件帶來的阻礙；未估計單一因果效應決定適用方式。",
+      "tradeoff_zh": "「生產性城市與 maker 經濟｜分析方法」的主要代價不是抽象的建造成本，而是「生產性城市與 maker 經濟｜分析方法」的爭議不只在於增加空間選擇與公共連結，但會增加協調、管理或建造成本；還要檢視作者歸納都市製造可能連結資源循環，也列出空間、社會與材料條件帶來的阻礙；未估計單一因果效應會讓哪些使用者承擔不同後果；因此先以作者歸納都市製造可能連結資源循環，也列出空間、社會與材料條件帶來的阻礙；未估計單一因果效應作方案比較條件。",
+      "library_ids": [
+        "TSUI2020",
+        "CAMPBELL96"
+      ]
+    }
+  ],
+  "applies_when_zh": "「生產性城市與 maker 經濟｜分析方法」可在適用於工業轉型、港區再生和 maker 空間政策討論時使用，前提是作者歸納都市製造可能連結資源循環，也列出空間、社會與材料條件帶來的阻礙；未估計單一因果效應與來源情境相符。",
+  "not_applicable_when_zh": "若作者歸納都市製造可能連結資源循環，也列出空間、社會與材料條件帶來的阻礙；未估計單一因果效應不成立，就不能把「生產性城市與 maker 經濟｜分析方法」的結論延伸到其他情況；沒有企業生存、物流和排放資料時，不推估經濟或環境淨效益。",
+  "debates_zh": "「生產性城市與 maker 經濟｜分析方法」的爭議不只在於增加空間選擇與公共連結，但會增加協調、管理或建造成本；還要檢視作者歸納都市製造可能連結資源循環，也列出空間、社會與材料條件帶來的阻礙；未估計單一因果效應會讓哪些使用者承擔不同後果。",
+  "sources": [
+    {
+      "library_id": "TSUI2020",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "CAMPBELL96",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "循環經濟與城市製造；永續規劃批評",
+  "region": "跨城市文獻與專家；跨地域",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Planning Complex Cities",
+      "topic": "生產性城市與 maker 經濟"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Cities by Design",
+      "topic": "生產性城市與 maker 經濟"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "生產性城市與 maker 經濟"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Sustainable Futures by Design",
+      "topic": "生產性城市與 maker 經濟"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-LUP-027",
+    "KU-LUP-028",
+    "KU-LUP-029"
+  ],
+  "counter_unit_ids": [
+    "KU-LUP-031"
+  ]
+}

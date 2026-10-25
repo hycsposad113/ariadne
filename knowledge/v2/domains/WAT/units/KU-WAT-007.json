@@ -1,0 +1,71 @@
+{
+  "id": "KU-WAT-007",
+  "domain": "WAT",
+  "subtopic": "洪水風險與多層安全",
+  "type": "critique",
+  "title_zh": "城市洪水治理須追蹤空間與時間尺度間的回饋",
+  "title_en": "Urban flood governance must track cross-scale feedback",
+  "summary_zh": "Zevenbergen 等人把城市洪水管理放在不同空間、時間與社會背景之間分析，指出問題超出單一排水構件。Godschalk 的書目範圍討論將災害防備與城市規劃連結，提醒治理安排也會影響安全。這類觀點不能取代水理模型，卻能揭示工程、土地使用、預警和應變之間的相依。多層安全方案需要說明機關責任及資訊如何沿風險鏈傳遞。",
+  "key_points_zh": [
+    "洪水問題跨越水文、土地使用和機關治理尺度。",
+    "治理架構與水理模擬回答不同問題，需各自保留證據。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "library_id": "ZEVENBERGEN2008",
+        "claim_zh": "摘要指出都市洪水管理牽涉政治、社會經濟與環境變化，且易受不同空間與時間尺度的回饋影響；作者也明言系統方法的落地仍有未知因素；本單元 KU-WAT-007 對照「Zevenbergen 等人把城市洪水管理放在不同空間、時間與社會背景之間分析，指出問題超出單一排水構件」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "ABSTRACT_REVIEW",
+        "effect_or_value": null,
+        "study_design": "時空尺度與複雜系統的框架分析",
+        "context_region": "跨尺度都市水治理",
+        "locator": null
+      },
+      {
+        "library_id": "GODSCHALK2003",
+        "claim_zh": "題名與書目顯示文章討論城市災害減緩與韌性規劃；不提供特定基地的防洪標準；本單元 KU-WAT-007 對照「Zevenbergen 等人把城市洪水管理放在不同空間、時間與社會背景之間分析，指出問題超出單一排水構件」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "規劃框架論述",
+        "context_region": "美國都市規劃脈絡",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "畫出街廓排水、區域滯洪、預警疏散和復原的風險鏈，並標記負責單位。",
+    "在同一套圖表中分開呈現事件情境、水文危害和社會應變能力。"
+  ],
+  "applies_when_zh": "適用於整合排水、土地規劃、預警和緊急應變的城市尺度工作。",
+  "not_applicable_when_zh": "不適用於取代排水管徑、洪水危害模型或法定防洪標準。",
+  "debates_zh": "系統觀可以呈現相依，也會提高資料協調成本；若不指定情境和責任，韌性敘事容易停留在抽象層次。",
+  "sources": [
+    {
+      "library_id": "ZEVENBERGEN2008",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "GODSCHALK2003",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "跨尺度洪水治理",
+  "region": "跨城市",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": null,
+      "topic": "洪水風險與多層安全"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": null,
+      "topic": "氣候調適與社區韌性"
+    }
+  ],
+  "version": "v2.0"
+}

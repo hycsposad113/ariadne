@@ -1,0 +1,42 @@
+{
+  "id": "HAMBURG_URBAN_PROJECTS2020_2035",
+  "title": "Hamburger Projekte der Stadtentwicklung 2020–2035",
+  "authors": [
+    "Freie und Hansestadt Hamburg, Behörde für Stadtentwicklung und Wohnen"
+  ],
+  "year": null,
+  "venue_or_publisher": "Freie und Hansestadt Hamburg, Behörde für Stadtentwicklung und Wohnen",
+  "doi": null,
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "OFFICIAL_GOVERNMENT_REPORT",
+  "tradition": "官方城市規劃與專案資料",
+  "region": "德國漢堡",
+  "method": "直接核對官方公開頁面或政府報告；非學術成效研究",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "官方發展資料把HafenCity列為157公頃、約7,500戶住宅（約2,000戶公共補助）、45,000個工作機會，並列出2000–2025/30的發展時段。",
+      "strength": "CASE_EVIDENCE",
+      "scope_zh": "僅支持頁面明確公布的規劃口徑、歷史日期或行政資料，不將目標寫成實現成果。",
+      "assessment_basis": "DIRECT_SOURCE_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Official organization webpage",
+    "query": {
+      "title": "Hamburger Projekte der Stadtentwicklung 2020–2035",
+      "author": "Freie und Hansestadt Hamburg, Behörde für Stadtentwicklung und Wohnen",
+      "year": null,
+      "api_query": "Read-only official source page: https://www.hamburg.de/resource/blob/874718/359b6a285d5a6d76d37afe43949926504/d-hamburger-projekte-der-stadtentwicklung-2020-2035-barrierefrei-data.pdf"
+    },
+    "matched_record_id": "https://www.hamburg.de/resource/blob/874718/359b6a285d5a6d76d37afe43949926504/d-hamburger-projekte-der-stadtentwicklung-2020-2035-barrierefrei-data.pdf",
+    "checked_at_utc": "2026-10-08T14:10:33Z",
+    "match_notes_zh": "直接核對官方網站或政府報告；網站頁面不是Crossref書目記錄，未宣稱經Crossref驗證。"
+  },
+  "limitations_zh": "官方頁面可能呈現規劃者或管理者口徑；研究成效及獨立社會評估需另尋學術來源。",
+  "critique_relationship_zh": "本記錄不宣稱與其他來源存在直接互引或逐一反駁關係。",
+  "metadata_licence_zh": "官方公開頁面；未確認個別資料集的再利用授權。"
+}

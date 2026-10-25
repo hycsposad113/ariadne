@@ -1,0 +1,105 @@
+{
+  "id": "KU-CAS-022",
+  "domain": "CAS",
+  "subtopic": "街道與交通—自行車導向新市鎮",
+  "type": "case",
+  "title_zh": "Houten：讓自行車走直線、汽車繞外環的成長型城鎮",
+  "title_en": "Houten: Direct Cycling Routes within a Perimeter-Road New Town",
+  "summary_zh": "Houten 在 1970 年代起由小村擴展為承接區域人口的新市鎮，交通骨架把汽車外環與穿越住宅區的步行、自行車路徑分開。荷蘭文化遺產署指出，設計團隊把交通流、綠帶和建築視為同一套空間構成；市府現行介紹也把連續、分離的自行車連接列為發展原則。Buehler 與 Dill 的文獻回顧整理自行車路網研究，但不是 Houten 的成效評估。此案例能說明網絡配置，不能單獨證明某一種路型造成全市騎乘率。",
+  "key_points_zh": [
+    "同一方向的自行車旅程較少被汽車穿越路徑切斷，汽車跨區行駛則經外環。",
+    "綠帶、街區形狀與交通網絡一同形成，後續擴區須保留這些連接，而非只複製住宅單元。"
+  ],
+  "evidence": {
+    "strength": "CASE_EVIDENCE",
+    "findings": [
+      {
+        "claim_zh": "Buehler 與 Dill 的綜述處理自行車道網絡的效果研究；它適合作為路網評估方法來源，不能當作 Houten 專屬數值。",
+        "effect_or_value": "綜述範圍為自行車路網研究，未引用未核讀的效果量",
+        "study_design": "跨地域文獻回顧",
+        "context_region": "多國城市；非 Houten 單一案例",
+        "library_id": "BUEHLER16",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "荷蘭文化遺產署描述 Houten 以外環路限制汽車穿越街區，步行和自行車可在內部直通，並把交通、綠帶與建築視為整體規劃。",
+        "effect_or_value": "官方文化資產案例說明",
+        "study_design": "國家文化遺產機構的歷史與空間敘述",
+        "context_region": "荷蘭 Houten",
+        "library_id": "RCE_HOUTEN_CYCLE2026",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "Houten 市府將連續、與其他交通分離的自行車連接列為城市設計主軸；此處不把市府自述解讀為因果評估。",
+        "effect_or_value": "現行市府政策敘述",
+        "study_design": "市府空間政策頁面",
+        "context_region": "荷蘭 Houten",
+        "library_id": "HOUTEN_DNA2026",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "比較主要目的地的自行車路徑距離、汽車外環繞行、過街點和公共交通接點，而非只計算自行車道總長。",
+    "在擴區時優先連上既有自行車網與車站，並核對學校、服務設施和長者出行的實際路線。"
+  ],
+  "applies_when_zh": "新市鎮或大型街區能以整體土地配置同步處理汽車、步行、自行車、綠帶和公共交通時。",
+  "not_applicable_when_zh": "既有路網被鐵路、快速路或地形切割，且沒有可靠的跨越設施與安全維護預算時。",
+  "debates_zh": "內部直通自行車網可以減少路線繞行，但外環交通、中心區停車和城鎮對區域鐵路的依賴仍影響日常選擇。綜述研究提供的是跨城市證據，不應把 Houten 的單一幾何配置視作普遍定律。",
+  "sources": [
+    {
+      "library_id": "BUEHLER16",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "RCE_HOUTEN_CYCLE2026",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "HOUTEN_DNA2026",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "荷蘭成長核心、交通網絡整合與自行車規劃",
+  "region": "西歐／荷蘭 Houten",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": null,
+      "topic": "自行車網絡與土地使用整合"
+    },
+    {
+      "school": "MIT",
+      "course": null,
+      "topic": "交通路網與新市鎮規劃"
+    }
+  ],
+  "case": {
+    "location": "荷蘭烏特勒支省 Houten 核心城鎮與主要住宅擴展區",
+    "period": "1966 年列為成長核心；1970 年代起主要擴建，後續有南側擴區",
+    "area_ha": null,
+    "fsi": null,
+    "gsi": null,
+    "program_mix": "多個住宅街區、城鎮中心、學校與服務設施、鐵路車站、綠帶及自行車／步行網絡；城鎮整體用途比例未核得。",
+    "key_strategies_zh": [
+      "讓住宅區之間以自行車和步行內部路徑連接，汽車跨區交通主要利用環狀道路。",
+      "把自行車網、綠色開放空間和建築配置一併設計，並在新區延續既有連接。"
+    ],
+    "outcomes_zh": [
+      "官方資料確認 Houten 已形成以自行車連接街區與設施的空間網絡。",
+      "文獻回顧整理自行車路網研究方法；此條目不以該綜述替 Houten 填入騎乘率或安全效果。"
+    ],
+    "critiques_zh": [
+      "城鎮級配置可能提高不同區域間的繞行或換乘成本，需依居住地、目的地及行動能力分組檢查。",
+      "外環車流、中心區可達性與後續擴區的連續性需要一併監測，不能只用內部自行車道評價。"
+    ]
+  },
+  "version": "v2.0"
+}

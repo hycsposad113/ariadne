@@ -1,0 +1,102 @@
+{
+  "id": "KU-GRN-510",
+  "domain": "GRN",
+  "subtopic": "綠地可及性與健康",
+  "type": "value_range",
+  "title_zh": "WHO歐洲區綠地可及性門檻",
+  "title_en": "WHO Europe green-space access indicator",
+  "summary_zh": "WHO歐洲區公開報告將住宅附近公共綠地的面積與距離一起作為健康可及性檢視，提供300公尺線性距離及至少0.5公頃綠地的可操作門檻。指標技術文件另討論以1公頃作補充尺度分析；這不代表所有城市都須採用同一法定門檻。這是WHO歐洲區指引，不是M4H本基地法規；設計上可用於初篩鄰里綠地服務範圍，再以實際入口路徑、開放時間、品質及使用者差異補充。",
+  "key_points_zh": [
+    "WHO Europe指標以住宅到公共綠地300m直線距離作為可及性檢核。",
+    "最小分析綠地面積為0.5ha；文件亦將1ha用於延伸分析。",
+    "這是公共衛生與規劃指標建議，不是各國一體適用的法律命令。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "WHO歐洲區公開報告提供300m及0.5–1ha綠地範圍作規劃參考。",
+        "effect_or_value": null,
+        "study_design": "法規／官方政策或實務指引內容核對",
+        "context_region": "WHO歐洲區",
+        "library_id": "WHO_GREEN_REPORT",
+        "locator": "WHO Europe報告綠地可及性建議",
+        "claim_verification": "OFFICIAL_PRIMARY_SOURCE_REVIEW"
+      },
+      {
+        "claim_zh": "技術指標使用300m直線距離、至少0.5ha，並討論1ha門檻。",
+        "effect_or_value": null,
+        "study_design": "法規／官方政策或實務指引內容核對",
+        "context_region": "WHO歐洲區",
+        "library_id": "WHO_GREEN_INDICATOR",
+        "locator": "指標文件的300m、0.5ha及1ha分析門檻",
+        "claim_verification": "OFFICIAL_PRIMARY_SOURCE_REVIEW"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "以300m直線半徑先做覆蓋篩查，再改用入口到入口的步行網路距離檢查實際可及性。",
+    "同時記錄綠地面積、公共開放性、遮蔭與使用條件，不把面積距離指標當成品質的替代值。"
+  ],
+  "applies_when_zh": "用於鄰里公共綠地可及性和公共健康的初步規劃指標。",
+  "not_applicable_when_zh": "不能直接視為鹿特丹或M4H法定綠地標準，也不能由半徑覆蓋推論綠地品質。",
+  "debates_zh": "300m是線性距離指標，不等於可通行步行距離；面積門檻未涵蓋品質、可達入口與公平性。",
+  "sources": [
+    {
+      "library_id": "WHO_GREEN_REPORT",
+      "claim_id": "C1",
+      "locator": "WHO Europe報告綠地可及性建議"
+    },
+    {
+      "library_id": "WHO_GREEN_INDICATOR",
+      "claim_id": "C1",
+      "locator": "指標文件的300m、0.5ha及1ha分析門檻"
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+  "tradition": "公共綠地與健康可及性",
+  "region": "WHO歐洲區",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "topic": "綠地可及性與健康"
+    },
+    {
+      "school": "Harvard GSD",
+      "topic": "綠地可及性與健康"
+    },
+    {
+      "school": "MIT",
+      "topic": "綠地可及性與健康"
+    },
+    {
+      "school": "UCL Bartlett",
+      "topic": "綠地可及性與健康"
+    }
+  ],
+  "version": "kb2-policy-2026-10-08",
+  "values": [
+    {
+      "name": "住宅至公共綠地線性距離",
+      "range": "300",
+      "unit": "m直線距離",
+      "context": "適用地區：World Health Organization Regional Office for Europe；這是外國或地方制度／指引，不是 M4H 本基地法規；用途：WHO Europe綠地可及性指標；用途：鄰里綠地覆蓋初篩；來源：https://iris.who.int/bitstream/handle/10665/345751/WHO%E2%80%90EURO%E2%80%902016%E2%80%903352%E2%80%9043111%E2%80%9060341%E2%80%90eng.pdf?sequence=3",
+      "library_id": "WHO_GREEN_INDICATOR"
+    },
+    {
+      "name": "綠地最小分析面積",
+      "range": "≥0.5",
+      "unit": "ha",
+      "context": "適用地區：World Health Organization Regional Office for Europe；這是外國或地方制度／指引，不是 M4H 本基地法規；用途：WHO Europe可操作指標；用途：避免以小型碎片綠地直接代表完整公共綠地；來源：https://iris.who.int/bitstream/handle/10665/345751/WHO%E2%80%90EURO%E2%80%902016%E2%80%903352%E2%80%9043111%E2%80%9060341%E2%80%90eng.pdf?sequence=3",
+      "library_id": "WHO_GREEN_INDICATOR"
+    },
+    {
+      "name": "延伸綠地面積分析門檻",
+      "range": "1",
+      "unit": "ha",
+      "context": "適用地區：World Health Organization Regional Office for Europe；這是外國或地方制度／指引，不是 M4H 本基地法規；用途：WHO Europe技術文件延伸分析；用途：敏感度比較，不作唯一要求；來源：https://iris.who.int/bitstream/handle/10665/345751/WHO%E2%80%90EURO%E2%80%902016%E2%80%903352%E2%80%9043111%E2%80%9060341%E2%80%90eng.pdf?sequence=3",
+      "library_id": "WHO_GREEN_INDICATOR"
+    }
+  ]
+}

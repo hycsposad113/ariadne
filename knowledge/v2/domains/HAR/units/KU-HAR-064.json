@@ -1,0 +1,125 @@
+{
+  "id": "KU-HAR-064",
+  "domain": "HAR",
+  "subtopic": "水岸再生案例；Barcelona 1992",
+  "type": "case",
+  "title_zh": "Barcelona 1992 奧運水岸：港灣、村落、公園與城市邊緣",
+  "title_en": "Barcelona 1992 Olympics: waterfront, village, parks and urban edge",
+  "summary_zh": "Barcelona 把奧運村、海濱公園和遊艇港等空間納入 1992 前後的城市改造。Martorell 等人的同期設計出版物記錄建築、公共空間與 leisure port；Garcia-Ramon 與 Albet 則直接質問「Barcelona 模型」能否成為今日再生範本。物質空間的延續可被描述，分配成效仍需居民和投資資料驗證。",
+  "key_points_zh": [
+    "Barcelona 為 1992 奧運在 Poblenou 建設 Vila Olímpica 與奧運港，遷移濱海鐵路、建設環城道路 Ronda Litoral，並開放約 4 公里以上的新海灘與濱海步道，形成被稱為「巴塞隆納模式」的事件驅動再。",
+    "公園與海濱設施提供物質改造的可觀察證據，但無法單獨證明社會公平。",
+    "把 Barcelona 當作模型之前，要說明哪些治理條件、時序和居民保護措施可被移植。"
+  ],
+  "evidence": {
+    "strength": "CASE_EVIDENCE",
+    "findings": [
+      {
+        "library_id": "MARTORELL1992",
+        "claim_zh": "同期設計書目涵蓋 Olympic Village 的建築、公園與 leisure port，提供項目組成的原始記錄入口。",
+        "effect_or_value": null,
+        "study_design": "同期設計出版物",
+        "context_region": "Barcelona, Spain",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "Open Library 核對出版書目與主題，未查閱各設計章節。"
+      },
+      {
+        "library_id": "GARCIA_RAMON_ALBET2000",
+        "claim_zh": "Barcelona 為 1992 奧運在 Poblenou 建設 Vila Olímpica 與奧運港，遷移濱海鐵路、建設環城道路 Ronda Litoral，並開放約 4 公里以上的新海灘與濱海步道，形成被稱為「巴塞隆納模式」的事件驅動再生；批評者質疑其後續觀光化、房價上升與公共參與不足。",
+        "effect_or_value": null,
+        "study_design": "研究評論",
+        "context_region": "Barcelona, Spain",
+        "locator": null,
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+        "limitations_zh": "Crossref 未回傳摘要；其具體批判內容需看原文。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "分別畫出奧運設施、永久市政設施、海濱公園、住區與港灣交通的後續使用狀態。",
+    "把活動帶來的短期建設成果和長期公共通行、住房與產業變化分開追蹤。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "以一次性大型活動同步推進海濱空間與城市基礎建設。",
+      "tradeoff_zh": "建設時程集中且可見度高，卻可能把資源和決策壓在短時間內。",
+      "library_ids": [
+        "MARTORELL1992",
+        "GARCIA_RAMON_ALBET2000"
+      ]
+    },
+    {
+      "option_zh": "把永久公共空間和交通連接拆成可獨立交付的分期。",
+      "tradeoff_zh": "可降低對單一賽事的依賴，整體轉型時間可能拉長。",
+      "library_ids": [
+        "GARCIA_RAMON_ALBET2000",
+        "MARTORELL1992"
+      ]
+    }
+  ],
+  "applies_when_zh": "適用於檢視大型事件如何改造港灣、公共空間與城市品牌的歷史案例。",
+  "not_applicable_when_zh": "不適用於用奧運曝光或公共設施建成推定租金、移居或地方商業受益。",
+  "debates_zh": "「Barcelona model」是需要拆解的研究命題；城市尺度的硬體改造不能替代對成本、可負擔性和使用者組成的查核。",
+  "counter_unit_ids": [
+    "KU-HAR-012"
+  ],
+  "related_unit_ids": [
+    "KU-HAR-022",
+    "KU-HAR-054"
+  ],
+  "sources": [
+    {
+      "library_id": "MARTORELL1992",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "GARCIA_RAMON_ALBET2000",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "奧運都市、公共空間與地中海水岸更新",
+  "region": "Barcelona, Spain",
+  "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+  "curriculum_refs": [
+    {
+      "school": "MIT",
+      "course": null,
+      "topic": "水岸再生案例；Barcelona 1992：課綱對應主題"
+    }
+  ],
+  "version": "kb2-gaps-2026-10-08",
+  "check": {
+    "method_zh": "對照奧運前後圖面、永久設施清冊與實際公共通行路徑；另以居民租住和商業更替的同口徑時間序列檢驗社會結果。",
+    "inputs": [
+      "1992 Olympic Village 設計出版物",
+      "海濱公園及港口開放範圍圖",
+      "公共投資、租住與企業變動資料"
+    ],
+    "logic_zh": "只有設施交付與使用連續性可以由圖面及管理紀錄直接檢查；分配結果需要獨立的社會和經濟資料。",
+    "limitations_zh": "本輪書目只確認同期設計書與模型批評論文，沒有可比較的居民搬遷或住房負擔數據；未填造面積或投資效益。"
+  },
+  "case": {
+    "location": "Barcelona, Spain",
+    "period": "1992 奧運前後的城市改造",
+    "area_ha": null,
+    "fsi": null,
+    "gsi": null,
+    "program_mix": "Olympic Village、建築、海濱公園、遊艇／休閒港",
+    "key_strategies_zh": [
+      "以奧運村、海濱公園與休閒港組合調整港灣和城市邊緣。",
+      "以設計建設和活動時程協同推進更新。"
+    ],
+    "outcomes_zh": [
+      "同期設計出版物保留了奧運村、公園及休閒港的項目題材。",
+      "後續學術文章把 Barcelona 的再生經驗作為可否複製的明確爭論。"
+    ],
+    "critiques_zh": [
+      "物理空間交付不等於居民分享土地增值或參與決策。",
+      "若城市以事件品牌替代社會結果資料，模型容易被過度簡化。"
+    ]
+  }
+}

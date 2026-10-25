@@ -1,0 +1,84 @@
+{
+  "id": "MOR-015",
+  "title_zh": "密度路網用途聯合診斷",
+  "title_en": "Integrated density network use diagnosis",
+  "domain": "morphology",
+  "stages": [
+    "S2",
+    "S3",
+    "S6",
+    "S7",
+    "S8"
+  ],
+  "statement_zh": "把 FSI、GSI、層數、路網中心性及用途並列，任何一項不能單獨指定最佳型態。",
+  "rationale_zh": "荷蘭聯合診斷與密度多維模型提供不同分析視角。",
+  "applies_when": {},
+  "parameters": [
+    {
+      "name": "morphology_variants_min",
+      "value": 3,
+      "range": null,
+      "unit": "variants",
+      "provenance": "ASSUMED_COMMANDER",
+      "source_ids": [],
+      "authority_ref": null,
+      "status": "PROPOSED_PENDING_FOUNDER",
+      "rationale_zh": "指揮官提出的敏感性試算值，文獻未提供此數值；須 Founder 確認、地方資料及確定性驗證，未生效。"
+    }
+  ],
+  "check": {
+    "method_zh": "依規則逐項輸出對照表、輸入版本、定義、數值／未知及替代方案；實際計算由確定性工具負責。",
+    "inputs": [
+      "凍結基地、模式路網及用途／政策資料",
+      "已接受條件、卡片版本與試算參數"
+    ],
+    "output": "可比較的診斷與設計回應；沒有觀測或校準不輸出人數或法定結論。",
+    "implementation_status": "SPECIFICATION_ONLY"
+  },
+  "check_unavailable_reason_zh": null,
+  "design_responses": [
+    {
+      "option": "1",
+      "action_zh": "以周邊街廓集中量體",
+      "source_ids": [
+        "YE14"
+      ],
+      "tradeoff_zh": "形成街面，需要檢查內院環境。"
+    },
+    {
+      "option": "2",
+      "action_zh": "以較疏開量體分散高度",
+      "source_ids": [
+        "DOVEY14"
+      ],
+      "tradeoff_zh": "增加間隙，可能降低沿街連續性。"
+    }
+  ],
+  "evidence_level": "ACADEMIC",
+  "evidence_strength": "MIXED",
+  "sources": [
+    {
+      "library_id": "YE14",
+      "claim_id": "C1",
+      "support_scope_zh": "文獻支持概念與比較角度；本卡具體操作是設計推導，試算值及專案約束不是文獻的普適結論。"
+    },
+    {
+      "library_id": "DOVEY14",
+      "claim_id": "C1",
+      "support_scope_zh": "文獻支持概念與比較角度；本卡具體操作是設計推導，試算值及專案約束不是文獻的普適結論。"
+    },
+    {
+      "library_id": "SPACEMATRIX10",
+      "claim_id": "C1",
+      "support_scope_zh": "文獻支持概念與比較角度；本卡具體操作是設計推導，試算值及專案約束不是文獻的普適結論。"
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "enforcement": "CANDIDATE_ONLY",
+  "authority_ref": null,
+  "local_context_refs": [],
+  "debates_zh": "上述做法是文獻引導的設計推導，兩種方案各有代價；不得以某一方法、作者或地域替 Founder 決定。",
+  "context_validity_zh": "文獻地域與方法見 library；跨地域只能借用比較框架，數值須本地量測、校準與審核。",
+  "exceptions_zh": "法規、門禁、資料缺口、無障礙及已接受 D1/D2 優先；資料不足列 UNKNOWN，試算參數須 Founder 確認。",
+  "version": "0.2.0"
+}

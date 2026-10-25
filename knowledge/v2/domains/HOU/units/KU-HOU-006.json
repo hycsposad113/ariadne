@@ -1,0 +1,99 @@
+{
+  "id": "KU-HOU-006",
+  "domain": "HOU",
+  "subtopic": "住宅類型",
+  "type": "typology",
+  "title_zh": "高層住宅類型應回到單元與服務配置",
+  "title_en": "Singapore high-rise housing",
+  "summary_zh": "新加坡公共住宅提供高層生活的地方研究案例；不能把同樣高度當作跨城市接受程度。 新加坡公共住宅是高層住宅的地方研究案例，類型判讀需連結住宅單元、共享空間及公共服務。 本次取得的書目資訊未提供可核對的住戶滿意度、抽樣或因果結果。",
+  "key_points_zh": [
+    "新加坡公共住宅是高層住宅的地方研究案例，類型判讀需連結住宅單元、共享空間及公共服務。",
+    "將樓層配置、戶型、共同空間、交通及管理列為同一比較表。",
+    "限制：本次取得的書目資訊未提供可核對的住戶滿意度、抽樣或因果結果。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "Yue 以新加坡公共住宅記錄高層生活的地方經驗；這個案例應連同其住宅政策與公共服務情境閱讀。",
+        "library_id": "YUE05",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "新加坡",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "Wassenberg 的專書回顧大型住宅區的興起、衰退與復甦；這個歷史案例可補充高層住宅的居住與管理脈絡，不能把高度本身當成品質指標。",
+        "library_id": "WASSENBERG2013",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "荷蘭與歐洲",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "本條依公開摘要或書目範圍整理；未據此推定本基地法規、普遍效果或未核對的數值。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "將樓層配置、戶型、共同空間、交通及管理列為同一比較表。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "在「高層住宅類型應回到單元與服務配置」的來源情境裡，將樓層配置、戶型、共同空間、交通及管理列為同一比較表；落到設計時還要按新加坡公共住宅提供高層生活的地方研究案例；不能把同樣高度當作跨城市接受程度調整。",
+      "tradeoff_zh": "可使分析更完整，但需要一致的資料範圍和額外管理。",
+      "library_ids": [
+        "YUE05"
+      ]
+    }
+  ],
+  "applies_when_zh": "將樓層配置、戶型、共同空間、交通及管理列為同一比較表。",
+  "not_applicable_when_zh": "本次取得的書目資訊未提供可核對的住戶滿意度、抽樣或因果結果。",
+  "debates_zh": "高層住宅並非單一生活經驗；住戶與制度差異限制跨城移植。",
+  "sources": [
+    {
+      "library_id": "YUE05",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "WASSENBERG2013",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "亞洲高層生活；開放建築",
+  "region": "新加坡；荷蘭",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "住宅類型"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "住宅類型"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "住宅類型"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "住宅類型"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-HOU-001",
+    "KU-HOU-002",
+    "KU-HOU-003"
+  ],
+  "counter_unit_ids": [
+    "KU-HOU-005"
+  ]
+}

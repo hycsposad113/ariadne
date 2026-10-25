@@ -1,0 +1,43 @@
+{
+  "id": "PANDISIVEROT_BRANDT2011",
+  "title": "The development of a sustainable urban district in Hammarby Sjöstad, Stockholm, Sweden?",
+  "authors": [
+    "Sofie Pandis Iverot",
+    "Nils Brandt"
+  ],
+  "year": 2011,
+  "venue_or_publisher": "Environment, Development and Sustainability",
+  "doi": "https://doi.org/10.1007/s10668-011-9304-x",
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "瑞典永續街區及環境系統研究",
+  "region": "瑞典斯德哥爾摩",
+  "method": "Crossref 書目資料確認題目、作者、年份及 DOI；本輪未核讀摘要或全文。",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "論文題名明確以 Hammarby Sjöstad 為研究對象；未核讀摘要或全文，不把題名當成績效結論。",
+      "strength": "CASE_EVIDENCE",
+      "scope_zh": "只支持可從 Crossref 書目核對的作者、年份、題目和出版資訊；不據此複述未核讀研究結果。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref REST API",
+    "query": {
+      "title": "The development of a sustainable urban district in Hammarby Sjöstad, Stockholm, Sweden?",
+      "author": "Sofie Pandis Iverot / Nils Brandt",
+      "year": 2011,
+      "api_query": "Crossref GET /works/10.1007/s10668-011-9304-x"
+    },
+    "matched_record_id": "10.1007/s10668-011-9304-x",
+    "checked_at_utc": "2026-10-08T14:45:27Z",
+    "match_notes_zh": "內容先起草後以Crossref REST API精確DOI回應核對題名、作者與年份；未保存API摘要。"
+  },
+  "limitations_zh": "書目範圍確認不等於研究設計、數值、摘要或全文結果已核查。",
+  "critique_relationship_zh": "本記錄不宣稱與其他來源存在直接互引或逐一反駁關係。",
+  "metadata_licence_zh": "Crossref公開書目欄位；精確metadata授權未核驗，標UNKNOWN。"
+}

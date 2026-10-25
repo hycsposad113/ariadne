@@ -1,0 +1,61 @@
+{
+  "id": "KU-ECO-045",
+  "domain": "ECO",
+  "subtopic": "自然為本的解決方案",
+  "type": "concept",
+  "title_zh": "雨洪景觀須連結維護制度",
+  "title_en": "Stormwater landscapes depend on maintenance",
+  "summary_zh": "雨水花園和滯洪池會累積沉積物並需清理植被。缺少維護可令水質和滲透功能退化。極端降雨超過設計情境時仍可能溢流。可見的綠化成果和地下水文效益不同步。設計文件列出巡檢、清淤、植栽更替和溢流路徑。",
+  "key_points_zh": [
+    "雨水花園和滯洪池會累積沉積物並需清理植被",
+    "缺少維護可令水質和滲透功能退化"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "雨水花園和滯洪池會累積沉積物並需清理植被。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "加拿大",
+        "library_id": "MCCANN02",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "可見的綠化成果和地下水文效益不同步。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "設計文件列出巡檢、清淤、植栽更替和溢流路徑。"
+  ],
+  "applies_when_zh": "適用於綠色基礎設施設計。",
+  "not_applicable_when_zh": "不應把年平均降雨假設當成極端事件防護。",
+  "debates_zh": "可見的綠化成果和地下水文效益不同步。",
+  "sources": [
+    {
+      "library_id": "MCCANN02",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "CARMONA10",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "批判都市地理與城市權",
+  "region": "加拿大",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "自然為本的解決方案"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-ECO-044",
+    "KU-ECO-046"
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "KU-HAR-020",
+  "domain": "HAR",
+  "subtopic": "水岸再生的世代與模式",
+  "type": "concept",
+  "title_zh": "港區轉型不存在單一終點",
+  "title_en": "Port Transformation Has No Single Endpoint",
+  "summary_zh": "港區用途更替常被敘述成由港口走向文化與住宅的線性階段，但這種序列只是比較不同港城的工具。港口功能、航運技術、土地制度和腹地產業會以不同速度變化，舊港與新港也可能同時運作。Hoyle 的介面模型與澳洲港區研究提醒，階段名稱不能替代地方的時序證據。",
+  "key_points_zh": [
+    "把港口功能變化與岸線土地更新分成兩條時間線。",
+    "記錄哪些貨運、修造、倉儲仍在運作，再談土地轉型。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "港城介面研究提出可供比較的轉型階段，並列出港口功能與城市關係中的問題。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "跨地域",
+        "library_id": "HOYLE1989",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "澳洲案例研究關注地方如何回應全球水岸更新趨勢，支持以地方制度校驗階段模型。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "跨地域",
+        "library_id": "OAKLEY2021",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "把港口功能變化與岸線土地更新分成兩條時間線。",
+    "記錄哪些貨運、修造、倉儲仍在運作，再談土地轉型。"
+  ],
+  "applies_when_zh": "港口制度與岸線使用有清楚歷史資料時。",
+  "not_applicable_when_zh": "個案邊界和轉型時間無法確認時，不宜硬套階段標籤。",
+  "debates_zh": "全球港城研究以宏觀階段整理趨勢；澳洲個案顯示地方回應和開發條件會改變路徑。",
+  "sources": [
+    {
+      "library_id": "HOYLE1989",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "OAKLEY2021",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "港口地理與地方規劃",
+  "region": "跨地域",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": null,
+      "topic": "港口—城市介面與全球物流網絡"
+    }
+  ],
+  "version": "v2.0"
+}

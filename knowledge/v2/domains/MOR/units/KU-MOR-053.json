@@ -1,0 +1,98 @@
+{
+  "id": "KU-MOR-053",
+  "domain": "MOR",
+  "subtopic": "細粒度與大尺度開發",
+  "type": "empirical_finding",
+  "title_zh": "全球城市群集跨越文化區域",
+  "title_en": "Global urban form clusters",
+  "summary_zh": "群集分類不能代替城市內部街區粒度或治理差異。 在城市尺度類型之外，保留街區和宗地的局部量測。 研究設計：LCZ 支持的多城市形態分類；地區：全球。 限制：群集分類不能代替城市內部街區粒度或治理差異。",
+  "key_points_zh": [
+    "110 城市分類同時呈現文化區域相近與形態跨區相似，提醒粒度不應被簡化為歐亞二分。",
+    "研究設計：LCZ 支持的多城市形態分類；地區：全球",
+    "限制：群集分類不能代替城市內部街區粒度或治理差異。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "110 城市分類同時呈現文化區域相近與形態跨區相似，提醒粒度不應被簡化為歐亞二分。",
+        "effect_or_value": "110 城市、7 群集",
+        "study_design": "LCZ 支持的多城市形態分類",
+        "context_region": "全球",
+        "library_id": "TAUBENBOCK2020",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "在城市尺度類型之外，保留街區和宗地的局部量測。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "在城市尺度類型之外，保留街區和宗地的局部量測。",
+      "tradeoff_zh": "此選項把「全球城市群集跨越文化區域」的工作放在110 城市分類同時呈現文化區域相近與形態跨區相似，提醒粒度不應被簡化為歐亞二分上；需要承擔的協調或維護代價則由「群集分類不能代替城市內部街區粒度或治理差異」界定。",
+      "library_ids": [
+        "TAUBENBOCK2020",
+        "MARSHALL05"
+      ]
+    },
+    {
+      "option_zh": "「全球城市群集跨越文化區域」可把取向落在細分小地塊通常提供更多介面；大地塊可集中設施，但需補足連通與公共性，但需連同110 城市分類同時呈現文化區域相近與形態跨區相似，提醒粒度不應被簡化為歐亞二分決定適用方式。",
+      "tradeoff_zh": "此選項把「全球城市群集跨越文化區域」的工作放在110 城市分類同時呈現文化區域相近與形態跨區相似，提醒粒度不應被簡化為歐亞二分上；需要承擔的協調或維護代價則由「群集分類不能代替城市內部街區粒度或治理差異」界定。",
+      "library_ids": [
+        "TAUBENBOCK2020",
+        "MARSHALL05"
+      ]
+    }
+  ],
+  "applies_when_zh": "用於與全球研究情境可比、且量測定義相近的分析。",
+  "not_applicable_when_zh": "群集分類不能代替城市內部街區粒度或治理差異。",
+  "debates_zh": "群集分類不能代替城市內部街區粒度或治理差異。",
+  "sources": [
+    {
+      "library_id": "TAUBENBOCK2020",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "MARSHALL05",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "全球比較形態學；街道形態",
+  "region": "全球 110 個城市；英國",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "細粒度與大尺度開發"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "細粒度與大尺度開發"
+    },
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.330J Theory of City Form",
+      "topic": "細粒度與大尺度開發"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban form and density",
+      "topic": "細粒度與大尺度開發"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-MOR-047",
+    "KU-MOR-048",
+    "KU-MOR-049"
+  ],
+  "counter_unit_ids": [
+    "KU-MOR-051"
+  ]
+}

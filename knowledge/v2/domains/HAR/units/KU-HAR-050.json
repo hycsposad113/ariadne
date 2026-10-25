@@ -1,0 +1,86 @@
+{
+  "id": "KU-HAR-050",
+  "type": "value_range",
+  "subtopic": "港區轉型案例",
+  "title_zh": "Marina Bay 以 360 公頃開發用地和 3.5 公里步行環線組織水岸",
+  "title_en": "Marina Bay Combines a 360-Hectare Development Area and Waterfront Loop",
+  "summary_zh": "新加坡 URA 將 Marina Bay 描述為約 360 公頃的開發用地，並記錄 2010 年形成約 3.5 公里的環灣步行路徑。前者是土地開發尺度，後者是公共水岸路徑長度，兩者不能合併成同一種面積指標。長期填海、商業核心、文化設施和公共岸線共同構成這個案例。",
+  "values": [
+    {
+      "name": "Marina Bay開發用地",
+      "range": "約360",
+      "unit": "公頃",
+      "context": "用途：以「Marina Bay開發用地」作為來源情境參照；新加坡URA公布的填海與城市中心延伸範圍；不等於公園面積，也不是本基地法規。",
+      "library_id": "URA_MARINA_BAY2026"
+    },
+    {
+      "name": "環灣步行路徑",
+      "range": "約3.5",
+      "unit": "公里",
+      "context": "用途：以「環灣步行路徑」作為來源情境參照；URA描述的連續水岸步行環線，不代表所有時間都無障礙或無施工封閉；不是本基地法規；來源所列地域：新加坡。",
+      "library_id": "URA_MARINA_BAY2026"
+    }
+  ],
+  "key_points_zh": [
+    "開發面積、填海範圍和步行環線須分列。",
+    "用路徑連續性和入口核查公共岸線的實際可達性。"
+  ],
+  "design_implications_zh": [
+    "把填海後的開發範圍與公共水岸網路分開量測。"
+  ],
+  "applies_when_zh": "分析填海城市中心的開發尺度與岸線通行安排時。",
+  "not_applicable_when_zh": "評估居民是否實際享有平等的海岸使用權時。",
+  "debates_zh": "國家層級的整體開發能力可建立大型公共空間，也可能把公共敘事和金融中心目標綁在一起；使用權需逐段核對。",
+  "tradition": "新加坡填海規劃／城市中心延伸",
+  "region": "新加坡",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": null,
+      "topic": "Port-city interface and waterfront public realm"
+    },
+    {
+      "school": "MIT",
+      "course": null,
+      "topic": "High-density urban development"
+    }
+  ],
+  "domain": "HAR",
+  "evidence": {
+    "strength": "CASE_EVIDENCE",
+    "findings": [
+      {
+        "claim_zh": "URA網頁記錄開發用地約360公頃及環灣步行路徑長度約3.5公里。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "新加坡",
+        "library_id": "URA_MARINA_BAY2026",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "新加坡住宅研究提供密集城市中建築與日常生活關係的學術背景，不核實Marina Bay數字。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "新加坡",
+        "library_id": "YUE05",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "library_id": "URA_MARINA_BAY2026",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "YUE05",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "version": "v2.0"
+}

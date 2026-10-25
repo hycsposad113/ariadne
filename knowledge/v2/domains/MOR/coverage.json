@@ -1,0 +1,130 @@
+{
+  "domain": "MOR",
+  "topics": [
+    {
+      "subtopic": "地塊、街廓與建築類型",
+      "unit_count": 20,
+      "unit_ids": [
+        "KU-MOR-001",
+        "KU-MOR-002",
+        "KU-MOR-003",
+        "KU-MOR-004",
+        "KU-MOR-005",
+        "KU-MOR-006",
+        "KU-MOR-007",
+        "KU-MOR-008",
+        "KU-MOR-061",
+        "KU-MOR-062",
+        "KU-MOR-063",
+        "KU-MOR-064",
+        "KU-MOR-065",
+        "KU-MOR-066",
+        "KU-MOR-067",
+        "KU-MOR-068",
+        "KU-MOR-069",
+        "KU-MOR-070",
+        "KU-MOR-071",
+        "KU-MOR-076"
+      ]
+    },
+    {
+      "subtopic": "Conzen 城鎮平面分析",
+      "unit_count": 7,
+      "unit_ids": [
+        "KU-MOR-009",
+        "KU-MOR-010",
+        "KU-MOR-011",
+        "KU-MOR-012",
+        "KU-MOR-013",
+        "KU-MOR-014",
+        "KU-MOR-015"
+      ]
+    },
+    {
+      "subtopic": "Muratori／Caniggia 類型過程",
+      "unit_count": 7,
+      "unit_ids": [
+        "KU-MOR-016",
+        "KU-MOR-017",
+        "KU-MOR-018",
+        "KU-MOR-019",
+        "KU-MOR-020",
+        "KU-MOR-021",
+        "KU-MOR-022"
+      ]
+    },
+    {
+      "subtopic": "Spacematrix：FSI、GSI、OSR、L",
+      "unit_count": 11,
+      "unit_ids": [
+        "KU-MOR-023",
+        "KU-MOR-024",
+        "KU-MOR-025",
+        "KU-MOR-026",
+        "KU-MOR-027",
+        "KU-MOR-028",
+        "KU-MOR-029",
+        "KU-MOR-030",
+        "KU-MOR-072",
+        "KU-MOR-073",
+        "KU-MOR-074"
+      ]
+    },
+    {
+      "subtopic": "密度與形態的關係",
+      "unit_count": 8,
+      "unit_ids": [
+        "KU-MOR-031",
+        "KU-MOR-032",
+        "KU-MOR-033",
+        "KU-MOR-034",
+        "KU-MOR-035",
+        "KU-MOR-036",
+        "KU-MOR-037",
+        "KU-MOR-038"
+      ]
+    },
+    {
+      "subtopic": "周邊式、合院、板樓、點式、連棟與基座塔樓",
+      "unit_count": 10,
+      "unit_ids": [
+        "KU-MOR-039",
+        "KU-MOR-040",
+        "KU-MOR-041",
+        "KU-MOR-042",
+        "KU-MOR-043",
+        "KU-MOR-044",
+        "KU-MOR-045",
+        "KU-MOR-046",
+        "KU-MOR-077",
+        "KU-MOR-078"
+      ]
+    },
+    {
+      "subtopic": "細粒度與大尺度開發",
+      "unit_count": 7,
+      "unit_ids": [
+        "KU-MOR-047",
+        "KU-MOR-048",
+        "KU-MOR-049",
+        "KU-MOR-050",
+        "KU-MOR-051",
+        "KU-MOR-052",
+        "KU-MOR-053"
+      ]
+    },
+    {
+      "subtopic": "形態指標與類型比較方法",
+      "unit_count": 7,
+      "unit_ids": [
+        "KU-MOR-054",
+        "KU-MOR-055",
+        "KU-MOR-056",
+        "KU-MOR-057",
+        "KU-MOR-058",
+        "KU-MOR-059",
+        "KU-MOR-060"
+      ]
+    }
+  ]
+}

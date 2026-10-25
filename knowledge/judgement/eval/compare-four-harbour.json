@@ -1,0 +1,60 @@
+{
+  "case_id": "compare-four-harbour",
+  "evaluation_scope": "FAKE_VALIDATOR_PLUMBING_ONLY",
+  "expectations": {
+    "claims": [
+      "headline is not a ranking",
+      "at least two priority sets produce different defensible conclusions",
+      "next revision targets harbour winter public space or a concrete morphology failure"
+    ],
+    "forbidden_content": [
+      "最佳方案",
+      "冠軍",
+      "勝出",
+      "排名第一即採用",
+      "已核准",
+      "批准",
+      "正式接受",
+      "人流量",
+      "實測人流",
+      "總冠軍",
+      "overall winner",
+      "ranking"
+    ],
+    "parameter_families": {
+      "must_include_any": [
+        "open_space_allocation",
+        "height",
+        "setback"
+      ],
+      "note": "Only when target is harbour winter public space or cited morphology failure."
+    },
+    "stance": {
+      "allowed": null,
+      "note": "No fixed stance; never infer selection."
+    }
+  },
+  "input_readiness": "BLOCKED_REQUIRED_HUMAN_DECISION",
+  "provenance": {
+    "note": "Four scheme snapshots exist; no authoritative selected-scheme decision was found in the deterministic offline input.",
+    "spec_case": "J-COMPARE-zh.md §評測案例 1"
+  },
+  "required_inputs": [
+    "durable decision.selected_scheme=harbour_grain"
+  ],
+  "required_metric_ids": [
+    "decision.selected_scheme"
+  ],
+  "schema_version": "ariadne-judgement-eval-case-v1",
+  "semantic_expectations_evaluated": false,
+  "skill_id": "J-COMPARE",
+  "snapshot": {
+    "bundle_sha256": "9431236959dca8524ca51e9c0c5118db60c92df648271d5cc04796a6e8af64e3",
+    "path": "knowledge/judgement/eval/snapshots/compare-all.json",
+    "sha256": "df6ed5ae0798396d414344c263883bc197a0d59b43afbabc71a7dd3a8f620d82",
+    "skill_id": "J-COMPARE",
+    "subject_ids": []
+  },
+  "subject_ids": [],
+  "transform": {}
+}

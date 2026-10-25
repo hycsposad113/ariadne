@@ -1,0 +1,82 @@
+{
+  "id": "KU-SOC-046",
+  "domain": "SOC",
+  "subtopic": "分期與風險",
+  "type": "design_principle",
+  "title_zh": "分期與風險：復原路徑",
+  "title_en": "Phasing and risk — design principle unit 046",
+  "summary_zh": "復原路徑要預先說明工程停擺、融資中斷或需求改變時，已完成設施如何安全使用、公共服務由誰維持以及資產如何轉交。可逆設計有助降低鎖定風險，但不會免除土地和財務責任。退出方案需在簽約和施工前核對。",
+  "key_points_zh": [
+    "復原路徑要預先說明工程停擺、融資中斷或需求改變時，已完成設施如何安全使用、公共服務由誰維持以及資產如何轉交。",
+    "可逆設計有助降低鎖定風險，但不會免除土地和財務責任。",
+    "退出方案需在簽約和施工前核對。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "【BIBLIOGRAPHIC_SCOPE_ONLY】就「分期與風險：復原路徑」而言，「Collaborative Governance in Theory and Practice」提供collaborative governance and institutional analysis的比較坐標；此處僅使用其已標明的書目／摘要範圍，不延伸為未核對的效果或因果。",
+        "effect_or_value": null,
+        "study_design": "comparative framework review",
+        "context_region": "United States；international cases",
+        "library_id": "ANSELLGASH2008",
+        "locator": null
+      },
+      {
+        "claim_zh": "【BIBLIOGRAPHIC_SCOPE_ONLY】就「分期與風險：復原路徑」而言，「From fail-safe to safe-to-fail: Sustainability and resilience in the new urban world」提供韌性設計的比較坐標；此處僅使用其已標明的書目／摘要範圍，不延伸為未核對的效果或因果。",
+        "effect_or_value": null,
+        "study_design": "理論",
+        "context_region": "跨地域",
+        "library_id": "AHERN11",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "在開工前明定停擺、轉交、暫時使用和服務維持安排。"
+  ],
+  "design_options": [],
+  "applies_when_zh": "在評估「分期與風險：復原路徑」涉及的資源分配、權力或居住影響時，先界定受影響群體與決策階段。",
+  "not_applicable_when_zh": "若沒有「分期與風險：復原路徑」所需的群體、時序或市場資料，不把概念類比當作已驗證的效果或法律結論。",
+  "debates_zh": "退出條款若不含服務、資產和人員安排，復原計畫可能只是形式文件。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "ANSELLGASH2008",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "AHERN11",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "都市開發／時間路徑與不確定性",
+  "region": "歐洲；美國",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Planning Complex Cities",
+      "topic": "分期與風險：復原路徑 — 分期與風險"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Urban Design Contexts and Operations",
+      "topic": "分期與風險：復原路徑 — 分期與風險"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "分期與風險：復原路徑 — 分期與風險"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design Governance",
+      "topic": "分期與風險：復原路徑 — 分期與風險"
+    }
+  ],
+  "version": "2.0.0"
+}

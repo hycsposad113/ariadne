@@ -1,0 +1,66 @@
+{
+  "id": "KU-GRN-049",
+  "domain": "GRN",
+  "subtopic": "健康效益實證",
+  "type": "empirical_finding",
+  "title_zh": "健康效益在低社經群體中常較大",
+  "title_en": "Benefits may be larger among lower-SES groups",
+  "summary_zh": "綠地和身體健康系統性回顧納入九十篇研究。作者發現低社經群體較常呈現較大的綠地健康關聯。不同研究的暴露、健康結果和群體分類並不一致。加建公園若伴隨租金上漲，健康受益者可能改變。",
+  "key_points_zh": [
+    "綠地和身體健康系統性回顧納入九十篇研究",
+    "作者發現低社經群體較常呈現較大的綠地健康關聯"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "綠地和身體健康系統性回顧納入九十篇研究。",
+        "effect_or_value": "低社經群體在多數納入研究中呈現較強或較常見的健康關聯。",
+        "study_design": "PRISMA 系統性回顧",
+        "context_region": "跨國研究",
+        "library_id": "RIGOLON21",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW",
+        "limitations_zh": "研究異質且主要為觀察研究，不能確定因果。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "把資源配置和實際使用條件分配納入健康公平策略。"
+  ],
+  "applies_when_zh": "適用於辨認可能受益較少或風險較高的群體。",
+  "not_applicable_when_zh": "不可把回顧中的平均結果套用到每位居民。",
+  "debates_zh": "加建公園若伴隨租金上漲，健康受益者可能改變。",
+  "sources": [
+    {
+      "library_id": "RIGOLON21",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "EWING10",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "健康公平與環境正義",
+  "region": "跨國研究",
+  "curriculum_refs": [
+    {
+      "school": "MIT",
+      "course": "11.330J Theory of City Form",
+      "topic": "健康效益實證"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Critical Debates in Urban Design",
+      "topic": "健康效益實證"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-GRN-048",
+    "KU-GRN-050"
+  ]
+}

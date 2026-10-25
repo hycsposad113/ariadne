@@ -1,0 +1,70 @@
+{
+  "id": "KU-HAR-057",
+  "type": "method",
+  "subtopic": "工業遺產與 adaptive reuse",
+  "title_zh": "再利用評估要把建築成功與社區結果分開",
+  "title_en": "Separate Building Reuse Success from Community Outcomes",
+  "summary_zh": "建築可成功投入新用途，卻不代表原有社群或勞動文化也被保留。適應性再利用研究發展成功指標，社會影響研究則關注凝聚感與安全感等不同結果；兩種評估尺度不可相互替代。資料收集時應對建築狀況、使用持續性、原有使用者和周邊租戶各自設指標。",
+  "key_points_zh": [
+    "把建築性能和社會結果分成不同評估面向。",
+    "報告誰定義「成功」，並保留使用者差異。"
+  ],
+  "design_implications_zh": [
+    "以多層次追蹤表分別記錄建築、組織、住戶和勞動者結果。"
+  ],
+  "applies_when_zh": "對適應性再利用計畫進行事後評估時。",
+  "not_applicable_when_zh": "尚未取得使用者和建築性能基線、只能做前期機會盤點時。",
+  "debates_zh": "量化指標易於比較但會縮減地方記憶；訪談能補足意義，卻不能取代可重複的結果資料。",
+  "tradition": "適應性再利用評估／社會影響分析",
+  "region": "亞洲工業遺產案例",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": null,
+      "topic": "Adaptive reuse evaluation"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": null,
+      "topic": "Community outcomes in regeneration"
+    }
+  ],
+  "domain": "HAR",
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "工業遺產再利用研究提出成功指數，將再利用潛力與實際成功作區分。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "亞洲工業遺產案例",
+        "library_id": "KURTOGLU2026",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "工業遺產再利用研究分析社會凝聚與感知安全間的互動。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "亞洲工業遺產案例",
+        "library_id": "MOUSAVINIA2024",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "library_id": "KURTOGLU2026",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "MOUSAVINIA2024",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "version": "v2.0"
+}

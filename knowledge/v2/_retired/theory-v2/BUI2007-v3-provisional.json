@@ -1,0 +1,30 @@
+{
+  "id": "BUI2007",
+  "title": "The Dutch layers approach to spatial planning and design",
+  "authors": [
+    "Maarten van Schaick"
+  ],
+  "year": 2007,
+  "venue_or_publisher": null,
+  "doi": null,
+  "isbn": null,
+  "kind": "ACADEMIC_BOOK",
+  "tradition": "待指揮官書目分類",
+  "region": [],
+  "method": "理論／方法原著候選",
+  "claims": [],
+  "verification": {
+    "status": "UNVERIFIED",
+    "api": "Open Library",
+    "query": {
+      "title": "The Dutch layers approach to spatial planning and design",
+      "author": "Maarten van Schaick",
+      "year": 2007
+    },
+    "matched_record_id": null,
+    "checked_at_utc": "2026-10-08T10:47:31Z",
+    "match_notes_zh": "候選搜尋結果；尚未人工核對版本、作者與年份，不宣稱已查證。"
+  },
+  "limitations_zh": "主張待原著交叉核對；搜尋命中只作書目候選。",
+  "metadata_licence_zh": "公開書目 metadata；授權未核對 UNKNOWN。"
+}

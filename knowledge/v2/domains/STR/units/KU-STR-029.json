@@ -1,0 +1,84 @@
+{
+  "id": "KU-STR-029",
+  "domain": "STR",
+  "subtopic": "街廓大小與連結度",
+  "type": "critique",
+  "title_zh": "街廓大小與連結度：批評與適用限制",
+  "title_en": "Block size and connectivity: Critique and boundary",
+  "summary_zh": "連結多不代表每條路都可合法或安全通行；私人通道、封閉時段和跨線設施會使幾何連接高估實際可達性。另一個需要同時檢查的面向是街廓尺寸和連接關係共同影響路線選擇、繞行程度、沿街地塊與交會機會，單一平均街廓長度不足以描述網路。替代做法可以是讓較大的基地被可辨識的公共穿越路徑切分，並避免把主要目的地只接到單一入口。",
+  "key_points_zh": [
+    "批評焦點：街廓尺寸和連接關係共同影響路線選擇、繞行程度、沿街地塊與交會機會，單一平均街廓長度不足以描述網路",
+    "批評焦點：連結多不代表每條路都可合法或安全通行；私人通道、封閉時段和跨線設施會使幾何連接高估實際可達性"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "街廓大小與連結度：批評與適用限制｜整合度與選擇度的人流關聯得到綜合研究支持，但研究結果高度異質，指標與表示方式會影響關聯",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "SHARMIN17",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "街廓大小與連結度：批評與適用限制｜波哥大的人口、工作及可及性分布不均；高平均密度可以和低收入群體的可及性不足並存",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "BOGOTA17",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "把「連結多不代表每條路都可合法或安全通行；私人通道、封閉時段和跨線設施會使幾何連接高估實際可達性」轉成一項可觀察的風險，並在替代方案中檢查「街廓尺寸和連接關係共同影響路線選擇、繞行程度、沿街地塊與交會機會，單一平均街廓長度不足以描述網路」是否改變其影響。"
+  ],
+  "applies_when_zh": "若街廓大小與連結度方案可能受「連結多不代表每條路都可合法或安全通行；私人通道、封閉時段和跨線設施會使幾何連接高估實際可達性」影響，可用「街廓尺寸和連接關係共同影響路線選擇、繞行程度、沿街地塊與交會機會，單一平均街廓長度不足以描述網路」安排實地觀察或替代方案比較。",
+  "not_applicable_when_zh": "這項批評提出的是「連結多不代表每條路都可合法或安全通行；私人通道、封閉時段和跨線設施會使幾何連接高估實際可達性」的風險，不能據此推定所有替代方案都更好，也不能代替本地使用者測試。",
+  "debates_zh": "連結多不代表每條路都可合法或安全通行；私人通道、封閉時段和跨線設施會使幾何連接高估實際可達性；檢視「街廓大小與連結度：批評與適用限制」的反例檢查時，還需判斷「連結多不代表每條路都可合法或安全通行；私人通道、封閉時段和跨線設施會使幾何連接高估實際可達性」會如何改變方案結論。",
+  "sources": [
+    {
+      "library_id": "SHARMIN17",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "BOGOTA17",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "城市路網形態",
+  "region": "跨地域理論或實務脈絡；來源地區依引用條目判讀",
+  "curriculum_refs": [
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "街廓大小與連結度：課綱對應主題"
+    },
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "街廓大小與連結度：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-STR-025",
+    "KU-STR-026",
+    "KU-STR-027",
+    "KU-STR-028",
+    "KU-STR-030",
+    "KU-STR-031",
+    "KU-STR-032"
+  ],
+  "counter_unit_ids": [
+    "KU-STR-025",
+    "KU-STR-026"
+  ]
+}

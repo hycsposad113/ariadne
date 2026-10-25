@@ -1,0 +1,44 @@
+{
+  "id": "DILLMANN2018",
+  "title": "Do Administrative Incentives for the Containment of Cities Work? An Analysis of the Accelerated Procedure for Binding Land-Use Plans for Inner Urban Development in Germany",
+  "authors": [
+    "Oliver Dillmann",
+    "Volker Beckmann"
+  ],
+  "year": 2018,
+  "venue_or_publisher": "Sustainability",
+  "doi": "https://doi.org/10.3390/su10124745",
+  "isbn": null,
+  "openalex_id": "https://openalex.org/W2903811688",
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "德國內城發展與土地使用計畫",
+  "region": [
+    "施特拉爾松德，德國"
+  ],
+  "method": "1990–2018 內外城土地發展與成本比較",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "加速程序雖減少行政負擔，對內城開發增加的效果有限，成本優勢也不常左右開發選擇。",
+      "strength": "MIXED",
+      "scope_zh": "僅限摘要可核對的範圍；未讀全文，不推論摘要未列的數字、因果或普遍適用性。",
+      "assessment_basis": "ABSTRACT_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "OpenAlex",
+    "query": {
+      "record_id": "https://openalex.org/W2903811688",
+      "title": "Do Administrative Incentives for the Containment of Cities Work? An Analysis of the Accelerated Procedure for Binding Land-Use Plans for Inner Urban Development in Germany",
+      "author": "Oliver Dillmann",
+      "year": 2018
+    },
+    "matched_record_id": "https://openalex.org/W2903811688",
+    "checked_at_utc": "2026-10-08T09:12:32Z",
+    "match_notes_zh": "以 OpenAlex 精確 work 記錄核對書名、作者與出版年；只使用摘要作主張範圍檢查，未下載全文。"
+  },
+  "limitations_zh": "僅使用允許的書目欄位和摘要核對；未取得或保存全文。",
+  "metadata_licence_zh": "保存公開書目欄位與自行撰寫主張摘要；未保存 API 摘要原文或全文。"
+}

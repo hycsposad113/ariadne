@@ -1,0 +1,43 @@
+{
+  "id": "SAYLAN2024",
+  "title": "Typomorphology: A Methodological Approach to Context Analysis in Architectural Design Education",
+  "authors": [
+    "Seda Saylan",
+    "Tan Kamil Gürer"
+  ],
+  "year": 2024,
+  "venue_or_publisher": "Iconarp International Journal of Architecture and Planning",
+  "doi": "https://doi.org/10.15320/iconarp.2024.281",
+  "isbn": null,
+  "openalex_id": "https://openalex.org/W4400121413",
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "類型形態作為建築設計情境分析",
+  "region": "土耳其建築設計教育",
+  "method": "以設計工作室流程討論 typomorphology 的情境分析用途",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "Saylan 與 Gürer 將類型形態知識放入設計教育的情境分析，並連結分析、綜合與評估等設計階段。",
+      "strength": "MIXED",
+      "scope_zh": "文章討論教學方法與情境閱讀，不代表所有歷史類型都能直接移植。",
+      "assessment_basis": "ABSTRACT_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "OpenAlex",
+    "query": {
+      "record_id": "https://openalex.org/W4400121413",
+      "doi": "10.15320/iconarp.2024.281",
+      "title": "Typomorphology: A Methodological Approach to Context Analysis in Architectural Design Education",
+      "author": "Seda Saylan",
+      "year": 2024
+    },
+    "matched_record_id": "https://openalex.org/W4400121413",
+    "checked_at_utc": "2026-10-09T00:14:26Z",
+    "match_notes_zh": "以允許的公開書目 API 精確比對題名、首位作者與出版年；只保留自行撰寫的摘要範圍說明，未保存全文或 API 摘要原文。"
+  },
+  "limitations_zh": "本條目依公開摘要或書目範圍整理；未下載全文，也不外推摘要未列的樣本、效果量或因果結論。",
+  "metadata_licence_zh": "僅保存公開書目欄位與自行撰寫的繁體中文摘要；未複製摘要全文或論文全文。"
+}

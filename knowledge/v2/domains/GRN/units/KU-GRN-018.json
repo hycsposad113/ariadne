@@ -1,0 +1,61 @@
+{
+  "id": "KU-GRN-018",
+  "domain": "GRN",
+  "subtopic": "綠地可及性",
+  "type": "design_principle",
+  "title_zh": "無障礙通路連續性比入口標記重要",
+  "title_en": "Continuous accessible paths matter",
+  "summary_zh": "地圖標示的無障礙入口若接不上環狀路徑，仍不能提供完整使用。坡道、路面、休息點和廁所的整體旅程共同形成實際可達性。部分自然地形不適合硬鋪成全通路。自然保育與通用使用需要分區和替代路徑。",
+  "key_points_zh": [
+    "地圖標示的無障礙入口若接不上環狀路徑，仍不能提供完整使用",
+    "坡道、路面、休息點和廁所的整體旅程共同形成實際可達性"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "地圖標示的無障礙入口若接不上環狀路徑，仍不能提供完整使用。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "北美",
+        "library_id": "WOLCH14",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "自然保育與通用使用需要分區和替代路徑。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "由行動障礙使用者實走入口到核心設施的路線。"
+  ],
+  "applies_when_zh": "適用於公園改造和遊戲區連接。",
+  "not_applicable_when_zh": "不應將無障礙理解成只有輪椅坡道。",
+  "debates_zh": "自然保育與通用使用需要分區和替代路徑。",
+  "sources": [
+    {
+      "library_id": "WOLCH14",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "CROW",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "環境正義與綠地治理",
+  "region": "北美",
+  "curriculum_refs": [
+    {
+      "school": "MIT",
+      "course": "11.330J Theory of City Form",
+      "topic": "綠地可及性"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-GRN-017",
+    "KU-GRN-019"
+  ]
+}

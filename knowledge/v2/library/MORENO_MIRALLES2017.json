@@ -1,0 +1,43 @@
+{
+  "id": "MORENO_MIRALLES2017",
+  "title": "The bicycle as a real feeder to the transmilenio system in bogota and soacha",
+  "authors": [
+    "C. Moreno",
+    "C. Miralles-Guasch"
+  ],
+  "year": 2017,
+  "venue_or_publisher": "International Journal of Transport Development and Integration",
+  "doi": "https://doi.org/10.2495/tdi-v1-n1-92-102",
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "拉丁美洲 BRT 與自行車接駁",
+  "region": "哥倫比亞波哥大與 Soacha",
+  "method": "Crossref 書目資料確認到文獻種類與題目範圍；全文方法未由本次核讀",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "論文題名將自行車接駁 TransMilenio 作為研究問題。",
+      "strength": "CASE_EVIDENCE",
+      "scope_zh": "只確認研究對象與地理範圍，未引用接駁效果量。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref",
+    "query": {
+      "title": "The bicycle as a real feeder to the transmilenio system in bogota and soacha",
+      "author": "C. Moreno",
+      "year": 2017,
+      "api_query": "Crossref GET /works/10.2495/tdi-v1-n1-92-102"
+    },
+    "matched_record_id": "10.2495/tdi-v1-n1-92-102",
+    "checked_at_utc": "2026-10-08T14:40:02Z",
+    "match_notes_zh": "Crossref 公開書目欄位核對題名、作者、年份與 DOI；未保存 API 摘要。"
+  },
+  "limitations_zh": "書目範圍確認不等於研究發現、方法、因果或數值已全文核查。",
+  "critique_relationship_zh": "本記錄不宣稱與其他文獻存在直接互引或逐一反駁。",
+  "metadata_licence_zh": "Crossref 公開書目欄位；精確 metadata 授權未核驗，標 UNKNOWN。"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "NAGEL2015",
+  "title": "Park am Gleisdreieck / Park at Gleisdreieck",
+  "authors": [
+    "Reiner Nagel"
+  ],
+  "year": 2015,
+  "venue_or_publisher": "Grüne Infrastruktur / Green Infrastructure",
+  "doi": "https://doi.org/10.1515/9783035603835-011",
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "ACADEMIC_BOOK_CHAPTER",
+  "tradition": "德國綠色基礎設施與鐵路遺產",
+  "region": "德國柏林",
+  "method": "Crossref 書目資料確認到文獻種類與題目範圍；全文方法未由本次核讀",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "此專章以柏林 Gleisdreieck 公園作為綠色基礎設施案例。",
+      "strength": "CASE_EVIDENCE",
+      "scope_zh": "只作案例識別，不據書目推估生態或地區發展效果。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref",
+    "query": {
+      "title": "Park am Gleisdreieck / Park at Gleisdreieck",
+      "author": "Reiner Nagel",
+      "year": 2015,
+      "api_query": "Crossref GET /works/10.1515/9783035603835-011"
+    },
+    "matched_record_id": "10.1515/9783035603835-011",
+    "checked_at_utc": "2026-10-08T14:40:02Z",
+    "match_notes_zh": "Crossref 公開書目欄位核對題名、作者、年份與 DOI；未保存 API 摘要。"
+  },
+  "limitations_zh": "書目範圍確認不等於研究發現、方法、因果或數值已全文核查。",
+  "critique_relationship_zh": "本記錄不宣稱與其他文獻存在直接互引或逐一反駁。",
+  "metadata_licence_zh": "Crossref 公開書目欄位；精確 metadata 授權未核驗，標 UNKNOWN。"
+}

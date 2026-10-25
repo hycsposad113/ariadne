@@ -1,0 +1,44 @@
+{
+  "id": "KRUGER2011",
+  "title": "Impact of urban geometry on outdoor thermal comfort and air quality from field measurements in Curitiba, Brazil",
+  "authors": [
+    "E.L. Krüger",
+    "F.O. Minella",
+    "F. Rasia"
+  ],
+  "year": 2011,
+  "venue_or_publisher": "Building and Environment",
+  "doi": "https://doi.org/10.1016/j.buildenv.2010.09.006",
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "都市幾何、戶外熱舒適與空氣品質",
+  "region": "Curitiba, Brazil",
+  "method": "案例或場地研究；目前僅核對書目範圍",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "書目確認本文題名聚焦「Impact of urban geometry on outdoor thermal comfort and air quality from field measurements in Curitiba, Brazil」；目前只完成作者、年份、題名與 DOI 核對，未將摘要或全文結論納入此記錄。",
+      "strength": "CASE_EVIDENCE",
+      "scope_zh": "只支持題名所顯示的研究議題與書目範圍；具體研究設計、樣本、效果量及外推界限須由摘要或全文另行核對。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref",
+    "query": {
+      "title": "Impact of urban geometry on outdoor thermal comfort and air quality from field measurements in Curitiba, Brazil",
+      "author": "E.L. Krüger",
+      "year": 2011,
+      "api_query": "https://api.crossref.org/works/10.1016%2Fj.buildenv.2010.09.006"
+    },
+    "matched_record_id": "10.1016/j.buildenv.2010.09.006",
+    "checked_at_utc": "2026-10-08T14:08:57Z",
+    "match_notes_zh": "直接以 DOI 工作記錄核對題名、作者、年份與 DOI；此 ID 採用 API 記錄中的出版年份。"
+  },
+  "limitations_zh": "只保留書目欄位與自行概括的研究範圍，沒有保存 API 回傳摘要；未標 ABSTRACT_REVIEW 的主張不得據此聲稱效果量。",
+  "critique_relationship_zh": "尚未核對本文與其他文獻的互引或直接反駁關係。",
+  "metadata_licence_zh": "Crossref 公開書目 metadata；精確授權未核驗，標 UNKNOWN。"
+}

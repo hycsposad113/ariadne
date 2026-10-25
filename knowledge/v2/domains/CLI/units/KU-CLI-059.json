@@ -1,0 +1,83 @@
+{
+  "id": "KU-CLI-059",
+  "domain": "CLI",
+  "subtopic": "室外熱舒適指標",
+  "type": "value_range",
+  "title_zh": "UTCI 分級界線需依正式定義版本引用",
+  "title_en": "UTCI 分級界線需依正式定義版本引用",
+  "summary_zh": "UTCI 分級以相同等效溫度軸呈現冷壓力、無熱壓力與熱壓力。常用界線包含 −40、−27、−13、0、9、26、32、38 與 46°C UTCI；各段代表的生理壓力類別不同。跨城市比較前仍須確認輸入氣象與人體假設符合標準程序。",
+  "key_points_zh": [
+    "UTCI 等級不是一般氣溫觀測類別。",
+    "風速高度和輻射估算會影響計算輸出。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "library_id": "BRODE2012",
+        "claim_zh": "UTCI 常用冷熱壓力邊界約為 −40、−27、−13、0、9、26、32、38 與 46°C；指數輸入和類別定義需保持一致。",
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+        "effect_or_value": null,
+        "study_design": "方法或概念研究；目前僅核對書目範圍",
+        "context_region": "跨地域",
+        "locator": null
+      },
+      {
+        "library_id": "NIKOLOPOULOU2003",
+        "claim_zh": "題名確認研究把心理適應納入都市空間熱舒適設計；不把單一生理指標等同所有使用者的舒適判斷；本單元 KU-CLI-059 對照「UTCI 分級以相同等效溫度軸呈現冷壓力、無熱壓力與熱壓力」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "熱舒適與心理適應研究",
+        "context_region": "都市公共空間",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "記錄指數版本和輸入換算方式。",
+    "將各級出現時段與地點用途對照。"
+  ],
+  "applies_when_zh": "適用於圖例和時間序列統計。",
+  "not_applicable_when_zh": "具體界線待官方技術說明核對；不是本基地法規。",
+  "debates_zh": "離散類別會弱化門檻附近的連續變化和模型誤差。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "BRODE2012",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "NIKOLOPOULOU2003",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "UTCI 熱壓力分類",
+  "region": "跨地域模擬研究；都市公共空間",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "室外熱舒適指標"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": null,
+      "topic": "室外熱舒適指標"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0",
+  "values": [
+    {
+      "name": "UTCI 冷熱壓力分級邊界",
+      "range": "−40 / −27 / −13 / 0 / 9 / 26 / 32 / 38 / 46",
+      "unit": "°C UTCI",
+      "context": "用途：以「UTCI 冷熱壓力分級邊界」作為來源情境參照；UTCI 技術分級的溫度節點；類別依次由極強冷壓力到極強熱壓力 這不是本基地法規；來源所列地域：跨地域。",
+      "library_id": "BRODE2012"
+    }
+  ]
+}

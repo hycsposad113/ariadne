@@ -1,0 +1,88 @@
+{
+  "id": "KU-REG-054",
+  "domain": "REG",
+  "subtopic": "開發獎勵與容積移轉",
+  "type": "empirical_finding",
+  "title_zh": "競爭機制會影響新加坡土地成交價格",
+  "title_en": "Auction competition and land value",
+  "summary_zh": "價格形成模型不是公共回饋或規劃價值的完整評估。 分開核算土地價格變化與公共設施回饋。 研究設計：土地拍賣資料與競價模型；地區：新加坡。 限制：價格形成模型不是公共回饋或規劃價值的完整評估。",
+  "key_points_zh": [
+    "新加坡土地拍賣估計顯示競標人數增加會抬高預期價格，提醒獎勵政策需考慮地價資本化。",
+    "研究設計：土地拍賣資料與競價模型；地區：新加坡",
+    "限制：價格形成模型不是公共回饋或規劃價值的完整評估。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "新加坡土地拍賣估計顯示競標人數增加會抬高預期價格，提醒獎勵政策需考慮地價資本化。",
+        "effect_or_value": "更多競標者對應更高預期價格",
+        "study_design": "土地拍賣資料與競價模型",
+        "context_region": "新加坡",
+        "library_id": "OOI2006",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "分開核算土地價格變化與公共設施回饋。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "分開核算土地價格變化與公共設施回饋。",
+      "tradeoff_zh": "此選項把「競爭機制會影響新加坡土地成交價格」的工作放在新加坡土地拍賣估計顯示競標人數增加會抬高預期價格，提醒獎勵政策需考慮地價資本化上；需要承擔的協調或維護代價則由「價格形成模型不是公共回饋或規劃價值的完整評估」界定。",
+      "library_ids": [
+        "OOI2006"
+      ]
+    },
+    {
+      "option_zh": "「競爭機制會影響新加坡土地成交價格」可把取向落在土地拍賣、密度獎勵與權利移轉是不同工具，需分別建模，但需連同新加坡土地拍賣估計顯示競標人數增加會抬高預期價格，提醒獎勵政策需考慮地價資本化決定適用方式。",
+      "tradeoff_zh": "此選項把「競爭機制會影響新加坡土地成交價格」的工作放在新加坡土地拍賣估計顯示競標人數增加會抬高預期價格，提醒獎勵政策需考慮地價資本化上；需要承擔的協調或維護代價則由「價格形成模型不是公共回饋或規劃價值的完整評估」界定。",
+      "library_ids": [
+        "OOI2006"
+      ]
+    }
+  ],
+  "applies_when_zh": "「競爭機制會影響新加坡土地成交價格」可在用於與新加坡研究情境可比、且量測定義相近的分析時使用，前提是新加坡土地拍賣估計顯示競標人數增加會抬高預期價格，提醒獎勵政策需考慮地價資本化與來源情境相符。",
+  "not_applicable_when_zh": "價格形成模型不是公共回饋或規劃價值的完整評估。",
+  "debates_zh": "價格形成模型不是公共回饋或規劃價值的完整評估。",
+  "sources": [
+    {
+      "library_id": "OOI2006",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "SINGLE_SOURCE",
+  "tradition": "新加坡土地拍賣與開發競爭",
+  "region": "新加坡",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Planning Complex Cities",
+      "topic": "開發獎勵與容積移轉"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Urban Design Contexts and Operations",
+      "topic": "開發獎勵與容積移轉"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "開發獎勵與容積移轉"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban design governance",
+      "topic": "開發獎勵與容積移轉"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-REG-049",
+    "KU-REG-050",
+    "KU-REG-051"
+  ]
+}

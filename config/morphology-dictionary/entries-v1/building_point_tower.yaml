@@ -1,0 +1,341 @@
+{
+  "schema_version": "1.0.0",
+  "id": "building.point_tower",
+  "names": {
+    "en": "Point tower",
+    "zh": "點狀塔樓"
+  },
+  "level": "building_plan",
+  "diagram_kind": "point",
+  "description_zh": "緊湊 footprint、較高樓層的單體；其空間效果高度依賴首層入口、基座與周圍開放空間。",
+  "parameter_basis": {
+    "status": "ESTIMATE",
+    "profile_id": "EDITORIAL_ENVELOPE_V1",
+    "note_zh": "初版參數包絡，供字典搜尋和早期草圖；不是文獻統計範圍、地方法規或已測基地數據，需由設計者以基地幾何和項目目標修改。"
+  },
+  "plan_geometry": {
+    "unit": "m",
+    "dimension_basis_zh": "building_plan 為 footprint 面寬／進深；block_assembly 為街廓短／長軸；street_open_space 為空間短軸／路徑長軸。",
+    "frontage_m": {
+      "minimum": 15,
+      "maximum": 38,
+      "unit": "m"
+    },
+    "depth_m": {
+      "minimum": 15,
+      "maximum": 38,
+      "unit": "m"
+    },
+    "courtyard_void_ratio": null,
+    "opening_count": {
+      "minimum": 0,
+      "maximum": 1
+    },
+    "opening_width_m": {
+      "minimum": 6,
+      "maximum": 14,
+      "unit": "m"
+    },
+    "spacing_m": {
+      "minimum": 22,
+      "maximum": 48,
+      "unit": "m"
+    },
+    "status": "ESTIMATE"
+  },
+  "density_reference": {
+    "reference_area_basis_zh": "單棟或同地塊建築原型；需以基地／地塊面積作分母。",
+    "gsi": {
+      "range": {
+        "minimum": 0.12,
+        "maximum": 0.42
+      },
+      "status": "ESTIMATE",
+      "source_ids": [
+        "SRC_SPACEMATRIX_2023"
+      ],
+      "note_zh": "本條編輯估算；Spacematrix 僅支撐 GSI 的密度描述脈絡，不提供此數值。"
+    },
+    "fsi": {
+      "range": {
+        "minimum": 2.5,
+        "maximum": 9.0
+      },
+      "status": "ESTIMATE",
+      "source_ids": [
+        "SRC_SPACEMATRIX_2023"
+      ],
+      "note_zh": "本條編輯估算；比較前統一計入樓層、基座、地下／地上範圍和分母。"
+    },
+    "floors": {
+      "range": {
+        "minimum": 12,
+        "maximum": 40
+      },
+      "unit": "storeys",
+      "status": "ESTIMATE",
+      "source_ids": [
+        "SRC_SPACEMATRIX_2023"
+      ],
+      "note_zh": "本條編輯估算樓層包絡，不是高度限制或法規值。"
+    }
+  },
+  "atmosphere_tags": [
+    "density_feel",
+    "legibility",
+    "sunlight",
+    "permeability",
+    "privacy",
+    "natural_surveillance"
+  ],
+  "atmosphere_scores": {
+    "enclosure": {
+      "value": 0.25,
+      "status": "EDITORIAL_ESTIMATE",
+      "rationale_zh": "此型在幾何上可能提供「建築邊界較分散，開敞空間不易形成連續側界」，故暫列 0.25 作為設計討論起點。這不是本地實測、使用者調查或模擬值；來源只支撐面向與代理指標，不背書此分數。",
+      "source_ids": [
+        "SRC_SPACEMATRIX_2023",
+        "SRC_ALEXANDER_1977"
+      ]
+    },
+    "privacy": {
+      "value": 0.7,
+      "status": "EDITORIAL_ESTIMATE",
+      "rationale_zh": "此型在幾何上可能提供「可安排清楚的公共—半公共—私有閾限」，故暫列 0.70 作為設計討論起點。這不是本地實測、使用者調查或模擬值；來源只支撐面向與代理指標，不背書此分數。",
+      "source_ids": [
+        "SRC_ALEXANDER_1977",
+        "SRC_MASSENA_2019"
+      ]
+    },
+    "permeability": {
+      "value": 0.76,
+      "status": "EDITORIAL_ESTIMATE",
+      "rationale_zh": "此型在幾何上可能提供「多條可辨識的公共路徑或連接」，故暫列 0.76 作為設計討論起點。這不是本地實測、使用者調查或模擬值；來源只支撐面向與代理指標，不背書此分數。",
+      "source_ids": [
+        "SRC_OPEN_BLOCK_2020",
+        "SRC_EWING_CERVERO_2010"
+      ]
+    },
+    "sunlight": {
+      "value": 0.79,
+      "status": "EDITORIAL_ESTIMATE",
+      "rationale_zh": "此型在幾何上可能提供「較開敞的天空視域或經過校核的開口」，故暫列 0.79 作為設計討論起點。這不是本地實測、使用者調查或模擬值；來源只支撐面向與代理指標，不背書此分數。",
+      "source_ids": [
+        "SRC_OKE_1988",
+        "SRC_SVF_2020"
+      ]
+    },
+    "green_blue": {
+      "value": 0.55,
+      "status": "EDITORIAL_ESTIMATE",
+      "rationale_zh": "此型在幾何上可能提供「同時包含支持與限制線索，需由基地配置及使用者評估定義」，故暫列 0.55 作為設計討論起點。這不是本地實測、使用者調查或模擬值；來源只支撐面向與代理指標，不背書此分數。",
+      "source_ids": [
+        "SRC_GEHL_2010",
+        "SRC_AGROTOPIA_2021"
+      ]
+    },
+    "microclimate_shelter": {
+      "value": 0.34,
+      "status": "EDITORIAL_ESTIMATE",
+      "rationale_zh": "此型在幾何上可能提供「開放邊界較多，遮蔭或擋風能力可能有限」，故暫列 0.34 作為設計討論起點。這不是本地實測、使用者調查或模擬值；來源只支撐面向與代理指標，不背書此分數。",
+      "source_ids": [
+        "SRC_OKE_1988",
+        "SRC_SVF_2020"
+      ]
+    },
+    "street_vitality": {
+      "value": 0.44,
+      "status": "EDITORIAL_ESTIMATE",
+      "rationale_zh": "此型在幾何上可能提供「同時包含支持與限制線索，需由基地配置及使用者評估定義」，故暫列 0.44 作為設計討論起點。這不是本地實測、使用者調查或模擬值；來源只支撐面向與代理指標，不背書此分數。",
+      "source_ids": [
+        "SRC_GEHL_2010",
+        "SRC_WHYTE_1980"
+      ]
+    },
+    "industrial_scale": {
+      "value": 0.28,
+      "status": "EDITORIAL_ESTIMATE",
+      "rationale_zh": "此型在幾何上可能提供「尺度較細，較難形成大型跨距或生產場景」，故暫列 0.28 作為設計討論起點。這不是本地實測、使用者調查或模擬值；來源只支撐面向與代理指標，不背書此分數。",
+      "source_ids": [
+        "SRC_LOCHAL_2019",
+        "SRC_GARE_MARITIME_2020"
+      ]
+    },
+    "human_scale": {
+      "value": 0.33,
+      "status": "EDITORIAL_ESTIMATE",
+      "rationale_zh": "此型在幾何上可能提供「高體量或大面寬可能缺少步行者可讀的細部節奏」，故暫列 0.33 作為設計討論起點。這不是本地實測、使用者調查或模擬值；來源只支撐面向與代理指標，不背書此分數。",
+      "source_ids": [
+        "SRC_GEHL_2010",
+        "SRC_LYNCH_1960"
+      ]
+    },
+    "density_feel": {
+      "value": 0.94,
+      "status": "EDITORIAL_ESTIMATE",
+      "rationale_zh": "此型在幾何上可能提供「可在同一基地分母下形成較高建築量」，故暫列 0.94 作為設計討論起點。這不是本地實測、使用者調查或模擬值；來源只支撐面向與代理指標，不背書此分數。",
+      "source_ids": [
+        "SRC_SPACEMATRIX_2023",
+        "SRC_MORPHINT_2025"
+      ]
+    },
+    "legibility": {
+      "value": 0.89,
+      "status": "EDITORIAL_ESTIMATE",
+      "rationale_zh": "此型在幾何上可能提供「可建立辨認路徑、節點、邊界或地標的差異」，故暫列 0.89 作為設計討論起點。這不是本地實測、使用者調查或模擬值；來源只支撐面向與代理指標，不背書此分數。",
+      "source_ids": [
+        "SRC_LYNCH_1960",
+        "SRC_URBAN_MORPHOMETRICS_2015"
+      ]
+    },
+    "diversity": {
+      "value": 0.63,
+      "status": "EDITORIAL_ESTIMATE",
+      "rationale_zh": "此型在幾何上可能提供「同時包含支持與限制線索，需由基地配置及使用者評估定義」，故暫列 0.63 作為設計討論起點。這不是本地實測、使用者調查或模擬值；來源只支撐面向與代理指標，不背書此分數。",
+      "source_ids": [
+        "SRC_OPEN_BLOCK_2020",
+        "SRC_EWING_CERVERO_2010"
+      ]
+    },
+    "natural_surveillance": {
+      "value": 0.66,
+      "status": "EDITORIAL_ESTIMATE",
+      "rationale_zh": "此型在幾何上可能提供「同時包含支持與限制線索，需由基地配置及使用者評估定義」，故暫列 0.66 作為設計討論起點。這不是本地實測、使用者調查或模擬值；來源只支撐面向與代理指標，不背書此分數。",
+      "source_ids": [
+        "SRC_SAFETY_2024"
+      ]
+    },
+    "perceived_safety": {
+      "value": 0.57,
+      "status": "EDITORIAL_ESTIMATE",
+      "rationale_zh": "此型在幾何上可能提供「同時包含支持與限制線索，需由基地配置及使用者評估定義」，故暫列 0.57 作為設計討論起點。這不是本地實測、使用者調查或模擬值；來源只支撐面向與代理指標，不背書此分數。",
+      "source_ids": [
+        "SRC_SAFETY_2024",
+        "SRC_GEHL_2010"
+      ]
+    },
+    "sociability": {
+      "value": 0.6,
+      "status": "EDITORIAL_ESTIMATE",
+      "rationale_zh": "此型在幾何上可能提供「同時包含支持與限制線索，需由基地配置及使用者評估定義」，故暫列 0.60 作為設計討論起點。這不是本地實測、使用者調查或模擬值；來源只支撐面向與代理指標，不背書此分數。",
+      "source_ids": [
+        "SRC_WHYTE_1980",
+        "SRC_SOCIAL_COHESION_2024"
+      ]
+    },
+    "belonging": {
+      "value": 0.52,
+      "status": "EDITORIAL_ESTIMATE",
+      "rationale_zh": "此型在幾何上可能提供「同時包含支持與限制線索，需由基地配置及使用者評估定義」，故暫列 0.52 作為設計討論起點。這不是本地實測、使用者調查或模擬值；來源只支撐面向與代理指標，不背書此分數。",
+      "source_ids": [
+        "SRC_SOCIAL_COHESION_2024",
+        "SRC_ALEXANDER_1977"
+      ]
+    }
+  },
+  "suitability": {
+    "suitable_for": [
+      {
+        "condition_zh": "需集中垂直密度並保留地面開放空間",
+        "source_ids": [
+          "SRC_SPACEMATRIX_2023",
+          "SRC_MORPHINT_2025"
+        ]
+      }
+    ],
+    "review_or_avoid_when": [
+      {
+        "condition_zh": "地面層需要連續街牆、低層人本界面或避免高層陰影",
+        "source_ids": [
+          "SRC_SPACEMATRIX_2023",
+          "SRC_MORPHINT_2025"
+        ]
+      }
+    ]
+  },
+  "combination_rules": [
+    {
+      "target_id": "block.towers_park",
+      "relationship": "嵌入",
+      "condition_zh": "與步行路線和開放空間共同配置，不孤立於服務網絡之外",
+      "spacing_m": {
+        "minimum": 22.0,
+        "maximum": 48.0,
+        "unit": "m"
+      },
+      "orientation_zh": "以日照、視線、風與避難模擬決定位置",
+      "vertical_stack_allowed": false,
+      "rule_status": "DESIGN_HYPOTHESIS",
+      "basis_zh": "由本條型態機制提出的初步組合假設；不是法規、通用尺寸或已驗證的生成器限制。",
+      "source_ids": [
+        "SRC_SPACEMATRIX_2023",
+        "SRC_MORPHINT_2025"
+      ]
+    },
+    {
+      "target_id": "space.plaza",
+      "relationship": "臨接",
+      "condition_zh": "入口廣場需兼顧風環境、遮蔭與日常使用",
+      "spacing_m": {
+        "minimum": 12.0,
+        "maximum": 30.0,
+        "unit": "m"
+      },
+      "orientation_zh": "主要入口面向公共到達路線，避開未驗證的風口",
+      "vertical_stack_allowed": false,
+      "rule_status": "DESIGN_HYPOTHESIS",
+      "basis_zh": "由本條型態機制提出的初步組合假設；不是法規、通用尺寸或已驗證的生成器限制。",
+      "source_ids": [
+        "SRC_SPACEMATRIX_2023",
+        "SRC_MORPHINT_2025"
+      ]
+    }
+  ],
+  "generator_parameters": {
+    "profile_key": "point",
+    "scale": "building_plan",
+    "parameters": {
+      "profile_key": "point",
+      "footprint_width_m": [
+        15,
+        38
+      ],
+      "footprint_depth_m": [
+        15,
+        38
+      ],
+      "floor_count": [
+        12,
+        40
+      ]
+    },
+    "mapping_note_zh": "建議的未來生成器欄位名稱；目前只供查詢和方案討論，不呼叫任何生成器。"
+  },
+  "precedents": [
+    {
+      "name": "Cadnam Point, Alton East",
+      "relevance_zh": "Historic England 將 Cadnam Point 列為 Alton East 的點樓之一；樓層和地景效應應按原基地閱讀。",
+      "source_ids": [
+        "SRC_HISTORIC_ENGLAND_ALTON_EAST_2020"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "SRC_SPACEMATRIX_2023",
+      "relevance_zh": "密度與形態量測脈絡；不提供本條的數值估算。"
+    },
+    {
+      "id": "SRC_MORPHINT_2025",
+      "relevance_zh": "QGIS 指標工具清單；本字典不安裝或執行外掛。"
+    },
+    {
+      "id": "SRC_LYNCH_1960",
+      "relevance_zh": "城市可辨識性與城市意象的參考。"
+    },
+    {
+      "id": "SRC_HISTORIC_ENGLAND_ALTON_EAST_2020",
+      "relevance_zh": "案例來源只支持先例形態描述，不支持本條尺寸包絡或氛圍分數。"
+    }
+  ]
+}

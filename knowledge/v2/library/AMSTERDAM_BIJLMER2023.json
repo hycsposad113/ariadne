@@ -1,0 +1,42 @@
+{
+  "id": "AMSTERDAM_BIJLMER2023",
+  "title": "De Bijlmer: het paradijs voor de nieuwe mens",
+  "authors": [
+    "Gemeente Amsterdam"
+  ],
+  "year": 2023,
+  "venue_or_publisher": "Gemeente Amsterdam",
+  "doi": null,
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "OFFICIAL_GOVERNMENT_ARTICLE",
+  "tradition": "地方史訪談與都市歷史回顧",
+  "region": "荷蘭阿姆斯特丹",
+  "method": "於內容起草後直接檢視官方／營運方公開頁面；不把機構目標或自報數據當成獨立效果研究。",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "市府文章刊載 Bijlmer Museum 創辦人 Henno Eggenkamp 的訪談；文中關於 1990 年代約六成高樓拆除的數字屬受訪者說法，未作獨立清冊核驗。",
+      "strength": "CASE_EVIDENCE",
+      "scope_zh": "只支持頁面明確公布的規劃口徑、歷史資料、行政數字或機構自報結果。",
+      "assessment_basis": "DIRECT_SOURCE_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Official organization webpage",
+    "query": {
+      "title": "De Bijlmer: het paradijs voor de nieuwe mens",
+      "author": "Gemeente Amsterdam",
+      "year": 2023,
+      "api_query": "Read-only official source page: https://www.amsterdam.nl/nieuws/achtergrond/bijlmer-paradijs-nieuwe-mens/"
+    },
+    "matched_record_id": "https://www.amsterdam.nl/nieuws/achtergrond/bijlmer-paradijs-nieuwe-mens/",
+    "checked_at_utc": "2026-10-08T14:47:20Z",
+    "match_notes_zh": "直接檢視官方／場址營運方公開頁；該頁不是Crossref書目記錄，未宣稱經Crossref驗證。"
+  },
+  "limitations_zh": "官方或營運方頁面可能採機構自身的規劃與成果口徑；未有獨立評估處不推定效果。",
+  "critique_relationship_zh": "本記錄不宣稱與其他來源存在直接互引或逐一反駁關係。",
+  "metadata_licence_zh": "官方／營運方公開頁面；未確認個別資料的再利用授權。"
+}

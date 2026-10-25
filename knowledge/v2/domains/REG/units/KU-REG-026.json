@@ -1,0 +1,100 @@
+{
+  "id": "KU-REG-026",
+  "domain": "REG",
+  "subtopic": "荷蘭 Omgevingswet 與 omgevingsplan",
+  "type": "critique",
+  "title_zh": "荷蘭 Omgevingswet 與 omgevingsplan｜批評與反例",
+  "title_en": "Dutch integrated environment and plan profile — Critique and counterexample",
+  "summary_zh": "Omgevingswet 的制度轉換涉及中央法規、地方 omgevingsplan、許可和執行角色，不能只用法案摘要代表現行規則。 2016 年辯論呈現整合環境與土地使用決策的目標，但不等於任何地方 omgevingsplan 的條文。 讀這類制度材料時，應同時檢查參與程序如何呈現利益衝突，以及技術審查未能替代的地方決定。",
+  "key_points_zh": [
+    "讀「荷蘭 Omgevingswet 與 omgevingsplan｜批評與反例」時，2016 年法案辯論不能當成 2026 年現行法條的完整說明；同時把Omgevingswet 的制度轉換涉及中央法規、地方 omgevingsplan、許可和執行角色，不能只用法案摘要代表現行規則列為核對條件。",
+    "讀「荷蘭 Omgevingswet 與 omgevingsplan｜批評與反例」時，適用於分析整合型規劃制度如何改變計畫和規則關係；同時把Omgevingswet 的制度轉換涉及中央法規、地方 omgevingsplan、許可和執行角色，不能只用法案摘要代表現行規則列為核對條件。",
+    "讀「荷蘭 Omgevingswet 與 omgevingsplan｜批評與反例」時，限制：正式基地判斷需另查當前官方法規與地區 plan；同時把Omgevingswet 的制度轉換涉及中央法規、地方 omgevingsplan、許可和執行角色，不能只用法案摘要代表現行規則列為核對條件。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "Korthals Altes 檢視荷蘭整合環境與規劃法的辯論及土地使用計畫功能；文章討論立法改革，不是地方 omgevingsplan 的條文清單。",
+        "library_id": "KORTHALSALTES2016",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "荷蘭",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW",
+        "limitations_zh": "本條依公開摘要或書目範圍整理；未據此推定本基地法規、普遍效果或未核對的數值。"
+      },
+      {
+        "claim_zh": "IPLO 官方說明市鎮 omgevingsplan 中規則與環境法目的的關係；用其頁面核對當前制度，不以 2016 年辯論代替現行法。",
+        "library_id": "IPLO_OMGEVINGSPLAN",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "荷蘭",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "本條依公開摘要或書目範圍整理；未據此推定本基地法規、普遍效果或未核對的數值。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "將環境、建築和土地使用計畫的整合程度，與參與程序、例外和執行責任分開檢查。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "將環境、建築和土地使用計畫的整合程度，與參與程序、例外和執行責任分開檢查。",
+      "tradeoff_zh": "「荷蘭 Omgevingswet 與 omgevingsplan｜批評與反例」採用「將環境、建築和土地使用計畫的整合程度，與參與程序、例外和執行責任分開檢查」時，得失要沿著Omgevingswet 的制度轉換涉及中央法規、地方 omgevingsplan、許可和執行角色，不能只用法案摘要代表現行規則檢查；「荷蘭 Omgevingswet 與 omgevingsplan｜批評與反例」的爭議不只在於正式基地判斷需另查當前官方法規與地區 plan；還要檢視Omgevingswet 的制度轉換涉及中央法規、地方 omgevingsplan、許可和執行角色，不能只用法案摘要代表現行規則會讓哪些使用者承擔不同後果。",
+      "library_ids": []
+    },
+    {
+      "option_zh": "在「荷蘭 Omgevingswet 與 omgevingsplan｜批評與反例」的來源情境裡，整合計畫可連結環境、建築和土地使用，不代表所有決定自動簡化；落到設計時還要按Omgevingswet 的制度轉換涉及中央法規、地方 omgevingsplan、許可和執行角色，不能只用法案摘要代表現行規則調整。",
+      "tradeoff_zh": "「荷蘭 Omgevingswet 與 omgevingsplan｜批評與反例」的主要代價不是抽象的建造成本，而是「荷蘭 Omgevingswet 與 omgevingsplan｜批評與反例」的爭議不只在於正式基地判斷需另查當前官方法規與地區 plan；還要檢視Omgevingswet 的制度轉換涉及中央法規、地方 omgevingsplan、許可和執行角色，不能只用法案摘要代表現行規則會讓哪些使用者承擔不同後果；因此先以Omgevingswet 的制度轉換涉及中央法規、地方 omgevingsplan、許可和執行角色，不能只用法案摘要代表現行規則作方案比較條件。",
+      "library_ids": []
+    }
+  ],
+  "applies_when_zh": "「荷蘭 Omgevingswet 與 omgevingsplan｜批評與反例」可在適用於分析整合型規劃制度如何改變計畫和規則關係時使用，前提是Omgevingswet 的制度轉換涉及中央法規、地方 omgevingsplan、許可和執行角色，不能只用法案摘要代表現行規則與來源情境相符。",
+  "not_applicable_when_zh": "若Omgevingswet 的制度轉換涉及中央法規、地方 omgevingsplan、許可和執行角色，不能只用法案摘要代表現行規則不成立，就不能把「荷蘭 Omgevingswet 與 omgevingsplan｜批評與反例」的結論延伸到其他情況；正式基地判斷需另查當前官方法規與地區 plan。",
+  "debates_zh": "「荷蘭 Omgevingswet 與 omgevingsplan｜批評與反例」的爭議不只在於正式基地判斷需另查當前官方法規與地區 plan；還要檢視Omgevingswet 的制度轉換涉及中央法規、地方 omgevingsplan、許可和執行角色，不能只用法案摘要代表現行規則會讓哪些使用者承擔不同後果。",
+  "sources": [
+    {
+      "library_id": "IPLO_OMGEVINGSPLAN",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "KORTHALSALTES2016",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "協作規劃；都市分配正義",
+  "region": "英國；美國",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Planning Complex Cities",
+      "topic": "荷蘭 Omgevingswet 與 omgevingsplan"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Urban Design Contexts and Operations",
+      "topic": "荷蘭 Omgevingswet 與 omgevingsplan"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "荷蘭 Omgevingswet 與 omgevingsplan"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban design governance",
+      "topic": "荷蘭 Omgevingswet 與 omgevingsplan"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-REG-022",
+    "KU-REG-023",
+    "KU-REG-024"
+  ]
+}

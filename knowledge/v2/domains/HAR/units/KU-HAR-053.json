@@ -1,0 +1,70 @@
+{
+  "id": "KU-HAR-053",
+  "type": "concept",
+  "subtopic": "港城介面",
+  "title_zh": "港區更新的城市界面同時承接物流和日常移動",
+  "title_en": "The Port-City Edge Carries Logistics and Everyday Movement",
+  "summary_zh": "港口與城市交界不是單一海濱步道，而是一組由貨運入口、鐵路、倉儲、社區道路、公共岸線和安全控制組成的介面。港區發展研究把這些關係放在區域網絡內，站區和通勤研究則說明交通投資會與周邊土地使用共同變化。設計要分清哪些連結仍服務生產，哪些轉為公共通行。",
+  "key_points_zh": [
+    "在同一底圖上分開標物流、通勤、遊憩和服務路徑。",
+    "把改造後的連接關係對照實際運作時段。"
+  ],
+  "design_implications_zh": [
+    "先盤點實際物流功能，再規劃公共步道跨越或避讓的節點。"
+  ],
+  "applies_when_zh": "港區鄰接住宅、商業街道或公共交通節點時。",
+  "not_applicable_when_zh": "港區與城市完全分離且無公共連接或共同治理議題時。",
+  "debates_zh": "港口功能轉移可釋出土地，貨運和製造也可能只是移往較遠、較弱勢的地區；只看基地內環境會漏掉外部成本。",
+  "tradition": "港口地理／交通與土地使用研究",
+  "region": "歐洲港城與荷蘭",
+  "curriculum_refs": [
+    {
+      "school": "MIT",
+      "course": null,
+      "topic": "Port geography and urban material flows"
+    },
+    {
+      "school": "TU Delft",
+      "course": null,
+      "topic": "Transport and port-city interface"
+    }
+  ],
+  "domain": "HAR",
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "港城介面研究整合歐洲港口轉型的研究與實務，強調港口和城市關係持續變動。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "歐洲港城與荷蘭",
+        "library_id": "LOUW2017",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "荷蘭交通與空間發展研究把公共運輸、土地使用和城市網絡共同納入分析。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "歐洲港城與荷蘭",
+        "library_id": "BERTOLINI99",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "library_id": "LOUW2017",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "BERTOLINI99",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "version": "v2.0"
+}

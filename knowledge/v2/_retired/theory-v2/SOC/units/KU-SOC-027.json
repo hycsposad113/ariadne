@@ -1,0 +1,82 @@
+{
+  "id": "KU-SOC-027",
+  "domain": "SOC",
+  "subtopic": "治理與公私合作",
+  "type": "empirical_finding",
+  "title_zh": "治理與公私合作：決策方向可逆",
+  "title_en": "Governance and public-private collaboration — empirical finding unit 027",
+  "summary_zh": "Sewunsangga 從復修方向轉向重建、再度調整的個案顯示，都市更新決策並非一條不可逆的工程直線。設計者可在階段門檻保留修正空間，並預先記錄哪些公共承諾不可因方案更換而消失。單一案例不等於每項計畫皆可低成本逆轉。限制是「治理與公私合作：決策方向可逆」所用的城市或案例資料不能單獨證明設計因果，外推仍需重新檢驗。",
+  "key_points_zh": [
+    "Sewunsangga 從復修方向轉向重建、再度調整的個案顯示，都市更新決策並非一條不可逆的工程直線。",
+    "設計者可在階段門檻保留修正空間，並預先記錄哪些公共承諾不可因方案更換而消失。",
+    "單一案例不等於每項計畫皆可低成本逆轉。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "【ABSTRACT_REVIEW】Sewunsangga 從復修方向轉向重建、再度調整的個案顯示，都市更新決策並非一條不可逆的工程直線。設計者可在階段門檻保留修正空間，並預先記錄哪些公共承諾不可因方案更換而消失。單一案例不等於每項計畫皆可低成本逆轉。限制是「治理與公私合作：決策方向可逆」所用的城市或案例資料不能單獨證明設計因果，外推仍需重新檢驗。",
+        "effect_or_value": "計畫曾在復修與重建間多次轉向，顯示都市更新路徑具有爭議且可逆",
+        "study_design": "首爾 Sewunsangga 更新計畫版本變化的案例追蹤",
+        "context_region": "南韓首爾",
+        "library_id": "NA2014",
+        "locator": null
+      },
+      {
+        "claim_zh": "【BIBLIOGRAPHIC_SCOPE_ONLY】就「治理與公私合作：決策方向可逆」而言，「The Endowment of Community Participation: Institutional Settings in Two Urban Regeneration Projects」提供參與制度／都市再生的比較坐標；此處僅使用其已標明的書目／摘要範圍，不延伸為未核對的效果或因果。",
+        "effect_or_value": null,
+        "study_design": "制度脈絡／兩案比較",
+        "context_region": "歐洲",
+        "library_id": "SAVINI2010",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "在大額鎖定前設可審議節點，確保換案不取消既有公共承諾。"
+  ],
+  "design_options": [],
+  "applies_when_zh": "在評估「治理與公私合作：決策方向可逆」涉及的資源分配、權力或居住影響時，先界定受影響群體與決策階段。",
+  "not_applicable_when_zh": "若沒有「治理與公私合作：決策方向可逆」所需的群體、時序或市場資料，不把概念類比當作已驗證的效果或法律結論。",
+  "debates_zh": "路徑可逆有成本；拆除和搬遷後有些社會關係不能恢復。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "NA2014",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "SAVINI2010",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "都市治理／國家、市場與社區",
+  "region": "南韓；亞洲；英國；歐洲；跨地域",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Planning Complex Cities",
+      "topic": "治理與公私合作：決策方向可逆 — 治理與公私合作"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Urban Design Contexts and Operations",
+      "topic": "治理與公私合作：決策方向可逆 — 治理與公私合作"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "治理與公私合作：決策方向可逆 — 治理與公私合作"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design Governance",
+      "topic": "治理與公私合作：決策方向可逆 — 治理與公私合作"
+    }
+  ],
+  "version": "2.0.0"
+}

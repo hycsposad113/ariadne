@@ -1,0 +1,82 @@
+{
+  "id": "KU-SOC-037",
+  "domain": "SOC",
+  "subtopic": "開發經濟與可行性（土地價值、殘值法）",
+  "type": "critique",
+  "title_zh": "開發經濟與可行性：義務和收益分配",
+  "title_en": "Development economics and feasibility: land value and residual valuation — critique unit 037",
+  "summary_zh": "公共義務與開發收益的分配涉及可負擔住房、公共空間、設施、地價和開發報酬如何排序。比較時應說明義務由誰承擔、土地增值如何估算及未履行時的補救。可行性不是唯一公共利益準則，社會成本亦須進入方案比較。",
+  "key_points_zh": [
+    "公共義務與開發收益的分配涉及可負擔住房、公共空間、設施、地價和開發報酬如何排序。",
+    "比較時應說明義務由誰承擔、土地增值如何估算及未履行時的補救。",
+    "可行性不是唯一公共利益準則，社會成本亦須進入方案比較。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "【BIBLIOGRAPHIC_SCOPE_ONLY】就「開發經濟與可行性：義務和收益分配」而言，「The just city」提供都市分配正義的比較坐標；此處僅使用其已標明的書目／摘要範圍，不延伸為未核對的效果或因果。",
+        "effect_or_value": null,
+        "study_design": "規範性理論",
+        "context_region": "美國；歐洲",
+        "library_id": "FANSTEIN10",
+        "locator": null
+      },
+      {
+        "claim_zh": "【BIBLIOGRAPHIC_SCOPE_ONLY】就「開發經濟與可行性：義務和收益分配」而言，「The new urban frontier」提供rent-gap theory and critical urban political economy的比較坐標；此處僅使用其已標明的書目／摘要範圍，不延伸為未核對的效果或因果。",
+        "effect_or_value": null,
+        "study_design": "historical and political-economic analysis",
+        "context_region": "United States；Europe",
+        "library_id": "SMITH1996",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "同列公共義務、開發收益、土地增值和原使用者承擔的成本。"
+  ],
+  "design_options": [],
+  "applies_when_zh": "在評估「開發經濟與可行性：義務和收益分配」涉及的資源分配、權力或居住影響時，先界定受影響群體與決策階段。",
+  "not_applicable_when_zh": "若沒有「開發經濟與可行性：義務和收益分配」所需的群體、時序或市場資料，不把概念類比當作已驗證的效果或法律結論。",
+  "debates_zh": "公共義務提高成本的主張必須公開驗算，也需評估放棄義務的社會代價。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "FANSTEIN10",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "SMITH1996",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "政治經濟／土地價值與可行性",
+  "region": "美國；歐洲；哥倫比亞；南美洲",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Planning Complex Cities",
+      "topic": "開發經濟與可行性：義務和收益分配 — 開發經濟與可行性（土地價值、殘值法）"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Urban Design Contexts and Operations",
+      "topic": "開發經濟與可行性：義務和收益分配 — 開發經濟與可行性（土地價值、殘值法）"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "開發經濟與可行性：義務和收益分配 — 開發經濟與可行性（土地價值、殘值法）"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design Governance",
+      "topic": "開發經濟與可行性：義務和收益分配 — 開發經濟與可行性（土地價值、殘值法）"
+    }
+  ],
+  "version": "2.0.0"
+}

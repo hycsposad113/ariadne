@@ -1,0 +1,80 @@
+{
+  "id": "KU-MOB-023",
+  "domain": "MOB",
+  "subtopic": "荷蘭自行車設計原則（連貫、直接、安全、舒適、吸引）",
+  "type": "typology",
+  "title_zh": "荷蘭自行車設計原則（連貫、直接、安全、舒適、吸引）：型態比較",
+  "title_en": "Dutch cycling design principles: Typology comparison",
+  "summary_zh": "分離型自行車道、低速混行街、區域自行車路和自行車—大眾運輸接駁網有不同風險和適用尺度。類型比較要回到連貫、直接、安全、舒適和吸引是檢查自行車網路的五個互補品質，需透過連續路線與交叉口共同落實。各類型的成本和適用條件包括：國家自行車成功經驗是基礎設施、停車、教育、土地使用與汽車政策的組合，不能只複製一種道路斷面。",
+  "key_points_zh": [
+    "比較類型：連貫、直接、安全、舒適和吸引是檢查自行車網路的五個互補品質，需透過連續路線與交叉口共同落實",
+    "比較類型：分離型自行車道、低速混行街、區域自行車路和自行車—大眾運輸接駁網有不同風險和適用尺度"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "荷蘭自行車設計原則（連貫、直接、安全、舒適、吸引）：型態比較｜自行車安全需將暴露、道路條件及移動行為一起分析，不能只數事故或路長",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "SCHEPERS14",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "荷蘭自行車設計原則（連貫、直接、安全、舒適、吸引）：型態比較｜在蒙特婁與溫哥華，較接近自行車設施與較高通勤自行車占比相關；一公里距離差異對應約四倍占比，調整後不同設施類型的城市結果並不一致",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "TESCHKE17",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "類型表應比較「連貫、直接、安全、舒適和吸引是檢查自行車網路的五個互補品質，需透過連續路線與交叉口共同落實」及其使用代價「國家自行車成功經驗是基礎設施、停車、教育、土地使用與汽車政策的組合，不能只複製一種道路斷面」，不要只列名稱。"
+  ],
+  "applies_when_zh": "比較荷蘭自行車設計原則（連貫、直接、安全、舒適、吸引）方案時，可先用「連貫、直接、安全、舒適和吸引是檢查自行車網路的五個互補品質，需透過連續路線與交叉口共同落實」描述各類型，再按「國家自行車成功經驗是基礎設施、停車、教育、土地使用與汽車政策的組合，不能只複製一種道路斷面」檢查分類的盲點。",
+  "not_applicable_when_zh": "這些類型不構成普遍排序；遇到「國家自行車成功經驗是基礎設施、停車、教育、土地使用與汽車政策的組合，不能只複製一種道路斷面」所述條件時，不應只依類名決定路網或街道配置。",
+  "debates_zh": "國家自行車成功經驗是基礎設施、停車、教育、土地使用與汽車政策的組合，不能只複製一種道路斷面；檢視「荷蘭自行車設計原則（連貫、直接、安全、舒適、吸引）：型態比較」的分類邊界時，還需判斷「分離型自行車道、低速混行街、區域自行車路和自行車—大眾運輸接駁網有不同風險和適用尺度」會如何改變方案結論。",
+  "sources": [
+    {
+      "library_id": "SCHEPERS14",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "TESCHKE17",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "荷蘭自行車網與政策",
+  "region": "跨地域理論或實務脈絡；來源地區依引用條目判讀",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "荷蘭自行車設計原則（連貫、直接、安全、舒適、吸引）：課綱對應主題"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Urban Design Contexts and Operations",
+      "topic": "荷蘭自行車設計原則（連貫、直接、安全、舒適、吸引）：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-MOB-017",
+    "KU-MOB-018",
+    "KU-MOB-019",
+    "KU-MOB-020",
+    "KU-MOB-021",
+    "KU-MOB-022",
+    "KU-MOB-024"
+  ]
+}

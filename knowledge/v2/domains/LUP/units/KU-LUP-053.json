@@ -1,0 +1,107 @@
+{
+  "id": "KU-LUP-053",
+  "domain": "LUP",
+  "subtopic": "商業與零售區位",
+  "type": "theory",
+  "title_zh": "商業與零售區位｜理論主張",
+  "title_en": "Retail and commercial location — Theoretical claim",
+  "summary_zh": "商業區位受商圈層級、路網可達性、居民分布和競爭共同影響。 商業區位受商圈層級、路網可達性、居民分布和競爭共同影響。 服務中心的層級與實際商圈需由用途和消費行為資料驗證。",
+  "key_points_zh": [
+    "商業區位受商圈層級、路網可達性、居民分布和競爭共同影響。 服務中心的層級與實際商圈需由用途和消費行為資料驗證。",
+    "適用於商業中心、街道活化和鄰里服務配置。",
+    "限制：沒有店面營運或消費者資料時，只能提出候選區位假說。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "中心地理論提出服務層級與市場區域的理想化秩序；後續都市內零售研究顯示實際商圈可能不服從整齊巢狀模型。",
+        "library_id": "CHRISTALLER1966",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "南德意志原始研究區域",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "經典區位模型說明地租與距離會影響用途配置；它是抽象模型，不能直接預測現代城市的所有區位選擇。",
+        "library_id": "ALONSO1964",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "美國都市經濟理論",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "結合商圈、出行路線、人口分布和營業類型分析。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "結合商圈、出行路線、人口分布和營業類型分析。",
+      "tradeoff_zh": "「商業與零售區位｜理論主張」採用「結合商圈、出行路線、人口分布和營業類型分析」時，得失要沿著中心地理論提出服務層級與市場區域的理想化秩序；後續都市內零售研究顯示實際商圈可能不服從整齊巢狀模型檢查；經典中心地理論是理想模型，都市內零售可能呈現重疊和非巢狀商圈。",
+      "library_ids": [
+        "CHRISTALLER1966",
+        "ALONSO1964"
+      ]
+    },
+    {
+      "option_zh": "便利商品、專門商品和目的型商業會形成不同空間服務範圍。",
+      "tradeoff_zh": "「商業與零售區位｜理論主張」的主要代價不是抽象的建造成本，而是經典中心地理論是理想模型，都市內零售可能呈現重疊和非巢狀商圈；因此先以中心地理論提出服務層級與市場區域的理想化秩序；後續都市內零售研究顯示實際商圈可能不服從整齊巢狀模型作方案比較條件。",
+      "library_ids": [
+        "CHRISTALLER1966",
+        "ALONSO1964"
+      ]
+    }
+  ],
+  "applies_when_zh": "適用於商業中心、街道活化和鄰里服務配置。",
+  "not_applicable_when_zh": "沒有店面營運或消費者資料時，只能提出候選區位假說。",
+  "debates_zh": "經典中心地理論是理想模型，都市內零售可能呈現重疊和非巢狀商圈。",
+  "sources": [
+    {
+      "library_id": "CHRISTALLER1966",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "ALONSO1964",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "中心地理論；區位與地租理論",
+  "region": "南德意志原始研究區域；美國都市經濟理論",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Planning Complex Cities",
+      "topic": "商業與零售區位"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Cities by Design",
+      "topic": "商業與零售區位"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "商業與零售區位"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Sustainable Futures by Design",
+      "topic": "商業與零售區位"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-LUP-054",
+    "KU-LUP-055",
+    "KU-LUP-056"
+  ],
+  "counter_unit_ids": [
+    "KU-LUP-057"
+  ]
+}

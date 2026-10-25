@@ -1,0 +1,14 @@
+{
+  "database": {
+    "authoritative_live_db_hash_after": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "authoritative_live_db_hash_before": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "live_sqlite_written": false
+  },
+  "fixture_only": true,
+  "non_local_font_requests": [],
+  "outbound_external_http_requests": 0,
+  "output_dir": {
+    "kind": "absolute_temporary"
+  },
+  "status": "PASS"
+}

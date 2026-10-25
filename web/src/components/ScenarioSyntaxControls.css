@@ -1,0 +1,7 @@
+.scenario-syntax-controls,.proposal-road-legend{grid-column:1 / -1;display:flex;flex-wrap:wrap;align-items:center;gap:8px;padding:8px 10px;background:var(--bg-surface,#17202b);color:var(--text-main,#e5e7eb);font-size:11px;border-bottom:1px solid var(--border-subtle,#334155)}
+.scenario-syntax-controls label{display:flex;align-items:center;gap:5px}
+.scenario-syntax-controls select,.scenario-syntax-controls button{font:inherit;padding:4px;background:var(--bg-surface-elevated,#202c3b);color:inherit;border:1px solid var(--border-subtle,#475569)}
+.scenario-syntax-controls>.proposal-road-legend{flex-basis:100%;padding:0;border:0}
+.scenario-syntax-controls details{flex-basis:100%;max-height:140px;overflow:auto}
+.compare-preview-views{grid-template-rows:auto minmax(0,1fr)}
+@media(max-width:950px){.compare-preview-views.mode-SPLIT{grid-template-rows:auto minmax(220px,1fr) minmax(220px,1fr);overflow:auto}}

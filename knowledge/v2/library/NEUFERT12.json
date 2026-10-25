@@ -1,0 +1,43 @@
+{
+  "id": "NEUFERT12",
+  "title": "Architects’ Data",
+  "authors": [
+    "Ernst Neufert"
+  ],
+  "year": 2012,
+  "venue_or_publisher": "Wiley-Blackwell",
+  "doi": null,
+  "isbn": "9781405192538",
+  "openalex_id": null,
+  "kind": "ACADEMIC_BOOK",
+  "tradition": "建築尺度；設計實務與研究",
+  "region": [
+    "跨地域；依來源適用範圍而異"
+  ],
+  "method": "書目核對；未取得全文，不以書目資料證明特定數值。",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "建築規劃與設計資料手冊；作尺度查表索引，不把單一版次的範圍視為普遍標準。",
+      "strength": "THEORETICAL",
+      "scope_zh": "書目範圍可核對；數值或因果主張須另查原文。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Open Library",
+    "query": {
+      "title": "Architects’ Data",
+      "author": "Ernst Neufert",
+      "year": 2012
+    },
+    "matched_record_id": "OL16499397W",
+    "checked_at_utc": "2026-10-08T14:46:42Z",
+    "match_notes_zh": "以允許的公開書目 API 核對書名、作者及出版年；未下載或保存全文。",
+    "url": "https://openlibrary.org/works/OL16499397W"
+  },
+  "limitations_zh": "書目記錄已核對；具體尺度內容標示交叉核對狀態，不把書名或摘要當作數值證據。",
+  "metadata_licence_zh": "保存公開書目欄位與自行撰寫的範圍說明；未保存全文。"
+}

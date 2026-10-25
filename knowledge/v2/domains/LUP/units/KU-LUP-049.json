@@ -1,0 +1,103 @@
+{
+  "id": "KU-LUP-049",
+  "domain": "LUP",
+  "subtopic": "15 分鐘城市與可及性",
+  "type": "empirical_finding",
+  "title_zh": "克拉科夫服務近鄰並非均勻分布",
+  "title_en": "15-minute proximity in Krakow",
+  "summary_zh": "距離沒有涵蓋服務品質、開放時間和居民移動能力。 公開服務清單與距離定義，另行測量可用性。 研究設計：以地理距離評估日常服務的城市個案分析；地區：克拉科夫，波蘭。",
+  "key_points_zh": [
+    "克拉科夫地理分析發現服務接近性存在設計缺口，研究據此提出空間調整方向。",
+    "研究設計：以地理距離評估日常服務的城市個案分析；地區：克拉科夫，波蘭",
+    "限制：距離沒有涵蓋服務品質、開放時間和居民移動能力。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "克拉科夫地理分析發現服務接近性存在設計缺口，研究據此提出空間調整方向。",
+        "effect_or_value": "城市服務可及性呈現空間差異；摘要未列覆蓋率",
+        "study_design": "以地理距離評估日常服務的城市個案分析",
+        "context_region": "克拉科夫，波蘭",
+        "library_id": "NOWOROL2022",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "公開服務清單與距離定義，另行測量可用性。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "公開服務清單與距離定義，另行測量可用性。",
+      "tradeoff_zh": "「克拉科夫服務近鄰並非均勻分布」採用「公開服務清單與距離定義，另行測量可用性」時，得失要沿著克拉科夫地理分析發現服務接近性存在設計缺口，研究據此提出空間調整方向檢查；距離沒有涵蓋服務品質、開放時間和居民移動能力。",
+      "library_ids": [
+        "NOWOROL2022",
+        "BERTOLINI99"
+      ]
+    },
+    {
+      "option_zh": "「克拉科夫服務近鄰並非均勻分布」可把取向落在步行、自行車、公共運輸和照護行程可能需要不同服務圈，但需連同克拉科夫地理分析發現服務接近性存在設計缺口，研究據此提出空間調整方向決定適用方式。",
+      "tradeoff_zh": "「克拉科夫服務近鄰並非均勻分布」採用「「克拉科夫服務近鄰並非均勻分布」可把取向落在步行、自行車、公共運輸和照護行程可能需要不同服務圈，但需連同克拉科夫地理分析發現服務接近性存在設計缺口，研究據此提出空間調整方向決定適用方式」時，得失要沿著克拉科夫地理分析發現服務接近性存在設計缺口，研究據此提出空間調整方向檢查；距離沒有涵蓋服務品質、開放時間和居民移動能力。",
+      "library_ids": [
+        "NOWOROL2022",
+        "BERTOLINI99"
+      ]
+    }
+  ],
+  "applies_when_zh": "用於與克拉科夫，波蘭研究情境可比、且量測定義相近的分析。",
+  "not_applicable_when_zh": "距離沒有涵蓋服務品質、開放時間和居民移動能力。",
+  "debates_zh": "距離沒有涵蓋服務品質、開放時間和居民移動能力。",
+  "sources": [
+    {
+      "library_id": "NOWOROL2022",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "BERTOLINI99",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "MOURATIDIS2020",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "近鄰服務可及性；節點與場所",
+  "region": "克拉科夫，波蘭；荷蘭",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Planning Complex Cities",
+      "topic": "15 分鐘城市與可及性"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Cities by Design",
+      "topic": "15 分鐘城市與可及性"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "15 分鐘城市與可及性"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Sustainable Futures by Design",
+      "topic": "15 分鐘城市與可及性"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-LUP-044",
+    "KU-LUP-045",
+    "KU-LUP-046"
+  ],
+  "counter_unit_ids": [
+    "KU-LUP-048"
+  ]
+}

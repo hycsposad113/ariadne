@@ -1,0 +1,107 @@
+{
+  "id": "KU-MOR-060",
+  "domain": "MOR",
+  "subtopic": "形態指標與類型比較方法",
+  "type": "empirical_finding",
+  "title_zh": "階層式分群可辨識街道與建築差異",
+  "title_en": "Clustering methods distinguish building and street patterns",
+  "summary_zh": "用於以 FSI、GSI、路網密度等多變數建立建成環境類型的分析。 研究設計：階層式與重心式群集方法比較；地區：摘要未指出案例城市。 限制：摘要未列分類效度數值，且作者指出階層式方法不適合直接處理大型資料。",
+  "key_points_zh": [
+    "三變數群集比較顯示，階層式分群較能辨識建築類型和街道模式；大型資料應考慮與重心式分群結合。",
+    "研究設計：階層式與重心式群集方法比較；地區：摘要未指出案例城市。",
+    "限制：摘要未列分類效度數值，且作者指出階層式方法不適合直接處理大型資料。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "三變數群集比較顯示，階層式分群較能辨識建築類型和街道模式；大型資料應考慮與重心式分群結合。",
+        "effect_or_value": "階層式方法較能區分建築類型和街道模式；大資料建議混合兩種分群方法。",
+        "study_design": "階層式與重心式群集方法比較",
+        "context_region": "摘要未指出案例城市",
+        "library_id": "BERGHAUSERPONT2017",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "Biljecki 等人比較多尺度形態資料的群集方法，研究重點是可重現的跨城分類；這不表示群集天然存在或唯一。",
+        "library_id": "BILJECKI2022",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "全球多城市資料",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "形態類型比較應同時檢視建築指標、路網變數、演算法和樣本規模。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "以階層式分群檢視類型差異，再用可擴充方法處理大樣本。",
+      "tradeoff_zh": "提高小樣本型態辨識力，但需在大樣本下檢查運算可行性。",
+      "library_ids": [
+        "BERGHAUSERPONT2017",
+        "BILJECKI2022"
+      ]
+    },
+    {
+      "option_zh": "採多尺度指標資料流程支援跨城比較。",
+      "tradeoff_zh": "便於重現和擴充，仍須核對資料品質與指標適用尺度。",
+      "library_ids": [
+        "BERGHAUSERPONT2017",
+        "BILJECKI2022"
+      ]
+    }
+  ],
+  "applies_when_zh": "用於以 FSI、GSI、路網密度等多變數建立建成環境類型的分析。",
+  "not_applicable_when_zh": "摘要未指出測試城市和分類效度數值；此方法結果不能轉成普遍適用的指標門檻。",
+  "debates_zh": "群集邊界受變數、樣本和演算法影響；分類可協助比較，不能自動成為設計目標。",
+  "sources": [
+    {
+      "library_id": "BERGHAUSERPONT2017",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "BILJECKI2022",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "量化都市形態學；城市資料科學",
+  "region": "摘要未指出案例城市；全球多城市建築指標資料",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "形態指標與類型比較方法"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "形態指標與類型比較方法"
+    },
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.330J Theory of City Form",
+      "topic": "形態指標與類型比較方法"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban form and density",
+      "topic": "形態指標與類型比較方法"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-MOR-054",
+    "KU-MOR-055",
+    "KU-MOR-056"
+  ],
+  "counter_unit_ids": [
+    "KU-MOR-058"
+  ]
+}

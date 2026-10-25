@@ -1,0 +1,61 @@
+{
+  "id": "KU-PUB-023",
+  "domain": "PUB",
+  "subtopic": "座位與停留",
+  "type": "design_principle",
+  "title_zh": "停留由舒適與活動共同支撐",
+  "title_en": "Staying depends on comfort and affordances",
+  "summary_zh": "有遮蔭、可觀看和容易離開的座位，常讓人願意延長停留。停留時間還會受目的地、行程安排和社交關係影響。只靠增加舒適設施不能創造需要的公共活動。延長停留的設計可能與快速通勤或空間容量衝突。",
+  "key_points_zh": [
+    "有遮蔭、可觀看和容易離開的座位，常讓人願意延長停留",
+    "停留時間還會受目的地、行程安排和社交關係影響"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "有遮蔭、可觀看和容易離開的座位，常讓人願意延長停留。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "丹麥",
+        "library_id": "PESCHARDT12",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "延長停留的設計可能與快速通勤或空間容量衝突。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "觀察停留者如何抵達、使用和離開，再補足遮蔭、靠背及飲水等具體缺口。"
+  ],
+  "applies_when_zh": "適用於使用者希望等待、照護或觀看活動的地點。",
+  "not_applicable_when_zh": "不適用於用停留時長替代公共性或滿意度。",
+  "debates_zh": "延長停留的設計可能與快速通勤或空間容量衝突。",
+  "sources": [
+    {
+      "library_id": "PESCHARDT12",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "FORSYTH15",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "小型公共綠地使用研究",
+  "region": "丹麥",
+  "curriculum_refs": [
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "座位與停留"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-PUB-022",
+    "KU-PUB-024"
+  ]
+}

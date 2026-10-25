@@ -1,0 +1,36 @@
+{
+  "id": "M4H_BEGROTING2027",
+  "title": "Stedelijke ontwikkeling: M4H projects",
+  "authors": [
+    "Gemeente Rotterdam"
+  ],
+  "year": 2026,
+  "venue_or_publisher": "Gemeente Rotterdam",
+  "doi": null,
+  "isbn": null,
+  "kind": "POLICY",
+  "tradition": "官方制度與專業實務指引",
+  "region": [
+    "Gemeente Rotterdam"
+  ],
+  "method": "官方公開法規、政策頁或手冊；依verification.method註明可讀範圍",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "市府將M4H描述為結合居住、企業、餐飲、活動、教育與文化的城市區域，並依2019框架分隔主要住宅與企業交通。",
+      "strength": "NORMATIVE_PRACTICE",
+      "scope_zh": "僅摘要官方公開頁面可直接支持之制度或實務內容；不外推為M4H地方法規。",
+      "assessment_basis": "OFFICIAL_SITE_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED_OFFICIAL_SITE",
+    "url": "https://www.watdoetdegemeente.rotterdam.nl/begroting-2027/programmas/stedelijke-ontwikkeling/projecten/",
+    "accessed_utc": "2026-10-08T10:47:42Z",
+    "method": "official public municipal programme page",
+    "match_notes_zh": "核對官方來源網域與可公開讀取的頁面／摘錄；內容範圍限制已記錄。"
+  },
+  "limitations_zh": "official public municipal programme page",
+  "metadata_licence_zh": "保存官方公開文件的書目欄位與自行改寫的內容摘要；未保存付費全文。"
+}

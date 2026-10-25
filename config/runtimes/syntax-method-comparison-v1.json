@@ -1,0 +1,132 @@
+{
+  "schema_version": "syntax-method-comparison-v1",
+  "status": "BLOCKED_PROJECT_PRECISION_M4H_PENDING",
+  "approved_for_operational_use": false,
+  "decision_boundary": "This manifest records a bounded comparison only. It does not approve PST or the project engine for Rotterdam production outputs.",
+  "plan_reference": "docs/superpowers/plans/2026-09-25-week5-execution-plan-zh.md#W5-4",
+  "comparison_implementation": {
+    "git_revision": "0aa47d33b5f9b5677ad7d05667d54170c8ee2e37",
+    "description": "The source hashes in engines identify the implementation bytes used for method-comparison-v1 at this revision. They are preserved as comparison-time evidence and are not hashes of the current PST adapter or worker."
+  },
+  "current_implementation_hashes": {
+    "src/urban_design/space_syntax.py": "d45141b56c47f26954ba65c02233daa1e75101041567674db9213fe4bf85f862",
+    "src/urban_design/syntax_engines/pst_adapter.py": "d78cfbc2baceb3f05f372352379ac0c6e6a191847f251d13fb280fe7c53e87c4",
+    "src/urban_design/syntax_engines/pst_worker.py": "392c7de2fe490aa4751e06a2ed8f770246562928d9273f4519ef33ea4877727a",
+    "config/runtimes/pstalgo-3.3.1.json": "1297c18fd2fda41d1ccc79f67119aff614bcd772cd5b5c297beadb6ee2a14c10"
+  },
+  "acceptance_thresholds": {
+    "fixture_node_count": "exact after the documented origin-segment mapping",
+    "fixture_total_depth_relative_error_max": 1e-6,
+    "fixture_choice_relative_error_max": 1e-6,
+    "M4H_800m_spearman_min": 0.99,
+    "M4H_800m_relative_error_p95_max": 0.01
+  },
+  "engines": {
+    "project": {
+      "entrypoint": "urban_design.space_syntax.calculate_segment_angular_measures",
+      "source_path": "src/urban_design/space_syntax.py",
+      "source_sha256": "d45141b56c47f26954ba65c02233daa1e75101041567674db9213fe4bf85f862",
+      "formula_version": "turner-2007-angular-segment-v1"
+    },
+    "pst": {
+      "name": "PST / Pstalgo",
+      "version": "3.3.1",
+      "runtime_manifest_path": "config/runtimes/pstalgo-3.3.1.json",
+      "runtime_manifest_sha256": "1297c18fd2fda41d1ccc79f67119aff614bcd772cd5b5c297beadb6ee2a14c10",
+      "macos_binary_path": "bin/libpstalgo.dylib",
+      "macos_binary_sha256": "a7b703581c68f2ceb070268866da0607b0aa5bc4ffef6bcf925230680c66bb26",
+      "adapter_source_path": "src/urban_design/syntax_engines/pst_adapter.py",
+      "adapter_source_sha256": "e920ae23bc59710fddb8f4e2defc925c6eeb39cced6ba8a9bacfd65a7cdb0682",
+      "worker_source_path": "src/urban_design/syntax_engines/pst_worker.py",
+      "worker_source_sha256": "3b60e35cee59b8a8ee5214258bfc4cbe6aa17e76b170d860522f219ec41a3161"
+    }
+  },
+  "method": {
+    "network_directionality": "undirected; one-way attributes are not represented by this comparison adapter",
+    "project_radius_metric": "cumulative shortest-path distance between segment midpoints; each transition adds half the current and half the next segment length",
+    "pst_radius_mode": "walking",
+    "radius_evidence": {
+      "documentation": "PST Documentation v3.3.2, sections 3-4, describes walking radius as shortest network distance and straight radius as Euclidean distance; this manual is newer than the pinned 3.3.1 runtime.",
+      "runtime_fixture": "A 200 m side closed square at a 300 m radius matched project and PST walking counts for every segment; PST straight radius reached more segments from source A.",
+      "comparison_status": "walking mode used for the primary fixture comparison; the separate fixture distinguishes it from Euclidean straight radius"
+    },
+    "angular_cost": {
+      "project": "local turn angle in radians divided by pi/2 (90 degrees equals one turn)",
+      "pst": "AngularIntegration and AngularChoice, angle_threshold=0 degrees and angle_precision=1",
+      "evidence": "PST documentation describes angular distance in degrees divided by 90; a 30-degree fixture returned one-third turn in both engines within float precision.",
+      "comparison_status": "fixture-verified; no claim about every geometry or native implementation edge case"
+    },
+    "segment_construction": {
+      "pst_pipeline": ["CreateSegmentMap(AXIAL_OR_SEGMENT)", "CreateSegmentGraph", "AngularIntegration", "AngularChoice"],
+      "explicit_unlinks": "passed to CreateSegmentMap before graph construction; crossings marked unlinked remain disconnected",
+      "parameters": {
+        "snap_m": 0.0,
+        "min_tail_m": 0.0,
+        "colinear_deviation": 1.0,
+        "extrude_m": 0.0
+      },
+      "lineage": "Every requested source line must have at least one returned segment; the adapter fails closed if coverage is missing.",
+      "topology_policy": "Default preprocessing does not snap near-but-disconnected endpoints and does not discard short dead-end tails. Explicit caller settings may change this and must be recorded with each request."
+    },
+    "raw_output_harmonization": {
+      "node_count": "PST returns the origin segment in its count on tested fixtures; compare PST node_count - 1 to the project count, which excludes the origin. Keep native PST counts in PSTResult.",
+      "total_depth": "The frozen project engine exposes only six-decimal total_depth. Compare PST native output to that reported value; do not infer unavailable unrounded project values or relax the 1e-6 threshold. The 30-degree A/B fixture errors exceed the threshold, so fixture comparison is blocked pending an approved precision-preserving method.",
+      "choice": "PST AngularChoice counts both path directions; compare PST choice / 2 to the project undirected pair count. The project engine exposes six-decimal choice; tested fixtures match within threshold. Keep native PST choices in PSTResult.",
+      "scope": "The node-count and choice mappings are bounded by the fixture evidence and the cited PST documentation; they are not a universal approval for directed or length-weighted networks. This comparison does not approve either engine for Rotterdam production outputs."
+    },
+    "normalization": {
+      "NAIN": "NC^1.2 / (TD + 2)",
+      "NACH": "ln(choice + 1) / ln(TD + 3)",
+      "inputs": "Apply the same formulas to harmonized NC, PST native TD/choice, and the project's existing six-decimal TD/choice fields. The precision limitation remains a blocker; no threshold was changed."
+    },
+    "isolated_components": "A segment with no other reachable segments has harmonized NC=0, TD=0, choice=0, NAIN=0, and NACH=0 in synthetic fixtures.",
+    "boundary_effects": "Not assessed on M4H; no regional network or clipped 800 m analysis was run."
+  },
+  "fixture_comparison": {
+    "status": "BLOCKED_PROJECT_PRECISION",
+    "test_path": "tests/test_syntax_method_comparison.py",
+    "primary_fixture_count": 7,
+    "source_line_count": 23,
+    "pst_segment_count": 23,
+    "fixture_names": [
+      "straight",
+      "t_junction",
+      "cross",
+      "turn_30_degrees",
+      "isolated_component",
+      "grade_separated_crossing",
+      "equal_angular_routes"
+    ],
+    "maximum_relative_errors": {
+      "total_depth": 1.029802291725951e-6,
+      "choice": 0.0,
+      "NAIN": 1.4711461675176153e-7,
+      "NACH": 0.0
+    },
+    "node_count": "exact for all 23 source lines after subtracting the PST origin segment",
+    "additional_diagnostic_fixtures": [
+      "closed_square_radius: distinguishes walking from straight radius",
+      "short_tail_and_endpoint_gap: confirms 0 m default tail removal and snapping preserve requested topology"
+    ],
+    "limits": "Synthetic fixtures only. The frozen project engine reports TD and choice to six decimals; the 30-degree A/B TD error is 1.029802291725951e-6, exceeding the unchanged 1e-6 threshold. Unrounded project TD is unavailable without modifying a frozen parent, so no values are inferred and no threshold is relaxed. No M4H subnetwork, rank correlation, regional edge stability, or production method acceptance has been established."
+  },
+  "source_references": [
+    {
+      "title": "PST v3.3.1 release",
+      "url": "https://github.com/SMoG-Chalmers/PST/releases/tag/v3.3.1",
+      "publisher": "SMoG-Chalmers / GitHub"
+    },
+    {
+      "title": "PST Documentation v3.3.2, published May 2026",
+      "url": "https://www.researchgate.net/publication/405276126_PSTDocumentation_v332_260513",
+      "publisher": "PST authors; documentation linked from the Chalmers SMoG PST project page",
+      "scope_note": "Version 3.3.2 documentation is not version-matched to the pinned 3.3.1 runtime. Local 3.3.1 source and runtime fixtures provide version-specific implementation evidence where noted."
+    }
+  ],
+  "not_run_or_not_approved": {
+    "geofabrik_download": false,
+    "M4H_800m_comparison": false,
+    "DatasetSnapshot_published": false,
+    "PST_or_project_engine_approved_for_production": false
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "id": "KU-HAR-055",
+  "type": "design_principle",
+  "subtopic": "工業遺產與 adaptive reuse",
+  "title_zh": "保存生產空間的尺度與構造，而不只保留外牆",
+  "title_en": "Preserve the Scale and Structure of Production Spaces, Not Only Facades",
+  "summary_zh": "工業建築的價值可能存在於大跨距、吊車梁、設備基座、屋頂採光和裝卸路徑，而不只在立面造型。Habraken 對一般建築結構與控制的分析，可幫助拆解哪些部分支撐持續適應；工業遺產研究則提醒介入本身會改寫歷史敘事。保存方案應說出哪些生產痕跡仍可讀、哪些因新用途而消失。",
+  "key_points_zh": [
+    "以構造和生產流程清單取代單一立面保存比例。",
+    "先測試不同用途對大跨空間、設備和裝卸面的需求。"
+  ],
+  "design_implications_zh": [
+    "在拆除前繪製設備與作業動線，並決定其保存、轉譯或記錄方式。"
+  ],
+  "applies_when_zh": "廠房空間仍具完整生產結構或可再使用的大尺度構造時。",
+  "not_applicable_when_zh": "建築存在嚴重安全或污染問題、且沒有可行保存替代方案時。",
+  "debates_zh": "功能延續有助保留空間特性，但保存義務可能提高改造成本；設計判斷需要公開證據和取捨。",
+  "tradition": "工業建築保存／支撐與填充理論",
+  "region": "跨地域",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": null,
+      "topic": "Adaptive reuse and industrial building typologies"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": null,
+      "topic": "Historic preservation and new use"
+    }
+  ],
+  "domain": "HAR",
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "建築結構與使用者控制研究將支撐系統和可變填充部分區分。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "跨地域",
+        "library_id": "HABRAKEN98",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "工業遺產研究把當代建築介入視為重新詮釋歷史的行為。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "跨地域",
+        "library_id": "PALMEROIGLESIAS2022",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "library_id": "HABRAKEN98",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "PALMEROIGLESIAS2022",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "version": "v2.0"
+}

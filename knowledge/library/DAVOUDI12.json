@@ -1,0 +1,51 @@
+{
+  "id": "DAVOUDI12",
+  "title": "Resilience: A Bridging Concept or a Dead End?“Reframing” Resilience: Challenges for Planning Theory and PracticeInteracting Traps: Resilience Assessment of a Pasture Management System in Northern AfghanistanUrban Resilience: What Does it Mean in Planning Practice?Resilience as a Useful Concept for Climate Change Adaptation?The Politics of Resilience for Planning: A Cautionary Note",
+  "authors": [
+    "Simin Davoudi",
+    "Keith Shaw",
+    "L. Jamila Haider",
+    "Allyson E. Quinlan",
+    "Garry D. Peterson",
+    "Cathy Wilkinson",
+    "Hartmut Fünfgeld",
+    "Darryn McEvoy",
+    "Libby Porter"
+  ],
+  "year": 2012,
+  "venue_or_publisher": "Planning Theory &amp; Practice",
+  "doi": "10.1080/14649357.2012.677124",
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "韌性批評",
+  "region": [
+    "跨地域"
+  ],
+  "method": "理論討論組文",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "韌性概念的適用與政治作用需被追問；適應能力不能遮蓋誰承受失效風險。",
+      "strength": "THEORETICAL",
+      "scope_zh": "僅限本研究或概念框架；不提供 M4H 的實測、法律效力或本卡試算門檻。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref",
+    "query": {
+      "title": "Resilience: A Bridging Concept or a Dead End?",
+      "author": "Simin Davoudi",
+      "year": 2012
+    },
+    "matched_record_id": "10.1080/14649357.2012.677124",
+    "checked_at_utc": "2026-10-08T03:40:21Z",
+    "match_notes_zh": "人工核對 API 書名、作者與出版年；縮寫、大小寫或副標題省略視為同一書目。只確認書目，不代表全文主張已審核。"
+  },
+  "limitations_zh": "本次只使用公開書目與可得摘要；沒有下載或查閱全文。書目查證不等於主張、因果或參數驗證。",
+  "critique_relationship_zh": "known_critiques 是編者指定的批評或替代閱讀，不宣稱實際互引或逐一反駁；Ratti 與 Hillier／Penn 的標題記錄確認明確對話。",
+  "metadata_licence_zh": "只保存公開 API 書目與自行摘要；未取得全文授權，未保存 API 摘要原文。精確 metadata licence 未經本任務核驗，標 UNKNOWN。"
+}

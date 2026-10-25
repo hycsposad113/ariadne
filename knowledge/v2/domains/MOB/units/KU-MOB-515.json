@@ -1,0 +1,122 @@
+{
+  "id": "KU-MOB-515",
+  "domain": "MOB",
+  "subtopic": "密度與交通能源；方法批評",
+  "type": "critique",
+  "title_zh": "Gordon、Richardson 與 Mindali：密度不是油耗曲線的唯一解釋",
+  "title_en": "Gordon, Richardson and Mindali: density does not explain the full energy curve",
+  "summary_zh": "Gordon 與 Richardson 對 Newman—Kenworthy 的城市汽油論述提出回應；Mindali 等人則重新檢視舊統計。這組文獻適合提醒模型可能受城市樣本、城市邊界和多種交通政策左右。卡片不預先判定哪一方的模型獲勝，而是將可重現的分母、樣本與變數列作檢查項。 原始跨城研究、同年回應與後續統計重估並置，讓比較對象和方法爭點可追溯。",
+  "key_points_zh": [
+    "Gordon 與 Richardson（1989）反駁 Newman 與 Kenworthy，認為油價、所得與汽車持有等因素才是主要解釋，密度管制的效益被誇大，且忽略郊區化帶來的就業分散。。",
+    "重估舊資料時，城市分類和統計單位可能改變關聯形狀。",
+    "可用本地多變量分析檢查方向是否保留，不能挑選符合預期的年份。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "library_id": "GORDON_RICHARDSON1989",
+        "claim_zh": "Gordon 與 Richardson（1989）反駁 Newman 與 Kenworthy，認為油價、所得與汽車持有等因素才是主要解釋，密度管制的效益被誇大，且忽略郊區化帶來的就業分散。",
+        "effect_or_value": null,
+        "study_design": "學術回應文章",
+        "context_region": "跨城市比較",
+        "locator": null,
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+        "limitations_zh": "只支持明示的文獻範圍與本次可查證內容；未由書目資料推定未讀數值或因果。"
+      },
+      {
+        "library_id": "MINDALE2004",
+        "claim_zh": "Mindali、Raveh 與 Salomon（2004）以多變量方法重新分析同一批城市資料，發現總密度與人均能源消耗之間沒有穩定的直接關係，結果取決於使用哪一種密度定義與控制變數。",
+        "effect_or_value": null,
+        "study_design": "統計再分析",
+        "context_region": "跨地域統計研究",
+        "locator": null,
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+        "limitations_zh": "只支持明示的文獻範圍與本次可查證內容；未由書目資料推定未讀數值或因果。"
+      },
+      {
+        "claim_zh": "Newman 與 Kenworthy 的原始城市比較是 Gordon 與 Richardson 所回應的對象；曲線分母、城市選樣和變數須回原文重算。",
+        "effect_or_value": null,
+        "study_design": "跨城市比較",
+        "context_region": "跨地域城市樣本",
+        "library_id": "NEWMANKENWORTHY1989",
+        "locator": null,
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+        "limitations_zh": "本卡只標明原始論文與批評文章的關係，未代替對兩組數據與論證的逐項核讀。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "保留原始和替代模型的全部樣本，不因曲線不合設計偏好而刪掉城市。",
+    "把城市尺度結果與基地尺度的機動性分析分層呈現。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "重現原始跨城關聯，並附上原作者的比較分母。",
+      "tradeoff_zh": "保留經典研究可比較性，但可能沿用舊資料分類限制。",
+      "library_ids": [
+        "GORDON_RICHARDSON1989",
+        "MINDALE2004"
+      ]
+    },
+    {
+      "option_zh": "用更新的城市資料並以多種模型檢查關聯穩定度。",
+      "tradeoff_zh": "更接近當代交通系統，跨年口徑維持一致較困難。",
+      "library_ids": [
+        "MINDALE2004",
+        "GORDON_RICHARDSON1989"
+      ]
+    }
+  ],
+  "applies_when_zh": "適用於將密度—油耗相關轉成可檢驗假設或政策比較。",
+  "not_applicable_when_zh": "不適用於引用某一篇論文便宣稱密度對燃油消耗毫無作用或必然起因果作用。",
+  "debates_zh": "宏觀相關和個人出行行為不是同一尺度；比較研究要同時處理樣本選取、城市邊界和同期政策。",
+  "counter_unit_ids": [
+    "KU-MOB-514"
+  ],
+  "related_unit_ids": [
+    "KU-MOB-514",
+    "KU-MOB-058",
+    "KU-MOR-035"
+  ],
+  "sources": [
+    {
+      "library_id": "GORDON_RICHARDSON1989",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "MINDALE2004",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "NEWMANKENWORTHY1989",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "城市交通統計批評與模型敏感性研究",
+  "region": "跨地域統計研究",
+  "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "密度與交通能源；方法批評：課綱對應主題"
+    }
+  ],
+  "version": "kb2-gaps-2026-10-08",
+  "check": {
+    "method_zh": "固定城市樣本後分別用原始與替代都市邊界重估密度—油耗關聯，逐項報告控制變數、係數方向及穩健性。",
+    "inputs": [
+      "1989 比較樣本及變數定義",
+      "2004 再分析方法",
+      "一致年度的替代交通資料"
+    ],
+    "logic_zh": "若重新定義人口、面積、燃油或城市界線，須標記為新的模型版本，不能拿不同口徑係數直接比較。",
+    "limitations_zh": "Crossref 書目足以確認兩篇論文與爭點，但回應文的具體統計批評和 Mindali 重估結果仍待全文核查。"
+  },
+  "case": null
+}

@@ -1,0 +1,81 @@
+{
+  "id": "KU-SYN-010",
+  "domain": "SYN",
+  "subtopic": "整合度與選擇度",
+  "type": "empirical_finding",
+  "title_zh": "整合度與選擇度代表不同問題",
+  "title_en": "Integration and choice answer different questions",
+  "summary_zh": "街網組態與移動分布的理論及案例證據，研究脈絡為英國案例；摘要未確認具體城市。接近關係與穿越路徑需分別解讀。該研究比較中全域整合度是較穩定的移動關聯指標，零售活動可能放大通過移動。限制包括研究並未給出所有城市可通用的行人預測係數。",
+  "key_points_zh": [
+    "接近關係與穿越路徑需分別解讀",
+    "限制：研究並未給出所有城市可通用的行人預測係數",
+    "效果或方向：該研究比較中全域整合度是較穩定的移動關聯指標，零售活動可能放大通過移動"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "整合度與選擇度代表不同問題｜接近關係與穿越路徑需分別解讀",
+        "effect_or_value": "該研究比較中全域整合度是較穩定的移動關聯指標，零售活動可能放大通過移動",
+        "study_design": "街網組態與移動分布的理論及案例證據",
+        "context_region": "英國案例；摘要未確認具體城市",
+        "library_id": "HILLIER93",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "整合度與選擇度代表不同問題｜步行性有多種定義與設計訴求；需明確說明量測的是距離、舒適、活動還是可及性",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "FORSYTH15",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "把兩種指標和活動吸引因素分開報告"
+  ],
+  "applies_when_zh": "若本地觀察單位與英國案例；摘要未確認具體城市的研究脈絡可對照，可用「接近關係與穿越路徑需分別解讀」作為整合度與選擇度的比較線索。",
+  "not_applicable_when_zh": "這項英國案例；摘要未確認具體城市的研究結果不能單獨證明因果或預測其他城市的街段；原研究研究並未給出所有城市可通用的行人預測係數。",
+  "debates_zh": "關聯能否外推；研究並未給出所有城市可通用的行人預測係數；檢視「整合度與選擇度代表不同問題」的研究解讀時，還需判斷「限制：研究並未給出所有城市可通用的行人預測係數」會如何改變方案結論。",
+  "sources": [
+    {
+      "library_id": "HILLIER93",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "FORSYTH15",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "空間語法中心性指標",
+  "region": "英國案例；摘要未確認具體城市",
+  "curriculum_refs": [
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.330J Theory of City Form",
+      "topic": "整合度與選擇度：課綱對應主題"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Critical Debates in Urban Design",
+      "topic": "整合度與選擇度：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-SYN-009",
+    "KU-SYN-011",
+    "KU-SYN-012",
+    "KU-SYN-013",
+    "KU-SYN-014",
+    "KU-SYN-015",
+    "KU-SYN-016"
+  ]
+}

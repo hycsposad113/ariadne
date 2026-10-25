@@ -1,0 +1,96 @@
+{
+  "domain": "PUB",
+  "topic_to_units": {
+    "廣場尺度與圍合": [
+      "KU-PUB-001",
+      "KU-PUB-002",
+      "KU-PUB-003",
+      "KU-PUB-004",
+      "KU-PUB-005",
+      "KU-PUB-006",
+      "KU-PUB-007",
+      "KU-PUB-008"
+    ],
+    "邊緣效應": [
+      "KU-PUB-009",
+      "KU-PUB-010",
+      "KU-PUB-011",
+      "KU-PUB-012",
+      "KU-PUB-013",
+      "KU-PUB-014",
+      "KU-PUB-015",
+      "KU-PUB-016"
+    ],
+    "座位與停留": [
+      "KU-PUB-017",
+      "KU-PUB-018",
+      "KU-PUB-019",
+      "KU-PUB-020",
+      "KU-PUB-021",
+      "KU-PUB-022",
+      "KU-PUB-023",
+      "KU-PUB-024",
+      "KU-PUB-025",
+      "KU-PUB-026"
+    ],
+    "活躍立面": [
+      "KU-PUB-027",
+      "KU-PUB-028",
+      "KU-PUB-029",
+      "KU-PUB-030",
+      "KU-PUB-031",
+      "KU-PUB-032",
+      "KU-PUB-033",
+      "KU-PUB-034"
+    ],
+    "安全：CPTED 與批評": [
+      "KU-PUB-035",
+      "KU-PUB-036",
+      "KU-PUB-037",
+      "KU-PUB-038",
+      "KU-PUB-039",
+      "KU-PUB-040",
+      "KU-PUB-041",
+      "KU-PUB-042"
+    ],
+    "公共空間私有化與管理": [
+      "KU-PUB-043",
+      "KU-PUB-044",
+      "KU-PUB-045",
+      "KU-PUB-046",
+      "KU-PUB-047",
+      "KU-PUB-048",
+      "KU-PUB-049",
+      "KU-PUB-050",
+      "KU-PUB-051"
+    ],
+    "包容、性別與可用性": [
+      "KU-PUB-052",
+      "KU-PUB-053",
+      "KU-PUB-054",
+      "KU-PUB-055",
+      "KU-PUB-056",
+      "KU-PUB-057",
+      "KU-PUB-058"
+    ],
+    "夜間經濟": [
+      "KU-PUB-059",
+      "KU-PUB-060",
+      "KU-PUB-061",
+      "KU-PUB-062",
+      "KU-PUB-063",
+      "KU-PUB-064"
+    ]
+  },
+  "topic_counts": {
+    "廣場尺度與圍合": 8,
+    "邊緣效應": 8,
+    "座位與停留": 10,
+    "活躍立面": 8,
+    "安全：CPTED 與批評": 8,
+    "公共空間私有化與管理": 9,
+    "包容、性別與可用性": 7,
+    "夜間經濟": 6
+  },
+  "generated_at_utc": "2026-10-08T10:15:45Z"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "J11E-NETWORK-CLEANUP-DRAFT",
+  "status": "DRAFT",
+  "provenance": "ASSUMED_COMMANDER",
+  "scope_authority": "Claude commander / Founder J11e assignment 2026-10-08; offline copy-only, not activated",
+  "parameters": {
+    "rule_card_id": "J11E-NETWORK-CLEANUP-DRAFT",
+    "snap_tolerance_m": 3,
+    "minimum_segment_m": 3,
+    "duplicate_distance_m": 2,
+    "minimum_turn_deg": 30,
+    "projection_distance_m": 25,
+    "block_min_m": 40,
+    "block_max_m": 120,
+    "subdivision_spacing_m": 100,
+    "max_iterations": 128
+  },
+  "iteration_cap_rationale": "Bounded deterministic repair; residual violations are recorded, never accepted"
+}

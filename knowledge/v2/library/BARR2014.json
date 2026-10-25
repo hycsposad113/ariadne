@@ -1,0 +1,44 @@
+{
+  "id": "BARR2014",
+  "title": "The floor area ratio gradient: New York City, 1890–2009",
+  "authors": [
+    "Jason Barr",
+    "Jeffrey P. Cohen"
+  ],
+  "year": 2014,
+  "venue_or_publisher": "Regional Science and Urban Economics",
+  "doi": "10.1016/j.regsciurbeco.2014.03.004",
+  "tradition": "城市經濟與歷史密度梯度",
+  "region": [
+    "美國紐約市"
+  ],
+  "method": "歷史城市空間與 FAR 梯度分析",
+  "claim": "書目確認研究紐約市 1890–2009 年的 FAR 梯度；此範圍不是分區法定 FAR 表。",
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "ACADEMIC_PAPER",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "書目確認研究紐約市 1890–2009 年的 FAR 梯度；此範圍不是分區法定 FAR 表。",
+      "strength": "THEORETICAL",
+      "scope_zh": "僅核對 Crossref 書目欄位；本任務未下載全文，也未把書目主題當成精確法規表或研究結果。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref",
+    "query": {
+      "title": "The floor area ratio gradient: New York City, 1890–2009",
+      "author": "Jason Barr",
+      "year": 2014
+    },
+    "matched_record_id": "10.1016/j.regsciurbeco.2014.03.004",
+    "checked_at_utc": "2026-10-08T09:43:44Z",
+    "match_notes_zh": "直接 Crossref DOI 記錄核對書名、作者與出版年；只確認書目。"
+  },
+  "limitations_zh": "僅保存公開書目欄位與自行撰寫的範圍說明，沒有保存摘要或全文。",
+  "metadata_licence_zh": "只保存公開書目欄位和自行撰寫的來源說明；本任務未判定資料服務授權細節。"
+}

@@ -1,0 +1,107 @@
+{
+  "id": "KU-MOR-010",
+  "domain": "MOR",
+  "subtopic": "Conzen 城鎮平面分析",
+  "type": "typology",
+  "title_zh": "Conzen 城鎮平面分析｜類型取捨",
+  "title_en": "Conzenian town-plan analysis — Typology and trade-offs",
+  "summary_zh": "Conzen 與 Caniggia 傳統以不同概念閱讀城市平面，分析時應先說明採用的尺度和形態單元。 空間資本補充路網中心性與地塊、用途的關係；核心區、擴張帶和邊緣帶也可能有不同更新節奏。 歷史圖資不足時，不宜推斷地塊年代或社會分區。",
+  "key_points_zh": [
+    "核心區、擴張區與邊緣帶可呈現不同的形態慣性和更新節奏。",
+    "適用於歷史城鎮、更新地和不同建設階段的比較。",
+    "限制：欠缺可靠歷史圖資時，不應推定地塊年代或演變順序。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "回顧指出地理學與建築學形成不同形態分析路徑，Conzen 與 Caniggia 傳統各有概念工具。",
+        "library_id": "KRISTJANSDOTTIR2019",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "跨地域學術傳統",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "以空間資本把路網關係與更廣的都市形態聯讀；不能只看中心性而忽略地塊與用途。",
+        "library_id": "MARCUS10",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "瑞典",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "先辨認形態單元，再描述各單元的形成階段及變化程度。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "先辨認形態單元，再描述各單元的形成階段及變化程度。",
+      "tradeoff_zh": "「Conzen 城鎮平面分析｜類型取捨」採用「先辨認形態單元，再描述各單元的形成階段及變化程度」時，得失要沿著回顧指出地理學與建築學形成不同形態分析路徑，Conzen 與 Caniggia 傳統各有概念工具檢查；形態分區不是社會分區的替代品；平面圖本身也無法解釋完整因果。",
+      "library_ids": [
+        "KRISTJANSDOTTIR2019",
+        "MARCUS10"
+      ]
+    },
+    {
+      "option_zh": "在「Conzen 城鎮平面分析｜類型取捨」的來源情境裡，核心區、擴張區與邊緣帶可呈現不同的形態慣性和更新節奏；落到設計時還要按回顧指出地理學與建築學形成不同形態分析路徑，Conzen 與 Caniggia 傳統各有概念工具調整。",
+      "tradeoff_zh": "「Conzen 城鎮平面分析｜類型取捨」的主要代價不是抽象的建造成本，而是形態分區不是社會分區的替代品；平面圖本身也無法解釋完整因果；因此先以回顧指出地理學與建築學形成不同形態分析路徑，Conzen 與 Caniggia 傳統各有概念工具作方案比較條件。",
+      "library_ids": [
+        "KRISTJANSDOTTIR2019",
+        "MARCUS10"
+      ]
+    }
+  ],
+  "applies_when_zh": "適用於歷史城鎮、更新地和不同建設階段的比較。",
+  "not_applicable_when_zh": "欠缺可靠歷史圖資時，不應推定地塊年代或演變順序。",
+  "debates_zh": "形態分區不是社會分區的替代品；平面圖本身也無法解釋完整因果。",
+  "sources": [
+    {
+      "library_id": "KRISTJANSDOTTIR2019",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "MARCUS10",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "跨學科城市形態史；空間資本",
+  "region": "跨地域學術傳統；瑞典",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "Conzen 城鎮平面分析"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "Conzen 城鎮平面分析"
+    },
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.330J Theory of City Form",
+      "topic": "Conzen 城鎮平面分析"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban form and density",
+      "topic": "Conzen 城鎮平面分析"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-MOR-009",
+    "KU-MOR-011",
+    "KU-MOR-012"
+  ],
+  "counter_unit_ids": [
+    "KU-MOR-013"
+  ]
+}

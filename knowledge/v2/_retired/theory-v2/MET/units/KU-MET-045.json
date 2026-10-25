@@ -1,0 +1,82 @@
+{
+  "id": "KU-MET-045",
+  "domain": "MET",
+  "subtopic": "繪圖作為思考工具",
+  "type": "method",
+  "title_zh": "繪圖思考：疊圖提問",
+  "title_en": "Drawing as a tool for thinking — method unit 045",
+  "summary_zh": "在 McHarg 式疊圖中，先把自然條件和土地使用分層，再將重合區域標成需現地查核的問題。圖面必須註記比例尺、年份和分類邊界，否則重合可能只是資料解析度造成。疊圖不會自行決定哪些使用應優先。",
+  "key_points_zh": [
+    "在 McHarg 式疊圖中，先把自然條件和土地使用分層，再將重合區域標成需現地查核的問題。",
+    "圖面必須註記比例尺、年份和分類邊界，否則重合可能只是資料解析度造成。",
+    "疊圖不會自行決定哪些使用應優先。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "【BIBLIOGRAPHIC_SCOPE_ONLY】就「繪圖思考：疊圖提問」而言，「City Planning According to Artistic Principles」提供歐洲城市藝術／歷史形態的比較坐標；此處僅使用其已標明的書目／摘要範圍，不延伸為未核對的效果或因果。",
+        "effect_or_value": null,
+        "study_design": "理論／城市藝術",
+        "context_region": "奧地利；歐洲",
+        "library_id": "SITTE1965",
+        "locator": null
+      },
+      {
+        "claim_zh": "【BIBLIOGRAPHIC_SCOPE_ONLY】就「繪圖思考：疊圖提問」而言，「Townscape」提供城景／序列視覺的比較坐標；此處僅使用其已標明的書目／摘要範圍，不延伸為未核對的效果或因果。",
+        "effect_or_value": null,
+        "study_design": "理論／視覺設計",
+        "context_region": "英國；歐洲",
+        "library_id": "CULLEN1961",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "把自然和土地使用圖層的重合轉為現地可查問題，並記錄資料比例尺及分類依據。"
+  ],
+  "design_options": [],
+  "applies_when_zh": "當問題包含「繪圖思考：疊圖提問」且需比較需要用圖面比較空間策略、暴露分析假設或共同討論設計時時使用。",
+  "not_applicable_when_zh": "若研究缺少對應尺度或群體資料，不以「繪圖思考：疊圖提問」取代圖面未標來源、比例尺、版本或不確定性，卻被當成量測結果時。",
+  "debates_zh": "「繪圖思考：疊圖提問」的爭點在於圖面能見內容不等於資料完整；視覺強調可能掩蓋分類、缺漏或不確定性；街道案例比較與公共空間文化多樣性的研究對象不同，需保留差異而不能合併成單一規則。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "SITTE1965",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "CULLEN1961",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "設計表現／視覺推理",
+  "region": "美國；跨地域；荷蘭",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Methods of Analysis & Imagination",
+      "topic": "繪圖思考：疊圖提問 — 繪圖作為思考工具"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "繪圖思考：疊圖提問 — 繪圖作為思考工具"
+    },
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.301J",
+      "topic": "繪圖思考：疊圖提問 — 繪圖作為思考工具"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "繪圖思考：疊圖提問 — 繪圖作為思考工具"
+    }
+  ],
+  "version": "2.0.0"
+}

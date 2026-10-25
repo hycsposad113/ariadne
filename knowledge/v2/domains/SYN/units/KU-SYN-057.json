@@ -1,0 +1,81 @@
+{
+  "id": "KU-SYN-057",
+  "domain": "SYN",
+  "subtopic": "網路分析在設計中的使用與限制",
+  "type": "empirical_finding",
+  "title_zh": "組態與行人量的弱關聯案例",
+  "title_en": "A weak configuration-only relationship",
+  "summary_zh": "Mymensingh 多街段行人計數、土地使用和 Syntax 指標比較，研究脈絡為Mymensingh，孟加拉。應用模型需納入用途資料和本地觀察。組態值和行人量的相關偏弱，商業土地使用更能解釋差異。限制包括單一歷史城市研究且摘要未報係數。",
+  "key_points_zh": [
+    "應用模型需納入用途資料和本地觀察",
+    "限制：單一歷史城市研究且摘要未報係數",
+    "效果或方向：組態值和行人量的相關偏弱，商業土地使用更能解釋差異"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "組態與行人量的弱關聯案例｜應用模型需納入用途資料和本地觀察",
+        "effect_or_value": "組態值和行人量的相關偏弱，商業土地使用更能解釋差異",
+        "study_design": "Mymensingh 多街段行人計數、土地使用和 Syntax 指標比較",
+        "context_region": "Mymensingh，孟加拉",
+        "library_id": "AZIZ2018",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "組態與行人量的弱關聯案例｜非機動可及性必須說明網路、目的地與尺度，替代量測方式需保持定義可比較",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "IACONO10",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "不要把 Syntax 相對值稱為行人數預測"
+  ],
+  "applies_when_zh": "若本地觀察單位與Mymensingh，孟加拉的研究脈絡可對照，可用「應用模型需納入用途資料和本地觀察」作為網路分析在設計中的使用與限制的比較線索。",
+  "not_applicable_when_zh": "這項Mymensingh，孟加拉的研究結果不能單獨證明因果或預測其他城市的街段；原研究單一歷史城市研究且摘要未報係數。",
+  "debates_zh": "關聯能否外推；單一歷史城市研究且摘要未報係數；檢視「組態與行人量的弱關聯案例」的研究解讀時，還需判斷「限制：單一歷史城市研究且摘要未報係數」會如何改變方案結論。",
+  "sources": [
+    {
+      "library_id": "AZIZ2018",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "IACONO10",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "證據導向都市設計與網路分析",
+  "region": "Mymensingh，孟加拉",
+  "curriculum_refs": [
+    {
+      "school": "UCL Bartlett",
+      "course": "Critical Debates in Urban Design",
+      "topic": "網路分析在設計中的使用與限制：課綱對應主題"
+    },
+    {
+      "school": "TU Delft",
+      "course": "Methods of Analysis & Imagination",
+      "topic": "網路分析在設計中的使用與限制：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-SYN-058",
+    "KU-SYN-059",
+    "KU-SYN-060",
+    "KU-SYN-061",
+    "KU-SYN-062",
+    "KU-SYN-063",
+    "KU-SYN-064"
+  ]
+}

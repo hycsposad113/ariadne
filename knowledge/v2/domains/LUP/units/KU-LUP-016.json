@@ -1,0 +1,98 @@
+{
+  "id": "KU-LUP-016",
+  "domain": "LUP",
+  "subtopic": "相容與衝突：工業與住宅介面",
+  "type": "empirical_finding",
+  "title_zh": "生產與住宅相鄰須管理共享空間及干擾",
+  "title_en": "Productive-residential mix in Brussels",
+  "summary_zh": "案例偏向公共開發機構，不能推估所有私有開發的結果。 把裝卸、噪音來源和共用空間畫入同一張介面圖。 研究設計：公共地產案例比較與政策分析；地區：布魯塞爾，比利時。",
+  "key_points_zh": [
+    "布魯塞爾三個公共開發案例顯示，空間安排、物流和干擾緩解會決定生產與住宅用途的連結方式。",
+    "研究設計：公共地產案例比較與政策分析；地區：布魯塞爾，比利時",
+    "限制：案例偏向公共開發機構，不能推估所有私有開發的結果。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "布魯塞爾三個公共開發案例顯示，空間安排、物流和干擾緩解會決定生產與住宅用途的連結方式。",
+        "effect_or_value": "三個開發案例；不同配置採用共用、重疊或鄰里協調",
+        "study_design": "公共地產案例比較與政策分析",
+        "context_region": "布魯塞爾，比利時",
+        "library_id": "RYCKEWAERT2021",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "把裝卸、噪音來源和共用空間畫入同一張介面圖。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "把裝卸、噪音來源和共用空間畫入同一張介面圖。",
+      "tradeoff_zh": "「生產與住宅相鄰須管理共享空間及干擾」的主要代價不是抽象的建造成本，而是案例偏向公共開發機構，不能推估所有私有開發的結果；因此先以布魯塞爾三個公共開發案例顯示，空間安排、物流和干擾緩解會決定生產與住宅用途的連結方式作方案比較條件。",
+      "library_ids": [
+        "RYCKEWAERT2021",
+        "ROY05"
+      ]
+    },
+    {
+      "option_zh": "「生產與住宅相鄰須管理共享空間及干擾」可把取向落在緩衝、垂直分層、共享裝卸和時間管理是不同的介面策略，但需連同布魯塞爾三個公共開發案例顯示，空間安排、物流和干擾緩解會決定生產與住宅用途的連結方式決定適用方式。",
+      "tradeoff_zh": "「生產與住宅相鄰須管理共享空間及干擾」的主要代價不是抽象的建造成本，而是案例偏向公共開發機構，不能推估所有私有開發的結果；因此先以布魯塞爾三個公共開發案例顯示，空間安排、物流和干擾緩解會決定生產與住宅用途的連結方式作方案比較條件。",
+      "library_ids": [
+        "RYCKEWAERT2021",
+        "ROY05"
+      ]
+    }
+  ],
+  "applies_when_zh": "用於與布魯塞爾，比利時研究情境可比、且量測定義相近的分析。",
+  "not_applicable_when_zh": "案例偏向公共開發機構，不能推估所有私有開發的結果。",
+  "debates_zh": "案例偏向公共開發機構，不能推估所有私有開發的結果。",
+  "sources": [
+    {
+      "library_id": "RYCKEWAERT2021",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "ROY05",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "生產性城市與混合用途；非正式都市化",
+  "region": "布魯塞爾，比利時；全球南方",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Planning Complex Cities",
+      "topic": "相容與衝突：工業與住宅介面"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Cities by Design",
+      "topic": "相容與衝突：工業與住宅介面"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "相容與衝突：工業與住宅介面"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Sustainable Futures by Design",
+      "topic": "相容與衝突：工業與住宅介面"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-LUP-008",
+    "KU-LUP-009",
+    "KU-LUP-010"
+  ],
+  "counter_unit_ids": [
+    "KU-LUP-012"
+  ]
+}

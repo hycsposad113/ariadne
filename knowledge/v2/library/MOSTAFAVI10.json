@@ -1,0 +1,41 @@
+{
+  "id": "MOSTAFAVI10",
+  "title": "Ecological Urbanism",
+  "authors": [
+    "Mohsen Mostafavi",
+    "Gareth Doherty"
+  ],
+  "year": 2011,
+  "venue_or_publisher": "Lars Müller Publishers",
+  "doi": null,
+  "isbn": "9783037781890",
+  "kind": "ACADEMIC_BOOK",
+  "tradition": "生態都市主義",
+  "region": [
+    "跨地域"
+  ],
+  "method": "編輯論文集；未核讀全文",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "公開書目記錄確認本書的題名、作者／編者與版次；此記錄僅作書目識別，不推定全書論證。",
+      "strength": "THEORETICAL",
+      "scope_zh": "書目範圍定位；不提供本基地法規、實測值或通用設計門檻。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Open Library",
+    "query": {
+      "title": "Ecological Urbanism",
+      "author": "Mohsen Mostafavi; Gareth Doherty",
+      "year": 2011
+    },
+    "matched_record_id": "/books/OL27132249M",
+    "checked_at_utc": "2026-10-08T16:12:32Z",
+    "match_notes_zh": "Open Library edition 記錄列 Mohsen Mostafavi 編、Gareth Doherty 協編、2011 年、Lars Müller Publishers 與 ISBN 9783037781890；修正原候選 2010 年份。只確認書目身份。"
+  },
+  "limitations_zh": "只核對 Open Library 2011 edition 書目，未讀全文；書目不代表生態、社會或文化性能已被驗證。",
+  "metadata_licence_zh": "公開書目 metadata；授權未核對 UNKNOWN。"
+}

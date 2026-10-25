@@ -1,0 +1,74 @@
+{
+  "id": "KU-HAR-032",
+  "type": "value_range",
+  "subtopic": "港區轉型案例",
+  "title_zh": "Västra Hamnen 是分階段轉型的 187 公頃港工業區",
+  "title_en": "Västra Hamnen Is a 187-Hectare Phased Transformation",
+  "summary_zh": "Malmö 市政府把 Västra Hamnen 全區公布為約 187 公頃，並指出 Bo01 是 2001 年啟動的第一個開發階段。這個數值描述的是整體城市發展區，不等於 Bo01 展覽區或單一地塊面積。案例對照可用來觀察第一階段示範和後續長期擴建的尺度差異。",
+  "values": [
+    {
+      "name": "Västra Hamnen 官方總範圍",
+      "range": "約187",
+      "unit": "公頃",
+      "context": "用途：以「Västra Hamnen 官方總範圍」作為來源情境參照；Malmö 港工業區轉型的市府規劃範圍，與 Bo01 子區不同；不是本基地法規；來源所列地域：瑞典馬爾默。",
+      "library_id": "MALMO_VASTRA_HAMNEN"
+    }
+  ],
+  "key_points_zh": [
+    "全區數字不應貼到 Bo01 子區。",
+    "分開記錄首期展覽、已建區和後續規劃範圍。"
+  ],
+  "design_implications_zh": [
+    "將 Bo01 和整個 Västra Hamnen 的邊界分層繪製後再談密度。"
+  ],
+  "applies_when_zh": "比較港區全區開發與示範首期時。",
+  "not_applicable_when_zh": "需要 Bo01 單一街區的精確面積或使用量時。",
+  "debates_zh": "市府頁面是規劃資訊，不能證明整體轉型已達成所宣稱的永續或社會目標。",
+  "sources": [
+    {
+      "library_id": "MALMO_VASTRA_HAMNEN",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "JOHANSSON2020MALMO",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "tradition": "北歐永續街區與港區再生",
+  "region": "瑞典馬爾默",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": null,
+      "topic": "Waterfront regeneration and sustainable districts"
+    }
+  ],
+  "domain": "HAR",
+  "evidence": {
+    "strength": "CASE_EVIDENCE",
+    "findings": [
+      {
+        "claim_zh": "Malmö 市府頁面記載整體範圍約187公頃，Bo01於2001年舉行。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "瑞典馬爾默",
+        "library_id": "MALMO_VASTRA_HAMNEN",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "學術研究討論Malmö沿岸開發的風舒適與日照；題名不能證明其研究邊界等於整個Västra Hamnen。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "瑞典馬爾默",
+        "library_id": "JOHANSSON2020MALMO",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "source_count_flag": "MULTI_SOURCE",
+  "version": "v2.0"
+}

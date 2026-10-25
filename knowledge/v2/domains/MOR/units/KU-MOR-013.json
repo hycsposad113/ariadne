@@ -1,0 +1,106 @@
+{
+  "id": "KU-MOR-013",
+  "domain": "MOR",
+  "subtopic": "Conzen 城鎮平面分析",
+  "type": "critique",
+  "title_zh": "Conzen 城鎮平面分析｜批評與反例",
+  "title_en": "Conzenian town-plan analysis — Critique and counterexample",
+  "summary_zh": "Conzen 以 Alnwick 說明街道、地塊和建築地帶所承載的歷史層次；三者未必同時形成或更新。 Moudon 回顧形態學的不同學科傳統，提醒分析者交代使用哪一套概念和尺度。 沒有可靠歷史圖資時，不能推定基地的演變順序。",
+  "key_points_zh": [
+    "讀「Conzen 城鎮平面分析｜批評與反例」時，形態分區不是社會分區的替代品；平面圖本身也無法解釋完整因果；同時把都市形態研究具有多種歷史與方法傳統；建築、地塊及街道應共同閱讀列為核對條件。",
+    "讀「Conzen 城鎮平面分析｜批評與反例」時，適用於歷史城鎮、更新地和不同建設階段的比較；同時把都市形態研究具有多種歷史與方法傳統；建築、地塊及街道應共同閱讀列為核對條件。",
+    "讀「Conzen 城鎮平面分析｜批評與反例」時，限制：欠缺可靠歷史圖資時，不應推定地塊年代或演變順序；同時把都市形態研究具有多種歷史與方法傳統；建築、地塊及街道應共同閱讀列為核對條件。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "Conzen 的 Alnwick 城鎮平面研究辨認街道系統、地塊系統與建築地帶的歷史層次；缺少歷史圖資時不能把這套閱讀直接套成基地年代判定。",
+        "library_id": "CONZEN60",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "英國",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "本條依公開摘要或書目範圍整理；未據此推定本基地法規、普遍效果或未核對的數值。"
+      },
+      {
+        "claim_zh": "Moudon 將城市形態學描述為跨學科領域，並回顧其歷史與方法傳統；這提醒讀者交代研究採用的形態概念與尺度。",
+        "library_id": "MOUDON97",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "跨地域",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "本條依公開摘要或書目範圍整理；未據此推定本基地法規、普遍效果或未核對的數值。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "落實「Conzen 城鎮平面分析｜批評與反例」時可先核心區、擴張區與邊緣帶可呈現不同的形態慣性和更新節奏，再用都市形態研究具有多種歷史與方法傳統；建築、地塊及街道應共同閱讀核對方案的空間後果。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "在「Conzen 城鎮平面分析｜批評與反例」的來源情境裡，先辨認形態單元，再描述各單元的形成階段及變化程度；落到設計時還要按都市形態研究具有多種歷史與方法傳統；建築、地塊及街道應共同閱讀調整。",
+      "tradeoff_zh": "「Conzen 城鎮平面分析｜批評與反例」採用「在「Conzen 城鎮平面分析｜批評與反例」的來源情境裡，先辨認形態單元，再描述各單元的形成階段及變化程度；落到設計時還要按都市形態研究具有多種歷史與方法傳統；建築、地塊及街道應共同閱讀調整」時，得失要沿著都市形態研究具有多種歷史與方法傳統；建築、地塊及街道應共同閱讀檢查；設計者可依地方目標選擇，也可提出反例；這是待驗證的主張，不是普遍法規。",
+      "library_ids": [
+        "CONZEN60",
+        "MOUDON97"
+      ]
+    },
+    {
+      "option_zh": "「Conzen 城鎮平面分析｜批評與反例」可把取向落在核心區、擴張區與邊緣帶可呈現不同的形態慣性和更新節奏，但需連同都市形態研究具有多種歷史與方法傳統；建築、地塊及街道應共同閱讀決定適用方式。",
+      "tradeoff_zh": "「Conzen 城鎮平面分析｜批評與反例」的主要代價不是抽象的建造成本，而是設計者可依地方目標選擇，也可提出反例；這是待驗證的主張，不是普遍法規；因此先以都市形態研究具有多種歷史與方法傳統；建築、地塊及街道應共同閱讀作方案比較條件。",
+      "library_ids": [
+        "CONZEN60",
+        "MOUDON97"
+      ]
+    }
+  ],
+  "applies_when_zh": "「Conzen 城鎮平面分析｜批評與反例」可在適用於歷史城鎮、更新地和不同建設階段的比較時使用，前提是都市形態研究具有多種歷史與方法傳統；建築、地塊及街道應共同閱讀與來源情境相符。",
+  "not_applicable_when_zh": "若都市形態研究具有多種歷史與方法傳統；建築、地塊及街道應共同閱讀不成立，就不能把「Conzen 城鎮平面分析｜批評與反例」的結論延伸到其他情況；欠缺可靠歷史圖資時，不應推定地塊年代或演變順序。",
+  "debates_zh": "設計者可依地方目標選擇，也可提出反例；這是待驗證的主張，不是普遍法規。",
+  "sources": [
+    {
+      "library_id": "CONZEN60",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "MOUDON97",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "英國城鎮平面學；跨學派形態學",
+  "region": "英國；跨地域",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "Conzen 城鎮平面分析"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "Conzen 城鎮平面分析"
+    },
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.330J Theory of City Form",
+      "topic": "Conzen 城鎮平面分析"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban form and density",
+      "topic": "Conzen 城鎮平面分析"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-MOR-009",
+    "KU-MOR-010",
+    "KU-MOR-011"
+  ]
+}

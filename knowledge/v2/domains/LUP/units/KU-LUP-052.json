@@ -1,0 +1,99 @@
+{
+  "id": "KU-LUP-052",
+  "domain": "LUP",
+  "subtopic": "15 分鐘城市與可及性",
+  "type": "method",
+  "title_zh": "交通節點—場所模型的互補診斷法",
+  "title_en": "Node-place model",
+  "summary_zh": "Node-place 架構把交通節點的連結能力和站區的場所活動分開診斷。 交通便利但土地使用與服務弱的地方，和活動密集卻換乘不便的地方，應採不同改善方案。 模型分類不能替代本地乘客、用地和步行路徑資料。",
+  "key_points_zh": [
+    "節點—場所模型把公共運輸連結能力和周邊土地使用／活動並列，作為分析架構。",
+    "在近鄰服務分析中分列交通連結、用途活動與實際步行路徑。",
+    "限制：來源書目未核到摘要或量化結果，不推論模型效果量或最佳服務半徑。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "Bertolini 的 node-place 模型分別比較交通節點能力與站區場所活動，可辨認交通便利但周邊功能薄弱的站區。",
+        "library_id": "BERTOLINI99",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "荷蘭",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "雪梨車站資料把步行範圍內的工作與居民機會，和搭乘公共運輸可到達的遠距機會分開計算，提供 node-place 分析的另一個站點層級實證案例。",
+        "effect_or_value": null,
+        "study_design": "車站乘客量與在地／區域可及性的實證分析",
+        "context_region": "澳洲雪梨",
+        "library_id": "WU2023",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW",
+        "limitations_zh": "相關性來自雪梨軌道系統，需用本地車站與路徑資料重做診斷。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "在近鄰服務分析中分列交通連結、用途活動與實際步行路徑。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "在「交通節點—場所模型的互補診斷法」的來源情境裡，在近鄰服務分析中分列交通連結、用途活動與實際步行路徑；落到設計時還要按研究提醒 15 分鐘城市須作為複合治理工具處理，僅把它當固定幾何模板會掩蓋地方政策差異；「交通節點—場所模型的互補診斷法」還須對照節點—場所模型把公共運輸連結能力和周邊土地使用／活動並列，作為分析架構，才能把研究發現轉成有邊界的設計判斷調整。",
+      "tradeoff_zh": "可使分析更完整，但需要一致的資料範圍和額外管理。",
+      "library_ids": [
+        "BERTOLINI99"
+      ]
+    }
+  ],
+  "applies_when_zh": "在近鄰服務分析中分列交通連結、用途活動與實際步行路徑。",
+  "not_applicable_when_zh": "來源書目未核到摘要或量化結果，不推論模型效果量或最佳服務半徑。",
+  "debates_zh": "交通可及性與地方活動是互補視角，但兩者並列不會自動證明公共運輸帶動土地發展。",
+  "sources": [
+    {
+      "library_id": "BERTOLINI99",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "WU2023",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "節點與場所；鄰里規劃與近鄰服務批判",
+  "region": "荷蘭；米蘭，義大利",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Planning Complex Cities",
+      "topic": "15 分鐘城市與可及性"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Cities by Design",
+      "topic": "15 分鐘城市與可及性"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "15 分鐘城市與可及性"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Sustainable Futures by Design",
+      "topic": "15 分鐘城市與可及性"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-LUP-044",
+    "KU-LUP-045",
+    "KU-LUP-046"
+  ],
+  "counter_unit_ids": [
+    "KU-LUP-048"
+  ]
+}

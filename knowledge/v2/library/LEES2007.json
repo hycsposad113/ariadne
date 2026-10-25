@@ -1,0 +1,50 @@
+{
+  "id": "LEES2007",
+  "title": "Gentrification",
+  "authors": [
+    "Loretta Lees",
+    "Tom Slater",
+    "Elvin Wyly"
+  ],
+  "year": 2007,
+  "venue_or_publisher": "Routledge",
+  "doi": null,
+  "isbn": "9780415950367",
+  "openalex_id": null,
+  "kind": "ACADEMIC_BOOK",
+  "tradition": "critical gentrification studies",
+  "region": [
+    "United Kingdom",
+    "United States",
+    "Global South"
+  ],
+  "method": "comparative literature synthesis",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "書目記錄確認 Lees、Slater 與 Wyly 的仕紳化綜述著作；其概念範圍可用於比較市場、國家政策與地方尺度的解釋。",
+      "strength": "THEORETICAL",
+      "scope_zh": "書目核對不等同逐章核讀，也不支持把不同國家的仕紳化機制視為相同。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [
+    "ATKINSON2004",
+    "ROY05"
+  ],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Open Library",
+    "query": {
+      "title": "Gentrification",
+      "author": "Loretta Lees",
+      "year": 2007
+    },
+    "matched_record_id": "/works/OL8105216W",
+    "checked_at_utc": "2026-10-08T09:43:36Z",
+    "match_notes_zh": "Open Library 搜尋結果列出三位共同作者及 2007 首版年份，匹配書名。"
+  },
+  "limitations_zh": "未下載全文；研究場域、政策制度與被迫遷移指標需按個案分開判讀。",
+  "critique_relationship_zh": "Atkinson 與 Roy 分別提供影響證據及非正式都市化視角，作為比較閱讀，不宣稱直接互引。",
+  "metadata_licence_zh": "保存書目欄位與自撰摘要；未保存全文或 API 摘要。"
+}

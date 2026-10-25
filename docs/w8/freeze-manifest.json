@@ -1,0 +1,3555 @@
+{
+  "schema_version": "w8-freeze-manifest-v1",
+  "created_at": "2026-10-15T17:44:44.846427+00:00",
+  "git": {
+    "head_commit": "caa33f4073b7825f52017f7bc8b4f55c401b7f17",
+    "branch": "main",
+    "status_summary": {
+      "modified_count": 1,
+      "untracked_count": 50,
+      "staged_count": 0,
+      "total_changes": 51,
+      "is_clean": false
+    }
+  },
+  "environment": {
+    "python_version": "3.12.13",
+    "python_executable": "/Users/jackhsieh/.pyenv/versions/3.12.13/bin/python3.12",
+    "node_version": "v22.22.3",
+    "pst_version": "3.3.1",
+    "radiance_version": "RADIANCE 6.0.2 2026-02-02 LBNL (6.0.c1700d56cc)",
+    "qgis_path": "/Applications/QGIS-LTR.app",
+    "qgis_exists": true,
+    "qgis_version": "3.40.5-Bratislava",
+    "pip_freeze_sha256": "2433637bb7d6a2a38ff0bf92a43b5cdf521a15b454ba2e2cf74fbcc205df92af",
+    "pip_freeze_packages_count": 64,
+    "pip_freeze_packages": [
+      "PyJWT==2.14.0",
+      "Pygments==2.21.0",
+      "annotated-doc==0.0.5",
+      "annotated-types==0.8.0",
+      "anyio==4.15.1",
+      "attrs==26.1.0",
+      "certifi==2026.7.22",
+      "cffi==2.1.1",
+      "charset-normalizer==3.5.1",
+      "click==8.3.3",
+      "cryptography==50.0.1",
+      "fastapi==0.141.1",
+      "h11==0.16.0",
+      "honeybee-core==1.64.68",
+      "honeybee-radiance-command==1.23.0",
+      "honeybee-radiance-folder==2.11.17",
+      "honeybee-radiance==1.66.288",
+      "honeybee-schema==2.2.0",
+      "honeybee-standards==2.0.7",
+      "httpcore2==2.13.0",
+      "httpcore==1.0.9",
+      "httpx2==2.13.0",
+      "httpx==0.28.1",
+      "idna==3.19",
+      "iniconfig==2.3.0",
+      "jsonschema-specifications==2025.9.1",
+      "jsonschema==4.26.0",
+      "ladybug-core==0.44.59",
+      "ladybug-geometry-polyskel==1.7.53",
+      "ladybug-geometry==1.35.4",
+      "ladybug-radiance==0.2.12",
+      "markdown-it-py==4.2.0",
+      "mcp-types==2.2.0",
+      "mcp==2.2.0",
+      "mdurl==0.1.2",
+      "numpy==2.5.3",
+      "opentelemetry-api==1.44.0",
+      "osmium==4.0.2",
+      "packaging==26.3",
+      "pillow==12.3.0",
+      "pluggy==1.6.0",
+      "pycparser==3.0",
+      "pydantic-openapi-helper==1.0.5",
+      "pydantic==2.13.5",
+      "pydantic_core==2.46.5",
+      "pyproj==3.8.0",
+      "pytest==9.1.1",
+      "python-dotenv==1.2.3",
+      "python-multipart==0.0.32",
+      "qgis-mcp @ file:///private/tmp/qgis-mcp-src/qgis-mcp-main",
+      "referencing==0.37.0",
+      "requests==2.34.2",
+      "rich==15.0.0",
+      "rpds-py==2026.6.3",
+      "shapely==2.1.2",
+      "shellingham==1.5.4",
+      "sse-starlette==3.4.11",
+      "starlette==1.6.0",
+      "truststore==0.10.4",
+      "typer==0.27.2",
+      "typing-inspection==0.4.4",
+      "typing_extensions==4.16.0",
+      "urllib3==2.8.0",
+      "uvicorn==0.53.0"
+    ]
+  },
+  "models": {
+    "config_file": "config/model-providers.json",
+    "models": [
+      {
+        "id": "openai-gpt-4o",
+        "adapter": "openai_compatible",
+        "model": "gpt-4o",
+        "cli_command": null,
+        "reasoning_effort": null,
+        "enabled": true,
+        "data_egress": "cloud"
+      },
+      {
+        "id": "xai-template",
+        "adapter": "openai_compatible",
+        "model": "",
+        "cli_command": null,
+        "reasoning_effort": null,
+        "enabled": false,
+        "data_egress": "cloud"
+      },
+      {
+        "id": "openrouter-template",
+        "adapter": "openai_compatible",
+        "model": "",
+        "cli_command": null,
+        "reasoning_effort": null,
+        "enabled": false,
+        "data_egress": "cloud"
+      },
+      {
+        "id": "modelscope-template",
+        "adapter": "openai_compatible",
+        "model": "",
+        "cli_command": null,
+        "reasoning_effort": null,
+        "enabled": false,
+        "data_egress": "cloud"
+      },
+      {
+        "id": "ollama-template",
+        "adapter": "openai_compatible",
+        "model": "",
+        "cli_command": null,
+        "reasoning_effort": null,
+        "enabled": false,
+        "data_egress": "local"
+      },
+      {
+        "id": "anthropic-template",
+        "adapter": "anthropic",
+        "model": "",
+        "cli_command": null,
+        "reasoning_effort": null,
+        "enabled": false,
+        "data_egress": "cloud"
+      },
+      {
+        "id": "gemini-template",
+        "adapter": "gemini",
+        "model": "",
+        "cli_command": null,
+        "reasoning_effort": null,
+        "enabled": false,
+        "data_egress": "cloud"
+      },
+      {
+        "id": "hermes-urban-critic",
+        "adapter": "openai_compatible",
+        "model": "",
+        "cli_command": null,
+        "reasoning_effort": null,
+        "enabled": false,
+        "data_egress": "hermes"
+      },
+      {
+        "id": "codex-cli",
+        "adapter": "cli_subprocess",
+        "model": "gpt-6-luna",
+        "cli_command": "codex",
+        "reasoning_effort": "max",
+        "enabled": true,
+        "data_egress": "cloud"
+      },
+      {
+        "id": "claude-cli",
+        "adapter": "cli_subprocess",
+        "model": "default",
+        "cli_command": "claude",
+        "reasoning_effort": null,
+        "enabled": true,
+        "data_egress": "cloud"
+      }
+    ],
+    "policy": "僅記錄公開模型名稱與設定檔雜湊；嚴格禁止讀取憑證、API key 或 .env 檔。"
+  },
+  "total_items": 480,
+  "items": [
+    {
+      "category": "dataset",
+      "path": "~/.local/share/urban-design-data/context/manifest.json",
+      "size_bytes": 5747,
+      "sha256": "4f559a90e0989fbbefb62627e3c4064a66c5ce95f63ced1974c043eb3723f43a",
+      "description": "Context 空間背景圖層: manifest.json"
+    },
+    {
+      "category": "dataset",
+      "path": "~/.local/share/urban-design-data/context/context-20260927T153054Z/buildings.geojson",
+      "size_bytes": 25997129,
+      "sha256": "3d4ac0cea51bed38caa149d04fb8326fa775b6228819190866ce51805764e099",
+      "description": "Context 空間背景圖層: buildings.geojson"
+    },
+    {
+      "category": "dataset",
+      "path": "~/.local/share/urban-design-data/context/context-20260927T153054Z/green.geojson",
+      "size_bytes": 1071256,
+      "sha256": "b810415d546761498eea4db84933bfca6cb6b47a62eac610296e0c9f0e753581",
+      "description": "Context 空間背景圖層: green.geojson"
+    },
+    {
+      "category": "dataset",
+      "path": "~/.local/share/urban-design-data/context/context-20260927T153054Z/roads.geojson",
+      "size_bytes": 3738672,
+      "sha256": "45b91f2c23b6476f03b0498aec0b29b96efb656104e1bac09457d5baddb93830",
+      "description": "Context 空間背景圖層: roads.geojson"
+    },
+    {
+      "category": "dataset",
+      "path": "~/.local/share/urban-design-data/context/context-20260927T153054Z/water.geojson",
+      "size_bytes": 187937,
+      "sha256": "64fad90d9400350b67dda739e03cd7ac21e5f816e5888e302a1bce924739e54d",
+      "description": "Context 空間背景圖層: water.geojson"
+    },
+    {
+      "category": "dataset",
+      "path": "~/.local/share/urban-design-data/context/context-20260927T153054Z/study-area-v5.geojson",
+      "size_bytes": 347,
+      "sha256": "9a59159505505dbe658ec6667ecfeb9024b868faf6377e7cd91889c763170d32",
+      "description": "Context 空間背景圖層: study-area-v5.geojson"
+    },
+    {
+      "category": "dataset",
+      "path": "~/.local/share/urban-design-data/context/context-20260927T153054Z/manifest.json",
+      "size_bytes": 5218,
+      "sha256": "b748ec207fec6c6baa5e0d5359c9e96969e201a8f12b4407ba1883f87aa1883d",
+      "description": "Context 空間背景圖層: manifest.json"
+    },
+    {
+      "category": "dataset",
+      "path": "~/.local/share/urban-design-data/syntax-context/run-20261001T105231Z/manifest.json",
+      "size_bytes": 754,
+      "sha256": "a55bd6a27bdb942849691b342ed9b79f3477db2a66ea6e98d97ae2875d4868c1",
+      "description": "Syntax-Context 空間語法背景資料: manifest.json"
+    },
+    {
+      "category": "dataset",
+      "path": "~/.local/share/urban-design-data/syntax-context/run-20261001T105231Z/syntax_context_bicycle.json",
+      "size_bytes": 3057354,
+      "sha256": "194e6d22a400c4563d08bef55ef59e2dc0494d00f3e2805167dd87f1c0f43a72",
+      "description": "Syntax-Context 空間語法背景資料: syntax_context_bicycle.json"
+    },
+    {
+      "category": "dataset",
+      "path": "~/.local/share/urban-design-data/syntax-context/run-20261001T105231Z/syntax_context_motor_vehicle.json",
+      "size_bytes": 2644224,
+      "sha256": "4a8b633ef37a54c858f3688b7be723a18d9d01b7470857801b0b22e8aa954dac",
+      "description": "Syntax-Context 空間語法背景資料: syntax_context_motor_vehicle.json"
+    },
+    {
+      "category": "dataset",
+      "path": "~/.local/share/urban-design-data/syntax-context/run-20261001T105231Z/syntax_context_pedestrian.json",
+      "size_bytes": 1654867,
+      "sha256": "5e0cd13dfdd33ebfc4f22a47c4426be06a47d875926c383257399bbd6adaa3e6",
+      "description": "Syntax-Context 空間語法背景資料: syntax_context_pedestrian.json"
+    },
+    {
+      "category": "dataset",
+      "path": "~/.local/share/urban-design-data/osm/zuid-holland-260922.osm.pbf",
+      "size_bytes": 211355323,
+      "sha256": "71379de6fcb38b114ae2ee564cac99cfb2763b6cc3f6d87667c1079ea578401c",
+      "description": "Zuid-Holland 區域 OSM PBF 原始路網資料檔"
+    },
+    {
+      "category": "dataset",
+      "path": "~/.local/share/urban-design-data/3dbag/height-table-v2025.09.03-study-area-v5-buffer500m.json",
+      "size_bytes": 445470,
+      "sha256": "5897f273cf1180fa744692f71cb18b875adfa28737ddab10ade720a94f4a5f97",
+      "description": "3D BAG 荷蘭建物高度與瓦片索引檔: height-table-v2025.09.03-study-area-v5-buffer500m.json"
+    },
+    {
+      "category": "dataset",
+      "path": "~/.local/share/urban-design-data/3dbag/tile-8-296-512-v2025.09.03.gpkg.gz",
+      "size_bytes": 3993247,
+      "sha256": "0ef9379495a26fd3b1b64af6a1fa41fd4d90a55430baeb669a70d66fed32ad12",
+      "description": "3D BAG 荷蘭建物高度與瓦片索引檔: tile-8-296-512-v2025.09.03.gpkg.gz"
+    },
+    {
+      "category": "dataset",
+      "path": "~/.local/share/urban-design-data/3dbag/tile-8-296-512-v2025.09.03.headers.txt",
+      "size_bytes": 306,
+      "sha256": "039959825c55dba1bfddc3ad6304d694f2121a256f715bf83bcc7684c2fc20bf",
+      "description": "3D BAG 荷蘭建物高度與瓦片索引檔: tile-8-296-512-v2025.09.03.headers.txt"
+    },
+    {
+      "category": "dataset",
+      "path": "~/.local/share/urban-design-data/3dbag/tile-9-304-512-v2025.09.03.gpkg.gz",
+      "size_bytes": 1433837,
+      "sha256": "ad74d7c249c617b985df70a7b7e5785b67dae15c4a713ca19bcd6853e47e0da4",
+      "description": "3D BAG 荷蘭建物高度與瓦片索引檔: tile-9-304-512-v2025.09.03.gpkg.gz"
+    },
+    {
+      "category": "dataset",
+      "path": "~/.local/share/urban-design-data/3dbag/tile-9-304-512-v2025.09.03.headers.txt",
+      "size_bytes": 305,
+      "sha256": "1bc8cedcd312ac4127e486031a174cfaff5d9d29dbc046030ea29526030c2a3e",
+      "description": "3D BAG 荷蘭建物高度與瓦片索引檔: tile-9-304-512-v2025.09.03.headers.txt"
+    },
+    {
+      "category": "dataset",
+      "path": "~/.local/share/urban-design-data/3dbag/tile-9-304-516-v2025.09.03.gpkg.gz",
+      "size_bytes": 5123678,
+      "sha256": "c784d9e774c7f57a88d64499c540cd594e9002dd336f7601fe313242cf119967",
+      "description": "3D BAG 荷蘭建物高度與瓦片索引檔: tile-9-304-516-v2025.09.03.gpkg.gz"
+    },
+    {
+      "category": "dataset",
+      "path": "~/.local/share/urban-design-data/3dbag/tile-9-304-516-v2025.09.03.headers.txt",
+      "size_bytes": 306,
+      "sha256": "696c3e95d43fedfc098a43a90340db31be93846c93c230cf701c7f07a1b3a26f",
+      "description": "3D BAG 荷蘭建物高度與瓦片索引檔: tile-9-304-516-v2025.09.03.headers.txt"
+    },
+    {
+      "category": "dataset",
+      "path": "~/.local/share/urban-design-data/3dbag/tile_index-v2025.09.03.fgb",
+      "size_bytes": 5689048,
+      "sha256": "f708c51d1d61c30ad64f9a7ebbef69a20693f8bc7a98821f21ca6589661e292b",
+      "description": "3D BAG 荷蘭建物高度與瓦片索引檔: tile_index-v2025.09.03.fgb"
+    },
+    {
+      "category": "dataset",
+      "path": "~/.local/share/urban-design-data/3dbag/tile_index-v2025.09.03.headers.txt",
+      "size_bytes": 274,
+      "sha256": "9352d4ba55ac8e382d9aa89aeba104dd23b8d10e8c3576ba71a1677a921cb464",
+      "description": "3D BAG 荷蘭建物高度與瓦片索引檔: tile_index-v2025.09.03.headers.txt"
+    },
+    {
+      "category": "dataset",
+      "path": "~/.local/share/urban-design-data/3dbag/wfs-capabilities.headers.txt",
+      "size_bytes": 582,
+      "sha256": "880c97754abf0ce47de64b0a5410c4b89b6dd53af172114ace9a65ca9ff10923",
+      "description": "3D BAG 荷蘭建物高度與瓦片索引檔: wfs-capabilities.headers.txt"
+    },
+    {
+      "category": "dataset",
+      "path": "~/.local/share/urban-design-data/3dbag/wfs-capabilities.xml",
+      "size_bytes": 94876,
+      "sha256": "d731d088659af90216d54a945f4daac7aa92bf8c9fa02339ec015475b31d5018",
+      "description": "3D BAG 荷蘭建物高度與瓦片索引檔: wfs-capabilities.xml"
+    },
+    {
+      "category": "dataset",
+      "path": "~/.local/share/urban-design-data/3dbag/wfs-lod22-schema.headers.txt",
+      "size_bytes": 534,
+      "sha256": "ef4d020a4bbdef22afbf7dc28cb2cef07cc8ab1435b221127220f454504442ed",
+      "description": "3D BAG 荷蘭建物高度與瓦片索引檔: wfs-lod22-schema.headers.txt"
+    },
+    {
+      "category": "dataset",
+      "path": "~/.local/share/urban-design-data/3dbag/wfs-lod22-schema.xsd",
+      "size_bytes": 8122,
+      "sha256": "490f5cf9ca79e7b1da73f3615733910ac5b9e4424f7f2562bd99c0b4f21a18cc",
+      "description": "3D BAG 荷蘭建物高度與瓦片索引檔: wfs-lod22-schema.xsd"
+    },
+    {
+      "category": "dataset",
+      "path": "~/.local/share/urban-design-data/3dbag/wfs-tiles-schema.headers.txt",
+      "size_bytes": 534,
+      "sha256": "4c4f7dc0c17a2f3aea7c9d38291af8f5a27a40a4d88ee1ecab4312d42f3e6db3",
+      "description": "3D BAG 荷蘭建物高度與瓦片索引檔: wfs-tiles-schema.headers.txt"
+    },
+    {
+      "category": "dataset",
+      "path": "~/.local/share/urban-design-data/3dbag/wfs-tiles-schema.xsd",
+      "size_bytes": 5221,
+      "sha256": "8a3bb814aaa9bb35fb20763f43b343ca633bffe5cb689117a5acadcf36357715",
+      "description": "3D BAG 荷蘭建物高度與瓦片索引檔: wfs-tiles-schema.xsd"
+    },
+    {
+      "category": "dataset",
+      "path": "~/.local/share/urban-design-data/3dbag/wfs-tiles-scope.geojson",
+      "size_bytes": 5852,
+      "sha256": "d8fffc7d17137bb5a812d2b78a07839c330c7f9f6416a05515fe9f6ab462ff38",
+      "description": "3D BAG 荷蘭建物高度與瓦片索引檔: wfs-tiles-scope.geojson"
+    },
+    {
+      "category": "dataset",
+      "path": "~/.local/share/urban-design-data/3dbag/wfs-tiles-scope.headers.txt",
+      "size_bytes": 527,
+      "sha256": "2c4f0fc4cc15a921d4dde1ce3270f3c1231c16e2a8af640e5ff0bd07c68c0391",
+      "description": "3D BAG 荷蘭建物高度與瓦片索引檔: wfs-tiles-scope.headers.txt"
+    },
+    {
+      "category": "dataset",
+      "path": "artifacts/net2/water/coverage-28992.json",
+      "size_bytes": 2869,
+      "sha256": "ab31b52e604bb071098371b5a2ee6cf56e29d42c7c7e4177ce5aa2b1d99bb77e",
+      "description": "Net2 局部水系與覆蓋率成果: coverage-28992.json"
+    },
+    {
+      "category": "dataset",
+      "path": "artifacts/net2/water/water-28992.geojson",
+      "size_bytes": 199544,
+      "sha256": "f3b877bc1ace21aefc47aacad200e95f22aed5ff1ef79e3fab1d00360f3426ad",
+      "description": "Net2 局部水系與覆蓋率成果: water-28992.geojson"
+    },
+    {
+      "category": "dataset",
+      "path": "artifacts/net2/water/water-manifest.json",
+      "size_bytes": 415,
+      "sha256": "6ac5c753831cb1aaa374650d129ba11f1197817d5e4815c4271accba091a690e",
+      "description": "Net2 局部水系與覆蓋率成果: water-manifest.json"
+    },
+    {
+      "category": "knowledge",
+      "path": "knowledge/v2",
+      "size_bytes": 7315335,
+      "sha256": "253ad9f23b0c9db0eecc231a4a00c76e97aa26ae291ef56dc2f3ce5f9f48bae7",
+      "description": "知識庫 v2 全體 JSON 規則合併雜湊 (共 2026 檔)",
+      "extra": {
+        "file_count": 2026
+      }
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/__init__.py",
+      "size_bytes": 466,
+      "sha256": "f863e880748b3d27a5c72c200c8134a66c3ca5d145553904d54bb9d039ae4d47",
+      "description": "都市設計核心模組: __init__.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/analysis_inputs.py",
+      "size_bytes": 84313,
+      "sha256": "5b8f5b4c21151f6f82862ecdf7846191af97e89fe21201af200a4c6c90395375",
+      "description": "都市設計核心模組: analysis_inputs.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/analysis_lineage.py",
+      "size_bytes": 7179,
+      "sha256": "332709610fc2fdf65595dcac27a7aa11bf87d196109e9109af5005d5e67816d7",
+      "description": "都市設計核心模組: analysis_lineage.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/analysis_persistence.py",
+      "size_bytes": 38277,
+      "sha256": "1480c3bd4cf7d28bbbd19cba9d3d44d01b2a2bf1ca1eaf79798e1163592f17d8",
+      "description": "都市設計核心模組: analysis_persistence.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/api.py",
+      "size_bytes": 80261,
+      "sha256": "c60eb4574a23b3da30dbb4cd5a10a33c0c859207243ddd7e0ef3467eb24cd9e1",
+      "description": "都市設計核心模組: api.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/approved_generation.py",
+      "size_bytes": 83716,
+      "sha256": "b1f2de6d306cb16dd22083f2c329b80664ab1ad33f023b0c2f748d70ca250bb5",
+      "description": "都市設計核心模組: approved_generation.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/ariadne_chat.py",
+      "size_bytes": 46371,
+      "sha256": "b30d4fde901efdb8c56b370d7c61d0556c6ac92223fb76a2679505af20b9bea7",
+      "description": "都市設計核心模組: ariadne_chat.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/ariadne_mcp/__init__.py",
+      "size_bytes": 188,
+      "sha256": "6a553b5fb3e3fdbe813b9e5ebc4f436e43af2d065e6ad8311770e56bea2aa7c6",
+      "description": "都市設計核心模組: ariadne_mcp/__init__.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/ariadne_mcp/__main__.py",
+      "size_bytes": 158,
+      "sha256": "0c93026d6fcc03c9dcecb1a98ffa7e6c5d104ca3ed2ce133342d3bcdec46340a",
+      "description": "都市設計核心模組: ariadne_mcp/__main__.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/ariadne_mcp/client.py",
+      "size_bytes": 10038,
+      "sha256": "ba684f977b2ee5b2541fd2b331b81a48a299547ad6fb73b8fa5251830cd88f1b",
+      "description": "都市設計核心模組: ariadne_mcp/client.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/ariadne_mcp/guardrails.py",
+      "size_bytes": 3660,
+      "sha256": "b3505ee63ac6f5a5320f6f6ddd1453e52d8c5ffa383096ab3c099c86c3f1111e",
+      "description": "都市設計核心模組: ariadne_mcp/guardrails.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/ariadne_mcp/server.py",
+      "size_bytes": 4961,
+      "sha256": "75d4a50ab8532d48b386c8ad04c64897f315a0c1cbe7e5f53d71836d2c8a30b9",
+      "description": "都市設計核心模組: ariadne_mcp/server.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/ariadne_mcp/tools.py",
+      "size_bytes": 24627,
+      "sha256": "1e309ff4cde67473bd1cadba474774305b2d1fbd14c57eaa4355c238bd2d0a9f",
+      "description": "都市設計核心模組: ariadne_mcp/tools.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/boundary_decision_rotterdam_m4h.py",
+      "size_bytes": 9462,
+      "sha256": "f7c6c05e03d208dffb5fbec6191154f7833ebc85f635b85838cd3125fcfd04c7",
+      "description": "都市設計核心模組: boundary_decision_rotterdam_m4h.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/bridge.py",
+      "size_bytes": 62899,
+      "sha256": "ddc6b932abb47a53271761f054a2b875c018ff72956599c336e2dd7406b20b8d",
+      "description": "都市設計核心模組: bridge.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/constraint_sets.py",
+      "size_bytes": 12543,
+      "sha256": "7f32fe645a9bca171583dfd0ff8e80d285a1c10905d02651fe5bafdcef1972cd",
+      "description": "都市設計核心模組: constraint_sets.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/context_network.py",
+      "size_bytes": 29906,
+      "sha256": "c37c3f66cf440fff331ce7b98805fb96904482a0b50d027e4157fcf07bef935b",
+      "description": "都市設計核心模組: context_network.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/decision_key.py",
+      "size_bytes": 6743,
+      "sha256": "e8d5a304b6afb06b51658ca894122410c12eef140277e6a9fae7648906c18bf5",
+      "description": "都市設計核心模組: decision_key.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/decision_resolution.py",
+      "size_bytes": 14142,
+      "sha256": "7838c31536c661b785b11af0b62236341b1043f67e6cf14b4cbc7e5c90e41a7c",
+      "description": "都市設計核心模組: decision_resolution.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/design_brief.py",
+      "size_bytes": 6565,
+      "sha256": "0d67f944db2b6ef78d2e0fcbc2d92cd6fc9c1b026a50f3873b8ffa256ffca20a",
+      "description": "都市設計核心模組: design_brief.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/e2e_outputs.py",
+      "size_bytes": 2301,
+      "sha256": "4e7716cf7bb0849487134798f946c4af1a3f6cb3dcb8754d231e9152d29f4d1f",
+      "description": "都市設計核心模組: e2e_outputs.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/e2e_ports.py",
+      "size_bytes": 2143,
+      "sha256": "d01d835e8696bbce8586faa663dbfa63b8fc634e777cf20947f42b94d2f90d0a",
+      "description": "都市設計核心模組: e2e_ports.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/editing/__init__.py",
+      "size_bytes": 1338,
+      "sha256": "d37ff72c26d9130bbed87262320270b80e1fe1cb60daa732b0ecae6fdeb4acd7",
+      "description": "都市設計核心模組: editing/__init__.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/editing/commands.py",
+      "size_bytes": 13426,
+      "sha256": "93aa9011b05362789027a39054b53d823242238f56af0f8ea3dee1601f8865b1",
+      "description": "都市設計核心模組: editing/commands.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/editing/faces.py",
+      "size_bytes": 11647,
+      "sha256": "f8c2c9b4ce1c767ccc76980d553a223afe73f7b883ceb3880eb99b0dff9c2cf6",
+      "description": "都市設計核心模組: editing/faces.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/editing/floors.py",
+      "size_bytes": 6338,
+      "sha256": "e681eff3911feb455ce814fc16c1119246defbd2c26858cd7e7d36581ef90446",
+      "description": "都市設計核心模組: editing/floors.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/editing/formal_authority.py",
+      "size_bytes": 29337,
+      "sha256": "995c5361159ea52737fcb23cc7113205005766580f9c7c165905f1e7357c5e50",
+      "description": "都市設計核心模組: editing/formal_authority.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/editing/formal_publication.py",
+      "size_bytes": 3889,
+      "sha256": "8f7dcb72c2878c9f07d40d5141b8bac029e6df7dbb16ad8e4403900ef5aac7cf",
+      "description": "都市設計核心模組: editing/formal_publication.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/editing/road_dependencies.py",
+      "size_bytes": 4175,
+      "sha256": "887a50de53e645b4824443c0f122ef4c47213d8c3e6898135eaa1fbdad5ff357",
+      "description": "都市設計核心模組: editing/road_dependencies.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/editing/roads.py",
+      "size_bytes": 22724,
+      "sha256": "5a40d1bf1d7c44e6430e7eb36b744af059379ddf449f292fa4fb6fa7adc78205",
+      "description": "都市設計核心模組: editing/roads.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/editing/validation.py",
+      "size_bytes": 11869,
+      "sha256": "a0ce563ebb4b08c19f99d28aeb920595b47505eec5206f25b1a6cad16200d73b",
+      "description": "都市設計核心模組: editing/validation.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/environment/__init__.py",
+      "size_bytes": 3014,
+      "sha256": "135305653287f5461e8129d635250a1727d1e50803c100e2bb172f0119dda880",
+      "description": "都市設計核心模組: environment/__init__.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/environment/comparison.py",
+      "size_bytes": 9951,
+      "sha256": "6baef59ddd38f39e66cccaeeae7c3e1cf75b07b4d8f7ba8b55a1512921970cef",
+      "description": "都市設計核心模組: environment/comparison.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/environment/contracts.py",
+      "size_bytes": 14576,
+      "sha256": "30e44aedebdc91f18cc96b62da1bae11846d97263d47270e50df5ba60ced885d",
+      "description": "都市設計核心模組: environment/contracts.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/environment/e2_router.py",
+      "size_bytes": 5774,
+      "sha256": "c9e74cd214871a3e0f2303ad17f6739e75596c5f6c19b454c485e84c51453580",
+      "description": "都市設計核心模組: environment/e2_router.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/environment/e2_service.py",
+      "size_bytes": 51863,
+      "sha256": "ac4cd03ef5617ef9fe3fd562c2dc500eeb7197c4e2a19066d22a1de209669422",
+      "description": "都市設計核心模組: environment/e2_service.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/environment/geometry_adapter.py",
+      "size_bytes": 25962,
+      "sha256": "f4ff43102ba259d0c16e01eb1ea8035048d7ec4aaddd054ff87aad42095ce089",
+      "description": "都市設計核心模組: environment/geometry_adapter.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/environment/pipeline.py",
+      "size_bytes": 37774,
+      "sha256": "96a019de5e4c7d7cbe67aadc154d1cb60ba182e7076f649dd5a4b8ce511fa6ea",
+      "description": "都市設計核心模組: environment/pipeline.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/environment/plan_service.py",
+      "size_bytes": 11439,
+      "sha256": "024e42aa6d68efa16048760312bbb6a8033f4e0a8b4cd327891c3aa794e82804",
+      "description": "都市設計核心模組: environment/plan_service.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/environment/radiation.py",
+      "size_bytes": 8304,
+      "sha256": "3e70aa8db7f084c91690dd94ad267d878c5780da6d96984516d952e0205af51d",
+      "description": "都市設計核心模組: environment/radiation.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/environment/router.py",
+      "size_bytes": 25821,
+      "sha256": "e26767ce9447dceae3c45a88a87cced7245bcdbeba9412875f580a60a9f6c501",
+      "description": "都市設計核心模組: environment/router.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/environment/sensors.py",
+      "size_bytes": 5510,
+      "sha256": "e24052ad6795b3e17990edf75027a84464799de8cf90b562e40c3742e98f95f4",
+      "description": "都市設計核心模組: environment/sensors.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/environment/sunlight.py",
+      "size_bytes": 37526,
+      "sha256": "c3fc7fefc5bcbff28a067811cf5224402e6b748e3be6d16e762fbea1512bc58a",
+      "description": "都市設計核心模組: environment/sunlight.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/environment/weather_snapshot.py",
+      "size_bytes": 8790,
+      "sha256": "7b9898804712d6f245b90ac2856e550b88b2ecfdde94c1ca71fb7ecca93218a1",
+      "description": "都市設計核心模組: environment/weather_snapshot.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/extent_export.py",
+      "size_bytes": 5551,
+      "sha256": "c7e36fc9d096cdaecfd1196267781fb0039f7a16a1b50d4a8c23f685eee334b6",
+      "description": "都市設計核心模組: extent_export.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/fabric_net2_assessment.py",
+      "size_bytes": 15216,
+      "sha256": "45ff0d116913fa9f886c4a4d511633c5c322e0fd548e4bb5f066a39028670156",
+      "description": "都市設計核心模組: fabric_net2_assessment.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/fabric_plans_api.py",
+      "size_bytes": 22030,
+      "sha256": "92039dd6d2a0ec313b3be547bd9e6375d6e3c2a96f3ede1b92e8982dabe3353c",
+      "description": "都市設計核心模組: fabric_plans_api.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/fabric_syntax.py",
+      "size_bytes": 7580,
+      "sha256": "06a550349e687cfb8f777df4cb7648178e70ab790035ce929b352ba265f35ded",
+      "description": "都市設計核心模組: fabric_syntax.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/fabric_syntax_segments.py",
+      "size_bytes": 15795,
+      "sha256": "8d6d507ad7100ab6f80325fae1ccbf852ac86da5f6622ad11bd463195a06a7e9",
+      "description": "都市設計核心模組: fabric_syntax_segments.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/face_editing_api.py",
+      "size_bytes": 4449,
+      "sha256": "e49d74ae5c5cd4a26e4af5f88321d2fee2ff53353bd5dc83c86c67d8ed1be607",
+      "description": "都市設計核心模組: face_editing_api.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/far.py",
+      "size_bytes": 1408,
+      "sha256": "6779803670f4eecf091706fedf6cb030de7a8166cf6e0374a39a81651401c8a0",
+      "description": "都市設計核心模組: far.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/figure_export.py",
+      "size_bytes": 14250,
+      "sha256": "47d62fc0a90d459cb31a4365636af50a7d177c483a687ed216c485a654451d84",
+      "description": "都市設計核心模組: figure_export.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/formal_face_editing_api.py",
+      "size_bytes": 15893,
+      "sha256": "a83e3bd423a49c944d709904fc63e7a8294fc7f19c714ae48f82f3160dbd6c4d",
+      "description": "都市設計核心模組: formal_face_editing_api.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/gates.py",
+      "size_bytes": 27338,
+      "sha256": "26a84b7c87ae71bca1290982fd5b8e0c9c7c8d1318476dee7217a065eb8c8db5",
+      "description": "都市設計核心模組: gates.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/generation/__init__.py",
+      "size_bytes": 172,
+      "sha256": "39fff15e24e42c59a5dd687f381fde973d77b7c426f930c1d47ea8a601eb20b4",
+      "description": "都市設計核心模組: generation/__init__.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/generation/block_first.py",
+      "size_bytes": 65990,
+      "sha256": "2bc961447fa3895ae34651bd436d0da97d129fd9233860b2cbea1aef45100083",
+      "description": "都市設計核心模組: generation/block_first.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/generation/block_program.py",
+      "size_bytes": 9286,
+      "sha256": "6d591344c385562d8c81996a9291587cc5701ef3692db7f319a2b33fded2dfec",
+      "description": "都市設計核心模組: generation/block_program.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/generation/brief_driven.py",
+      "size_bytes": 38780,
+      "sha256": "81a40597dfe52786f38866e0a818872161eb5bf3e3d175ddd0060d415543304e",
+      "description": "都市設計核心模組: generation/brief_driven.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/generation/context_massing.py",
+      "size_bytes": 29694,
+      "sha256": "e39421c504cff274aed5a06b00d84a385d4196284dd95b6f6f7f2eaa10ead444",
+      "description": "都市設計核心模組: generation/context_massing.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/generation/contracts.py",
+      "size_bytes": 30043,
+      "sha256": "2e6d91d71ace3e82785e7e6432738d83c5fa1cb8ee405f89a99bb79cdf4dfe07",
+      "description": "都市設計核心模組: generation/contracts.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/generation/fabric_finish_green.py",
+      "size_bytes": 5645,
+      "sha256": "2b19142cc951b3aa10abe1fd80bfbe83f87bdbfe78413427d46ca37e5d3954ec",
+      "description": "都市設計核心模組: generation/fabric_finish_green.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/generation/fabric_finish_ne.py",
+      "size_bytes": 4774,
+      "sha256": "cd5d0aeeedc7b25507a98c51805923c0f8bc6e4631024c88c6a46aceaca67f4e",
+      "description": "都市設計核心模組: generation/fabric_finish_ne.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/generation/fabric_intent.py",
+      "size_bytes": 46167,
+      "sha256": "44ccbc36ce13fd8b64e27e59798611611959fa0ce6958a7a318a0dba1cfe1ce6",
+      "description": "都市設計核心模組: generation/fabric_intent.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/generation/fabric_net2.py",
+      "size_bytes": 26309,
+      "sha256": "a31253bf2d3d6a6e8b0e88bcc92a7ed867cda3e839ac18e77d9822767d2888b9",
+      "description": "都市設計核心模組: generation/fabric_net2.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/generation/fabric_network_finish.py",
+      "size_bytes": 13810,
+      "sha256": "2725379d205aab6fd9cf8fef049d1a538ca69b1745c3f81cb6b947e754886875",
+      "description": "都市設計核心模組: generation/fabric_network_finish.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/generation/fabric_plan.py",
+      "size_bytes": 147580,
+      "sha256": "78c35161b485dc1075c0806b8945630c3c756fdb1379a11279024dfebd342c16",
+      "description": "都市設計核心模組: generation/fabric_plan.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/generation/formal_adapter.py",
+      "size_bytes": 3068,
+      "sha256": "37da90e80540b7849dd42ad5f071e8e8ed10f4b5fc765c99ec31516570909159",
+      "description": "都市設計核心模組: generation/formal_adapter.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/generation/formal_multimodal.py",
+      "size_bytes": 34607,
+      "sha256": "a0666ffeea7d097907b03248b9266c455e133df1e985ccd0554b0e034b65e6f5",
+      "description": "都市設計核心模組: generation/formal_multimodal.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/generation/formal_persistence.py",
+      "size_bytes": 4594,
+      "sha256": "40488c828a7d1fc202559d96bea58bb2d5e1129ae2d29596d674e751572b8b49",
+      "description": "都市設計核心模組: generation/formal_persistence.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/generation/formal_pipeline.py",
+      "size_bytes": 27278,
+      "sha256": "bf1a1b20707f010c7c44ee88a45b15d29648b0043c1073bcbf4cb3e88efdf6d7",
+      "description": "都市設計核心模組: generation/formal_pipeline.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/generation/formal_placement.py",
+      "size_bytes": 7654,
+      "sha256": "f3b04cbd9c22c0a568e1ac3c780f3112864cbaf0ec494d5c125fe64a8434bc55",
+      "description": "都市設計核心模組: generation/formal_placement.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/generation/formal_service.py",
+      "size_bytes": 9885,
+      "sha256": "2baa770f23193ae4f2f826dd53d59308cff83555601013fd9f4e5f3af62f2033",
+      "description": "都市設計核心模組: generation/formal_service.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/generation/frontage_massing.py",
+      "size_bytes": 50623,
+      "sha256": "bbb72a98f3ccb9b81e009fa6b396b5cf3d0d68fe2b997e16f2af0513df1e9b67",
+      "description": "都市設計核心模組: generation/frontage_massing.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/generation/hashing.py",
+      "size_bytes": 9961,
+      "sha256": "ba03597a1d981f4897557652f8f0ee6634988c549f2ead606a2d0ab7c8c7a90f",
+      "description": "都市設計核心模組: generation/hashing.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/generation/height_binding.py",
+      "size_bytes": 8690,
+      "sha256": "5816d0bc11823cb3fac9880a9a2781700cb7500f7393b1341ac96c297d2586c7",
+      "description": "都市設計核心模組: generation/height_binding.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/generation/job_runner.py",
+      "size_bytes": 23402,
+      "sha256": "85b6523b1b8f10ecaf83cbaac53f4ae76fbfc51089c5dabce0426ba33f649dcf",
+      "description": "都市設計核心模組: generation/job_runner.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/generation/job_store.py",
+      "size_bytes": 25725,
+      "sha256": "bd9fcd3fbe5c70591be823dc9cb05649458e5bc6f804d129bf2527b31c09a6c2",
+      "description": "都市設計核心模組: generation/job_store.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/generation/legacy_profile_adapter.py",
+      "size_bytes": 3046,
+      "sha256": "17f7c9fe16204c61362a041921a0bff32ae9fc16ba9b3dc0948ac492b6b97e83",
+      "description": "都市設計核心模組: generation/legacy_profile_adapter.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/generation/massing_adapter.py",
+      "size_bytes": 13150,
+      "sha256": "b86ce674a27a882c08c5c718747f804fa0ea1b9cbbc91a425c5b2ba72576b1f2",
+      "description": "都市設計核心模組: generation/massing_adapter.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/generation/massing_revision.py",
+      "size_bytes": 10103,
+      "sha256": "9cb0380a9cce9628fb49271145dc834fab241ed0c5b7a239b477d22df3698ad8",
+      "description": "都市設計核心模組: generation/massing_revision.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/generation/multimodal_network.py",
+      "size_bytes": 55709,
+      "sha256": "72878d584c891cb913bfad1ecb9fbf2b4294f97b2c59f0051785d2ac3aba3f4d",
+      "description": "都市設計核心模組: generation/multimodal_network.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/generation/network_cleanup.py",
+      "size_bytes": 41504,
+      "sha256": "80ec414b4a2bd780e8cb700fcfc0d64f71b83f149fc68904e11deb7b95906f18",
+      "description": "都市設計核心模組: generation/network_cleanup.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/generation/network_massing_coupling.py",
+      "size_bytes": 24810,
+      "sha256": "856a127228316eaaf010b21ce230c1fbf47896d995e69ad6d85568f074623ab5",
+      "description": "都市設計核心模組: generation/network_massing_coupling.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/generation/road_access.py",
+      "size_bytes": 9640,
+      "sha256": "370b68efd13b69f659b20359ba55bd9fddcd109e8f728c3e2d99460ddad2d1e2",
+      "description": "都市設計核心模組: generation/road_access.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/generation/router.py",
+      "size_bytes": 2534,
+      "sha256": "d0866cabfed313c40e29295a3d85878f1c62b98964be10b257ac9ec968b0c888",
+      "description": "都市設計核心模組: generation/router.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/generation/skeleton.py",
+      "size_bytes": 52145,
+      "sha256": "ab4f4221b1b8ae3e04199c779066e5f5b42cb0083ec1fa72909a053aef43b53d",
+      "description": "都市設計核心模組: generation/skeleton.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/generation/strategy_catalog.py",
+      "size_bytes": 5882,
+      "sha256": "51c51e49502368cff20f91eaf602c0fd771166a3bde21eefbc0fb2b4035e4f90",
+      "description": "都市設計核心模組: generation/strategy_catalog.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/generation/type_registry.py",
+      "size_bytes": 27510,
+      "sha256": "66a82e83a672cc80d84cf43a4e508b9e64ca4f154b72ba1fbb5db9c47b4d3f85",
+      "description": "都市設計核心模組: generation/type_registry.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/generation/workflow.py",
+      "size_bytes": 19638,
+      "sha256": "00efc8805520dce341e1982ac14699682583ef3e18f62ff62f805e5875d9f801",
+      "description": "都市設計核心模組: generation/workflow.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/generation_context.py",
+      "size_bytes": 12886,
+      "sha256": "be3ddb840d63155008b12f4ec4c880bc9afeb9e7d489313feb3611f481a778ea",
+      "description": "都市設計核心模組: generation_context.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/geometry.py",
+      "size_bytes": 8700,
+      "sha256": "c040179dafe6286abdce4bdb60a130402625662b8b8f14e2c8d7539b79049a58",
+      "description": "都市設計核心模組: geometry.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/knowledge/__init__.py",
+      "size_bytes": 221,
+      "sha256": "ad7d13183679953653db7488be02fb2daf9e67477d2f7f25410efe23ee5d0fa3",
+      "description": "都市設計核心模組: knowledge/__init__.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/knowledge/loader.py",
+      "size_bytes": 16151,
+      "sha256": "fa0ddf695cddaa0a7f77e1493827e2e270b24bed238207441c7993d2dfb0e75f",
+      "description": "都市設計核心模組: knowledge/loader.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/knowledge/retrieval_v2.py",
+      "size_bytes": 20020,
+      "sha256": "516b164e34dbff654071bcc3fac92e92786e27bf354ae91289e5a206a000a211",
+      "description": "都市設計核心模組: knowledge/retrieval_v2.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/m2a03_sources.py",
+      "size_bytes": 60556,
+      "sha256": "f8070e7d2b1742ca81dbc39a9f1f83af0ca4812d49ae5808bde1ae5e63678cad",
+      "description": "都市設計核心模組: m2a03_sources.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/model_profiles.py",
+      "size_bytes": 11500,
+      "sha256": "e9dc7cc17de1647ecd4f99e20e8bad409cc1bfcabe8c157ac187b8f6a5fe80db",
+      "description": "都市設計核心模組: model_profiles.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/model_provider.py",
+      "size_bytes": 85600,
+      "sha256": "4913c6bbfef71526662f795858d40f4bc2810137c778fb10ea2d5450876bd4aa",
+      "description": "都市設計核心模組: model_provider.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/models.py",
+      "size_bytes": 66416,
+      "sha256": "5cc697dda31b168f416d65f9b98d65e3a3bc6ded2e191ddcf7883c29f39a9792",
+      "description": "都市設計核心模組: models.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/morphology/__init__.py",
+      "size_bytes": 1279,
+      "sha256": "5623e3801e96e311a16f3abd1b4fb784245657a775c9319b0b4203730165dffd",
+      "description": "都市設計核心模組: morphology/__init__.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/morphology/block_massing.py",
+      "size_bytes": 6958,
+      "sha256": "354fff054aeca92eb2bb9c8b69a3f115fb9f780bcdff89f40a1daf65f617b082",
+      "description": "都市設計核心模組: morphology/block_massing.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/morphology/context_reading.py",
+      "size_bytes": 26813,
+      "sha256": "771dc8c48266e1ba9913d0e96c0832d3e923cd8a624cdf1e8fd3324958e408e6",
+      "description": "都市設計核心模組: morphology/context_reading.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/morphology/contracts.py",
+      "size_bytes": 27309,
+      "sha256": "2edcf4fda23911327a7e6210a03d6da681f8d4c761d4fa5486a0ce96ada931de",
+      "description": "都市設計核心模組: morphology/contracts.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/morphology/dictionary_generator.py",
+      "size_bytes": 147071,
+      "sha256": "d69112778d5db7069a866b9a434f57640146f649a88375845176a60c0cb367f3",
+      "description": "都市設計核心模組: morphology/dictionary_generator.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/morphology/floor_estimate.py",
+      "size_bytes": 7367,
+      "sha256": "0748a3bebee04600998b7358e597771305ea725e887f8c65ebc46702ba0d17a1",
+      "description": "都市設計核心模組: morphology/floor_estimate.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/morphology/massing.py",
+      "size_bytes": 14973,
+      "sha256": "6070629b4e5d7629b17f2e813f45712fdcf558528841834097c14659413d821d",
+      "description": "都市設計核心模組: morphology/massing.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/morphology/metrics.py",
+      "size_bytes": 20483,
+      "sha256": "0a48f04f1ec2bee8b0b965be79ae3e22c4cf753328fdc4ad10102afe8c77c590",
+      "description": "都市設計核心模組: morphology/metrics.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/morphology/parcels.py",
+      "size_bytes": 3640,
+      "sha256": "87653fbe91212719886ae7f5ecdce5855edfc2f5f29f2e50a4300adb39cc9d89",
+      "description": "都市設計核心模組: morphology/parcels.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/morphology/preview_api.py",
+      "size_bytes": 7350,
+      "sha256": "96765798b9b486df0babab5d16bf90b816169f46d349586c6baca983cc6a9288",
+      "description": "都市設計核心模組: morphology/preview_api.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/morphology/preview_catalog.py",
+      "size_bytes": 36185,
+      "sha256": "22a714816a8f7c55318ce10e0bf6e258b7f2c47c7a3f44bd671841e6db7d12a8",
+      "description": "都市設計核心模組: morphology/preview_catalog.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/morphology/strategies.py",
+      "size_bytes": 47362,
+      "sha256": "a72d581bc538d4f1182349e4fec7c5338969b8d2e311f159a03c5656f3f5a6be",
+      "description": "都市設計核心模組: morphology/strategies.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/morphology/streets.py",
+      "size_bytes": 15916,
+      "sha256": "6d8397b5baccd8035fff716744db883d7594323d85d70dd2670d0fb3622c7814",
+      "description": "都市設計核心模組: morphology/streets.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/morphology/validation.py",
+      "size_bytes": 40536,
+      "sha256": "72faa9ba86ad1ceb27cc893487e0999dabf3a8703521d4c9ef1dbf7926532a80",
+      "description": "都市設計核心模組: morphology/validation.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/morphology_dictionary.py",
+      "size_bytes": 13484,
+      "sha256": "3c4551db015cdaa0ac14b3caee12d199d7766280824a9e0b8d20c081c2345036",
+      "description": "都市設計核心模組: morphology_dictionary.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/network_unlinks.py",
+      "size_bytes": 4458,
+      "sha256": "f70d925be5bacc794361c1fe90ce97416ba0db52798a3180022e964c04073242",
+      "description": "都市設計核心模組: network_unlinks.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/probe_contracts.py",
+      "size_bytes": 6714,
+      "sha256": "6285b29b702edb4a9afedc3fa047873e914d9a7fd01bfaf241fab9b7d5171d04",
+      "description": "都市設計核心模組: probe_contracts.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/problem_definition.py",
+      "size_bytes": 81614,
+      "sha256": "566e9d72e128b863e9f5c1bfce56eae4ca7a0711e99a0151bae5fb235e4eb95a",
+      "description": "都市設計核心模組: problem_definition.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/project_anchor.py",
+      "size_bytes": 13010,
+      "sha256": "bdcd498243288e6bdcfbe8ddcf17b0fabb77c73066da3970ae1855f8e2b7168d",
+      "description": "都市設計核心模組: project_anchor.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/provenance_audit.py",
+      "size_bytes": 3575,
+      "sha256": "b3aa12d9e589aae072fc4e40bb201e3102fffb67bffa60e3ab97cae9ab793ca4",
+      "description": "都市設計核心模組: provenance_audit.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/pst_syntax.py",
+      "size_bytes": 13768,
+      "sha256": "c3502d7939bc53c66715e68e4d79cbe976ebfa723b9f5b871a8945deaefeb885",
+      "description": "都市設計核心模組: pst_syntax.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/qgis_facade.py",
+      "size_bytes": 19711,
+      "sha256": "80e1839e0f30ddfe645c28bb36af29c8815bae30e76c8a06401e3c6492c8b4df",
+      "description": "都市設計核心模組: qgis_facade.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/r03_evidence.py",
+      "size_bytes": 24763,
+      "sha256": "1cd2045e660ed5f05acdeba28a30f1053320827a9dd98e904dbe578888691db6",
+      "description": "都市設計核心模組: r03_evidence.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/r03_syntax.py",
+      "size_bytes": 14777,
+      "sha256": "be8b2dff7d0a04176e6457a1ec15d0709d0b65bcbcfcd18b2d40bd2c477c829e",
+      "description": "都市設計核心模組: r03_syntax.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/r04_evidence.py",
+      "size_bytes": 14505,
+      "sha256": "8f6c77d1f6ea2ab0eedf76ba7f4f143c56bc17aefc9ae5437ae9aca7c6609c85",
+      "description": "都市設計核心模組: r04_evidence.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/reasoning.py",
+      "size_bytes": 6011,
+      "sha256": "6fd2d379d58dbd99d45884c5aa5f0165dc63723725c2f7cb417e88786341f073",
+      "description": "都市設計核心模組: reasoning.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/regional_network.py",
+      "size_bytes": 12462,
+      "sha256": "8e56220257cbc930a711b55b23886723f3e76ba2ae0db6376f6105345ed2d99d",
+      "description": "都市設計核心模組: regional_network.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/rendering_provenance.py",
+      "size_bytes": 26350,
+      "sha256": "67b0897b0e1dd37a435b0d99861220a0b49767cf524a61b0cefc17aac11dddf1",
+      "description": "都市設計核心模組: rendering_provenance.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/route_aliases.py",
+      "size_bytes": 366,
+      "sha256": "d45eb6ef0e83bf013fd183fc44f08516b56106aa2eeafb717c5568878dd2417c",
+      "description": "都市設計核心模組: route_aliases.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/scenario_api.py",
+      "size_bytes": 24098,
+      "sha256": "21a95fdabde74b9dbf5e30911cc2681180185c944e8027e604bb9d60ff80f533",
+      "description": "都市設計核心模組: scenario_api.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/scenario_comparison.py",
+      "size_bytes": 12587,
+      "sha256": "1e7e769ab9c52399223ebd9c9e4a534fccdcd48cc337e6a1184b81989f07655f",
+      "description": "都市設計核心模組: scenario_comparison.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/scenario_comparison_router.py",
+      "size_bytes": 20741,
+      "sha256": "5aaa5bf8ad3460545193a9a9bad19269e5a5813be15a5dfe24498273da342e5c",
+      "description": "都市設計核心模組: scenario_comparison_router.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/scenario_editing_api.py",
+      "size_bytes": 51077,
+      "sha256": "5bcd114a526f14c0372dfe6ea89328a8d1cb3f85c660d7ff273a2a970c324d7e",
+      "description": "都市設計核心模組: scenario_editing_api.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/scenario_syntax.py",
+      "size_bytes": 27508,
+      "sha256": "3768cad871f2b3bcf323c61b1de696e5b7f90df995b6d5270241948902c1d3a1",
+      "description": "都市設計核心模組: scenario_syntax.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/scenario_syntax_api.py",
+      "size_bytes": 14358,
+      "sha256": "1ceb317b8e00801e9826665e28a91d7b2bda9b90bd08bcf0a7f7bf48e21451c8",
+      "description": "都市設計核心模組: scenario_syntax_api.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/server_config.py",
+      "size_bytes": 3246,
+      "sha256": "634ece28aa9b55dd706e7c3b167cd834de01e3b4513dbab5b90e73e20538f56d",
+      "description": "都市設計核心模組: server_config.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/site_analysis.py",
+      "size_bytes": 15292,
+      "sha256": "e1562cda221003f22d4f2615c962e46ad44b12d69e25d7b170c9ce4ff67fa261",
+      "description": "都市設計核心模組: site_analysis.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/site_critic.py",
+      "size_bytes": 18378,
+      "sha256": "e10d39393991f96c71be8efc99916cf4d20b1c1d378e84015a8435d4b33b562d",
+      "description": "都市設計核心模組: site_critic.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/site_extents.py",
+      "size_bytes": 41350,
+      "sha256": "119f5ff6d45ef0d0adb6da2325cfe32365a4985dd299ecfa3f8f885cd0dbeec1",
+      "description": "都市設計核心模組: site_extents.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/site_intelligence/__init__.py",
+      "size_bytes": 470,
+      "sha256": "8f5fb2af23f5cb648b8cc43a29b5aebe34ee5fea04b9cca9f6cf09d375f09783",
+      "description": "都市設計核心模組: site_intelligence/__init__.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/site_intelligence/adapters.py",
+      "size_bytes": 28328,
+      "sha256": "71122ff53d43b93437e6b27988e6b52387cd4cf71573adf8a2ad66d06d217015",
+      "description": "都市設計核心模組: site_intelligence/adapters.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/site_intelligence/basic_analysis.py",
+      "size_bytes": 40823,
+      "sha256": "7717dac5816dc28e0ff2f6357ae4aa8eb14b05cc13d4c92c1da2f7049cd2f398",
+      "description": "都市設計核心模組: site_intelligence/basic_analysis.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/site_intelligence/brief_service.py",
+      "size_bytes": 41123,
+      "sha256": "108ce928b2ad2222547608882810bac364d32b65c279363534467e93b9a2ef71",
+      "description": "都市設計核心模組: site_intelligence/brief_service.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/site_intelligence/contracts.py",
+      "size_bytes": 15377,
+      "sha256": "d33ed5f8809b47c925a2daa9d613dfb31f30b4b555a99fb45b1ca9968756c454",
+      "description": "都市設計核心模組: site_intelligence/contracts.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/site_intelligence/opportunities.py",
+      "size_bytes": 28416,
+      "sha256": "4e6c2683233ed8c17b712581e217dc40bb36b2940d50856f03df795b820c75fc",
+      "description": "都市設計核心模組: site_intelligence/opportunities.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/site_intelligence/relationships.py",
+      "size_bytes": 29368,
+      "sha256": "da70a4905e2eaf39a404fa11fe60383e9888da9332f053c6c3c8038db788abe6",
+      "description": "都市設計核心模組: site_intelligence/relationships.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/site_proposal.py",
+      "size_bytes": 21105,
+      "sha256": "42f652cd7ee2af5db5b2b3558fa190f90925aaae9a2958260f8f73f646aa8308",
+      "description": "都市設計核心模組: site_proposal.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/site_proposal_rotterdam.py",
+      "size_bytes": 23374,
+      "sha256": "1be654a715256b06c96d75b003090de3ed7d19b082a5c562b93ca570e230752d",
+      "description": "都市設計核心模組: site_proposal_rotterdam.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/site_proposal_rotterdam_v2.py",
+      "size_bytes": 33907,
+      "sha256": "f6b712245eb8567f237a4d63536ddbc429a6c5e72c7c0cb472c12a94b55b35c7",
+      "description": "都市設計核心模組: site_proposal_rotterdam_v2.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/site_proposal_rotterdam_v3.py",
+      "size_bytes": 13432,
+      "sha256": "d9243fb20e4063b7d884a7e0e4e8b413ae0def1b493fa2f531ecf966f24adbfc",
+      "description": "都市設計核心模組: site_proposal_rotterdam_v3.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/site_proposal_rotterdam_v4.py",
+      "size_bytes": 14021,
+      "sha256": "8207a6c6aa1fb00fef337cbc9176022cd2d77830229c144953d74b59ad1e3454",
+      "description": "都市設計核心模組: site_proposal_rotterdam_v4.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/site_proposal_rotterdam_v5.py",
+      "size_bytes": 19665,
+      "sha256": "9bb8d42cb142feac0145981b82c171a5d6e1f6a4b828157d23e4e6524ec4dcdd",
+      "description": "都市設計核心模組: site_proposal_rotterdam_v5.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/site_proposal_v2.py",
+      "size_bytes": 13348,
+      "sha256": "c55c99daee324bb478312c740bf4c40c34b3bb87b0732d6b272bc3df23e05162",
+      "description": "都市設計核心模組: site_proposal_v2.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/site_proposal_v3.py",
+      "size_bytes": 15757,
+      "sha256": "4329f55376514975be893fc5edf6e9c30ffec7a8c019c95f1d4a4b1fa92112ea",
+      "description": "都市設計核心模組: site_proposal_v3.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/skills/__init__.py",
+      "size_bytes": 63,
+      "sha256": "1dbdeeefcfd5a956bc0fdebcb0493477a44d74d2b31be25c6288ba3d869710bc",
+      "description": "都市設計核心模組: skills/__init__.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/skills/contracts.py",
+      "size_bytes": 1720,
+      "sha256": "2ce5a8250ee856eb8552146d593023b5054443a7ddd1423cd8b98ffec33f615b",
+      "description": "都市設計核心模組: skills/contracts.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/skills/provider.py",
+      "size_bytes": 5962,
+      "sha256": "ed0b3d8934909947dc72cf8e7e9ee5529a4c29ad291cfc085fef7e25bcded7ad",
+      "description": "都市設計核心模組: skills/provider.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/skills/router.py",
+      "size_bytes": 1723,
+      "sha256": "f2a6d37d54b4eddf63a218267bd61e89e65ecc329b94e483e018c67d0f9f12b6",
+      "description": "都市設計核心模組: skills/router.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/skills/runner.py",
+      "size_bytes": 24374,
+      "sha256": "3d5a57c0e4500d030326b8e4f00c7c038d9c9396e19172b4b5c8980ab1115df8",
+      "description": "都市設計核心模組: skills/runner.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/skills/validator.py",
+      "size_bytes": 4970,
+      "sha256": "fe711a189a7b6857432c4ffb024772bfc1e9cbaab0eb6b43780beabb491aaf40",
+      "description": "都市設計核心模組: skills/validator.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/space_syntax.py",
+      "size_bytes": 17808,
+      "sha256": "d45141b56c47f26954ba65c02233daa1e75101041567674db9213fe4bf85f862",
+      "description": "都市設計核心模組: space_syntax.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/spatial_input_policy.py",
+      "size_bytes": 109343,
+      "sha256": "c42f0971a6b43b37ffc4beecc8a3cf3d2cb44b9490fbd6836349c6d58a58068c",
+      "description": "都市設計核心模組: spatial_input_policy.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/store.py",
+      "size_bytes": 110129,
+      "sha256": "b1dec8b1724e69945b79996294cfba2dab740b034bfc3b1609c7427646e551e3",
+      "description": "都市設計核心模組: store.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/study_area_workflow.py",
+      "size_bytes": 60513,
+      "sha256": "dda133e7d032fab91fd3517ab0ae64a1aacc5063ae431b76760167ac0ecb35fa",
+      "description": "都市設計核心模組: study_area_workflow.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/surrounding_context.py",
+      "size_bytes": 38449,
+      "sha256": "6782237d536568b28a819ffeae802ab341959473206da913076551fd90789f8b",
+      "description": "都市設計核心模組: surrounding_context.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/syntax_context_api.py",
+      "size_bytes": 10351,
+      "sha256": "6e60a14c46337023e7690a924363279a7f6b089cc3e86dd3a5fb410f29a9fd54",
+      "description": "都市設計核心模組: syntax_context_api.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/syntax_engines/__init__.py",
+      "size_bytes": 59,
+      "sha256": "4853bb89cfc5be4c00747c6abc4c1099caf3b29ac6db7d9bc757436d2f0df471",
+      "description": "都市設計核心模組: syntax_engines/__init__.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/syntax_engines/pst_adapter.py",
+      "size_bytes": 18745,
+      "sha256": "d78cfbc2baceb3f05f372352379ac0c6e6a191847f251d13fb280fe7c53e87c4",
+      "description": "都市設計核心模組: syntax_engines/pst_adapter.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/syntax_engines/pst_worker.py",
+      "size_bytes": 9952,
+      "sha256": "392c7de2fe490aa4751e06a2ed8f770246562928d9273f4519ef33ea4877727a",
+      "description": "都市設計核心模組: syntax_engines/pst_worker.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/three_d_bag.py",
+      "size_bytes": 42943,
+      "sha256": "ecb2d2de3522bb0a5f4aec81985ce6a6dfa5fb507473a0d1dd13e2b3c532d7b9",
+      "description": "都市設計核心模組: three_d_bag.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/weather_derived.py",
+      "size_bytes": 14384,
+      "sha256": "a8f042384eaef074b405758e16a7da7524484e55ac322953d697694b7573db64",
+      "description": "都市設計核心模組: weather_derived.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/week7/__init__.py",
+      "size_bytes": 187,
+      "sha256": "8c2be795364abce944c8f886d97bfeec53a0ab21e729e9b6038e8f7dc2419db7",
+      "description": "都市設計核心模組: week7/__init__.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/week7/ai.py",
+      "size_bytes": 625,
+      "sha256": "6177ab1a3c87dfa3b2c92868fabb070d396a28efcd08bca03abdf47883ff31d2",
+      "description": "都市設計核心模組: week7/ai.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/week7/contracts.py",
+      "size_bytes": 661,
+      "sha256": "a9fa577efa419aa69efef22693d30ec82b8b53dd584d4acc55e8caf77f5625a4",
+      "description": "都市設計核心模組: week7/contracts.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/week7/e3e4.py",
+      "size_bytes": 2023,
+      "sha256": "d91ac751dbbaf28c6ac55d4315e3a088f0c659c412304abd3c4e501b04216cb4",
+      "description": "都市設計核心模組: week7/e3e4.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/week7/faults.py",
+      "size_bytes": 3175,
+      "sha256": "7a05a4e0cf2b1d396b9c8a0cfbfbebf1370e1d31e6096c04cefa6292c81d33b7",
+      "description": "都市設計核心模組: week7/faults.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/week7/figures.py",
+      "size_bytes": 9180,
+      "sha256": "0e8888553c70894740bf2531186b1f260957c6bd2c9a1b9c71c8530997d2656f",
+      "description": "都市設計核心模組: week7/figures.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/week7/fixture_router.py",
+      "size_bytes": 6694,
+      "sha256": "d6265d0f3d1c4ad157d4b32a73bfca3bacc3adca6e3fe88f2d6b04f1aa5e2807",
+      "description": "都市設計核心模組: week7/fixture_router.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/week7/jobs.py",
+      "size_bytes": 13784,
+      "sha256": "76818ad16978e1dcadf361c71ab179bcda0488c7122e3501dfbc7f71089bd4de",
+      "description": "都市設計核心模組: week7/jobs.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/week7/real_figures.py",
+      "size_bytes": 19404,
+      "sha256": "4e08ff1eb412b17d4832136d3341c3b5626476f532f80548823a732db6299eb2",
+      "description": "都市設計核心模組: week7/real_figures.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/week7/real_service.py",
+      "size_bytes": 22382,
+      "sha256": "880bc4a0c429f3da177f1519b70b951c6709e07db579a982eb87062337232bb0",
+      "description": "都市設計核心模組: week7/real_service.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/week7/router.py",
+      "size_bytes": 12216,
+      "sha256": "7afda9ae3ffea74f41d0387c2265f0d24db820909ee47997276ceff44633984c",
+      "description": "都市設計核心模組: week7/router.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/week7/service.py",
+      "size_bytes": 95604,
+      "sha256": "e4a341d6014259a3f6bb0c399521b2f670e551d0ebde4fab009d17531463b784",
+      "description": "都市設計核心模組: week7/service.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/workspace_contracts.py",
+      "size_bytes": 11947,
+      "sha256": "bb7c224f115519407649fac2c8e328948261d89fa3e2f8145a4cc305c578f35b",
+      "description": "都市設計核心模組: workspace_contracts.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/workspace_service.py",
+      "size_bytes": 15229,
+      "sha256": "d6fdaa4422ef0ff84bcabf040390df5dbede1c183d0b34dad74294131229ea67",
+      "description": "都市設計核心模組: workspace_service.py"
+    },
+    {
+      "category": "code_src",
+      "path": "src/urban_design/workspace_sources.py",
+      "size_bytes": 14127,
+      "sha256": "f2e8c34c3f4cd14d55acff3bd97b26bf3d90d1a4665113519503227ec1fafa67",
+      "description": "都市設計核心模組: workspace_sources.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/__init__.py",
+      "size_bytes": 34,
+      "sha256": "9e19e2c4f233980fc01184a90a621c36a6310d0998c735e655c08301d34ed44c",
+      "description": "維運與分析腳本: __init__.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/acquire_precedent_morphology_sources.py",
+      "size_bytes": 32322,
+      "sha256": "c68b7c3708ba20b44786467e532bfc903fa2d703e0fbe98b704e680000067cc1",
+      "description": "維運與分析腳本: acquire_precedent_morphology_sources.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/annotate_pd14_ledger.py",
+      "size_bytes": 20656,
+      "sha256": "be300fc735cb99fe0f3100469b128fcf95fe21eb80309c6cc44d858de982006c",
+      "description": "維運與分析腳本: annotate_pd14_ledger.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/append_week4_repair_r04_docket_r01.py",
+      "size_bytes": 10405,
+      "sha256": "ecf8dcee23cf37eead070fab70ee55587c02bc11faca26a9f0c9adde71c9e3d1",
+      "description": "維運與分析腳本: append_week4_repair_r04_docket_r01.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/approve_m2a03_spatial_inputs.py",
+      "size_bytes": 7351,
+      "sha256": "e24ee639eb66af657e4e3373d36d51f43455ce8c0b11df7ab448a2f67b3f56b9",
+      "description": "維運與分析腳本: approve_m2a03_spatial_inputs.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/audit_road_access_r4.py",
+      "size_bytes": 6084,
+      "sha256": "595fc69eb73fb310e7ea9e740374131a26280567354dadcd5f70e87248a82b74",
+      "description": "維運與分析腳本: audit_road_access_r4.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/build_m2a03_analysis_inputs.py",
+      "size_bytes": 2150,
+      "sha256": "629c91c8ea742352c890b9b17e89ad11fa4bf0f374123a807cde6978e8468364",
+      "description": "維運與分析腳本: build_m2a03_analysis_inputs.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/build_m2a03_spatial_inputs.py",
+      "size_bytes": 3829,
+      "sha256": "872db5230bb98509b92c53e02ab8005605d9415ba1b8e300f3940185fff98b7e",
+      "description": "維運與分析腳本: build_m2a03_spatial_inputs.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/build_portfolio_baseline.py",
+      "size_bytes": 47543,
+      "sha256": "85b10695b8a1b2d919f2562ea264142f123e5a1f87d93185d5ed52b7d8a7cfbd",
+      "description": "維運與分析腳本: build_portfolio_baseline.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/build_precedent_knowledge.py",
+      "size_bytes": 105525,
+      "sha256": "41c51c7909585eccacef8684dd08f3d6ea31eec4c9badbbf26724b8fe1794484",
+      "description": "維運與分析腳本: build_precedent_knowledge.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/build_problem_definition.py",
+      "size_bytes": 37501,
+      "sha256": "02cc857698772fff874d852e574f64d7d433838f5ec03f1887e4e2bfd43b3a46",
+      "description": "維運與分析腳本: build_problem_definition.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/build_site_analysis_markdown.py",
+      "size_bytes": 30737,
+      "sha256": "befc1eea316fa5fd7c1203bd4004836bdc2b62f9ad422b42ac7b7b2ccb87a75a",
+      "description": "維運與分析腳本: build_site_analysis_markdown.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/build_site_analysis_report.py",
+      "size_bytes": 44966,
+      "sha256": "a9178ee5db32ca82ee848d4f52051701497813cefe36812e291f48d028e01650",
+      "description": "維運與分析腳本: build_site_analysis_report.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/build_versioned_render_baseline.py",
+      "size_bytes": 20453,
+      "sha256": "1f865b2f5ca799dd6f6b53a017f53d1da7b03af666fb8b0950b88318c758146f",
+      "description": "維運與分析腳本: build_versioned_render_baseline.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/build_w5_weather_method_proposal.py",
+      "size_bytes": 12488,
+      "sha256": "df412bc0c0dc84f9062413a66cf15efa308f98480202412915482c7550a62424",
+      "description": "維運與分析腳本: build_w5_weather_method_proposal.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/build_week4_r03_inputs.py",
+      "size_bytes": 8700,
+      "sha256": "1a551bff5546dd55c4e41c97edb64767ce937644c6b9773ead0af09773fd54d7",
+      "description": "維運與分析腳本: build_week4_r03_inputs.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/build_week4_r03_integrity_manifest.py",
+      "size_bytes": 43602,
+      "sha256": "99a7efd1cc0b66be883b47620ff0cddf2e1e4309fe48eeb25db5dc97168d4870",
+      "description": "維運與分析腳本: build_week4_r03_integrity_manifest.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/build_week4_regional_osm_evidence.py",
+      "size_bytes": 10355,
+      "sha256": "0768b32285dcd223670e932519733c1d49c96263305544db6c6c69bdc698934d",
+      "description": "維運與分析腳本: build_week4_regional_osm_evidence.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/build_week4_repair_r04.py",
+      "size_bytes": 43854,
+      "sha256": "d25aa40dfdf7f607cf3672fc4448a1a1f68eb362132e27ae40328ab47b2418c2",
+      "description": "維運與分析腳本: build_week4_repair_r04.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/build_week4_syntax_evidence.py",
+      "size_bytes": 16011,
+      "sha256": "ba52e039b31a15fe6365c418b8b8eef095059d7ab7e7c5f006c867a7b04e9847",
+      "description": "維運與分析腳本: build_week4_syntax_evidence.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/c1_proxy_smoke.py",
+      "size_bytes": 22002,
+      "sha256": "54a13853e9db9aaeb25d472731ade02f2e57de2a94a61ec90500e8a225243198",
+      "description": "維運與分析腳本: c1_proxy_smoke.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/check_statement_numbers.py",
+      "size_bytes": 2523,
+      "sha256": "bae2b70a20ea2769f24d2ee37ec5aa6b47cd71c0b489dca746e31b6beffbd5cc",
+      "description": "維運與分析腳本: check_statement_numbers.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/commander_smoke_site_generation.py",
+      "size_bytes": 16122,
+      "sha256": "69eca3f8cf301ece39ab29abf112618876e13fe1894e0dc1e4af9e1e69ae51cb",
+      "description": "維運與分析腳本: commander_smoke_site_generation.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/compare_road_access_r2.py",
+      "size_bytes": 6194,
+      "sha256": "c1ea6a1e61203aaf66f97eb71970061aed4b1134f8fc277d398ea71a35d0bdde",
+      "description": "維運與分析腳本: compare_road_access_r2.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/compare_road_access_r3.py",
+      "size_bytes": 6689,
+      "sha256": "bb5d60619d1a641e616e9c7852c442f09b278d4ce43cf001f281dafc3951c00b",
+      "description": "維運與分析腳本: compare_road_access_r3.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/compare_road_access_r4.py",
+      "size_bytes": 7880,
+      "sha256": "62ad41d044bbe84fac31b49a860069eb13067a702048eb88fdc739d0145a4347",
+      "description": "維運與分析腳本: compare_road_access_r4.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/compute_fabric_motor_parallel.py",
+      "size_bytes": 6592,
+      "sha256": "162c25dc218830ae8efba3e97c565e241df5bfb9c3fbdb26da68d3c372cfd3e3",
+      "description": "維運與分析腳本: compute_fabric_motor_parallel.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/compute_fabric_syntax.py",
+      "size_bytes": 12365,
+      "sha256": "908d888324007ec20509bd76f1851d5b69063989524a138fb94e41ce28809c29",
+      "description": "維運與分析腳本: compute_fabric_syntax.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/compute_regional_syntax_and_stability.py",
+      "size_bytes": 37154,
+      "sha256": "74dbb7ce637c024f1af63094688893747a9628694ccff7e8506932f0636d8ace",
+      "description": "維運與分析腳本: compute_regional_syntax_and_stability.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/compute_syntax_context.py",
+      "size_bytes": 8824,
+      "sha256": "818badaf28b3c45664a79b641bba7fb0d1bc8696e94cd503d1ca5b6aaa0e8094",
+      "description": "維運與分析腳本: compute_syntax_context.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/confirm_study_area.py",
+      "size_bytes": 3072,
+      "sha256": "41c94f88dbe45c54d129adcee58c95d8af04c2d55c6c7b0efab04a0fb7172f2b",
+      "description": "維運與分析腳本: confirm_study_area.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/create_boundary_decision_rotterdam_m4h.py",
+      "size_bytes": 38709,
+      "sha256": "eb3c9d1b9f1b01a5efdb1470d22edb4efb5857eb9732937a8eafd3f41a2b1e64",
+      "description": "維運與分析腳本: create_boundary_decision_rotterdam_m4h.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/create_site_proposal.py",
+      "size_bytes": 29503,
+      "sha256": "5e58577dbc1746bea6dccb6f4be567b9af9be34b540e95990a44dd661436cc93",
+      "description": "維運與分析腳本: create_site_proposal.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/create_site_proposal_rotterdam.py",
+      "size_bytes": 56831,
+      "sha256": "f1d31fab701181b770149efa90f7be8c33929ce69687cd66df963d5461719488",
+      "description": "維運與分析腳本: create_site_proposal_rotterdam.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/create_site_proposal_rotterdam_v2.py",
+      "size_bytes": 33240,
+      "sha256": "c492b3d5dd93ea1fa96b7476802b1776d4981dad6c93a946a0ff4667a8d7d444",
+      "description": "維運與分析腳本: create_site_proposal_rotterdam_v2.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/create_site_proposal_rotterdam_v3.py",
+      "size_bytes": 33002,
+      "sha256": "45bbd058134f36d03d561b36697b317e08c6dad2e4dbb4d6775067e12d518d92",
+      "description": "維運與分析腳本: create_site_proposal_rotterdam_v3.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/create_site_proposal_rotterdam_v4.py",
+      "size_bytes": 34975,
+      "sha256": "68b7bd200b0d89d208c7dcfcd732c9f1798d8c6b6e87743278bf4d733248ad76",
+      "description": "維運與分析腳本: create_site_proposal_rotterdam_v4.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/create_site_proposal_rotterdam_v5.py",
+      "size_bytes": 58443,
+      "sha256": "1824ff637af2ff6f2e5473b47d1efd07f0a449683dd1d907c395d3d6e602b873",
+      "description": "維運與分析腳本: create_site_proposal_rotterdam_v5.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/create_site_proposal_v2.py",
+      "size_bytes": 43881,
+      "sha256": "f81316273a1e1282fb67f531c2e5c67b82cb6a053db17fb65a148edbe0360e5d",
+      "description": "維運與分析腳本: create_site_proposal_v2.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/create_site_proposal_v3.py",
+      "size_bytes": 35961,
+      "sha256": "c3e39ba4568f53f21445389aa845bfed30ab615aa2fd32b0a70c43635d1b5abe",
+      "description": "維運與分析腳本: create_site_proposal_v3.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/ctx1_context_morphology.py",
+      "size_bytes": 112092,
+      "sha256": "466c3e0fd535d8cdf9bb591d671ad4d2da4894683b198c6966b32fbb36b79f2b",
+      "description": "維運與分析腳本: ctx1_context_morphology.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/download_approved_regional_osm.py",
+      "size_bytes": 8333,
+      "sha256": "8b23fce29d1c97dce9b21b047a4e774c27c111b5a5db9a54699ae73a79ac3928",
+      "description": "維運與分析腳本: download_approved_regional_osm.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/e2_formal_run.py",
+      "size_bytes": 8104,
+      "sha256": "14b3104fbff8eb4d40e37ad9acde8a14cf667b1fd99576bdd4e3ad45709d5526",
+      "description": "維運與分析腳本: e2_formal_run.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/e2e_d1_flow.py",
+      "size_bytes": 13250,
+      "sha256": "fb14c280cde64c6a25ccf78fa70f35a67b6c9a629e43058ee85ade845a2f1c00",
+      "description": "維運與分析腳本: e2e_d1_flow.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/export_extent_geopackage.py",
+      "size_bytes": 504,
+      "sha256": "0bb1aceeb591ef966d6d4811c85d3922be417f16e20593c56e6cd988b5a200f8",
+      "description": "維運與分析腳本: export_extent_geopackage.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/export_fabric_syntax_segments.py",
+      "size_bytes": 2590,
+      "sha256": "59c1d654375517b74b0d9c004396ae3d177b459ae3b29496eae85a9ae905f963",
+      "description": "維運與分析腳本: export_fabric_syntax_segments.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/export_net1_syntax.py",
+      "size_bytes": 10325,
+      "sha256": "38c991cadff921e75eb3b6a235f81309f49f55f52505c2e8ede62bdc8ae37197",
+      "description": "維運與分析腳本: export_net1_syntax.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/export_net2_api_support.py",
+      "size_bytes": 4493,
+      "sha256": "d988c5aea6604c0c76038356305c6f5aebda0094beb571e1a2e9c469329910b9",
+      "description": "維運與分析腳本: export_net2_api_support.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/export_net2_landuse.py",
+      "size_bytes": 1101,
+      "sha256": "aad219a44632253e929ccb47bce3539ad0378f979aa2e7b61f9d87ee23db17bf",
+      "description": "維運與分析腳本: export_net2_landuse.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/export_net2_syntax.py",
+      "size_bytes": 10185,
+      "sha256": "8cb68bbd7a3bba3a36aee5a91d24034d293abc9990d2abd0fe84d3ddd1874129",
+      "description": "維運與分析腳本: export_net2_syntax.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/export_w8_figures.py",
+      "size_bytes": 74625,
+      "sha256": "f4f63aed89fddc2101220a29fc65e050a3db86d024ccdbfe95e4115660d7f3be",
+      "description": "維運與分析腳本: export_w8_figures.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/extract_3dbag_height_table.py",
+      "size_bytes": 5766,
+      "sha256": "2f77a4aca5c5ea9ef4d02dc814f9cffc996c0b7fe905efc9edaa677f6a7ffe4f",
+      "description": "維運與分析腳本: extract_3dbag_height_table.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/extract_regional_network.py",
+      "size_bytes": 26379,
+      "sha256": "b177deeba507f449b10263e164a02d25c5558bf81713e2abe59c9f827d1abba3",
+      "description": "維運與分析腳本: extract_regional_network.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/extract_surrounding_context.py",
+      "size_bytes": 4870,
+      "sha256": "3202bca39e36e9e3776a9f38ce0c2ced5e7ca1842fdef97c935e90b81dbd5f05",
+      "description": "維運與分析腳本: extract_surrounding_context.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/fab2_runner.py",
+      "size_bytes": 26317,
+      "sha256": "dab6568f752125e2b39a4a892c7a97fb996e47b99ab787c54c6d1f445c286e29",
+      "description": "維運與分析腳本: fab2_runner.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/j8_knowledge_report.py",
+      "size_bytes": 13776,
+      "sha256": "b45f20b2a8f8bbe82c29a32acc8fb167084f493f0a42518e2fe6acd3352d0352",
+      "description": "維運與分析腳本: j8_knowledge_report.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/kb2_validate.py",
+      "size_bytes": 22374,
+      "sha256": "891120323bfdabac81deafd7cf35cd717179140600ae7deaf775f262cb91560f",
+      "description": "維運與分析腳本: kb2_validate.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/kb2_validate_all.py",
+      "size_bytes": 34334,
+      "sha256": "0043838665dfab7f41ace4f9d541be74f9b187f7c9c61c357f9000b4ab31abc5",
+      "description": "維運與分析腳本: kb2_validate_all.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/kb2_validate_cases.py",
+      "size_bytes": 24668,
+      "sha256": "03ea728c7bdaff5b3ae8754d72458c11337a1be22ab203bbe1af0a1e3299bfef",
+      "description": "維運與分析腳本: kb2_validate_cases.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/kb2_validate_environment.py",
+      "size_bytes": 27771,
+      "sha256": "2736b34f16361897d1a7abd420e09c68f7e8592b33c62808771196971a0058ef",
+      "description": "維運與分析腳本: kb2_validate_environment.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/kb2_validate_form.py",
+      "size_bytes": 23193,
+      "sha256": "f03d4fb86696c500aa0242c233813975f541566f711772f4cd62fd48f0dea7be",
+      "description": "維運與分析腳本: kb2_validate_form.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/kb2_validate_movement.py",
+      "size_bytes": 22374,
+      "sha256": "891120323bfdabac81deafd7cf35cd717179140600ae7deaf775f262cb91560f",
+      "description": "維運與分析腳本: kb2_validate_movement.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/kb2_validate_public.py",
+      "size_bytes": 19975,
+      "sha256": "20e6165fa9ab6e52fe39c0a447585869d69cd31b7d27659b756354eb4437dcd5",
+      "description": "維運與分析腳本: kb2_validate_public.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/kb2_validate_theory.py",
+      "size_bytes": 28874,
+      "sha256": "49c05411433af2dc02a1ac156259f53d09944489fc210f611ea793561e87709f",
+      "description": "維運與分析腳本: kb2_validate_theory.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/kb_context_pack.py",
+      "size_bytes": 1072,
+      "sha256": "f02210f3e31026c6b33ffe2dfa85f0932b086544bcc152cccce19c01d1536fb7",
+      "description": "維運與分析腳本: kb_context_pack.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/live_ai_smoke.py",
+      "size_bytes": 4212,
+      "sha256": "60cf100847608e06f6c3c69765c3878a9972fb67a67cdab8447969828f669aed",
+      "description": "維運與分析腳本: live_ai_smoke.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/net2_new_segment_attribution.py",
+      "size_bytes": 1336,
+      "sha256": "abd8e2c338e25c03a51b75a1f5729a1a8fde78a59594d90bac0b3612c1651599",
+      "description": "維運與分析腳本: net2_new_segment_attribution.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/persist_analysis_results.py",
+      "size_bytes": 87126,
+      "sha256": "cdfc5d4e44c76b2aef8649365d5de64bacf28e070a28c725b8e56d590be3479c",
+      "description": "維運與分析腳本: persist_analysis_results.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/precedent_morphometrics.py",
+      "size_bytes": 82567,
+      "sha256": "7085bbe7b740a8fb66da8d6600ff64cc56bfa8b0485d819e526fae3bf7e700d2",
+      "description": "維運與分析腳本: precedent_morphometrics.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/prepare_d1_draft.py",
+      "size_bytes": 8445,
+      "sha256": "6c8c38a2ee085f4c3c25220fc759239b1c97ebaa4d6aa26e4b5e8ca1d0314583",
+      "description": "維運與分析腳本: prepare_d1_draft.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/prepare_d2_drafts.py",
+      "size_bytes": 3813,
+      "sha256": "dbee2fcb3f17aee0f7c441ec47f04e3ac34a373e3efba376b097899f5834295b",
+      "description": "維運與分析腳本: prepare_d2_drafts.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/preview_catalog_demo.py",
+      "size_bytes": 2757,
+      "sha256": "f6764296897ae72f8f54e4f29024b1abc1b5a67a4e1a5db7c893d8cb6a5c7b9c",
+      "description": "維運與分析腳本: preview_catalog_demo.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/probe_editing_geometry.py",
+      "size_bytes": 17310,
+      "sha256": "5844d0ed49db5c0837aea31cb0667711c49fdd6ba35b8f2e2cab561e21aae084",
+      "description": "維運與分析腳本: probe_editing_geometry.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/probe_space_syntax.py",
+      "size_bytes": 6241,
+      "sha256": "774d1189f6f62d0290c9e63ffe98257eb889933501b691fc7bf3764cdf14452e",
+      "description": "維運與分析腳本: probe_space_syntax.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/qgis_headless_exit_smoke.py",
+      "size_bytes": 3704,
+      "sha256": "29a959378ab5a27618df25fb1508ecaeea660b18dd60079f4fa335b7d1761422",
+      "description": "維運與分析腳本: qgis_headless_exit_smoke.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/reconcile_extent_fetch.py",
+      "size_bytes": 4694,
+      "sha256": "b2d73af814b0756f4c0796419386a95a76c1eadee88af2aaeea460376134bc73",
+      "description": "維運與分析腳本: reconcile_extent_fetch.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/refresh_statement_syntax_section.py",
+      "size_bytes": 4587,
+      "sha256": "db1414ef0fcf38fdb9eea1584f04f51a28278fb2b73b840ea42a45d44621bff8",
+      "description": "維運與分析腳本: refresh_statement_syntax_section.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/register_3dbag_snapshots.py",
+      "size_bytes": 10370,
+      "sha256": "8ccbeebdd1c7e9d9d5c0862ed1cfb5f91f0af1c5a078d2d04aae5ffeaf7dc903",
+      "description": "維運與分析腳本: register_3dbag_snapshots.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/rehearse_basic_site_analysis.py",
+      "size_bytes": 3822,
+      "sha256": "712342bb9234d317e7c3ce79a98ff4930b3e3b016aa5ee1a1015bd98c628a2e3",
+      "description": "維運與分析腳本: rehearse_basic_site_analysis.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/rehearse_extent_fetch.py",
+      "size_bytes": 5936,
+      "sha256": "e817d94819b3f10c4044a7b3319edfec7acbfa2daf930e1a59ef7b6376c19ce8",
+      "description": "維運與分析腳本: rehearse_extent_fetch.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/relabel_net1_motor_checkpoint.py",
+      "size_bytes": 5181,
+      "sha256": "5066a350e053f458e4aef707ead7a92b9cc6eaa991aab8013386bd192d365991",
+      "description": "維運與分析腳本: relabel_net1_motor_checkpoint.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/render_block_first.py",
+      "size_bytes": 11855,
+      "sha256": "a37e21a1fca07ac7ea3e281224e6cf7e20fa98cc2304067ebe02041a98af8a93",
+      "description": "維運與分析腳本: render_block_first.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/render_context_massing.py",
+      "size_bytes": 11192,
+      "sha256": "e00a2c2cc72656ccba383cd5059d9fbb4913c53f4b895ecfe4b3d7381a7cc00f",
+      "description": "維運與分析腳本: render_context_massing.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/render_multimodal_plan.py",
+      "size_bytes": 4247,
+      "sha256": "641284d507e09abb5f4e18a9bfe7b0079acb9bd89ee056e4dfc2a6267479b804",
+      "description": "維運與分析腳本: render_multimodal_plan.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/render_net1_network.py",
+      "size_bytes": 2287,
+      "sha256": "1c4868e4efdfeda9969f77e067ab8fd480ff82a6922d6804f638beba7554aa46",
+      "description": "維運與分析腳本: render_net1_network.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/render_net2_comparison.py",
+      "size_bytes": 4988,
+      "sha256": "88f996b3a870832fd5b87404ad4a7e20fa82f3b2f15842d75409eca6ab8d338d",
+      "description": "維運與分析腳本: render_net2_comparison.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/render_network_massing_coupling.py",
+      "size_bytes": 11419,
+      "sha256": "27d43fc2c7861753887ab2b8a0e66fbe701768efa3649ed17d2bfaad33b2c1a1",
+      "description": "維運與分析腳本: render_network_massing_coupling.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/render_problem_definition_maps.py",
+      "size_bytes": 4283,
+      "sha256": "b133e5b9ea12b8d6bfc1e68ef5eae5e6d659e0a410d75e6e3b310f99d5894bc9",
+      "description": "維運與分析腳本: render_problem_definition_maps.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/render_site_analysis_maps.py",
+      "size_bytes": 41902,
+      "sha256": "cca806b741a43f04a6920c3c6db0665ab322ecabb6a9f24801344e60d4ab38e9",
+      "description": "維運與分析腳本: render_site_analysis_maps.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/render_syntax_figure.py",
+      "size_bytes": 11632,
+      "sha256": "bb0ec305ffe71c19ce9475e3511e8b15e546d890d8aee771652d2f23fa6f0ecd",
+      "description": "維運與分析腳本: render_syntax_figure.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/report_net2.py",
+      "size_bytes": 11540,
+      "sha256": "b04f314fc24a42b83168b8c2823180076bbba79675afaf30a152ab0e10410622",
+      "description": "維運與分析腳本: report_net2.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/retry_precedent_osm_chunks.py",
+      "size_bytes": 19036,
+      "sha256": "e6d3c3f7b903f2bd5c3c5991fce319e53754a0a73d1a179b9117a37c6bd5e343",
+      "description": "維運與分析腳本: retry_precedent_osm_chunks.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/run_approved_generation.py",
+      "size_bytes": 3808,
+      "sha256": "945c729886da93281d292e3a976159268bee4f3b9fc14158bd0cb63235afdbc5",
+      "description": "維運與分析腳本: run_approved_generation.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/run_assumed_generation.py",
+      "size_bytes": 71455,
+      "sha256": "f35c503156b50540b2cb9cc8e129ac82b1068808c484d1afaf634feaa5f021a7",
+      "description": "維運與分析腳本: run_assumed_generation.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/run_block_first_copy.py",
+      "size_bytes": 22786,
+      "sha256": "1ed16e469a1323172bf5d2b5c7b110c9f21877275f4192ca4c55a08448080241",
+      "description": "維運與分析腳本: run_block_first_copy.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/run_brief_driven_copy.py",
+      "size_bytes": 41799,
+      "sha256": "2e9cefefda6af6d05a6d779e7b5dd9bdfca6a17bc812396226986ba731e1bbad",
+      "description": "維運與分析腳本: run_brief_driven_copy.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/run_context_massing_copy.py",
+      "size_bytes": 13504,
+      "sha256": "b126c507a6173e4ca2b3258fab62a504879e6061f7fe8f7884cacf6a1501aabd",
+      "description": "維運與分析腳本: run_context_massing_copy.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/run_dictionary_generator.py",
+      "size_bytes": 2388,
+      "sha256": "99e0eea580e299ef3f17b107e9d1257c4d21ac3e57a3d459398c5c7f4f2a0cd1",
+      "description": "維運與分析腳本: run_dictionary_generator.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/run_fabric_plan.py",
+      "size_bytes": 169301,
+      "sha256": "6025e27a0d93c3b43ef371b1b117d0ccb2a98c60ffe195adf4f3507ea1685764",
+      "description": "維運與分析腳本: run_fabric_plan.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/run_formal_dictionary_generation.py",
+      "size_bytes": 9658,
+      "sha256": "31e593b0c116b1218459a867c53e37b40b599a15ee4671372cca4e15172bf2b5",
+      "description": "維運與分析腳本: run_formal_dictionary_generation.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/run_multimodal_network_copy.py",
+      "size_bytes": 595,
+      "sha256": "c6ac9bf7e4d0fab89a6b8903220ba700766be29efec1eea38d83865e791dc261",
+      "description": "維運與分析腳本: run_multimodal_network_copy.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/run_net1_network.py",
+      "size_bytes": 3032,
+      "sha256": "1236d3b93819c00ce497b00c2f6a28c9c98059e4de1f4b362a10690e16b08347",
+      "description": "維運與分析腳本: run_net1_network.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/run_net2_network.py",
+      "size_bytes": 6210,
+      "sha256": "20140e84ec2475f1e74c58fb81bf9af7421a496bcee19ca8384c96df43b5d987",
+      "description": "維運與分析腳本: run_net2_network.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/run_network_massing_coupling_copy.py",
+      "size_bytes": 23282,
+      "sha256": "3a7fae20e33de1860748c12236be7c103db64893fca1fa982b313250d0d1c69e",
+      "description": "維運與分析腳本: run_network_massing_coupling_copy.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/run_scenario_syntax_copy.py",
+      "size_bytes": 2586,
+      "sha256": "d3625e99ea439a01e062bc7a12886c3b3ba1e8fb085fdf6e3359fb0b9272655a",
+      "description": "維運與分析腳本: run_scenario_syntax_copy.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/run_workspace_server.py",
+      "size_bytes": 4882,
+      "sha256": "03fef8741be797063641fa41174c7647ec7c08eed53e67554a414fc9e8c061fd",
+      "description": "維運與分析腳本: run_workspace_server.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/s6_brief.py",
+      "size_bytes": 151202,
+      "sha256": "2936c328b1ce1cc78542de31e038a0070dd8538933906c95b058cb7d08e084f0",
+      "description": "維運與分析腳本: s6_brief.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/skills_smoke.py",
+      "size_bytes": 2609,
+      "sha256": "8f3785b3a2d55d7360c7203a11f88eaac1bd83097e7c9183946cec5f5ef6f740",
+      "description": "維運與分析腳本: skills_smoke.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/smoke_test_real_source.py",
+      "size_bytes": 19977,
+      "sha256": "ad072c5c4ee8e56a5100f9005eded17d9a0b25b3f9c9616b51c7c31510a7d1a6",
+      "description": "維運與分析腳本: smoke_test_real_source.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/summarize_context_massing.py",
+      "size_bytes": 2811,
+      "sha256": "f29464738d367138f5957f84eeeafe392e89de9a014ad91eda1912a668857338",
+      "description": "維運與分析腳本: summarize_context_massing.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/tool_feasibility_probe.py",
+      "size_bytes": 51239,
+      "sha256": "855b46329f5f411312cd2eea117360ff89cd107515dfdbe701aba7453bb6cdf6",
+      "description": "維運與分析腳本: tool_feasibility_probe.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/validate_fabrics.py",
+      "size_bytes": 12355,
+      "sha256": "e982c2168f3dff3d1c681e61d1814557a810f67f12165bfd53b4c97c68f36a1e",
+      "description": "維運與分析腳本: validate_fabrics.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/verify_context_massing_artifacts.py",
+      "size_bytes": 3423,
+      "sha256": "c5ba6ba36aded0462e06b13db885d12635a7a909f3b95d2a8a4663d4e890b98c",
+      "description": "維運與分析腳本: verify_context_massing_artifacts.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/verify_fab1e_delivery.py",
+      "size_bytes": 5942,
+      "sha256": "020b0c60807431cc3ecc25e4caa4885f0a1bab6bfc0fb0950edd8c775603eeb2",
+      "description": "維運與分析腳本: verify_fab1e_delivery.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/verify_fabric_syntax.py",
+      "size_bytes": 6107,
+      "sha256": "f203174adcf8cfa855816671a49f23ead9454a6f3f9f2d4910c24bb47e65dd0d",
+      "description": "維運與分析腳本: verify_fabric_syntax.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/verify_net2_delivery.py",
+      "size_bytes": 7077,
+      "sha256": "40aab9a59c9438858e4f4a6afdd5294f85dbc1dd4fb5f41bc57b0ac35a58ed0d",
+      "description": "維運與分析腳本: verify_net2_delivery.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/verify_preview_browser.cjs",
+      "size_bytes": 38969,
+      "sha256": "be0b527e017aa7219ca3148af93fef0bd143da1941bbe586631684585efc0b22",
+      "description": "維運與分析腳本: verify_preview_browser.cjs"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/verify_w8_freeze.py",
+      "size_bytes": 33393,
+      "sha256": "7353368b4735611588914914408aeadd9d7a593c69dca6cc5956f5b148b7eb04",
+      "description": "維運與分析腳本: verify_w8_freeze.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/verify_week4_repair_r02.py",
+      "size_bytes": 30135,
+      "sha256": "f746ef4afcf16aefc85e833d181c2c1e85ead87405a8eb549ca0d4934ff4356a",
+      "description": "維運與分析腳本: verify_week4_repair_r02.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/verify_week4_repair_r03.py",
+      "size_bytes": 64742,
+      "sha256": "1e78a037a1d65683e7b928ebcedef5f834513b6d3c03e9f94046afa0bcd941d1",
+      "description": "維運與分析腳本: verify_week4_repair_r03.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/verify_week4_repair_r04.py",
+      "size_bytes": 11282,
+      "sha256": "f1b9e0d492db8fbd05be665c290f377d2b0a3575378c1bf913f450236e47e8fd",
+      "description": "維運與分析腳本: verify_week4_repair_r04.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/verify_week4_repair_r04_amendments.py",
+      "size_bytes": 15087,
+      "sha256": "90dfd1769f6b7abcd9c52cde7723c18a101a3b4391fbc2dcc70e3b67c5bde175",
+      "description": "維運與分析腳本: verify_week4_repair_r04_amendments.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/verify_week4_repair_r04_amendments_r02.py",
+      "size_bytes": 10823,
+      "sha256": "443e4afd974adbae2081fb371a56f9c647f17a78fc1c954aa7ef5999fa5014d1",
+      "description": "維運與分析腳本: verify_week4_repair_r04_amendments_r02.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/w6_fix_r2_drill.py",
+      "size_bytes": 6673,
+      "sha256": "c681c6fe3fc956e2b201e39d62500e08f3c004f3121a81c0c03b559fe491be85",
+      "description": "維運與分析腳本: w6_fix_r2_drill.py"
+    },
+    {
+      "category": "code_script",
+      "path": "scripts/w7_real_drill.py",
+      "size_bytes": 9724,
+      "sha256": "fad40769efcc24f1d173b3e7d1068a8998aa131a39d07508d93b0b6ed66d48c3",
+      "description": "維運與分析腳本: w7_real_drill.py"
+    },
+    {
+      "category": "proposal",
+      "path": "artifacts/fab1/run-6/closed_block_extension-plan.json",
+      "size_bytes": 597136,
+      "sha256": "e67b1410fcb981f389e8fe7d5dabe908810729d4d3207b734ecd0a572d48e693",
+      "description": "Fab1 Run-6 基準設計方案成果: closed_block_extension-plan.json"
+    },
+    {
+      "category": "proposal",
+      "path": "artifacts/fab1/run-6/courtyard_islands-plan.json",
+      "size_bytes": 519690,
+      "sha256": "ba934237d896677b9832d5f82f42209b8a5394f02b591a7f87c9bc18074aa088",
+      "description": "Fab1 Run-6 基準設計方案成果: courtyard_islands-plan.json"
+    },
+    {
+      "category": "proposal",
+      "path": "artifacts/fab1/run-6/harbour_grain-plan.json",
+      "size_bytes": 629990,
+      "sha256": "aed9177eeb640584c5745ad7ee947dd62d5037ea5ec787bb5ba4f863b493fc73",
+      "description": "Fab1 Run-6 基準設計方案成果: harbour_grain-plan.json"
+    },
+    {
+      "category": "proposal",
+      "path": "artifacts/fab1/run-6/landscape_figure-plan.json",
+      "size_bytes": 475061,
+      "sha256": "58ad2c4364a9fc87a3399ef327a1bf0f139ad709f20daff76cfd4f5c3731da19",
+      "description": "Fab1 Run-6 基準設計方案成果: landscape_figure-plan.json"
+    },
+    {
+      "category": "proposal",
+      "path": "artifacts/fab1/run-8/closed_block_extension-api-checks.json",
+      "size_bytes": 74767,
+      "sha256": "67afa720922a337041d0e0a4a4a93a3828c34fc823bfc5f91ce6d92c9a4d8fc1",
+      "description": "W8 定案平台整合包 run-8: closed_block_extension-api-checks.json"
+    },
+    {
+      "category": "proposal",
+      "path": "artifacts/fab1/run-8/closed_block_extension-checks.json",
+      "size_bytes": 39228,
+      "sha256": "6540db82f6eee900a8e16eb1af689dca8de8ad93c2bb9c599b5e0d8c1e62ee25",
+      "description": "W8 定案平台整合包 run-8: closed_block_extension-checks.json"
+    },
+    {
+      "category": "proposal",
+      "path": "artifacts/fab1/run-8/closed_block_extension-plan.json",
+      "size_bytes": 623464,
+      "sha256": "f3eaef98a328f48f846b480bdf1452867bb0e58d3d63f8043e0abed663960bae",
+      "description": "W8 定案平台整合包 run-8: closed_block_extension-plan.json"
+    },
+    {
+      "category": "proposal",
+      "path": "artifacts/fab1/run-8/comparison.json",
+      "size_bytes": 159965,
+      "sha256": "5d4d32bdee78d8ee2e14548d329f8babe49987aae1fd275f5768bc8f612179b5",
+      "description": "W8 定案平台整合包 run-8: comparison.json"
+    },
+    {
+      "category": "proposal",
+      "path": "artifacts/fab1/run-8/courtyard_islands-api-checks.json",
+      "size_bytes": 112631,
+      "sha256": "531b7699b9a2d765f6fa078ad3e45bcd9531f3493e4d46110b33f432ae6ac0f2",
+      "description": "W8 定案平台整合包 run-8: courtyard_islands-api-checks.json"
+    },
+    {
+      "category": "proposal",
+      "path": "artifacts/fab1/run-8/courtyard_islands-checks.json",
+      "size_bytes": 50065,
+      "sha256": "5ef38589a80d9c25e0c798bca5ed8520744ecab751cb6a25355247a1db74294a",
+      "description": "W8 定案平台整合包 run-8: courtyard_islands-checks.json"
+    },
+    {
+      "category": "proposal",
+      "path": "artifacts/fab1/run-8/courtyard_islands-plan.json",
+      "size_bytes": 521255,
+      "sha256": "e3db0311c26a49d627e2343eef40603589b2cb65beec99222d06ec168971812b",
+      "description": "W8 定案平台整合包 run-8: courtyard_islands-plan.json"
+    },
+    {
+      "category": "proposal",
+      "path": "artifacts/fab1/run-8/generation-summary.json",
+      "size_bytes": 1283,
+      "sha256": "f8b16bb4c0d3bf919298288b4dc107f481ab6d070f0c4f8f38d19de3c93de68b",
+      "description": "W8 定案平台整合包 run-8: generation-summary.json"
+    },
+    {
+      "category": "proposal",
+      "path": "artifacts/fab1/run-8/harbour_grain-api-checks.json",
+      "size_bytes": 73433,
+      "sha256": "6593c9c7d3d742be127ca66036cad911a9088c5a91fad618eff9f800ec9f7164",
+      "description": "W8 定案平台整合包 run-8: harbour_grain-api-checks.json"
+    },
+    {
+      "category": "proposal",
+      "path": "artifacts/fab1/run-8/harbour_grain-checks.json",
+      "size_bytes": 42606,
+      "sha256": "b63b90dcd410c0b71be281686abfee4c80c2a5dfbf2c9c3e676c3f5ec44cb206",
+      "description": "W8 定案平台整合包 run-8: harbour_grain-checks.json"
+    },
+    {
+      "category": "proposal",
+      "path": "artifacts/fab1/run-8/harbour_grain-plan.json",
+      "size_bytes": 704645,
+      "sha256": "88445febe1b657019b9e52d024de978bd628672e244423d1b07480ebfede06dd",
+      "description": "W8 定案平台整合包 run-8: harbour_grain-plan.json"
+    },
+    {
+      "category": "proposal",
+      "path": "artifacts/fab1/run-8/landscape_figure-api-checks.json",
+      "size_bytes": 44030,
+      "sha256": "f64798a471ac4639765fe6d5be9abce0dc13dc8ef7959144d83c1292a5bba51e",
+      "description": "W8 定案平台整合包 run-8: landscape_figure-api-checks.json"
+    },
+    {
+      "category": "proposal",
+      "path": "artifacts/fab1/run-8/landscape_figure-checks.json",
+      "size_bytes": 24083,
+      "sha256": "541b5a1ef40971125e58cbf53faa1a1ddfa4bdbbecb2baacfa1cafacff14268f",
+      "description": "W8 定案平台整合包 run-8: landscape_figure-checks.json"
+    },
+    {
+      "category": "proposal",
+      "path": "artifacts/fab1/run-8/landscape_figure-plan.json",
+      "size_bytes": 499457,
+      "sha256": "397fcbcb53acb84cfaa4a41601a2fd9e5e48c161aa983d38ee866f533894830d",
+      "description": "W8 定案平台整合包 run-8: landscape_figure-plan.json"
+    },
+    {
+      "category": "proposal",
+      "path": "artifacts/fab1/run-8/closed_block_extension-landuse.csv",
+      "size_bytes": 9795,
+      "sha256": "42315e2d0abb0dad119fa091b99f4ddadf631734e63ec9b7a8d7f077cb331796",
+      "description": "W8 定案平台整合包 run-8: closed_block_extension-landuse.csv"
+    },
+    {
+      "category": "proposal",
+      "path": "artifacts/fab1/run-8/courtyard_islands-landuse.csv",
+      "size_bytes": 10690,
+      "sha256": "a0395eff07b350d100bd896dbf43008bd5c339f73c93fd39b229b6491fe1b62e",
+      "description": "W8 定案平台整合包 run-8: courtyard_islands-landuse.csv"
+    },
+    {
+      "category": "proposal",
+      "path": "artifacts/fab1/run-8/harbour_grain-landuse.csv",
+      "size_bytes": 7599,
+      "sha256": "e8d10f33db3ef623289d482696c59be294fc3ea936207d57ad8a89550f9acedf",
+      "description": "W8 定案平台整合包 run-8: harbour_grain-landuse.csv"
+    },
+    {
+      "category": "proposal",
+      "path": "artifacts/fab1/run-8/landscape_figure-landuse.csv",
+      "size_bytes": 7846,
+      "sha256": "da485cc86e43e6f5b6cbb3705f180f5543e233d4cd4fdeb64b99e37ad76a2efd",
+      "description": "W8 定案平台整合包 run-8: landscape_figure-landuse.csv"
+    },
+    {
+      "category": "proposal",
+      "path": "artifacts/fab1/run-8/ai-explanations/closed_block_extension-design-statement-en.md",
+      "size_bytes": 5464,
+      "sha256": "da2544a26214905067781c94c3b8ba60a74eebff22b089d0077f787706025221",
+      "description": "W8 定案平台整合包 run-8: closed_block_extension-design-statement-en.md"
+    },
+    {
+      "category": "proposal",
+      "path": "artifacts/fab1/run-8/ai-explanations/closed_block_extension-design-statement-zh.md",
+      "size_bytes": 3685,
+      "sha256": "aefbc830951124e6786785955a4da0b3fc0612c3129f10d3617ff623bd4c70af",
+      "description": "W8 定案平台整合包 run-8: closed_block_extension-design-statement-zh.md"
+    },
+    {
+      "category": "proposal",
+      "path": "artifacts/fab1/run-8/ai-explanations/courtyard_islands-design-statement-en.md",
+      "size_bytes": 5420,
+      "sha256": "127f28761aa83f3c694639624444012de1c62223b136dd6f24242a6c400dc989",
+      "description": "W8 定案平台整合包 run-8: courtyard_islands-design-statement-en.md"
+    },
+    {
+      "category": "proposal",
+      "path": "artifacts/fab1/run-8/ai-explanations/courtyard_islands-design-statement-zh.md",
+      "size_bytes": 3605,
+      "sha256": "f603867e2b59d83736b671a15fc896371526a82da9069aa620099b88a8a109e8",
+      "description": "W8 定案平台整合包 run-8: courtyard_islands-design-statement-zh.md"
+    },
+    {
+      "category": "proposal",
+      "path": "artifacts/fab1/run-8/ai-explanations/harbour_grain-design-statement-en.md",
+      "size_bytes": 4552,
+      "sha256": "5da6f5ddd63d5f52b30642ed415c5bf662df0f13f63cad2ffacefdfec295854f",
+      "description": "W8 定案平台整合包 run-8: harbour_grain-design-statement-en.md"
+    },
+    {
+      "category": "proposal",
+      "path": "artifacts/fab1/run-8/ai-explanations/harbour_grain-design-statement-zh.md",
+      "size_bytes": 2934,
+      "sha256": "2c0e7dfc7eee302e0a09f61767ad03bca10af38138e83ff83fd34da8aa6d85f1",
+      "description": "W8 定案平台整合包 run-8: harbour_grain-design-statement-zh.md"
+    },
+    {
+      "category": "proposal",
+      "path": "artifacts/fab1/run-8/ai-explanations/landscape_figure-design-statement-en.md",
+      "size_bytes": 4631,
+      "sha256": "4635bc53f49dafa4661ef1b32c2db4f9cd5bc5c686f3198d8f0ad88fd87f8547",
+      "description": "W8 定案平台整合包 run-8: landscape_figure-design-statement-en.md"
+    },
+    {
+      "category": "proposal",
+      "path": "artifacts/fab1/run-8/ai-explanations/landscape_figure-design-statement-zh.md",
+      "size_bytes": 3178,
+      "sha256": "f2421e5b4c579d7ea559145313883b69fa677f0f70efcb751293c2be4600f71b",
+      "description": "W8 定案平台整合包 run-8: landscape_figure-design-statement-zh.md"
+    },
+    {
+      "category": "proposal",
+      "path": "artifacts/fab1/run-8/ai-explanations/human-edits.json",
+      "size_bytes": 3443,
+      "sha256": "d7d3007e66568b7b98a6a050a084beeba691deeb8574bf884fe02716b856c92c",
+      "description": "W8 定案平台整合包 run-8: human-edits.json"
+    },
+    {
+      "category": "proposal",
+      "path": "artifacts/net2/round-7/plans/closed_block_extension-checks.json",
+      "size_bytes": 39228,
+      "sha256": "6540db82f6eee900a8e16eb1af689dca8de8ad93c2bb9c599b5e0d8c1e62ee25",
+      "description": "NET2 第 7 輪定案方案: closed_block_extension-checks.json"
+    },
+    {
+      "category": "proposal",
+      "path": "artifacts/net2/round-7/plans/closed_block_extension-plan.json",
+      "size_bytes": 623464,
+      "sha256": "f3eaef98a328f48f846b480bdf1452867bb0e58d3d63f8043e0abed663960bae",
+      "description": "NET2 第 7 輪定案方案: closed_block_extension-plan.json"
+    },
+    {
+      "category": "proposal",
+      "path": "artifacts/net2/round-7/plans/comparison-before-sidecar-refresh.json",
+      "size_bytes": 159965,
+      "sha256": "5d4d32bdee78d8ee2e14548d329f8babe49987aae1fd275f5768bc8f612179b5",
+      "description": "NET2 第 7 輪定案方案: comparison-before-sidecar-refresh.json"
+    },
+    {
+      "category": "proposal",
+      "path": "artifacts/net2/round-7/plans/comparison.json",
+      "size_bytes": 159965,
+      "sha256": "5d4d32bdee78d8ee2e14548d329f8babe49987aae1fd275f5768bc8f612179b5",
+      "description": "NET2 第 7 輪定案方案: comparison.json"
+    },
+    {
+      "category": "proposal",
+      "path": "artifacts/net2/round-7/plans/courtyard_islands-checks.json",
+      "size_bytes": 50065,
+      "sha256": "5ef38589a80d9c25e0c798bca5ed8520744ecab751cb6a25355247a1db74294a",
+      "description": "NET2 第 7 輪定案方案: courtyard_islands-checks.json"
+    },
+    {
+      "category": "proposal",
+      "path": "artifacts/net2/round-7/plans/courtyard_islands-plan.json",
+      "size_bytes": 521255,
+      "sha256": "e3db0311c26a49d627e2343eef40603589b2cb65beec99222d06ec168971812b",
+      "description": "NET2 第 7 輪定案方案: courtyard_islands-plan.json"
+    },
+    {
+      "category": "proposal",
+      "path": "artifacts/net2/round-7/plans/generation-summary.json",
+      "size_bytes": 1283,
+      "sha256": "f8b16bb4c0d3bf919298288b4dc107f481ab6d070f0c4f8f38d19de3c93de68b",
+      "description": "NET2 第 7 輪定案方案: generation-summary.json"
+    },
+    {
+      "category": "proposal",
+      "path": "artifacts/net2/round-7/plans/harbour_grain-checks.json",
+      "size_bytes": 42606,
+      "sha256": "b63b90dcd410c0b71be281686abfee4c80c2a5dfbf2c9c3e676c3f5ec44cb206",
+      "description": "NET2 第 7 輪定案方案: harbour_grain-checks.json"
+    },
+    {
+      "category": "proposal",
+      "path": "artifacts/net2/round-7/plans/harbour_grain-plan.json",
+      "size_bytes": 704645,
+      "sha256": "88445febe1b657019b9e52d024de978bd628672e244423d1b07480ebfede06dd",
+      "description": "NET2 第 7 輪定案方案: harbour_grain-plan.json"
+    },
+    {
+      "category": "proposal",
+      "path": "artifacts/net2/round-7/plans/landscape_figure-checks.json",
+      "size_bytes": 24083,
+      "sha256": "541b5a1ef40971125e58cbf53faa1a1ddfa4bdbbecb2baacfa1cafacff14268f",
+      "description": "NET2 第 7 輪定案方案: landscape_figure-checks.json"
+    },
+    {
+      "category": "proposal",
+      "path": "artifacts/net2/round-7/plans/landscape_figure-plan.json",
+      "size_bytes": 499457,
+      "sha256": "397fcbcb53acb84cfaa4a41601a2fd9e5e48c161aa983d38ee866f533894830d",
+      "description": "NET2 第 7 輪定案方案: landscape_figure-plan.json"
+    },
+    {
+      "category": "result",
+      "path": "artifacts/net2/round-7/syntax/closed_block_extension-bicycle-road-receipts.json",
+      "size_bytes": 13315,
+      "sha256": "10ab7f707d4c92b6edda69a771bb7605b3f95659e662b0f25898f74aa17930e6",
+      "description": "NET2 第 7 輪 v3 語法（12 組）: closed_block_extension-bicycle-road-receipts.json"
+    },
+    {
+      "category": "result",
+      "path": "artifacts/net2/round-7/syntax/closed_block_extension-bicycle.json",
+      "size_bytes": 49944,
+      "sha256": "d5cda6a57301753ccebaf78ad0554215ba3464871dbfa160422e3c6c587e1064",
+      "description": "NET2 第 7 輪 v3 語法（12 組）: closed_block_extension-bicycle.json"
+    },
+    {
+      "category": "result",
+      "path": "artifacts/net2/round-7/syntax/closed_block_extension-motor_vehicle-road-receipts.json",
+      "size_bytes": 12671,
+      "sha256": "a66f2d850a973e5bf3dbea8c21b0ec27011958ebf081c02ec7debb5575c671de",
+      "description": "NET2 第 7 輪 v3 語法（12 組）: closed_block_extension-motor_vehicle-road-receipts.json"
+    },
+    {
+      "category": "result",
+      "path": "artifacts/net2/round-7/syntax/closed_block_extension-motor_vehicle.json",
+      "size_bytes": 41884,
+      "sha256": "aecba47d6913e5be2e9f08943f2fa7edf0000d32fc176e9c97a5fe6ae9d7ad28",
+      "description": "NET2 第 7 輪 v3 語法（12 組）: closed_block_extension-motor_vehicle.json"
+    },
+    {
+      "category": "result",
+      "path": "artifacts/net2/round-7/syntax/closed_block_extension-pedestrian-road-receipts.json",
+      "size_bytes": 17078,
+      "sha256": "ff517b4bd75c8505afd4ef9471392c076f30420df6f4d1c250d9517eec6fa562",
+      "description": "NET2 第 7 輪 v3 語法（12 組）: closed_block_extension-pedestrian-road-receipts.json"
+    },
+    {
+      "category": "result",
+      "path": "artifacts/net2/round-7/syntax/closed_block_extension-pedestrian.json",
+      "size_bytes": 50581,
+      "sha256": "f62ac8e2d4be6da8650aa2b811a274e455310c5d391b80ca0bf18c21c8636afb",
+      "description": "NET2 第 7 輪 v3 語法（12 組）: closed_block_extension-pedestrian.json"
+    },
+    {
+      "category": "result",
+      "path": "artifacts/net2/round-7/syntax/courtyard_islands-bicycle-road-receipts.json",
+      "size_bytes": 13315,
+      "sha256": "10ab7f707d4c92b6edda69a771bb7605b3f95659e662b0f25898f74aa17930e6",
+      "description": "NET2 第 7 輪 v3 語法（12 組）: courtyard_islands-bicycle-road-receipts.json"
+    },
+    {
+      "category": "result",
+      "path": "artifacts/net2/round-7/syntax/courtyard_islands-bicycle.json",
+      "size_bytes": 44992,
+      "sha256": "ab3a71176d8e9bc400073229a4e83f942da17030a4eb946d8f2a219ee89a8227",
+      "description": "NET2 第 7 輪 v3 語法（12 組）: courtyard_islands-bicycle.json"
+    },
+    {
+      "category": "result",
+      "path": "artifacts/net2/round-7/syntax/courtyard_islands-motor_vehicle-road-receipts.json",
+      "size_bytes": 12671,
+      "sha256": "a66f2d850a973e5bf3dbea8c21b0ec27011958ebf081c02ec7debb5575c671de",
+      "description": "NET2 第 7 輪 v3 語法（12 組）: courtyard_islands-motor_vehicle-road-receipts.json"
+    },
+    {
+      "category": "result",
+      "path": "artifacts/net2/round-7/syntax/courtyard_islands-motor_vehicle.json",
+      "size_bytes": 40292,
+      "sha256": "ca927b4c602812bf39b09ae59d639250d0a31235b69a9d7c4b9dd3e4c59210df",
+      "description": "NET2 第 7 輪 v3 語法（12 組）: courtyard_islands-motor_vehicle.json"
+    },
+    {
+      "category": "result",
+      "path": "artifacts/net2/round-7/syntax/courtyard_islands-pedestrian-road-receipts.json",
+      "size_bytes": 17078,
+      "sha256": "ff517b4bd75c8505afd4ef9471392c076f30420df6f4d1c250d9517eec6fa562",
+      "description": "NET2 第 7 輪 v3 語法（12 組）: courtyard_islands-pedestrian-road-receipts.json"
+    },
+    {
+      "category": "result",
+      "path": "artifacts/net2/round-7/syntax/courtyard_islands-pedestrian.json",
+      "size_bytes": 45575,
+      "sha256": "fba162c6d397d72249ca91dc9442ed904ac9e7ccd7c5679f3f3289918fb8c6f4",
+      "description": "NET2 第 7 輪 v3 語法（12 組）: courtyard_islands-pedestrian.json"
+    },
+    {
+      "category": "result",
+      "path": "artifacts/net2/round-7/syntax/harbour_grain-bicycle-road-receipts.json",
+      "size_bytes": 13315,
+      "sha256": "10ab7f707d4c92b6edda69a771bb7605b3f95659e662b0f25898f74aa17930e6",
+      "description": "NET2 第 7 輪 v3 語法（12 組）: harbour_grain-bicycle-road-receipts.json"
+    },
+    {
+      "category": "result",
+      "path": "artifacts/net2/round-7/syntax/harbour_grain-bicycle.json",
+      "size_bytes": 63074,
+      "sha256": "91bf81e5d542fda3b42da6fea7240a96bbad6aa16f14cecc59df31dc4f0e8071",
+      "description": "NET2 第 7 輪 v3 語法（12 組）: harbour_grain-bicycle.json"
+    },
+    {
+      "category": "result",
+      "path": "artifacts/net2/round-7/syntax/harbour_grain-motor_vehicle-road-receipts.json",
+      "size_bytes": 12671,
+      "sha256": "a66f2d850a973e5bf3dbea8c21b0ec27011958ebf081c02ec7debb5575c671de",
+      "description": "NET2 第 7 輪 v3 語法（12 組）: harbour_grain-motor_vehicle-road-receipts.json"
+    },
+    {
+      "category": "result",
+      "path": "artifacts/net2/round-7/syntax/harbour_grain-motor_vehicle.json",
+      "size_bytes": 57219,
+      "sha256": "a914d39e62b3af4f900e29fdc2eacc94a6698db0c94ce66600af117fef081d89",
+      "description": "NET2 第 7 輪 v3 語法（12 組）: harbour_grain-motor_vehicle.json"
+    },
+    {
+      "category": "result",
+      "path": "artifacts/net2/round-7/syntax/harbour_grain-pedestrian-road-receipts.json",
+      "size_bytes": 17078,
+      "sha256": "ff517b4bd75c8505afd4ef9471392c076f30420df6f4d1c250d9517eec6fa562",
+      "description": "NET2 第 7 輪 v3 語法（12 組）: harbour_grain-pedestrian-road-receipts.json"
+    },
+    {
+      "category": "result",
+      "path": "artifacts/net2/round-7/syntax/harbour_grain-pedestrian.json",
+      "size_bytes": 63615,
+      "sha256": "d1e4c4c04d97107181db3afe4678a335aa68e227feff30156e6acabccee6a228",
+      "description": "NET2 第 7 輪 v3 語法（12 組）: harbour_grain-pedestrian.json"
+    },
+    {
+      "category": "result",
+      "path": "artifacts/net2/round-7/syntax/landscape_figure-bicycle-road-receipts.json",
+      "size_bytes": 13315,
+      "sha256": "10ab7f707d4c92b6edda69a771bb7605b3f95659e662b0f25898f74aa17930e6",
+      "description": "NET2 第 7 輪 v3 語法（12 組）: landscape_figure-bicycle-road-receipts.json"
+    },
+    {
+      "category": "result",
+      "path": "artifacts/net2/round-7/syntax/landscape_figure-bicycle.json",
+      "size_bytes": 50714,
+      "sha256": "095f6e6bcf0c66ee2c7d62ad322dc974bf00919d73315b452ed20a1eae6c53a3",
+      "description": "NET2 第 7 輪 v3 語法（12 組）: landscape_figure-bicycle.json"
+    },
+    {
+      "category": "result",
+      "path": "artifacts/net2/round-7/syntax/landscape_figure-motor_vehicle-road-receipts.json",
+      "size_bytes": 12671,
+      "sha256": "a66f2d850a973e5bf3dbea8c21b0ec27011958ebf081c02ec7debb5575c671de",
+      "description": "NET2 第 7 輪 v3 語法（12 組）: landscape_figure-motor_vehicle-road-receipts.json"
+    },
+    {
+      "category": "result",
+      "path": "artifacts/net2/round-7/syntax/landscape_figure-motor_vehicle.json",
+      "size_bytes": 46521,
+      "sha256": "c4ace4bb6879352b3dccf8f91b2d95b7378c896c4d188cbc12ef74ec2d7a947e",
+      "description": "NET2 第 7 輪 v3 語法（12 組）: landscape_figure-motor_vehicle.json"
+    },
+    {
+      "category": "result",
+      "path": "artifacts/net2/round-7/syntax/landscape_figure-pedestrian-road-receipts.json",
+      "size_bytes": 17078,
+      "sha256": "ff517b4bd75c8505afd4ef9471392c076f30420df6f4d1c250d9517eec6fa562",
+      "description": "NET2 第 7 輪 v3 語法（12 組）: landscape_figure-pedestrian-road-receipts.json"
+    },
+    {
+      "category": "result",
+      "path": "artifacts/net2/round-7/syntax/landscape_figure-pedestrian.json",
+      "size_bytes": 52053,
+      "sha256": "5d37beed98655e0fbe6e040d2ef26ec91c064e7d8cb9ff1e485faa859d9ff4b2",
+      "description": "NET2 第 7 輪 v3 語法（12 組）: landscape_figure-pedestrian.json"
+    },
+    {
+      "category": "result",
+      "path": "artifacts/net2/round-7/syntax/syntax-summary.json",
+      "size_bytes": 683713,
+      "sha256": "b9408e370b42b63c97a045b7d1f83bac4e81e2c0bb0e2b6309ff81d1eef0055b",
+      "description": "NET2 第 7 輪 v3 語法（12 組）: syntax-summary.json"
+    },
+    {
+      "category": "result",
+      "path": "artifacts/net2/round-7/syntax/segments/closed_block_extension-bicycle.geojson",
+      "size_bytes": 2746804,
+      "sha256": "2536d67cb7802c6e7b82b9f5820995fa958d61b29b6410b9e4b71de6c680f245",
+      "description": "NET2 第 7 輪 v3 語法（12 組）: closed_block_extension-bicycle.geojson"
+    },
+    {
+      "category": "result",
+      "path": "artifacts/net2/round-7/syntax/segments/closed_block_extension-motor_vehicle.geojson",
+      "size_bytes": 2174086,
+      "sha256": "a77fcd5345887e0d57f0d314e30bc002e46faf9899b9a14383b5f0fdc9049665",
+      "description": "NET2 第 7 輪 v3 語法（12 組）: closed_block_extension-motor_vehicle.geojson"
+    },
+    {
+      "category": "result",
+      "path": "artifacts/net2/round-7/syntax/segments/closed_block_extension-pedestrian.geojson",
+      "size_bytes": 4636050,
+      "sha256": "6e44711aa2af38a96ef8f26a8a0b33550ba167dbdd94d4b2279f942178ea644d",
+      "description": "NET2 第 7 輪 v3 語法（12 組）: closed_block_extension-pedestrian.geojson"
+    },
+    {
+      "category": "result",
+      "path": "artifacts/net2/round-7/syntax/segments/courtyard_islands-bicycle.geojson",
+      "size_bytes": 2685248,
+      "sha256": "5f7ff1a3062e0f825f6d493097a32b5c710643ded6a58fcf041acce77a4adaab",
+      "description": "NET2 第 7 輪 v3 語法（12 組）: courtyard_islands-bicycle.geojson"
+    },
+    {
+      "category": "result",
+      "path": "artifacts/net2/round-7/syntax/segments/courtyard_islands-motor_vehicle.geojson",
+      "size_bytes": 2181316,
+      "sha256": "73c079739b668b3399b143fb7877107e95dde4018c966d0aa92e42c39a75112f",
+      "description": "NET2 第 7 輪 v3 語法（12 組）: courtyard_islands-motor_vehicle.geojson"
+    },
+    {
+      "category": "result",
+      "path": "artifacts/net2/round-7/syntax/segments/courtyard_islands-pedestrian.geojson",
+      "size_bytes": 4566310,
+      "sha256": "e71d145f3c534516f5aec9644ef5352ae8c9490fbc2a3dfe642fa0c18a305842",
+      "description": "NET2 第 7 輪 v3 語法（12 組）: courtyard_islands-pedestrian.geojson"
+    },
+    {
+      "category": "result",
+      "path": "artifacts/net2/round-7/syntax/segments/harbour_grain-bicycle.geojson",
+      "size_bytes": 2892529,
+      "sha256": "a0585a650330e919eff63de637639701e58ff8c671f6d5ede2ae8338e61cdcfa",
+      "description": "NET2 第 7 輪 v3 語法（12 組）: harbour_grain-bicycle.geojson"
+    },
+    {
+      "category": "result",
+      "path": "artifacts/net2/round-7/syntax/segments/harbour_grain-motor_vehicle.geojson",
+      "size_bytes": 2356636,
+      "sha256": "5a251e4a4811501411c06ada3bd331085ed585f7eb9bb45207c89168dfd7a464",
+      "description": "NET2 第 7 輪 v3 語法（12 組）: harbour_grain-motor_vehicle.geojson"
+    },
+    {
+      "category": "result",
+      "path": "artifacts/net2/round-7/syntax/segments/harbour_grain-pedestrian.geojson",
+      "size_bytes": 4764602,
+      "sha256": "7cc79424c013be821d186fab2e6b2829105d8eee5e60a09fcf4b441c9031aadb",
+      "description": "NET2 第 7 輪 v3 語法（12 組）: harbour_grain-pedestrian.geojson"
+    },
+    {
+      "category": "result",
+      "path": "artifacts/net2/round-7/syntax/segments/landscape_figure-bicycle.geojson",
+      "size_bytes": 2728445,
+      "sha256": "91d23ab30712c8ce759d0fee6e95c7f25c61dfbbc40557ec749ebb43f5a908a9",
+      "description": "NET2 第 7 輪 v3 語法（12 組）: landscape_figure-bicycle.geojson"
+    },
+    {
+      "category": "result",
+      "path": "artifacts/net2/round-7/syntax/segments/landscape_figure-motor_vehicle.geojson",
+      "size_bytes": 2215475,
+      "sha256": "c83104792fce61969df6a07b9032fe578a631d40318f57292eb45ba80427785a",
+      "description": "NET2 第 7 輪 v3 語法（12 組）: landscape_figure-motor_vehicle.geojson"
+    },
+    {
+      "category": "result",
+      "path": "artifacts/net2/round-7/syntax/segments/landscape_figure-pedestrian.geojson",
+      "size_bytes": 4617094,
+      "sha256": "29dd6351b74956c6dd3980bd4b6c45380a3e499dfcb05b1cfbeb040a08c44ff1",
+      "description": "NET2 第 7 輪 v3 語法（12 組）: landscape_figure-pedestrian.geojson"
+    },
+    {
+      "category": "result",
+      "path": "artifacts/net2/round-7/syntax/segments/closed_block_extension-bicycle.receipt.json",
+      "size_bytes": 278,
+      "sha256": "4bdaba4946707d7f5baddf4a17c98a94228e726b7780f831d3b90992441750b9",
+      "description": "NET2 第 7 輪 v3 語法（12 組）: closed_block_extension-bicycle.receipt.json"
+    },
+    {
+      "category": "result",
+      "path": "artifacts/net2/round-7/syntax/segments/closed_block_extension-motor_vehicle.receipt.json",
+      "size_bytes": 284,
+      "sha256": "4d3207ef26879172ea5b62393813f8c9bd37a30fc007b7653920bd010d65f75f",
+      "description": "NET2 第 7 輪 v3 語法（12 組）: closed_block_extension-motor_vehicle.receipt.json"
+    },
+    {
+      "category": "result",
+      "path": "artifacts/net2/round-7/syntax/segments/closed_block_extension-pedestrian.receipt.json",
+      "size_bytes": 281,
+      "sha256": "ca2dc6f314b16cc47333c08c259c796110ab21513384e8e44300429fa13e209c",
+      "description": "NET2 第 7 輪 v3 語法（12 組）: closed_block_extension-pedestrian.receipt.json"
+    },
+    {
+      "category": "result",
+      "path": "artifacts/net2/round-7/syntax/segments/courtyard_islands-bicycle.receipt.json",
+      "size_bytes": 273,
+      "sha256": "a29c8d70a965522598c982b9641c2ceb80a95ce607a5235ea2883d6735d043ba",
+      "description": "NET2 第 7 輪 v3 語法（12 組）: courtyard_islands-bicycle.receipt.json"
+    },
+    {
+      "category": "result",
+      "path": "artifacts/net2/round-7/syntax/segments/courtyard_islands-motor_vehicle.receipt.json",
+      "size_bytes": 279,
+      "sha256": "15a9677e7ff4d9c4c4055be023e75c84612691e70665e14b69684b8cd2b2d823",
+      "description": "NET2 第 7 輪 v3 語法（12 組）: courtyard_islands-motor_vehicle.receipt.json"
+    },
+    {
+      "category": "result",
+      "path": "artifacts/net2/round-7/syntax/segments/courtyard_islands-pedestrian.receipt.json",
+      "size_bytes": 276,
+      "sha256": "33bc8cd31b6b8a42e7587512a7a4fe3813b46e50541d0de2fbe73c2eb9348960",
+      "description": "NET2 第 7 輪 v3 語法（12 組）: courtyard_islands-pedestrian.receipt.json"
+    },
+    {
+      "category": "result",
+      "path": "artifacts/net2/round-7/syntax/segments/harbour_grain-bicycle.receipt.json",
+      "size_bytes": 269,
+      "sha256": "5b7d81b1984f3244266e0b869366f7c79965d4a8154771187f42b2312b1b9d48",
+      "description": "NET2 第 7 輪 v3 語法（12 組）: harbour_grain-bicycle.receipt.json"
+    },
+    {
+      "category": "result",
+      "path": "artifacts/net2/round-7/syntax/segments/harbour_grain-motor_vehicle.receipt.json",
+      "size_bytes": 275,
+      "sha256": "32c6f4d402bee6385e0108a149931fe93d51893e75b7e4c7d8a542faada57ddb",
+      "description": "NET2 第 7 輪 v3 語法（12 組）: harbour_grain-motor_vehicle.receipt.json"
+    },
+    {
+      "category": "result",
+      "path": "artifacts/net2/round-7/syntax/segments/harbour_grain-pedestrian.receipt.json",
+      "size_bytes": 272,
+      "sha256": "b809e97c4b411a1b9312a0428c1ff30f3a295e2dc731e9ab620d753bf0f1940a",
+      "description": "NET2 第 7 輪 v3 語法（12 組）: harbour_grain-pedestrian.receipt.json"
+    },
+    {
+      "category": "result",
+      "path": "artifacts/net2/round-7/syntax/segments/landscape_figure-bicycle.receipt.json",
+      "size_bytes": 272,
+      "sha256": "18656cac12c0938d9d218f28f6f2e19af0e6cdf374df7d9411572bfec208219e",
+      "description": "NET2 第 7 輪 v3 語法（12 組）: landscape_figure-bicycle.receipt.json"
+    },
+    {
+      "category": "result",
+      "path": "artifacts/net2/round-7/syntax/segments/landscape_figure-motor_vehicle.receipt.json",
+      "size_bytes": 278,
+      "sha256": "e2b262672b074277887aa973a7f95c1ad9854724833f7e46e81724adf32be4ce",
+      "description": "NET2 第 7 輪 v3 語法（12 組）: landscape_figure-motor_vehicle.receipt.json"
+    },
+    {
+      "category": "result",
+      "path": "artifacts/net2/round-7/syntax/segments/landscape_figure-pedestrian.receipt.json",
+      "size_bytes": 275,
+      "sha256": "90fa75d359a50128763e3129eb936a6769c7769622d8abb4e038ce732ecc0ae7",
+      "description": "NET2 第 7 輪 v3 語法（12 組）: landscape_figure-pedestrian.receipt.json"
+    },
+    {
+      "category": "result",
+      "path": "artifacts/net2/round-7/v3-export/net2-assessment.json",
+      "size_bytes": 1423595,
+      "sha256": "755386f30b8252df7f1ffcae9d404b57d6c10c24b1009c02e548086784efba4f",
+      "description": "NET2 第 7 輪 v3 評估: net2-assessment.json"
+    },
+    {
+      "category": "result",
+      "path": "artifacts/net2/round-7/v3-export/net2-table-zh.md",
+      "size_bytes": 9912,
+      "sha256": "993d124952cd307289c9f52de03a95b8b8f46854c34062863f0ab69cb5d54eac",
+      "description": "NET2 第 7 輪 v3 評估: net2-table-zh.md"
+    },
+    {
+      "category": "result",
+      "path": "artifacts/w8/figures/round-7-v3/closed_block_extension-axonometric.png",
+      "size_bytes": 245583,
+      "sha256": "2c22575dfe198aa75062577ef026fb6c8eccce37551c95989091244c42e60a79",
+      "description": "W8 報告圖組: closed_block_extension-axonometric.png"
+    },
+    {
+      "category": "result",
+      "path": "artifacts/w8/figures/round-7-v3/closed_block_extension-existing-site.png",
+      "size_bytes": 347242,
+      "sha256": "aabf3c853513eb51fab3a6894cc41ca2debe003d37cde22236a52b4c20f3b959",
+      "description": "W8 報告圖組: closed_block_extension-existing-site.png"
+    },
+    {
+      "category": "result",
+      "path": "artifacts/w8/figures/round-7-v3/closed_block_extension-massing.png",
+      "size_bytes": 510353,
+      "sha256": "dc44a122c259ca9e2bdc584f2e036e2bdb601b2904b5be5a0b8c1ef83d55b563",
+      "description": "W8 報告圖組: closed_block_extension-massing.png"
+    },
+    {
+      "category": "result",
+      "path": "artifacts/w8/figures/round-7-v3/closed_block_extension-perspective.png",
+      "size_bytes": 183822,
+      "sha256": "573ee9d0c1d693ec56e643395d589fbaba1fb02232ccdf71d1639d10416cee15",
+      "description": "W8 報告圖組: closed_block_extension-perspective.png"
+    },
+    {
+      "category": "result",
+      "path": "artifacts/w8/figures/round-7-v3/closed_block_extension-syntax-after.png",
+      "size_bytes": 415675,
+      "sha256": "c38c2c37471faad003416dfab820eae453d7f77aac9dec5930c6f9ae5e021944",
+      "description": "W8 報告圖組: closed_block_extension-syntax-after.png"
+    },
+    {
+      "category": "result",
+      "path": "artifacts/w8/figures/round-7-v3/closed_block_extension-syntax-delta.png",
+      "size_bytes": 449684,
+      "sha256": "d538dd3ad18f9c2b1c713b71f1881233a819a6d199c01626722812f44df81396",
+      "description": "W8 報告圖組: closed_block_extension-syntax-delta.png"
+    },
+    {
+      "category": "result",
+      "path": "artifacts/w8/figures/round-7-v3/comparison-massing.png",
+      "size_bytes": 892751,
+      "sha256": "439aacc63bd332f2a9169732f776682b8a7dd555fca28d8ecfcaec1fd69b0cdc",
+      "description": "W8 報告圖組: comparison-massing.png"
+    },
+    {
+      "category": "result",
+      "path": "artifacts/w8/figures/round-7-v3/courtyard_islands-axonometric.png",
+      "size_bytes": 241266,
+      "sha256": "6d49ab3ff31e4a28399e333d37c88de664990894a9894761c946b1d5d8ef2928",
+      "description": "W8 報告圖組: courtyard_islands-axonometric.png"
+    },
+    {
+      "category": "result",
+      "path": "artifacts/w8/figures/round-7-v3/courtyard_islands-existing-site.png",
+      "size_bytes": 347133,
+      "sha256": "9e469d7a843ca6f1c861cd1cb5cf329ebf26e47fb848f894a229d16a8d120cd4",
+      "description": "W8 報告圖組: courtyard_islands-existing-site.png"
+    },
+    {
+      "category": "result",
+      "path": "artifacts/w8/figures/round-7-v3/courtyard_islands-massing.png",
+      "size_bytes": 500859,
+      "sha256": "586345a869493d527a1afa00bd07138343287cae6c24e3da35d3b9c48ed5809f",
+      "description": "W8 報告圖組: courtyard_islands-massing.png"
+    },
+    {
+      "category": "result",
+      "path": "artifacts/w8/figures/round-7-v3/courtyard_islands-perspective.png",
+      "size_bytes": 182042,
+      "sha256": "1ed5d2f3e43a3a0320c4aa52e9253263a4134bc8f41c64f8b379dd8c6d5eba26",
+      "description": "W8 報告圖組: courtyard_islands-perspective.png"
+    },
+    {
+      "category": "result",
+      "path": "artifacts/w8/figures/round-7-v3/courtyard_islands-syntax-after.png",
+      "size_bytes": 413569,
+      "sha256": "1f2f2d20a1d9582c48a54dfe4f7ecaea541cc50e4cfdb0574994adada03bc1b4",
+      "description": "W8 報告圖組: courtyard_islands-syntax-after.png"
+    },
+    {
+      "category": "result",
+      "path": "artifacts/w8/figures/round-7-v3/courtyard_islands-syntax-delta.png",
+      "size_bytes": 445365,
+      "sha256": "dbca2f8af4c4f0897699bf583ef5ea9326bd8824496fd7948dff62b54cf999d2",
+      "description": "W8 報告圖組: courtyard_islands-syntax-delta.png"
+    },
+    {
+      "category": "result",
+      "path": "artifacts/w8/figures/round-7-v3/harbour_grain-axonometric.png",
+      "size_bytes": 249309,
+      "sha256": "5929e9cc245e538622ca808fde2b190c55c31b326d0897d71e40b989e1eb373a",
+      "description": "W8 報告圖組: harbour_grain-axonometric.png"
+    },
+    {
+      "category": "result",
+      "path": "artifacts/w8/figures/round-7-v3/harbour_grain-existing-site.png",
+      "size_bytes": 348110,
+      "sha256": "018597b2678abdd8ae747f68918ff3af4323122f4a95bb27d1c7f55ad6482482",
+      "description": "W8 報告圖組: harbour_grain-existing-site.png"
+    },
+    {
+      "category": "result",
+      "path": "artifacts/w8/figures/round-7-v3/harbour_grain-massing.png",
+      "size_bytes": 516730,
+      "sha256": "68f4183d6a422a0a1632b3af4ad71f491eb2d70068c7aff9471e86065d2cb828",
+      "description": "W8 報告圖組: harbour_grain-massing.png"
+    },
+    {
+      "category": "result",
+      "path": "artifacts/w8/figures/round-7-v3/harbour_grain-perspective.png",
+      "size_bytes": 183516,
+      "sha256": "9fb24f349a7d0d0e0a491adec37959f458aefc1aa29722dd34282ef9a6854fd1",
+      "description": "W8 報告圖組: harbour_grain-perspective.png"
+    },
+    {
+      "category": "result",
+      "path": "artifacts/w8/figures/round-7-v3/harbour_grain-syntax-after.png",
+      "size_bytes": 415681,
+      "sha256": "99f11b544f647027b0bfe4896b65fa3ef9fcac3ed4c85c79450fe1552104c969",
+      "description": "W8 報告圖組: harbour_grain-syntax-after.png"
+    },
+    {
+      "category": "result",
+      "path": "artifacts/w8/figures/round-7-v3/harbour_grain-syntax-delta.png",
+      "size_bytes": 445202,
+      "sha256": "ea74f2ad7cc6a4764fd316421e08a409ba0e4c1a6cfa21d655c45dfeafd7339d",
+      "description": "W8 報告圖組: harbour_grain-syntax-delta.png"
+    },
+    {
+      "category": "result",
+      "path": "artifacts/w8/figures/round-7-v3/landscape_figure-axonometric.png",
+      "size_bytes": 238228,
+      "sha256": "d4d4cad5914331b9b0dd6823758d03b98f0177dbd7e3690cc0cb9e5134025742",
+      "description": "W8 報告圖組: landscape_figure-axonometric.png"
+    },
+    {
+      "category": "result",
+      "path": "artifacts/w8/figures/round-7-v3/landscape_figure-existing-site.png",
+      "size_bytes": 345075,
+      "sha256": "b19cd240faa78aee81caf02a50d00d21cb622780f56607e9351237feb132a4ee",
+      "description": "W8 報告圖組: landscape_figure-existing-site.png"
+    },
+    {
+      "category": "result",
+      "path": "artifacts/w8/figures/round-7-v3/landscape_figure-massing.png",
+      "size_bytes": 499777,
+      "sha256": "1beb3adfae790a509fa091f6f4246b352de2ebb06b1ad414e87fc7f715e409a0",
+      "description": "W8 報告圖組: landscape_figure-massing.png"
+    },
+    {
+      "category": "result",
+      "path": "artifacts/w8/figures/round-7-v3/landscape_figure-perspective.png",
+      "size_bytes": 182206,
+      "sha256": "5140036daafe4f863fa0214044a2e4fb0cd0bcbb4270d5ae522dde1e1618f833",
+      "description": "W8 報告圖組: landscape_figure-perspective.png"
+    },
+    {
+      "category": "result",
+      "path": "artifacts/w8/figures/round-7-v3/landscape_figure-syntax-after.png",
+      "size_bytes": 405540,
+      "sha256": "e4f83b571d27cad8c83e5b2a81f83b24079ce820de6776bffd1c7225c2b613a7",
+      "description": "W8 報告圖組: landscape_figure-syntax-after.png"
+    },
+    {
+      "category": "result",
+      "path": "artifacts/w8/figures/round-7-v3/landscape_figure-syntax-delta.png",
+      "size_bytes": 436703,
+      "sha256": "7fe484303f1374f245e1212dcc923b448795076ed5eda7ba4e14c219cec11b90",
+      "description": "W8 報告圖組: landscape_figure-syntax-delta.png"
+    },
+    {
+      "category": "result",
+      "path": "artifacts/w8/figures/round-7-v3/manifest.json",
+      "size_bytes": 40716,
+      "sha256": "85ecf9c70a49d8d048079233d912784edfdf56d42124722a80f0ac37348451da",
+      "description": "W8 報告圖組: manifest.json"
+    },
+    {
+      "category": "dependency",
+      "path": "dependency:pip_freeze",
+      "size_bytes": 64,
+      "sha256": "2433637bb7d6a2a38ff0bf92a43b5cdf521a15b454ba2e2cf74fbcc205df92af",
+      "description": "Python 虛擬環境套件清單 (pip freeze, 64 套件)"
+    },
+    {
+      "category": "dependency",
+      "path": "web/package-lock.json",
+      "size_bytes": 99385,
+      "sha256": "b915a71c081ac5a59eb79bd9f1322f4aa5d2ee01e36051bd1ace117c2518463d",
+      "description": "前端 Web npm package-lock.json 鎖定檔"
+    },
+    {
+      "category": "runtime",
+      "path": "runtime:python",
+      "size_bytes": 7,
+      "sha256": "060069118579cda4d81b459fdc857131d1dbb590eba42f9b12aa6e3103d6583f",
+      "description": "Python 執行期版本: 3.12.13"
+    },
+    {
+      "category": "runtime",
+      "path": "runtime:node",
+      "size_bytes": 8,
+      "sha256": "c4706d8d3a417388bca1e2f81d0b2d6c6d3065b518f954f89add9e7ccef3ed41",
+      "description": "Node.js 執行期版本: v22.22.3"
+    },
+    {
+      "category": "runtime",
+      "path": "runtime:pstalgo",
+      "size_bytes": 5,
+      "sha256": "351234abac2bf08074df7a3f3b3bc469885bc916f9055e89ae5c1e182686bca6",
+      "description": "PST (Place Syntax Tool) 空間語法版本: 3.3.1"
+    },
+    {
+      "category": "runtime",
+      "path": "runtime:radiance",
+      "size_bytes": 47,
+      "sha256": "485fe4ad7cc680646d36213ac48752321f105bbbaf7dd4cbc757ce173bc52466",
+      "description": "Radiance 日照模擬版本: RADIANCE 6.0.2 2026-02-02 LBNL (6.0.c1700d56cc)"
+    },
+    {
+      "category": "runtime",
+      "path": "runtime:qgis",
+      "size_bytes": 26,
+      "sha256": "6e3f19e795f95996c5555b484a1b4565afd064948880e9b42fa3bb22b4369c54",
+      "description": "QGIS 應用程式路徑狀態: /Applications/QGIS-LTR.app (存在: True, 版本: 3.40.5-Bratislava)"
+    },
+    {
+      "category": "model_prompt",
+      "path": "config/model-providers.json",
+      "size_bytes": 3123,
+      "sha256": "64d9d25e0e4b1d735841c6236dad57f3335cd6e2ba959f8c23e279396c4e796a",
+      "description": "Live AI 模型與 Provider 路由設定 (不含任何密鑰)"
+    },
+    {
+      "category": "model_prompt",
+      "path": "docs/prompts/2026-09-22-antigravity-gemini-3.8-week4-execution.md",
+      "size_bytes": 17748,
+      "sha256": "924e970eef35640747f906348677c9b20f5b98b7ffe8368d05a230791687cdc2",
+      "description": "模型 Prompt 範本規格文件: 2026-09-22-antigravity-gemini-3.8-week4-execution.md"
+    },
+    {
+      "category": "model_prompt",
+      "path": "docs/prompts/2026-09-22-luna-week4-repair-r02.md",
+      "size_bytes": 8864,
+      "sha256": "d5a7cbb0a0b23a227ab45d3a51af8cb92facb9bf7a0fbc3d89d79a79cc7a1509",
+      "description": "模型 Prompt 範本規格文件: 2026-09-22-luna-week4-repair-r02.md"
+    },
+    {
+      "category": "model_prompt",
+      "path": "docs/prompts/2026-09-25-antigravity-week4-closeout.md",
+      "size_bytes": 5937,
+      "sha256": "cbdce8462c94b60884df73cc7ae2d4fb137faf2b8c6f1f74eeded6051c3d7a17",
+      "description": "模型 Prompt 範本規格文件: 2026-09-25-antigravity-week4-closeout.md"
+    },
+    {
+      "category": "model_prompt",
+      "path": "docs/prompts/2026-09-25-gemini-3.8-flash-w6-precursor.md",
+      "size_bytes": 4567,
+      "sha256": "c8a8fff99debcdda5072637985bf3975da987f128f97e6b6714fdcaf5a8f8ae9",
+      "description": "模型 Prompt 範本規格文件: 2026-09-25-gemini-3.8-flash-w6-precursor.md"
+    },
+    {
+      "category": "model_prompt",
+      "path": "docs/prompts/2026-09-25-luna-max-week5-execution.md",
+      "size_bytes": 7725,
+      "sha256": "3b62e52d7e9f91165031463249575aad1259e496e1e1adaa2851e0d68e413702",
+      "description": "模型 Prompt 範本規格文件: 2026-09-25-luna-max-week5-execution.md"
+    },
+    {
+      "category": "model_prompt",
+      "path": "docs/prompts/2026-10-06-approval-binding-audit-followup-zh.md",
+      "size_bytes": 3885,
+      "sha256": "d8689ca2130b540c02238bf3364f68779c0f81a6c3a5933cdcebee336b0eacaf",
+      "description": "模型 Prompt 範本規格文件: 2026-10-06-approval-binding-audit-followup-zh.md"
+    },
+    {
+      "category": "model_prompt",
+      "path": "docs/prompts/2026-10-06-decision-resolution-repair-pending-policy-zh.md",
+      "size_bytes": 3673,
+      "sha256": "b3bc387621aba77ac1718ac5fc4b36ad50aaf84e0ff28888e25b02e0dfb90793",
+      "description": "模型 Prompt 範本規格文件: 2026-10-06-decision-resolution-repair-pending-policy-zh.md"
+    },
+    {
+      "category": "model_prompt",
+      "path": "docs/prompts/2026-10-06-decision-resolver-spec-r02-review-notes-zh.md",
+      "size_bytes": 2030,
+      "sha256": "4192aeb404f07e16f90e095003903d35edd11b7db8bc9eb93b4bbd08d4b57d49",
+      "description": "模型 Prompt 範本規格文件: 2026-10-06-decision-resolver-spec-r02-review-notes-zh.md"
+    },
+    {
+      "category": "model_prompt",
+      "path": "docs/prompts/2026-10-06-w6-w7-high-tier-integration-review-zh.md",
+      "size_bytes": 7541,
+      "sha256": "4bc69be76cf55b0919512d1adb4742e822bea230f086fe82e14b5cb67578e9cb",
+      "description": "模型 Prompt 範本規格文件: 2026-10-06-w6-w7-high-tier-integration-review-zh.md"
+    },
+    {
+      "category": "model_prompt",
+      "path": "docs/w6/live-ai-acceptance-packet-20261005T0000Z.md",
+      "size_bytes": 5524,
+      "sha256": "9d5febf656e48bece3d7fa2022487b6bf7fe7494a4c7422fe3612728306fa527",
+      "description": "Live AI 驗收認證與規格封包"
+    },
+    {
+      "category": "git",
+      "path": "git:head",
+      "size_bytes": 40,
+      "sha256": "4c4e82e30e5400b26ed7bc08755c05ef6ed3cf937fec1dd22451635266a74c32",
+      "description": "Git HEAD Commit: caa33f4073b7825f52017f7bc8b4f55c401b7f17"
+    }
+  ]
+}

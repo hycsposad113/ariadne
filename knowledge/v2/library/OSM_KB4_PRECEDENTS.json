@@ -1,0 +1,176 @@
+{
+  "id": "OSM_KB4_PRECEDENTS",
+  "title": "OpenStreetMap KB4 precedent snapshots",
+  "authors": [
+    "OpenStreetMap contributors"
+  ],
+  "year": null,
+  "venue_or_publisher": "OpenStreetMap / Overpass API",
+  "doi": null,
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "OPEN_DATASET",
+  "tradition": "都市形態測量與先例研究",
+  "region": "跨城市公開資料",
+  "method": "明列資料快照、欄位和計算界線",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "本資料集記錄 KB4 研究窗的 OSM 建築、道路、水體與岸線快照；每筆回應以 SHA-256 和資料時間戳識別。",
+      "strength": "CASE_EVIDENCE",
+      "scope_zh": "只支持可檢查的資料來源與欄位，不支持完整性或規範性推論。",
+      "assessment_basis": "DIRECT_DATA_SNAPSHOT_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Overpass API",
+    "query": {
+      "title": "OpenStreetMap KB4 precedent snapshots"
+    },
+    "matched_record_id": "fa2a80c516a0dd199e312ec892c9801d3ee41d804faa55106c7912a1bec63e7b;ddb120233aea45ad7bd63e06916b925b2b704064b9118bf09bc2d84ac12940f6;0a19bb333c477870149540bc16a11dca9c5fd83465ac3b250a8e5aac9a5ee984;b3f4a8531fa582c24f899edb59a7f6f1a8179775826ce18ccfbfed63ce0ec0c0;f03aa39da46bd987bb1550595447784ab3283e33d66f2e1814b67205e616a111;d75daa1f3632f4671b52acab8ec94eb957160d5d3e89458054225456bc76394a;e9e6f95b3478affaa36dff81b8bb6dc6723bad894487a3dd2f42526d449d5406;2438b5efc396ec49be7e6d27d6866e7e937366eb7d6fa1ce2f5393c243b5eb08;e1650685281bbb7dc9c834d1d14044a1a3bd41e427b2ac5bcdc05f7b412d717c;f13f965461759efdd21f5e3133b47634cc52c6440630c557e56cced874b26236;6f4631c88023108b26801b0be81d5754d3b2f3c11c4a28e991de44b448ab65ba;ac7daeee461097d2b339fe346236e32e042e0e46ee06d0eb6027c6574c2e0b45",
+    "checked_at_utc": "2026-10-09T11:17:31Z",
+    "match_notes_zh": "逐筆核對可保存回應、檔案雜湊與服務欄位。",
+    "url": "https://overpass-api.de/api/interpreter",
+    "accessed_utc": "2026-10-09"
+  },
+  "limitations_zh": "OSM 為社群編輯觀察資料，可能缺漏；幾何不證明現場通行權或法定基地邊界。",
+  "metadata_licence_zh": "公開服務來源 metadata 與自行撰寫測量範圍說明。",
+  "snapshot_manifest": [
+    {
+      "slug": "borneo-sporenburg",
+      "path": "artifacts/kb4-precedents/raw/osm-borneo-sporenburg.json",
+      "sha256": "fa2a80c516a0dd199e312ec892c9801d3ee41d804faa55106c7912a1bec63e7b",
+      "base_timestamp": "2026-10-09T10:29:49Z",
+      "element_count": 278
+    },
+    {
+      "slug": "java-eiland",
+      "path": "artifacts/kb4-precedents/raw/osm-java-eiland.json",
+      "sha256": "ddb120233aea45ad7bd63e06916b925b2b704064b9118bf09bc2d84ac12940f6",
+      "base_timestamp": "2026-10-09T10:29:49Z",
+      "element_count": 211
+    },
+    {
+      "slug": "knsm-eiland",
+      "path": "artifacts/kb4-precedents/raw/osm-knsm-eiland.json",
+      "sha256": "0a19bb333c477870149540bc16a11dca9c5fd83465ac3b250a8e5aac9a5ee984",
+      "base_timestamp": "2026-10-09T10:35:00Z",
+      "element_count": 7
+    },
+    {
+      "slug": "ijburg-haveneiland",
+      "path": "artifacts/kb4-precedents/raw/osm-ijburg-haveneiland.json",
+      "sha256": "b3f4a8531fa582c24f899edb59a7f6f1a8179775826ce18ccfbfed63ce0ec0c0",
+      "base_timestamp": "2026-10-09T10:29:49Z",
+      "element_count": 439
+    },
+    {
+      "slug": "kop-van-zuid-wilhelminapier",
+      "path": "artifacts/kb4-precedents/raw/osm-kop-van-zuid-wilhelminapier.json",
+      "sha256": "f03aa39da46bd987bb1550595447784ab3283e33d66f2e1814b67205e616a111",
+      "base_timestamp": "2026-10-09T10:35:00Z",
+      "element_count": 81
+    },
+    {
+      "slug": "lloydkwartier",
+      "path": "artifacts/kb4-precedents/raw/osm-lloydkwartier.json",
+      "sha256": "d75daa1f3632f4671b52acab8ec94eb957160d5d3e89458054225456bc76394a",
+      "base_timestamp": "2026-10-09T10:35:00Z",
+      "element_count": 108
+    },
+    {
+      "slug": "spangen-justus-van-effen",
+      "path": "artifacts/kb4-precedents/raw/osm-spangen-justus-van-effen.json",
+      "sha256": "e9e6f95b3478affaa36dff81b8bb6dc6723bad894487a3dd2f42526d449d5406",
+      "base_timestamp": "2026-10-09T10:36:02Z",
+      "element_count": 549
+    },
+    {
+      "slug": "funenpark",
+      "path": "artifacts/kb4-precedents/raw/osm-funenpark.json",
+      "sha256": "2438b5efc396ec49be7e6d27d6866e7e937366eb7d6fa1ce2f5393c243b5eb08",
+      "base_timestamp": "2026-10-09T10:29:49Z",
+      "element_count": 154
+    },
+    {
+      "slug": "hafencity-dalmannkai",
+      "path": "artifacts/kb4-precedents/raw/osm-hafencity-dalmannkai.json",
+      "sha256": "e1650685281bbb7dc9c834d1d14044a1a3bd41e427b2ac5bcdc05f7b412d717c",
+      "base_timestamp": "2026-10-09T10:50:21Z",
+      "element_count": 211
+    },
+    {
+      "slug": "hammarby-sjostad",
+      "path": "artifacts/kb4-precedents/raw/osm-hammarby-sjostad.json",
+      "sha256": "f13f965461759efdd21f5e3133b47634cc52c6440630c557e56cced874b26236",
+      "base_timestamp": "2026-10-09T10:53:21Z",
+      "element_count": 193
+    },
+    {
+      "slug": "vauban-freiburg",
+      "path": "artifacts/kb4-precedents/raw/osm-vauban-freiburg.json",
+      "sha256": "6f4631c88023108b26801b0be81d5754d3b2f3c11c4a28e991de44b448ab65ba",
+      "base_timestamp": "2026-10-09T10:56:21Z",
+      "element_count": 219
+    },
+    {
+      "slug": "amsterdam-oud-zuid",
+      "path": "artifacts/kb4-precedents/raw/osm-amsterdam-oud-zuid.json",
+      "sha256": "ac7daeee461097d2b339fe346236e32e042e0e46ee06d0eb6027c6574c2e0b45",
+      "base_timestamp": "2026-10-09T10:29:49Z",
+      "element_count": 243
+    }
+  ],
+  "unavailable_cases": [
+    {
+      "slug": "katendrecht",
+      "status": "NOT_ACQUIRED",
+      "reason": "OSM source record and complete response are absent; no measurement made.",
+      "attempt_count": 3,
+      "http_statuses": [
+        504,
+        504,
+        504
+      ],
+      "last_error": "HTTP 504 from allowlisted source: https://overpass-api.de/api/interpreter"
+    },
+    {
+      "slug": "vastra-hamnen",
+      "status": "NOT_ACQUIRED",
+      "reason": "OSM source record and complete response are absent; no measurement made.",
+      "attempt_count": 3,
+      "http_statuses": [
+        504,
+        504,
+        504
+      ],
+      "last_error": "HTTP 504 from allowlisted source: https://overpass-api.de/api/interpreter"
+    },
+    {
+      "slug": "nordhavn",
+      "status": "NOT_ACQUIRED",
+      "reason": "OSM source record and complete response are absent; no measurement made.",
+      "attempt_count": 3,
+      "http_statuses": [
+        504,
+        504,
+        504
+      ],
+      "last_error": "HTTP 504 from allowlisted source: https://overpass-api.de/api/interpreter"
+    },
+    {
+      "slug": "barcelona-eixample",
+      "status": "NOT_ACQUIRED",
+      "reason": "OSM source record and complete response are absent; no measurement made.",
+      "attempt_count": 3,
+      "http_statuses": [
+        504,
+        504,
+        504
+      ],
+      "last_error": "HTTP 504 from allowlisted source: https://overpass-api.de/api/interpreter"
+    }
+  ]
+}

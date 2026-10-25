@@ -1,0 +1,84 @@
+{
+  "id": "KU-SYN-029",
+  "domain": "SYN",
+  "subtopic": "多中心性（MCA）",
+  "type": "critique",
+  "title_zh": "多中心性（MCA）：批評與適用限制",
+  "title_en": "Multiple centrality analysis: Critique and boundary",
+  "summary_zh": "中心性指標依賴圖建構與邊成本；高分節點不一定是社會上重要、可進入或安全的地方。另一個需要同時檢查的面向是多中心性分析用多個網路中心性指標描述城市道路系統的骨架與局部節點，不將複雜網路縮成單一排名。替代做法可以是用多指標圖找出骨架和候選節點，再以用途、公共生活和實地資料判斷設計角色。",
+  "key_points_zh": [
+    "批評焦點：多中心性分析用多個網路中心性指標描述城市道路系統的骨架與局部節點，不將複雜網路縮成單一排名",
+    "批評焦點：中心性指標依賴圖建構與邊成本；高分節點不一定是社會上重要、可進入或安全的地方"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "多中心性（MCA）：批評與適用限制｜空間網路同時受連接與幾何成本影響，應保留圖表示與尺度的敏感性比較",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "BARTHELEMY11",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "多中心性（MCA）：批評與適用限制｜以空間資本把路網關係與更廣的都市形態聯讀；不能只看中心性而忽略地塊與用途",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "MARCUS10",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "把「中心性指標依賴圖建構與邊成本；高分節點不一定是社會上重要、可進入或安全的地方」轉成一項可觀察的風險，並在替代方案中檢查「多中心性分析用多個網路中心性指標描述城市道路系統的骨架與局部節點，不將複雜網路縮成單一排名」是否改變其影響。"
+  ],
+  "applies_when_zh": "若多中心性（MCA）方案可能受「中心性指標依賴圖建構與邊成本；高分節點不一定是社會上重要、可進入或安全的地方」影響，可用「多中心性分析用多個網路中心性指標描述城市道路系統的骨架與局部節點，不將複雜網路縮成單一排名」安排實地觀察或替代方案比較。",
+  "not_applicable_when_zh": "這項批評提出的是「中心性指標依賴圖建構與邊成本；高分節點不一定是社會上重要、可進入或安全的地方」的風險，不能據此推定所有替代方案都更好，也不能代替本地使用者測試。",
+  "debates_zh": "中心性指標依賴圖建構與邊成本；高分節點不一定是社會上重要、可進入或安全的地方；檢視「多中心性（MCA）：批評與適用限制」的反例檢查時，還需判斷「中心性指標依賴圖建構與邊成本；高分節點不一定是社會上重要、可進入或安全的地方」會如何改變方案結論。",
+  "sources": [
+    {
+      "library_id": "BARTHELEMY11",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "MARCUS10",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "城市網路科學",
+  "region": "跨地域理論或實務脈絡；來源地區依引用條目判讀",
+  "curriculum_refs": [
+    {
+      "school": "UCL Bartlett",
+      "course": "Critical Debates in Urban Design",
+      "topic": "多中心性（MCA）：課綱對應主題"
+    },
+    {
+      "school": "TU Delft",
+      "course": "Methods of Analysis & Imagination",
+      "topic": "多中心性（MCA）：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-SYN-025",
+    "KU-SYN-026",
+    "KU-SYN-027",
+    "KU-SYN-028",
+    "KU-SYN-030",
+    "KU-SYN-031",
+    "KU-SYN-032"
+  ],
+  "counter_unit_ids": [
+    "KU-SYN-025",
+    "KU-SYN-026"
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "id": "KU-WAT-025",
+  "domain": "WAT",
+  "subtopic": "洪水風險與多層安全",
+  "type": "empirical_finding",
+  "title_zh": "高程資料會改變沿海人口暴露估算",
+  "title_en": "Elevation data changes coastal exposure estimates",
+  "summary_zh": "Kulp 與 Strauss 以新沿海高程資料進行全球人口暴露估算，並與常用資料比較。研究指出，格網和高程誤差會讓低窪人口估算不同；其結論針對沿海暴露，並非洪水機率或損失。McGranahan 等人的沿海低地統計也指出人口占比高於土地占比，描述的是另一種暴露尺度。地方規劃因此應把高程產品選擇列為敏感度參數。",
+  "key_points_zh": [
+    "研究採全球地形資料比較和暴露人口估算。",
+    "模型估算的暴露人口不是已發生洪災的受災人數。"
+  ],
+  "evidence": {
+    "strength": "CASE_EVIDENCE",
+    "findings": [
+      {
+        "library_id": "KULP2019",
+        "claim_zh": "新的全球沿海高程產品將低窪人口暴露估算與舊地形模型結果作比較。",
+        "effect_or_value": "地形資料和治理假設會改變暴露或韌性解讀；不直接給出 M4H 工程設計值。",
+        "study_design": "全球地形模型比較及人口暴露估算",
+        "context_region": "全球沿海地區",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "library_id": "MCGRANAHAN2007",
+        "claim_zh": "全球低海拔沿海區按海拔界定後，人口與都市聚落呈現高於其土地面積占比的集中；這是暴露分布描述，不等於淹水概率；本單元 KU-WAT-025 對照「Kulp 與 Strauss 以新沿海高程資料進行全球人口暴露估算，並與常用資料比較」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "ABSTRACT_REVIEW",
+        "effect_or_value": "KU-WAT-025 的效應量仍以其原列研究結果為準；MCGRANAHAN2007 僅提供相鄰主題脈絡，未作量值來源。",
+        "study_design": "全球人口與聚落空間統計回顧",
+        "context_region": "全球低海拔沿海區",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "對基地敏感地帶使用測量級高程，而非只依賴全球模型。",
+    "保存格網、基準面與垂直誤差資訊以便重算。"
+  ],
+  "applies_when_zh": "適用於沿海初篩、資料敏感度和風險圖資料品質審查。",
+  "not_applicable_when_zh": "不適用於判定基地洪水等級、洪水發生機率或保險費率。",
+  "debates_zh": "全球資料比較不會描述地方堤防、地面沉降和短時積水；其尺度限制應保留在所有下游圖說中。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "KULP2019",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "MCGRANAHAN2007",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "遙測暴露估算與沿海風險",
+  "region": "全球沿海地區；全球低海拔沿海區",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "洪水風險與多層安全"
+    },
+    {
+      "school": "MIT",
+      "course": null,
+      "topic": "洪水風險與多層安全"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0"
+}

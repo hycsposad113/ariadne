@@ -1,0 +1,74 @@
+{
+  "id": "KU-WAT-023",
+  "domain": "WAT",
+  "subtopic": "洪水風險與多層安全",
+  "type": "critique",
+  "title_zh": "堤防安全感可能增加暴露與鎖定",
+  "title_en": "堤防安全感可能增加暴露與鎖定",
+  "summary_zh": "防護工程能降低常見洪水帶來的損害，但依賴單一工程可能促使更多資產進入受保護區。沿海風險研究顯示，暴露估計依賴地形與情境；韌性和防災規劃文獻則主張檢查長期土地使用變化。設計審查應同時問工程失效時誰受影響、何時可撤離以及是否形成新的暴露。",
+  "key_points_zh": [
+    "防護區的剩餘風險可能因人口和資產累積而擴大。",
+    "工程方案的收益和受損責任常由不同群體承擔。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "library_id": "DAVOUDI12",
+        "claim_zh": "韌性概念的適用與政治作用需被追問；適應能力不能遮蓋誰承受失效風險；本單元 KU-WAT-023 對照「防護工程能降低常見洪水帶來的損害，但依賴單一工程可能促使更多資產進入受保護區」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "理論討論組文",
+        "context_region": "跨地域",
+        "locator": null
+      },
+      {
+        "library_id": "OSTROM2009",
+        "claim_zh": "摘要說明跨領域共同框架有助累積社會－生態系統知識，並指出使用者有時能自組織管理資源；這不是免除政府責任的普遍規則；本單元 KU-WAT-023 對照「防護工程能降低常見洪水帶來的損害，但依賴單一工程可能促使更多資產進入受保護區」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "ABSTRACT_REVIEW",
+        "effect_or_value": null,
+        "study_design": "跨學科概念框架",
+        "context_region": "跨地域自然資源治理",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "對比有無防護的發展情境和工程失效情境。",
+    "避免將既有保護狀態默認為未來永久保證。"
+  ],
+  "applies_when_zh": "適用於檢視防護投資的長期誘發發展風險。",
+  "not_applicable_when_zh": "不可單靠此批評判定某地應撤除或放棄防護工程。",
+  "debates_zh": "工程批評不能取代對堤防實際效能的量測，需避免從一般論述推斷地方失效機率。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "DAVOUDI12",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "OSTROM2009",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "沿海與河流防護方案審查",
+  "region": "全球沿海地區；美國",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "洪水風險與多層安全"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Sustainable Futures by Design",
+      "topic": "洪水風險與多層安全"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0"
+}

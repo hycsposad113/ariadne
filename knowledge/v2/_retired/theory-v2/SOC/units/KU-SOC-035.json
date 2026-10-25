@@ -1,0 +1,95 @@
+{
+  "id": "KU-SOC-035",
+  "domain": "SOC",
+  "subtopic": "開發經濟與可行性（土地價值、殘值法）",
+  "type": "value_range",
+  "title_zh": "開發經濟與可行性：情境和現金流",
+  "title_en": "Development economics and feasibility: land value and residual valuation — method unit 035",
+  "summary_zh": "現金流情境應把土地收入、建造與整備成本、融資、公共義務和分期時間逐項列出，並在基準、較低收入和較高成本情境重算。這能顯示哪個參數使方案翻轉，而非產生「精確」單一數字。情境界限需要市場與工程證據支持，不能任意設定。",
+  "key_points_zh": [
+    "現金流情境應把土地收入、建造與整備成本、融資、公共義務和分期時間逐項列出，並在基準、較低收入和較高成本情境重算。",
+    "這能顯示哪個參數使方案翻轉，而非產生「精確」單一數字。",
+    "情境界限需要市場與工程證據支持，不能任意設定。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "【BIBLIOGRAPHIC_SCOPE_ONLY】就「開發經濟與可行性：情境和現金流」而言，「Rationality and Power: Democracy in Practice」提供規劃權力／實踐理性的比較坐標；此處僅使用其已標明的書目／摘要範圍，不延伸為未核對的效果或因果。",
+        "effect_or_value": null,
+        "study_design": "案例研究／規劃權力",
+        "context_region": "丹麥；歐洲",
+        "library_id": "FLYVBJERG1998",
+        "locator": null,
+        "claim_verification": "CANONICAL_CROSS_CHECK_PENDING"
+      },
+      {
+        "claim_zh": "【BIBLIOGRAPHIC_SCOPE_ONLY】Campbell 的永續發展矛盾框架提示，財務情境需和公共義務及分配後果並列；它沒有提供本單元所列現金流參數或估值幅度。",
+        "effect_or_value": null,
+        "study_design": "理論",
+        "context_region": "跨地域",
+        "library_id": "CAMPBELL96",
+        "locator": null,
+        "claim_verification": "CANONICAL_CROSS_CHECK_PENDING"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "以多組成本與收入假設測試現金流，指出結果翻轉條件。"
+  ],
+  "design_options": [],
+  "applies_when_zh": "在評估「開發經濟與可行性：情境和現金流」涉及的資源分配、權力或居住影響時，先界定受影響群體與決策階段。",
+  "not_applicable_when_zh": "若沒有「開發經濟與可行性：情境和現金流」所需的群體、時序或市場資料，不把概念類比當作已驗證的效果或法律結論。",
+  "debates_zh": "情境界限若無市場或工程依據，會人為製造可行性。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "FLYVBJERG1998",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "CAMPBELL96",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "政治經濟／土地價值與可行性",
+  "region": "丹麥；歐洲；哥倫比亞；南美洲",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Planning Complex Cities",
+      "topic": "開發經濟與可行性：情境和現金流 — 開發經濟與可行性（土地價值、殘值法）"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Urban Design Contexts and Operations",
+      "topic": "開發經濟與可行性：情境和現金流 — 開發經濟與可行性（土地價值、殘值法）"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "開發經濟與可行性：情境和現金流 — 開發經濟與可行性（土地價值、殘值法）"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design Governance",
+      "topic": "開發經濟與可行性：情境和現金流 — 開發經濟與可行性（土地價值、殘值法）"
+    }
+  ],
+  "version": "2.0.0",
+  "values": [
+    {
+      "name": "現金流壓力測試",
+      "range": "3種情境：基準、收入下修、成本或工期上升",
+      "unit": "scenarios",
+      "context": "都市開發現金流的壓力測試安排；情境幅度須依當地價格和工程資料設定，無跨城市通用百分比；這不是本基地法規。",
+      "library_id": "FLYVBJERG1998",
+      "claim_verification": "CANONICAL_CROSS_CHECK_PENDING"
+    }
+  ],
+  "claim_verification": "CANONICAL_CROSS_CHECK_PENDING"
+}

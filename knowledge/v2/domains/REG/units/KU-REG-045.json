@@ -1,0 +1,104 @@
+{
+  "id": "KU-REG-045",
+  "domain": "REG",
+  "subtopic": "新加坡用途與容積治理",
+  "type": "design_principle",
+  "title_zh": "新加坡用途與容積治理｜設計原則",
+  "title_en": "Singapore land-use and intensity governance — Design principle",
+  "summary_zh": "規劃資料治理應把分區、允許用途與土地供應工具分開保存，避免把地價、競標與法定用途混成同一欄位。 新加坡 OntoZoning 示範了地帶、用途及計畫用途之間的資料連結，土地拍賣研究則分析競標與價格機制。 這兩類證據可協助建立分層查詢，但無法取代現行計畫圖則和地塊核對。",
+  "key_points_zh": [
+    "讀「新加坡用途與容積治理｜設計原則」時，將用途分類資料結構與土地供應、競標制度分開記錄；同時把規劃資料治理應把分區、允許用途與土地供應工具分開保存，避免把地價、競標與法定用途混成同一欄位列為核對條件。",
+    "讀「新加坡用途與容積治理｜設計原則」時，將用途分類資料結構與土地供應、競標制度分開記錄；同時把規劃資料治理應把分區、允許用途與土地供應工具分開保存，避免把地價、競標與法定用途混成同一欄位列為核對條件。",
+    "限制：不能把新加坡制度直接套用到其他國家或基地。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "研究發現競標者增加時預期成交價上升，且土地屬性反映於價格；結果說明競爭機制，不提供普遍容積獎勵公式。",
+        "library_id": "OOI2006",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "新加坡",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "OntoZoning 將新加坡的分區、土地用途與計畫用途整理成可查詢關係；資料串接可協助讀規則，但不等於已完成法規判讀。",
+        "library_id": "SILVENNOINEN2023",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "落實「新加坡用途與容積治理｜設計原則」時可先將用途分類資料結構與土地供應、競標制度分開記錄，再用規劃資料治理應把分區、允許用途與土地供應工具分開保存，避免把地價、競標與法定用途混成同一欄位核對方案的空間後果。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "在「新加坡用途與容積治理｜設計原則」的來源情境裡，將用途分類資料結構與土地供應、競標制度分開記錄；落到設計時還要按規劃資料治理應把分區、允許用途與土地供應工具分開保存，避免把地價、競標與法定用途混成同一欄位調整。",
+      "tradeoff_zh": "此選項把「新加坡用途與容積治理｜設計原則」的工作放在規劃資料治理應把分區、允許用途與土地供應工具分開保存，避免把地價、競標與法定用途混成同一欄位上；需要承擔的協調或維護代價則由「資訊整合不會自動解決法規歧義或公共利益衝突」界定。",
+      "library_ids": [
+        "OOI2006",
+        "SILVENNOINEN2023"
+      ]
+    },
+    {
+      "option_zh": "「新加坡用途與容積治理｜設計原則」可把取向落在語意化分區資料協助查詢，土地拍賣資料用於理解競價，但需連同規劃資料治理應把分區、允許用途與土地供應工具分開保存，避免把地價、競標與法定用途混成同一欄位決定適用方式。",
+      "tradeoff_zh": "「新加坡用途與容積治理｜設計原則」採用「「新加坡用途與容積治理｜設計原則」可把取向落在語意化分區資料協助查詢，土地拍賣資料用於理解競價，但需連同規劃資料治理應把分區、允許用途與土地供應工具分開保存，避免把地價、競標與法定用途混成同一欄位決定適用方式」時，得失要沿著規劃資料治理應把分區、允許用途與土地供應工具分開保存，避免把地價、競標與法定用途混成同一欄位檢查；資訊整合不會自動解決法規歧義或公共利益衝突。",
+      "library_ids": [
+        "OOI2006",
+        "SILVENNOINEN2023"
+      ]
+    }
+  ],
+  "applies_when_zh": "「新加坡用途與容積治理｜設計原則」可在適用於研究規劃資料治理和土地開發管理時使用，前提是規劃資料治理應把分區、允許用途與土地供應工具分開保存，避免把地價、競標與法定用途混成同一欄位與來源情境相符。",
+  "not_applicable_when_zh": "若規劃資料治理應把分區、允許用途與土地供應工具分開保存，避免把地價、競標與法定用途混成同一欄位不成立，就不能把「新加坡用途與容積治理｜設計原則」的結論延伸到其他情況；不能把新加坡制度直接套用到其他國家或基地。",
+  "debates_zh": "資訊整合不會自動解決法規歧義或公共利益衝突。",
+  "sources": [
+    {
+      "library_id": "OOI2006",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "SILVENNOINEN2023",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "新加坡土地拍賣與開發競爭；城市形態與規劃規則",
+  "region": "新加坡；美國",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Planning Complex Cities",
+      "topic": "新加坡用途與容積治理"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Urban Design Contexts and Operations",
+      "topic": "新加坡用途與容積治理"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "新加坡用途與容積治理"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban design governance",
+      "topic": "新加坡用途與容積治理"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-REG-043",
+    "KU-REG-044",
+    "KU-REG-046"
+  ]
+}

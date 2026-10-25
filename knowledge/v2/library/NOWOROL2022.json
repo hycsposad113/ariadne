@@ -1,0 +1,47 @@
+{
+  "id": "NOWOROL2022",
+  "title": "The 15-Minute City—The Geographical Proximity of Services in Krakow",
+  "authors": [
+    "Aleksander Noworól",
+    "Piotr Kopyciński",
+    "Paweł Hałat",
+    "Jeremiasz Salamon",
+    "Artur Hołuj"
+  ],
+  "year": 2022,
+  "venue_or_publisher": "Sustainability",
+  "doi": "https://doi.org/10.3390/su14127103",
+  "isbn": null,
+  "openalex_id": "https://openalex.org/W4282833118",
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "近鄰服務可及性",
+  "region": [
+    "克拉科夫，波蘭"
+  ],
+  "method": "城市服務地理距離分析",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "克拉科夫分析指出服務近鄰程度並非均勻，研究提出區位改善方向；距離指標不等於實際可及性或服務品質。",
+      "strength": "MIXED",
+      "scope_zh": "僅限摘要可核對的範圍；未讀全文，不推論摘要未列的數字、因果或普遍適用性。",
+      "assessment_basis": "ABSTRACT_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "OpenAlex",
+    "query": {
+      "record_id": "https://openalex.org/W4282833118",
+      "title": "The 15-Minute City—The Geographical Proximity of Services in Krakow",
+      "author": "Aleksander Noworól",
+      "year": 2022
+    },
+    "matched_record_id": "https://openalex.org/W4282833118",
+    "checked_at_utc": "2026-10-08T09:12:32Z",
+    "match_notes_zh": "以 OpenAlex 精確 work 記錄核對書名、作者與出版年；只使用摘要作主張範圍檢查，未下載全文。"
+  },
+  "limitations_zh": "僅使用允許的書目欄位和摘要核對；未取得或保存全文。",
+  "metadata_licence_zh": "保存公開書目欄位與自行撰寫主張摘要；未保存 API 摘要原文或全文。"
+}

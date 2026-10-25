@@ -1,0 +1,43 @@
+{
+  "id": "NAVASTARA2017",
+  "title": "Urban Morphology of European and Asian Cities : A Descriptive Case Study",
+  "authors": [
+    "Ardy Maulidy Navastara"
+  ],
+  "year": 2017,
+  "venue_or_publisher": "Jurnal Penataan Ruang",
+  "doi": "https://doi.org/10.12962/j2716179x.v12i1.5218",
+  "isbn": null,
+  "openalex_id": "https://openalex.org/W2997188911",
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "亞洲與歐洲比較形態學",
+  "region": [
+    "羅馬、倫敦、新加坡與東京"
+  ],
+  "method": "描述性比較案例研究",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "比較案例把道路格局、建築與歷史視為城市形態變化的交互條件；樣本少，只能提示差異，不能代表整洲。",
+      "strength": "MIXED",
+      "scope_zh": "僅限摘要可核對的範圍；未讀全文，不推論摘要未列的數字、因果或普遍適用性。",
+      "assessment_basis": "ABSTRACT_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "OpenAlex",
+    "query": {
+      "record_id": "https://openalex.org/W2997188911",
+      "title": "Urban Morphology of European and Asian Cities : A Descriptive Case Study",
+      "author": "Ardy Maulidy Navastara",
+      "year": 2017
+    },
+    "matched_record_id": "https://openalex.org/W2997188911",
+    "checked_at_utc": "2026-10-08T09:12:32Z",
+    "match_notes_zh": "以 OpenAlex 精確 work 記錄核對書名、作者與出版年；只使用摘要作主張範圍檢查，未下載全文。"
+  },
+  "limitations_zh": "僅使用允許的書目欄位和摘要核對；未取得或保存全文。",
+  "metadata_licence_zh": "保存公開書目欄位與自行撰寫主張摘要；未保存 API 摘要原文或全文。"
+}

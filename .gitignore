@@ -1,0 +1,37 @@
+# Environments and caches (reproducible from pyproject / package-lock)
+.venv/
+.uv-cache/
+.pytest_cache/
+__pycache__/
+*.pyc
+.vite/
+web/node_modules/
+web/dist/
+.DS_Store
+
+# Mutable runtime state: authoritative SQLite, WAL/SHM, QGIS profiles, bridge logs.
+# Its hash is recorded in evidence packages; snapshot policy is a pending decision.
+.urban_design_runtime/
+
+# Stray runtime copy of unknown provenance (kept on disk, not tracked; see correction plan)
+/.../
+
+# Large external raw datasets (kept in ~/.local/share/urban-design-data/ or artifacts raw)
+*.pbf
+raw/*.pbf
+
+# W7 rehearsal evidence is preserved outside Git; commit manifests and hashes only.
+artifacts/w7-browser-*/
+artifacts/w7-fault-matrix-*/
+artifacts/w7-figures-*/
+*.week7-fixture.sqlite3*
+
+# Worktree-local TypeScript incremental build cache.
+web/.cache/
+
+# Round-7 PST full results and checkpoint cache (≈2.7 GB): kept on disk as a data pack, not in git
+artifacts/net2/round-7/receipts/full/
+artifacts/net2/round-7/receipts/pst-cache/
+artifacts/net2/round-7/receipts/parallel/
+# E5 rerun working folders (OpenFOAM cases ~840 MB); grids and figures are copied into e5-cfd/
+artifacts/w8/e5-cfd-rerun-*/

@@ -1,0 +1,50 @@
+{
+  "id": "TZUOLAS07",
+  "title": "Promoting ecosystem and human health in urban areas using Green Infrastructure: A literature review",
+  "authors": [
+    "Konstantinos Tzoulas",
+    "Kalevi Korpela",
+    "Stephen Venn",
+    "Vesa Yli-Pelkonen",
+    "Aleksandra Kaźmierczak",
+    "Jari Niemela",
+    "Philip James"
+  ],
+  "year": 2007,
+  "venue_or_publisher": "Landscape and Urban Planning",
+  "doi": "https://doi.org/10.1016/j.landurbplan.2007.02.001",
+  "isbn": null,
+  "crossref_id": "https://doi.org/10.1016/j.landurbplan.2007.02.001",
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "綠色基礎設施與健康",
+  "region": [
+    "歐洲",
+    "跨地域"
+  ],
+  "method": "文獻回顧",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "文獻回顧把綠色基礎設施的生態系統與人類健康效益放在同一架構；不同效益需要各自的指標與資料，不能互相代替。",
+      "strength": "THEORETICAL",
+      "scope_zh": "歐洲及跨地域城市；主張限於此來源的研究設計與樣本，不外推為本基地規範。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref",
+    "query": {
+      "title": "Promoting ecosystem and human health in urban areas using Green Infrastructure: A literature review",
+      "author": "Konstantinos Tzoulas",
+      "year": 2007
+    },
+    "matched_record_id": "https://doi.org/10.1016/j.landurbplan.2007.02.001",
+    "checked_at_utc": "2026-10-08T09:54:57Z",
+    "match_notes_zh": "核對 Crossref 回傳書名、主要作者、出版年與 DOI；摘要只在實際取得並閱讀的論文上標 ABSTRACT_REVIEW。"
+  },
+  "limitations_zh": "歐洲及跨地域城市；書目核對不替代完整論文審查。",
+  "critique_relationship_zh": "此條目的批評連結供編者並讀，不宣稱存在直接互引。",
+  "metadata_licence_zh": "僅保存公開書目欄位與自行撰寫的摘要；未保存摘要原文，metadata 授權未單獨核定。"
+}

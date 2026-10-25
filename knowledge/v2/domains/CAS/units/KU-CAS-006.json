@@ -1,0 +1,109 @@
+{
+  "id": "KU-CAS-006",
+  "domain": "CAS",
+  "subtopic": "港區轉型案例",
+  "type": "case",
+  "title_zh": "Oostelijk Havengebied：多種住宅型態重組舊港區",
+  "title_en": "Oostelijk Havengebied: Reconfiguring a Former Port Through Diverse Housing Types",
+  "summary_zh": "阿姆斯特丹東港區更新將KNSM、Java與Borneo-Sporenburg等不同街區納入舊港地帶轉型的比較範圍。城市資料確認這些子區屬Oostelijk Havengebied；另有一項比較研究討論阿姆斯特丹與烏特勒支的都市重組社會效果，但其樣本邊界不能直接等同本港區。沒有同一口徑的全區密度數據，因此FSI、GSI和面積均保留未知。",
+  "key_points_zh": [
+    "將各子區分開標註，避免混用KNSM、Java與Borneo-Sporenburg的資料。",
+    "比較建築型態時，也要辨別岸線、公共通道和住宅私有界面的差異。"
+  ],
+  "evidence": {
+    "strength": "CASE_EVIDENCE",
+    "findings": [
+      {
+        "claim_zh": "阿姆斯特丹官方地區資料確認東港區的街區與水岸公共空間組成。",
+        "effect_or_value": "官方地區資料；街區與規劃用途",
+        "study_design": "官方地區資料；街區與規劃用途",
+        "context_region": "荷蘭阿姆斯特丹",
+        "library_id": "AMSTERDAM_EASTERN_DOCKLANDS2026",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "Van Beckhoven與van Kempen比較Amsterdam與Utrecht的都市重組社會效果；Crossref書目未顯示Amsterdam樣本涵蓋Oostelijk Havengebied。",
+        "effect_or_value": "比較案例研究；範圍須回核",
+        "study_design": "比較案例研究；範圍須回核",
+        "context_region": "荷蘭阿姆斯特丹",
+        "library_id": "VANBECKHOVEN2003",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "De Gruyter章節以Eastern Harbour, Amsterdam作為一個地區案例；Crossref未列作者，尚未核對章節內容。",
+        "effect_or_value": "專業地區案例章節；內容未閱",
+        "study_design": "書籍章節；設計方法未核實",
+        "context_region": "荷蘭阿姆斯特丹",
+        "library_id": "EASTERN_HARBOUR_AMSTERDAM2012",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "在案例圖集內把子街區各自繪出，再進行住宅密度、街道寬度和水岸可達性的比較。"
+  ],
+  "applies_when_zh": "需要比較同一舊港區內不同住宅型態與公共水岸界面時。",
+  "not_applicable_when_zh": "把全區平均密度套用至特定住宅島或單一街廓時。",
+  "debates_zh": "新住宅和公共水岸提供新的城市使用，也可能把曾經工作的港區轉成主要服務中高收入住戶的場所；歷史記憶和居住可負擔性應和空間設計並列。",
+  "sources": [
+    {
+      "library_id": "AMSTERDAM_EASTERN_DOCKLANDS2026",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "VANBECKHOVEN2003",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "EASTERN_HARBOUR_AMSTERDAM2012",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "荷蘭住宅街區設計與水岸更新",
+  "region": "西歐／荷蘭阿姆斯特丹",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": null,
+      "topic": "港區住宅型態與水岸公共性"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": null,
+      "topic": "住房型態與社區變遷"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": null,
+      "topic": "城市形態比較方法"
+    }
+  ],
+  "case": {
+    "location": "阿姆斯特丹，荷蘭；KNSM、Java及Borneo-Sporenburg子區",
+    "period": "1980年代後期啟動、1990至2000年代分區建設",
+    "area_ha": null,
+    "fsi": null,
+    "gsi": null,
+    "program_mix": "住宅、社區商業、文化與公共水岸；子區之間的比例不同，未以全區數字合併。",
+    "key_strategies_zh": [
+      "依子區採用不同街廓尺度、住宅類型和水岸配置。",
+      "以橋梁、沿岸路徑和公共設施連接新住宅區。"
+    ],
+    "outcomes_zh": [
+      "此案例組合展示了港區住宅轉型並非單一街廓模型。",
+      "官方資訊主要支撐街區與空間構成，尚不足以比較不同子區的社會結果。"
+    ],
+    "critiques_zh": [
+      "住宅主導的更新可能收縮原港區就業活動與可負擔工作空間。",
+      "未經邊界統一的密度或人口數字不應被用來宣稱某一子區的優劣。"
+    ]
+  },
+  "version": "v2.0"
+}

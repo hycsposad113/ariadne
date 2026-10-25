@@ -1,0 +1,80 @@
+{
+  "id": "KU-MOB-030",
+  "domain": "MOB",
+  "subtopic": "自行車停車",
+  "type": "typology",
+  "title_zh": "自行車停車：型態比較",
+  "title_en": "Bicycle parking: Typology comparison",
+  "summary_zh": "短停架、長停保管、共享單車站和公共運輸轉乘停車解決不同停留時間與安全需求。類型比較要回到自行車停車影響旅程起訖和轉乘便利，設計需同時處理位置、可用性、保管和與入口的連接。各類型的成本和適用條件包括：增加停車架不等於解決轉乘；若位置不安全、步行接駁不便或目的地不接受自行車，供給可能不被使用。",
+  "key_points_zh": [
+    "比較類型：自行車停車影響旅程起訖和轉乘便利，設計需同時處理位置、可用性、保管和與入口的連接",
+    "比較類型：短停架、長停保管、共享單車站和公共運輸轉乘停車解決不同停留時間與安全需求"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "自行車停車：型態比較｜海牙電車乘客調查的步行接駁距離中位數為 380 m、自行車為 1,025 m；車站密度、班次舒適、轉乘、是否有車及安全自行車停放會影響選擇",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "RIJSMAN19",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "自行車停車：型態比較｜停車供給與成本分攤應被視為土地與交通政策選擇；本單元不把書中案例值外推為其他城市規範",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "SHOUP05",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "類型表應比較「自行車停車影響旅程起訖和轉乘便利，設計需同時處理位置、可用性、保管和與入口的連接」及其使用代價「增加停車架不等於解決轉乘；若位置不安全、步行接駁不便或目的地不接受自行車，供給可能不被使用」，不要只列名稱。"
+  ],
+  "applies_when_zh": "比較自行車停車方案時，可先用「自行車停車影響旅程起訖和轉乘便利，設計需同時處理位置、可用性、保管和與入口的連接」描述各類型，再按「增加停車架不等於解決轉乘；若位置不安全、步行接駁不便或目的地不接受自行車，供給可能不被使用」檢查分類的盲點。",
+  "not_applicable_when_zh": "這些類型不構成普遍排序；遇到「增加停車架不等於解決轉乘；若位置不安全、步行接駁不便或目的地不接受自行車，供給可能不被使用」所述條件時，不應只依類名決定路網或街道配置。",
+  "debates_zh": "增加停車架不等於解決轉乘；若位置不安全、步行接駁不便或目的地不接受自行車，供給可能不被使用；檢視「自行車停車：型態比較」的分類邊界時，還需判斷「短停架、長停保管、共享單車站和公共運輸轉乘停車解決不同停留時間與安全需求」會如何改變方案結論。",
+  "sources": [
+    {
+      "library_id": "RIJSMAN19",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "SHOUP05",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "自行車接駁與停車政策",
+  "region": "跨地域理論或實務脈絡；來源地區依引用條目判讀",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "自行車停車：課綱對應主題"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Urban Design Contexts and Operations",
+      "topic": "自行車停車：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-MOB-025",
+    "KU-MOB-026",
+    "KU-MOB-027",
+    "KU-MOB-028",
+    "KU-MOB-029",
+    "KU-MOB-031",
+    "KU-MOB-032"
+  ]
+}

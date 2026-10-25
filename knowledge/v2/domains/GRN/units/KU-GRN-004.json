@@ -1,0 +1,66 @@
+{
+  "id": "KU-GRN-004",
+  "domain": "GRN",
+  "subtopic": "公園類型與階層",
+  "type": "design_principle",
+  "title_zh": "自然公園需清楚標出可進入區",
+  "title_en": "Nature parks need legible access zones",
+  "summary_zh": "保育型公園仍需交代可步行區、敏感地帶和季節性封閉。清楚分區可降低遊憩活動對繁殖或復育地點的干擾。全面圍欄可能把自然空間排除在社區日常之外。接近自然和降低干擾之間必須進行可追蹤的取捨。",
+  "key_points_zh": [
+    "保育型公園仍需交代可步行區、敏感地帶和季節性封閉",
+    "清楚分區可降低遊憩活動對繁殖或復育地點的干擾"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "保育型公園仍需交代可步行區、敏感地帶和季節性封閉。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "瑞典",
+        "library_id": "NORDH09",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "接近自然和降低干擾之間必須進行可追蹤的取捨。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "設置多層路徑與可調管理，並公開封閉原因和恢復條件。"
+  ],
+  "applies_when_zh": "適用於保育、教育和日常遊憩重疊的公園。",
+  "not_applicable_when_zh": "不適用於把封閉作為唯一棲地管理工具。",
+  "debates_zh": "接近自然和降低干擾之間必須進行可追蹤的取捨。",
+  "sources": [
+    {
+      "library_id": "NORDH09",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "PESCHARDT12",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "恢復性環境與北歐景觀",
+  "region": "瑞典",
+  "curriculum_refs": [
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "公園類型與階層"
+    },
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "公園類型與階層"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-GRN-003",
+    "KU-GRN-005"
+  ]
+}

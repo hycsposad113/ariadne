@@ -1,0 +1,44 @@
+{
+  "id": "CZISCHKE2018",
+  "title": "An exploration of concepts and polices on ‘affordable housing’ in England, Italy, Poland and The Netherlands",
+  "authors": [
+    "Darinka Czischke",
+    "Gerard van Bortel"
+  ],
+  "year": 2018,
+  "venue_or_publisher": "Journal of Housing and the Built Environment",
+  "doi": "https://doi.org/10.1007/s10901-018-9598-1",
+  "isbn": null,
+  "openalex_id": "https://openalex.org/W2789341406",
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "歐洲可負擔住宅政策",
+  "region": [
+    "英格蘭、義大利、波蘭與荷蘭"
+  ],
+  "method": "政策文件回顧、訪談與工作坊",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "研究發現可負擔住宅逐漸成為獨立政策領域，但它與社會住宅的邊界仍不清楚且各地定義不同。",
+      "strength": "MIXED",
+      "scope_zh": "僅限摘要可核對的範圍；未讀全文，不推論摘要未列的數字、因果或普遍適用性。",
+      "assessment_basis": "ABSTRACT_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "OpenAlex",
+    "query": {
+      "record_id": "https://openalex.org/W2789341406",
+      "title": "An exploration of concepts and polices on ‘affordable housing’ in England, Italy, Poland and The Netherlands",
+      "author": "Darinka Czischke",
+      "year": 2018
+    },
+    "matched_record_id": "https://openalex.org/W2789341406",
+    "checked_at_utc": "2026-10-08T09:12:32Z",
+    "match_notes_zh": "以 OpenAlex 精確 work 記錄核對書名、作者與出版年；只使用摘要作主張範圍檢查，未下載全文。"
+  },
+  "limitations_zh": "僅使用允許的書目欄位和摘要核對；未取得或保存全文。",
+  "metadata_licence_zh": "保存公開書目欄位與自行撰寫主張摘要；未保存 API 摘要原文或全文。"
+}

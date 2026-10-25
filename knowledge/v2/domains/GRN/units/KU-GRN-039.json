@@ -1,0 +1,61 @@
+{
+  "id": "KU-GRN-039",
+  "domain": "GRN",
+  "subtopic": "公園使用與維護",
+  "type": "critique",
+  "title_zh": "共管不應等於責任下放",
+  "title_en": "Co-management must not offload duties",
+  "summary_zh": "居民共管可以增加地方知識和場地照護。若政府撤回基本服務，社區資源差異會放大維護不平等。參與需要時間、組織能力和明確權限。參與有助所有權感，也可能把無酬勞動常態化。",
+  "key_points_zh": [
+    "居民共管可以增加地方知識和場地照護",
+    "若政府撤回基本服務，社區資源差異會放大維護不平等"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "居民共管可以增加地方知識和場地照護。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "丹麥",
+        "library_id": "PESCHARDT12",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "參與有助所有權感，也可能把無酬勞動常態化。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "區分共決、志願服務、契約管理和政府法定義務。"
+  ],
+  "applies_when_zh": "適用於社區花園和地方公園協作。",
+  "not_applicable_when_zh": "不能假定每個社區都有相同組織能力。",
+  "debates_zh": "參與有助所有權感，也可能把無酬勞動常態化。",
+  "sources": [
+    {
+      "library_id": "PESCHARDT12",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "MAAS06",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "小型公共綠地使用研究",
+  "region": "丹麥",
+  "curriculum_refs": [
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "公園使用與維護"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-GRN-038",
+    "KU-GRN-040"
+  ]
+}

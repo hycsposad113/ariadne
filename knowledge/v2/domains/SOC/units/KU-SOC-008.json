@@ -1,0 +1,71 @@
+{
+  "id": "KU-SOC-008",
+  "domain": "SOC",
+  "subtopic": "治理與公私合作",
+  "type": "theory",
+  "title_zh": "Stone 城市政權",
+  "title_en": "Stone urban regime theory",
+  "summary_zh": "城市政權理論檢查地方政府與非政府行動者如何透過資源合作維持治理能力。正式職權不足以解釋政策，必須追踪穩定聯盟及各方能提供的資源。建立政策聯盟、資金、組織及執行能力圖，區分選舉權力和實際治理合作。",
+  "key_points_zh": [
+    "建立政策聯盟、資金、組織及執行能力圖，區分選舉權力和實際治理合作。",
+    "美國案例的理論不一定能直接套到其他國家的土地與福利制度。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "城市政權理論檢查地方政府與非政府行動者如何透過資源合作維持治理能力。正式職權不足以解釋政策，必須追踪穩定聯盟及各方能提供的資源。",
+        "library_id": "STONE89",
+        "locator": null,
+        "study_design": "理論／方法綜述；非基地實測",
+        "effect_or_value": null,
+        "context_region": null,
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008"
+      },
+      {
+        "claim_zh": "Logan 與 Molotch 對土地交換價值的分析，提供 Stone 城市政權研究以外的地方聯盟政治經濟解釋。",
+        "library_id": "LOGAN1987",
+        "locator": null,
+        "study_design": "政治經濟／理論",
+        "effect_or_value": null,
+        "context_region": "美國、跨地域",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "建立政策聯盟、資金、組織及執行能力圖，區分選舉權力和實際治理合作。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "擴大聯盟可增加實施資源",
+      "tradeoff_zh": "可能對非成員議題缺乏回應。",
+      "library_ids": [
+        "STONE89"
+      ]
+    }
+  ],
+  "applies_when_zh": "用於釐清「Stone 城市政權」涉及的空間、制度與行動選擇。",
+  "not_applicable_when_zh": "「Stone 城市政權」不能直接替代基地的實測、法規或人類批准。",
+  "debates_zh": "美國案例的理論不一定能直接套到其他國家的土地與福利制度。",
+  "sources": [
+    {
+      "library_id": "STONE89",
+      "locator": null
+    },
+    {
+      "library_id": "LOGAN1987",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+  "curriculum_refs": [
+    {
+      "school": "UCL Bartlett",
+      "course": null,
+      "topic": "編者主題對照，非已核實課程指定閱讀：Stone 城市政權"
+    }
+  ],
+  "version": "2.0.0-theory-v3"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "RIJSMAN19",
+  "title": "Walking and bicycle catchment areas of tram stops: factors and insights",
+  "authors": [
+    "Lotte Rijsman",
+    "Niels van Oort",
+    "Danique Ton",
+    "Serge Paul Hoogendoorn",
+    "Eric J. E. Molin",
+    "Thomas Teijl"
+  ],
+  "year": 2019,
+  "venue_or_publisher": "International Conference on Models and Technologies for Intelligent Transportation Systems",
+  "doi": "10.1109/mtits.2019.8883361",
+  "openalex_id": "https://openalex.org/W2982580575",
+  "kind": "ACADEMIC_CONFERENCE_PAPER",
+  "tradition": "步行與自行車接駁大眾運輸",
+  "region": [
+    "荷蘭"
+  ],
+  "method": "海牙電車乘客 revealed-preference 問卷、迴歸與質性分析",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "海牙電車乘客調查的步行接駁距離中位數為 380 m、自行車為 1,025 m；車站密度、班次舒適、轉乘、是否有車及安全自行車停放會影響選擇。",
+      "strength": "MIXED",
+      "scope_zh": "只支持所述研究脈絡；不提供 M4H 法規、普遍因果或未查證的設計門檻。",
+      "assessment_basis": "ABSTRACT_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "OpenAlex",
+    "query": {
+      "title": "Walking and bicycle catchment areas of tram stops: factors and insights",
+      "author": "Lotte Rijsman; Niels van Oort; Danique Ton; Serge Paul Hoogendoorn; Eric J. E. Molin; Thomas Teijl",
+      "year": 2019
+    },
+    "matched_record_id": "https://openalex.org/W2982580575",
+    "checked_at_utc": "2026-10-08T08:57:35Z",
+    "match_notes_zh": "OpenAlex 命中標題、六位作者、年份、會議與摘要；摘要明列海牙、距離中位數和接駁調查。"
+  },
+  "limitations_zh": "只使用公開書目與 API 摘要核對；未下載或查閱全文，摘要以外的頁碼和量化結果不推定。",
+  "critique_relationship_zh": "引用只表示本單元並置不同研究觀點，不宣稱作者間互引或逐一反駁。",
+  "metadata_licence_zh": "只保存公開 API 書目與自行撰寫摘要；未保存 API 摘要原文。"
+}

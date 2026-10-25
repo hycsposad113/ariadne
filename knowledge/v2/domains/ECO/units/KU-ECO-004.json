@@ -1,0 +1,66 @@
+{
+  "id": "KU-ECO-004",
+  "domain": "ECO",
+  "subtopic": "地景生態學：嵌塊、廊道、基質",
+  "type": "typology",
+  "title_zh": "嵌塊、廊道和基質是診斷語彙",
+  "title_en": "Patch-corridor-matrix as diagnostic language",
+  "summary_zh": "地景結構可用生境嵌塊、移動廊道和周邊基質描述。這套語彙有助比較空間配置，但不直接說明每種生物如何穿越。同一片城市用地對不同物種可能分別是棲地、屏障或資源。經典模型清晰易用，也可能過度簡化動態地景。",
+  "key_points_zh": [
+    "地景結構可用生境嵌塊、移動廊道和周邊基質描述",
+    "這套語彙有助比較空間配置，但不直接說明每種生物如何穿越"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "地景結構可用生境嵌塊、移動廊道和周邊基質描述。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "跨國",
+        "library_id": "ELMQVIST13",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "經典模型清晰易用，也可能過度簡化動態地景。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "為每個研究類群分別標記功能嵌塊與阻隔。"
+  ],
+  "applies_when_zh": "適用於大尺度生態規劃和綠地網絡分析。",
+  "not_applicable_when_zh": "不適用於將所有綠地類型視為功能相同。",
+  "debates_zh": "經典模型清晰易用，也可能過度簡化動態地景。",
+  "sources": [
+    {
+      "library_id": "ELMQVIST13",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "HANSEN14",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "都市社會生態系統",
+  "region": "跨國",
+  "curriculum_refs": [
+    {
+      "school": "MIT",
+      "course": "11.330J Theory of City Form",
+      "topic": "地景生態學：嵌塊、廊道、基質"
+    },
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "地景生態學：嵌塊、廊道、基質"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-ECO-003",
+    "KU-ECO-005"
+  ]
+}

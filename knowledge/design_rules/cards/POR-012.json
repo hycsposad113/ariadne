@@ -1,0 +1,96 @@
+{
+  "id": "POR-012",
+  "title_zh": "活躍基座",
+  "title_en": "Active plinth",
+  "domain": "portfolio",
+  "stages": [
+    "S2",
+    "S3",
+    "S4",
+    "S6",
+    "S7",
+    "S8"
+  ],
+  "statement_zh": "高可達沿街基座放可進入工坊、設施或小店，保留住宅與服務入口各自路徑。",
+  "rationale_zh": "地面生活不必全是消費，也包含工作與照護。",
+  "applies_when": {
+    "scale": [
+      "*"
+    ],
+    "land_use": [
+      "*"
+    ],
+    "strategy": [
+      "*"
+    ],
+    "mode": [
+      "*"
+    ]
+  },
+  "parameters": [
+    {
+      "name": "active_plinth_share_trial",
+      "value": 60,
+      "range": null,
+      "unit": "% frontage",
+      "provenance": "ASSUMED_COMMANDER",
+      "source_ids": [],
+      "authority_ref": null,
+      "status": "PROPOSED_PENDING_FOUNDER",
+      "rationale_zh": "指揮官提出的敏感性試算值，文獻未提供此數值；須 Founder 確認、地方資料及確定性驗證，未生效。"
+    }
+  ],
+  "check": {
+    "method_zh": "按首層用途與實際入口計算活躍界面長度、入口分布與服務路徑相交；缺時段資料保持 DATA_GAP，不預測人流。",
+    "inputs": [
+      "凍結幾何與路網版本／hash",
+      "已接受D1/D2與准入證據",
+      "卡片參數與版本"
+    ],
+    "output": "值、單位、方法、status、限制與缺口；不能自行採納",
+    "implementation_status": "SPECIFICATION_ONLY"
+  },
+  "check_unavailable_reason_zh": null,
+  "design_responses": [
+    {
+      "option": "1",
+      "action_zh": "小單元混合基座",
+      "source_ids": [
+        "JACOBS61"
+      ],
+      "tradeoff_zh": "租金與維護多。 作品集提供設計意圖，學術引用僅為類似概念的佐證，未驗證作品集本身。"
+    },
+    {
+      "option": "2",
+      "action_zh": "公共設施入口基座",
+      "source_ids": [
+        "GEHL10"
+      ],
+      "tradeoff_zh": "受營運時間限制。 作品集提供設計意圖，學術引用僅為類似概念的佐證，未驗證作品集本身。"
+    }
+  ],
+  "evidence_level": "PORTFOLIO",
+  "evidence_strength": "NORMATIVE_PRACTICE",
+  "sources": [
+    {
+      "library_id": "JACOBS61",
+      "claim_id": "C1",
+      "support_scope_zh": "文獻支持概念與比較角度；本卡具體操作是設計推導，試算值及專案約束不是文獻的普適結論。"
+    },
+    {
+      "library_id": "GEHL10",
+      "claim_id": "C1",
+      "support_scope_zh": "文獻支持概念與比較角度；本卡具體操作是設計推導，試算值及專案約束不是文獻的普適結論。"
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "enforcement": "CANDIDATE_ONLY",
+  "authority_ref": null,
+  "debates_zh": "作品集構想可用於提出選項，學術來源提供比較概念而非該設計的驗證；相反取向保留給設計者比較。 已查證書目與主張的查閱層級見 library；不是逐頁核驗或本基地因果結論。",
+  "context_validity_zh": "作品集為 M4H 個案；引用的外地研究只支持概念，不能證明本案營運、權利、性能或偏好。",
+  "exceptions_zh": "卡片不可替代現行法規、產權、無障礙或已接受 D1/D2。缺必要資料即回報 UNKNOWN；例外須由 Founder 明確決定並保留原結果。",
+  "version": "0.2.0",
+  "local_context_refs": [
+    "PORTFOLIO"
+  ]
+}

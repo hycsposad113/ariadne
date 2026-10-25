@@ -1,0 +1,107 @@
+{
+  "id": "KU-LUP-018",
+  "domain": "LUP",
+  "subtopic": "混合使用尺度：建築、街廓、街區",
+  "type": "concept",
+  "title_zh": "混合使用尺度：建築、街廓、街區｜概念邊界",
+  "title_en": "Scales of mixed use — Conceptual boundaries",
+  "summary_zh": "混合用途的尺度需分開建築、街廓和街區：樓層共置、地塊相鄰與整區比例不表示相同的共享關係。 房價與租金研究呈現不同方向，空間資本框架則提醒將路網、地塊和用途一起閱讀。 缺少樓層與時段資料時，不應稱為垂直混用。",
+  "key_points_zh": [
+    "垂直共置與水平鄰接都可能形成混合，但共享條件不一樣。",
+    "適用於住宅—商業、生產—住宅及公共設施的配置方案。",
+    "限制：沒有樓層用途或時段資料時，不宣稱是垂直混用。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "研究發現就業可及性與房價上升相關但與租金無顯著關聯；混合用途對房價與租金呈不同方向，不能化約成單一溢價。",
+        "library_id": "KIMJIN2019",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "芝加哥都會區，美國",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "以空間資本把路網關係與更廣的都市形態聯讀；不能只看中心性而忽略地塊與用途。",
+        "library_id": "MARCUS10",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "瑞典",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "逐層、逐地塊和逐街區計算用途組合，避免一個全區比例掩蓋集中位置。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "逐層、逐地塊和逐街區計算用途組合，避免一個全區比例掩蓋集中位置。",
+      "tradeoff_zh": "「混合使用尺度：建築、街廓、街區｜概念邊界」採用「逐層、逐地塊和逐街區計算用途組合，避免一個全區比例掩蓋集中位置」時，得失要沿著研究發現就業可及性與房價上升相關但與租金無顯著關聯；混合用途對房價與租金呈不同方向，不能化約成單一溢價檢查；平均比例不呈現住戶接觸、物流衝突或空間管理權。",
+      "library_ids": [
+        "KIMJIN2019",
+        "MARCUS10"
+      ]
+    },
+    {
+      "option_zh": "樓層混用可縮短活動距離；街區混用較易分隔噪音與裝卸。",
+      "tradeoff_zh": "「混合使用尺度：建築、街廓、街區｜概念邊界」採用「樓層混用可縮短活動距離；街區混用較易分隔噪音與裝卸」時，得失要沿著研究發現就業可及性與房價上升相關但與租金無顯著關聯；混合用途對房價與租金呈不同方向，不能化約成單一溢價檢查；平均比例不呈現住戶接觸、物流衝突或空間管理權。",
+      "library_ids": [
+        "KIMJIN2019",
+        "MARCUS10"
+      ]
+    }
+  ],
+  "applies_when_zh": "適用於住宅—商業、生產—住宅及公共設施的配置方案。",
+  "not_applicable_when_zh": "沒有樓層用途或時段資料時，不宣稱是垂直混用。",
+  "debates_zh": "平均比例不呈現住戶接觸、物流衝突或空間管理權。",
+  "sources": [
+    {
+      "library_id": "KIMJIN2019",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "MARCUS10",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "城市土地經濟與混合用途；空間資本",
+  "region": "芝加哥都會區，美國；瑞典",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Planning Complex Cities",
+      "topic": "混合使用尺度：建築、街廓、街區"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Cities by Design",
+      "topic": "混合使用尺度：建築、街廓、街區"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "混合使用尺度：建築、街廓、街區"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Sustainable Futures by Design",
+      "topic": "混合使用尺度：建築、街廓、街區"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-LUP-019",
+    "KU-LUP-020",
+    "KU-LUP-021"
+  ],
+  "counter_unit_ids": [
+    "KU-LUP-022"
+  ]
+}

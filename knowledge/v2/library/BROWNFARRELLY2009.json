@@ -1,0 +1,43 @@
+{
+  "id": "BROWNFARRELLY2009",
+  "title": "Delivering sustainable urban water management: a review of the hurdles we face",
+  "authors": [
+    "R. R. Brown",
+    "M. A. Farrelly"
+  ],
+  "year": 2009,
+  "venue_or_publisher": "Water Science and Technology",
+  "doi": "https://doi.org/10.2166/wst.2009.028",
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "整合式都市水管理",
+  "region": "澳洲與美國",
+  "method": "文獻回顧；目前僅核對書目範圍",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "書目確認本文題名聚焦「Delivering sustainable urban water management: a review of the hurdles we face」；目前只完成作者、年份、題名與 DOI 核對，未將摘要或全文結論納入此記錄。",
+      "strength": "THEORETICAL",
+      "scope_zh": "只支持題名所顯示的研究議題與書目範圍；具體研究設計、樣本、效果量及外推界限須由摘要或全文另行核對。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref",
+    "query": {
+      "title": "Delivering sustainable urban water management: a review of the hurdles we face",
+      "author": "Brown",
+      "year": 2009,
+      "api_query": "https://api.crossref.org/works?query.bibliographic=Delivering%20sustainable%20urban%20water%20management%3A%20a%20review%20of%20the%20hurdles%20we%20face%20Brown%202009&rows=5"
+    },
+    "matched_record_id": "10.2166/wst.2009.028",
+    "checked_at_utc": "2026-10-08T14:02:32Z",
+    "match_notes_zh": "Crossref 回傳記錄的作者和年份相符；題名按匹配度核對，repo 僅採用 API 回傳的完整標題。"
+  },
+  "limitations_zh": "只保留書目欄位與自行概括的研究範圍，沒有保存 API 回傳摘要；未標 ABSTRACT_REVIEW 的主張不得據此聲稱效果量。",
+  "critique_relationship_zh": "尚未核對本文與其他文獻的互引或直接反駁關係。",
+  "metadata_licence_zh": "Crossref 公開書目 metadata；精確授權未核驗，標 UNKNOWN。"
+}

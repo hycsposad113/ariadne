@@ -1,0 +1,42 @@
+{
+  "id": "FERM2023",
+  "title": "Hyper-Competitive Industrial Markets: Implications for Urban Planning and the Manufacturing Renaissance",
+  "authors": [
+    "Jessica Ferm"
+  ],
+  "year": 2023,
+  "venue_or_publisher": "Urban Planning, 8(4)",
+  "doi": "https://doi.org/10.17645/up.v8i4.7114",
+  "isbn": null,
+  "openalex_id": "https://openalex.org/W4387975510",
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "都市製造與高價土地用途競爭",
+  "region": "英國倫敦",
+  "method": "以倫敦政策與製造業空間案例討論都市製造回歸",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "倫敦的小型工業空間容易被住宅及高價辦公用途排擠，這種土地競爭可能削弱將製造業重新納入城市的政策目標。",
+      "strength": "MIXED",
+      "scope_zh": "文章聚焦倫敦製造業空間與規劃，沒有驗證所有 maker 模式的環境效益或特定基地的緩衝距離。",
+      "assessment_basis": "ABSTRACT_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "OpenAlex",
+    "query": {
+      "record_id": "https://openalex.org/W4387975510",
+      "doi": "10.17645/up.v8i4.7114",
+      "title": "Hyper-Competitive Industrial Markets: Implications for Urban Planning and the Manufacturing Renaissance",
+      "author": "Jessica Ferm",
+      "year": 2023
+    },
+    "matched_record_id": "https://openalex.org/W4387975510",
+    "checked_at_utc": "2026-10-09T00:14:21Z",
+    "match_notes_zh": "以允許的公開書目 API 精確比對題名、首位作者與出版年；只保留自行撰寫的摘要範圍說明，未保存全文或 API 摘要原文。"
+  },
+  "limitations_zh": "本條目依公開摘要或書目範圍整理；未下載全文，也不外推摘要未列的樣本、效果量或因果結論。",
+  "metadata_licence_zh": "僅保存公開書目欄位與自行撰寫的繁體中文摘要；未複製摘要全文或論文全文。"
+}

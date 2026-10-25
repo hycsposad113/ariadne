@@ -1,0 +1,42 @@
+{
+  "id": "SCHUETZE2018RIES",
+  "title": "Vauban and Rieselfeld, Freiburg, Germany",
+  "authors": [
+    "Thorsten Schuetze"
+  ],
+  "year": 2018,
+  "venue_or_publisher": "Global Planning Innovations for Urban Sustainability",
+  "doi": "https://doi.org/10.4324/9781351124225-6",
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "ACADEMIC_BOOK_CHAPTER",
+  "tradition": "德國永續新市區規劃與街區比較",
+  "region": "德國弗萊堡",
+  "method": "Crossref 書目資料確認題目、作者、年份及 DOI；本輪未核讀摘要或全文。",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "專書章題名將 Rieselfeld 與 Vauban 並列為規劃案例；未核讀章節，不引用其效果或比較結果。",
+      "strength": "CASE_EVIDENCE",
+      "scope_zh": "只支持可從 Crossref 書目核對的作者、年份、題目和出版資訊；不據此複述未核讀研究結果。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref REST API",
+    "query": {
+      "title": "Vauban and Rieselfeld, Freiburg, Germany",
+      "author": "Thorsten Schuetze",
+      "year": 2018,
+      "api_query": "Crossref GET /works/10.4324/9781351124225-6"
+    },
+    "matched_record_id": "10.4324/9781351124225-6",
+    "checked_at_utc": "2026-10-08T14:45:27Z",
+    "match_notes_zh": "內容先起草後以Crossref REST API精確DOI回應核對題名、作者與年份；未保存API摘要。"
+  },
+  "limitations_zh": "書目範圍確認不等於研究設計、數值、摘要或全文結果已核查。",
+  "critique_relationship_zh": "本記錄不宣稱與其他來源存在直接互引或逐一反駁關係。",
+  "metadata_licence_zh": "Crossref公開書目欄位；精確metadata授權未核驗，標UNKNOWN。"
+}

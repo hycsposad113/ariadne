@@ -1,0 +1,76 @@
+{
+  "id": "KU-GRN-050",
+  "domain": "GRN",
+  "subtopic": "健康效益實證",
+  "type": "concept",
+  "title_zh": "多種健康結果不可合併成單一效益",
+  "title_en": "Health outcomes are not interchangeable",
+  "summary_zh": "身體活動、壓力恢復、社交支持和自評健康是不同結果。同一綠地可能改善一項結果而對另一項沒有明顯作用。某些效益需要長期追蹤才能觀察。綜合指標便於溝通，卻可能稀釋效果機制。",
+  "key_points_zh": [
+    "身體活動、壓力恢復、社交支持和自評健康是不同結果",
+    "同一綠地可能改善一項結果而對另一項沒有明顯作用"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "身體活動、壓力恢復、社交支持和自評健康是不同結果。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "北美",
+        "library_id": "WOLCH14",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "綜合指標便於溝通，卻可能稀釋效果機制。"
+      },
+      {
+        "claim_zh": "Braubach 等人將綠地健康作用分成心理放鬆、身體活動、社會凝聚及降低污染、噪音與熱暴露等路徑，適合把健康結果分別量測。",
+        "effect_or_value": null,
+        "study_design": "城市綠地效益綜述章節",
+        "context_region": "都市綠地一般文獻",
+        "library_id": "BRAUBACH2017",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW",
+        "limitations_zh": "章節列出可能健康路徑，沒有給出每條路徑在本地的效果量。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "為每個健康主張指定測量工具和時間範圍。"
+  ],
+  "applies_when_zh": "適用於建構健康影響評估指標。",
+  "not_applicable_when_zh": "不能用總健康分數掩蓋族群差異。",
+  "debates_zh": "綜合指標便於溝通，卻可能稀釋效果機制。",
+  "sources": [
+    {
+      "library_id": "WOLCH14",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "BYRNEWOLCH09",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "BRAUBACH2017",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "環境正義與綠地治理",
+  "region": "北美",
+  "curriculum_refs": [
+    {
+      "school": "UCL Bartlett",
+      "course": "Critical Debates in Urban Design",
+      "topic": "健康效益實證"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-GRN-049",
+    "KU-GRN-051"
+  ]
+}

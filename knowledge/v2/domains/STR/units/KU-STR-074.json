@@ -1,0 +1,88 @@
+{
+  "id": "KU-STR-074",
+  "domain": "STR",
+  "subtopic": "街道作為公共空間",
+  "type": "design_principle",
+  "title_zh": "Jacobs 的四項都市多樣性條件",
+  "title_en": "Jacobs’s four generators of urban diversity",
+  "summary_zh": "Jacobs 提出四種能支撐都市多樣性的條件：混合主要用途、短街廓與多轉角、不同年代和條件的建築，以及足夠集中的人口。這四項彼此配合，支持街道在不同時段有多種活動，而非只靠一個建築或密度指標。她的主張來自對城市生活的觀察與理論，不是現代實證因果模型。",
+  "key_points_zh": [
+    "四項條件分別關注用途、街廓、建築年代與人口集中。",
+    "多樣性由多個相互作用的條件支持，不可簡化成單一混合用途比例。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "Jacobs（1961）提出都市多樣性的四個條件：混合的主要用途、短街廓、新舊建築混合、足夠的人口密度。",
+        "library_id": "JACOBS61",
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+        "effect_or_value": null,
+        "study_design": "城市觀察與理論；四項條件待經典交叉核對",
+        "context_region": "美國城市理論",
+        "locator": null
+      },
+      {
+        "claim_zh": "社群感與多樣性需放在地方使用文化及社會條件中解讀。",
+        "library_id": "TALEN99",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "社群感研究與地方性批評",
+        "context_region": "美國",
+        "locator": null
+      },
+      {
+        "claim_zh": "亞洲街道生活研究提醒公共空間功能與使用習慣有地域差異。",
+        "library_id": "MATEOBABIANO07",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "亞洲行人與街道文化研究",
+        "context_region": "亞洲",
+        "locator": null
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "比較公共空間方案時，逐項指出用途、街廓、建築年代和人群集中如何出現在圖面及時間表。"
+  ],
+  "applies_when_zh": "討論街道多樣性時，逐項檢視用途、街廓、建築年代和人口集中條件。",
+  "not_applicable_when_zh": "四項條件不能直接作為每個基地都必須達到的法規清單，也不保證公平或安全結果。",
+  "debates_zh": "Jacobs 的條件與後續量化研究並非同一證據層級；土地價格、治理和群體差異可能改變實際結果。",
+  "sources": [
+    {
+      "library_id": "JACOBS61",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "TALEN99",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "MATEOBABIANO07",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "公共空間研究與街道文化",
+  "region": "街道生活與都市多樣性",
+  "curriculum_refs": [
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.330J Theory of City Form",
+      "topic": "街道作為公共空間：課綱對應主題"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "街道作為公共空間：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-STR-053"
+  ]
+}

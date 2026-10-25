@@ -1,0 +1,181 @@
+{
+  "id": "KU-MOB-508",
+  "domain": "MOB",
+  "subtopic": "自行車網絡與設計",
+  "type": "value_range",
+  "title_zh": "CROW自行車網路、車道寬度與停車可及距離",
+  "title_en": "CROW cycling network, path widths and bicycle parking access",
+  "summary_zh": "CROW以連貫、直接、有吸引力、安全與舒適作為自行車基礎設施五項要求。公開摘錄建議建成區網路網格常見為300–500公尺，非建成區為1000–1500公尺；獨立自行車道的寬度依尖峰流量及單向／雙向條件變化。自行車停放指南另以目的地類別列出停車點到目的地的可接受步行距離。這是荷蘭專業手冊，不是M4H本基地法規；設計用途是用網格、流量、斷面與目的地步行距離一起檢查自行車連通性。",
+  "key_points_zh": [
+    "五項要求：網絡連貫、路線直接、具吸引力、交通安全、騎乘舒適。",
+    "建成區網路網格常見300–500m；非建成區常見1000–1500m。",
+    "單向獨立自行車道依尖峰流量：0–150輛／時為2.0m；150–750為2.5–3.0m；高於750為3.5–4.0m。",
+    "雙向獨立自行車道依尖峰流量：0–50輛／時2.5m；50–150為2.5–3.0m；150–350為3.5–4.0m；高於350為4.5m。",
+    "停車點到目的地可接受步行距離依用途約50–300m；這些是公開指引值，完整手冊需訂閱。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "公開摘錄列出連貫、直接、吸引力、安全、舒適五項要求。",
+        "effect_or_value": null,
+        "study_design": "法規／官方政策或實務指引內容核對",
+        "context_region": "荷蘭",
+        "library_id": "CROW_CYCLE_5",
+        "locator": "五項自行車基礎設施要求",
+        "claim_verification": "OFFICIAL_PRIMARY_SOURCE_REVIEW"
+      },
+      {
+        "claim_zh": "CROW公開頁指出建成區通常300–500m、非建成區1000–1500m。",
+        "effect_or_value": null,
+        "study_design": "法規／官方政策或實務指引內容核對",
+        "context_region": "荷蘭",
+        "library_id": "CROW_CYCLE_NETWORK",
+        "locator": "網路網格間距",
+        "claim_verification": "OFFICIAL_PRIMARY_SOURCE_REVIEW"
+      },
+      {
+        "claim_zh": "CROW公開表依尖峰流量區間列出單向與雙向自行車道寬度。",
+        "effect_or_value": null,
+        "study_design": "法規／官方政策或實務指引內容核對",
+        "context_region": "荷蘭",
+        "library_id": "CROW_CYCLE_WIDTH",
+        "locator": "V16獨立自行車道寬度表",
+        "claim_verification": "OFFICIAL_PRIMARY_SOURCE_REVIEW"
+      },
+      {
+        "claim_zh": "停車手冊摘錄按目的地類型列出可接受步行距離區間。",
+        "effect_or_value": null,
+        "study_design": "法規／官方政策或實務指引內容核對",
+        "context_region": "荷蘭",
+        "library_id": "CROW_BIKE_PARK",
+        "locator": "目的地可接受步行距離",
+        "claim_verification": "OFFICIAL_PRIMARY_SOURCE_REVIEW"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "先確定自行車主網及次網連接，再以路段尖峰流量選擇單向或雙向斷面寬度。",
+    "把停車位置至入口的步行距離納入功能配對，避免只按停車數量配置。"
+  ],
+  "applies_when_zh": "用於荷蘭自行車網路與獨立自行車道設計的初步對照；需依使用量、路權及地方條件調整。",
+  "not_applicable_when_zh": "不能將CROW指引數值視為M4H法定道路斷面或單一停車間距要求。",
+  "debates_zh": "公開頁為摘錄且表值依尖峰流量和道路形式而變；完整適用需查閱授權手冊及當地規範。",
+  "sources": [
+    {
+      "library_id": "CROW_CYCLE_5",
+      "claim_id": "C1",
+      "locator": "五項自行車基礎設施要求"
+    },
+    {
+      "library_id": "CROW_CYCLE_NETWORK",
+      "claim_id": "C1",
+      "locator": "網路網格間距"
+    },
+    {
+      "library_id": "CROW_CYCLE_WIDTH",
+      "claim_id": "C1",
+      "locator": "V16獨立自行車道寬度表"
+    },
+    {
+      "library_id": "CROW_BIKE_PARK",
+      "claim_id": "C1",
+      "locator": "目的地可接受步行距離"
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+  "tradition": "CROW自行車網絡與停車設計",
+  "region": "荷蘭",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "topic": "自行車網絡與設計"
+    },
+    {
+      "school": "Harvard GSD",
+      "topic": "自行車網絡與設計"
+    },
+    {
+      "school": "MIT",
+      "topic": "自行車網絡與設計"
+    },
+    {
+      "school": "UCL Bartlett",
+      "topic": "自行車網絡與設計"
+    }
+  ],
+  "version": "kb2-policy-2026-10-08",
+  "values": [
+    {
+      "name": "建成區自行車網路網格",
+      "range": "300–500",
+      "unit": "m",
+      "context": "適用地區：CROW；這是外國或地方制度／指引，不是 M4H 本基地法規；用途：網路連貫性檢查；用途：設定支線與主線之間的間距；來源：https://kennisbank.crow.nl/public/gastgebruiker/WOBU/Ontwerpwijzer_fietsverkeer/Samenhang/32929",
+      "library_id": "CROW_CYCLE_NETWORK"
+    },
+    {
+      "name": "非建成區自行車網路網格",
+      "range": "1000–1500",
+      "unit": "m",
+      "context": "適用地區：CROW；這是外國或地方制度／指引，不是 M4H 本基地法規；用途：網路連貫性檢查；用途：檢視較稀疏區域自行車連接；來源：https://kennisbank.crow.nl/public/gastgebruiker/WOBU/Ontwerpwijzer_fietsverkeer/Samenhang/32929",
+      "library_id": "CROW_CYCLE_NETWORK"
+    },
+    {
+      "name": "單向獨立車道，0–150輛／尖峰小時",
+      "range": "2.0",
+      "unit": "m寬",
+      "context": "適用地區：CROW；這是外國或地方制度／指引，不是 M4H 本基地法規；用途：CROW流量表；用途：單向自行車道初步斷面；來源：https://kennisbank.crow.nl/public/gastgebruiker/WOBU/Ontwerpwijzer_fietsverkeer/V16_Vrijliggend_fietspad/33043",
+      "library_id": "CROW_CYCLE_WIDTH"
+    },
+    {
+      "name": "單向獨立車道，150–750輛／尖峰小時",
+      "range": "2.5–3.0",
+      "unit": "m寬",
+      "context": "適用地區：CROW；這是外國或地方制度／指引，不是 M4H 本基地法規；用途：CROW流量表；用途：單向自行車道初步斷面；來源：https://kennisbank.crow.nl/public/gastgebruiker/WOBU/Ontwerpwijzer_fietsverkeer/V16_Vrijliggend_fietspad/33043",
+      "library_id": "CROW_CYCLE_WIDTH"
+    },
+    {
+      "name": "單向獨立車道，>750輛／尖峰小時",
+      "range": "3.5–4.0",
+      "unit": "m寬",
+      "context": "適用地區：CROW；這是外國或地方制度／指引，不是 M4H 本基地法規；用途：CROW流量表；用途：高流量單向自行車道初步斷面；來源：https://kennisbank.crow.nl/public/gastgebruiker/WOBU/Ontwerpwijzer_fietsverkeer/V16_Vrijliggend_fietspad/33043",
+      "library_id": "CROW_CYCLE_WIDTH"
+    },
+    {
+      "name": "雙向獨立車道，0–50輛／尖峰小時",
+      "range": "2.5",
+      "unit": "m寬",
+      "context": "適用地區：CROW；這是外國或地方制度／指引，不是 M4H 本基地法規；用途：CROW流量表；用途：雙向自行車道初步斷面；來源：https://kennisbank.crow.nl/public/gastgebruiker/WOBU/Ontwerpwijzer_fietsverkeer/V16_Vrijliggend_fietspad/33043",
+      "library_id": "CROW_CYCLE_WIDTH"
+    },
+    {
+      "name": "雙向獨立車道，50–150輛／尖峰小時",
+      "range": "2.5–3.0",
+      "unit": "m寬",
+      "context": "適用地區：CROW；這是外國或地方制度／指引，不是 M4H 本基地法規；用途：CROW流量表；用途：雙向自行車道初步斷面；來源：https://kennisbank.crow.nl/public/gastgebruiker/WOBU/Ontwerpwijzer_fietsverkeer/V16_Vrijliggend_fietspad/33043",
+      "library_id": "CROW_CYCLE_WIDTH"
+    },
+    {
+      "name": "雙向獨立車道，150–350輛／尖峰小時",
+      "range": "3.5–4.0",
+      "unit": "m寬",
+      "context": "適用地區：CROW；這是外國或地方制度／指引，不是 M4H 本基地法規；用途：CROW流量表；用途：雙向自行車道初步斷面；來源：https://kennisbank.crow.nl/public/gastgebruiker/WOBU/Ontwerpwijzer_fietsverkeer/V16_Vrijliggend_fietspad/33043",
+      "library_id": "CROW_CYCLE_WIDTH"
+    },
+    {
+      "name": "雙向獨立車道，>350輛／尖峰小時",
+      "range": "4.5",
+      "unit": "m寬",
+      "context": "適用地區：CROW；這是外國或地方制度／指引，不是 M4H 本基地法規；用途：CROW流量表；用途：高流量雙向自行車道初步斷面；來源：https://kennisbank.crow.nl/public/gastgebruiker/WOBU/Ontwerpwijzer_fietsverkeer/V16_Vrijliggend_fietspad/33043",
+      "library_id": "CROW_CYCLE_WIDTH"
+    },
+    {
+      "name": "自行車停放至常用目的地的接受步行距離",
+      "range": "50–300",
+      "unit": "m步行距離，依用途而異",
+      "context": "適用地區：CROW；這是外國或地方制度／指引，不是 M4H 本基地法規；用途：依目的地類別配置停車；例如醫療與運動50–150m、購物中心100–300m、工作／學校／餐飲100–200m；來源：https://kennisbank.crow.nl/public/gastgebruiker/WOBI/Leidraad_fietsparkeren_2023/Acceptabele_loopafstanden/115702",
+      "library_id": "CROW_BIKE_PARK"
+    }
+  ]
+}

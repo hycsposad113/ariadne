@@ -1,0 +1,80 @@
+{
+  "id": "KU-MOB-016",
+  "domain": "MOB",
+  "subtopic": "步行性",
+  "type": "pattern",
+  "title_zh": "步行性：可重用模式",
+  "title_en": "Walkability: Reusable pattern",
+  "summary_zh": "以完整無障礙路徑接起日常目的地，將過街和入口可達性作為路線的一部分。此模式以步行性同時涉及路徑連續、目的地、可過街性、舒適與身體能力，不等於人口密度或最短距離。需要留意的代價是步行性指標常把健康、便利和街道美觀混在一起；沒有清楚定義時，不同研究分數不可直接比較。",
+  "key_points_zh": [
+    "空間模式：步行性同時涉及路徑連續、目的地、可過街性、舒適與身體能力，不等於人口密度或最短距離",
+    "空間模式：以完整無障礙路徑接起日常目的地，將過街和入口可達性作為路線的一部分"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "步行性：可重用模式｜步行性有多種定義與設計訴求；需明確說明量測的是距離、舒適、活動還是可及性",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "FORSYTH15",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "步行性：可重用模式｜非機動可及性必須說明網路、目的地與尺度，替代量測方式需保持定義可比較",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "IACONO10",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "先畫出「步行性同時涉及路徑連續、目的地、可過街性、舒適與身體能力，不等於人口密度或最短距離」所描述的空間關係，再用「步行性指標常把健康、便利和街道美觀混在一起；沒有清楚定義時，不同研究分數不可直接比較」檢查它可能帶來的代價。"
+  ],
+  "applies_when_zh": "當設計需要回應「步行性同時涉及路徑連續、目的地、可過街性、舒適與身體能力，不等於人口密度或最短距離」描述的空間關係，可先把模式畫入配置，再用現地使用資料檢查。",
+  "not_applicable_when_zh": "「步行性同時涉及路徑連續、目的地、可過街性、舒適與身體能力，不等於人口密度或最短距離」不能原樣移植到缺少相同交通、界面或治理條件的場地；需先檢查「步行性指標常把健康、便利和街道美觀混在一起；沒有清楚定義時，不同研究分數不可直接比較」指出的代價。",
+  "debates_zh": "步行性指標常把健康、便利和街道美觀混在一起；沒有清楚定義時，不同研究分數不可直接比較；檢視「步行性：可重用模式」的模式落地時，還需判斷「以完整無障礙路徑接起日常目的地，將過街和入口可達性作為路線的一部分」會如何改變方案結論。",
+  "sources": [
+    {
+      "library_id": "FORSYTH15",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "IACONO10",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "步行設計與可及性",
+  "region": "跨地域理論或實務脈絡；來源地區依引用條目判讀",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "步行性：課綱對應主題"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Urban Design Contexts and Operations",
+      "topic": "步行性：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-MOB-009",
+    "KU-MOB-010",
+    "KU-MOB-011",
+    "KU-MOB-012",
+    "KU-MOB-013",
+    "KU-MOB-014",
+    "KU-MOB-015"
+  ]
+}

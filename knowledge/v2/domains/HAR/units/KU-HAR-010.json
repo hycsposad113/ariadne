@@ -1,0 +1,65 @@
+{
+  "id": "KU-HAR-010",
+  "domain": "HAR",
+  "subtopic": "工業遺產與 adaptive reuse",
+  "type": "empirical_finding",
+  "title_zh": "業主調查顯示再利用意願，不能替代完工績效",
+  "title_en": "Owner survey records reuse attitudes, not completed performance",
+  "summary_zh": "Bullen 以西澳商業建築業主問卷並整理既有研究，詢問再利用與永續性的關係。摘要記錄受訪業主支持適應性再利用的傾向，但這衡量的是態度與決策認知。問卷形式限制深入追問，結果也不是改造後能源或碳排的實測。香港的策略評估研究則提醒，個別建築的轉用機會仍須另行篩選。",
+  "key_points_zh": [
+    "西澳業主問卷呈現對再利用的支持方向，並非完工建築的環境績效。",
+    "前期評估與事後量測應分開記錄。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "西澳商業建築業主調查與文獻回顧記錄對適應性再利用的支持態度；問卷深度有限，未測得完工後環境效益。",
+        "effect_or_value": "支持再利用的態度方向；無可通用的效益數值",
+        "study_design": "業主結構式問卷加文獻回顧",
+        "context_region": "西澳洲商業建築",
+        "library_id": "BULLEN2007",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "香港建築再利用機會評估作為前期篩選問題，需逐案檢查可行性。",
+        "effect_or_value": "評估框架；非通用成功率",
+        "study_design": "策略性機會評估研究",
+        "context_region": "香港建築市場",
+        "library_id": "LANGSTON2008",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "把業主意願、建築適配度與改造後能耗分成三組指標，避免把預期效益寫成已實現成果。"
+  ],
+  "applies_when_zh": "需要掌握既有建築意願及初步再利用可能性的港區前期盤點。",
+  "not_applicable_when_zh": "不適用於證明節能、減碳或租戶留置成效。",
+  "debates_zh": "業主問卷能揭示採納條件，卻不能替代工程與社會結果的後續觀測。",
+  "sources": [
+    {
+      "library_id": "BULLEN2007",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "LANGSTON2008",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "建築再利用評估",
+  "region": "西澳洲與香港",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": null,
+      "topic": "Industrial heritage and adaptive reuse"
+    }
+  ],
+  "version": "v2.0"
+}

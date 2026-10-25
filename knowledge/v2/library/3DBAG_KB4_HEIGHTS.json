@@ -1,0 +1,390 @@
+{
+  "id": "3DBAG_KB4_HEIGHTS",
+  "title": "3DBAG public building-height snapshots",
+  "authors": [
+    "3DBAG"
+  ],
+  "year": null,
+  "venue_or_publisher": "3DBAG public WFS",
+  "doi": null,
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "OPEN_DATASET",
+  "tradition": "都市形態測量與先例研究",
+  "region": "跨城市公開資料",
+  "method": "明列資料快照、欄位和計算界線",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "高度只採 BAG 識別碼成功連結的 b3_h_70p − b3_h_maaiveld；3.0 m／層只作明示樓層換算假設。",
+      "strength": "CASE_EVIDENCE",
+      "scope_zh": "只支持可檢查的資料來源與欄位，不支持完整性或規範性推論。",
+      "assessment_basis": "DIRECT_DATA_SNAPSHOT_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "3DBAG WFS",
+    "query": {
+      "title": "3DBAG public building-height snapshots"
+    },
+    "matched_record_id": "WFS capabilities and saved tile hashes",
+    "checked_at_utc": "2026-10-09T11:17:31Z",
+    "match_notes_zh": "逐筆核對可保存回應、檔案雜湊與服務欄位。",
+    "url": "https://data.3dbag.nl/api/BAG3D/wfs",
+    "accessed_utc": "2026-10-09"
+  },
+  "limitations_zh": "無 BAG 對應高度的建築保持未知；資料缺值不以幾何或 OSM 標籤補猜。",
+  "metadata_licence_zh": "公開服務來源 metadata 與自行撰寫測量範圍說明。",
+  "snapshot_manifest": [
+    {
+      "tile_id": "10/422/712",
+      "response_path": "artifacts/kb4-precedents/raw/3dbag/10-422-712.gpkg.gz",
+      "response_sha256": "0b766b0105e56a5a9a56b6fcb2f0142f73be9224e27dffd26e8d892cd5796a39",
+      "response_size_bytes": 1831557,
+      "retrieved_at_utc": "2026-10-09T11:01:00Z",
+      "url": "https://data.3dbag.nl/v20250903/tiles/10/422/712/10-422-712.gpkg.gz"
+    },
+    {
+      "tile_id": "8/296/512",
+      "response_path": "artifacts/kb4-precedents/raw/3dbag/8-296-512.gpkg.gz",
+      "response_sha256": "0ef9379495a26fd3b1b64af6a1fa41fd4d90a55430baeb669a70d66fed32ad12",
+      "response_size_bytes": 3993247,
+      "retrieved_at_utc": "2026-10-09T11:01:03Z",
+      "url": "https://data.3dbag.nl/v20250903/tiles/8/296/512/8-296-512.gpkg.gz"
+    },
+    {
+      "tile_id": "8/456/712",
+      "response_path": "artifacts/kb4-precedents/raw/3dbag/8-456-712.gpkg.gz",
+      "response_sha256": "ce0d7261911a25426086c805044c7a99a26ab5995472c6328972b9a68de7fe72",
+      "response_size_bytes": 3806970,
+      "retrieved_at_utc": "2026-10-09T11:01:06Z",
+      "url": "https://data.3dbag.nl/v20250903/tiles/8/456/712/8-456-712.gpkg.gz"
+    },
+    {
+      "tile_id": "9/300/520",
+      "response_path": "artifacts/kb4-precedents/raw/3dbag/9-300-520.gpkg.gz",
+      "response_sha256": "ea201a6f807ec7be3aad551e01eea35f74b6587d26d262a17d553f73c7f334fe",
+      "response_size_bytes": 1195552,
+      "retrieved_at_utc": "2026-10-09T11:01:08Z",
+      "url": "https://data.3dbag.nl/v20250903/tiles/9/300/520/9-300-520.gpkg.gz"
+    },
+    {
+      "tile_id": "9/304/516",
+      "response_path": "artifacts/kb4-precedents/raw/3dbag/9-304-516.gpkg.gz",
+      "response_sha256": "c784d9e774c7f57a88d64499c540cd594e9002dd336f7601fe313242cf119967",
+      "response_size_bytes": 5123678,
+      "retrieved_at_utc": "2026-10-09T11:01:10Z",
+      "url": "https://data.3dbag.nl/v20250903/tiles/9/304/516/9-304-516.gpkg.gz"
+    },
+    {
+      "tile_id": "9/304/520",
+      "response_path": "artifacts/kb4-precedents/raw/3dbag/9-304-520.gpkg.gz",
+      "response_sha256": "96ad116398d2ee2626008ad0dd0e313148b6f35966d8dde8e9fd0ee05bc4dc65",
+      "response_size_bytes": 2600121,
+      "retrieved_at_utc": "2026-10-09T11:01:14Z",
+      "url": "https://data.3dbag.nl/v20250903/tiles/9/304/520/9-304-520.gpkg.gz"
+    },
+    {
+      "tile_id": "9/308/512",
+      "response_path": "artifacts/kb4-precedents/raw/3dbag/9-308-512.gpkg.gz",
+      "response_sha256": "cc9e7ecf7284947b7cbc3ddce628da2a21ae6434ff156f45b4c8f58406c57c14",
+      "response_size_bytes": 1693770,
+      "retrieved_at_utc": "2026-10-09T11:01:17Z",
+      "url": "https://data.3dbag.nl/v20250903/tiles/9/308/512/9-308-512.gpkg.gz"
+    },
+    {
+      "tile_id": "9/312/508",
+      "response_path": "artifacts/kb4-precedents/raw/3dbag/9-312-508.gpkg.gz",
+      "response_sha256": "fc010c2def4fffd1297e654b3ec7c78079f8af6b844277a32b61de65553501fe",
+      "response_size_bytes": 3292551,
+      "retrieved_at_utc": "2026-10-09T11:01:19Z",
+      "url": "https://data.3dbag.nl/v20250903/tiles/9/312/508/9-312-508.gpkg.gz"
+    },
+    {
+      "tile_id": "9/312/512",
+      "response_path": "artifacts/kb4-precedents/raw/3dbag/9-312-512.gpkg.gz",
+      "response_sha256": "a1ae08ae0928f5343f92dc2543f6f7a2d0782ceb899758e4b725f4110e1e14f8",
+      "response_size_bytes": 749690,
+      "retrieved_at_utc": "2026-10-09T11:01:22Z",
+      "url": "https://data.3dbag.nl/v20250903/tiles/9/312/512/9-312-512.gpkg.gz"
+    },
+    {
+      "tile_id": "9/316/508",
+      "response_path": "artifacts/kb4-precedents/raw/3dbag/9-316-508.gpkg.gz",
+      "response_sha256": "0b9ffb86f577e6e1555a8a3022564a33065cbb60c1e5e77a7c92fb97ebe1ccfd",
+      "response_size_bytes": 4736661,
+      "retrieved_at_utc": "2026-10-09T11:01:24Z",
+      "url": "https://data.3dbag.nl/v20250903/tiles/9/316/508/9-316-508.gpkg.gz"
+    },
+    {
+      "tile_id": "9/316/512",
+      "response_path": "artifacts/kb4-precedents/raw/3dbag/9-316-512.gpkg.gz",
+      "response_sha256": "ba76710debfc65071aa771fe3172db254fd21f3b54f4a5d878acdbc498eadf59",
+      "response_size_bytes": 1590853,
+      "retrieved_at_utc": "2026-10-09T11:01:27Z",
+      "url": "https://data.3dbag.nl/v20250903/tiles/9/316/512/9-316-512.gpkg.gz"
+    },
+    {
+      "tile_id": "9/420/708",
+      "response_path": "artifacts/kb4-precedents/raw/3dbag/9-420-708.gpkg.gz",
+      "response_sha256": "fd7d6ff273b024ff4f3d5d9b85b5c1d7f266f83852b5809cc0987097afc04aab",
+      "response_size_bytes": 4762626,
+      "retrieved_at_utc": "2026-10-09T11:01:29Z",
+      "url": "https://data.3dbag.nl/v20250903/tiles/9/420/708/9-420-708.gpkg.gz"
+    },
+    {
+      "tile_id": "9/436/720",
+      "response_path": "artifacts/kb4-precedents/raw/3dbag/9-436-720.gpkg.gz",
+      "response_sha256": "744757cd24f6ee03e5c2b7533665a8da19eec5961014e6160e3a47ea6d797327",
+      "response_size_bytes": 1717295,
+      "retrieved_at_utc": "2026-10-09T11:01:32Z",
+      "url": "https://data.3dbag.nl/v20250903/tiles/9/436/720/9-436-720.gpkg.gz"
+    },
+    {
+      "tile_id": "9/436/724",
+      "response_path": "artifacts/kb4-precedents/raw/3dbag/9-436-724.gpkg.gz",
+      "response_sha256": "e2059fbfa65d757669625bfea3fc9c832fb118b4b8737da0aaaec81b05fc643e",
+      "response_size_bytes": 2341548,
+      "retrieved_at_utc": "2026-10-09T11:01:35Z",
+      "url": "https://data.3dbag.nl/v20250903/tiles/9/436/724/9-436-724.gpkg.gz"
+    },
+    {
+      "tile_id": "9/440/716",
+      "response_path": "artifacts/kb4-precedents/raw/3dbag/9-440-716.gpkg.gz",
+      "response_sha256": "23cbb94a7b39ab8b095bb0bfad4415dea51cb8b9a3dd31d8f98c1ff147dbb0cc",
+      "response_size_bytes": 4226542,
+      "retrieved_at_utc": "2026-10-09T11:01:37Z",
+      "url": "https://data.3dbag.nl/v20250903/tiles/9/440/716/9-440-716.gpkg.gz"
+    },
+    {
+      "tile_id": "9/440/720",
+      "response_path": "artifacts/kb4-precedents/raw/3dbag/9-440-720.gpkg.gz",
+      "response_sha256": "6680ba7bf101bf9d9d280fb87e79ea9e3497bcf3199187ccfe34a55c016b85fa",
+      "response_size_bytes": 1808582,
+      "retrieved_at_utc": "2026-10-09T11:01:40Z",
+      "url": "https://data.3dbag.nl/v20250903/tiles/9/440/720/9-440-720.gpkg.gz"
+    },
+    {
+      "tile_id": "9/440/724",
+      "response_path": "artifacts/kb4-precedents/raw/3dbag/9-440-724.gpkg.gz",
+      "response_sha256": "c37d0cbfc6dab1a1dbdc0b0248dcc682669cd9bfc0be28d26e4179bd2b698fba",
+      "response_size_bytes": 1040170,
+      "retrieved_at_utc": "2026-10-09T11:01:42Z",
+      "url": "https://data.3dbag.nl/v20250903/tiles/9/440/724/9-440-724.gpkg.gz"
+    },
+    {
+      "tile_id": "9/444/720",
+      "response_path": "artifacts/kb4-precedents/raw/3dbag/9-444-720.gpkg.gz",
+      "response_sha256": "738811f6dfbf7bd4ba4f547923a129b2a75ebb15f096624f3caeae38505656f0",
+      "response_size_bytes": 2114755,
+      "retrieved_at_utc": "2026-10-09T11:01:44Z",
+      "url": "https://data.3dbag.nl/v20250903/tiles/9/444/720/9-444-720.gpkg.gz"
+    },
+    {
+      "tile_id": "9/444/724",
+      "response_path": "artifacts/kb4-precedents/raw/3dbag/9-444-724.gpkg.gz",
+      "response_sha256": "a8931019f7499da815692811acfb1ec7a380242a7e7670ff0a5775773eb4bb06",
+      "response_size_bytes": 238296,
+      "retrieved_at_utc": "2026-10-09T11:01:47Z",
+      "url": "https://data.3dbag.nl/v20250903/tiles/9/444/724/9-444-724.gpkg.gz"
+    }
+  ],
+  "source_manifest_path": "artifacts/kb4-precedents/3dbag-source-manifest.json",
+  "source_manifest_sha256": "1381857872437766a9f7d5c37f2c1d74704f787361ae477de051b22e146dab94",
+  "tile_catalog_requests": [
+    {
+      "case_slug": "borneo-sporenburg",
+      "request": {
+        "service": "WFS",
+        "version": "2.0.0",
+        "request": "GetFeature",
+        "typeNames": "BAG3D:tiles",
+        "outputFormat": "application/json",
+        "srsName": "EPSG:28992",
+        "bbox": "124768.07653978166,487193.12327737414,125248.07653978166,487443.12327737414,urn:ogc:def:crs:EPSG::28992"
+      },
+      "response_path": "artifacts/kb4-precedents/raw/3dbag/tile-catalog-borneo-sporenburg.json",
+      "response_sha256": "95389d38e3742c9da8a80120aa533c9b8c4c2beb3bc2724281a19447544835a1",
+      "retrieved_at_utc": "2026-10-09T11:00:38Z",
+      "matching_tile_ids": [
+        "9/444/720"
+      ]
+    },
+    {
+      "case_slug": "java-eiland",
+      "request": {
+        "service": "WFS",
+        "version": "2.0.0",
+        "request": "GetFeature",
+        "typeNames": "BAG3D:tiles",
+        "outputFormat": "application/json",
+        "srsName": "EPSG:28992",
+        "bbox": "123308.17282667563,487864.817264708,123728.17282667563,488104.817264708,urn:ogc:def:crs:EPSG::28992"
+      },
+      "response_path": "artifacts/kb4-precedents/raw/3dbag/tile-catalog-java-eiland.json",
+      "response_sha256": "be7b79f44128b4e97021a5cb0f4e36de9e4f0070f414224c6c7c20d8233eccc2",
+      "retrieved_at_utc": "2026-10-09T11:00:40Z",
+      "matching_tile_ids": [
+        "9/436/720",
+        "9/436/724",
+        "9/440/720",
+        "9/440/724"
+      ]
+    },
+    {
+      "case_slug": "knsm-eiland",
+      "request": {
+        "service": "WFS",
+        "version": "2.0.0",
+        "request": "GetFeature",
+        "typeNames": "BAG3D:tiles",
+        "outputFormat": "application/json",
+        "srsName": "EPSG:28992",
+        "bbox": "124961.96794384423,487855.9979275258,125371.96794384423,488095.9979275258,urn:ogc:def:crs:EPSG::28992"
+      },
+      "response_path": "artifacts/kb4-precedents/raw/3dbag/tile-catalog-knsm-eiland.json",
+      "response_sha256": "281b06528fed4f0cfca25202b02f8c997a1d5844420d1546295ac7ca19575c88",
+      "retrieved_at_utc": "2026-10-09T11:00:43Z",
+      "matching_tile_ids": [
+        "9/444/720",
+        "9/444/724"
+      ]
+    },
+    {
+      "case_slug": "ijburg-haveneiland",
+      "request": {
+        "service": "WFS",
+        "version": "2.0.0",
+        "request": "GetFeature",
+        "typeNames": "BAG3D:tiles",
+        "outputFormat": "application/json",
+        "srsName": "EPSG:28992",
+        "bbox": "128404.58894877708,484960.5788004717,128904.58894877708,485280.5788004717,urn:ogc:def:crs:EPSG::28992"
+      },
+      "response_path": "artifacts/kb4-precedents/raw/3dbag/tile-catalog-ijburg-haveneiland.json",
+      "response_sha256": "caf743501c195510e4aec917f6edc3c685f4216aecc548115f0ace3d63022a99",
+      "retrieved_at_utc": "2026-10-09T11:00:45Z",
+      "matching_tile_ids": [
+        "8/456/712"
+      ]
+    },
+    {
+      "case_slug": "kop-van-zuid-wilhelminapier",
+      "request": {
+        "service": "WFS",
+        "version": "2.0.0",
+        "request": "GetFeature",
+        "typeNames": "BAG3D:tiles",
+        "outputFormat": "application/json",
+        "srsName": "EPSG:28992",
+        "bbox": "92864.55231612541,435487.67744852655,93284.55231612541,435737.67744852655,urn:ogc:def:crs:EPSG::28992"
+      },
+      "response_path": "artifacts/kb4-precedents/raw/3dbag/tile-catalog-kop-van-zuid-wilhelminapier.json",
+      "response_sha256": "8c1a427c200fa18d36d3efb75feb6d63823938c4c86799e0d00b386f11614095",
+      "retrieved_at_utc": "2026-10-09T11:00:47Z",
+      "matching_tile_ids": [
+        "9/316/512"
+      ]
+    },
+    {
+      "case_slug": "katendrecht",
+      "request": {
+        "service": "WFS",
+        "version": "2.0.0",
+        "request": "GetFeature",
+        "typeNames": "BAG3D:tiles",
+        "outputFormat": "application/json",
+        "srsName": "EPSG:28992",
+        "bbox": "92533.77832522459,434876.00558073394,92933.77832522459,435136.00558073394,urn:ogc:def:crs:EPSG::28992"
+      },
+      "response_path": "artifacts/kb4-precedents/raw/3dbag/tile-catalog-katendrecht.json",
+      "response_sha256": "343f6cc5534f0ffeef31609c1e52674dc406d659371a02fcb72fb222c525de09",
+      "retrieved_at_utc": "2026-10-09T11:00:49Z",
+      "matching_tile_ids": [
+        "9/312/508",
+        "9/312/512",
+        "9/316/508",
+        "9/316/512"
+      ]
+    },
+    {
+      "case_slug": "lloydkwartier",
+      "request": {
+        "service": "WFS",
+        "version": "2.0.0",
+        "request": "GetFeature",
+        "typeNames": "BAG3D:tiles",
+        "outputFormat": "application/json",
+        "srsName": "EPSG:28992",
+        "bbox": "91107.68792644571,435425.9025861639,91427.68792644571,435665.9025861639,urn:ogc:def:crs:EPSG::28992"
+      },
+      "response_path": "artifacts/kb4-precedents/raw/3dbag/tile-catalog-lloydkwartier.json",
+      "response_sha256": "3f455f9a614b693670cf0a5226bc6c7f62520e18dcc2ab5ca55765401cc55856",
+      "retrieved_at_utc": "2026-10-09T11:00:51Z",
+      "matching_tile_ids": [
+        "9/308/512"
+      ]
+    },
+    {
+      "case_slug": "spangen-justus-van-effen",
+      "request": {
+        "service": "WFS",
+        "version": "2.0.0",
+        "request": "GetFeature",
+        "typeNames": "BAG3D:tiles",
+        "outputFormat": "application/json",
+        "srsName": "EPSG:28992",
+        "bbox": "89404.3168497845,436813.9022802917,89804.3168497845,437093.9022802917,urn:ogc:def:crs:EPSG::28992"
+      },
+      "response_path": "artifacts/kb4-precedents/raw/3dbag/tile-catalog-spangen-justus-van-effen.json",
+      "response_sha256": "b8d1b189261dcae321928af667f1dd7d8eb3eb0ef5bd611895435fc95804499c",
+      "retrieved_at_utc": "2026-10-09T11:00:53Z",
+      "matching_tile_ids": [
+        "8/296/512",
+        "9/300/520",
+        "9/304/516",
+        "9/304/520"
+      ]
+    },
+    {
+      "case_slug": "funenpark",
+      "request": {
+        "service": "WFS",
+        "version": "2.0.0",
+        "request": "GetFeature",
+        "typeNames": "BAG3D:tiles",
+        "outputFormat": "application/json",
+        "srsName": "EPSG:28992",
+        "bbox": "123730.81016406137,486763.9116657326,124030.81016406137,486983.9116657326,urn:ogc:def:crs:EPSG::28992"
+      },
+      "response_path": "artifacts/kb4-precedents/raw/3dbag/tile-catalog-funenpark.json",
+      "response_sha256": "b1f23cde22cb4b692762a7dce81dd04595734d9b8ac16d19e83595e2f2d57548",
+      "retrieved_at_utc": "2026-10-09T11:00:56Z",
+      "matching_tile_ids": [
+        "9/440/716",
+        "9/440/720"
+      ]
+    },
+    {
+      "case_slug": "amsterdam-oud-zuid",
+      "request": {
+        "service": "WFS",
+        "version": "2.0.0",
+        "request": "GetFeature",
+        "typeNames": "BAG3D:tiles",
+        "outputFormat": "application/json",
+        "srsName": "EPSG:28992",
+        "bbox": "119181.37520427408,484681.9622913856,119581.37520427408,484941.9622913856,urn:ogc:def:crs:EPSG::28992"
+      },
+      "response_path": "artifacts/kb4-precedents/raw/3dbag/tile-catalog-amsterdam-oud-zuid.json",
+      "response_sha256": "2903b5d970028eac00401c2bcfc3170a72c45a3a6688b7a8add64b48842403d7",
+      "retrieved_at_utc": "2026-10-09T11:00:58Z",
+      "matching_tile_ids": [
+        "10/422/712",
+        "9/420/708"
+      ]
+    }
+  ]
+}

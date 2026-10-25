@@ -1,0 +1,11 @@
+{
+  "corrected_results": {
+    "focused_test_count": 43,
+    "full_pytest_count": 451
+  },
+  "fixture_only": true,
+  "supersedes": {
+    "path": "artifacts/week4-repair-r04/decision-docket.md",
+    "sha256": "d50591147d42f24ea732535b11d3918722f0b7e0a699ca976f2d5d828dc3f063"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id": "NOBLE1993",
+  "title": "Floor area ratio as an urban development tool",
+  "authors": [
+    "Matthew A. Noble",
+    "Allen G. Noble",
+    "Frank J. Costa"
+  ],
+  "year": 1993,
+  "venue_or_publisher": "Land Use Policy",
+  "doi": "10.1016/0264-8377(93)90004-t",
+  "tradition": "FAR 作為土地開發工具",
+  "region": [
+    "美國"
+  ],
+  "method": "制度分析與土地開發工具討論",
+  "claim": "書目確認該研究討論 FAR 作為城市開發工具；本條目不據此推定任何特定城市現行上限。",
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "ACADEMIC_PAPER",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "書目確認該研究討論 FAR 作為城市開發工具；本條目不據此推定任何特定城市現行上限。",
+      "strength": "THEORETICAL",
+      "scope_zh": "僅核對 Crossref 書目欄位；本任務未下載全文，也未把書目主題當成精確法規表或研究結果。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref",
+    "query": {
+      "title": "Floor area ratio as an urban development tool",
+      "author": "Matthew A. Noble",
+      "year": 1993
+    },
+    "matched_record_id": "10.1016/0264-8377(93)90004-t",
+    "checked_at_utc": "2026-10-08T09:43:44Z",
+    "match_notes_zh": "直接 Crossref DOI 記錄核對書名、作者與出版年；只確認書目。"
+  },
+  "limitations_zh": "僅保存公開書目欄位與自行撰寫的範圍說明，沒有保存摘要或全文。",
+  "metadata_licence_zh": "只保存公開書目欄位和自行撰寫的來源說明；本任務未判定資料服務授權細節。"
+}

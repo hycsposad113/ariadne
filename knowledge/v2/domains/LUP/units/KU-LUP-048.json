@@ -1,0 +1,103 @@
+{
+  "id": "KU-LUP-048",
+  "domain": "LUP",
+  "subtopic": "15 分鐘城市與可及性",
+  "type": "critique",
+  "title_zh": "15 分鐘城市與可及性｜批評與反例",
+  "title_en": "15-minute city and accessibility — Critique and counterexample",
+  "summary_zh": "近鄰服務模型能顯示日常設施的空間缺口，卻可能漏掉住房成本、服務品質和跨區工作行程。 米蘭案例提出這些可及性盲點；荷蘭節點與場所研究則提醒，靠近車站不代表周邊活動已與運輸能力相配。 評估 15 分鐘城市時應按居民群體計算實際路網、服務開放時間與負擔能力，不能把圓形距離圈當成公平結果。",
+  "key_points_zh": [
+    "讀「15 分鐘城市與可及性｜批評與反例」時，近鄰服務模型可能掩蓋住宅成本、服務品質和跨區工作需要；同時把近鄰服務模型能顯示日常設施的空間缺口，卻可能漏掉住房成本、服務品質和跨區工作行程列為核對條件。",
+    "讀「15 分鐘城市與可及性｜批評與反例」時，適用於鄰里服務缺口、交通公平和日常活動配置；同時把近鄰服務模型能顯示日常設施的空間缺口，卻可能漏掉住房成本、服務品質和跨區工作行程列為核對條件。",
+    "讀「15 分鐘城市與可及性｜批評與反例」時，限制：不把步行網路模型結果等同所有居民實際可達性；同時把近鄰服務模型能顯示日常設施的空間缺口，卻可能漏掉住房成本、服務品質和跨區工作行程列為核對條件。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "Marchigiani 等人提醒，15 分鐘標籤可能掩蓋地方政策和治理差異；地圖半徑需要連同服務與制度條件解讀。",
+        "library_id": "MARCHIGIANI2022",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "米蘭，義大利",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "巴塞隆納研究將近鄰服務的實際使用放在社會人口差異中檢視，發現可達性供給與居民日常採用並非同一件事。",
+        "effect_or_value": null,
+        "study_design": "15 分鐘城市生活方式的社會人口分析",
+        "context_region": "西班牙巴塞隆納",
+        "library_id": "MACIEJEWSKA2025",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW",
+        "limitations_zh": "該研究沒有單獨量測本地住宅負擔或跨區工作時間。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "服務可及性分別輸出步行、自行車和照護旅次的路網阻抗，並按目的地開放時段核算可用機會。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "服務可及性分別輸出步行、自行車和照護旅次的路網阻抗，並按目的地開放時段核算可用機會。",
+      "tradeoff_zh": "「15 分鐘城市與可及性｜批評與反例」的主要代價不是抽象的建造成本，而是「15 分鐘城市與可及性｜批評與反例」的爭議不只在於不把步行網路模型結果等同所有居民實際可達性；還要檢視近鄰服務模型能顯示日常設施的空間缺口，卻可能漏掉住房成本、服務品質和跨區工作行程會讓哪些使用者承擔不同後果；因此先以近鄰服務模型能顯示日常設施的空間缺口，卻可能漏掉住房成本、服務品質和跨區工作行程作方案比較條件。",
+      "library_ids": [
+        "MARCHIGIANI2022"
+      ]
+    },
+    {
+      "option_zh": "在「15 分鐘城市與可及性｜批評與反例」的來源情境裡，步行、自行車、公共運輸和照護行程可能需要不同服務圈；落到設計時還要按近鄰服務模型能顯示日常設施的空間缺口，卻可能漏掉住房成本、服務品質和跨區工作行程調整。",
+      "tradeoff_zh": "此選項把「15 分鐘城市與可及性｜批評與反例」的工作放在近鄰服務模型能顯示日常設施的空間缺口，卻可能漏掉住房成本、服務品質和跨區工作行程上；需要承擔的協調或維護代價則由「「15 分鐘城市與可及性｜批評與反例」的爭議不只在於不把步行網路模型結果等同所有居民實際可達性；還要檢視近鄰服務模型能顯示日常設施的空間缺口，卻可能漏掉住房成本、服務品質和跨區工作行程會讓哪些使用者承擔不同後果」界定。",
+      "library_ids": [
+        "MARCHIGIANI2022"
+      ]
+    }
+  ],
+  "applies_when_zh": "「15 分鐘城市與可及性｜批評與反例」可在適用於鄰里服務缺口、交通公平和日常活動配置時使用，前提是近鄰服務模型能顯示日常設施的空間缺口，卻可能漏掉住房成本、服務品質和跨區工作行程與來源情境相符。",
+  "not_applicable_when_zh": "若近鄰服務模型能顯示日常設施的空間缺口，卻可能漏掉住房成本、服務品質和跨區工作行程不成立，就不能把「15 分鐘城市與可及性｜批評與反例」的結論延伸到其他情況；不把步行網路模型結果等同所有居民實際可達性。",
+  "debates_zh": "「15 分鐘城市與可及性｜批評與反例」的爭議不只在於不把步行網路模型結果等同所有居民實際可達性；還要檢視近鄰服務模型能顯示日常設施的空間缺口，卻可能漏掉住房成本、服務品質和跨區工作行程會讓哪些使用者承擔不同後果。",
+  "sources": [
+    {
+      "library_id": "MARCHIGIANI2022",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "MACIEJEWSKA2025",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "鄰里規劃與近鄰服務批判；節點與場所",
+  "region": "米蘭，義大利；荷蘭",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Planning Complex Cities",
+      "topic": "15 分鐘城市與可及性"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Cities by Design",
+      "topic": "15 分鐘城市與可及性"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "15 分鐘城市與可及性"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Sustainable Futures by Design",
+      "topic": "15 分鐘城市與可及性"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-LUP-044",
+    "KU-LUP-045",
+    "KU-LUP-046"
+  ]
+}

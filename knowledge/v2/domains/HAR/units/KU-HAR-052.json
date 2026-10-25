@@ -1,0 +1,79 @@
+{
+  "id": "KU-HAR-052",
+  "type": "value_range",
+  "subtopic": "公共空間與公園案例",
+  "title_zh": "Rotterdam Dakpark 將公園設置在約 9 公尺高的平台",
+  "title_en": "Rotterdam Dakpark Sits About Nine Metres Above Street Level",
+  "summary_zh": "鹿特丹市府把 Dakpark 描述為架高約 9 公尺的公共公園，位於港區和 Bospolder 街區之間。公園平台把大型零售與停車等地面用途和上方綠地疊合，提供跨越原有都市界面的新步行層。高度是場地剖面的個案數值，不能直接轉成其他屋頂公園的結構或無障礙標準。",
+  "values": [
+    {
+      "name": "公園平台高度",
+      "range": "約9",
+      "unit": "公尺（高於周邊地面）",
+      "context": "用途：以「公園平台高度」作為來源情境參照；鹿特丹市府對Dakpark的描述性高度；不代表結構淨高或通用規範，亦不是本基地法規。",
+      "library_id": "ROTTERDAM_DAKPARK2026"
+    }
+  ],
+  "key_points_zh": [
+    "把地面街網、垂直入口和平台步行線一起分析。",
+    "平台高度不會自行保證與周邊街區的無障礙連接。"
+  ],
+  "design_implications_zh": [
+    "核對每個入口的坡道、電梯、開放時段和與街道的視線連接。"
+  ],
+  "applies_when_zh": "以屋頂或架高平台承載大型公共空間時。",
+  "not_applicable_when_zh": "一般地面公園或只有私有屋頂花園時。",
+  "debates_zh": "架高公園可增加綠地但會改變街面連續性；若入口集中或商業時間限制，空間可能不易融入周邊日常。",
+  "tradition": "荷蘭架高公園／港區街區連接",
+  "region": "荷蘭鹿特丹",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": null,
+      "topic": "Public space and industrial waterfronts"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": null,
+      "topic": "Infrastructure and public realm"
+    }
+  ],
+  "domain": "HAR",
+  "evidence": {
+    "strength": "CASE_EVIDENCE",
+    "findings": [
+      {
+        "claim_zh": "鹿特丹市府頁面記載Dakpark位於約9公尺高處，並描述花園、遊戲和農耕用途。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "荷蘭鹿特丹",
+        "library_id": "ROTTERDAM_DAKPARK2026",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "公共空間研究將管理和使用條件列為分類與評估面向。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "荷蘭鹿特丹",
+        "library_id": "CARMONA10",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "library_id": "ROTTERDAM_DAKPARK2026",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "CARMONA10",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "version": "v2.0"
+}

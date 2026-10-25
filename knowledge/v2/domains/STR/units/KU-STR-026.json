@@ -1,0 +1,81 @@
+{
+  "id": "KU-STR-026",
+  "domain": "STR",
+  "subtopic": "街廓大小與連結度",
+  "type": "empirical_finding",
+  "title_zh": "新城與舊城的形態—活動診斷",
+  "title_en": "Morphology and activity across Dutch towns",
+  "summary_zh": "以 GPS 行為記錄初步檢驗 GIS 組態、密度和混合用途方法，再比較三個新城與一個舊城，研究脈絡為荷蘭四個新舊城案例。路網、建築形態和用途能在同一診斷中並列，協助定位新城活力不足的可能原因。舊城的街網整合、建築密度和用途混合指標高於比較的新城。限制包括四個案例的比較不能識別單一因果因素；GPS 行為記錄只作初步檢驗。",
+  "key_points_zh": [
+    "路網、建築形態和用途能在同一診斷中並列，協助定位新城活力不足的可能原因",
+    "限制：四個案例的比較不能識別單一因果因素；GPS 行為記錄只作初步檢驗",
+    "效果或方向：舊城的街網整合、建築密度和用途混合指標高於比較的新城"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "新城與舊城的形態—活動診斷｜路網、建築形態和用途能在同一診斷中並列，協助定位新城活力不足的可能原因",
+        "effect_or_value": "舊城的街網整合、建築密度和用途混合指標高於比較的新城",
+        "study_design": "以 GPS 行為記錄初步檢驗 GIS 組態、密度和混合用途方法，再比較三個新城與一個舊城",
+        "context_region": "荷蘭四個新舊城案例",
+        "library_id": "YE14",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "新城與舊城的形態—活動診斷｜Mymensingh 街段比較發現，僅以組態值解釋行人量的相關性偏弱，商業土地使用提供了更強的解釋線索；摘要未列係數",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "AZIZ2018",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "方案比選應將街廓、連通和用途組合一起比較"
+  ],
+  "applies_when_zh": "若本地觀察單位與荷蘭四個新舊城案例的研究脈絡可對照，可用「路網、建築形態和用途能在同一診斷中並列，協助定位新城活力不足的可能原因」作為街廓大小與連結度的比較線索。",
+  "not_applicable_when_zh": "這項荷蘭四個新舊城案例的研究結果不能單獨證明因果或預測其他城市的街段；原研究四個案例的比較不能識別單一因果因素；GPS 行為記錄只作初步檢驗。",
+  "debates_zh": "關聯能否外推；四個案例的比較不能識別單一因果因素；GPS 行為記錄只作初步檢驗；檢視「新城與舊城的形態—活動診斷」的研究解讀時，還需判斷「限制：四個案例的比較不能識別單一因果因素；GPS 行為記錄只作初步檢驗」會如何改變方案結論。",
+  "sources": [
+    {
+      "library_id": "YE14",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "AZIZ2018",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "城市路網形態",
+  "region": "荷蘭四個新舊城案例",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "街廓大小與連結度：課綱對應主題"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "街廓大小與連結度：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-STR-025",
+    "KU-STR-027",
+    "KU-STR-028",
+    "KU-STR-029",
+    "KU-STR-030",
+    "KU-STR-031",
+    "KU-STR-032"
+  ]
+}

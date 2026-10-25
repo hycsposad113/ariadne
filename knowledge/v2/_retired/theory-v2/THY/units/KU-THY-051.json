@@ -1,0 +1,103 @@
+{
+  "id": "KU-THY-051",
+  "domain": "THY",
+  "subtopic": "城市轉型史（倫敦、巴黎 Haussmann、維也納 Ringstrasse、巴塞隆納 Cerdà、芝加哥）",
+  "type": "case",
+  "title_zh": "城市轉型史：維也納環城規劃",
+  "title_en": "History of urban transformation: London, Paris, Vienna, Barcelona, and Chicago — case study unit 051",
+  "summary_zh": "維也納 Ringstrasse 把舊城防禦邊界轉為環城大道和公共建築帶，將交通、都市擴張與帝國象徵整合在一條城市界面。其歷史價值在於把基礎設施與市民文化空間連成計畫。景觀式成果背後仍有地價、政治代表和不同社會群體進入新城區的差異。",
+  "key_points_zh": [
+    "維也納 Ringstrasse 把舊城防禦邊界轉為環城大道和公共建築帶，將交通、都市擴張與帝國象徵整合在一條城市界面。",
+    "其歷史價值在於把基礎設施與市民文化空間連成計畫。",
+    "景觀式成果背後仍有地價、政治代表和不同社會群體進入新城區的差異。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "【BIBLIOGRAPHIC_SCOPE_ONLY】就「城市轉型史：維也納環城規劃」而言，「Alnwick, Northumberland: A Study in Town-Plan Analysis」提供英國城鎮平面學的比較坐標；此處僅使用其已標明的書目／摘要範圍，不延伸為未核對的效果或因果。",
+        "effect_or_value": null,
+        "study_design": "歷史案例",
+        "context_region": "英國",
+        "library_id": "CONZEN60",
+        "locator": null,
+        "claim_verification": "CANONICAL_CROSS_CHECK_PENDING"
+      },
+      {
+        "claim_zh": "【ABSTRACT_REVIEW】就「城市轉型史：維也納環城規劃」而言，「The study of urban form in Brazil」提供巴西形態學的比較坐標；此處僅使用其已標明的書目／摘要範圍，不延伸為未核對的效果或因果。",
+        "effect_or_value": null,
+        "study_design": "學科歷史綜述",
+        "context_region": "巴西",
+        "library_id": "BRAZIL14",
+        "locator": null,
+        "claim_verification": "CANONICAL_CROSS_CHECK_PENDING"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "將 Ringstrasse 當作交通與市民空間相連的案例，另查帝國象徵和地價利益。"
+  ],
+  "design_options": [],
+  "applies_when_zh": "當問題包含「城市轉型史：維也納環城規劃」且需比較需要追蹤大型公共工程與街廓改造如何建立長期城市結構時時使用。",
+  "not_applicable_when_zh": "若研究缺少對應尺度或群體資料，不以「城市轉型史：維也納環城規劃」取代把歷史方案的幾何直接當作今日標準或道德範本時。",
+  "debates_zh": "「城市轉型史：維也納環城規劃」的爭點在於歷史形式不會自動揭露所有人的受益與損失；二手比較不能替代各地檔案與居民史料；比較城市形態史與歐洲城市藝術／歷史形態的研究對象不同，需保留差異而不能合併成單一規則。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "CONZEN60",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "BRAZIL14",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "比較城市史／公共投資與形態",
+  "region": "跨地域；奧地利；歐洲",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "城市轉型史：維也納環城規劃 — 城市轉型史（倫敦、巴黎 Haussmann、維也納 Ringstrasse、巴塞隆納 Cerdà、芝加哥）"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Urban Design Contexts and Operations",
+      "topic": "城市轉型史：維也納環城規劃 — 城市轉型史（倫敦、巴黎 Haussmann、維也納 Ringstrasse、巴塞隆納 Cerdà、芝加哥）"
+    },
+    {
+      "school": "MIT",
+      "course": "4.241J Theory of City Form / 11.301J Urban Design and Development",
+      "topic": "城市轉型史：維也納環城規劃 — 城市轉型史（倫敦、巴黎 Haussmann、維也納 Ringstrasse、巴塞隆納 Cerdà、芝加哥）"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Critical Debates in Urban Design",
+      "topic": "城市轉型史：維也納環城規劃 — 城市轉型史（倫敦、巴黎 Haussmann、維也納 Ringstrasse、巴塞隆納 Cerdà、芝加哥）"
+    }
+  ],
+  "version": "2.0.0",
+  "case": {
+    "location": "Vienna, Austria",
+    "period": "Ringstrasse transformation; broad historical frame",
+    "area_ha": null,
+    "fsi": null,
+    "gsi": null,
+    "program_mix": null,
+    "key_strategies_zh": [
+      "追蹤環城公共工程與城市擴張的關係。",
+      "比較公共空間和城市治理的表現。"
+    ],
+    "outcomes_zh": [
+      "二手城市史用來比較形態、公共投資與治理變化；本條不提供個案量測值。"
+    ],
+    "critiques_zh": [
+      "需補地方檔案及受影響群體史料，不能只從規劃者意圖推定社會結果。"
+    ]
+  },
+  "claim_verification": "CANONICAL_CROSS_CHECK_PENDING"
+}

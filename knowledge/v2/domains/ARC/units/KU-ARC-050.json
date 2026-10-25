@@ -1,0 +1,98 @@
+{
+  "id": "KU-ARC-050",
+  "domain": "ARC",
+  "subtopic": "街廓與建築",
+  "type": "value_range",
+  "title_zh": "合院住宅的外框與內院拆算",
+  "title_en": "courtyard outer dimensions and residual court",
+  "summary_zh": "若一個 28×28 m 外框四邊各排約 10 m 深的住宅翼，幾何餘下的中央院約為 8×8 m。 這個心算揭示外框尺度本身無法表示中庭是否可用。 轉角核心、牆厚和服務房會再減少實際淨院。",
+  "key_points_zh": [
+    "核心主張：若一個 28×28 m 外框四邊各排約 10 m 深的住宅翼，幾何餘下的中央院約為 8×8 m。",
+    "量測檢查：在 CAD 中以外輪廓減去住宅翼投影求院落淨邊長，並與方案標註值交叉核對。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "若一個 28×28 m 外框四邊各排約 10 m 深的住宅翼，幾何餘下的中央院約為 8×8 m。",
+        "effect_or_value": "28 m 外框 − 2 × 10 m 翼深 ≈ 8 m 中庭淨寬",
+        "study_design": "跨地域設計參照綜整；數值狀態依 claim_verification 註記",
+        "context_region": "跨地域；用途與當地法規需分開核驗",
+        "library_id": "COURTYARD_HOUSES07",
+        "locator": null,
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008"
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "residual courtyard in 28 m outer frame example",
+      "range": "28 m 外框 − 2 × 10 m 翼深 ≈ 8 m 中庭淨寬",
+      "unit": "m；幾何示例",
+      "context": "地區：示意計算；不是地區標準；用途：早期反算用的示意例；非規範範圍；出處：Courtyard Houses；本基地法規：否；核對狀態：數值待原典交叉核對；來源所列地域：跨地域；依來源適用範圍而異。",
+      "library_id": "COURTYARD_HOUSES07"
+    }
+  ],
+  "design_implications_zh": [
+    "對外框兩方向各扣兩側翼深與牆體厚度，計算中庭淨尺寸後再做日影分析。"
+  ],
+  "applies_when_zh": "「合院住宅的外框與內院拆算」可在用於方案前期的量體、平面或空間品質篩檢時使用，前提是若一個 28×28 m 外框四邊各排約 10 m 深的住宅翼，幾何餘下的中央院約為 8×8 m與來源情境相符。",
+  "not_applicable_when_zh": "若若一個 28×28 m 外框四邊各排約 10 m 深的住宅翼，幾何餘下的中央院約為 8×8 m不成立，就不能把「合院住宅的外框與內院拆算」的結論延伸到其他情況；不得單獨作為許可、消防、結構或基地法規判定。",
+  "debates_zh": "方形外框可能採用不同翼深與開口，8×8 m 只是示意算式，不是標準庭院尺寸。",
+  "sources": [
+    {
+      "library_id": "COURTYARD_HOUSES07",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "SAMUELS2008",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+  "tradition": "建築設計與住宅類型學",
+  "region": "跨地域；用途與當地法規需分開核驗",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Housing and the City / Design of the Urban Fabric",
+      "topic": "建築尺度與住宅平面"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "建築尺度與街道界面"
+    },
+    {
+      "school": "MIT",
+      "course": "Architecture and Urban Design",
+      "topic": "建築尺度與空間型態"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "建築尺度與公共生活"
+    }
+  ],
+  "check": {
+    "method_zh": "在 CAD 中以外輪廓減去住宅翼投影求院落淨邊長，並與方案標註值交叉核對。",
+    "inputs": [
+      "街廓與建築",
+      "尺寸／面積圖層",
+      "適用地區與用途標籤"
+    ],
+    "logic_zh": "將量測輸入轉成明確尺寸、比例或空間關係；越界只觸發複核，不自動取代設計決策。",
+    "limitations_zh": "量測結果只觸發「合院住宅的外框與內院拆算」的複核，不得單獨作為許可或法規判定。"
+  },
+  "version": "kb2-arc-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-ARC-049",
+    "KU-ARC-051",
+    "KU-ARC-052",
+    "KU-ARC-053",
+    "KU-ARC-054"
+  ]
+}

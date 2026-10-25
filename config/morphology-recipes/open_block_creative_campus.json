@@ -1,0 +1,69 @@
+{
+  "schema_version": "morphology-recipe-v1",
+  "id": "open_block_creative_campus",
+  "label_zh": "開放街廓創作園區",
+  "strategy_family": "creative_campus",
+  "summary_zh": "以較開放的街廓、工業大跨空間與板樓混合，保留創作園區的工業尺度。",
+  "atmosphere_targets": {
+    "industrial_scale": 0.82,
+    "diversity": 0.72,
+    "permeability": 0.68,
+    "street_vitality": 0.68,
+    "human_scale": 0.48,
+    "legibility": 0.72,
+    "green_blue": 0.52
+  },
+  "atmosphere_dimension_weights": {
+    "industrial_scale": 1.3,
+    "diversity": 1.0,
+    "permeability": 0.9,
+    "street_vitality": 0.9,
+    "human_scale": 0.7,
+    "legibility": 0.8,
+    "green_blue": 0.7
+  },
+  "zone_function_atmosphere_targets": {
+    "energy_hub": {"industrial_scale": 0.94, "legibility": 0.84, "density_feel": 0.64, "diversity": 0.72},
+    "residential_tidal_park": {"green_blue": 0.9, "sunlight": 0.82, "permeability": 0.82, "belonging": 0.7},
+    "art_space_recreation": {"sociability": 0.9, "diversity": 0.9, "permeability": 0.84, "green_blue": 0.76},
+    "residential": {"human_scale": 0.78, "privacy": 0.62, "belonging": 0.74, "perceived_safety": 0.72},
+    "maker_recycle_hub": {"industrial_scale": 0.94, "diversity": 0.82, "legibility": 0.8, "street_vitality": 0.72}
+  },
+  "block_assembly_types": [
+    {"id": "block.industrial_campus", "weight": 1.15},
+    {"id": "block.open", "weight": 1.0},
+    {"id": "block.hybrid", "weight": 0.8}
+  ],
+  "building_types": [
+    {"id": "building.industrial_hall", "weight": 1.2},
+    {"id": "building.i_slab", "weight": 0.95},
+    {"id": "building.courtyard_open_corner", "weight": 0.85},
+    {"id": "building.comb", "weight": 0.8}
+  ],
+  "selection_weights": "Each dictionary entry weight multiplies its weighted atmosphere-query fit; scores rank options and are not performance evidence.",
+  "road_grid": {
+    "cross_street_spacing_m": 110.0,
+    "longitudinal_spacing_m": 100.0,
+    "site_edge_inset_m": 30.0,
+    "alley_every_nth_cross_street": 2
+  },
+  "road_widths_m": {
+    "main": 16.0,
+    "main_source": "ASSUMED_FROM_space.street_canyon.street_width_m",
+    "secondary": 10.0,
+    "secondary_source": "ASSUMED_FROM_space.shared_street.total_width_m",
+    "alley": 6.0,
+    "alley_source": "ASSUMED_FROM_space.shared_street.carriageway_width_m",
+    "quay_promenade": 6.0,
+    "quay_source": "DESIGNER_DECISION_6M"
+  },
+  "block_size_target_m": {"minimum": 60.0, "maximum": 120.0},
+  "building_edge_setback_m": 6.0,
+  "density_target_fraction": 0.68,
+  "green_axis_width_m": 0.0,
+  "quay_sample_spacing_m": 42.0,
+  "zone_use_notes_zh": "以工業與創作園區氛圍作為策略配方；各區名稱與 PREFERENCE 分類仍記錄在每棟輸出。",
+  "open_space_tradeoff_zh": "open-spaces.geojson 保留作開放空間偏好；道路寬度不表示法規道路斷面。",
+  "quay_promenade": {"width_m": 6.0, "inside_waterfront_band_m": [3.0, 15.0], "allows_building": false},
+  "assumptions_zh": ["道路寬度為策略 ASSUMED 值。", "工業大跨高度按字典參數與強度高度上限檢查。", "提案未經設計者接受。"]
+}

@@ -1,0 +1,107 @@
+{
+  "id": "KU-MOR-012",
+  "domain": "MOR",
+  "subtopic": "Conzen 城鎮平面分析",
+  "type": "method",
+  "title_zh": "Conzen 城鎮平面分析｜分析方法",
+  "title_en": "Conzenian town-plan analysis — Analytical method",
+  "summary_zh": "歷史地圖與現況圖的比較可追蹤街道走向、地塊粒度和建築覆蓋。 空間資本視角把路網放回較廣的都市形態，因此中心性指標不應取代地塊和用途分析。 比較時應記錄底圖年份、形態單元及所採用的分析傳統。",
+  "key_points_zh": [
+    "比較歷史底圖與現況圖，記錄街道走向、地塊粒度及建築覆蓋。",
+    "比較歷史底圖與現況圖，記錄街道走向、地塊粒度及建築覆蓋。",
+    "限制：欠缺可靠歷史圖資時，不應推定地塊年代或演變順序。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "Kropf 的方法手冊整理了城市形態分析的尺度和術語，可用來界定平面閱讀的對象，但不替代中心性或地塊資料的計算。",
+        "library_id": "KROPF2017",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "跨地域形態學",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "Marcus 提出以「空間資本」把路網關係放回較廣的都市形態中理解，作為只讀街道中心性時的補充視角。",
+        "library_id": "MARCUS10",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "瑞典",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "對照歷史底圖與現況，逐項記錄街道走向、地塊粒度和建築覆蓋；將網絡中心性和空間資本閱讀與地籍及用途資料並列。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "「Conzen 城鎮平面分析｜分析方法」可把取向落在先辨認形態單元，再描述各單元的形成階段及變化程度，但需連同工具書統整城市形態描述與分析方法，適合作為術語和尺度的導航，不替代案例的量測；「Conzen 城鎮平面分析｜分析方法」還須對照以空間資本把路網關係與更廣的都市形態聯讀；不能只看中心性而忽略地塊與用途，才能把研究發現轉成有邊界的設計判斷決定適用方式。",
+      "tradeoff_zh": "「Conzen 城鎮平面分析｜分析方法」的主要代價不是抽象的建造成本，而是形態分區不是社會分區的替代品；平面圖本身也無法解釋完整因果；因此先以工具書統整城市形態描述與分析方法，適合作為術語和尺度的導航，不替代案例的量測；「Conzen 城鎮平面分析｜分析方法」還須對照以空間資本把路網關係與更廣的都市形態聯讀；不能只看中心性而忽略地塊與用途，才能把研究發現轉成有邊界的設計判斷作方案比較條件。",
+      "library_ids": [
+        "KROPF2017",
+        "MARCUS10"
+      ]
+    },
+    {
+      "option_zh": "在「Conzen 城鎮平面分析｜分析方法」的來源情境裡，核心區、擴張區與邊緣帶可呈現不同的形態慣性和更新節奏；落到設計時還要按工具書統整城市形態描述與分析方法，適合作為術語和尺度的導航，不替代案例的量測；「Conzen 城鎮平面分析｜分析方法」還須對照以空間資本把路網關係與更廣的都市形態聯讀；不能只看中心性而忽略地塊與用途，才能把研究發現轉成有邊界的設計判斷調整。",
+      "tradeoff_zh": "此選項把「Conzen 城鎮平面分析｜分析方法」的工作放在工具書統整城市形態描述與分析方法，適合作為術語和尺度的導航，不替代案例的量測；「Conzen 城鎮平面分析｜分析方法」還須對照以空間資本把路網關係與更廣的都市形態聯讀；不能只看中心性而忽略地塊與用途，才能把研究發現轉成有邊界的設計判斷上；需要承擔的協調或維護代價則由「形態分區不是社會分區的替代品；平面圖本身也無法解釋完整因果」界定。",
+      "library_ids": [
+        "KROPF2017",
+        "MARCUS10"
+      ]
+    }
+  ],
+  "applies_when_zh": "「Conzen 城鎮平面分析｜分析方法」可在適用於歷史城鎮、更新地和不同建設階段的比較時使用，前提是工具書統整城市形態描述與分析方法，適合作為術語和尺度的導航，不替代案例的量測；「Conzen 城鎮平面分析｜分析方法」還須對照以空間資本把路網關係與更廣的都市形態聯讀；不能只看中心性而忽略地塊與用途，才能把研究發現轉成有邊界的設計判斷與來源情境相符。",
+  "not_applicable_when_zh": "若工具書統整城市形態描述與分析方法，適合作為術語和尺度的導航，不替代案例的量測；「Conzen 城鎮平面分析｜分析方法」還須對照以空間資本把路網關係與更廣的都市形態聯讀；不能只看中心性而忽略地塊與用途，才能把研究發現轉成有邊界的設計判斷不成立，就不能把「Conzen 城鎮平面分析｜分析方法」的結論延伸到其他情況；欠缺可靠歷史圖資時，不應推定地塊年代或演變順序。",
+  "debates_zh": "形態分區不是社會分區的替代品；平面圖本身也無法解釋完整因果。",
+  "sources": [
+    {
+      "library_id": "KROPF2017",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "MARCUS10",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "城市形態學；空間資本",
+  "region": "跨地域形態學；瑞典",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "Conzen 城鎮平面分析"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "Conzen 城鎮平面分析"
+    },
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.330J Theory of City Form",
+      "topic": "Conzen 城鎮平面分析"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban form and density",
+      "topic": "Conzen 城鎮平面分析"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-MOR-009",
+    "KU-MOR-010",
+    "KU-MOR-011"
+  ],
+  "counter_unit_ids": [
+    "KU-MOR-013"
+  ]
+}

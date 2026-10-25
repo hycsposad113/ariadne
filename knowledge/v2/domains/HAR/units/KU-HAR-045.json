@@ -1,0 +1,79 @@
+{
+  "id": "KU-HAR-045",
+  "type": "value_range",
+  "subtopic": "公共空間與公園案例",
+  "title_zh": "Benthemplein 三座水池可暫存約 170 萬公升雨水",
+  "title_en": "Benthemplein Stores About 1.7 Million Litres of Rainwater",
+  "summary_zh": "鹿特丹市府記載 Benthemplein 的三座水池合計可暫存約 170 萬公升雨水，並描述雨水由周邊道路和屋頂經排水系統流入。乾燥時水池作為活動空間，降雨時則轉為臨時儲水設施。這個數字屬特定設計與集水範圍的容量，不能當作其他城市廣場的標準配置。",
+  "values": [
+    {
+      "name": "Benthemplein三座水池的儲水量",
+      "range": "約1,700,000",
+      "unit": "公升",
+      "context": "用途：以「Benthemplein三座水池的儲水量」作為來源情境參照；鹿特丹水廣場的市府專案資料；容量取決於水池和集水範圍，不是本基地法規。",
+      "library_id": "ROTTERDAM_BENTHEMPLEIN2013"
+    }
+  ],
+  "key_points_zh": [
+    "廣場的儲水量須與集水區、進水路徑和排空時間一併說明。",
+    "活動用途與暴雨調蓄使用不同時段，需檢查安全和管理。"
+  ],
+  "design_implications_zh": [
+    "以集水邊界和排水時序計算容量，不套用單一公升數。"
+  ],
+  "applies_when_zh": "設計兼作公共空間的都市雨水滯留設施時。",
+  "not_applicable_when_zh": "未取得地形、降雨、排水網和維護資料時。",
+  "debates_zh": "可見的水池容量不等於減少整個流域洪災風險，排空時間、下游系統和維護失效都會影響表現。",
+  "tradition": "荷蘭水廣場／都市雨水治理",
+  "region": "荷蘭鹿特丹",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": null,
+      "topic": "Water square and urban stormwater management"
+    },
+    {
+      "school": "MIT",
+      "course": null,
+      "topic": "Urban water infrastructure"
+    }
+  ],
+  "domain": "HAR",
+  "evidence": {
+    "strength": "CASE_EVIDENCE",
+    "findings": [
+      {
+        "claim_zh": "鹿特丹市府資料記載三座水池約可存放170萬公升水。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "荷蘭鹿特丹",
+        "library_id": "ROTTERDAM_BENTHEMPLEIN2013",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "都市水管理研究將水治理模式放入歷史與制度變化中，提醒工程容量不等於城市韌性成果。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "荷蘭鹿特丹",
+        "library_id": "BROWN09",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "library_id": "ROTTERDAM_BENTHEMPLEIN2013",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "BROWN09",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "version": "v2.0"
+}

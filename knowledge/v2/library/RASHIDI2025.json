@@ -1,0 +1,44 @@
+{
+  "id": "RASHIDI2025",
+  "title": "Heterogeneity in distance elasticity of active travel to school",
+  "authors": [
+    "Laya Hossein Rashidi",
+    "Jennifer Kent",
+    "Emily K. M. Moylan"
+  ],
+  "year": 2025,
+  "venue_or_publisher": "Journal of Transport and Land Use, 18(1), 685–708",
+  "doi": "https://doi.org/10.5198/jtlu.2025.2729",
+  "isbn": null,
+  "openalex_id": "https://openalex.org/W4416507975",
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "學童通學距離與主動旅運",
+  "region": "澳洲",
+  "method": "學生到校距離對步行與騎乘選擇的異質性分析",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "澳洲學校旅行研究把住家至校門距離視為主動通學的重要因素，同時指出不同學生對距離變化的反應並不一致。",
+      "strength": "MIXED",
+      "scope_zh": "摘要支持按學生群體檢視距離，但沒有採用本單元的步速假設或距離端點。",
+      "assessment_basis": "ABSTRACT_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "OpenAlex",
+    "query": {
+      "record_id": "https://openalex.org/W4416507975",
+      "doi": "10.5198/jtlu.2025.2729",
+      "title": "Heterogeneity in distance elasticity of active travel to school",
+      "author": "Laya Hossein Rashidi",
+      "year": 2025
+    },
+    "matched_record_id": "https://openalex.org/W4416507975",
+    "checked_at_utc": "2026-10-09T00:14:25Z",
+    "match_notes_zh": "以允許的公開書目 API 精確比對題名、首位作者與出版年；只保留自行撰寫的摘要範圍說明，未保存全文或 API 摘要原文。"
+  },
+  "limitations_zh": "本條目依公開摘要或書目範圍整理；未下載全文，也不外推摘要未列的樣本、效果量或因果結論。",
+  "metadata_licence_zh": "僅保存公開書目欄位與自行撰寫的繁體中文摘要；未複製摘要全文或論文全文。"
+}

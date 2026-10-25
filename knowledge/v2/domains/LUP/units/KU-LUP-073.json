@@ -1,0 +1,91 @@
+{
+  "id": "KU-LUP-073",
+  "domain": "LUP",
+  "subtopic": "15 分鐘城市與可及性",
+  "type": "value_range",
+  "title_zh": "社區公園步行距離情境帶",
+  "title_en": "Neighborhood-park walking-distance scenario",
+  "summary_zh": "以 3.0–4.8 km/h 步速計算，5–10 分鐘的理想距離約 250–800 m。 步行性文獻提醒距離並非唯一品質指標，這組數值也沒有測量公園的安全、維護或使用包容性。 應由住宅入口沿路網走到可進入的公園入口，再檢查場地品質。",
+  "key_points_zh": [
+    "以 3.0–4.8 km/h 步速計算，5–10 分鐘的理想距離約 250–800 m",
+    "步行性文獻提醒距離並非唯一品質指標，這組數值也沒有測量公園的安全、維護或使用包容性",
+    "應由住宅入口沿路網走到可進入的公園入口，再檢查場地品質"
+  ],
+  "evidence": {
+    "strength": "ASSUMED",
+    "findings": [
+      {
+        "claim_zh": "5–10 分鐘以3.0–4.8 km/h換算，理想距離為約 250–800 m；這是透明情境計算，非研究觀測出的通用服務標準。",
+        "effect_or_value": "約 250–800 m",
+        "study_design": "明示速度與時間的公式換算；非實證測量",
+        "context_region": "歐洲與北美鄰里規劃比較情境",
+        "library_id": "FORSYTH15",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "把文化多樣性與公共公園使用作為審查角度；本次未查閱案例內文。",
+        "effect_or_value": null,
+        "study_design": "形態／制度比較的補充閱讀",
+        "context_region": "歐洲與北美鄰里規劃比較示例",
+        "library_id": "LOW05",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "社區公園步行距離情境帶",
+      "range": "約 250–800 m",
+      "unit": "m",
+      "context": "歐洲與北美鄰里規劃比較情境；用途：小型公園入口步行初篩；計算：3.0–4.8 km/h × 5–10 分鐘，僅為無停等、無繞行的直線情境，非文獻直接報告的數值；方法背景書目：FORSYTH15；需改以路網與使用者條件核算，這不是本基地法規。",
+      "library_id": "FORSYTH15"
+    }
+  ],
+  "design_implications_zh": [
+    "用實際可進入的公園入口建立網絡服務面，並分開標示安全、照明和設施維護狀況。"
+  ],
+  "applies_when_zh": "用於小型社區公園步行服務情境；服務距離和使用品質應各自評分。",
+  "not_applicable_when_zh": "不能把附近有綠地當成健康成果，也不能忽略圍牆或私有空間造成的不可進入性。",
+  "debates_zh": "把「附近有公園」當成健康結果會忽略使用品質、綠地仕紳化與排除管理。",
+  "sources": [
+    {
+      "library_id": "FORSYTH15",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "LOW05",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "步行性批評",
+  "region": "歐洲與北美鄰里規劃比較情境",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Planning Complex Cities",
+      "topic": "15 分鐘城市與可及性"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Cities by Design",
+      "topic": "15 分鐘城市與可及性"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "15 分鐘城市與可及性"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Sustainable Futures by Design",
+      "topic": "15 分鐘城市與可及性"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008"
+}

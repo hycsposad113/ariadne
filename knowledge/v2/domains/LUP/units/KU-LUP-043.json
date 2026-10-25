@@ -1,0 +1,98 @@
+{
+  "id": "KU-LUP-043",
+  "domain": "LUP",
+  "subtopic": "用途配比與日夜活動",
+  "type": "empirical_finding",
+  "title_zh": "居住與就業的空間分布關係到低收入者通勤",
+  "title_en": "Spatial equity in Bogotá",
+  "summary_zh": "指標閾值和出行需求定義限於研究設計，不能推成用途比例要求。 比較用途配比時同時追蹤工作機會和低收入居住區。 研究設計：收入分組的空間可及性與旅次比較；地區：波哥大，哥倫比亞。",
+  "key_points_zh": [
+    "波哥大研究發現低收入人口工作可及性偏低的比例高，且高收入群體的旅次數量更多。",
+    "研究設計：收入分組的空間可及性與旅次比較；地區：波哥大，哥倫比亞",
+    "限制：指標閾值和出行需求定義限於研究設計，不能推成用途比例要求。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "波哥大研究發現低收入人口工作可及性偏低的比例高，且高收入群體的旅次數量更多。",
+        "effect_or_value": "低收入人口逾八成為低工作可及性；高收入群體旅次多 150%",
+        "study_design": "收入分組的空間可及性與旅次比較",
+        "context_region": "波哥大，哥倫比亞",
+        "library_id": "BOGOTA17",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "比較用途配比時同時追蹤工作機會和低收入居住區。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "比較用途配比時同時追蹤工作機會和低收入居住區。",
+      "tradeoff_zh": "「居住與就業的空間分布關係到低收入者通勤」的主要代價不是抽象的建造成本，而是指標閾值和出行需求定義限於研究設計，不能推成用途比例要求；因此先以波哥大研究發現低收入人口工作可及性偏低的比例高，且高收入群體的旅次數量更多作方案比較條件。",
+      "library_ids": [
+        "BOGOTA17",
+        "GEURS04"
+      ]
+    },
+    {
+      "option_zh": "在「居住與就業的空間分布關係到低收入者通勤」的來源情境裡，全天型服務、夜間活動與工作日生產用途形成不同時序組合；落到設計時還要按波哥大研究發現低收入人口工作可及性偏低的比例高，且高收入群體的旅次數量更多調整。",
+      "tradeoff_zh": "「居住與就業的空間分布關係到低收入者通勤」的主要代價不是抽象的建造成本，而是指標閾值和出行需求定義限於研究設計，不能推成用途比例要求；因此先以波哥大研究發現低收入人口工作可及性偏低的比例高，且高收入群體的旅次數量更多作方案比較條件。",
+      "library_ids": [
+        "BOGOTA17",
+        "GEURS04"
+      ]
+    }
+  ],
+  "applies_when_zh": "用於與波哥大，哥倫比亞研究情境可比、且量測定義相近的分析。",
+  "not_applicable_when_zh": "指標閾值和出行需求定義限於研究設計，不能推成用途比例要求。",
+  "debates_zh": "指標閾值和出行需求定義限於研究設計，不能推成用途比例要求。",
+  "sources": [
+    {
+      "library_id": "BOGOTA17",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "GEURS04",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "拉美可及性與公平；可及性評估",
+  "region": "哥倫比亞；荷蘭",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Planning Complex Cities",
+      "topic": "用途配比與日夜活動"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Cities by Design",
+      "topic": "用途配比與日夜活動"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "用途配比與日夜活動"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Sustainable Futures by Design",
+      "topic": "用途配比與日夜活動"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-LUP-036",
+    "KU-LUP-037",
+    "KU-LUP-038"
+  ],
+  "counter_unit_ids": [
+    "KU-LUP-040"
+  ]
+}

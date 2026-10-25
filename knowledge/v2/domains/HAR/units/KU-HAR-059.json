@@ -1,0 +1,70 @@
+{
+  "id": "KU-HAR-059",
+  "type": "critique",
+  "subtopic": "文化導向再生與仕紳化批評",
+  "title_zh": "創意產業招商不等於藝術工作者能長期留下",
+  "title_en": "Creative-Industry Branding Does Not Ensure Artists Can Stay",
+  "summary_zh": "把工業區轉成設計或文化園區，可吸引新的活動和投資，但工作室租約、設備成本和空間規格會決定原有藝術實踐能否延續。中國工業街區研究以藝術家缺席為批評焦點；循環經濟研究則提醒新用途標籤需要有明確操作內容。招商數量不能替代對租戶去留和工作空間可負擔性的追蹤。",
+  "key_points_zh": [
+    "按租金、租約年限與設備條件追蹤創意工作者空間。",
+    "區分藝術展示、設計消費與實際製作。"
+  ],
+  "design_implications_zh": [
+    "在文化更新計畫中記錄可負擔工作室比例與續租情形。"
+  ],
+  "applies_when_zh": "工業遺產被包裝成創意或藝術區時。",
+  "not_applicable_when_zh": "沒有既有藝術工作者或創意產業政策時。",
+  "debates_zh": "文化投資可能增加公共活動和收入，但若工作者被高租金排除，品牌仍可能沿用他們的歷史而沒有實際留存。",
+  "tradition": "中國工業遺產再生批判／循環經濟概念辨析",
+  "region": "中國與跨地域",
+  "curriculum_refs": [
+    {
+      "school": "UCL Bartlett",
+      "course": null,
+      "topic": "Culture-led regeneration and artist displacement"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": null,
+      "topic": "Creative economies and place branding"
+    }
+  ],
+  "domain": "HAR",
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "中國工業街區研究批評更新品牌與藝術家實際在場之間出現落差。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "中國與跨地域",
+        "library_id": "YANG2023",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "循環經濟定義分析說明概念分類需具體，不宜只作宣傳標籤。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "中國與跨地域",
+        "library_id": "KIRCHHERR17",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "library_id": "YANG2023",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "KIRCHHERR17",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "version": "v2.0"
+}

@@ -1,0 +1,27 @@
+{
+  "fixture_only": true,
+  "r04_checkpoints": {
+    "CP0": {
+      "status": "PASS"
+    },
+    "CP1": {
+      "status": "PASS"
+    },
+    "CP2": {
+      "status": "PASS"
+    },
+    "CP3": {
+      "status": "PASS"
+    },
+    "CP4": {
+      "status": "PASS"
+    }
+  },
+  "week4_gates": {
+    "FORMAL_HUMAN_DECISION": "PENDING",
+    "LIVE_AI": "BLOCKED",
+    "QGIS_GUI": "UNVERIFIED",
+    "REGIONAL_SYNTAX": "BLOCKED"
+  },
+  "week4_overall_status": "INCOMPLETE"
+}

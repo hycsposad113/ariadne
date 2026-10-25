@@ -1,0 +1,61 @@
+{
+  "id": "KU-PUB-038",
+  "domain": "PUB",
+  "subtopic": "安全：CPTED 與批評",
+  "type": "concept",
+  "title_zh": "維護與關懷訊號可能比排斥性家具有效",
+  "title_en": "Care can communicate welcome",
+  "summary_zh": "乾淨、可用的照明、清楚求助資訊會傳達有人照看場地。帶刺座椅和反躺設計會透過身體不適排除無家者等群體。不同管理者對秩序和照護的理解不相同。敵意建築把治理問題轉嫁到家具，可能把脆弱者推至更危險角落。",
+  "key_points_zh": [
+    "乾淨、可用的照明、清楚求助資訊會傳達有人照看場地",
+    "帶刺座椅和反躺設計會透過身體不適排除無家者等群體"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "乾淨、可用的照明、清楚求助資訊會傳達有人照看場地。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "美國",
+        "library_id": "CHECKER11",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "敵意建築把治理問題轉嫁到家具，可能把脆弱者推至更危險角落。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "設計評估需把誰能休息、誰能尋求協助列為安全問題。"
+  ],
+  "applies_when_zh": "適用於公共座席與夜間庇護需求並存的地點。",
+  "not_applicable_when_zh": "不適用於把可睡臥家具當成唯一無家者政策。",
+  "debates_zh": "敵意建築把治理問題轉嫁到家具，可能把脆弱者推至更危險角落。",
+  "sources": [
+    {
+      "library_id": "CHECKER11",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "ROY05",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "環境仕紳化與都市政治",
+  "region": "美國",
+  "curriculum_refs": [
+    {
+      "school": "MIT",
+      "course": "11.330J Theory of City Form",
+      "topic": "安全：CPTED 與批評"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-PUB-037",
+    "KU-PUB-039"
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "id": "KU-ECO-059",
+  "domain": "ECO",
+  "subtopic": "生態服務",
+  "type": "concept",
+  "title_zh": "文化服務也有使用權和地方意義",
+  "title_en": "Cultural services have rights and meanings",
+  "summary_zh": "地方居民可能重視安靜、祭儀、採集或日常社交。這些價值難以只用貨幣或客流量衡量。文化意義可能在社群內部也有差異。文化價值的代表權需公開討論。用訪談和參與地圖記錄不同群體的場地意義。",
+  "key_points_zh": [
+    "地方居民可能重視安靜、祭儀、採集或日常社交",
+    "這些價值難以只用貨幣或客流量衡量"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "地方居民可能重視安靜、祭儀、採集或日常社交。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "跨地域",
+        "library_id": "CAMPBELL96",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "文化價值的代表權需公開討論。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "用訪談和參與地圖記錄不同群體的場地意義。"
+  ],
+  "applies_when_zh": "適用於公園更新和自然保育分區。",
+  "not_applicable_when_zh": "不能假定文化服務只有旅遊或景觀美感。",
+  "debates_zh": "文化價值的代表權需公開討論。",
+  "sources": [
+    {
+      "library_id": "CAMPBELL96",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "DAVOUDI12",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "永續規劃批評",
+  "region": "跨地域",
+  "curriculum_refs": [
+    {
+      "school": "MIT",
+      "course": "11.330J Theory of City Form",
+      "topic": "生態服務"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-ECO-058",
+    "KU-ECO-060"
+  ]
+}

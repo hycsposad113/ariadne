@@ -1,0 +1,71 @@
+{
+  "id": "KU-CLI-011",
+  "domain": "CLI",
+  "subtopic": "材料與反照率",
+  "type": "design_principle",
+  "title_zh": "反射屋頂需按作用尺度與熱環境比較",
+  "title_en": "Compare reflective roofs by scale and thermal context",
+  "summary_zh": "都市降溫模擬的批判性回顧指出，不同策略的結果會隨模型尺度而變；反射屋頂的影響常在較大的模型尺度檢視。Santamouris 的城市降溫回顧也將材料與建成環境策略置於城市熱調適議題。這些文獻不提供一個可套用所有氣候和屋頂的反照率目標。選材時應同時檢視日照、眩光、冬季熱需求、屋頂用途與維護。",
+  "key_points_zh": [
+    "材料的城市尺度效應不能從單一街道觀測直接推定。",
+    "高反射表面可能帶來不同季節與使用情境的取捨。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "library_id": "SANTAMOURIS2014",
+        "claim_zh": "題名確認文章比較反射屋頂與綠屋頂等城市降溫技術；各策略效能須依氣候和建物條件分開檢核；本單元 KU-CLI-011 對照「都市降溫模擬的批判性回顧指出，不同策略的結果會隨模型尺度而變；反射屋頂的影響常在較大的模型尺度檢視」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "降溫技術回顧",
+        "context_region": "跨地域都市研究",
+        "locator": null
+      },
+      {
+        "library_id": "KRAYENHOFF2021",
+        "claim_zh": "摘要指出 1987–2017 年的 146 篇物理數值研究對降溫量有顯著差異；樹木多用微尺度模擬，反照屋頂多用中尺度，尺度選擇限制策略比較；本單元 KU-CLI-011 對照「都市降溫模擬的批判性回顧指出，不同策略的結果會隨模型尺度而變；反射屋頂的影響常在較大的模型尺度檢視」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "ABSTRACT_REVIEW",
+        "effect_or_value": null,
+        "study_design": "系統性與批判性回顧 146 篇模擬研究",
+        "context_region": "跨地域數值模擬研究",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "在材料方案表標註反照率來源、維持狀態和受照面，另比較眩光與季節性負荷。",
+    "微氣候模擬需使用實際材料參數，不從策略名稱假定降溫幅度。"
+  ],
+  "applies_when_zh": "適用於屋頂及公共空間表面材料的熱調適方案比選。",
+  "not_applicable_when_zh": "不適用於推定任一顏色或塗層的普遍冷卻量。",
+  "debates_zh": "材料策略會重新分配輻射與季節負荷；全市平均溫度變化不直接等於步行者感受改善。",
+  "sources": [
+    {
+      "library_id": "SANTAMOURIS2014",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "KRAYENHOFF2021",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "城市表面材料與熱調適",
+  "region": "跨城市",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": null,
+      "topic": "材料與反照率"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": null,
+      "topic": "城市材料熱效應"
+    }
+  ],
+  "version": "v2.0"
+}

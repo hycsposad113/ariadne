@@ -1,0 +1,78 @@
+{
+  "id": "KU-REG-071",
+  "domain": "REG",
+  "subtopic": "日本用途地域與地方條例",
+  "type": "value_range",
+  "title_zh": "日本商業地域容積選項",
+  "title_en": "Japan commercial-zone FAR options",
+  "summary_zh": "日本商業地域容積選項可從 200% 延伸到 1,300%，但具體指定、道路幅員和高度條件會限制實際開發。 此為日本制度的寬廣選項範圍，不能作為任何城市中心的默認建築強度。 將制度最大值和實際量體分開報告，附道路與斜線約束的計算結果。",
+  "key_points_zh": [
+    "日本商業地域容積選項可從 200% 延伸到 1,300%，但具體指定、道路幅員和高度條件會限制實際開發。",
+    "此為日本制度的寬廣選項範圍，不能作為任何城市中心的默認建築強度。",
+    "將制度最大值和實際量體分開報告，附道路與斜線約束的計算結果。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "國土交通省官方用途地域圖表列出商業地域的建蔽與容積選項；中心區實際規劃容量仍取決於指定用途、道路及高度控制。",
+        "effect_or_value": "容積率 200–1,300%；建蔽率常見最高 80%",
+        "study_design": "跨案例尺度對照或明示假設的規劃計算",
+        "context_region": "日本商業地域",
+        "library_id": "MLIT_USE_ZONES",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "日本商業地域容積選項",
+      "range": "容積率 200–1,300%；建蔽率常見最高 80%",
+      "unit": "法定選項區間",
+      "context": "日本用途地域比較；用途：參照商業地域的建蔽與容積選項，並連同道路及高度控制確認規劃容量；來源：國土交通省用途地域官方圖表；不是本基地法規。",
+      "library_id": "MLIT_USE_ZONES"
+    }
+  ],
+  "design_implications_zh": [
+    "將制度最大值和實際量體分開報告，附道路與斜線約束的計算結果。",
+    "記錄 日本商業地域 與「中心商業與高強度開發用途」的量測分母，再和另一種尺度或用途並排比較。"
+  ],
+  "applies_when_zh": "用於比較日本商業地域的中心商業與高強度開發用途，並明示此數值的來源、年份和面積分母。",
+  "not_applicable_when_zh": "此為日本制度的寬廣選項範圍，不能作為任何城市中心的默認建築強度。",
+  "debates_zh": "最大容積會透過地價與開發預期資本化，公共設施容量需同步衡量。",
+  "sources": [
+    {
+      "library_id": "MLIT_USE_ZONES",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "SINGLE_SOURCE",
+  "tradition": "日本土地使用分區與綠地管制",
+  "region": "日本商業地域",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Planning Complex Cities",
+      "topic": "日本用途地域與地方條例"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Urban Design Contexts and Operations",
+      "topic": "日本用途地域與地方條例"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "日本用途地域與地方條例"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban design governance",
+      "topic": "日本用途地域與地方條例"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008"
+}

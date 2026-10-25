@@ -1,0 +1,42 @@
+{
+  "id": "KRIZNIK2018",
+  "title": "Transformation of deprived urban areas and social sustainability: A comparative study of urban regeneration and urban redevelopment in Barcelona and Seoul",
+  "authors": [
+    "Blaž Križnik"
+  ],
+  "year": 2018,
+  "venue_or_publisher": "Urbani izziv",
+  "doi": "https://doi.org/10.5379/urbani-izziv-en-2018-29-01-003",
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "都市更新與社會永續比較",
+  "region": "Barcelona、Seoul",
+  "method": "書目範圍核對；未存摘要",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "題名確認文章比較巴塞隆納與首爾的城市再生／重建及社會永續議題；案例機制尚未從摘要核對。",
+      "strength": "THEORETICAL",
+      "scope_zh": "此書目僅支持記錄中的研究對象、地區與方法；不可推作M4H法規、通用數值或跨城因果結論。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref",
+    "query": {
+      "title": "Transformation of deprived urban areas and social sustainability: A comparative study of urban regeneration and urban redevelopment in Barcelona and Seoul",
+      "author": "Križnik",
+      "year": 2018,
+      "api_query": "Crossref GET works?query.title=Transformation of deprived urban areas and social sustainability: A comparative study of urban regeneration and urban redevelopment in Barcelona and Seoul"
+    },
+    "matched_record_id": "10.5379/urbani-izziv-en-2018-29-01-003",
+    "checked_at_utc": "2026-10-08T10:52:30Z",
+    "match_notes_zh": "公開Crossref書目欄位已核對題名、作者及出版年；摘要僅在assessment_basis為ABSTRACT_REVIEW時用於核對，未存入repo。"
+  },
+  "limitations_zh": "未取得全文；只有標示ABSTRACT_REVIEW的內容依公開摘要核對，其餘僅依書目範圍描述。",
+  "critique_relationship_zh": "本筆不宣稱與其他來源存在直接互引或逐一反駁關係。",
+  "metadata_licence_zh": "Crossref公開書目欄位；精確metadata授權未核驗，標UNKNOWN。"
+}

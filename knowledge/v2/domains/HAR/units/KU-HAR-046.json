@@ -1,0 +1,65 @@
+{
+  "id": "KU-HAR-046",
+  "type": "method",
+  "subtopic": "工業遺產與 adaptive reuse",
+  "title_zh": "更新邊界和測量口徑要一起登錄",
+  "title_en": "Record the Boundary and Measurement Basis Together",
+  "summary_zh": "港區更新報告中的面積可能包含水面、道路、公共設施或周邊街區，不同口徑會直接改變密度與用途比例。比較案例時應保留來源發布者的原始邊界，再建立可重現的分析範圍並標出兩者差異。都市形態研究提供多尺度測量觀點，港城研究則提醒岸線與腹地不是同一類空間。",
+  "key_points_zh": [
+    "把官方項目邊界、施工邊界和研究邊界分層保存。",
+    "在計算FAR、GSI或用途比例前記錄是否計入道路、水面及公園。"
+  ],
+  "design_implications_zh": [
+    "為每個案例留存邊界來源、資料年份和納入／排除規則。"
+  ],
+  "applies_when_zh": "跨案例比較面積或密度指標時。",
+  "not_applicable_when_zh": "只描述空間策略而未作量化比較時。",
+  "debates_zh": "統一口徑有利比較，卻可能抹去各城市法律和管理邊界；原始與分析口徑應並列。",
+  "tradition": "都市形態測量／港城規劃",
+  "region": "跨地域",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": null,
+      "topic": "Urban morphology and waterfront transformation"
+    }
+  ],
+  "domain": "HAR",
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "都市密度組合研究指出密度描述由多種測量組成，需明確界定尺度和指標。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "跨地域",
+        "library_id": "DOVEY14",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "港口城市研究將水岸和城市介面放在地方及全球變動中理解。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "跨地域",
+        "library_id": "HOYLE00",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "library_id": "DOVEY14",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "HOYLE00",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "version": "v2.0"
+}

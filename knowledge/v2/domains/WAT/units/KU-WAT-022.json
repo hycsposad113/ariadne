@@ -1,0 +1,74 @@
+{
+  "id": "KU-WAT-022",
+  "domain": "WAT",
+  "subtopic": "洪水風險與多層安全",
+  "type": "typology",
+  "title_zh": "保護、空間調適與應變互補配置",
+  "title_en": "保護、空間調適與應變互補配置",
+  "summary_zh": "洪水治理可包含堤防或抽排等保護措施、允許安全受水的空間安排，以及預警與撤離等應變能力。區域治理研究指出，措施跨越不同尺度和時間；城市防災規劃文獻也把應變安排與土地使用連接起來。每一層需說清楚服務對象、維護者和失效後的替代路徑。",
+  "key_points_zh": [
+    "保護工程降低特定情境下的洪水機率，不會消除剩餘風險。",
+    "土地使用調適與應變能力針對的是不同失效階段。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "library_id": "ADGER2000",
+        "claim_zh": "摘要指出社群韌性和生態韌性可能相互關聯，但生態系統韌性是否必然轉化為社群韌性仍未明確；本單元 KU-WAT-022 對照「洪水治理可包含堤防或抽排等保護措施、允許安全受水的空間安排，以及預警與撤離等應變能力」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "ABSTRACT_REVIEW",
+        "effect_or_value": null,
+        "study_design": "概念分析",
+        "context_region": "社群與依賴環境資源的生計脈絡",
+        "locator": null
+      },
+      {
+        "library_id": "WISE2014",
+        "claim_zh": "本文把調適放入變遷路徑與回應的脈絡；適用於比較漸進修補與制度轉型，不給定基地工程值；本單元 KU-WAT-022 對照「洪水治理可包含堤防或抽排等保護措施、允許安全受水的空間安排，以及預警與撤離等應變能力」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "概念論述",
+        "context_region": "跨地域氣候調適研究",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "用失效情境表說明一層措施失效時其他層如何接手。",
+    "檢查弱勢人口能否收到預警並使用安全路線。"
+  ],
+  "applies_when_zh": "適用於流域、都市區與基地銜接的風險方案。",
+  "not_applicable_when_zh": "不可把「多層」當成已完成防洪安全的證明。",
+  "debates_zh": "多層安全是一個治理框架；不同地區的制度責任不能用單張層級圖取代。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "ADGER2000",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "WISE2014",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "防洪方案比較與責任分配",
+  "region": "跨尺度都市水治理；美國都市規劃",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "洪水風險與多層安全"
+    },
+    {
+      "school": "MIT",
+      "course": null,
+      "topic": "洪水風險與多層安全"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "BRAGER1998",
+  "title": "Thermal adaptation in the built environment: a literature review",
+  "authors": [
+    "Gail S. Brager",
+    "Richard J. de Dear"
+  ],
+  "year": 1998,
+  "venue_or_publisher": "Energy and Buildings",
+  "doi": "https://doi.org/10.1016/s0378-7788(97)00053-4",
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "建成環境熱適應",
+  "region": "跨地域建築環境",
+  "method": "文獻回顧",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "題名確認文章回顧建成環境中的熱適應模型；不能把適應性舒適研究替代戶外風、遮陰與輻射量測。",
+      "strength": "THEORETICAL",
+      "scope_zh": "只支持此研究明確的議題、樣本地區與方法；不直接生成 M4H 數值、法規或工程容量。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref",
+    "query": {
+      "title": "Thermal adaptation in the built environment: a literature review",
+      "author": "Brager",
+      "year": 1998,
+      "api_query": "Crossref GET works?query.title=Thermal adaptation in the built environment: a literature review"
+    },
+    "matched_record_id": "10.1016/s0378-7788(97)00053-4",
+    "checked_at_utc": "2026-10-08T10:06:37Z",
+    "match_notes_zh": "以 Crossref 公開書目記錄比對書名、作者與年份；摘要文字未保存到 repository。"
+  },
+  "limitations_zh": "只保留書目與自行撰寫的範圍摘要；除標示 ABSTRACT_REVIEW 者外，內容未由摘要核對，沒有下載全文。",
+  "critique_relationship_zh": "本記錄不宣稱與其他書目存在直接互引或逐一反駁關係。",
+  "metadata_licence_zh": "公開 API 書目欄位；精確 metadata licence 未核驗，標 UNKNOWN。"
+}

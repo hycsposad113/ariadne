@@ -1,0 +1,46 @@
+{
+  "id": "HILLIERPENN04",
+  "title": "Rejoinder to Carlo Ratti",
+  "authors": [
+    "Bill Hillier",
+    "Alan Penn"
+  ],
+  "year": 2004,
+  "venue_or_publisher": "Environment and Planning B Planning and Design",
+  "doi": "https://doi.org/10.1068/b3019a",
+  "isbn": null,
+  "openalex_id": "https://openalex.org/W1989797207",
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "空間語法回應",
+  "region": [
+    "英國"
+  ],
+  "method": "方法論辯論",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "空間語法作者對表示法批評作回應，應與批評並列而非以一方的權威結束討論。",
+      "strength": "THEORETICAL",
+      "scope_zh": "僅限本研究或概念框架；不提供 M4H 的實測、法律效力或本卡試算門檻。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [
+    "RATTI04"
+  ],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "OpenAlex",
+    "query": {
+      "title": "Rejoinder to Carlo Ratti",
+      "author": "Bill Hillier",
+      "year": 2004
+    },
+    "matched_record_id": "https://openalex.org/W1989797207",
+    "checked_at_utc": "2026-10-08T03:38:08Z",
+    "match_notes_zh": "人工核對 API 書名、作者與出版年；縮寫、大小寫或副標題省略視為同一書目。只確認書目，不代表全文主張已審核。"
+  },
+  "limitations_zh": "本次只使用公開書目與可得摘要；沒有下載或查閱全文。書目查證不等於主張、因果或參數驗證。",
+  "critique_relationship_zh": "known_critiques 是編者指定的批評或替代閱讀，不宣稱實際互引或逐一反駁；Ratti 與 Hillier／Penn 的標題記錄確認明確對話。",
+  "metadata_licence_zh": "只保存公開 API 書目與自行摘要；未取得全文授權，未保存 API 摘要原文。精確 metadata licence 未經本任務核驗，標 UNKNOWN。"
+}

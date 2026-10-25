@@ -1,0 +1,131 @@
+{
+  "domain": "SYN",
+  "unit_count": 77,
+  "topics": [
+    {
+      "topic": "軸線／線段分析",
+      "unit_count": 11,
+      "unit_ids": [
+        "KU-SYN-001",
+        "KU-SYN-002",
+        "KU-SYN-003",
+        "KU-SYN-004",
+        "KU-SYN-005",
+        "KU-SYN-006",
+        "KU-SYN-007",
+        "KU-SYN-008",
+        "KU-SYN-065",
+        "KU-SYN-066",
+        "KU-SYN-071"
+      ]
+    },
+    {
+      "topic": "整合度與選擇度",
+      "unit_count": 8,
+      "unit_ids": [
+        "KU-SYN-009",
+        "KU-SYN-010",
+        "KU-SYN-011",
+        "KU-SYN-012",
+        "KU-SYN-013",
+        "KU-SYN-014",
+        "KU-SYN-015",
+        "KU-SYN-016"
+      ]
+    },
+    {
+      "topic": "自然移動",
+      "unit_count": 10,
+      "unit_ids": [
+        "KU-SYN-017",
+        "KU-SYN-018",
+        "KU-SYN-019",
+        "KU-SYN-020",
+        "KU-SYN-021",
+        "KU-SYN-022",
+        "KU-SYN-023",
+        "KU-SYN-024",
+        "KU-SYN-073",
+        "KU-SYN-074"
+      ]
+    },
+    {
+      "topic": "多中心性（MCA）",
+      "unit_count": 9,
+      "unit_ids": [
+        "KU-SYN-025",
+        "KU-SYN-026",
+        "KU-SYN-027",
+        "KU-SYN-028",
+        "KU-SYN-029",
+        "KU-SYN-030",
+        "KU-SYN-031",
+        "KU-SYN-032",
+        "KU-SYN-076"
+      ]
+    },
+    {
+      "topic": "角度與度量距離",
+      "unit_count": 10,
+      "unit_ids": [
+        "KU-SYN-033",
+        "KU-SYN-034",
+        "KU-SYN-035",
+        "KU-SYN-036",
+        "KU-SYN-037",
+        "KU-SYN-038",
+        "KU-SYN-039",
+        "KU-SYN-040",
+        "KU-SYN-067",
+        "KU-SYN-072"
+      ]
+    },
+    {
+      "topic": "批評（Ratti）與回應",
+      "unit_count": 8,
+      "unit_ids": [
+        "KU-SYN-041",
+        "KU-SYN-042",
+        "KU-SYN-043",
+        "KU-SYN-044",
+        "KU-SYN-045",
+        "KU-SYN-046",
+        "KU-SYN-047",
+        "KU-SYN-048"
+      ]
+    },
+    {
+      "topic": "Place Syntax",
+      "unit_count": 12,
+      "unit_ids": [
+        "KU-SYN-049",
+        "KU-SYN-050",
+        "KU-SYN-051",
+        "KU-SYN-052",
+        "KU-SYN-053",
+        "KU-SYN-054",
+        "KU-SYN-055",
+        "KU-SYN-056",
+        "KU-SYN-068",
+        "KU-SYN-069",
+        "KU-SYN-070",
+        "KU-SYN-075"
+      ]
+    },
+    {
+      "topic": "網路分析在設計中的使用與限制",
+      "unit_count": 9,
+      "unit_ids": [
+        "KU-SYN-057",
+        "KU-SYN-058",
+        "KU-SYN-059",
+        "KU-SYN-060",
+        "KU-SYN-061",
+        "KU-SYN-062",
+        "KU-SYN-063",
+        "KU-SYN-064",
+        "KU-SYN-077"
+      ]
+    }
+  ]
+}

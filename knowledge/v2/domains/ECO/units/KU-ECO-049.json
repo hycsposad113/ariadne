@@ -1,0 +1,66 @@
+{
+  "id": "KU-ECO-049",
+  "domain": "ECO",
+  "subtopic": "自然為本的解決方案",
+  "type": "concept",
+  "title_zh": "社會生態系統需共同設計",
+  "title_en": "Design social-ecological systems together",
+  "summary_zh": "公園治理、居民偏好和物種保護會彼此影響。都市生態的管理問題常跨越行政和專業邊界。單一技術方案無法解決土地和權利衝突。在地知識應補足而非取代生物調查。讓生態資料、使用者需求和管理資源共用決策流程。",
+  "key_points_zh": [
+    "公園治理、居民偏好和物種保護會彼此影響",
+    "都市生態的管理問題常跨越行政和專業邊界"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "公園治理、居民偏好和物種保護會彼此影響。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "跨地域",
+        "library_id": "CAMPBELL96",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "在地知識應補足而非取代生物調查。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "讓生態資料、使用者需求和管理資源共用決策流程。"
+  ],
+  "applies_when_zh": "適用於多功能綠地與社區共治。",
+  "not_applicable_when_zh": "不能把參與包裝成生態審查已完成。",
+  "debates_zh": "在地知識應補足而非取代生物調查。",
+  "sources": [
+    {
+      "library_id": "CAMPBELL96",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "DAVOUDI12",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "永續規劃批評",
+  "region": "跨地域",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "自然為本的解決方案"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Critical Debates in Urban Design",
+      "topic": "自然為本的解決方案"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-ECO-048",
+    "KU-ECO-050"
+  ]
+}

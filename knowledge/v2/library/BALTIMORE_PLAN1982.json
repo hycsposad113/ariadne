@@ -1,0 +1,45 @@
+{
+  "id": "BALTIMORE_PLAN1982",
+  "title": "Baltimore harbor environmental enhancement plan",
+  "authors": [
+    "Regional Planning Council (Md.)"
+  ],
+  "year": 1982,
+  "venue_or_publisher": "Regional Planning Council (Maryland); publisher not returned in search record",
+  "doi": null,
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "POLICY",
+  "tradition": "城市設計與都市形態；依來源主題標註",
+  "region": [
+    "Baltimore",
+    "United States"
+  ],
+  "method": "Open Library 公開書目核對；未查閱或保存全文。",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "Open Library catalogs a Baltimore harbor environmental-enhancement plan; the record establishes a local primary planning document but does not itself verify festival-market outcomes.",
+      "strength": "THEORETICAL",
+      "scope_zh": "書目記錄確認作者、題名與出版範圍；不能單靠書目證明未查閱的頁面主張或數字。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Open Library",
+    "query": {
+      "title": "Baltimore harbor environmental enhancement plan",
+      "author": "Regional Planning Council (Md.)",
+      "year": 1982
+    },
+    "matched_record_id": "/works/OL42315944W",
+    "checked_at_utc": "2026-10-08T19:49:24Z",
+    "match_notes_zh": "Open Library subject search for Inner Harbor (Baltimore, MD) returned this work with the Regional Planning Council (Md.) as author and first publication year 1982.",
+    "url": "https://openlibrary.org/works/OL42315944W"
+  },
+  "limitations_zh": "僅核對公開書目欄位；未查閱全文，書目相符不代表具體主張已核實。",
+  "critique_relationship_zh": "此書目只用來界定作品範圍，不暗示其與並列研究有直接引用關係。",
+  "metadata_licence_zh": "只保存 Open Library 公開書目欄位與自行撰寫摘要；未保存全文。"
+}

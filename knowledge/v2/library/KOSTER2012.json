@@ -1,0 +1,44 @@
+{
+  "id": "KOSTER2012",
+  "title": "THE IMPACT OF MIXED LAND USE ON RESIDENTIAL PROPERTY VALUES*",
+  "authors": [
+    "Hans R. A. Koster",
+    "Jan Rouwendal"
+  ],
+  "year": 2012,
+  "venue_or_publisher": "Journal of Regional Science",
+  "doi": "https://doi.org/10.1111/j.1467-9787.2012.00776.x",
+  "isbn": null,
+  "openalex_id": "https://openalex.org/W3123193230",
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "土地經濟與用途混合",
+  "region": [
+    "荷蘭住宅市場"
+  ],
+  "method": "半參數房價估計",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "荷蘭樣本中混合街區住宅平均估值約高 2.5%，但偏好因住宅型態而異，製造與批發用途亦可能被認為不相容。",
+      "strength": "MIXED",
+      "scope_zh": "僅限摘要可核對的範圍；未讀全文，不推論摘要未列的數字、因果或普遍適用性。",
+      "assessment_basis": "ABSTRACT_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "OpenAlex",
+    "query": {
+      "record_id": "https://openalex.org/W3123193230",
+      "title": "THE IMPACT OF MIXED LAND USE ON RESIDENTIAL PROPERTY VALUES*",
+      "author": "Hans R. A. Koster",
+      "year": 2012
+    },
+    "matched_record_id": "https://openalex.org/W3123193230",
+    "checked_at_utc": "2026-10-08T09:12:32Z",
+    "match_notes_zh": "以 OpenAlex 精確 work 記錄核對書名、作者與出版年；只使用摘要作主張範圍檢查，未下載全文。"
+  },
+  "limitations_zh": "僅使用允許的書目欄位和摘要核對；未取得或保存全文。",
+  "metadata_licence_zh": "保存公開書目欄位與自行撰寫主張摘要；未保存 API 摘要原文或全文。"
+}

@@ -1,0 +1,98 @@
+{
+  "id": "KU-LUP-058",
+  "domain": "LUP",
+  "subtopic": "商業與零售區位",
+  "type": "empirical_finding",
+  "title_zh": "廣島零售中心呈現非巢狀商圈",
+  "title_en": "Retail central places in Hiroshima",
+  "summary_zh": "分析依 1970 年代零售結構，不能直接代表今日電商和汽車化商圈。 用在地商品和消費資料修正中心地理論假設。 研究設計：零售商圈、商品層級與銷售區域分析；地區：廣島，日本。",
+  "key_points_zh": [
+    "廣島研究辨識四十多個便利商品中心，發現不同商品商圈彼此不必形成由小到大的整齊階層。",
+    "研究設計：零售商圈、商品層級與銷售區域分析；地區：廣島，日本",
+    "限制：分析依 1970 年代零售結構，不能直接代表今日電商和汽車化商圈。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "廣島研究辨識四十多個便利商品中心，發現不同商品商圈彼此不必形成由小到大的整齊階層。",
+        "effect_or_value": "40 多個便利商品中心；中等商品市中心商圈向郊區延伸",
+        "study_design": "零售商圈、商品層級與銷售區域分析",
+        "context_region": "廣島，日本",
+        "library_id": "MORIKAWA1981",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "用在地商品和消費資料修正中心地理論假設。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "用在地商品和消費資料修正中心地理論假設。",
+      "tradeoff_zh": "「廣島零售中心呈現非巢狀商圈」採用「用在地商品和消費資料修正中心地理論假設」時，得失要沿著廣島研究辨識四十多個便利商品中心，發現不同商品商圈彼此不必形成由小到大的整齊階層檢查；分析依 1970 年代零售結構，不能直接代表今日電商和汽車化商圈。",
+      "library_ids": [
+        "MORIKAWA1981",
+        "ALONSO1964"
+      ]
+    },
+    {
+      "option_zh": "「廣島零售中心呈現非巢狀商圈」可把取向落在便利商品、專門商品和目的型商業會形成不同空間服務範圍，但需連同廣島研究辨識四十多個便利商品中心，發現不同商品商圈彼此不必形成由小到大的整齊階層決定適用方式。",
+      "tradeoff_zh": "「廣島零售中心呈現非巢狀商圈」採用「「廣島零售中心呈現非巢狀商圈」可把取向落在便利商品、專門商品和目的型商業會形成不同空間服務範圍，但需連同廣島研究辨識四十多個便利商品中心，發現不同商品商圈彼此不必形成由小到大的整齊階層決定適用方式」時，得失要沿著廣島研究辨識四十多個便利商品中心，發現不同商品商圈彼此不必形成由小到大的整齊階層檢查；分析依 1970 年代零售結構，不能直接代表今日電商和汽車化商圈。",
+      "library_ids": [
+        "MORIKAWA1981",
+        "ALONSO1964"
+      ]
+    }
+  ],
+  "applies_when_zh": "用於與廣島，日本研究情境可比、且量測定義相近的分析。",
+  "not_applicable_when_zh": "分析依 1970 年代零售結構，不能直接代表今日電商和汽車化商圈。",
+  "debates_zh": "分析依 1970 年代零售結構，不能直接代表今日電商和汽車化商圈。",
+  "sources": [
+    {
+      "library_id": "MORIKAWA1981",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "ALONSO1964",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "零售地理與中心地系統；區位與地租理論",
+  "region": "廣島，日本；美國都市經濟理論",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Planning Complex Cities",
+      "topic": "商業與零售區位"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Cities by Design",
+      "topic": "商業與零售區位"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "商業與零售區位"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Sustainable Futures by Design",
+      "topic": "商業與零售區位"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-LUP-053",
+    "KU-LUP-054",
+    "KU-LUP-055"
+  ],
+  "counter_unit_ids": [
+    "KU-LUP-057"
+  ]
+}

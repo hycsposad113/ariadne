@@ -1,0 +1,95 @@
+{
+  "id": "KU-MOB-010",
+  "domain": "MOB",
+  "subtopic": "步行性",
+  "type": "empirical_finding",
+  "title_zh": "孟加拉街段中用途與步行量",
+  "title_en": "Land use and pedestrian volume in Mymensingh",
+  "summary_zh": "歷史城鎮多街段組態、土地使用與行人計數比較，研究脈絡為Mymensingh，孟加拉。設計網路連通不能取代對沿街目的地的分析。組態值與行人量的相關偏弱，商業土地使用對行人量影響線索更明顯。限制包括單一城鎮案例且摘要沒有係數、樣本時段或精確因果識別。",
+  "key_points_zh": [
+    "設計網路連通不能取代對沿街目的地的分析",
+    "限制：單一城鎮案例且摘要沒有係數、樣本時段或精確因果識別",
+    "效果或方向：組態值與行人量的相關偏弱，商業土地使用對行人量影響線索更明顯"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "孟加拉街段中用途與步行量｜設計網路連通不能取代對沿街目的地的分析",
+        "effect_or_value": "組態值與行人量的相關偏弱，商業土地使用對行人量影響線索更明顯",
+        "study_design": "歷史城鎮多街段組態、土地使用與行人計數比較",
+        "context_region": "Mymensingh，孟加拉",
+        "library_id": "AZIZ2018",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "孟加拉街段中用途與步行量｜步行性有多種定義與設計訴求；需明確說明量測的是距離、舒適、活動還是可及性",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "FORSYTH15",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "評論研究將步行與身體活動放入建成環境條件中討論；本單元不把該回顧轉作本站的活動量預測。",
+        "library_id": "HANDY02",
+        "claim_verification": "ABSTRACT_REVIEW",
+        "effect_or_value": null,
+        "study_design": "建成環境與身體活動的文獻回顧",
+        "context_region": "北美與跨地域研究",
+        "locator": null
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "在步行路網分析中加入沿線商業、服務和活動來源"
+  ],
+  "applies_when_zh": "若本地觀察單位與Mymensingh，孟加拉的研究脈絡可對照，可用「設計網路連通不能取代對沿街目的地的分析」作為步行性的比較線索。",
+  "not_applicable_when_zh": "這項Mymensingh，孟加拉的研究結果不能單獨證明因果或預測其他城市的街段；原研究單一城鎮案例且摘要沒有係數、樣本時段或精確因果識別。",
+  "debates_zh": "關聯能否外推；單一城鎮案例且摘要沒有係數、樣本時段或精確因果識別；檢視「孟加拉街段中用途與步行量」的研究解讀時，還需判斷「限制：單一城鎮案例且摘要沒有係數、樣本時段或精確因果識別」會如何改變方案結論。",
+  "sources": [
+    {
+      "library_id": "AZIZ2018",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "FORSYTH15",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "HANDY02",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "步行設計與可及性",
+  "region": "Mymensingh，孟加拉",
+  "curriculum_refs": [
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "步行性：課綱對應主題"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Sustainable Futures by Design",
+      "topic": "步行性：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-MOB-009",
+    "KU-MOB-011",
+    "KU-MOB-012",
+    "KU-MOB-013",
+    "KU-MOB-014",
+    "KU-MOB-015",
+    "KU-MOB-016"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "id": "SEATTLE_WATERFRONT_OVERVIEW2026",
+  "title": "City, Community, and Civic Leaders Celebrate the Completion of Waterfront Park",
+  "authors": [
+    "Office of the Mayor, City of Seattle"
+  ],
+  "year": 2025,
+  "venue_or_publisher": "Office of the Mayor, City of Seattle",
+  "doi": null,
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "OFFICIAL_MAYORAL_PRESS_RELEASE",
+  "tradition": "官方或專業機構公開頁面；直接來源核對",
+  "region": "美國華盛頓州 Seattle",
+  "method": "直接檢視官方或專業機構公開頁面；非獨立學術成效評估",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "市府新聞稿記錄 2025 年 Waterfront Park 完成，公園約 20 英畝，包含 17 區塊步行長廊、1.2 英里受保護自行車道、海堤和碼頭等工程。",
+      "strength": "CASE_EVIDENCE",
+      "scope_zh": "市府完成公告可確認工程開放和自述設施；長期使用、生態及交通效果仍需後續評估。",
+      "assessment_basis": "DIRECT_SOURCE_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Official webpage or public report (direct review)",
+    "query": {
+      "title": "City, Community, and Civic Leaders Celebrate the Completion of Waterfront Park",
+      "author": "Office of the Mayor, City of Seattle",
+      "year": 2025,
+      "api_query": "Read-only page reviewed directly: https://harrell.seattle.gov/2025/09/08/city-community-and-civic-leaders-celebrate-the-completion-of-waterfront-park/"
+    },
+    "matched_record_id": "https://harrell.seattle.gov/2025/09/08/city-community-and-civic-leaders-celebrate-the-completion-of-waterfront-park/",
+    "checked_at_utc": "2026-10-08T14:27:24Z",
+    "match_notes_zh": "直接核對機構公開頁面或報告；此狀態不是 Crossref 書目驗證。"
+  },
+  "limitations_zh": "市府完成公告可確認工程開放和自述設施；長期使用、生態及交通效果仍需後續評估。",
+  "critique_relationship_zh": "本記錄不宣稱與其他書目存在直接互引或逐一反駁關係。",
+  "metadata_licence_zh": "官方或機構公開資料；個別文本的再利用授權未核驗。"
+}

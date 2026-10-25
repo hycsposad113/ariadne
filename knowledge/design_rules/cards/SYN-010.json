@@ -1,0 +1,93 @@
+{
+  "id": "SYN-010",
+  "title_zh": "各交通模式分圖",
+  "title_en": "Mode-specific graphs",
+  "domain": "space_syntax",
+  "stages": [
+    "S2",
+    "S3",
+    "S5",
+    "S6",
+    "S7"
+  ],
+  "statement_zh": "步行圖包含允許步行連結；自行車圖包含允許騎行連結；汽車圖依方向與準入建立。只限服務的路不得當一般車流捷徑。",
+  "rationale_zh": "地圖畫得到的路不代表每種交通方式都可用。",
+  "applies_when": {
+    "scale": [
+      "*"
+    ],
+    "land_use": [
+      "*"
+    ],
+    "strategy": [
+      "*"
+    ],
+    "mode": [
+      "*"
+    ]
+  },
+  "parameters": [
+    {
+      "name": "modes_to_compare",
+      "value": 3,
+      "range": null,
+      "unit": "modes",
+      "provenance": "ASSUMED_COMMANDER",
+      "source_ids": [],
+      "authority_ref": null,
+      "status": "PROPOSED_PENDING_FOUNDER",
+      "rationale_zh": "指揮官提出的敏感性試算值，文獻未提供此數值；須 Founder 確認、地方資料及確定性驗證，未生效。"
+    }
+  ],
+  "check": {
+    "method_zh": "驗證 mode、oneway、access、grade 與入口拓樸；未知準入不自動放行。",
+    "inputs": [
+      "凍結幾何／路網與 hash",
+      "已接受專案條件與版本",
+      "卡片參數與版本"
+    ],
+    "output": "檢查值、單位、方法、有效性、差異與限制；不自動採納",
+    "implementation_status": "SPECIFICATION_ONLY"
+  },
+  "check_unavailable_reason_zh": null,
+  "design_responses": [
+    {
+      "option": "1",
+      "action_zh": "分模式圖計算",
+      "source_ids": [
+        "PUCHER08"
+      ],
+      "tradeoff_zh": "資料標籤與準入常不完整。"
+    },
+    {
+      "option": "2",
+      "action_zh": "步行騎行共廊但維持各自通行屬性",
+      "source_ids": [
+        "MARSHALL05"
+      ],
+      "tradeoff_zh": "共廊衝突需管理。"
+    }
+  ],
+  "evidence_level": "ACADEMIC",
+  "evidence_strength": "THEORETICAL",
+  "sources": [
+    {
+      "library_id": "PUCHER08",
+      "claim_id": "C1",
+      "support_scope_zh": "文獻支持概念與比較角度；本卡具體操作是設計推導，試算值及專案約束不是文獻的普適結論。"
+    },
+    {
+      "library_id": "MARSHALL05",
+      "claim_id": "C1",
+      "support_scope_zh": "文獻支持概念與比較角度；本卡具體操作是設計推導，試算值及專案約束不是文獻的普適結論。"
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "enforcement": "CANDIDATE_ONLY",
+  "authority_ref": null,
+  "debates_zh": "整合度不是人流因果保證；Ratti 指出表示法與幾何資訊限制，MCA 可作替代比較；本次僅憑書目知識，尚未逐頁查證。 已查證書目與主張的查閱層級見 library；不是逐頁核驗或本基地因果結論。",
+  "context_validity_zh": "英國形態／人流研究與跨城市網路方法只能提出假說；M4H 港區的門禁、產業時段、自行車與高差需另驗證。",
+  "exceptions_zh": "卡片不可替代現行法規、產權、無障礙或已接受 D1/D2。缺必要資料即回報 UNKNOWN；例外須由 Founder 明確決定並保留原結果。",
+  "version": "0.2.0",
+  "local_context_refs": []
+}

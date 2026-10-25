@@ -1,0 +1,44 @@
+{
+  "id": "ZUKIN95",
+  "title": "The Cultures of Cities",
+  "authors": [
+    "Sharon Zukin"
+  ],
+  "year": 1995,
+  "venue_or_publisher": null,
+  "doi": null,
+  "isbn": "1557864373",
+  "openlibrary_id": "/works/OL4449064W",
+  "kind": "ACADEMIC_BOOK",
+  "tradition": "都市文化政治經濟",
+  "region": [
+    "美國",
+    "北美"
+  ],
+  "method": "學術專書／理論綜述",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "本書提供該領域的概念與分析脈絡；此處僅據已核對書目與專業範圍摘要，不冒稱已查閱全文。",
+      "strength": "THEORETICAL",
+      "scope_zh": "用於概念框架與歷史脈絡，非量化效果或本基地法規。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Open Library",
+    "query": {
+      "title": "The Cultures of Cities",
+      "author": "Zukin",
+      "year": 1995
+    },
+    "matched_record_id": "https://openlibrary.org/works/OL4449064W",
+    "checked_at_utc": "2026-10-08T09:46:55Z",
+    "match_notes_zh": "核對 Open Library 回傳書名、作者與首版年；此確認只及書目。"
+  },
+  "limitations_zh": "書目查證未包含全文閱讀或版本內容比較。",
+  "critique_relationship_zh": "此條目用於課程脈絡，不宣稱與其他來源直接互引。",
+  "metadata_licence_zh": "僅保存公開書目欄位與自行撰寫的摘要；未保存 API 摘要，metadata 授權未單獨核定。"
+}

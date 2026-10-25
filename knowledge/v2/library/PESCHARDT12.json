@@ -1,0 +1,46 @@
+{
+  "id": "PESCHARDT12",
+  "title": "Use of Small Public Urban Green Spaces (SPUGS)",
+  "authors": [
+    "Karin K. Peschardt",
+    "Jasper Schipperijn",
+    "Ulrika K. Stigsdotter"
+  ],
+  "year": 2012,
+  "venue_or_publisher": "Urban Forestry & Urban Greening",
+  "doi": "https://doi.org/10.1016/j.ufug.2012.04.002",
+  "isbn": null,
+  "crossref_id": "https://doi.org/10.1016/j.ufug.2012.04.002",
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "小型公共綠地使用研究",
+  "region": [
+    "丹麥",
+    "北歐"
+  ],
+  "method": "使用者研究",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "研究以小型公共都市綠地的實際使用為主題；書目範圍支持把日常使用視為設計評估對象，未核全文前不報活動數值。",
+      "strength": "MIXED",
+      "scope_zh": "丹麥都市綠地研究；主張限於此來源的研究設計與樣本，不外推為本基地規範。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref",
+    "query": {
+      "title": "Use of Small Public Urban Green Spaces (SPUGS)",
+      "author": "Karin K. Peschardt",
+      "year": 2012
+    },
+    "matched_record_id": "https://doi.org/10.1016/j.ufug.2012.04.002",
+    "checked_at_utc": "2026-10-08T09:54:04Z",
+    "match_notes_zh": "核對 Crossref 回傳書名、主要作者、出版年與 DOI；摘要只在實際取得並閱讀的論文上標 ABSTRACT_REVIEW。"
+  },
+  "limitations_zh": "丹麥都市綠地研究；書目核對不替代完整論文審查。",
+  "critique_relationship_zh": "此條目的批評連結供編者並讀，不宣稱存在直接互引。",
+  "metadata_licence_zh": "僅保存公開書目欄位與自行撰寫的摘要；未保存摘要原文，metadata 授權未單獨核定。"
+}

@@ -1,0 +1,96 @@
+{
+  "id": "KU-MOB-065",
+  "domain": "MOB",
+  "subtopic": "大眾運輸服務圈",
+  "type": "value_range",
+  "title_zh": "公車站步行接駁的 400 m 參照",
+  "title_en": "400 m walking access to bus stops",
+  "summary_zh": "400 m 常用於描繪步行接駁公車站的規劃情境，但圓形緩衝區可能跨不過河流、鐵路或大型街廓。以可步行路網計算後，服務距離會依入口和穿越條件改變。此數值是比較參照，不是固定服務承諾。此處的公車站步行服務距離參照是附來源的比較參照，不是本基地法規。",
+  "key_points_zh": [
+    "400 m 表示步行距離情境，應以路網而非半徑計算。",
+    "候車品質和站點可達性還取決於人行道與過街設施。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "Calthorpe（1993）的 TOD 定義以平均約 2,000 英尺（約 600 m）步行距離為範圍；400 m（1/4 英里）是北美常見的步行接駁慣例，並非 Calthorpe 的原始數值。",
+        "library_id": "CALTHORPE93",
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+        "effect_or_value": "約 400 m",
+        "study_design": "TOD 手冊的步行服務圈用法待核對",
+        "context_region": "美國 TOD 規劃脈絡",
+        "locator": null
+      },
+      {
+        "claim_zh": "可及性評估需同時考慮交通、土地使用和個人條件，距離圈不等於同等機會。",
+        "library_id": "GEURS04",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "可及性評估框架",
+        "context_region": "跨地域交通可及性研究",
+        "locator": null
+      },
+      {
+        "claim_zh": "加拿大到站步行研究比較變動服務範圍，提醒固定服務半徑會遮住站點差異；本單元不轉錄未核對的係數。",
+        "library_id": "ELGENEIDY14",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "步行到站服務範圍實證研究",
+        "context_region": "加拿大",
+        "locator": null
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "公車站步行服務距離參照",
+      "range": "約 400 m",
+      "unit": "公尺",
+      "context": "Calthorpe 原定義約 600 m；400 m 為慣例參照。北美與歐洲公共運輸規劃中常用的步行接駁比較範圍；用途：作為網路服務圈情境，用實際步行路徑替代直線半徑。；「公車站步行服務距離參照」僅供來源脈絡內的比較，不是本基地法規、M4H 門檻或通用配額。",
+      "library_id": "CALTHORPE93"
+    }
+  ],
+  "design_implications_zh": [
+    "初步畫出公車接駁範圍後，以入口、過街點和無障礙路徑重算 400 m 內的實際目的地。"
+  ],
+  "applies_when_zh": "畫出公車站步行接駁情境後，以入口、障礙和實際可走路網計算服務範圍。",
+  "not_applicable_when_zh": "不能把 400 m 圓圈讀成每位乘客都可舒適抵達的服務承諾，也不是本地法規。",
+  "debates_zh": "以固定距離圈溝通很直觀，卻會忽略目的地品質、地形障礙和不同步行能力。",
+  "sources": [
+    {
+      "library_id": "CALTHORPE93",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "GEURS04",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "ELGENEIDY14",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "公共運輸可及性",
+  "region": "北美與歐洲公共運輸規劃中常用的步行接駁比較範圍",
+  "curriculum_refs": [
+    {
+      "school": "Harvard GSD",
+      "course": "Urban Design Contexts and Operations",
+      "topic": "大眾運輸服務圈：課綱對應主題"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "大眾運輸服務圈：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-MOB-045"
+  ]
+}

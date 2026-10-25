@@ -1,0 +1,43 @@
+{
+  "id": "KROPF2017",
+  "title": "The Handbook of Urban Morphology",
+  "authors": [
+    "Karl Kropf"
+  ],
+  "year": 2017,
+  "venue_or_publisher": "Open Library bibliographic record; publisher not returned in the permitted search fields",
+  "doi": null,
+  "isbn": "9781118747735",
+  "openalex_id": null,
+  "kind": "ACADEMIC_BOOK",
+  "tradition": "城市形態學",
+  "region": [
+    "跨地域形態學"
+  ],
+  "method": "形態學工具書",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "工具書統整城市形態描述與分析方法，適合作為術語和尺度的導航，不替代案例的量測。",
+      "strength": "THEORETICAL",
+      "scope_zh": "書目核對與專業範圍摘要；不是特定基地法規或普遍數值門檻。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Open Library",
+    "query": {
+      "title": "The Handbook of Urban Morphology",
+      "author": "Karl Kropf",
+      "year": 2017,
+      "endpoint": "https://openlibrary.org/search.json"
+    },
+    "matched_record_id": "/works/OL20225845W",
+    "checked_at_utc": "2026-10-08T09:12:32Z",
+    "match_notes_zh": "Open Library 搜尋紀錄的書名、第一作者與年份相符；未下載全文。"
+  },
+  "limitations_zh": "僅核對 Open Library 書目欄位，未查閱全文；出版社欄位未由本次受限搜尋查回。",
+  "metadata_licence_zh": "保存書目欄位與自行撰寫摘要；未保存 API 摘要或全文。"
+}

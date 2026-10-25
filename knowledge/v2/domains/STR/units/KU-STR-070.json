@@ -1,0 +1,96 @@
+{
+  "id": "KU-STR-070",
+  "domain": "STR",
+  "subtopic": "交叉口密度",
+  "type": "value_range",
+  "title_zh": "方格網街廓距離換算的交叉口密度",
+  "title_en": "Intersection density derived from grid spacing",
+  "summary_zh": "理想正交網格若每條街相距 80–120 m，依 1／間距平方換算，約為每平方公里 69–156 個交叉口。這是可重算的幾何示例，不是對城市實測資料的整理。彎曲街、封閉地塊和非四向交叉口會改變實際密度。此處的正交方格網的交叉口密度換算是附來源的比較參照，不是本基地法規。",
+  "key_points_zh": [
+    "計算假設是均勻正交網格和連續可達路口。",
+    "輸入街距不同，換算的節點密度會平方反比變動。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "理想正交方格中，交叉口密度約等於 1 km² 除以間距平方：間距 80–120 m 時約 69–156 個／km²。此為算術推導，輸入間距見 KU-STR-069。",
+        "library_id": "MARSHALL05",
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+        "effect_or_value": "約 69–156 個交叉口／km²",
+        "study_design": "以 80–120 m 理想正交網格作數學換算；非實測研究",
+        "context_region": "示意計算，無特定城市",
+        "locator": null
+      },
+      {
+        "claim_zh": "街道形態比較需配合實際網路與交通行為，不只看密度。",
+        "library_id": "SOUTHWORTH03",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "街網形態比較",
+        "context_region": "英國及跨地域",
+        "locator": null
+      },
+      {
+        "claim_zh": "建成環境和出行的關聯受土地使用與旅次特徵影響。",
+        "library_id": "CERVERO97",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "建成環境與旅運實證",
+        "context_region": "美國",
+        "locator": null
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "正交方格網的交叉口密度換算",
+      "range": "約 69–156 個交叉口／km²",
+      "unit": "交叉口／平方公里",
+      "context": "由 80–120 m 方格間距計算的理想網路例子；用途：展示網格間距如何影響節點密度；不含河道、封閉地塊或斷頭路。；「正交方格網的交叉口密度換算」僅供來源脈絡內的比較，不是本基地法規、M4H 門檻或通用配額；來源所列地域：英國、跨地域。",
+      "library_id": "MARSHALL05"
+    }
+  ],
+  "design_implications_zh": [
+    "把此計算用作檢查方案的尺度直覺，並在正式分析中從實際路網幾何重新計算。"
+  ],
+  "applies_when_zh": "以均勻方格網做初步尺度推算時，檢查街距變化如何改變理論交叉口密度。",
+  "not_applicable_when_zh": "不能把 69–156 個/km² 當成目標密度或安全指標；真實街網與理想方格有明顯差異。",
+  "debates_zh": "交叉口數量簡化了路網連接，卻未描述過街延遲、衝突或可穿越權。",
+  "sources": [
+    {
+      "library_id": "MARSHALL05",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "SOUTHWORTH03",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "CERVERO97",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "路網幾何與交通分析",
+  "region": "由 80–120 m 方格間距計算的理想網路例子",
+  "curriculum_refs": [
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "交叉口密度：課綱對應主題"
+    },
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "交叉口密度：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-STR-036"
+  ]
+}

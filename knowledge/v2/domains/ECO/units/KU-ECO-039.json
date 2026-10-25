@@ -1,0 +1,61 @@
+{
+  "id": "KU-ECO-039",
+  "domain": "ECO",
+  "subtopic": "物種友善設計",
+  "type": "concept",
+  "title_zh": "建築立面和屋頂也是棲地介面",
+  "title_en": "Buildings are habitat interfaces",
+  "summary_zh": "屋頂、外牆和雨水構造能補充城市生境。這些空間的微氣候和連通性與地面棲地不同。高處植生會遇到基質厚度、乾燥和維護限制。生態服務和人的可使用性可能分置於不同高度。為屋頂方案明確指定目標類群、土層條件和維護頻率。",
+  "key_points_zh": [
+    "屋頂、外牆和雨水構造能補充城市生境",
+    "這些空間的微氣候和連通性與地面棲地不同"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "屋頂、外牆和雨水構造能補充城市生境。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "美國",
+        "library_id": "LOW05",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "生態服務和人的可使用性可能分置於不同高度。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "為屋頂方案明確指定目標類群、土層條件和維護頻率。"
+  ],
+  "applies_when_zh": "適用於密集區增加細粒度棲地。",
+  "not_applicable_when_zh": "不應把綠屋頂面積直接計成地面公共綠地。",
+  "debates_zh": "生態服務和人的可使用性可能分置於不同高度。",
+  "sources": [
+    {
+      "library_id": "LOW05",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "WHYTE80",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "公共空間文化多樣性",
+  "region": "美國",
+  "curriculum_refs": [
+    {
+      "school": "UCL Bartlett",
+      "course": "Critical Debates in Urban Design",
+      "topic": "物種友善設計"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-ECO-038",
+    "KU-ECO-040"
+  ]
+}

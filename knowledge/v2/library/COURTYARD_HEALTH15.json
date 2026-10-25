@@ -1,0 +1,43 @@
+{
+  "id": "COURTYARD_HEALTH15",
+  "title": "Courtyard Housing for Health and Happiness",
+  "authors": [
+    "Donia Zhang"
+  ],
+  "year": 2015,
+  "venue_or_publisher": "Routledge",
+  "doi": null,
+  "isbn": "9781317158783",
+  "openalex_id": null,
+  "kind": "ACADEMIC_BOOK",
+  "tradition": "建築尺度；設計實務與研究",
+  "region": [
+    "跨地域；依來源適用範圍而異"
+  ],
+  "method": "書目核對；未取得全文，不以書目資料證明特定數值。",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "庭院住宅與健康、愉悅主題的研究性著作；不將書目範圍視為尺寸證據。",
+      "strength": "THEORETICAL",
+      "scope_zh": "書目範圍可核對；數值或因果主張須另查原文。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Open Library",
+    "query": {
+      "title": "Courtyard Housing for Health and Happiness",
+      "author": "Donia Zhang",
+      "year": 2015
+    },
+    "matched_record_id": "OL21276446W",
+    "checked_at_utc": "2026-10-08T14:47:37Z",
+    "match_notes_zh": "以允許的公開書目 API 核對書名、作者及出版年；未下載或保存全文。",
+    "url": "https://openlibrary.org/works/OL21276446W"
+  },
+  "limitations_zh": "書目記錄已核對；具體尺度內容標示交叉核對狀態，不把書名或摘要當作數值證據。",
+  "metadata_licence_zh": "保存公開書目欄位與自行撰寫的範圍說明；未保存全文。"
+}

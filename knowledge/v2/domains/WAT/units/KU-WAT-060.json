@@ -1,0 +1,74 @@
+{
+  "id": "KU-WAT-060",
+  "domain": "WAT",
+  "subtopic": "鹿特丹水廣場（如 Benthemplein）",
+  "type": "method",
+  "title_zh": "以剖面和運作序列核對水廣場設計",
+  "title_en": "以剖面和運作序列核對水廣場設計",
+  "summary_zh": "水廣場的地形剖面應與入流、積水、溢流和排空順序一起閱讀。區域洪水治理研究提供鹿特丹的水管理尺度背景，WSUD 文獻則說明多用途水空間如何連接城市設計。若只看平面圖，無法辨認使用者何時需要避開蓄水區。",
+  "key_points_zh": [
+    "平面標示範圍，剖面說明水深和控制標高。",
+    "運作序列呈現日常使用與暴雨模式的切換。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "library_id": "BROWN09",
+        "claim_zh": "水管理涉及不同治理階段與制度；雨水景觀必須連同運維及排水責任討論；本單元 KU-WAT-060 對照「水廣場的地形剖面應與入流、積水、溢流和排空順序一起閱讀」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "歷史／治理比較",
+        "context_region": "澳洲",
+        "locator": null
+      },
+      {
+        "library_id": "RIJKE2012",
+        "claim_zh": "書目確認本文題名聚焦「Room for the River: delivering integrated river basin management in the Netherlands」；目前只完成作者、年份、題名與 DOI 核對，未將摘要或全文結論納入此記錄；本單元 KU-WAT-060 對照「水廣場的地形剖面應與入流、積水、溢流和排空順序一起閱讀」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "案例或場地研究；目前僅核對書目範圍",
+        "context_region": "荷蘭",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "為每個設計水位畫出可用、封閉和復原區域。",
+    "把管理人員的開放及復位程序納入方案。"
+  ],
+  "applies_when_zh": "適用於多功能調蓄空間的方案設計和審查。",
+  "not_applicable_when_zh": "不適用於以示意剖面替代水理模擬。",
+  "debates_zh": "沒有竣工圖和操作記錄時，設計圖不能證明建成後的實際運作。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "BROWN09",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "RIJKE2012",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "水廣場設計方法",
+  "region": "荷蘭；英國與國際經驗",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "鹿特丹水廣場（如 Benthemplein）"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Sustainable Futures by Design",
+      "topic": "鹿特丹水廣場（如 Benthemplein）"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0"
+}

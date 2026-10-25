@@ -1,0 +1,42 @@
+{
+  "id": "MOUSAVINIA2024",
+  "title": "Changes in Social Impacts of Industrial Heritage Adaptive Reuse in High-Density Residential Environment: Reciprocal Relations Between Social Cohesion and Perceived Safety",
+  "authors": [
+    "Seyyedeh Fatemeh Mousavinia"
+  ],
+  "year": 2024,
+  "venue_or_publisher": "Social Indicators Research",
+  "doi": "https://doi.org/10.1007/s11205-024-03308-9",
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "工業遺產再利用的社會結果",
+  "region": "高密度住宅環境；個案地點待查",
+  "method": "書目範圍核對；未存摘要",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "題名提出工業遺產再利用、社會凝聚與感知安全的相互關係；研究方向、樣本與效應量未由摘要核對。",
+      "strength": "THEORETICAL",
+      "scope_zh": "此書目僅支持記錄中的研究對象、地區與方法；不可推作M4H法規、通用數值或跨城因果結論。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref",
+    "query": {
+      "title": "Changes in Social Impacts of Industrial Heritage Adaptive Reuse in High-Density Residential Environment: Reciprocal Relations Between Social Cohesion and Perceived Safety",
+      "author": "Mousavinia",
+      "year": 2024,
+      "api_query": "Crossref GET works?query.title=Changes in Social Impacts of Industrial Heritage Adaptive Reuse in High-Density Residential Environment: Reciprocal Relations Between Social Cohesion and Perceived Safety"
+    },
+    "matched_record_id": "10.1007/s11205-024-03308-9",
+    "checked_at_utc": "2026-10-08T10:52:30Z",
+    "match_notes_zh": "公開Crossref書目欄位已核對題名、作者及出版年；摘要僅在assessment_basis為ABSTRACT_REVIEW時用於核對，未存入repo。"
+  },
+  "limitations_zh": "未取得全文；只有標示ABSTRACT_REVIEW的內容依公開摘要核對，其餘僅依書目範圍描述。",
+  "critique_relationship_zh": "本筆不宣稱與其他來源存在直接互引或逐一反駁關係。",
+  "metadata_licence_zh": "Crossref公開書目欄位；精確metadata授權未核驗，標UNKNOWN。"
+}

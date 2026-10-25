@@ -1,0 +1,43 @@
+{
+  "id": "KUSHNER05",
+  "title": "Car-Free Housing Developments: Toward Sustainable Smart Growth and Urban Regeneration Through Car-Free Zoning, Car-Free Redevelopment, Pedestrian Improvement Districts, and New Urbanism",
+  "authors": [
+    "James A. Kushner"
+  ],
+  "year": 2005,
+  "venue_or_publisher": "UCLA Journal of Environmental Law and Policy",
+  "doi": "10.5070/l5231019795",
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "無車住宅與規劃制度",
+  "region": [
+    "美國法學與規劃脈絡"
+  ],
+  "method": "書目標題界定無車住宅與行人改善區的政策主題；本次無摘要可供內容核對。",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "本記錄只確認書目主題，沒有將標題擴寫成政策效果或實證結論。",
+      "strength": "THEORETICAL",
+      "scope_zh": "只支持此來源已核對的書目或摘要範圍；不提供 M4H 法規、通用因果或未查證的設計門檻。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref",
+    "query": {
+      "title": "Car-Free Housing Developments: Toward Sustainable Smart Growth and Urban Regeneration Through Car-Free Zoning, Car-Free Redevelopment, Pedestrian Improvement Districts, and New Urbanism",
+      "author": "James A. Kushner",
+      "year": 2005
+    },
+    "matched_record_id": "10.5070/l5231019795",
+    "checked_at_utc": "2026-10-08T10:29:34Z",
+    "match_notes_zh": "人工比對公開 API 的書名、作者和年份；摘要只用於核對本地自行撰寫的主張，未保存摘要原文。"
+  },
+  "limitations_zh": "未下載全文；書目查證不等於完整主張或數值驗證。",
+  "critique_relationship_zh": "此處列出的替代來源只供交叉閱讀，不宣稱來源間互引或逐條反駁。",
+  "metadata_licence_zh": "只保存公開 API 書目和自行撰寫的摘要；精確 metadata licence 未核驗，標 UNKNOWN。"
+}

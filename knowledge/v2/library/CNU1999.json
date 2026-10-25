@@ -1,0 +1,47 @@
+{
+  "id": "CNU1999",
+  "title": "Charter of The New Urbanism",
+  "authors": [
+    "Congress for the New Urbanism"
+  ],
+  "year": 1999,
+  "venue_or_publisher": "McGraw-Hill Professional",
+  "doi": null,
+  "isbn": "9780071355537",
+  "openalex_id": null,
+  "kind": "PROFESSIONAL_CHARTER",
+  "tradition": "New Urbanism",
+  "region": [
+    "United States",
+    "international"
+  ],
+  "method": "normative charter",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "該憲章以鄰里、區域與街道等尺度提出步行、混合用途、連續公共空間及區域生態的規範主張；它不是居民行為的因果研究。",
+      "strength": "NORMATIVE_PRACTICE",
+      "scope_zh": "用於辨識新都市主義的設計承諾，不作普遍效果量或法律標準。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [
+    "TALEN99",
+    "FANSTEIN10"
+  ],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Open Library",
+    "query": {
+      "title": "Charter of The New Urbanism",
+      "author": "Congress for the New Urbanism",
+      "year": 1999
+    },
+    "matched_record_id": "/works/OL282024W",
+    "checked_at_utc": "2026-10-08T09:54:23Z",
+    "match_notes_zh": "Open Library 結果匹配團體作者、書名與 1999 首版年份。只確認書目身份。"
+  },
+  "limitations_zh": "未下載全文；憲章的設計目標不等於已驗證的社會、旅運或公平成效。",
+  "critique_relationship_zh": "Talen 與 Fainstein 作為學術批判閱讀，不代表憲章直接回應兩者。",
+  "metadata_licence_zh": "保存書目欄位與自撰摘要；未保存全文或 API 摘要。"
+}

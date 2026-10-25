@@ -1,0 +1,114 @@
+{
+  "id": "KU-LUP-005",
+  "domain": "LUP",
+  "subtopic": "土地使用分類",
+  "type": "critique",
+  "title_zh": "土地使用分類｜批評與反例",
+  "title_en": "Land-use classification — Critique and counterexample",
+  "summary_zh": "可及性評估需要同時交代交通、土地使用與個人條件；同一距離圈不代表同樣機會。 將規劃與貧困群體的排除問題作為審查方向；本次只有書目範圍確認，不推定每個個案的結果。 讀「土地使用分類｜批評與反例」時，單一用途碼會掩蓋樓層混用、非正式經濟和日夜轉換；同時把可及性評估需要同時交代交通、土地使用與個人條件；同一距離圈不代表同樣機會列為核對條件。",
+  "key_points_zh": [
+    "讀「土地使用分類｜批評與反例」時，單一用途碼會掩蓋樓層混用、非正式經濟和日夜轉換；同時把可及性評估需要同時交代交通、土地使用與個人條件；同一距離圈不代表同樣機會列為核對條件。",
+    "讀「土地使用分類｜批評與反例」時，適用於盤點現況、評估分區和描述用途配置；同時把可及性評估需要同時交代交通、土地使用與個人條件；同一距離圈不代表同樣機會列為核對條件。",
+    "讀「土地使用分類｜批評與反例」時，限制：資料缺項不是空白用途；不得把未知直接編成零或無使用；同時把可及性評估需要同時交代交通、土地使用與個人條件；同一距離圈不代表同樣機會列為核對條件。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "Geurs 與 van Wee 的可及性回顧把土地使用、交通和個人條件放在同一評估框架；分類碼本身不能代表居民可達的機會。",
+        "library_id": "GEURS04",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "荷蘭; 跨地域",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "Watson 回顧全球南方都市化中的規劃排除問題；當土地使用分類忽略非正式活動時，規劃結果可能加深對貧困居民的排擠。",
+        "library_id": "WATSON09",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "非洲; 全球南方",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "落實「土地使用分類｜批評與反例」時可先居住、商業、製造、公共設施和開放空間可按不同規劃問題再分層，再用可及性評估需要同時交代交通、土地使用與個人條件；同一距離圈不代表同樣機會核對方案的空間後果。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "在「土地使用分類｜批評與反例」的來源情境裡，對照實際活動、建築登記與規劃類別，註明多用途和時間變化；落到設計時還要按可及性評估需要同時交代交通、土地使用與個人條件；同一距離圈不代表同樣機會調整。",
+      "tradeoff_zh": "「土地使用分類｜批評與反例」的主要代價不是抽象的建造成本，而是設計者可依地方目標選擇，也可提出反例；這是待驗證的主張，不是普遍法規；因此先以可及性評估需要同時交代交通、土地使用與個人條件；同一距離圈不代表同樣機會作方案比較條件。",
+      "library_ids": [
+        "GEURS04",
+        "WATSON09"
+      ]
+    },
+    {
+      "option_zh": "在「土地使用分類｜批評與反例」的來源情境裡，居住、商業、製造、公共設施和開放空間可按不同規劃問題再分層；落到設計時還要按可及性評估需要同時交代交通、土地使用與個人條件；同一距離圈不代表同樣機會調整。",
+      "tradeoff_zh": "「土地使用分類｜批評與反例」的主要代價不是抽象的建造成本，而是設計者可依地方目標選擇，也可提出反例；這是待驗證的主張，不是普遍法規；因此先以可及性評估需要同時交代交通、土地使用與個人條件；同一距離圈不代表同樣機會作方案比較條件。",
+      "library_ids": [
+        "GEURS04",
+        "WATSON09"
+      ]
+    }
+  ],
+  "applies_when_zh": "「土地使用分類｜批評與反例」可在適用於盤點現況、評估分區和描述用途配置時使用，前提是可及性評估需要同時交代交通、土地使用與個人條件；同一距離圈不代表同樣機會與來源情境相符。",
+  "not_applicable_when_zh": "若可及性評估需要同時交代交通、土地使用與個人條件；同一距離圈不代表同樣機會不成立，就不能把「土地使用分類｜批評與反例」的結論延伸到其他情況；資料缺項不是空白用途；不得把未知直接編成零或無使用。",
+  "debates_zh": "設計者可依地方目標選擇，也可提出反例；這是待驗證的主張，不是普遍法規。",
+  "sources": [
+    {
+      "library_id": "GEURS04",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "WATSON09",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "CARMONA10",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "JACOBS61",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "可及性評估；全球南方規劃批評",
+  "region": "荷蘭；非洲",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Planning Complex Cities",
+      "topic": "土地使用分類"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Cities by Design",
+      "topic": "土地使用分類"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "土地使用分類"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Sustainable Futures by Design",
+      "topic": "土地使用分類"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-LUP-001",
+    "KU-LUP-002",
+    "KU-LUP-003"
+  ]
+}

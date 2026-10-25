@@ -1,0 +1,110 @@
+{
+  "id": "KU-WAT-073",
+  "domain": "WAT",
+  "subtopic": "雨水滯留量的設計值",
+  "type": "value_range",
+  "title_zh": "蓄水基層的孔隙率與排空時間要分開設計",
+  "title_en": "蓄水基層的孔隙率與排空時間要分開設計",
+  "summary_zh": "透水鋪面下的蓄水基層以骨料厚度和可用孔隙形成儲水空間，排水管與周邊地下水會改變實際可用體積。Den Helder 指引要求 300 毫米厚的蓄水基層、壓實後至少 35% 空隙，並要求在 12 小時內排空。這些是地方道路工程規格，不能直接移植成 M4H 的容量或材料標準。",
+  "key_points_zh": [
+    "幾何厚度乘孔隙率只得到理論空隙體積。",
+    "實際蓄水還受入流分配、出口和地下水控制。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "library_id": "DENHELDER_LIOR2026",
+        "claim_zh": "Den Helder 的透水鋪面條款要求 300 mm 蓄水基層、至少 35% 壓實孔隙率，並在 12 小時內排空；本單元用這組值比較基層的截面和可恢復容量。",
+        "claim_verification": "OFFICIAL_PRIMARY_SOURCE_REVIEW",
+        "effect_or_value": null,
+        "study_design": "市政基礎設施設計指引",
+        "context_region": "Den Helder, Nederland",
+        "locator": "LIOR 2026–2027, sections 4.4.6.7–4.4.6.8, lines 2393–2423"
+      },
+      {
+        "library_id": "BEAN2007",
+        "claim_zh": "書目確認本文題名聚焦「Field Survey of Permeable Pavement Surface Infiltration Rates」；目前只完成作者、年份、題名與 DOI 核對，未將摘要或全文結論納入此記錄；本單元 KU-WAT-073 對照「透水鋪面下的蓄水基層以骨料厚度和可用孔隙形成儲水空間，排水管與周邊地下水會改變實際可用體積」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "案例或場地研究；目前僅核對書目範圍",
+        "context_region": "美國多地",
+        "locator": null
+      },
+      {
+        "library_id": "BERNDTSSON2010",
+        "claim_zh": "書目確認本文題名聚焦「Green roof performance towards management of runoff water quantity and quality: A review」；目前只完成作者、年份、題名與 DOI 核對，未將摘要或全文結論納入此記錄；本單元 KU-WAT-073 對照「透水鋪面下的蓄水基層以骨料厚度和可用孔隙形成儲水空間，排水管與周邊地下水會改變實際可用體積」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "文獻回顧；目前僅核對書目範圍",
+        "context_region": "跨地域",
+        "locator": null
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "蓄水基層厚度",
+      "range": "300",
+      "unit": "mm",
+      "context": "用途：以「蓄水基層厚度」作為來源情境參照；Den Helder 指引所列壓實蓄水基層尺寸；這不是本基地法規；來源所列地域：Den Helder, Nederland。",
+      "library_id": "DENHELDER_LIOR2026"
+    },
+    {
+      "name": "壓實後孔隙率",
+      "range": "至少 35",
+      "unit": "% void space",
+      "context": "用途：以「壓實後孔隙率」作為來源情境參照；Den Helder 指引；需扣除填料、沉積與不可用水量；這不是本基地法規；來源所列地域：Den Helder, Nederland。",
+      "library_id": "DENHELDER_LIOR2026"
+    },
+    {
+      "name": "基層最長排空時間",
+      "range": "12",
+      "unit": "h",
+      "context": "用途：以「基層最長排空時間」作為來源情境參照；Den Helder 指引為下次降雨留出可用容量；這不是本基地法規；來源所列地域：Den Helder, Nederland。",
+      "library_id": "DENHELDER_LIOR2026"
+    }
+  ],
+  "design_implications_zh": [
+    "以竣工孔隙率、出水量和回復時間驗證理論容量。"
+  ],
+  "applies_when_zh": "適用於透水路面或可蓄水基礎層的概念比較。",
+  "not_applicable_when_zh": "未完成地質與地下水調查時，不用本值推算可承諾的暴雨容量。",
+  "debates_zh": "高孔隙基層能增加理論蓄水，但細料堵塞和難以檢修可能降低長期有效量。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "DENHELDER_LIOR2026",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "BEAN2007",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "BERNDTSSON2010",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "透水鋪面與蓄水基層",
+  "region": "Den Helder, Nederland；美國透水鋪面研究",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "透水鋪面與雨水滯留"
+    },
+    {
+      "school": "MIT",
+      "course": "Urbanism and Ecology",
+      "topic": "Blue-green infrastructure"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0"
+}

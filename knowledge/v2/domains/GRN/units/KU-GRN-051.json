@@ -1,0 +1,61 @@
+{
+  "id": "KU-GRN-051",
+  "domain": "GRN",
+  "subtopic": "健康效益實證",
+  "type": "concept",
+  "title_zh": "健康暴露含有質與量的分離",
+  "title_en": "Separate quantity from perceived quality",
+  "summary_zh": "遙測植被指數能估計綠量，無法直接代表可進入性或舒適度。居民感知與現地維護往往需要額外調查。主觀評價也會受使用經驗影響。量化資料的便利性可能讓品質和權利被忽略。並列遙測綠量、場地稽核及居民認知資料。",
+  "key_points_zh": [
+    "遙測植被指數能估計綠量，無法直接代表可進入性或舒適度",
+    "居民感知與現地維護往往需要額外調查"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "遙測植被指數能估計綠量，無法直接代表可進入性或舒適度。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "北美",
+        "library_id": "RIGOLON16",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "量化資料的便利性可能讓品質和權利被忽略。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "並列遙測綠量、場地稽核及居民認知資料。"
+  ],
+  "applies_when_zh": "適用於評估綠地暴露的多源資料方案。",
+  "not_applicable_when_zh": "不適用於將植被指數當成健康效益替代指標。",
+  "debates_zh": "量化資料的便利性可能讓品質和權利被忽略。",
+  "sources": [
+    {
+      "library_id": "RIGOLON16",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "MITCHELL08",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "公園可及性與環境正義",
+  "region": "北美",
+  "curriculum_refs": [
+    {
+      "school": "MIT",
+      "course": "11.330J Theory of City Form",
+      "topic": "健康效益實證"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-GRN-050",
+    "KU-GRN-052"
+  ]
+}

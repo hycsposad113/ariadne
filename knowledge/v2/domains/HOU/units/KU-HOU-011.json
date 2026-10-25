@@ -1,0 +1,107 @@
+{
+  "id": "KU-HOU-011",
+  "domain": "HOU",
+  "subtopic": "荷蘭 woningcorporaties 社會住宅模式",
+  "type": "typology",
+  "title_zh": "荷蘭 woningcorporaties 社會住宅模式｜類型取捨",
+  "title_en": "Dutch social housing associations — Typology and trade-offs",
+  "summary_zh": "荷蘭 woningcorporaties 是具有制度職能的住房供應者，應連同供應主體、租金制度、目標住戶與地方政策理解。 社會租屋研究指出，住房供給本身不會消除貧窮和排除，勞動市場、空間集中及政治參與也會影響處境。 歷史研究不能代替現行資格或租金規則。",
+  "key_points_zh": [
+    "公共、非營利與市場供應比例會改變可負擔性和居住選擇。",
+    "讀「荷蘭 woningcorporaties 社會住宅模式｜類型取捨」時，適用於住宅制度比較和社會住宅設計研究；同時把文章指出大型社會租屋供給並未消除貧窮與排除，空間集中、政治參與與勞動市場都會影響住宅處境列為核對條件。",
+    "限制：本節是制度歷史描述，不提供當前荷蘭資格或租金法律標準。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "文章指出大型社會租屋供給並未消除貧窮與排除，空間集中、政治參與與勞動市場都會影響住宅處境。",
+        "library_id": "HOOIMEIJER1998",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "荷蘭",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "專書把住房置於權力、資產與生活保障的關係中，反對把可負擔性縮成單一市場指標。",
+        "library_id": "MADDEN2016",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "美國與跨國住房政治",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "分開記錄供應者、租金規則、目標對象和地方土地政策。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "在「荷蘭 woningcorporaties 社會住宅模式｜類型取捨」的來源情境裡，分開記錄供應者、租金規則、目標對象和地方土地政策；落到設計時還要按文章指出大型社會租屋供給並未消除貧窮與排除，空間集中、政治參與與勞動市場都會影響住宅處境調整。",
+      "tradeoff_zh": "此選項把「荷蘭 woningcorporaties 社會住宅模式｜類型取捨」的工作放在文章指出大型社會租屋供給並未消除貧窮與排除，空間集中、政治參與與勞動市場都會影響住宅處境上；需要承擔的協調或維護代價則由「制度名稱相同也可能涵蓋不同對象和補助模式」界定。",
+      "library_ids": [
+        "HOOIMEIJER1998",
+        "MADDEN2016"
+      ]
+    },
+    {
+      "option_zh": "在「荷蘭 woningcorporaties 社會住宅模式｜類型取捨」的來源情境裡，公共、非營利與市場供應比例會改變可負擔性和居住選擇；落到設計時還要按文章指出大型社會租屋供給並未消除貧窮與排除，空間集中、政治參與與勞動市場都會影響住宅處境調整。",
+      "tradeoff_zh": "此選項把「荷蘭 woningcorporaties 社會住宅模式｜類型取捨」的工作放在文章指出大型社會租屋供給並未消除貧窮與排除，空間集中、政治參與與勞動市場都會影響住宅處境上；需要承擔的協調或維護代價則由「制度名稱相同也可能涵蓋不同對象和補助模式」界定。",
+      "library_ids": [
+        "HOOIMEIJER1998",
+        "MADDEN2016"
+      ]
+    }
+  ],
+  "applies_when_zh": "適用於住宅制度比較和社會住宅設計研究。",
+  "not_applicable_when_zh": "本節是制度歷史描述，不提供當前荷蘭資格或租金法律標準。",
+  "debates_zh": "制度名稱相同也可能涵蓋不同對象和補助模式。",
+  "sources": [
+    {
+      "library_id": "HOOIMEIJER1998",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "MADDEN2016",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "荷蘭社會住宅與社會排除；住房權與政治經濟批判",
+  "region": "荷蘭；美國與跨國住房政治",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "荷蘭 woningcorporaties 社會住宅模式"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "荷蘭 woningcorporaties 社會住宅模式"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "荷蘭 woningcorporaties 社會住宅模式"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "荷蘭 woningcorporaties 社會住宅模式"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-HOU-010",
+    "KU-HOU-012",
+    "KU-HOU-013"
+  ],
+  "counter_unit_ids": [
+    "KU-HOU-014"
+  ]
+}

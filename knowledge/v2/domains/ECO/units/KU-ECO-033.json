@@ -1,0 +1,70 @@
+{
+  "id": "KU-ECO-033",
+  "domain": "ECO",
+  "subtopic": "物種友善設計",
+  "type": "value_range",
+  "title_zh": "全球城市生物多樣性樣本數",
+  "title_en": "Global city biodiversity sample coverage",
+  "summary_zh": "城市鳥類比較資料涵蓋五十四座城市，植物則涵蓋一百一十座。兩類資料的城市數不同，不能直接將植物和鳥類比例視為同一樣本比較。資料包含多種監測方案和城市條件。樣本覆蓋不均會影響跨分類群綜合。",
+  "key_points_zh": [
+    "城市鳥類比較資料涵蓋五十四座城市，植物則涵蓋一百一十座",
+    "兩類資料的城市數不同，不能直接將植物和鳥類比例視為同一樣本比較"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "城市鳥類比較資料涵蓋五十四座城市，植物則涵蓋一百一十座。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "美國",
+        "library_id": "WHYTE80",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "樣本覆蓋不均會影響跨分類群綜合。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "報告全球統計時分開列明各分類群的樣本覆蓋。"
+  ],
+  "applies_when_zh": "適用於解讀城市生物多樣性統合結果。",
+  "not_applicable_when_zh": "不適用於推估未納入城市的精確物種數。",
+  "debates_zh": "樣本覆蓋不均會影響跨分類群綜合。",
+  "sources": [
+    {
+      "library_id": "WHYTE80",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "ARONSON14",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "公共生活觀察",
+  "region": "美國",
+  "curriculum_refs": [
+    {
+      "school": "UCL Bartlett",
+      "course": "Critical Debates in Urban Design",
+      "topic": "物種友善設計"
+    }
+  ],
+  "version": "2.0.0",
+  "values": [
+    {
+      "name": "全球城市生物多樣性樣本數",
+      "range": "鳥類 54 座；植物 110 座",
+      "unit": "城市數",
+      "context": "全球跨城資料集各自的覆蓋範圍；描述研究樣本，不作設計參數。；「全球城市生物多樣性樣本數」僅供其研究脈絡內比較，不構成本基地法規。",
+      "library_id": "ARONSON14"
+    }
+  ],
+  "related_unit_ids": [
+    "KU-ECO-032",
+    "KU-ECO-034"
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "KU-HAR-029",
+  "domain": "HAR",
+  "subtopic": "分期開發",
+  "type": "method",
+  "title_zh": "分期策略應保留可調整的後續選項",
+  "title_en": "Phasing Should Preserve Options for Later Decisions",
+  "summary_zh": "港區長期更新把土地市場、污染處理、港務調度和公共投資放在同一條時間線上，前期承諾因此可能鎖定尚未成熟的用途。動態調適路徑研究以階段性決策處理不確定條件；再利用評估研究則提供建築層級的機會篩選。這套思路可用來設計檢核點，但不會自動回答何時開發或保留。 ",
+  "key_points_zh": [
+    "每一期要寫出啟動條件、暫停條件與可逆的臨時使用。",
+    "將建築、基礎設施與公共空間的決策期限分開排程。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "動態調適路徑方法以多階段選項回應深度不確定性；其原始應用不等同港區開發成效研究。",
+        "effect_or_value": "提供階段選項與觸發條件的規劃方法，沒有可套用的固定年期",
+        "study_design": "方法研究與案例應用",
+        "context_region": "跨地域；原研究聚焦深度不確定的規劃決策",
+        "library_id": "HAASNOOT2013",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "建築再利用決策研究將初期評估和後續策略選擇分開，支持逐階段篩選而不是先假定最終用途。",
+        "effect_or_value": "決策框架，未提供普遍適用的期程",
+        "study_design": "適應性再利用策略評估",
+        "context_region": "建築再利用",
+        "library_id": "BULLEN2011",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "每個階段標明需要的污染、結構、權屬和市場證據。",
+    "把臨時用途的退出條件寫進管理安排，避免過渡被當成永久承諾。"
+  ],
+  "applies_when_zh": "更新期間跨越多個市場週期，或污染、港務和基礎設施時程尚未確定時。",
+  "not_applicable_when_zh": "土地交付和工程條件已確定、且項目本身是一次性建築介入時。",
+  "debates_zh": "保留彈性會增加管理成本，也可能成為延宕公共設施的藉口；階段選項需配合公開的里程碑和責任人。",
+  "sources": [
+    {
+      "library_id": "HAASNOOT2013",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "BULLEN2011",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "動態調適規劃／適應性再利用評估",
+  "region": "跨地域",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": null,
+      "topic": "Phasing and adaptive pathways"
+    }
+  ],
+  "version": "v2.0"
+}

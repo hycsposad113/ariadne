@@ -1,0 +1,42 @@
+{
+  "id": "COPENHAGEN_PLAN2024",
+  "title": "Ny kommuneplan vedtaget: Københavnerne får en grønnere by",
+  "authors": [
+    "Københavns Kommune"
+  ],
+  "year": 2024,
+  "venue_or_publisher": "Københavns Kommune",
+  "doi": null,
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "OFFICIAL_GOVERNMENT_PLAN",
+  "tradition": "官方城市規劃與專案資料",
+  "region": "丹麥哥本哈根",
+  "method": "直接核對官方公開頁面或政府報告；非學術成效研究",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "市府計畫預留Nordhavn供約40,000名新居民發展，並提出公共綠地與後續街區連接的規劃。",
+      "strength": "CASE_EVIDENCE",
+      "scope_zh": "僅支持頁面明確公布的規劃口徑、歷史日期或行政資料，不將目標寫成實現成果。",
+      "assessment_basis": "DIRECT_SOURCE_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Official organization webpage",
+    "query": {
+      "title": "Ny kommuneplan vedtaget: Københavnerne får en grønnere by",
+      "author": "Københavns Kommune",
+      "year": 2024,
+      "api_query": "Read-only official source page: https://www.kk.dk/nyheder/ny-kommuneplan-vedtaget-koebenhavnerne-faar-en-groennere-by"
+    },
+    "matched_record_id": "https://www.kk.dk/nyheder/ny-kommuneplan-vedtaget-koebenhavnerne-faar-en-groennere-by",
+    "checked_at_utc": "2026-10-08T14:10:33Z",
+    "match_notes_zh": "直接核對官方網站或政府報告；網站頁面不是Crossref書目記錄，未宣稱經Crossref驗證。"
+  },
+  "limitations_zh": "官方頁面可能呈現規劃者或管理者口徑；研究成效及獨立社會評估需另尋學術來源。",
+  "critique_relationship_zh": "本記錄不宣稱與其他來源存在直接互引或逐一反駁關係。",
+  "metadata_licence_zh": "官方公開頁面；未確認個別資料集的再利用授權。"
+}

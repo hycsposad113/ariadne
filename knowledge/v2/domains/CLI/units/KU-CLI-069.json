@@ -1,0 +1,74 @@
+{
+  "id": "KU-CLI-069",
+  "domain": "CLI",
+  "subtopic": "材料與反照率",
+  "type": "design_principle",
+  "title_zh": "在行人層把遮蔭和高反射材料一起測試",
+  "title_en": "在行人層把遮蔭和高反射材料一起測試",
+  "summary_zh": "高反射材料可能減少表面吸熱，但若缺乏樹蔭，行人仍會承受直射短波和反射輻射。屋頂技術回顧和新加坡街道研究分別從材料與人體環境切入。方案應比較遮蔭、材質和通風的組合，而不是單獨推廣淺色表面。",
+  "key_points_zh": [
+    "遮蔭改變直接暴露，材料改變能量分配。",
+    "兩者效果會隨太陽方位和街道朝向改變。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "library_id": "ARMSON2012",
+        "claim_zh": "書目確認本文題名聚焦「The effect of tree shade and grass on surface and globe temperatures in an urban area」；目前只完成作者、年份、題名與 DOI 核對，未將摘要或全文結論納入此記錄；本單元 KU-CLI-069 對照「高反射材料可能減少表面吸熱，但若缺乏樹蔭，行人仍會承受直射短波和反射輻射」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "案例或場地研究；目前僅核對書目範圍",
+        "context_region": "英國都市",
+        "locator": null
+      },
+      {
+        "library_id": "NORTON2015",
+        "claim_zh": "書目確認本文題名聚焦「Planning for cooler cities: A framework to prioritise green infrastructure to mitigate high temperatures in urban landscapes」；目前只完成作者、年份、題名與 DOI 核對，未將摘要或全文結論納入此記錄；本單元 KU-CLI-069 對照「高反射材料可能減少表面吸熱，但若缺乏樹蔭，行人仍會承受直射短波和反射輻射」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "方法或概念研究；目前僅核對書目範圍",
+        "context_region": "澳洲",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "以行人高度輻射測量比較材質組合。",
+    "將樹木、棚架和鋪面作為一個設計系統。"
+  ],
+  "applies_when_zh": "適用於熱浪期間的街道整體改造。",
+  "not_applicable_when_zh": "不適用於只依材料反射率推斷人體熱舒適。",
+  "debates_zh": "高反射表面可能讓立面或行人吸收更多反射能量。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "ARMSON2012",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "NORTON2015",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "街道材料與遮蔭設計",
+  "region": "跨地域城市；Singapore",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "材料與反照率"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": null,
+      "topic": "材料與反照率"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0"
+}

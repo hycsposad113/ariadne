@@ -1,0 +1,61 @@
+{
+  "id": "KU-PUB-045",
+  "domain": "PUB",
+  "subtopic": "公共空間私有化與管理",
+  "type": "empirical_finding",
+  "title_zh": "環境正義可能被綠色開發吸收",
+  "title_en": "Environmental justice can be co-opted",
+  "summary_zh": "Harlem 民族誌追蹤環境正義語言如何進入高端永續開發。研究個案顯示在土地獲利壓力下，環境公平訴求可能被置於次位。民族誌能揭示政治過程，但不估計每座城市都會出現相同結果的機率。公平承諾若缺少土地和租住保障，可能成為行銷語彙。",
+  "key_points_zh": [
+    "Harlem 民族誌追蹤環境正義語言如何進入高端永續開發",
+    "研究個案顯示在土地獲利壓力下，環境公平訴求可能被置於次位"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "Harlem 民族誌追蹤環境正義語言如何進入高端永續開發。",
+        "effect_or_value": "個案記錄環境正義論述被高端永續開發吸納；效果是情境性的政治觀察。",
+        "study_design": "民族誌與政治過程個案",
+        "context_region": "美國紐約 Harlem",
+        "library_id": "CHECKER11",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW",
+        "limitations_zh": "單一社區深描不提供跨城市因果或效應量。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "在公共空間開發評估中並列租戶變動、土地價值與原居民參與。"
+  ],
+  "applies_when_zh": "適用於大型更新方案將綠化與投資品牌綁定時。",
+  "not_applicable_when_zh": "不適合把單一 Harlem 個案當成其他地區必然仕紳化的證明。",
+  "debates_zh": "公平承諾若缺少土地和租住保障，可能成為行銷語彙。",
+  "sources": [
+    {
+      "library_id": "CHECKER11",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "HEYNEN06",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "環境仕紳化與都市政治",
+  "region": "美國紐約 Harlem",
+  "curriculum_refs": [
+    {
+      "school": "UCL Bartlett",
+      "course": "Critical Debates in Urban Design",
+      "topic": "公共空間私有化與管理"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-PUB-044",
+    "KU-PUB-046"
+  ]
+}

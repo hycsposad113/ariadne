@@ -1,0 +1,74 @@
+{
+  "id": "KU-CLI-015",
+  "domain": "CLI",
+  "subtopic": "街谷高寬比（H/W）",
+  "type": "design_principle",
+  "title_zh": "遮蔭、採光和通風要分項比較",
+  "title_en": "遮蔭、採光和通風要分項比較",
+  "summary_zh": "較深的街谷可能增加部分時段遮蔭，同時改變天空開敞和空氣交換。Oke 的理論將輻射收支、街道幾何與風場放在同一物理系統；高密度設計研究也指出熱環境不是單一幾何指標。方案比較應分別呈現熱暴露、日照需求和污染物稀釋。",
+  "key_points_zh": [
+    "遮蔭收益可能伴隨通風或冬季日照代價。",
+    "不同使用時段對陽光和遮蔭的需求不同。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "library_id": "ALITOUDERT2006",
+        "claim_zh": "書目確認文章以數值研究考察街谷高寬比與朝向；未取得摘要中的參數範圍，故不產生可直接套用的 H/W 數值；本單元 KU-CLI-015 對照「較深的街谷可能增加部分時段遮蔭，同時改變天空開敞和空氣交換」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "數值研究",
+        "context_region": "炎熱乾燥氣候",
+        "locator": null
+      },
+      {
+        "library_id": "JOHANSSON2006",
+        "claim_zh": "題名確認研究以 Fez 炎熱乾燥氣候檢視都市幾何與戶外熱舒適；結果方向及數值尚未從摘要核對；本單元 KU-CLI-015 對照「較深的街谷可能增加部分時段遮蔭，同時改變天空開敞和空氣交換」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "個案研究",
+        "context_region": "Fez, Morocco",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "為夏季行人、冬季採光和夜間散熱設定不同指標。",
+    "以模型找出使用功能與氣候需求衝突的位置。"
+  ],
+  "applies_when_zh": "適用於多目標街道和街廓設計。",
+  "not_applicable_when_zh": "不適用於以單一幾何值排序所有街道。",
+  "debates_zh": "用單一「氣候友善」分數合併效益，會隱藏重要取捨。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "ALITOUDERT2006",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "JOHANSSON2006",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "高密度城市微氣候設計",
+  "region": "跨氣候帶；香港與亞洲",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "街谷高寬比（H/W）"
+    },
+    {
+      "school": "MIT",
+      "course": "Theory of City Form",
+      "topic": "街谷高寬比（H/W）"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0"
+}

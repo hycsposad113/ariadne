@@ -1,0 +1,787 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-10-17T02:01:47.269904+00:00",
+  "task": "E1 逐案日照：四個紋理方案的開放空間日照時數",
+  "fixture_tag": "EXPLORATORY_ANALYSIS_NOT_FORMAL_DECISION",
+  "engine": {
+    "engine_name": "ladybug-sunpath+ladybug-radiance",
+    "radiance_version": "6.0.2",
+    "radiance_verified": true,
+    "rtrace_executable": "/Users/jackhsieh/.local/share/urban-design-runtimes/radiance-6.0.2-arm64/bin/rtrace"
+  },
+  "parameters": {
+    "grid_spacing_m": 5.0,
+    "sensor_elevation_m": 0.5,
+    "surface_offset_m": 0.05,
+    "analysis_dates": [
+      "2026-03-21",
+      "2026-06-21",
+      "2026-12-21"
+    ],
+    "daily_time_window": "08:00-18:00",
+    "sampling_timestep_per_hour": 4,
+    "sampling_interval_minutes": 15,
+    "location": {
+      "name": "Rotterdam M4H StudyArea v5",
+      "latitude": 51.907921,
+      "longitude": 4.43054,
+      "timezone": "Europe/Amsterdam"
+    },
+    "true_north_grid_convergence_deg": -0.754542,
+    "context_buffer_m": 300.0,
+    "context_height_assumptions": "以 ~/.local/share/urban-design-data/context/context-20260927T153054Z/buildings.geojson 為遮擋來源；有 height_m 欄位即直接採用；無高度欄位之建築採用荷蘭標準低中層脈絡高度假設 12.0 m（參考周邊已知建築中位數 11.5 m）。"
+  },
+  "sources": {
+    "fabrics": {
+      "harbour_grain": {
+        "path": "artifacts/fab1/run-8/harbour_grain-plan.json",
+        "sha256": "88445febe1b657019b9e52d024de978bd628672e244423d1b07480ebfede06dd"
+      },
+      "closed_block_extension": {
+        "path": "artifacts/fab1/run-8/closed_block_extension-plan.json",
+        "sha256": "f3eaef98a328f48f846b480bdf1452867bb0e58d3d63f8043e0abed663960bae"
+      },
+      "courtyard_islands": {
+        "path": "artifacts/fab1/run-8/courtyard_islands-plan.json",
+        "sha256": "e3db0311c26a49d627e2343eef40603589b2cb65beec99222d06ec168971812b"
+      },
+      "landscape_figure": {
+        "path": "artifacts/fab1/run-8/landscape_figure-plan.json",
+        "sha256": "397fcbcb53acb84cfaa4a41601a2fd9e5e48c161aa983d38ee866f533894830d"
+      }
+    },
+    "context_buildings": {
+      "path": "/Users/jackhsieh/.local/share/urban-design-data/context/context-20260927T153054Z/buildings.geojson",
+      "sha256": "3d4ac0cea51bed38caa149d04fb8326fa775b6228819190866ce51805764e099",
+      "buffer_m": 300.0,
+      "total_context_obstacles": 390,
+      "known_height_obstacles": 212,
+      "assumed_height_obstacles": 178,
+      "assumed_height_value_m": 12.0
+    }
+  },
+  "fabric_summaries": {
+    "harbour_grain": {
+      "fabric_id": "harbour_grain",
+      "fabric_name_zh": "港埠線性紋理",
+      "plan_path": "artifacts/fab1/run-8/harbour_grain-plan.json",
+      "plan_sha256": "88445febe1b657019b9e52d024de978bd628672e244423d1b07480ebfede06dd",
+      "building_obstacles_count": 258,
+      "sensor_points_count": 5316,
+      "simulation_duration_s": 564.91,
+      "total_execution_duration_s": 573.37,
+      "daily_metrics": {
+        "2026-03-21": {
+          "blocks": {
+            "point_count": 1400,
+            "area_m2": 35000.0,
+            "mean_hours": 5.929,
+            "pct_ge_2h": 92.21,
+            "pct_ge_4h": 73.21
+          },
+          "all": {
+            "point_count": 5316,
+            "area_m2": 132900.0,
+            "mean_hours": 6.303,
+            "pct_ge_2h": 93.0,
+            "pct_ge_4h": 75.64
+          },
+          "roads": {
+            "point_count": 1560,
+            "area_m2": 39000.0,
+            "mean_hours": 5.743,
+            "pct_ge_2h": 92.5,
+            "pct_ge_4h": 69.62
+          },
+          "waterfront": {
+            "point_count": 715,
+            "area_m2": 17875.0,
+            "mean_hours": 7.291,
+            "pct_ge_2h": 94.69,
+            "pct_ge_4h": 85.45
+          },
+          "courtyards": {
+            "point_count": 780,
+            "area_m2": 19500.0,
+            "mean_hours": 4.327,
+            "pct_ge_2h": 86.15,
+            "pct_ge_4h": 56.28
+          },
+          "service": {
+            "point_count": 95,
+            "area_m2": 2375.0,
+            "mean_hours": 7.605,
+            "pct_ge_2h": 100.0,
+            "pct_ge_4h": 100.0
+          },
+          "parks": {
+            "point_count": 766,
+            "area_m2": 19150.0,
+            "mean_hours": 9.06,
+            "pct_ge_2h": 100.0,
+            "pct_ge_4h": 99.87
+          }
+        },
+        "2026-06-21": {
+          "blocks": {
+            "point_count": 1400,
+            "area_m2": 35000.0,
+            "mean_hours": 7.781,
+            "pct_ge_2h": 98.79,
+            "pct_ge_4h": 87.43
+          },
+          "all": {
+            "point_count": 5316,
+            "area_m2": 132900.0,
+            "mean_hours": 8.027,
+            "pct_ge_2h": 98.59,
+            "pct_ge_4h": 87.9
+          },
+          "roads": {
+            "point_count": 1560,
+            "area_m2": 39000.0,
+            "mean_hours": 7.382,
+            "pct_ge_2h": 97.69,
+            "pct_ge_4h": 81.67
+          },
+          "waterfront": {
+            "point_count": 715,
+            "area_m2": 17875.0,
+            "mean_hours": 8.492,
+            "pct_ge_2h": 98.88,
+            "pct_ge_4h": 93.29
+          },
+          "courtyards": {
+            "point_count": 780,
+            "area_m2": 19500.0,
+            "mean_hours": 7.3,
+            "pct_ge_2h": 98.21,
+            "pct_ge_4h": 82.95
+          },
+          "service": {
+            "point_count": 95,
+            "area_m2": 2375.0,
+            "mean_hours": 9.542,
+            "pct_ge_2h": 100.0,
+            "pct_ge_4h": 100.0
+          },
+          "parks": {
+            "point_count": 766,
+            "area_m2": 19150.0,
+            "mean_hours": 9.912,
+            "pct_ge_2h": 100.0,
+            "pct_ge_4h": 100.0
+          }
+        },
+        "2026-12-21": {
+          "blocks": {
+            "point_count": 1400,
+            "area_m2": 35000.0,
+            "mean_hours": 2.061,
+            "pct_ge_2h": 37.64,
+            "pct_ge_4h": 25.29
+          },
+          "all": {
+            "point_count": 5316,
+            "area_m2": 132900.0,
+            "mean_hours": 2.155,
+            "pct_ge_2h": 39.41,
+            "pct_ge_4h": 28.61
+          },
+          "roads": {
+            "point_count": 1560,
+            "area_m2": 39000.0,
+            "mean_hours": 1.792,
+            "pct_ge_2h": 31.79,
+            "pct_ge_4h": 21.73
+          },
+          "waterfront": {
+            "point_count": 715,
+            "area_m2": 17875.0,
+            "mean_hours": 3.415,
+            "pct_ge_2h": 55.66,
+            "pct_ge_4h": 47.97
+          },
+          "courtyards": {
+            "point_count": 780,
+            "area_m2": 19500.0,
+            "mean_hours": 0.108,
+            "pct_ge_2h": 1.03,
+            "pct_ge_4h": 0.0
+          },
+          "service": {
+            "point_count": 95,
+            "area_m2": 2375.0,
+            "mean_hours": 1.303,
+            "pct_ge_2h": 31.58,
+            "pct_ge_4h": 9.47
+          },
+          "parks": {
+            "point_count": 766,
+            "area_m2": 19150.0,
+            "mean_hours": 4.082,
+            "pct_ge_2h": 83.03,
+            "pct_ge_4h": 62.14
+          }
+        }
+      }
+    },
+    "closed_block_extension": {
+      "fabric_id": "closed_block_extension",
+      "fabric_name_zh": "圍合街廓延伸",
+      "plan_path": "artifacts/fab1/run-8/closed_block_extension-plan.json",
+      "plan_sha256": "f3eaef98a328f48f846b480bdf1452867bb0e58d3d63f8043e0abed663960bae",
+      "building_obstacles_count": 173,
+      "sensor_points_count": 5709,
+      "simulation_duration_s": 589.51,
+      "total_execution_duration_s": 597.0,
+      "daily_metrics": {
+        "2026-03-21": {
+          "service": {
+            "point_count": 342,
+            "area_m2": 8550.0,
+            "mean_hours": 8.586,
+            "pct_ge_2h": 99.12,
+            "pct_ge_4h": 99.12
+          },
+          "all": {
+            "point_count": 5709,
+            "area_m2": 142725.0,
+            "mean_hours": 6.741,
+            "pct_ge_2h": 92.73,
+            "pct_ge_4h": 78.19
+          },
+          "roads": {
+            "point_count": 1585,
+            "area_m2": 39625.0,
+            "mean_hours": 6.444,
+            "pct_ge_2h": 94.83,
+            "pct_ge_4h": 74.13
+          },
+          "blocks": {
+            "point_count": 1675,
+            "area_m2": 41875.0,
+            "mean_hours": 5.988,
+            "pct_ge_2h": 90.03,
+            "pct_ge_4h": 71.82
+          },
+          "courtyards": {
+            "point_count": 440,
+            "area_m2": 11000.0,
+            "mean_hours": 3.217,
+            "pct_ge_2h": 68.86,
+            "pct_ge_4h": 40.91
+          },
+          "waterfront": {
+            "point_count": 715,
+            "area_m2": 17875.0,
+            "mean_hours": 7.224,
+            "pct_ge_2h": 96.36,
+            "pct_ge_4h": 86.01
+          },
+          "parks": {
+            "point_count": 952,
+            "area_m2": 23800.0,
+            "mean_hours": 9.163,
+            "pct_ge_2h": 100.0,
+            "pct_ge_4h": 100.0
+          }
+        },
+        "2026-06-21": {
+          "service": {
+            "point_count": 342,
+            "area_m2": 8550.0,
+            "mean_hours": 9.705,
+            "pct_ge_2h": 99.42,
+            "pct_ge_4h": 99.12
+          },
+          "all": {
+            "point_count": 5709,
+            "area_m2": 142725.0,
+            "mean_hours": 8.207,
+            "pct_ge_2h": 98.56,
+            "pct_ge_4h": 89.61
+          },
+          "roads": {
+            "point_count": 1585,
+            "area_m2": 39625.0,
+            "mean_hours": 7.777,
+            "pct_ge_2h": 99.31,
+            "pct_ge_4h": 84.86
+          },
+          "blocks": {
+            "point_count": 1675,
+            "area_m2": 41875.0,
+            "mean_hours": 7.546,
+            "pct_ge_2h": 97.19,
+            "pct_ge_4h": 84.54
+          },
+          "courtyards": {
+            "point_count": 440,
+            "area_m2": 11000.0,
+            "mean_hours": 7.049,
+            "pct_ge_2h": 97.05,
+            "pct_ge_4h": 87.73
+          },
+          "waterfront": {
+            "point_count": 715,
+            "area_m2": 17875.0,
+            "mean_hours": 8.558,
+            "pct_ge_2h": 98.74,
+            "pct_ge_4h": 94.83
+          },
+          "parks": {
+            "point_count": 952,
+            "area_m2": 23800.0,
+            "mean_hours": 9.817,
+            "pct_ge_2h": 100.0,
+            "pct_ge_4h": 100.0
+          }
+        },
+        "2026-12-21": {
+          "service": {
+            "point_count": 342,
+            "area_m2": 8550.0,
+            "mean_hours": 3.498,
+            "pct_ge_2h": 58.48,
+            "pct_ge_4h": 49.12
+          },
+          "all": {
+            "point_count": 5709,
+            "area_m2": 142725.0,
+            "mean_hours": 2.795,
+            "pct_ge_2h": 51.46,
+            "pct_ge_4h": 39.24
+          },
+          "roads": {
+            "point_count": 1585,
+            "area_m2": 39625.0,
+            "mean_hours": 2.539,
+            "pct_ge_2h": 47.0,
+            "pct_ge_4h": 32.3
+          },
+          "blocks": {
+            "point_count": 1675,
+            "area_m2": 41875.0,
+            "mean_hours": 2.405,
+            "pct_ge_2h": 45.85,
+            "pct_ge_4h": 31.7
+          },
+          "courtyards": {
+            "point_count": 440,
+            "area_m2": 11000.0,
+            "mean_hours": 0.181,
+            "pct_ge_2h": 0.91,
+            "pct_ge_4h": 0.0
+          },
+          "waterfront": {
+            "point_count": 715,
+            "area_m2": 17875.0,
+            "mean_hours": 3.36,
+            "pct_ge_2h": 55.8,
+            "pct_ge_4h": 47.97
+          },
+          "parks": {
+            "point_count": 952,
+            "area_m2": 23800.0,
+            "mean_hours": 4.439,
+            "pct_ge_2h": 86.34,
+            "pct_ge_4h": 72.06
+          }
+        }
+      }
+    },
+    "courtyard_islands": {
+      "fabric_id": "courtyard_islands",
+      "fabric_name_zh": "大型院落島",
+      "plan_path": "artifacts/fab1/run-8/courtyard_islands-plan.json",
+      "plan_sha256": "e3db0311c26a49d627e2343eef40603589b2cb65beec99222d06ec168971812b",
+      "building_obstacles_count": 88,
+      "sensor_points_count": 5492,
+      "simulation_duration_s": 530.47,
+      "total_execution_duration_s": 536.81,
+      "daily_metrics": {
+        "2026-03-21": {
+          "blocks": {
+            "point_count": 2350,
+            "area_m2": 58750.0,
+            "mean_hours": 6.058,
+            "pct_ge_2h": 92.94,
+            "pct_ge_4h": 72.04
+          },
+          "all": {
+            "point_count": 5492,
+            "area_m2": 137300.0,
+            "mean_hours": 6.492,
+            "pct_ge_2h": 95.17,
+            "pct_ge_4h": 78.5
+          },
+          "roads": {
+            "point_count": 1430,
+            "area_m2": 35750.0,
+            "mean_hours": 6.512,
+            "pct_ge_2h": 97.62,
+            "pct_ge_4h": 77.13
+          },
+          "waterfront": {
+            "point_count": 715,
+            "area_m2": 17875.0,
+            "mean_hours": 7.259,
+            "pct_ge_2h": 96.36,
+            "pct_ge_4h": 86.01
+          },
+          "parks": {
+            "point_count": 429,
+            "area_m2": 10725.0,
+            "mean_hours": 7.883,
+            "pct_ge_2h": 100.0,
+            "pct_ge_4h": 98.83
+          },
+          "service": {
+            "point_count": 197,
+            "area_m2": 4925.0,
+            "mean_hours": 8.098,
+            "pct_ge_2h": 100.0,
+            "pct_ge_4h": 100.0
+          },
+          "courtyards": {
+            "point_count": 371,
+            "area_m2": 9275.0,
+            "mean_hours": 5.216,
+            "pct_ge_2h": 89.49,
+            "pct_ge_4h": 75.2
+          }
+        },
+        "2026-06-21": {
+          "blocks": {
+            "point_count": 2350,
+            "area_m2": 58750.0,
+            "mean_hours": 7.67,
+            "pct_ge_2h": 98.6,
+            "pct_ge_4h": 86.81
+          },
+          "all": {
+            "point_count": 5492,
+            "area_m2": 137300.0,
+            "mean_hours": 8.141,
+            "pct_ge_2h": 99.18,
+            "pct_ge_4h": 90.82
+          },
+          "roads": {
+            "point_count": 1430,
+            "area_m2": 35750.0,
+            "mean_hours": 7.948,
+            "pct_ge_2h": 100.0,
+            "pct_ge_4h": 89.51
+          },
+          "waterfront": {
+            "point_count": 715,
+            "area_m2": 17875.0,
+            "mean_hours": 8.552,
+            "pct_ge_2h": 98.74,
+            "pct_ge_4h": 94.83
+          },
+          "parks": {
+            "point_count": 429,
+            "area_m2": 10725.0,
+            "mean_hours": 9.722,
+            "pct_ge_2h": 100.0,
+            "pct_ge_4h": 100.0
+          },
+          "service": {
+            "point_count": 197,
+            "area_m2": 4925.0,
+            "mean_hours": 9.509,
+            "pct_ge_2h": 100.0,
+            "pct_ge_4h": 100.0
+          },
+          "courtyards": {
+            "point_count": 371,
+            "area_m2": 9275.0,
+            "mean_hours": 8.521,
+            "pct_ge_2h": 99.19,
+            "pct_ge_4h": 98.11
+          }
+        },
+        "2026-12-21": {
+          "blocks": {
+            "point_count": 2350,
+            "area_m2": 58750.0,
+            "mean_hours": 2.386,
+            "pct_ge_2h": 47.23,
+            "pct_ge_4h": 28.26
+          },
+          "all": {
+            "point_count": 5492,
+            "area_m2": 137300.0,
+            "mean_hours": 2.14,
+            "pct_ge_2h": 42.48,
+            "pct_ge_4h": 24.73
+          },
+          "roads": {
+            "point_count": 1430,
+            "area_m2": 35750.0,
+            "mean_hours": 1.81,
+            "pct_ge_2h": 40.91,
+            "pct_ge_4h": 18.67
+          },
+          "waterfront": {
+            "point_count": 715,
+            "area_m2": 17875.0,
+            "mean_hours": 3.338,
+            "pct_ge_2h": 55.38,
+            "pct_ge_4h": 47.97
+          },
+          "parks": {
+            "point_count": 429,
+            "area_m2": 10725.0,
+            "mean_hours": 1.377,
+            "pct_ge_2h": 30.77,
+            "pct_ge_4h": 5.59
+          },
+          "service": {
+            "point_count": 197,
+            "area_m2": 4925.0,
+            "mean_hours": 2.591,
+            "pct_ge_2h": 54.82,
+            "pct_ge_4h": 30.46
+          },
+          "courtyards": {
+            "point_count": 371,
+            "area_m2": 9275.0,
+            "mean_hours": 0.183,
+            "pct_ge_2h": 0.54,
+            "pct_ge_4h": 0.0
+          }
+        }
+      }
+    },
+    "landscape_figure": {
+      "fabric_id": "landscape_figure",
+      "fabric_name_zh": "地景為圖",
+      "plan_path": "artifacts/fab1/run-8/landscape_figure-plan.json",
+      "plan_sha256": "397fcbcb53acb84cfaa4a41601a2fd9e5e48c161aa983d38ee866f533894830d",
+      "building_obstacles_count": 56,
+      "sensor_points_count": 5797,
+      "simulation_duration_s": 542.01,
+      "total_execution_duration_s": 547.74,
+      "daily_metrics": {
+        "2026-03-21": {
+          "blocks": {
+            "point_count": 1725,
+            "area_m2": 43125.0,
+            "mean_hours": 5.417,
+            "pct_ge_2h": 85.1,
+            "pct_ge_4h": 62.67
+          },
+          "all": {
+            "point_count": 5797,
+            "area_m2": 144925.0,
+            "mean_hours": 7.216,
+            "pct_ge_2h": 93.82,
+            "pct_ge_4h": 81.59
+          },
+          "roads": {
+            "point_count": 1545,
+            "area_m2": 38625.0,
+            "mean_hours": 6.758,
+            "pct_ge_2h": 95.99,
+            "pct_ge_4h": 79.94
+          },
+          "parks": {
+            "point_count": 1721,
+            "area_m2": 43025.0,
+            "mean_hours": 9.33,
+            "pct_ge_2h": 100.0,
+            "pct_ge_4h": 100.0
+          },
+          "waterfront": {
+            "point_count": 715,
+            "area_m2": 17875.0,
+            "mean_hours": 7.286,
+            "pct_ge_2h": 94.97,
+            "pct_ge_4h": 84.62
+          },
+          "service": {
+            "point_count": 91,
+            "area_m2": 2275.0,
+            "mean_hours": 8.569,
+            "pct_ge_2h": 96.7,
+            "pct_ge_4h": 96.7
+          }
+        },
+        "2026-06-21": {
+          "blocks": {
+            "point_count": 1725,
+            "area_m2": 43125.0,
+            "mean_hours": 7.113,
+            "pct_ge_2h": 95.25,
+            "pct_ge_4h": 80.17
+          },
+          "all": {
+            "point_count": 5797,
+            "area_m2": 144925.0,
+            "mean_hours": 8.439,
+            "pct_ge_2h": 98.36,
+            "pct_ge_4h": 91.01
+          },
+          "roads": {
+            "point_count": 1545,
+            "area_m2": 38625.0,
+            "mean_hours": 8.267,
+            "pct_ge_2h": 99.87,
+            "pct_ge_4h": 92.17
+          },
+          "parks": {
+            "point_count": 1721,
+            "area_m2": 43025.0,
+            "mean_hours": 9.922,
+            "pct_ge_2h": 100.0,
+            "pct_ge_4h": 100.0
+          },
+          "waterfront": {
+            "point_count": 715,
+            "area_m2": 17875.0,
+            "mean_hours": 8.342,
+            "pct_ge_2h": 98.74,
+            "pct_ge_4h": 92.31
+          },
+          "service": {
+            "point_count": 91,
+            "area_m2": 2275.0,
+            "mean_hours": 9.173,
+            "pct_ge_2h": 97.8,
+            "pct_ge_4h": 96.7
+          }
+        },
+        "2026-12-21": {
+          "blocks": {
+            "point_count": 1725,
+            "area_m2": 43125.0,
+            "mean_hours": 2.199,
+            "pct_ge_2h": 41.57,
+            "pct_ge_4h": 28.17
+          },
+          "all": {
+            "point_count": 5797,
+            "area_m2": 144925.0,
+            "mean_hours": 3.218,
+            "pct_ge_2h": 58.63,
+            "pct_ge_4h": 46.82
+          },
+          "roads": {
+            "point_count": 1545,
+            "area_m2": 38625.0,
+            "mean_hours": 2.302,
+            "pct_ge_2h": 43.75,
+            "pct_ge_4h": 29.06
+          },
+          "parks": {
+            "point_count": 1721,
+            "area_m2": 43025.0,
+            "mean_hours": 5.095,
+            "pct_ge_2h": 90.35,
+            "pct_ge_4h": 81.58
+          },
+          "waterfront": {
+            "point_count": 715,
+            "area_m2": 17875.0,
+            "mean_hours": 3.008,
+            "pct_ge_2h": 53.01,
+            "pct_ge_4h": 43.92
+          },
+          "service": {
+            "point_count": 91,
+            "area_m2": 2275.0,
+            "mean_hours": 4.234,
+            "pct_ge_2h": 79.12,
+            "pct_ge_4h": 67.03
+          }
+        }
+      }
+    }
+  },
+  "total_runtime_seconds": 2255.3,
+  "output_artifacts": {
+    "comparison_table.csv": {
+      "path": "artifacts/w8/e1-fabric/comparison_table.csv",
+      "sha256": "00fbf8f566c3b1f4d4a588a8828975727069a8b1d15e0c7edf1eaa569cd97ee5",
+      "size_bytes": 3075
+    },
+    "comparison_table.json": {
+      "path": "artifacts/w8/e1-fabric/comparison_table.json",
+      "sha256": "24b0e29daece65adbd9095566bc695c0b117bd2da8e197b92d5ae5782aa92ac9",
+      "size_bytes": 9979
+    },
+    "comparison_table.md": {
+      "path": "artifacts/w8/e1-fabric/comparison_table.md",
+      "sha256": "1764617f7cc5a38bed75cff29e81e0738cd5afce2c4f881eda7dc593a2efd89f",
+      "size_bytes": 3696
+    },
+    "harbour_grain-20260321-sunlight-zh.png": {
+      "path": "artifacts/w8/e1-fabric/harbour_grain-20260321-sunlight-zh.png",
+      "sha256": "5cc1b7f884241579a238751ee892c6c98dc30443155d130c5d5369c9b1797c94",
+      "size_bytes": 478619
+    },
+    "harbour_grain-20260621-sunlight-zh.png": {
+      "path": "artifacts/w8/e1-fabric/harbour_grain-20260621-sunlight-zh.png",
+      "sha256": "be81d61252475fe61f0f646780351f0e76d7a1bd5cda0d37c18eb06bed27b62b",
+      "size_bytes": 475745
+    },
+    "harbour_grain-20261221-sunlight-zh.png": {
+      "path": "artifacts/w8/e1-fabric/harbour_grain-20261221-sunlight-zh.png",
+      "sha256": "aacc040abbd408e807fd8cc5d35176a02e78ebb017733ae39400dac6d6aea65c",
+      "size_bytes": 465604
+    },
+    "closed_block_extension-20260321-sunlight-zh.png": {
+      "path": "artifacts/w8/e1-fabric/closed_block_extension-20260321-sunlight-zh.png",
+      "sha256": "caa2f00a541fef0694aec8c27f2ab51eb7f18b9f3af34179d46418701d145759",
+      "size_bytes": 471004
+    },
+    "closed_block_extension-20260621-sunlight-zh.png": {
+      "path": "artifacts/w8/e1-fabric/closed_block_extension-20260621-sunlight-zh.png",
+      "sha256": "13a5d993bddd0b28e32ed68f7067757484ed981ea85b7eb4c17b9230548af914",
+      "size_bytes": 469652
+    },
+    "closed_block_extension-20261221-sunlight-zh.png": {
+      "path": "artifacts/w8/e1-fabric/closed_block_extension-20261221-sunlight-zh.png",
+      "sha256": "4582ce14f555c41db3bafd7f34ff5eabf8ed4b47f2e051f57337e0cec0210889",
+      "size_bytes": 463282
+    },
+    "courtyard_islands-20260321-sunlight-zh.png": {
+      "path": "artifacts/w8/e1-fabric/courtyard_islands-20260321-sunlight-zh.png",
+      "sha256": "1b15adfdab23831e5b910e780a1faaca809d3c030c9f196bb3a8cfe3d6b4fbb7",
+      "size_bytes": 469005
+    },
+    "courtyard_islands-20260621-sunlight-zh.png": {
+      "path": "artifacts/w8/e1-fabric/courtyard_islands-20260621-sunlight-zh.png",
+      "sha256": "e5168127e270cee074e354e7918dad337b736fe1289db7a19f741515d26c8d8d",
+      "size_bytes": 465453
+    },
+    "courtyard_islands-20261221-sunlight-zh.png": {
+      "path": "artifacts/w8/e1-fabric/courtyard_islands-20261221-sunlight-zh.png",
+      "sha256": "521c484a9bf16d3eee0d0a1064e546933931c97a71bb1e571eccc87aeaf67f55",
+      "size_bytes": 459218
+    },
+    "landscape_figure-20260321-sunlight-zh.png": {
+      "path": "artifacts/w8/e1-fabric/landscape_figure-20260321-sunlight-zh.png",
+      "sha256": "9d409d4767ef70a100f45e4e598e9f3a12dbdbbefd96a0bc46bc28af6979276e",
+      "size_bytes": 459041
+    },
+    "landscape_figure-20260621-sunlight-zh.png": {
+      "path": "artifacts/w8/e1-fabric/landscape_figure-20260621-sunlight-zh.png",
+      "sha256": "e8e040de17c8f7fc152645f954e41866f2dfb19347080f933089226f9da9fa2b",
+      "size_bytes": 454058
+    },
+    "landscape_figure-20261221-sunlight-zh.png": {
+      "path": "artifacts/w8/e1-fabric/landscape_figure-20261221-sunlight-zh.png",
+      "sha256": "41c67761bb4f973a019383645c8019efe489262c8ebd98a5c0e4ef3bed1f3bec",
+      "size_bytes": 451794
+    },
+    "comparison_summary_zh.png": {
+      "path": "artifacts/w8/e1-fabric/comparison_summary_zh.png",
+      "sha256": "a067386e075d4a065f7102100cc3a6efcb00531b6dc6e766085fe580bafdea66",
+      "size_bytes": 427903
+    }
+  }
+}

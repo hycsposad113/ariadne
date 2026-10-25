@@ -1,0 +1,13 @@
+[general]
+name=Urban Design Study Area
+description=Draw and confirm a QGIS Study Area through the local urban design bridge
+version=0.1.0
+qgisMinimumVersion=3.34
+author=Urban Design Prototype
+email=
+repository=
+category=Web
+icon=
+experimental=False
+deprecated=False
+hasProcessingProvider=False

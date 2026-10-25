@@ -1,0 +1,80 @@
+{
+  "id": "KU-STR-028",
+  "domain": "STR",
+  "subtopic": "街廓大小與連結度",
+  "type": "method",
+  "title_zh": "街廓大小與連結度：可檢驗的方法",
+  "title_en": "Block size and connectivity: Method and measurement",
+  "summary_zh": "以路段圖和地塊圖分別計算街廓尺度、節點度數、路徑繞行和入口間路網距離，公開圖建構規則。這個流程用來檢驗街廓尺寸和連接關係共同影響路線選擇、繞行程度、沿街地塊與交會機會，單一平均街廓長度不足以描述網路。方法的主要限制是連結多不代表每條路都可合法或安全通行；私人通道、封閉時段和跨線設施會使幾何連接高估實際可達性。",
+  "key_points_zh": [
+    "分析步驟：街廓尺寸和連接關係共同影響路線選擇、繞行程度、沿街地塊與交會機會，單一平均街廓長度不足以描述網路",
+    "分析步驟：以路段圖和地塊圖分別計算街廓尺度、節點度數、路徑繞行和入口間路網距離，公開圖建構規則"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "街廓大小與連結度：可檢驗的方法｜街道結構可以用連接與階層關係比較；不同網形的可達性與交通作用需另外計算",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "MARSHALL05",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "街廓大小與連結度：可檢驗的方法｜Mymensingh 街段比較發現，僅以組態值解釋行人量的相關性偏弱，商業土地使用提供了更強的解釋線索；摘要未列係數",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "AZIZ2018",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "以路段圖和地塊圖分別計算街廓尺度、節點度數、路徑繞行和入口間路網距離，公開圖建構規則"
+  ],
+  "applies_when_zh": "需要測量「街廓尺寸和連接關係共同影響路線選擇、繞行程度、沿街地塊與交會機會，單一平均街廓長度不足以描述網路」時，按「街廓大小與連結度：可檢驗的方法」列出的資料範圍建構指標，同時保存網路版本與計算參數。",
+  "not_applicable_when_zh": "若資料無法支持「街廓尺寸和連接關係共同影響路線選擇、繞行程度、沿街地塊與交會機會，單一平均街廓長度不足以描述網路」的測量，這套步驟不會產生可比較的結果；方法本身也不能選定設計目標。",
+  "debates_zh": "連結多不代表每條路都可合法或安全通行；私人通道、封閉時段和跨線設施會使幾何連接高估實際可達性；檢視「街廓大小與連結度：可檢驗的方法」的測量程序時，還需判斷「以路段圖和地塊圖分別計算街廓尺度、節點度數、路徑繞行和入口間路網距離，公開圖建構規則」會如何改變方案結論。",
+  "sources": [
+    {
+      "library_id": "MARSHALL05",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "AZIZ2018",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "城市路網形態",
+  "region": "跨地域理論或實務脈絡；來源地區依引用條目判讀",
+  "curriculum_refs": [
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.330J Theory of City Form",
+      "topic": "街廓大小與連結度：課綱對應主題"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "街廓大小與連結度：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-STR-025",
+    "KU-STR-026",
+    "KU-STR-027",
+    "KU-STR-029",
+    "KU-STR-030",
+    "KU-STR-031",
+    "KU-STR-032"
+  ]
+}

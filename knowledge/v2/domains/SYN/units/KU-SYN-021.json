@@ -1,0 +1,84 @@
+{
+  "id": "KU-SYN-021",
+  "domain": "SYN",
+  "subtopic": "自然移動",
+  "type": "critique",
+  "title_zh": "自然移動：批評與適用限制",
+  "title_en": "Natural movement: Critique and boundary",
+  "summary_zh": "理論的關聯不保證因果；觀測到的商業或活動密度可能既是結果也是移動原因。另一個需要同時檢查的面向是自然移動理論提出街網組態會先分配穿越機會，沿線吸引用途可能進一步放大既有移動分布。替代做法可以是先找出可能承接穿越移動的路線，再檢查吸引點與停留空間是否形成互補。",
+  "key_points_zh": [
+    "批評焦點：自然移動理論提出街網組態會先分配穿越機會，沿線吸引用途可能進一步放大既有移動分布",
+    "批評焦點：理論的關聯不保證因果；觀測到的商業或活動密度可能既是結果也是移動原因"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "自然移動：批評與適用限制｜Mymensingh 街段比較發現，僅以組態值解釋行人量的相關性偏弱，商業土地使用提供了更強的解釋線索；摘要未列係數",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "AZIZ2018",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "自然移動：批評與適用限制｜日常用途、街道互動及多樣性可作城市生活的討論起點；不能從外觀推定安全或社群",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "JACOBS61",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "把「理論的關聯不保證因果；觀測到的商業或活動密度可能既是結果也是移動原因」轉成一項可觀察的風險，並在替代方案中檢查「自然移動理論提出街網組態會先分配穿越機會，沿線吸引用途可能進一步放大既有移動分布」是否改變其影響。"
+  ],
+  "applies_when_zh": "若自然移動方案可能受「理論的關聯不保證因果；觀測到的商業或活動密度可能既是結果也是移動原因」影響，可用「自然移動理論提出街網組態會先分配穿越機會，沿線吸引用途可能進一步放大既有移動分布」安排實地觀察或替代方案比較。",
+  "not_applicable_when_zh": "這項批評提出的是「理論的關聯不保證因果；觀測到的商業或活動密度可能既是結果也是移動原因」的風險，不能據此推定所有替代方案都更好，也不能代替本地使用者測試。",
+  "debates_zh": "理論的關聯不保證因果；觀測到的商業或活動密度可能既是結果也是移動原因；檢視「自然移動：批評與適用限制」的反例檢查時，還需判斷「理論的關聯不保證因果；觀測到的商業或活動密度可能既是結果也是移動原因」會如何改變方案結論。",
+  "sources": [
+    {
+      "library_id": "AZIZ2018",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "JACOBS61",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "組態與行人移動理論",
+  "region": "跨地域理論或實務脈絡；來源地區依引用條目判讀",
+  "curriculum_refs": [
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.330J Theory of City Form",
+      "topic": "自然移動：課綱對應主題"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Critical Debates in Urban Design",
+      "topic": "自然移動：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-SYN-017",
+    "KU-SYN-018",
+    "KU-SYN-019",
+    "KU-SYN-020",
+    "KU-SYN-022",
+    "KU-SYN-023",
+    "KU-SYN-024"
+  ],
+  "counter_unit_ids": [
+    "KU-SYN-017",
+    "KU-SYN-018"
+  ]
+}

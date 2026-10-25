@@ -1,0 +1,45 @@
+{
+  "id": "ZEVENBERGEN2008",
+  "title": "Challenges in urban flood management: travelling across spatial and temporal scales",
+  "authors": [
+    "C. Zevenbergen",
+    "W. Veerbeek",
+    "B. Gersonius",
+    "S. Van Herk"
+  ],
+  "year": 2008,
+  "venue_or_publisher": "Journal of Flood Risk Management",
+  "doi": "https://doi.org/10.1111/j.1753-318x.2008.00010.x",
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "都市洪水風險與尺度",
+  "region": "跨尺度都市水治理",
+  "method": "時空尺度與複雜系統的框架分析",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "摘要指出都市洪水管理牽涉政治、社會經濟與環境變化，且易受不同空間與時間尺度的回饋影響；作者也明言系統方法的落地仍有未知因素。",
+      "strength": "STRONG_EMPIRICAL",
+      "scope_zh": "只支持此研究明確的議題、樣本地區與方法；不直接生成 M4H 數值、法規或工程容量。",
+      "assessment_basis": "ABSTRACT_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref",
+    "query": {
+      "title": "Challenges in urban flood management: travelling across spatial and temporal scales",
+      "author": "Zevenbergen",
+      "year": 2008,
+      "api_query": "Crossref GET works?query.title=Challenges in urban flood management: travelling across spatial and temporal scales"
+    },
+    "matched_record_id": "10.1111/j.1753-318x.2008.00010.x",
+    "checked_at_utc": "2026-10-08T09:58:04Z",
+    "match_notes_zh": "以 Crossref 公開書目記錄比對書名、作者與年份；摘要文字未保存到 repository。"
+  },
+  "limitations_zh": "只保留書目與自行撰寫的範圍摘要；除標示 ABSTRACT_REVIEW 者外，內容未由摘要核對，沒有下載全文。",
+  "critique_relationship_zh": "本記錄不宣稱與其他書目存在直接互引或逐一反駁關係。",
+  "metadata_licence_zh": "公開 API 書目欄位；精確 metadata licence 未核驗，標 UNKNOWN。"
+}

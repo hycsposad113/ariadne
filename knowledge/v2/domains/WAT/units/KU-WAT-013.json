@@ -1,0 +1,74 @@
+{
+  "id": "KU-WAT-013",
+  "domain": "WAT",
+  "subtopic": "水敏感都市設計（WSUD）",
+  "type": "critique",
+  "title_zh": "水敏感品牌可能遮住地方制度差異",
+  "title_en": "水敏感品牌可能遮住地方制度差異",
+  "summary_zh": "水敏感設計的詞彙常被當成跨城市通用標籤，但其背後的排水權責、用水文化與資金模式並不相同。術語回顧與英國應用討論都要求把地方實踐放回制度脈絡。若只複製圖面語彙，方案可能看似完整，實際上卻沒有負責監測或維修的機構。",
+  "key_points_zh": [
+    "設計移植需要比對管網規則、土地權屬和運營預算。",
+    "績效指標應配合當地水治理而非借用品牌口號。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "library_id": "FLETCHER2013",
+        "claim_zh": "書目確認本文題名聚焦「Understanding, management and modelling of urban hydrology and its consequences for receiving waters: A state of the art」；目前只完成作者、年份、題名與 DOI 核對，未將摘要或全文結論納入此記錄；本單元 KU-WAT-013 對照「水敏感設計的詞彙常被當成跨城市通用標籤，但其背後的排水權責、用水文化與資金模式並不相同」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "文獻回顧；目前僅核對書目範圍",
+        "context_region": "跨地域",
+        "locator": null
+      },
+      {
+        "library_id": "ROY2008",
+        "claim_zh": "書目確認本文題名聚焦「Impediments and Solutions to Sustainable, Watershed-Scale Urban Stormwater Management: Lessons from Australia and the United States」；目前只完成作者、年份、題名與 DOI 核對，未將摘要或全文結論納入此記錄；本單元 KU-WAT-013 對照「水敏感設計的詞彙常被當成跨城市通用標籤，但其背後的排水權責、用水文化與資金模式並不相同」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "文獻回顧；目前僅核對書目範圍",
+        "context_region": "澳洲與美國",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "在案例研究中同時記錄設施、機構和維運期間。",
+    "把跨城市借鏡標為待本地化的設計假設。"
+  ],
+  "applies_when_zh": "適用於案例移植評估和知識庫設計原則審查。",
+  "not_applicable_when_zh": "不可將此批評誤讀為所有水敏感設施均無效。",
+  "debates_zh": "WSUD 相關文獻以澳洲和英國脈絡較多；低收入城市與非正式住區的制度條件仍需另行補足。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "FLETCHER2013",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "ROY2008",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "制度批評／水敏感都市設計",
+  "region": "跨地域；英國與國際經驗",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "水敏感都市設計（WSUD）"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Sustainable Futures by Design",
+      "topic": "水敏感都市設計（WSUD）"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0"
+}

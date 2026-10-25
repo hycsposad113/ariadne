@@ -1,0 +1,66 @@
+{
+  "id": "KU-HAR-028",
+  "domain": "HAR",
+  "subtopic": "文化導向再生與仕紳化批評",
+  "type": "method",
+  "title_zh": "文化再生評估要追蹤原有使用者",
+  "title_en": "Evaluate Cultural Regeneration by Tracking Existing Users",
+  "summary_zh": "評估文化設施時，單看開幕活動或訪客數會把短期曝光誤認為長期社會價值。較完整的追蹤需要比較更新前後的租戶組成、藝術工作空間、非正式活動和公共空間進入條件。對社會混合政策的批判提醒，名目上增加新住戶與原群體仍能留下，是兩個不同結果。",
+  "key_points_zh": [
+    "建立可重複的租戶與使用者觀測欄位。",
+    "對外開放時間、免費活動和非商業使用分開記錄。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "文化再生評估檢視文化投入與更新成果間的證據關係。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "英國與歐洲城市",
+        "library_id": "EVANS2005",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "對社會混合政策的研究指出政策目標不能替代群體層級結果。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "英國與歐洲城市",
+        "library_id": "LEES2008",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "建立可重複的租戶與使用者觀測欄位。",
+    "對外開放時間、免費活動和非商業使用分開記錄。"
+  ],
+  "applies_when_zh": "更新前已有社區組織或藝術工作者名冊可追蹤時。",
+  "not_applicable_when_zh": "缺乏基線時，不宜宣稱更新造成包容或排除。",
+  "debates_zh": "資料收集也可能忽略非正式使用者；參與者定義和隱私保護需事先說明。",
+  "sources": [
+    {
+      "library_id": "EVANS2005",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "LEES2008",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "文化評估／仕紳化研究",
+  "region": "英國與歐洲城市",
+  "curriculum_refs": [
+    {
+      "school": "UCL Bartlett",
+      "course": null,
+      "topic": "Culture-led regeneration and social mixing"
+    }
+  ],
+  "version": "v2.0"
+}

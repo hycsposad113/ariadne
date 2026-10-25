@@ -1,0 +1,75 @@
+{
+  "schema_version": "syntax-network-policy-v1",
+  "status": "EXPLORATORY_PENDING_DESIGNER_APPROVAL",
+  "approved_by_designer": false,
+  "description": "Network extraction and topology filtering policy for Rotterdam M4H Space Syntax analysis across local (800m), mid (2000m), and regional (10000m) scales.",
+  "highway_filters": {
+    "included_categories": [
+      "primary",
+      "primary_link",
+      "secondary",
+      "secondary_link",
+      "tertiary",
+      "tertiary_link",
+      "unclassified",
+      "residential",
+      "living_street",
+      "pedestrian",
+      "footway",
+      "cycleway",
+      "path",
+      "steps",
+      "service"
+    ],
+    "conditional_regional_categories": [
+      "motorway",
+      "motorway_link",
+      "trunk",
+      "trunk_link"
+    ],
+    "excluded_categories": [
+      "construction",
+      "proposed",
+      "abandoned",
+      "disused",
+      "raceway",
+      "corridor",
+      "platform",
+      "elevator"
+    ]
+  },
+  "access_rules": {
+    "excluded_access_values": ["no", "private"],
+    "access_overrides": {
+      "foot": ["yes", "designated", "permissive"],
+      "bicycle": ["yes", "designated", "permissive"]
+    },
+    "default_access": "permissive_public_realm"
+  },
+  "grade_separation_and_unlinks": {
+    "default_layer": 0,
+    "grade_attributes": ["layer", "bridge", "tunnel", "level"],
+    "crossing_rule": "OSM ways that intersect geometrically in 2D without a shared OSM node ID, or with differing grade layer tags, represent grade-separated crossings (bridges, tunnels, overpasses). They must not create network junctions.",
+    "pst_unlink_mechanism": "Intersection points between grade-separated features are extracted as explicit unlink coordinates and passed to PST CreateSegmentMap unlinks parameter, preventing synthetic junction formation."
+  },
+  "scale_definitions": {
+    "local_800m": {
+      "radius_m": 800.0,
+      "scale_label": "Local Scale (800m)",
+      "target_mobility": "pedestrian_walkable",
+      "minimum_buffer_m": 1200.0
+    },
+    "mid_2000m": {
+      "radius_m": 2000.0,
+      "scale_label": "Mid Scale (2000m)",
+      "target_mobility": "micro_mobility_and_district_movement",
+      "expansion_buffers_m": [4000.0, 6000.0]
+    },
+    "regional_10000m": {
+      "radius_m": 10000.0,
+      "scale_label": "Regional Scale (10000m)",
+      "target_mobility": "metropolitan_connectivity",
+      "expansion_buffers_m": [15000.0, 20000.0]
+    }
+  }
+}

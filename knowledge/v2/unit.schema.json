@@ -1,0 +1,440 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Knowledge unit v2",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "applies_when_zh",
+    "curriculum_refs",
+    "debates_zh",
+    "design_implications_zh",
+    "domain",
+    "evidence",
+    "id",
+    "key_points_zh",
+    "not_applicable_when_zh",
+    "sources",
+    "subtopic",
+    "summary_zh",
+    "title_en",
+    "title_zh",
+    "type",
+    "version"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^KU-(THY|MET|MOR|LUP|REG|STR|MOB|SYN|PUB|GRN|ECO|WAT|CLI|HOU|HAR|SOC|CAS|ARC)-[0-9]{3}$"
+    },
+    "domain": {
+      "enum": [
+        "ARC",
+        "CAS",
+        "CLI",
+        "ECO",
+        "GRN",
+        "HAR",
+        "HOU",
+        "LUP",
+        "MET",
+        "MOB",
+        "MOR",
+        "PUB",
+        "REG",
+        "SOC",
+        "STR",
+        "SYN",
+        "THY",
+        "WAT"
+      ]
+    },
+    "subtopic": {
+      "type": "string",
+      "minLength": 2
+    },
+    "type": {
+      "enum": [
+        "case",
+        "concept",
+        "critique",
+        "design_principle",
+        "empirical_finding",
+        "method",
+        "pattern",
+        "regulation_profile",
+        "theory",
+        "typology",
+        "value_range"
+      ]
+    },
+    "title_zh": {
+      "type": "string",
+      "minLength": 2
+    },
+    "title_en": {
+      "type": "string",
+      "minLength": 2
+    },
+    "summary_zh": {
+      "type": "string",
+      "minLength": 80,
+      "description": "Own-words synthesis (no copied text): what the knowledge says, 3-8 sentences."
+    },
+    "key_points_zh": {
+      "type": "array",
+      "minItems": 2,
+      "items": {
+        "type": "string"
+      }
+    },
+    "evidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "findings",
+        "strength"
+      ],
+      "properties": {
+        "strength": {
+          "enum": [
+            "ASSUMED",
+            "CASE_EVIDENCE",
+            "MIXED",
+            "NORMATIVE_PRACTICE",
+            "STRONG_EMPIRICAL",
+            "THEORETICAL"
+          ]
+        },
+        "findings": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "claim_verification",
+              "claim_zh",
+              "library_id"
+            ],
+            "properties": {
+              "claim_zh": {
+                "type": "string"
+              },
+              "effect_or_value": {
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "study_design": {
+                "type": [
+                  "null",
+                  "string"
+                ],
+                "description": "e.g. meta-analysis, cross-sectional, case study, theory"
+              },
+              "context_region": {
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "library_id": {
+                "type": "string"
+              },
+              "locator": {
+                "type": [
+                  "null",
+                  "string"
+                ],
+                "description": "chapter/page only if certain; else null"
+              },
+              "claim_verification": {
+                "enum": [
+                  "ABSTRACT_REVIEW",
+                  "BIBLIOGRAPHIC_SCOPE_ONLY",
+                  "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+                  "CANONICAL_CROSS_CHECK_PENDING",
+                  "OFFICIAL_PRIMARY_SOURCE_REVIEW",
+                  "OBSERVED_OPEN_DATA_MEASUREMENT"
+                ],
+                "description": "Claim-level evidence status; pending canonical claims require independent cross-check."
+              },
+              "limitations_zh": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "values": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "context",
+          "library_id",
+          "name",
+          "range",
+          "unit"
+        ],
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "range": {
+            "type": "string"
+          },
+          "unit": {
+            "type": "string"
+          },
+          "context": {
+            "type": "string",
+            "description": "region / jurisdiction / use; never treated as M4H law"
+          },
+          "library_id": {
+            "type": "string"
+          },
+          "claim_verification": {
+            "enum": [
+              "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+              "CANONICAL_CROSS_CHECK_PENDING"
+            ]
+          }
+        }
+      }
+    },
+    "design_implications_zh": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "design_options": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "option_zh",
+          "tradeoff_zh"
+        ],
+        "properties": {
+          "option_zh": {
+            "type": "string"
+          },
+          "tradeoff_zh": {
+            "type": "string"
+          },
+          "library_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "applies_when_zh": {
+      "type": "string"
+    },
+    "not_applicable_when_zh": {
+      "type": "string"
+    },
+    "debates_zh": {
+      "type": "string",
+      "minLength": 10
+    },
+    "counter_unit_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "related_unit_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "library_id"
+        ],
+        "properties": {
+          "library_id": {
+            "type": "string"
+          },
+          "claim_id": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "locator": {
+            "type": [
+              "null",
+              "string"
+            ]
+          }
+        }
+      }
+    },
+    "source_count_flag": {
+      "enum": [
+        "MULTI_SOURCE",
+        "SINGLE_SOURCE"
+      ]
+    },
+    "tradition": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "region": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "claim_verification": {
+      "enum": [
+        "ABSTRACT_REVIEW",
+        "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+        "CANONICAL_CROSS_CHECK_PENDING"
+      ]
+    },
+    "curriculum_refs": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "school",
+          "topic"
+        ],
+        "properties": {
+          "school": {
+            "enum": [
+              "Harvard GSD",
+              "MIT",
+              "TU Delft",
+              "UCL Bartlett"
+            ]
+          },
+          "course": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "topic": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "case": {
+      "type": [
+        "null",
+        "object"
+      ],
+      "description": "required when type=case",
+      "properties": {
+        "location": {
+          "type": "string"
+        },
+        "period": {
+          "type": "string"
+        },
+        "area_ha": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "fsi": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "gsi": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "program_mix": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "key_strategies_zh": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "outcomes_zh": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "critiques_zh": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "version": {
+      "type": "string"
+    },
+    "check": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "method_zh",
+        "inputs",
+        "logic_zh",
+        "limitations_zh"
+      ],
+      "properties": {
+        "method_zh": {
+          "type": "string",
+          "minLength": 20,
+          "description": "可重現的量測方法；說明量測對象、方向、單位或取值程序。"
+        },
+        "inputs": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          }
+        },
+        "logic_zh": {
+          "type": "string",
+          "minLength": 10
+        },
+        "limitations_zh": {
+          "type": "string",
+          "minLength": 10
+        }
+      }
+    }
+  }
+}

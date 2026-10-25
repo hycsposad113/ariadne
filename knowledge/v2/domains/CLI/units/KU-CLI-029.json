@@ -1,0 +1,74 @@
+{
+  "id": "KU-CLI-029",
+  "domain": "CLI",
+  "subtopic": "樹木降溫",
+  "type": "method",
+  "title_zh": "以行人路徑衡量樹蔭而非只數樹冠",
+  "title_en": "以行人路徑衡量樹蔭而非只數樹冠",
+  "summary_zh": "樹冠面積表示平面覆蓋，卻不一定表示行人在炎熱時段能走在連續遮蔭下。Boston 街景研究分析街樹影子分布，Wuhan 街谷研究把樹冠連到微氣候和熱舒適。規劃分析需同時看遮陰時空分布與樹木生長條件。",
+  "key_points_zh": [
+    "投影樹冠和地面陰影會隨太陽方位改變。",
+    "連續步行遮蔭與全區平均覆蓋回答不同問題。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "library_id": "BOWLER2010",
+        "claim_zh": "題名確認文章系統回顧城市綠化降溫的實證；效果大小需回到研究的植栽類型、尺度與氣候條件核對；本單元 KU-CLI-029 對照「樹冠面積表示平面覆蓋，卻不一定表示行人在炎熱時段能走在連續遮蔭下」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "實證系統性回顧",
+        "context_region": "跨地域城鎮研究",
+        "locator": null
+      },
+      {
+        "library_id": "SPAGNOLO2003",
+        "claim_zh": "題名確認該研究在副熱帶 Sydney 比較戶外與半戶外熱舒適；其發現不能跨氣候與人群直接外推；本單元 KU-CLI-029 對照「樹冠面積表示平面覆蓋，卻不一定表示行人在炎熱時段能走在連續遮蔭下」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "現地研究",
+        "context_region": "Sydney, Australia",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "按行人路徑分段計算遮蔭時段。",
+    "檢查成熟樹冠、樹坑和地下管線可行性。"
+  ],
+  "applies_when_zh": "適用於街道植栽和步行舒適方案比較。",
+  "not_applicable_when_zh": "不可把樹冠面積直接當成實測降溫幅度。",
+  "debates_zh": "街景影像受拍攝季節和視角影響，可能低估或高估樹蔭。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "BOWLER2010",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "SPAGNOLO2003",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "街樹遮蔭與熱暴露",
+  "region": "Boston, USA；Wuhan, China",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "樹木降溫"
+    },
+    {
+      "school": "MIT",
+      "course": "Theory of City Form",
+      "topic": "樹木降溫"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0"
+}

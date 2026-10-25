@@ -1,0 +1,47 @@
+{
+  "id": "SUGIYAMA10",
+  "title": "Associations Between Recreational Walking and Attractiveness, Size, and Proximity of Neighborhood Open Spaces",
+  "authors": [
+    "Takemi Sugiyama",
+    "Jacinta Francis",
+    "Nicholas J. Middleton",
+    "Neville Owen",
+    "Billie Giles-Corti"
+  ],
+  "year": 2010,
+  "venue_or_publisher": "American Journal of Public Health",
+  "doi": "https://doi.org/10.2105/ajph.2009.182006",
+  "isbn": null,
+  "crossref_id": "https://doi.org/10.2105/ajph.2009.182006",
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "公園可及性與健康地理",
+  "region": [
+    "澳洲"
+  ],
+  "method": "RESIDE 成人調查、GIS 公園稽核與迴歸分析",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "澳洲 Perth 的 1,366 位成人研究發現，較近且具吸引力的開放空間與是否從事休閒步行相關；1.6 km 範圍內較大的優質空間與每週步行達 150 分鐘相關，步行時間為自陳。",
+      "strength": "MIXED",
+      "scope_zh": "澳洲 Perth；主張限於此來源的研究設計與樣本，不外推為本基地規範。",
+      "assessment_basis": "ABSTRACT_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref",
+    "query": {
+      "title": "Associations Between Recreational Walking and Attractiveness, Size, and Proximity of Neighborhood Open Spaces",
+      "author": "Takemi Sugiyama",
+      "year": 2010
+    },
+    "matched_record_id": "https://doi.org/10.2105/ajph.2009.182006",
+    "checked_at_utc": "2026-10-08T09:52:48Z",
+    "match_notes_zh": "核對 Crossref 回傳書名、主要作者、出版年與 DOI；摘要只在實際取得並閱讀的論文上標 ABSTRACT_REVIEW。"
+  },
+  "limitations_zh": "澳洲 Perth；書目核對不替代完整論文審查。",
+  "critique_relationship_zh": "此條目的批評連結供編者並讀，不宣稱存在直接互引。",
+  "metadata_licence_zh": "僅保存公開書目欄位與自行撰寫的摘要；未保存摘要原文，metadata 授權未單獨核定。"
+}

@@ -1,0 +1,60 @@
+{
+  "id": "KU-GRN-062",
+  "domain": "GRN",
+  "subtopic": "綠地仕紳化",
+  "type": "design_principle",
+  "title_zh": "公園投資應有社會影響補救",
+  "title_en": "Park investment needs social safeguards",
+  "summary_zh": "交通、綠化、清潔和土地價值變化可能同時改變社區生活成本。項目需為租戶和小型商業提供可申訴、可補救的制度。景觀工程本身不能解決所有住房問題。綠地品質和居住權都屬於城市環境的公平結果。",
+  "key_points_zh": [
+    "交通、綠化、清潔和土地價值變化可能同時改變社區生活成本",
+    "項目需為租戶和小型商業提供可申訴、可補救的制度"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "交通、綠化、清潔和土地價值變化可能同時改變社區生活成本。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "美國",
+        "library_id": "ZUKIN95",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "綠地品質和居住權都屬於城市環境的公平結果。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "在預算中安排社會影響監測及跨部門補救資源。"
+  ],
+  "applies_when_zh": "適用於長期公共投資。",
+  "not_applicable_when_zh": "不能把社會配套留給未來的其他計畫。",
+  "debates_zh": "綠地品質和居住權都屬於城市環境的公平結果。",
+  "sources": [
+    {
+      "library_id": "ZUKIN95",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "MADANIPOUR96",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "都市文化政治經濟",
+  "region": "美國",
+  "curriculum_refs": [
+    {
+      "school": "MIT",
+      "course": "11.330J Theory of City Form",
+      "topic": "綠地仕紳化"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-GRN-061"
+  ]
+}

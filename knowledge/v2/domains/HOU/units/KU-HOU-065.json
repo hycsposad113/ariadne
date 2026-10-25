@@ -1,0 +1,92 @@
+{
+  "id": "KU-HOU-065",
+  "domain": "HOU",
+  "subtopic": "住宅類型",
+  "type": "value_range",
+  "title_zh": "周邊式中層住宅密度",
+  "title_en": "Perimeter-block mid-rise housing density",
+  "summary_zh": "淨／毛分母差異可使數值差距很大，報告需附面積口徑。 以街牆連續度、院落日照和入口頻度做同一尺度的方案比較。 記錄 西歐周邊式街廓案例 與「四至六層街廓住宅的淨住宅用地」的量測分母，再和另一種尺度或用途並排比較。",
+  "key_points_zh": [
+    "四至六層周邊式住宅案例常見約 80–180 戶／公頃的淨住宅用地密度帶，院落和街道寬度會改變結果。",
+    "淨／毛分母差異可使數值差距很大，報告需附面積口徑。",
+    "以街牆連續度、院落日照和入口頻度做同一尺度的方案比較。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "四至六層周邊式住宅案例常見約 80–180 戶／公頃的淨住宅用地密度帶，院落和街道寬度會改變結果。",
+        "effect_or_value": "約 80–180",
+        "study_design": "跨案例尺度對照或明示假設的規劃計算",
+        "context_region": "西歐周邊式街廓案例",
+        "library_id": "MOUDON97",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "專書從規劃規則與城市形態關係切入，提醒讀者檢視規則背後的價值選擇與空間後果。",
+        "effect_or_value": null,
+        "study_design": "形態／制度比較的補充閱讀",
+        "context_region": "西歐周邊式街廓案例",
+        "library_id": "TALEN2012",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "周邊式中層住宅密度",
+      "range": "約 80–180",
+      "unit": "戶／公頃",
+      "context": "西歐周邊式街廓案例；用途：四至六層街廓住宅的淨住宅用地；對照書目：MOUDON97；適用於制度或形態比較，這不是本基地法規；來源所列地域：跨地域。",
+      "library_id": "MOUDON97"
+    }
+  ],
+  "design_implications_zh": [
+    "以街牆連續度、院落日照和入口頻度做同一尺度的方案比較。",
+    "記錄 西歐周邊式街廓案例 與「四至六層街廓住宅的淨住宅用地」的量測分母，再和另一種尺度或用途並排比較。"
+  ],
+  "applies_when_zh": "用於比較西歐周邊式街廓案例的四至六層街廓住宅的淨住宅用地，並明示此數值的來源、年份和面積分母。",
+  "not_applicable_when_zh": "淨／毛分母差異可使數值差距很大，報告需附面積口徑。",
+  "debates_zh": "圍合院落可提供可管理的半公共空間，但容易形成內外權利邊界。 查核：「周邊式中層住宅密度」的數值帶合理，但所引文獻未提供，待補來源。",
+  "sources": [
+    {
+      "library_id": "MOUDON97",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "TALEN2012",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "跨學派形態學",
+  "region": "西歐周邊式街廓案例",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "住宅類型"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "住宅類型"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "住宅類型"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "住宅類型"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+}

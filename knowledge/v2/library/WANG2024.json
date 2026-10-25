@@ -1,0 +1,45 @@
+{
+  "id": "WANG2024",
+  "title": "Identification of Spatial and Symbolic City Image Elements Through Social Media Data: A Case Study of Hangzhou",
+  "authors": [
+    "Jiaqi Wang",
+    "Yu Shi",
+    "Weishun Xu",
+    "Yue Zhang Wu"
+  ],
+  "year": 2024,
+  "venue_or_publisher": "Land, 13(12), 2194",
+  "doi": "https://doi.org/10.3390/land13122194",
+  "isbn": null,
+  "openalex_id": "https://openalex.org/W4405422321",
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "城市意象元素的資料化辨識",
+  "region": "中國杭州",
+  "method": "結合微博簽到、地標資料及 GIS 分析五類城市意象元素",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "杭州案例把社群媒體簽到、地圖 POI 與 GIS 結合，辨識五類城市意象元素並探索元素間的空間關係。",
+      "strength": "MIXED",
+      "scope_zh": "資料化辨識方法補充 Lynch 語彙，但不能取代觀察者對地方經驗的判讀。",
+      "assessment_basis": "ABSTRACT_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "OpenAlex",
+    "query": {
+      "record_id": "https://openalex.org/W4405422321",
+      "doi": "10.3390/land13122194",
+      "title": "Identification of Spatial and Symbolic City Image Elements Through Social Media Data: A Case Study of Hangzhou",
+      "author": "Jiaqi Wang",
+      "year": 2024
+    },
+    "matched_record_id": "https://openalex.org/W4405422321",
+    "checked_at_utc": "2026-10-09T00:14:30Z",
+    "match_notes_zh": "以允許的公開書目 API 精確比對題名、首位作者與出版年；只保留自行撰寫的摘要範圍說明，未保存全文或 API 摘要原文。"
+  },
+  "limitations_zh": "本條目依公開摘要或書目範圍整理；未下載全文，也不外推摘要未列的樣本、效果量或因果結論。",
+  "metadata_licence_zh": "僅保存公開書目欄位與自行撰寫的繁體中文摘要；未複製摘要全文或論文全文。"
+}

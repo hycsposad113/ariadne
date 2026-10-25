@@ -1,0 +1,90 @@
+{
+  "id": "KU-ARC-055",
+  "domain": "ARC",
+  "subtopic": "街廓與建築",
+  "type": "typology",
+  "title_zh": "周邊式街廓轉角的退縮與倒角",
+  "title_en": "perimeter block corner treatment",
+  "summary_zh": "轉角處理會把街牆連續性、行人視線與商業入口放到同一個界面決策中。 倒角、圓角或切角退縮都會改變可用一樓面積和街角停留空間。 設計圖需表明轉角是公共空間還是室內剩餘面。",
+  "key_points_zh": [
+    "核心主張：轉角處理會把街牆連續性、行人視線與商業入口放到同一個界面決策中。",
+    "量測檢查：比較街牆對齊線、可見距離和轉角淨空，並量測首層可實際進入的面積。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "轉角處理會把街牆連續性、行人視線與商業入口放到同一個界面決策中。",
+        "effect_or_value": null,
+        "study_design": "跨地域設計參照綜整；數值狀態依 claim_verification 註記",
+        "context_region": "跨地域；用途與當地法規需分開核驗",
+        "library_id": "COURTYARD_HEALTH15",
+        "locator": null,
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "在轉角放入行人視線錐、行車視距與店面入口，檢查立面退縮是否形成可用節點。"
+  ],
+  "applies_when_zh": "「周邊式街廓轉角的退縮與倒角」可在用於方案前期的量體、平面或空間品質篩檢時使用，前提是轉角處理會把街牆連續性、行人視線與商業入口放到同一個界面決策中與來源情境相符。",
+  "not_applicable_when_zh": "若轉角處理會把街牆連續性、行人視線與商業入口放到同一個界面決策中不成立，就不能把「周邊式街廓轉角的退縮與倒角」的結論延伸到其他情況；不得單獨作為許可、消防、結構或基地法規判定。",
+  "debates_zh": "造型退角若沒有出入口或活動支撐，可能成為無效的非正式空地。",
+  "sources": [
+    {
+      "library_id": "COURTYARD_HEALTH15",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "SAMUELS2008",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+  "tradition": "建築設計與住宅類型學",
+  "region": "跨地域；用途與當地法規需分開核驗",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Housing and the City / Design of the Urban Fabric",
+      "topic": "建築尺度與住宅平面"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "建築尺度與街道界面"
+    },
+    {
+      "school": "MIT",
+      "course": "Architecture and Urban Design",
+      "topic": "建築尺度與空間型態"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "建築尺度與公共生活"
+    }
+  ],
+  "check": {
+    "method_zh": "比較街牆對齊線、可見距離和轉角淨空，並量測首層可實際進入的面積。",
+    "inputs": [
+      "街廓與建築",
+      "尺寸／面積圖層",
+      "適用地區與用途標籤"
+    ],
+    "logic_zh": "將量測輸入轉成明確尺寸、比例或空間關係；越界只觸發複核，不自動取代設計決策。",
+    "limitations_zh": "量測結果只觸發「周邊式街廓轉角的退縮與倒角」的複核，不得單獨作為許可或法規判定。"
+  },
+  "version": "kb2-arc-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-ARC-049",
+    "KU-ARC-050",
+    "KU-ARC-051",
+    "KU-ARC-052",
+    "KU-ARC-053"
+  ]
+}

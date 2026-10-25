@@ -1,0 +1,83 @@
+{
+  "id": "KU-WAT-026",
+  "domain": "WAT",
+  "subtopic": "洪水風險與多層安全",
+  "type": "value_range",
+  "title_zh": "低海拔沿海區的十公尺分類門檻",
+  "title_en": "Ten-metre threshold for low-elevation coastal zones",
+  "summary_zh": "全球沿海暴露研究會以接近海平面的地勢範圍作統計分類，不代表其中每一處都會被洪水淹沒。McGranahan 等人採低於海平面以上 10 公尺的高度門檻，目的是比較人口與聚落暴露。此分類是宏觀研究設定，不能當成本基地法規、設計水位或淹水深度。",
+  "key_points_zh": [
+    "高度界線是暴露分類，不是洪水危害線。",
+    "地方潮位、地形精度和防護狀況會改變實際情境。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "library_id": "MCGRANAHAN2007",
+        "claim_zh": "全球低海拔沿海區研究採用一個宏觀高度界線進行人口與土地暴露統計。",
+        "effect_or_value": "地形資料和治理假設會改變暴露或韌性解讀；不直接給出 M4H 工程設計值。",
+        "study_design": "全球人口與土地空間分析",
+        "context_region": "全球低海拔沿海區",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "library_id": "WISE2014",
+        "claim_zh": "本文把調適放入變遷路徑與回應的脈絡；適用於比較漸進修補與制度轉型，不給定基地工程值；本單元 KU-WAT-026 對照「全球沿海暴露研究會以接近海平面的地勢範圍作統計分類，不代表其中每一處都會被洪水淹沒」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "概念論述",
+        "context_region": "跨地域氣候調適研究",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "以該分類作為資料盤點起點，再以地方測量補足。",
+    "在圖例中寫明統計尺度與高程基準。"
+  ],
+  "applies_when_zh": "適用於全球或區域尺度的沿海人口暴露研究，不作工程設計標準。",
+  "not_applicable_when_zh": "不適用於提供鹿特丹基地安全高程；這不是本基地法規。",
+  "debates_zh": "不同低海拔沿海研究採用的基準面和邊界可能不同；只有保持分類定義一致，跨研究比較才有意義。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "MCGRANAHAN2007",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "WISE2014",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "沿海暴露分類",
+  "region": "全球低海拔沿海區；全球沿海地區",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "洪水風險與多層安全"
+    },
+    {
+      "school": "MIT",
+      "course": null,
+      "topic": "洪水風險與多層安全"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0",
+  "values": [
+    {
+      "name": "低海拔沿海區統計高度",
+      "range": "<10",
+      "unit": "m above sea level",
+      "context": "用途：以「低海拔沿海區統計高度」作為來源情境參照；全球暴露統計分類；不代表淹水線，也不是本基地法規",
+      "library_id": "MCGRANAHAN2007"
+    }
+  ]
+}

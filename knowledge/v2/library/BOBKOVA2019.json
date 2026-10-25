@@ -1,0 +1,46 @@
+{
+  "id": "BOBKOVA2019",
+  "title": "Structure of Plot Systems and Economic Activity in Cities: Linking Plot Types to Retail and Food Services in London, Amsterdam and Stockholm",
+  "authors": [
+    "Evgeniya Bobkova",
+    "Lars Marcus",
+    "Meta Berghauser Pont",
+    "Ioanna Stavroulaki",
+    "David Bolin"
+  ],
+  "year": 2019,
+  "venue_or_publisher": "Urban Science",
+  "doi": "10.3390/urbansci3030066",
+  "isbn": null,
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "地塊形態與城市經濟活動",
+  "region": [
+    "倫敦，英國",
+    "阿姆斯特丹，荷蘭",
+    "斯德哥爾摩，瑞典"
+  ],
+  "method": "Crossref abstract review; comparative plot-system analysis using size, compactness and frontage index",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "摘要以倫敦、阿姆斯特丹和斯德哥爾摩比較地塊大小、緊湊度與 frontage index 等形態指標，並分析其與零售及餐飲活動分布的關聯。",
+      "strength": "MIXED",
+      "scope_zh": "摘要支持地塊系統、尺度和臨街條件的比較範圍；不據此推斷阿姆斯特丹運河屋的單一面寬值。",
+      "assessment_basis": "ABSTRACT_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref",
+    "query": {
+      "doi": "10.3390/urbansci3030066",
+      "title": "Structure of Plot Systems and Economic Activity in Cities: Linking Plot Types to Retail and Food Services in London, Amsterdam and Stockholm"
+    },
+    "matched_record_id": "https://doi.org/10.3390/urbansci3030066",
+    "checked_at_utc": "2026-10-08T17:37:01Z",
+    "match_notes_zh": "Crossref 記錄核對題名、作者、年份和期刊；公開摘要列出地塊大小、緊湊度、臨街指數及阿姆斯特丹案例。"
+  },
+  "limitations_zh": "只核對 Crossref 書目與摘要，未查閱全文；不確認特定歷史地塊尺寸。",
+  "metadata_licence_zh": "保存公開 Crossref 書目欄位與自行摘要，未保存 API 摘要原文或全文。"
+}

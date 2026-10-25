@@ -1,0 +1,71 @@
+{
+  "id": "KU-MET-019",
+  "domain": "MET",
+  "subtopic": "參與式方法",
+  "type": "method",
+  "title_zh": "設計準則與 codes",
+  "title_en": "Design codes",
+  "summary_zh": "Design codes 用可檢查的文字和圖面規則約束建築、街道或空間關係，以支持多個開發者協調。準則需清楚區分強制、建議、適用範圍及例外程序。將每條規則連到目的、量測方式和版本，測試典型及邊界案例。",
+  "key_points_zh": [
+    "將每條規則連到目的、量測方式和版本，測試典型及邊界案例。",
+    "過度細密的規則可能僵化結果，外觀一致也不等於公共品質。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "Design codes 用可檢查的文字和圖面規則約束建築、街道或空間關係，以支持多個開發者協調。準則需清楚區分強制、建議、適用範圍及例外程序。",
+        "library_id": "CARMONAGOV17",
+        "locator": null,
+        "study_design": "理論／方法綜述；非基地實測",
+        "effect_or_value": null,
+        "context_region": null,
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008"
+      },
+      {
+        "claim_zh": "Ben-Joseph 從城市規範與街道形式的歷史檢視設計 codes 的治理效果，補充 Carmona 等人的管理框架。",
+        "library_id": "BENJOSEPH2005",
+        "locator": null,
+        "study_design": "制度史與案例討論",
+        "effect_or_value": null,
+        "context_region": "美國",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "將每條規則連到目的、量測方式和版本，測試典型及邊界案例。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "以少數關係性規則保留彈性",
+      "tradeoff_zh": "審查者需承擔較多情境判斷。",
+      "library_ids": [
+        "CARMONAGOV17"
+      ]
+    }
+  ],
+  "applies_when_zh": "用於釐清「設計準則與 codes」涉及的空間、制度與行動選擇。",
+  "not_applicable_when_zh": "「設計準則與 codes」不能直接替代基地的實測、法規或人類批准。",
+  "debates_zh": "過度細密的規則可能僵化結果，外觀一致也不等於公共品質。",
+  "sources": [
+    {
+      "library_id": "CARMONAGOV17",
+      "locator": null
+    },
+    {
+      "library_id": "BENJOSEPH2005",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": null,
+      "topic": "編者主題對照，非已核實課程指定閱讀：設計準則與 codes"
+    }
+  ],
+  "version": "2.0.0-theory-v3"
+}

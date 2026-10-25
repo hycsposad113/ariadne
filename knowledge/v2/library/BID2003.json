@@ -1,0 +1,25 @@
+{
+  "id": "BID2003",
+  "title": "Business Improvement Districts and the Shape of American Cities",
+  "authors": [
+    "Jerry Mitchell"
+  ],
+  "year": 2008,
+  "kind": "ACADEMIC_BOOK",
+  "claims": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Open Library",
+    "query": {
+      "title": "Business Improvement Districts and the Shape of American Cities",
+      "author": "Jerry Mitchell",
+      "year": 2003
+    },
+    "matched_record_id": "/works/OL25849493W",
+    "checked_at_utc": "2026-10-08T13:42:37Z",
+    "match_notes_zh": "人工核對 Open Library 題名、作者及此作品記錄年份；保留舊穩定 id，id 尾碼不是版本年份證據。主張仍待核對。",
+    "receipt_path": "artifacts/kb2-theory-v3/resume-source-lookups.json"
+  },
+  "limitations_zh": "不以書目命中證明主張；主張待原著交叉核對。",
+  "metadata_licence_zh": "Metadata only; licence UNKNOWN"
+}

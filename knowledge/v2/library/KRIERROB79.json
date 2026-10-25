@@ -1,0 +1,31 @@
+{
+  "id": "KRIERROB79",
+  "title": "Urban Space",
+  "authors": [
+    "Rob Krier"
+  ],
+  "year": 1979,
+  "venue_or_publisher": "Academy editions",
+  "doi": null,
+  "isbn": "0856705586",
+  "kind": "ACADEMIC_BOOK",
+  "tradition": "待指揮官書目分類",
+  "region": [],
+  "method": "理論／方法原著候選",
+  "claims": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Open Library",
+    "query": {
+      "title": "Urban Space",
+      "author": "Rob Krier",
+      "year": 1979
+    },
+    "matched_record_id": "/books/OL20062827M",
+    "checked_at_utc": "2026-10-08T13:46:18Z",
+    "match_notes_zh": "核對 Rob Krier 作品 Stadtraum in Theorie und Praxis 的 Urban Space 1979 英譯版本；特定 edition 出版年及 ISBN 相符，主張仍待核對。",
+    "receipt_path": "artifacts/kb2-theory-v3/resume-final-lookups.json"
+  },
+  "limitations_zh": "主張待原著交叉核對；搜尋命中只作書目候選。",
+  "metadata_licence_zh": "公開書目 metadata；授權未核對 UNKNOWN。"
+}

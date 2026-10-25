@@ -1,0 +1,44 @@
+{
+  "id": "CHECKER11",
+  "title": "Wiped Out by the “Greenwave”: Environmental Gentrification and the Paradoxical Politics of Urban Sustainability",
+  "authors": [
+    "MELISSA CHECKER"
+  ],
+  "year": 2011,
+  "venue_or_publisher": "City & Society",
+  "doi": "https://doi.org/10.1111/j.1548-744x.2011.01063.x",
+  "isbn": null,
+  "crossref_id": "https://doi.org/10.1111/j.1548-744x.2011.01063.x",
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "環境仕紳化與都市政治",
+  "region": [
+    "美國",
+    "北美"
+  ],
+  "method": "民族誌個案研究",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "Harlem 民族誌追蹤環境正義語言如何被高端永續開發吸收；作者描述環境仕紳化把公平置於利潤之下，個案不能預測每座城市的更新結果。",
+      "strength": "MIXED",
+      "scope_zh": "美國紐約 Harlem；主張限於此來源的研究設計與樣本，不外推為本基地規範。",
+      "assessment_basis": "ABSTRACT_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref",
+    "query": {
+      "title": "Wiped Out by the “Greenwave”: Environmental Gentrification and the Paradoxical Politics of Urban Sustainability",
+      "author": "MELISSA CHECKER",
+      "year": 2011
+    },
+    "matched_record_id": "https://doi.org/10.1111/j.1548-744x.2011.01063.x",
+    "checked_at_utc": "2026-10-08T09:54:10Z",
+    "match_notes_zh": "核對 Crossref 回傳書名、主要作者、出版年與 DOI；摘要只在實際取得並閱讀的論文上標 ABSTRACT_REVIEW。"
+  },
+  "limitations_zh": "美國紐約 Harlem；書目核對不替代完整論文審查。",
+  "critique_relationship_zh": "此條目的批評連結供編者並讀，不宣稱存在直接互引。",
+  "metadata_licence_zh": "僅保存公開書目欄位與自行撰寫的摘要；未保存摘要原文，metadata 授權未單獨核定。"
+}

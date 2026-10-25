@@ -1,0 +1,121 @@
+{
+  "domain": "THY",
+  "units_total": 60,
+  "topics": [
+    {
+      "topic": "規範性城市理論（Lynch 的城市好形式、性能向度）",
+      "unit_ids": [
+        "KU-THY-001",
+        "KU-THY-002",
+        "KU-THY-003",
+        "KU-THY-004",
+        "KU-THY-005",
+        "KU-THY-006",
+        "KU-THY-007",
+        "KU-THY-008"
+      ],
+      "unit_count": 8
+    },
+    {
+      "topic": "城市作為神聖秩序、機器、有機體",
+      "unit_ids": [
+        "KU-THY-009",
+        "KU-THY-010",
+        "KU-THY-011",
+        "KU-THY-012",
+        "KU-THY-013",
+        "KU-THY-014"
+      ],
+      "unit_count": 6
+    },
+    {
+      "topic": "Sitte 與城市藝術",
+      "unit_ids": [
+        "KU-THY-015",
+        "KU-THY-016",
+        "KU-THY-017",
+        "KU-THY-018",
+        "KU-THY-020"
+      ],
+      "unit_count": 5
+    },
+    {
+      "topic": "現代主義（CIAM、機能城市）與批判（Jacobs、Team 10、Collage City、Rossi、Krier）",
+      "unit_ids": [
+        "KU-THY-021",
+        "KU-THY-022",
+        "KU-THY-023",
+        "KU-THY-024",
+        "KU-THY-025",
+        "KU-THY-026",
+        "KU-THY-027",
+        "KU-THY-028",
+        "KU-THY-029",
+        "KU-THY-030",
+        "KU-THY-034",
+        "KU-THY-035"
+      ],
+      "unit_count": 12
+    },
+    {
+      "topic": "新都市主義",
+      "unit_ids": [
+        "KU-THY-031",
+        "KU-THY-032",
+        "KU-THY-033",
+        "KU-THY-036",
+        "KU-THY-037"
+      ],
+      "unit_count": 5
+    },
+    {
+      "topic": "地景都市主義／生態都市主義",
+      "unit_ids": [
+        "KU-THY-038",
+        "KU-THY-039",
+        "KU-THY-040",
+        "KU-THY-041",
+        "KU-THY-042",
+        "KU-THY-043"
+      ],
+      "unit_count": 6
+    },
+    {
+      "topic": "日常都市主義",
+      "unit_ids": [
+        "KU-THY-019",
+        "KU-THY-044",
+        "KU-THY-045",
+        "KU-THY-046",
+        "KU-THY-047",
+        "KU-THY-048"
+      ],
+      "unit_count": 6
+    },
+    {
+      "topic": "城市轉型史（倫敦、巴黎 Haussmann、維也納 Ringstrasse、巴塞隆納 Cerdà、芝加哥）",
+      "unit_ids": [
+        "KU-THY-049",
+        "KU-THY-050",
+        "KU-THY-051",
+        "KU-THY-052",
+        "KU-THY-053",
+        "KU-THY-054",
+        "KU-THY-055"
+      ],
+      "unit_count": 7
+    },
+    {
+      "topic": "荷蘭都市主義傳統",
+      "unit_ids": [
+        "KU-THY-056",
+        "KU-THY-057",
+        "KU-THY-058",
+        "KU-THY-059",
+        "KU-THY-060"
+      ],
+      "unit_count": 5
+    }
+  ],
+  "coverage_status": "DRAFT_FOR_INDEPENDENT_REVIEW"
+}

@@ -1,0 +1,96 @@
+{
+  "id": "KU-CAS-025",
+  "domain": "CAS",
+  "subtopic": "水岸與公共空間—河道復育",
+  "type": "case",
+  "title_zh": "首爾清溪川：拆除高架與覆蓋道路後重建城市水廊",
+  "title_en": "Seoul Cheonggyecheon: Reopening an Urban Stream beneath a Former Viaduct",
+  "summary_zh": "清溪川整治在 2003 至 2005 年間拆除覆蓋河道的道路設施，重新打開市中心水廊並配置步道、植栽和橋梁。首爾市府把工程範圍列為 5.84 公里，另說明總河道長度與日常維護供水安排；這些行政資料不自動代表生態恢復或公平使用的實證結果。Cho 的研究題名把案例放在都市自然復育的政治過程中，適合補上工程之外的決策與利益分配問題。河道景觀的可用性也受降雨時快速漲水和管理封閉影響。",
+  "key_points_zh": [
+    "線性河岸公共空間需要同時處理洪水安全、維護水源、沿線通行與周邊商業。",
+    "政治決策和受影響使用者應與生態工程成效分開記錄。"
+  ],
+  "evidence": {
+    "strength": "CASE_EVIDENCE",
+    "findings": [
+      {
+        "claim_zh": "Cho 的期刊論文以首爾清溪川復育為案例，研究焦點是都市自然復育的政治；本單元未把標題範圍擴張成特定社會結果。",
+        "effect_or_value": "研究題目指出政治與都市自然復育的關係",
+        "study_design": "城市案例研究；研究設計細節未由全文核對",
+        "context_region": "韓國首爾",
+        "library_id": "CHO2010",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "首爾市府記錄整治期為 2003 年7月至 2005 年9月，工程範圍5.84公里，並公布步道、植栽、燈具及維護供水等項目。",
+        "effect_or_value": "工程期程與官方工程清單，不是獨立成效估計",
+        "study_design": "市府專案歷史與設施行政資料",
+        "context_region": "韓國首爾清溪川",
+        "library_id": "SEOUL_CHEONGGYECHEON2026",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "在設計早期就標示常水來源、暴雨時撤離路徑、維護機具通道與低岸步道的封閉條件。",
+    "將沿岸公共空間使用、既有商業和歷史記憶納入影響追蹤，不用景觀照片取代使用者調查。"
+  ],
+  "applies_when_zh": "市中心覆蓋河道或高架道路可以透過工程、地面交通重整和水系營運共同恢復時。",
+  "not_applicable_when_zh": "若持續供水、洪水風險、地下設施或沿線生計問題沒有可行方案，單純拆除構造物不足以形成可維護的水岸。",
+  "debates_zh": "清溪川常被視為基礎設施拆除與自然化的象徵，但市府頁面也提醒水位會快速上升、步道需在雨天管制。自然景觀、交通改善、商業生計和政治正當性各自需要證據，不能由單一「成功」敘事概括。",
+  "sources": [
+    {
+      "library_id": "CHO2010",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "SEOUL_CHEONGGYECHEON2026",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "韓國都市更新、基礎設施拆除與河流公共空間",
+  "region": "東亞／韓國首爾",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": null,
+      "topic": "水岸公共空間與河道復育"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": null,
+      "topic": "自然政治與都市更新的分配問題"
+    },
+    {
+      "school": "MIT",
+      "course": null,
+      "topic": "基礎設施轉型與都市生態"
+    }
+  ],
+  "case": {
+    "location": "韓國首爾清溪川市中心段，太平路至東大門再至新踏鐵道橋周邊",
+    "period": "工程於 2003 年7月至 2005 年9月進行；後續持續管理",
+    "area_ha": null,
+    "fsi": null,
+    "gsi": null,
+    "program_mix": "開放河道、沿岸步道、橋梁、植栽、照明、公共活動空間與周邊商業街區；土地用途比例不適用。",
+    "key_strategies_zh": [
+      "移除覆蓋道路及高架構造，恢復連續河道和步行接觸面。",
+      "結合步道、橋梁、植栽、照明與維護供水系統，並建立暴雨封閉和撤離管理。"
+    ],
+    "outcomes_zh": [
+      "市府公布工程長度5.84公里及配套設施數據。",
+      "市府公告指出降雨時水位可能快速上升，行人步道會受限；此為使用安全及維運條件，不是效益指標。"
+    ],
+    "critiques_zh": [
+      "供水、水質和洪水安全須與河道復育成效一併檢驗，不能只用可見綠化判斷。",
+      "商販與沿線工作者在更新過程中的安置、收益和決策參與，需要獨立社會研究核對。"
+    ]
+  },
+  "version": "v2.0"
+}

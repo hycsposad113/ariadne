@@ -1,0 +1,89 @@
+{
+  "id": "KU-ARC-084",
+  "domain": "ARC",
+  "subtopic": "經典設計知識",
+  "type": "method",
+  "title_zh": "Neufert 尺度表是協調索引而非答案",
+  "title_en": "Neufert dimensional tables as coordination references",
+  "summary_zh": "Neufert《Architects’ Data》彙整建築用途、人體尺度與設備空間的設計資料。 手冊數字適合當作快速查表的起點，不能替代當地法規、人體差異或當代設備規格。 具體頁碼與版本差異留待指揮官查核。",
+  "key_points_zh": [
+    "核心主張：Neufert《Architects’ Data》彙整建築用途、人體尺度與設備空間的設計資料。",
+    "量測檢查：針對選用數字回到指定版次原頁，比對單位、圖例、適用範圍和表格註記。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "Neufert《Architects’ Data》彙整建築用途、人體尺度與設備空間的設計資料。",
+        "effect_or_value": null,
+        "study_design": "跨地域設計參照綜整；數值狀態依 claim_verification 註記",
+        "context_region": "Neufert 手冊各版次；適用地區需分別標明",
+        "library_id": "NEUFERT12",
+        "locator": null,
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "在單元資料中保存版次、頁碼和適用用途，將手冊數值與法律數值分開欄列。"
+  ],
+  "applies_when_zh": "「Neufert 尺度表是協調索引而非答案」可在用於方案前期的量體、平面或空間品質篩檢時使用，前提是Neufert《Architects’ Data》彙整建築用途、人體尺度與設備空間的設計資料與來源情境相符。",
+  "not_applicable_when_zh": "若Neufert《Architects’ Data》彙整建築用途、人體尺度與設備空間的設計資料不成立，就不能把「Neufert 尺度表是協調索引而非答案」的結論延伸到其他情況；不得單獨作為許可、消防、結構或基地法規判定。",
+  "debates_zh": "不同版次、國家標準和產品尺寸會變動，二手轉述尤其容易留下過時值。",
+  "sources": [
+    {
+      "library_id": "NEUFERT12",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "SAMUELS2008",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+  "tradition": "建築設計工具書；尺度協調",
+  "region": "Neufert 手冊各版次；適用地區需分別標明",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Housing and the City / Design of the Urban Fabric",
+      "topic": "建築尺度與住宅平面"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "建築尺度與街道界面"
+    },
+    {
+      "school": "MIT",
+      "course": "Architecture and Urban Design",
+      "topic": "建築尺度與空間型態"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "建築尺度與公共生活"
+    }
+  ],
+  "check": {
+    "method_zh": "針對選用數字回到指定版次原頁，比對單位、圖例、適用範圍和表格註記。",
+    "inputs": [
+      "經典設計知識",
+      "尺寸／面積圖層",
+      "適用地區與用途標籤"
+    ],
+    "logic_zh": "將量測輸入轉成明確尺寸、比例或空間關係；越界只觸發複核，不自動取代設計決策。",
+    "limitations_zh": "量測結果只觸發「Neufert 尺度表是協調索引而非答案」的複核，不得單獨作為許可或法規判定。"
+  },
+  "version": "kb2-arc-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-ARC-080",
+    "KU-ARC-081",
+    "KU-ARC-082",
+    "KU-ARC-083"
+  ]
+}

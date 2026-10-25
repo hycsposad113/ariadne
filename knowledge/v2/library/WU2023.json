@@ -1,0 +1,44 @@
+{
+  "id": "WU2023",
+  "title": "The node-place model, accessibility, and station level transit ridership",
+  "authors": [
+    "Hao Wu",
+    "Jinwoo Brian Lee",
+    "David Matthew Levinson"
+  ],
+  "year": 2023,
+  "venue_or_publisher": "Journal of Transport Geography",
+  "doi": "https://doi.org/10.1016/j.jtrangeo.2023.103739",
+  "isbn": null,
+  "openalex_id": "https://openalex.org/W4388169569",
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "鐵路站點節點與場所可及性",
+  "region": "澳洲雪梨",
+  "method": "車站層級公共運輸乘客量與在地、區域可及性分析",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "雪梨鐵路資料研究分開計算站點步行範圍內的在地機會和公共運輸可達的區域機會，並檢視兩種接近性與車站乘客量的關係。",
+      "strength": "MIXED",
+      "scope_zh": "這是雪梨站點層級的關聯分析；不替其他城市的站區分類提供固定界線。",
+      "assessment_basis": "ABSTRACT_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "OpenAlex",
+    "query": {
+      "record_id": "https://openalex.org/W4388169569",
+      "doi": "10.1016/j.jtrangeo.2023.103739",
+      "title": "The node-place model, accessibility, and station level transit ridership",
+      "author": "Hao Wu",
+      "year": 2023
+    },
+    "matched_record_id": "https://openalex.org/W4388169569",
+    "checked_at_utc": "2026-10-09T00:17:21Z",
+    "match_notes_zh": "以允許的公開書目 API 精確比對題名、首位作者與出版年；只保留自行撰寫的摘要範圍說明，未保存全文或 API 摘要原文。"
+  },
+  "limitations_zh": "本條目依公開摘要或書目範圍整理；未下載全文，也不外推摘要未列的樣本、效果量或因果結論。",
+  "metadata_licence_zh": "僅保存公開書目欄位與自行撰寫的繁體中文摘要；未複製摘要全文或論文全文。"
+}

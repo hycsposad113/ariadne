@@ -1,0 +1,45 @@
+{
+  "id": "RATTI04",
+  "title": "Space Syntax: Some Inconsistencies",
+  "authors": [
+    "Carlo Ratti"
+  ],
+  "year": 2004,
+  "venue_or_publisher": "Environment and Planning B: Planning and Design",
+  "doi": "10.1068/b3019",
+  "isbn": null,
+  "openalex_id": "https://openalex.org/W1992960431",
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "空間語法批評",
+  "region": [
+    "歐洲"
+  ],
+  "method": "方法論批評",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "將空間語法表示法與幾何資訊的限制列為方法審查問題；應與作者回應和替代圖方法並讀。",
+      "strength": "THEORETICAL",
+      "scope_zh": "方法論比較；不是所有 Syntax 結果無效的結論。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [
+    "HILLIERPENN04"
+  ],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref",
+    "query": {
+      "title": "Space syntax: some inconsistencies",
+      "author": "Carlo Ratti",
+      "year": 2004
+    },
+    "matched_record_id": "10.1068/b3019",
+    "checked_at_utc": "2026-10-08T03:38:06Z",
+    "match_notes_zh": "人工核對標題、作者及 2004 年，與 OpenAlex DOI 一致。"
+  },
+  "limitations_zh": "只查書目，未讀全文；具體辯論推導待審核。",
+  "critique_relationship_zh": "known_critiques 是編者指定的批評或替代閱讀，不宣稱實際互引或逐一反駁；Ratti 與 Hillier／Penn 的標題記錄確認明確對話。",
+  "metadata_licence_zh": "只保存公開 API 書目與自行摘要；未取得全文授權，未保存 API 摘要原文。精確 metadata licence 未經本任務核驗，標 UNKNOWN。"
+}

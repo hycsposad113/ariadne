@@ -1,0 +1,95 @@
+{
+  "id": "KU-MET-052",
+  "domain": "MET",
+  "subtopic": "參與式方法",
+  "type": "value_range",
+  "title_zh": "參與方法：權力和對象",
+  "title_en": "Participatory methods — concept unit 052",
+  "summary_zh": "Arnstein 的參與階梯把公民權力分成八級：操弄、治療、告知、諮詢、安撫、夥伴、授權、公民控制。判讀要看居民是否能設定議程、改變方案或掌握資源，而不是數出席人次。階梯有助揭露權力差距，但不能不經情境分析就把所有協作形式排成固定優劣表。",
+  "key_points_zh": [
+    "Arnstein 的參與階梯把公民權力分成八級：操弄、治療、告知、諮詢、安撫、夥伴、授權、公民控制。",
+    "判讀要看居民是否能設定議程、改變方案或掌握資源，而不是數出席人次。",
+    "階梯有助揭露權力差距，但不能不經情境分析就把所有協作形式排成固定優劣表。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "【BIBLIOGRAPHIC_SCOPE_ONLY】就「參與方法：權力和對象」而言，「A Ladder of Citizen Participation」提供參與階梯／公民權力的比較坐標；此處僅使用其已標明的書目／摘要範圍，不延伸為未核對的效果或因果。",
+        "effect_or_value": null,
+        "study_design": "規劃參與理論",
+        "context_region": "美國；跨地域",
+        "library_id": "ARNSTEIN1969",
+        "locator": null,
+        "claim_verification": "CANONICAL_CROSS_CHECK_PENDING"
+      },
+      {
+        "claim_zh": "【BIBLIOGRAPHIC_SCOPE_ONLY】就「參與方法：權力和對象」而言，「The Endowment of Community Participation: Institutional Settings in Two Urban Regeneration Projects」提供參與制度／都市再生的比較坐標；此處僅使用其已標明的書目／摘要範圍，不延伸為未核對的效果或因果。",
+        "effect_or_value": null,
+        "study_design": "制度脈絡／兩案比較",
+        "context_region": "歐洲",
+        "library_id": "SAVINI2010",
+        "locator": null,
+        "claim_verification": "CANONICAL_CROSS_CHECK_PENDING"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "以實際控制議程和資源的程度判讀參與，而非按活動出席率貼標籤。"
+  ],
+  "design_options": [],
+  "applies_when_zh": "當問題包含「參與方法：權力和對象」且需比較方案會改變日常通行、地方使用、住宅或生計時時使用。",
+  "not_applicable_when_zh": "若研究缺少對應尺度或群體資料，不以「參與方法：權力和對象」取代把一次諮詢、問卷或簽到當成社區同意時。",
+  "debates_zh": "「參與方法：權力和對象」的爭點在於出席、諮詢和權力分享不是同一件事；代表性、語言、時間和制度會造成選擇性缺席；參與階梯／公民權力與參與式都市更新／印度的研究對象不同，需保留差異而不能合併成單一規則。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "ARNSTEIN1969",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "SAVINI2010",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "共同規劃／參與設計",
+  "region": "美國；跨地域；英國",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Methods of Analysis & Imagination",
+      "topic": "參與方法：權力和對象 — 參與式方法"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "參與方法：權力和對象 — 參與式方法"
+    },
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.301J",
+      "topic": "參與方法：權力和對象 — 參與式方法"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "參與方法：權力和對象 — 參與式方法"
+    }
+  ],
+  "version": "2.0.0",
+  "values": [
+    {
+      "name": "Arnstein 參與階梯",
+      "range": "8級：操弄、治療、告知、諮詢、安撫、夥伴、授權、公民控制",
+      "unit": "levels",
+      "context": "美國1969年公民參與框架；用於辨識決策權分布，不是跨制度的參與品質總分；這不是本基地法規。",
+      "library_id": "ARNSTEIN1969",
+      "claim_verification": "CANONICAL_CROSS_CHECK_PENDING"
+    }
+  ],
+  "claim_verification": "CANONICAL_CROSS_CHECK_PENDING"
+}

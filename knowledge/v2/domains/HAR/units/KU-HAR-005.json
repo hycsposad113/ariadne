@@ -1,0 +1,71 @@
+{
+  "id": "KU-HAR-005",
+  "domain": "HAR",
+  "subtopic": "分期開發",
+  "type": "method",
+  "title_zh": "分期再利用應把篩選判斷與長期結果分開",
+  "title_en": "Separate reuse screening from long-term outcomes",
+  "summary_zh": "Langston 等人把香港建築再利用機會的策略評估作為研究題目，Bullen 則整理業主對再利用的態度和判斷。兩者可支援建立早期篩選流程，但不能據書目直接比較工業區分期速度。實務流程可以先確認建築安全、權屬、污染和可逆性，再安排短期使用與後續投資。每一階段需保存停止、修復或轉換用途的條件。",
+  "key_points_zh": [
+    "早期可行性檢視和長期績效是不同證據階段。",
+    "分期方案需要明確的轉換條件和責任人。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "library_id": "LANGSTON2008",
+        "claim_zh": "文章聚焦以策略評估辨識香港建築適應性再利用機會。",
+        "effect_or_value": "前期篩選和機會評估範圍",
+        "study_design": "策略評估研究，依書目範圍",
+        "context_region": "香港建築環境",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "library_id": "BULLEN2007",
+        "claim_zh": "業主調查說明再利用選項亦涉及決策者態度和直覺判斷。",
+        "effect_or_value": "利害關係人態度；不能作施工完成證據",
+        "study_design": "業主調查及文獻回顧",
+        "context_region": "西澳大利亞商業建築",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "每一期設定可逆用途、必要修復、資金責任和重新評估日期。",
+    "污染或結構安全尚未查明時，不以短期活化取代調查和修復。"
+  ],
+  "applies_when_zh": "適用於棕地或大型既有建築群的分期盤點與投資時序討論。",
+  "not_applicable_when_zh": "不適用於用一份初步評估直接承諾再利用後效益。",
+  "debates_zh": "分期能降低一次性投入，也可能把污染責任和不確定性留給後續使用者；階段交接必須有可稽核條件。",
+  "sources": [
+    {
+      "library_id": "LANGSTON2008",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "BULLEN2007",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "建築再利用的策略評估",
+  "region": "香港與西澳大利亞",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": null,
+      "topic": "分期開發"
+    },
+    {
+      "school": "MIT",
+      "course": null,
+      "topic": "棕地更新與投資決策"
+    }
+  ],
+  "version": "v2.0"
+}

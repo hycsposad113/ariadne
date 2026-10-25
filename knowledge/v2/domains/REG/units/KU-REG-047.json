@@ -1,0 +1,95 @@
+{
+  "id": "KU-REG-047",
+  "domain": "REG",
+  "subtopic": "新加坡用途與容積治理",
+  "type": "empirical_finding",
+  "title_zh": "新加坡分區本體可串接用途與計畫活動",
+  "title_en": "OntoZoning in Singapore",
+  "summary_zh": "這是資料架構示範，不評估法規遵循或規劃公平的最終效果。 建立知識庫時保留分區類別和用途定義的關係。 研究設計：本體設計、知識圖譜和場址探索示範；地區：新加坡。 限制：這是資料架構示範，不評估法規遵循或規劃公平的最終效果。",
+  "key_points_zh": [
+    "研究示範把分區類型、用途和計畫用途連入地理知識圖譜，並執行跨領域查詢。",
+    "研究設計：本體設計、知識圖譜和場址探索示範；地區：新加坡",
+    "限制：這是資料架構示範，不評估法規遵循或規劃公平的最終效果。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "研究示範把分區類型、用途和計畫用途連入地理知識圖譜，並執行跨領域查詢。",
+        "effect_or_value": "語意模型提升規劃資料的查詢及整合能力",
+        "study_design": "本體設計、知識圖譜和場址探索示範",
+        "context_region": "新加坡",
+        "library_id": "SILVENNOINEN2023",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "建立知識庫時保留分區類別和用途定義的關係。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "建立知識庫時保留分區類別和用途定義的關係。",
+      "tradeoff_zh": "此選項把「新加坡分區本體可串接用途與計畫活動」的工作放在研究示範把分區類型、用途和計畫用途連入地理知識圖譜，並執行跨領域查詢上；需要承擔的協調或維護代價則由「這是資料架構示範，不評估法規遵循或規劃公平的最終效果」界定。",
+      "library_ids": [
+        "SILVENNOINEN2023",
+        "TALEN2012"
+      ]
+    },
+    {
+      "option_zh": "在「新加坡分區本體可串接用途與計畫活動」的來源情境裡，語意化分區資料協助查詢，土地拍賣資料用於理解競價；落到設計時還要按研究示範把分區類型、用途和計畫用途連入地理知識圖譜，並執行跨領域查詢調整。",
+      "tradeoff_zh": "此選項把「新加坡分區本體可串接用途與計畫活動」的工作放在研究示範把分區類型、用途和計畫用途連入地理知識圖譜，並執行跨領域查詢上；需要承擔的協調或維護代價則由「這是資料架構示範，不評估法規遵循或規劃公平的最終效果」界定。",
+      "library_ids": [
+        "SILVENNOINEN2023",
+        "TALEN2012"
+      ]
+    }
+  ],
+  "applies_when_zh": "用於與新加坡研究情境可比、且量測定義相近的分析。",
+  "not_applicable_when_zh": "這是資料架構示範，不評估法規遵循或規劃公平的最終效果。",
+  "debates_zh": "這是資料架構示範，不評估法規遵循或規劃公平的最終效果。",
+  "sources": [
+    {
+      "library_id": "SILVENNOINEN2023",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "TALEN2012",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "新加坡規劃資料語意化；城市形態與規劃規則",
+  "region": "新加坡；美國",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Planning Complex Cities",
+      "topic": "新加坡用途與容積治理"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Urban Design Contexts and Operations",
+      "topic": "新加坡用途與容積治理"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "新加坡用途與容積治理"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban design governance",
+      "topic": "新加坡用途與容積治理"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-REG-043",
+    "KU-REG-044",
+    "KU-REG-045"
+  ]
+}

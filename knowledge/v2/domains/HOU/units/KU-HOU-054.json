@@ -1,0 +1,107 @@
+{
+  "id": "KU-HOU-054",
+  "domain": "HOU",
+  "subtopic": "老化與多世代居住",
+  "type": "design_principle",
+  "title_zh": "老化與多世代居住｜設計原則",
+  "title_en": "Ageing and multigenerational housing — Design principle",
+  "summary_zh": "設計原則從連續可達的服務路徑落筆，再分別檢視全齡鄰里設施和小規模跨代居住。 回顧指出一般住宅尚未普遍支援衰弱長者；香港來源列出的安全、熱舒適和健康資訊面向仍缺少足夠摘要細節來估計效果。 將休息、集體服務和居家邊界畫清楚，比只貼上「適老」標籤更可供評圖。",
+  "key_points_zh": [
+    "將行動能力和日常支援頻率轉成入口、休息點與服務觸點的空間檢核。",
+    "分清居家自理、社區支持和機構照護層級，不以一組問卷代表所有高齡住戶。",
+    "限制：不可把少數高齡者或學生住宅樣本當成普遍家庭偏好。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "回顧辨識全齡鄰里、集體服務與小規模跨世代住宅等方向，同時指出多數住宅和周邊尚未普遍支援衰弱長者。",
+        "library_id": "FORSYTH2019",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "美國為主要政策背景，含跨國設計文獻",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "研究摘要指出安全、熱舒適與健康資訊需求隨年齡組別提高；由於樣本和方法細節未公開於摘要，不能推估全港效果大小。",
+        "library_id": "MOHONGKONG2023",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "香港私人住宅屋苑",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "在入口到服務點的路徑上安排可停留的位置與無障礙連續面，並檢查照護進場不會侵入住戶私密空間。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "沿住宅到服務點的日常路徑安排可停留的休息位置，並分別核對採買和照護活動。",
+      "tradeoff_zh": "連續無障礙路徑能支援日常移動，出入口整合仍須兼顧照護通行與住戶私密。",
+      "library_ids": [
+        "FORSYTH2019",
+        "MOHONGKONG2023"
+      ]
+    },
+    {
+      "option_zh": "讓住宅與共享服務的連接有明確層次，再逐處確認照護、採買和休息活動發生的位置。",
+      "tradeoff_zh": "服務連接越直接，公共流線也越可能貼近家戶；設計須清楚劃分共享與私領域。",
+      "library_ids": [
+        "FORSYTH2019",
+        "MOHONGKONG2023"
+      ]
+    }
+  ],
+  "applies_when_zh": "用於全齡住宅或社會住宅的入口、休息點、服務和照護路徑設計；若議題只關乎市場戶型效率，應另選相應指標。",
+  "not_applicable_when_zh": "不可把少數高齡者或學生住宅樣本當成普遍家庭偏好。",
+  "debates_zh": "通用設計可服務更多年齡層；若規劃只按高齡者需求安排，仍可能忽略多代家庭和青年租戶的私密、工作與休息需求。",
+  "sources": [
+    {
+      "library_id": "FORSYTH2019",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "MOHONGKONG2023",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "高齡住宅與全齡鄰里設計；高齡住宅偏好與在地老化",
+  "region": "美國為主要政策背景，含跨國設計文獻；香港私人住宅屋苑",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "老化與多世代居住"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "老化與多世代居住"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "老化與多世代居住"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "老化與多世代居住"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-HOU-052",
+    "KU-HOU-053",
+    "KU-HOU-055"
+  ],
+  "counter_unit_ids": [
+    "KU-HOU-056"
+  ]
+}

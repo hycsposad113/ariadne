@@ -1,0 +1,82 @@
+{
+  "id": "KU-MET-029",
+  "domain": "MET",
+  "subtopic": "情境與策略規劃",
+  "type": "method",
+  "title_zh": "情境與策略：外部變數明示",
+  "title_en": "Scenario and strategic planning — method unit 029",
+  "summary_zh": "情境分析應分開外部變數與設計者可控的決策，避免把市場、政策或氣候假設藏在方案描述中。本項主張可與規劃權力／實踐理性及韌性批評對照，並保留它們的地域和制度範圍。套用「情境與策略：外部變數明示」時仍需檢查情境不是機率預測；選擇情境、假設與策略都帶有治理和價值判斷。",
+  "key_points_zh": [
+    "情境分析應分開外部變數與設計者可控的決策，避免把市場、政策或氣候假設藏在方案描述中。",
+    "本項主張可與規劃權力／實踐理性及韌性批評對照，並保留它們的地域和制度範圍。",
+    "套用「情境與策略：外部變數明示」時仍需檢查情境不是機率預測；選擇情境、假設與策略都帶有治理和價值判斷。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "【BIBLIOGRAPHIC_SCOPE_ONLY】就「情境與策略：外部變數明示」而言，「The just city」提供都市分配正義的比較坐標；此處僅使用其已標明的書目／摘要範圍，不延伸為未核對的效果或因果。",
+        "effect_or_value": null,
+        "study_design": "規範性理論",
+        "context_region": "美國；歐洲",
+        "library_id": "FANSTEIN10",
+        "locator": null
+      },
+      {
+        "claim_zh": "【BIBLIOGRAPHIC_SCOPE_ONLY】就「情境與策略：外部變數明示」而言，「Accessibility evaluation of land-use and transport strategies: review and research directions」提供可及性評估的比較坐標；此處僅使用其已標明的書目／摘要範圍，不延伸為未核對的效果或因果。",
+        "effect_or_value": null,
+        "study_design": "方法綜述",
+        "context_region": "荷蘭；跨地域",
+        "library_id": "GEURS04",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "方案圖面應呈現「情境與策略：外部變數明示」所指出的空間關係，並為關鍵判斷附上規劃權力／實踐理性與韌性批評各自支持和無法支持的部分。"
+  ],
+  "design_options": [],
+  "applies_when_zh": "當問題包含「情境與策略：外部變數明示」且需比較長期條件不確定、利害關係互相衝突或需要比較分期路徑時時使用。",
+  "not_applicable_when_zh": "若研究缺少對應尺度或群體資料，不以「情境與策略：外部變數明示」取代把情境數量或敘事完整度當成風險已消除的證據時。",
+  "debates_zh": "「情境與策略：外部變數明示」的爭點在於情境不是機率預測；選擇情境、假設與策略都帶有治理和價值判斷；規劃權力／實踐理性與韌性批評的研究對象不同，需保留差異而不能合併成單一規則。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "FANSTEIN10",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "GEURS04",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "規劃方法／策略與情境",
+  "region": "丹麥；歐洲；跨地域",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Methods of Analysis & Imagination",
+      "topic": "情境與策略：外部變數明示 — 情境與策略規劃"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "情境與策略：外部變數明示 — 情境與策略規劃"
+    },
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.301J",
+      "topic": "情境與策略：外部變數明示 — 情境與策略規劃"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "情境與策略：外部變數明示 — 情境與策略規劃"
+    }
+  ],
+  "version": "2.0.0"
+}

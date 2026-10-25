@@ -1,0 +1,74 @@
+{
+  "id": "KU-PUB-035",
+  "domain": "PUB",
+  "subtopic": "安全：CPTED 與批評",
+  "type": "value_range",
+  "title_zh": "視覺交往與社交距離",
+  "title_en": "Social interaction distance",
+  "summary_zh": "Gehl 的人本尺度討論以約一點二至三點七公尺描述一般社交距離。此範圍可用來檢查座位是否既能交談也能保有個人空間。它不包含騷擾、權力差異或特殊溝通需求。安全感與距離的關係會因人而異，沒有單一最安心尺寸。",
+  "key_points_zh": [
+    "Gehl（2010）引用 Hall（1966）的人際距離：社交距離約 1.2–3.7 m",
+    "此範圍可用來檢查座位是否既能交談也能保有個人空間"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "Gehl（2010）引用 Hall（1966）的人際距離：社交距離約 1.2–3.7 m。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "北美",
+        "library_id": "GEHL10",
+        "locator": null,
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+        "limitations_zh": "安全感與距離的關係會因人而異，沒有單一最安心尺寸。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "在照明和視線分析之外，也檢查座位間距是否提供退出選項。"
+  ],
+  "applies_when_zh": "適用於夜間休息區和等候區的空間配置。",
+  "not_applicable_when_zh": "不應把這個範圍轉成警察巡邏或人群管制門檻。",
+  "debates_zh": "安全感與距離的關係會因人而異，沒有單一最安心尺寸。",
+  "sources": [
+    {
+      "library_id": "GEHL10",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "WOLCH14",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "CHECKER11",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "環境正義與綠地治理",
+  "region": "北美",
+  "curriculum_refs": [
+    {
+      "school": "UCL Bartlett",
+      "course": "Critical Debates in Urban Design",
+      "topic": "安全：CPTED 與批評"
+    }
+  ],
+  "version": "2.0.0",
+  "values": [
+    {
+      "name": "視覺交往與社交距離",
+      "range": "約 1.2–3.7 m",
+      "unit": "公尺",
+      "context": "Gehl 公共生活尺度的經典描述；此值用於觀察互動可能性。；「視覺交往與社交距離」僅供其研究脈絡內比較，不構成本基地法規；來源所列地域：丹麥、跨地域。",
+      "library_id": "GEHL10"
+    }
+  ],
+  "related_unit_ids": [
+    "KU-PUB-036"
+  ]
+}

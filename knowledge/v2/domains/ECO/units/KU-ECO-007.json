@@ -1,0 +1,66 @@
+{
+  "id": "KU-ECO-007",
+  "domain": "ECO",
+  "subtopic": "地景生態學：嵌塊、廊道、基質",
+  "type": "design_principle",
+  "title_zh": "異質拼貼提供不同生態機會",
+  "title_en": "Heterogeneous landscapes provide options",
+  "summary_zh": "城市中的水體、草地、樹林和荒地可能支援不同生命史階段。均質草坪便於維護，卻不一定承載多樣的棲地結構。管理成本和居民整潔偏好會影響可接受的異質性。自然化與整潔期待的衝突需要共同解釋。",
+  "key_points_zh": [
+    "城市中的水體、草地、樹林和荒地可能支援不同生命史階段",
+    "均質草坪便於維護，卻不一定承載多樣的棲地結構"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "城市中的水體、草地、樹林和荒地可能支援不同生命史階段。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "全球多城市",
+        "library_id": "ARONSON14",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "自然化與整潔期待的衝突需要共同解釋。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "以多種生境拼貼而非全域同一植被策略組織公園。"
+  ],
+  "applies_when_zh": "適用於區域生態網絡和複合型公園。",
+  "not_applicable_when_zh": "不應將生境異質性等同於無管理的荒置。",
+  "debates_zh": "自然化與整潔期待的衝突需要共同解釋。",
+  "sources": [
+    {
+      "library_id": "ARONSON14",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "ARONSON17",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "都市保育生物地理",
+  "region": "全球多城市",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "地景生態學：嵌塊、廊道、基質"
+    },
+    {
+      "school": "MIT",
+      "course": "11.330J Theory of City Form",
+      "topic": "地景生態學：嵌塊、廊道、基質"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-ECO-006",
+    "KU-ECO-008"
+  ]
+}

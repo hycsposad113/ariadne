@@ -1,0 +1,80 @@
+{
+  "id": "KU-STR-054",
+  "domain": "STR",
+  "subtopic": "街道作為公共空間",
+  "type": "typology",
+  "title_zh": "街道作為公共空間：型態比較",
+  "title_en": "Street as public space: Typology comparison",
+  "summary_zh": "商業街、居住街、校園周邊、廣場化街道和市場街的停留與管理需求不同，應比較地方實際使用。類型比較要回到街道承載日常交往、停留、通行和服務；公共性來自可進入、可使用和管理方式，不能只由路面外觀推定。各類型的成本和適用條件包括：設計良好的公共空間不保證社群形成；私有管理、治安措施和商業化可能改變誰能使用。",
+  "key_points_zh": [
+    "比較類型：街道承載日常交往、停留、通行和服務；公共性來自可進入、可使用和管理方式，不能只由路面外觀推定",
+    "比較類型：商業街、居住街、校園周邊、廣場化街道和市場街的停留與管理需求不同，應比較地方實際使用"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "街道作為公共空間：型態比較｜以公共空間的實際停留與使用作觀察依據；不能由案例直接推定其他城市的廣場尺寸",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "WHYTE80",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "街道作為公共空間：型態比較｜特定鄰里形式不保證社群感；社會互動可能透過中介條件發生，其他設計也可能達成",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "TALEN99",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "類型表應比較「街道承載日常交往、停留、通行和服務；公共性來自可進入、可使用和管理方式，不能只由路面外觀推定」及其使用代價「設計良好的公共空間不保證社群形成；私有管理、治安措施和商業化可能改變誰能使用」，不要只列名稱。"
+  ],
+  "applies_when_zh": "比較街道作為公共空間方案時，可先用「街道承載日常交往、停留、通行和服務；公共性來自可進入、可使用和管理方式，不能只由路面外觀推定」描述各類型，再按「設計良好的公共空間不保證社群形成；私有管理、治安措施和商業化可能改變誰能使用」檢查分類的盲點。",
+  "not_applicable_when_zh": "這些類型不構成普遍排序；遇到「設計良好的公共空間不保證社群形成；私有管理、治安措施和商業化可能改變誰能使用」所述條件時，不應只依類名決定路網或街道配置。",
+  "debates_zh": "設計良好的公共空間不保證社群形成；私有管理、治安措施和商業化可能改變誰能使用；檢視「街道作為公共空間：型態比較」的分類邊界時，還需判斷「商業街、居住街、校園周邊、廣場化街道和市場街的停留與管理需求不同，應比較地方實際使用」會如何改變方案結論。",
+  "sources": [
+    {
+      "library_id": "WHYTE80",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "TALEN99",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "公共生活與街道治理",
+  "region": "跨地域理論或實務脈絡；來源地區依引用條目判讀",
+  "curriculum_refs": [
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "街道作為公共空間：課綱對應主題"
+    },
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "街道作為公共空間：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-STR-049",
+    "KU-STR-050",
+    "KU-STR-051",
+    "KU-STR-052",
+    "KU-STR-053",
+    "KU-STR-055",
+    "KU-STR-056"
+  ]
+}

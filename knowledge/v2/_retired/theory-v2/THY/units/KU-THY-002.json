@@ -1,0 +1,95 @@
+{
+  "id": "KU-THY-002",
+  "domain": "THY",
+  "subtopic": "規範性城市理論（Lynch 的城市好形式、性能向度）",
+  "type": "value_range",
+  "title_zh": "Image elements",
+  "title_en": "Lynch image elements",
+  "summary_zh": "《城市意象》討論人如何辨識並組織城市環境，提出 paths、edges、districts、nodes、landmarks 五種意象元素。它們是經訪談與認知地圖整理出的分析類別，不是必須在每個基地各造一個的設計清單。不同文化、日常路徑與熟悉度會改變地標及邊界的可讀性。",
+  "key_points_zh": [
+    "《城市意象》討論人如何辨識並組織城市環境，提出 paths、edges、districts、nodes、landmarks 五種意象元素。",
+    "它們是經訪談與認知地圖整理出的分析類別，不是必須在每個基地各造一個的設計清單。",
+    "不同文化、日常路徑與熟悉度會改變地標及邊界的可讀性。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "【BIBLIOGRAPHIC_SCOPE_ONLY】就「Image elements」而言，「The Image of the City」提供都市認知的比較坐標；此處僅使用其已標明的書目／摘要範圍，不延伸為未核對的效果或因果。",
+        "effect_or_value": null,
+        "study_design": "認知案例",
+        "context_region": "美國",
+        "library_id": "LYNCH60",
+        "locator": null,
+        "claim_verification": "CANONICAL_CROSS_CHECK_PENDING"
+      },
+      {
+        "claim_zh": "【ABSTRACT_REVIEW】就「Image elements」而言，「Towards decolonised knowledge about transport」提供交通知識去殖民批評的比較坐標；此處僅使用其已標明的書目／摘要範圍，不延伸為未核對的效果或因果。",
+        "effect_or_value": null,
+        "study_design": "知識論批評",
+        "context_region": "全球南方",
+        "library_id": "SCHWANEN18",
+        "locator": null,
+        "claim_verification": "CANONICAL_CROSS_CHECK_PENDING"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "讓不同使用者各自繪製日常認知地圖，再對照路徑、邊界、區域、節點與地標。"
+  ],
+  "design_options": [],
+  "applies_when_zh": "當問題包含「Image elements」且需比較需要明確比較多個空間策略、使用群體與尺度時時使用。",
+  "not_applicable_when_zh": "若研究缺少對應尺度或群體資料，不以「Image elements」取代需要法規判定、精確行為預測或未經同意的總分排序時。",
+  "debates_zh": "「Image elements」的爭點在於評價維度與權重帶有價值選擇；案例關聯不會替設計者完成排序；都市認知與城市文明史的研究對象不同，需保留差異而不能合併成單一規則。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "LYNCH60",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "SCHWANEN18",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "規範性城市理論／環境意象",
+  "region": "美國；跨地域",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "Image elements — 規範性城市理論（Lynch 的城市好形式、性能向度）"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Urban Design Contexts and Operations",
+      "topic": "Image elements — 規範性城市理論（Lynch 的城市好形式、性能向度）"
+    },
+    {
+      "school": "MIT",
+      "course": "4.241J Theory of City Form / 11.301J Urban Design and Development",
+      "topic": "Image elements — 規範性城市理論（Lynch 的城市好形式、性能向度）"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Critical Debates in Urban Design",
+      "topic": "Image elements — 規範性城市理論（Lynch 的城市好形式、性能向度）"
+    }
+  ],
+  "version": "2.0.0",
+  "values": [
+    {
+      "name": "Lynch 的城市意象元素",
+      "range": "5類：paths、edges、districts、nodes、landmarks",
+      "unit": "elements",
+      "context": "美國城市意象研究；用於認知地圖與環境辨識，分類不能當成每案設計配額；這不是本基地法規。",
+      "library_id": "LYNCH60",
+      "claim_verification": "CANONICAL_CROSS_CHECK_PENDING"
+    }
+  ],
+  "claim_verification": "CANONICAL_CROSS_CHECK_PENDING"
+}

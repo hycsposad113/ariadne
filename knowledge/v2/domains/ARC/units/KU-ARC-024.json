@@ -1,0 +1,90 @@
+{
+  "id": "KU-ARC-024",
+  "domain": "ARC",
+  "subtopic": "住宅單元與類型",
+  "type": "typology",
+  "title_zh": "周邊式街廓住宅的雙重界面",
+  "title_en": "perimeter-block housing dual frontage",
+  "summary_zh": "周邊式街廓以連續街牆形成公共邊界，同時把較安靜的共同空間留在內院。 住宅單元通常需要清楚區分街道側與庭院側的房間角色。 均質環繞可能造成角落戶型和內院通風的特殊問題。",
+  "key_points_zh": [
+    "核心主張：周邊式街廓以連續街牆形成公共邊界，同時把較安靜的共同空間留在內院。",
+    "量測檢查：把街牆連續率、院內淨寬、每戶對外窗面及入口位置分層量測。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "周邊式街廓以連續街牆形成公共邊界，同時把較安靜的共同空間留在內院。",
+        "effect_or_value": null,
+        "study_design": "跨地域設計參照綜整；數值狀態依 claim_verification 註記",
+        "context_region": "跨地域；用途與當地法規需分開核驗",
+        "library_id": "COURTYARD_HOUSES07",
+        "locator": null,
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "以街側—住宅—院側的剖面序列檢查主要房間朝向與服務空間排列。"
+  ],
+  "applies_when_zh": "「周邊式街廓住宅的雙重界面」可在用於方案前期的量體、平面或空間品質篩檢時使用，前提是周邊式街廓以連續街牆形成公共邊界，同時把較安靜的共同空間留在內院與來源情境相符。",
+  "not_applicable_when_zh": "若周邊式街廓以連續街牆形成公共邊界，同時把較安靜的共同空間留在內院不成立，就不能把「周邊式街廓住宅的雙重界面」的結論延伸到其他情況；不得單獨作為許可、消防、結構或基地法規判定。",
+  "debates_zh": "連續街牆有利於空間圍合，但若一樓封閉或內院過小，街道活力和日照都會受損。",
+  "sources": [
+    {
+      "library_id": "COURTYARD_HOUSES07",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "NAVASTARA2017",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+  "tradition": "歐洲周邊式街廓；城市形態學",
+  "region": "跨地域；用途與當地法規需分開核驗",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Housing and the City / Design of the Urban Fabric",
+      "topic": "建築尺度與住宅平面"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "建築尺度與街道界面"
+    },
+    {
+      "school": "MIT",
+      "course": "Architecture and Urban Design",
+      "topic": "建築尺度與空間型態"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "建築尺度與公共生活"
+    }
+  ],
+  "check": {
+    "method_zh": "把街牆連續率、院內淨寬、每戶對外窗面及入口位置分層量測。",
+    "inputs": [
+      "住宅單元與類型",
+      "尺寸／面積圖層",
+      "適用地區與用途標籤"
+    ],
+    "logic_zh": "將量測輸入轉成明確尺寸、比例或空間關係；越界只觸發複核，不自動取代設計決策。",
+    "limitations_zh": "量測結果只觸發「周邊式街廓住宅的雙重界面」的複核，不得單獨作為許可或法規判定。"
+  },
+  "version": "kb2-arc-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-ARC-001",
+    "KU-ARC-002",
+    "KU-ARC-003",
+    "KU-ARC-004",
+    "KU-ARC-005"
+  ]
+}

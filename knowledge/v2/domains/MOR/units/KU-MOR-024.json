@@ -1,0 +1,106 @@
+{
+  "id": "KU-MOR-024",
+  "domain": "MOR",
+  "subtopic": "Spacematrix：FSI、GSI、OSR、L",
+  "type": "typology",
+  "title_zh": "Spacematrix：FSI、GSI、OSR、L｜類型取捨",
+  "title_en": "Spacematrix metrics — Typology and trade-offs",
+  "summary_zh": "FSI 只描述樓地板量，不能單獨交代覆蓋、開放空間或活動強度。 相同 FSI 可以來自低覆蓋高樓，也可以來自高覆蓋低樓，院落和街道感受會不同。 比較 Spacematrix 類型時先統一街廓邊界、地下層和開放空間的計算口徑。",
+  "key_points_zh": [
+    "相近 FSI 可以由低矮高覆蓋或高樓低覆蓋組成，街道體驗並不相同。",
+    "適用於比較住宅街區、更新區和形態情境。",
+    "限制：未明確建築、開放空間和地下空間計入方式時不可橫向比較。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "密度是多種量測與空間關係的組合；單一 FAR 不能代表公共空間或活動強度。",
+        "library_id": "DOVEY14",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "澳洲",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "Ye 與 van Nes 將空間語法、Spacematrix 和混合用途指標放入同一 GIS 框架，支持以多組形態變數共同辨識密度。",
+        "effect_or_value": null,
+        "study_design": "GIS 中的都市形態多指標分析",
+        "context_region": "荷蘭新舊城案例",
+        "library_id": "YE14",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "引用的是方法範圍，不能由此把相同 FSI 推成相同街道或活動效果。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "同時呈現 FSI、GSI、OSR、層數及計算範圍。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "同時呈現 FSI、GSI、OSR、層數及計算範圍。",
+      "tradeoff_zh": "此選項把「Spacematrix：FSI、GSI、OSR、L｜類型取捨」的工作放在密度是多種量測與空間關係的組合；單一 FAR 不能代表公共空間或活動強度上；需要承擔的協調或維護代價則由「指標易受分母、用途計入和街區邊界影響；數字相同不等於形式相同」界定。",
+      "library_ids": [
+        "DOVEY14"
+      ]
+    },
+    {
+      "option_zh": "在「Spacematrix：FSI、GSI、OSR、L｜類型取捨」的來源情境裡，相近 FSI 可以由低矮高覆蓋或高樓低覆蓋組成，街道體驗並不相同；落到設計時還要按密度是多種量測與空間關係的組合；單一 FAR 不能代表公共空間或活動強度調整。",
+      "tradeoff_zh": "「Spacematrix：FSI、GSI、OSR、L｜類型取捨」採用「在「Spacematrix：FSI、GSI、OSR、L｜類型取捨」的來源情境裡，相近 FSI 可以由低矮高覆蓋或高樓低覆蓋組成，街道體驗並不相同；落到設計時還要按密度是多種量測與空間關係的組合；單一 FAR 不能代表公共空間或活動強度調整」時，得失要沿著密度是多種量測與空間關係的組合；單一 FAR 不能代表公共空間或活動強度檢查；指標易受分母、用途計入和街區邊界影響；數字相同不等於形式相同。",
+      "library_ids": [
+        "DOVEY14"
+      ]
+    }
+  ],
+  "applies_when_zh": "適用於比較住宅街區、更新區和形態情境。",
+  "not_applicable_when_zh": "未明確建築、開放空間和地下空間計入方式時不可橫向比較。",
+  "debates_zh": "指標易受分母、用途計入和街區邊界影響；數字相同不等於形式相同。",
+  "sources": [
+    {
+      "library_id": "DOVEY14",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "YE14",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "組裝形態學；空間資本",
+  "region": "澳洲；瑞典",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "Spacematrix：FSI、GSI、OSR、L"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "Spacematrix：FSI、GSI、OSR、L"
+    },
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.330J Theory of City Form",
+      "topic": "Spacematrix：FSI、GSI、OSR、L"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban form and density",
+      "topic": "Spacematrix：FSI、GSI、OSR、L"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-MOR-023",
+    "KU-MOR-025",
+    "KU-MOR-026"
+  ],
+  "counter_unit_ids": [
+    "KU-MOR-027"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "fixture_only": true,
+  "focused_backend": {
+    "summary": "43 passed in fixture record"
+  },
+  "full_pytest_summary": "451 passed in fixture record"
+}

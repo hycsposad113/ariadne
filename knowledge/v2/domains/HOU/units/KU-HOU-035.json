@@ -1,0 +1,123 @@
+{
+  "id": "KU-HOU-035",
+  "domain": "HOU",
+  "subtopic": "鄰里單元與批評",
+  "type": "concept",
+  "title_zh": "鄰里單元與批評｜概念邊界",
+  "title_en": "Neighborhood unit and critiques — Conceptual boundaries",
+  "summary_zh": "這套模型回應當時的汽車交通與家庭生活觀，將學校服務圈當作社區邊界。 後來研究指出行政邊界不等於居民認同，也可能排除跨區通勤、租屋者與沒有子女的使用者。 尺度數字應讀成歷史規劃提案，不能代替今日的實際步行網、人口結構或服務容量調查。",
+  "key_points_zh": [
+    "歷史模型以約 160 acres（約 65 ha）作為一個鄰里單元的示例面積。",
+    "小學與遊戲場設在內部，幹道邊界用來減少穿越交通。",
+    "後續批評要求分開檢視服務圈、社會關係和行政治理範圍。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "Perry 的鄰里單元把小學服務人口、步行尺度和道路階層組成一個規劃模型：常見重述以約 160 acres（約 65 ha）及約四分之一英里步行半徑說明其尺度，主幹道作邊界，學校與遊戲空間置於內部，沿邊配置日常商店。",
+        "library_id": "TALEN99",
+        "effect_or_value": null,
+        "study_design": "經典理論與城鎮平面分析",
+        "context_region": "安卡拉，土耳其；荷蘭",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "專書從規劃規則與城市形態關係切入，提醒讀者檢視規則背後的價值選擇與空間後果。",
+        "library_id": "TALEN2012",
+        "effect_or_value": null,
+        "study_design": "後續形態學綜述或比較",
+        "context_region": "安卡拉，土耳其；荷蘭",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "Alexander 的模式語言把 Neighborhood Boundary 列為一項鄰里設計問題；這是設計提案，不是鄰里凝聚效果的實證。",
+        "library_id": "ALEX77",
+        "effect_or_value": null,
+        "study_design": "經典理論與模式語言",
+        "context_region": "跨地域模式設計",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "若採用學校服務圈，先用真實步行網和學齡人口檢查設施容量。",
+    "保持跨界步行路徑和日常服務可達，避免把規劃邊界做成社會排除界面。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "把公共設施服務圈、路網可達性和居民使用分別量測。",
+      "tradeoff_zh": "此選項把「鄰里單元與批評｜概念邊界」的工作放在Perry 的鄰里單元把小學服務人口、步行尺度和道路階層組成一個規劃模型：常見重述以約 160 acres（約 65 ha）及約四分之一英里步行半徑說明其尺度，主幹道作邊界，學校與遊戲空間置於內部，沿邊配置日常商店上；需要承擔的協調或維護代價則由「鄰里單元可以把兒童服務和步行安全納入設計，卻可能把家庭類型、學區行政和社區認同假設成一致；封閉邊界也可能削弱跨區連接」界定。",
+      "library_ids": [
+        "AKSEL2020",
+        "GEURS04"
+      ]
+    },
+    {
+      "option_zh": "設施圈、地方中心和穿越路徑可有不同組織方式。",
+      "tradeoff_zh": "「鄰里單元與批評｜概念邊界」採用「設施圈、地方中心和穿越路徑可有不同組織方式」時，得失要沿著Perry 的鄰里單元把小學服務人口、步行尺度和道路階層組成一個規劃模型：常見重述以約 160 acres（約 65 ha）及約四分之一英里步行半徑說明其尺度，主幹道作邊界，學校與遊戲空間置於內部，沿邊配置日常商店檢查；鄰里單元可以把兒童服務和步行安全納入設計，卻可能把家庭類型、學區行政和社區認同假設成一致；封閉邊界也可能削弱跨區連接。",
+      "library_ids": [
+        "AKSEL2020",
+        "GEURS04"
+      ]
+    }
+  ],
+  "applies_when_zh": "適用於鄰里規劃、服務配置和公共空間連結。",
+  "not_applicable_when_zh": "不把「步行可達」直接等同社會凝聚或住宅滿意。",
+  "debates_zh": "鄰里單元可以把兒童服務和步行安全納入設計，卻可能把家庭類型、學區行政和社區認同假設成一致；封閉邊界也可能削弱跨區連接。",
+  "sources": [
+    {
+      "library_id": "TALEN99",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "ALEX77",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "TALEN2012",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "鄰里位置、依附與滿意度；可及性評估",
+  "region": "安卡拉，土耳其；荷蘭",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "鄰里單元與批評"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "鄰里單元與批評"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "鄰里單元與批評"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "鄰里單元與批評"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-HOU-036",
+    "KU-HOU-037",
+    "KU-HOU-038"
+  ],
+  "counter_unit_ids": [
+    "KU-HOU-039"
+  ],
+  "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008"
+}

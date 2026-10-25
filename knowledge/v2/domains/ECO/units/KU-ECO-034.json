@@ -1,0 +1,66 @@
+{
+  "id": "KU-ECO-034",
+  "domain": "ECO",
+  "subtopic": "物種友善設計",
+  "type": "design_principle",
+  "title_zh": "新型生態系需按證據而非來源評價",
+  "title_en": "Novel ecosystems need evidence-based evaluation",
+  "summary_zh": "高度改造的城市棲地可能形成新的物種組合與生態過程。人為起源不必然代表毫無保育價值。入侵風險和本地物種保護仍需獨立管理。保育價值的判準和地方優先物種存在學術爭論。",
+  "key_points_zh": [
+    "高度改造的城市棲地可能形成新的物種組合與生態過程",
+    "人為起源不必然代表毫無保育價值"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "高度改造的城市棲地可能形成新的物種組合與生態過程。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "全球多城市",
+        "library_id": "BENINDE15",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "保育價值的判準和地方優先物種存在學術爭論。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "分別評估功能、物種、演替和生物安全。"
+  ],
+  "applies_when_zh": "適用於既有工業或棕地自然化。",
+  "not_applicable_when_zh": "不能以新型生態概念合理化所有生境損失。",
+  "debates_zh": "保育價值的判準和地方優先物種存在學術爭論。",
+  "sources": [
+    {
+      "library_id": "BENINDE15",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "KOWARIK11",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "都市生物多樣性與地景生態學",
+  "region": "全球多城市",
+  "curriculum_refs": [
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "物種友善設計"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Critical Debates in Urban Design",
+      "topic": "物種友善設計"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-ECO-033",
+    "KU-ECO-035"
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "id": "KU-SYN-002",
+  "domain": "SYN",
+  "subtopic": "軸線／線段分析",
+  "type": "empirical_finding",
+  "title_zh": "Primal 街道圖與城市骨架",
+  "title_en": "Primal graphs and urban structure",
+  "summary_zh": "用交點和街段建立 primal graph，對多種中心性作街網比較，研究脈絡為跨城市比較；摘要未列出城市清單。軸線圖不是唯一可研究街網結構的表示。多中心性指標可捕捉城市結構骨架，規劃型與自組織城市的中心性分布不同。限制包括摘要未列城市清單及每個中心性指標的效果量。",
+  "key_points_zh": [
+    "軸線圖不是唯一可研究街網結構的表示",
+    "限制：摘要未列城市清單及每個中心性指標的效果量",
+    "效果或方向：多中心性指標可捕捉城市結構骨架，規劃型與自組織城市的中心性分布不同"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "Primal 街道圖與城市骨架｜軸線圖不是唯一可研究街網結構的表示",
+        "effect_or_value": "多中心性指標可捕捉城市結構骨架，規劃型與自組織城市的中心性分布不同",
+        "study_design": "用交點和街段建立 primal graph，對多種中心性作街網比較",
+        "context_region": "跨城市比較；摘要未列出城市清單",
+        "library_id": "PORTA06",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "Primal 街道圖與城市骨架｜街道結構可以用連接與階層關係比較；不同網形的可達性與交通作用需另外計算",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "MARSHALL05",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "以替代網路表示測試設計結論是否穩定"
+  ],
+  "applies_when_zh": "若本地觀察單位與跨城市比較；摘要未列出城市清單的研究脈絡可對照，可用「軸線圖不是唯一可研究街網結構的表示」作為軸線／線段分析的比較線索。",
+  "not_applicable_when_zh": "這項跨城市比較；摘要未列出城市清單的研究結果不能單獨證明因果或預測其他城市的街段；原研究摘要未列城市清單及每個中心性指標的效果量。",
+  "debates_zh": "關聯能否外推；摘要未列城市清單及每個中心性指標的效果量；檢視「Primal 街道圖與城市骨架」的研究解讀時，還需判斷「限制：摘要未列城市清單及每個中心性指標的效果量」會如何改變方案結論。",
+  "sources": [
+    {
+      "library_id": "PORTA06",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "MARSHALL05",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "空間語法與網路表示",
+  "region": "跨城市比較；摘要未列出城市清單",
+  "curriculum_refs": [
+    {
+      "school": "Harvard GSD",
+      "course": "Cities by Design",
+      "topic": "軸線／線段分析：課綱對應主題"
+    },
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.330J Theory of City Form",
+      "topic": "軸線／線段分析：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-SYN-001",
+    "KU-SYN-003",
+    "KU-SYN-004",
+    "KU-SYN-005",
+    "KU-SYN-006",
+    "KU-SYN-007",
+    "KU-SYN-008"
+  ]
+}

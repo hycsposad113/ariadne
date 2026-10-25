@@ -1,0 +1,47 @@
+{
+  "id": "MCALLISTER2022",
+  "title": "An exploration of the role and significance of specialist land promoters in the housing land development market in the UK",
+  "authors": [
+    "Pat McAllister",
+    "Edward Shepherd",
+    "Pete Wyatt"
+  ],
+  "year": 2022,
+  "venue_or_publisher": "Journal of Property Research, 40(2), 134–156 (2023 issue; online 2022)",
+  "doi": "https://doi.org/10.1080/09599916.2022.2114927",
+  "isbn": null,
+  "openalex_id": "https://openalex.org/W4292575672",
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "英國住宅用地推廣者與規劃風險",
+  "region": "英國",
+  "method": "分析策略住宅用地市場中的專業土地推廣者",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "研究指出專業土地推廣者會推動土地規劃狀態轉換，並以分享土地增值作為報酬；它描繪該角色在英國住宅用地市場中的作用。",
+      "strength": "MIXED",
+      "scope_zh": "這項市場制度研究沒有估計建築量體或健康結果。",
+      "assessment_basis": "ABSTRACT_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "OpenAlex and Crossref",
+    "query": {
+      "record_id": "https://openalex.org/W4292575672",
+      "doi": "10.1080/09599916.2022.2114927",
+      "title": "An exploration of the role and significance of specialist land promoters in the housing land development market in the UK",
+      "author": "Pat McAllister",
+      "year": 2022,
+      "crossref_doi": "10.1080/09599916.2022.2114927",
+      "online_year": 2022,
+      "issue_year": 2023
+    },
+    "matched_record_id": "https://doi.org/10.1080/09599916.2022.2114927",
+    "checked_at_utc": "2026-10-09T00:20:58Z",
+    "match_notes_zh": "OpenAlex 與 Crossref 精確 DOI 記錄核對題名、作者及卷期；Crossref 顯示 2022 年 online-first、2023 年卷期出版。摘要描述土地推廣者與規劃狀態轉換，未保存全文。"
+  },
+  "limitations_zh": "本條目依公開摘要或書目範圍整理；未下載全文，也不外推摘要未列的樣本、效果量或因果結論。",
+  "metadata_licence_zh": "僅保存公開書目欄位與自行撰寫的繁體中文摘要；未複製摘要全文或論文全文。"
+}

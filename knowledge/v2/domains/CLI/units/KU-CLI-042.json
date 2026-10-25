@@ -1,0 +1,74 @@
+{
+  "id": "KU-CLI-042",
+  "domain": "CLI",
+  "subtopic": "高密度城市的氣候設計",
+  "type": "design_principle",
+  "title_zh": "高密度街區要讓通風和遮蔭共同工作",
+  "title_en": "高密度街區要讓通風和遮蔭共同工作",
+  "summary_zh": "高密度形態可以縮短步行距離和集中活動，但會改變風道、日照與夜間散熱。香港高密度城市設計研究將形態和氣候環境連在一起，新加坡街道研究則呈現街道幾何與熱舒適的關係。方案需按季節和使用時段辨認通風與遮蔭的平衡。",
+  "key_points_zh": [
+    "空間孔隙如何連接比單一開放率更重要。",
+    "夏季遮蔭策略可能降低冬季日照。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "library_id": "DOVEY14",
+        "claim_zh": "密度是多種量測與空間關係的組合；單一 FAR 不能代表公共空間或活動強度；本單元 KU-CLI-042 對照「高密度形態可以縮短步行距離和集中活動，但會改變風道、日照與夜間散熱」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "密度多維模型",
+        "context_region": "澳洲",
+        "locator": null
+      },
+      {
+        "library_id": "STATHOPOULOS2006",
+        "claim_zh": "書目確認本文題名聚焦「Pedestrian level winds and outdoor human comfort」；目前只完成作者、年份、題名與 DOI 核對，未將摘要或全文結論納入此記錄；本單元 KU-CLI-042 對照「高密度形態可以縮短步行距離和集中活動，但會改變風道、日照與夜間散熱」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "文獻回顧；目前僅核對書目範圍",
+        "context_region": "跨地域風工程",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "以不同風向檢查街廓連通和行人遮蔭。",
+    "在主活動時段對比通風和輻射負荷。"
+  ],
+  "applies_when_zh": "適用於高密度街區概念和街廓配置。",
+  "not_applicable_when_zh": "不適用於只憑人口密度推定微氣候品質。",
+  "debates_zh": "高密度不必然造成熱不舒適，結果受街道設計、樹冠和氣候共同影響。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "DOVEY14",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "STATHOPOULOS2006",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "亞洲高密度都市氣候設計",
+  "region": "香港與亞洲；Singapore",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "高密度城市的氣候設計"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": null,
+      "topic": "高密度城市的氣候設計"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0"
+}

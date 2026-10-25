@@ -1,0 +1,96 @@
+{
+  "id": "KU-CAS-029",
+  "domain": "CAS",
+  "subtopic": "公共空間與工業地景—屋頂公園",
+  "type": "case",
+  "title_zh": "Rotterdam Dakpark：把商業基座屋頂轉為社區可用的高架公園",
+  "title_en": "Rotterdam Dakpark: A Raised Public Park above a Commercial Base",
+  "summary_zh": "Dakpark 把地面商業設施與高架綠地疊合，公園上層包含花園、遊戲與社區種植空間。鹿特丹市府資料描述公園約高出周邊地面九公尺，但本單元沒有找到可確認公園獨立面積的邊界資料。Stouten 的文章研究鹿特丹城市設計與仕紳化，能提供批判城市尺度的閱讀框架，並非 Dakpark 使用者或房價的專案評估。公園是否連通鄰里生活、是否形成消費導向空間，需要與商場入口和周邊街道一起檢查。",
+  "key_points_zh": [
+    "屋頂公園的地面入口、坡道、電梯和公共營業時間決定它能否成為日常公園。",
+    "景觀投資與鄰近商業開發要分開評估，不能把綠地供應自動等同於公平可及。"
+  ],
+  "evidence": {
+    "strength": "CASE_EVIDENCE",
+    "findings": [
+      {
+        "claim_zh": "Stouten 的論文討論鹿特丹城市設計與仕紳化關係，提供城市設計批判脈絡；本文不把它當成 Dakpark 的具體效果研究。",
+        "effect_or_value": "鹿特丹都市更新與仕紳化研究題目",
+        "study_design": "城市尺度規劃批評研究；未核讀 Dakpark 專屬結果",
+        "context_region": "荷蘭鹿特丹",
+        "library_id": "STOUTEN2017",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "鹿特丹市府介紹 Dakpark 為約九公尺高的屋頂公園，並列出花園、遊戲和社區種植等用途。",
+        "effect_or_value": "市府公布的高程與設施用途",
+        "study_design": "官方公園設施說明",
+        "context_region": "荷蘭鹿特丹",
+        "library_id": "ROTTERDAM_DAKPARK2026",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "核對不同入口是否真正連到街道及住宅區，標出坡度、電梯、開放時間與夜間安全維護。",
+    "公園管理者、商場營運者與居民組織需明確分工，避免活動或消費條件逐步限制公共使用。"
+  ],
+  "applies_when_zh": "高架構造、物流平台或商業基座能承接公園，且有足夠的垂直可及性、土層和持續維護資源時。",
+  "not_applicable_when_zh": "出入口由單一商業業主控制、公共通行不穩定，或結構載重與灌溉排水尚未完成檢核時。",
+  "debates_zh": "高架綠地可把閒置平台轉成可停留空間，也可能把公園與街道生活分離。仕紳化研究的批評有助於提出問題，但不能代替此案的租金、使用者組成及公共性實測。",
+  "sources": [
+    {
+      "library_id": "STOUTEN2017",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "ROTTERDAM_DAKPARK2026",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "荷蘭屋頂公園、複合開發與都市更新批評",
+  "region": "西歐／荷蘭鹿特丹",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": null,
+      "topic": "高架景觀、公共空間與混合使用"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": null,
+      "topic": "仕紳化、城市公共性與開發治理"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": null,
+      "topic": "公共空間可及性"
+    }
+  ],
+  "case": {
+    "location": "荷蘭鹿特丹西區 Dakpark，商業基座上方的高架公園",
+    "period": "2010 年代建成並轉入公園管理；官方資料描述現行使用",
+    "area_ha": null,
+    "fsi": null,
+    "gsi": null,
+    "program_mix": "屋頂公園、社區花園、遊戲設施、步道、草地與下層商業設施；區域用途比例未查得。",
+    "key_strategies_zh": [
+      "以商業／停車基座承托連續高架公共綠地。",
+      "把花園、遊戲和社區種植納入公園用途，並以出入口連接周邊街區。"
+    ],
+    "outcomes_zh": [
+      "市府說明公園約離地九公尺並提供花園、遊戲和社區種植空間。",
+      "市府摘要未提供獨立公園面積、全年使用量或鄰近租金變化。"
+    ],
+    "critiques_zh": [
+      "高架空間的垂直通達可能使部分長者、兒童或行動不便者受到額外限制。",
+      "應追蹤公共開放時間、商業活動邊界和土地增值，避免把設施供應誤作社區公平成果。"
+    ]
+  },
+  "version": "v2.0"
+}

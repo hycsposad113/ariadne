@@ -1,0 +1,88 @@
+{
+  "id": "KU-SYN-036",
+  "domain": "SYN",
+  "subtopic": "角度與度量距離",
+  "type": "value_range",
+  "title_zh": "角度與拓樸選擇度的效果量差異",
+  "title_en": "Angular and topological choice effect sizes",
+  "summary_zh": "在同一空間語法統合研究中，選擇度的角度表示效果量為 ES 0.493，拓樸表示為 ES 0.374。選擇度衡量網路路徑上的通過潛力，兩種成本模型仍給出不同的行人關聯量級。高異質性和研究操作差異意味著這不是所有街網的穩定係數。「選擇度按距離模型的效果量」的數值不是本基地法規或普遍設計目標。",
+  "key_points_zh": [
+    "數值與用途：選擇度按距離模型的效果量：角度 ES = 0.493；拓樸 ES = 0.374",
+    "數值與用途：比較兩種指標操作方式，不是路網設計門檻、法規或 M4H 標準"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "角度與拓樸選擇度的效果量差異｜角度表示下選擇度效果量高於拓樸表示",
+        "effect_or_value": "角度 ES = 0.493；拓樸 ES = 0.374",
+        "study_design": "整合分析",
+        "context_region": "跨地區文獻統合；研究異質性高",
+        "library_id": "SHARMIN17",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "角度與拓樸選擇度的效果量差異｜Primal 街道圖和多中心性指標可辨識城市結構骨架；規劃型與自組織城市的中心性分布不同，指標選擇仍受圖表示限制",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "PORTA06",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "選擇度按距離模型的效果量",
+      "range": "角度 ES = 0.493；拓樸 ES = 0.374",
+      "unit": "統合效果量 ES",
+      "context": "跨地區空間語法統合研究；用於比較選擇度的兩種距離模型，不是本基地法規；來源所列地域：跨地域。",
+      "library_id": "SHARMIN17"
+    }
+  ],
+  "design_implications_zh": [
+    "把選擇度解讀為路徑通過潛力時，同列角度與拓樸的成本定義，並對交通目的和尺度做敏感度比較。"
+  ],
+  "applies_when_zh": "用於討論行人路徑與網路選擇度的研究時，若操作定義與納入研究相近，可引用這組效果量作為方法差異參考。",
+  "not_applicable_when_zh": "效果量不能替代道路現況的流量計數，也不能當成路線設計標準或個別街道的預測係數。",
+  "debates_zh": "角度和拓樸模型對路徑的簡化方式不同；其效果量落差需要結合街網、尺度與樣本分布判讀。",
+  "sources": [
+    {
+      "library_id": "SHARMIN17",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "PORTA06",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "空間網路距離模型",
+  "region": "跨地區文獻統合；研究異質性高",
+  "curriculum_refs": [
+    {
+      "school": "UCL Bartlett",
+      "course": "Critical Debates in Urban Design",
+      "topic": "角度與度量距離：課綱對應主題"
+    },
+    {
+      "school": "TU Delft",
+      "course": "Methods of Analysis & Imagination",
+      "topic": "角度與度量距離：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-SYN-033",
+    "KU-SYN-034",
+    "KU-SYN-035",
+    "KU-SYN-037",
+    "KU-SYN-038",
+    "KU-SYN-039",
+    "KU-SYN-040"
+  ]
+}

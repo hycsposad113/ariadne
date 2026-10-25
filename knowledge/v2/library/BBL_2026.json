@@ -1,0 +1,36 @@
+{
+  "id": "BBL_2026",
+  "title": "Besluit bouwwerken leefomgeving (geldend vanaf 2026-07-01)",
+  "authors": [
+    "Kingdom of the Netherlands"
+  ],
+  "year": 2026,
+  "venue_or_publisher": "wetten.overheid.nl",
+  "doi": null,
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "POLICY",
+  "tradition": "荷蘭 Bbl 官方法規",
+  "region": [
+    "Netherlands"
+  ],
+  "method": "Claude 指揮官於 2026-10-08 直接讀取 wetten.overheid.nl 現行條文全文（BWBR0041297，版本 2026-07-01）。",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "Bbl 第 3.89–3.90 條（既有建築）與第 4.162–4.164、4.172、4.175 條（新建住宅）規定居住區、居室、淨高、儲藏與戶外空間的最低尺寸。",
+      "strength": "REGULATION",
+      "scope_zh": "荷蘭全國建築技術規定；地方另有計畫規則。",
+      "assessment_basis": "OFFICIAL_PRIMARY_SOURCE_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED_OFFICIAL_SITE",
+    "api": "wetten.overheid.nl",
+    "url": "https://wetten.overheid.nl/BWBR0041297/2026-07-01",
+    "checked_at_utc": "2026-10-08T15:20:00Z",
+    "match_notes_zh": "Claude 直讀條文原文並逐條摘錄數值。",
+    "accessed_utc": "2026-10-08T15:20:00Z"
+  }
+}

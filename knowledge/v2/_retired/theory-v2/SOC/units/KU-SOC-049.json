@@ -1,0 +1,82 @@
+{
+  "id": "KU-SOC-049",
+  "domain": "SOC",
+  "subtopic": "分期與風險",
+  "type": "critique",
+  "title_zh": "分期與風險：風險透明",
+  "title_en": "Phasing and risk — critique unit 049",
+  "summary_zh": "風險透明需要公開重要假設、資料來源、承擔者、可能損失和緩解責任，而不只是列出風險名稱。群體分配和不可逆後果要與財務風險同時呈現。若沒有受影響者能查閱的紀錄，透明報告仍可能只是專業內部文件。",
+  "key_points_zh": [
+    "風險透明需要公開重要假設、資料來源、承擔者、可能損失和緩解責任，而不只是列出風險名稱。",
+    "群體分配和不可逆後果要與財務風險同時呈現。",
+    "若沒有受影響者能查閱的紀錄，透明報告仍可能只是專業內部文件。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "【BIBLIOGRAPHIC_SCOPE_ONLY】就「分期與風險：風險透明」而言，「Planning in the Face of Power」提供critical communicative planning的比較坐標；此處僅使用其已標明的書目／摘要範圍，不延伸為未核對的效果或因果。",
+        "effect_or_value": null,
+        "study_design": "normative theory with planning practice cases",
+        "context_region": "United States",
+        "library_id": "FORESTER1988",
+        "locator": null
+      },
+      {
+        "claim_zh": "【BIBLIOGRAPHIC_SCOPE_ONLY】Campbell 對成長與公平衝突的討論讓風險透明報告須同列收益與社會成本；此引用限於議題範圍，不作風險模型的數值依據。",
+        "effect_or_value": null,
+        "study_design": "理論",
+        "context_region": "跨地域",
+        "library_id": "CAMPBELL96",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "公開風險假設、資料、承擔者和緩解責任，供受影響者查閱。"
+  ],
+  "design_options": [],
+  "applies_when_zh": "在評估「分期與風險：風險透明」涉及的資源分配、權力或居住影響時，先界定受影響群體與決策階段。",
+  "not_applicable_when_zh": "若沒有「分期與風險：風險透明」所需的群體、時序或市場資料，不把概念類比當作已驗證的效果或法律結論。",
+  "debates_zh": "公開資料不等同可理解或可影響；風險透明還需可追責管道。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "FORESTER1988",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "CAMPBELL96",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "都市開發／時間路徑與不確定性",
+  "region": "非洲；全球南方",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Planning Complex Cities",
+      "topic": "分期與風險：風險透明 — 分期與風險"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Urban Design Contexts and Operations",
+      "topic": "分期與風險：風險透明 — 分期與風險"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "分期與風險：風險透明 — 分期與風險"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design Governance",
+      "topic": "分期與風險：風險透明 — 分期與風險"
+    }
+  ],
+  "version": "2.0.0"
+}

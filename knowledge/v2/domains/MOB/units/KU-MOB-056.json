@@ -1,0 +1,80 @@
+{
+  "id": "KU-MOB-056",
+  "domain": "MOB",
+  "subtopic": "停車政策與最低停車標準的影響",
+  "type": "pattern",
+  "title_zh": "停車政策與最低停車標準的影響：可重用模式",
+  "title_en": "Parking policy and minimum parking requirements: Reusable pattern",
+  "summary_zh": "先測量現有供給和使用，再評估供給、價格和管理工具組合，保留弱勢與服務性出行安排。此模式以停車供給、價格、位置和最低標準會改變土地成本與開車便利，政策效果受城市密度和旅運替代條件影響。需要留意的代價是停車改革可能降低過度供給，也可能在公共運輸不足處傷及必要出行；成本由誰承擔是公平問題。",
+  "key_points_zh": [
+    "空間模式：停車供給、價格、位置和最低標準會改變土地成本與開車便利，政策效果受城市密度和旅運替代條件影響",
+    "空間模式：先測量現有供給和使用，再評估供給、價格和管理工具組合，保留弱勢與服務性出行安排"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "停車政策與最低停車標準的影響：可重用模式｜密度、用途多樣性及設計是相互關聯的出行研究維度；不能單獨套用密度決定交通模式",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "CERVERO97",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "停車政策與最低停車標準的影響：可重用模式｜挪威旅運調查顯示，工作地月繳停車相較日繳與接近兩倍的開車機率相關，家與目的地停車限制會疊加；研究指出效果在緊湊城市較大",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "CHRISTIANSEN16",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "先畫出「停車供給、價格、位置和最低標準會改變土地成本與開車便利，政策效果受城市密度和旅運替代條件影響」所描述的空間關係，再用「停車改革可能降低過度供給，也可能在公共運輸不足處傷及必要出行；成本由誰承擔是公平問題」檢查它可能帶來的代價。"
+  ],
+  "applies_when_zh": "當設計需要回應「停車供給、價格、位置和最低標準會改變土地成本與開車便利，政策效果受城市密度和旅運替代條件影響」描述的空間關係，可先把模式畫入配置，再用現地使用資料檢查。",
+  "not_applicable_when_zh": "「停車供給、價格、位置和最低標準會改變土地成本與開車便利，政策效果受城市密度和旅運替代條件影響」不能原樣移植到缺少相同交通、界面或治理條件的場地；需先檢查「停車改革可能降低過度供給，也可能在公共運輸不足處傷及必要出行；成本由誰承擔是公平問題」指出的代價。",
+  "debates_zh": "停車改革可能降低過度供給，也可能在公共運輸不足處傷及必要出行；成本由誰承擔是公平問題；檢視「停車政策與最低停車標準的影響：可重用模式」的模式落地時，還需判斷「先測量現有供給和使用，再評估供給、價格和管理工具組合，保留弱勢與服務性出行安排」會如何改變方案結論。",
+  "sources": [
+    {
+      "library_id": "CERVERO97",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "CHRISTIANSEN16",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "停車供給與交通需求管理",
+  "region": "跨地域理論或實務脈絡；來源地區依引用條目判讀",
+  "curriculum_refs": [
+    {
+      "school": "Harvard GSD",
+      "course": "Urban Design Contexts and Operations",
+      "topic": "停車政策與最低停車標準的影響：課綱對應主題"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "停車政策與最低停車標準的影響：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-MOB-049",
+    "KU-MOB-050",
+    "KU-MOB-051",
+    "KU-MOB-052",
+    "KU-MOB-053",
+    "KU-MOB-054",
+    "KU-MOB-055"
+  ]
+}

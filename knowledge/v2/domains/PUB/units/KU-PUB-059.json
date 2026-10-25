@@ -1,0 +1,74 @@
+{
+  "id": "KU-PUB-059",
+  "domain": "PUB",
+  "subtopic": "夜間經濟",
+  "type": "value_range",
+  "title_zh": "公共活動的遠距可讀性",
+  "title_en": "Distant legibility of public activity",
+  "summary_zh": "Gehl 的經典討論以約百公尺尺度描述對城市活動的感知。夜間活動在遠距能否被辨認，還取決於照明、遮蔽與周邊眩光。可讀性不能替代活動是否安全、可負擔和真正開放。夜間照明同時涉及能源、生態、私隱和安全。",
+  "key_points_zh": [
+    "Gehl（2010）以約 100 m 為感知城市活動中人形的「社交視域」上限",
+    "夜間活動在遠距能否被辨認，還取決於照明、遮蔽與周邊眩光"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "Gehl（2010）以約 100 m 為感知城市活動中人形的「社交視域」上限。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "瑞典",
+        "library_id": "GEHL10",
+        "locator": null,
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+        "limitations_zh": "夜間照明同時涉及能源、生態、私隱和安全。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "讓照明和標示服務於尋路與求助，而非只追求視覺戲劇效果。"
+  ],
+  "applies_when_zh": "適用於夜間入口和公共交通銜接。",
+  "not_applicable_when_zh": "不宜為提高可見性而讓整個場地缺乏遮蔽。",
+  "debates_zh": "夜間照明同時涉及能源、生態、私隱和安全。",
+  "sources": [
+    {
+      "library_id": "GEHL10",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "NORDH09",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "PESCHARDT12",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "恢復性環境與北歐景觀",
+  "region": "瑞典",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "夜間經濟"
+    }
+  ],
+  "version": "2.0.0",
+  "values": [
+    {
+      "name": "公共活動的遠距可讀性",
+      "range": "約 100 m",
+      "unit": "公尺",
+      "context": "Gehl 公共生活視距的經典量級；用於考慮辨識，不作照明設計標準。；「公共活動的遠距可讀性」僅供其研究脈絡內比較，不構成本基地法規；來源所列地域：丹麥、跨地域。",
+      "library_id": "GEHL10"
+    }
+  ],
+  "related_unit_ids": [
+    "KU-PUB-060"
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "id": "CTX-001",
+  "title_zh": "Dakpark 10 m 高差待量測",
+  "title_en": "Dakpark level difference",
+  "domain": "context_response",
+  "stages": [
+    "S2",
+    "S3",
+    "S6",
+    "S7",
+    "S8"
+  ],
+  "statement_zh": "以作品集提供的 10 m 高差作 context 假說，先核對地面與公園垂直基準，再比較開放樓梯、坡道與分層入口；不得把樓梯當全員可達。",
+  "rationale_zh": "隔著堤或高差的居民需要實際入口，不只是視覺連接。",
+  "applies_when": {
+    "context": [
+      "dakpark_level_difference"
+    ]
+  },
+  "parameters": [
+    {
+      "name": "dakpark_level_difference",
+      "value": 10,
+      "range": null,
+      "unit": "m",
+      "provenance": "ASSUMED_COMMANDER",
+      "source_ids": [],
+      "status": "PROPOSED_PENDING_FOUNDER",
+      "rationale_zh": "派工轉述 p21，非已量測高程。 原數字保留；來源是作品集轉述或專案假設，未經公開書目佐證，不視為研究或實測。",
+      "authority_ref": null
+    }
+  ],
+  "check": {
+    "method_zh": "以同一 vertical datum 的高程核對、報步行與可達替代路。",
+    "inputs": [
+      "凍結幾何／路網與 hash",
+      "已接受專案條件與版本",
+      "卡片參數與版本"
+    ],
+    "output": "檢查值、單位、方法、有效性、差異與限制；不自動採納",
+    "implementation_status": "SPECIFICATION_ONLY"
+  },
+  "check_unavailable_reason_zh": null,
+  "design_responses": [
+    {
+      "option": "1",
+      "action_zh": "可見樓梯加平緩替代路",
+      "source_ids": [
+        "LYNCH60"
+      ],
+      "tradeoff_zh": "替代路長且需要無障礙驗證。 作品集提供設計意圖，學術引用僅為類似概念的佐證，未驗證作品集本身。"
+    },
+    {
+      "option": "2",
+      "action_zh": "分層公共平台銜接",
+      "source_ids": [
+        "NG10"
+      ],
+      "tradeoff_zh": "結構、權利與維護成本。 作品集提供設計意圖，學術引用僅為類似概念的佐證，未驗證作品集本身。"
+    }
+  ],
+  "evidence_level": "ACADEMIC",
+  "evidence_strength": "THEORETICAL",
+  "sources": [
+    {
+      "library_id": "LYNCH60",
+      "claim_id": "C1",
+      "support_scope_zh": "文獻支持概念與比較角度；本卡具體操作是設計推導，試算值及專案約束不是文獻的普適結論。"
+    },
+    {
+      "library_id": "NG10",
+      "claim_id": "C1",
+      "support_scope_zh": "文獻支持概念與比較角度；本卡具體操作是設計推導，試算值及專案約束不是文獻的普適結論。"
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "enforcement": "CANDIDATE_ONLY",
+  "authority_ref": null,
+  "debates_zh": "地形意象、日照與公共可達可能互相衝突；作品集是候選策略，資料缺口不能填成效果。 已查證書目與主張的查閱層級見 library；不是逐頁核驗或本基地因果結論。",
+  "context_validity_zh": "亞洲高密度與英美認知研究可供比較，M4H 的 Dakpark 高程、產權與水岸風險需要地方證據。",
+  "exceptions_zh": "卡片不可替代現行法規、產權、無障礙或已接受 D1/D2。缺必要資料即回報 UNKNOWN；例外須由 Founder 明確決定並保留原結果。",
+  "version": "0.2.0",
+  "local_context_refs": [
+    "PORTFOLIO"
+  ]
+}

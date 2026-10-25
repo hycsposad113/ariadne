@@ -1,0 +1,80 @@
+{
+  "id": "KU-MOB-048",
+  "domain": "MOB",
+  "subtopic": "大眾運輸服務圈",
+  "type": "typology",
+  "title_zh": "大眾運輸服務圈：型態比較",
+  "title_en": "Transit service areas: Typology comparison",
+  "summary_zh": "步行圈、自行車接駁圈和含轉乘成本的服務圈衡量不同旅程；站點密度和服務頻率會改變結果。類型比較要回到服務圈是依步行或自行車網路、站點服務和使用者條件描繪的可達範圍，不等於以站點為圓心的固定半徑。各類型的成本和適用條件包括：固定距離圈方便溝通但可能錯估河流、坡度、穿越障礙、轉乘和不同群體的可接受距離。",
+  "key_points_zh": [
+    "比較類型：服務圈是依步行或自行車網路、站點服務和使用者條件描繪的可達範圍，不等於以站點為圓心的固定半徑",
+    "比較類型：步行圈、自行車接駁圈和含轉乘成本的服務圈衡量不同旅程；站點密度和服務頻率會改變結果"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "大眾運輸服務圈：型態比較｜到站步行距離可用變動服務範圍研究，固定半徑應和站點及使用者條件一同檢查；未提取原文係數",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "ELGENEIDY14",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "大眾運輸服務圈：型態比較｜墨爾本旅運資料顯示，步行到公共運輸的可接受與可忍受距離宜用區域分布描述；Burr Type XII 能配適該資料，但不會自動成為其他城市的門檻",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "TAYLOR24",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "類型表應比較「服務圈是依步行或自行車網路、站點服務和使用者條件描繪的可達範圍，不等於以站點為圓心的固定半徑」及其使用代價「固定距離圈方便溝通但可能錯估河流、坡度、穿越障礙、轉乘和不同群體的可接受距離」，不要只列名稱。"
+  ],
+  "applies_when_zh": "比較大眾運輸服務圈方案時，可先用「服務圈是依步行或自行車網路、站點服務和使用者條件描繪的可達範圍，不等於以站點為圓心的固定半徑」描述各類型，再按「固定距離圈方便溝通但可能錯估河流、坡度、穿越障礙、轉乘和不同群體的可接受距離」檢查分類的盲點。",
+  "not_applicable_when_zh": "這些類型不構成普遍排序；遇到「固定距離圈方便溝通但可能錯估河流、坡度、穿越障礙、轉乘和不同群體的可接受距離」所述條件時，不應只依類名決定路網或街道配置。",
+  "debates_zh": "固定距離圈方便溝通但可能錯估河流、坡度、穿越障礙、轉乘和不同群體的可接受距離；檢視「大眾運輸服務圈：型態比較」的分類邊界時，還需判斷「步行圈、自行車接駁圈和含轉乘成本的服務圈衡量不同旅程；站點密度和服務頻率會改變結果」會如何改變方案結論。",
+  "sources": [
+    {
+      "library_id": "ELGENEIDY14",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "TAYLOR24",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "交通可及性與服務範圍",
+  "region": "跨地域理論或實務脈絡；來源地區依引用條目判讀",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "大眾運輸服務圈：課綱對應主題"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Urban Design Contexts and Operations",
+      "topic": "大眾運輸服務圈：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-MOB-041",
+    "KU-MOB-042",
+    "KU-MOB-043",
+    "KU-MOB-044",
+    "KU-MOB-045",
+    "KU-MOB-046",
+    "KU-MOB-047"
+  ]
+}

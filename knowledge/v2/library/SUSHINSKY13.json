@@ -1,0 +1,47 @@
+{
+  "id": "SUSHINSKY13",
+  "title": "How should we grow cities to minimize their biodiversity impacts?",
+  "authors": [
+    "Jessica R. Sushinsky",
+    "Jonathan R. Rhodes",
+    "Hugh P. Possingham",
+    "Tony K. Gill",
+    "Richard A. Fuller"
+  ],
+  "year": 2013,
+  "venue_or_publisher": "Global Change Biology",
+  "doi": "https://doi.org/10.1111/gcb.12055",
+  "isbn": null,
+  "crossref_id": "https://doi.org/10.1111/gcb.12055",
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "都市擴張與保育規劃",
+  "region": [
+    "澳洲"
+  ],
+  "method": "物種分布統計模型與成長情境比較",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "Brisbane 模型比較新增 84,642 戶住宅的緊湊與蔓延方案；兩種成長均降低鳥類分布，但緊湊方案在全市尺度較能減慢損失並保留大型綠地，模型結果仍依賴物種分布資料。",
+      "strength": "MIXED",
+      "scope_zh": "澳洲 Brisbane；主張限於此來源的研究設計與樣本，不外推為本基地規範。",
+      "assessment_basis": "ABSTRACT_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref",
+    "query": {
+      "title": "How should we grow cities to minimize their biodiversity impacts?",
+      "author": "Jessica R. Sushinsky",
+      "year": 2013
+    },
+    "matched_record_id": "https://doi.org/10.1111/gcb.12055",
+    "checked_at_utc": "2026-10-08T09:56:39Z",
+    "match_notes_zh": "核對 Crossref 回傳書名、主要作者、出版年與 DOI；摘要只在實際取得並閱讀的論文上標 ABSTRACT_REVIEW。"
+  },
+  "limitations_zh": "澳洲 Brisbane；書目核對不替代完整論文審查。",
+  "critique_relationship_zh": "此條目的批評連結供編者並讀，不宣稱存在直接互引。",
+  "metadata_licence_zh": "僅保存公開書目欄位與自行撰寫的摘要；未保存摘要原文，metadata 授權未單獨核定。"
+}

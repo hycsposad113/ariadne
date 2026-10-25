@@ -1,0 +1,88 @@
+{
+  "id": "KU-SYN-060",
+  "domain": "SYN",
+  "subtopic": "網路分析在設計中的使用與限制",
+  "type": "value_range",
+  "title_zh": "連通度與控制值的統合結果",
+  "title_en": "Pooled connectivity and control effects",
+  "summary_zh": "空間語法統合分析得到連通度與行人移動的 ES 為 -0.001，95% CI -0.117 至 0.115，p = 0.990。信賴區間跨過零且檢定不顯著，資料沒有顯示穩定的平均關聯。這不等於每個城市的連通度都無效，也不代表路口連接對安全或可及性沒有意義。「連通度效果量與信賴區間」的數值不是本基地法規或普遍設計目標。",
+  "key_points_zh": [
+    "數值與用途：連通度效果量與信賴區間：ES = -0.001；95% CI = -0.117–0.115；p = 0.990",
+    "數值與用途：說明此統合資料中的不顯著關聯；不是街道設計目標、法規或 M4H 門檻"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "連通度與控制值的統合結果｜連通度在該統合模型中沒有統計顯著行人移動效果",
+        "effect_or_value": "ES = -0.001；95% CI = -0.117–0.115；p = 0.990",
+        "study_design": "整合分析",
+        "context_region": "跨地區文獻統合；摘要未列完整國別分布",
+        "library_id": "SHARMIN17",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "連通度與控制值的統合結果｜Mymensingh 街段比較發現，僅以組態值解釋行人量的相關性偏弱，商業土地使用提供了更強的解釋線索；摘要未列係數",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "AZIZ2018",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "連通度效果量與信賴區間",
+      "range": "ES = -0.001；95% CI = -0.117–0.115；p = 0.990",
+      "unit": "統合效果量 ES",
+      "context": "跨地區空間語法文獻統合，國別分布未完整列出；用於理解連通度統計關聯，不是基地法規；來源所列地域：跨地域。",
+      "library_id": "SHARMIN17"
+    }
+  ],
+  "design_implications_zh": [
+    "評估連通度時，將此不顯著統合結果與本地過街品質、路徑選擇及行人量分開檢查，不以交叉口數直接替代安全指標。"
+  ],
+  "applies_when_zh": "當討論跨研究中的連通度—行人移動統計關聯，且使用相近的網路定義時，可引用這個接近零的效果量。",
+  "not_applicable_when_zh": "此結果不能推論連通路網不重要；它只表示該統合樣本中沒有觀察到顯著平均行人移動效果。",
+  "debates_zh": "連通度容易計算，卻可能忽略路口型態、過街延遲和沿街目的地；接近零的合併效果提醒設計者別將簡單指標當成完整機制。",
+  "sources": [
+    {
+      "library_id": "SHARMIN17",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "AZIZ2018",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "證據導向都市設計與網路分析",
+  "region": "跨地區文獻統合；摘要未列完整國別分布",
+  "curriculum_refs": [
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.330J Theory of City Form",
+      "topic": "網路分析在設計中的使用與限制：課綱對應主題"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Critical Debates in Urban Design",
+      "topic": "網路分析在設計中的使用與限制：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-SYN-057",
+    "KU-SYN-058",
+    "KU-SYN-059",
+    "KU-SYN-061",
+    "KU-SYN-062",
+    "KU-SYN-063",
+    "KU-SYN-064"
+  ]
+}

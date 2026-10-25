@@ -1,0 +1,82 @@
+{
+  "id": "KU-THY-012",
+  "domain": "THY",
+  "subtopic": "城市作為神聖秩序、機器、有機體",
+  "type": "empirical_finding",
+  "title_zh": "城市隱喻：路網組態",
+  "title_en": "The city as sacred order, machine, and organism — empirical finding unit 012",
+  "summary_zh": "「城市隱喻：路網組態」的焦點是城市隱喻會影響設計者選擇何種系統邊界、因果關係與決策權。參照拼貼城市／批判現代主義與模式語言時，應把書目範圍和本地觀察分開，避免由形式相似推定結果相同。套用「城市隱喻：路網組態」時仍需檢查不同隱喻是分析透鏡，不是城市的完整本體，也不能替代居民經驗。限制是「城市隱喻：路網組態」所用的城市或案例資料不能單獨證明設計因果，外推仍需重新檢驗。",
+  "key_points_zh": [
+    "「城市隱喻：路網組態」的焦點是城市隱喻會影響設計者選擇何種系統邊界、因果關係與決策權。",
+    "參照拼貼城市／批判現代主義與模式語言時，應把書目範圍和本地觀察分開，避免由形式相似推定結果相同。",
+    "套用「城市隱喻：路網組態」時仍需檢查不同隱喻是分析透鏡，不是城市的完整本體，也不能替代居民經驗。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "【ABSTRACT_REVIEW】「城市隱喻：路網組態」的焦點是城市隱喻會影響設計者選擇何種系統邊界、因果關係與決策權。參照拼貼城市／批判現代主義與模式語言時，應把書目範圍和本地觀察分開，避免由形式相似推定結果相同。套用「城市隱喻：路網組態」時仍需檢查不同隱喻是分析透鏡，不是城市的完整本體，也不能替代居民經驗。限制是「城市隱喻：路網組態」所用的城市或案例資料不能單獨證明設計因果，外推仍需重新檢驗。",
+        "effect_or_value": "空間組態、密度與混合用途合併觀察，可比單一指標呈現更完整的診斷關係",
+        "study_design": "荷蘭城市案例中的 GIS、形態與行為資料聯合檢驗",
+        "context_region": "荷蘭",
+        "library_id": "YE14",
+        "locator": null
+      },
+      {
+        "claim_zh": "【BIBLIOGRAPHIC_SCOPE_ONLY】就「城市隱喻：路網組態」而言，「Urban Morphology as an emerging interdisciplinary field」提供跨學派形態學的比較坐標；此處僅使用其已標明的書目／摘要範圍，不延伸為未核對的效果或因果。",
+        "effect_or_value": null,
+        "study_design": "學科綜述",
+        "context_region": "跨地域",
+        "library_id": "MOUDON97",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "將「城市隱喻：路網組態」落到設計時，應把拼貼城市／批判現代主義與模式語言提示的比較條件轉為可觀察圖面或程序紀錄。"
+  ],
+  "design_options": [],
+  "applies_when_zh": "當問題包含「城市隱喻：路網組態」且需比較需要辨認規劃模型背後的價值假設時時使用。",
+  "not_applicable_when_zh": "若研究缺少對應尺度或群體資料，不以「城市隱喻：路網組態」取代需要把隱喻直接轉成法規、幾何或測量值時。",
+  "debates_zh": "「城市隱喻：路網組態」的爭點在於不同隱喻是分析透鏡，不是城市的完整本體，也不能替代居民經驗；拼貼城市／批判現代主義與模式語言的研究對象不同，需保留差異而不能合併成單一規則。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "YE14",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "MOUDON97",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "城市理論／秩序、機器與有機體",
+  "region": "荷蘭；跨地域",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "城市隱喻：路網組態 — 城市作為神聖秩序、機器、有機體"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Urban Design Contexts and Operations",
+      "topic": "城市隱喻：路網組態 — 城市作為神聖秩序、機器、有機體"
+    },
+    {
+      "school": "MIT",
+      "course": "4.241J Theory of City Form / 11.301J Urban Design and Development",
+      "topic": "城市隱喻：路網組態 — 城市作為神聖秩序、機器、有機體"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Critical Debates in Urban Design",
+      "topic": "城市隱喻：路網組態 — 城市作為神聖秩序、機器、有機體"
+    }
+  ],
+  "version": "2.0.0"
+}

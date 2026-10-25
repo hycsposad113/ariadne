@@ -1,0 +1,82 @@
+{
+  "id": "KU-MOB-071",
+  "domain": "MOB",
+  "subtopic": "無車區與物流",
+  "type": "value_range",
+  "title_zh": "低車生活社區家庭無車比例變化",
+  "title_en": "Car-free household share change in a low-car neighbourhood",
+  "summary_zh": "一項德國 Lincoln car-reduced neighborhood 的準縱向研究追蹤 339 位搬遷者，受訪家庭無車比例由搬遷前約 22% 到搬遷後約 25%。這個變化來自觀察性追蹤，不能單獨歸因於社區設計。樣本和回憶資料也限制了外推。此處的搬入前後家庭無車比例是附來源的比較參照，不是本基地法規。",
+  "key_points_zh": [
+    "比例對應研究中的搬遷前後家庭狀態。",
+    "社區交通條件和自我選擇可能同時影響居住決定。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "339 位搬遷者的準縱向研究報告家庭無車比例由 22% 至 25%；分組和樣本條件待摘要交叉核對。",
+        "library_id": "KLEIN26",
+        "claim_verification": "ABSTRACT_REVIEW",
+        "effect_or_value": "22% 至 25%",
+        "study_design": "339 位搬遷者的準縱向研究",
+        "context_region": "德國 Darmstadt",
+        "locator": null
+      },
+      {
+        "claim_zh": "無車住宅政策應和停車制度及替代出行選項一起討論。",
+        "library_id": "KUSHNER05",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "無車住宅與規劃政策分析",
+        "context_region": "美國無車住宅規劃脈絡",
+        "locator": null
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "搬入前後家庭無車比例",
+      "range": "22% 至 25%",
+      "unit": "受訪家庭比例",
+      "context": "德國 Lincoln car-reduced neighborhood 的準縱向住戶研究；用途：描述搬入前後汽車持有變化；不是隨機分派或政策因果值。；「搬入前後家庭無車比例」僅供來源脈絡內的比較，不是本基地法規、M4H 門檻或通用配額。",
+      "library_id": "KLEIN26"
+    }
+  ],
+  "design_implications_zh": [
+    "用它提醒方案評估應追蹤搬遷前後車輛持有，並同步量測公共運輸、自行車和服務出行。"
+  ],
+  "applies_when_zh": "評估低車住宅的入住變化時，追蹤住戶搬遷前後無車狀態及替代出行服務。",
+  "not_applicable_when_zh": "22% 到 25% 不是一般無車社區的預期結果，也不構成目標配額。",
+  "debates_zh": "住戶選擇和移居後變化難以分離；觀察到的比例差不能直接解讀為設計效果。",
+  "sources": [
+    {
+      "library_id": "KLEIN26",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "KUSHNER05",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "無車住宅與出行選擇",
+  "region": "德國 Lincoln car-reduced neighborhood 的準縱向住戶研究",
+  "curriculum_refs": [
+    {
+      "school": "Harvard GSD",
+      "course": "Urban Design Contexts and Operations",
+      "topic": "無車區與物流：課綱對應主題"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "無車區與物流：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-MOB-059"
+  ]
+}

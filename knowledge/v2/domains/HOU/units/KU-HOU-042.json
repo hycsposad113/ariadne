@@ -1,0 +1,98 @@
+{
+  "id": "KU-HOU-042",
+  "domain": "HOU",
+  "subtopic": "鄰里單元與批評",
+  "type": "empirical_finding",
+  "title_zh": "鄰里滿意和住宅滿意連結不同福祉路徑",
+  "title_en": "Satisfaction and subjective well-being",
+  "summary_zh": "模型是相關路徑，不證明調整街區會直接提升福祉。 用多面向調查檢查鄰里計畫效果。 研究設計：城市區域住戶調查與結構方程模型；地區：奧斯陸，挪威。 限制：模型是相關路徑，不證明調整街區會直接提升福祉。",
+  "key_points_zh": [
+    "奧斯陸模型顯示住宅滿意對福祉有直接關聯，鄰里滿意亦透過多個生活面向形成關聯。",
+    "研究設計：城市區域住戶調查與結構方程模型；地區：奧斯陸，挪威",
+    "限制：模型是相關路徑，不證明調整街區會直接提升福祉。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "奧斯陸模型顯示住宅滿意對福祉有直接關聯，鄰里滿意亦透過多個生活面向形成關聯。",
+        "effect_or_value": "住宅滿意直接關聯；鄰里滿意有直接及間接路徑",
+        "study_design": "城市區域住戶調查與結構方程模型",
+        "context_region": "奧斯陸，挪威",
+        "library_id": "MOURATIDIS2020",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "用多面向調查檢查鄰里計畫效果。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "用多面向調查檢查鄰里計畫效果。",
+      "tradeoff_zh": "此選項把「鄰里滿意和住宅滿意連結不同福祉路徑」的工作放在奧斯陸模型顯示住宅滿意對福祉有直接關聯，鄰里滿意亦透過多個生活面向形成關聯上；需要承擔的協調或維護代價則由「模型是相關路徑，不證明調整街區會直接提升福祉」界定。",
+      "library_ids": [
+        "MOURATIDIS2020",
+        "JACOBS61"
+      ]
+    },
+    {
+      "option_zh": "「鄰里滿意和住宅滿意連結不同福祉路徑」可把取向落在設施圈、地方中心和穿越路徑可有不同組織方式，但需連同奧斯陸模型顯示住宅滿意對福祉有直接關聯，鄰里滿意亦透過多個生活面向形成關聯決定適用方式。",
+      "tradeoff_zh": "此選項把「鄰里滿意和住宅滿意連結不同福祉路徑」的工作放在奧斯陸模型顯示住宅滿意對福祉有直接關聯，鄰里滿意亦透過多個生活面向形成關聯上；需要承擔的協調或維護代價則由「模型是相關路徑，不證明調整街區會直接提升福祉」界定。",
+      "library_ids": [
+        "MOURATIDIS2020",
+        "JACOBS61"
+      ]
+    }
+  ],
+  "applies_when_zh": "用於與奧斯陸，挪威研究情境可比、且量測定義相近的分析。",
+  "not_applicable_when_zh": "模型是相關路徑，不證明調整街區會直接提升福祉。",
+  "debates_zh": "模型是相關路徑，不證明調整街區會直接提升福祉。",
+  "sources": [
+    {
+      "library_id": "MOURATIDIS2020",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "JACOBS61",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "住宅、鄰里與生活福祉；街道生活與多樣性",
+  "region": "奧斯陸城市區域，挪威；美國",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "鄰里單元與批評"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "鄰里單元與批評"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "鄰里單元與批評"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "鄰里單元與批評"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-HOU-035",
+    "KU-HOU-036",
+    "KU-HOU-037"
+  ],
+  "counter_unit_ids": [
+    "KU-HOU-039"
+  ]
+}

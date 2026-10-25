@@ -1,0 +1,46 @@
+{
+  "id": "KLEIN26",
+  "title": "Changing travel behaviour upon relocation to a car-reduced neighbourhood: A quasi-longitudinal, quantitative analysis of residential self-selection, mobility biographies, and commute satisfaction",
+  "authors": [
+    "Marcus Klein"
+  ],
+  "year": 2026,
+  "venue_or_publisher": "Dissertation, University Library J. C. Senckenberg",
+  "doi": "10.21248/gups.99310",
+  "isbn": null,
+  "openalex_id": "https://openalex.org/W7171729480",
+  "kind": "ACADEMIC_DISSERTATION",
+  "tradition": "德國低車依賴住宅與移動行為研究",
+  "region": [
+    "Lincoln car-reduced neighbourhood, Darmstadt, Germany"
+  ],
+  "method": "339 位近期搬遷居民的準縱向量化研究；比較搬遷前後旅運，並分析住宅自我選擇與移動生命歷程。",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "Darmstadt 的 Lincoln 低車社區搬遷樣本中，搬遷後汽車使用下降；無車家戶占比由原居地 22% 至社區內 25%，16% 受訪樣本伴隨搬遷減少持車。單一社區的準縱向結果仍需考慮住宅自我選擇。",
+      "strength": "MIXED",
+      "scope_zh": "只支持摘要所述樣本、社區與搬遷比較；不提供 M4H 法規、普遍因果或未查證的設計門檻。",
+      "assessment_basis": "ABSTRACT_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "OpenAlex",
+    "cross_check_api": "Crossref",
+    "query": {
+      "title": "Changing travel behaviour upon relocation to a car-reduced neighbourhood: A quasi-longitudinal, quantitative analysis of residential self-selection, mobility biographies, and commute satisfaction",
+      "author": "Marcus Klein",
+      "year": 2026
+    },
+    "matched_record_id": "https://openalex.org/W7171729480",
+    "checked_at_utc": "2026-10-08T10:53:15Z",
+    "cross_check_record_id": "10.21248/gups.99310",
+    "cross_check_checked_at_utc": "2026-10-08T10:53:09Z",
+    "match_notes_zh": "Crossref 核對 DOI、標題和作者；Crossref 年份欄位為空。OpenAlex 同 DOI 記錄核對標題、作者與 2026 出版年，並以摘要核對研究樣本、地區和結果方向。僅保存自行撰寫的摘要，不保存 API 摘要原文。"
+  },
+  "limitations_zh": "未下載全文；準縱向單一社區樣本非隨機實驗，住宅自我選擇和其他搬遷因素仍影響外推。",
+  "critique_relationship_zh": "跨來源比較只表示主題並置，不推定作者互引或逐條反駁。",
+  "metadata_licence_zh": "只保存公開 API 書目與自行撰寫的摘要；精確 metadata licence 未核驗，標 UNKNOWN。"
+}

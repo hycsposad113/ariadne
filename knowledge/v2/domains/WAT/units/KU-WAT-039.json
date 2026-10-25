@@ -1,0 +1,74 @@
+{
+  "id": "KU-WAT-039",
+  "domain": "WAT",
+  "subtopic": "韌性理論與批評",
+  "type": "method",
+  "title_zh": "用適應路徑標示改變策略的時點",
+  "title_en": "用適應路徑標示改變策略的時點",
+  "summary_zh": "動態調適路徑把政策拆成先行措施、監測訊號和未來可切換選項。荷蘭深度不確定性研究展示，長期預測不穩時仍能保留後續選擇。設計圖應交代什麼資訊會觸發下一步。監測責任者也要列入圖面，否則觸發訊號無法轉成下一階段的政策選項。",
+  "key_points_zh": [
+    "轉換門檻要連到可觀測資料和負責機構。",
+    "分期建設若封閉後續選項，會增加鎖定風險。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "library_id": "BERKES2013",
+        "claim_zh": "文章聚焦社區韌性的整合觀點；未以書目紀錄推論所有社區共享相同的調適能力；本單元 KU-WAT-039 對照「動態調適路徑把政策拆成先行措施、監測訊號和未來可切換選項」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "概念整合回顧",
+        "context_region": "跨學科社會－生態研究",
+        "locator": null
+      },
+      {
+        "library_id": "OSTROM2009",
+        "claim_zh": "摘要說明跨領域共同框架有助累積社會－生態系統知識，並指出使用者有時能自組織管理資源；這不是免除政府責任的普遍規則；本單元 KU-WAT-039 對照「動態調適路徑把政策拆成先行措施、監測訊號和未來可切換選項」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "ABSTRACT_REVIEW",
+        "effect_or_value": null,
+        "study_design": "跨學科概念框架",
+        "context_region": "跨地域自然資源治理",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "為水位、降雨和維護成本設定監測節點。",
+    "把階段性土地用途與未來調整空間並列。"
+  ],
+  "applies_when_zh": "適用於不確定氣候條件下的分期規劃。",
+  "not_applicable_when_zh": "不適用於沒有監測指標和責任單位的方案。",
+  "debates_zh": "沒有長期監測預算或決策授權時，路徑圖不會自行產生調適能力。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "BERKES2013",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "OSTROM2009",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "調適路徑規劃",
+  "region": "荷蘭；跨地域",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "韌性理論與批評"
+    },
+    {
+      "school": "MIT",
+      "course": null,
+      "topic": "韌性理論與批評"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0"
+}

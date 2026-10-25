@@ -1,0 +1,100 @@
+{
+  "id": "MOR-008",
+  "title_zh": "基座加相對高量體",
+  "title_en": "Podium and upper volumes",
+  "domain": "morphology",
+  "stages": [
+    "S3",
+    "S4",
+    "S6",
+    "S7"
+  ],
+  "statement_zh": "基座沿街放用途，上層局部退台或抬高，總高仍 <=20 m；公共穿越須落在可用入口，不能穿過封閉基座。",
+  "rationale_zh": "密度與街道活動可集中，基座也可能成屏障。",
+  "applies_when": {
+    "scale": [
+      "*"
+    ],
+    "land_use": [
+      "*"
+    ],
+    "strategy": [
+      "*"
+    ],
+    "mode": [
+      "*"
+    ]
+  },
+  "parameters": [
+    {
+      "name": "podium_height_trial",
+      "value": null,
+      "range": [
+        3.5,
+        7
+      ],
+      "unit": "m",
+      "provenance": "ASSUMED_COMMANDER",
+      "source_ids": [],
+      "authority_ref": null,
+      "status": "PROPOSED_PENDING_FOUNDER",
+      "rationale_zh": "指揮官提出的敏感性試算值，文獻未提供此數值；須 Founder 確認、地方資料及確定性驗證，未生效。"
+    }
+  ],
+  "check": {
+    "method_zh": "逐層 footprint、GFA、高度、首層通行及道路碰撞。",
+    "inputs": [
+      "凍結幾何／路網與 hash",
+      "已接受專案條件與版本",
+      "卡片參數與版本"
+    ],
+    "output": "檢查值、單位、方法、有效性、差異與限制；不自動採納",
+    "implementation_status": "SPECIFICATION_ONLY"
+  },
+  "check_unavailable_reason_zh": null,
+  "design_responses": [
+    {
+      "option": "1",
+      "action_zh": "多入口通透基座",
+      "source_ids": [
+        "NG10"
+      ],
+      "tradeoff_zh": "管理與結構較複雜。"
+    },
+    {
+      "option": "2",
+      "action_zh": "低基座加局部高體",
+      "source_ids": [
+        "SPACEMATRIX10"
+      ],
+      "tradeoff_zh": "上部 GFA 減少，需日照證據。"
+    }
+  ],
+  "evidence_level": "ACADEMIC",
+  "evidence_strength": "THEORETICAL",
+  "sources": [
+    {
+      "library_id": "NG10",
+      "claim_id": "C1",
+      "support_scope_zh": "文獻支持概念與比較角度；本卡具體操作是設計推導，試算值及專案約束不是文獻的普適結論。"
+    },
+    {
+      "library_id": "SPACEMATRIX10",
+      "claim_id": "C1",
+      "support_scope_zh": "文獻支持概念與比較角度；本卡具體操作是設計推導，試算值及專案約束不是文獻的普適結論。"
+    },
+    {
+      "library_id": "YUE05",
+      "claim_id": "C1",
+      "support_scope_zh": "文獻支持概念與比較角度；本卡具體操作是設計推導，試算值及專案約束不是文獻的普適結論。"
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "enforcement": "CANDIDATE_ONLY",
+  "authority_ref": null,
+  "debates_zh": "相同密度可由不同形態形成；傳統街廓、現代板樓和高密度策略的公共性、日照與控制方式不同。書目尚未逐頁查證，不能預設一派較好。 已查證書目與主張的查閱層級見 library；不是逐頁核驗或本基地因果結論。",
+  "context_validity_zh": "英國歷史形態、義大利類型學、荷蘭密度與亞洲高密度各有取樣偏向；M4H 倉庫結構與保留邊界需實測，類型不構成偏好排名。",
+  "exceptions_zh": "卡片不可替代現行法規、產權、無障礙或已接受 D1/D2。缺必要資料即回報 UNKNOWN；例外須由 Founder 明確決定並保留原結果。",
+  "version": "0.2.0",
+  "local_context_refs": []
+}

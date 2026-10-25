@@ -1,0 +1,96 @@
+{
+  "id": "KU-STR-072",
+  "domain": "STR",
+  "subtopic": "街道斷面",
+  "type": "value_range",
+  "title_zh": "城市道路單一車道寬度參照",
+  "title_en": "Urban travel lane width reference",
+  "summary_zh": "3.0–3.3 m 是城市行車道的比較參照，適用情境取決於速度、公交車流、裝卸和路側停車。它不是街道整體寬度；兩側人行、植栽與自行車空間仍需另計。指南內的具體條件尚未全文核對。此處的城市行車道的單車道寬度參照是附來源的比較參照，不是本基地法規。",
+  "key_points_zh": [
+    "單一車道寬度不含路緣、停車、排水和自行車帶。",
+    "較寬車道可能增加穿越距離或鼓勵較高速的行車。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "城市街道指南所用車道寬度需核對特定街型和設計速度。",
+        "library_id": "NACTO13",
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+        "effect_or_value": "約 3.0–3.3 m",
+        "study_design": "指南中的城市行車道尺寸參照；章節待核對",
+        "context_region": "美國城市街道指南",
+        "locator": null
+      },
+      {
+        "claim_zh": "建成密度和街道空間配置是多維組合，不宜用寬度單項判斷。",
+        "library_id": "DOVEY14",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "城市密度形態研究",
+        "context_region": "澳洲城市密度研究",
+        "locator": null
+      },
+      {
+        "claim_zh": "街道公共性還涉及界面、活動和管理方式。",
+        "library_id": "CARMONA10",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "公共空間與城市設計",
+        "context_region": "跨地域都市設計",
+        "locator": null
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "城市行車道的單車道寬度參照",
+      "range": "約 3.0–3.3 m",
+      "unit": "公尺",
+      "context": "美國城市街道設計指南的通行車道比較情境；用途：比較車道配置與路側活動的空間取捨；需按道路角色和車種核對。；「城市行車道的單車道寬度參照」僅供來源脈絡內的比較，不是本基地法規、M4H 門檻或通用配額。",
+      "library_id": "NACTO13"
+    }
+  ],
+  "design_implications_zh": [
+    "進行街道斷面推敲時，把 3.0–3.3 m 級距和設計速度、公交／貨運需求及過街距離一起比較。"
+  ],
+  "applies_when_zh": "推敲城市行車道斷面時，把車道寬度和設計速度、公交／貨運及過街距離一起比較。",
+  "not_applicable_when_zh": "這個尺寸不會替代當地道路標準，且不能直接當住宅街、主街或林蔭大道的總寬。",
+  "debates_zh": "車道寬度對車速、路側活動和行人過街都有影響，不能只按大型車輛設計。",
+  "sources": [
+    {
+      "library_id": "NACTO13",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "DOVEY14",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "CARMONA10",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "城市街道斷面與都市形態",
+  "region": "美國城市街道設計指南的通行車道比較情境",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "街道斷面：課綱對應主題"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "街道斷面：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-STR-019"
+  ]
+}

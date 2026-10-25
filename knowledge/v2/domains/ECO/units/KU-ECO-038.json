@@ -1,0 +1,61 @@
+{
+  "id": "KU-ECO-038",
+  "domain": "ECO",
+  "subtopic": "物種友善設計",
+  "type": "concept",
+  "title_zh": "夜間照明會改變物種活動",
+  "title_en": "Lighting alters nocturnal activity",
+  "summary_zh": "燈光能支援人的夜間尋路，也會改變部分昆蟲和蝙蝠的活動。照明的波長、時段和方向皆會形成不同影響。物種敏感度有差異，不能只用亮度代表生態風險。夜間可達性與暗生境須以分段控制協調。",
+  "key_points_zh": [
+    "燈光能支援人的夜間尋路，也會改變部分昆蟲和蝙蝠的活動",
+    "照明的波長、時段和方向皆會形成不同影響"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "燈光能支援人的夜間尋路，也會改變部分昆蟲和蝙蝠的活動。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "美國",
+        "library_id": "MCHARG69",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "夜間可達性與暗生境須以分段控制協調。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "將照明設計、暗廊道和夜間使用分區討論。"
+  ],
+  "applies_when_zh": "適用於河岸、公園和生態通道。",
+  "not_applicable_when_zh": "不應在沒有類群資料時宣稱所有夜行物種受同一影響。",
+  "debates_zh": "夜間可達性與暗生境須以分段控制協調。",
+  "sources": [
+    {
+      "library_id": "MCHARG69",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "KACZYNSKI08",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "景觀生態與疊圖規劃",
+  "region": "美國",
+  "curriculum_refs": [
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "物種友善設計"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-ECO-037",
+    "KU-ECO-039"
+  ]
+}

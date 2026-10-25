@@ -1,0 +1,98 @@
+{
+  "id": "KU-REG-020",
+  "domain": "REG",
+  "subtopic": "德國 BauNVO 制度輪廓",
+  "type": "empirical_finding",
+  "title_zh": "德國內城程序減少行政負擔但未強力改變區位",
+  "title_en": "Inner-city plan procedure in Germany",
+  "summary_zh": "特定程序和城市，不能代表整套 BauNVO 或其他地區。 制度輪廓須連同財政誘因和土地市場一起解讀。 研究設計：土地開發趨勢和成本分析；地區：德國施特拉爾松德。",
+  "key_points_zh": [
+    "施特拉爾松德案例中，快速程序降低行政負擔，但對建商選擇內城而非外城的影響有限。",
+    "研究設計：土地開發趨勢和成本分析；地區：德國施特拉爾松德",
+    "限制：特定程序和城市，不能代表整套 BauNVO 或其他地區。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "施特拉爾松德案例中，快速程序降低行政負擔，但對建商選擇內城而非外城的影響有限。",
+        "effect_or_value": "1990–2018；內城開發提升效果有限",
+        "study_design": "土地開發趨勢和成本分析",
+        "context_region": "德國施特拉爾松德",
+        "library_id": "DILLMANN2018",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "制度輪廓須連同財政誘因和土地市場一起解讀。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "制度輪廓須連同財政誘因和土地市場一起解讀。",
+      "tradeoff_zh": "「德國內城程序減少行政負擔但未強力改變區位」的主要代價不是抽象的建造成本，而是特定程序和城市，不能代表整套 BauNVO 或其他地區；因此先以施特拉爾松德案例中，快速程序降低行政負擔，但對建商選擇內城而非外城的影響有限作方案比較條件。",
+      "library_ids": [
+        "DILLMANN2018",
+        "HIRT2010"
+      ]
+    },
+    {
+      "option_zh": "在「德國內城程序減少行政負擔但未強力改變區位」的來源情境裡，用途類別較可能按主要用途容許相鄰活動，但仍有噪音和建築限制；落到設計時還要按施特拉爾松德案例中，快速程序降低行政負擔，但對建商選擇內城而非外城的影響有限調整。",
+      "tradeoff_zh": "「德國內城程序減少行政負擔但未強力改變區位」的主要代價不是抽象的建造成本，而是特定程序和城市，不能代表整套 BauNVO 或其他地區；因此先以施特拉爾松德案例中，快速程序降低行政負擔，但對建商選擇內城而非外城的影響有限作方案比較條件。",
+      "library_ids": [
+        "DILLMANN2018",
+        "HIRT2010"
+      ]
+    }
+  ],
+  "applies_when_zh": "用於與德國施特拉爾松德研究情境可比、且量測定義相近的分析。",
+  "not_applicable_when_zh": "特定程序和城市，不能代表整套 BauNVO 或其他地區。",
+  "debates_zh": "特定程序和城市，不能代表整套 BauNVO 或其他地區。",
+  "sources": [
+    {
+      "library_id": "DILLMANN2018",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "HIRT2010",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "德國內城發展與土地使用計畫；比較土地使用管制",
+  "region": "施特拉爾松德，德國；德國斯圖加特與美國",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Planning Complex Cities",
+      "topic": "德國 BauNVO 制度輪廓"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Urban Design Contexts and Operations",
+      "topic": "德國 BauNVO 制度輪廓"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "德國 BauNVO 制度輪廓"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban design governance",
+      "topic": "德國 BauNVO 制度輪廓"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-REG-015",
+    "KU-REG-016",
+    "KU-REG-017"
+  ],
+  "counter_unit_ids": [
+    "KU-REG-019"
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "id": "KU-MET-012",
+  "domain": "MET",
+  "subtopic": "評估準則",
+  "type": "method",
+  "title_zh": "評估準則與多準則分析",
+  "title_en": "Criteria and multicriteria analysis",
+  "summary_zh": "多準則分析先界定方案、準則與尺度，再處理標準化、權重及聚合，以明示不同目標的取捨。準則應區分硬性可行性條件與偏好，不能以總分抵銷不合格方案。記錄每項方向、分母和來源，檢查重複準則，再做權重敏感度及排序逆轉測試。",
+  "key_points_zh": [
+    "記錄每項方向、分母和來源，檢查重複準則，再做權重敏感度及排序逆轉測試。",
+    "權重是決策判斷，不是從資料自動得出的客觀真理。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "多準則分析先界定方案、準則與尺度，再處理標準化、權重及聚合，以明示不同目標的取捨。準則應區分硬性可行性條件與偏好，不能以總分抵銷不合格方案。",
+        "library_id": "MALCZEWSKI99",
+        "locator": null,
+        "study_design": "理論／方法綜述；非基地實測",
+        "effect_or_value": null,
+        "context_region": null,
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008"
+      },
+      {
+        "claim_zh": "Geurs 與 van Wee 的可及性評估回顧示範準則、尺度和聚合方式如何改變策略評價。",
+        "library_id": "GEURS04",
+        "locator": null,
+        "study_design": "方法綜述",
+        "effect_or_value": null,
+        "context_region": "荷蘭、跨地域",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "記錄每項方向、分母和來源，檢查重複準則，再做權重敏感度及排序逆轉測試。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "保留分項表能揭露衝突",
+      "tradeoff_zh": "決策者仍須承擔選擇責任。",
+      "library_ids": [
+        "MALCZEWSKI99"
+      ]
+    }
+  ],
+  "applies_when_zh": "用於釐清「評估準則與多準則分析」涉及的空間、制度與行動選擇。",
+  "not_applicable_when_zh": "「評估準則與多準則分析」不能直接替代基地的實測、法規或人類批准。",
+  "debates_zh": "權重是決策判斷，不是從資料自動得出的客觀真理。",
+  "sources": [
+    {
+      "library_id": "MALCZEWSKI99",
+      "locator": null
+    },
+    {
+      "library_id": "GEURS04",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": null,
+      "topic": "編者主題對照，非已核實課程指定閱讀：評估準則與多準則分析"
+    }
+  ],
+  "version": "2.0.0-theory-v3"
+}

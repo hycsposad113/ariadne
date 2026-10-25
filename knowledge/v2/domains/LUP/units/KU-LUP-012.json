@@ -1,0 +1,109 @@
+{
+  "id": "KU-LUP-012",
+  "domain": "LUP",
+  "subtopic": "相容與衝突：工業與住宅介面",
+  "type": "critique",
+  "title_zh": "相容與衝突：工業與住宅介面｜批評與反例",
+  "title_en": "Compatibility and conflicts — Critique and counterexample",
+  "summary_zh": "工業與住宅的相容性會隨活動、治理和地方執法而變，不能用單一分區碼作二元判斷。 布魯塞爾與全球南方材料指出，非正式生產也可能被規劃分類忽略；把它當成空白會遮蔽實際工作和生活依存。 跨地區緩衝距離不能從單城自陳調查推廣，應量測排放、物流時段和住戶暴露。",
+  "key_points_zh": [
+    "讀「相容與衝突：工業與住宅介面｜批評與反例」時，相容性不是固定二元值，地區條件和執法能力會改變結果；同時把工業與住宅的相容性會隨活動、治理和地方執法而變，不能用單一分區碼作二元判斷列為核對條件。",
+    "讀「相容與衝突：工業與住宅介面｜批評與反例」時，適用於生產性城市、工業住宅交界與混合用途開發；同時把工業與住宅的相容性會隨活動、治理和地方執法而變，不能用單一分區碼作二元判斷列為核對條件。",
+    "讀「相容與衝突：工業與住宅介面｜批評與反例」時，限制：不能把單一城市調查的距離或自陳感受轉成普遍緩衝規範；同時把工業與住宅的相容性會隨活動、治理和地方執法而變，不能用單一分區碼作二元判斷列為核對條件。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "Ryckewaert 的布魯塞爾案例顯示，住宅與生產活動混合時須處理共享空間、物流和干擾管理；垂直共置只是其中一種配置。",
+        "library_id": "RYCKEWAERT2021",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "布魯塞爾，比利時",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "非正式性並非只屬於貧民區；規劃需處理制度例外與分配正義，不能把非正式使用當空白基地。",
+        "library_id": "ROY05",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "全球南方",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "將夜間裝卸時段、低頻噪音來源和住宅臥室開口標在同一介面剖面，檢查衝突是否可由時段管理緩解。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "將夜間裝卸時段、低頻噪音來源和住宅臥室開口標在同一介面剖面，檢查衝突是否可由時段管理緩解。",
+      "tradeoff_zh": "此選項把「相容與衝突：工業與住宅介面｜批評與反例」的工作放在工業與住宅的相容性會隨活動、治理和地方執法而變，不能用單一分區碼作二元判斷上；需要承擔的協調或維護代價則由「「相容與衝突：工業與住宅介面｜批評與反例」的爭議不只在於不能把單一城市調查的距離或自陳感受轉成普遍緩衝規範；還要檢視工業與住宅的相容性會隨活動、治理和地方執法而變，不能用單一分區碼作二元判斷會讓哪些使用者承擔不同後果」界定。",
+      "library_ids": [
+        "RYCKEWAERT2021",
+        "ROY05"
+      ]
+    },
+    {
+      "option_zh": "「相容與衝突：工業與住宅介面｜批評與反例」可把取向落在緩衝、垂直分層、共享裝卸和時間管理是不同的介面策略，但需連同工業與住宅的相容性會隨活動、治理和地方執法而變，不能用單一分區碼作二元判斷決定適用方式。",
+      "tradeoff_zh": "此選項把「相容與衝突：工業與住宅介面｜批評與反例」的工作放在工業與住宅的相容性會隨活動、治理和地方執法而變，不能用單一分區碼作二元判斷上；需要承擔的協調或維護代價則由「「相容與衝突：工業與住宅介面｜批評與反例」的爭議不只在於不能把單一城市調查的距離或自陳感受轉成普遍緩衝規範；還要檢視工業與住宅的相容性會隨活動、治理和地方執法而變，不能用單一分區碼作二元判斷會讓哪些使用者承擔不同後果」界定。",
+      "library_ids": [
+        "RYCKEWAERT2021",
+        "ROY05"
+      ]
+    }
+  ],
+  "applies_when_zh": "「相容與衝突：工業與住宅介面｜批評與反例」可在適用於生產性城市、工業住宅交界與混合用途開發時使用，前提是工業與住宅的相容性會隨活動、治理和地方執法而變，不能用單一分區碼作二元判斷與來源情境相符。",
+  "not_applicable_when_zh": "若工業與住宅的相容性會隨活動、治理和地方執法而變，不能用單一分區碼作二元判斷不成立，就不能把「相容與衝突：工業與住宅介面｜批評與反例」的結論延伸到其他情況；不能把單一城市調查的距離或自陳感受轉成普遍緩衝規範。",
+  "debates_zh": "「相容與衝突：工業與住宅介面｜批評與反例」的爭議不只在於不能把單一城市調查的距離或自陳感受轉成普遍緩衝規範；還要檢視工業與住宅的相容性會隨活動、治理和地方執法而變，不能用單一分區碼作二元判斷會讓哪些使用者承擔不同後果。",
+  "sources": [
+    {
+      "library_id": "RYCKEWAERT2021",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "ROY05",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "HIRT2014",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "生產性城市與混合用途；非正式都市化",
+  "region": "布魯塞爾，比利時；全球南方",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Planning Complex Cities",
+      "topic": "相容與衝突：工業與住宅介面"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Cities by Design",
+      "topic": "相容與衝突：工業與住宅介面"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "相容與衝突：工業與住宅介面"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Sustainable Futures by Design",
+      "topic": "相容與衝突：工業與住宅介面"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-LUP-008",
+    "KU-LUP-009",
+    "KU-LUP-010"
+  ]
+}

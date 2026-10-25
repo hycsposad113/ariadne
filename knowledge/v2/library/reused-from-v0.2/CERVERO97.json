@@ -1,0 +1,47 @@
+{
+  "id": "CERVERO97",
+  "title": "Travel demand and the 3Ds: Density, diversity, and design",
+  "authors": [
+    "Robert Cervero",
+    "Kara Maria Kockelman"
+  ],
+  "year": 1997,
+  "venue_or_publisher": "Transportation Research Part D Transport and Environment",
+  "doi": "https://doi.org/10.1016/s1361-9209(97)00009-6",
+  "isbn": null,
+  "openalex_id": "https://openalex.org/W1987233492",
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "建成環境交通實證",
+  "region": [
+    "美國"
+  ],
+  "method": "出行統計關聯",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "密度、用途多樣性及設計是相互關聯的出行研究維度；不能單獨套用密度決定交通模式。",
+      "strength": "MIXED",
+      "scope_zh": "僅限本研究或概念框架；不提供 M4H 的實測、法律效力或本卡試算門檻。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [
+    "NAESS12"
+  ],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "OpenAlex",
+    "query": {
+      "title": "Travel demand and the 3Ds: Density, diversity, and design",
+      "author": "Robert Cervero",
+      "year": 1997,
+      "matched_record_id_lookup": "https://openalex.org/W1987233492"
+    },
+    "matched_record_id": "https://openalex.org/W1987233492",
+    "checked_at_utc": "2026-10-08T09:12:32Z",
+    "match_notes_zh": "本任務重新以允許的公開書目 API 核對書名、作者與出版年；只確認書目，不代表全文主張已核實。"
+  },
+  "limitations_zh": "僅核對公開書目及可得摘要，未下載全文；書目驗證不代表全文因果或所有主張均已確認。",
+  "critique_relationship_zh": "known_critiques 是編者指定的批評或替代閱讀，不宣稱實際互引或逐一反駁；Ratti 與 Hillier／Penn 的標題記錄確認明確對話。",
+  "metadata_licence_zh": "保存書目欄位和自行撰寫的來源說明；未保存 API 摘要或全文，資料服務授權細節未由本任務判定。"
+}

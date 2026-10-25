@@ -1,0 +1,83 @@
+{
+  "id": "KU-CLI-033",
+  "domain": "CLI",
+  "subtopic": "材料與反照率",
+  "type": "value_range",
+  "title_zh": "反照率的量尺從全吸收到全反射",
+  "title_en": "反照率的量尺從全吸收到全反射",
+  "summary_zh": "反照率表示表面反射的短波比例，理論上從不反射到全部反射。它描述光學能量交換，不等於行人熱舒適或表面溫度變化。材料色澤、粗糙度、波長和濕潤狀態都會影響測值。跨材料比較還要統一波段、入射條件和表面狀態，否則代表值不能直接排序。",
+  "key_points_zh": [
+    "反照率範圍是光學定義，不是性能分級。",
+    "不同波段的反射率不能任意混用。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "library_id": "SANTAMOURIS2014",
+        "claim_zh": "短波反照率是反射能量與入射能量之比，物理域介於 0 與 1；數值高低不直接等同戶外舒適度高低。",
+        "effect_or_value": "表面粗糙、顏色、波長和濕潤狀態仍會影響實際測值。",
+        "study_design": "反射技術回顧",
+        "context_region": "跨地域城市",
+        "locator": null,
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008"
+      },
+      {
+        "library_id": "NORTON2015",
+        "claim_zh": "書目確認本文題名聚焦「Planning for cooler cities: A framework to prioritise green infrastructure to mitigate high temperatures in urban landscapes」；目前只完成作者、年份、題名與 DOI 核對，未將摘要或全文結論納入此記錄；本單元 KU-CLI-033 對照「反照率表示表面反射的短波比例，理論上從不反射到全部反射」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "方法或概念研究；目前僅核對書目範圍",
+        "context_region": "澳洲",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "標註測量方法和波段，避免與發射率混淆。",
+    "將反射光對鄰近行人的影響納入評估。"
+  ],
+  "applies_when_zh": "適用於檢查反照率資料格式。",
+  "not_applicable_when_zh": "此物理定義用於材料參數表，不能作為舒適度門檻；0–1 的量尺也不是本基地法規。",
+  "debates_zh": "單一平均反照率會掩蓋光譜差異及老化後變化。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "SANTAMOURIS2014",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "NORTON2015",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "材料光學參數",
+  "region": "跨地域城市；跨氣候帶",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "材料與反照率"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": null,
+      "topic": "材料與反照率"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0",
+  "values": [
+    {
+      "name": "短波反照率的物理定義範圍",
+      "range": "0–1",
+      "unit": "dimensionless",
+      "context": "表面反射短波能量占入射短波能量的比例 這不是本基地法規；來源所列地域：跨地域都市研究。",
+      "library_id": "SANTAMOURIS2014"
+    }
+  ]
+}

@@ -1,0 +1,390 @@
+{
+  "id": "fabric.harbour_grain",
+  "names": {
+    "zh": "港埠線性紋理",
+    "en": "Harbour Grain"
+  },
+  "concept_zh": "港埠紋理把碼頭岸線、舊倉庫、裝卸路徑與鐵道支線讀成一組平行的長向骨架，再以少量橫向街巷把它們接起來。長條街廓承接較大跨距或連續量體，窄巷保留日常穿越與服務入口；水岸不是街網的背面，而是另一條連續公共邊界。以下幾何範圍是設計包絡，不代表先例實測街廓軸長。",
+  "when_to_use_zh": "適用於狹長碼頭、河港或鐵道邊基地，且岸線、吊運路徑、倉庫長向或既有平行街道仍可辨認；基地短邊足以容納至少一條縱向主街與一條可穿越岸邊的橫向連接。",
+  "when_not_to_use_zh": "若基地沒有明確長向、需要多方向短步行路徑，或水岸依法不可達且無替代公共邊界，不應只為了港埠意象硬套平行街廓；狹窄地帶若被單一物流軸切斷，也不能把窄巷當作完整的公共通行網。",
+  "height_cap_adaptation_zh": "20 m 高度上限下保留港埠長向組織與倉庫再利用；住宅翼及板樓依樓層高度約為 4–5 層，工業廠房依實際用途和淨高控制，並以退台或斷開量體保持岸線通透。樓層數須按首層用途、構造及實際法規校核。（本基地首層 4 m、標準層 3.5 m：5 層＝18 m 為上限，6 層＝21.5 m 會超過 20 m）",
+  "street_network": {
+    "pattern": "linear_parallel",
+    "orientation_rule_zh": "先把主街平行碼頭岸線、舊倉庫長邊或可辨認的鐵道方向；每隔數個街廓配置一條真正接岸的橫向街，避免所有橫向通路都終止於物流圍籬。",
+    "street_width_building_gap_proxy_m": {
+      "p25": 26.55,
+      "median": 38.78,
+      "p75": 53.31,
+      "unit": "m",
+      "status": "MEASURED_PRECEDENT_PROXY",
+      "basis_zh": "婆羅洲—斯波倫堡 的建築外牆最近點間距：P25 26.55 m、中位數 38.78 m、P75 53.31 m（KU-MOR-081）。數值含建築退縮，是外牆間距代理，不是法定路權、車道淨寬或道路斷面；道路幾何仍需另測。",
+      "ku_ids": [
+        "KU-MOR-081"
+      ]
+    },
+    "hierarchy": [
+      {
+        "name_zh": "港區主街",
+        "section_width_m": {
+          "minimum": 18,
+          "maximum": 24,
+          "unit": "m"
+        },
+        "modes": [
+          "步行",
+          "自行車",
+          "汽車",
+          "服務"
+        ],
+        "spacing_m": {
+          "minimum": 250,
+          "maximum": 400,
+          "unit": "m"
+        },
+        "status": "EDITORIAL",
+        "basis_zh": "KB4 未量測法定路幅或平行街距；此斷面和間距是港區物流、慢行與街廓尺度協調用的草圖包絡。"
+      },
+      {
+        "name_zh": "倉庫次街",
+        "section_width_m": {
+          "minimum": 12,
+          "maximum": 16,
+          "unit": "m"
+        },
+        "modes": [
+          "步行",
+          "自行車",
+          "汽車",
+          "服務"
+        ],
+        "spacing_m": {
+          "minimum": 100,
+          "maximum": 160,
+          "unit": "m"
+        },
+        "status": "EDITORIAL",
+        "basis_zh": "研究窗道路交叉口街段長不等於支路間距；範圍用來控制長條街廓的橫向分割頻率，需按消防及服務需求校核。"
+      },
+      {
+        "name_zh": "裝卸窄巷",
+        "section_width_m": {
+          "minimum": 6,
+          "maximum": 8,
+          "unit": "m"
+        },
+        "modes": [
+          "步行",
+          "自行車",
+          "服務"
+        ],
+        "spacing_m": {
+          "minimum": 40,
+          "maximum": 80,
+          "unit": "m"
+        },
+        "status": "EDITORIAL",
+        "basis_zh": "窄巷尺寸未由先例資料量測；作為可步行穿越與短時服務的初始幾何，車輛通行權須另由設計者決定。"
+      }
+    ],
+    "connection_rule_zh": "把一端接到既有城市道路或公共運輸入口，另一端接到水岸步道或港區公共節點；保留至少兩條彼此獨立的橫向穿越線。物流出入口與行人入口分開標記，不用封閉式街廓假裝成公共通路。"
+  },
+  "blocks": {
+    "short_edge_m": {
+      "minimum": 68.6,
+      "maximum": 68.6,
+      "unit": "m",
+      "basis": {
+        "status": "MEASURED_PRECEDENT_DERIVED",
+        "note_zh": "Borneo-Sporenburg：完整街廓 n=4、面積中位數 8,732.59 m²；以交叉口間街段長 P75 127.36 m 作暫定長邊代理，短邊=8,732.59÷127.36=68.56 m，落在邊長 P25–P75（39.71–127.36 m）內，推估 68.6×127.4 m。僅一個合格先例，故是推估點而非跨案設計區間；街段長不等於街廓軸長，須按基地路口校核。",
+        "ku_ids": [
+          "KU-MOR-081"
+        ]
+      }
+    },
+    "long_edge_m": {
+      "minimum": 127.4,
+      "maximum": 127.4,
+      "unit": "m",
+      "basis": {
+        "status": "MEASURED_PRECEDENT_DERIVED",
+        "note_zh": "Borneo-Sporenburg：完整街廓 n=4、面積中位數 8,732.59 m²；以交叉口間街段長 P75 127.36 m 作暫定長邊代理，短邊=8,732.59÷127.36=68.56 m，落在邊長 P25–P75（39.71–127.36 m）內，推估 68.6×127.4 m。僅一個合格先例，故是推估點而非跨案設計區間；街段長不等於街廓軸長，須按基地路口校核。",
+        "ku_ids": [
+          "KU-MOR-081"
+        ]
+      }
+    },
+    "shape_rule_zh": "先畫平行岸線的長方形街廓，再在碼頭轉折、舊鐵道切線或城市道路交會處調整；街廓長邊不得跨過既有公共橫向路徑，尖角地塊以退縮或切角處理，不把殘地塞成狹長量體。",
+    "plot_subdivision_zh": "以 8–18 m 的臨街地塊寬作 EDITORIAL 起稿刻度，窄面寬用於細粒住宅或工作室；大跨倉庫以合併地塊表示，並把合併邊界及未來可拆分的服務巷畫出。KB4 未量測地籍地塊寬，此數字不可當成先例統計或法規。"
+  },
+  "building_composition": {
+    "components": [
+      {
+        "part_id": "block.rowhouse_strip",
+        "recommended_share_percent": 25,
+        "share_denominator_zh": "以候選街廓數為分母；連棟帶的起稿份額。",
+        "basis_zh": "Borneo-Sporenburg 完整街廓類型有 1/4 為連棟；此比例只反映 block_type_mix 街廓數訊號，不等於住宅面積。"
+      },
+      {
+        "part_id": "building.rowhouse",
+        "recommended_share_percent": 35,
+        "share_denominator_zh": "以臨街地塊數為分母；窄面寬住宅單元的建議份額。",
+        "basis_zh": "港埠長條街廓可用細分面水住宅帶；地籍面寬未實測，35% 是設計配置值，不是先例占比。"
+      },
+      {
+        "part_id": "building.i_slab",
+        "recommended_share_percent": 40,
+        "share_denominator_zh": "以建築地面足跡面積為分母；板樓量體的起稿份額。",
+        "basis_zh": "Borneo-Sporenburg 完整街廓 2/4 為板樓，是實測主導類型；40% 是 footprint 建議，不能直接等同 block_type_mix 的 50%。"
+      },
+      {
+        "part_id": "building.industrial_hall",
+        "recommended_share_percent": 25,
+        "share_denominator_zh": "以建築地面足跡面積為分母；供廠房或倉庫再利用。",
+        "basis_zh": "港池與長倉庫帶可保留大跨量體再利用；分類欄未量得其比例，25% 是港埠脈絡設計理由。"
+      },
+      {
+        "part_id": "block.perimeter",
+        "recommended_share_percent": 10,
+        "share_denominator_zh": "以候選街廓數為分母；少量岸線邊緣接合配置。",
+        "basis_zh": "Borneo-Sporenburg 實測周邊式為 0/4；僅保留街角或鄰接城市端接合，不作主導類型。"
+      }
+    ],
+    "height_profile_zh": "先沿港區主街和城市入口布置較高、較連續的街牆；面水的一線維持較低或留出視線缺口，倉庫量體以低層大跨為主。高度梯度是設計策略，須以日照、風、航道及既有建物檢核，不從先例平均高度推定。"
+  },
+  "open_space_system": {
+    "types": [
+      "space.waterfront_promenade",
+      "space.shared_street",
+      "space.plaza"
+    ],
+    "configuration_rule_zh": "沿岸配置連續但可分段使用的步行帶，橫向巷道在岸邊接到小廣場；服務車道不得佔用主要水岸步行線，碼頭作業區則以明確門禁邊界標示。",
+    "site_area_share_percent": {
+      "minimum": 18,
+      "maximum": 30,
+      "status": "EDITORIAL",
+      "basis_zh": "港區開放空間比例未由本地案例量測；此範圍供道路、街廓、公園、廣場、水岸和服務用地共同平衡，所有面積以同一基地邊界計且互斥。"
+    }
+  },
+  "edges": [
+    {
+      "type": "waterfront",
+      "rule_zh": "先標出作業岸、可達岸與不可達岸；可達段以連續步行線接橫向街，不把水面或私人碼頭算入陸地開放空間。"
+    },
+    {
+      "type": "large_park",
+      "rule_zh": "大型公園邊配置入口和可見的服務界面，避免以倉庫背牆連續貼邊，並讓至少一條橫向路徑穿過或沿邊通行。"
+    },
+    {
+      "type": "topographic_edge",
+      "rule_zh": "遇到堤頂、高差或碼頭擋牆，先畫無障礙縱向路徑及可用坡道位置，再決定街廓接岸方式，不以單一樓梯作唯一入口。"
+    },
+    {
+      "type": "retained_building",
+      "rule_zh": "保留倉庫先以實測 footprint 鎖定，再把新街巷接到原有裝卸門洞；未確認結構或用途前不把建物當作可拆空地。"
+    },
+    {
+      "type": "existing_city_road",
+      "rule_zh": "在城市道路端延續行人、自行車及車道中心線的連接，主街接續既有方向，物流轉彎半徑另列，不讓新街道突然封閉。"
+    }
+  ],
+  "density_targets": {
+    "GSI": {
+      "range": {
+        "minimum": 0.218,
+        "maximum": 0.5065
+      },
+      "unit": "dimensionless",
+      "basis": "KU-MOR-081 Borneo 0.5065、KU-MOR-083 KNSM 0.2787、KU-MOR-087 Lloyd 0.2180 的研究窗陸地 GSI 觀察範圍；範圍是案例包絡，不是設計目標。",
+      "status": "MEASURED_PRECEDENT"
+    },
+    "FSI": {
+      "range": {
+        "minimum": 1.9643,
+        "maximum": 2.2736
+      },
+      "unit": "dimensionless",
+      "basis": "KU-MOR-083 KNSM 1.9643 至 KU-MOR-087 Lloyd 2.2736；兩者均為可比較門檻內的已知樓地板面積下限，非完整量體總量。",
+      "status": "MEASURED_PRECEDENT"
+    },
+    "L": {
+      "range": {
+        "minimum": 4.154,
+        "maximum": 10.461
+      },
+      "unit": "storeys",
+      "basis": "KU-MOR-081、083、087 的足跡加權已知樓層範圍；樓層來源與 3.0 m／層換算限制依各 KU，不作高度限制。 上限 10.5 層來自 Kop van Zuid 的高層案例窗，不代表港埠紋理的常態；中低層港埠住區（Borneo-Sporenburg、Lloydkwartier）約 3–5 層。高度上限 20 m 的基地以 3–5 層為準。",
+      "status": "MEASURED_PRECEDENT"
+    },
+    "OSR": {
+      "range": {
+        "minimum": 0.2348,
+        "maximum": 0.3672
+      },
+      "unit": "dimensionless",
+      "basis": "KU-MOR-081、083、087 的已知 FSI 下開放空間比觀察值範圍；定義與分母依 KB4 KU，不能直接轉成基地配額。",
+      "status": "MEASURED_PRECEDENT"
+    }
+  },
+  "drawing_steps": [
+    {
+      "order": 1,
+      "action_zh": "描出基地陸地、水面、碼頭作業區、鐵道、倉庫 footprint 與城市道路；先分清可達岸和封閉岸。"
+    },
+    {
+      "order": 2,
+      "action_zh": "沿岸線或倉庫長邊畫一條主軸，再平行畫其他主街；把既有鐵道方向當作對位線索，不直接複製其權屬邊界。"
+    },
+    {
+      "order": 3,
+      "action_zh": "在街網端點接上既有城市道路與公共運輸入口，再畫至少兩條穿向水岸的橫向路徑。"
+    },
+    {
+      "order": 4,
+      "action_zh": "依 55–90 m 短邊、140–240 m 長邊的 EDITORIAL 街廓包絡切分長向基地，記下每一段與岸線的關係。"
+    },
+    {
+      "order": 5,
+      "action_zh": "先固定保留倉庫，再依可拆地籍界線切地塊；大跨廠房用合併地塊，小尺度街面用窄面寬地塊表示。"
+    },
+    {
+      "order": 6,
+      "action_zh": "在街廓邊界放 block.perimeter，於少數物流街廓放工業園區和廠房，沿主要入口補長向板樓；標示各部件比例的分母。"
+    },
+    {
+      "order": 7,
+      "action_zh": "連續畫出可達水岸步行帶、橫向窄巷和小廣場，並扣除不可進入的裝卸面積。"
+    },
+    {
+      "order": 8,
+      "action_zh": "統一陸地分母計算 GSI、FSI、L、OSR，與 KU-MOR-081/083/087 案例包絡並列；差異只觸發檢查，不自動判優劣。"
+    }
+  ],
+  "land_use_budget": {
+    "roads": {
+      "minimum": 16,
+      "maximum": 22,
+      "unit": "percent_site_area",
+      "status": "EDITORIAL",
+      "basis_zh": "道路比例是港區線性街網的起稿配置，KB4 沒有道路用地預算量測。"
+    },
+    "blocks": {
+      "minimum": 48,
+      "maximum": 58,
+      "unit": "percent_site_area",
+      "status": "EDITORIAL",
+      "basis_zh": "可建街廓比例為規劃草圖假設，須與實際港區作業及地籍界線核對。"
+    },
+    "parks": {
+      "minimum": 6,
+      "maximum": 12,
+      "unit": "percent_site_area",
+      "status": "EDITORIAL",
+      "basis_zh": "公園份額未由案例幾何統計得出，需配合服務半徑與既有綠地檢查。"
+    },
+    "plazas": {
+      "minimum": 2,
+      "maximum": 5,
+      "unit": "percent_site_area",
+      "status": "EDITORIAL",
+      "basis_zh": "廣場份額是入口節點草圖配置，不代表活動容量或公共性已驗證。"
+    },
+    "waterfront": {
+      "minimum": 10,
+      "maximum": 18,
+      "unit": "percent_site_area",
+      "status": "EDITORIAL",
+      "basis_zh": "岸邊公共帶僅計基地陸地內用地；水面和封閉裝卸區不計。"
+    },
+    "service": {
+      "minimum": 4,
+      "maximum": 10,
+      "unit": "percent_site_area",
+      "status": "EDITORIAL",
+      "basis_zh": "服務用地需依物流、消防與廢棄物流程重算；此範圍只為保留配置餘量。"
+    }
+  },
+  "common_errors_zh": [
+    "把研究窗長邊誤當成實測街廓長邊。",
+    "讓所有街道平行岸線，基地因此沒有橫向穿越。",
+    "把外牆間距當作道路法定斷面寬度。",
+    "把私人碼頭或裝卸面積算成公共水岸。",
+    "從不規則殘地內縮造成尖角量體，沒有修正地塊。",
+    "留下沒有機能、出入口或管理責任的未配置土地。"
+  ],
+  "precedents": [
+    {
+      "name_zh": "婆羅洲—斯波倫堡",
+      "ku_id": "KU-MOR-081",
+      "measurements": [
+        {
+          "metric": "GSI",
+          "value": 0.5065,
+          "unit": "dimensionless",
+          "status": "MEASURED_PRECEDENT",
+          "limitation_zh": "12.0 ha 研究窗的陸地分母觀察值，不代表開發案邊界或規範。"
+        },
+        {
+          "metric": "FSI",
+          "value": 2.1015,
+          "unit": "dimensionless",
+          "status": "MEASURED_PRECEDENT",
+          "limitation_zh": "高度可比較門檻通過但仍為已知樓地板面積下限，依賴 3DBAG 高度連結。"
+        }
+      ],
+      "borrow_zh": "借用狹長港島中主街與岸線、量體方向相互對位的讀圖問題。",
+      "do_not_borrow_zh": "不借用其研究窗尺寸作街廓尺寸，也不把案例平均值當成本基地密度目標。"
+    },
+    {
+      "name_zh": "勞埃德區",
+      "ku_id": "KU-MOR-087",
+      "measurements": [
+        {
+          "metric": "GSI",
+          "value": 0.218,
+          "unit": "dimensionless",
+          "status": "MEASURED_PRECEDENT",
+          "limitation_zh": "本次研究窗陸地 GSI；完整街廓樣本不足，不作街廓尺寸分布。"
+        },
+        {
+          "metric": "FSI",
+          "value": 2.2736,
+          "unit": "dimensionless",
+          "status": "MEASURED_PRECEDENT",
+          "limitation_zh": "可比較的已知樓地板面積下限，不是全區完整 FSI。"
+        }
+      ],
+      "borrow_zh": "借用新舊港區在同一研究窗中分段閱讀街網與量體的方式。",
+      "do_not_borrow_zh": "不從少數完整街廓推估一般街廓軸長，也不套用其分期條件。"
+    },
+    {
+      "name_zh": "南岸角—威廉明娜碼頭",
+      "ku_id": "KU-MOR-085",
+      "measurements": [
+        {
+          "metric": "GSI",
+          "value": 0.3209,
+          "unit": "dimensionless",
+          "status": "MEASURED_PRECEDENT",
+          "limitation_zh": "研究窗陸地 GSI；案例 FSI 為高度缺值下限，不能比較。"
+        },
+        {
+          "metric": "FSI",
+          "value": 6.0102,
+          "unit": "dimensionless",
+          "status": "LOWER_BOUND_NONCOMPARABLE",
+          "limitation_zh": "此值是高度缺值下限，明確不可作密度目標或上下界。"
+        }
+      ],
+      "borrow_zh": "借用沿大型港區作業帶辨認服務路徑與公共邊界的問題。",
+      "do_not_borrow_zh": "不借用 6.0102 作為 FSI 目標，也不把研究窗等同歷史開發範圍。"
+    }
+  ],
+  "sources": [
+    "OSM_KB4_PRECEDENTS",
+    "3DBAG_KB4_HEIGHTS",
+    "BILJECKI2022",
+    "EASTERN_HARBOUR_AMSTERDAM2012",
+    "STOUTEN2017",
+    "DOUCET2011KOPVANZUID"
+  ]
+}

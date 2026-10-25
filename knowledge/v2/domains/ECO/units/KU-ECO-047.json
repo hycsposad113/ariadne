@@ -1,0 +1,61 @@
+{
+  "id": "KU-ECO-047",
+  "domain": "ECO",
+  "subtopic": "自然為本的解決方案",
+  "type": "concept",
+  "title_zh": "自然資本估值不是唯一決策語言",
+  "title_en": "Monetary valuation is not the only language",
+  "summary_zh": "貨幣價值有助跨部門比較部分生態服務。文化、物種內在價值和土地權利難以完整折算。估值模型對折現率和受益者假設敏感。可比較性提升也可能使市場偏好凌駕保育義務。把貨幣估值與不可替代價值及分配影響並列。",
+  "key_points_zh": [
+    "貨幣價值有助跨部門比較部分生態服務",
+    "文化、物種內在價值和土地權利難以完整折算"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "貨幣價值有助跨部門比較部分生態服務。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "歐洲",
+        "library_id": "TZUOLAS07",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "可比較性提升也可能使市場偏好凌駕保育義務。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "把貨幣估值與不可替代價值及分配影響並列。"
+  ],
+  "applies_when_zh": "適用於公共投資決策和成本效益分析。",
+  "not_applicable_when_zh": "不應以價格較低判定生態損失可接受。",
+  "debates_zh": "可比較性提升也可能使市場偏好凌駕保育義務。",
+  "sources": [
+    {
+      "library_id": "TZUOLAS07",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "NORTON15",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "綠色基礎設施與健康",
+  "region": "歐洲",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "自然為本的解決方案"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-ECO-046",
+    "KU-ECO-048"
+  ]
+}

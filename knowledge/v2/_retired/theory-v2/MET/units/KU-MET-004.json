@@ -1,0 +1,82 @@
+{
+  "id": "KU-MET-004",
+  "domain": "MET",
+  "subtopic": "製圖與疊圖（layers approach，荷蘭）",
+  "type": "empirical_finding",
+  "title_zh": "製圖與疊圖：多層共現觀察",
+  "title_en": "Mapping and overlay methods: the Dutch layers approach — empirical finding unit 004",
+  "summary_zh": "荷蘭城市的 GIS 形態研究將空間組態、密度和混合用途放在同一診斷框架，並以初步行為資料檢查它們如何共現。疊圖可用來生成待查問題，再由現地資料確認是否真的存在關聯。研究案例不支持把圖層重合直接解讀為因果。限制是「製圖與疊圖：多層共現觀察」所用的城市或案例資料不能單獨證明設計因果，外推仍需重新檢驗。",
+  "key_points_zh": [
+    "荷蘭城市的 GIS 形態研究將空間組態、密度和混合用途放在同一診斷框架，並以初步行為資料檢查它們如何共現。",
+    "疊圖可用來生成待查問題，再由現地資料確認是否真的存在關聯。",
+    "研究案例不支持把圖層重合直接解讀為因果。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "【ABSTRACT_REVIEW】荷蘭城市的 GIS 形態研究將空間組態、密度和混合用途放在同一診斷框架，並以初步行為資料檢查它們如何共現。疊圖可用來生成待查問題，再由現地資料確認是否真的存在關聯。研究案例不支持把圖層重合直接解讀為因果。限制是「製圖與疊圖：多層共現觀察」所用的城市或案例資料不能單獨證明設計因果，外推仍需重新檢驗。",
+        "effect_or_value": "空間組態、密度與混合用途合併觀察，可比單一指標呈現更完整的診斷關係",
+        "study_design": "荷蘭城市案例中的 GIS、形態與行為資料聯合檢驗",
+        "context_region": "荷蘭",
+        "library_id": "YE14",
+        "locator": null
+      },
+      {
+        "claim_zh": "【BIBLIOGRAPHIC_SCOPE_ONLY】就「製圖與疊圖：多層共現觀察」而言，「Urban Morphology as an emerging interdisciplinary field」提供跨學派形態學的比較坐標；此處僅使用其已標明的書目／摘要範圍，不延伸為未核對的效果或因果。",
+        "effect_or_value": null,
+        "study_design": "學科綜述",
+        "context_region": "跨地域",
+        "library_id": "MOUDON97",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "方案圖面應呈現「製圖與疊圖：多層共現觀察」所指出的空間關係，並為關鍵判斷附上整合形態診斷與跨學派形態學各自支持和無法支持的部分。"
+  ],
+  "design_options": [],
+  "applies_when_zh": "當問題包含「製圖與疊圖：多層共現觀察」且需比較需要把多來源空間條件放到同一個可查證框架時時使用。",
+  "not_applicable_when_zh": "若研究缺少對應尺度或群體資料，不以「製圖與疊圖：多層共現觀察」取代資料來源或座標不明，或把圖面共現說成因果時。",
+  "debates_zh": "「製圖與疊圖：多層共現觀察」的爭點在於地圖重疊不會自動形成因果關係；比例尺、分類、缺漏與權力選擇會改變讀法；整合形態診斷與跨學派形態學的研究對象不同，需保留差異而不能合併成單一規則。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "YE14",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "MOUDON97",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "都市分析方法／圖層分析",
+  "region": "荷蘭；跨地域",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Methods of Analysis & Imagination",
+      "topic": "製圖與疊圖：多層共現觀察 — 製圖與疊圖（layers approach，荷蘭）"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "製圖與疊圖：多層共現觀察 — 製圖與疊圖（layers approach，荷蘭）"
+    },
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.301J",
+      "topic": "製圖與疊圖：多層共現觀察 — 製圖與疊圖（layers approach，荷蘭）"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "製圖與疊圖：多層共現觀察 — 製圖與疊圖（layers approach，荷蘭）"
+    }
+  ],
+  "version": "2.0.0"
+}

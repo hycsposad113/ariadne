@@ -1,0 +1,84 @@
+{
+  "id": "KU-MOR-076",
+  "domain": "MOR",
+  "subtopic": "地塊、街廓與建築類型",
+  "type": "concept",
+  "title_zh": "Lynch 的城市意象五元素",
+  "title_en": "Lynch’s five elements of city image",
+  "summary_zh": "五類元素是觀察者的認知結構，不是互斥的地物分類；同一座橋可以同時是路徑、邊界和地標。 設計圖可用這套語彙檢查入口、方向選擇和空間辨識是否互相支持。 paths 承載移動；edges 可能分隔，也可能成為連接接縫。",
+  "key_points_zh": [
+    "paths 承載移動；edges 可能分隔，也可能成為連接接縫。",
+    "districts、nodes 和 landmarks 分別支援區域辨識、活動集中與方向定位。",
+    "五種元素可在同一空間重疊，需以使用者路徑和認知訪談驗證。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "Lynch 以 paths、edges、districts、nodes 和 landmarks 五種元素描述人如何形成城市意象：路徑承載移動，邊界分隔或連接區域，區域提供可辨識的地方範圍，節點集中選擇與活動，地標協助定位。",
+        "library_id": "LYNCH60",
+        "effect_or_value": null,
+        "study_design": "經典理論與後續形態學討論",
+        "context_region": "英國／美國城市理論",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "杭州的資料分析結合微博簽到、POI 與 GIS 辨識 Lynch 五類城市意象元素，並檢視這些元素的空間關係。",
+        "effect_or_value": null,
+        "study_design": "社群媒體與地理資料的城市意象分析",
+        "context_region": "中國杭州",
+        "library_id": "WANG2024",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW",
+        "limitations_zh": "計算方法補充元素辨識，仍需保留使用者的地方經驗判讀。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "在策略圖上標示觀察者的主要路徑、節點和地標，再用現地路徑檢查可讀性。",
+    "對不同使用者分開記錄方向線索，避免把設計者的熟悉感當成普遍意象。"
+  ],
+  "applies_when_zh": "用於描述居民如何讀取城市形式；不以圖面可辨識性替代日常使用調查。",
+  "not_applicable_when_zh": "抽象分類不能單獨解釋權力、租金、使用排斥或地方歷史。",
+  "debates_zh": "五元素提供描述語言，並不直接說明地方認同、公平或辨識度如何影響行為；依賴單一觀察者也會偏向設計專業視角。",
+  "sources": [
+    {
+      "library_id": "LYNCH60",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "WANG2024",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "認知地圖與城市形式",
+  "region": "英國／美國城市理論",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "地塊、街廓與建築類型"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "地塊、街廓與建築類型"
+    },
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.330J Theory of City Form",
+      "topic": "地塊、街廓與建築類型"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban form and density",
+      "topic": "地塊、街廓與建築類型"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008"
+}

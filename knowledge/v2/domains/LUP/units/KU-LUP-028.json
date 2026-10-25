@@ -1,0 +1,106 @@
+{
+  "id": "KU-LUP-028",
+  "domain": "LUP",
+  "subtopic": "生產性城市與 maker 經濟",
+  "type": "typology",
+  "title_zh": "生產性城市與 maker 經濟｜類型取捨",
+  "title_en": "Productive city and urban manufacturing — Typology and trade-offs",
+  "summary_zh": "生產性城市方案同時牽涉企業生存、物流需求、環境負擔和工作機會。 垂直混合、工坊街區與計畫型工業區安排這些關係的方式不同。 比較時須說明哪些群體取得收益、哪些承擔噪音或交通成本。",
+  "key_points_zh": [
+    "垂直混合、工坊街區和計畫型工業區是不同選擇。",
+    "讀「生產性城市與 maker 經濟｜類型取捨」時，適用於工業轉型、港區再生和 maker 空間政策討論；同時把研究指出擴張前緣出現土地零碎化、囤置及長期閒置；制度執行是作者提出的重要解釋，不能外推到所有城市列為核對條件。",
+    "限制：沒有企業生存、物流和排放資料時，不推估經濟或環境淨效益。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "Campbell 將城市成長、公平和環境保護視為可能衝突的規劃目標，適合用來指出生產空間方案的取捨。",
+        "library_id": "CAMPBELL96",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "跨地域",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "Ferm 以倫敦製造業復興討論小型工業用地受到住宅與核心辦公競逐的脆弱性，指出生產空間必須面對留地與營運連續性。",
+        "effect_or_value": null,
+        "study_design": "倫敦製造業復興的規劃研究",
+        "context_region": "英國倫敦",
+        "library_id": "FERM2023",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW",
+        "limitations_zh": "文章不是對所有工坊街區、垂直混合或計畫型工業區的效果比較。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "盤點行業類型、噪音、物流、面積需求和共用設施。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "在「生產性城市與 maker 經濟｜類型取捨」的來源情境裡，盤點行業類型、噪音、物流、面積需求和共用設施；落到設計時還要按研究指出擴張前緣出現土地零碎化、囤置及長期閒置；制度執行是作者提出的重要解釋，不能外推到所有城市調整。",
+      "tradeoff_zh": "「生產性城市與 maker 經濟｜類型取捨」採用「在「生產性城市與 maker 經濟｜類型取捨」的來源情境裡，盤點行業類型、噪音、物流、面積需求和共用設施；落到設計時還要按研究指出擴張前緣出現土地零碎化、囤置及長期閒置；制度執行是作者提出的重要解釋，不能外推到所有城市調整」時，得失要沿著研究指出擴張前緣出現土地零碎化、囤置及長期閒置；制度執行是作者提出的重要解釋，不能外推到所有城市檢查；循環經濟話語不保證本地製造能減少總資源使用或衝突。",
+      "library_ids": [
+        "CAMPBELL96"
+      ]
+    },
+    {
+      "option_zh": "在「生產性城市與 maker 經濟｜類型取捨」的來源情境裡，垂直混合、工坊街區和計畫型工業區是不同選擇；落到設計時還要按研究指出擴張前緣出現土地零碎化、囤置及長期閒置；制度執行是作者提出的重要解釋，不能外推到所有城市調整。",
+      "tradeoff_zh": "「生產性城市與 maker 經濟｜類型取捨」採用「在「生產性城市與 maker 經濟｜類型取捨」的來源情境裡，垂直混合、工坊街區和計畫型工業區是不同選擇；落到設計時還要按研究指出擴張前緣出現土地零碎化、囤置及長期閒置；制度執行是作者提出的重要解釋，不能外推到所有城市調整」時，得失要沿著研究指出擴張前緣出現土地零碎化、囤置及長期閒置；制度執行是作者提出的重要解釋，不能外推到所有城市檢查；循環經濟話語不保證本地製造能減少總資源使用或衝突。",
+      "library_ids": [
+        "CAMPBELL96"
+      ]
+    }
+  ],
+  "applies_when_zh": "適用於工業轉型、港區再生和 maker 空間政策討論。",
+  "not_applicable_when_zh": "沒有企業生存、物流和排放資料時，不推估經濟或環境淨效益。",
+  "debates_zh": "循環經濟話語不保證本地製造能減少總資源使用或衝突。",
+  "sources": [
+    {
+      "library_id": "CAMPBELL96",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "FERM2023",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "非洲土地使用與都市擴張；永續規劃批評",
+  "region": "阿迪斯阿貝巴，衣索比亞；跨地域",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Planning Complex Cities",
+      "topic": "生產性城市與 maker 經濟"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Cities by Design",
+      "topic": "生產性城市與 maker 經濟"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "生產性城市與 maker 經濟"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Sustainable Futures by Design",
+      "topic": "生產性城市與 maker 經濟"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-LUP-027",
+    "KU-LUP-029",
+    "KU-LUP-030"
+  ],
+  "counter_unit_ids": [
+    "KU-LUP-031"
+  ]
+}

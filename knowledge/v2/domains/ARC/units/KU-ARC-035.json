@@ -1,0 +1,98 @@
+{
+  "id": "KU-ARC-035",
+  "domain": "ARC",
+  "subtopic": "用途建築",
+  "type": "value_range",
+  "title_zh": "輕工業廠房的結構跨度",
+  "title_en": "light industrial building span",
+  "summary_zh": "輕工業廠房可用 18–30 m 跨度探討設備、貨架和車輛動線是否可在較少柱位下成立。 大跨度帶來的淨空優勢需與屋架高度、吊掛設備和側向穩定一起估算。 具體跨度須由結構系統計算確認。",
+  "key_points_zh": [
+    "核心主張：輕工業廠房可用 18–30 m 跨度探討設備、貨架和車輛動線是否可在較少柱位下成立。",
+    "量測檢查：量測支承軸線間距及柱間淨距，並在結構模型登錄設備荷載和吊運需求。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "輕工業廠房可用 18–30 m 跨度探討設備、貨架和車輛動線是否可在較少柱位下成立。",
+        "effect_or_value": "約 18–30 m 作概念階段跨度帶",
+        "study_design": "跨地域設計參照綜整；數值狀態依 claim_verification 註記",
+        "context_region": "跨地域；用途與當地法規需分開核驗",
+        "library_id": "INDUSTRIAL_LATTICE61",
+        "locator": "chapter; exact table/page not checked",
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008"
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "light-industrial structural span",
+      "range": "約 18–30 m 作概念階段跨度帶",
+      "unit": "m",
+      "context": "地區：跨地域；用途：輕工業廠房型態比較；結構設計須另核算；出處：Design of a Large-span Industrial Building with Special Reference to Lattice Girders；本基地法規：否；核對狀態：數值待原典交叉核對。",
+      "library_id": "INDUSTRIAL_LATTICE61"
+    }
+  ],
+  "design_implications_zh": [
+    "在柱網圖疊加貨架、機台與搬運車轉彎包絡，確認柱位不落在工序主線上。"
+  ],
+  "applies_when_zh": "「輕工業廠房的結構跨度」可在用於方案前期的量體、平面或空間品質篩檢時使用，前提是輕工業廠房可用 18–30 m 跨度探討設備、貨架和車輛動線是否可在較少柱位下成立與來源情境相符。",
+  "not_applicable_when_zh": "若輕工業廠房可用 18–30 m 跨度探討設備、貨架和車輛動線是否可在較少柱位下成立不成立，就不能把「輕工業廠房的結構跨度」的結論延伸到其他情況；不得單獨作為許可、消防、結構或基地法規判定。",
+  "debates_zh": "不同工業用途可能要求起重機、樓板承載或抗震設計，跨度範圍不可直接作工程設計值。",
+  "sources": [
+    {
+      "library_id": "INDUSTRIAL_LATTICE61",
+      "claim_id": "C1",
+      "locator": "chapter; exact table/page not checked"
+    },
+    {
+      "library_id": "ARCH_STUDIO11",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+  "tradition": "建築設計與住宅類型學",
+  "region": "跨地域；用途與當地法規需分開核驗",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Housing and the City / Design of the Urban Fabric",
+      "topic": "建築尺度與住宅平面"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "建築尺度與街道界面"
+    },
+    {
+      "school": "MIT",
+      "course": "Architecture and Urban Design",
+      "topic": "建築尺度與空間型態"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "建築尺度與公共生活"
+    }
+  ],
+  "check": {
+    "method_zh": "量測支承軸線間距及柱間淨距，並在結構模型登錄設備荷載和吊運需求。",
+    "inputs": [
+      "用途建築",
+      "尺寸／面積圖層",
+      "適用地區與用途標籤"
+    ],
+    "logic_zh": "將量測輸入轉成明確尺寸、比例或空間關係；越界只觸發複核，不自動取代設計決策。",
+    "limitations_zh": "量測結果只觸發「輕工業廠房的結構跨度」的複核，不得單獨作為許可或法規判定。"
+  },
+  "version": "kb2-arc-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-ARC-027",
+    "KU-ARC-028",
+    "KU-ARC-029",
+    "KU-ARC-030",
+    "KU-ARC-031"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "BAICS_MEISTERLIN2017",
+  "title": "The grid as algorithm for land use: a reappraisal of the 1811 Manhattan grid",
+  "authors": [
+    "Gergely Baics",
+    "Leah Meisterlin"
+  ],
+  "year": 2017,
+  "venue_or_publisher": "Planning Perspectives",
+  "doi": "10.1080/02665433.2017.1397537",
+  "isbn": null,
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "曼哈頓網格與土地使用史",
+  "region": [
+    "曼哈頓，紐約，美國"
+  ],
+  "method": "Crossref bibliographic scope only; historical reappraisal of the 1811 Manhattan grid",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "Crossref 書目確認本文以 1811 年曼哈頓網格及其土地使用邏輯為研究題旨；本次未取得摘要，不能據題名推導具體街廓尺寸。",
+      "strength": "THEORETICAL",
+      "scope_zh": "僅以已核對的書目題名和作者描述研究範圍；不宣稱全文量測結果。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref",
+    "query": {
+      "doi": "10.1080/02665433.2017.1397537",
+      "title": "The grid as algorithm for land use: a reappraisal of the 1811 Manhattan grid"
+    },
+    "matched_record_id": "https://doi.org/10.1080/02665433.2017.1397537",
+    "checked_at_utc": "2026-10-08T17:37:01Z",
+    "match_notes_zh": "Crossref 記錄核對題名、作者、年份與期刊；未返回摘要。"
+  },
+  "limitations_zh": "只核對書目欄位，未取得或查閱全文或摘要；不確認特定街廓長度。",
+  "metadata_licence_zh": "保存公開 Crossref 書目欄位與自行撰寫的範圍摘要；未保存全文。"
+}

@@ -1,0 +1,71 @@
+{
+  "id": "KU-WAT-006",
+  "domain": "WAT",
+  "subtopic": "海綿城市",
+  "type": "design_principle",
+  "title_zh": "海綿城市名稱要拆成可檢驗的水功能",
+  "title_en": "Translate sponge-city labels into testable water functions",
+  "summary_zh": "海綿城市研究把水循環納入城市政策與規劃語境，但政策名稱不能單獨證明滲透、滯蓄或水質改善。Song 等人的研究以濟南為例討論相關規劃實踐，Che 與 Zhang 的章節則聚焦中國海綿城市方案。現有書目範圍足以辨認研究脈絡，卻不足以推出 M4H 設計雨量或通用工程效能。方案應逐項說明收集、滲透、暫存、排放及維護機制。",
+  "key_points_zh": [
+    "同一政策名稱可能對應不同設施組合和維護責任。",
+    "以水文功能描述方案，比只列政策標籤更容易檢核。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "library_id": "SONG2020",
+        "claim_zh": "題名確認研究以濟南試點評估海綿城市建設的逕流量整合管理；結果數值與試驗設定尚未從摘要核對；本單元 KU-WAT-006 對照「海綿城市研究把水循環納入城市政策與規劃語境，但政策名稱不能單獨證明滲透、滯蓄或水質改善」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "都市水量管理的試點案例研究",
+        "context_region": "中國濟南",
+        "locator": null
+      },
+      {
+        "library_id": "CHEZHANG2019",
+        "claim_zh": "章節題名確認討論中國海綿城市與都市雨水管理概念；不把概念名稱當作已測得的滯洪效能；本單元 KU-WAT-006 對照「海綿城市研究把水循環納入城市政策與規劃語境，但政策名稱不能單獨證明滲透、滯蓄或水質改善」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "概念章節",
+        "context_region": "中國",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "在圖面建立「水循環功能—設施—維護責任—監測指標」對照。",
+    "將目標轉成可計算參數後，再用地方降雨、土壤和排水資料進行容量設計。"
+  ],
+  "applies_when_zh": "適用於概念規劃、政策比較及團隊釐清設施目的時。",
+  "not_applicable_when_zh": "不適用於推定本基地設計暴雨、法定排水要求或土壤滲透值。",
+  "debates_zh": "政策語彙受地方治理和資金安排影響；未列維護者與監測資料的願景圖可能模糊長期責任。",
+  "sources": [
+    {
+      "library_id": "SONG2020",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "CHEZHANG2019",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "海綿城市政策及規劃",
+  "region": "濟南及中國城市",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": null,
+      "topic": "海綿城市"
+    },
+    {
+      "school": "MIT",
+      "course": null,
+      "topic": "都市水系統與基礎設施"
+    }
+  ],
+  "version": "v2.0"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "REALDANIA_SUPERKILEN2012",
+  "title": "Superkilen opens: a world exhibition in Nørrebro",
+  "authors": [
+    "Realdania"
+  ],
+  "year": 2012,
+  "venue_or_publisher": "Realdania",
+  "doi": null,
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "PROFESSIONAL_FOUNDATION_WEBPAGE",
+  "tradition": "官方規劃、營運與公共設施資料",
+  "region": "丹麥哥本哈根 Nørrebro",
+  "method": "直接開啟並閱讀官方或專業機構公開頁面；非獨立學術效果評估",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "Realdania 記錄 2012 年開園、三個顏色分區、居民提議的跨地域物件和用戶委員會。",
+      "strength": "CASE_EVIDENCE",
+      "scope_zh": "只支持頁面明載的歷史、政策、設施或管理機構統計；不將目標視為已實現成效。",
+      "assessment_basis": "DIRECT_SOURCE_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Official organization webpage",
+    "query": {
+      "title": "Superkilen opens: a world exhibition in Nørrebro",
+      "author": "Realdania",
+      "year": 2012,
+      "api_query": "Read-only source page: https://realdania.dk/nyhedsoverblik/nyheder/2012/superkilen190612"
+    },
+    "matched_record_id": "https://realdania.dk/nyhedsoverblik/nyheder/2012/superkilen190612",
+    "checked_at_utc": "2026-10-08T14:40:02Z",
+    "match_notes_zh": "直接開啟官方或專業機構公開頁核對研究對象及本記錄聲稱範圍；非 Crossref 書目項。"
+  },
+  "limitations_zh": "基金會為合作與出資單位，專案公告屬參與方敘述，不是獨立使用者研究。",
+  "critique_relationship_zh": "本記錄不宣稱與其他來源存在直接互引或逐一反駁。",
+  "metadata_licence_zh": "官方或專業機構公開頁面；個別內容的再利用授權未核驗。"
+}

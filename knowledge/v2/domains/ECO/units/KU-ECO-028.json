@@ -1,0 +1,66 @@
+{
+  "id": "KU-ECO-028",
+  "domain": "ECO",
+  "subtopic": "都市森林與樹冠",
+  "type": "design_principle",
+  "title_zh": "降溫服務需把受益者定位出來",
+  "title_en": "Map who receives cooling",
+  "summary_zh": "冠層分布可以和人口熱脆弱度疊合。城市平均降溫可能同時掩蓋低收入住區缺少遮蔭。受益分析須有精細且保護隱私的資料。樹冠資源分配兼具生態和環境正義問題。優先檢視熱暴露高且缺少樹蔭的公共步行路線。",
+  "key_points_zh": [
+    "冠層分布可以和人口熱脆弱度疊合",
+    "城市平均降溫可能同時掩蓋低收入住區缺少遮蔭"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "冠層分布可以和人口熱脆弱度疊合。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "香港",
+        "library_id": "NG10",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "樹冠資源分配兼具生態和環境正義問題。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "優先檢視熱暴露高且缺少樹蔭的公共步行路線。"
+  ],
+  "applies_when_zh": "適用於健康公平型植樹計畫。",
+  "not_applicable_when_zh": "不應由城市總樹冠比例推定每個人都得到同等服務。",
+  "debates_zh": "樹冠資源分配兼具生態和環境正義問題。",
+  "sources": [
+    {
+      "library_id": "NG10",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "LIVESELY16",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "高密度環境設計",
+  "region": "香港",
+  "curriculum_refs": [
+    {
+      "school": "UCL Bartlett",
+      "course": "Critical Debates in Urban Design",
+      "topic": "都市森林與樹冠"
+    },
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "都市森林與樹冠"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-ECO-027",
+    "KU-ECO-029"
+  ]
+}

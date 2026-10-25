@@ -1,0 +1,98 @@
+{
+  "id": "KU-MOR-059",
+  "domain": "MOR",
+  "subtopic": "形態指標與類型比較方法",
+  "type": "empirical_finding",
+  "title_zh": "全球建築資料可容納多尺度形態量測",
+  "title_en": "Global building morphology indicators",
+  "summary_zh": "資料覆蓋因城市而異，資料庫存在不等於各地建築資料同等完整。 報告來源覆蓋、資料品質及尺度後再解讀指標。 研究設計：系統性文獻整理、工具開發與跨城計算示範；地區：全球多城市資料。",
+  "key_points_zh": [
+    "研究整理數百個多尺度指標並公開大規模建築形態資料流程，提出跨城市量測的可擴充方法。",
+    "研究設計：系統性文獻整理、工具開發與跨城計算示範；地區：全球多城市資料",
+    "限制：資料覆蓋因城市而異，資料庫存在不等於各地建築資料同等完整。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "研究整理數百個多尺度指標並公開大規模建築形態資料流程，提出跨城市量測的可擴充方法。",
+        "effect_or_value": "多尺度指標清單與全球多城市資料集，含大量建築紀錄",
+        "study_design": "系統性文獻整理、工具開發與跨城計算示範",
+        "context_region": "全球多城市資料",
+        "library_id": "BILJECKI2022",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "報告來源覆蓋、資料品質及尺度後再解讀指標。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "報告來源覆蓋、資料品質及尺度後再解讀指標。",
+      "tradeoff_zh": "「全球建築資料可容納多尺度形態量測」的主要代價不是抽象的建造成本，而是資料覆蓋因城市而異，資料庫存在不等於各地建築資料同等完整；因此先以研究整理數百個多尺度指標並公開大規模建築形態資料流程，提出跨城市量測的可擴充方法作方案比較條件。",
+      "library_ids": [
+        "BILJECKI2022",
+        "SHARMIN17"
+      ]
+    },
+    {
+      "option_zh": "「全球建築資料可容納多尺度形態量測」可把取向落在多尺度建築指標、地塊形態和街道網絡可互相補足，但需連同研究整理數百個多尺度指標並公開大規模建築形態資料流程，提出跨城市量測的可擴充方法決定適用方式。",
+      "tradeoff_zh": "「全球建築資料可容納多尺度形態量測」的主要代價不是抽象的建造成本，而是資料覆蓋因城市而異，資料庫存在不等於各地建築資料同等完整；因此先以研究整理數百個多尺度指標並公開大規模建築形態資料流程，提出跨城市量測的可擴充方法作方案比較條件。",
+      "library_ids": [
+        "BILJECKI2022",
+        "SHARMIN17"
+      ]
+    }
+  ],
+  "applies_when_zh": "用於與全球多城市資料研究情境可比、且量測定義相近的分析。",
+  "not_applicable_when_zh": "資料覆蓋因城市而異，資料庫存在不等於各地建築資料同等完整。",
+  "debates_zh": "資料覆蓋因城市而異，資料庫存在不等於各地建築資料同等完整。",
+  "sources": [
+    {
+      "library_id": "BILJECKI2022",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "SHARMIN17",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "城市資料科學／形態指標；空間語法整合分析",
+  "region": "全球多城市資料；跨地域",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "形態指標與類型比較方法"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "形態指標與類型比較方法"
+    },
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.330J Theory of City Form",
+      "topic": "形態指標與類型比較方法"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban form and density",
+      "topic": "形態指標與類型比較方法"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-MOR-054",
+    "KU-MOR-055",
+    "KU-MOR-056"
+  ],
+  "counter_unit_ids": [
+    "KU-MOR-058"
+  ]
+}

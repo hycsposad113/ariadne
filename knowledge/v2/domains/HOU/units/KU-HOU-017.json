@@ -1,0 +1,98 @@
+{
+  "id": "KU-HOU-017",
+  "domain": "HOU",
+  "subtopic": "荷蘭 woningcorporaties 社會住宅模式",
+  "type": "empirical_finding",
+  "title_zh": "大型社會租屋供給不代表貧窮和排除消失",
+  "title_en": "Dutch social housing and exclusion",
+  "summary_zh": "文章屬政策和歷史分析，不能作今日低收入比率估計。 將住房供給和社會參與、勞動與空間集中一併檢視。 研究設計：荷蘭社會政策與排除議題分析；地區：荷蘭。 限制：文章屬政策和歷史分析，不能作今日低收入比率估計。",
+  "key_points_zh": [
+    "荷蘭政策討論指出，社會租屋和福利保障並未消除貧窮、政治參與障礙與內城或大型住宅區集中。",
+    "研究設計：荷蘭社會政策與排除議題分析；地區：荷蘭",
+    "限制：文章屬政策和歷史分析，不能作今日低收入比率估計。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "荷蘭政策討論指出，社會租屋和福利保障並未消除貧窮、政治參與障礙與內城或大型住宅區集中。",
+        "effect_or_value": "文章呈現住宅供給與持續社會排除並存",
+        "study_design": "荷蘭社會政策與排除議題分析",
+        "context_region": "荷蘭",
+        "library_id": "HOOIMEIJER1998",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "將住房供給和社會參與、勞動與空間集中一併檢視。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "將住房供給和社會參與、勞動與空間集中一併檢視。",
+      "tradeoff_zh": "「大型社會租屋供給不代表貧窮和排除消失」採用「將住房供給和社會參與、勞動與空間集中一併檢視」時，得失要沿著荷蘭政策討論指出，社會租屋和福利保障並未消除貧窮、政治參與障礙與內城或大型住宅區集中檢查；文章屬政策和歷史分析，不能作今日低收入比率估計。",
+      "library_ids": [
+        "HOOIMEIJER1998",
+        "MADDEN2016"
+      ]
+    },
+    {
+      "option_zh": "在「大型社會租屋供給不代表貧窮和排除消失」的來源情境裡，公共、非營利與市場供應比例會改變可負擔性和居住選擇；落到設計時還要按荷蘭政策討論指出，社會租屋和福利保障並未消除貧窮、政治參與障礙與內城或大型住宅區集中調整。",
+      "tradeoff_zh": "「大型社會租屋供給不代表貧窮和排除消失」採用「在「大型社會租屋供給不代表貧窮和排除消失」的來源情境裡，公共、非營利與市場供應比例會改變可負擔性和居住選擇；落到設計時還要按荷蘭政策討論指出，社會租屋和福利保障並未消除貧窮、政治參與障礙與內城或大型住宅區集中調整」時，得失要沿著荷蘭政策討論指出，社會租屋和福利保障並未消除貧窮、政治參與障礙與內城或大型住宅區集中檢查；文章屬政策和歷史分析，不能作今日低收入比率估計。",
+      "library_ids": [
+        "HOOIMEIJER1998",
+        "MADDEN2016"
+      ]
+    }
+  ],
+  "applies_when_zh": "用於與荷蘭研究情境可比、且量測定義相近的分析。",
+  "not_applicable_when_zh": "文章屬政策和歷史分析，不能作今日低收入比率估計。",
+  "debates_zh": "文章屬政策和歷史分析，不能作今日低收入比率估計。",
+  "sources": [
+    {
+      "library_id": "HOOIMEIJER1998",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "MADDEN2016",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "荷蘭社會住宅與社會排除；住房權與政治經濟批判",
+  "region": "荷蘭；美國與跨國住房政治",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "荷蘭 woningcorporaties 社會住宅模式"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "荷蘭 woningcorporaties 社會住宅模式"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "荷蘭 woningcorporaties 社會住宅模式"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "荷蘭 woningcorporaties 社會住宅模式"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-HOU-010",
+    "KU-HOU-011",
+    "KU-HOU-012"
+  ],
+  "counter_unit_ids": [
+    "KU-HOU-014"
+  ]
+}

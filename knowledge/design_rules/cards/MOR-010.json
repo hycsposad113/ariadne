@@ -1,0 +1,97 @@
+{
+  "id": "MOR-010",
+  "title_zh": "高度不要單一但不強迫花樣",
+  "title_en": "Height distribution",
+  "domain": "morphology",
+  "stages": [
+    "S3",
+    "S4",
+    "S6",
+    "S7"
+  ],
+  "statement_zh": "依位置與用途提出至少兩種高度配置的比較；選擇等高也須說明原因與 context，不能只為差異製造無功能高低。",
+  "rationale_zh": "地標、日照、工坊層高與居住需求不同。",
+  "applies_when": {
+    "scale": [
+      "*"
+    ],
+    "land_use": [
+      "*"
+    ],
+    "strategy": [
+      "*"
+    ],
+    "mode": [
+      "*"
+    ]
+  },
+  "parameters": [
+    {
+      "name": "height_variants_to_compare",
+      "value": 3,
+      "range": null,
+      "unit": "variants",
+      "provenance": "ASSUMED_COMMANDER",
+      "source_ids": [],
+      "authority_ref": null,
+      "status": "PROPOSED_PENDING_FOUNDER",
+      "rationale_zh": "指揮官提出的敏感性試算值，文獻未提供此數值；須 Founder 確認、地方資料及確定性驗證，未生效。"
+    }
+  ],
+  "check": {
+    "method_zh": "報高度分布、GFA、退台、日照與 D2 上限；差異門檻待別項任務。",
+    "inputs": [
+      "凍結幾何／路網與 hash",
+      "已接受專案條件與版本",
+      "卡片參數與版本"
+    ],
+    "output": "檢查值、單位、方法、有效性、差異與限制；不自動採納",
+    "implementation_status": "SPECIFICATION_ONLY"
+  },
+  "check_unavailable_reason_zh": null,
+  "design_responses": [
+    {
+      "option": "1",
+      "action_zh": "沿主軸相對高、內側較低",
+      "source_ids": [
+        "SPACEMATRIX10"
+      ],
+      "tradeoff_zh": "可能加大地價和陰影差。"
+    },
+    {
+      "option": "2",
+      "action_zh": "等高加局部退台比較",
+      "source_ids": [
+        "NG10"
+      ],
+      "tradeoff_zh": "地標需依入口和公共空間辨識。"
+    }
+  ],
+  "evidence_level": "ACADEMIC",
+  "evidence_strength": "THEORETICAL",
+  "sources": [
+    {
+      "library_id": "SPACEMATRIX10",
+      "claim_id": "C1",
+      "support_scope_zh": "文獻支持概念與比較角度；本卡具體操作是設計推導，試算值及專案約束不是文獻的普適結論。"
+    },
+    {
+      "library_id": "NG10",
+      "claim_id": "C1",
+      "support_scope_zh": "文獻支持概念與比較角度；本卡具體操作是設計推導，試算值及專案約束不是文獻的普適結論。"
+    },
+    {
+      "library_id": "DOVEY14",
+      "claim_id": "C1",
+      "support_scope_zh": "獨立的密度比較或建築適應觀點，用來比較量體及使用條件；不支持本卡的高度、層高或日照試算數字。"
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "enforcement": "CANDIDATE_ONLY",
+  "authority_ref": null,
+  "debates_zh": "相同密度可由不同形態形成；傳統街廓、現代板樓和高密度策略的公共性、日照與控制方式不同。書目尚未逐頁查證，不能預設一派較好。 已查證書目與主張的查閱層級見 library；不是逐頁核驗或本基地因果結論。",
+  "context_validity_zh": "英國歷史形態、義大利類型學、荷蘭密度與亞洲高密度各有取樣偏向；M4H 倉庫結構與保留邊界需實測，類型不構成偏好排名。",
+  "exceptions_zh": "卡片不可替代現行法規、產權、無障礙或已接受 D1/D2。缺必要資料即回報 UNKNOWN；例外須由 Founder 明確決定並保留原結果。",
+  "version": "0.2.0",
+  "local_context_refs": []
+}

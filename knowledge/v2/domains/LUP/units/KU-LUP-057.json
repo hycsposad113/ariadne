@@ -1,0 +1,104 @@
+{
+  "id": "KU-LUP-057",
+  "domain": "LUP",
+  "subtopic": "商業與零售區位",
+  "type": "critique",
+  "title_zh": "商業與零售區位｜批評與反例",
+  "title_en": "Retail and commercial location — Critique and counterexample",
+  "summary_zh": "Christaller 的中心地理論將服務供給與市場區域組織成層級秩序，屬於理想型空間模型。 廣島零售研究及南德意志理論背景提醒，都市內商圈可以重疊，不一定形成整齊的巢狀圈層。 缺少店鋪營運、消費選擇與交通路徑資料時，地圖只能提出候選零售位置，不能確認市場可行性。",
+  "key_points_zh": [
+    "讀「商業與零售區位｜批評與反例」時，經典中心地理論是理想模型，都市內零售可能呈現重疊和非巢狀商圈；同時把Christaller 的中心地理論將服務供給與市場區域組織成層級秩序，屬於理想型空間模型列為核對條件。",
+    "讀「商業與零售區位｜批評與反例」時，適用於商業中心、街道活化和鄰里服務配置；同時把Christaller 的中心地理論將服務供給與市場區域組織成層級秩序，屬於理想型空間模型列為核對條件。",
+    "讀「商業與零售區位｜批評與反例」時，限制：沒有店面營運或消費者資料時，只能提出候選區位假說；同時把Christaller 的中心地理論將服務供給與市場區域組織成層級秩序，屬於理想型空間模型列為核對條件。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "廣島案例中便利商品中心的分布偏離整齊的中心地層級，構成檢查零售分類假設的實證反例。",
+        "library_id": "MORIKAWA1981",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "廣島，日本",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "Christaller 的南德中心地模型把服務中心和市場區域排成理想層級；其模型假設使它適合作為基準，而非當代零售的直接描述。",
+        "library_id": "CHRISTALLER1966",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "南德意志原始研究區域",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "在鄰里商圈外另標目的型零售和電商集貨點，避免用中心距離解釋所有店址。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "在鄰里商圈外另標目的型零售和電商集貨點，避免用中心距離解釋所有店址。",
+      "tradeoff_zh": "此選項把「商業與零售區位｜批評與反例」的工作放在Christaller 的中心地理論將服務供給與市場區域組織成層級秩序，屬於理想型空間模型上；需要承擔的協調或維護代價則由「「商業與零售區位｜批評與反例」的爭議不只在於沒有店面營運或消費者資料時，只能提出候選區位假說；還要檢視Christaller 的中心地理論將服務供給與市場區域組織成層級秩序，屬於理想型空間模型會讓哪些使用者承擔不同後果」界定。",
+      "library_ids": [
+        "MORIKAWA1981",
+        "CHRISTALLER1966"
+      ]
+    },
+    {
+      "option_zh": "在「商業與零售區位｜批評與反例」的來源情境裡，便利商品、專門商品和目的型商業會形成不同空間服務範圍；落到設計時還要按Christaller 的中心地理論將服務供給與市場區域組織成層級秩序，屬於理想型空間模型調整。",
+      "tradeoff_zh": "「商業與零售區位｜批評與反例」採用「在「商業與零售區位｜批評與反例」的來源情境裡，便利商品、專門商品和目的型商業會形成不同空間服務範圍；落到設計時還要按Christaller 的中心地理論將服務供給與市場區域組織成層級秩序，屬於理想型空間模型調整」時，得失要沿著Christaller 的中心地理論將服務供給與市場區域組織成層級秩序，屬於理想型空間模型檢查；「商業與零售區位｜批評與反例」的爭議不只在於沒有店面營運或消費者資料時，只能提出候選區位假說；還要檢視Christaller 的中心地理論將服務供給與市場區域組織成層級秩序，屬於理想型空間模型會讓哪些使用者承擔不同後果。",
+      "library_ids": [
+        "MORIKAWA1981",
+        "CHRISTALLER1966"
+      ]
+    }
+  ],
+  "applies_when_zh": "「商業與零售區位｜批評與反例」可在適用於商業中心、街道活化和鄰里服務配置時使用，前提是Christaller 的中心地理論將服務供給與市場區域組織成層級秩序，屬於理想型空間模型與來源情境相符。",
+  "not_applicable_when_zh": "若Christaller 的中心地理論將服務供給與市場區域組織成層級秩序，屬於理想型空間模型不成立，就不能把「商業與零售區位｜批評與反例」的結論延伸到其他情況；沒有店面營運或消費者資料時，只能提出候選區位假說。",
+  "debates_zh": "「商業與零售區位｜批評與反例」的爭議不只在於沒有店面營運或消費者資料時，只能提出候選區位假說；還要檢視Christaller 的中心地理論將服務供給與市場區域組織成層級秩序，屬於理想型空間模型會讓哪些使用者承擔不同後果。",
+  "sources": [
+    {
+      "library_id": "MORIKAWA1981",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "CHRISTALLER1966",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "零售地理與中心地系統；中心地理論",
+  "region": "廣島，日本；南德意志原始研究區域",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Planning Complex Cities",
+      "topic": "商業與零售區位"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Cities by Design",
+      "topic": "商業與零售區位"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "商業與零售區位"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Sustainable Futures by Design",
+      "topic": "商業與零售區位"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-LUP-053",
+    "KU-LUP-054",
+    "KU-LUP-055"
+  ]
+}

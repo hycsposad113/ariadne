@@ -1,0 +1,69 @@
+{
+  "id": "KU-GRN-011",
+  "domain": "GRN",
+  "subtopic": "綠地可及性",
+  "type": "value_range",
+  "title_zh": "健康研究中的綠地緩衝尺度",
+  "title_en": "Residential green-space buffers",
+  "summary_zh": "荷蘭研究以住家周邊一公里與三公里範圍計算綠地比例。兩種暴露尺度都與自評健康呈現關聯，反映研究結論會依尺度設定。這些環形緩衝不等於居民真正步行路線。多尺度結果增加理解，也讓不同研究不易直接比較。",
+  "key_points_zh": [
+    "荷蘭研究以住家周邊一公里與三公里範圍計算綠地比例",
+    "兩種暴露尺度都與自評健康呈現關聯，反映研究結論會依尺度設定"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "荷蘭研究以住家周邊一公里與三公里範圍計算綠地比例。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "澳洲",
+        "library_id": "SUGIYAMA10",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "多尺度結果增加理解，也讓不同研究不易直接比較。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "對照直線緩衝、路網距離和個人使用記錄，避免只選一種空間尺度。"
+  ],
+  "applies_when_zh": "適用於解讀鄰近綠地與健康的研究。",
+  "not_applicable_when_zh": "不可將一或三公里當成法定服務半徑。",
+  "debates_zh": "多尺度結果增加理解，也讓不同研究不易直接比較。",
+  "sources": [
+    {
+      "library_id": "SUGIYAMA10",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "MAAS06",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "公園可及性與健康地理",
+  "region": "澳洲",
+  "curriculum_refs": [
+    {
+      "school": "UCL Bartlett",
+      "course": "Critical Debates in Urban Design",
+      "topic": "綠地可及性"
+    }
+  ],
+  "version": "2.0.0",
+  "values": [
+    {
+      "name": "健康研究中的綠地緩衝尺度",
+      "range": "1 km 與 3 km",
+      "unit": "公里",
+      "context": "荷蘭全科診所居民資料的住家綠地暴露半徑；為研究操作，非服務規範。；「健康研究中的綠地緩衝尺度」僅供其研究脈絡內比較，不構成本基地法規。",
+      "library_id": "MAAS06"
+    }
+  ],
+  "related_unit_ids": [
+    "KU-GRN-012"
+  ]
+}

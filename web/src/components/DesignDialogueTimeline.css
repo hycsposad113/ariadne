@@ -1,0 +1,123 @@
+.design-dialogue-timeline {
+  border: 1px solid var(--border-subtle, #334155);
+  border-radius: 8px;
+  background: var(--bg-surface-elevated, #1a2234);
+  padding: 12px 16px;
+  margin: 16px 0;
+  font-size: 0.92rem;
+  color: var(--text-main, #e2e8f0);
+}
+
+.design-dialogue-timeline summary {
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 1rem;
+  color: #38bdf8;
+  padding: 4px 0;
+}
+
+.design-dialogue-timeline__list {
+  margin-top: 14px;
+  padding-left: 20px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  border-left: 2px solid var(--border-subtle, #334155);
+}
+
+.design-dialogue-timeline__item {
+  position: relative;
+  display: grid;
+  gap: 4px;
+}
+
+.design-dialogue-timeline__dot {
+  position: absolute;
+  left: -27px;
+  top: 4px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #38bdf8;
+  border: 2px solid #0f172a;
+}
+
+.design-dialogue-timeline__dot--judgement {
+  background: #38bdf8;
+}
+
+.design-dialogue-timeline__dot--designer_response {
+  background: #a855f7;
+}
+
+.design-dialogue-timeline__dot--agent_response {
+  background: #22c55e;
+}
+
+.design-dialogue-timeline__dot--proposal {
+  background: #f59e0b;
+}
+
+.design-dialogue-timeline__dot--approval {
+  background: #10b981;
+}
+
+.design-dialogue-timeline__dot--rerun {
+  background: #6366f1;
+}
+
+.design-dialogue-timeline__header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.design-dialogue-timeline__title {
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.design-dialogue-timeline__time {
+  font-size: 0.8rem;
+  color: var(--text-secondary, #94a3b8);
+}
+
+.design-dialogue-timeline__body {
+  font-size: 0.9rem;
+  line-height: 1.4;
+  color: #cbd5e1;
+}
+
+.design-dialogue-timeline__action-btn {
+  background: none;
+  border: none;
+  padding: 0;
+  color: #7dd3fc;
+  cursor: pointer;
+  text-align: left;
+  font-size: inherit;
+  font-family: inherit;
+  text-decoration: underline;
+}
+
+.design-dialogue-timeline__action-btn:hover {
+  color: #bae6fd;
+}
+
+.design-dialogue-timeline__tag {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-size: 0.78rem;
+  background: rgba(16, 185, 129, 0.15);
+  color: #34d399;
+  border: 1px solid rgba(16, 185, 129, 0.3);
+}
+
+.design-dialogue-timeline__empty {
+  color: var(--text-secondary, #94a3b8);
+  font-style: italic;
+  padding: 8px 0;
+}

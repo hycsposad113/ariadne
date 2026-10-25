@@ -1,0 +1,48 @@
+{
+  "id": "HABRAKEN98",
+  "title": "The Structure of the Ordinary: Form and Control in the Built Environment",
+  "authors": [
+    "N. John Habraken",
+    "Jonathan Teicher"
+  ],
+  "year": 1998,
+  "venue_or_publisher": "Medical Entomology and Zoology",
+  "doi": null,
+  "isbn": null,
+  "openalex_id": "https://openalex.org/W1519822538",
+  "kind": "ACADEMIC_BOOK",
+  "tradition": "開放建築",
+  "region": [
+    "荷蘭",
+    "跨地域"
+  ],
+  "method": "理論",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "建成環境的形式與控制權分層相連；開放空間與可改造構造需說明誰能使用或修改。",
+      "strength": "THEORETICAL",
+      "scope_zh": "僅限本研究或概念框架；不提供 M4H 的實測、法律效力或本卡試算門檻。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [
+    "CARMONA10"
+  ],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "OpenAlex",
+    "query": {
+      "title": "The Structure of the Ordinary: Form and Control in the Built Environment",
+      "author": "N. John Habraken",
+      "year": 1998,
+      "matched_record_id_lookup": "https://openalex.org/W1519822538"
+    },
+    "matched_record_id": "https://openalex.org/W1519822538",
+    "checked_at_utc": "2026-10-08T09:12:32Z",
+    "match_notes_zh": "本任務重新以允許的公開書目 API 核對書名、作者與出版年；只確認書目，不代表全文主張已核實。"
+  },
+  "limitations_zh": "僅核對公開書目及可得摘要，未下載全文；書目驗證不代表全文因果或所有主張均已確認。",
+  "critique_relationship_zh": "known_critiques 是編者指定的批評或替代閱讀，不宣稱實際互引或逐一反駁；Ratti 與 Hillier／Penn 的標題記錄確認明確對話。",
+  "metadata_licence_zh": "保存書目欄位和自行撰寫的來源說明；未保存 API 摘要或全文，資料服務授權細節未由本任務判定。"
+}

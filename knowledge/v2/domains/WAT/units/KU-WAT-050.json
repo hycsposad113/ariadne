@@ -1,0 +1,97 @@
+{
+  "id": "KU-WAT-050",
+  "domain": "WAT",
+  "subtopic": "鹿特丹水廣場（如 Benthemplein）",
+  "type": "value_range",
+  "title_zh": "水廣場儲水量應連結到實際控制體積",
+  "title_en": "水廣場儲水量應連結到實際控制體積",
+  "summary_zh": "Benthemplein 是多功能水廣場，地面高程、導流路徑與水盆標高共同決定可暫存體積。鹿特丹市政府記載三個水盆合計約 170 萬公升，周邊屋頂與鋪面逕流也會被引至水盆。這是已建成專案容量，不能以廣場面積比例直接套用到其他場地。",
+  "key_points_zh": [
+    "容量是工程控制體積，不是總面積乘任意水深。",
+    "設計要說明多個盆地是否串接及何時溢流。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "library_id": "ROTTERDAM_BENTHEMPLEIN",
+        "claim_zh": "鹿特丹市政府頁面記載 Benthemplein 有三個蓄水盆，合計可暫存約 1.7 百萬公升雨水，並說明周邊屋頂和鋪面逕流進入盆地。",
+        "claim_verification": "OFFICIAL_PRIMARY_SOURCE_REVIEW",
+        "effect_or_value": "約 1,700,000",
+        "study_design": "官方專案頁面與專案描述",
+        "context_region": "Rotterdam-Noord, Nederland",
+        "locator": "Benthemplein page, lines 20–23; official opening 4 Dec 2013"
+      },
+      {
+        "library_id": "FLETCHER2013",
+        "claim_zh": "書目確認本文題名聚焦「Understanding, management and modelling of urban hydrology and its consequences for receiving waters: A state of the art」；目前只完成作者、年份、題名與 DOI 核對，未將摘要或全文結論納入此記錄；本單元 KU-WAT-050 對照「Benthemplein 是多功能水廣場，地面高程、導流路徑與水盆標高共同決定可暫存體積」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "文獻回顧；目前僅核對書目範圍",
+        "context_region": "跨地域",
+        "locator": null
+      },
+      {
+        "library_id": "WONG2009",
+        "claim_zh": "題名與書目確認文章以水敏感城市原則為討論範圍；尚未以摘要核對其效能估計；本單元 KU-WAT-050 對照「Benthemplein 是多功能水廣場，地面高程、導流路徑與水盆標高共同決定可暫存體積」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "概念框架與實務原則",
+        "context_region": "澳洲城市水治理脈絡",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "將每個蓄水區的底標高、控制標高和排水出口分列。",
+    "把設計容量與實際事件觀測分開報告。"
+  ],
+  "applies_when_zh": "適用於多層凹地或水廣場的容量盤點。",
+  "not_applicable_when_zh": "未取得竣工資料和高程前，不適用於容量認證。",
+  "debates_zh": "市政頁給出合計容量，沒有拆分每個水盆的有效水深、頻率或完整設計暴雨；要做工程外推仍需原始竣工資料。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "ROTTERDAM_BENTHEMPLEIN",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "FLETCHER2013",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "WONG2009",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "鹿特丹多功能水廣場",
+  "region": "荷蘭 Rotterdam–Rijnmond；英國與國際經驗",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "鹿特丹水廣場（如 Benthemplein）"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Sustainable Futures by Design",
+      "topic": "鹿特丹水廣場（如 Benthemplein）"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0",
+  "values": [
+    {
+      "name": "Benthemplein 三個蓄水盆合計暫存量",
+      "range": "約 1,700,000",
+      "unit": "L（約 1,700 m³）",
+      "context": "用途：以「Benthemplein 三個蓄水盆合計暫存量」作為來源情境參照；Rotterdam-Noord 已建水廣場的市政專案容量；雨水可由周邊屋頂與鋪面引入；這不是本基地法規；來源所列地域：Rotterdam-Noord, Nederland。",
+      "library_id": "ROTTERDAM_BENTHEMPLEIN"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "id": "COPENHAGEN_KALVEBOD2026",
+  "title": "Håndtering af medlemsforslag om mere liv på Kalvebod Brygge, Vesterbro",
+  "authors": [
+    "Københavns Kommune"
+  ],
+  "year": 2026,
+  "venue_or_publisher": "Københavns Kommune",
+  "doi": null,
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "OFFICIAL_GOVERNMENT_REPORT",
+  "tradition": "港岸公共性、土地權屬與活動治理",
+  "region": "丹麥哥本哈根",
+  "method": "於內容起草後直接檢視官方／營運方公開頁面；不把機構目標或自報數據當成獨立效果研究。",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "市議會文件記錄 Kalvebod Brygge 由工業港轉成辦公區、缺乏活力與通達性爭議、私人產權限制市府行動及活動噪音規範。",
+      "strength": "CASE_EVIDENCE",
+      "scope_zh": "只支持頁面明確公布的規劃口徑、歷史資料、行政數字或機構自報結果。",
+      "assessment_basis": "DIRECT_SOURCE_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Official organization webpage",
+    "query": {
+      "title": "Håndtering af medlemsforslag om mere liv på Kalvebod Brygge, Vesterbro",
+      "author": "Københavns Kommune",
+      "year": 2026,
+      "api_query": "Read-only official source page: https://www.kk.dk/dagsordener-og-referater/%C3%98konomiudvalget/m%C3%B8de-05052026/referat/punkt-9"
+    },
+    "matched_record_id": "https://www.kk.dk/dagsordener-og-referater/%C3%98konomiudvalget/m%C3%B8de-05052026/referat/punkt-9",
+    "checked_at_utc": "2026-10-08T14:47:20Z",
+    "match_notes_zh": "直接檢視官方／場址營運方公開頁；該頁不是Crossref書目記錄，未宣稱經Crossref驗證。"
+  },
+  "limitations_zh": "官方或營運方頁面可能採機構自身的規劃與成果口徑；未有獨立評估處不推定效果。",
+  "critique_relationship_zh": "本記錄不宣稱與其他來源存在直接互引或逐一反駁關係。",
+  "metadata_licence_zh": "官方／營運方公開頁面；未確認個別資料的再利用授權。"
+}

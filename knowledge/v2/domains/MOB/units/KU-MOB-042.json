@@ -1,0 +1,81 @@
+{
+  "id": "KU-MOB-042",
+  "domain": "MOB",
+  "subtopic": "大眾運輸服務圈",
+  "type": "empirical_finding",
+  "title_zh": "墨爾本以分布估算可接受步行距離",
+  "title_en": "Walking-distance distributions in Melbourne",
+  "summary_zh": "墨爾本大型旅運資料的可接受與可忍受距離分布分析，研究脈絡為墨爾本，澳洲。服務圈可用區域分布和百分位呈現，避免用單一固定距離概括乘客。Burr Type XII 分布能配適觀察到的公共運輸接駁步行距離。限制包括摘要沒有提供可直接採用的統一百分位門檻；其他城市需重新估計。",
+  "key_points_zh": [
+    "服務圈可用區域分布和百分位呈現，避免用單一固定距離概括乘客",
+    "限制：摘要沒有提供可直接採用的統一百分位門檻；其他城市需重新估計",
+    "效果或方向：Burr Type XII 分布能配適觀察到的公共運輸接駁步行距離"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "墨爾本以分布估算可接受步行距離｜服務圈可用區域分布和百分位呈現，避免用單一固定距離概括乘客",
+        "effect_or_value": "Burr Type XII 分布能配適觀察到的公共運輸接駁步行距離",
+        "study_design": "墨爾本大型旅運資料的可接受與可忍受距離分布分析",
+        "context_region": "墨爾本，澳洲",
+        "library_id": "TAYLOR24",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "墨爾本以分布估算可接受步行距離｜到站步行距離可用變動服務範圍研究，固定半徑應和站點及使用者條件一同檢查；未提取原文係數",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "ELGENEIDY14",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "在服務圈報告中保留區域樣本與分布假設"
+  ],
+  "applies_when_zh": "若本地觀察單位與墨爾本，澳洲的研究脈絡可對照，可用「服務圈可用區域分布和百分位呈現，避免用單一固定距離概括乘客」作為大眾運輸服務圈的比較線索。",
+  "not_applicable_when_zh": "這項墨爾本，澳洲的研究結果不能單獨證明因果或預測其他城市的街段；原研究摘要沒有提供可直接採用的統一百分位門檻；其他城市需重新估計。",
+  "debates_zh": "關聯能否外推；摘要沒有提供可直接採用的統一百分位門檻；其他城市需重新估計；檢視「墨爾本以分布估算可接受步行距離」的研究解讀時，還需判斷「限制：摘要沒有提供可直接採用的統一百分位門檻；其他城市需重新估計」會如何改變方案結論。",
+  "sources": [
+    {
+      "library_id": "TAYLOR24",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "ELGENEIDY14",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "交通可及性與服務範圍",
+  "region": "墨爾本，澳洲",
+  "curriculum_refs": [
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "大眾運輸服務圈：課綱對應主題"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Sustainable Futures by Design",
+      "topic": "大眾運輸服務圈：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-MOB-041",
+    "KU-MOB-043",
+    "KU-MOB-044",
+    "KU-MOB-045",
+    "KU-MOB-046",
+    "KU-MOB-047",
+    "KU-MOB-048"
+  ]
+}

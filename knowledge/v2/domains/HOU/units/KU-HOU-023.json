@@ -1,0 +1,98 @@
+{
+  "id": "KU-HOU-023",
+  "domain": "HOU",
+  "subtopic": "混合產權",
+  "type": "empirical_finding",
+  "title_zh": "加拿大社會住宅制度在特定時期改變多倫多空間分布",
+  "title_en": "Canadian social housing and urban space",
+  "summary_zh": "時間、福利體制和市場背景限定結果，不能用於估計今日加拿大供給。 比較產權混合時追蹤住房補貼和實際租金。 研究設計：檔案、訪談、行政與人口普查資料的歷史分析；地區：加拿大安大略與多倫多。",
+  "key_points_zh": [
+    "加拿大歷史分析指出，1965–1995 年社會住宅約占生產一成，且透過收入計租改變低收入住戶的租金和居住流動。",
+    "研究設計：檔案、訪談、行政與人口普查資料的歷史分析；地區：加拿大安大略與多倫多",
+    "限制：時間、福利體制和市場背景限定結果，不能用於估計今日加拿大供給。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "加拿大歷史分析指出，1965–1995 年社會住宅約占生產一成，且透過收入計租改變低收入住戶的租金和居住流動。",
+        "effect_or_value": "約 10% 住宅生產；低收入租戶租金低於市場四成者近四成",
+        "study_design": "檔案、訪談、行政與人口普查資料的歷史分析",
+        "context_region": "加拿大安大略與多倫多",
+        "library_id": "SUTTOR2014",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "比較產權混合時追蹤住房補貼和實際租金。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "比較產權混合時追蹤住房補貼和實際租金。",
+      "tradeoff_zh": "此選項把「加拿大社會住宅制度在特定時期改變多倫多空間分布」的工作放在加拿大歷史分析指出，1965–1995 年社會住宅約占生產一成，且透過收入計租改變低收入住戶的租金和居住流動上；需要承擔的協調或維護代價則由「時間、福利體制和市場背景限定結果，不能用於估計今日加拿大供給」界定。",
+      "library_ids": [
+        "SUTTOR2014",
+        "DEVOS2022"
+      ]
+    },
+    {
+      "option_zh": "「加拿大社會住宅制度在特定時期改變多倫多空間分布」可把取向落在社會租屋、合作住宅、自有住宅和私人租屋可在同街區並存，但需連同加拿大歷史分析指出，1965–1995 年社會住宅約占生產一成，且透過收入計租改變低收入住戶的租金和居住流動決定適用方式。",
+      "tradeoff_zh": "此選項把「加拿大社會住宅制度在特定時期改變多倫多空間分布」的工作放在加拿大歷史分析指出，1965–1995 年社會住宅約占生產一成，且透過收入計租改變低收入住戶的租金和居住流動上；需要承擔的協調或維護代價則由「時間、福利體制和市場背景限定結果，不能用於估計今日加拿大供給」界定。",
+      "library_ids": [
+        "SUTTOR2014",
+        "DEVOS2022"
+      ]
+    }
+  ],
+  "applies_when_zh": "用於與加拿大安大略與多倫多研究情境可比、且量測定義相近的分析。",
+  "not_applicable_when_zh": "時間、福利體制和市場背景限定結果，不能用於估計今日加拿大供給。",
+  "debates_zh": "時間、福利體制和市場背景限定結果，不能用於估計今日加拿大供給。",
+  "sources": [
+    {
+      "library_id": "SUTTOR2014",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "DEVOS2022",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "加拿大社會住宅與城市空間；比利時與荷蘭集體住宅",
+  "region": "加拿大安大略與多倫多，1965–1995；比利時與荷蘭",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "混合產權"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "混合產權"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "混合產權"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "混合產權"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-HOU-018",
+    "KU-HOU-019",
+    "KU-HOU-020"
+  ],
+  "counter_unit_ids": [
+    "KU-HOU-022"
+  ]
+}

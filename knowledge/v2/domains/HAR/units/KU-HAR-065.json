@@ -1,0 +1,126 @@
+{
+  "id": "KU-HAR-065",
+  "domain": "HAR",
+  "subtopic": "水岸再生案例；Bilbao",
+  "type": "case",
+  "title_zh": "Bilbao Guggenheim：地標投資、城市形象與效益歸屬",
+  "title_en": "Bilbao Guggenheim: landmark investment, city image and who benefits",
+  "summary_zh": "Bilbao 以 Guggenheim Museum 作為前工業城市轉型中的文化錨點，試圖把河岸再生和城市形象連在一起。Plaza 的研究明確檢視影像、過夜停留和地方經濟的投資回報，並指出不同結果的證據強度並不相同；Gómez 與 González 的回應則讓「Guggenheim 效應」保持可爭論。",
+  "key_points_zh": [
+    "Bilbao 古根漢美術館（Gehry 設計，1997 開館）位於 Abandoibarra 舊港工業區，與地鐵（Foster，1995）及 Ría 2000 河岸更新同時推動；Plaza 的研究量化其觀光與形象效益，形成「Bilbao 效。",
+    "Plaza 研究把城市形象、住宿停留及地方經濟分開，而非假定三者同向。",
+    "「Bilbao effect」不能只靠博物館訪客或媒體能見度證明。"
+  ],
+  "evidence": {
+    "strength": "CASE_EVIDENCE",
+    "findings": [
+      {
+        "library_id": "PLAZA2006",
+        "claim_zh": "Bilbao 古根漢美術館（Gehry 設計，1997 開館）位於 Abandoibarra 舊港工業區，與地鐵（Foster，1995）及 Ría 2000 河岸更新同時推動；Plaza 的研究量化其觀光與形象效益，形成「Bilbao 效應」一詞。",
+        "effect_or_value": "城市形象、過夜停留和地方經濟是分開檢視的結果",
+        "study_design": "投資回報分析",
+        "context_region": "Bilbao, Spain",
+        "locator": null,
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+        "limitations_zh": "只支持明示的文獻範圍與本次可查證內容；未由書目資料推定未讀數值或因果。"
+      },
+      {
+        "library_id": "GOMEZ_GONZALEZ2001",
+        "claim_zh": "Gómez 與 González 回應 Plaza，認為效益被高估，且地標效應難以從同期基礎建設與更新投資中分離，提醒不能把單一旗艦建築視為再生的主要原因。",
+        "effect_or_value": null,
+        "study_design": "學術回應文章",
+        "context_region": "Bilbao, Spain",
+        "locator": null,
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+        "limitations_zh": "僅依 Crossref 題名確認對話脈絡，不代述未查閱的反駁內容。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "若提出文化地標方案，分開列出建設與維護成本、住宿變化、地方企業收益及受益者分布。",
+    "以文化設施連接可達的公共岸線和既有社區服務，避免孤立成為旅遊島。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "將大型文化設施作為更新錨點，搭配河岸公共空間與交通改善。",
+      "tradeoff_zh": "容易形成國際辨識度，但資本集中及後續營運成本較高。",
+      "library_ids": [
+        "PLAZA2006",
+        "GOMEZ_GONZALEZ2001"
+      ]
+    },
+    {
+      "option_zh": "把文化投資分散到既有社區設施和多處岸線節點。",
+      "tradeoff_zh": "較容易讓日常服務跨區共享，品牌集中度可能較低。",
+      "library_ids": [
+        "GOMEZ_GONZALEZ2001",
+        "PLAZA2006"
+      ]
+    }
+  ],
+  "applies_when_zh": "適用於評估地標文化投資是否帶動城市再生及其結果分配。",
+  "not_applicable_when_zh": "不適用於把單一博物館的知名度當成普遍發展模型或全市居民共同受益的證明。",
+  "debates_zh": "城市形象較容易被辨識，地方經濟和社會分配需要更嚴格的反事實與長期追蹤；成功故事仍應容納失敗或非預期結果。",
+  "counter_unit_ids": [
+    "KU-HAR-012"
+  ],
+  "related_unit_ids": [
+    "KU-HAR-022",
+    "KU-HAR-038",
+    "KU-HAR-054"
+  ],
+  "sources": [
+    {
+      "library_id": "PLAZA2006",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "GOMEZ_GONZALEZ2001",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "文化導向都市再生與投資回報研究",
+  "region": "Bilbao, Spain",
+  "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+  "curriculum_refs": [
+    {
+      "school": "MIT",
+      "course": null,
+      "topic": "水岸再生案例；Bilbao：課綱對應主題"
+    }
+  ],
+  "version": "kb2-gaps-2026-10-08",
+  "check": {
+    "method_zh": "將博物館與鄰近河岸分開作前後觀察，列出建設、營運與公共投資成本，再比對住宿、地方企業與居民資料。",
+    "inputs": [
+      "文化設施投資及年度營運資料",
+      "旅宿和地方商業的前後變化",
+      "沿岸公共通行與受益人口分布"
+    ],
+    "logic_zh": "回報必須同時呈現投入、結果期間、比較基準及所得分配；若只有訪客或品牌數據，就不得宣稱整體都市再生成功。",
+    "limitations_zh": "Crossref 摘要足以界定 Plaza 的三類研究結果，但未提供此卡可直接採用的係數；Gómez 與 González 的具體論證待查原文。"
+  },
+  "case": {
+    "location": "Bilbao, Basque Country, Spain",
+    "period": "1990年代至2000年代文化設施帶動的城市再生",
+    "area_ha": null,
+    "fsi": null,
+    "gsi": null,
+    "program_mix": "Guggenheim Museum、河岸公共空間、前工業城市形象轉型",
+    "key_strategies_zh": [
+      "以博物館作為大型文化錨點，支援前工業城市重組敘事。",
+      "把河岸更新與文化設施置於同一城市投資討論中。"
+    ],
+    "outcomes_zh": [
+      "Plaza 研究將城市形象、過夜停留與地方經濟分開量化，並指出部分效果仍需更強證據。",
+      "有一篇 2001 年回應文章直接挑戰或回應 Guggenheim 效應論述。"
+    ],
+    "critiques_zh": [
+      "地標的城市形象效果不自動代表地方企業和居民獲益。",
+      "公共投資風險、文化品牌和土地增值的分配仍需逐項追蹤。"
+    ]
+  }
+}

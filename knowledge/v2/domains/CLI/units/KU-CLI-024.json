@@ -1,0 +1,74 @@
+{
+  "id": "KU-CLI-024",
+  "domain": "CLI",
+  "subtopic": "風舒適度準則（如 Lawson）",
+  "type": "method",
+  "title_zh": "風洞和 CFD 要以現場風場條件驗證",
+  "title_en": "風洞和 CFD 要以現場風場條件驗證",
+  "summary_zh": "行人風模擬受到來流剖面、周邊建築範圍、網格和湍流模型影響。Blocken 等人整理風洞與 CFD 的精度議題，Oke 的都市冠層框架則提醒風場有不同尺度。模擬報告要說明驗證資料和未解析細節。",
+  "key_points_zh": [
+    "計算域過小可能改變迎風和下游流場。",
+    "模型比例與地表粗糙度需符合場址條件。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "library_id": "BLOCKEN2016",
+        "claim_zh": "題名確認文章比較建築周圍行人高度風環境的風洞與 CFD 評估方法；不把工具輸出直接當成通用舒適閾值；本單元 KU-CLI-024 對照「行人風模擬受到來流剖面、周邊建築範圍、網格和湍流模型影響」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "風洞與 CFD 技術回顧",
+        "context_region": "跨地域建築風環境研究",
+        "locator": null
+      },
+      {
+        "library_id": "GROMKE2007",
+        "claim_zh": "書目確認本文題名聚焦「Influence of trees on the dispersion of pollutants in an urban street canyon—Experimental investigation of the flow and concentration field」；目前只完成作者、年份、題名與 DOI 核對，未將摘要或全文結論納入此記錄；本單元 KU-CLI-024 對照「行人風模擬受到來流剖面、周邊建築範圍、網格和湍流模型影響」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "實驗或風洞研究；目前僅核對書目範圍",
+        "context_region": "風洞與都市街谷",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "保存風向頻率、入口剖面和網格設定。",
+    "以風洞或現場觀測校核主要行人區。"
+  ],
+  "applies_when_zh": "適用於高密度方案的行人風模擬。",
+  "not_applicable_when_zh": "不可把未驗證 CFD 結果當正式安全證據。",
+  "debates_zh": "精細彩圖容易令人誤以為結果已經過充分驗證。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "BLOCKEN2016",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "GROMKE2007",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "都市風工程與驗證",
+  "region": "跨地域建築風環境；一般都市冠層",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "風舒適度準則（如 Lawson）"
+    },
+    {
+      "school": "MIT",
+      "course": "Theory of City Form",
+      "topic": "風舒適度準則（如 Lawson）"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0"
+}

@@ -1,0 +1,88 @@
+{
+  "id": "KU-LUP-501",
+  "domain": "LUP",
+  "subtopic": "相容與衝突：工業與住宅介面",
+  "type": "value_range",
+  "title_zh": "荷蘭活動與環境分區距離及混合環境",
+  "title_en": "Dutch activity and environmental zoning distances",
+  "summary_zh": "VNG的2024手冊把舊環境分區距離作為活動與地點適配的參考，並按居住與混合居住情境呈現。 公開轉換摘錄可核實0或10、30、50、100、200與300公尺以上的距離級距，但不能據此反推500、700、1000或1500公尺各自對應的類別。 舊2009表不再宜直接當成Omgevingswet下的地方固定規則。 這是荷蘭指引，不是M4H本基地法規；設計用途是辨認工業與住宅介面的調查範圍，再以地方規則和實測影響校準。",
+  "key_points_zh": [
+    "公開摘錄確認距離級距0或10、30、50、100、200及300公尺以上。",
+    "混合居住情境需依所在地特性判斷，不能自動把舊距離表當成法定退縮。",
+    "500、700、1000及1500公尺的個別對應值未在核准公開來源中查到，因此不寫入。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "公開轉換表可確認0或10、30、50、100、200及300公尺以上的級距，並分列居住與混合居住環境。",
+        "effect_or_value": null,
+        "study_design": "法規／官方政策或實務指引內容核對",
+        "context_region": "荷蘭",
+        "library_id": "VNG_AMZ_2024",
+        "locator": "第10章轉換表；官方公開摘錄",
+        "claim_verification": "OFFICIAL_PRIMARY_SOURCE_REVIEW"
+      },
+      {
+        "claim_zh": "VNG說明舊版方法不宜作為Omgevingswet下的固定標準，應建立地方化規則。",
+        "effect_or_value": null,
+        "study_design": "法規／官方政策或實務指引內容核對",
+        "context_region": "荷蘭",
+        "library_id": "VNG_AMZ_OW_2022",
+        "locator": "地方環境品質與新式活動環境分區說明",
+        "claim_verification": "OFFICIAL_PRIMARY_SOURCE_REVIEW"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "將距離級距作為初步衝突掃描的索引，另以噪音、氣味、外部安全及作業時間的地方資料校核。",
+    "在混合街區記錄實際敏感用途、源頭活動、緩衝設計與地方設定依據，避免把國外指引轉成基地法規。"
+  ],
+  "applies_when_zh": "用於荷蘭活動與敏感用途的早期相容性檢視，並需讀取地方omgevingsplan及活動條件。",
+  "not_applicable_when_zh": "不能用它代替M4H現行omgevingsplan、環境許可、環境評估或基地量測。",
+  "debates_zh": "新制度重視地方環境品質與活動實際影響；單一建議距離難以完整代表聲、氣味、風險及累積效應。",
+  "sources": [
+    {
+      "library_id": "VNG_AMZ_2024",
+      "claim_id": "C1",
+      "locator": "第10章轉換表；官方公開摘錄"
+    },
+    {
+      "library_id": "VNG_AMZ_OW_2022",
+      "claim_id": "C1",
+      "locator": "地方環境品質與新式活動環境分區說明"
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+  "tradition": "VNG環境相容性與地方環境規劃",
+  "region": "荷蘭",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "topic": "相容與衝突：工業與住宅介面"
+    },
+    {
+      "school": "Harvard GSD",
+      "topic": "相容與衝突：工業與住宅介面"
+    },
+    {
+      "school": "MIT",
+      "topic": "相容與衝突：工業與住宅介面"
+    },
+    {
+      "school": "UCL Bartlett",
+      "topic": "相容與衝突：工業與住宅介面"
+    }
+  ],
+  "version": "kb2-policy-2026-10-08",
+  "values": [
+    {
+      "name": "環境相容參考距離級距",
+      "range": "0或10；30；50；100；200；300以上",
+      "unit": "m",
+      "context": "適用地區：VNG；這是外國或地方制度／指引，不是 M4H 本基地法規；用途：以活動與敏感用途的相容性作初步篩選；300以上不代表單一精確類別；來源：https://vng.nl/sites/default/files/2024-10/handreiking-activiteiten-en-milieuzonering.pdf",
+      "library_id": "VNG_AMZ_2024"
+    }
+  ]
+}

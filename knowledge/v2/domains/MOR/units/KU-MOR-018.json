@@ -1,0 +1,106 @@
+{
+  "id": "KU-MOR-018",
+  "domain": "MOR",
+  "subtopic": "Muratori／Caniggia 類型過程",
+  "type": "design_principle",
+  "title_zh": "Muratori／Caniggia 類型過程｜設計原則",
+  "title_en": "Typological process — Design principle",
+  "summary_zh": "類型過程把建築形態理解為逐步累積和轉變，而非可直接複製的外觀。 Samuels 討論這種分析如何進入設計實務；東南亞店屋研究則展示貿易、制度與文化共同作用的地方脈絡。 跨城市移植前須核對建造方式、居住制度和氣候。",
+  "key_points_zh": [
+    "讀「Muratori／Caniggia 類型過程｜設計原則」時，從最小單元追蹤到街區，區分延續、變異與斷裂；同時把文章討論類型形態分析如何進入設計實務；它提供操作觀點，不構成跨城市效果估計列為核對條件。",
+    "讀「Muratori／Caniggia 類型過程｜設計原則」時，從最小單元追蹤到街區，區分延續、變異與斷裂；同時把文章討論類型形態分析如何進入設計實務；它提供操作觀點，不構成跨城市效果估計列為核對條件。",
+    "限制：跨文化移植類型前須先確認居住制度、氣候和建造方式。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "Samuels 討論類型形態分析如何進入設計實務，提供把歷史類型閱讀轉成方案操作的專業觀點。",
+        "library_id": "SAMUELS2008",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "歐洲城市設計論述",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "Saylan 與 Gürer 把類型形態知識用作設計教育的情境分析方法，並連起分析、綜合與評估階段。",
+        "effect_or_value": null,
+        "study_design": "建築設計教育方法論研究",
+        "context_region": "土耳其建築設計教育",
+        "library_id": "SAYLAN2024",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW",
+        "limitations_zh": "教學案例沒有實證證明所有傳統類型都可直接轉為新設計。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "落實「Muratori／Caniggia 類型過程｜設計原則」時可先從最小單元追蹤到街區，區分延續、變異與斷裂，再用文章討論類型形態分析如何進入設計實務；它提供操作觀點，不構成跨城市效果估計核對方案的空間後果。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "在「Muratori／Caniggia 類型過程｜設計原則」的來源情境裡，從最小單元追蹤到街區，區分延續、變異與斷裂；落到設計時還要按文章討論類型形態分析如何進入設計實務；它提供操作觀點，不構成跨城市效果估計調整。",
+      "tradeoff_zh": "「Muratori／Caniggia 類型過程｜設計原則」採用「在「Muratori／Caniggia 類型過程｜設計原則」的來源情境裡，從最小單元追蹤到街區，區分延續、變異與斷裂；落到設計時還要按文章討論類型形態分析如何進入設計實務；它提供操作觀點，不構成跨城市效果估計調整」時，得失要沿著文章討論類型形態分析如何進入設計實務；它提供操作觀點，不構成跨城市效果估計檢查；歷史連續性不等於應凍結形式；類型理論也可能低估非正式建造。",
+      "library_ids": [
+        "SAMUELS2008"
+      ]
+    },
+    {
+      "option_zh": "「Muratori／Caniggia 類型過程｜設計原則」可把取向落在連續街屋、院落和商住混合型會隨地方生活方式調整，但需連同文章討論類型形態分析如何進入設計實務；它提供操作觀點，不構成跨城市效果估計決定適用方式。",
+      "tradeoff_zh": "「Muratori／Caniggia 類型過程｜設計原則」的主要代價不是抽象的建造成本，而是歷史連續性不等於應凍結形式；類型理論也可能低估非正式建造；因此先以文章討論類型形態分析如何進入設計實務；它提供操作觀點，不構成跨城市效果估計作方案比較條件。",
+      "library_ids": [
+        "SAMUELS2008"
+      ]
+    }
+  ],
+  "applies_when_zh": "「Muratori／Caniggia 類型過程｜設計原則」可在適用於歷史街區更新、港市街屋與增量式修補時使用，前提是文章討論類型形態分析如何進入設計實務；它提供操作觀點，不構成跨城市效果估計與來源情境相符。",
+  "not_applicable_when_zh": "若文章討論類型形態分析如何進入設計實務；它提供操作觀點，不構成跨城市效果估計不成立，就不能把「Muratori／Caniggia 類型過程｜設計原則」的結論延伸到其他情況；跨文化移植類型前須先確認居住制度、氣候和建造方式。",
+  "debates_zh": "歷史連續性不等於應凍結形式；類型理論也可能低估非正式建造。",
+  "sources": [
+    {
+      "library_id": "SAMUELS2008",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "SAYLAN2024",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "類型形態學與設計實務；亞洲與歐洲比較形態學",
+  "region": "歐洲城市設計論述；羅馬、倫敦、新加坡與東京",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "Muratori／Caniggia 類型過程"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "Muratori／Caniggia 類型過程"
+    },
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.330J Theory of City Form",
+      "topic": "Muratori／Caniggia 類型過程"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban form and density",
+      "topic": "Muratori／Caniggia 類型過程"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-MOR-016",
+    "KU-MOR-017",
+    "KU-MOR-019"
+  ],
+  "counter_unit_ids": [
+    "KU-MOR-020"
+  ]
+}

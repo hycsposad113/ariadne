@@ -1,0 +1,40 @@
+{
+  "id": "IJBURG1998_HOAD",
+  "title": "The Ijburg Project, Amsterdam",
+  "authors": [
+    "Darren Hoad"
+  ],
+  "year": 1998,
+  "venue_or_publisher": "Geography",
+  "doi": "https://doi.org/10.1080/20436564.1998.12452662",
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "ACADEMIC_ARTICLE",
+  "tradition": "Amsterdam IJburg 城市規劃",
+  "region": "IJburg, Amsterdam, Netherlands",
+  "method": "Crossref 書目記錄",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "Crossref 書目記錄將 IJburg 作為 Amsterdam 新發展計畫案例範圍。",
+      "strength": "CASE_EVIDENCE",
+      "scope_zh": "僅核對書目標題、作者、年份和 DOI，不推定形態結果。",
+      "assessment_basis": "BIBLIOGRAPHIC_RECORD_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref",
+    "query": {
+      "title": "The Ijburg Project, Amsterdam",
+      "author": "Darren Hoad",
+      "year": 1998
+    },
+    "matched_record_id": "https://doi.org/10.1080/20436564.1998.12452662",
+    "checked_at_utc": "2026-10-09T10:24:49Z",
+    "match_notes_zh": "Crossref 精確書目記錄。"
+  },
+  "limitations_zh": "未讀全文，不引用任何設計參數或成果數字。",
+  "metadata_licence_zh": "公開 Crossref 書目 metadata；未保存全文。"
+}

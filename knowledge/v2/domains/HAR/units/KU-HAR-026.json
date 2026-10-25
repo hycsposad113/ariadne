@@ -1,0 +1,66 @@
+{
+  "id": "KU-HAR-026",
+  "domain": "HAR",
+  "subtopic": "工業遺產與 adaptive reuse",
+  "type": "critique",
+  "title_zh": "立面保存可能把工業遺產縮減成背景",
+  "title_en": "Facade Retention Can Reduce Industrial Heritage to a Backdrop",
+  "summary_zh": "只留下街道立面而移除內部空間，能保留部分城市輪廓，卻可能抹去原有結構、設備、勞動尺度和工藝線索。多準則再利用研究鼓勵把遺產意義分層記錄；工業遺產的當代轉化研究則讓設計者追問新介入保留了什麼。若案場採立面保存，應清楚標示被保留的物質範圍和被拆除的證據。",
+  "key_points_zh": [
+    "盤點外牆、屋架、設備、裝卸空間與勞動動線的不同價值。",
+    "公開立面後方拆除的範圍，不用「保存」一詞遮蔽損失。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "多屬性決策研究以歷史建築再利用策略作比較，支持把價值與使用需求拆開評估。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "中國與跨地域",
+        "library_id": "LI2025HISTORIC",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "工業遺產再利用研究關注社會凝聚與安全感之間的互動，提醒保存結果涉及使用者關係。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "中國與跨地域",
+        "library_id": "MOUSAVINIA2024",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "盤點外牆、屋架、設備、裝卸空間與勞動動線的不同價值。",
+    "公開立面後方拆除的範圍，不用「保存」一詞遮蔽損失。"
+  ],
+  "applies_when_zh": "原建築內部已嚴重改變或安全狀況無法補救時，作為透明的權衡案例。",
+  "not_applicable_when_zh": "具有完整生產系統或空間組織仍可修復時，不宜把立面保存當預設方案。",
+  "debates_zh": "建築保存價值並非只有外觀；「保留多少」也涉及勞動史和社區記憶的代表權。",
+  "sources": [
+    {
+      "library_id": "LI2025HISTORIC",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "MOUSAVINIA2024",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "遺產價值與社會影響",
+  "region": "中國與跨地域",
+  "curriculum_refs": [
+    {
+      "school": "Harvard GSD",
+      "course": null,
+      "topic": "Heritage conservation and adaptive reuse"
+    }
+  ],
+  "version": "v2.0"
+}

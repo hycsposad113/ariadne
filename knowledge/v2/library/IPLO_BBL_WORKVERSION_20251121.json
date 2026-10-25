@@ -1,0 +1,37 @@
+{
+  "id": "IPLO_BBL_WORKVERSION_20251121",
+  "title": "Besluit bouwwerken leefomgeving – werkversie (21-11-2025)",
+  "authors": [
+    "Informatiepunt Leefomgeving (IPLO)"
+  ],
+  "year": 2025,
+  "venue_or_publisher": "IPLO; official Bbl work version",
+  "doi": null,
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "OFFICIAL_WORKING_TEXT",
+  "tradition": "荷蘭 Bbl 草案／工作版本",
+  "region": [
+    "Netherlands"
+  ],
+  "method": "只核對官方 IPLO 2025-11-21 工作版本 PDF 的搜尋索引摘錄，未能逐頁重讀現行法規。",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "該工作版本摘錄列示住宅面積、居住區面積、高度、外部儲藏及戶外空間的部分表格值。",
+      "strength": "NORMATIVE_PRACTICE",
+      "scope_zh": "只表示該日期的官方工作版本摘錄；不可寫成 2026 年現行法規已核定數值。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED_OFFICIAL_SITE",
+    "url": "https://iplo.nl/publish/pages/191189/bbl-werkversie-21-11-2025-.pdf",
+    "accessed_utc": "2026-10-08T15:08:39Z",
+    "method": "official PDF search index excerpt; direct open returned 404 in browsing tool",
+    "match_notes_zh": "官方網域、文件標題、日期與條文摘錄可核對；法規當前效力未核定。"
+  },
+  "limitations_zh": "2025-11-21 工作版本，不等同現行法規原文；所有數值均標示待 wetten.overheid.nl 交叉核對。",
+  "metadata_licence_zh": "僅保存官方工作版本書目資料及自行摘要；未保存 PDF 原文。"
+}

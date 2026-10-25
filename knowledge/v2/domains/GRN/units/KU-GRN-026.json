@@ -1,0 +1,61 @@
+{
+  "id": "KU-GRN-026",
+  "domain": "GRN",
+  "subtopic": "開放空間系統與綠色網絡",
+  "type": "design_principle",
+  "title_zh": "綠道活動強度需與棲地安靜區協調",
+  "title_en": "Recreation needs quiet habitat zones",
+  "summary_zh": "自行車和慢跑路線帶來可及性，也會增加噪音與夜間照明。較少干擾的棲地區可以維持另一類綠地品質。人流季節高峰會集中在部分路段。讓每條路徑都保持同一開放程度可能犧牲生境完整。",
+  "key_points_zh": [
+    "自行車和慢跑路線帶來可及性，也會增加噪音與夜間照明",
+    "較少干擾的棲地區可以維持另一類綠地品質"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "自行車和慢跑路線帶來可及性，也會增加噪音與夜間照明。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "香港",
+        "library_id": "NG10",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "讓每條路徑都保持同一開放程度可能犧牲生境完整。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "用區域分帶、時段管理和植被緩衝降低衝突。"
+  ],
+  "applies_when_zh": "適用於野生動物和高使用率休閒共存的公園。",
+  "not_applicable_when_zh": "不宜在沒有物種資料時指定精確安靜區寬度。",
+  "debates_zh": "讓每條路徑都保持同一開放程度可能犧牲生境完整。",
+  "sources": [
+    {
+      "library_id": "NG10",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "MCHARG69",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "高密度環境設計",
+  "region": "香港",
+  "curriculum_refs": [
+    {
+      "school": "UCL Bartlett",
+      "course": "Critical Debates in Urban Design",
+      "topic": "開放空間系統與綠色網絡"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-GRN-025",
+    "KU-GRN-027"
+  ]
+}

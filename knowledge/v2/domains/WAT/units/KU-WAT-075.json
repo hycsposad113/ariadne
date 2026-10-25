@@ -1,0 +1,110 @@
+{
+  "id": "KU-WAT-075",
+  "domain": "WAT",
+  "subtopic": "雨水滯留量的設計值",
+  "type": "value_range",
+  "title_zh": "年雨量比例與單場設計暴雨不可混為一談",
+  "title_en": "Annual rainfall targets differ from single-storm design depths",
+  "summary_zh": "Nieuwegein 的地方規則以平均年雨量 936 毫米為基準，要求適用地塊處理其中至少一半。這項年度目標與單場暴雨保留 50 毫米的要求分開計算，代表不同時間尺度的水量管理。綠屋頂研究也提示年尺度表現會受降雨季節分布、基質與維護影響。此地方法規數值不能直接移植到其他城市或 M4H。",
+  "key_points_zh": [
+    "年度雨量比例和單場暴雨容量是兩個不同設計問題。",
+    "來源條件、設施類型和維護責任要一併記錄。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "library_id": "NIEUWEGEIN_OMGEVINGSPLAN",
+        "claim_zh": "Nieuwegein 的地方規則將年度要求定為處理平均年雨量 936 mm 的至少一半；這是全年統計目標，不能與單場暴雨的 50 mm 蓄水指標互換。",
+        "claim_verification": "OFFICIAL_PRIMARY_SOURCE_REVIEW",
+        "effect_or_value": "適用地塊需處理平均年雨量 936 mm 的至少一半；另有 70 mm/h 事件要求，兩個條件不可互換。",
+        "study_design": "地方政府規劃法規文本",
+        "context_region": "Nieuwegein, Nederland",
+        "locator": null
+      },
+      {
+        "library_id": "STOVIN2010",
+        "claim_zh": "書目確認本文題名聚焦「The potential of green roofs to manage Urban Stormwater」；目前只完成作者、年份、題名與 DOI 核對，未將摘要或全文結論納入此記錄。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": "文獻題名聚焦綠屋頂雨水管理；沒有用此書目記錄推定年雨量效果量。",
+        "study_design": "綠屋頂雨水滯留研究；此處僅核對書目範圍",
+        "context_region": "英國研究脈絡",
+        "locator": null
+      },
+      {
+        "library_id": "ECKART2017",
+        "claim_zh": "書目確認本文題名聚焦「Performance and implementation of low impact development – A review」；目前只完成作者、年份、題名與 DOI 核對，未將摘要或全文結論納入此記錄；本單元 KU-WAT-075 對照「Nieuwegein 的地方規則以平均年雨量 936 毫米為基準，要求適用地塊處理其中至少一半」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "文獻回顧；目前僅核對書目範圍",
+        "context_region": "跨地域",
+        "locator": null
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "年雨量處理目標及參照年雨量",
+      "range": "至少 50% of 936",
+      "unit": "% of mm/year; 936 mm/year reference",
+      "context": "用途：以「年雨量處理目標及參照年雨量」作為來源情境參照；Nieuwegein 適用地塊的地方規則；年平均雨量總量與單場 70 mm/h 暴雨要求分開判讀，這不是本基地法規；來源所列地域：Nieuwegein, Nederland。",
+      "library_id": "NIEUWEGEIN_OMGEVINGSPLAN"
+    }
+  ],
+  "design_implications_zh": [
+    "分別計算事件容量和年度雨量控制率。",
+    "標示計算期、地方降雨基線與設施維護假設。"
+  ],
+  "applies_when_zh": "用於比較單場暴雨要求與年尺度雨水管理目標。",
+  "not_applicable_when_zh": "不作為 M4H 的年雨量或排水法定門檻。",
+  "debates_zh": "年雨量百分比不代表每一場降雨都能達到相同比例；規則的適用對象和核算口徑需逐條確認。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [
+    "KU-WAT-051",
+    "KU-WAT-071"
+  ],
+  "sources": [
+    {
+      "library_id": "NIEUWEGEIN_OMGEVINGSPLAN",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "STOVIN2010",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "ECKART2017",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "荷蘭地方雨水規範與綠屋頂滯留研究",
+  "region": "Nieuwegein, Nederland; 英國綠屋頂研究脈絡",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "雨水滯留量的設計值"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "藍綠基礎設施"
+    },
+    {
+      "school": "MIT",
+      "course": "11.330J Introduction to Urban Design and Development",
+      "topic": "雨水治理與開發"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Sustainable Futures by Design",
+      "topic": "雨水設計尺度"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0"
+}

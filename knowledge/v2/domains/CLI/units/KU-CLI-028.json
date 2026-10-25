@@ -1,0 +1,111 @@
+{
+  "id": "KU-CLI-028",
+  "domain": "CLI",
+  "subtopic": "日照與遮陰",
+  "type": "value_range",
+  "title_zh": "日照指標要附標準定義、窗面和時段",
+  "title_en": "日照指標要附標準定義、窗面和時段",
+  "summary_zh": "倫敦市政府的 Housing Design 草案分開列出臥室與客廳的平均日光因子目標，也以春分日檢查戶外空間日照。該頁明確把 BRE 數值稱為建議性預設值，並提示高密度區應依地方條件彈性判斷。這組數字僅供對照，不是英國全國法規或 M4H 的日照要求。",
+  "key_points_zh": [
+    "日照總時數和有效直射時數是不同統計。",
+    "窗戶方向與遮擋定義會改變判定。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "library_id": "GLA_HOUSING_DESIGN_DRAFT",
+        "claim_zh": "GLA 草案指引列出臥室 ADF 1%、客廳 1.5%，並建議戶外空間於 3 月 21 日至少有兩小時日照覆蓋一半面積；該頁將 BRE 預設數值標為 advisory。",
+        "claim_verification": "OFFICIAL_PRIMARY_SOURCE_REVIEW",
+        "effect_or_value": null,
+        "study_design": "地方政府草案設計指引",
+        "context_region": "London, United Kingdom",
+        "locator": "Housing Design draft, section C5.3, lines 1011–1031 and 1041–1043"
+      },
+      {
+        "library_id": "KANTERS2021",
+        "claim_zh": "日照準則可能以特定窗面、參考日期、時段或年度可能日照時數定義，不同百分比不可直接混用。",
+        "effect_or_value": "具體門檻待公開原文核對後記錄。",
+        "study_design": "日照規劃工具研究",
+        "context_region": "Sweden",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "library_id": "YE14",
+        "claim_zh": "荷蘭新舊城案例將路網整合、密度與混合用途聯合診斷，初步行為資料檢驗並非通用因果模型；本單元 KU-CLI-028 對照「倫敦市政府的 Housing Design 草案分開列出臥室與客廳的平均日光因子目標，也以春分日檢查戶外空間日照」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "ABSTRACT_REVIEW",
+        "effect_or_value": null,
+        "study_design": "GIS／GPS 案例檢驗",
+        "context_region": "荷蘭",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "為每項準則保存日期、窗向和遮擋計算方法。",
+    "把自然採光和直射日照分開分析。"
+  ],
+  "applies_when_zh": "適用於日照準則對照和設計資料整理。",
+  "not_applicable_when_zh": "具體門檻待公開原指引查證；不是本基地法規。",
+  "debates_zh": "跨國指標數字格式相似，不代表保護目標和法律效力相同。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "GLA_HOUSING_DESIGN_DRAFT",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "KANTERS2021",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "YE14",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "日照參數比較",
+  "region": "Sweden；香港與亞洲",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "日照與遮陰"
+    },
+    {
+      "school": "MIT",
+      "course": "Theory of City Form",
+      "topic": "日照與遮陰"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0",
+  "values": [
+    {
+      "name": "倫敦草案臥室平均日光因子 ADF",
+      "range": "至少 1",
+      "unit": "%",
+      "context": "用途：以「倫敦草案臥室平均日光因子 ADF」作為來源情境參照；GLA Housing Design 草案對臥室的建議值；頁面標示 BRE 預設數值為 advisory 這不是本基地法規；來源所列地域：London, United Kingdom。",
+      "library_id": "GLA_HOUSING_DESIGN_DRAFT"
+    },
+    {
+      "name": "倫敦草案客廳平均日光因子 ADF",
+      "range": "至少 1.5",
+      "unit": "%",
+      "context": "用途：以「倫敦草案客廳平均日光因子 ADF」作為來源情境參照；GLA Housing Design 草案對客廳的建議值；不是英國法律或 M4H 標準 這不是本基地法規。",
+      "library_id": "GLA_HOUSING_DESIGN_DRAFT"
+    },
+    {
+      "name": "戶外空間日照覆蓋",
+      "range": "至少 2 h；至少 50",
+      "unit": "h on 21 March / % of area",
+      "context": "用途：以「戶外空間日照覆蓋」作為來源情境參照；GLA 草案建議 3 月 21 日至少半數戶外空間獲得兩小時日照 這不是本基地法規；來源所列地域：London, United Kingdom。",
+      "library_id": "GLA_HOUSING_DESIGN_DRAFT"
+    }
+  ]
+}

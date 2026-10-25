@@ -1,0 +1,122 @@
+{
+  "id": "KU-HOU-003",
+  "domain": "HOU",
+  "subtopic": "住宅類型",
+  "type": "design_principle",
+  "title_zh": "住宅類型｜設計原則",
+  "title_en": "Housing typologies — Design principle",
+  "summary_zh": "不從建築高度直接推斷住戶滿意或社區形成。 讀「住宅類型｜設計原則」時，以住戶、公共空間和服務路徑三層對照住宅類型；同時把高密度設計必須同時比較社會與環境條件；不能由密度數字直接推出唯一建築型態列為核對條件。 落實「住宅類型｜設計原則」時可先以住戶、公共空間和服務路徑三層對照住宅類型，再用高密度設計必須同時比較社會與環境條件；不能由密度數字直接推出唯一建築型態核對方案的空間後果。",
+  "key_points_zh": [
+    "讀「住宅類型｜設計原則」時，以住戶、公共空間和服務路徑三層對照住宅類型；同時把高密度設計必須同時比較社會與環境條件；不能由密度數字直接推出唯一建築型態列為核對條件。",
+    "讀「住宅類型｜設計原則」時，以住戶、公共空間和服務路徑三層對照住宅類型；同時把高密度設計必須同時比較社會與環境條件；不能由密度數字直接推出唯一建築型態列為核對條件。",
+    "限制：不從建築高度直接推斷住戶滿意或社區形成。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "高密度設計必須同時比較社會與環境條件；不能由密度數字直接推出唯一建築型態。",
+        "library_id": "NG10",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "香港; 亞洲",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "建成環境的形式與控制權分層相連；開放空間與可改造構造需說明誰能使用或修改。",
+        "library_id": "HABRAKEN98",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "荷蘭; 跨地域",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "Hayden 的文章把住宅、城市設計與人類工作放在同一問題框架；它提供將家務和照護活動納入住宅配置討論的視角，不是住宅面積效果研究。",
+        "library_id": "HAYDEN80",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "美國",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "本條依公開摘要或書目範圍整理；未據此推定本基地法規、普遍效果或未核對的數值。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "落實「住宅類型｜設計原則」時可先以住戶、公共空間和服務路徑三層對照住宅類型，再用高密度設計必須同時比較社會與環境條件；不能由密度數字直接推出唯一建築型態核對方案的空間後果。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "在「住宅類型｜設計原則」的來源情境裡，以住戶、公共空間和服務路徑三層對照住宅類型；落到設計時還要按高密度設計必須同時比較社會與環境條件；不能由密度數字直接推出唯一建築型態調整。",
+      "tradeoff_zh": "增加空間選擇與公共連結，但會增加協調、管理或建造成本。",
+      "library_ids": [
+        "NG10",
+        "HABRAKEN98"
+      ]
+    },
+    {
+      "option_zh": "「住宅類型｜設計原則」可把取向落在高層、連棟、集合式住宅和共居住宅各有不同支援與管理需求，但需連同高密度設計必須同時比較社會與環境條件；不能由密度數字直接推出唯一建築型態決定適用方式。",
+      "tradeoff_zh": "保留另一種形式和使用條件，但可能改變連續性、可達性或私密性。",
+      "library_ids": [
+        "NG10",
+        "HABRAKEN98"
+      ]
+    }
+  ],
+  "applies_when_zh": "「住宅類型｜設計原則」可在適用於新住宅、社會住宅和高密度更新時使用，前提是高密度設計必須同時比較社會與環境條件；不能由密度數字直接推出唯一建築型態與來源情境相符。",
+  "not_applicable_when_zh": "若高密度設計必須同時比較社會與環境條件；不能由密度數字直接推出唯一建築型態不成立，就不能把「住宅類型｜設計原則」的結論延伸到其他情況；不從建築高度直接推斷住戶滿意或社區形成。",
+  "debates_zh": "外觀類型不能替代戶型適用性、產權或服務分析。",
+  "sources": [
+    {
+      "library_id": "NG10",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "HABRAKEN98",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "HAYDEN80",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "高密度環境設計；開放建築",
+  "region": "香港；荷蘭",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "住宅類型"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "住宅類型"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "住宅類型"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "住宅類型"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-HOU-001",
+    "KU-HOU-002",
+    "KU-HOU-004"
+  ],
+  "counter_unit_ids": [
+    "KU-HOU-005"
+  ]
+}

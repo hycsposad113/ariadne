@@ -1,0 +1,110 @@
+{
+  "id": "KU-WAT-072",
+  "domain": "WAT",
+  "subtopic": "雨水滯留量的設計值",
+  "type": "value_range",
+  "title_zh": "wadi 的入滲深度需連結地質與安全水深",
+  "title_en": "wadi 的入滲深度需連結地質與安全水深",
+  "summary_zh": "wadi 的設計不只是在地表挖出凹地，而是將入滲土層、地下水位、溢流和維護通道一併設定。Den Helder 的公共空間指引要求特定表層滲透係數、24 小時排空、與高地下水位保持間距，並限制最大積水深度。這些是城市工程手冊中的地方標準，不代表任何地質條件下都能達到相同表現。",
+  "key_points_zh": [
+    "滲透係數要以場地試驗確定。",
+    "積水深度和邊坡比也承載公共安全要求。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "library_id": "DENHELDER_LIOR2026",
+        "claim_zh": "Den Helder 要求 wadi 底部高於平均最高地下水位至少 0.50 m，同時列出表層 K 值 0.5–1.5 m/day 及 0.30 m 水深上限；本單元以此檢視地下水位對入滲設計的限制。",
+        "claim_verification": "OFFICIAL_PRIMARY_SOURCE_REVIEW",
+        "effect_or_value": null,
+        "study_design": "市政基礎設施設計指引",
+        "context_region": "Den Helder, Nederland",
+        "locator": "LIOR 2026–2027, sections 4.4.6.7–4.4.6.8, lines 2393–2423"
+      },
+      {
+        "library_id": "MENTENS2006",
+        "claim_zh": "書目確認本文題名聚焦「Green roofs as a tool for solving the rainwater runoff problem in the urbanized 21st century；」；目前只完成作者、年份、題名與 DOI 核對，未將摘要或全文結論納入此記錄；本單元 KU-WAT-072 對照「wadi 的設計不只是在地表挖出凹地，而是將入滲土層、地下水位、溢流和維護通道一併設定」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "文獻回顧；目前僅核對書目範圍",
+        "context_region": "比利時都市",
+        "locator": null
+      },
+      {
+        "library_id": "STOVIN2010",
+        "claim_zh": "書目確認本文題名聚焦「The potential of green roofs to manage Urban Stormwater」；目前只完成作者、年份、題名與 DOI 核對，未將摘要或全文結論納入此記錄；本單元 KU-WAT-072 對照「wadi 的設計不只是在地表挖出凹地，而是將入滲土層、地下水位、溢流和維護通道一併設定」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "案例或場地研究；目前僅核對書目範圍",
+        "context_region": "英國研究脈絡",
+        "locator": null
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "wadi 表層 K 值",
+      "range": "0.5–1.5",
+      "unit": "m/day",
+      "context": "用途：以「wadi 表層 K 值」作為來源情境參照；Den Helder 2026–2027 公共空間指引；須驗證場地滲透並配合 24 h 排空；這不是本基地法規；來源所列地域：Den Helder, Nederland。",
+      "library_id": "DENHELDER_LIOR2026"
+    },
+    {
+      "name": "wadi 最大積水深度",
+      "range": "0.30",
+      "unit": "m",
+      "context": "Den Helder 指引用於降低兒童溺水風險；這不是本基地法規；來源所列地域：Den Helder, Nederland。",
+      "library_id": "DENHELDER_LIOR2026"
+    },
+    {
+      "name": "wadi 底部高於 GHG",
+      "range": "至少 0.50",
+      "unit": "m",
+      "context": "用途：以「wadi 底部高於 GHG」作為來源情境參照；Den Helder 指引要求與平均最高地下水位保持距離；這不是本基地法規；來源所列地域：Den Helder, Nederland。",
+      "library_id": "DENHELDER_LIOR2026"
+    }
+  ],
+  "design_implications_zh": [
+    "把土壤入滲測試、底標高和維護後排水檢查列為設計交付項。"
+  ],
+  "applies_when_zh": "適用於以淺凹地承接道路或屋頂逕流的初步規劃。",
+  "not_applicable_when_zh": "地下水、土壤或污染狀況未調查時，不用此值認證容量。",
+  "debates_zh": "以快速入滲提升排空能力可能降低植物可用水或增加污染物輸送；地方指引需由場地試驗修正。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "DENHELDER_LIOR2026",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "MENTENS2006",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "STOVIN2010",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "荷蘭市政 wadi 工程指引",
+  "region": "Den Helder, Nederland；美國都市雨水研究",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "雨水滯留量的設計值"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Ecologies, Techniques, and Territories",
+      "topic": "Water-sensitive urban design"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0"
+}

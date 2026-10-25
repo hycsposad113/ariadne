@@ -1,0 +1,96 @@
+{
+  "id": "KU-CAS-033",
+  "domain": "CAS",
+  "subtopic": "住宅與街區—新市區與多樣住宅",
+  "type": "case",
+  "title_zh": "Rieselfeld：以小地塊與混合住宅形塑外擴街區",
+  "title_en": "Rieselfeld: Small Plots and Mixed Housing in a New Freiburg District",
+  "summary_zh": "弗萊堡 Rieselfeld 是市區西側的新建街區，市府把高密度、住工並置、住宅型態多樣和無障礙家庭住宅列入規劃目標。市府列出的規劃容量為 4,100 戶、約 10,000 至 11,000 人，並說明以小地塊、街道沿線建築和後側共享綠地組合空間。Schuetze 的專書章把 Rieselfeld 與 Vauban 並列為都市永續規劃案例；本輪只確認章名與出版資訊。目標數字反映計畫設計口徑，不能直接當成目前實際人口或住房成效。",
+  "key_points_zh": [
+    "小地塊與多種住宅原型可讓新區街景不同，但多樣性需透過入住與產權資料驗證。",
+    "市府計畫目標把高密度、日常服務、無障礙和環境導向並列，不宜只抽出單一形態指標。"
+  ],
+  "evidence": {
+    "strength": "CASE_EVIDENCE",
+    "findings": [
+      {
+        "claim_zh": "Schuetze 的專書章以 Rieselfeld 和 Vauban 為德國都市永續規劃案例；本輪未核讀章節內容，故不引述成效。",
+        "effect_or_value": "僅確認案例與研究範圍，不報告效果量",
+        "study_design": "學術專書章；本輪僅書目範圍核對",
+        "context_region": "德國弗萊堡",
+        "library_id": "SCHUETZE2018RIES",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "弗萊堡市府列出 Rieselfeld 的規劃目標：4,100 戶、約 10,000–11,000 人、平均地塊寬度約 24 公尺，並包含街道沿線建築與後側共享綠地。",
+        "effect_or_value": "官方規劃目標與建築類型說明，不等於實際入住結果",
+        "study_design": "市府街區規劃資料",
+        "context_region": "德國弗萊堡 Rieselfeld",
+        "library_id": "FREIBURG_RIESELFELD2026",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "先用街廓與地塊計畫測試不同住宅類型的日照、無障礙、共享綠地與沿街服務條件。",
+    "將「規劃容量」與「建成／入住」分欄記錄，並查核不同收入、家庭型態和建屋團體的實際住房組合。"
+  ],
+  "applies_when_zh": "城市需要在外擴新區納入住宅供給，且希望街廓尺度、地塊分割和住房型態能被一起設計時。",
+  "not_applicable_when_zh": "若交通、教育和日常商業無法在入住前配套，單靠住宅混合形態不足以形成完整街區。",
+  "debates_zh": "Rieselfeld 的市府資料提供了清晰的空間目標和地塊策略，卻未在該頁面同時交代目標完成度、住房價格或人口實際組成。24 公尺平均地塊寬度是此案例的設計口徑，不是通用法規或本基地標準。規劃師需把形態、服務到位時序與租購可負擔性分開核對。",
+  "sources": [
+    {
+      "library_id": "SCHUETZE2018RIES",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "FREIBURG_RIESELFELD2026",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "德國新市區規劃、混合住宅與小地塊開發",
+  "region": "西歐／德國弗萊堡",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": null,
+      "topic": "街廓設計、住宅混合與永續新區"
+    },
+    {
+      "school": "MIT",
+      "course": null,
+      "topic": "土地開發、交通與社區服務時序"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": null,
+      "topic": "住宅型態與包容性街區"
+    }
+  ],
+  "case": {
+    "location": "德國弗萊堡 Rieselfeld 新建街區",
+    "period": "1990 年代起分期開發；本單元將市府所列容量視為計畫目標",
+    "area_ha": null,
+    "fsi": null,
+    "gsi": null,
+    "program_mix": "住宅、商業、教育與公共服務、交通設施、公共及私有綠地；用途比例未查得。",
+    "key_strategies_zh": [
+      "以相對窄的地塊與多種住房類型避免單一超大住宅組團。",
+      "把街道面建築、內部共享綠地及公共服務一起安排，連接住工混合的計畫目標。"
+    ],
+    "outcomes_zh": [
+      "市府計畫目標記載 4,100 戶、約 10,000–11,000 人及平均約 24 公尺地塊寬度。",
+      "市府也列出家庭與身障友善住房、混合居住工作、環境導向設計等目標。"
+    ],
+    "critiques_zh": [
+      "4,100 戶與人口數是官方列出的目標容量，不是本單元自行驗證的建成統計。",
+      "市府頁面未提供租購可負擔、居民組成或商業活力追蹤結果，這些評估不可由街廓形態推導。"
+    ]
+  },
+  "version": "v2.0"
+}

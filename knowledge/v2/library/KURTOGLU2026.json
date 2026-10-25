@@ -1,0 +1,42 @@
+{
+  "id": "KURTOGLU2026",
+  "title": "From Reuse Potential to Reuse Success: Developing and Applying the Adaptive Reuse Success Index for Industrial Heritage Buildings",
+  "authors": [
+    "Duygu Kurtoğlu"
+  ],
+  "year": 2026,
+  "venue_or_publisher": "Buildings",
+  "doi": "https://doi.org/10.3390/buildings16153072",
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "工業遺產再利用評估",
+  "region": "Santralistanbul，土耳其伊斯坦堡",
+  "method": "結構式框架發展回顧、31篇研究全文編碼及案例示範",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "摘要描述以31篇研究建構八個評估面向、40項指標的ARSI，並以Santralistanbul示範；作者明確將其定位為初步診斷框架，尚非普遍驗證的量表。",
+      "strength": "MIXED",
+      "scope_zh": "此書目僅支持記錄中的研究對象、地區與方法；不可推作M4H法規、通用數值或跨城因果結論。",
+      "assessment_basis": "ABSTRACT_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref",
+    "query": {
+      "title": "From Reuse Potential to Reuse Success: Developing and Applying the Adaptive Reuse Success Index for Industrial Heritage Buildings",
+      "author": "Kurtoğlu",
+      "year": 2026,
+      "api_query": "Crossref GET works?query.title=From Reuse Potential to Reuse Success: Developing and Applying the Adaptive Reuse Success Index for Industrial Heritage Buildings"
+    },
+    "matched_record_id": "10.3390/buildings16153072",
+    "checked_at_utc": "2026-10-08T10:52:30Z",
+    "match_notes_zh": "公開Crossref書目欄位已核對題名、作者及出版年；摘要僅在assessment_basis為ABSTRACT_REVIEW時用於核對，未存入repo。"
+  },
+  "limitations_zh": "未取得全文；只有標示ABSTRACT_REVIEW的內容依公開摘要核對，其餘僅依書目範圍描述。",
+  "critique_relationship_zh": "本筆不宣稱與其他來源存在直接互引或逐一反駁關係。",
+  "metadata_licence_zh": "Crossref公開書目欄位；精確metadata授權未核驗，標UNKNOWN。"
+}

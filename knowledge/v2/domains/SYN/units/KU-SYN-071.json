@@ -1,0 +1,106 @@
+{
+  "id": "KU-SYN-071",
+  "domain": "SYN",
+  "subtopic": "軸線／線段分析",
+  "type": "value_range",
+  "title_zh": "三種街網表示法",
+  "title_en": "Three graph representations of street networks",
+  "summary_zh": "街網常見三種建模表示是軸線、線段和 primal graph；它們設定節點、邊和幾何成本的方式不同。這三種表示不是完整清單，也沒有單一最優答案。生成規則會改變中心性和可達性結果。此處的常見街網圖表示種類數是附來源的比較參照，不是本基地法規。",
+  "key_points_zh": [
+    "軸線、線段、primal graph 的對象和切分規則不同。",
+    "結果比較需固定範圍、道路資料和連接規則。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "街網可用三種表示法分析：軸線圖（Hillier & Hanson 1984）、角度線段圖（Turner 等）與道路中線的 primal 圖（Porta 等 2006）。",
+        "library_id": "PORTA06",
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+        "effect_or_value": "三種：軸線、線段、primal",
+        "study_design": "路網表示比較",
+        "context_region": "跨地域街道形態",
+        "locator": null
+      },
+      {
+        "claim_zh": "歷史形態分析常並讀街道、地塊和建築關係。",
+        "library_id": "CONZEN60",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "歷史城鎮形態分析",
+        "context_region": "英國",
+        "locator": null
+      },
+      {
+        "claim_zh": "建築型態學提供由建築到街廓的尺度閱讀。",
+        "library_id": "CANIGGIA",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "建築與城市型態分析",
+        "context_region": "義大利",
+        "locator": null
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "常見街網圖表示種類數",
+      "range": "三種：軸線、線段、primal",
+      "unit": "表示方法數量",
+      "context": "城市街道網路建模方法比較；用途：挑選符合研究問題的節點與邊定義，並保留替代表示的敏感度結果。；「常見街網圖表示種類數」僅供來源脈絡內的比較，不是本基地法規、M4H 門檻或通用配額；來源所列地域：美國、跨地域。",
+      "library_id": "SOUTHWORTH03"
+    }
+  ],
+  "design_implications_zh": [
+    "建模開始時說明為何選用一種表示，並在結論對方案有影響時保留替代表示計算。"
+  ],
+  "applies_when_zh": "建構街網圖前，先說明軸線、線段或 primal 表示如何保留幾何和連接資訊。",
+  "not_applicable_when_zh": "三種表示數不等於分析完整度，也不表示每個城市都必須執行三種方法。",
+  "debates_zh": "模型簡化會刪除不同幾何資訊；研究設計需說明哪些關係被保留或省略。",
+  "sources": [
+    {
+      "library_id": "HILLIER84",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "PORTA06",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "SOUTHWORTH03",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "CONZEN60",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "CANIGGIA",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "城市網路建模與形態學",
+  "region": "城市街道網路建模方法比較",
+  "curriculum_refs": [
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.330J Theory of City Form",
+      "topic": "軸線／線段分析：課綱對應主題"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Critical Debates in Urban Design",
+      "topic": "軸線／線段分析：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-SYN-003"
+  ]
+}

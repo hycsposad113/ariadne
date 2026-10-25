@@ -1,0 +1,96 @@
+{
+  "domain": "GRN",
+  "topic_to_units": {
+    "公園類型與階層": [
+      "KU-GRN-001",
+      "KU-GRN-002",
+      "KU-GRN-003",
+      "KU-GRN-004",
+      "KU-GRN-005",
+      "KU-GRN-006",
+      "KU-GRN-007",
+      "KU-GRN-008",
+      "KU-GRN-009",
+      "KU-GRN-010",
+      "KU-GRN-065"
+    ],
+    "綠地可及性": [
+      "KU-GRN-011",
+      "KU-GRN-012",
+      "KU-GRN-013",
+      "KU-GRN-014",
+      "KU-GRN-015",
+      "KU-GRN-016",
+      "KU-GRN-017",
+      "KU-GRN-018",
+      "KU-GRN-019",
+      "KU-GRN-020",
+      "KU-GRN-021",
+      "KU-GRN-063"
+    ],
+    "開放空間系統與綠色網絡": [
+      "KU-GRN-022",
+      "KU-GRN-023",
+      "KU-GRN-024",
+      "KU-GRN-025",
+      "KU-GRN-026",
+      "KU-GRN-027",
+      "KU-GRN-028",
+      "KU-GRN-029",
+      "KU-GRN-064"
+    ],
+    "遊戲與兒童": [
+      "KU-GRN-030",
+      "KU-GRN-031",
+      "KU-GRN-032",
+      "KU-GRN-033",
+      "KU-GRN-034",
+      "KU-GRN-035",
+      "KU-GRN-036"
+    ],
+    "公園使用與維護": [
+      "KU-GRN-037",
+      "KU-GRN-038",
+      "KU-GRN-039",
+      "KU-GRN-040",
+      "KU-GRN-041",
+      "KU-GRN-042",
+      "KU-GRN-043",
+      "KU-GRN-044"
+    ],
+    "健康效益實證": [
+      "KU-GRN-045",
+      "KU-GRN-046",
+      "KU-GRN-047",
+      "KU-GRN-048",
+      "KU-GRN-049",
+      "KU-GRN-050",
+      "KU-GRN-051",
+      "KU-GRN-052",
+      "KU-GRN-053",
+      "KU-GRN-054",
+      "KU-GRN-066",
+      "KU-GRN-067"
+    ],
+    "綠地仕紳化": [
+      "KU-GRN-055",
+      "KU-GRN-056",
+      "KU-GRN-057",
+      "KU-GRN-058",
+      "KU-GRN-059",
+      "KU-GRN-060",
+      "KU-GRN-061",
+      "KU-GRN-062"
+    ]
+  },
+  "topic_counts": {
+    "公園類型與階層": 11,
+    "綠地可及性": 12,
+    "開放空間系統與綠色網絡": 9,
+    "遊戲與兒童": 7,
+    "公園使用與維護": 8,
+    "健康效益實證": 12,
+    "綠地仕紳化": 8
+  },
+  "generated_at_utc": "2026-10-08T10:15:45Z"
+}

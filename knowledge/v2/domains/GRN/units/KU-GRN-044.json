@@ -1,0 +1,60 @@
+{
+  "id": "KU-GRN-044",
+  "domain": "GRN",
+  "subtopic": "公園使用與維護",
+  "type": "method",
+  "title_zh": "設計後評估應回到原先問題",
+  "title_en": "Post-occupancy review should revisit goals",
+  "summary_zh": "場地開放後要檢查原先聲稱的服務對象是否實際到訪。若結果落差大，管理規則與活動安排也可能需要調整。短期觀察不會涵蓋全部長期效益。適應性管理需要承認設計假設可以被現場推翻。",
+  "key_points_zh": [
+    "場地開放後要檢查原先聲稱的服務對象是否實際到訪",
+    "若結果落差大，管理規則與活動安排也可能需要調整"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "場地開放後要檢查原先聲稱的服務對象是否實際到訪。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "丹麥",
+        "library_id": "GEHL10",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "適應性管理需要承認設計假設可以被現場推翻。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "將設計目標、測量方法、回訪時間和修正權責在施工前寫定。"
+  ],
+  "applies_when_zh": "適用於公共投資問責。",
+  "not_applicable_when_zh": "不可把建成照片當成效益證明。",
+  "debates_zh": "適應性管理需要承認設計假設可以被現場推翻。",
+  "sources": [
+    {
+      "library_id": "GEHL10",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "WHYTE80",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "公共生活設計",
+  "region": "丹麥",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "公園使用與維護"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-GRN-043"
+  ]
+}

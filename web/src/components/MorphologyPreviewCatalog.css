@@ -1,0 +1,390 @@
+.morphology-preview {
+  color: #202723;
+  display: block;
+  font: inherit;
+  min-height: 0;
+  padding: 1.25rem;
+}
+
+.morphology-preview__header,
+.morphology-preview__detail-header {
+  align-items: flex-start;
+  display: flex;
+  gap: 1.25rem;
+  justify-content: space-between;
+}
+
+.morphology-preview__header h1,
+.morphology-preview__detail h2,
+.morphology-preview__group h2,
+.morphology-preview__metrics h3,
+.morphology-preview__retained h3 {
+  margin: 0;
+}
+
+.morphology-preview__header > div:first-child > p:last-child {
+  color: #58635c;
+  margin: 0.45rem 0 0;
+  max-width: 64rem;
+}
+
+.morphology-preview__eyebrow {
+  color: #587260;
+  font-size: 0.76rem;
+  font-weight: 700;
+  letter-spacing: 0.07em;
+  margin: 0 0 0.35rem;
+  text-transform: uppercase;
+}
+
+.morphology-preview__run-meta {
+  color: #46564b;
+  display: grid;
+  font-size: 0.86rem;
+  gap: 0.35rem;
+  min-width: 12rem;
+  text-align: right;
+}
+
+.morphology-preview__layout {
+  align-items: start;
+  display: grid;
+  gap: 1.25rem;
+  grid-template-columns: minmax(16rem, 21rem) minmax(0, 1fr);
+  margin-top: 1.25rem;
+}
+
+@container scenario-preview (max-width: 760px) {
+  .morphology-preview__layout {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .morphology-preview__header,
+  .morphology-preview__detail-header {
+    flex-wrap: wrap;
+  }
+
+  .morphology-preview__run-meta {
+    min-width: 0;
+    text-align: left;
+  }
+}
+
+.morphology-preview__catalog {
+  display: grid;
+  gap: 1rem;
+  min-width: 0;
+}
+
+.morphology-preview__group,
+.morphology-preview__detail {
+  background: #fff;
+  border: 1px solid #d9e0da;
+  border-radius: 0.75rem;
+  min-width: 0;
+  padding: 1rem;
+}
+
+.morphology-preview__group h2 {
+  font-size: 1rem;
+}
+
+.morphology-preview__assumptions {
+  background: #f2f6f2;
+  border-radius: 0.55rem;
+  color: #3c4d41;
+  display: grid;
+  font-size: 0.84rem;
+  gap: 0.28rem;
+  margin-top: 0.75rem;
+  padding: 0.7rem;
+}
+
+.morphology-preview__assumptions p {
+  font-weight: 700;
+  margin: 0 0 0.15rem;
+}
+
+.morphology-preview__group ul,
+.morphology-preview__retained ul,
+.morphology-preview__provenance ul {
+  list-style: none;
+  margin: 0.75rem 0 0;
+  padding: 0;
+}
+
+.morphology-preview__group li + li,
+.morphology-preview__retained li + li,
+.morphology-preview__provenance li + li {
+  margin-top: 0.4rem;
+}
+
+.morphology-preview__candidate {
+  align-items: flex-start;
+  background: #fff;
+  border: 1px solid #d5ddd6;
+  border-radius: 0.5rem;
+  color: inherit;
+  cursor: pointer;
+  display: grid;
+  gap: 0.3rem;
+  padding: 0.65rem 0.7rem;
+  text-align: left;
+  width: 100%;
+}
+
+.morphology-preview__candidate:hover,
+.morphology-preview__candidate.is-selected {
+  background: #eff6f0;
+  border-color: #62836b;
+}
+
+.morphology-preview__candidate:focus-visible,
+.morphology-preview__view-switch button:focus-visible {
+  outline: 3px solid #49895a;
+  outline-offset: 2px;
+}
+
+.morphology-preview__candidate small {
+  color: #5a675d;
+  font-size: 0.68rem;
+  letter-spacing: 0.02em;
+}
+
+.morphology-preview__detail-header {
+  align-items: center;
+}
+
+.morphology-preview__badge {
+  display: inline-block;
+  background: #f4f0e2;
+  border: 1px solid #dfd4ae;
+  border-radius: 999px;
+  color: #62552d;
+  font-size: 0.78rem;
+  font-weight: 700;
+  max-width: 100%;
+  overflow-wrap: anywhere;
+  padding: 0.35rem 0.6rem;
+  white-space: normal;
+}
+
+.morphology-preview__decision {
+  color: #536054;
+  font-size: 0.88rem;
+  margin: 0.55rem 0 0.8rem;
+}
+
+.morphology-preview__view-switch {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.morphology-preview__view-switch button {
+  background: #f6f8f6;
+  border: 1px solid #d1dbd2;
+  border-radius: 0.45rem;
+  color: #314536;
+  cursor: pointer;
+  padding: 0.48rem 0.7rem;
+}
+
+.morphology-preview__view-switch button[aria-pressed="true"] {
+  background: #e4eee5;
+  border-color: #819b85;
+  font-weight: 700;
+}
+
+.morphology-preview__viewer {
+  align-items: center;
+  background: #f6f7f5;
+  border: 1px solid #e1e5e0;
+  border-radius: 0.65rem;
+  display: flex;
+  justify-content: center;
+  margin-top: 0.75rem;
+  min-height: 19rem;
+  overflow: hidden;
+}
+
+.morphology-preview__viewer img {
+  display: block;
+  height: auto;
+  max-height: 36rem;
+  max-width: 100%;
+  object-fit: contain;
+  width: auto;
+}
+
+.morphology-preview-map {
+  display: block;
+  max-height: 36rem;
+  width: 100%;
+}
+
+.morphology-preview-map__background {
+  fill: #f9faf8;
+}
+
+.morphology-preview-map__feature {
+  stroke: #6d8171;
+  stroke-width: 0.8;
+  vector-effect: non-scaling-stroke;
+}
+
+.morphology-preview-map__feature--study_area {
+  fill: #e6ede4;
+  stroke: #324f38;
+  stroke-width: 1.6;
+}
+
+.morphology-preview-map__feature--generated_building {
+  fill: #95b5a0;
+  stroke: #3d6349;
+}
+
+.morphology-preview-map__feature--preserved_building {
+  fill: #d9b875;
+  stroke: #755a26;
+}
+
+.morphology-preview-map__feature--road_segment {
+  fill: none;
+  stroke: #9a8f7a;
+  stroke-width: 1.4;
+}
+
+.morphology-preview-map__crs {
+  fill: #4a5b4c;
+  font-size: 10px;
+}
+
+.morphology-preview__metrics,
+.morphology-preview__retained,
+.morphology-preview__provenance {
+  border-top: 1px solid #e2e6e2;
+  margin-top: 1rem;
+  padding-top: 0.9rem;
+}
+
+.morphology-preview__metrics h3,
+.morphology-preview__retained h3 {
+  font-size: 0.95rem;
+}
+
+.morphology-preview__metrics dl {
+  display: grid;
+  gap: 0.55rem 1rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin: 0.75rem 0 0;
+}
+
+.morphology-preview__metrics dl > div {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.75rem;
+}
+
+.morphology-preview__metrics dt {
+  color: #59645b;
+}
+
+.morphology-preview__metrics dd {
+  font-variant-numeric: tabular-nums;
+  font-weight: 650;
+  margin: 0;
+  text-align: right;
+}
+
+.morphology-preview__retained > p,
+.morphology-preview__provenance p {
+  color: #58635c;
+  font-size: 0.86rem;
+  margin: 0.5rem 0 0;
+}
+
+.morphology-preview__retained li,
+.morphology-preview__provenance li {
+  color: #3e4b41;
+  font-size: 0.84rem;
+  overflow-wrap: anywhere;
+}
+
+.morphology-preview__provenance summary {
+  color: #344b39;
+  cursor: pointer;
+  font-weight: 650;
+}
+
+.morphology-preview__hashes code {
+  font-size: 0.72rem;
+  word-break: break-all;
+}
+
+.morphology-preview__empty {
+  align-self: center;
+  color: #657067;
+  padding: 2rem;
+}
+
+@media (max-width: 900px) {
+  .morphology-preview__layout {
+    grid-template-columns: 1fr;
+  }
+
+  .morphology-preview__catalog {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .morphology-preview__header {
+    display: grid;
+  }
+
+  .morphology-preview__run-meta {
+    text-align: left;
+  }
+}
+
+@media (max-width: 560px) {
+  .morphology-preview {
+    padding: 0.75rem;
+  }
+
+  .morphology-preview__catalog,
+  .morphology-preview__metrics dl {
+    grid-template-columns: 1fr;
+  }
+
+  .morphology-preview__detail-header {
+    align-items: flex-start;
+    display: grid;
+  }
+}
+
+
+.morphology-preview__source-note {
+  margin-top: 8px;
+  color: #536159;
+  font-size: 0.85rem;
+}
+
+.morphology-preview__downloads {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 10px 0;
+}
+
+.morphology-preview__downloads button {
+  border: 1px solid #607268;
+  border-radius: 4px;
+  padding: 6px 10px;
+  background: #fff;
+  color: #26352c;
+  cursor: pointer;
+}
+
+.morphology-preview__downloads button:hover {
+  background: #edf3ef;
+}

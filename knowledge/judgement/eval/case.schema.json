@@ -1,0 +1,124 @@
+{
+  "$id": "ariadne-judgement-eval-case-v1",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "case_id": {
+      "type": "string"
+    },
+    "evaluation_scope": {
+      "const": "FAKE_VALIDATOR_PLUMBING_ONLY"
+    },
+    "expectations": {
+      "type": "object"
+    },
+    "input_readiness": {
+      "type": "string"
+    },
+    "provenance": {
+      "type": "object"
+    },
+    "required_inputs": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "required_metric_ids": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "schema_version": {
+      "const": "ariadne-judgement-eval-case-v1"
+    },
+    "semantic_expectations_evaluated": {
+      "const": false
+    },
+    "skill_id": {
+      "enum": [
+        "J-SITE",
+        "J-COMPARE",
+        "J-CLIMATE"
+      ]
+    },
+    "snapshot": {
+      "additionalProperties": true,
+      "properties": {
+        "bundle_sha256": {
+          "pattern": "^[a-f0-9]{64}$",
+          "type": "string"
+        },
+        "path": {
+          "type": "string"
+        },
+        "sha256": {
+          "pattern": "^[a-f0-9]{64}$",
+          "type": "string"
+        },
+        "skill_id": {
+          "type": "string"
+        },
+        "subject_ids": {
+          "type": "array"
+        }
+      },
+      "required": [
+        "path",
+        "sha256",
+        "bundle_sha256",
+        "skill_id",
+        "subject_ids"
+      ],
+      "type": "object"
+    },
+    "subject_ids": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "transform": {
+      "additionalProperties": false,
+      "properties": {
+        "append_data_gaps": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "remove_metric_prefixes": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "remove_source_prefixes": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        }
+      },
+      "type": "object"
+    }
+  },
+  "required": [
+    "case_id",
+    "schema_version",
+    "snapshot",
+    "skill_id",
+    "subject_ids",
+    "transform",
+    "input_readiness",
+    "required_inputs",
+    "expectations",
+    "provenance",
+    "evaluation_scope",
+    "semantic_expectations_evaluated",
+    "required_metric_ids"
+  ],
+  "title": "Ariadne judgement offline eval case",
+  "type": "object"
+}

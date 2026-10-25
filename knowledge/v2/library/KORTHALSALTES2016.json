@@ -1,0 +1,43 @@
+{
+  "id": "KORTHALSALTES2016",
+  "title": "Planning reform beyond planning: the debate on an integrated Environment and Planning Act in the Netherlands",
+  "authors": [
+    "Willem K. Korthals Altes"
+  ],
+  "year": 2016,
+  "venue_or_publisher": "Planning Practice and Research",
+  "doi": "https://doi.org/10.1080/02697459.2016.1198556",
+  "isbn": null,
+  "openalex_id": "https://openalex.org/W2465085246",
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "荷蘭整合環境與規劃法討論",
+  "region": [
+    "荷蘭"
+  ],
+  "method": "法案辯論與制度分析",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "作者分析土地使用計畫同時具有發展方案和建管規則兩種功能，並追蹤整合立法爭議，不等同現行法條逐條解釋。",
+      "strength": "MIXED",
+      "scope_zh": "僅限摘要可核對的範圍；未讀全文，不推論摘要未列的數字、因果或普遍適用性。",
+      "assessment_basis": "ABSTRACT_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "OpenAlex",
+    "query": {
+      "record_id": "https://openalex.org/W2465085246",
+      "title": "Planning reform beyond planning: the debate on an integrated Environment and Planning Act in the Netherlands",
+      "author": "Willem K. Korthals Altes",
+      "year": 2016
+    },
+    "matched_record_id": "https://openalex.org/W2465085246",
+    "checked_at_utc": "2026-10-08T09:12:32Z",
+    "match_notes_zh": "以 OpenAlex 精確 work 記錄核對書名、作者與出版年；只使用摘要作主張範圍檢查，未下載全文。"
+  },
+  "limitations_zh": "僅使用允許的書目欄位和摘要核對；未取得或保存全文。",
+  "metadata_licence_zh": "保存公開書目欄位與自行撰寫主張摘要；未保存 API 摘要原文或全文。"
+}

@@ -1,0 +1,59 @@
+{
+  "case_id": "climate-four-case-tradeoff",
+  "evaluation_scope": "FAKE_VALIDATOR_PLUMBING_ONLY",
+  "expectations": {
+    "claims": [
+      "conditional tradeoff: winter public-space priority favors landscape or closed-block case as specified by skill",
+      "summer heat/radiation priority favors harbour as specified by skill",
+      "no overall winner",
+      "EUI is comparative only"
+    ],
+    "forbidden_content": [
+      "認證",
+      "合格",
+      "符合法規",
+      "實測",
+      "風安全",
+      "Lawson 判定",
+      "最佳方案",
+      "冠軍",
+      "已核准",
+      "批准",
+      "正式接受",
+      "總冠軍",
+      "overall winner"
+    ],
+    "parameter_families": {
+      "must_include_any": []
+    },
+    "stance": {
+      "allowed": null
+    }
+  },
+  "input_readiness": "READY_FOR_MODEL_EVAL_WITH_KNOWN_CASE_LIMITS",
+  "provenance": {
+    "note": "Four scheme artifacts are present; no selected-scheme human decision is required for this comparison case.",
+    "spec_case": "J-CLIMATE-zh.md §評測案例 2"
+  },
+  "required_inputs": [
+    "four schemes E1/UTCI/E3 climate metrics"
+  ],
+  "required_metric_ids": [
+    "e3.harbour.eui_kwh_m2",
+    "e3.closed.eui_kwh_m2",
+    "e3.courtyard.eui_kwh_m2",
+    "e3.landscape.eui_kwh_m2"
+  ],
+  "schema_version": "ariadne-judgement-eval-case-v1",
+  "semantic_expectations_evaluated": false,
+  "skill_id": "J-CLIMATE",
+  "snapshot": {
+    "bundle_sha256": "eda1922805711e326ef107a3921bcd7d63c4daf3ecee4cb677dd6b459b622a2d",
+    "path": "knowledge/judgement/eval/snapshots/climate-all.json",
+    "sha256": "def9f7ac2a6ec47bb918588785f1ca9a1e63a57f49c08716de8e8d651fc2ca43",
+    "skill_id": "J-CLIMATE",
+    "subject_ids": []
+  },
+  "subject_ids": [],
+  "transform": {}
+}

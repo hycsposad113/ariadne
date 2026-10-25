@@ -1,0 +1,71 @@
+{
+  "case_id": "climate-harbour-staying-court",
+  "evaluation_scope": "FAKE_VALIDATOR_PLUMBING_ONLY",
+  "expectations": {
+    "claims": [
+      "do not reclassify courtyard as non-staying",
+      "refer to winter courtyard and street sunlight weakness using source-bound values",
+      "UTCI mean gaps below about 0.5 C are not a ranking basis; use very-strong stress share",
+      "do not ask seasonal priority again; ask next-layer tradeoff"
+    ],
+    "forbidden_content": [
+      "認證",
+      "合格",
+      "符合法規",
+      "實測",
+      "風安全",
+      "Lawson 判定",
+      "最佳方案",
+      "冠軍",
+      "已核准",
+      "批准",
+      "正式接受",
+      "中庭不停留",
+      "改定位成不停留"
+    ],
+    "parameter_families": {
+      "must_include_any": [
+        "courtyard_width",
+        "height",
+        "setback"
+      ]
+    },
+    "stance": {
+      "allowed": [
+        "CONCERN",
+        "SUPPORT_WITH_CONDITIONS"
+      ]
+    }
+  },
+  "input_readiness": "READY_FOR_MODEL_EVAL_WITH_KNOWN_CASE_LIMITS",
+  "provenance": {
+    "note": "W8 artifacts and Founder stance-seed are source-bound. The eval input is assembled offline with no persisted designer conversation.",
+    "spec_case": "J-CLIMATE-zh.md §評測案例 1"
+  },
+  "required_inputs": [
+    "Founder courtyard-role and season-priority stances"
+  ],
+  "required_metric_ids": [
+    "designer.stance.courtyard_role",
+    "designer.stance.season_priority",
+    "e1.harbour.courtyard.winter.mean_h",
+    "e1.harbour.street.winter.mean_h",
+    "utci.harbour.all.very_strong_pct"
+  ],
+  "schema_version": "ariadne-judgement-eval-case-v1",
+  "semantic_expectations_evaluated": false,
+  "skill_id": "J-CLIMATE",
+  "snapshot": {
+    "bundle_sha256": "e950e0107c6ba49423d16324421b2c4868061bf14604be6209e93df8275b0407",
+    "path": "knowledge/judgement/eval/snapshots/climate-harbour.json",
+    "sha256": "43c76854429ede4c9fa6849aee46c1a594eb0272c76c48acaddaff96e90e0856",
+    "skill_id": "J-CLIMATE",
+    "subject_ids": [
+      "harbour_grain"
+    ]
+  },
+  "subject_ids": [
+    "harbour_grain"
+  ],
+  "transform": {}
+}

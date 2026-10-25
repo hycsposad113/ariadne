@@ -1,0 +1,71 @@
+{
+  "id": "KU-THY-027",
+  "domain": "THY",
+  "subtopic": "現代主義（CIAM、機能城市）與批判（Jacobs、Team 10、Collage City、Rossi、Krier）",
+  "type": "theory",
+  "title_zh": "Rossi 類型與集體記憶",
+  "title_en": "Rossi type monuments and collective memory",
+  "summary_zh": "Rossi 將城市建築視為超越當下功能的歷史構成，類型具有持續性，紀念物與城市場所承載集體記憶。城市物件的意義不能只靠目前用途解釋。辨認跨用途仍存續的形態和場所，記錄歷史層次及誰的記憶被保存。",
+  "key_points_zh": [
+    "辨認跨用途仍存續的形態和場所，記錄歷史層次及誰的記憶被保存。",
+    "集體記憶不必一致；官方紀念敘事可能排除少數群體。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "Rossi 將城市建築視為超越當下功能的歷史構成，類型具有持續性，紀念物與城市場所承載集體記憶。城市物件的意義不能只靠目前用途解釋。",
+        "library_id": "ROSSI1982",
+        "locator": null,
+        "study_design": "理論／方法綜述；非基地實測",
+        "effect_or_value": null,
+        "context_region": null,
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008"
+      },
+      {
+        "claim_zh": "Kostof 從城市形態史追蹤類型與場所的延續，為 Rossi 的集體記憶理論提供歷史比較。",
+        "library_id": "KOSTOF1991",
+        "locator": null,
+        "study_design": "歷史／比較形態",
+        "effect_or_value": null,
+        "context_region": "跨地域",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "辨認跨用途仍存續的形態和場所，記錄歷史層次及誰的記憶被保存。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "再利用既有類型可延續場所辨識，但可能限制當代功能的配置彈性。",
+      "tradeoff_zh": "集體記憶不必一致；官方紀念敘事可能排除少數群體。",
+      "library_ids": [
+        "ROSSI1982"
+      ]
+    }
+  ],
+  "applies_when_zh": "用於釐清「Rossi 類型與集體記憶」涉及的空間、制度與行動選擇。",
+  "not_applicable_when_zh": "「Rossi 類型與集體記憶」不能直接替代基地的實測、法規或人類批准。",
+  "debates_zh": "集體記憶不必一致；官方紀念敘事可能排除少數群體。",
+  "sources": [
+    {
+      "library_id": "ROSSI1982",
+      "locator": null
+    },
+    {
+      "library_id": "KOSTOF1991",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+  "curriculum_refs": [
+    {
+      "school": "MIT",
+      "course": null,
+      "topic": "編者主題對照，非已核實課程指定閱讀：Rossi 類型與集體記憶"
+    }
+  ],
+  "version": "2.0.0-theory-v3"
+}

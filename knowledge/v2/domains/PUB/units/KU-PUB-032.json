@@ -1,0 +1,61 @@
+{
+  "id": "KU-PUB-032",
+  "domain": "PUB",
+  "subtopic": "活躍立面",
+  "type": "concept",
+  "title_zh": "界面活動會受步行路徑影響",
+  "title_en": "Frontage responds to pedestrian routes",
+  "summary_zh": "步行者沿線是否能停下、看見入口和順勢轉入，會改變界面的可用性。一條新連接也可能把人流從原有街道抽走。路徑強度並非越高越適合所有用途。高通行量與可停留性有時需要不同空間條件。",
+  "key_points_zh": [
+    "步行者沿線是否能停下、看見入口和順勢轉入，會改變界面的可用性",
+    "一條新連接也可能把人流從原有街道抽走"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "步行者沿線是否能停下、看見入口和順勢轉入，會改變界面的可用性。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "美國",
+        "library_id": "AJACOBS93",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "高通行量與可停留性有時需要不同空間條件。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "比較不同路網方案後，現場觀察人流方向、速度和轉入行為。"
+  ],
+  "applies_when_zh": "適用於商業 frontage 與公共通行系統同步設計。",
+  "not_applicable_when_zh": "不適合從路網整合度直接宣稱商業成功。",
+  "debates_zh": "高通行量與可停留性有時需要不同空間條件。",
+  "sources": [
+    {
+      "library_id": "AJACOBS93",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "MARSHALL05",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "街道案例比較",
+  "region": "美國",
+  "curriculum_refs": [
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "活躍立面"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-PUB-031",
+    "KU-PUB-033"
+  ]
+}

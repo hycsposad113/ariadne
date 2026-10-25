@@ -1,0 +1,80 @@
+{
+  "id": "KU-SYN-024",
+  "domain": "SYN",
+  "subtopic": "自然移動",
+  "type": "pattern",
+  "title_zh": "自然移動：可重用模式",
+  "title_en": "Natural movement: Reusable pattern",
+  "summary_zh": "先找出可能承接穿越移動的路線，再檢查吸引點與停留空間是否形成互補。此模式以自然移動理論提出街網組態會先分配穿越機會，沿線吸引用途可能進一步放大既有移動分布。需要留意的代價是理論的關聯不保證因果；觀測到的商業或活動密度可能既是結果也是移動原因。",
+  "key_points_zh": [
+    "空間模式：自然移動理論提出街網組態會先分配穿越機會，沿線吸引用途可能進一步放大既有移動分布",
+    "空間模式：先找出可能承接穿越移動的路線，再檢查吸引點與停留空間是否形成互補"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "自然移動：可重用模式｜日常用途、街道互動及多樣性可作城市生活的討論起點；不能從外觀推定安全或社群",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "JACOBS61",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "自然移動：可重用模式｜街道結構可以用連接與階層關係比較；不同網形的可達性與交通作用需另外計算",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "MARSHALL05",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "先畫出「自然移動理論提出街網組態會先分配穿越機會，沿線吸引用途可能進一步放大既有移動分布」所描述的空間關係，再用「理論的關聯不保證因果；觀測到的商業或活動密度可能既是結果也是移動原因」檢查它可能帶來的代價。"
+  ],
+  "applies_when_zh": "當設計需要回應「自然移動理論提出街網組態會先分配穿越機會，沿線吸引用途可能進一步放大既有移動分布」描述的空間關係，可先把模式畫入配置，再用現地使用資料檢查。",
+  "not_applicable_when_zh": "「自然移動理論提出街網組態會先分配穿越機會，沿線吸引用途可能進一步放大既有移動分布」不能原樣移植到缺少相同交通、界面或治理條件的場地；需先檢查「理論的關聯不保證因果；觀測到的商業或活動密度可能既是結果也是移動原因」指出的代價。",
+  "debates_zh": "理論的關聯不保證因果；觀測到的商業或活動密度可能既是結果也是移動原因；檢視「自然移動：可重用模式」的模式落地時，還需判斷「先找出可能承接穿越移動的路線，再檢查吸引點與停留空間是否形成互補」會如何改變方案結論。",
+  "sources": [
+    {
+      "library_id": "JACOBS61",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "MARSHALL05",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "組態與行人移動理論",
+  "region": "跨地域理論或實務脈絡；來源地區依引用條目判讀",
+  "curriculum_refs": [
+    {
+      "school": "Harvard GSD",
+      "course": "Cities by Design",
+      "topic": "自然移動：課綱對應主題"
+    },
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.330J Theory of City Form",
+      "topic": "自然移動：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-SYN-017",
+    "KU-SYN-018",
+    "KU-SYN-019",
+    "KU-SYN-020",
+    "KU-SYN-021",
+    "KU-SYN-022",
+    "KU-SYN-023"
+  ]
+}

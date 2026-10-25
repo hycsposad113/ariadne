@@ -1,0 +1,69 @@
+{
+  "schema_version": "morphology-recipe-v1",
+  "id": "waterfront_comb",
+  "label_zh": "垂直水岸梳狀",
+  "strategy_family": "waterfront_comb",
+  "summary_zh": "以梳狀量體和較開敞的街廓形成垂直水岸的綠藍通道與視線縫隙。",
+  "atmosphere_targets": {
+    "green_blue": 0.78,
+    "permeability": 0.74,
+    "sunlight": 0.72,
+    "legibility": 0.78,
+    "street_vitality": 0.67,
+    "diversity": 0.68,
+    "enclosure": 0.55
+  },
+  "atmosphere_dimension_weights": {
+    "green_blue": 1.25,
+    "permeability": 1.15,
+    "sunlight": 1.0,
+    "legibility": 1.0,
+    "street_vitality": 0.8,
+    "diversity": 0.8,
+    "enclosure": 0.65
+  },
+  "zone_function_atmosphere_targets": {
+    "energy_hub": {"industrial_scale": 0.72, "legibility": 0.86, "density_feel": 0.64, "diversity": 0.72},
+    "residential_tidal_park": {"green_blue": 0.94, "sunlight": 0.84, "permeability": 0.9, "belonging": 0.72},
+    "art_space_recreation": {"sociability": 0.86, "diversity": 0.82, "permeability": 0.88, "green_blue": 0.82},
+    "residential": {"human_scale": 0.74, "privacy": 0.58, "belonging": 0.74, "perceived_safety": 0.72},
+    "maker_recycle_hub": {"industrial_scale": 0.9, "diversity": 0.78, "legibility": 0.8, "street_vitality": 0.7}
+  },
+  "block_assembly_types": [
+    {"id": "block.parallel_slabs", "weight": 1.05},
+    {"id": "block.open", "weight": 1.0},
+    {"id": "block.hybrid", "weight": 0.85}
+  ],
+  "building_types": [
+    {"id": "building.comb", "weight": 1.15},
+    {"id": "building.e_plan", "weight": 1.0},
+    {"id": "building.h_plan", "weight": 0.9},
+    {"id": "building.i_slab", "weight": 0.85}
+  ],
+  "selection_weights": "Each dictionary entry weight multiplies its weighted atmosphere-query fit; scores rank options and are not performance evidence.",
+  "road_grid": {
+    "cross_street_spacing_m": 100.0,
+    "longitudinal_spacing_m": 86.0,
+    "site_edge_inset_m": 26.0,
+    "alley_every_nth_cross_street": 3
+  },
+  "road_widths_m": {
+    "main": 14.0,
+    "main_source": "ASSUMED_FROM_space.street_canyon.street_width_m",
+    "secondary": 10.0,
+    "secondary_source": "ASSUMED_FROM_space.shared_street.total_width_m",
+    "alley": 6.0,
+    "alley_source": "ASSUMED_FROM_space.shared_street.carriageway_width_m",
+    "quay_promenade": 6.0,
+    "quay_source": "DESIGNER_DECISION_6M"
+  },
+  "block_size_target_m": {"minimum": 60.0, "maximum": 120.0},
+  "building_edge_setback_m": 6.0,
+  "density_target_fraction": 0.78,
+  "green_axis_width_m": 0.0,
+  "quay_sample_spacing_m": 30.0,
+  "zone_use_notes_zh": "梳狀形態沿主軸局部座標擬合；水岸線非正交部分僅作障礙邊界，不會據此生成斜向道路。",
+  "open_space_tradeoff_zh": "水岸帶禁建築並保留 6 m quay_promenade；開放空間圖層為偏好輸入。",
+  "quay_promenade": {"width_m": 6.0, "inside_waterfront_band_m": [3.0, 15.0], "allows_building": false},
+  "assumptions_zh": ["道路寬度為策略 ASSUMED 值。", "梳狀量體旋轉與主軸對齊。", "提案未經設計者接受。"]
+}

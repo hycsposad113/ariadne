@@ -1,0 +1,71 @@
+{
+  "id": "KU-THY-001",
+  "domain": "THY",
+  "subtopic": "規範性城市理論（Lynch 的城市好形式、性能向度）",
+  "type": "theory",
+  "title_zh": "城市意象五元素",
+  "title_en": "Five elements of the city image",
+  "summary_zh": "Lynch 將城市意象的內容歸為路徑 paths、邊界 edges、區域 districts、節點 nodes、地標 landmarks。路徑是觀察者移動的通道，邊界是分隔或接合的線性界面，區域是可辨認的面域，節點是可進入的活動焦點，地標則是外部辨識參照。把訪談草圖與實地步行記錄分別編碼成五類，再檢查同一物件對不同使用者是否改變角色。",
+  "key_points_zh": [
+    "把訪談草圖與實地步行記錄分別編碼成五類，再檢查同一物件對不同使用者是否改變角色。",
+    "五元素是認知分析語彙，不能由地圖形狀直接推定居民的心理意象。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "Lynch 將城市意象的內容歸為路徑 paths、邊界 edges、區域 districts、節點 nodes、地標 landmarks。路徑是觀察者移動的通道，邊界是分隔或接合的線性界面，區域是可辨認的面域，節點是可進入的活動焦點，地標則是外部辨識參照。",
+        "library_id": "LYNCH60",
+        "locator": null,
+        "study_design": "理論／方法綜述；非基地實測",
+        "effect_or_value": null,
+        "context_region": null,
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008"
+      },
+      {
+        "claim_zh": "Rapoport 將建成環境形式連到使用者認知，補上 Lynch 五元素如何在不同觀者經驗中被辨認的環境行為視角。",
+        "library_id": "RAPOPORT1977",
+        "locator": null,
+        "study_design": "書目範圍核對；未以書目代替全文分析",
+        "effect_or_value": null,
+        "context_region": "跨地域",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "把訪談草圖與實地步行記錄分別編碼成五類，再檢查同一物件對不同使用者是否改變角色。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "以熟悉居民的常用路徑作骨架，可改善日常辨識，但可能忽略訪客需要的地標。",
+      "tradeoff_zh": "五元素是認知分析語彙，不能由地圖形狀直接推定居民的心理意象。",
+      "library_ids": [
+        "LYNCH60"
+      ]
+    }
+  ],
+  "applies_when_zh": "用於釐清「城市意象五元素」涉及的空間、制度與行動選擇。",
+  "not_applicable_when_zh": "「城市意象五元素」不能直接替代基地的實測、法規或人類批准。",
+  "debates_zh": "五元素是認知分析語彙，不能由地圖形狀直接推定居民的心理意象。",
+  "sources": [
+    {
+      "library_id": "LYNCH60",
+      "locator": null
+    },
+    {
+      "library_id": "RAPOPORT1977",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+  "curriculum_refs": [
+    {
+      "school": "MIT",
+      "course": null,
+      "topic": "編者主題對照，非已核實課程指定閱讀：城市意象五元素"
+    }
+  ],
+  "version": "2.0.0-theory-v3"
+}

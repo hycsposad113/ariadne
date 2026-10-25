@@ -1,0 +1,71 @@
+{
+  "id": "KU-CLI-003",
+  "domain": "CLI",
+  "subtopic": "天空可視因子",
+  "type": "method",
+  "title_zh": "以 SVF 解讀夜間街谷長波散熱",
+  "title_en": "Use SVF to interpret nocturnal longwave heat loss in street canyons",
+  "summary_zh": "Oke 的尺度模型與現地觀測研究把天空可視程度連結到夜間街谷的長波散熱和都市熱島差異。Arnfield 的回顧說明都市氣候研究會因觀測尺度、地表異質性和熱島測量方法不同而得到不同結果。兩者共同提示，SVF 是幾何與輻射交換的描述量，不能直接當作行人熱舒適的完整代理。實務比對仍要連結遮蔭時間、風況及表面溫度。",
+  "key_points_zh": [
+    "SVF 描述天空開敞幾何，不能概括整個戶外熱環境。",
+    "日夜、雲量、風況和測量方法都會改變觀測解讀。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "library_id": "OKE1981",
+        "claim_zh": "摘要說明天空可視因子與夜間長波散熱相關，研究條件為晴朗、少雲與弱風；它不能直接提供所有氣候下的固定 H/W 門檻；本單元 KU-CLI-003 對照「Oke 的尺度模型與現地觀測研究把天空可視程度連結到夜間街谷的長波散熱和都市熱島差異」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "ABSTRACT_REVIEW",
+        "effect_or_value": null,
+        "study_design": "尺度模型與現地觀測對照",
+        "context_region": "理想化街谷模型及摘要未標名的現地觀測",
+        "locator": null
+      },
+      {
+        "library_id": "ARNFIELD2003",
+        "claim_zh": "摘要回顧尺度、空間異質性、湍流通量與城市熱島研究，並提醒結果會依感測媒介與量測技術而異；本單元 KU-CLI-003 對照「Oke 的尺度模型與現地觀測研究把天空可視程度連結到夜間街谷的長波散熱和都市熱島差異」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "ABSTRACT_REVIEW",
+        "effect_or_value": null,
+        "study_design": "兩十年研究回顧",
+        "context_region": "跨地域都市氣候文獻",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "SVF 圖層與行人高度的遮蔭、風速和表面溫度分開呈現。",
+    "標明晴朗弱風等觀測條件，以免把夜間結果外推到白天或其他天氣。"
+  ],
+  "applies_when_zh": "適用於都市熱島觀測方法說明及街谷夜間輻射條件比較。",
+  "not_applicable_when_zh": "不適用於單獨推估熱指數、日照時數或全日舒適程度。",
+  "debates_zh": "原研究現地位置尚未從摘要確認；相同 SVF 也可能遇到不同材質、污染和風況，需避免將幾何相關說成唯一原因。",
+  "sources": [
+    {
+      "library_id": "OKE1981",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "ARNFIELD2003",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "街谷幾何與都市輻射氣候",
+  "region": "街谷尺度及跨城市回顧",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": null,
+      "topic": "天空可視因子"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": null,
+      "topic": "都市熱島與輻射交換"
+    }
+  ],
+  "version": "v2.0"
+}

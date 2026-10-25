@@ -1,0 +1,43 @@
+{
+  "id": "HENDERSON_GULSRUD2019",
+  "title": "A short history of cycling and car politics in Copenhagen",
+  "authors": [
+    "Jason Henderson",
+    "Natalie Marie Gulsrud"
+  ],
+  "year": 2019,
+  "venue_or_publisher": "Street Fights in Copenhagen",
+  "doi": "https://doi.org/10.4324/9780429444135-3",
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "ACADEMIC_BOOK_CHAPTER",
+  "tradition": "自行車政治與道路空間治理",
+  "region": "丹麥哥本哈根",
+  "method": "Crossref 書目資料確認到文獻種類與題目範圍；全文方法未由本次核讀",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "此章研究哥本哈根自行車與汽車政治的歷史。",
+      "strength": "CASE_EVIDENCE",
+      "scope_zh": "研究範圍聚焦政策政治史，不提供本單元未核讀的騎乘比例。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref",
+    "query": {
+      "title": "A short history of cycling and car politics in Copenhagen",
+      "author": "Jason Henderson",
+      "year": 2019,
+      "api_query": "Crossref GET /works/10.4324/9780429444135-3"
+    },
+    "matched_record_id": "10.4324/9780429444135-3",
+    "checked_at_utc": "2026-10-08T14:40:02Z",
+    "match_notes_zh": "Crossref 公開書目欄位核對題名、作者、年份與 DOI；未保存 API 摘要。"
+  },
+  "limitations_zh": "書目範圍確認不等於研究發現、方法、因果或數值已全文核查。",
+  "critique_relationship_zh": "本記錄不宣稱與其他文獻存在直接互引或逐一反駁。",
+  "metadata_licence_zh": "Crossref 公開書目欄位；精確 metadata 授權未核驗，標 UNKNOWN。"
+}

@@ -1,0 +1,83 @@
+{
+  "id": "KU-CLI-031",
+  "domain": "CLI",
+  "subtopic": "樹木降溫",
+  "type": "value_range",
+  "title_zh": "遮陰效益要依樹種和量測指標分列",
+  "title_en": "遮陰效益要依樹種和量測指標分列",
+  "summary_zh": "樹冠覆蓋和行人實際獲得的樹蔭不是同一量；樹冠位置、太陽高度和步行時段會讓影子落在不同地方。Boston 街景研究把遮蔭轉成空間分布資料，Wuhan 街谷研究則量測局部微氣候。此處的 0–100% 是覆蓋指標的數學範圍，並不代表可承諾的降溫幅度。",
+  "key_points_zh": [
+    "表面降溫、氣溫差和熱舒適變化是不同效果量。",
+    "葉面季節和土壤供水會改變遮蔭與蒸散。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "library_id": "LI2018SHADE",
+        "claim_zh": "樹木可改變短波曝露、表面溫度與人體熱感，但不同研究的效果量取決於樹冠、天氣和觀測位置。",
+        "effect_or_value": "降溫範圍需按實測指標和情境查證，不能混用表面溫度與氣溫。",
+        "study_design": "街景影像遮蔭量測",
+        "context_region": "Boston, USA",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "library_id": "SHASHUABAR2009",
+        "claim_zh": "書目確認本文題名聚焦「The cooling efficiency of urban landscape strategies in a hot dry climate」；目前只完成作者、年份、題名與 DOI 核對，未將摘要或全文結論納入此記錄；本單元 KU-CLI-031 對照「樹冠覆蓋和行人實際獲得的樹蔭不是同一量；樹冠位置、太陽高度和步行時段會讓影子落在不同地方」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "數值模擬研究；目前僅核對書目範圍",
+        "context_region": "以色列等乾熱城市",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "報告樹冠結構、測點高度和觀測時段。",
+    "以多指標比較樹蔭和非樹蔭路段。"
+  ],
+  "applies_when_zh": "適用於樹木配置的量測指標選擇。",
+  "not_applicable_when_zh": "具體降溫範圍待對照原研究；不是本基地性能保證。",
+  "debates_zh": "文獻的效果量往往不能互換，單一幅度不適合作為通用承諾。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "LI2018SHADE",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "SHASHUABAR2009",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "樹蔭與微氣候參數",
+  "region": "Boston, USA；Wuhan, China",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "樹木降溫"
+    },
+    {
+      "school": "MIT",
+      "course": "Theory of City Form",
+      "topic": "樹木降溫"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0",
+  "values": [
+    {
+      "name": "街道樹冠／遮蔭面積比例的量測域",
+      "range": "0–100",
+      "unit": "% of mapped street area",
+      "context": "用途：以「街道樹冠／遮蔭面積比例的量測域」作為來源情境參照；樹冠或其陰影覆蓋面積除以指定街段面積；這是量測比例，不是降溫幅度 這不是本基地法規；來源所列地域：Boston, USA。",
+      "library_id": "LI2018SHADE"
+    }
+  ]
+}

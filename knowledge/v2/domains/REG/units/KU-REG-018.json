@@ -1,0 +1,107 @@
+{
+  "id": "KU-REG-018",
+  "domain": "REG",
+  "subtopic": "德國 BauNVO 制度輪廓",
+  "type": "method",
+  "title_zh": "德國 BauNVO 制度輪廓｜分析方法",
+  "title_en": "German BauNVO profile — Analytical method",
+  "summary_zh": "Dillmann 與 Beckmann 的德國研究討論內城土地使用計畫加速程序；行政負擔下降並未自動帶來更多內城開發。 判讀 BauNVO 時還要分清用途區法條、地區計畫與地方建築計畫的角色。 這項程序研究不構成現行法條意見。",
+  "key_points_zh": [
+    "記錄法規時點、計算方式和許可活動。",
+    "記錄法規時點、計算方式和許可活動。",
+    "限制：不得以本輪文獻摘要作為當前 BauNVO 法規判讀。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "Dillmann 與 Beckmann 以德國內城土地使用計畫的加速程序為研究對象；摘要指出行政負擔下降不等於內城開發明顯增加。此文是規劃程序研究，不是 BauNVO 條文逐條解釋。",
+        "library_id": "DILLMANN2018",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "德國",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW",
+        "limitations_zh": "本條依公開摘要或書目範圍整理；未據此推定本基地法規、普遍效果或未核對的數值。"
+      },
+      {
+        "claim_zh": "聯邦司法部的 BauNVO 官方文本列出用途區以及 GRZ、GFZ、BMZ 指引值；套用時仍須核對條文版本與地方計畫。",
+        "library_id": "BAUNVO",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "德國",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "本條依公開摘要或書目範圍整理；未據此推定本基地法規、普遍效果或未核對的數值。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "落實「德國 BauNVO 制度輪廓｜分析方法」時可先先辨認聯邦法、地區計畫和地方建築計畫的角色，再用加速程序雖減少行政負擔，對內城開發增加的效果有限，成本優勢也不常左右開發選擇核對方案的空間後果。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "「德國 BauNVO 制度輪廓｜分析方法」可把取向落在先辨認聯邦法、地區計畫和地方建築計畫的角色，但需連同加速程序雖減少行政負擔，對內城開發增加的效果有限，成本優勢也不常左右開發選擇決定適用方式。",
+      "tradeoff_zh": "「德國 BauNVO 制度輪廓｜分析方法」採用「「德國 BauNVO 制度輪廓｜分析方法」可把取向落在先辨認聯邦法、地區計畫和地方建築計畫的角色，但需連同加速程序雖減少行政負擔，對內城開發增加的效果有限，成本優勢也不常左右開發選擇決定適用方式」時，得失要沿著加速程序雖減少行政負擔，對內城開發增加的效果有限，成本優勢也不常左右開發選擇檢查；把制度傾向說成全德國每一地的絕對規則會掩蓋地方差異。",
+      "library_ids": [
+        "DILLMANN2018"
+      ]
+    },
+    {
+      "option_zh": "在「德國 BauNVO 制度輪廓｜分析方法」的來源情境裡，用途類別較可能按主要用途容許相鄰活動，但仍有噪音和建築限制；落到設計時還要按加速程序雖減少行政負擔，對內城開發增加的效果有限，成本優勢也不常左右開發選擇調整。",
+      "tradeoff_zh": "「德國 BauNVO 制度輪廓｜分析方法」的主要代價不是抽象的建造成本，而是把制度傾向說成全德國每一地的絕對規則會掩蓋地方差異；因此先以加速程序雖減少行政負擔，對內城開發增加的效果有限，成本優勢也不常左右開發選擇作方案比較條件。",
+      "library_ids": [
+        "DILLMANN2018"
+      ]
+    }
+  ],
+  "applies_when_zh": "「德國 BauNVO 制度輪廓｜分析方法」可在適用於制度比較和學習德國規劃的多層級治理時使用，前提是加速程序雖減少行政負擔，對內城開發增加的效果有限，成本優勢也不常左右開發選擇與來源情境相符。",
+  "not_applicable_when_zh": "若加速程序雖減少行政負擔，對內城開發增加的效果有限，成本優勢也不常左右開發選擇不成立，就不能把「德國 BauNVO 制度輪廓｜分析方法」的結論延伸到其他情況；不得以本輪文獻摘要作為當前 BauNVO 法規判讀。",
+  "debates_zh": "把制度傾向說成全德國每一地的絕對規則會掩蓋地方差異。",
+  "sources": [
+    {
+      "library_id": "DILLMANN2018",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "BAUNVO",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "德國內城發展與土地使用計畫；荷蘭整合環境與規劃法討論",
+  "region": "施特拉爾松德，德國；荷蘭",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Planning Complex Cities",
+      "topic": "德國 BauNVO 制度輪廓"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Urban Design Contexts and Operations",
+      "topic": "德國 BauNVO 制度輪廓"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "德國 BauNVO 制度輪廓"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban design governance",
+      "topic": "德國 BauNVO 制度輪廓"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-REG-015",
+    "KU-REG-016",
+    "KU-REG-017"
+  ],
+  "counter_unit_ids": [
+    "KU-REG-019"
+  ]
+}

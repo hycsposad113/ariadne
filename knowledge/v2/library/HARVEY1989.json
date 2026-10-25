@@ -1,0 +1,47 @@
+{
+  "id": "HARVEY1989",
+  "title": "From Managerialism to Entrepreneurialism: The Transformation in Urban Governance in Late Capitalism",
+  "authors": [
+    "David Harvey"
+  ],
+  "year": 1989,
+  "venue_or_publisher": "Geografiska Annaler: Series B, Human Geography",
+  "doi": "10.1080/04353684.1989.11879583",
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "critical urban political economy",
+  "region": [
+    "United States",
+    "Western Europe"
+  ],
+  "method": "historical-theoretical analysis",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "書目範圍定位晚期資本主義城市治理由管理取向向企業家取向轉變的論述；不將此歷史概念當成所有公私合作的同一機制。",
+      "strength": "THEORETICAL",
+      "scope_zh": "僅依已核對書目範圍作學術定位；不保存或轉述 API 摘要為研究結論。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [
+    "LOGAN1987",
+    "FANSTEIN10"
+  ],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref",
+    "query": {
+      "title": "From Managerialism to Entrepreneurialism: The Transformation in Urban Governance in Late Capitalism",
+      "author": "David Harvey",
+      "year": 1989
+    },
+    "matched_record_id": "10.1080/04353684.1989.11879583",
+    "checked_at_utc": "2026-10-08T10:24:39Z",
+    "match_notes_zh": "API 回傳的作品／文章題名、作者與年份相符；不以書評、引用或同名異作代替原始書目。"
+  },
+  "limitations_zh": "本輪只核對公開書目欄位與題名範圍，未下載全文；具體理論或效果需由 Claude 依原始文獻另行交叉核對。",
+  "critique_relationship_zh": "列出的批評來源用於對讀不同理論與範圍，不表示它們逐條反駁本書目。",
+  "metadata_licence_zh": "保存書目欄位與自撰範圍描述；未保存全文或 API 摘要。"
+}

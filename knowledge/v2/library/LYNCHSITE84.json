@@ -1,0 +1,32 @@
+{
+  "id": "LYNCHSITE84",
+  "title": "Site planning",
+  "authors": [
+    "Kevin Lynch",
+    "Gary Hack"
+  ],
+  "year": 1984,
+  "venue_or_publisher": "MIT Press",
+  "doi": null,
+  "isbn": "0262121069",
+  "kind": "ACADEMIC_BOOK",
+  "tradition": "待指揮官書目分類",
+  "region": [],
+  "method": "理論／方法原著候選",
+  "claims": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Open Library",
+    "query": {
+      "title": "Site Planning",
+      "author": "Kevin Lynch",
+      "year": 1984
+    },
+    "matched_record_id": "/books/OL3183964M",
+    "checked_at_utc": "2026-10-08T13:44:27Z",
+    "match_notes_zh": "人工核對特定 edition 的出版年、出版者與 by_statement；不使用 work 首版年冒充此版本年。主張仍待原著核對。",
+    "receipt_path": "artifacts/kb2-theory-v3/resume-edition-lookups.json"
+  },
+  "limitations_zh": "主張待原著交叉核對；搜尋命中只作書目候選。",
+  "metadata_licence_zh": "公開書目 metadata；授權未核對 UNKNOWN。"
+}

@@ -1,0 +1,107 @@
+{
+  "id": "KU-PUB-066",
+  "domain": "PUB",
+  "subtopic": "CPTED 第二代理論",
+  "type": "theory",
+  "title_zh": "第二代 CPTED 把社區關係放進空間安全討論",
+  "title_en": "Second-generation CPTED includes community relations in safety planning",
+  "summary_zh": "Saville 與 Cleveland 的第二代 CPTED 延伸早期對視線、領域和環境維護的著重，將社區凝聚、文化、連結和社會承載等面向納入。Cozens 等人的回顧提供證據背景；四個概念的精確命名與邊界仍標為待原文核對。",
+  "key_points_zh": [
+    "第二代 CPTED（Saville 與 Cleveland）在第一代的空間手段之外，加入社區面向的「4C」：社會凝聚（social cohesion）、連結（connectivity）、社區文化（community culture）與門檻容。",
+    "社區凝聚不能只用設施密度或 CCTV 數量替代。",
+    "不同使用者對「熟悉」和「監看」的感受可能相反。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "library_id": "SAVILLE_CLEVELAND2013",
+        "claim_zh": "第二代 CPTED（Saville 與 Cleveland）在第一代的空間手段之外，加入社區面向的「4C」：社會凝聚（social cohesion）、連結（connectivity）、社區文化（community culture）與門檻容量（threshold capacity）。",
+        "effect_or_value": null,
+        "study_design": "理論章節",
+        "context_region": "跨地域",
+        "locator": null,
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+        "limitations_zh": "Crossref 沒有回傳章節摘要，本卡不假裝已讀內文。"
+      },
+      {
+        "library_id": "COZENS2005",
+        "claim_zh": "回顧文章以多項 place-based 犯罪預防評估為範圍，提醒設計構件的效果證據並非同質。",
+        "effect_or_value": null,
+        "study_design": "批判性文獻回顧",
+        "context_region": "跨地域",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW",
+        "limitations_zh": "只支持明示的文獻範圍與本次可查證內容；未由書目資料推定未讀數值或因果。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "在方案中並列照明、通行、照顧活動和社區治理，說清楚誰維護與誰能參與。",
+    "將居民訪談和空間觀察分開存證，再看彼此是否支持相同的安全判斷。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "把安全設計和社區組織、維護資源一起規劃。",
+      "tradeoff_zh": "較能照顧長期使用，但需要持續資源及跨組織合作。",
+      "library_ids": [
+        "SAVILLE_CLEVELAND2013",
+        "COZENS2005"
+      ]
+    },
+    {
+      "option_zh": "以較少的物理改動先改善通行、求助和日常照料。",
+      "tradeoff_zh": "較容易開始，卻可能無法解決深層不信任或服務不足。",
+      "library_ids": [
+        "COZENS2005",
+        "SAVILLE_CLEVELAND2013"
+      ]
+    }
+  ],
+  "applies_when_zh": "適用於住宅社區、公園和混合使用街區的安全治理方案。",
+  "not_applicable_when_zh": "不適用於把「社區凝聚」當成可由單一空間形式直接產生的結果。",
+  "debates_zh": "社區參與可以補足物理設計，但也可能被用來要求居民自行承擔公共安全工作；資源與責任分配須明示。",
+  "counter_unit_ids": [
+    "KU-PUB-036"
+  ],
+  "related_unit_ids": [
+    "KU-PUB-037",
+    "KU-PUB-038",
+    "KU-PUB-041"
+  ],
+  "sources": [
+    {
+      "library_id": "SAVILLE_CLEVELAND2013",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "COZENS2005",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "第二代 CPTED 與社區型犯罪預防",
+  "region": "跨地域",
+  "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+  "curriculum_refs": [
+    {
+      "school": "UCL Bartlett",
+      "course": "Critical Debates in Urban Design",
+      "topic": "CPTED 第二代理論：課綱對應主題"
+    }
+  ],
+  "version": "kb2-gaps-2026-10-08",
+  "check": {
+    "method_zh": "逐一標記社區活動、可達節點、公共服務與維護角色，並以匿名訪談及時段觀察檢查安全感和實際使用。",
+    "inputs": [
+      "社區活動與服務點位",
+      "照明、入口與通行平面",
+      "維護責任及使用者回饋"
+    ],
+    "logic_zh": "社會連結的代理指標需由當地定義；設施和活動數量不能直接替代互信或犯罪資料。",
+    "limitations_zh": "第二代 CPTED 的四項要素及不同作者的定義差異由 Claude 再核對；回顧文章不是隨機試驗的效果保證。"
+  },
+  "case": null
+}

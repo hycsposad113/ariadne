@@ -1,0 +1,107 @@
+{
+  "id": "KU-REG-003",
+  "domain": "REG",
+  "subtopic": "容積率、建蔽率、高度與斜線",
+  "type": "design_principle",
+  "title_zh": "容積率、建蔽率、高度與斜線｜設計原則",
+  "title_en": "FAR, coverage, height and envelope — Design principle",
+  "summary_zh": "此處是通用制度輪廓，不是本基地法規或法律意見。 讀「容積率、建蔽率、高度與斜線｜設計原則」時，記錄分母、計容用途、退縮、樓層和轉角條件，再做形式方案比較；同時把專書從規劃規則與城市形態關係切入，提醒讀者檢視規則背後的價值選擇與空間後果列為核對條件。 落實「容積率、建蔽率、高度與斜線｜設計原則」時可先記錄分母、計容用途、退縮、樓層和轉角條件，再做形式方案比較，再用專書從規劃規則與城市形態關係切入，提醒讀者檢視規則背後的價值選擇與空間後果核對方案的空間後果。",
+  "key_points_zh": [
+    "讀「容積率、建蔽率、高度與斜線｜設計原則」時，記錄分母、計容用途、退縮、樓層和轉角條件，再做形式方案比較；同時把專書從規劃規則與城市形態關係切入，提醒讀者檢視規則背後的價值選擇與空間後果列為核對條件。",
+    "讀「容積率、建蔽率、高度與斜線｜設計原則」時，記錄分母、計容用途、退縮、樓層和轉角條件，再做形式方案比較；同時把專書從規劃規則與城市形態關係切入，提醒讀者檢視規則背後的價值選擇與空間後果列為核對條件。",
+    "限制：此處是通用制度輪廓，不是本基地法規或法律意見。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "專書從規劃規則與城市形態關係切入，提醒讀者檢視規則背後的價值選擇與空間後果。",
+        "library_id": "TALEN2012",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "美國",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "實務指南將建築與街道形式作為規範對象，提供形式準則的操作框架，但不證明其治理成效必然優於用途分區。",
+        "library_id": "PAROLEK2008",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "美國",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "落實「容積率、建蔽率、高度與斜線｜設計原則」時可先記錄分母、計容用途、退縮、樓層和轉角條件，再做形式方案比較，再用專書從規劃規則與城市形態關係切入，提醒讀者檢視規則背後的價值選擇與空間後果核對方案的空間後果。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "在「容積率、建蔽率、高度與斜線｜設計原則」的來源情境裡，記錄分母、計容用途、退縮、樓層和轉角條件，再做形式方案比較；落到設計時還要按專書從規劃規則與城市形態關係切入，提醒讀者檢視規則背後的價值選擇與空間後果調整。",
+      "tradeoff_zh": "增加空間選擇與公共連結，但會增加協調、管理或建造成本。",
+      "library_ids": [
+        "TALEN2012",
+        "PAROLEK2008"
+      ]
+    },
+    {
+      "option_zh": "在「容積率、建蔽率、高度與斜線｜設計原則」的來源情境裡，同一容積可以用不同高度和覆蓋組合落地；落到設計時還要按專書從規劃規則與城市形態關係切入，提醒讀者檢視規則背後的價值選擇與空間後果調整。",
+      "tradeoff_zh": "保留另一種形式和使用條件，但可能改變連續性、可達性或私密性。",
+      "library_ids": [
+        "TALEN2012",
+        "PAROLEK2008"
+      ]
+    }
+  ],
+  "applies_when_zh": "「容積率、建蔽率、高度與斜線｜設計原則」可在適用於制度比較及草案情境分析，不直接判定基地合規時使用，前提是專書從規劃規則與城市形態關係切入，提醒讀者檢視規則背後的價值選擇與空間後果與來源情境相符。",
+  "not_applicable_when_zh": "若專書從規劃規則與城市形態關係切入，提醒讀者檢視規則背後的價值選擇與空間後果不成立，就不能把「容積率、建蔽率、高度與斜線｜設計原則」的結論延伸到其他情況；此處是通用制度輪廓，不是本基地法規或法律意見。",
+  "debates_zh": "法定上限、設計目標和研究指標是不同證據類別。",
+  "sources": [
+    {
+      "library_id": "TALEN2012",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "PAROLEK2008",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "城市形態與規劃規則；形式準則",
+  "region": "美國",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Planning Complex Cities",
+      "topic": "容積率、建蔽率、高度與斜線"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Urban Design Contexts and Operations",
+      "topic": "容積率、建蔽率、高度與斜線"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "容積率、建蔽率、高度與斜線"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban design governance",
+      "topic": "容積率、建蔽率、高度與斜線"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-REG-001",
+    "KU-REG-002",
+    "KU-REG-004"
+  ],
+  "counter_unit_ids": [
+    "KU-REG-005"
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "id": "KU-MOB-046",
+  "domain": "MOB",
+  "subtopic": "大眾運輸服務圈",
+  "type": "method",
+  "title_zh": "大眾運輸服務圈：可檢驗的方法",
+  "title_en": "Transit service areas: Method and measurement",
+  "summary_zh": "以實際路網建立多模式服務區，將直線緩衝、路網距離和觀測到的接駁距離分開呈現。這個流程用來檢驗服務圈是依步行或自行車網路、站點服務和使用者條件描繪的可達範圍，不等於以站點為圓心的固定半徑。方法的主要限制是固定距離圈方便溝通但可能錯估河流、坡度、穿越障礙、轉乘和不同群體的可接受距離。",
+  "key_points_zh": [
+    "分析步驟：服務圈是依步行或自行車網路、站點服務和使用者條件描繪的可達範圍，不等於以站點為圓心的固定半徑",
+    "分析步驟：以實際路網建立多模式服務區，將直線緩衝、路網距離和觀測到的接駁距離分開呈現"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "大眾運輸服務圈：可檢驗的方法｜可及性評估需要同時交代交通、土地使用與個人條件；同一距離圈不代表同樣機會",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "GEURS04",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "大眾運輸服務圈：可檢驗的方法｜墨爾本旅運資料顯示，步行到公共運輸的可接受與可忍受距離宜用區域分布描述；Burr Type XII 能配適該資料，但不會自動成為其他城市的門檻",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "TAYLOR24",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "以實際路網建立多模式服務區，將直線緩衝、路網距離和觀測到的接駁距離分開呈現"
+  ],
+  "applies_when_zh": "需要測量「服務圈是依步行或自行車網路、站點服務和使用者條件描繪的可達範圍，不等於以站點為圓心的固定半徑」時，按「大眾運輸服務圈：可檢驗的方法」列出的資料範圍建構指標，同時保存網路版本與計算參數。",
+  "not_applicable_when_zh": "若資料無法支持「服務圈是依步行或自行車網路、站點服務和使用者條件描繪的可達範圍，不等於以站點為圓心的固定半徑」的測量，這套步驟不會產生可比較的結果；方法本身也不能選定設計目標。",
+  "debates_zh": "固定距離圈方便溝通但可能錯估河流、坡度、穿越障礙、轉乘和不同群體的可接受距離；檢視「大眾運輸服務圈：可檢驗的方法」的測量程序時，還需判斷「以實際路網建立多模式服務區，將直線緩衝、路網距離和觀測到的接駁距離分開呈現」會如何改變方案結論。",
+  "sources": [
+    {
+      "library_id": "GEURS04",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "TAYLOR24",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "交通可及性與服務範圍",
+  "region": "跨地域理論或實務脈絡；來源地區依引用條目判讀",
+  "curriculum_refs": [
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "大眾運輸服務圈：課綱對應主題"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Sustainable Futures by Design",
+      "topic": "大眾運輸服務圈：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-MOB-041",
+    "KU-MOB-042",
+    "KU-MOB-043",
+    "KU-MOB-044",
+    "KU-MOB-045",
+    "KU-MOB-047",
+    "KU-MOB-048"
+  ]
+}

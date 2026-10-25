@@ -1,0 +1,82 @@
+{
+  "id": "KU-SOC-009",
+  "domain": "SOC",
+  "subtopic": "正義城市",
+  "type": "design_principle",
+  "title_zh": "正義城市：多方案並列",
+  "title_en": "The just city — design principle unit 009",
+  "summary_zh": "多方案並列能保留不同正義準則之間的衝突，例如新增住房和原租戶穩定、公共投資和地方控制。各方案須以相同群體、期間與成本邊界比較，另列無法量化的權利影響。若直接加總成唯一排序，權重會替決策者隱藏。",
+  "key_points_zh": [
+    "多方案並列能保留不同正義準則之間的衝突，例如新增住房和原租戶穩定、公共投資和地方控制。",
+    "各方案須以相同群體、期間與成本邊界比較，另列無法量化的權利影響。",
+    "若直接加總成唯一排序，權重會替決策者隱藏。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "【BIBLIOGRAPHIC_SCOPE_ONLY】Campbell 對綠色、成長與正義目標的並列，適合提醒多方案評估不要把不同價值壓成單一分數；本單元不從其書目範圍推出權重。",
+        "effect_or_value": null,
+        "study_design": "理論",
+        "context_region": "跨地域",
+        "library_id": "CAMPBELL96",
+        "locator": null
+      },
+      {
+        "claim_zh": "【BIBLIOGRAPHIC_SCOPE_ONLY】就「正義城市：多方案並列」而言，「Accessibility evaluation of land-use and transport strategies: review and research directions」提供可及性評估的比較坐標；此處僅使用其已標明的書目／摘要範圍，不延伸為未核對的效果或因果。",
+        "effect_or_value": null,
+        "study_design": "方法綜述",
+        "context_region": "荷蘭；跨地域",
+        "library_id": "GEURS04",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "保留不可加總的指標和價值衝突，讓人能說明方案排序。"
+  ],
+  "design_options": [],
+  "applies_when_zh": "在評估「正義城市：多方案並列」涉及的資源分配、權力或居住影響時，先界定受影響群體與決策階段。",
+  "not_applicable_when_zh": "若沒有「正義城市：多方案並列」所需的群體、時序或市場資料，不把概念類比當作已驗證的效果或法律結論。",
+  "debates_zh": "多目標並列保留價值衝突，但也可能讓決策者逃避明確說明取捨。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "CAMPBELL96",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "GEURS04",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "都市正義／分配、程序與承認",
+  "region": "英國；跨地域",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Planning Complex Cities",
+      "topic": "正義城市：多方案並列 — 正義城市"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Urban Design Contexts and Operations",
+      "topic": "正義城市：多方案並列 — 正義城市"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "正義城市：多方案並列 — 正義城市"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design Governance",
+      "topic": "正義城市：多方案並列 — 正義城市"
+    }
+  ],
+  "version": "2.0.0"
+}

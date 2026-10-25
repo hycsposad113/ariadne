@@ -1,0 +1,84 @@
+{
+  "id": "KU-MOB-053",
+  "domain": "MOB",
+  "subtopic": "停車政策與最低停車標準的影響",
+  "type": "critique",
+  "title_zh": "停車政策與最低停車標準的影響：批評與適用限制",
+  "title_en": "Parking policy and minimum parking requirements: Critique and boundary",
+  "summary_zh": "停車改革可能降低過度供給，也可能在公共運輸不足處傷及必要出行；成本由誰承擔是公平問題。另一個需要同時檢查的面向是停車供給、價格、位置和最低標準會改變土地成本與開車便利，政策效果受城市密度和旅運替代條件影響。替代做法可以是先測量現有供給和使用，再評估供給、價格和管理工具組合，保留弱勢與服務性出行安排。",
+  "key_points_zh": [
+    "批評焦點：停車供給、價格、位置和最低標準會改變土地成本與開車便利，政策效果受城市密度和旅運替代條件影響",
+    "批評焦點：停車改革可能降低過度供給，也可能在公共運輸不足處傷及必要出行；成本由誰承擔是公平問題"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "停車政策與最低停車標準的影響：批評與適用限制｜密度、用途多樣性及設計是相互關聯的出行研究維度；不能單獨套用密度決定交通模式",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "CERVERO97",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "停車政策與最低停車標準的影響：批評與適用限制｜Porirua CBD 案例將 24% 面積計為汽車停車場，研究亦指出最低標準與超額供給、分散式發展及開車偏好相連；數值只描述該地",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "HULME_MOIR10",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "把「停車改革可能降低過度供給，也可能在公共運輸不足處傷及必要出行；成本由誰承擔是公平問題」轉成一項可觀察的風險，並在替代方案中檢查「停車供給、價格、位置和最低標準會改變土地成本與開車便利，政策效果受城市密度和旅運替代條件影響」是否改變其影響。"
+  ],
+  "applies_when_zh": "若停車政策與最低停車標準的影響方案可能受「停車改革可能降低過度供給，也可能在公共運輸不足處傷及必要出行；成本由誰承擔是公平問題」影響，可用「停車供給、價格、位置和最低標準會改變土地成本與開車便利，政策效果受城市密度和旅運替代條件影響」安排實地觀察或替代方案比較。",
+  "not_applicable_when_zh": "這項批評提出的是「停車改革可能降低過度供給，也可能在公共運輸不足處傷及必要出行；成本由誰承擔是公平問題」的風險，不能據此推定所有替代方案都更好，也不能代替本地使用者測試。",
+  "debates_zh": "停車改革可能降低過度供給，也可能在公共運輸不足處傷及必要出行；成本由誰承擔是公平問題；檢視「停車政策與最低停車標準的影響：批評與適用限制」的反例檢查時，還需判斷「停車改革可能降低過度供給，也可能在公共運輸不足處傷及必要出行；成本由誰承擔是公平問題」會如何改變方案結論。",
+  "sources": [
+    {
+      "library_id": "CERVERO97",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "HULME_MOIR10",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "停車供給與交通需求管理",
+  "region": "跨地域理論或實務脈絡；來源地區依引用條目判讀",
+  "curriculum_refs": [
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "停車政策與最低停車標準的影響：課綱對應主題"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Sustainable Futures by Design",
+      "topic": "停車政策與最低停車標準的影響：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-MOB-049",
+    "KU-MOB-050",
+    "KU-MOB-051",
+    "KU-MOB-052",
+    "KU-MOB-054",
+    "KU-MOB-055",
+    "KU-MOB-056"
+  ],
+  "counter_unit_ids": [
+    "KU-MOB-049",
+    "KU-MOB-050"
+  ]
+}

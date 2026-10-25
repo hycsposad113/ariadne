@@ -1,0 +1,45 @@
+{
+  "id": "WALKER2004",
+  "title": "Resilience, Adaptability and Transformability in Social-ecological Systems",
+  "authors": [
+    "Brian Walker",
+    "C. S. Holling",
+    "Stephen R. Carpenter",
+    "Ann P. Kinzig"
+  ],
+  "year": 2004,
+  "venue_or_publisher": "Ecology and Society",
+  "doi": "https://doi.org/10.5751/es-00650-090205",
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "韌性、適應與轉型",
+  "region": "跨地域社會－生態系統",
+  "method": "理論框架",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "文章將韌性、適應性與轉型性並列為不同概念，適合用來避免把恢復原狀當成唯一目標。",
+      "strength": "THEORETICAL",
+      "scope_zh": "只支持此研究明確的議題、樣本地區與方法；不直接生成 M4H 數值、法規或工程容量。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref",
+    "query": {
+      "title": "Resilience, adaptability and transformability in social-ecological systems",
+      "author": "Walker",
+      "year": 2004,
+      "api_query": "Crossref GET works?query.title=Resilience, adaptability and transformability in social-ecological systems"
+    },
+    "matched_record_id": "10.5751/es-00650-090205",
+    "checked_at_utc": "2026-10-08T09:55:47Z",
+    "match_notes_zh": "以 Crossref 公開書目記錄比對書名、作者與年份；摘要文字未保存到 repository。"
+  },
+  "limitations_zh": "只保留書目與自行撰寫的範圍摘要；除標示 ABSTRACT_REVIEW 者外，內容未由摘要核對，沒有下載全文。",
+  "critique_relationship_zh": "本記錄不宣稱與其他書目存在直接互引或逐一反駁關係。",
+  "metadata_licence_zh": "公開 API 書目欄位；精確 metadata licence 未核驗，標 UNKNOWN。"
+}

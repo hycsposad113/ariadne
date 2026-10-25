@@ -1,0 +1,45 @@
+{
+  "id": "LIU_LAI2021HUANGPU",
+  "title": "What influenced the vitality of the waterfront open space? A case study of Huangpu River in Shanghai, China",
+  "authors": [
+    "Song Liu",
+    "Si-Qi Lai",
+    "Chao Liu",
+    "Li Jiang"
+  ],
+  "year": 2021,
+  "venue_or_publisher": "Cities",
+  "doi": "https://doi.org/10.1016/j.cities.2021.103197",
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "濱水公共空間活力研究",
+  "region": "東亞／中國上海黃浦江",
+  "method": "只核對書目與題名範圍；研究設計及實證結果未在此條目核讀",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "題名將黃浦江濱水開放空間活力及其影響因素作為案例問題；本條目不宣稱任何單一因素具有因果效果。",
+      "strength": "CASE_EVIDENCE",
+      "scope_zh": "只支持 Crossref 書目可確認的作者、年份、出版物與題旨；未據此複述摘要、全文結果或個案效果。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref REST API",
+    "query": {
+      "title": "What influenced the vitality of the waterfront open space? A case study of Huangpu River in Shanghai, China",
+      "author": "Song Liu",
+      "year": 2021,
+      "api_query": "Crossref GET /works/10.1016/j.cities.2021.103197"
+    },
+    "matched_record_id": "10.1016/j.cities.2021.103197",
+    "checked_at_utc": "2026-10-08T14:23:52Z",
+    "match_notes_zh": "本批 Crossref 回應精確匹配 DOI、題名、作者與年份；未將 API 摘要存入 repository。"
+  },
+  "limitations_zh": "只保存書目和以自述方式限定的研究範圍；未讀全文，不能據此陳述效果量或因果。",
+  "critique_relationship_zh": "本記錄不宣稱與其他書目存在直接互引或逐一反駁關係。",
+  "metadata_licence_zh": "Crossref 公開書目欄位；精確 metadata license 未核驗，標 UNKNOWN。"
+}

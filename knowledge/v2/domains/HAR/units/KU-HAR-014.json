@@ -1,0 +1,65 @@
+{
+  "id": "KU-HAR-014",
+  "domain": "HAR",
+  "subtopic": "文化導向再生與仕紳化批評",
+  "type": "critique",
+  "title_zh": "藝術區品牌化可能與藝術工作條件脫節",
+  "title_en": "Art-district branding can diverge from artists’ working conditions",
+  "summary_zh": "中國工業街區研究把工業遺產改造、藝術區發展與仕紳化放在同一題目中，提出藝術空間更新是否仍由藝術家使用的問題。Lees 對社會混合政策的研究則提醒，人口組成改變不能單獨證明包容性增加。將兩者放在一起，設計審查應追蹤工作室租金、藝術家留存、舊租戶搬遷和新公共設施使用。由於 YANG2023 在此只核對到書目範圍，本單元把因果方向列為待查，不把標題當成普遍結論。",
+  "key_points_zh": [
+    "藝術設施與藝術家可負擔的工作空間是不同指標。",
+    "社會混合比例不能代替租戶留存與實際使用資料。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "中國工業街區研究的題名直接提出藝術區、工業遺產翻修與仕紳化的關聯問題；個案方向仍待摘要或全文核驗。",
+        "effect_or_value": "提出需追蹤的分配問題，未核實因果大小",
+        "study_design": "中國工業街區個案研究",
+        "context_region": "中國工業社區",
+        "library_id": "YANG2023",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "仕紳化與社會混合政策之間的包容性證據受到質疑，並可能伴隨排斥性城市政治。",
+        "effect_or_value": "政策證據薄弱且可能排斥；未提供可普遍化比例",
+        "study_design": "批判性文獻與政策證據回顧",
+        "context_region": "歐洲與北美都市政策",
+        "library_id": "LEES2008",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "把文化空間的總面積與可負擔租金、長約比例、藝術家留存分開監測。"
+  ],
+  "applies_when_zh": "工業建築更新被包裝為藝術、文化或創意產業街區時。",
+  "not_applicable_when_zh": "不適用於只有總訪客量或活動數而沒有租戶與使用資料的成效宣稱。",
+  "debates_zh": "文化投資可改善公共空間，也可能抬升土地期待；分配效果需依地區與時間追蹤。",
+  "sources": [
+    {
+      "library_id": "YANG2023",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "LEES2008",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "仕紳化與文化政策批評",
+  "region": "中國、歐洲與北美",
+  "curriculum_refs": [
+    {
+      "school": "Harvard GSD",
+      "course": null,
+      "topic": "Culture-led regeneration and displacement"
+    }
+  ],
+  "version": "v2.0"
+}

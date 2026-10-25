@@ -1,0 +1,61 @@
+{
+  "id": "KU-ECO-009",
+  "domain": "ECO",
+  "subtopic": "地景生態學：嵌塊、廊道、基質",
+  "type": "critique",
+  "title_zh": "都市綠地不等於低干擾棲地",
+  "title_en": "Urban green is not necessarily quiet habitat",
+  "summary_zh": "公園植被仍會受照明、犬隻、道路與密集休閒活動影響。地圖上的綠色面積無法說明繁殖和覓食條件。某些城市物種可能適應人類活動，另一些則會退避。人類可及性和棲地安靜有時需要空間分帶。",
+  "key_points_zh": [
+    "公園植被仍會受照明、犬隻、道路與密集休閒活動影響",
+    "地圖上的綠色面積無法說明繁殖和覓食條件"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "公園植被仍會受照明、犬隻、道路與密集休閒活動影響。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "跨地域",
+        "library_id": "CAMPBELL96",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "人類可及性和棲地安靜有時需要空間分帶。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "結合棲地稽核、活動計數和目標類群調查。"
+  ],
+  "applies_when_zh": "適用於分析公園的生態功能。",
+  "not_applicable_when_zh": "不能將人類使用強度直接當成所有生態問題的代理值。",
+  "debates_zh": "人類可及性和棲地安靜有時需要空間分帶。",
+  "sources": [
+    {
+      "library_id": "CAMPBELL96",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "THOMPSON02",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "永續規劃批評",
+  "region": "跨地域",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "地景生態學：嵌塊、廊道、基質"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-ECO-008",
+    "KU-ECO-010"
+  ]
+}

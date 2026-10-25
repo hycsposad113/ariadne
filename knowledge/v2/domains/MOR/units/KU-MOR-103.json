@@ -1,0 +1,134 @@
+{
+  "id": "KU-MOR-103",
+  "domain": "MOR",
+  "subtopic": "都市紋理；路網、街廓與開放空間生成",
+  "type": "pattern",
+  "title_zh": "地景為圖：先連續綠藍骨架，再放建築",
+  "title_en": "Landscape Figure: Draw the Green-Blue Structure First",
+  "summary_zh": "地景為圖把公園、水文或步行綠帶當作主要空間圖形，建築則形成邊緣。Funenpark 研究窗 GSI／已知 FSI 下限／L／OSR 為 0.3013／1.5997／5.309／0.4367；Vauban 為 0.2203／0.7623／3.653／1.0228。這些案例值不證明公園配置造成特定密度，也沒有量出綠地維護權責。先畫綠藍主軸的入口、連續性和維護邊，再沿其兩側放置開放街廓或點式量體。借用地景骨架的繪圖次序，不把零碎殘地塗綠充作公園。",
+  "key_points_zh": [
+    "借用：標出綠地主軸、對外入口、服務面與維護界線後，再排列建築邊緣。",
+    "不借用：不要把殘地轉綠當作地景結構，也不從案例推導未量測的環境效果。",
+    "街廓軸向長短邊、地籍分割寬和道路法定斷面沒有由本次 morphometrics 直接量出。"
+  ],
+  "evidence": {
+    "strength": "CASE_EVIDENCE",
+    "findings": [
+      {
+        "library_id": "OSM_KB4_PRECEDENTS",
+        "claim_zh": "富能公園 使用回應 2438b5efc396 計算；未映射建築沒有插補。",
+        "effect_or_value": "104 棟建築；高度覆蓋率 1。",
+        "study_design": "研究窗 OSM 幾何測量",
+        "context_region": "Amsterdam, Netherlands",
+        "locator": null,
+        "claim_verification": "OBSERVED_OPEN_DATA_MEASUREMENT",
+        "limitations_zh": "OSM 是社群編輯資料；此值只描述快照，不代表完整盤點。"
+      },
+      {
+        "library_id": "EASTERN_HARBOUR_AMSTERDAM2012",
+        "claim_zh": "富能公園引用來源記載：Crossref記錄有題為Eastern Harbour, Amsterdam的地區章節；作者欄未列姓名，故此來源只作案例範圍提示。",
+        "effect_or_value": null,
+        "study_design": "書目或官方案例資料",
+        "context_region": "Amsterdam, Netherlands",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "只按已核對的書目或官方來源範圍引用，未查證的設計細節不推定。"
+      },
+      {
+        "library_id": "3DBAG_KB4_HEIGHTS",
+        "claim_zh": "富能公園 的高度欄位以可連結 BAG 識別碼配對 3DBAG 屋頂與地面高度；沒有匹配的建物不補值。",
+        "effect_or_value": "高度覆蓋 104/104 棟；FSI 可比性為 COMPARABLE。",
+        "study_design": "3DBAG 公開建物高度資料的 BAG-ID 配對",
+        "context_region": "Amsterdam, Netherlands",
+        "locator": null,
+        "claim_verification": "OBSERVED_OPEN_DATA_MEASUREMENT",
+        "limitations_zh": "只計可連結到 3DBAG 高度的足跡；高度轉樓層時採明列 3.0 m／層假設。"
+      },
+      {
+        "library_id": "OSM_KB4_PRECEDENTS",
+        "claim_zh": "另一個參照窗的形態指標與量測限制如下：Funenpark 研究窗 GSI／已知 FSI 下限／L／OSR 為 0.3013／1.5997／5.309／0.4367；Vauban 為 0.2203／0.7623／3.653／1.0228。",
+        "effect_or_value": "Funenpark 研究窗 GSI／已知 FSI 下限／L／OSR 為 0.3013／1.5997／5.309／0.4367；Vauban 為 0.2203／0.7623／3.653／1.0228",
+        "study_design": "保存 OSM 與公開建物高度快照的研究窗量測",
+        "context_region": "摘要列出的歐洲案例窗；不是基地法定邊界",
+        "locator": null,
+        "claim_verification": "OBSERVED_OPEN_DATA_MEASUREMENT",
+        "limitations_zh": "不同研究窗不可合併為單一案例平均；FSI 是已知量下限，覆蓋不足時明確排除跨案例比較。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "以一條連續綠藍主軸和兩處以上外部接點作初稿，逐段核對維護界線。",
+    "把地景／路網畫成連續骨架，再分出街廓、地塊和建築邊緣。",
+    "不要把殘地轉綠當作地景結構，也不從案例推導未量測的環境效果。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "標出綠地主軸、對外入口、服務面與維護界線後，再排列建築邊緣。",
+      "tradeoff_zh": "連續綠地建立清楚主體，也可能拉長步行距離；需用多個入口與沿街活動補足。",
+      "library_ids": [
+        "COATES2013"
+      ]
+    },
+    {
+      "option_zh": "以固定方向的正交網格另畫一個基準版本。",
+      "tradeoff_zh": "採同一分母及外部連接條件比較，才看得出轉折帶來的空間差異。",
+      "library_ids": []
+    }
+  ],
+  "applies_when_zh": "基地有可連接的公園、水文或綠色主軸，且地景應主導空間閱讀時。",
+  "not_applicable_when_zh": "土壤、污染、洪水或維護責任未確認前，不把預留綠地標成已可使用公園。",
+  "debates_zh": "連續綠地建立清楚主體，也可能拉長步行距離；需用多個入口與沿街活動補足。",
+  "sources": [
+    {
+      "library_id": "OSM_KB4_PRECEDENTS",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "EASTERN_HARBOUR_AMSTERDAM2012",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "3DBAG_KB4_HEIGHTS",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "COATES2013",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "ALEX77",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "跨城市建築形態測量與都市設計案例",
+  "region": "Amsterdam, Netherlands",
+  "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "形態先例比較：富能公園"
+    }
+  ],
+  "version": "kb4-precedents-2026-10-09",
+  "check": {
+    "method_zh": "在研究窗扣除已映射水域後計算陸地分母，局部公尺投影；量體合併只用於翼深和類型，GSI／FSI 仍按去重原始足跡計。荷蘭案例僅以 BAG 識別碼連結 3DBAG 高度。",
+    "inputs": [
+      "研究窗和 OSM 錨點",
+      "具 SHA-256 的 OSM 快照",
+      "BAG 高度欄位或 OSM 樓層／高度標籤"
+    ],
+    "logic_zh": "GSI、已知 FSI 下限、L、OSR 僅摘錄同一案例窗的保存欄位；街廓面積或交叉口間街段長不等於街廓軸向短／長邊、地籍寬或法定道路斷面。只比較標為可比的研究窗。",
+    "limitations_zh": "OSM 與高度覆蓋只代表來源快照；未知值不插補。路網和尺寸配置是編輯起稿假設，未經基地測繪或規範核對不得升格為量測或法定條件。"
+  },
+  "related_unit_ids": [
+    "KU-MOR-094",
+    "KU-MOR-092"
+  ]
+}

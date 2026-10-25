@@ -1,0 +1,61 @@
+{
+  "id": "KU-PUB-057",
+  "domain": "PUB",
+  "subtopic": "包容、性別與可用性",
+  "type": "concept",
+  "title_zh": "兒童陪伴改變停留佈局",
+  "title_en": "Caregiving changes spatial needs",
+  "summary_zh": "照護者需要看得到遊戲活動，也需要能推行嬰兒車和短暫休息的位置。兒童設施與成人停留若被分開安排，陪伴者可能失去休息機會。視線可見仍不保證兒童活動安全。照護者常被排除在傳統公共生活的觀察單位之外。",
+  "key_points_zh": [
+    "照護者需要看得到遊戲活動，也需要能推行嬰兒車和短暫休息的位置",
+    "兒童設施與成人停留若被分開安排，陪伴者可能失去休息機會"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "照護者需要看得到遊戲活動，也需要能推行嬰兒車和短暫休息的位置。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "荷蘭",
+        "library_id": "GEURS04",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "照護者常被排除在傳統公共生活的觀察單位之外。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "把座位、飲水、廁所與遊戲空間的步行路徑一起評估。"
+  ],
+  "applies_when_zh": "適用於家庭活動密度高的街區公共空間。",
+  "not_applicable_when_zh": "不應把兒童需求當成只有遊具配置。",
+  "debates_zh": "照護者常被排除在傳統公共生活的觀察單位之外。",
+  "sources": [
+    {
+      "library_id": "GEURS04",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "BOGOTA17",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "可及性評估",
+  "region": "荷蘭",
+  "curriculum_refs": [
+    {
+      "school": "UCL Bartlett",
+      "course": "Critical Debates in Urban Design",
+      "topic": "包容、性別與可用性"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-PUB-056",
+    "KU-PUB-058"
+  ]
+}

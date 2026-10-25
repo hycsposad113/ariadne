@@ -1,0 +1,140 @@
+{
+  "id": "KU-HAR-063",
+  "domain": "HAR",
+  "subtopic": "水岸再生案例；London Docklands",
+  "type": "case",
+  "title_zh": "London Docklands／LDDC：土地開發、Canary Wharf 與居民差異",
+  "title_en": "London Docklands / LDDC: land-led regeneration, Canary Wharf and uneven outcomes",
+  "summary_zh": "London Docklands Development Corporation 在 1981–1998 年間以土地組裝、基礎建設和私人開發推進 Docklands 再生，Canary Wharf 成為其最醒目的新商業中心。Church 的同期研究把交通與再生並看，Butler 以訪談與調查檢視仕紳化差異；兩者提醒不能把投資規模等同於原居民受益。",
+  "key_points_zh": [
+    "London Docklands 由 1981–1998 年的倫敦碼頭區開發公司（LDDC）推動，屬中央政府設立、繞過地方議會的都市開發公司；Isle of Dogs 企業特區（1982）、輕軌 DLR（1987）與 Canary Whar。",
+    "Canary Wharf 是可辨識的地標成果，但需要分開檢視就業、住宅可負擔性與交通接駁。",
+    "Butler 的研究發現 Docklands 與倫敦其他內城仕紳化區呈現質性差異。"
+  ],
+  "evidence": {
+    "strength": "CASE_EVIDENCE",
+    "findings": [
+      {
+        "library_id": "CHURCH1990",
+        "claim_zh": "Church 1990 研究以 London Docklands 的交通與都市再生為題，保留同期交通介面的討論。",
+        "effect_or_value": null,
+        "study_design": "同期都市再生論述",
+        "context_region": "London, United Kingdom",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "只支持明示的文獻範圍與本次可查證內容；未由書目資料推定未讀數值或因果。"
+      },
+      {
+        "library_id": "BUTLER2007",
+        "claim_zh": "London Docklands 由 1981–1998 年的倫敦碼頭區開發公司（LDDC）推動，屬中央政府設立、繞過地方議會的都市開發公司；Isle of Dogs 企業特區（1982）、輕軌 DLR（1987）與 Canary Wharf（1988 起，開發商 1992 年破產後續建）構成地產主導模式；研究與批評指出原有工人社區被排除於決策與受益之外，並引發仕紳化。",
+        "effect_or_value": null,
+        "study_design": "訪談與調查比較",
+        "context_region": "London, United Kingdom",
+        "locator": null,
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+        "limitations_zh": "摘要指出差異，但本卡不推定每一群體的數量或房價效應。"
+      },
+      {
+        "library_id": "GLA_DOCKLANDS_REVIEW2018",
+        "claim_zh": "Greater London Authority 的土地組裝回顧為 LDDC 之後的土地治理提供政策比較視角。",
+        "effect_or_value": null,
+        "study_design": "政府回顧報告",
+        "context_region": "London, United Kingdom",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "只支持明示的文獻範圍與本次可查證內容；未由書目資料推定未讀數值或因果。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "在方案評估中分列公共投資、土地增值、交通容量、住宅成本與原有產業去留。",
+    "若用大型錨點帶動開發，需同時規劃居民能使用的服務、工作與交通路徑。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "由單一開發機構集中土地與基礎建設決策，追求大尺度交付。",
+      "tradeoff_zh": "協調效率可能提升，但民主問責及居民議價能力需要額外制度保障。",
+      "library_ids": [
+        "CHURCH1990",
+        "GLA_DOCKLANDS_REVIEW2018"
+      ]
+    },
+    {
+      "option_zh": "分期更新並讓地方政府、居民和現有企業保留談判節點。",
+      "tradeoff_zh": "較容易保護在地需求，但土地協調及投資時程更複雜。",
+      "library_ids": [
+        "BUTLER2007",
+        "GLA_DOCKLANDS_REVIEW2018"
+      ]
+    }
+  ],
+  "applies_when_zh": "適用於港區土地整合、企業主導更新或大型交通—開發聯動案例的比較。",
+  "not_applicable_when_zh": "不適用於只看 Canary Wharf 新建量體就宣稱整體社會成功。",
+  "debates_zh": "Docklands 把開發速度、交通連接和仕紳化放在同一組張力中；新增投資本身無法回答誰獲益及誰離開。",
+  "counter_unit_ids": [
+    "KU-HAR-012"
+  ],
+  "related_unit_ids": [
+    "KU-HAR-020",
+    "KU-HAR-022"
+  ],
+  "sources": [
+    {
+      "library_id": "CHURCH1990",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "BUTLER2007",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "GLA_DOCKLANDS_REVIEW2018",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "英國都市再生、土地治理與仕紳化研究",
+  "region": "London, United Kingdom",
+  "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+  "curriculum_refs": [
+    {
+      "school": "MIT",
+      "course": null,
+      "topic": "水岸再生案例；London Docklands：課綱對應主題"
+    }
+  ],
+  "version": "kb2-gaps-2026-10-08",
+  "check": {
+    "method_zh": "按 LDDC 介入邊界分區建立投資、交通可達、住宅租售、產業變動和人口變動的前後比較，並保留非 Docklands 對照區。",
+    "inputs": [
+      "LDDC 1981–1998 邊界與年度計畫",
+      "交通接駁與公共投資時序",
+      "租金、就業、人口及企業遷移時間序列"
+    ],
+    "logic_zh": "對照區和指標須一致；沒有居民資料時，應標示分配結果未知，不把商業中心成形當作全區社會改善。",
+    "limitations_zh": "若要使用 LDDC 的精確成立／結束法定日期或投資結果，需再核官方歷史檔案及原始統計；本卡沒有添入就業、租金或投資額。"
+  },
+  "case": {
+    "location": "London Docklands, United Kingdom",
+    "period": "1981–1998 LDDC 時期；Canary Wharf 持續分期發展",
+    "area_ha": null,
+    "fsi": null,
+    "gsi": null,
+    "program_mix": "商業中心、交通與基礎建設、住宅、既有港區用途轉換",
+    "key_strategies_zh": [
+      "以開發機構整合土地、基礎建設與私人建設。",
+      "將 Canary Wharf 作為金融與辦公錨點，重新配置 Docklands 的工作和交通關係。"
+    ],
+    "outcomes_zh": [
+      "同期研究把交通與再生共同列為分析對象；後續訪談／調查研究檢視 Docklands 仕紳化。",
+      "投資及商業中心成形是空間成果；它們本身不是居民受益的代理指標。"
+    ],
+    "critiques_zh": [
+      "仕紳化路徑與倫敦其他地區不同，須以家庭、租戶及企業資料細分。",
+      "集中土地權力可能加快交付，也增加民主問責與地方利益代表的風險。"
+    ]
+  }
+}

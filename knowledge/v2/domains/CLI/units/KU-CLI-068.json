@@ -1,0 +1,74 @@
+{
+  "id": "KU-CLI-068",
+  "domain": "CLI",
+  "subtopic": "都市熱島",
+  "type": "method",
+  "title_zh": "用 LCZ 和行人資料搭建熱風險熱點清單",
+  "title_en": "用 LCZ 和行人資料搭建熱風險熱點清單",
+  "summary_zh": "局部氣候區可描述熱環境背景，行人路線、停留點和公共服務則說明誰在何時暴露。LCZ 方法研究提供站點周邊分類；樹蔭研究展示行走空間內遮蔭的不均。兩種資料接合後仍需量測或模型檢查熱暴露。",
+  "key_points_zh": [
+    "氣候區域分類不是個人暴露測量。",
+    "日常活動路徑會改變居民接觸熱點的時間。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "library_id": "LI2018SHADE",
+        "claim_zh": "LCZ 方法研究提供站點周邊分類；樹蔭研究展示行走空間內遮蔭的不均。",
+        "effect_or_value": "兩種資料接合後仍需量測或模型檢查熱暴露。",
+        "study_design": "街景遮蔭空間分析",
+        "context_region": "Boston, USA",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "library_id": "SHASHUABAR2009",
+        "claim_zh": "書目確認本文題名聚焦「The cooling efficiency of urban landscape strategies in a hot dry climate」；目前只完成作者、年份、題名與 DOI 核對，未將摘要或全文結論納入此記錄；本單元 KU-CLI-068 對照「局部氣候區可描述熱環境背景，行人路線、停留點和公共服務則說明誰在何時暴露」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "數值模擬研究；目前僅核對書目範圍",
+        "context_region": "以色列等乾熱城市",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "將熱圖疊合公車站、步道和社區設施。",
+    "優先檢查無遮蔭且高使用量的等候點。"
+  ],
+  "applies_when_zh": "適用於熱適應優先區盤點。",
+  "not_applicable_when_zh": "不適用於將氣候區分類直接當個人健康風險診斷。",
+  "debates_zh": "熱風險圖依賴人口活動資料，缺少資料的族群容易被忽視。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "LI2018SHADE",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "SHASHUABAR2009",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "熱暴露空間分析",
+  "region": "全球城市測站；Boston, USA",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "都市熱島"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": null,
+      "topic": "都市熱島"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0"
+}

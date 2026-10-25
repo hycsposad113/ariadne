@@ -1,0 +1,70 @@
+{
+  "id": "KU-GRN-032",
+  "domain": "GRN",
+  "subtopic": "遊戲與兒童",
+  "type": "value_range",
+  "title_zh": "休閒步行的健康研究指標",
+  "title_en": "Walking target used in health research",
+  "summary_zh": "Perth 公園研究分析每週一百五十分鐘休閒步行的達成情況。這是研究採用的健康行為分類之一，並非遊戲場或綠地面積標準。成人健康目標不能代表兒童遊戲或所有身體活動。健康指標能使研究可比較，也會把多樣活動壓縮成分鐘數。",
+  "key_points_zh": [
+    "Perth 公園研究分析每週一百五十分鐘休閒步行的達成情況",
+    "這是研究採用的健康行為分類之一，並非遊戲場或綠地面積標準"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "Perth 公園研究分析每週一百五十分鐘休閒步行的達成情況。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "美國",
+        "library_id": "FANSTEIN10",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "健康指標能使研究可比較，也會把多樣活動壓縮成分鐘數。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "把活動結果指標依年齡和使用情境分開，不將其變成建設配額。"
+  ],
+  "applies_when_zh": "適用於閱讀公園健康實證時。",
+  "not_applicable_when_zh": "不應以此數字考核一座公園是否成功。",
+  "debates_zh": "健康指標能使研究可比較，也會把多樣活動壓縮成分鐘數。",
+  "sources": [
+    {
+      "library_id": "FANSTEIN10",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "BEDIMORUNG05",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "都市分配正義",
+  "region": "美國",
+  "curriculum_refs": [
+    {
+      "school": "UCL Bartlett",
+      "course": "Critical Debates in Urban Design",
+      "topic": "遊戲與兒童"
+    }
+  ],
+  "version": "2.0.0",
+  "values": [
+    {
+      "name": "休閒步行的健康研究指標",
+      "range": "150 分鐘／週",
+      "unit": "分鐘",
+      "context": "Perth 成人休閒步行研究使用的活動分類；僅供證據解讀。；「休閒步行的健康研究指標」僅供其研究脈絡內比較，不構成本基地法規；來源所列地域：澳洲。",
+      "library_id": "SUGIYAMA10"
+    }
+  ],
+  "related_unit_ids": [
+    "KU-GRN-031",
+    "KU-GRN-033"
+  ]
+}

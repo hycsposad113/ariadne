@@ -1,0 +1,90 @@
+{
+  "id": "KU-ARC-026",
+  "domain": "ARC",
+  "subtopic": "住宅單元與類型",
+  "type": "typology",
+  "title_zh": "共享入口與小型樓梯間",
+  "title_en": "shared entrance stair housing",
+  "summary_zh": "小型樓梯間能將住宅入口集中，並把樓梯平台變成有限的鄰里接觸區。 若平台太窄，推車、搬運與短暫停留會互相堵塞。 樓梯間尺寸要隨住戶、樓層和管理模式一起讀。 可用淨寬應由門扇、扶手與搬運路徑共同決定。",
+  "key_points_zh": [
+    "核心主張：小型樓梯間能將住宅入口集中，並把樓梯平台變成有限的鄰里接觸區。",
+    "量測檢查：逐層疊加門扇、樓梯踏步、扶手和家具運送包絡線後，量最窄淨寬。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "小型樓梯間能將住宅入口集中，並把樓梯平台變成有限的鄰里接觸區。",
+        "effect_or_value": null,
+        "study_design": "跨地域設計參照綜整；數值狀態依 claim_verification 註記",
+        "context_region": "跨地域；用途與當地法規需分開核驗",
+        "library_id": "ARCH_STUDIO11",
+        "locator": null,
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "把樓梯平台畫成可量測的停留與通行區，測試門扇開啟時是否仍保有通路。"
+  ],
+  "applies_when_zh": "「共享入口與小型樓梯間」可在用於方案前期的量體、平面或空間品質篩檢時使用，前提是小型樓梯間能將住宅入口集中，並把樓梯平台變成有限的鄰里接觸區與來源情境相符。",
+  "not_applicable_when_zh": "若小型樓梯間能將住宅入口集中，並把樓梯平台變成有限的鄰里接觸區不成立，就不能把「共享入口與小型樓梯間」的結論延伸到其他情況；不得單獨作為許可、消防、結構或基地法規判定。",
+  "debates_zh": "共享核心可以減少公共走廊，但也可能增加等待和垂直動線的單點依賴。",
+  "sources": [
+    {
+      "library_id": "ARCH_STUDIO11",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "ALEX77",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+  "tradition": "建築設計與住宅類型學",
+  "region": "跨地域；用途與當地法規需分開核驗",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Housing and the City / Design of the Urban Fabric",
+      "topic": "建築尺度與住宅平面"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "建築尺度與街道界面"
+    },
+    {
+      "school": "MIT",
+      "course": "Architecture and Urban Design",
+      "topic": "建築尺度與空間型態"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "建築尺度與公共生活"
+    }
+  ],
+  "check": {
+    "method_zh": "逐層疊加門扇、樓梯踏步、扶手和家具運送包絡線後，量最窄淨寬。",
+    "inputs": [
+      "住宅單元與類型",
+      "尺寸／面積圖層",
+      "適用地區與用途標籤"
+    ],
+    "logic_zh": "將量測輸入轉成明確尺寸、比例或空間關係；越界只觸發複核，不自動取代設計決策。",
+    "limitations_zh": "量測結果只觸發「共享入口與小型樓梯間」的複核，不得單獨作為許可或法規判定。"
+  },
+  "version": "kb2-arc-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-ARC-001",
+    "KU-ARC-002",
+    "KU-ARC-003",
+    "KU-ARC-004",
+    "KU-ARC-005"
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "id": "KU-REG-044",
+  "domain": "REG",
+  "subtopic": "新加坡用途與容積治理",
+  "type": "typology",
+  "title_zh": "新加坡用途與容積治理｜類型取捨",
+  "title_en": "Singapore land-use and intensity governance — Typology and trade-offs",
+  "summary_zh": "新加坡政府土地拍賣研究將競標者數與土地價格變動相連；該材料提供土地供應管理的案例，不等同用途許可規則。 語意化分區資料協助查詢，土地拍賣資料用於理解競價。 不能把新加坡制度直接套用到其他國家或基地。",
+  "key_points_zh": [
+    "語意化分區資料協助查詢，土地拍賣資料用於理解競價。",
+    "讀「新加坡用途與容積治理｜類型取捨」時，適用於研究規劃資料治理和土地開發管理；同時把新加坡政府土地拍賣研究將競標者數與土地價格變動相連；該材料提供土地供應管理的案例，不等同用途許可規則列為核對條件。",
+    "限制：不能把新加坡制度直接套用到其他國家或基地。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "Silvennoinen 等人以地理知識圖譜連結新加坡 zone、land use 與 planned use，並示範跨領域查詢；這能整理規劃資料，不替代用途許可判讀。",
+        "library_id": "SILVENNOINEN2023",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "新加坡",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "URA 商業 plot ratio 依 Master Plan 用途圖和地塊開發控制條件判讀；官方資料不提供可套用所有商業地塊的單一比率。",
+        "library_id": "URA_GPR_COMM",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "新加坡",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "本條依公開摘要或書目範圍整理；未據此推定本基地法規、普遍效果或未核對的數值。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "將用途分類資料結構與土地供應、競標制度分開記錄。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "在「新加坡用途與容積治理｜類型取捨」的來源情境裡，將用途分類資料結構與土地供應、競標制度分開記錄；落到設計時還要按新加坡政府土地拍賣研究將競標者數與土地價格變動相連；該材料提供土地供應管理的案例，不等同用途許可規則調整。",
+      "tradeoff_zh": "「新加坡用途與容積治理｜類型取捨」採用「在「新加坡用途與容積治理｜類型取捨」的來源情境裡，將用途分類資料結構與土地供應、競標制度分開記錄；落到設計時還要按新加坡政府土地拍賣研究將競標者數與土地價格變動相連；該材料提供土地供應管理的案例，不等同用途許可規則調整」時，得失要沿著新加坡政府土地拍賣研究將競標者數與土地價格變動相連；該材料提供土地供應管理的案例，不等同用途許可規則檢查；資訊整合不會自動解決法規歧義或公共利益衝突。",
+      "library_ids": []
+    },
+    {
+      "option_zh": "在「新加坡用途與容積治理｜類型取捨」的來源情境裡，語意化分區資料協助查詢，土地拍賣資料用於理解競價；落到設計時還要按新加坡政府土地拍賣研究將競標者數與土地價格變動相連；該材料提供土地供應管理的案例，不等同用途許可規則調整。",
+      "tradeoff_zh": "「新加坡用途與容積治理｜類型取捨」的主要代價不是抽象的建造成本，而是資訊整合不會自動解決法規歧義或公共利益衝突；因此先以新加坡政府土地拍賣研究將競標者數與土地價格變動相連；該材料提供土地供應管理的案例，不等同用途許可規則作方案比較條件。",
+      "library_ids": []
+    }
+  ],
+  "applies_when_zh": "適用於研究規劃資料治理和土地開發管理。",
+  "not_applicable_when_zh": "不能把新加坡制度直接套用到其他國家或基地。",
+  "debates_zh": "資訊整合不會自動解決法規歧義或公共利益衝突。",
+  "sources": [
+    {
+      "library_id": "SILVENNOINEN2023",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "URA_GPR_COMM",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "比較土地使用管制；城市形態與規劃規則",
+  "region": "美國與比較制度；美國",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Planning Complex Cities",
+      "topic": "新加坡用途與容積治理"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Urban Design Contexts and Operations",
+      "topic": "新加坡用途與容積治理"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "新加坡用途與容積治理"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban design governance",
+      "topic": "新加坡用途與容積治理"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-REG-043",
+    "KU-REG-045",
+    "KU-REG-046"
+  ]
+}

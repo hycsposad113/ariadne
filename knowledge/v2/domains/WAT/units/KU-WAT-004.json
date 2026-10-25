@@ -1,0 +1,71 @@
+{
+  "id": "KU-WAT-004",
+  "domain": "WAT",
+  "subtopic": "潮汐與河口地景",
+  "type": "empirical_finding",
+  "title_zh": "全球海平面趨勢不能代替地方相對水位",
+  "title_en": "Global sea-level trends do not replace local relative levels",
+  "summary_zh": "Nicholls 與 Cazenave 回顧海平面變化及其沿海影響，將長期全球趨勢視為風險分析的重要背景。全球平均變化不等於任一河口的相對水位，因為地方地層運動和海岸條件也參與其中。Kulp 與 Strauss 的全球高程模型比較則顯示，人口暴露估算會隨地形資料品質改變。基地分析應分開記錄全球趨勢、地方潮位基準與高程來源。",
+  "key_points_zh": [
+    "全球平均海平面和地方相對海平面是不同變數。",
+    "沿海暴露估值受到地形資料選擇影響。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "library_id": "NICHOLLS2010",
+        "claim_zh": "回顧整理海平面變化對沿海地帶的影響，也指出預測和地方影響仍有不確定性。",
+        "effect_or_value": "上升方向增加長期暴露壓力；本單元不採用未核實的幅度",
+        "study_design": "觀測及預測文獻回顧",
+        "context_region": "全球沿海區",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "library_id": "KULP2019",
+        "claim_zh": "使用較低垂直偏差的沿海高程模型會顯著改變低地人口暴露估計；本文摘要報告 2100 情境估計及 90% 區間；本單元 KU-WAT-004 對照「Nicholls 與 Cazenave 回顧海平面變化及其沿海影響，將長期全球趨勢視為風險分析的重要背景」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "ABSTRACT_REVIEW",
+        "effect_or_value": "KU-WAT-004 的效應量仍以其原列研究結果為準；KULP2019 僅提供相鄰主題脈絡，未作量值來源。",
+        "study_design": "比較 SRTM 與 CoastalDEM 高程模型並疊合人口暴露估計",
+        "context_region": "全球沿海地區",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "風險底圖註記垂直基準、測量日期與地形來源，並把它們連到水位情境的時間範圍。",
+    "河口尺度的評估另取潮汐、風暴潮和地層變動資料。"
+  ],
+  "applies_when_zh": "適用於長期沿岸土地暴露及河口氣候情境討論。",
+  "not_applicable_when_zh": "不能由全球趨勢推算單一基地的洪水頻率或堤防設計高程。",
+  "debates_zh": "全球趨勢掩蓋不了地方差異；投影也不是確定水位。將不確定性和決策時間尺度同時呈現，才能避免把背景趨勢當成工程輸入值。",
+  "sources": [
+    {
+      "library_id": "NICHOLLS2010",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "KULP2019",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "沿岸海平面風險研究",
+  "region": "全球沿海地區",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": null,
+      "topic": "潮汐與河口地景"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": null,
+      "topic": "氣候變遷調適規劃"
+    }
+  ],
+  "version": "v2.0"
+}

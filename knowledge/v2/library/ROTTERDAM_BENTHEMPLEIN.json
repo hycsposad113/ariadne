@@ -1,0 +1,42 @@
+{
+  "id": "ROTTERDAM_BENTHEMPLEIN",
+  "title": "Benthemplein",
+  "authors": [
+    "Gemeente Rotterdam"
+  ],
+  "year": null,
+  "venue_or_publisher": "Gemeente Rotterdam",
+  "doi": null,
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "OFFICIAL_PRIMARY_SOURCE",
+  "tradition": "荷蘭水廣場／都市雨水調適",
+  "region": "Rotterdam-Noord, Nederland",
+  "method": "官方專案頁面與專案描述",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "鹿特丹市政府頁面記載 Benthemplein 有三個蓄水盆，合計可暫存約 1.7 百萬公升雨水，並說明周邊屋頂和鋪面逕流進入盆地。",
+      "strength": "CASE_EVIDENCE",
+      "scope_zh": "僅代表該政府頁面、政策文件或地方制度所述的地區和用途；不得轉成其他城市法規或普遍工程性能。",
+      "assessment_basis": "OFFICIAL_PRIMARY_SOURCE_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Official primary website",
+    "query": {
+      "title": "Benthemplein",
+      "url": "https://www.rotterdam.nl/benthemplein",
+      "locator": "Benthemplein page, lines 20–23; official opening 4 Dec 2013",
+      "api_query": "Directly opened public official page; no API abstract stored."
+    },
+    "matched_record_id": "https://www.rotterdam.nl/benthemplein",
+    "checked_at_utc": "2026-10-08T14:07:10Z",
+    "match_notes_zh": "已讀取官方公開頁面並核對指定段落；頁面年份未顯示者標為 null，不以擷取日代替出版年。"
+  },
+  "limitations_zh": "僅保存官方頁面書目與自行撰寫的範圍摘要；數值是該地區規範或專案資料，不代表 M4H 規範。",
+  "critique_relationship_zh": "本記錄不推論其他城市採相同標準。",
+  "metadata_licence_zh": "公開官方網頁；頁面授權條款未逐項核驗，標 UNKNOWN。"
+}

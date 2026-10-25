@@ -1,0 +1,98 @@
+{
+  "id": "KU-MOR-036",
+  "domain": "MOR",
+  "subtopic": "密度與形態的關係",
+  "type": "empirical_finding",
+  "title_zh": "模型中的鄰里形態能大幅改變理論熱需求",
+  "title_en": "Urban morphology and heat demand",
+  "summary_zh": "輸出是理論需求模型，非建築實際耗能；材料、窗牆比與氣候假設都影響結果。 先用本地氣候與建築參數重算，再比較體型與能耗。 研究設計：500 m 網格尺度的建築形態和太陽得熱／表面熱損模擬；地區：巴黎、倫敦、柏林與伊斯坦堡。",
+  "key_points_zh": [
+    "四座城市的理想化住宅型態模擬中，形態造成的理論熱能需求差異最高約六倍；緊湊高層在模型中較有效率。",
+    "研究設計：500 m 網格尺度的建築形態和太陽得熱／表面熱損模擬；地區：巴黎、倫敦、柏林與伊斯坦堡",
+    "限制：輸出是理論需求模型，非建築實際耗能；材料、窗牆比與氣候假設都影響結果。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "四座城市的理想化住宅型態模擬中，形態造成的理論熱能需求差異最高約六倍；緊湊高層在模型中較有效率。",
+        "effect_or_value": "四城樣本的模型差異最高約 6 倍；獨立住宅型態較低效率",
+        "study_design": "500 m 網格尺度的建築形態和太陽得熱／表面熱損模擬",
+        "context_region": "巴黎、倫敦、柏林與伊斯坦堡",
+        "library_id": "RODE2013",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "先用本地氣候與建築參數重算，再比較體型與能耗。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "先用本地氣候與建築參數重算，再比較體型與能耗。",
+      "tradeoff_zh": "此選項把「模型中的鄰里形態能大幅改變理論熱需求」的工作放在四座城市的理想化住宅型態模擬中，形態造成的理論熱能需求差異最高約六倍；緊湊高層在模型中較有效率上；需要承擔的協調或維護代價則由「輸出是理論需求模型，非建築實際耗能；材料、窗牆比與氣候假設都影響結果」界定。",
+      "library_ids": [
+        "RODE2013",
+        "NG10"
+      ]
+    },
+    {
+      "option_zh": "「模型中的鄰里形態能大幅改變理論熱需求」可把取向落在高層、周邊式街廓和低層高覆蓋形態各有不同公共空間代價，但需連同四座城市的理想化住宅型態模擬中，形態造成的理論熱能需求差異最高約六倍；緊湊高層在模型中較有效率決定適用方式。",
+      "tradeoff_zh": "此選項把「模型中的鄰里形態能大幅改變理論熱需求」的工作放在四座城市的理想化住宅型態模擬中，形態造成的理論熱能需求差異最高約六倍；緊湊高層在模型中較有效率上；需要承擔的協調或維護代價則由「輸出是理論需求模型，非建築實際耗能；材料、窗牆比與氣候假設都影響結果」界定。",
+      "library_ids": [
+        "RODE2013",
+        "NG10"
+      ]
+    }
+  ],
+  "applies_when_zh": "用於與巴黎、倫敦、柏林與伊斯坦堡研究情境可比、且量測定義相近的分析。",
+  "not_applicable_when_zh": "輸出是理論需求模型，非建築實際耗能；材料、窗牆比與氣候假設都影響結果。",
+  "debates_zh": "輸出是理論需求模型，非建築實際耗能；材料、窗牆比與氣候假設都影響結果。",
+  "sources": [
+    {
+      "library_id": "RODE2013",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "NG10",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "都市形態與能源模擬；高密度環境設計",
+  "region": "巴黎、倫敦、柏林與伊斯坦堡；香港",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "密度與形態的關係"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "密度與形態的關係"
+    },
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.330J Theory of City Form",
+      "topic": "密度與形態的關係"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban form and density",
+      "topic": "密度與形態的關係"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-MOR-031",
+    "KU-MOR-032",
+    "KU-MOR-033"
+  ],
+  "counter_unit_ids": [
+    "KU-MOR-035"
+  ]
+}

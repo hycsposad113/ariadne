@@ -1,0 +1,366 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "proposal_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "responds_to": {
+      "type": "object",
+      "properties": {
+        "card_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "response_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        }
+      },
+      "required": [
+        "card_id",
+        "response_ids"
+      ],
+      "additionalProperties": false
+    },
+    "summary": {
+      "type": "string",
+      "minLength": 1
+    },
+    "operations": {
+      "type": "array",
+      "items": {
+        "anyOf": [
+          {
+            "type": "object",
+            "properties": {
+              "op": {
+                "type": "string",
+                "enum": [
+                  "REMOVE_TOP_FLOOR"
+                ]
+              },
+              "building_ids": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "minItems": 1,
+                "maxItems": 24,
+                "uniqueItems": true
+              },
+              "floors": {
+                "type": "integer",
+                "minimum": 1,
+                "maximum": 2
+              }
+            },
+            "required": [
+              "op",
+              "building_ids",
+              "floors"
+            ],
+            "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "properties": {
+              "op": {
+                "type": "string",
+                "enum": [
+                  "ADD_FLOOR"
+                ]
+              },
+              "building_ids": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "minItems": 1,
+                "maxItems": 24,
+                "uniqueItems": true
+              },
+              "floors": {
+                "type": "integer",
+                "minimum": 1,
+                "maximum": 2
+              }
+            },
+            "required": [
+              "op",
+              "building_ids",
+              "floors"
+            ],
+            "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "properties": {
+              "op": {
+                "type": "string",
+                "enum": [
+                  "SETBACK_UPPER"
+                ]
+              },
+              "building_ids": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "minItems": 1,
+                "maxItems": 24,
+                "uniqueItems": true
+              },
+              "metres": {
+                "type": "integer",
+                "minimum": 1,
+                "maximum": 3
+              }
+            },
+            "required": [
+              "op",
+              "building_ids",
+              "metres"
+            ],
+            "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "properties": {
+              "op": {
+                "type": "string",
+                "enum": [
+                  "MOVE"
+                ]
+              },
+              "building_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "dx_m": {
+                "type": "integer",
+                "minimum": -6,
+                "maximum": 6
+              },
+              "dy_m": {
+                "type": "integer",
+                "minimum": -6,
+                "maximum": 6
+              }
+            },
+            "required": [
+              "op",
+              "building_id",
+              "dx_m",
+              "dy_m"
+            ],
+            "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "properties": {
+              "op": {
+                "type": "string",
+                "enum": [
+                  "PLANTING_NOTE"
+                ]
+              },
+              "target": {
+                "type": "string",
+                "minLength": 1
+              },
+              "kind": {
+                "type": "string",
+                "enum": [
+                  "deciduous_trees",
+                  "pergola",
+                  "both"
+                ]
+              }
+            },
+            "required": [
+              "op",
+              "target",
+              "kind"
+            ],
+            "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "properties": {
+              "op": {
+                "type": "string",
+                "enum": [
+                  "RERUN"
+                ]
+              },
+              "analyses": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "enum": [
+                    "E1",
+                    "UTCI"
+                  ]
+                },
+                "minItems": 1,
+                "uniqueItems": true
+              }
+            },
+            "required": [
+              "op",
+              "analyses"
+            ],
+            "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "properties": {
+              "op": {
+                "type": "string",
+                "enum": [
+                  "SOLAR_ENVELOPE"
+                ]
+              },
+              "courtyard_ids": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "minItems": 1,
+                "maxItems": 4,
+                "uniqueItems": true
+              },
+              "target": {
+                "enum": [
+                  "north_edge",
+                  "half_depth"
+                ],
+                "type": "string"
+              },
+              "redistribute": {
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "op",
+              "courtyard_ids",
+              "target",
+              "redistribute"
+            ],
+            "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "properties": {
+              "op": {
+                "type": "string",
+                "enum": [
+                  "COURTYARD_WING_DEPTH"
+                ]
+              },
+              "courtyard_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "side": {
+                "enum": [
+                  "south",
+                  "north",
+                  "east",
+                  "west"
+                ],
+                "type": "string"
+              },
+              "depth_m": {
+                "type": "integer",
+                "minimum": 10,
+                "maximum": 12
+              }
+            },
+            "required": [
+              "op",
+              "courtyard_id",
+              "side",
+              "depth_m"
+            ],
+            "additionalProperties": false
+          }
+        ]
+      },
+      "minItems": 1,
+      "maxItems": 12
+    },
+    "rationale": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1
+    },
+    "expected_effects": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1
+    },
+    "trade_offs": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1
+    },
+    "risks": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1
+    },
+    "not_simulated": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 0
+    },
+    "questions_for_designer": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1,
+      "maxItems": 2
+    }
+  },
+  "required": [
+    "proposal_id",
+    "responds_to",
+    "summary",
+    "operations",
+    "rationale",
+    "expected_effects",
+    "trade_offs",
+    "risks",
+    "not_simulated",
+    "questions_for_designer"
+  ],
+  "additionalProperties": false
+}

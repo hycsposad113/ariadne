@@ -1,0 +1,191 @@
+{
+  "domain": "MET",
+  "units_total": 19,
+  "topics": [
+    {
+      "topic": "製圖與疊圖（layers approach，荷蘭）",
+      "unit_ids": [
+        "KU-MET-001",
+        "KU-MET-007"
+      ],
+      "unit_count": 2
+    },
+    {
+      "topic": "類型形態分析",
+      "unit_ids": [
+        "KU-MET-003",
+        "KU-MET-004",
+        "KU-MET-005"
+      ],
+      "unit_count": 3
+    },
+    {
+      "topic": "研究式設計（research by design）",
+      "unit_ids": [
+        "KU-MET-002"
+      ],
+      "unit_count": 1
+    },
+    {
+      "topic": "情境與策略規劃",
+      "unit_ids": [
+        "KU-MET-010",
+        "KU-MET-011"
+      ],
+      "unit_count": 2
+    },
+    {
+      "topic": "評估準則",
+      "unit_ids": [
+        "KU-MET-012"
+      ],
+      "unit_count": 1
+    },
+    {
+      "topic": "繪圖作為思考工具",
+      "unit_ids": [
+        "KU-MET-006",
+        "KU-MET-008",
+        "KU-MET-009",
+        "KU-MET-014",
+        "KU-MET-015"
+      ],
+      "unit_count": 5
+    },
+    {
+      "topic": "參與式方法",
+      "unit_ids": [
+        "KU-MET-013",
+        "KU-MET-016",
+        "KU-MET-017",
+        "KU-MET-018",
+        "KU-MET-019"
+      ],
+      "unit_count": 5
+    }
+  ],
+  "coverage_status": "DRAFT_CANONICAL_CROSS_CHECK_PENDING",
+  "required_items": [
+    {
+      "requirement": "TU Delft layers 三層：基底、網絡、佔用",
+      "unit_ids": [
+        "KU-MET-001"
+      ],
+      "status": "DRAFT_PENDING_CROSS_CHECK"
+    },
+    {
+      "requirement": "research by design",
+      "unit_ids": [
+        "KU-MET-002"
+      ],
+      "status": "DRAFT_PENDING_CROSS_CHECK"
+    },
+    {
+      "requirement": "Conzen、Muratori、Caniggia 類型形態方法步驟",
+      "unit_ids": [
+        "KU-MET-003",
+        "KU-MET-004",
+        "KU-MET-005"
+      ],
+      "status": "DRAFT_PENDING_CROSS_CHECK"
+    },
+    {
+      "requirement": "figure-ground 與 Nolli",
+      "unit_ids": [
+        "KU-MET-006"
+      ],
+      "status": "DRAFT_PENDING_CROSS_CHECK"
+    },
+    {
+      "requirement": "McHarg 疊圖適宜性",
+      "unit_ids": [
+        "KU-MET-007"
+      ],
+      "status": "DRAFT_PENDING_CROSS_CHECK"
+    },
+    {
+      "requirement": "Cullen serial vision",
+      "unit_ids": [
+        "KU-MET-008"
+      ],
+      "status": "DRAFT_PENDING_CROSS_CHECK"
+    },
+    {
+      "requirement": "Lynch site planning",
+      "unit_ids": [
+        "KU-MET-009"
+      ],
+      "status": "DRAFT_PENDING_CROSS_CHECK"
+    },
+    {
+      "requirement": "scenario planning",
+      "unit_ids": [
+        "KU-MET-010"
+      ],
+      "status": "DRAFT_PENDING_CROSS_CHECK"
+    },
+    {
+      "requirement": "SWOT 與限制",
+      "unit_ids": [
+        "KU-MET-011"
+      ],
+      "status": "DRAFT_PENDING_CROSS_CHECK"
+    },
+    {
+      "requirement": "評估準則與多準則分析",
+      "unit_ids": [
+        "KU-MET-012"
+      ],
+      "status": "DRAFT_PENDING_CROSS_CHECK"
+    },
+    {
+      "requirement": "Design charrette",
+      "unit_ids": [
+        "KU-MET-013"
+      ],
+      "status": "DRAFT_PENDING_CROSS_CHECK"
+    },
+    {
+      "requirement": "空間語法方法步驟與限制",
+      "unit_ids": [
+        "KU-MET-014"
+      ],
+      "status": "DRAFT_PENDING_CROSS_CHECK"
+    },
+    {
+      "requirement": "GIS 可及性",
+      "unit_ids": [
+        "KU-MET-015"
+      ],
+      "status": "DRAFT_PENDING_CROSS_CHECK"
+    },
+    {
+      "requirement": "參與式繪圖",
+      "unit_ids": [
+        "KU-MET-016"
+      ],
+      "status": "DRAFT_PENDING_CROSS_CHECK"
+    },
+    {
+      "requirement": "POE",
+      "unit_ids": [
+        "KU-MET-017"
+      ],
+      "status": "DRAFT_PENDING_CROSS_CHECK"
+    },
+    {
+      "requirement": "design review",
+      "unit_ids": [
+        "KU-MET-018"
+      ],
+      "status": "DRAFT_PENDING_CROSS_CHECK"
+    },
+    {
+      "requirement": "design codes",
+      "unit_ids": [
+        "KU-MET-019"
+      ],
+      "status": "DRAFT_PENDING_CROSS_CHECK"
+    }
+  ]
+}

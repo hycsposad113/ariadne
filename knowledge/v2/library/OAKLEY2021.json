@@ -1,0 +1,42 @@
+{
+  "id": "OAKLEY2021",
+  "title": "Waterfront regeneration in Australia: Local responses to global trends in reimagining disused city docklands",
+  "authors": [
+    "Susan Oakley"
+  ],
+  "year": 2021,
+  "venue_or_publisher": "Geographical Research",
+  "doi": "https://doi.org/10.1111/1745-5871.12466",
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "澳洲港區再生",
+  "region": "Australia",
+  "method": "地方回應全球碼頭轉型趨勢的研究",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "題名確認研究澳洲地方如何回應全球退役碼頭再想像趨勢；不得據此假設各港口具相同土地權屬或產業條件。",
+      "strength": "THEORETICAL",
+      "scope_zh": "只支持此研究明確的議題、樣本地區與方法；不直接生成 M4H 數值、法規或工程容量。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref",
+    "query": {
+      "title": "Waterfront regeneration in Australia: Local responses to global trends in reimagining disused city docklands",
+      "author": "Susan Oakley",
+      "year": 2021,
+      "api_query": "port city waterfront regeneration industrial heritage adaptive reuse docklands cultural led regeneration gentrification"
+    },
+    "matched_record_id": "10.1111/1745-5871.12466",
+    "checked_at_utc": "2026-10-08T10:12:10Z",
+    "match_notes_zh": "以 Crossref 公開書目記錄比對書名、作者與年份；摘要文字未保存到 repository。"
+  },
+  "limitations_zh": "只保留書目與自行撰寫的範圍摘要；除標示 ABSTRACT_REVIEW 者外，內容未由摘要核對，沒有下載全文。",
+  "critique_relationship_zh": "本記錄不宣稱與其他書目存在直接互引或逐一反駁關係。",
+  "metadata_licence_zh": "公開 API 書目欄位；精確 metadata licence 未核驗，標 UNKNOWN。"
+}

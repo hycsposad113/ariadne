@@ -1,0 +1,47 @@
+{
+  "id": "ROSSI1982",
+  "title": "The Architecture of the City",
+  "authors": [
+    "Aldo Rossi"
+  ],
+  "year": 1982,
+  "venue_or_publisher": "Open Library record; publisher not returned in the metadata query",
+  "doi": null,
+  "isbn": "9780262181013",
+  "openalex_id": null,
+  "kind": "ACADEMIC_BOOK",
+  "tradition": "義大利類型學／城市記憶",
+  "region": [
+    "義大利",
+    "歐洲"
+  ],
+  "method": "理論／類型學",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "城市可由持續的類型、集體記憶與都市構成理解；API 匹配的是英文版年份，不據此推定原始義大利版出版年。",
+      "strength": "THEORETICAL",
+      "scope_zh": "只支持所標示的理論範圍或個案；不提供 M4H 法規、基地實測或未查證的數值。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [
+    "JACOBS61",
+    "ROWE1978"
+  ],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Open Library",
+    "query": {
+      "title": "The Architecture of the City",
+      "author": "Aldo Rossi",
+      "year": 1982
+    },
+    "matched_record_id": "/works/OL543409W",
+    "checked_at_utc": "2026-10-08T09:27:34Z",
+    "match_notes_zh": "公開 API 比對書名、作者及年份。僅確認書目；新書條目未保存 API 摘要。"
+  },
+  "limitations_zh": "本次只使用核准的公開書目 API；除明標 ABSTRACT_REVIEW 的來源外，未核讀全文。書目查證不等於主張、因果或參數驗證。",
+  "critique_relationship_zh": "known_critiques 是編者指定的替代閱讀，不代表來源間逐一互引或直接反駁。",
+  "metadata_licence_zh": "只保存必要書目欄位與自行摘要；未保存 API 摘要全文，metadata 授權未逐筆核驗，標 UNKNOWN。"
+}

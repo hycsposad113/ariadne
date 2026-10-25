@@ -1,0 +1,57 @@
+{
+  "case_id": "compare-courtyard-islands",
+  "evaluation_scope": "FAKE_VALIDATOR_PLUMBING_ONLY",
+  "expectations": {
+    "claims": [
+      "separate whole-network syntax from new designed segments",
+      "mention existing Keileweg inclusion when explaining whole-network threshold",
+      "new-segment percentile is approximately 37.6 only if source-bound metric is assembled"
+    ],
+    "expected_source_fact": {
+      "display": "37.6",
+      "json_pointer": "/reports/5/intent_assessment/intents/0/percentile",
+      "metric_id": "syntax.courtyard.ped.new_segments_pctl",
+      "source_path": "artifacts/net2/round-7/v3-export/net2-assessment.json",
+      "value": 37.60532150776053
+    },
+    "forbidden_content": [
+      "人流量",
+      "實測人流",
+      "人流 assertion"
+    ],
+    "parameter_families": {
+      "must_include_any": []
+    },
+    "stance": {
+      "allowed": null
+    }
+  },
+  "input_readiness": "BLOCKED_PARSER_DOES_NOT_EXPOSE_REQUIRED_SEGMENT_METRIC",
+  "provenance": {
+    "note": "The 37.60532150776053 source value exists in the hashed Net2 snapshot. Current assembler expects report.net2_assessment; retained source contains report.intent_assessment, so the value is not exposed in this snapshot.",
+    "spec_case": "J-COMPARE-zh.md §評測案例 3"
+  },
+  "required_inputs": [
+    "syntax.courtyard.ped.new_segments_pctl",
+    "whole-network context including existing Keileweg segment"
+  ],
+  "required_metric_ids": [
+    "syntax.courtyard.ped.new_segments_pctl"
+  ],
+  "schema_version": "ariadne-judgement-eval-case-v1",
+  "semantic_expectations_evaluated": false,
+  "skill_id": "J-COMPARE",
+  "snapshot": {
+    "bundle_sha256": "426d106d64fd6ac0ac6eafaf1235b733d4e2b34e6509a7030c409270594d1863",
+    "path": "knowledge/judgement/eval/snapshots/compare-courtyard.json",
+    "sha256": "16f5b86c8781ff7b9e3ab3cba5e9db58d4bed16f720fa794d220a9df696756c4",
+    "skill_id": "J-COMPARE",
+    "subject_ids": [
+      "courtyard_islands"
+    ]
+  },
+  "subject_ids": [
+    "courtyard_islands"
+  ],
+  "transform": {}
+}

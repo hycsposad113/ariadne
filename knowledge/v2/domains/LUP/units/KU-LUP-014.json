@@ -1,0 +1,98 @@
+{
+  "id": "KU-LUP-014",
+  "domain": "LUP",
+  "subtopic": "相容與衝突：工業與住宅介面",
+  "type": "empirical_finding",
+  "title_zh": "居民對屠宰場周邊氣味干擾的回報很高",
+  "title_en": "Abattoir-residential compatibility in Jos",
+  "summary_zh": "單一用途與城市的自陳調查不能建立普遍距離門檻；既有屠宰場年代也不同。 用地方暴露調查先辨識影響，再討論介面和搬遷選項。 研究設計：系統抽樣問卷、衛星影像、GIS、現場觀察與 GPS；地區：Jos Metropolis，奈及利亞。",
+  "key_points_zh": [
+    "Jos 220 戶問卷和場址觀察中，85% 受訪居民回報環境氣味干擾，46% 指向空氣污染。",
+    "研究設計：系統抽樣問卷、衛星影像、GIS、現場觀察與 GPS；地區：Jos Metropolis，奈及利亞",
+    "限制：單一用途與城市的自陳調查不能建立普遍距離門檻；既有屠宰場年代也不同。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "Jos 220 戶問卷和場址觀察中，85% 受訪居民回報環境氣味干擾，46% 指向空氣污染。",
+        "effect_or_value": "220 戶；85% 回報氣味，46% 指出空氣污染",
+        "study_design": "系統抽樣問卷、衛星影像、GIS、現場觀察與 GPS",
+        "context_region": "Jos Metropolis，奈及利亞",
+        "library_id": "AZI23",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "用地方暴露調查先辨識影響，再討論介面和搬遷選項。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "用地方暴露調查先辨識影響，再討論介面和搬遷選項。",
+      "tradeoff_zh": "可回應研究指出的條件，但需要本地測量與實施成本評估。",
+      "library_ids": [
+        "AZI23",
+        "TSUI2020"
+      ]
+    },
+    {
+      "option_zh": "「居民對屠宰場周邊氣味干擾的回報很高」可把取向落在緩衝、垂直分層、共享裝卸和時間管理是不同的介面策略，但需連同Jos 220 戶問卷和場址觀察中，85% 受訪居民回報環境氣味干擾，46% 指向空氣污染決定適用方式。",
+      "tradeoff_zh": "保留其他空間策略，但可能降低該研究所見的某項關聯。",
+      "library_ids": [
+        "AZI23",
+        "TSUI2020"
+      ]
+    }
+  ],
+  "applies_when_zh": "用於與Jos Metropolis，奈及利亞研究情境可比、且量測定義相近的分析。",
+  "not_applicable_when_zh": "單一用途與城市的自陳調查不能建立普遍距離門檻；既有屠宰場年代也不同。",
+  "debates_zh": "單一用途與城市的自陳調查不能建立普遍距離門檻；既有屠宰場年代也不同。",
+  "sources": [
+    {
+      "library_id": "AZI23",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "TSUI2020",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "土地使用相容性；循環經濟與城市製造",
+  "region": "奈及利亞；跨城市文獻與專家",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Planning Complex Cities",
+      "topic": "相容與衝突：工業與住宅介面"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Cities by Design",
+      "topic": "相容與衝突：工業與住宅介面"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "相容與衝突：工業與住宅介面"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Sustainable Futures by Design",
+      "topic": "相容與衝突：工業與住宅介面"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-LUP-008",
+    "KU-LUP-009",
+    "KU-LUP-010"
+  ],
+  "counter_unit_ids": [
+    "KU-LUP-012"
+  ]
+}

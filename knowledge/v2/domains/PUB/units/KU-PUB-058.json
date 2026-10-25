@@ -1,0 +1,65 @@
+{
+  "id": "KU-PUB-058",
+  "domain": "PUB",
+  "subtopic": "包容、性別與可用性",
+  "type": "concept",
+  "title_zh": "多感官導航拓寬公共參與",
+  "title_en": "Multisensory wayfinding supports participation",
+  "summary_zh": "觸覺、聲音和色彩線索可協助視覺障礙者理解場地。過度依賴地面色差在雨天或低視力情境下可能失效。施工與活動設施也會改變原有的導航線索。視覺秩序與多感官辨識需要不同設計語彙。",
+  "key_points_zh": [
+    "觸覺、聲音和色彩線索可協助視覺障礙者理解場地",
+    "過度依賴地面色差在雨天或低視力情境下可能失效"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "觸覺、聲音和色彩線索可協助視覺障礙者理解場地。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "北美",
+        "library_id": "RIGOLON16",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "視覺秩序與多感官辨識需要不同設計語彙。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "以不同感官能力者共同試走場地，記錄決策點和迷失位置。"
+  ],
+  "applies_when_zh": "適用於複雜地形或大型活動空間。",
+  "not_applicable_when_zh": "不宜只在主入口增設一種標示就稱為包容。",
+  "debates_zh": "視覺秩序與多感官辨識需要不同設計語彙。",
+  "sources": [
+    {
+      "library_id": "RIGOLON16",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "SUGIYAMA10",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "公園可及性與環境正義",
+  "region": "北美",
+  "curriculum_refs": [
+    {
+      "school": "MIT",
+      "course": "11.330J Theory of City Form",
+      "topic": "包容、性別與可用性"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Critical Debates in Urban Design",
+      "topic": "包容、性別與可用性"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-PUB-057"
+  ]
+}

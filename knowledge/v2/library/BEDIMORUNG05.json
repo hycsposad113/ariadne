@@ -1,0 +1,46 @@
+{
+  "id": "BEDIMORUNG05",
+  "title": "The significance of parks to physical activity and public health",
+  "authors": [
+    "Ariane L. Bedimo-Rung",
+    "Andrew J. Mowen",
+    "Deborah A. Cohen"
+  ],
+  "year": 2005,
+  "venue_or_publisher": "American Journal of Preventive Medicine",
+  "doi": "https://doi.org/10.1016/j.amepre.2004.10.024",
+  "isbn": null,
+  "crossref_id": "https://doi.org/10.1016/j.amepre.2004.10.024",
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "公共健康與公園設計",
+  "region": [
+    "美國",
+    "北美"
+  ],
+  "method": "概念模型與文獻整理",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "概念模型把公園活動連到個人、環境與管理面向；它是研究架構，不等同於某項公園設施造成健康改善的效果量。",
+      "strength": "THEORETICAL",
+      "scope_zh": "美國研究脈絡；主張限於此來源的研究設計與樣本，不外推為本基地規範。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref",
+    "query": {
+      "title": "The significance of parks to physical activity and public health",
+      "author": "Ariane L. Bedimo-Rung",
+      "year": 2005
+    },
+    "matched_record_id": "https://doi.org/10.1016/j.amepre.2004.10.024",
+    "checked_at_utc": "2026-10-08T09:53:25Z",
+    "match_notes_zh": "核對 Crossref 回傳書名、主要作者、出版年與 DOI；摘要只在實際取得並閱讀的論文上標 ABSTRACT_REVIEW。"
+  },
+  "limitations_zh": "美國研究脈絡；書目核對不替代完整論文審查。",
+  "critique_relationship_zh": "此條目的批評連結供編者並讀，不宣稱存在直接互引。",
+  "metadata_licence_zh": "僅保存公開書目欄位與自行撰寫的摘要；未保存摘要原文，metadata 授權未單獨核定。"
+}

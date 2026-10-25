@@ -1,0 +1,98 @@
+{
+  "id": "KU-ARC-009",
+  "domain": "ARC",
+  "subtopic": "住宅單元與類型",
+  "type": "value_range",
+  "title_zh": "雙人臥室的面積與寬度",
+  "title_en": "double bedroom minimum area and width",
+  "summary_zh": "NDSS 雙人或雙床臥室最低面積為 11.5 m²，至少一間雙人房淨寬 2.75 m，其他雙人房至少 2.55 m。 面積與寬度是並行條件，單用方形面積估算會漏掉狹長房間的家具問題。 這些數字隸屬英格蘭標準。",
+  "key_points_zh": [
+    "核心主張：NDSS 雙人或雙床臥室最低面積為 11.5 m²，至少一間雙人房淨寬 2.75 m，其他雙人房至少 2.55 m。",
+    "量測檢查：逐室量測完成面至完成面淨寬並計算淨地板面積；至少一間雙人房採 2.75 m 門檻。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "NDSS 雙人或雙床臥室最低面積為 11.5 m²，至少一間雙人房淨寬 2.75 m，其他雙人房至少 2.55 m。",
+        "effect_or_value": "≥11.5 m²；一間 ≥2.75 m 寬，其餘 ≥2.55 m",
+        "study_design": "跨地域設計參照綜整；數值狀態依 claim_verification 註記",
+        "context_region": "England；臥室",
+        "library_id": "UK_NDSS_2015",
+        "locator": "technical requirements paras 10–11; Table 1",
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "double bedroom minimum",
+      "range": "≥11.5 m²；一間 ≥2.75 m 寬，其餘 ≥2.55 m",
+      "unit": "m²；m",
+      "context": "地區：England；用途：英格蘭新建住宅雙人／雙床臥室；出處：Technical housing standards – nationally described space standard；本基地法規：否；核對狀態：官方頁面直接讀取。",
+      "library_id": "UK_NDSS_2015"
+    }
+  ],
+  "design_implications_zh": [
+    "在平面標註每間雙人房的淨寬，並以床兩側通道和衣櫃深度做配置檢查。"
+  ],
+  "applies_when_zh": "「雙人臥室的面積與寬度」可在用於方案前期的量體、平面或空間品質篩檢時使用，前提是NDSS 雙人或雙床臥室最低面積為 11.5 m²，至少一間雙人房淨寬 2.75 m，其他雙人房至少 2.55 m與來源情境相符。",
+  "not_applicable_when_zh": "若NDSS 雙人或雙床臥室最低面積為 11.5 m²，至少一間雙人房淨寬 2.75 m，其他雙人房至少 2.55 m不成立，就不能把「雙人臥室的面積與寬度」的結論延伸到其他情況；不得單獨作為許可、消防、結構或基地法規判定。",
+  "debates_zh": "特定床型、照護設備或共享房間可能需要超過最低寬度。",
+  "sources": [
+    {
+      "library_id": "UK_NDSS_2015",
+      "claim_id": "C1",
+      "locator": "technical requirements paras 10–11; Table 1"
+    },
+    {
+      "library_id": "NEUFERT12",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "claim_verification": "ABSTRACT_REVIEW",
+  "tradition": "建築設計與住宅類型學",
+  "region": "England；臥室",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Housing and the City / Design of the Urban Fabric",
+      "topic": "建築尺度與住宅平面"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "建築尺度與街道界面"
+    },
+    {
+      "school": "MIT",
+      "course": "Architecture and Urban Design",
+      "topic": "建築尺度與空間型態"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "建築尺度與公共生活"
+    }
+  ],
+  "check": {
+    "method_zh": "逐室量測完成面至完成面淨寬並計算淨地板面積；至少一間雙人房採 2.75 m 門檻。",
+    "inputs": [
+      "住宅單元與類型",
+      "尺寸／面積圖層",
+      "適用地區與用途標籤"
+    ],
+    "logic_zh": "將量測輸入轉成明確尺寸、比例或空間關係；越界只觸發複核，不自動取代設計決策。",
+    "limitations_zh": "量測結果只觸發「雙人臥室的面積與寬度」的複核，不得單獨作為許可或法規判定。"
+  },
+  "version": "kb2-arc-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-ARC-001",
+    "KU-ARC-002",
+    "KU-ARC-003",
+    "KU-ARC-004",
+    "KU-ARC-005"
+  ]
+}

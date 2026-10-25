@@ -1,0 +1,99 @@
+{
+  "id": "KU-LUP-060",
+  "domain": "LUP",
+  "subtopic": "商業與零售區位",
+  "type": "concept",
+  "title_zh": "零售區位與交通節點需分開判讀",
+  "title_en": "Transport node and place",
+  "summary_zh": "車站可及性和商業場所供給是不同的區位條件，不能只憑接近交通節點推定零售可行。 來源書目未核到摘要或本地市場資料，不推論零售需求或營業成功。 比較候選商業點位時，分開量測到站路徑、服務人口、現有商業供給和市場條件。",
+  "key_points_zh": [
+    "車站可及性和商業場所供給是不同的區位條件，不能只憑接近交通節點推定零售可行。",
+    "比較候選商業點位時，分開量測到站路徑、服務人口、現有商業供給和市場條件。",
+    "限制：來源書目未核到摘要或本地市場資料，不推論零售需求或營業成功。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "Bertolini 將站點交通連結和周邊場所活動分開評估，可檢查零售靠近交通節點時是否真的形成適配的站區。",
+        "library_id": "BERTOLINI99",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "荷蘭",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "Alonso 的地租梯度模型處理距離如何影響土地競價，和交通節點能力是兩種不同的零售區位解釋。",
+        "library_id": "ALONSO1964",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "美國都市經濟理論",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "落實「零售區位與交通節點需分開判讀」時可先比較候選商業點位時，分開量測到站路徑、服務人口、現有商業供給和市場條件，再用車站可及性和商業場所供給是不同的區位條件，不能只憑接近交通節點推定零售可行核對方案的空間後果。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "「零售區位與交通節點需分開判讀」可把取向落在比較候選商業點位時，分開量測到站路徑、服務人口、現有商業供給和市場條件，但需連同車站可及性和商業場所供給是不同的區位條件，不能只憑接近交通節點推定零售可行決定適用方式。",
+      "tradeoff_zh": "可使分析更完整，但需要一致的資料範圍和額外管理。",
+      "library_ids": [
+        "BERTOLINI99",
+        "ALONSO1964"
+      ]
+    }
+  ],
+  "applies_when_zh": "比較候選商業點位時，分開量測到站路徑、服務人口、現有商業供給和市場條件。",
+  "not_applicable_when_zh": "來源書目未核到摘要或本地市場資料，不推論零售需求或營業成功。",
+  "debates_zh": "節點—場所模型與區位理論能組織問題，但居民購買力、租金和營業時間仍需地方證據。",
+  "sources": [
+    {
+      "library_id": "BERTOLINI99",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "ALONSO1964",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "節點與場所；區位與地租理論",
+  "region": "荷蘭；美國都市經濟理論",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Planning Complex Cities",
+      "topic": "商業與零售區位"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Cities by Design",
+      "topic": "商業與零售區位"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "商業與零售區位"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Sustainable Futures by Design",
+      "topic": "商業與零售區位"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-LUP-053",
+    "KU-LUP-054",
+    "KU-LUP-055"
+  ],
+  "counter_unit_ids": [
+    "KU-LUP-057"
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "id": "KU-LUP-069",
+  "domain": "LUP",
+  "subtopic": "15 分鐘城市與可及性",
+  "type": "value_range",
+  "title_zh": "大眾運輸站點步行距離常用對照帶",
+  "title_en": "Transit stop walking-distance comparison band",
+  "summary_zh": "以 3.0–4.8 km/h 步速乘 5–10 分鐘，理想距離帶為 250–800 m；文獻引用提供變動服務圈的分析背景，沒有替這個上下限背書。 接站距離還受站點類型、班距、穿越安全和步道缺口影響。 應按站點和旅客條件畫網絡服務圈。",
+  "key_points_zh": [
+    "以 3.0–4.8 km/h 步速乘 5–10 分鐘，理想距離帶為 250–800 m；文獻引用提供變動服務圈的分析背景，沒有替這個上下限背書",
+    "接站距離還受站點類型、班距、穿越安全和步道缺口影響",
+    "應按站點和旅客條件畫網絡服務圈"
+  ],
+  "evidence": {
+    "strength": "ASSUMED",
+    "findings": [
+      {
+        "claim_zh": "5–10 分鐘以3.0–4.8 km/h換算，理想距離為約 250–800 m；這是透明情境計算，非研究觀測出的通用服務標準。",
+        "effect_or_value": "約 250–800 m",
+        "study_design": "明示速度與時間的公式換算；非實證測量",
+        "context_region": "北美與歐洲交通規劃比較的情境計算",
+        "library_id": "ELGENEIDY14",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "Cervero 以灣區軌道站的兩種空間解析度分析步行進站條件，指出步行接駁的建成環境證據需配合解析度閱讀。",
+        "effect_or_value": null,
+        "study_design": "舊金山灣區軌道站的步行接駁分析",
+        "context_region": "美國舊金山灣區",
+        "library_id": "CERVERO2001",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW",
+        "limitations_zh": "論文沒有提出 5–10 分鐘或 250–800 m 的共同服務圈標準。"
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "大眾運輸站點步行距離常用對照帶",
+      "range": "約 250–800 m",
+      "unit": "m",
+      "context": "北美與歐洲交通規劃比較的情境計算；用途：公交或軌道站的步行接駁初篩；計算：3.0–4.8 km/h × 5–10 分鐘，僅為無停等、無繞行的直線情境，非文獻直接報告的數值；方法背景書目：ELGENEIDY14；需改以路網與使用者條件核算，這不是本基地法規。",
+      "library_id": "ELGENEIDY14"
+    }
+  ],
+  "design_implications_zh": [
+    "區分軌道站與公車站，按入口到站點的可走路徑分別計算服務時間。"
+  ],
+  "applies_when_zh": "作為站點周邊步行接駁的時間換算；站點服務和班次品質需另行評估。",
+  "not_applicable_when_zh": "固定半徑可能高估被快速道路、河道或缺少過街設施阻隔的居住區。",
+  "debates_zh": "使用固定 800 m 圈可能掩蓋低頻服務和不安全穿越，站點距離不等於可用交通機會。",
+  "sources": [
+    {
+      "library_id": "ELGENEIDY14",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "CERVERO2001",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "交通實證",
+  "region": "北美與歐洲交通規劃比較的情境計算",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Planning Complex Cities",
+      "topic": "15 分鐘城市與可及性"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Cities by Design",
+      "topic": "15 分鐘城市與可及性"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "15 分鐘城市與可及性"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Sustainable Futures by Design",
+      "topic": "15 分鐘城市與可及性"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008"
+}

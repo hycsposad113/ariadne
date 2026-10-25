@@ -1,0 +1,98 @@
+{
+  "id": "CTX-005",
+  "title_zh": "context 先於型態偏好",
+  "title_en": "Context before typology",
+  "domain": "context_response",
+  "stages": [
+    "S2",
+    "S3",
+    "S6",
+    "S7",
+    "S8"
+  ],
+  "statement_zh": "S2 列保留建物、外部入口、產業、Dakpark 與水岸；S6 每個高度／空地決定至少連到一個 context observation 或明示資料缺口。",
+  "rationale_zh": "設計者要看到這塊地方的理由，不是搬來通用漂亮形式。",
+  "applies_when": {
+    "scale": [
+      "*"
+    ],
+    "land_use": [
+      "*"
+    ],
+    "strategy": [
+      "*"
+    ],
+    "mode": [
+      "*"
+    ]
+  },
+  "parameters": [
+    {
+      "name": "context_study_buffer_trial",
+      "value": 200,
+      "range": null,
+      "unit": "m",
+      "provenance": "ASSUMED_COMMANDER",
+      "source_ids": [],
+      "authority_ref": null,
+      "status": "PROPOSED_PENDING_FOUNDER",
+      "rationale_zh": "指揮官提出的敏感性試算值，文獻未提供此數值；須 Founder 確認、地方資料及確定性驗證，未生效。"
+    }
+  ],
+  "check": {
+    "method_zh": "驗證 context reference、rule id 與方案版本存在，不宣稱引用存在即證據成立。",
+    "inputs": [
+      "凍結幾何／路網與 hash",
+      "已接受專案條件與版本",
+      "卡片參數與版本"
+    ],
+    "output": "檢查值、單位、方法、有效性、差異與限制；不自動採納",
+    "implementation_status": "SPECIFICATION_ONLY"
+  },
+  "check_unavailable_reason_zh": null,
+  "design_responses": [
+    {
+      "option": "1",
+      "action_zh": "從歷史地塊延續配置",
+      "source_ids": [
+        "MOUDON97"
+      ],
+      "tradeoff_zh": "可能維持舊隔離。"
+    },
+    {
+      "option": "2",
+      "action_zh": "從新入口與公共意象重組",
+      "source_ids": [
+        "LYNCH60"
+      ],
+      "tradeoff_zh": "可能減弱地方結構。"
+    }
+  ],
+  "evidence_level": "ACADEMIC",
+  "evidence_strength": "THEORETICAL",
+  "sources": [
+    {
+      "library_id": "MOUDON97",
+      "claim_id": "C1",
+      "support_scope_zh": "文獻支持概念與比較角度；本卡具體操作是設計推導，試算值及專案約束不是文獻的普適結論。"
+    },
+    {
+      "library_id": "LYNCH60",
+      "claim_id": "C1",
+      "support_scope_zh": "文獻支持概念與比較角度；本卡具體操作是設計推導，試算值及專案約束不是文獻的普適結論。"
+    },
+    {
+      "library_id": "BRAZIL14",
+      "claim_id": "C1",
+      "support_scope_zh": "文獻支持概念與比較角度；本卡具體操作是設計推導，試算值及專案約束不是文獻的普適結論。"
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "enforcement": "CANDIDATE_ONLY",
+  "authority_ref": null,
+  "debates_zh": "地形意象、日照與公共可達可能互相衝突；作品集是候選策略，資料缺口不能填成效果。 已查證書目與主張的查閱層級見 library；不是逐頁核驗或本基地因果結論。",
+  "context_validity_zh": "亞洲高密度與英美認知研究可供比較，M4H 的 Dakpark 高程、產權與水岸風險需要地方證據。",
+  "exceptions_zh": "卡片不可替代現行法規、產權、無障礙或已接受 D1/D2。缺必要資料即回報 UNKNOWN；例外須由 Founder 明確決定並保留原結果。",
+  "version": "0.2.0",
+  "local_context_refs": []
+}

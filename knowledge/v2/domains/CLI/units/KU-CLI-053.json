@@ -1,0 +1,74 @@
+{
+  "id": "KU-CLI-053",
+  "domain": "CLI",
+  "subtopic": "風舒適度準則（如 Lawson）",
+  "type": "critique",
+  "title_zh": "舒適分級不能掩蓋陣風與安全風險",
+  "title_en": "舒適分級不能掩蓋陣風與安全風險",
+  "summary_zh": "舒適標準通常按活動和發生頻率分類，卻可能無法完整呈現短時陣風或脆弱使用者的風險。行人風研究需要區分平均速度和瞬時峰值；戶外舒適研究則顯示個人活動和體感有差異。設計說明應並列舒適與安全判斷。",
+  "key_points_zh": [
+    "舒適門檻和危險門檻有不同目的。",
+    "短時陣風可能影響輪椅、兒童和戶外餐飲。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "library_id": "GROMKE2007",
+        "claim_zh": "書目確認本文題名聚焦「Influence of trees on the dispersion of pollutants in an urban street canyon—Experimental investigation of the flow and concentration field」；目前只完成作者、年份、題名與 DOI 核對，未將摘要或全文結論納入此記錄；本單元 KU-CLI-053 對照「舒適標準通常按活動和發生頻率分類，卻可能無法完整呈現短時陣風或脆弱使用者的風險」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "實驗或風洞研究；目前僅核對書目範圍",
+        "context_region": "風洞與都市街谷",
+        "locator": null
+      },
+      {
+        "library_id": "TOMINAGA2008",
+        "claim_zh": "書目確認本文題名聚焦「AIJ guidelines for practical applications of CFD to pedestrian wind environment around buildings」；目前只完成作者、年份、題名與 DOI 核對，未將摘要或全文結論納入此記錄；本單元 KU-CLI-053 對照「舒適標準通常按活動和發生頻率分類，卻可能無法完整呈現短時陣風或脆弱使用者的風險」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "方法或概念研究；目前僅核對書目範圍",
+        "context_region": "日本與國際風工程",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "對入口、平台邊緣和停留空間補充陣風檢查。",
+    "說明採用的平均時距與超越頻率。"
+  ],
+  "applies_when_zh": "適用於行人風報告的判讀審查。",
+  "not_applicable_when_zh": "不適用於把舒適分級當作完整安全認證。",
+  "debates_zh": "單一分級顏色圖可能讓使用者忽略最差局部和短時風事件。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "GROMKE2007",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "TOMINAGA2008",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "風舒適與安全評估批判",
+  "region": "Hong Kong；都市公共空間",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "風舒適度準則（如 Lawson）"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": null,
+      "topic": "風舒適度準則（如 Lawson）"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0"
+}

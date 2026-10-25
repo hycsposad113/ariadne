@@ -1,0 +1,65 @@
+{
+  "id": "KU-HAR-038",
+  "type": "critique",
+  "subtopic": "文化導向再生與仕紳化批評",
+  "title_zh": "工業遺產品牌化會改變誰能使用更新後的空間",
+  "title_en": "Industrial Heritage Branding Changes Who Can Use the Renewed Space",
+  "summary_zh": "工業建築改成創意園區可留住部分物質遺產，同時也可能改變租金、租戶和地方品牌所代表的群體。中國工業街區研究記錄藝術家缺席與更新敘事之間的矛盾，社會混合批判則提醒新舊人口並置不等於權力或資源共享。分析時應把建築保存比例和使用者延續分成兩個結果。",
+  "key_points_zh": [
+    "列出更新前後租戶類型和租約變化。",
+    "把原有產業工作者及非正式使用者納入訪談或名冊。"
+  ],
+  "design_implications_zh": [
+    "為既有工作室和小型企業設置可追蹤的續租或替代空間指標。"
+  ],
+  "applies_when_zh": "工業建築更新同時採用文化或創意產業品牌時。",
+  "not_applicable_when_zh": "案場無既有使用者且沒有文化品牌策略時。",
+  "debates_zh": "品牌化收益可能增加公共投資回收，也可能把原有低成本生產空間轉成排他性消費場景。",
+  "tradition": "工業遺產再生批判／仕紳化研究",
+  "region": "中國與英國",
+  "curriculum_refs": [
+    {
+      "school": "UCL Bartlett",
+      "course": null,
+      "topic": "Industrial regeneration, displacement and social mixing"
+    }
+  ],
+  "domain": "HAR",
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "中國工業街區研究討論藝術家被城市更新敘事排除的現象。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "中國與英國",
+        "library_id": "YANG2023",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "社會混合研究指出空間混合政策不能取代包容性結果檢驗。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "中國與英國",
+        "library_id": "LEES2008",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "library_id": "YANG2023",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "LEES2008",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "version": "v2.0"
+}

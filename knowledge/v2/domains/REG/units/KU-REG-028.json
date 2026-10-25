@@ -1,0 +1,98 @@
+{
+  "id": "KU-REG-028",
+  "domain": "REG",
+  "subtopic": "荷蘭 Omgevingswet 與 omgevingsplan",
+  "type": "empirical_finding",
+  "title_zh": "清邁協作規劃修訂了兩個區域的分區草案",
+  "title_en": "Collaborative land-use planning in Chiang Mai",
+  "summary_zh": "個案顯示需要時間和資源，不能推定其他行政機關會採納。 制度評估納入參與權和執行機關能力。 研究設計：利害關係人參與、GIS 土地變遷量化個案；地區：清邁，泰國。",
+  "key_points_zh": [
+    "Wat Ket 協作試驗在兩個指定區提出分區修訂，並展示居民和主管機關共同分析土地變化的可能性。",
+    "研究設計：利害關係人參與、GIS 土地變遷量化個案；地區：清邁，泰國",
+    "限制：個案顯示需要時間和資源，不能推定其他行政機關會採納。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "Wat Ket 協作試驗在兩個指定區提出分區修訂，並展示居民和主管機關共同分析土地變化的可能性。",
+        "effect_or_value": "兩個指定區域的分區和特定計畫草案調整",
+        "study_design": "利害關係人參與、GIS 土地變遷量化個案",
+        "context_region": "清邁，泰國",
+        "library_id": "SANGWONGSE2021",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "制度評估納入參與權和執行機關能力。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "制度評估納入參與權和執行機關能力。",
+      "tradeoff_zh": "「清邁協作規劃修訂了兩個區域的分區草案」的主要代價不是抽象的建造成本，而是個案顯示需要時間和資源，不能推定其他行政機關會採納；因此先以Wat Ket 協作試驗在兩個指定區提出分區修訂，並展示居民和主管機關共同分析土地變化的可能性作方案比較條件。",
+      "library_ids": [
+        "SANGWONGSE2021",
+        "HEALEY97"
+      ]
+    },
+    {
+      "option_zh": "在「清邁協作規劃修訂了兩個區域的分區草案」的來源情境裡，整合計畫可連結環境、建築和土地使用，不代表所有決定自動簡化；落到設計時還要按Wat Ket 協作試驗在兩個指定區提出分區修訂，並展示居民和主管機關共同分析土地變化的可能性調整。",
+      "tradeoff_zh": "「清邁協作規劃修訂了兩個區域的分區草案」的主要代價不是抽象的建造成本，而是個案顯示需要時間和資源，不能推定其他行政機關會採納；因此先以Wat Ket 協作試驗在兩個指定區提出分區修訂，並展示居民和主管機關共同分析土地變化的可能性作方案比較條件。",
+      "library_ids": [
+        "SANGWONGSE2021",
+        "HEALEY97"
+      ]
+    }
+  ],
+  "applies_when_zh": "用於與清邁，泰國研究情境可比、且量測定義相近的分析。",
+  "not_applicable_when_zh": "個案顯示需要時間和資源，不能推定其他行政機關會採納。",
+  "debates_zh": "個案顯示需要時間和資源，不能推定其他行政機關會採納。",
+  "sources": [
+    {
+      "library_id": "SANGWONGSE2021",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "HEALEY97",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "泰國參與式土地使用規劃；協作規劃",
+  "region": "清邁 Wat Ket，泰國；英國",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Planning Complex Cities",
+      "topic": "荷蘭 Omgevingswet 與 omgevingsplan"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Urban Design Contexts and Operations",
+      "topic": "荷蘭 Omgevingswet 與 omgevingsplan"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "荷蘭 Omgevingswet 與 omgevingsplan"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban design governance",
+      "topic": "荷蘭 Omgevingswet 與 omgevingsplan"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-REG-022",
+    "KU-REG-023",
+    "KU-REG-024"
+  ],
+  "counter_unit_ids": [
+    "KU-REG-026"
+  ]
+}

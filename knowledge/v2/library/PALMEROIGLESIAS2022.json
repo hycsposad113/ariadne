@@ -1,0 +1,43 @@
+{
+  "id": "PALMEROIGLESIAS2022",
+  "title": "The industrial heritage as text and pretext for contemporary architecture",
+  "authors": [
+    "Luis Manuel Palmero Iglesias",
+    "Graziella Bernardo"
+  ],
+  "year": 2022,
+  "venue_or_publisher": "Journal of Architectural Conservation",
+  "doi": "https://doi.org/10.1080/13556207.2022.2061140",
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "工業遺產與當代建築介入",
+  "region": "跨地域建築保存研究",
+  "method": "書目範圍核對；未存摘要",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "題名確認研究討論工業遺產如何成為當代建築介入的對象；具體設計類型與成效未由摘要核對。",
+      "strength": "THEORETICAL",
+      "scope_zh": "此書目僅支持記錄中的研究對象、地區與方法；不可推作M4H法規、通用數值或跨城因果結論。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref",
+    "query": {
+      "title": "The industrial heritage as text and pretext for contemporary architecture",
+      "author": "Iglesias",
+      "year": 2022,
+      "api_query": "Crossref GET works?query.title=The industrial heritage as text and pretext for contemporary architecture"
+    },
+    "matched_record_id": "10.1080/13556207.2022.2061140",
+    "checked_at_utc": "2026-10-08T10:52:30Z",
+    "match_notes_zh": "公開Crossref書目欄位已核對題名、作者及出版年；摘要僅在assessment_basis為ABSTRACT_REVIEW時用於核對，未存入repo。"
+  },
+  "limitations_zh": "未取得全文；只有標示ABSTRACT_REVIEW的內容依公開摘要核對，其餘僅依書目範圍描述。",
+  "critique_relationship_zh": "本筆不宣稱與其他來源存在直接互引或逐一反駁關係。",
+  "metadata_licence_zh": "Crossref公開書目欄位；精確metadata授權未核驗，標UNKNOWN。"
+}

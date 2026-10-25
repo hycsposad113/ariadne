@@ -1,0 +1,103 @@
+{
+  "id": "KU-REG-046",
+  "domain": "REG",
+  "subtopic": "新加坡用途與容積治理",
+  "type": "method",
+  "title_zh": "新加坡用途與容積治理｜分析方法",
+  "title_en": "Singapore land-use and intensity governance — Analytical method",
+  "summary_zh": "OntoZoning 將新加坡分區、土地用途與計畫用途建成可查詢的語意關係，協助分辨資料欄位。 政府土地拍賣研究討論競標者數與價格變動，提供供應管理案例，但不說明用途許可。 將資料模型用於整理規則時，仍須保留條文解讀與基地決定的責任邊界。",
+  "key_points_zh": [
+    "核對資料模型能回答什麼問題以及不能替代何種決定。",
+    "核對資料模型能回答什麼問題以及不能替代何種決定。",
+    "讀「新加坡用途與容積治理｜分析方法」時，限制：不能把新加坡制度直接套用到其他國家或基地；同時把OntoZoning 把分區、用途與計畫用途連結成可查詢語意模型；它改善資料串接，不代表使用者已完成法規判讀；「新加坡用途與容積治理｜分析方法」還須對照核對資料模型能回答什麼問題以及不能替代何種決定，才能把研究發現轉成有邊界的設計判斷列為核對條件。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "OntoZoning 以 zone、land use 和 planned use 的語意關係組織新加坡規劃資料，適合用來分開保存這些欄位及其含義。",
+        "library_id": "SILVENNOINEN2023",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "新加坡",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "大多倫多區的 Zonology 本體以 Toronto 和 Markham 案例建立跨自治市分區、容許用途及開發標準的語意連結，對照出資料欄位標準化的作用。",
+        "effect_or_value": null,
+        "study_design": "OWL 本體設計與跨自治市概念驗證",
+        "context_region": "加拿大大多倫多地區",
+        "library_id": "ZONOLOGY2026",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW",
+        "limitations_zh": "這是加拿大規劃資料案例，並不決定新加坡分區解釋或基地許可。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "把 zone、land use 與 planned use 保存在不同資料欄位，並讓查詢模型連回正式規則文本；土地拍賣資料只用於分析土地供應和競價。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "「新加坡用途與容積治理｜分析方法」可把取向落在將用途分類資料結構與土地供應、競標制度分開記錄，但需連同OntoZoning 把分區、用途與計畫用途連結成可查詢語意模型；它改善資料串接，不代表使用者已完成法規判讀；「新加坡用途與容積治理｜分析方法」還須對照核對資料模型能回答什麼問題以及不能替代何種決定，才能把研究發現轉成有邊界的設計判斷決定適用方式。",
+      "tradeoff_zh": "「新加坡用途與容積治理｜分析方法」的主要代價不是抽象的建造成本，而是新加坡政府土地拍賣研究將競標者數與土地價格變動相連；該材料提供土地供應管理的案例，不等同用途許可規則；因此先以OntoZoning 把分區、用途與計畫用途連結成可查詢語意模型；它改善資料串接，不代表使用者已完成法規判讀；「新加坡用途與容積治理｜分析方法」還須對照核對資料模型能回答什麼問題以及不能替代何種決定，才能把研究發現轉成有邊界的設計判斷作方案比較條件。",
+      "library_ids": [
+        "SILVENNOINEN2023"
+      ]
+    },
+    {
+      "option_zh": "「新加坡用途與容積治理｜分析方法」可把取向落在語意化分區資料協助查詢，土地拍賣資料用於理解競價，但需連同OntoZoning 把分區、用途與計畫用途連結成可查詢語意模型；它改善資料串接，不代表使用者已完成法規判讀；「新加坡用途與容積治理｜分析方法」還須對照核對資料模型能回答什麼問題以及不能替代何種決定，才能把研究發現轉成有邊界的設計判斷決定適用方式。",
+      "tradeoff_zh": "此選項把「新加坡用途與容積治理｜分析方法」的工作放在OntoZoning 把分區、用途與計畫用途連結成可查詢語意模型；它改善資料串接，不代表使用者已完成法規判讀；「新加坡用途與容積治理｜分析方法」還須對照核對資料模型能回答什麼問題以及不能替代何種決定，才能把研究發現轉成有邊界的設計判斷上；需要承擔的協調或維護代價則由「新加坡政府土地拍賣研究將競標者數與土地價格變動相連；該材料提供土地供應管理的案例，不等同用途許可規則」界定。",
+      "library_ids": [
+        "SILVENNOINEN2023"
+      ]
+    }
+  ],
+  "applies_when_zh": "「新加坡用途與容積治理｜分析方法」可在適用於研究規劃資料治理和土地開發管理時使用，前提是OntoZoning 把分區、用途與計畫用途連結成可查詢語意模型；它改善資料串接，不代表使用者已完成法規判讀；「新加坡用途與容積治理｜分析方法」還須對照核對資料模型能回答什麼問題以及不能替代何種決定，才能把研究發現轉成有邊界的設計判斷與來源情境相符。",
+  "not_applicable_when_zh": "若OntoZoning 把分區、用途與計畫用途連結成可查詢語意模型；它改善資料串接，不代表使用者已完成法規判讀；「新加坡用途與容積治理｜分析方法」還須對照核對資料模型能回答什麼問題以及不能替代何種決定，才能把研究發現轉成有邊界的設計判斷不成立，就不能把「新加坡用途與容積治理｜分析方法」的結論延伸到其他情況；不能把新加坡制度直接套用到其他國家或基地。",
+  "debates_zh": "新加坡政府土地拍賣研究將競標者數與土地價格變動相連；該材料提供土地供應管理的案例，不等同用途許可規則。",
+  "sources": [
+    {
+      "library_id": "SILVENNOINEN2023",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "ZONOLOGY2026",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "新加坡規劃資料語意化；比較土地使用管制",
+  "region": "新加坡；美國與比較制度",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Planning Complex Cities",
+      "topic": "新加坡用途與容積治理"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Urban Design Contexts and Operations",
+      "topic": "新加坡用途與容積治理"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "新加坡用途與容積治理"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban design governance",
+      "topic": "新加坡用途與容積治理"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-REG-043",
+    "KU-REG-044",
+    "KU-REG-045"
+  ]
+}

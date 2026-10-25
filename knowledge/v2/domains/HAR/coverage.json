@@ -1,0 +1,135 @@
+{
+  "domain": "HAR",
+  "generated_at_utc": "2026-10-08T13:59:53Z",
+  "status": "INCOMPLETE",
+  "topics": [
+    {
+      "topic": "水岸再生的世代與模式",
+      "unit_ids": [
+        "KU-HAR-001",
+        "KU-HAR-020"
+      ],
+      "unit_count": 2,
+      "coverage_status": "COVERED"
+    },
+    {
+      "topic": "港城介面",
+      "unit_ids": [
+        "KU-HAR-002",
+        "KU-HAR-015",
+        "KU-HAR-021",
+        "KU-HAR-037",
+        "KU-HAR-053"
+      ],
+      "unit_count": 5,
+      "coverage_status": "COVERED"
+    },
+    {
+      "topic": "工業遺產與 adaptive reuse",
+      "unit_ids": [
+        "KU-HAR-004",
+        "KU-HAR-009",
+        "KU-HAR-010",
+        "KU-HAR-011",
+        "KU-HAR-012",
+        "KU-HAR-013",
+        "KU-HAR-017",
+        "KU-HAR-023",
+        "KU-HAR-024",
+        "KU-HAR-025",
+        "KU-HAR-026",
+        "KU-HAR-046",
+        "KU-HAR-049",
+        "KU-HAR-051",
+        "KU-HAR-055",
+        "KU-HAR-057",
+        "KU-HAR-060"
+      ],
+      "unit_count": 17,
+      "coverage_status": "COVERED"
+    },
+    {
+      "topic": "生產性城市",
+      "unit_ids": [
+        "KU-HAR-003",
+        "KU-HAR-016",
+        "KU-HAR-027",
+        "KU-HAR-039",
+        "KU-HAR-058"
+      ],
+      "unit_count": 5,
+      "coverage_status": "COVERED"
+    },
+    {
+      "topic": "分期開發",
+      "unit_ids": [
+        "KU-HAR-005",
+        "KU-HAR-029",
+        "KU-HAR-036",
+        "KU-HAR-048"
+      ],
+      "unit_count": 4,
+      "coverage_status": "COVERED"
+    },
+    {
+      "topic": "文化導向再生與仕紳化批評",
+      "unit_ids": [
+        "KU-HAR-006",
+        "KU-HAR-007",
+        "KU-HAR-014",
+        "KU-HAR-018",
+        "KU-HAR-019",
+        "KU-HAR-022",
+        "KU-HAR-028",
+        "KU-HAR-038",
+        "KU-HAR-047",
+        "KU-HAR-059"
+      ],
+      "unit_count": 10,
+      "coverage_status": "COVERED"
+    },
+    {
+      "topic": "港區轉型案例",
+      "unit_ids": [
+        "KU-HAR-008",
+        "KU-HAR-030",
+        "KU-HAR-031",
+        "KU-HAR-032",
+        "KU-HAR-033",
+        "KU-HAR-034",
+        "KU-HAR-035",
+        "KU-HAR-040",
+        "KU-HAR-041",
+        "KU-HAR-043",
+        "KU-HAR-050",
+        "KU-HAR-054",
+        "KU-HAR-056"
+      ],
+      "unit_count": 13,
+      "coverage_status": "COVERED"
+    },
+    {
+      "topic": "街道與交通案例",
+      "unit_ids": [
+        "KU-HAR-042"
+      ],
+      "unit_count": 1,
+      "coverage_status": "COVERED"
+    },
+    {
+      "topic": "公共空間與公園案例",
+      "unit_ids": [
+        "KU-HAR-044",
+        "KU-HAR-045",
+        "KU-HAR-052"
+      ],
+      "unit_count": 3,
+      "coverage_status": "COVERED"
+    }
+  ],
+  "total_units": 60,
+  "notes_zh": [
+    "60個主題單元已建，含15個value_range；文獻來源記錄與Crossref核對尚未完成。",
+    "案例庫CAS仍未建立，故整條HAR+CAS任務保持INCOMPLETE。"
+  ]
+}

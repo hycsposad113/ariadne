@@ -1,0 +1,74 @@
+{
+  "id": "KU-CLI-050",
+  "domain": "CLI",
+  "subtopic": "室外熱舒適指標",
+  "type": "method",
+  "title_zh": "PET 和 UTCI 應比較輸入假設而非只比數值",
+  "title_en": "PET 和 UTCI 應比較輸入假設而非只比數值",
+  "summary_zh": "PET 和 UTCI 都將多個氣象條件映射至人體熱狀態，但生理模型、參考人和輸入轉換不同。戶外熱舒適研究強調適應和場地特性，城市微氣候模型則提供場景變量。跨工具比較時要對齊氣象輸入、人體假設和時間步長。",
+  "key_points_zh": [
+    "兩個指數的溫度標度不可視為完全等價。",
+    "參考人體模型影響熱壓力分類。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "library_id": "BRAGER1998",
+        "claim_zh": "題名確認文章回顧建成環境中的熱適應模型；不能把適應性舒適研究替代戶外風、遮陰與輻射量測；本單元 KU-CLI-050 對照「PET 和 UTCI 都將多個氣象條件映射至人體熱狀態，但生理模型、參考人和輸入轉換不同」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "文獻回顧",
+        "context_region": "跨地域建築環境",
+        "locator": null
+      },
+      {
+        "library_id": "HOPPE1999",
+        "claim_zh": "書目確認本文題名聚焦「The physiological equivalent temperature - a universal index for the biometeorological assessment of the thermal environment」；目前只完成作者、年份、題名與 DOI 核對，未將摘要或全文結論納入此記錄；本單元 KU-CLI-050 對照「PET 和 UTCI 都將多個氣象條件映射至人體熱狀態，但生理模型、參考人和輸入轉換不同」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "方法或概念研究；目前僅核對書目範圍",
+        "context_region": "跨地域",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "保存兩套模型的輸入和版本資訊。",
+    "用現地問卷或生理資料檢查指標解讀。"
+  ],
+  "applies_when_zh": "適用於研究和方案比較中的熱指數選擇。",
+  "not_applicable_when_zh": "不適用於只依數值大小宣稱某一指數普遍更準。",
+  "debates_zh": "將不同指數合成一個排名可能掩蓋模型結構差異。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "BRAGER1998",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "HOPPE1999",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "生物氣象指標比較",
+  "region": "都市公共空間；跨地域模擬研究",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "室外熱舒適指標"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": null,
+      "topic": "室外熱舒適指標"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0"
+}

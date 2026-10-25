@@ -1,0 +1,98 @@
+{
+  "id": "KU-ARC-053",
+  "domain": "ARC",
+  "subtopic": "街廓與建築",
+  "type": "value_range",
+  "title_zh": "街牆高度與街道寬度比",
+  "title_en": "street wall height-to-width ratio",
+  "summary_zh": "街道圍合可用 H/W 約 0.5–1.2 作街道空間比較的初步區間。 比例偏低時空間可能較開放，比例偏高則需重看天空可視、日照和風環境。 這個比值不能預測所有人的空間感受。",
+  "key_points_zh": [
+    "核心主張：街道圍合可用 H/W 約 0.5–1.2 作街道空間比較的初步區間。",
+    "量測檢查：以街段中點量建築立面高度及道路空間寬度，分段取樣後報中位數和範圍。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "街道圍合可用 H/W 約 0.5–1.2 作街道空間比較的初步區間。",
+        "effect_or_value": "約 0.5–1.2 作空間比較區間，非設計規範",
+        "study_design": "跨地域設計參照綜整；數值狀態依 claim_verification 註記",
+        "context_region": "跨地域；用途與當地法規需分開核驗",
+        "library_id": "METRIC_HB08",
+        "locator": null,
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008"
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "street enclosure H/W ratio",
+      "range": "約 0.5–1.2 作空間比較區間，非設計規範",
+      "unit": "無因次比例",
+      "context": "地區：跨地域；街樹與退縮改變感受；用途：街牆圍合形態比較；出處：Metric Handbook: Planning and Design Data；本基地法規：否；核對狀態：數值待原典交叉核對。",
+      "library_id": "METRIC_HB08"
+    }
+  ],
+  "design_implications_zh": [
+    "在代表性街道剖面量街牆平均高度和兩側立面間淨寬，計算 H/W。"
+  ],
+  "applies_when_zh": "「街牆高度與街道寬度比」可在用於方案前期的量體、平面或空間品質篩檢時使用，前提是街道圍合可用 H/W 約 0.5–1.2 作街道空間比較的初步區間與來源情境相符。",
+  "not_applicable_when_zh": "若街道圍合可用 H/W 約 0.5–1.2 作街道空間比較的初步區間不成立，就不能把「街牆高度與街道寬度比」的結論延伸到其他情況；不得單獨作為許可、消防、結構或基地法規判定。",
+  "debates_zh": "街道樹冠、騎樓、地形和立面退縮都會改變實際圍合，單一剖面可能失真。",
+  "sources": [
+    {
+      "library_id": "METRIC_HB08",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "BERGHAUSERPONT2017",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+  "tradition": "建築設計與住宅類型學",
+  "region": "跨地域；用途與當地法規需分開核驗",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Housing and the City / Design of the Urban Fabric",
+      "topic": "建築尺度與住宅平面"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "建築尺度與街道界面"
+    },
+    {
+      "school": "MIT",
+      "course": "Architecture and Urban Design",
+      "topic": "建築尺度與空間型態"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "建築尺度與公共生活"
+    }
+  ],
+  "check": {
+    "method_zh": "以街段中點量建築立面高度及道路空間寬度，分段取樣後報中位數和範圍。",
+    "inputs": [
+      "街廓與建築",
+      "尺寸／面積圖層",
+      "適用地區與用途標籤"
+    ],
+    "logic_zh": "將量測輸入轉成明確尺寸、比例或空間關係；越界只觸發複核，不自動取代設計決策。",
+    "limitations_zh": "量測結果只觸發「街牆高度與街道寬度比」的複核，不得單獨作為許可或法規判定。"
+  },
+  "version": "kb2-arc-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-ARC-049",
+    "KU-ARC-050",
+    "KU-ARC-051",
+    "KU-ARC-052",
+    "KU-ARC-054"
+  ]
+}

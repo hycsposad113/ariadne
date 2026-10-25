@@ -1,0 +1,95 @@
+{
+  "id": "CTX-004",
+  "title_zh": "地標靠相對高度與視線",
+  "title_en": "Relative landmarks",
+  "domain": "context_response",
+  "stages": [
+    "S2",
+    "S3",
+    "S6",
+    "S7",
+    "S8"
+  ],
+  "statement_zh": "入口地標可由鄰棟高度差、轉角與公共入口形成；試算相對差 3.5 m，同時比較非高度地標，不要求每節點變高。",
+  "rationale_zh": "找路可以靠可見入口和活動，不只靠塔。",
+  "applies_when": {
+    "scale": [
+      "*"
+    ],
+    "land_use": [
+      "*"
+    ],
+    "strategy": [
+      "*"
+    ],
+    "mode": [
+      "*"
+    ]
+  },
+  "parameters": [
+    {
+      "name": "landmark_relative_height_trial",
+      "value": 3.5,
+      "range": null,
+      "unit": "m",
+      "provenance": "ASSUMED_COMMANDER",
+      "source_ids": [],
+      "status": "PROPOSED_PENDING_FOUNDER",
+      "rationale_zh": "可調試算值，沒有普適證據；需 Founder 確認並做敏感性比較。 原數字保留；來源是作品集轉述或專案假設，未經公開書目佐證，不視為研究或實測。",
+      "authority_ref": null
+    }
+  ],
+  "check": {
+    "method_zh": "核對相對高度與 20 m 上限、街道視線；辨識效果需使用者測試。",
+    "inputs": [
+      "凍結幾何／路網與 hash",
+      "已接受專案條件與版本",
+      "卡片參數與版本"
+    ],
+    "output": "檢查值、單位、方法、有效性、差異與限制；不自動採納",
+    "implementation_status": "SPECIFICATION_ONLY"
+  },
+  "check_unavailable_reason_zh": null,
+  "design_responses": [
+    {
+      "option": "1",
+      "action_zh": "較鄰棟高一層的入口量體",
+      "source_ids": [
+        "LYNCH60"
+      ],
+      "tradeoff_zh": "陰影與視覺支配。"
+    },
+    {
+      "option": "2",
+      "action_zh": "低量體前的活動廣場",
+      "source_ids": [
+        "WHYTE80"
+      ],
+      "tradeoff_zh": "辨識依營運與人群。"
+    }
+  ],
+  "evidence_level": "COMMON_SENSE_ASSUMED",
+  "evidence_strength": "ASSUMED",
+  "sources": [
+    {
+      "library_id": "LYNCH60",
+      "claim_id": "C1",
+      "support_scope_zh": "文獻支持概念與比較角度；本卡具體操作是設計推導，試算值及專案約束不是文獻的普適結論。"
+    },
+    {
+      "library_id": "WHYTE80",
+      "claim_id": "C1",
+      "support_scope_zh": "文獻支持概念與比較角度；本卡具體操作是設計推導，試算值及專案約束不是文獻的普適結論。"
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "enforcement": "CANDIDATE_ONLY",
+  "authority_ref": null,
+  "debates_zh": "地形意象、日照與公共可達可能互相衝突；作品集是候選策略，資料缺口不能填成效果。 已查證書目與主張的查閱層級見 library；不是逐頁核驗或本基地因果結論。",
+  "context_validity_zh": "亞洲高密度與英美認知研究可供比較，M4H 的 Dakpark 高程、產權與水岸風險需要地方證據。",
+  "exceptions_zh": "卡片不可替代現行法規、產權、無障礙或已接受 D1/D2。缺必要資料即回報 UNKNOWN；例外須由 Founder 明確決定並保留原結果。",
+  "version": "0.2.0",
+  "local_context_refs": [
+    "FOUNDER"
+  ]
+}

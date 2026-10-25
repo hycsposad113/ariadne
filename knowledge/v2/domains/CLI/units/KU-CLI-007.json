@@ -1,0 +1,71 @@
+{
+  "id": "KU-CLI-007",
+  "domain": "CLI",
+  "subtopic": "日照與遮陰",
+  "type": "method",
+  "title_zh": "日照規劃需把太陽路徑與遮陰證據分開",
+  "title_en": "Separate solar access analysis from shade evidence",
+  "summary_zh": "Kanters 等人的研究範圍是瑞典日照規劃中的程序、指標和工具；Li 等人則以波士頓街道樹木影像估算遮蔭供給。兩種文獻提供不同觀察尺度：前者對應規劃流程，後者對應街道樹冠資訊。現有書目資料不足以把任何單一指標說成普遍日照標準。方案文件應標明日期、時段、建築幾何與植栽條件。",
+  "key_points_zh": [
+    "日照可達性與樹蔭供給需採用不同資料和指標。",
+    "地點和季節會改變遮蔭及日照結果。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "library_id": "KANTERS2021",
+        "claim_zh": "題名確認研究整理瑞典的日照規劃流程、指標與工具；它是特定制度脈絡，不是 M4H 法規；本單元 KU-CLI-007 對照「Kanters 等人的研究範圍是瑞典日照規劃中的程序、指標和工具；Li 等人則以波士頓街道樹木影像估算遮蔭供給」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "日照規劃程序與指標研究",
+        "context_region": "Sweden",
+        "locator": null
+      },
+      {
+        "library_id": "LI2018SHADE",
+        "claim_zh": "題名確認研究使用 Google Street View 量化 Boston 街道樹蔭；資料方法與季節條件須在摘要或全文核對後才可比較遮蔭效益；本單元 KU-CLI-007 對照「Kanters 等人的研究範圍是瑞典日照規劃中的程序、指標和工具；Li 等人則以波士頓街道樹木影像估算遮蔭供給」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "以街景影像量化街樹遮蔭的案例研究",
+        "context_region": "Boston, USA",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "圖面區分直射日照、樹冠遮蔭與建築陰影，並註明模擬日期和時刻。",
+    "以現地樹冠或可驗證幾何校核影像代理資料。"
+  ],
+  "applies_when_zh": "適用於公共空間日照、街道樹蔭和規劃程序比較。",
+  "not_applicable_when_zh": "不適用於把影像樹蔭比例視為全年日照時數或法定日照合規。",
+  "debates_zh": "影像方法可擴大資料覆蓋，也受視角、樹葉季節和街景時間影響；瑞典的規劃程序不自動適用其他制度。",
+  "sources": [
+    {
+      "library_id": "KANTERS2021",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "LI2018SHADE",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "日照規劃和街景量測",
+  "region": "瑞典與波士頓案例",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": null,
+      "topic": "日照與遮陰"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": null,
+      "topic": "太陽可達性與城市公共空間"
+    }
+  ],
+  "version": "v2.0"
+}

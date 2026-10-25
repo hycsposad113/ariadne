@@ -1,0 +1,302 @@
+{
+  "schema_version": "pst-runtime-manifest-v1",
+  "name": "PST",
+  "version": "3.3.1",
+  "runtime_path": "~/.local/share/urban-design-runtimes/pstalgo-3.3.1",
+  "source_path": "/Users/jackhsieh/Library/Application Support/QGIS/QGIS3/profiles/default/python/plugins/pst/pstalgo",
+  "copied_subtrees": [
+    "python/",
+    "bin/"
+  ],
+  "plugin_metadata": {
+    "path": "/Users/jackhsieh/Library/Application Support/QGIS/QGIS3/profiles/default/python/plugins/pst/metadata.txt",
+    "sha256": "483fd2279355884c41a6039a8d3deb7c39d7071c85fdfb21db9145192f8fb177",
+    "name": "PST",
+    "version": "3.3.1",
+    "minimum_qgis_version": "3.0",
+    "experimental": false,
+    "authors": [
+      "KTH School of Architecture",
+      "Chalmers Architecture",
+      "Spacescape AB"
+    ],
+    "documentation_urls": [
+      "https://www.arch.kth.se/forskning/urban-design/software",
+      "https://www.smog.chalmers.se/PST.html"
+    ]
+  },
+  "license": {
+    "expression": "LGPL-3.0-or-later",
+    "evidence": "All 22 Python source files contain an LGPL v3-or-later header. No standalone LICENSE, COPYING, or NOTICE file exists in the installed plugin tree; the native library license notice was not independently recovered."
+  },
+  "architectures": [
+    {
+      "platform": "macOS",
+      "path": "bin/libpstalgo.dylib",
+      "format": "Mach-O universal",
+      "architectures": [
+        "x86_64",
+        "arm64"
+      ],
+      "size_bytes": 1080784,
+      "sha256": "a7b703581c68f2ceb070268866da0607b0aa5bc4ffef6bcf925230680c66bb26"
+    },
+    {
+      "platform": "Windows",
+      "path": "bin/pstalgo32.dll",
+      "format": "PE32",
+      "architectures": [
+        "x86"
+      ],
+      "size_bytes": 320000,
+      "sha256": "9b4ba83712610239697a258c2b179228e15b2265ba5c4415b4a589675113ff13"
+    },
+    {
+      "platform": "Windows",
+      "path": "bin/pstalgo64.dll",
+      "format": "PE32+",
+      "architectures": [
+        "x86_64"
+      ],
+      "size_bytes": 389120,
+      "sha256": "c3bd8b2406752ef88e9d345a6257a5a1e0f6ee53d200a59d27906d1750079e"
+    }
+  ],
+  "files": [
+    {
+      "path": "python/pstalgo/__init__.py",
+      "size_bytes": 2998,
+      "sha256": "2406ae755e95e763be5ced94a049dae8e8868d9379808ec4d71962e1dd356fa3"
+    },
+    {
+      "path": "python/pstalgo/__pycache__/__init__.cpython-39.pyc",
+      "size_bytes": 3781,
+      "sha256": "ba744ed96830a6633bb4d08d6b058497146c840bf59d523903aefb5fbe0312bc"
+    },
+    {
+      "path": "python/pstalgo/__pycache__/angularchoice.cpython-39.pyc",
+      "size_bytes": 3385,
+      "sha256": "52d22b99dddd9334c190e4d5e4e2b7d2d14a5fb5d5044cf46e482b8551cd35d7"
+    },
+    {
+      "path": "python/pstalgo/__pycache__/angularintegration.cpython-39.pyc",
+      "size_bytes": 4473,
+      "sha256": "9b7d283a8fc95ddbae9a2d8175919795073bc449e7cf1311fc71baae83b76587"
+    },
+    {
+      "path": "python/pstalgo/__pycache__/attractiondistance.cpython-39.pyc",
+      "size_bytes": 3079,
+      "sha256": "36779ed5d79d70f7f938122038010c9dc96e9648aee327e8e40fbd926df74ead"
+    },
+    {
+      "path": "python/pstalgo/__pycache__/attractionreach.cpython-39.pyc",
+      "size_bytes": 4404,
+      "sha256": "035fd1b77273bf3dd952f2493d9b8c9e12284a66d8839f6bbedce9323cd58927"
+    },
+    {
+      "path": "python/pstalgo/__pycache__/calculateisovists.cpython-39.pyc",
+      "size_bytes": 6345,
+      "sha256": "e5b1898040abad6ab0577a98020a7a802af465462470d748c064548aa2dc8291"
+    },
+    {
+      "path": "python/pstalgo/__pycache__/callbacktest.cpython-39.pyc",
+      "size_bytes": 2348,
+      "sha256": "7704cd392eb6ee4df74424fd6f8391766e30107176b1013dd90540168872d46c"
+    },
+    {
+      "path": "python/pstalgo/__pycache__/common.cpython-39.pyc",
+      "size_bytes": 9218,
+      "sha256": "436ed4db8101e5c768f32d4d2f4f80e65886f5d250cf923527fcd5335fe6f81d"
+    },
+    {
+      "path": "python/pstalgo/__pycache__/createbufferpolygons.cpython-39.pyc",
+      "size_bytes": 4698,
+      "sha256": "148d61e5476084dce994e92feb032f60c01b109493ee653eba0a42e01e6deb23"
+    },
+    {
+      "path": "python/pstalgo/__pycache__/creategraph.cpython-39.pyc",
+      "size_bytes": 6801,
+      "sha256": "3c1bf1e96c65dbabcbb3aee3f6d372d2626a68351a7c12e181cda8388418ac6a"
+    },
+    {
+      "path": "python/pstalgo/__pycache__/createjunctions.cpython-39.pyc",
+      "size_bytes": 3478,
+      "sha256": "cf30defa38235f3c448a00fa9f080d7f9468e3f3070a6fcb20ef5bb5450f8187"
+    },
+    {
+      "path": "python/pstalgo/__pycache__/createsegmentmap.cpython-39.pyc",
+      "size_bytes": 3596,
+      "sha256": "92fa224139cd2c8c5a834ac3dd4e42f685c291b7508dd428e0aa7ae5235bc9ba"
+    },
+    {
+      "path": "python/pstalgo/__pycache__/fastsegmentbetweenness.cpython-39.pyc",
+      "size_bytes": 2741,
+      "sha256": "d617e894a2806a26925239fadecdc9f77ddef1ea2e254036140d86d5b4925362"
+    },
+    {
+      "path": "python/pstalgo/__pycache__/log.cpython-39.pyc",
+      "size_bytes": 2420,
+      "sha256": "04faf033490c41b8078a160a3480bd4e63e139f3213ed64ce274f1269ec9bbbb"
+    },
+    {
+      "path": "python/pstalgo/__pycache__/networkintegration.cpython-39.pyc",
+      "size_bytes": 2890,
+      "sha256": "1b0dac40c881fc60f809ac9061040bc2eaa1fdb4a9547cbee3ce67cbb1e25551"
+    },
+    {
+      "path": "python/pstalgo/__pycache__/odbetweenness.cpython-39.pyc",
+      "size_bytes": 3231,
+      "sha256": "3c35ce171d6d3bcf5965eaa74a8735d21fe935121506a202eeb1b7677407ddc5"
+    },
+    {
+      "path": "python/pstalgo/__pycache__/raster.cpython-39.pyc",
+      "size_bytes": 2633,
+      "sha256": "d48a00612d090ea2eb5f839d4230d81484a13a6993f007b7ef7318442a43687c"
+    },
+    {
+      "path": "python/pstalgo/__pycache__/reach.cpython-39.pyc",
+      "size_bytes": 2680,
+      "sha256": "edd0fb5be0b777c44712bd7dc48458a88ee3bb4ec06b60c0782b18a63c8250a3"
+    },
+    {
+      "path": "python/pstalgo/__pycache__/segmentbetweenness.cpython-39.pyc",
+      "size_bytes": 3438,
+      "sha256": "66a8b65c05572d1e74f663d96881774bf03cf409a15139dc8819940f9aa5a3aa"
+    },
+    {
+      "path": "python/pstalgo/__pycache__/segmentgrouping.cpython-39.pyc",
+      "size_bytes": 2816,
+      "sha256": "8c73e247d38d5b9a45ae4eb0ffd30935a792b8a74768d74385315e983b515760"
+    },
+    {
+      "path": "python/pstalgo/__pycache__/segmentgroupintegration.cpython-39.pyc",
+      "size_bytes": 2629,
+      "sha256": "4111ac30fa1813530c03fb3125ce09c946e70aa6d4a0ee6ca56282f924b0a87c"
+    },
+    {
+      "path": "python/pstalgo/__pycache__/vector.cpython-39.pyc",
+      "size_bytes": 3531,
+      "sha256": "8ab3a63721f067f72991b043b9d8204c98fa3f51f190e947e9fa246f87c651f3"
+    },
+    {
+      "path": "python/pstalgo/angularchoice.py",
+      "size_bytes": 3430,
+      "sha256": "dc8671f5277ef0b035d338d9157d49fa780a9fbf5b9fc3d31e933be0a418cbda"
+    },
+    {
+      "path": "python/pstalgo/angularintegration.py",
+      "size_bytes": 4591,
+      "sha256": "a616e80204d917590db9860126e51ff00bcccb94955c2e35a36392bc8de2b456"
+    },
+    {
+      "path": "python/pstalgo/attractiondistance.py",
+      "size_bytes": 3763,
+      "sha256": "2888e5df3d500a9f62b430bd27e838738323a8f6b3dd1c2016fde8956e57aef2"
+    },
+    {
+      "path": "python/pstalgo/attractionreach.py",
+      "size_bytes": 5774,
+      "sha256": "d059aac1df88430b1884645c624b0b0dca6f532222308a1827198941def802c0"
+    },
+    {
+      "path": "python/pstalgo/calculateisovists.py",
+      "size_bytes": 7806,
+      "sha256": "5a454edbc860b302061fb5db9b9ba4628041efaa2b23ce9db8d9aad12b3c749b"
+    },
+    {
+      "path": "python/pstalgo/callbacktest.py",
+      "size_bytes": 1996,
+      "sha256": "d51327bbb91abecb7dcbd1ed1c8c6022d0f7cb3850cf6b06cc07fad468e59dac"
+    },
+    {
+      "path": "python/pstalgo/common.py",
+      "size_bytes": 7338,
+      "sha256": "866fec35d2d23b4decac395622edad2d22d77146f0792594442ac9a44d5a226a"
+    },
+    {
+      "path": "python/pstalgo/createbufferpolygons.py",
+      "size_bytes": 4669,
+      "sha256": "5898c2f679aa61429611eaa9800c38224003406b326f7a7e10bf034f1d05ddc4"
+    },
+    {
+      "path": "python/pstalgo/creategraph.py",
+      "size_bytes": 8002,
+      "sha256": "3ef1135c2916d086b0a501bce44f7168258f1fded15f80fdb2f11033b63b4a2f"
+    },
+    {
+      "path": "python/pstalgo/createjunctions.py",
+      "size_bytes": 3572,
+      "sha256": "7e91ad24d1e64d4985bdbeafcef2208a612f10708d267804a98fd69e896d3ab1"
+    },
+    {
+      "path": "python/pstalgo/createsegmentmap.py",
+      "size_bytes": 3436,
+      "sha256": "0488f4e272ff462ba572129e7269132fb2e7fb9248adc9eaf414c2816f8cbfd0"
+    },
+    {
+      "path": "python/pstalgo/fastsegmentbetweenness.py",
+      "size_bytes": 2659,
+      "sha256": "bd445b1ee2f666b2bcb6cf010dc05234446545ac074e88b79742b622a5cdfd6f"
+    },
+    {
+      "path": "python/pstalgo/log.py",
+      "size_bytes": 1930,
+      "sha256": "5af84259ee946290f763b9a1397147d30a27d09bf8e7f87ce416de96f7b83a2f"
+    },
+    {
+      "path": "python/pstalgo/networkintegration.py",
+      "size_bytes": 3114,
+      "sha256": "28451459f6a14f3b3ab8a8307a5cab5558b221e46d001650f6b937c1e4bdab56"
+    },
+    {
+      "path": "python/pstalgo/odbetweenness.py",
+      "size_bytes": 3444,
+      "sha256": "30b4f8021af189ec8c3e69c2b7e40f8a7225c556fcea329588fecf88ce5e6bcf"
+    },
+    {
+      "path": "python/pstalgo/raster.py",
+      "size_bytes": 1987,
+      "sha256": "8d55357dbbd69cdb9bb911ae7302755e76e8dd10f48ff6282a893e3e8fceacc6"
+    },
+    {
+      "path": "python/pstalgo/reach.py",
+      "size_bytes": 2694,
+      "sha256": "476a2a4d3729c698f281d0d3e55d8e99d86bcfd8e9a3a00362805e8b0f675fbe"
+    },
+    {
+      "path": "python/pstalgo/segmentbetweenness.py",
+      "size_bytes": 3644,
+      "sha256": "18b0f8741ce4336cd9022381661d421445c4d1aeaace1e8afe89c5b9ecb06c1f"
+    },
+    {
+      "path": "python/pstalgo/segmentgrouping.py",
+      "size_bytes": 2932,
+      "sha256": "7d90bafe9796bef6d8c89aad3f73cfa96f834b5d97b33208cac5b0e669e366b4"
+    },
+    {
+      "path": "python/pstalgo/segmentgroupintegration.py",
+      "size_bytes": 2541,
+      "sha256": "c74719051ed73a0f6e563cd3325cf83c4b325e9ad851f75674b86c6c191c4198"
+    },
+    {
+      "path": "python/pstalgo/vector.py",
+      "size_bytes": 2311,
+      "sha256": "388123b63be4afb2e6659f6bba75a6f7bde6a78fc55ef823d1b915831b85df41"
+    },
+    {
+      "path": "bin/libpstalgo.dylib",
+      "size_bytes": 1080784,
+      "sha256": "a7b703581c68f2ceb070268866da0607b0aa5bc4ffef6bcf925230680c66bb26"
+    },
+    {
+      "path": "bin/pstalgo32.dll",
+      "size_bytes": 320000,
+      "sha256": "9b4ba83712610239697a258c2b179228e15b2265ba5c4415b4a589675113ff13"
+    },
+    {
+      "path": "bin/pstalgo64.dll",
+      "size_bytes": 389120,
+      "sha256": "c3bd8b2406752ef88e9d345a6257a5a1e0f6eeef53d200a59d27906d1750079e"
+    }
+  ]
+}

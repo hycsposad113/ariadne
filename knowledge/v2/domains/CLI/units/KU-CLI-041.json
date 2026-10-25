@@ -1,0 +1,83 @@
+{
+  "id": "KU-CLI-041",
+  "domain": "CLI",
+  "subtopic": "室外熱舒適指標",
+  "type": "value_range",
+  "title_zh": "UTCI 熱壓力分級需引用標準版本",
+  "title_en": "UTCI 熱壓力分級需引用標準版本",
+  "summary_zh": "UTCI 以參考生理模型把氣溫、輻射、風和濕度映射成等效溫度。常用分級將約 9–26°C UTCI 視為無熱壓力，26°C 以上逐級進入熱壓力，冷端也按相近方式分級。它是標準化比較指標，不是某地居民對舒適的投票結果。",
+  "key_points_zh": [
+    "分級溫度不是一般空氣溫度的原始觀測。",
+    "高溫和低溫類別各自反映不同生理負荷。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "library_id": "BRODE2012",
+        "claim_zh": "UTCI 無熱壓力類別約為 9–26°C，熱端在 26、32、38 與 46°C 附近進入逐級更強的熱壓力；分類不等同居民主觀投票。",
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+        "effect_or_value": null,
+        "study_design": "方法或概念研究；目前僅核對書目範圍",
+        "context_region": "跨地域",
+        "locator": null
+      },
+      {
+        "library_id": "JENDRITZKY2012",
+        "claim_zh": "書目確認本文題名聚焦「UTCI—Why another thermal index；」；目前只完成作者、年份、題名與 DOI 核對，未將摘要或全文結論納入此記錄；本單元 KU-CLI-041 對照「UTCI 以參考生理模型把氣溫、輻射、風和濕度映射成等效溫度」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "方法或概念研究；目前僅核對書目範圍",
+        "context_region": "跨地域",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "為每個界線記錄正式來源和版本。",
+    "用本地時間序列呈現各級出現時段。"
+  ],
+  "applies_when_zh": "適用於整理UTCI結果的圖例與統計。",
+  "not_applicable_when_zh": "具體區間待正式定義核對；不是本基地法規。",
+  "debates_zh": "將連續熱壓力壓成離散類別會丟失臨界值附近的不確定性。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "BRODE2012",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "JENDRITZKY2012",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "UTCI 分級應用",
+  "region": "跨地域模擬研究；都市公共空間",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "室外熱舒適指標"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": null,
+      "topic": "室外熱舒適指標"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0",
+  "values": [
+    {
+      "name": "UTCI 無熱壓力與熱壓力分級",
+      "range": "−40 至 >46",
+      "unit": "°C UTCI",
+      "context": "用途：以「UTCI 無熱壓力與熱壓力分級」作為來源情境參照；UTCI 參考分類從極強冷壓力到極強熱壓力；無熱壓力約為 9–26°C UTCI 這不是本基地法規；來源所列地域：跨地域。",
+      "library_id": "BRODE2012"
+    }
+  ]
+}

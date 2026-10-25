@@ -1,0 +1,75 @@
+{
+  "id": "KU-PUB-018",
+  "domain": "PUB",
+  "subtopic": "座位與停留",
+  "type": "value_range",
+  "title_zh": "公眾距離的視覺關係",
+  "title_en": "Public interaction distance",
+  "summary_zh": "Gehl 對較遠距離的公共互動討論可用於提出約三點七公尺以上的觀察範圍。距離增加時，交談通常轉為觀看、聆聽或共同注意某項活動。現場噪音、麥克風和群眾密度會重組實際互動距離。公共觀看容易被當成被動，但它也可以是參與的一種方式。",
+  "key_points_zh": [
+    "Gehl（2010）引用 Hall（1966）：約 3.7 m 以上為公共距離，用於較正式或單向的公共互動",
+    "距離增加時，交談通常轉為觀看、聆聽或共同注意某項活動"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "Gehl（2010）引用 Hall（1966）：約 3.7 m 以上為公共距離，用於較正式或單向的公共互動。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "瑞典",
+        "library_id": "GEHL10",
+        "locator": null,
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+        "limitations_zh": "公共觀看容易被當成被動，但它也可以是參與的一種方式。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "為座椅及活動點安排不同距離，讓使用者可選擇參與程度。"
+  ],
+  "applies_when_zh": "適用於廣場同時包含演出與日常休息時。",
+  "not_applicable_when_zh": "不應把這個尺度當成群眾安全間距或活動容量公式。",
+  "debates_zh": "公共觀看容易被當成被動，但它也可以是參與的一種方式。",
+  "sources": [
+    {
+      "library_id": "GEHL10",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "NORDH09",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "PESCHARDT12",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "恢復性環境與北歐景觀",
+  "region": "瑞典",
+  "curriculum_refs": [
+    {
+      "school": "UCL Bartlett",
+      "course": "Critical Debates in Urban Design",
+      "topic": "座位與停留"
+    }
+  ],
+  "version": "2.0.0",
+  "values": [
+    {
+      "name": "公眾距離的視覺關係",
+      "range": "約 3.7 m 以上",
+      "unit": "公尺",
+      "context": "Gehl 採用的人際距離類型描述；供分層座位討論，不作安全規定。；「公眾距離的視覺關係」僅供其研究脈絡內比較，不構成本基地法規；來源所列地域：丹麥、跨地域。",
+      "library_id": "GEHL10"
+    }
+  ],
+  "related_unit_ids": [
+    "KU-PUB-017",
+    "KU-PUB-019"
+  ]
+}

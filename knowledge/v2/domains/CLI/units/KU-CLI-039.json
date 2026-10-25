@@ -1,0 +1,85 @@
+{
+  "id": "KU-CLI-039",
+  "domain": "CLI",
+  "subtopic": "室外熱舒適指標",
+  "type": "value_range",
+  "title_zh": "PET 舒適區須依氣候與人群校準",
+  "title_en": "PET 舒適區須依氣候與人群校準",
+  "summary_zh": "PET 將人體熱平衡折算成等效溫度，讓冷熱感可以分級比較。常見中歐參考分類把舒適帶列在約 18–23°C，整體熱感級距約從 4–41°C；這張卡聚焦分類表的讀法。衣著、活動、適應與風速都會改變接受範圍，所以這不是全球通用的舒適標準。",
+  "key_points_zh": [
+    "同一 PET 值在不同氣候中的感受可能不同。",
+    "熱中性區不是普遍生理常數。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "library_id": "MATZARAKIS1999",
+        "claim_zh": "常見中歐 PET 分級把約 18–23°C 視作舒適帶，總熱感分類約跨 4–41°C；氣候適應、服裝與活動會改變可接受區間。",
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+        "effect_or_value": null,
+        "study_design": "方法或概念研究；目前僅核對書目範圍",
+        "context_region": "跨地域",
+        "locator": null
+      },
+      {
+        "library_id": "HOPPE1999",
+        "claim_zh": "書目確認本文題名聚焦「The physiological equivalent temperature - a universal index for the biometeorological assessment of the thermal environment」；目前只完成作者、年份、題名與 DOI 核對，未將摘要或全文結論納入此記錄；本單元 KU-CLI-039 對照「PET 把人體熱平衡換算成等效溫度，並用溫度帶描述由冷到熱的熱感」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "方法或概念研究；目前僅核對書目範圍",
+        "context_region": "跨地域",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "以當地現地調查校準 PET 分級。",
+    "報告樣本季節和受訪者特徵。"
+  ],
+  "applies_when_zh": "適用於PET指標的分級資料準備。",
+  "not_applicable_when_zh": "區間待原文核對；不是本基地法規或健康診斷。",
+  "debates_zh": "把單一城市的舒適帶移植到另一氣候區可能造成錯誤設計優先次序。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [
+    "KU-CLI-058"
+  ],
+  "sources": [
+    {
+      "library_id": "MATZARAKIS1999",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "HOPPE1999",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "適應性熱舒適",
+  "region": "跨地域建築環境；Sydney, Australia",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "室外熱舒適指標"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": null,
+      "topic": "室外熱舒適指標"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0",
+  "values": [
+    {
+      "name": "PET 熱感知分類的參考溫度帶",
+      "range": "約 4–41",
+      "unit": "°C PET scale",
+      "context": "Matzarakis 系列研究常用的戶外熱感分類參考帶；舒適區通常位於約 18–23°C，需依氣候適應與人體參數調整 這不是本基地法規；來源書目地域：跨地域。",
+      "library_id": "MATZARAKIS1999"
+    }
+  ]
+}

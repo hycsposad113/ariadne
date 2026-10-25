@@ -1,0 +1,107 @@
+{
+  "id": "KU-LUP-009",
+  "domain": "LUP",
+  "subtopic": "相容與衝突：工業與住宅介面",
+  "type": "typology",
+  "title_zh": "相容與衝突：工業與住宅介面｜類型取捨",
+  "title_en": "Compatibility and conflicts — Typology and trade-offs",
+  "summary_zh": "工業與住宅介面可採緩衝、垂直分層、共享裝卸或時間管理，各自處理不同衝突來源。 荷蘭住宅估值研究指出混合用途反應會因住宅型態而異，製造和批發也可能被視為不相容；案例研究則把物流、共享空間和干擾管理納入配置。 這些材料不建立通用緩衝距離，需以本地暴露和營運資料判斷。",
+  "key_points_zh": [
+    "緩衝、垂直分層、共享裝卸和時間管理是不同的介面策略。",
+    "讀「相容與衝突：工業與住宅介面｜類型取捨」時，適用於生產性城市、工業住宅交界與混合用途開發；同時把荷蘭樣本中混合街區住宅平均估值約高 2.5%，但偏好因住宅型態而異，製造與批發用途亦可能被認為不相容列為核對條件。",
+    "限制：不能把單一城市調查的距離或自陳感受轉成普遍緩衝規範。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "荷蘭樣本中混合街區住宅平均估值約高 2.5%，但偏好因住宅型態而異，製造與批發用途亦可能被認為不相容。",
+        "library_id": "KOSTER2012",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "荷蘭住宅市場",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "三案顯示用途混合需同時處理共享空間、物流與干擾管理；垂直共置只是多種可行配置之一。",
+        "library_id": "RYCKEWAERT2021",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "布魯塞爾，比利時",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "把干擾來源、住戶暴露、物流和緩解措施逐一定位。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "在「相容與衝突：工業與住宅介面｜類型取捨」的來源情境裡，把干擾來源、住戶暴露、物流和緩解措施逐一定位；落到設計時還要按荷蘭樣本中混合街區住宅平均估值約高 2.5%，但偏好因住宅型態而異，製造與批發用途亦可能被認為不相容調整。",
+      "tradeoff_zh": "此選項把「相容與衝突：工業與住宅介面｜類型取捨」的工作放在荷蘭樣本中混合街區住宅平均估值約高 2.5%，但偏好因住宅型態而異，製造與批發用途亦可能被認為不相容上；需要承擔的協調或維護代價則由「相容性不是固定二元值，地區條件和執法能力會改變結果」界定。",
+      "library_ids": [
+        "KOSTER2012",
+        "RYCKEWAERT2021"
+      ]
+    },
+    {
+      "option_zh": "在「相容與衝突：工業與住宅介面｜類型取捨」的來源情境裡，緩衝、垂直分層、共享裝卸和時間管理是不同的介面策略；落到設計時還要按荷蘭樣本中混合街區住宅平均估值約高 2.5%，但偏好因住宅型態而異，製造與批發用途亦可能被認為不相容調整。",
+      "tradeoff_zh": "此選項把「相容與衝突：工業與住宅介面｜類型取捨」的工作放在荷蘭樣本中混合街區住宅平均估值約高 2.5%，但偏好因住宅型態而異，製造與批發用途亦可能被認為不相容上；需要承擔的協調或維護代價則由「相容性不是固定二元值，地區條件和執法能力會改變結果」界定。",
+      "library_ids": [
+        "KOSTER2012",
+        "RYCKEWAERT2021"
+      ]
+    }
+  ],
+  "applies_when_zh": "適用於生產性城市、工業住宅交界與混合用途開發。",
+  "not_applicable_when_zh": "不能把單一城市調查的距離或自陳感受轉成普遍緩衝規範。",
+  "debates_zh": "相容性不是固定二元值，地區條件和執法能力會改變結果。",
+  "sources": [
+    {
+      "library_id": "KOSTER2012",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "RYCKEWAERT2021",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "土地經濟與用途混合；生產性城市與混合用途",
+  "region": "荷蘭住宅市場；布魯塞爾，比利時",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Planning Complex Cities",
+      "topic": "相容與衝突：工業與住宅介面"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Cities by Design",
+      "topic": "相容與衝突：工業與住宅介面"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "相容與衝突：工業與住宅介面"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Sustainable Futures by Design",
+      "topic": "相容與衝突：工業與住宅介面"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-LUP-008",
+    "KU-LUP-010",
+    "KU-LUP-011"
+  ],
+  "counter_unit_ids": [
+    "KU-LUP-012"
+  ]
+}

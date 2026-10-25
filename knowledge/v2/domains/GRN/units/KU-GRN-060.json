@@ -1,0 +1,61 @@
+{
+  "id": "KU-GRN-060",
+  "domain": "GRN",
+  "subtopic": "綠地仕紳化",
+  "type": "concept",
+  "title_zh": "綠地收益也會被管理規則分配",
+  "title_en": "Rules distribute the gains of greening",
+  "summary_zh": "新的公園可能透過活動預約、禁止販售或關閉時段改變使用群體。享有視覺景觀與享有實際停留權並非同一回事。規則有時是保育或安全所必須。環境正義包含使用權，也包含住房和政治參與。",
+  "key_points_zh": [
+    "新的公園可能透過活動預約、禁止販售或關閉時段改變使用群體",
+    "享有視覺景觀與享有實際停留權並非同一回事"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "新的公園可能透過活動預約、禁止販售或關閉時段改變使用群體。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "美國",
+        "library_id": "NEMETH11",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "環境正義包含使用權，也包含住房和政治參與。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "評估營運規則的群體影響並公開理由。"
+  ],
+  "applies_when_zh": "適用於更新後公園的治理安排。",
+  "not_applicable_when_zh": "不應只關心綠地建成前的分配問題。",
+  "debates_zh": "環境正義包含使用權，也包含住房和政治參與。",
+  "sources": [
+    {
+      "library_id": "NEMETH11",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "HEYNEN06",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "公共空間治理與 publicness",
+  "region": "美國",
+  "curriculum_refs": [
+    {
+      "school": "MIT",
+      "course": "11.330J Theory of City Form",
+      "topic": "綠地仕紳化"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-GRN-059",
+    "KU-GRN-061"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "id": "COATES2013",
+  "title": "The sustainable urban district of vauban in freiburg, germany",
+  "authors": [
+    "G. J. Coates"
+  ],
+  "year": 2013,
+  "venue_or_publisher": "WIT Transactions on Ecology and the Environment",
+  "doi": "https://doi.org/10.2495/dne-v8-n4-265-286",
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "永續街區與社區參與",
+  "region": "德國弗萊堡",
+  "method": "個案研究；具體變項未由摘要核對",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "題名和期刊書目將Vauban界定為德國弗萊堡的永續都市區案例；此核對不證明其所有永續目標均已達成。",
+      "strength": "THEORETICAL",
+      "scope_zh": "只支持此來源明確記載的研究對象與範圍；不作跨城市因果外推，也不以書目資料推估未報告的空間數值。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref",
+    "query": {
+      "title": "The sustainable urban district of vauban in freiburg, germany",
+      "author": "Coates",
+      "year": 2013,
+      "api_query": "Crossref GET /works?query.bibliographic=Sustainable urban district Vauban Freiburg Coates"
+    },
+    "matched_record_id": "10.2495/dne-v8-n4-265-286",
+    "checked_at_utc": "2026-10-08T14:00:36Z",
+    "match_notes_zh": "Crossref公開書目欄位核對題名、作者、年份及 DOI；摘要內容未保存到repository。"
+  },
+  "limitations_zh": "未將API摘要寫入repo；除claim標示的內容外，研究發現與效果量須回到來源全文核對。",
+  "critique_relationship_zh": "本記錄不宣稱與其他來源存在直接互引或逐一反駁關係。",
+  "metadata_licence_zh": "Crossref公開書目欄位；精確metadata授權未核驗，標UNKNOWN。"
+}

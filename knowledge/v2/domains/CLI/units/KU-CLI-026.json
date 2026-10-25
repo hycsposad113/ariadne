@@ -1,0 +1,74 @@
+{
+  "id": "KU-CLI-026",
+  "domain": "CLI",
+  "subtopic": "日照與遮陰",
+  "type": "concept",
+  "title_zh": "日照可及要按用途、時段和使用者定義",
+  "title_en": "日照可及要按用途、時段和使用者定義",
+  "summary_zh": "公共空間的日照需求會因季節、活動、年齡和氣候不同，不能只用冬至影子圖概括全年品質。瑞典日照規劃研究整理實務工具和指標，戶外微氣候研究則將太陽曝露連到熱舒適。設計者應先指定要保護的活動和使用期間。",
+  "key_points_zh": [
+    "日照時數、直射陽光和天空視域是不同量。",
+    "夏季遮陰和冬季日照形成取捨。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "library_id": "KANTERS2021",
+        "claim_zh": "題名確認研究整理瑞典的日照規劃流程、指標與工具；它是特定制度脈絡，不是 M4H 法規；本單元 KU-CLI-026 對照「公共空間的日照需求會因季節、活動、年齡和氣候不同，不能只用冬至影子圖概括全年品質」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "日照規劃程序與指標研究",
+        "context_region": "Sweden",
+        "locator": null
+      },
+      {
+        "library_id": "NIKOLOPOULOU2003",
+        "claim_zh": "瑞典日照規劃研究整理實務工具和指標，戶外微氣候研究則將太陽曝露連到熱舒適。",
+        "effect_or_value": "設計者應先指定要保護的活動和使用期間。",
+        "study_design": "戶外熱舒適研究",
+        "context_region": "都市公共空間",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "為遊戲、座位、住宅窗面和交通點分設分析時段。",
+    "用季節性太陽路徑比對建築和樹冠影響。"
+  ],
+  "applies_when_zh": "適用於公共空間和街區日照比選。",
+  "not_applicable_when_zh": "不可把單一時刻的影子當全年日照品質。",
+  "debates_zh": "單一日照標準容易忽略地方氣候、公共健康和避暑需求。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "KANTERS2021",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "NIKOLOPOULOU2003",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "日照與公共空間設計",
+  "region": "Sweden；都市公共空間",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "日照與遮陰"
+    },
+    {
+      "school": "MIT",
+      "course": "Theory of City Form",
+      "topic": "日照與遮陰"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0"
+}

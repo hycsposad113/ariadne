@@ -1,0 +1,80 @@
+{
+  "id": "KU-STR-045",
+  "domain": "STR",
+  "subtopic": "共享空間",
+  "type": "method",
+  "title_zh": "共享空間：可檢驗的方法",
+  "title_en": "Shared space: Method and measurement",
+  "summary_zh": "分開量測實際車速、衝突、近失事件、行人路徑和主觀安全，並於改造前後以相同觀測方法比較。這個流程用來檢驗共享空間調整路面、邊界、速度和使用者互動，使車行與步行共處；它不是取消管理或把安全責任交給行人。方法的主要限制是共享空間對視覺或行動能力受限者可能更難判讀；安全感提升也不能替代碰撞或近失資料。",
+  "key_points_zh": [
+    "分析步驟：共享空間調整路面、邊界、速度和使用者互動，使車行與步行共處；它不是取消管理或把安全責任交給行人",
+    "分析步驟：分開量測實際車速、衝突、近失事件、行人路徑和主觀安全，並於改造前後以相同觀測方法比較"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "共享空間：可檢驗的方法｜公共空間同時面對過度管理與管理不足的批評；開放性與安全不能用單一形式解決",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "CARMONA10",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "共享空間：可檢驗的方法｜自行車安全需將暴露、道路條件及移動行為一起分析，不能只數事故或路長",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "SCHEPERS14",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "分開量測實際車速、衝突、近失事件、行人路徑和主觀安全，並於改造前後以相同觀測方法比較"
+  ],
+  "applies_when_zh": "需要測量「共享空間調整路面、邊界、速度和使用者互動，使車行與步行共處；它不是取消管理或把安全責任交給行人」時，按「共享空間：可檢驗的方法」列出的資料範圍建構指標，同時保存網路版本與計算參數。",
+  "not_applicable_when_zh": "若資料無法支持「共享空間調整路面、邊界、速度和使用者互動，使車行與步行共處；它不是取消管理或把安全責任交給行人」的測量，這套步驟不會產生可比較的結果；方法本身也不能選定設計目標。",
+  "debates_zh": "共享空間對視覺或行動能力受限者可能更難判讀；安全感提升也不能替代碰撞或近失資料；檢視「共享空間：可檢驗的方法」的測量程序時，還需判斷「分開量測實際車速、衝突、近失事件、行人路徑和主觀安全，並於改造前後以相同觀測方法比較」會如何改變方案結論。",
+  "sources": [
+    {
+      "library_id": "CARMONA10",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "SCHEPERS14",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "共享街道與交通安全",
+  "region": "跨地域理論或實務脈絡；來源地區依引用條目判讀",
+  "curriculum_refs": [
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "共享空間：課綱對應主題"
+    },
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.330J Theory of City Form",
+      "topic": "共享空間：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-STR-041",
+    "KU-STR-042",
+    "KU-STR-043",
+    "KU-STR-044",
+    "KU-STR-046",
+    "KU-STR-047",
+    "KU-STR-048"
+  ]
+}

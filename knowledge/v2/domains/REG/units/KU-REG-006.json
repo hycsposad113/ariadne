@@ -1,0 +1,91 @@
+{
+  "id": "KU-REG-006",
+  "domain": "REG",
+  "subtopic": "容積率、建蔽率、高度與斜線",
+  "type": "empirical_finding",
+  "title_zh": "新加坡土地競標者數量與價格形成有關",
+  "title_en": "Singapore land auctions",
+  "summary_zh": "新加坡第一價格密封土地拍賣的模型與實證估計顯示，競標者增加時預期成交價上升，土地屬性亦反映在價格中。 這是土地市場的價格形成證據，不能直接當成容積獎勵、公共回饋或居民福利的效果。 要評估開發強度的價值影響，仍需把拍賣競爭與規劃權利的變動分開估計。",
+  "key_points_zh": [
+    "新加坡土地拍賣模型與資料估計顯示，競標者增加時預期成交價格上升，土地屬性亦反映於價格。",
+    "研究設計：第一價格密封土地拍賣的理論模型與實證估計；地區：新加坡",
+    "限制：拍賣價格不是容積價值或居民福利的直接量尺，市場制度限制外推。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "新加坡土地拍賣模型與資料估計顯示，競標者增加時預期成交價格上升，土地屬性亦反映於價格。",
+        "effect_or_value": "競標人數增加時預期成交價格增加",
+        "study_design": "第一價格密封土地拍賣的理論模型與實證估計",
+        "context_region": "新加坡",
+        "library_id": "OOI2006",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "將開發強度與土地競價機制分開分析。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "將開發強度與土地競價機制分開分析。",
+      "tradeoff_zh": "可回應研究指出的條件，但需要本地測量與實施成本評估。",
+      "library_ids": [
+        "OOI2006"
+      ]
+    },
+    {
+      "option_zh": "「新加坡土地競標者數量與價格形成有關」可把取向落在同一容積可以用不同高度和覆蓋組合落地，但需連同新加坡第一價格密封土地拍賣的模型與實證估計顯示，競標者增加時預期成交價上升，土地屬性亦反映在價格中決定適用方式。",
+      "tradeoff_zh": "保留其他空間策略，但可能降低該研究所見的某項關聯。",
+      "library_ids": [
+        "OOI2006"
+      ]
+    }
+  ],
+  "applies_when_zh": "用於與新加坡研究情境可比、且量測定義相近的分析。",
+  "not_applicable_when_zh": "拍賣價格不是容積價值或居民福利的直接量尺，市場制度限制外推。",
+  "debates_zh": "拍賣價格不是容積價值或居民福利的直接量尺，市場制度限制外推。",
+  "sources": [
+    {
+      "library_id": "OOI2006",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "SINGLE_SOURCE",
+  "tradition": "新加坡土地拍賣與開發競爭；土地經濟與用途混合",
+  "region": "新加坡；荷蘭住宅市場",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Planning Complex Cities",
+      "topic": "容積率、建蔽率、高度與斜線"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Urban Design Contexts and Operations",
+      "topic": "容積率、建蔽率、高度與斜線"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "容積率、建蔽率、高度與斜線"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban design governance",
+      "topic": "容積率、建蔽率、高度與斜線"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-REG-001",
+    "KU-REG-002",
+    "KU-REG-003"
+  ],
+  "counter_unit_ids": [
+    "KU-REG-005"
+  ]
+}

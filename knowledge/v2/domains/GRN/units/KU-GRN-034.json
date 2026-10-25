@@ -1,0 +1,66 @@
+{
+  "id": "KU-GRN-034",
+  "domain": "GRN",
+  "subtopic": "遊戲與兒童",
+  "type": "design_principle",
+  "title_zh": "青少年需要不被消費化的停留地",
+  "title_en": "Teenagers need non-commercial places",
+  "summary_zh": "青少年常在未被明確設計的邊緣聚集。若唯一可停留處被視為滋擾，排除性管理會把聚集轉往更差的環境。青少年本身亦有不同的性別、文化和活動偏好。代際對安靜、風險和可見性的期待可能不一致。",
+  "key_points_zh": [
+    "青少年常在未被明確設計的邊緣聚集",
+    "若唯一可停留處被視為滋擾，排除性管理會把聚集轉往更差的環境"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "青少年常在未被明確設計的邊緣聚集。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "跨地域",
+        "library_id": "CARMONA10",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "代際對安靜、風險和可見性的期待可能不一致。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "邀請青年共同選擇座位、照明和活動規則。"
+  ],
+  "applies_when_zh": "適用於學校周邊和鄰里公園更新。",
+  "not_applicable_when_zh": "不應將「設施不足」當成唯一原因。",
+  "debates_zh": "代際對安靜、風險和可見性的期待可能不一致。",
+  "sources": [
+    {
+      "library_id": "CARMONA10",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "JACOBS61",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "公共空間治理批評",
+  "region": "跨地域",
+  "curriculum_refs": [
+    {
+      "school": "UCL Bartlett",
+      "course": "Critical Debates in Urban Design",
+      "topic": "遊戲與兒童"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "遊戲與兒童"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-GRN-033",
+    "KU-GRN-035"
+  ]
+}

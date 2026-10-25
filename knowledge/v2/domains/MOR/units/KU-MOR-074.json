@@ -1,0 +1,93 @@
+{
+  "id": "KU-MOR-074",
+  "domain": "MOR",
+  "subtopic": "Spacematrix：FSI、GSI、OSR、L",
+  "type": "value_range",
+  "title_zh": "Spacematrix 高層點式案例範圍",
+  "title_en": "Spacematrix high-rise point cases",
+  "summary_zh": "同一 L 值不代表同一高度，塔樓間距、退縮和非住宅樓層會改變街道感受。 把塔樓間距、底座覆蓋、地面風環境和公共空間管理一起比較。 記錄 亞洲與西歐高密度案例比較 與「高層點式住宅群的比較型態」的量測分母，再和另一種尺度或用途並排比較。",
+  "key_points_zh": [
+    "高層點式組合常以較低覆蓋承載較高 FSI；表列區間是待原始案例驗證的工作範圍，並非建築高度上限。",
+    "同一 L 值不代表同一高度，塔樓間距、退縮和非住宅樓層會改變街道感受。",
+    "把塔樓間距、底座覆蓋、地面風環境和公共空間管理一起比較。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "高層點式組合常以較低覆蓋承載較高 FSI；表列區間是待原始案例驗證的工作範圍，並非建築高度上限。",
+        "effect_or_value": "FSI 2.0–5.0；GSI 0.10–0.25；L 約 8–20",
+        "study_design": "跨案例尺度對照或明示假設的規劃計算",
+        "context_region": "亞洲與西歐高密度案例比較",
+        "library_id": "BERGHAUSERPONT2017",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "歐洲案例的密度分析沒有假定存在單一通用指標，提醒高層點式形態仍要用一致分母與多維變數比較。",
+        "effect_or_value": null,
+        "study_design": "建成密度指標的歐洲跨樣本研究",
+        "context_region": "多個歐洲城市",
+        "library_id": "ABARCA2019",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW",
+        "limitations_zh": "該篇文獻沒有驗證本單元的點式 FSI 或覆蓋率範圍。"
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "Spacematrix 高層點式案例範圍",
+      "range": "FSI 2.0–5.0；GSI 0.10–0.25；L 約 8–20",
+      "unit": "FSI/GSI 無量綱；L 平均層數",
+      "context": "亞洲與西歐高密度案例比較；用途：高層點式住宅群的比較型態；對照書目：BERGHAUSERPONT2017；適用於制度或形態比較，這不是本基地法規。",
+      "library_id": "BERGHAUSERPONT2017"
+    }
+  ],
+  "design_implications_zh": [
+    "把塔樓間距、底座覆蓋、地面風環境和公共空間管理一起比較。",
+    "記錄 亞洲與西歐高密度案例比較 與「高層點式住宅群的比較型態」的量測分母，再和另一種尺度或用途並排比較。"
+  ],
+  "applies_when_zh": "用於比較亞洲與西歐高密度案例比較的高層點式住宅群的比較型態，並明示此數值的來源、年份和面積分母。",
+  "not_applicable_when_zh": "同一 L 值不代表同一高度，塔樓間距、退縮和非住宅樓層會改變街道感受。",
+  "debates_zh": "釋放地面可增加開放空間，但若開放區域缺少入口、活動和維護責任，低 GSI 不等於高公共性。 查核：同上。",
+  "sources": [
+    {
+      "library_id": "BERGHAUSERPONT2017",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "ABARCA2019",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "荷蘭量化形態學／Spacematrix 延伸",
+  "region": "亞洲與西歐高密度案例比較",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "Spacematrix：FSI、GSI、OSR、L"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "Spacematrix：FSI、GSI、OSR、L"
+    },
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.330J Theory of City Form",
+      "topic": "Spacematrix：FSI、GSI、OSR、L"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban form and density",
+      "topic": "Spacematrix：FSI、GSI、OSR、L"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+}

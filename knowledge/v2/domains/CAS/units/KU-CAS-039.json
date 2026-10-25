@@ -1,0 +1,96 @@
+{
+  "id": "KU-CAS-039",
+  "domain": "CAS",
+  "subtopic": "住宅與街區—奧運遺產與可負擔工作空間",
+  "type": "case",
+  "title_zh": "Queen Elizabeth Olympic Park：以交付數據檢視奧運遺產",
+  "title_en": "Queen Elizabeth Olympic Park: Measuring the Olympic Legacy through Delivery Data",
+  "summary_zh": "倫敦 2012 奧運後，Queen Elizabeth Olympic Park 及周邊地區由 London Legacy Development Corporation 透過規劃決策推動住宅、工作空間和社區設施。LLDC 2024 年回顧列出獲批與已建成住房，並將已入住住房中的可負擔單位列為 27%；因此「核准」與「交付」差距不能略去。Firth 與 Patel 的論文題名以代際更新的角度討論公園，本輪只核對論文範圍，不將官方資料包裝成學術驗證。案例適合檢視大型事件投資後，住房、就業空間和社會基礎設施如何分期落地。",
+  "key_points_zh": [
+    "LLDC 報告同時列批准和建成住房，兩者數量差距是追蹤遺產進度的重要訊號。",
+    "可負擔住房比例的分母是已建成並入住住房，不是所有已核准住宅。"
+  ],
+  "evidence": {
+    "strength": "CASE_EVIDENCE",
+    "findings": [
+      {
+        "claim_zh": "Firth 與 Patel 的論文題名將 Queen Elizabeth Olympic Park 放在跨世代更新討論中；本輪未核讀摘要或全文，不從題名推演研究結果。",
+        "effect_or_value": "僅確認案例及論文主題，不報告成效",
+        "study_design": "學術論文；本輪僅書目範圍核對",
+        "context_region": "英國倫敦 Stratford",
+        "library_id": "FIRTHPATEL2014",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "LLDC 2024 年回顧稱已核准 24,018 戶，其中 13,046 戶已建成入住，含 3,578 戶可負擔住宅（27%）；另有近 11,000 戶待建。",
+        "effect_or_value": "公園開發機構公布的規劃與交付數據；屬機構回顧",
+        "study_design": "都市開發機構成果報告",
+        "context_region": "英國倫敦奧林匹克公園及周邊行政區",
+        "library_id": "LLDC_QUEEN_ELIZABETH_OLYMPIC_PARK2024",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "以核准、施工、入住和可負擔住房分別設置里程碑，並保持可比較的地域與時間分母。",
+    "將社區設施、學校、低成本工作空間和公園使用連到實際交付時程，確認其是否伴隨人口入住。"
+  ],
+  "applies_when_zh": "大型賽事或公共投資留下連片土地，後續由專責開發機構以多年規劃和建設轉型時。",
+  "not_applicable_when_zh": "若只取得機構年度成果回顧，缺少獨立住戶、租金和就業追蹤，就不能據此判斷在地居民是否普遍受益。",
+  "debates_zh": "LLDC 2024 年資料將核准量和已入住量分開，並顯示已入住住房中的可負擔單位占 27%；這支持追問完成率和可負擔性，卻沒有給出居民需求、租金分布或受益群體資料。Firth 與 Patel 的文獻只核對到題名與書目範圍。公園成果評估需要獨立追蹤住宅可負擔、低成本工作空間及新設施的使用者。",
+  "sources": [
+    {
+      "library_id": "FIRTHPATEL2014",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "LLDC_QUEEN_ELIZABETH_OLYMPIC_PARK2024",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "英國奧運後都市更新、住房交付與遺產治理",
+  "region": "西歐／英國倫敦 Stratford",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": null,
+      "topic": "大型公共投資後的分期開發與住宅供給"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": null,
+      "topic": "奧運遺產、公共公園與社區效益"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": null,
+      "topic": "住房可負擔性、都市開發機構與監測"
+    }
+  ],
+  "case": {
+    "location": "英國倫敦 Stratford Queen Elizabeth Olympic Park 及 LLDC 規劃範圍",
+    "period": "2012 年奧運後由 LLDC 推動；規劃決策機構於 2024 年結束專責階段",
+    "area_ha": null,
+    "fsi": null,
+    "gsi": null,
+    "program_mix": "住宅、學生宿舍、商業與工作空間、學校、社區設施、公園和賽事場館；整體土地用途比例未查得。",
+    "key_strategies_zh": [
+      "透過多年期規劃決策把住房、工作空間、學校和社區設施分期納入場址更新。",
+      "監測工具須把核准、施工、入住與可負擔性區分，並追蹤專責機構權限移交前後的責任延續。"
+    ],
+    "outcomes_zh": [
+      "LLDC 2024 年公布核准 24,018 戶，已建成入住 13,046 戶，其中可負擔住房 3,578 戶（27%），另近 11,000 戶待建。",
+      "LLDC 同頁報告就業類空間許可 646,000 平方公尺、完成 420,000 平方公尺，以及多所學校與社區空間交付。"
+    ],
+    "critiques_zh": [
+      "交付機構自報數字不提供人口需求、租金負擔或居民受益分布，因此不應等同全面社會成效。",
+      "批准和已入住差距提醒後續地方行政區需承接未完工項目及可負擔住房承諾。"
+    ]
+  },
+  "version": "v2.0"
+}

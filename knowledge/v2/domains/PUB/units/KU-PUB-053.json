@@ -1,0 +1,61 @@
+{
+  "id": "KU-PUB-053",
+  "domain": "PUB",
+  "subtopic": "包容、性別與可用性",
+  "type": "empirical_finding",
+  "title_zh": "公園可及性與休閒步行相關",
+  "title_en": "Park access and recreational walking",
+  "summary_zh": "Perth 對一千三百六十六位成人進行調查，並搭配公園稽核與 GIS 資料。距離較近且具吸引力的開放空間，與是否參與休閒步行相關；較大且品質良好場地與每週達標步行也相關。時間與步行行為來自自陳，關聯不能判成公園造成健康活動。公共可及性要涵蓋品質和吸引力，而非只有幾何最近距離。",
+  "key_points_zh": [
+    "Perth 對一千三百六十六位成人進行調查，並搭配公園稽核與 GIS 資料",
+    "距離較近且具吸引力的開放空間，與是否參與休閒步行相關；較大且品質良好場地與每週達標步行也相關"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "Perth 對一千三百六十六位成人進行調查，並搭配公園稽核與 GIS 資料。",
+        "effect_or_value": "近且具吸引力的空間與休閒步行參與相關；較大優質空間與每週 150 分鐘步行相關。",
+        "study_design": "RESIDE 成人調查、GIS 稽核與迴歸分析",
+        "context_region": "澳洲 Perth，1,366 位成人",
+        "library_id": "SUGIYAMA10",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW",
+        "limitations_zh": "橫斷面關聯、步行時間自陳，無法證明因果。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "把距離、品質與使用者感知拆開測量，並記錄未使用空間的原因。"
+  ],
+  "applies_when_zh": "適用於設計公共綠地和休閒路網的連續性。",
+  "not_applicable_when_zh": "不應由服務半徑推定每位居民都會使用公園。",
+  "debates_zh": "公共可及性要涵蓋品質和吸引力，而非只有幾何最近距離。",
+  "sources": [
+    {
+      "library_id": "SUGIYAMA10",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "GEURS04",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "公園可及性與健康地理",
+  "region": "澳洲 Perth，1,366 位成人",
+  "curriculum_refs": [
+    {
+      "school": "UCL Bartlett",
+      "course": "Critical Debates in Urban Design",
+      "topic": "包容、性別與可用性"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-PUB-052",
+    "KU-PUB-054"
+  ]
+}

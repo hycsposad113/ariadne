@@ -1,0 +1,91 @@
+{
+  "id": "KU-LUP-071",
+  "domain": "LUP",
+  "subtopic": "商業與零售區位",
+  "type": "value_range",
+  "title_zh": "日常食品採買步行距離情境帶",
+  "title_en": "Daily grocery walking-distance scenario",
+  "summary_zh": "把 3.0–4.8 km/h 乘以 5–15 分鐘，可得約 250–1,200 m 的理想步行距離。 這個換算不能說明商店賣什麼、價格是否可負擔或是否在需要時段營業。 應分別盤點超市、便利店、市場與生鮮店，而不是把所有食品目的地合為一類。",
+  "key_points_zh": [
+    "把 3.0–4.8 km/h 乘以 5–15 分鐘，可得約 250–1,200 m 的理想步行距離",
+    "這個換算不能說明商店賣什麼、價格是否可負擔或是否在需要時段營業",
+    "應分別盤點超市、便利店、市場與生鮮店，而不是把所有食品目的地合為一類"
+  ],
+  "evidence": {
+    "strength": "ASSUMED",
+    "findings": [
+      {
+        "claim_zh": "5–15 分鐘以3.0–4.8 km/h換算，理想距離為約 250–1,200 m；這是透明情境計算，非研究觀測出的通用服務標準。",
+        "effect_or_value": "約 250–1,200 m",
+        "study_design": "明示速度與時間的公式換算；非實證測量",
+        "context_region": "歐洲街區服務比較情境",
+        "library_id": "NOWOROL2022",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "日常用途、街道互動及多樣性可作城市生活的討論起點；不能從外觀推定安全或社群。",
+        "effect_or_value": null,
+        "study_design": "形態／制度比較的補充閱讀",
+        "context_region": "歐洲街區服務比較示例",
+        "library_id": "JACOBS61",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "日常食品採買步行距離情境帶",
+      "range": "約 250–1,200 m",
+      "unit": "m",
+      "context": "歐洲街區服務比較情境；用途：食品採買目的地初篩；計算：3.0–4.8 km/h × 5–15 分鐘，僅為無停等、無繞行的直線情境，非文獻直接報告的數值；方法背景書目：NOWOROL2022；需改以路網與使用者條件核算，這不是本基地法規。",
+      "library_id": "NOWOROL2022"
+    }
+  ],
+  "design_implications_zh": [
+    "將不同食品零售類型分開落點，逐一連結到居住入口並標出開放時段。"
+  ],
+  "applies_when_zh": "用於食品採買可達性的初步比較；必須依店型與供應能力分組。",
+  "not_applicable_when_zh": "只測量最近商店的距離，會忽略價格、供應種類、營業時間和實際使用資格。",
+  "debates_zh": "零售點在地圖上存在不表示有可負擔食物、足夠營業時段或無障礙入口。",
+  "sources": [
+    {
+      "library_id": "NOWOROL2022",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "JACOBS61",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "近鄰服務可及性",
+  "region": "歐洲街區服務比較情境",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Planning Complex Cities",
+      "topic": "商業與零售區位"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Cities by Design",
+      "topic": "商業與零售區位"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "商業與零售區位"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Sustainable Futures by Design",
+      "topic": "商業與零售區位"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008"
+}

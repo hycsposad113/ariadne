@@ -1,0 +1,106 @@
+{
+  "id": "KU-MOR-019",
+  "domain": "MOR",
+  "subtopic": "Muratori／Caniggia 類型過程",
+  "type": "method",
+  "title_zh": "Muratori／Caniggia 類型過程｜分析方法",
+  "title_en": "Typological process — Analytical method",
+  "summary_zh": "兩座港市的歷史演變與店屋型態顯示，街區和建築類型受貿易、制度與文化延續共同形塑。 把典型建築、街道界面及地塊序列放在同一套圖面上比較。 讀「Muratori／Caniggia 類型過程｜分析方法」時，限制：跨文化移植類型前須先確認居住制度、氣候和建造方式；同時把兩座港市的歷史演變與店屋型態顯示，街區和建築類型受貿易、制度與文化延續共同形塑列為核對條件。",
+  "key_points_zh": [
+    "把典型建築、街道界面及地塊序列放在同一套圖面上比較。",
+    "把典型建築、街道界面及地塊序列放在同一套圖面上比較。",
+    "讀「Muratori／Caniggia 類型過程｜分析方法」時，限制：跨文化移植類型前須先確認居住制度、氣候和建造方式；同時把兩座港市的歷史演變與店屋型態顯示，街區和建築類型受貿易、制度與文化延續共同形塑列為核對條件。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "Han 以兩座東南亞港市的店屋與街區演變為例，呈現貿易、制度和文化如何共同形塑建築類型；這是跨地域比較案例，不是義大利學派的直接驗證。",
+        "library_id": "HAN2016",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "馬六甲與檳城，馬來西亞",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "George Town 的形態史研究把地理、政治、經濟與文化的長期變動放在同一脈絡，並用地圖及檔案資料追蹤港市層積。",
+        "effect_or_value": null,
+        "study_design": "港市歷史形態分析",
+        "context_region": "馬來西亞喬治市",
+        "library_id": "ZHAO2019",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW",
+        "limitations_zh": "這是另一座港市的獨立案例，不能替原有兩城比較補上同一組觀測值。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "落實「Muratori／Caniggia 類型過程｜分析方法」時可先連續街屋、院落和商住混合型會隨地方生活方式調整，再用兩座港市的歷史演變與店屋型態顯示，街區和建築類型受貿易、制度與文化延續共同形塑核對方案的空間後果。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "「Muratori／Caniggia 類型過程｜分析方法」可把取向落在從最小單元追蹤到街區，區分延續、變異與斷裂，但需連同兩座港市的歷史演變與店屋型態顯示，街區和建築類型受貿易、制度與文化延續共同形塑決定適用方式。",
+      "tradeoff_zh": "此選項把「Muratori／Caniggia 類型過程｜分析方法」的工作放在兩座港市的歷史演變與店屋型態顯示，街區和建築類型受貿易、制度與文化延續共同形塑上；需要承擔的協調或維護代價則由「建成環境的形式與控制權分層相連；開放空間與可改造構造需說明誰能使用或修改」界定。",
+      "library_ids": [
+        "HAN2016"
+      ]
+    },
+    {
+      "option_zh": "「Muratori／Caniggia 類型過程｜分析方法」可把取向落在連續街屋、院落和商住混合型會隨地方生活方式調整，但需連同兩座港市的歷史演變與店屋型態顯示，街區和建築類型受貿易、制度與文化延續共同形塑決定適用方式。",
+      "tradeoff_zh": "「Muratori／Caniggia 類型過程｜分析方法」採用「「Muratori／Caniggia 類型過程｜分析方法」可把取向落在連續街屋、院落和商住混合型會隨地方生活方式調整，但需連同兩座港市的歷史演變與店屋型態顯示，街區和建築類型受貿易、制度與文化延續共同形塑決定適用方式」時，得失要沿著兩座港市的歷史演變與店屋型態顯示，街區和建築類型受貿易、制度與文化延續共同形塑檢查；建成環境的形式與控制權分層相連；開放空間與可改造構造需說明誰能使用或修改。",
+      "library_ids": [
+        "HAN2016"
+      ]
+    }
+  ],
+  "applies_when_zh": "「Muratori／Caniggia 類型過程｜分析方法」可在適用於歷史街區更新、港市街屋與增量式修補時使用，前提是兩座港市的歷史演變與店屋型態顯示，街區和建築類型受貿易、制度與文化延續共同形塑與來源情境相符。",
+  "not_applicable_when_zh": "若兩座港市的歷史演變與店屋型態顯示，街區和建築類型受貿易、制度與文化延續共同形塑不成立，就不能把「Muratori／Caniggia 類型過程｜分析方法」的結論延伸到其他情況；跨文化移植類型前須先確認居住制度、氣候和建造方式。",
+  "debates_zh": "建成環境的形式與控制權分層相連；開放空間與可改造構造需說明誰能使用或修改。",
+  "sources": [
+    {
+      "library_id": "HAN2016",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "ZHAO2019",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "東南亞類型形態學；開放建築",
+  "region": "馬六甲與檳城，馬來西亞；荷蘭",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "Muratori／Caniggia 類型過程"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "Muratori／Caniggia 類型過程"
+    },
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.330J Theory of City Form",
+      "topic": "Muratori／Caniggia 類型過程"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban form and density",
+      "topic": "Muratori／Caniggia 類型過程"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-MOR-016",
+    "KU-MOR-017",
+    "KU-MOR-018"
+  ],
+  "counter_unit_ids": [
+    "KU-MOR-020"
+  ]
+}

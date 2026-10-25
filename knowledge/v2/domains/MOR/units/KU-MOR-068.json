@@ -1,0 +1,77 @@
+{
+  "id": "KU-MOR-068",
+  "domain": "MOR",
+  "subtopic": "地塊、街廓與建築類型",
+  "type": "value_range",
+  "title_zh": "薩凡納 ward 城市網格單元",
+  "title_en": "Savannah ward module",
+  "summary_zh": "薩凡納 ward 將中心廣場、街廓和道路組成一個歷史城市單元，理解其模數時需把公共空間納入，而不是只量可建地。Crossref 的相關章節題名直接聚焦薩凡納城市廣場，但書目沒有作者與摘要，因而無法從這筆記錄核實 600 ft 的尺寸。該數值應保留為待查的歷史比較值。",
+  "key_points_zh": [
+    "薩凡納歷史 ward 常以約 600 ft 方形模組描述，中央廣場與周邊街廓共同構成單元。",
+    "這一模數反映特定殖民時期的城鎮組織，不可直接視為當代住宅街廓標準。",
+    "比較網格時同時計入廣場、道路和周邊街廓，避免只將 ward 外框當作可建基地。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "Crossref 書目確認章節聚焦薩凡納城市廣場及其歷史脈絡，但未提供作者與摘要，不能由書目單獨核實約 600 ft 的 ward 模數。",
+        "library_id": "SAVANNAH_SQUARES2016",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "薩凡納，喬治亞州",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "薩凡納 ward 城市網格單元",
+      "range": "約 180 × 180",
+      "unit": "m（約 600 ft 方形單元）",
+      "context": "薩凡納，喬治亞州，美國；用途：歷史 ward 與城市廣場組織比較；180 × 180 m 是保留的概括範圍，作者和尺寸仍待原始計畫核對；不是本基地法規。",
+      "library_id": "SAVANNAH_SQUARES2016"
+    }
+  ],
+  "design_implications_zh": [
+    "在 Oglethorpe 計畫圖上分別量 ward 外框、中心廣場、道路和周邊街廓，明列單元邊界。"
+  ],
+  "applies_when_zh": "用於比較薩凡納，喬治亞州的歷史 ward 與其公共廣場組織，並明示此數值的來源、年份和面積分母。",
+  "not_applicable_when_zh": "這一模數反映特定殖民時期的城鎮組織，不可直接視為當代住宅街廓標準。",
+  "debates_zh": "廣場屬於城市單元的公共空間構成；把它排除會使歷史 ward 尺度失真。",
+  "sources": [
+    {
+      "library_id": "SAVANNAH_SQUARES2016",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "SINGLE_SOURCE",
+  "tradition": "都市認知",
+  "region": "薩凡納，喬治亞州",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "地塊、街廓與建築類型"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "地塊、街廓與建築類型"
+    },
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.330J Theory of City Form",
+      "topic": "地塊、街廓與建築類型"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban form and density",
+      "topic": "地塊、街廓與建築類型"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008"
+}

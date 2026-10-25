@@ -1,0 +1,98 @@
+{
+  "id": "KU-LUP-023",
+  "domain": "LUP",
+  "subtopic": "混合使用尺度：建築、街廓、街區",
+  "type": "empirical_finding",
+  "title_zh": "就業可及性對房價和租金的方向不同",
+  "title_en": "Job access, mixed use and housing costs",
+  "summary_zh": "模型依賴工具變數與住宅市場背景，不能把房價租金結果當成居民福利總分。 分開觀察租金、房價和通勤可及性，不合併成單一效益。 研究設計：工具變數空間計量，處理內生性及空間自相關；地區：芝加哥都會區，美國。",
+  "key_points_zh": [
+    "芝加哥都會區模型估計，就業可及性與房價提高相關但和租金無顯著關聯；混合用途對房價和租金方向相反。",
+    "研究設計：工具變數空間計量，處理內生性及空間自相關；地區：芝加哥都會區，美國",
+    "限制：模型依賴工具變數與住宅市場背景，不能把房價租金結果當成居民福利總分。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "芝加哥都會區模型估計，就業可及性與房價提高相關但和租金無顯著關聯；混合用途對房價和租金方向相反。",
+        "effect_or_value": "芝加哥；房價上升、租金無顯著關聯；混合用途房價下降而租金上升",
+        "study_design": "工具變數空間計量，處理內生性及空間自相關",
+        "context_region": "芝加哥都會區，美國",
+        "library_id": "KIMJIN2019",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "分開觀察租金、房價和通勤可及性，不合併成單一效益。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "分開觀察租金、房價和通勤可及性，不合併成單一效益。",
+      "tradeoff_zh": "此選項把「就業可及性對房價和租金的方向不同」的工作放在芝加哥都會區模型估計，就業可及性與房價提高相關但和租金無顯著關聯；混合用途對房價和租金方向相反上；需要承擔的協調或維護代價則由「模型依賴工具變數與住宅市場背景，不能把房價租金結果當成居民福利總分」界定。",
+      "library_ids": [
+        "KIMJIN2019",
+        "MARCUS10"
+      ]
+    },
+    {
+      "option_zh": "「就業可及性對房價和租金的方向不同」可把取向落在樓層混用可縮短活動距離；街區混用較易分隔噪音與裝卸，但需連同芝加哥都會區模型估計，就業可及性與房價提高相關但和租金無顯著關聯；混合用途對房價和租金方向相反決定適用方式。",
+      "tradeoff_zh": "此選項把「就業可及性對房價和租金的方向不同」的工作放在芝加哥都會區模型估計，就業可及性與房價提高相關但和租金無顯著關聯；混合用途對房價和租金方向相反上；需要承擔的協調或維護代價則由「模型依賴工具變數與住宅市場背景，不能把房價租金結果當成居民福利總分」界定。",
+      "library_ids": [
+        "KIMJIN2019",
+        "MARCUS10"
+      ]
+    }
+  ],
+  "applies_when_zh": "用於與芝加哥都會區，美國研究情境可比、且量測定義相近的分析。",
+  "not_applicable_when_zh": "模型依賴工具變數與住宅市場背景，不能把房價租金結果當成居民福利總分。",
+  "debates_zh": "模型依賴工具變數與住宅市場背景，不能把房價租金結果當成居民福利總分。",
+  "sources": [
+    {
+      "library_id": "KIMJIN2019",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "MARCUS10",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "城市土地經濟與混合用途；空間資本",
+  "region": "芝加哥都會區，美國；瑞典",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Planning Complex Cities",
+      "topic": "混合使用尺度：建築、街廓、街區"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Cities by Design",
+      "topic": "混合使用尺度：建築、街廓、街區"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "混合使用尺度：建築、街廓、街區"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Sustainable Futures by Design",
+      "topic": "混合使用尺度：建築、街廓、街區"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-LUP-018",
+    "KU-LUP-019",
+    "KU-LUP-020"
+  ],
+  "counter_unit_ids": [
+    "KU-LUP-022"
+  ]
+}

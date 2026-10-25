@@ -1,0 +1,74 @@
+{
+  "id": "KU-CLI-030",
+  "domain": "CLI",
+  "subtopic": "樹木降溫",
+  "type": "empirical_finding",
+  "title_zh": "樹冠變化會同時影響輻射和人體熱環境",
+  "title_en": "樹冠變化會同時影響輻射和人體熱環境",
+  "summary_zh": "Wuhan 淺街谷研究用微氣候觀測和熱舒適分析檢視樹冠覆蓋與環境條件。研究方向顯示樹冠改變遮蔭和熱暴露，但效果依街谷幾何、樹種和氣象條件而變。這個個案不能直接給出其他城市的普遍降溫幅度。",
+  "key_points_zh": [
+    "研究設計為中國武漢街谷現地量測。",
+    "結果方向連結冠層遮蔭與熱舒適，外推條件有限。"
+  ],
+  "evidence": {
+    "strength": "CASE_EVIDENCE",
+    "findings": [
+      {
+        "library_id": "HUANG2020",
+        "claim_zh": "Wuhan 淺街谷研究用微氣候觀測和熱舒適分析檢視樹冠覆蓋與環境條件。",
+        "effect_or_value": "這個個案不能直接給出其他城市的普遍降溫幅度。",
+        "study_design": "街谷現地量測",
+        "context_region": "Wuhan, China",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "library_id": "YANG2016",
+        "claim_zh": "題名確認研究以新加坡都市街道分析街道設計與戶外熱舒適；不把熱舒適方向等同日照、通風或普遍偏好；本單元 KU-CLI-030 對照「Wuhan 淺街谷研究用微氣候觀測和熱舒適分析檢視樹冠覆蓋與環境條件」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": "KU-CLI-030 的效應量仍以其原列研究結果為準；YANG2016 僅提供相鄰主題脈絡，未作量值來源。",
+        "study_design": "都市街道案例研究",
+        "context_region": "Singapore",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "在當地氣候和樹種下量測行人高度熱指標。",
+    "分開報告輻射、氣溫和 PET/UTCI。"
+  ],
+  "applies_when_zh": "適用於街樹配置和微氣候方案驗證。",
+  "not_applicable_when_zh": "不適用於把不同城市的效果當成保證。",
+  "debates_zh": "遮蔭降低輻射不代表空氣溫度同幅降低，人體感受還受風和濕度影響。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "HUANG2020",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "YANG2016",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "樹冠與戶外熱舒適實證",
+  "region": "Wuhan, China；Singapore",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "樹木降溫"
+    },
+    {
+      "school": "MIT",
+      "course": "Theory of City Form",
+      "topic": "樹木降溫"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0"
+}

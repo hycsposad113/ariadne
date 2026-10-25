@@ -1,0 +1,96 @@
+{
+  "id": "POR-006",
+  "title_zh": "服務環路作品集策略",
+  "title_en": "Portfolio service loop",
+  "domain": "portfolio",
+  "stages": [
+    "S2",
+    "S3",
+    "S4",
+    "S6",
+    "S7",
+    "S8"
+  ],
+  "statement_zh": "把工坊與保留物服務面接至外圈，比較完整環路與分時服務支路，不畫無功能環。",
+  "rationale_zh": "物流需要可達，中心保留慢行生活。",
+  "applies_when": {
+    "scale": [
+      "*"
+    ],
+    "land_use": [
+      "*"
+    ],
+    "strategy": [
+      "*"
+    ],
+    "mode": [
+      "*"
+    ]
+  },
+  "parameters": [
+    {
+      "name": "service_gate_count_trial",
+      "value": 2,
+      "range": null,
+      "unit": "gates",
+      "provenance": "ASSUMED_COMMANDER",
+      "source_ids": [],
+      "authority_ref": null,
+      "status": "PROPOSED_PENDING_FOUNDER",
+      "rationale_zh": "指揮官提出的敏感性試算值，文獻未提供此數值；須 Founder 確認、地方資料及確定性驗證，未生效。"
+    }
+  ],
+  "check": {
+    "method_zh": "逐棟檢查服務入口連到環路或支路的拓樸，依 MOB-006 對每個分離 footprint 查40 m平面 proximity；消防合規另列缺口。",
+    "inputs": [
+      "凍結幾何與路網版本／hash",
+      "已接受D1/D2與准入證據",
+      "卡片參數與版本"
+    ],
+    "output": "值、單位、方法、status、限制與缺口；不能自行採納",
+    "implementation_status": "SPECIFICATION_ONLY"
+  },
+  "check_unavailable_reason_zh": null,
+  "design_responses": [
+    {
+      "option": "1",
+      "action_zh": "閉合服務環",
+      "source_ids": [
+        "MARSHALL05"
+      ],
+      "tradeoff_zh": "佔地與交叉多。 作品集提供設計意圖，學術引用僅為類似概念的佐證，未驗證作品集本身。"
+    },
+    {
+      "option": "2",
+      "action_zh": "短服務支路",
+      "source_ids": [
+        "AJACOBS93"
+      ],
+      "tradeoff_zh": "回車與營運限制。 作品集提供設計意圖，學術引用僅為類似概念的佐證，未驗證作品集本身。"
+    }
+  ],
+  "evidence_level": "PORTFOLIO",
+  "evidence_strength": "NORMATIVE_PRACTICE",
+  "sources": [
+    {
+      "library_id": "MARSHALL05",
+      "claim_id": "C1",
+      "support_scope_zh": "文獻支持概念與比較角度；本卡具體操作是設計推導，試算值及專案約束不是文獻的普適結論。"
+    },
+    {
+      "library_id": "AJACOBS93",
+      "claim_id": "C1",
+      "support_scope_zh": "文獻支持概念與比較角度；本卡具體操作是設計推導，試算值及專案約束不是文獻的普適結論。"
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "enforcement": "CANDIDATE_ONLY",
+  "authority_ref": null,
+  "debates_zh": "作品集構想可用於提出選項，學術來源提供比較概念而非該設計的驗證；相反取向保留給設計者比較。 已查證書目與主張的查閱層級見 library；不是逐頁核驗或本基地因果結論。",
+  "context_validity_zh": "作品集為 M4H 個案；引用的外地研究只支持概念，不能證明本案營運、權利、性能或偏好。",
+  "exceptions_zh": "卡片不可替代現行法規、產權、無障礙或已接受 D1/D2。缺必要資料即回報 UNKNOWN；例外須由 Founder 明確決定並保留原結果。",
+  "version": "0.2.0",
+  "local_context_refs": [
+    "PORTFOLIO"
+  ]
+}

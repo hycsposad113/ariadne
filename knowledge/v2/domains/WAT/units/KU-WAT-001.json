@@ -1,0 +1,92 @@
+{
+  "id": "KU-WAT-001",
+  "domain": "WAT",
+  "subtopic": "水敏感都市設計（WSUD）—術語與效能邊界",
+  "type": "typology",
+  "title_zh": "雨水設計名稱不能代替性能說明",
+  "title_en": "Water-sensitive design labels do not establish performance",
+  "summary_zh": "WSUD、LID 與 SuDS 等名稱各自在不同研究和治理脈絡中形成，名稱相似不代表採用相同的設施組合或責任分工。跨城市閱讀時，應把水循環環節、工程或景觀手段、維運機構分開描述，才不會把政策標籤當成已驗證的效果。現有書目與術語題目可以支持概念分類，卻不能單獨證明某項設計的滯洪量、水質改善或洪災風險變化。",
+  "key_points_zh": [
+    "比較 WSUD、LID、SuDS 時先列出各自指涉的水文過程、設施型態與治理尺度。",
+    "水景、滯留設施或綠地的實際效能需要場址資料、容量計算與運維條件，不能由標籤推論。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "library_id": "BROWNFARRELLY2009",
+        "claim_zh": "書目確認本文題名聚焦「Delivering sustainable urban water management: a review of the hurdles we face」；目前只完成作者、年份、題名與 DOI 核對，未將摘要或全文結論納入此記錄；本單元 KU-WAT-001 對照「WSUD、LID 與 SuDS 等名稱各自在不同研究和治理脈絡中形成，名稱相似不代表採用相同的設施組合或責任分工」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "文獻回顧；目前僅核對書目範圍",
+        "context_region": "澳洲與美國",
+        "locator": null
+      },
+      {
+        "library_id": "KABISCH2017",
+        "claim_zh": "書目確認本文題名聚焦「Nature-Based Solutions to Climate Change Adaptation in Urban Areas—Linkages Between Science, Policy and Practice」；目前只完成作者、年份、題名與 DOI 核對，未將摘要或全文結論納入此記錄；本單元 KU-WAT-001 對照「WSUD、LID 與 SuDS 等名稱各自在不同研究和治理脈絡中形成，名稱相似不代表採用相同的設施組合或責任分工」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "文獻回顧；目前僅核對書目範圍",
+        "context_region": "歐洲與國際",
+        "locator": null
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "在方案圖說中逐項說明收集、滲透、暫存、排放及維護由誰負責，讓不同術語下的設施組合可比較。",
+    "需要評估滯留量或溢流風險時，另接降雨設計情境、場址高程、土壤與排水資料，不把此概念單元當作數值依據。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "採用地方熟悉的 WSUD／SuDS／LID 詞彙，但附上一張設施與責任對照表。",
+      "tradeoff_zh": "容易接上專業制度；不同城市的術語邊界仍須逐項核對。",
+      "library_ids": [
+        "FLETCHER2015",
+        "BROWN09"
+      ]
+    },
+    {
+      "option_zh": "以水循環功能描述策略，再把在地名稱放在括號中。",
+      "tradeoff_zh": "跨地區可讀性較高，但需要更多圖說解釋地方慣例。",
+      "library_ids": [
+        "FLETCHER2015"
+      ]
+    }
+  ],
+  "applies_when_zh": "適用於概念規劃、跨城市案例比較或不同專業團隊需要釐清水管理範圍時。",
+  "not_applicable_when_zh": "不適用於雨水滯留容量、排水管徑、洪水深度或設施效能的定量判定。",
+  "debates_zh": "術語分類能協助溝通，也可能把地方制度差異壓成單一品牌。題名與摘要缺失使本記錄無法判定各流派對設施成效的主張；是否採用某一套詞彙，應由專案治理及受影響團隊的共同理解決定。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "BROWNFARRELLY2009",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "KABISCH2017",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "水敏感都市設計／都市水治理",
+  "region": "跨地域",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "Water-sensitive urban design and urban water systems"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Sustainable Futures by Design",
+      "topic": "Water, climate adaptation, and climate resilience"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0"
+}

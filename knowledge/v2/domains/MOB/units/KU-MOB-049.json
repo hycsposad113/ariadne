@@ -1,0 +1,81 @@
+{
+  "id": "KU-MOB-049",
+  "domain": "MOB",
+  "subtopic": "停車政策與最低停車標準的影響",
+  "type": "empirical_finding",
+  "title_zh": "停車付款方式與工作旅次開車",
+  "title_en": "Parking payment and work-trip driving",
+  "summary_zh": "2013/14 挪威全國旅運調查、地理脈絡控制和停車可及性迴歸，研究脈絡為挪威。管理停車價格和供給可能影響工作旅次模式。工作地月繳停車與近兩倍的開車機率相關，相比每日付款方式；家與目的地限制效果會疊加。限制包括觀察性旅運調查不能證明單一付款安排的因果效果。",
+  "key_points_zh": [
+    "管理停車價格和供給可能影響工作旅次模式",
+    "限制：觀察性旅運調查不能證明單一付款安排的因果效果",
+    "效果或方向：工作地月繳停車與近兩倍的開車機率相關，相比每日付款方式；家與目的地限制效果會疊加"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "停車付款方式與工作旅次開車｜管理停車價格和供給可能影響工作旅次模式",
+        "effect_or_value": "工作地月繳停車與近兩倍的開車機率相關，相比每日付款方式；家與目的地限制效果會疊加",
+        "study_design": "2013/14 挪威全國旅運調查、地理脈絡控制和停車可及性迴歸",
+        "context_region": "挪威",
+        "library_id": "CHRISTIANSEN16",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "停車付款方式與工作旅次開車｜Porirua CBD 案例將 24% 面積計為汽車停車場，研究亦指出最低標準與超額供給、分散式發展及開車偏好相連；數值只描述該地",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "HULME_MOIR10",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "把供給、價格、支付週期與城市密度作為不同政策變數"
+  ],
+  "applies_when_zh": "若本地觀察單位與挪威的研究脈絡可對照，可用「管理停車價格和供給可能影響工作旅次模式」作為停車政策與最低停車標準的影響的比較線索。",
+  "not_applicable_when_zh": "這項挪威的研究結果不能單獨證明因果或預測其他城市的街段；原研究觀察性旅運調查不能證明單一付款安排的因果效果。",
+  "debates_zh": "關聯能否外推；觀察性旅運調查不能證明單一付款安排的因果效果；檢視「停車付款方式與工作旅次開車」的研究解讀時，還需判斷「限制：觀察性旅運調查不能證明單一付款安排的因果效果」會如何改變方案結論。",
+  "sources": [
+    {
+      "library_id": "CHRISTIANSEN16",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "HULME_MOIR10",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "停車供給與交通需求管理",
+  "region": "挪威",
+  "curriculum_refs": [
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "停車政策與最低停車標準的影響：課綱對應主題"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Sustainable Futures by Design",
+      "topic": "停車政策與最低停車標準的影響：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-MOB-050",
+    "KU-MOB-051",
+    "KU-MOB-052",
+    "KU-MOB-053",
+    "KU-MOB-054",
+    "KU-MOB-055",
+    "KU-MOB-056"
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "id": "KU-SYN-033",
+  "domain": "SYN",
+  "subtopic": "角度與度量距離",
+  "type": "empirical_finding",
+  "title_zh": "角度表示和拓樸表示的效果差異",
+  "title_en": "Angular versus topological integration effects",
+  "summary_zh": "隨機效果統合分析按圖表示方式分組，研究脈絡為跨地區研究文獻；摘要未列出各國完整分布。表示方式可能大幅改變指標與行人移動的關聯強度。整合度在角度表示下 ES=0.502，拓樸表示下 ES=0.124。限制包括研究間異質性高，兩者不是同一量尺。",
+  "key_points_zh": [
+    "表示方式可能大幅改變指標與行人移動的關聯強度",
+    "限制：研究間異質性高，兩者不是同一量尺",
+    "效果或方向：整合度在角度表示下 ES=0.502，拓樸表示下 ES=0.124"
+  ],
+  "evidence": {
+    "strength": "STRONG_EMPIRICAL",
+    "findings": [
+      {
+        "claim_zh": "角度表示和拓樸表示的效果差異｜表示方式可能大幅改變指標與行人移動的關聯強度",
+        "effect_or_value": "整合度在角度表示下 ES=0.502，拓樸表示下 ES=0.124",
+        "study_design": "隨機效果統合分析按圖表示方式分組",
+        "context_region": "跨地區研究文獻；摘要未列出各國完整分布",
+        "library_id": "SHARMIN17",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "角度表示和拓樸表示的效果差異｜步行性有多種定義與設計訴求；需明確說明量測的是距離、舒適、活動還是可及性",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "FORSYTH15",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "將表示選擇視為模型參數而非默認設定"
+  ],
+  "applies_when_zh": "若本地觀察單位與跨地區研究文獻；摘要未列出各國完整分布的研究脈絡可對照，可用「表示方式可能大幅改變指標與行人移動的關聯強度」作為角度與度量距離的比較線索。",
+  "not_applicable_when_zh": "這項跨地區研究文獻；摘要未列出各國完整分布的研究結果不能單獨證明因果或預測其他城市的街段；原研究研究間異質性高，兩者不是同一量尺。",
+  "debates_zh": "關聯能否外推；研究間異質性高，兩者不是同一量尺；檢視「角度表示和拓樸表示的效果差異」的研究解讀時，還需判斷「限制：研究間異質性高，兩者不是同一量尺」會如何改變方案結論。",
+  "sources": [
+    {
+      "library_id": "SHARMIN17",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "FORSYTH15",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "空間網路距離模型",
+  "region": "跨地區研究文獻；摘要未列出各國完整分布",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Methods of Analysis & Imagination",
+      "topic": "角度與度量距離：課綱對應主題"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Cities by Design",
+      "topic": "角度與度量距離：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-SYN-034",
+    "KU-SYN-035",
+    "KU-SYN-036",
+    "KU-SYN-037",
+    "KU-SYN-038",
+    "KU-SYN-039",
+    "KU-SYN-040"
+  ]
+}

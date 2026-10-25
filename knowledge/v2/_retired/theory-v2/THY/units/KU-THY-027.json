@@ -1,0 +1,85 @@
+{
+  "id": "KU-THY-027",
+  "domain": "THY",
+  "subtopic": "現代主義（CIAM、機能城市）與批判（Jacobs、Team 10、Collage City、Rossi、Krier）",
+  "type": "empirical_finding",
+  "title_zh": "現代主義與批判：高層住宅生活",
+  "title_en": "Modernism and its critiques: CIAM, Jacobs, Team 10, Collage City, Rossi, and Krier — empirical finding unit 027",
+  "summary_zh": "新加坡公共住宅的居民研究提醒，高層居住經驗須連同公共設施和社區環境理解，不能只用建築高度或密度推論接受度。研究情境受新加坡公共住宅制度影響，設計比較應把住戶生活經驗和服務可及納入。單一國家案例不提供跨制度的高度門檻。限制是「現代主義與批判：高層住宅生活」所用的城市或案例資料不能單獨證明設計因果，外推仍需重新檢驗。",
+  "key_points_zh": [
+    "新加坡公共住宅的居民研究提醒，高層居住經驗須連同公共設施和社區環境理解，不能只用建築高度或密度推論接受度。",
+    "研究情境受新加坡公共住宅制度影響，設計比較應把住戶生活經驗和服務可及納入。",
+    "單一國家案例不提供跨制度的高度門檻。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "【ABSTRACT_REVIEW】新加坡公共住宅的居民研究提醒，高層居住經驗須連同公共設施和社區環境理解，不能只用建築高度或密度推論接受度。研究情境受新加坡公共住宅制度影響，設計比較應把住戶生活經驗和服務可及納入。單一國家案例不提供跨制度的高度門檻。限制是「現代主義與批判：高層住宅生活」所用的城市或案例資料不能單獨證明設計因果，外推仍需重新檢驗。",
+        "effect_or_value": "居民經驗同時包含高層居住的肯定與顧慮，接受度不是單一方向",
+        "study_design": "新加坡公共住宅居民生活經驗調查",
+        "context_region": "新加坡",
+        "library_id": "YUE05",
+        "locator": null,
+        "claim_verification": "CANONICAL_CROSS_CHECK_PENDING"
+      },
+      {
+        "claim_zh": "【BIBLIOGRAPHIC_SCOPE_ONLY】就「現代主義與批判：高層住宅生活」而言，「The Structure of the Ordinary: Form and Control in the Built Environment」提供開放建築的比較坐標；此處僅使用其已標明的書目／摘要範圍，不延伸為未核對的效果或因果。",
+        "effect_or_value": null,
+        "study_design": "理論",
+        "context_region": "荷蘭；跨地域",
+        "library_id": "HABRAKEN98",
+        "locator": null,
+        "claim_verification": "CANONICAL_CROSS_CHECK_PENDING"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "避免把方案中的活動和治理關係塞進互斥分類，並實際檢查交疊是否可運作。"
+  ],
+  "design_options": [],
+  "applies_when_zh": "當問題包含「現代主義與批判：高層住宅生活」且需比較需要對照功能分區、連續街道、拼貼、類型與漸進更新時時使用。",
+  "not_applicable_when_zh": "若研究缺少對應尺度或群體資料，不以「現代主義與批判：高層住宅生活」取代把歷史批判直接轉為固定街廓、密度或用途比例時。",
+  "debates_zh": "「現代主義與批判：高層住宅生活」的爭點在於現代主義與其批判都不是同質陣營；一個城市的成效取決於制度、住房與時間；亞洲高層生活與空間語法的研究對象不同，需保留差異而不能合併成單一規則。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "YUE05",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "HABRAKEN98",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "現代主義／反思與替代",
+  "region": "新加坡；荷蘭；跨地域",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "現代主義與批判：高層住宅生活 — 現代主義（CIAM、機能城市）與批判（Jacobs、Team 10、Collage City、Rossi、Krier）"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Urban Design Contexts and Operations",
+      "topic": "現代主義與批判：高層住宅生活 — 現代主義（CIAM、機能城市）與批判（Jacobs、Team 10、Collage City、Rossi、Krier）"
+    },
+    {
+      "school": "MIT",
+      "course": "4.241J Theory of City Form / 11.301J Urban Design and Development",
+      "topic": "現代主義與批判：高層住宅生活 — 現代主義（CIAM、機能城市）與批判（Jacobs、Team 10、Collage City、Rossi、Krier）"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Critical Debates in Urban Design",
+      "topic": "現代主義與批判：高層住宅生活 — 現代主義（CIAM、機能城市）與批判（Jacobs、Team 10、Collage City、Rossi、Krier）"
+    }
+  ],
+  "version": "2.0.0",
+  "claim_verification": "CANONICAL_CROSS_CHECK_PENDING"
+}

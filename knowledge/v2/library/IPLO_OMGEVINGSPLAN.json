@@ -1,0 +1,36 @@
+{
+  "id": "IPLO_OMGEVINGSPLAN",
+  "title": "Omgevingsplan",
+  "authors": [
+    "Informatiepunt Leefomgeving (IPLO)"
+  ],
+  "year": 2026,
+  "venue_or_publisher": "Informatiepunt Leefomgeving (IPLO)",
+  "doi": null,
+  "isbn": null,
+  "kind": "POLICY",
+  "tradition": "官方制度與專業實務指引",
+  "region": [
+    "Informatiepunt Leefomgeving (IPLO)"
+  ],
+  "method": "官方公開法規、政策頁或手冊；依verification.method註明可讀範圍",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "每個市鎮有一份 omgevingsplan；規則服務於環境法目的及功能對地點的均衡分配。",
+      "strength": "NORMATIVE_PRACTICE",
+      "scope_zh": "僅摘要官方公開頁面可直接支持之制度或實務內容；不外推為M4H地方法規。",
+      "assessment_basis": "OFFICIAL_SITE_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED_OFFICIAL_SITE",
+    "url": "https://iplo.nl/regelgeving/instrumenten/omgevingsplan/",
+    "accessed_utc": "2026-10-08T10:47:42Z",
+    "method": "official public page",
+    "match_notes_zh": "核對官方來源網域與可公開讀取的頁面／摘錄；內容範圍限制已記錄。"
+  },
+  "limitations_zh": "official public page",
+  "metadata_licence_zh": "保存官方公開文件的書目欄位與自行改寫的內容摘要；未保存付費全文。"
+}

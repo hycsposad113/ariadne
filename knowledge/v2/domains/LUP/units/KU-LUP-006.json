@@ -1,0 +1,98 @@
+{
+  "id": "KU-LUP-006",
+  "domain": "LUP",
+  "subtopic": "土地使用分類",
+  "type": "empirical_finding",
+  "title_zh": "土地多樣性與步行的關聯高於不少其他環境量",
+  "title_en": "Built environment and travel meta-analysis",
+  "summary_zh": "研究樣本量偏小，少數研究控制居住偏好；作者提醒估計仍含未知誤差。 把多樣性和路網條件作為可檢驗變數，而非保證步行增加的規則。 研究設計：對個別研究彈性進行加權統合分析；地區：跨研究，含北美及其他地區文獻。",
+  "key_points_zh": [
+    "整合分析顯示步行與土地使用多樣性、交叉口密度及步行可達目的地的關聯較強；各環境變數旅次彈性絕對值都未超過 0.39。",
+    "研究設計：對個別研究彈性進行加權統合分析；地區：跨研究，含北美及其他地區文獻",
+    "限制：研究樣本量偏小，少數研究控制居住偏好；作者提醒估計仍含未知誤差。"
+  ],
+  "evidence": {
+    "strength": "STRONG_EMPIRICAL",
+    "findings": [
+      {
+        "claim_zh": "整合分析顯示步行與土地使用多樣性、交叉口密度及步行可達目的地的關聯較強；各環境變數旅次彈性絕對值都未超過 0.39。",
+        "effect_or_value": "截至 2009 年文獻的加權彈性多低於 0.39；多數更小",
+        "study_design": "對個別研究彈性進行加權統合分析",
+        "context_region": "跨研究，含北美及其他地區文獻",
+        "library_id": "EWING10",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "把多樣性和路網條件作為可檢驗變數，而非保證步行增加的規則。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "把多樣性和路網條件作為可檢驗變數，而非保證步行增加的規則。",
+      "tradeoff_zh": "可回應研究指出的條件，但需要本地測量與實施成本評估。",
+      "library_ids": [
+        "EWING10",
+        "YE14"
+      ]
+    },
+    {
+      "option_zh": "「土地多樣性與步行的關聯高於不少其他環境量」可把取向落在居住、商業、製造、公共設施和開放空間可按不同規劃問題再分層，但需連同整合分析顯示步行與土地使用多樣性、交叉口密度及步行可達目的地的關聯較強；各環境變數旅次彈性絕對值都未超過 0.39決定適用方式。",
+      "tradeoff_zh": "保留其他空間策略，但可能降低該研究所見的某項關聯。",
+      "library_ids": [
+        "EWING10",
+        "YE14"
+      ]
+    }
+  ],
+  "applies_when_zh": "用於與跨研究，含北美及其他地區文獻研究情境可比、且量測定義相近的分析。",
+  "not_applicable_when_zh": "研究樣本量偏小，少數研究控制居住偏好；作者提醒估計仍含未知誤差。",
+  "debates_zh": "研究樣本量偏小，少數研究控制居住偏好；作者提醒估計仍含未知誤差。",
+  "sources": [
+    {
+      "library_id": "EWING10",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "YE14",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "交通與建成環境實證；整合形態診斷",
+  "region": "美國；荷蘭",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Planning Complex Cities",
+      "topic": "土地使用分類"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Cities by Design",
+      "topic": "土地使用分類"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "土地使用分類"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Sustainable Futures by Design",
+      "topic": "土地使用分類"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-LUP-001",
+    "KU-LUP-002",
+    "KU-LUP-003"
+  ],
+  "counter_unit_ids": [
+    "KU-LUP-005"
+  ]
+}

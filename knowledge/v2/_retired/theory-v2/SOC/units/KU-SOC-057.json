@@ -1,0 +1,82 @@
+{
+  "id": "KU-SOC-057",
+  "domain": "SOC",
+  "subtopic": "都市更新的社會影響",
+  "type": "critique",
+  "title_zh": "都市更新社會影響：非正式使用",
+  "title_en": "Social impacts of urban regeneration — critique unit 057",
+  "summary_zh": "非正式使用可能維持低成本生計與地方網絡，也可能承受不安全條件和被清除風險。研究者應辨認哪些活動被規劃分類視為「問題」，由誰設定合法性，並記錄被忽略的使用者。承認非正式性不等於放棄安全、衛生或勞動權保障。",
+  "key_points_zh": [
+    "非正式使用可能維持低成本生計與地方網絡，也可能承受不安全條件和被清除風險。",
+    "研究者應辨認哪些活動被規劃分類視為「問題」，由誰設定合法性，並記錄被忽略的使用者。",
+    "承認非正式性不等於放棄安全、衛生或勞動權保障。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "【BIBLIOGRAPHIC_SCOPE_ONLY】就「都市更新社會影響：非正式使用」而言，「Insurgent Planning: Situating Radical Planning in the Global South」提供insurgent planning and postcolonial critique的比較坐標；此處僅使用其已標明的書目／摘要範圍，不延伸為未核對的效果或因果。",
+        "effect_or_value": null,
+        "study_design": "theoretical argument grounded in planning practice",
+        "context_region": "Global South",
+        "library_id": "MIRAFTAB2009",
+        "locator": null
+      },
+      {
+        "claim_zh": "【ABSTRACT_REVIEW】就「都市更新社會影響：非正式使用」而言，「Urban Informality: Toward an Epistemology of Planning」提供非正式都市化的比較坐標；此處僅使用其已標明的書目／摘要範圍，不延伸為未核對的效果或因果。",
+        "effect_or_value": null,
+        "study_design": "理論／規劃批評",
+        "context_region": "全球南方",
+        "library_id": "ROY05",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "辨認非正式活動的支持功能、風險和治理責任，不只做清除清單。"
+  ],
+  "design_options": [],
+  "applies_when_zh": "在評估「都市更新社會影響：非正式使用」涉及的資源分配、權力或居住影響時，先界定受影響群體與決策階段。",
+  "not_applicable_when_zh": "若沒有「都市更新社會影響：非正式使用」所需的群體、時序或市場資料，不把概念類比當作已驗證的效果或法律結論。",
+  "debates_zh": "保留非正式生計不能淡化污染、安全與勞動保障責任。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "MIRAFTAB2009",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "ROY05",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "都市更新／搬遷、保存與生活連續性",
+  "region": "非洲；全球南方",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Planning Complex Cities",
+      "topic": "都市更新社會影響：非正式使用 — 都市更新的社會影響"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Urban Design Contexts and Operations",
+      "topic": "都市更新社會影響：非正式使用 — 都市更新的社會影響"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "都市更新社會影響：非正式使用 — 都市更新的社會影響"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design Governance",
+      "topic": "都市更新社會影響：非正式使用 — 都市更新的社會影響"
+    }
+  ],
+  "version": "2.0.0"
+}

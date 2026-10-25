@@ -1,0 +1,61 @@
+{
+  "id": "KU-ECO-056",
+  "domain": "ECO",
+  "subtopic": "生態服務",
+  "type": "critique",
+  "title_zh": "服務之間存在時間上的取捨",
+  "title_en": "Services trade off across time",
+  "summary_zh": "夏季遮蔭可能是主要熱服務，冬季日照則可能更受重視。滯洪綠地在暴雨期間會改變遊憩可用性。年平均值會抹去極端事件和季節差異。極端天氣會重排服務優先順序。用季節及事件情境列出受益和限制。",
+  "key_points_zh": [
+    "夏季遮蔭可能是主要熱服務，冬季日照則可能更受重視",
+    "滯洪綠地在暴雨期間會改變遊憩可用性"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "夏季遮蔭可能是主要熱服務，冬季日照則可能更受重視。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "跨地域",
+        "library_id": "GRIMM08",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "極端天氣會重排服務優先順序。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "用季節及事件情境列出受益和限制。"
+  ],
+  "applies_when_zh": "適用於氣候調適方案設計。",
+  "not_applicable_when_zh": "不能只用一個年均指標比較綠地方案。",
+  "debates_zh": "極端天氣會重排服務優先順序。",
+  "sources": [
+    {
+      "library_id": "GRIMM08",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "ELMQVIST13",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "都市社會生態系統",
+  "region": "跨地域",
+  "curriculum_refs": [
+    {
+      "school": "UCL Bartlett",
+      "course": "Critical Debates in Urban Design",
+      "topic": "生態服務"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-ECO-055",
+    "KU-ECO-057"
+  ]
+}

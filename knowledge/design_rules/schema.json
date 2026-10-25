@@ -1,0 +1,440 @@
+{
+  "$defs": {
+    "Check": {
+      "additionalProperties": false,
+      "properties": {
+        "method_zh": {
+          "minLength": 1,
+          "title": "Method Zh",
+          "type": "string"
+        },
+        "inputs": {
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1,
+          "title": "Inputs",
+          "type": "array"
+        },
+        "output": {
+          "minLength": 1,
+          "title": "Output",
+          "type": "string"
+        },
+        "implementation_status": {
+          "const": "SPECIFICATION_ONLY",
+          "title": "Implementation Status",
+          "type": "string"
+        }
+      },
+      "required": [
+        "method_zh",
+        "inputs",
+        "output",
+        "implementation_status"
+      ],
+      "title": "Check",
+      "type": "object"
+    },
+    "Parameter": {
+      "additionalProperties": false,
+      "properties": {
+        "name": {
+          "minLength": 1,
+          "title": "Name",
+          "type": "string"
+        },
+        "value": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "number"
+            },
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Value"
+        },
+        "range": {
+          "anyOf": [
+            {
+              "maxItems": 2,
+              "minItems": 2,
+              "prefixItems": [
+                {
+                  "anyOf": [
+                    {
+                      "type": "integer"
+                    },
+                    {
+                      "type": "number"
+                    }
+                  ]
+                },
+                {
+                  "anyOf": [
+                    {
+                      "type": "integer"
+                    },
+                    {
+                      "type": "number"
+                    }
+                  ]
+                }
+              ],
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Range"
+        },
+        "unit": {
+          "minLength": 1,
+          "title": "Unit",
+          "type": "string"
+        },
+        "provenance": {
+          "enum": [
+            "SOURCE",
+            "ASSUMED_COMMANDER",
+            "FOUNDER"
+          ],
+          "title": "Provenance",
+          "type": "string"
+        },
+        "source_ids": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Source Ids",
+          "type": "array"
+        },
+        "authority_ref": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Authority Ref"
+        },
+        "status": {
+          "enum": [
+            "PROPOSED_PENDING_FOUNDER",
+            "CONTEXT_TO_VERIFY",
+            "PROJECT_INSTRUCTION"
+          ],
+          "title": "Status",
+          "type": "string"
+        },
+        "rationale_zh": {
+          "minLength": 1,
+          "title": "Rationale Zh",
+          "type": "string"
+        }
+      },
+      "required": [
+        "name",
+        "value",
+        "range",
+        "unit",
+        "provenance",
+        "source_ids",
+        "status",
+        "rationale_zh"
+      ],
+      "title": "Parameter",
+      "type": "object"
+    },
+    "Response": {
+      "additionalProperties": false,
+      "properties": {
+        "option": {
+          "minLength": 1,
+          "title": "Option",
+          "type": "string"
+        },
+        "action_zh": {
+          "minLength": 1,
+          "title": "Action Zh",
+          "type": "string"
+        },
+        "source_ids": {
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1,
+          "title": "Source Ids",
+          "type": "array"
+        },
+        "tradeoff_zh": {
+          "minLength": 1,
+          "title": "Tradeoff Zh",
+          "type": "string"
+        }
+      },
+      "required": [
+        "option",
+        "action_zh",
+        "source_ids",
+        "tradeoff_zh"
+      ],
+      "title": "Response",
+      "type": "object"
+    },
+    "Source": {
+      "additionalProperties": false,
+      "properties": {
+        "library_id": {
+          "pattern": "^[A-Z][A-Z0-9_-]+$",
+          "title": "Library Id",
+          "type": "string"
+        },
+        "claim_id": {
+          "pattern": "^[A-Z][A-Z0-9_-]+$",
+          "title": "Claim Id",
+          "type": "string"
+        },
+        "support_scope_zh": {
+          "minLength": 1,
+          "title": "Support Scope Zh",
+          "type": "string"
+        }
+      },
+      "required": [
+        "library_id",
+        "claim_id",
+        "support_scope_zh"
+      ],
+      "title": "Source",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "pattern": "^[A-Z]{3}-[0-9]{3}$",
+      "title": "Id",
+      "type": "string"
+    },
+    "title_zh": {
+      "minLength": 1,
+      "title": "Title Zh",
+      "type": "string"
+    },
+    "title_en": {
+      "minLength": 1,
+      "title": "Title En",
+      "type": "string"
+    },
+    "domain": {
+      "enum": [
+        "space_syntax",
+        "morphology",
+        "mobility",
+        "public_space",
+        "context_response",
+        "land_use",
+        "policy",
+        "portfolio"
+      ],
+      "title": "Domain",
+      "type": "string"
+    },
+    "stages": {
+      "items": {
+        "enum": [
+          "S1",
+          "S2",
+          "S3",
+          "S4",
+          "S5",
+          "S6",
+          "S7",
+          "S8"
+        ],
+        "type": "string"
+      },
+      "minItems": 1,
+      "title": "Stages",
+      "type": "array"
+    },
+    "statement_zh": {
+      "minLength": 1,
+      "title": "Statement Zh",
+      "type": "string"
+    },
+    "rationale_zh": {
+      "minLength": 1,
+      "title": "Rationale Zh",
+      "type": "string"
+    },
+    "applies_when": {
+      "additionalProperties": {
+        "items": {
+          "type": "string"
+        },
+        "type": "array"
+      },
+      "title": "Applies When",
+      "type": "object"
+    },
+    "parameters": {
+      "items": {
+        "$ref": "#/$defs/Parameter"
+      },
+      "title": "Parameters",
+      "type": "array"
+    },
+    "check": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/Check"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "check_unavailable_reason_zh": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "title": "Check Unavailable Reason Zh"
+    },
+    "design_responses": {
+      "items": {
+        "$ref": "#/$defs/Response"
+      },
+      "minItems": 2,
+      "title": "Design Responses",
+      "type": "array"
+    },
+    "evidence_level": {
+      "enum": [
+        "ACADEMIC",
+        "POLICY",
+        "PORTFOLIO",
+        "COMMON_SENSE_ASSUMED"
+      ],
+      "title": "Evidence Level",
+      "type": "string"
+    },
+    "evidence_strength": {
+      "enum": [
+        "STRONG_EMPIRICAL",
+        "MIXED",
+        "THEORETICAL",
+        "NORMATIVE_PRACTICE",
+        "ASSUMED"
+      ],
+      "title": "Evidence Strength",
+      "type": "string"
+    },
+    "sources": {
+      "items": {
+        "$ref": "#/$defs/Source"
+      },
+      "minItems": 1,
+      "title": "Sources",
+      "type": "array"
+    },
+    "source_count_flag": {
+      "enum": [
+        "MULTI_SOURCE",
+        "SINGLE_SOURCE"
+      ],
+      "title": "Source Count Flag",
+      "type": "string"
+    },
+    "enforcement": {
+      "enum": [
+        "CANDIDATE_ONLY",
+        "PROJECT_GUARDRAIL"
+      ],
+      "title": "Enforcement",
+      "type": "string"
+    },
+    "authority_ref": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "title": "Authority Ref"
+    },
+    "local_context_refs": {
+      "default": [],
+      "items": {
+        "type": "string"
+      },
+      "title": "Local Context Refs",
+      "type": "array"
+    },
+    "debates_zh": {
+      "minLength": 1,
+      "title": "Debates Zh",
+      "type": "string"
+    },
+    "context_validity_zh": {
+      "minLength": 1,
+      "title": "Context Validity Zh",
+      "type": "string"
+    },
+    "exceptions_zh": {
+      "minLength": 1,
+      "title": "Exceptions Zh",
+      "type": "string"
+    },
+    "version": {
+      "pattern": "^\\d+\\.\\d+\\.\\d+$",
+      "title": "Version",
+      "type": "string"
+    }
+  },
+  "required": [
+    "id",
+    "title_zh",
+    "title_en",
+    "domain",
+    "stages",
+    "statement_zh",
+    "rationale_zh",
+    "applies_when",
+    "parameters",
+    "check",
+    "check_unavailable_reason_zh",
+    "design_responses",
+    "evidence_level",
+    "evidence_strength",
+    "sources",
+    "source_count_flag",
+    "enforcement",
+    "authority_ref",
+    "debates_zh",
+    "context_validity_zh",
+    "exceptions_zh",
+    "version"
+  ],
+  "title": "RuleCard",
+  "type": "object"
+}

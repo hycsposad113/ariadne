@@ -1,0 +1,80 @@
+{
+  "id": "KU-STR-061",
+  "domain": "STR",
+  "subtopic": "路網形態（格子、放射、有機）",
+  "type": "method",
+  "title_zh": "路網形態（格子、放射、有機）：可檢驗的方法",
+  "title_en": "Grid, radial, and organic networks: Method and measurement",
+  "summary_zh": "在相同邊界、節點規則和尺度下比較連通、繞行、中心性與街廓結果，避免因截圖範圍造成假差異。這個流程用來檢驗格子、放射與有機網路是對方向性、選擇路徑和適應地形方式的不同組織，不預設哪一種對所有基地最好。方法的主要限制是幾何網形不能單獨代表交通行為；土地使用、出入口、坡度和制度性通行限制會重塑實際路徑。",
+  "key_points_zh": [
+    "分析步驟：格子、放射與有機網路是對方向性、選擇路徑和適應地形方式的不同組織，不預設哪一種對所有基地最好",
+    "分析步驟：在相同邊界、節點規則和尺度下比較連通、繞行、中心性與街廓結果，避免因截圖範圍造成假差異"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "路網形態（格子、放射、有機）：可檢驗的方法｜街道網與周邊土地發展共同塑造城鎮形式；不同網格應連同地形、歷史與用途脈絡比較",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "SOUTHWORTH03",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "路網形態（格子、放射、有機）：可檢驗的方法｜Primal 街道圖和多中心性指標可辨識城市結構骨架；規劃型與自組織城市的中心性分布不同，指標選擇仍受圖表示限制",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "PORTA06",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "在相同邊界、節點規則和尺度下比較連通、繞行、中心性與街廓結果，避免因截圖範圍造成假差異"
+  ],
+  "applies_when_zh": "需要測量「格子、放射與有機網路是對方向性、選擇路徑和適應地形方式的不同組織，不預設哪一種對所有基地最好」時，按「路網形態（格子、放射、有機）：可檢驗的方法」列出的資料範圍建構指標，同時保存網路版本與計算參數。",
+  "not_applicable_when_zh": "若資料無法支持「格子、放射與有機網路是對方向性、選擇路徑和適應地形方式的不同組織，不預設哪一種對所有基地最好」的測量，這套步驟不會產生可比較的結果；方法本身也不能選定設計目標。",
+  "debates_zh": "幾何網形不能單獨代表交通行為；土地使用、出入口、坡度和制度性通行限制會重塑實際路徑；檢視「路網形態（格子、放射、有機）：可檢驗的方法」的測量程序時，還需判斷「在相同邊界、節點規則和尺度下比較連通、繞行、中心性與街廓結果，避免因截圖範圍造成假差異」會如何改變方案結論。",
+  "sources": [
+    {
+      "library_id": "SOUTHWORTH03",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "PORTA06",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "城市路網與空間組態",
+  "region": "跨地域理論或實務脈絡；來源地區依引用條目判讀",
+  "curriculum_refs": [
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "路網形態（格子、放射、有機）：課綱對應主題"
+    },
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "路網形態（格子、放射、有機）：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-STR-057",
+    "KU-STR-058",
+    "KU-STR-059",
+    "KU-STR-060",
+    "KU-STR-062",
+    "KU-STR-063",
+    "KU-STR-064"
+  ]
+}

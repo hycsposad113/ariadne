@@ -1,0 +1,70 @@
+{
+  "id": "KU-HAR-058",
+  "type": "concept",
+  "subtopic": "生產性城市",
+  "title_zh": "生產性用途可能包括製造、維修、物流與循環再利用",
+  "title_en": "Productive Uses Include Making, Repair, Logistics, and Reuse",
+  "summary_zh": "港工業區的生產不限於新創品牌和創意辦公室，也涵蓋製造、維修、倉儲、物流與材料回收。循環經濟定義研究指出不同學派對循環的範圍並不一致，因此土地用途不能只憑「循環」標籤分類。港城研究則要求把這些活動和供應鏈、岸線及交通連接起來。",
+  "key_points_zh": [
+    "逐項記錄產業的物料輸入、產品輸出和運輸方式。",
+    "把維修與再製造同消費型零售區分。"
+  ],
+  "design_implications_zh": [
+    "用實際產出與物流需求判斷空間是否支持生產，而非只看租戶名稱。"
+  ],
+  "applies_when_zh": "轉型方案宣稱保留城市製造或採循環經濟時。",
+  "not_applicable_when_zh": "沒有商品、材料或生產活動證據時。",
+  "debates_zh": "循環經濟是多種策略的集合；將所有創意辦公或消費服務都稱為生產性，會掩蓋工業空間流失。",
+  "tradition": "循環經濟概念研究／港城產業地理",
+  "region": "跨地域",
+  "curriculum_refs": [
+    {
+      "school": "MIT",
+      "course": null,
+      "topic": "Productive city and circular economy"
+    },
+    {
+      "school": "TU Delft",
+      "course": null,
+      "topic": "Port logistics and urban production"
+    }
+  ],
+  "domain": "HAR",
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "循環經濟研究分析大量定義並指出概念內涵多樣。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "跨地域",
+        "library_id": "KIRCHHERR17",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "港口城市介面研究呈現港區產業、城市和物流關係的變化。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "跨地域",
+        "library_id": "LOUW2017",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "library_id": "KIRCHHERR17",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "LOUW2017",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "version": "v2.0"
+}

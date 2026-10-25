@@ -1,0 +1,74 @@
+{
+  "id": "KU-WAT-017",
+  "domain": "WAT",
+  "subtopic": "海綿城市",
+  "type": "design_principle",
+  "title_zh": "讓綠色設施與管網共同承擔溢流",
+  "title_en": "讓綠色設施與管網共同承擔溢流",
+  "summary_zh": "分散式滲透與蓄水設施可以延緩部分逕流，但極端降雨時仍會與地下管網、河道和地面安全流路互動。海綿城市研究把工程與地表空間納入整體方案，都市水治理文獻則凸顯既有系統的治理責任。設計應保留可辨認的安全溢流方向，避免把景觀凹地當成沒有邊界的蓄洪保證。",
+  "key_points_zh": [
+    "地表與管線路徑需在同一張暴雨圖上核對。",
+    "設施溢流至道路或建築入口時需先評估後果。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "library_id": "AHIABLAME2012",
+        "claim_zh": "書目確認本文題名聚焦「Effectiveness of Low Impact Development Practices: Literature Review and Suggestions for Future Research」；目前只完成作者、年份、題名與 DOI 核對，未將摘要或全文結論納入此記錄；本單元 KU-WAT-017 對照「分散式滲透與蓄水設施可以延緩部分逕流，但極端降雨時仍會與地下管網、河道和地面安全流路互動」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "文獻回顧；目前僅核對書目範圍",
+        "context_region": "美國與國際都市排水",
+        "locator": null
+      },
+      {
+        "library_id": "ECKART2017",
+        "claim_zh": "書目確認本文題名聚焦「Performance and implementation of low impact development – A review」；目前只完成作者、年份、題名與 DOI 核對，未將摘要或全文結論納入此記錄；本單元 KU-WAT-017 對照「分散式滲透與蓄水設施可以延緩部分逕流，但極端降雨時仍會與地下管網、河道和地面安全流路互動」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "文獻回顧；目前僅核對書目範圍",
+        "context_region": "跨地域",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "測試設施滿載、管網受限和受納水體高水位的組合情境。",
+    "把維修通道和檢查口納入公共空間設計。"
+  ],
+  "applies_when_zh": "適用於街區尺度的藍綠設施與既有排水系統整合。",
+  "not_applicable_when_zh": "不適用於沒有管網、地形與受納水體資料的容量核算。",
+  "debates_zh": "分散設施與地下管網的邊界條件常因資料分散而被忽略。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "AHIABLAME2012",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "ECKART2017",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "雨洪系統整合設計",
+  "region": "中國；澳洲",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "海綿城市"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Sustainable Futures by Design",
+      "topic": "海綿城市"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0"
+}

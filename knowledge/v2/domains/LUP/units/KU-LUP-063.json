@@ -1,0 +1,77 @@
+{
+  "id": "KU-LUP-063",
+  "domain": "LUP",
+  "subtopic": "15 分鐘城市與可及性",
+  "type": "value_range",
+  "title_zh": "十五分鐘步行服務圈換算",
+  "title_en": "Fifteen-minute walk distance conversion",
+  "summary_zh": "把 3.2–4.8 km/h 的步速乘以 15 分鐘，得到約 800–1,200 m 的理想距離；它不是「15 分鐘城市」的通用法定半徑。 克拉科夫研究呈現服務鄰近程度分布不均，單一距離不能代表實際機會。 需分開檢查食物、教育、醫療與公共空間的路網可達性。",
+  "key_points_zh": [
+    "把 3.2–4.8 km/h 的步速乘以 15 分鐘，得到約 800–1,200 m 的理想距離；它不是「15 分鐘城市」的通用法定半徑",
+    "克拉科夫研究呈現服務鄰近程度分布不均，單一距離不能代表實際機會",
+    "需分開檢查食物、教育、醫療與公共空間的路網可達性"
+  ],
+  "evidence": {
+    "strength": "ASSUMED",
+    "findings": [
+      {
+        "claim_zh": "15 分鐘以3.2–4.8 km/h換算，理想距離為約 800–1,200 m；這是透明情境計算，非研究觀測出的通用服務標準。",
+        "effect_or_value": "約 800–1,200 m",
+        "study_design": "明示速度與時間的公式換算；非實證測量",
+        "context_region": "跨地域步行服務情境",
+        "library_id": "NOWOROL2022",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "十五分鐘步行服務圈換算",
+      "range": "約 800–1,200 m",
+      "unit": "m",
+      "context": "跨地域步行服務情境；用途：多類近鄰服務盤點；計算：3.2–4.8 km/h × 15 分鐘，僅為無停等、無繞行的直線情境，非文獻直接報告的數值；方法背景書目：NOWOROL2022；需改以路網與使用者條件核算，這不是本基地法規。",
+      "library_id": "NOWOROL2022"
+    }
+  ],
+  "design_implications_zh": [
+    "為每一種服務設獨立目的地圖層，並以路網時間而非統一的圓形邊界比較缺口。"
+  ],
+  "applies_when_zh": "用於設計階段的十五分鐘步行情境對照；須逐種服務計算路網時間及供給量。",
+  "not_applicable_when_zh": "平均距離會掩蓋設施容量、價格、開放時間及跨鐵路或河道通行的限制。",
+  "debates_zh": "服務近不等於服務可用；收入、服務品質、營業時間和照護責任都會造成距離以外的障礙。",
+  "sources": [
+    {
+      "library_id": "NOWOROL2022",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "SINGLE_SOURCE",
+  "tradition": "近鄰服務可及性",
+  "region": "跨地域步行服務情境",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Planning Complex Cities",
+      "topic": "15 分鐘城市與可及性"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Cities by Design",
+      "topic": "15 分鐘城市與可及性"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "15 分鐘城市與可及性"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Sustainable Futures by Design",
+      "topic": "15 分鐘城市與可及性"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008"
+}

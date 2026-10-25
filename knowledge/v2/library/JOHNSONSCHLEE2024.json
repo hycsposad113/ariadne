@@ -1,0 +1,47 @@
+{
+  "id": "JOHNSONSCHLEE2024",
+  "title": "Gentrification, Ruth Glass, and the Legacy of London: Aspects of Change (1964)",
+  "authors": [
+    "Sam Johnson-Schlee"
+  ],
+  "year": 2024,
+  "venue_or_publisher": "The London Journal",
+  "doi": "10.1080/03058034.2024.2425593",
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "critical gentrification scholarship and urban epistemologies",
+  "region": [
+    "United Kingdom",
+    "London"
+  ],
+  "method": "historical and critical review; bibliographic scope only",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "Crossref 書目記錄確認這篇文章以 Ruth Glass、仕紳化及《London: Aspects of Change》(1964) 的後續影響為題；未查閱全文，不從題名推定其具體論證。",
+      "strength": "THEORETICAL",
+      "scope_zh": "只作為 Glass 歷史脈絡的當代學術入口；不替代 Glass 原著書目或全文核讀。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [
+    "SMITH1996",
+    "LEES2007"
+  ],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref",
+    "query": {
+      "title": "Gentrification, Ruth Glass, and the Legacy of London: Aspects of Change (1964)",
+      "author": "Sam Johnson-Schlee",
+      "year": 2024
+    },
+    "matched_record_id": "10.1080/03058034.2024.2425593",
+    "checked_at_utc": "2026-10-08T10:02:10Z",
+    "match_notes_zh": "Crossref 搜尋結果匹配作者、文章題名、期刊、2024 年及 DOI；僅確認書目身份。"
+  },
+  "limitations_zh": "只核對 Crossref 書目，未開啟或下載全文；本條不能單獨支持仕紳化成效或 Glass 原著的具體表述。",
+  "critique_relationship_zh": "Smith 與 Lees 作為不同仕紳化理論與綜述來源並讀，不宣稱本文直接回應兩者。",
+  "metadata_licence_zh": "保存書目欄位與自撰摘要；未保存全文或 API 摘要。"
+}

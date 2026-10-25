@@ -1,0 +1,80 @@
+{
+  "id": "KU-SYN-027",
+  "domain": "SYN",
+  "subtopic": "多中心性（MCA）",
+  "type": "design_principle",
+  "title_zh": "多中心性（MCA）：設計原則與取捨",
+  "title_en": "Multiple centrality analysis: Design principle and trade-off",
+  "summary_zh": "比較接近度、介數、直達和局部連接等指標，並指出指標間一致或分歧之處。關鍵取捨是規劃型與自組織街網可能形成不同中心性分布；多中心路網需看多個子中心與跨區連接。執行前應按實際速度、目的地、行程和使用者能力檢查：以 primal 街網建立一致的圖，計算多種中心性並對照網路尺度、幾何成本與城市型態。",
+  "key_points_zh": [
+    "操作原則：多中心性分析用多個網路中心性指標描述城市道路系統的骨架與局部節點，不將複雜網路縮成單一排名",
+    "操作原則：比較接近度、介數、直達和局部連接等指標，並指出指標間一致或分歧之處"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "多中心性（MCA）：設計原則與取捨｜聚合行動資料可研究都市移動時序；它不等於所有行人觀測，必須交代樣本與空間粒度",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "SEVTSUK10",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "多中心性（MCA）：設計原則與取捨｜波哥大的人口、工作及可及性分布不均；高平均密度可以和低收入群體的可及性不足並存",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "BOGOTA17",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "比較接近度、介數、直達和局部連接等指標，並指出指標間一致或分歧之處"
+  ],
+  "applies_when_zh": "在多中心性（MCA）的方案比較中，可用「多中心性分析用多個網路中心性指標描述城市道路系統的骨架與局部節點，不將複雜網路縮成單一排名」整理空間配置取捨，並註明採用的服務與使用者目標。",
+  "not_applicable_when_zh": "「多中心性分析用多個網路中心性指標描述城市道路系統的骨架與局部節點，不將複雜網路縮成單一排名」不能直接轉成法規或最佳方案判斷，尤其不能忽略「中心性指標依賴圖建構與邊成本；高分節點不一定是社會上重要、可進入或安全的地方」指出的限制。",
+  "debates_zh": "中心性指標依賴圖建構與邊成本；高分節點不一定是社會上重要、可進入或安全的地方；檢視「多中心性（MCA）：設計原則與取捨」的方案取捨時，還需判斷「比較接近度、介數、直達和局部連接等指標，並指出指標間一致或分歧之處」會如何改變方案結論。",
+  "sources": [
+    {
+      "library_id": "SEVTSUK10",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "BOGOTA17",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "城市網路科學",
+  "region": "跨地域理論或實務脈絡；來源地區依引用條目判讀",
+  "curriculum_refs": [
+    {
+      "school": "Harvard GSD",
+      "course": "Cities by Design",
+      "topic": "多中心性（MCA）：課綱對應主題"
+    },
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.330J Theory of City Form",
+      "topic": "多中心性（MCA）：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-SYN-025",
+    "KU-SYN-026",
+    "KU-SYN-028",
+    "KU-SYN-029",
+    "KU-SYN-030",
+    "KU-SYN-031",
+    "KU-SYN-032"
+  ]
+}

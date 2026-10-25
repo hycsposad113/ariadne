@@ -1,0 +1,81 @@
+{
+  "id": "KU-STR-058",
+  "domain": "STR",
+  "subtopic": "路網形態（格子、放射、有機）",
+  "type": "empirical_finding",
+  "title_zh": "舊城與新城的多維網路診斷",
+  "title_en": "Multi-dimensional diagnostics of old and new towns",
+  "summary_zh": "GIS 組態、密度與混合用途整合方法，並以 GPS 行為記錄初步檢驗，研究脈絡為荷蘭三個新城和一個舊城。多指標組合可定位可能的街道生活短板。舊城在網路整合、建築密度和用途混合三項指標均較高。限制包括案例數少，指標同時變化，不能把差異歸因於單一形態特徵。",
+  "key_points_zh": [
+    "多指標組合可定位可能的街道生活短板",
+    "限制：案例數少，指標同時變化，不能把差異歸因於單一形態特徵",
+    "效果或方向：舊城在網路整合、建築密度和用途混合三項指標均較高"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "舊城與新城的多維網路診斷｜多指標組合可定位可能的街道生活短板",
+        "effect_or_value": "舊城在網路整合、建築密度和用途混合三項指標均較高",
+        "study_design": "GIS 組態、密度與混合用途整合方法，並以 GPS 行為記錄初步檢驗",
+        "context_region": "荷蘭三個新城和一個舊城",
+        "library_id": "YE14",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "舊城與新城的多維網路診斷｜Primal 街道圖和多中心性指標可辨識城市結構骨架；規劃型與自組織城市的中心性分布不同，指標選擇仍受圖表示限制",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "PORTA06",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "網路類型選擇須和地塊與用途一起評估"
+  ],
+  "applies_when_zh": "若本地觀察單位與荷蘭三個新城和一個舊城的研究脈絡可對照，可用「多指標組合可定位可能的街道生活短板」作為路網形態（格子、放射、有機）的比較線索。",
+  "not_applicable_when_zh": "這項荷蘭三個新城和一個舊城的研究結果不能單獨證明因果或預測其他城市的街段；原研究案例數少，指標同時變化，不能把差異歸因於單一形態特徵。",
+  "debates_zh": "關聯能否外推；案例數少，指標同時變化，不能把差異歸因於單一形態特徵；檢視「舊城與新城的多維網路診斷」的研究解讀時，還需判斷「限制：案例數少，指標同時變化，不能把差異歸因於單一形態特徵」會如何改變方案結論。",
+  "sources": [
+    {
+      "library_id": "YE14",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "PORTA06",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "城市路網與空間組態",
+  "region": "荷蘭三個新城和一個舊城",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "路網形態（格子、放射、有機）：課綱對應主題"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "路網形態（格子、放射、有機）：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-STR-057",
+    "KU-STR-059",
+    "KU-STR-060",
+    "KU-STR-061",
+    "KU-STR-062",
+    "KU-STR-063",
+    "KU-STR-064"
+  ]
+}

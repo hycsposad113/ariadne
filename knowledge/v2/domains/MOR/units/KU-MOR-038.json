@@ -1,0 +1,98 @@
+{
+  "id": "KU-MOR-038",
+  "domain": "MOR",
+  "subtopic": "密度與形態的關係",
+  "type": "empirical_finding",
+  "title_zh": "首爾形態類型與建築能源使用被共同檢視",
+  "title_en": "Seoul morphology and building energy",
+  "summary_zh": "可得摘要沒有具體結果係數或建築樣本數，不推斷哪個型態必然更省能。 只在資料定義一致時比較形態類別的能源指標。 研究設計：都市型態與建築能源資料的實證調查；地區：首爾，韓國。",
+  "key_points_zh": [
+    "首爾研究以都市形態類型對照建築能源使用，展示形態分類可作為能源分析的分組變數。",
+    "研究設計：都市型態與建築能源資料的實證調查；地區：首爾，韓國",
+    "限制：可得摘要沒有具體結果係數或建築樣本數，不推斷哪個型態必然更省能。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "首爾研究以都市形態類型對照建築能源使用，展示形態分類可作為能源分析的分組變數。",
+        "effect_or_value": "首爾；摘要未報告型態間效果量",
+        "study_design": "都市型態與建築能源資料的實證調查",
+        "context_region": "首爾，韓國",
+        "library_id": "LI2021",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "只在資料定義一致時比較形態類別的能源指標。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "只在資料定義一致時比較形態類別的能源指標。",
+      "tradeoff_zh": "「首爾形態類型與建築能源使用被共同檢視」採用「只在資料定義一致時比較形態類別的能源指標」時，得失要沿著首爾研究以都市形態類型對照建築能源使用，展示形態分類可作為能源分析的分組變數檢查；可得摘要沒有具體結果係數或建築樣本數，不推斷哪個型態必然更省能。",
+      "library_ids": [
+        "LI2021",
+        "MARCUS10"
+      ]
+    },
+    {
+      "option_zh": "「首爾形態類型與建築能源使用被共同檢視」可把取向落在高層、周邊式街廓和低層高覆蓋形態各有不同公共空間代價，但需連同首爾研究以都市形態類型對照建築能源使用，展示形態分類可作為能源分析的分組變數決定適用方式。",
+      "tradeoff_zh": "「首爾形態類型與建築能源使用被共同檢視」採用「「首爾形態類型與建築能源使用被共同檢視」可把取向落在高層、周邊式街廓和低層高覆蓋形態各有不同公共空間代價，但需連同首爾研究以都市形態類型對照建築能源使用，展示形態分類可作為能源分析的分組變數決定適用方式」時，得失要沿著首爾研究以都市形態類型對照建築能源使用，展示形態分類可作為能源分析的分組變數檢查；可得摘要沒有具體結果係數或建築樣本數，不推斷哪個型態必然更省能。",
+      "library_ids": [
+        "LI2021",
+        "MARCUS10"
+      ]
+    }
+  ],
+  "applies_when_zh": "用於與首爾，韓國研究情境可比、且量測定義相近的分析。",
+  "not_applicable_when_zh": "可得摘要沒有具體結果係數或建築樣本數，不推斷哪個型態必然更省能。",
+  "debates_zh": "可得摘要沒有具體結果係數或建築樣本數，不推斷哪個型態必然更省能。",
+  "sources": [
+    {
+      "library_id": "LI2021",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "MARCUS10",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "東亞形態與建築能耗；空間資本",
+  "region": "首爾，韓國；瑞典",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "密度與形態的關係"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "密度與形態的關係"
+    },
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.330J Theory of City Form",
+      "topic": "密度與形態的關係"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban form and density",
+      "topic": "密度與形態的關係"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-MOR-031",
+    "KU-MOR-032",
+    "KU-MOR-033"
+  ],
+  "counter_unit_ids": [
+    "KU-MOR-035"
+  ]
+}

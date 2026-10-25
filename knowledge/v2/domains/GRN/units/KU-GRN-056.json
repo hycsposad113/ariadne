@@ -1,0 +1,61 @@
+{
+  "id": "KU-GRN-056",
+  "domain": "GRN",
+  "subtopic": "綠地仕紳化",
+  "type": "empirical_finding",
+  "title_zh": "永續開發語言可能遮蔽環境正義",
+  "title_en": "Sustainability language may obscure justice",
+  "summary_zh": "Harlem 民族誌分析環境正義理念如何被高端開發吸收。個案顯示土地獲利壓力能把公平目標推到次位。深描案例不能估算其他城市發生仕紳化的概率。生態改善和原居民權益需要共同保障。",
+  "key_points_zh": [
+    "Harlem 民族誌分析環境正義理念如何被高端開發吸收",
+    "個案顯示土地獲利壓力能把公平目標推到次位"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "Harlem 民族誌分析環境正義理念如何被高端開發吸收。",
+        "effect_or_value": "個案呈現環境正義語彙與高端開發結合，公平利益受到獲利目標限制。",
+        "study_design": "城市民族誌與發展過程分析",
+        "context_region": "美國紐約 Harlem",
+        "library_id": "CHECKER11",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW",
+        "limitations_zh": "地方民族誌揭示過程但不提供普遍因果量化。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "把居民留置、租金和公共土地決策放入綠地方案追蹤。"
+  ],
+  "applies_when_zh": "適用於有品牌化投資和土地轉型的社區。",
+  "not_applicable_when_zh": "不應把個案當成每一項綠化的同一結果。",
+  "debates_zh": "生態改善和原居民權益需要共同保障。",
+  "sources": [
+    {
+      "library_id": "CHECKER11",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "ANGELOVSKI19",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "環境仕紳化與都市政治",
+  "region": "美國紐約 Harlem",
+  "curriculum_refs": [
+    {
+      "school": "MIT",
+      "course": "11.330J Theory of City Form",
+      "topic": "綠地仕紳化"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-GRN-055",
+    "KU-GRN-057"
+  ]
+}

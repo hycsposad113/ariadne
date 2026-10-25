@@ -1,0 +1,98 @@
+{
+  "id": "KU-HOU-016",
+  "domain": "HOU",
+  "subtopic": "荷蘭 woningcorporaties 社會住宅模式",
+  "type": "empirical_finding",
+  "title_zh": "歐洲社會住宅的組織和融資制度差異大",
+  "title_en": "Social housing across Europe",
+  "summary_zh": "書籍整理不等於統一的量化效果估計，國別年份需追查各章。 保留各國的制度邊界和政策時點。 研究設計：國家制度比較與學者專章綜述；地區：歐洲九國。 限制：書籍整理不等於統一的量化效果估計，國別年份需追查各章。",
+  "key_points_zh": [
+    "九個歐洲國家的比較材料顯示，社會住宅融資、私有化和都市再生模式因國家而異。",
+    "研究設計：國家制度比較與學者專章綜述；地區：歐洲九國",
+    "限制：書籍整理不等於統一的量化效果估計，國別年份需追查各章。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "九個歐洲國家的比較材料顯示，社會住宅融資、私有化和都市再生模式因國家而異。",
+        "effect_or_value": "九國制度章節呈現多種供應與融資制度",
+        "study_design": "國家制度比較與學者專章綜述",
+        "context_region": "歐洲九國",
+        "library_id": "SCANLON2007",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "保留各國的制度邊界和政策時點。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "保留各國的制度邊界和政策時點。",
+      "tradeoff_zh": "「歐洲社會住宅的組織和融資制度差異大」的主要代價不是抽象的建造成本，而是書籍整理不等於統一的量化效果估計，國別年份需追查各章；因此先以九個歐洲國家的比較材料顯示，社會住宅融資、私有化和都市再生模式因國家而異作方案比較條件。",
+      "library_ids": [
+        "SCANLON2007",
+        "HOOIMEIJER1998"
+      ]
+    },
+    {
+      "option_zh": "「歐洲社會住宅的組織和融資制度差異大」可把取向落在公共、非營利與市場供應比例會改變可負擔性和居住選擇，但需連同九個歐洲國家的比較材料顯示，社會住宅融資、私有化和都市再生模式因國家而異決定適用方式。",
+      "tradeoff_zh": "「歐洲社會住宅的組織和融資制度差異大」的主要代價不是抽象的建造成本，而是書籍整理不等於統一的量化效果估計，國別年份需追查各章；因此先以九個歐洲國家的比較材料顯示，社會住宅融資、私有化和都市再生模式因國家而異作方案比較條件。",
+      "library_ids": [
+        "SCANLON2007",
+        "HOOIMEIJER1998"
+      ]
+    }
+  ],
+  "applies_when_zh": "用於與歐洲九國研究情境可比、且量測定義相近的分析。",
+  "not_applicable_when_zh": "書籍整理不等於統一的量化效果估計，國別年份需追查各章。",
+  "debates_zh": "書籍整理不等於統一的量化效果估計，國別年份需追查各章。",
+  "sources": [
+    {
+      "library_id": "SCANLON2007",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "HOOIMEIJER1998",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "歐洲社會住宅制度比較；荷蘭社會住宅與社會排除",
+  "region": "九個歐洲國家；荷蘭",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "荷蘭 woningcorporaties 社會住宅模式"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "荷蘭 woningcorporaties 社會住宅模式"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "荷蘭 woningcorporaties 社會住宅模式"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "荷蘭 woningcorporaties 社會住宅模式"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-HOU-010",
+    "KU-HOU-011",
+    "KU-HOU-012"
+  ],
+  "counter_unit_ids": [
+    "KU-HOU-014"
+  ]
+}

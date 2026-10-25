@@ -1,0 +1,110 @@
+{
+  "id": "KU-CAS-026",
+  "domain": "CAS",
+  "subtopic": "公共空間與文化表達—多元物件的公園",
+  "type": "case",
+  "title_zh": "Superkilen：把移民社群的城市物件放進一條公園軸線",
+  "title_en": "Superkilen: A Linear Park Curated through Objects from Residents’ Places of Origin",
+  "summary_zh": "Superkilen 的競圖計畫由哥本哈根市府、Realdania 與 Mimersgadekvarteret 更新夥伴推動，市議會資料記載曾辦理居民與地方行動者工作坊。園內以來自多地的家具、遊具和標誌形成可辨識的空間分區，設計把文化代表性轉成日常可見的公共物件。2026 年的學術文章以此案例研究街道空間的吸引物編排，但本單元沒有使用其未核讀的研究結論。作品的代表性與日常使用，仍須聽見不同居民如何選擇、維護或質疑這些物件。",
+  "key_points_zh": [
+    "文化物件可成為公共空間的辨識媒介，但物件清單不等同於社群代表性。",
+    "競圖和工作坊需與後續維護、使用者反饋及權力關係一起回看。"
+  ],
+  "evidence": {
+    "strength": "CASE_EVIDENCE",
+    "findings": [
+      {
+        "claim_zh": "Lee 的 2026 年期刊文章以哥本哈根 Superkilen 為研究案例，題目聚焦都市公共空間中的吸引物編排；未核讀全文，不引用其使用效果結論。",
+        "effect_or_value": "學術研究對象與問題範圍",
+        "study_design": "公共空間個案研究；方法及效果尚待全文核對",
+        "context_region": "丹麥哥本哈根 Nørrebro",
+        "library_id": "LEE2026SUPERKILEN",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "哥本哈根市府 2007 年會議紀錄核准 Superkilen 公園競圖計畫，說明案址、居民工作坊與跨族群休憩目標。",
+        "effect_or_value": "市府核准程序和計畫目標",
+        "study_design": "市議會及委員會決議紀錄",
+        "context_region": "丹麥哥本哈根 Nørrebro",
+        "library_id": "COPENHAGEN_SUPERKILEN2007",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "Realdania 的開園資料記載 Superkilen 於 2012 年正式開放，並說明園內跨地域物件的設計概念。",
+        "effect_or_value": "開放日期與贊助方的專案介紹",
+        "study_design": "基金會專案公告",
+        "context_region": "丹麥哥本哈根 Nørrebro",
+        "library_id": "REALDANIA_SUPERKILEN2012",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "把物件來源、提議者、遴選方式、維護責任和後續替換紀錄公開，讓文化引用可被社群修正。",
+    "以不同年齡、族裔、性別和使用時段訪談居民，觀察設計物件如何被使用或避開。"
+  ],
+  "applies_when_zh": "多元人口街區希望把地方文化納入連續公共空間設計，且能建立長期社區對話及維修機制時。",
+  "not_applicable_when_zh": "設計團隊無法說明物件選擇過程、授權與代表性，或公共空間維護完全由短期活動資金支撐時。",
+  "debates_zh": "把世界各地的物件放進一座公園，既能使居民的文化經驗可見，也可能把文化差異整理成供觀光凝視的展品。競圖紀錄能證明參與機制曾設置，卻不能證明不同社群均有同等議程影響力。",
+  "sources": [
+    {
+      "library_id": "LEE2026SUPERKILEN",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "COPENHAGEN_SUPERKILEN2007",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "REALDANIA_SUPERKILEN2012",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "丹麥參與式公共空間、文化多樣性與景觀設計",
+  "region": "西歐／丹麥哥本哈根",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": null,
+      "topic": "公共空間、多元文化與參與式設計"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": null,
+      "topic": "社區更新與文化表達"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": null,
+      "topic": "公共空間的使用與代表性"
+    }
+  ],
+  "case": {
+    "location": "丹麥哥本哈根 Nørrebro 的 Superkilen 公園軸線",
+    "period": "2007 年市府核准競圖計畫，2012 年開園",
+    "area_ha": null,
+    "fsi": null,
+    "gsi": null,
+    "program_mix": "線性公園、紅色活動區、黑色廣場、綠地、運動遊具、街道家具與公共活動；各區用途比例未核得。",
+    "key_strategies_zh": [
+      "透過競圖與地方工作坊整理居民提議，再以不同空間區段配置景觀與活動。",
+      "從居民來源地選取家具、遊具和標誌，使文化象徵融入日常公共空間。"
+    ],
+    "outcomes_zh": [
+      "市府紀錄可確認競圖程序、工作坊和計畫目標；Realdania 公告其 2012 年開園。",
+      "未納入可比較的使用量、不同社群參與程度或維修成本數據。"
+    ],
+    "critiques_zh": [
+      "策展物件可能使移民文化被美學化；應檢查誰有決定權，以及物件是否持續回應居民變化。",
+      "市府曾在規劃時預期公園增加維修成本，需追查實際維護預算與設施更新。"
+    ]
+  },
+  "version": "v2.0"
+}

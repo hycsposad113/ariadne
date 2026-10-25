@@ -1,0 +1,44 @@
+{
+  "id": "MADANIPOUR96",
+  "title": "Design of urban space",
+  "authors": [
+    "Ali Madanipour"
+  ],
+  "year": 1996,
+  "venue_or_publisher": null,
+  "doi": null,
+  "isbn": "9780471966722",
+  "openlibrary_id": "/works/OL1866197W",
+  "kind": "ACADEMIC_BOOK",
+  "tradition": "critical spatial theory",
+  "region": [
+    "UK",
+    "西歐"
+  ],
+  "method": "學術專書／理論綜述",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "本書提供該領域的概念與分析脈絡；此處僅據已核對書目與專業範圍摘要，不冒稱已查閱全文。",
+      "strength": "THEORETICAL",
+      "scope_zh": "用於概念框架與歷史脈絡，非量化效果或本基地法規。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Open Library",
+    "query": {
+      "title": "Design of Urban Space",
+      "author": "Madanipour",
+      "year": 1996
+    },
+    "matched_record_id": "https://openlibrary.org/works/OL1866197W",
+    "checked_at_utc": "2026-10-08T09:46:49Z",
+    "match_notes_zh": "核對 Open Library 回傳書名、作者與首版年；此確認只及書目。"
+  },
+  "limitations_zh": "書目查證未包含全文閱讀或版本內容比較。",
+  "critique_relationship_zh": "此條目用於課程脈絡，不宣稱與其他來源直接互引。",
+  "metadata_licence_zh": "僅保存公開書目欄位與自行撰寫的摘要；未保存 API 摘要，metadata 授權未單獨核定。"
+}

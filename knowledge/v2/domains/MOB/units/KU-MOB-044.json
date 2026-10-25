@@ -1,0 +1,88 @@
+{
+  "id": "KU-MOB-044",
+  "domain": "MOB",
+  "subtopic": "大眾運輸服務圈",
+  "type": "value_range",
+  "title_zh": "海牙自行車接駁距離中位數",
+  "title_en": "Median bicycle feeder distance in The Hague",
+  "summary_zh": "同一項海牙電車乘客研究中，自行車接駁距離中位數為 1,025 m，長於步行接駁中位數 380 m。研究由乘客資料描述接駁行為，支持把自行車納入站點服務分析。這個結果只對應研究中的電車乘客及道路網，並非所有車站的固定自行車服務圈。「自行車接駁電車距離中位數」的數值不是本基地法規或普遍設計目標。",
+  "key_points_zh": [
+    "數值與用途：自行車接駁電車距離中位數：1,025 m",
+    "數值與用途：此為單一電車乘客樣本的中位數，僅供服務圈方法比較，不是通用服務半徑或 M4H 法規"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "海牙自行車接駁距離中位數｜自行車接駁距離中位數為 1,025 m",
+        "effect_or_value": "1,025 m",
+        "study_design": "海牙電車乘客 revealed-preference 問卷、迴歸與質性分析",
+        "context_region": "海牙，荷蘭電車乘客調查",
+        "library_id": "RIJSMAN19",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "海牙自行車接駁距離中位數｜墨爾本旅運資料顯示，步行到公共運輸的可接受與可忍受距離宜用區域分布描述；Burr Type XII 能配適該資料，但不會自動成為其他城市的門檻",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "TAYLOR24",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "自行車接駁電車距離中位數",
+      "range": "1,025 m",
+      "unit": "公尺",
+      "context": "荷蘭海牙電車乘客研究；1,025 m 是該研究自行車接駁距離中位數，不是 M4H 標準；「海牙自行車接駁距離中位數」所列範圍不構成本基地法規。",
+      "library_id": "RIJSMAN19"
+    }
+  ],
+  "design_implications_zh": [
+    "把 1,025 m 和步行中位數分開呈現，並檢查停車、路線安全和站點入口對自行車接駁路徑的影響。"
+  ],
+  "applies_when_zh": "當方案包含騎車接駁軌道服務，可用此研究對照步行距離，並用本地乘客與路網資料重算分布。",
+  "not_applicable_when_zh": "1,025 m 不是通用自行車站點服務半徑，也不能由單一中位數推定新增自行車停車位的需求量。",
+  "debates_zh": "自行車擴大可達範圍的程度取決於路網與停放條件；單看距離中位數會漏掉接駁品質、停車容量和群體差異。",
+  "sources": [
+    {
+      "library_id": "RIJSMAN19",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "TAYLOR24",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "交通可及性與服務範圍",
+  "region": "海牙，荷蘭電車乘客調查",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "大眾運輸服務圈：課綱對應主題"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Urban Design Contexts and Operations",
+      "topic": "大眾運輸服務圈：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-MOB-041",
+    "KU-MOB-042",
+    "KU-MOB-043",
+    "KU-MOB-045",
+    "KU-MOB-046",
+    "KU-MOB-047",
+    "KU-MOB-048"
+  ]
+}

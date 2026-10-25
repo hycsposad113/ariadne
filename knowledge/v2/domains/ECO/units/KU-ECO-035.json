@@ -1,0 +1,61 @@
+{
+  "id": "KU-ECO-035",
+  "domain": "ECO",
+  "subtopic": "物種友善設計",
+  "type": "method",
+  "title_zh": "原生種比例不是唯一生態指標",
+  "title_en": "Native-species share is not the only metric",
+  "summary_zh": "原生種有助維繫地方演化關係和專屬物種。結構多樣性、花期連續和資源供應也影響生態功能。非原生植物可能成為入侵種或提供部分資源。功能生態與地方生物地理的優先順序可能不同。",
+  "key_points_zh": [
+    "原生種有助維繫地方演化關係和專屬物種",
+    "結構多樣性、花期連續和資源供應也影響生態功能"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "原生種有助維繫地方演化關係和專屬物種。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "德國",
+        "library_id": "MULLER10",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "功能生態與地方生物地理的優先順序可能不同。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "將物種來源、功能、風險和棲地需求分列指標。"
+  ],
+  "applies_when_zh": "適用於植栽設計和復育驗收。",
+  "not_applicable_when_zh": "不宜把單一原生種比例當成全部生態品質。",
+  "debates_zh": "功能生態與地方生物地理的優先順序可能不同。",
+  "sources": [
+    {
+      "library_id": "MULLER10",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "ELMQVIST13",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "都市生物多樣性與設計",
+  "region": "德國",
+  "curriculum_refs": [
+    {
+      "school": "UCL Bartlett",
+      "course": "Critical Debates in Urban Design",
+      "topic": "物種友善設計"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-ECO-034",
+    "KU-ECO-036"
+  ]
+}

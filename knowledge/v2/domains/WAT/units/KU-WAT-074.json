@@ -1,0 +1,96 @@
+{
+  "id": "KU-WAT-074",
+  "domain": "WAT",
+  "subtopic": "洪水風險與多層安全",
+  "type": "value_range",
+  "title_zh": "高程模型會改變低窪沿海人口暴露區間",
+  "title_en": "Elevation models alter estimates of exposed coastal population",
+  "summary_zh": "Kulp 與 Strauss 比較 SRTM 與 CoastalDEM 高程資料，發現地形模型會改變低窪沿海人口暴露估計。在低排放的 2100 情境中，摘要報告約 1.9 億人，90% 區間約 1.5 億至 2.5 億。McGranahan 等人的全球統計也顯示低海拔沿海區的人口與聚落占比高於土地占比。這些數值描述情境下的暴露，不是洪水機率、損失預測或本基地人口估算。",
+  "key_points_zh": [
+    "高程產品是暴露估算的敏感度參數。",
+    "人口暴露、洪水機率和預期損失是不同量。"
+  ],
+  "evidence": {
+    "strength": "STRONG_EMPIRICAL",
+    "findings": [
+      {
+        "library_id": "KULP2019",
+        "claim_zh": "使用較低垂直偏差的沿海高程模型會顯著改變低地人口暴露估計；本文摘要報告 2100 情境估計及 90% 區間。",
+        "claim_verification": "ABSTRACT_REVIEW",
+        "effect_or_value": "低排放 2100 情境估計約 1.9 億人；90% 區間約 1.5 億至 2.5 億；不是發生機率或損失預測。",
+        "study_design": "比較 SRTM 與 CoastalDEM 的高程模型和人口疊合",
+        "context_region": "全球低窪沿海地區",
+        "locator": null
+      },
+      {
+        "library_id": "MCGRANAHAN2007",
+        "claim_zh": "全球低海拔沿海區按海拔界定後，人口與都市聚落呈現高於其土地面積占比的集中；這是暴露分布描述，不等於淹水概率。",
+        "claim_verification": "ABSTRACT_REVIEW",
+        "effect_or_value": "人口及都市聚落占比高於土地面積占比；只表示暴露集中，不表示洪水發生頻率。",
+        "study_design": "低海拔沿海區的人口與聚落全球空間統計",
+        "context_region": "全球低海拔沿海區",
+        "locator": null
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "低排放 2100 情境下的全球沿海人口暴露估計",
+      "range": "約 1.5億–2.5億；摘要估計約 1.9億",
+      "unit": "people (90% interval, low-emission 2100 scenario)",
+      "context": "用途：以「低排放 2100 情境下的全球沿海人口暴露估計」作為來源情境參照；全球低窪沿海區的高程模型與人口疊合結果；情境估算不是居民名冊、淹水機率或地方預測，這不是本基地法規。",
+      "library_id": "KULP2019"
+    }
+  ],
+  "design_implications_zh": [
+    "比較方案前先固定高程基準、地形資料版本、情境年份和暴露人口定義。",
+    "不要把人口暴露區間改寫成洪水風險或工程防護效果。"
+  ],
+  "applies_when_zh": "用於說明地形資料和情境假設如何改變全球沿海人口暴露估算。",
+  "not_applicable_when_zh": "不作為 M4H 的人口預測、洪水機率或防洪設計值。",
+  "debates_zh": "高程模型偏差和人口分布假設會改變結果；全球結果不能直接縮放到單一街區。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [
+    "KU-WAT-002",
+    "KU-WAT-025"
+  ],
+  "sources": [
+    {
+      "library_id": "KULP2019",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "MCGRANAHAN2007",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "全球沿海暴露統計與高程模型比較",
+  "region": "全球低窪沿海區",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "洪水風險與暴露估算"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Cities by Design",
+      "topic": "全球沿海地區比較"
+    },
+    {
+      "school": "MIT",
+      "course": "11.330J Introduction to Urban Design and Development",
+      "topic": "風險治理與土地使用"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Sustainable Futures by Design",
+      "topic": "氣候調適與暴露"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0"
+}

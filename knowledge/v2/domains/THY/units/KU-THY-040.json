@@ -1,0 +1,71 @@
+{
+  "id": "KU-THY-040",
+  "domain": "THY",
+  "subtopic": "日常都市主義",
+  "type": "theory",
+  "title_zh": "空間語法的理論主張",
+  "title_en": "Space syntax as theory",
+  "summary_zh": "Hillier 與 Hanson 將空間組構視為社會關係的承載與再生產媒介。焦點是空間之間的相對關係如何形成共在、接觸及分隔的可能，而非孤立建築的形狀。把空間關係和實際活動資料連結，清楚區分理論命題與量測相關。",
+  "key_points_zh": [
+    "把空間關係和實際活動資料連結，清楚區分理論命題與量測相關。",
+    "組構不是唯一原因；土地使用、制度和個人差異會改變空間行為。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "Hillier 與 Hanson 將空間組構視為社會關係的承載與再生產媒介。焦點是空間之間的相對關係如何形成共在、接觸及分隔的可能，而非孤立建築的形狀。",
+        "library_id": "HILLIER84",
+        "locator": null,
+        "study_design": "理論／方法綜述；非基地實測",
+        "effect_or_value": null,
+        "context_region": null,
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008"
+      },
+      {
+        "claim_zh": "Ratti 對空間語法幾何表徵與指標限制的批評，提供 Hillier 理論之外的獨立方法審查。",
+        "library_id": "RATTI04",
+        "locator": null,
+        "study_design": "方法論批評",
+        "effect_or_value": null,
+        "context_region": "歐洲",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "把空間關係和實際活動資料連結，清楚區分理論命題與量測相關。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "以關係圖補充形態圖可揭露深度與隔離",
+      "tradeoff_zh": "表徵選擇會影響結論。",
+      "library_ids": [
+        "HILLIER84"
+      ]
+    }
+  ],
+  "applies_when_zh": "用於釐清「空間語法的理論主張」涉及的空間、制度與行動選擇。",
+  "not_applicable_when_zh": "「空間語法的理論主張」不能直接替代基地的實測、法規或人類批准。",
+  "debates_zh": "組構不是唯一原因；土地使用、制度和個人差異會改變空間行為。",
+  "sources": [
+    {
+      "library_id": "HILLIER84",
+      "locator": null
+    },
+    {
+      "library_id": "RATTI04",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+  "curriculum_refs": [
+    {
+      "school": "MIT",
+      "course": null,
+      "topic": "編者主題對照，非已核實課程指定閱讀：空間語法的理論主張"
+    }
+  ],
+  "version": "2.0.0-theory-v3"
+}

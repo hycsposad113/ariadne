@@ -1,0 +1,103 @@
+{
+  "id": "KU-MOR-030",
+  "domain": "MOR",
+  "subtopic": "Spacematrix：FSI、GSI、OSR、L",
+  "type": "empirical_finding",
+  "title_zh": "路網選擇度與步行關聯較整合度大",
+  "title_en": "Syntax measures and pedestrian movement",
+  "summary_zh": "各研究異質性高，角度、拓樸與量測流程不同；關聯不等於特定設計的因果效應。 把 choice 和 integration 當互補診斷量，不選一個值當全域標準。 研究設計：1975–2016 已出版與未出版研究的隨機效應統合分析；地區：跨地域研究彙整。",
+  "key_points_zh": [
+    "統合分析估得 choice 與步行量的標準化關聯為 0.481，integration 為 0.206；connectivity 未達統計顯著。",
+    "研究設計：1975–2016 已出版與未出版研究的隨機效應統合分析；地區：跨地域研究彙整",
+    "限制：各研究異質性高，角度、拓樸與量測流程不同；關聯不等於特定設計的因果效應。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "統合分析估得 choice 與步行量的標準化關聯為 0.481，integration 為 0.206；connectivity 未達統計顯著。",
+        "effect_or_value": "統合分析：choice ES 0.481、integration 0.206；connectivity 不顯著",
+        "study_design": "1975–2016 已出版與未出版研究的隨機效應統合分析",
+        "context_region": "跨地域研究彙整",
+        "library_id": "SHARMIN17",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "把 choice 和 integration 當互補診斷量，不選一個值當全域標準。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "把 choice 和 integration 當互補診斷量，不選一個值當全域標準。",
+      "tradeoff_zh": "「路網選擇度與步行關聯較整合度大」採用「把 choice 和 integration 當互補診斷量，不選一個值當全域標準」時，得失要沿著統合分析估得 choice 與步行量的標準化關聯為 0.481，integration 為 0.206；connectivity 未達統計顯著檢查；各研究異質性高，角度、拓樸與量測流程不同；關聯不等於特定設計的因果效應。",
+      "library_ids": [
+        "SHARMIN17",
+        "MARCUS10"
+      ]
+    },
+    {
+      "option_zh": "在「路網選擇度與步行關聯較整合度大」的來源情境裡，相近 FSI 可以由低矮高覆蓋或高樓低覆蓋組成，街道體驗並不相同；落到設計時還要按統合分析估得 choice 與步行量的標準化關聯為 0.481，integration 為 0.206；connectivity 未達統計顯著調整。",
+      "tradeoff_zh": "「路網選擇度與步行關聯較整合度大」採用「在「路網選擇度與步行關聯較整合度大」的來源情境裡，相近 FSI 可以由低矮高覆蓋或高樓低覆蓋組成，街道體驗並不相同；落到設計時還要按統合分析估得 choice 與步行量的標準化關聯為 0.481，integration 為 0.206；connectivity 未達統計顯著調整」時，得失要沿著統合分析估得 choice 與步行量的標準化關聯為 0.481，integration 為 0.206；connectivity 未達統計顯著檢查；各研究異質性高，角度、拓樸與量測流程不同；關聯不等於特定設計的因果效應。",
+      "library_ids": [
+        "SHARMIN17",
+        "MARCUS10"
+      ]
+    }
+  ],
+  "applies_when_zh": "用於與跨地域研究彙整研究情境可比、且量測定義相近的分析。",
+  "not_applicable_when_zh": "各研究異質性高，角度、拓樸與量測流程不同；關聯不等於特定設計的因果效應。",
+  "debates_zh": "各研究異質性高，角度、拓樸與量測流程不同；關聯不等於特定設計的因果效應。",
+  "sources": [
+    {
+      "library_id": "SHARMIN17",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "MARCUS10",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "EWING10",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "空間語法整合分析；空間資本",
+  "region": "跨地域；瑞典",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "Spacematrix：FSI、GSI、OSR、L"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "Spacematrix：FSI、GSI、OSR、L"
+    },
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.330J Theory of City Form",
+      "topic": "Spacematrix：FSI、GSI、OSR、L"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban form and density",
+      "topic": "Spacematrix：FSI、GSI、OSR、L"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-MOR-023",
+    "KU-MOR-024",
+    "KU-MOR-025"
+  ],
+  "counter_unit_ids": [
+    "KU-MOR-027"
+  ]
+}

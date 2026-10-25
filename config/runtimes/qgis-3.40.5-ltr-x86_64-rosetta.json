@@ -1,0 +1,109 @@
+{
+  "schema_version": "qgis-runtime-manifest-v1",
+  "runtime_id": "qgis-3.40.5-ltr-x86_64-rosetta",
+  "name": "QGIS LTR",
+  "version": "3.40.5",
+  "version_string": "QGIS 3.40.5-Bratislava 'Bratislava' (8d6d1b54486)",
+  "runtime_path": "/Applications/QGIS-LTR.app",
+  "architecture": "x86_64",
+  "platform": "macOS",
+  "host_architecture": "arm64",
+  "rosetta_dependency": {
+    "name": "Rosetta 2",
+    "required": true,
+    "status": "installed; restored by Founder on 2026-10-03",
+    "download_required": false
+  },
+  "source": {
+    "kind": "existing_local_installation",
+    "installed_by": "Founder",
+    "verified_at": "2026-10-03",
+    "download_required": false,
+    "download_performed_by_executor": false
+  },
+  "license": {
+    "name": "GNU General Public License, version 2 or later",
+    "expression": "GPL-2.0-or-later",
+    "requested_label": "GPL-2.0+",
+    "evidence": "License classification supplied in the W6-1 task facts; the installed application license bundle was not independently hashed."
+  },
+  "executables": [
+    {
+      "name": "QGIS",
+      "path": "/Applications/QGIS-LTR.app/Contents/MacOS/QGIS",
+      "architectures": ["x86_64"],
+      "sha256": "1f5421e00628cf6196ffed29ea5822cedf0f1e75d8058f810d8bdab47331f4c4"
+    },
+    {
+      "name": "qgis_process",
+      "path": "/Applications/QGIS-LTR.app/Contents/MacOS/bin/qgis_process",
+      "architectures": ["x86_64"],
+      "sha256": "7240b5d5b9cf3360c703313622fcf5a87c8ebcf4c760cd58f2e07ee74d0a1b73"
+    },
+    {
+      "name": "QGIS Python",
+      "path": "/Applications/QGIS-LTR.app/Contents/MacOS/bin/python3",
+      "version": "3.9.5",
+      "architectures": ["x86_64"],
+      "sha256": "688d90ef2b5a6bf611a25c2503a900eb4d5c962a24b0553f988816a24cdbe21e"
+    }
+  ],
+  "runtime_components": {
+    "qgis_mcp_server_version": "0.14.0",
+    "qgis_mcp_plugin_version": "0.14.0",
+    "qgis_mcp_port": 9876,
+    "formal_bridge_port": 8788,
+    "proj_data_path": "/Applications/QGIS-LTR.app/Contents/Resources/proj"
+  },
+  "bundled_libraries": {
+    "qt": "5.15.2",
+    "gdal_ogr": "3.3.2",
+    "proj": "8.1.1",
+    "geos": "3.9.1-CAPI-1.14.2",
+    "sqlite": "3.35.2"
+  },
+  "verification": {
+    "observed_at": "2026-10-03",
+    "host_architecture": {
+      "status": "PASS",
+      "command": "uname -m",
+      "result": "arm64"
+    },
+    "qgis_binary_architecture": {
+      "status": "PASS",
+      "command": "/usr/bin/lipo -archs /Applications/QGIS-LTR.app/Contents/MacOS/QGIS",
+      "result": "x86_64"
+    },
+    "rosetta_translation_probe": {
+      "status": "BLOCKED_BY_SANDBOX",
+      "command": "/usr/bin/arch -x86_64 /usr/sbin/sysctl -n sysctl.proc_translated",
+      "result": "sysctl: Operation not permitted"
+    },
+    "qgis_process_version": {
+      "status": "PASS",
+      "command": "PROJ_LIB=/Applications/QGIS-LTR.app/Contents/Resources/proj /usr/bin/arch -x86_64 /Applications/QGIS-LTR.app/Contents/MacOS/bin/qgis_process --version",
+      "result": "QGIS 3.40.5-Bratislava; exit 0"
+    },
+    "qgis_python_architecture": {
+      "status": "PASS",
+      "command": "/usr/bin/arch -x86_64 /Applications/QGIS-LTR.app/Contents/MacOS/bin/python3 -c 'import platform; print(platform.machine())'",
+      "result": "x86_64"
+    },
+    "qgis_core_import": {
+      "status": "PASS",
+      "command": "PROJ_LIB=/Applications/QGIS-LTR.app/Contents/Resources/proj /usr/bin/arch -x86_64 /Applications/QGIS-LTR.app/Contents/MacOS/bin/python3 -c 'from qgis.core import Qgis; print(Qgis.QGIS_VERSION)'",
+      "result": "3.40.5-Bratislava; exit 0"
+    },
+    "in_process_facade_geometry_attempt": {
+      "status": "BLOCKED",
+      "operation": "urban.buffer_fixture",
+      "algorithm": "native:buffer",
+      "qgis_response": "SUCCEEDED; one feature; bbox [-10, -10, 10, 10]",
+      "process_exit_code": -11,
+      "artifact_sha256": "769bbb922c325299dcc0aee11123187bfc57d4df7481f26b7869002c48b73bd2",
+      "artifact_quick_check": "ok",
+      "reason": "QGIS Python terminated with SIGSEGV after emitting the operation result; the outer facade returned FAILED. This in-process QgisMCPFacade operation did not traverse the bridge command allowlist or live MCP transport, and no runtime DB backup was used because opening the authoritative DB was prohibited."
+    },
+    "overall_status": "PARTIAL"
+  }
+}

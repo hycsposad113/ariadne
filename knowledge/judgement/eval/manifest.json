@@ -1,0 +1,101 @@
+{
+  "case_count": 8,
+  "case_schema": {
+    "path": "knowledge/judgement/eval/case.schema.json",
+    "sha256": "e5b76ce81e8dbd8aec4fb2094cd20933ee3969e629ad1d8e10b535e25bc567c1"
+  },
+  "cases": [
+    {
+      "case_id": "climate-four-case-tradeoff",
+      "path": "knowledge/judgement/eval/climate-four-case-tradeoff.json",
+      "sha256": "e869088717823b4f6537060b499c6147f8a92b9844ed7a5364ff946f1cc3af0d"
+    },
+    {
+      "case_id": "climate-harbour-staying-court",
+      "path": "knowledge/judgement/eval/climate-harbour-staying-court.json",
+      "sha256": "504ba9f743dba85f1390e83078cd461479250c87b7db4e132a8865d03badf771"
+    },
+    {
+      "case_id": "climate-no-e5",
+      "path": "knowledge/judgement/eval/climate-no-e5.json",
+      "sha256": "ef32647cb85734075c4e3c5bf1337342b685319dfe4d821f49eb915fd67254eb"
+    },
+    {
+      "case_id": "compare-courtyard-islands",
+      "path": "knowledge/judgement/eval/compare-courtyard-islands.json",
+      "sha256": "4d7c99b14867d78388925a277554dea447101f86915f1e64cc65d78103523f3e"
+    },
+    {
+      "case_id": "compare-four-harbour",
+      "path": "knowledge/judgement/eval/compare-four-harbour.json",
+      "sha256": "2ebf7872ddb8fd9567eeb2e81686ac4c35fced8fde23f259ca34fbfa05e2781d"
+    },
+    {
+      "case_id": "compare-no-climate",
+      "path": "knowledge/judgement/eval/compare-no-climate.json",
+      "sha256": "ea2a27114c145e616d8aeb08c81b0165f810c0a0629eefc0c9c33e83d5fb8c13"
+    },
+    {
+      "case_id": "site-current",
+      "path": "knowledge/judgement/eval/site-current.json",
+      "sha256": "e491ad4fa001c99c484ebdd7737deee54e7790444132ceec14b195bf2b87ba0d"
+    },
+    {
+      "case_id": "site-no-syntax",
+      "path": "knowledge/judgement/eval/site-no-syntax.json",
+      "sha256": "733ffd5bdef684e6a48ce15afb12d8dc13c884f8bc78c7f338a48fb04e9ba09e"
+    }
+  ],
+  "provider_profiles": {
+    "path": "knowledge/judgement/eval/provider-profiles.json",
+    "sha256": "d51356642a96b3efe36676fae9b2e50c0713c8e5e52f1a992e05d251f5351a70"
+  },
+  "schema_version": "ariadne-judgement-eval-suite-v1",
+  "semantic_consistency": "NOT_EVALUATED_FAKE_PROVIDER",
+  "snapshots": {
+    "climate-all": {
+      "bundle_sha256": "eda1922805711e326ef107a3921bcd7d63c4daf3ecee4cb677dd6b459b622a2d",
+      "path": "knowledge/judgement/eval/snapshots/climate-all.json",
+      "sha256": "def9f7ac2a6ec47bb918588785f1ca9a1e63a57f49c08716de8e8d651fc2ca43",
+      "skill_id": "J-CLIMATE",
+      "subject_ids": []
+    },
+    "climate-harbour": {
+      "bundle_sha256": "e950e0107c6ba49423d16324421b2c4868061bf14604be6209e93df8275b0407",
+      "path": "knowledge/judgement/eval/snapshots/climate-harbour.json",
+      "sha256": "43c76854429ede4c9fa6849aee46c1a594eb0272c76c48acaddaff96e90e0856",
+      "skill_id": "J-CLIMATE",
+      "subject_ids": [
+        "harbour_grain"
+      ]
+    },
+    "compare-all": {
+      "bundle_sha256": "9431236959dca8524ca51e9c0c5118db60c92df648271d5cc04796a6e8af64e3",
+      "path": "knowledge/judgement/eval/snapshots/compare-all.json",
+      "sha256": "df6ed5ae0798396d414344c263883bc197a0d59b43afbabc71a7dd3a8f620d82",
+      "skill_id": "J-COMPARE",
+      "subject_ids": []
+    },
+    "compare-courtyard": {
+      "bundle_sha256": "426d106d64fd6ac0ac6eafaf1235b733d4e2b34e6509a7030c409270594d1863",
+      "path": "knowledge/judgement/eval/snapshots/compare-courtyard.json",
+      "sha256": "16f5b86c8781ff7b9e3ab3cba5e9db58d4bed16f720fa794d220a9df696756c4",
+      "skill_id": "J-COMPARE",
+      "subject_ids": [
+        "courtyard_islands"
+      ]
+    },
+    "site-current": {
+      "bundle_sha256": "eeeb22aafc6e334873b36471bb317323a07148177340e10347f4e8371d414147",
+      "path": "knowledge/judgement/eval/snapshots/site-current.json",
+      "sha256": "f356423520a508d9fb6161283d00ab70c3628e79df7f77d3adb4952f28ab4620",
+      "skill_id": "J-SITE",
+      "subject_ids": []
+    }
+  },
+  "source_manifest": {
+    "path": "knowledge/judgement/eval/source-manifest.json",
+    "sha256": "bb1c51e2ee7a31c7b9317df6b2d8ac8e3a861ae118ef04d2cadffe5b934bb4fa"
+  },
+  "suite_id": "ariadne-judgement-fixed-cases-2026-10-17"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "BENINDE15",
+  "title": "Biodiversity in cities needs space: a meta‐analysis of factors determining intra‐urban biodiversity variation",
+  "authors": [
+    "Joscha Beninde",
+    "Michael Veith",
+    "Axel Hochkirch"
+  ],
+  "year": 2015,
+  "venue_or_publisher": "Ecology Letters",
+  "doi": "https://doi.org/10.1111/ele.12427",
+  "isbn": null,
+  "crossref_id": "https://doi.org/10.1111/ele.12427",
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "都市生物多樣性與地景生態學",
+  "region": [
+    "全球多城市"
+  ],
+  "method": "跨城市統合分析",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "75 座城市的都市內生物多樣性整合分析發現，棲地面積與廊道具有較強正向作用；作者指出大於 50 ha 的場址有助於避免面積敏感物種快速流失，但物種與研究樣本並不等同所有生境。",
+      "strength": "STRONG_EMPIRICAL",
+      "scope_zh": "全球 75 座城市；主張限於此來源的研究設計與樣本，不外推為本基地規範。",
+      "assessment_basis": "ABSTRACT_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref",
+    "query": {
+      "title": "Biodiversity in cities needs space: a meta‐analysis of factors determining intra‐urban biodiversity variation",
+      "author": "Joscha Beninde",
+      "year": 2015
+    },
+    "matched_record_id": "https://doi.org/10.1111/ele.12427",
+    "checked_at_utc": "2026-10-08T09:54:52Z",
+    "match_notes_zh": "核對 Crossref 回傳書名、主要作者、出版年與 DOI；摘要只在實際取得並閱讀的論文上標 ABSTRACT_REVIEW。"
+  },
+  "limitations_zh": "全球 75 座城市；書目核對不替代完整論文審查。",
+  "critique_relationship_zh": "此條目的批評連結供編者並讀，不宣稱存在直接互引。",
+  "metadata_licence_zh": "僅保存公開書目欄位與自行撰寫的摘要；未保存摘要原文，metadata 授權未單獨核定。"
+}

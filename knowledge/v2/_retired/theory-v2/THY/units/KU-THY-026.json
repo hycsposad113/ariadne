@@ -1,0 +1,85 @@
+{
+  "id": "KU-THY-026",
+  "domain": "THY",
+  "subtopic": "現代主義（CIAM、機能城市）與批判（Jacobs、Team 10、Collage City、Rossi、Krier）",
+  "type": "design_principle",
+  "title_zh": "現代主義與批判：傳統街道的形式論",
+  "title_en": "Modernism and its critiques: CIAM, Jacobs, Team 10, Collage City, Rossi, and Krier — design principle unit 026",
+  "summary_zh": "Krier 以街道、廣場和街廓等傳統都市空間類型批評現代主義孤立量體，主張建築應共同形成可辨認的公共空間。其論述把幾何、街牆和城市房間視為可教的設計語法。批評者指出，歷史形式復興可能選擇性重建過去，並未自動解決住房負擔、階級排斥或當代生活需求。",
+  "key_points_zh": [
+    "Krier 以街道、廣場和街廓等傳統都市空間類型批評現代主義孤立量體，主張建築應共同形成可辨認的公共空間。",
+    "其論述把幾何、街牆和城市房間視為可教的設計語法。",
+    "批評者指出，歷史形式復興可能選擇性重建過去，並未自動解決住房負擔、階級排斥或當代生活需求。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "【BIBLIOGRAPHIC_SCOPE_ONLY】就「現代主義與批判：傳統街道的形式論」而言，「The Image of the City」提供都市認知的比較坐標；此處僅使用其已標明的書目／摘要範圍，不延伸為未核對的效果或因果。",
+        "effect_or_value": null,
+        "study_design": "認知案例",
+        "context_region": "美國",
+        "library_id": "LYNCH60",
+        "locator": null,
+        "claim_verification": "CANONICAL_CROSS_CHECK_PENDING"
+      },
+      {
+        "claim_zh": "【BIBLIOGRAPHIC_SCOPE_ONLY】就「現代主義與批判：傳統街道的形式論」而言，「The Architecture of the City」提供義大利類型學／城市記憶的比較坐標；此處僅使用其已標明的書目／摘要範圍，不延伸為未核對的效果或因果。",
+        "effect_or_value": null,
+        "study_design": "理論／類型學",
+        "context_region": "義大利；歐洲",
+        "library_id": "ROSSI1982",
+        "locator": null,
+        "claim_verification": "CANONICAL_CROSS_CHECK_PENDING"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "以街道和廣場塑造的公共空間作設計測試，另檢查歷史形式復興的社會代價。"
+  ],
+  "design_options": [],
+  "applies_when_zh": "當問題包含「現代主義與批判：傳統街道的形式論」且需比較需要對照功能分區、連續街道、拼貼、類型與漸進更新時時使用。",
+  "not_applicable_when_zh": "若研究缺少對應尺度或群體資料，不以「現代主義與批判：傳統街道的形式論」取代把歷史批判直接轉為固定街廓、密度或用途比例時。",
+  "debates_zh": "「現代主義與批判：傳統街道的形式論」的爭點在於現代主義與其批判都不是同質陣營；一個城市的成效取決於制度、住房與時間；新都市主義批評與公共空間治理批評的研究對象不同，需保留差異而不能合併成單一規則。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "LYNCH60",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "ROSSI1982",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "現代主義／反思與替代",
+  "region": "英國；歐洲；奧地利",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "現代主義與批判：傳統街道的形式論 — 現代主義（CIAM、機能城市）與批判（Jacobs、Team 10、Collage City、Rossi、Krier）"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Urban Design Contexts and Operations",
+      "topic": "現代主義與批判：傳統街道的形式論 — 現代主義（CIAM、機能城市）與批判（Jacobs、Team 10、Collage City、Rossi、Krier）"
+    },
+    {
+      "school": "MIT",
+      "course": "4.241J Theory of City Form / 11.301J Urban Design and Development",
+      "topic": "現代主義與批判：傳統街道的形式論 — 現代主義（CIAM、機能城市）與批判（Jacobs、Team 10、Collage City、Rossi、Krier）"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Critical Debates in Urban Design",
+      "topic": "現代主義與批判：傳統街道的形式論 — 現代主義（CIAM、機能城市）與批判（Jacobs、Team 10、Collage City、Rossi、Krier）"
+    }
+  ],
+  "version": "2.0.0",
+  "claim_verification": "CANONICAL_CROSS_CHECK_PENDING"
+}

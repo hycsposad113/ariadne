@@ -1,0 +1,74 @@
+{
+  "id": "KU-HAR-031",
+  "type": "value_range",
+  "subtopic": "港區轉型案例",
+  "title_zh": "HafenCity 住宅供給同時包含公共補助單位",
+  "title_en": "HafenCity Housing Includes Subsidized Units",
+  "summary_zh": "漢堡市的發展報告把約 7,500 戶作為完成後住宅規模，其中約 2,000 戶列為公共補助住宅。由這兩個公布數字推算，補助戶數約占總目標的 27%，但它不是已完工住宅的逐年產權統計。Landis 的學術章節處理 HafenCity 再生與永續性，戶數比例仍以市府公布目標為依據。",
+  "values": [
+    {
+      "name": "公共補助住宅占規劃總戶數",
+      "range": "約 2,000 / 約 7,500（推算約27%）",
+      "unit": "住宅單位比例",
+      "context": "用途：以「公共補助住宅占規劃總戶數」作為來源情境參照；漢堡市發展資料中的規劃戶數推算，未代表現況實際入住比例；不是本基地法規；來源所列地域：德國漢堡。",
+      "library_id": "HAMBURG_URBAN_PROJECTS2020_2035"
+    }
+  ],
+  "key_points_zh": [
+    "區分規劃供給目標與已完工或已入住戶數。",
+    "比較可負擔住宅時需另核對租金、資格與維持年限。"
+  ],
+  "design_implications_zh": [
+    "用分期住宅交付資料追蹤補助戶數是否按目標落實。"
+  ],
+  "applies_when_zh": "比對大型更新區的住宅供給與社會混合承諾時。",
+  "not_applicable_when_zh": "評估實際可負擔性、租金負擔或住戶收入時。",
+  "debates_zh": "規劃戶數比例不能說明補助住宅在各期的空間分布、租金可負擔程度或住戶能否長期留下。",
+  "sources": [
+    {
+      "library_id": "HAMBURG_URBAN_PROJECTS2020_2035",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "LANDIS2022",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "tradition": "社會住宅供給／大型都市更新",
+  "region": "德國漢堡",
+  "curriculum_refs": [
+    {
+      "school": "UCL Bartlett",
+      "course": null,
+      "topic": "Housing affordability and regeneration"
+    }
+  ],
+  "domain": "HAR",
+  "evidence": {
+    "strength": "CASE_EVIDENCE",
+    "findings": [
+      {
+        "claim_zh": "市府報告列示約7,500戶住宅與約2,000戶公共補助住宅。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "德國漢堡",
+        "library_id": "HAMBURG_URBAN_PROJECTS2020_2035",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "學術章節討論 HafenCity 的都市再生與永續目標，本文推算不把規劃數字當成實際居住結果。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "德國漢堡",
+        "library_id": "LANDIS2022",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "source_count_flag": "MULTI_SOURCE",
+  "version": "v2.0"
+}

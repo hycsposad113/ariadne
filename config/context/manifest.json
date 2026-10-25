@@ -1,0 +1,144 @@
+{
+  "schema_version": "osm-surrounding-context-v1",
+  "extraction_id": "context-20260927T153054Z",
+  "run_directory": "context-20260927T153054Z",
+  "project_id": "rotterdam-m4h-pilot-project",
+  "study_area_id": "study-area-rotterdam-m4h-pilot-project-v5",
+  "study_area_version": "v5",
+  "study_area_geometry_sha256": "sha256:3dedb804fa4f07f4c9570bcc64e68c8d576c03340455ab35fd4963bca52aa4f5",
+  "study_area_artifact_sha256": "9a59159505505dbe658ec6667ecfeb9024b868faf6377e7cd91889c763170d32",
+  "study_area_file": "study-area-v5.geojson",
+  "study_area_file_size_bytes": 347,
+  "crs": "EPSG:28992",
+  "units": "m",
+  "vertical_reference": "not applicable to 2D OSM context; 3D BAG height_above_ground_m is a vertical difference in metres",
+  "context_distance_m": 2000.0,
+  "context_buffer_area_m2": 17576863.413985875,
+  "context_buffer_bounds_m": [
+    86610.91296283554,
+    433508.7449238988,
+    91558.1768179423,
+    438221.62266182445
+  ],
+  "context_buffer_geometry_sha256": "7f039823b81e18ceadaef1249eb9cd873c6cf67ba93e2cfddeb5968e07383e95",
+  "feature_counts": {
+    "buildings": 21045,
+    "water": 103,
+    "green": 1135,
+    "roads": 4862
+  },
+  "layer_files": {
+    "buildings": {
+      "file": "buildings.geojson",
+      "sha256": "3d4ac0cea51bed38caa149d04fb8326fa775b6228819190866ce51805764e099",
+      "size_bytes": 25997129,
+      "feature_count": 21045
+    },
+    "water": {
+      "file": "water.geojson",
+      "sha256": "64fad90d9400350b67dda739e03cd7ac21e5f816e5888e302a1bce924739e54d",
+      "size_bytes": 187937,
+      "feature_count": 103
+    },
+    "green": {
+      "file": "green.geojson",
+      "sha256": "b810415d546761498eea4db84933bfca6cb6b47a62eac610296e0c9f0e753581",
+      "size_bytes": 1071256,
+      "feature_count": 1135
+    },
+    "roads": {
+      "file": "roads.geojson",
+      "sha256": "45b91f2c23b6476f03b0498aec0b29b96efb656104e1bac09457d5baddb93830",
+      "size_bytes": 3738672,
+      "feature_count": 4862
+    }
+  },
+  "rejected_geometry_counts": {
+    "buildings": 0,
+    "water": 0,
+    "green": 0,
+    "roads": 0
+  },
+  "clipped_geometry_counts": {
+    "buildings": 164,
+    "water": 19,
+    "green": 58,
+    "roads": 232
+  },
+  "source": "OpenStreetMap",
+  "source_file": "zuid-holland-260922.osm.pbf",
+  "source_file_size_bytes": 211355323,
+  "source_pbf_sha256": "71379de6fcb38b114ae2ee564cac99cfb2763b6cc3f6d87667c1079ea578401c",
+  "source_data_version": "2026-09-22T20:22:59Z",
+  "source_format": "OSM PBF",
+  "retrieved_at_utc": "2026-09-27T15:40:47.620805+00:00",
+  "license": "ODbL 1.0",
+  "license_url": "https://opendatacommons.org/licenses/odbl/1-0/",
+  "attribution": "© OpenStreetMap contributors",
+  "extraction_tool": "pyosmium",
+  "extraction_tool_version": "4.0.2",
+  "projection_tool": "pyproj",
+  "projection_tool_version": "3.8.0",
+  "clipping_tool": "Shapely",
+  "clipping_tool_version": "2.1.2",
+  "height_policy": {
+    "priority_distance_m": 500.0,
+    "3dbag_priority": "3D BAG height_above_ground_m from the height table, joined by ref:bag or a unique pand-footprint representative-point match with at least 0.5 overlap of the smaller footprint",
+    "osm_height": "OSM height tag parsed as metres; explicit feet are converted using 0.3048 m/ft",
+    "osm_levels": "OSM building:levels is displayed as levels × 3.0 m/storey under the versioned display-only assumption; this is not an analysis measurement",
+    "untagged": "footprint only; no height is fabricated",
+    "level_display_policy": "osm-building-levels-display-v1",
+    "level_display_height_m_per_storey": 3.0,
+    "height_source_counts": {
+      "3DBAG": 563,
+      "OSM_HEIGHT": 20,
+      "OSM_BUILDING_LEVELS_DISPLAY_ASSUMPTION": 233,
+      "FOOTPRINT_ONLY": 20229
+    }
+  },
+  "3dbag": {
+    "used": true,
+    "data_version": "v2025.09.03",
+    "license": "CC BY 4.0",
+    "attribution": "© 3DBAG by tudelft3d and 3DGI",
+    "height_table_sha256": "5897f273cf1180fa744692f71cb18b875adfa28737ddab10ade720a94f4a5f97",
+    "height_table_record_count": 964,
+    "tile_files": [
+      {
+        "file": "tile-8-296-512-v2025.09.03.gpkg.gz",
+        "sha256": "0ef9379495a26fd3b1b64af6a1fa41fd4d90a55430baeb669a70d66fed32ad12",
+        "size_bytes": 3993247,
+        "crs": "EPSG:7415 (EPSG:28992 horizontal + EPSG:5709 vertical)"
+      },
+      {
+        "file": "tile-9-304-512-v2025.09.03.gpkg.gz",
+        "sha256": "ad74d7c249c617b985df70a7b7e5785b67dae15c4a713ca19bcd6853e47e0da4",
+        "size_bytes": 1433837,
+        "crs": "EPSG:7415 (EPSG:28992 horizontal + EPSG:5709 vertical)"
+      },
+      {
+        "file": "tile-9-304-516-v2025.09.03.gpkg.gz",
+        "sha256": "c784d9e774c7f57a88d64499c540cd594e9002dd336f7601fe313242cf119967",
+        "size_bytes": 5123678,
+        "crs": "EPSG:7415 (EPSG:28992 horizontal + EPSG:5709 vertical)"
+      }
+    ],
+    "matched_building_count": 563
+  },
+  "data_gaps": [
+    "OSM coverage and tag completeness depend on contributor mapping; omitted features and missing tags remain unknown.",
+    "3D BAG heights are shown only where an available height record could be joined within the exact StudyArea 500 m buffer.",
+    "building:levels extrusion is a display-only assumption and is not a measured building height."
+  ],
+  "selection_query": {
+    "polygon_layers": [
+      "building=* excluding building=no,false,0",
+      "natural=water",
+      "waterway in basin,canal,dock,lock,riverbank",
+      "landuse in allotments,forest,grass,meadow,orchard,recreation_ground,village_green,vineyard,wood",
+      "leisure in common,garden,golf_course,nature_reserve,park,pitch,recreation_ground"
+    ],
+    "road_lines": "way with highway=* and area!=yes",
+    "clip": "intersection with a round 2D buffer of the exact StudyArea geometry in EPSG:28992"
+  }
+}

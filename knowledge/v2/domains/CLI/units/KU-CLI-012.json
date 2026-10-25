@@ -1,0 +1,74 @@
+{
+  "id": "KU-CLI-012",
+  "domain": "CLI",
+  "subtopic": "街谷高寬比（H/W）",
+  "type": "concept",
+  "title_zh": "街谷比例需連同朝向與氣候判讀",
+  "title_en": "街谷比例需連同朝向與氣候判讀",
+  "summary_zh": "街谷高寬比把建築高度和街道寬度的幾何關係轉成可比較的截面指標。Oke 的冠層氣候理論說明街谷形狀會影響日照、長波散熱和空氣交換；Ali-Toudert 與 Mayer 的模擬檢視熱乾氣候中比例和方位的聯合作用。單一比例不能獨自預測全年舒適或通風。",
+  "key_points_zh": [
+    "H/W 需要明確定義建築高度和有效街寬。",
+    "相同比例在不同朝向、緯度和材料下效果不同。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "library_id": "ALITOUDERT2006",
+        "claim_zh": "書目確認文章以數值研究考察街谷高寬比與朝向；未取得摘要中的參數範圍，故不產生可直接套用的 H/W 數值；本單元 KU-CLI-012 對照「街谷高寬比把建築高度和街道寬度的幾何關係轉成可比較的截面指標」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "數值研究",
+        "context_region": "炎熱乾燥氣候",
+        "locator": null
+      },
+      {
+        "library_id": "NG09",
+        "claim_zh": "香港通風評估可作高密度環境方法比較；本地風況、粗糙度與模擬仍需單獨計算；本單元 KU-CLI-012 對照「街谷高寬比把建築高度和街道寬度的幾何關係轉成可比較的截面指標」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "技術指引研究",
+        "context_region": "香港",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "把比例與朝向、天空可視、時段和地表材質並列。",
+    "以剖面和太陽路徑檢查行人受照時段。"
+  ],
+  "applies_when_zh": "適用於街道截面和早期體量配置比較。",
+  "not_applicable_when_zh": "不可只用 H/W 推定行人熱舒適或風環境。",
+  "debates_zh": "理想化街谷便於比較機制，但退縮、樹木和風場令城市邊界更複雜。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "ALITOUDERT2006",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "NG09",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "城市形態氣候學",
+  "region": "跨地域都市環境；炎熱乾燥氣候",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "街谷高寬比（H/W）"
+    },
+    {
+      "school": "MIT",
+      "course": "Theory of City Form",
+      "topic": "街谷高寬比（H/W）"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0"
+}

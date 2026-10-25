@@ -1,0 +1,110 @@
+{
+  "id": "KU-CAS-011",
+  "domain": "CAS",
+  "subtopic": "工業遺產與再利用案例",
+  "type": "case",
+  "title_zh": "RDM Rotterdam：船廠遺產轉為技術與教育場域",
+  "title_en": "RDM Rotterdam: Reusing Shipyard Heritage for Technology and Education",
+  "summary_zh": "RDM 位於鹿特丹 Heijplaat，前身是 1902 年成立的船舶修造公司；現行園區由創新企業、技術教育與測試研究設施共同使用。RDM Rotterdam 的合作機構資料顯示，場址已從大型船廠生產用途轉為港口、教育與創新夥伴共用的工作園區。Bullen 的再利用決策研究可作為比較延用、改造與拆除的分析框架，但不是對 RDM 成效的實證評估。",
+  "key_points_zh": [
+    "RDM 的再利用延續船廠的工作空間特徵，並把企業、職業教育和研究設施納入同一園區。",
+    "目前公開資料未提供可比較的場址面積、建築再利用比例或原港區工人轉職結果。"
+  ],
+  "evidence": {
+    "strength": "CASE_EVIDENCE",
+    "findings": [
+      {
+        "claim_zh": "RDM Rotterdam 的官方介紹稱園區現有六十多家創新企業、職業與高等技術教育以及測試研究設施；這是營運方公開的現況說明。",
+        "effect_or_value": "混合使用與機構配置；非獨立績效調查",
+        "study_design": "園區官方介紹",
+        "context_region": "荷蘭鹿特丹 Heijplaat",
+        "library_id": "RDM_ROTTERDAM_ABOUT2026",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "Bullen 提出的再利用決策模型比較既有資產延用與拆除的評估問題；該研究未評估 RDM 園區。",
+        "effect_or_value": "再利用決策模型；一般框架",
+        "study_design": "決策模型研究",
+        "context_region": "澳洲與英國實務脈絡",
+        "library_id": "BULLEN2011",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "RDM Rotterdam 頁面記載 Rotterdamse Droogdok Maatschappij 於 1902 年成立，最初從事船舶修理，後來擴展至造船。",
+        "effect_or_value": "成立與歷史用途",
+        "study_design": "園區官方歷史介紹",
+        "context_region": "荷蘭鹿特丹 Heijplaat",
+        "library_id": "RDM_ROTTERDAM_ABOUT2026",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "盤點建築結構、設備、岸線與工作流程，把仍可承載的生產能力納入遺產價值判斷。",
+    "對每種廠房分別記錄改造成本、承載條件與新舊產業需求，避免把「保存」等同於表面修復。"
+  ],
+  "applies_when_zh": "港區仍有生產或教育用途，並以既有船廠、倉庫及附屬聚落構成文化景觀時。",
+  "not_applicable_when_zh": "只評估單棟歷史建築，且不涉及港口營運、聚落或產業空間的轉型決策時。",
+  "debates_zh": "園區轉型讓企業、教育和測試用途進入舊船廠，但公開資訊尚不能證明原有技術工人延續就業或新收益在地方公平分配；再利用投資的成本與維護責任也需要可追溯資料。",
+  "sources": [
+    {
+      "library_id": "RDM_ROTTERDAM_ABOUT2026",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "BULLEN2011",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "RDM_ROTTERDAM_ABOUT2026",
+      "claim_id": "C2",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "荷蘭港區工業遺產保存與創新園區",
+  "region": "西歐／荷蘭鹿特丹",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": null,
+      "topic": "工業遺產、港區生產與 adaptive reuse"
+    },
+    {
+      "school": "MIT",
+      "course": null,
+      "topic": "產業轉型及公共私營協作"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": null,
+      "topic": "遺產保存的權力與用途變化"
+    }
+  ],
+  "case": {
+    "location": "鹿特丹 Heijplaat，荷蘭",
+    "period": "船廠於 1902 年設立；停產後轉為教育、創新與測試設施",
+    "area_ha": null,
+    "fsi": null,
+    "gsi": null,
+    "program_mix": "創新企業、技術教育、研究測試、船廠遺產及鄰接工人村；各用途比例未查得。",
+    "key_strategies_zh": [
+      "在大型船廠空間內引入企業與技術教育，讓歷史廠房承接當代工作用途。",
+      "讓港口、技術學校和研究設施共同參與園區營運，延續工作用途而非只保存外觀。"
+    ],
+    "outcomes_zh": [
+      "園區官方現況頁列出六十多家創新企業及多種教育、測試用途；此為管理單位的營運資訊。",
+      "鹿特丹市的保存說明確認船廠與工人村的歷史空間關係仍是區域辨識的重要依據。"
+    ],
+    "critiques_zh": [
+      "公開頁面沒有交代企業存續率、在地聘僱或廠房修繕投資，因此不能推論產業轉型已帶來普遍就業收益。",
+      "若新用途只服務外來訪客與高技能工作者，歷史工業空間仍可能和原社區生活脫節。"
+    ]
+  },
+  "version": "v2.0"
+}

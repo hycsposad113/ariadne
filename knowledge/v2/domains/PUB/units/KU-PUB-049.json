@@ -1,0 +1,66 @@
+{
+  "id": "KU-PUB-049",
+  "domain": "PUB",
+  "subtopic": "公共空間私有化與管理",
+  "type": "design_principle",
+  "title_zh": "共同設計應涵蓋決策後的管理",
+  "title_en": "Co-design must include later governance",
+  "summary_zh": "參與式設計若只收集造型偏好，未觸及活動許可與維護優先序。管理衝突常在使用階段才浮現，應及早讓不同使用者共同討論。參與活動本身也會排除無法出席者。專業者仍需對未能參與者的權利負責。",
+  "key_points_zh": [
+    "參與式設計若只收集造型偏好，未觸及活動許可與維護優先序",
+    "管理衝突常在使用階段才浮現，應及早讓不同使用者共同討論"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "參與式設計若只收集造型偏好，未觸及活動許可與維護優先序。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "非洲",
+        "library_id": "WATSON09",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "專業者仍需對未能參與者的權利負責。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "使用多時段、線上和個別訪談補足公開會議中的代表性缺口。"
+  ],
+  "applies_when_zh": "適用於治理規則尚可調整的公用空間。",
+  "not_applicable_when_zh": "不適合宣稱一次工作坊代表所有居民。",
+  "debates_zh": "專業者仍需對未能參與者的權利負責。",
+  "sources": [
+    {
+      "library_id": "WATSON09",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "MADANIPOUR96",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "全球南方規劃批評",
+  "region": "非洲",
+  "curriculum_refs": [
+    {
+      "school": "UCL Bartlett",
+      "course": "Critical Debates in Urban Design",
+      "topic": "公共空間私有化與管理"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "公共空間私有化與管理"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-PUB-048",
+    "KU-PUB-050"
+  ]
+}

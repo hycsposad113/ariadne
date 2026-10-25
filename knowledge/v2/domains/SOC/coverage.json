@@ -1,0 +1,183 @@
+{
+  "domain": "SOC",
+  "units_total": 24,
+  "topics": [
+    {
+      "topic": "正義城市",
+      "unit_ids": [
+        "KU-SOC-006",
+        "KU-SOC-021",
+        "KU-SOC-022"
+      ],
+      "unit_count": 3
+    },
+    {
+      "topic": "參與階梯與合作式規劃",
+      "unit_ids": [
+        "KU-SOC-001",
+        "KU-SOC-002",
+        "KU-SOC-003",
+        "KU-SOC-004",
+        "KU-SOC-005"
+      ],
+      "unit_count": 5
+    },
+    {
+      "topic": "治理與公私合作",
+      "unit_ids": [
+        "KU-SOC-007",
+        "KU-SOC-008",
+        "KU-SOC-016",
+        "KU-SOC-017",
+        "KU-SOC-018"
+      ],
+      "unit_count": 5
+    },
+    {
+      "topic": "開發經濟與可行性（土地價值、殘值法）",
+      "unit_ids": [
+        "KU-SOC-013",
+        "KU-SOC-014",
+        "KU-SOC-020"
+      ],
+      "unit_count": 3
+    },
+    {
+      "topic": "分期與風險",
+      "unit_ids": [
+        "KU-SOC-015"
+      ],
+      "unit_count": 1
+    },
+    {
+      "topic": "都市更新的社會影響",
+      "unit_ids": [
+        "KU-SOC-009",
+        "KU-SOC-010",
+        "KU-SOC-011",
+        "KU-SOC-012",
+        "KU-SOC-019",
+        "KU-SOC-023",
+        "KU-SOC-024"
+      ],
+      "unit_count": 7
+    }
+  ],
+  "coverage_status": "DRAFT_CANONICAL_CROSS_CHECK_PENDING",
+  "required_items": [
+    {
+      "requirement": "Arnstein 八層階梯",
+      "unit_ids": [
+        "KU-SOC-001"
+      ],
+      "status": "DRAFT_PENDING_CROSS_CHECK"
+    },
+    {
+      "requirement": "Healey 合作式規劃",
+      "unit_ids": [
+        "KU-SOC-002"
+      ],
+      "status": "DRAFT_PENDING_CROSS_CHECK"
+    },
+    {
+      "requirement": "Habermas、Forester、Innes 溝通式規劃與批評",
+      "unit_ids": [
+        "KU-SOC-003",
+        "KU-SOC-004",
+        "KU-SOC-005"
+      ],
+      "status": "DRAFT_PENDING_CROSS_CHECK"
+    },
+    {
+      "requirement": "Fainstein 民主、多樣、公平",
+      "unit_ids": [
+        "KU-SOC-006"
+      ],
+      "status": "DRAFT_PENDING_CROSS_CHECK"
+    },
+    {
+      "requirement": "Logan 與 Molotch 成長機器",
+      "unit_ids": [
+        "KU-SOC-007"
+      ],
+      "status": "DRAFT_PENDING_CROSS_CHECK"
+    },
+    {
+      "requirement": "Stone 城市政權",
+      "unit_ids": [
+        "KU-SOC-008"
+      ],
+      "status": "DRAFT_PENDING_CROSS_CHECK"
+    },
+    {
+      "requirement": "Glass 1964、Smith 租隙、Lees 新建、綠色仕紳化",
+      "unit_ids": [
+        "KU-SOC-009",
+        "KU-SOC-010",
+        "KU-SOC-011",
+        "KU-SOC-012"
+      ],
+      "status": "DRAFT_PENDING_CROSS_CHECK"
+    },
+    {
+      "requirement": "開發可行性：殘值、土地價值、資本化率、分期、風險",
+      "unit_ids": [
+        "KU-SOC-013",
+        "KU-SOC-014",
+        "KU-SOC-015"
+      ],
+      "status": "DRAFT_PENDING_CROSS_CHECK"
+    },
+    {
+      "requirement": "PPP 與 BID",
+      "unit_ids": [
+        "KU-SOC-016",
+        "KU-SOC-017"
+      ],
+      "status": "DRAFT_PENDING_CROSS_CHECK"
+    },
+    {
+      "requirement": "價值捕捉與荷蘭 actief grondbeleid",
+      "unit_ids": [
+        "KU-SOC-018"
+      ],
+      "status": "DRAFT_PENDING_CROSS_CHECK"
+    },
+    {
+      "requirement": "社會影響評估",
+      "unit_ids": [
+        "KU-SOC-019"
+      ],
+      "status": "DRAFT_PENDING_CROSS_CHECK"
+    },
+    {
+      "requirement": "包容性分區與社會住宅配比",
+      "unit_ids": [
+        "KU-SOC-020"
+      ],
+      "status": "DRAFT_PENDING_CROSS_CHECK"
+    },
+    {
+      "requirement": "Soja 空間正義",
+      "unit_ids": [
+        "KU-SOC-021"
+      ],
+      "status": "DRAFT_PENDING_CROSS_CHECK"
+    },
+    {
+      "requirement": "性別與城市",
+      "unit_ids": [
+        "KU-SOC-022"
+      ],
+      "status": "DRAFT_PENDING_CROSS_CHECK"
+    },
+    {
+      "requirement": "Watson、Miraftab 非正式及南方規劃",
+      "unit_ids": [
+        "KU-SOC-023",
+        "KU-SOC-024"
+      ],
+      "status": "DRAFT_PENDING_CROSS_CHECK"
+    }
+  ]
+}

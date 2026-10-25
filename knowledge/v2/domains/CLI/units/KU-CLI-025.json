@@ -1,0 +1,83 @@
+{
+  "id": "KU-CLI-025",
+  "domain": "CLI",
+  "subtopic": "風舒適度準則（如 Lawson）",
+  "type": "value_range",
+  "title_zh": "Lawson 風速門檻須核對版本和統計定義",
+  "title_en": "Lawson 風速門檻須核對版本和統計定義",
+  "summary_zh": "Lawson 類風舒適準則把風速門檻與坐姿、站立、漫步及步行等活動容忍度連結。常見的 2、4、6、8 m/s 分類來自傳統版本，並不是沒有上下文的通用安全線。平均時距、陣風修正、超越頻率和人群暴露都要一併標註。",
+  "key_points_zh": [
+    "同一速度若平均時距不同不可直接比較。",
+    "安全限值不能和舒適分級混為一談。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "library_id": "BLOCKEN2016",
+        "claim_zh": "Lawson 舒適準則有多個版本：LDDC 版以約 4／6／8／10 m/s（超越機率 5%）對照坐、站、漫步、步行；City of London 版以約 2.5／4／6／8 m/s 細分頻繁坐、偶爾坐、站立、步行。平均時距與超越頻率必須與版本一致。",
+        "effect_or_value": "此單元先保留類別和查核欄位，具體區間需回到可查的原始準則。",
+        "study_design": "風評估方法回顧",
+        "context_region": "跨地域建築風環境",
+        "locator": null,
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008"
+      },
+      {
+        "library_id": "KRUGER2011",
+        "claim_zh": "書目確認本文題名聚焦「Impact of urban geometry on outdoor thermal comfort and air quality from field measurements in Curitiba, Brazil」；目前只完成作者、年份、題名與 DOI 核對，未將摘要或全文結論納入此記錄；本單元 KU-CLI-025 對照「Lawson 類風舒適準則把風速門檻與坐姿、站立、漫步及步行等活動容忍度連結」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "案例或場地研究；目前僅核對書目範圍",
+        "context_region": "Curitiba, Brazil",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "取得原文後逐項記錄門檻及活動類型。",
+    "為通行、停留和入口分區匹配判定條件。"
+  ],
+  "applies_when_zh": "適用於方案評估前的準則比較。",
+  "not_applicable_when_zh": "具體區間待原文查證；不是本基地法規。",
+  "debates_zh": "縮寫常被轉成一組脫離背景的數字，可能抹去地方採用規則。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "BLOCKEN2016",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "KRUGER2011",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "風舒適準則比較",
+  "region": "跨地域建築風環境；都市公共空間",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "風舒適度準則（如 Lawson）"
+    },
+    {
+      "school": "MIT",
+      "course": "Theory of City Form",
+      "topic": "風舒適度準則（如 Lawson）"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0",
+  "values": [
+    {
+      "name": "Lawson 活動類別的常見風速門檻",
+      "range": "約 2.5／4／6／8 或 4／6／8／10",
+      "unit": "m/s mean wind speed",
+      "context": "分別作為坐姿、站立、漫步和步行類別的傳統比較門檻；版本、平均時距和超越機率須回原準則核對 這不是本基地法規；來源所列地域：跨地域建築風環境研究。",
+      "library_id": "BLOCKEN2016"
+    }
+  ]
+}

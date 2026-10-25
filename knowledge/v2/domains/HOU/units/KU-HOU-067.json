@@ -1,0 +1,92 @@
+{
+  "id": "KU-HOU-067",
+  "domain": "HOU",
+  "subtopic": "住宅類型",
+  "type": "value_range",
+  "title_zh": "點式高層住宅群密度",
+  "title_en": "Point-tower housing density",
+  "summary_zh": "點式高層住宅群可以用塔樓高度承載戶數，但底座覆蓋、塔樓間距和地面公共空間會改變居住環境。Yue 的新加坡公屋研究提供高層生活的制度案例；Spacematrix 的多指標方法補足覆蓋和開放空間。150–350 戶／公頃只作類型比較，不是來源共同給出的數值。",
+  "key_points_zh": [
+    "點式高層住宅群可用約 150–350 戶／公頃作案例比較，塔樓高度和底座覆蓋率會形成不同地面空間。",
+    "此為不同高密案例的概括區間，不是建築高度或人口容量的替代指標。",
+    "先設定公共通道和服務核心，再調整塔樓位置與戶型。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "Yue 研究新加坡公共住宅中的高層生活經驗，提供高層住宅的制度脈絡；文獻記錄不提出 150–350 戶／公頃的通用標準。",
+        "effect_or_value": "約 150–350",
+        "study_design": "跨案例尺度對照或明示假設的規劃計算",
+        "context_region": "新加坡與亞洲高密住宅案例",
+        "library_id": "YUE05",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "Spacematrix 以多個形態指標描述密度，能補充塔樓高度以外的地面覆蓋及開放空間比較；不提供本單元戶數範圍。",
+        "library_id": "BERGHAUSERPONT_HAUPT2020",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "荷蘭與跨地域",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "點式高層住宅群密度",
+      "range": "約 150–350",
+      "unit": "戶／公頃",
+      "context": "新加坡與跨地域點式高層住宅比較；用途：住宅群淨地密度工作帶；塔樓和底座需分別計算；不是本基地法規。",
+      "library_id": "BERGHAUSERPONT_HAUPT2020"
+    }
+  ],
+  "design_implications_zh": [
+    "先設定公共通道和服務核心，再調整塔樓位置與戶型。",
+    "記錄 新加坡與亞洲高密住宅案例 與「塔樓加底座住宅群的淨住宅用地」的量測分母，再和另一種尺度或用途並排比較。"
+  ],
+  "applies_when_zh": "用於比較新加坡與亞洲高密住宅案例的塔樓加底座住宅群的淨住宅用地，並明示此數值的來源、年份和面積分母。",
+  "not_applicable_when_zh": "此為不同高密案例的概括區間，不是建築高度或人口容量的替代指標。",
+  "debates_zh": "塔樓把戶數垂直疊加，地面公共空間若缺少可達性和維護方案仍可能變成剩餘空地。 查核：「點式高層住宅群密度」的數值帶不確定，但所引文獻未提供，待補來源。",
+  "sources": [
+    {
+      "library_id": "BERGHAUSERPONT_HAUPT2020",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "YUE05",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "亞洲高層生活",
+  "region": "新加坡與亞洲高密住宅案例",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "住宅類型"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "住宅類型"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "住宅類型"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "住宅類型"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+}

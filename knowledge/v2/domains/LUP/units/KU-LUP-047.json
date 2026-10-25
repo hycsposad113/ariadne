@@ -1,0 +1,106 @@
+{
+  "id": "KU-LUP-047",
+  "domain": "LUP",
+  "subtopic": "15 分鐘城市與可及性",
+  "type": "method",
+  "title_zh": "15 分鐘城市與可及性｜分析方法",
+  "title_en": "15-minute city and accessibility — Analytical method",
+  "summary_zh": "非機動可及性必須說明網路、目的地與尺度，替代量測方式需保持定義可比較。 比較服務分布與居民需求，而不只畫直線半徑。 讀「15 分鐘城市與可及性｜分析方法」時，限制：不把步行網路模型結果等同所有居民實際可達性；同時把非機動可及性必須說明網路、目的地與尺度，替代量測方式需保持定義可比較列為核對條件。",
+  "key_points_zh": [
+    "比較服務分布與居民需求，而不只畫直線半徑。",
+    "比較服務分布與居民需求，而不只畫直線半徑。",
+    "讀「15 分鐘城市與可及性｜分析方法」時，限制：不把步行網路模型結果等同所有居民實際可達性；同時把非機動可及性必須說明網路、目的地與尺度，替代量測方式需保持定義可比較列為核對條件。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "Iacono 等人比較非機動可及性的量測方式，要求先交代路網、目的地集合和分析尺度，服務圈才可重現比較。",
+        "library_id": "IACONO10",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "美國",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "Geurs 與 van Wee 的可及性回顧把交通、土地使用和個人條件列為共同評估面向；單靠直線距離或服務圈不足以代表居民可得機會。",
+        "effect_or_value": null,
+        "study_design": "交通與土地使用策略的可及性回顧",
+        "context_region": "跨國文獻回顧",
+        "library_id": "GEURS04",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "本項只沿用已登錄書目範圍，未把它轉成路網可達性實測結果。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "落實「15 分鐘城市與可及性｜分析方法」時可先步行、自行車、公共運輸和照護行程可能需要不同服務圈，再用非機動可及性必須說明網路、目的地與尺度，替代量測方式需保持定義可比較核對方案的空間後果。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "「15 分鐘城市與可及性｜分析方法」可把取向落在量測實際路網時間並說明目的地清單、開放時間與無障礙條件，但需連同非機動可及性必須說明網路、目的地與尺度，替代量測方式需保持定義可比較決定適用方式。",
+      "tradeoff_zh": "此選項把「15 分鐘城市與可及性｜分析方法」的工作放在非機動可及性必須說明網路、目的地與尺度，替代量測方式需保持定義可比較上；需要承擔的協調或維護代價則由「「15 分鐘城市與可及性｜分析方法」的爭議不只在於交通節點能力與站區場所活動應並列比較；靠近車站不等於站區用途已適配；還要檢視非機動可及性必須說明網路、目的地與尺度，替代量測方式需保持定義可比較會讓哪些使用者承擔不同後果」界定。",
+      "library_ids": [
+        "IACONO10"
+      ]
+    },
+    {
+      "option_zh": "「15 分鐘城市與可及性｜分析方法」可把取向落在步行、自行車、公共運輸和照護行程可能需要不同服務圈，但需連同非機動可及性必須說明網路、目的地與尺度，替代量測方式需保持定義可比較決定適用方式。",
+      "tradeoff_zh": "「15 分鐘城市與可及性｜分析方法」採用「「15 分鐘城市與可及性｜分析方法」可把取向落在步行、自行車、公共運輸和照護行程可能需要不同服務圈，但需連同非機動可及性必須說明網路、目的地與尺度，替代量測方式需保持定義可比較決定適用方式」時，得失要沿著非機動可及性必須說明網路、目的地與尺度，替代量測方式需保持定義可比較檢查；「15 分鐘城市與可及性｜分析方法」的爭議不只在於交通節點能力與站區場所活動應並列比較；靠近車站不等於站區用途已適配；還要檢視非機動可及性必須說明網路、目的地與尺度，替代量測方式需保持定義可比較會讓哪些使用者承擔不同後果。",
+      "library_ids": [
+        "IACONO10"
+      ]
+    }
+  ],
+  "applies_when_zh": "「15 分鐘城市與可及性｜分析方法」可在適用於鄰里服務缺口、交通公平和日常活動配置時使用，前提是非機動可及性必須說明網路、目的地與尺度，替代量測方式需保持定義可比較與來源情境相符。",
+  "not_applicable_when_zh": "若非機動可及性必須說明網路、目的地與尺度，替代量測方式需保持定義可比較不成立，就不能把「15 分鐘城市與可及性｜分析方法」的結論延伸到其他情況；不把步行網路模型結果等同所有居民實際可達性。",
+  "debates_zh": "「15 分鐘城市與可及性｜分析方法」的爭議不只在於交通節點能力與站區場所活動應並列比較；靠近車站不等於站區用途已適配；還要檢視非機動可及性必須說明網路、目的地與尺度，替代量測方式需保持定義可比較會讓哪些使用者承擔不同後果。",
+  "sources": [
+    {
+      "library_id": "IACONO10",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "GEURS04",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "非機動可及性；節點與場所",
+  "region": "美國；荷蘭",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Planning Complex Cities",
+      "topic": "15 分鐘城市與可及性"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Cities by Design",
+      "topic": "15 分鐘城市與可及性"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "15 分鐘城市與可及性"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Sustainable Futures by Design",
+      "topic": "15 分鐘城市與可及性"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-LUP-044",
+    "KU-LUP-045",
+    "KU-LUP-046"
+  ],
+  "counter_unit_ids": [
+    "KU-LUP-048"
+  ]
+}

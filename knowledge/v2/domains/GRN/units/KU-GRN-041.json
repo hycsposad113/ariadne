@@ -1,0 +1,70 @@
+{
+  "id": "KU-GRN-041",
+  "domain": "GRN",
+  "subtopic": "公園使用與維護",
+  "type": "value_range",
+  "title_zh": "公園活動研究的樣本設計",
+  "title_en": "Park-use study sample frame",
+  "summary_zh": "一項美國研究觀察三十三座鄰里公園，並搭配居民活動日誌。它展示了場地稽核與個體行為資料可在同一研究中配對。研究並非全市隨機抽樣的代表性基線。樣本可揭示關聯，但外推需要額外驗證。",
+  "key_points_zh": [
+    "一項美國研究觀察三十三座鄰里公園，並搭配居民活動日誌",
+    "它展示了場地稽核與個體行為資料可在同一研究中配對"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "一項美國研究觀察三十三座鄰里公園，並搭配居民活動日誌。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "跨地域",
+        "library_id": "CARMONA10",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "樣本可揭示關聯，但外推需要額外驗證。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "規劃使用研究時，說明場地選擇和居民參與方式。"
+  ],
+  "applies_when_zh": "適用於設計公園評估的方法。",
+  "not_applicable_when_zh": "不可將三十三座場地當作最少公園數要求。",
+  "debates_zh": "樣本可揭示關聯，但外推需要額外驗證。",
+  "sources": [
+    {
+      "library_id": "CARMONA10",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "LOW05",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "公共空間治理批評",
+  "region": "跨地域",
+  "curriculum_refs": [
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "公園使用與維護"
+    }
+  ],
+  "version": "2.0.0",
+  "values": [
+    {
+      "name": "公園活動研究的樣本設計",
+      "range": "33 座",
+      "unit": "公園數",
+      "context": "美國鄰里公園實證研究的場地樣本；供方法參考，不是系統配置要求。；「公園活動研究的樣本設計」僅供其研究脈絡內比較，不構成本基地法規。",
+      "library_id": "KACZYNSKI08"
+    }
+  ],
+  "related_unit_ids": [
+    "KU-GRN-040",
+    "KU-GRN-042"
+  ]
+}

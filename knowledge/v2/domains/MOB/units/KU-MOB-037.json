@@ -1,0 +1,84 @@
+{
+  "id": "KU-MOB-037",
+  "domain": "MOB",
+  "subtopic": "TOD 與節點—場所模型",
+  "type": "critique",
+  "title_zh": "TOD 與節點—場所模型：批評與適用限制",
+  "title_en": "TOD and node-place model: Critique and boundary",
+  "summary_zh": "TOD 標籤可能掩蓋土地價格、移居壓力和地方治理；提高可及性不保證公平分配。另一個需要同時檢查的面向是節點描述公共運輸網路與服務能力，場所描述站區的活動、土地使用與城市生活，兩面向需並列診斷。替代做法可以是以車站為多模式接點，沿可步行路徑布置日常活動並保留社會與服務需求。",
+  "key_points_zh": [
+    "批評焦點：節點描述公共運輸網路與服務能力，場所描述站區的活動、土地使用與城市生活，兩面向需並列診斷",
+    "批評焦點：TOD 標籤可能掩蓋土地價格、移居壓力和地方治理；提高可及性不保證公平分配"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "TOD 與節點—場所模型：批評與適用限制｜交通節點能力與站區場所活動應並列比較；靠近車站不等於站區用途已適配",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "BERTOLINI99",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "TOD 與節點—場所模型：批評與適用限制｜TOD 將大眾運輸節點、混合用途與步行環境作為共同規劃對象；本單元只引用其規劃框架",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "CALTHORPE93",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "把「TOD 標籤可能掩蓋土地價格、移居壓力和地方治理；提高可及性不保證公平分配」轉成一項可觀察的風險，並在替代方案中檢查「節點描述公共運輸網路與服務能力，場所描述站區的活動、土地使用與城市生活，兩面向需並列診斷」是否改變其影響。"
+  ],
+  "applies_when_zh": "若TOD 與節點—場所模型方案可能受「TOD 標籤可能掩蓋土地價格、移居壓力和地方治理；提高可及性不保證公平分配」影響，可用「節點描述公共運輸網路與服務能力，場所描述站區的活動、土地使用與城市生活，兩面向需並列診斷」安排實地觀察或替代方案比較。",
+  "not_applicable_when_zh": "這項批評提出的是「TOD 標籤可能掩蓋土地價格、移居壓力和地方治理；提高可及性不保證公平分配」的風險，不能據此推定所有替代方案都更好，也不能代替本地使用者測試。",
+  "debates_zh": "TOD 標籤可能掩蓋土地價格、移居壓力和地方治理；提高可及性不保證公平分配；檢視「TOD 與節點—場所模型：批評與適用限制」的反例檢查時，還需判斷「TOD 標籤可能掩蓋土地價格、移居壓力和地方治理；提高可及性不保證公平分配」會如何改變方案結論。",
+  "sources": [
+    {
+      "library_id": "BERTOLINI99",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "CALTHORPE93",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "大眾運輸導向發展",
+  "region": "跨地域理論或實務脈絡；來源地區依引用條目判讀",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "TOD 與節點—場所模型：課綱對應主題"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Urban Design Contexts and Operations",
+      "topic": "TOD 與節點—場所模型：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-MOB-033",
+    "KU-MOB-034",
+    "KU-MOB-035",
+    "KU-MOB-036",
+    "KU-MOB-038",
+    "KU-MOB-039",
+    "KU-MOB-040"
+  ],
+  "counter_unit_ids": [
+    "KU-MOB-033",
+    "KU-MOB-034"
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "id": "KU-REG-053",
+  "domain": "REG",
+  "subtopic": "開發獎勵與容積移轉",
+  "type": "empirical_finding",
+  "title_zh": "基加利分區對住宅成本有中度影響而供給缺口仍大",
+  "title_en": "Zoning and housing affordability in Kigali",
+  "summary_zh": "文章不提供可移植到其他城市的成本彈性數值。 檢查規則調整能否真正增加適合低收入家庭的供應。 研究設計：政策文件與文獻檢視加建造成本分析；地區：基加利，盧安達。 限制：文章不提供可移植到其他城市的成本彈性數值。",
+  "key_points_zh": [
+    "成本分析指出基加利可負擔住宅供給有顯著缺口，分區要求影響成本程度為中等，落實也受制度限制。",
+    "研究設計：政策文件與文獻檢視加建造成本分析；地區：基加利，盧安達",
+    "限制：文章不提供可移植到其他城市的成本彈性數值。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "成本分析指出基加利可負擔住宅供給有顯著缺口，分區要求影響成本程度為中等，落實也受制度限制。",
+        "effect_or_value": "可負擔供給缺口大；分區成本影響中等",
+        "study_design": "政策文件與文獻檢視加建造成本分析",
+        "context_region": "基加利，盧安達",
+        "library_id": "NKUBITO2019",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "檢查規則調整能否真正增加適合低收入家庭的供應。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "檢查規則調整能否真正增加適合低收入家庭的供應。",
+      "tradeoff_zh": "「基加利分區對住宅成本有中度影響而供給缺口仍大」採用「檢查規則調整能否真正增加適合低收入家庭的供應」時，得失要沿著成本分析指出基加利可負擔住宅供給有顯著缺口，分區要求影響成本程度為中等，落實也受制度限制檢查；文章不提供可移植到其他城市的成本彈性數值。",
+      "library_ids": [
+        "NKUBITO2019",
+        "MADDEN2016"
+      ]
+    },
+    {
+      "option_zh": "在「基加利分區對住宅成本有中度影響而供給缺口仍大」的來源情境裡，土地拍賣、密度獎勵與權利移轉是不同工具，需分別建模；落到設計時還要按成本分析指出基加利可負擔住宅供給有顯著缺口，分區要求影響成本程度為中等，落實也受制度限制調整。",
+      "tradeoff_zh": "「基加利分區對住宅成本有中度影響而供給缺口仍大」採用「在「基加利分區對住宅成本有中度影響而供給缺口仍大」的來源情境裡，土地拍賣、密度獎勵與權利移轉是不同工具，需分別建模；落到設計時還要按成本分析指出基加利可負擔住宅供給有顯著缺口，分區要求影響成本程度為中等，落實也受制度限制調整」時，得失要沿著成本分析指出基加利可負擔住宅供給有顯著缺口，分區要求影響成本程度為中等，落實也受制度限制檢查；文章不提供可移植到其他城市的成本彈性數值。",
+      "library_ids": [
+        "NKUBITO2019",
+        "MADDEN2016"
+      ]
+    }
+  ],
+  "applies_when_zh": "用於與基加利，盧安達研究情境可比、且量測定義相近的分析。",
+  "not_applicable_when_zh": "文章不提供可移植到其他城市的成本彈性數值。",
+  "debates_zh": "文章不提供可移植到其他城市的成本彈性數值。",
+  "sources": [
+    {
+      "library_id": "NKUBITO2019",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "MADDEN2016",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "SCANLON2007",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "非洲分區與可負擔住宅；住房權與政治經濟批判",
+  "region": "基加利，盧安達；美國與跨國住房政治",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Planning Complex Cities",
+      "topic": "開發獎勵與容積移轉"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Urban Design Contexts and Operations",
+      "topic": "開發獎勵與容積移轉"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "開發獎勵與容積移轉"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban design governance",
+      "topic": "開發獎勵與容積移轉"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-REG-049",
+    "KU-REG-050",
+    "KU-REG-051"
+  ]
+}

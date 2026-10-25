@@ -1,0 +1,78 @@
+{
+  "id": "KU-HOU-075",
+  "domain": "HOU",
+  "subtopic": "混合產權",
+  "type": "value_range",
+  "title_zh": "加拿大社會住宅生產占比歷史案例",
+  "title_en": "Canadian social-housing production share historical case",
+  "summary_zh": "此為特定時期的歷史敘述，不代表當代加拿大或荷蘭制度比例。 把產量占比和後續存量、租金制度與住戶流動分開分析。 記錄 加拿大社會住宅政策史 與「1965–1995 年住房生產中社會住宅的歷史比例」的量測分母，再和另一種尺度或用途並排比較。",
+  "key_points_zh": [
+    "加拿大政策史研究把 1965–1995 年社會住宅產量描述為總住房生產約一成的量級。",
+    "此為特定時期的歷史敘述，不代表當代加拿大或荷蘭制度比例。",
+    "把產量占比和後續存量、租金制度與住戶流動分開分析。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "加拿大政策史研究把 1965–1995 年社會住宅產量描述為總住房生產約一成的量級。",
+        "effect_or_value": "約 10",
+        "study_design": "跨案例尺度對照或明示假設的規劃計算",
+        "context_region": "加拿大社會住宅政策史",
+        "library_id": "SUTTOR2014",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "加拿大社會住宅生產占比歷史案例",
+      "range": "約 10",
+      "unit": "% 新增住房",
+      "context": "加拿大社會住宅政策史；用途：1965–1995 年住房生產中社會住宅的歷史比例；對照書目：SUTTOR2014；適用於制度或形態比較，這不是本基地法規。",
+      "library_id": "SUTTOR2014"
+    }
+  ],
+  "design_implications_zh": [
+    "把產量占比和後續存量、租金制度與住戶流動分開分析。",
+    "記錄 加拿大社會住宅政策史 與「1965–1995 年住房生產中社會住宅的歷史比例」的量測分母，再和另一種尺度或用途並排比較。"
+  ],
+  "applies_when_zh": "用於比較加拿大社會住宅政策史的1965–1995 年住房生產中社會住宅的歷史比例，並明示此數值的來源、年份和面積分母。",
+  "not_applicable_when_zh": "此為特定時期的歷史敘述，不代表當代加拿大或荷蘭制度比例。",
+  "debates_zh": "單一時期的供應比例無法說明住房可負擔性在不同城市和收入組別中的分布。 查核：無法核實。",
+  "sources": [
+    {
+      "library_id": "SUTTOR2014",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "SINGLE_SOURCE",
+  "tradition": "加拿大社會住宅與城市空間",
+  "region": "加拿大社會住宅政策史",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "混合產權"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "混合產權"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "混合產權"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "混合產權"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+}

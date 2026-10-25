@@ -1,0 +1,107 @@
+{
+  "id": "KU-MOR-055",
+  "domain": "MOR",
+  "subtopic": "形態指標與類型比較方法",
+  "type": "typology",
+  "title_zh": "形態指標與類型比較方法｜類型取捨",
+  "title_en": "Methods for typology and indicators — Typology and trade-offs",
+  "summary_zh": "讀「形態指標與類型比較方法｜類型取捨」時，多尺度建築指標、地塊形態和街道網絡可互相補足；同時把將空間語法表示法與幾何資訊的限制列為方法審查問題；應與作者回應和替代圖方法並讀列為核對條件。 讀「形態指標與類型比較方法｜類型取捨」時，適用於跨城市比較、形態診斷和參數化設計驗證；同時把將空間語法表示法與幾何資訊的限制列為方法審查問題；應與作者回應和替代圖方法並讀列為核對條件。 落實「形態指標與類型比較方法｜類型取捨」時可先先定分析單位、指標方向與資料品質，再進行分類及敏感度比較，再用將空間語法表示法與幾何資訊的限制列為方法審查問題；應與作者回應和替代圖方法並讀核對方案的空間後果。",
+  "key_points_zh": [
+    "讀「形態指標與類型比較方法｜類型取捨」時，多尺度建築指標、地塊形態和街道網絡可互相補足；同時把將空間語法表示法與幾何資訊的限制列為方法審查問題；應與作者回應和替代圖方法並讀列為核對條件。",
+    "讀「形態指標與類型比較方法｜類型取捨」時，適用於跨城市比較、形態診斷和參數化設計驗證；同時把將空間語法表示法與幾何資訊的限制列為方法審查問題；應與作者回應和替代圖方法並讀列為核對條件。",
+    "限制：沒有一致的分母和來源版本時，不比較不同研究的數值排名。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "將空間語法表示法與幾何資訊的限制列為方法審查問題；應與作者回應和替代圖方法並讀。",
+        "library_id": "RATTI04",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "歐洲",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "空間語法作者對表示法批評作回應，應與批評並列而非以一方的權威結束討論。",
+        "library_id": "HILLIERPENN04",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "英國",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "落實「形態指標與類型比較方法｜類型取捨」時可先先定分析單位、指標方向與資料品質，再進行分類及敏感度比較，再用將空間語法表示法與幾何資訊的限制列為方法審查問題；應與作者回應和替代圖方法並讀核對方案的空間後果。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "「形態指標與類型比較方法｜類型取捨」可把取向落在先定分析單位、指標方向與資料品質，再進行分類及敏感度比較，但需連同將空間語法表示法與幾何資訊的限制列為方法審查問題；應與作者回應和替代圖方法並讀決定適用方式。",
+      "tradeoff_zh": "此選項把「形態指標與類型比較方法｜類型取捨」的工作放在將空間語法表示法與幾何資訊的限制列為方法審查問題；應與作者回應和替代圖方法並讀上；需要承擔的協調或維護代價則由「指標和群集取決於樣本及演算法，分類結果不是自然存在的唯一類型」界定。",
+      "library_ids": [
+        "RATTI04",
+        "HILLIERPENN04"
+      ]
+    },
+    {
+      "option_zh": "在「形態指標與類型比較方法｜類型取捨」的來源情境裡，多尺度建築指標、地塊形態和街道網絡可互相補足；落到設計時還要按將空間語法表示法與幾何資訊的限制列為方法審查問題；應與作者回應和替代圖方法並讀調整。",
+      "tradeoff_zh": "「形態指標與類型比較方法｜類型取捨」的主要代價不是抽象的建造成本，而是指標和群集取決於樣本及演算法，分類結果不是自然存在的唯一類型；因此先以將空間語法表示法與幾何資訊的限制列為方法審查問題；應與作者回應和替代圖方法並讀作方案比較條件。",
+      "library_ids": [
+        "RATTI04",
+        "HILLIERPENN04"
+      ]
+    }
+  ],
+  "applies_when_zh": "適用於跨城市比較、形態診斷和參數化設計驗證。",
+  "not_applicable_when_zh": "沒有一致的分母和來源版本時，不比較不同研究的數值排名。",
+  "debates_zh": "指標和群集取決於樣本及演算法，分類結果不是自然存在的唯一類型。",
+  "sources": [
+    {
+      "library_id": "RATTI04",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "HILLIERPENN04",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "空間語法批評；空間語法回應",
+  "region": "歐洲；英國",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "形態指標與類型比較方法"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "形態指標與類型比較方法"
+    },
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.330J Theory of City Form",
+      "topic": "形態指標與類型比較方法"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban form and density",
+      "topic": "形態指標與類型比較方法"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-MOR-054",
+    "KU-MOR-056",
+    "KU-MOR-057"
+  ],
+  "counter_unit_ids": [
+    "KU-MOR-058"
+  ]
+}

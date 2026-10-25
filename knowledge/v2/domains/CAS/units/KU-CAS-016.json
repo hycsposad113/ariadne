@@ -1,0 +1,96 @@
+{
+  "id": "KU-CAS-016",
+  "domain": "CAS",
+  "subtopic": "港區轉型案例",
+  "type": "case",
+  "title_zh": "Puerto Madero：港倉再用與高端新開發的並置",
+  "title_en": "Puerto Madero: Reused Warehouses alongside High-End New Development",
+  "summary_zh": "布宜諾斯艾利斯於 1989 年成立混合公營公司，負責把約 170 公頃的舊港區重新整合進市中心；工程於 1990 年代展開，並以分期出售土地和改造倉庫支應後續建設。城市官方資料記錄紅磚碼頭倉庫轉成餐飲、辦公、教育和住宅用途，同時也把現況描述為高端住宅與商業區。Jajamovich 的出版物明確把 Puerto Madero 放在大型城市專案及其跨地方脈絡中討論，但本條目不從書目記錄推斷未查證的社會效果量。",
+  "key_points_zh": [
+    "公有土地移轉、混合公司治理與分期售地是此案的關鍵制度安排。",
+    "歷史倉庫改造與東側新建高層應分區比較，不能將兩者視為同一種保存策略。"
+  ],
+  "evidence": {
+    "strength": "CASE_EVIDENCE",
+    "findings": [
+      {
+        "claim_zh": "布宜諾斯艾利斯市府記錄 Puerto Madero 的更新由混合公營公司推進，約 170 公頃土地在 1989 年後進入 urbanization 計畫。",
+        "effect_or_value": "官方範圍及制度說明",
+        "study_design": "市府街區歷史與公司資料",
+        "context_region": "阿根廷布宜諾斯艾利斯",
+        "library_id": "BUENOS_AIRES_PUERTO_MADERO2026",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "Jajamovich 的研究題名將 Puerto Madero 1989–2017 年發展放進大型城市專案與跨地方議題脈絡；本條目只引用該題旨。",
+        "effect_or_value": "大型城市專案研究範圍",
+        "study_design": "都市專案個案研究；細節待全文核",
+        "context_region": "阿根廷布宜諾斯艾利斯",
+        "library_id": "JAJAMOVICH2018",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "在港倉保留方案中記錄再用後的使用者、租戶與營運主體，另列新建地塊的容積、土地處分和公共空間條件。",
+    "查核公營公司如何以土地價值創造基礎設施資金，並公開收益回流及住宅可負擔性。"
+  ],
+  "applies_when_zh": "港區再生由公營或混合公司持有土地、分期出售並引入高端商業與住宅時。",
+  "not_applicable_when_zh": "公共土地不集中，且沒有土地價值回收或公私混合開發機制時。",
+  "debates_zh": "Puerto Madero 將公共港地轉為高品質都市街區，也因新建高端住宅、封閉性與土地價值而被批評為富裕者飛地。官方街區介紹本身使用「exclusive」描述，足以提出分配問題，但仍需租戶、薪資、公共空間進入和收益分配資料證實社會影響。",
+  "sources": [
+    {
+      "library_id": "BUENOS_AIRES_PUERTO_MADERO2026",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "JAJAMOVICH2018",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "拉丁美洲土地價值回收與大型都市專案",
+  "region": "南美洲／阿根廷布宜諾斯艾利斯",
+  "curriculum_refs": [
+    {
+      "school": "MIT",
+      "course": null,
+      "topic": "都市開發公司與大型土地專案"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": null,
+      "topic": "社會正義、仕紳化與公共土地"
+    },
+    {
+      "school": "TU Delft",
+      "course": null,
+      "topic": "港倉再利用與城市—水岸連接"
+    }
+  ],
+  "case": {
+    "location": "布宜諾斯艾利斯，阿根廷",
+    "period": "1989 年成立開發公司；更新工程自 1990 年代起分期推進",
+    "area_ha": 170,
+    "fsi": null,
+    "gsi": null,
+    "program_mix": "紅磚港倉改作住宅、辦公、餐飲與教育；港池東側加入新建住宅、商業、道路、廣場與公園；官方未列全區比例。",
+    "key_strategies_zh": [
+      "將分散公共機關持有的港區土地整合到混合公營公司，再分期處分地塊。",
+      "保留並改造舊碼頭倉庫，同時在新填築或整地區域建設高層新用途。"
+    ],
+    "outcomes_zh": [
+      "城市資料記錄約 170 公頃舊港區轉入更新計畫，舊倉庫已有辦公、住宅、餐飲和教育用途。",
+      "街區已成為高端住宅、商業與旅遊目的地；此描述不能代替可負擔性統計。"
+    ],
+    "critiques_zh": [
+      "高地價與豪宅化可能把公共土地的增值收益集中在開發者和高收入消費者。",
+      "需要分清歷史倉庫保留帶來的文化價值，以及高密度新建對城市整體公共利益的貢獻。"
+    ]
+  },
+  "version": "v2.0"
+}

@@ -1,0 +1,82 @@
+{
+  "id": "KU-SOC-024",
+  "domain": "SOC",
+  "subtopic": "治理與公私合作",
+  "type": "empirical_finding",
+  "title_zh": "治理與公私合作：知識與權力",
+  "title_en": "Governance and public-private collaboration — empirical finding unit 024",
+  "summary_zh": "Sewunsangga 案例的計畫反覆改向，說明專業知識和政治權力會在更新過程中共同塑造選項。記錄哪些證據被採納、哪些群體能出席及如何形成議程，可揭示「技術必要性」如何被建構。單一案例不足以證明所有更新計畫都有相同權力結構。限制是「治理與公私合作：知識與權力」所用的城市或案例資料不能單獨證明設計因果，外推仍需重新檢驗。",
+  "key_points_zh": [
+    "Sewunsangga 案例的計畫反覆改向，說明專業知識和政治權力會在更新過程中共同塑造選項。",
+    "記錄哪些證據被採納、哪些群體能出席及如何形成議程，可揭示「技術必要性」如何被建構。",
+    "單一案例不足以證明所有更新計畫都有相同權力結構。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "【ABSTRACT_REVIEW】Sewunsangga 案例的計畫反覆改向，說明專業知識和政治權力會在更新過程中共同塑造選項。記錄哪些證據被採納、哪些群體能出席及如何形成議程，可揭示「技術必要性」如何被建構。單一案例不足以證明所有更新計畫都有相同權力結構。限制是「治理與公私合作：知識與權力」所用的城市或案例資料不能單獨證明設計因果，外推仍需重新檢驗。",
+        "effect_or_value": "計畫曾在復修與重建間多次轉向，顯示都市更新路徑具有爭議且可逆",
+        "study_design": "首爾 Sewunsangga 更新計畫版本變化的案例追蹤",
+        "context_region": "南韓首爾",
+        "library_id": "NA2014",
+        "locator": null
+      },
+      {
+        "claim_zh": "【BIBLIOGRAPHIC_SCOPE_ONLY】就「治理與公私合作：知識與權力」而言，「The Endowment of Community Participation: Institutional Settings in Two Urban Regeneration Projects」提供參與制度／都市再生的比較坐標；此處僅使用其已標明的書目／摘要範圍，不延伸為未核對的效果或因果。",
+        "effect_or_value": null,
+        "study_design": "制度脈絡／兩案比較",
+        "context_region": "歐洲",
+        "library_id": "SAVINI2010",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "將被採用和被排除的知識及其決策影響逐項記錄。"
+  ],
+  "design_options": [],
+  "applies_when_zh": "在評估「治理與公私合作：知識與權力」涉及的資源分配、權力或居住影響時，先界定受影響群體與決策階段。",
+  "not_applicable_when_zh": "若沒有「治理與公私合作：知識與權力」所需的群體、時序或市場資料，不把概念類比當作已驗證的效果或法律結論。",
+  "debates_zh": "技術知識的選擇具有政治性，但不能因此把所有測量都當成利益宣傳。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "NA2014",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "SAVINI2010",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "都市治理／國家、市場與社區",
+  "region": "南韓；亞洲；歐洲",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Planning Complex Cities",
+      "topic": "治理與公私合作：知識與權力 — 治理與公私合作"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Urban Design Contexts and Operations",
+      "topic": "治理與公私合作：知識與權力 — 治理與公私合作"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "治理與公私合作：知識與權力 — 治理與公私合作"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design Governance",
+      "topic": "治理與公私合作：知識與權力 — 治理與公私合作"
+    }
+  ],
+  "version": "2.0.0"
+}

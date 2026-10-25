@@ -1,0 +1,43 @@
+{
+  "id": "KEARNSMASON2007",
+  "title": "Mixed Tenure Communities and Neighbourhood Quality",
+  "authors": [
+    "Ade Kearns",
+    "Phil Mason"
+  ],
+  "year": 2007,
+  "venue_or_publisher": "Housing Studies",
+  "doi": "10.1080/02673030701474628",
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "混合權屬社區與鄰里品質",
+  "region": [
+    "英國"
+  ],
+  "method": "neighbourhood quality study",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "Kearns 與 Mason 以混合權屬社區和鄰里品質為研究問題；本次僅核對書目題旨，未推定研究發現的方向或效果大小。",
+      "strength": "THEORETICAL",
+      "scope_zh": "僅依允許的公開書目資訊與專業範圍描述；沒有查閱全文，不提供本基地法規、成效估計、因果結論或數值門檻。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref",
+    "query": {
+      "title": "Mixed Tenure Communities and Neighbourhood Quality",
+      "author": "Ade Kearns",
+      "year": 2007
+    },
+    "matched_record_id": "10.1080/02673030701474628",
+    "checked_at_utc": "2026-10-08T16:17:33Z",
+    "match_notes_zh": "以允許的公開 API 回傳之書名、作者與年份核對；僅確認書目，不代表全文主張已審核。"
+  },
+  "limitations_zh": "僅核對公開書目欄位與標題範圍，未取得或查閱全文；不推論研究效果或因果。",
+  "metadata_licence_zh": "保存公開 API 書目欄位與自行撰寫的範圍摘要；未保存 API 摘要原文或全文。"
+}

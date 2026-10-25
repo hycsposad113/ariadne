@@ -1,0 +1,42 @@
+{
+  "id": "STOCKHOLM_HAMMARBY2026",
+  "title": "Stadsutvecklingsområde Hammarby sjöstad",
+  "authors": [
+    "Stockholms stad"
+  ],
+  "year": null,
+  "venue_or_publisher": "Stockholms stad",
+  "doi": null,
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "OFFICIAL_GOVERNMENT_WEBPAGE",
+  "tradition": "計畫歷史、邊界演變與環境基礎設施",
+  "region": "瑞典斯德哥爾摩",
+  "method": "於內容起草後直接檢視官方／營運方公開頁面；不把機構目標或自報數據當成獨立效果研究。",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "市府歷史頁分別記載 1991 年約 250 公頃初案與 1997 年約 200 公頃修訂計畫，並說明環境計畫及公共交通歷程。",
+      "strength": "CASE_EVIDENCE",
+      "scope_zh": "只支持頁面明確公布的規劃口徑、歷史資料、行政數字或機構自報結果。",
+      "assessment_basis": "DIRECT_SOURCE_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Official organization webpage",
+    "query": {
+      "title": "Stadsutvecklingsområde Hammarby sjöstad",
+      "author": "Stockholms stad",
+      "year": null,
+      "api_query": "Read-only official source page: https://vaxer.stockholm/omraden/stadsutvecklingsomraden/stadsutvecklingsomrade-hammarby-sjostad/"
+    },
+    "matched_record_id": "https://vaxer.stockholm/omraden/stadsutvecklingsomraden/stadsutvecklingsomrade-hammarby-sjostad/",
+    "checked_at_utc": "2026-10-08T14:47:20Z",
+    "match_notes_zh": "直接檢視官方／場址營運方公開頁；該頁不是Crossref書目記錄，未宣稱經Crossref驗證。"
+  },
+  "limitations_zh": "官方或營運方頁面可能採機構自身的規劃與成果口徑；未有獨立評估處不推定效果。",
+  "critique_relationship_zh": "本記錄不宣稱與其他來源存在直接互引或逐一反駁關係。",
+  "metadata_licence_zh": "官方／營運方公開頁面；未確認個別資料的再利用授權。"
+}

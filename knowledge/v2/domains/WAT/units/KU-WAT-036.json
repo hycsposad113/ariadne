@@ -1,0 +1,74 @@
+{
+  "id": "KU-WAT-036",
+  "domain": "WAT",
+  "subtopic": "韌性理論與批評",
+  "type": "concept",
+  "title_zh": "調適能力由制度和資源共同形成",
+  "title_en": "調適能力由制度和資源共同形成",
+  "summary_zh": "社會—生態系統研究將適應能力連到知識、資源、制度和學習，而不只是一項工程屬性。Adger 聚焦依賴環境資源的社群，都市韌性回顧則整理多種尺度和定義。忽略居民取得資訊、融資和參與決策的差異，可能高估整體調適能力。",
+  "key_points_zh": [
+    "適應能力分布不均，平均值不能代表每個群體。",
+    "治理網絡影響措施能否隨風險變化而調整。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "library_id": "ADGER2000",
+        "claim_zh": "摘要指出社群韌性和生態韌性可能相互關聯，但生態系統韌性是否必然轉化為社群韌性仍未明確；本單元 KU-WAT-036 對照「社會—生態系統研究將適應能力連到知識、資源、制度和學習，而不只是一項工程屬性」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "ABSTRACT_REVIEW",
+        "effect_or_value": null,
+        "study_design": "概念分析",
+        "context_region": "社群與依賴環境資源的生計脈絡",
+        "locator": null
+      },
+      {
+        "library_id": "DAVOUDI12",
+        "claim_zh": "韌性概念的適用與政治作用需被追問；適應能力不能遮蓋誰承受失效風險；本單元 KU-WAT-036 對照「社會—生態系統研究將適應能力連到知識、資源、制度和學習，而不只是一項工程屬性」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "理論討論組文",
+        "context_region": "跨地域",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "比較方案時列出群體資源與行動門檻。",
+    "把社區組織和公共服務納入長期維護。"
+  ],
+  "applies_when_zh": "適用於社會脆弱性與調適能力分析。",
+  "not_applicable_when_zh": "不適用於用單一社區特徵替代個別風險評估。",
+  "debates_zh": "適應能力是寬廣概念，需轉成可觀察且尊重社群的指標。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "ADGER2000",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "DAVOUDI12",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "社會生態調適",
+  "region": "環境資源依賴社群；跨地域都市研究",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "韌性理論與批評"
+    },
+    {
+      "school": "MIT",
+      "course": null,
+      "topic": "韌性理論與批評"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0"
+}

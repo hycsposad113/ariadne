@@ -1,0 +1,47 @@
+{
+  "id": "MINDALE2004",
+  "title": "Urban density and energy consumption: a new look at old statistics",
+  "authors": [
+    "Orit Mindali",
+    "Adi Raveh",
+    "Ilan Salomon"
+  ],
+  "year": 2004,
+  "venue_or_publisher": "Transportation Research Part A: Policy and Practice",
+  "doi": "10.1016/j.tra.2003.10.004",
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "都市設計、規劃或建築研究；依來源主題標註",
+  "region": [
+    "跨地域統計研究"
+  ],
+  "method": "Crossref bibliographic record; article abstract not returned.",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "題名與期刊卷期確認研究重新檢視都市密度與能源消費統計；研究設計和對舊曲線的具體改寫需由全文核對。",
+      "strength": "THEORETICAL",
+      "scope_zh": "只保存書目與可得摘要所支持的議題範圍；不得外推為本基地實測、普遍因果或法規門檻。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref",
+    "query": {
+      "doi": "10.1016/j.tra.2003.10.004"
+    },
+    "matched_record_id": "10.1016/j.tra.2003.10.004",
+    "checked_at_utc": "2026-10-08T19:49:33Z",
+    "match_notes_zh": "Crossref 公開書目記錄的 DOI、題名、第一作者與出版年相符；未將書目核對等同全文審核。",
+    "url": "https://api.crossref.org/works/10.1016/j.tra.2003.10.004",
+    "volume": "38",
+    "issue": "2",
+    "pages": "143-162"
+  },
+  "limitations_zh": "只保存公開書目欄位及自行摘要；未下載全文，也不保存 API 摘要原文。",
+  "critique_relationship_zh": "本記錄與其他來源並列作為範圍互補，不宣稱作者間直接互引或逐一反駁。",
+  "metadata_licence_zh": "僅使用 Crossref 公開書目欄位與自行撰寫摘要；未保存全文。"
+}

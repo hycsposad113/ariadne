@@ -1,0 +1,104 @@
+{
+  "id": "KU-REG-049",
+  "domain": "REG",
+  "subtopic": "開發獎勵與容積移轉",
+  "type": "concept",
+  "title_zh": "開發獎勵與容積移轉｜概念邊界",
+  "title_en": "Development incentives and transfer of development rights — Conceptual boundaries",
+  "summary_zh": "開發獎勵和移轉發展權要分清基準容積、觸發條件與接收區容量。 住房供給成本研究和住房權力分析各有位置，卻不能代替 TDR 專門材料；評估重點是新增樓地板能否換得可核實的公共義務。 缺少透明基準和監管時，土地價格可能吸收政策利益。",
+  "key_points_zh": [
+    "權利移轉涉及基準、接收區、價格和額外公共義務。",
+    "適用於政策工具比較和土地價值捕捉的概念分析。",
+    "限制：本庫沒有建立任何普遍獎勵比例或容積移轉公式。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "研究發現可負擔住宅供給有明顯缺口，分區對成本有中度影響，實施限制仍存在；作者建議按收入情況調整要求。",
+        "library_id": "NKUBITO2019",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "基加利，盧安達",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "專書把住房置於權力、資產與生活保障的關係中，反對把可負擔性縮成單一市場指標。",
+        "library_id": "MADDEN2016",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "美國與跨國住房政治",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "辨認基準容積、獎勵條件、接收容量及履約追蹤。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "辨認基準容積、獎勵條件、接收容量及履約追蹤。",
+      "tradeoff_zh": "「開發獎勵與容積移轉｜概念邊界」採用「辨認基準容積、獎勵條件、接收容量及履約追蹤」時，得失要沿著研究發現可負擔住宅供給有明顯缺口，分區對成本有中度影響，實施限制仍存在；作者建議按收入情況調整要求檢查；缺少透明基準和市場監管時，獎勵可能資本化而未換得公共利益。",
+      "library_ids": [
+        "NKUBITO2019",
+        "MADDEN2016"
+      ]
+    },
+    {
+      "option_zh": "土地拍賣、密度獎勵與權利移轉是不同工具，需分別建模。",
+      "tradeoff_zh": "「開發獎勵與容積移轉｜概念邊界」的主要代價不是抽象的建造成本，而是缺少透明基準和市場監管時，獎勵可能資本化而未換得公共利益；因此先以研究發現可負擔住宅供給有明顯缺口，分區對成本有中度影響，實施限制仍存在；作者建議按收入情況調整要求作方案比較條件。",
+      "library_ids": [
+        "NKUBITO2019",
+        "MADDEN2016"
+      ]
+    }
+  ],
+  "applies_when_zh": "適用於政策工具比較和土地價值捕捉的概念分析。",
+  "not_applicable_when_zh": "本庫沒有建立任何普遍獎勵比例或容積移轉公式。",
+  "debates_zh": "缺少透明基準和市場監管時，獎勵可能資本化而未換得公共利益。",
+  "sources": [
+    {
+      "library_id": "NKUBITO2019",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "MADDEN2016",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "非洲分區與可負擔住宅；住房權與政治經濟批判",
+  "region": "基加利，盧安達；美國與跨國住房政治",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Planning Complex Cities",
+      "topic": "開發獎勵與容積移轉"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Urban Design Contexts and Operations",
+      "topic": "開發獎勵與容積移轉"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "開發獎勵與容積移轉"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban design governance",
+      "topic": "開發獎勵與容積移轉"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-REG-050",
+    "KU-REG-051",
+    "KU-REG-052"
+  ]
+}

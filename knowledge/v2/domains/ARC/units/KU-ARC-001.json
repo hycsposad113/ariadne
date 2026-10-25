@@ -1,0 +1,98 @@
+{
+  "id": "KU-ARC-001",
+  "domain": "ARC",
+  "subtopic": "住宅單元與類型",
+  "type": "value_range",
+  "title_zh": "一房一人住宅的總室內面積",
+  "title_en": "1b1p dwelling gross internal area",
+  "summary_zh": "英格蘭 NDSS 將一房一人住宅列為 39 m²；僅配置淋浴間時表註允許降至 37 m²。 這是總室內面積，不是淨可用面積，且不同樓層數的標準不能直接混用。 用於比較小戶型時，先把收納、樓梯與牆體是否納入計算說清楚。",
+  "key_points_zh": [
+    "核心主張：英格蘭 NDSS 將一房一人住宅列為 39 m²；僅配置淋浴間時表註允許降至 37 m²。",
+    "量測檢查：按英格蘭官方 NDSS Table 1 核對床位、樓層數及 GIA，並另核算內部可用面積。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "英格蘭 NDSS 將一房一人住宅列為 39 m²；僅配置淋浴間時表註允許降至 37 m²。",
+        "effect_or_value": "39 m²；有淋浴間替代浴缸時可為 37 m²",
+        "study_design": "跨地域設計參照綜整；數值狀態依 claim_verification 註記",
+        "context_region": "England；一房一人新住宅",
+        "library_id": "UK_NDSS_2015",
+        "locator": "technical requirements paras 10–11; Table 1",
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "1b1p gross internal area",
+      "range": "39 m²；有淋浴間替代浴缸時可為 37 m²",
+      "unit": "m² GIA",
+      "context": "地區：England；用途：英格蘭新建一房一人住宅；按 Table 1 條件；出處：Technical housing standards – nationally described space standard；本基地法規：否；核對狀態：官方頁面直接讀取。",
+      "library_id": "UK_NDSS_2015"
+    }
+  ],
+  "design_implications_zh": [
+    "用一房一人戶型核對入口收納、睡眠區、淋浴與用餐工作位置是否能同時成立。"
+  ],
+  "applies_when_zh": "用於英格蘭 NDSS 採用情形的住宅面積比對。",
+  "not_applicable_when_zh": "不代表荷蘭或本基地的法定最小面積；不得將 GIA 當淨樓地板面積。",
+  "debates_zh": "英格蘭 NDSS 是有條件採用的規劃標準；不同入住者、通用設計或共居安排可能需要更大面積。",
+  "sources": [
+    {
+      "library_id": "UK_NDSS_2015",
+      "claim_id": "C1",
+      "locator": "technical requirements paras 10–11; Table 1"
+    },
+    {
+      "library_id": "NEUFERT12",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "claim_verification": "ABSTRACT_REVIEW",
+  "tradition": "建築設計與住宅類型學",
+  "region": "England；一房一人新住宅",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Housing and the City / Design of the Urban Fabric",
+      "topic": "建築尺度與住宅平面"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "建築尺度與街道界面"
+    },
+    {
+      "school": "MIT",
+      "course": "Architecture and Urban Design",
+      "topic": "建築尺度與空間型態"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "建築尺度與公共生活"
+    }
+  ],
+  "check": {
+    "method_zh": "按英格蘭官方 NDSS Table 1 核對床位、樓層數及 GIA，並另核算內部可用面積。",
+    "inputs": [
+      "住宅單元與類型",
+      "尺寸／面積圖層",
+      "適用地區與用途標籤"
+    ],
+    "logic_zh": "將量測輸入轉成明確尺寸、比例或空間關係；越界只觸發複核，不自動取代設計決策。",
+    "limitations_zh": "不代表荷蘭或本基地的法定最小面積；不得將 GIA 當淨樓地板面積。"
+  },
+  "version": "kb2-arc-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-ARC-002",
+    "KU-ARC-003",
+    "KU-ARC-004",
+    "KU-ARC-005",
+    "KU-ARC-006"
+  ]
+}

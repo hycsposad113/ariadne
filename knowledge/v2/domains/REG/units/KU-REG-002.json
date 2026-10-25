@@ -1,0 +1,107 @@
+{
+  "id": "KU-REG-002",
+  "domain": "REG",
+  "subtopic": "容積率、建蔽率、高度與斜線",
+  "type": "typology",
+  "title_zh": "容積率、建蔽率、高度與斜線｜類型取捨",
+  "title_en": "FAR, coverage, height and envelope — Typology and trade-offs",
+  "summary_zh": "同一樓地板面積比可以由低矮高覆蓋、板樓或塔樓等不同量體組合實現，街道界面和開放空間因此不相同。 美國與德國用途分類的比較也顯示，法規類別的許可內容不能只按名稱翻譯。 把 FAR 與建蔽率、建築高度和地塊界面並列，才看得到規範容積落地後的形態差異。",
+  "key_points_zh": [
+    "同一容積可以用不同高度和覆蓋組合落地。",
+    "讀「容積率、建蔽率、高度與斜線｜類型取捨」時，適用於制度比較及草案情境分析，不直接判定基地合規；同時把同一樓地板面積比可以由低矮高覆蓋、板樓或塔樓等不同量體組合實現，街道界面和開放空間因此不相同列為核對條件。",
+    "限制：此處是通用制度輪廓，不是本基地法規或法律意見。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "比較指出美國分區常以用途互斥為預設，德國制度較常以主要用途容許多種活動；類別名稱相似不代表許可內容相同。",
+        "library_id": "HIRT2010",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "德國斯圖加特與美國",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "密度是多種量測與空間關係的組合；單一 FAR 不能代表公共空間或活動強度。",
+        "library_id": "DOVEY14",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "記錄分母、計容用途、退縮、樓層和轉角條件，再做形式方案比較。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "在「容積率、建蔽率、高度與斜線｜類型取捨」的來源情境裡，記錄分母、計容用途、退縮、樓層和轉角條件，再做形式方案比較；落到設計時還要按同一樓地板面積比可以由低矮高覆蓋、板樓或塔樓等不同量體組合實現，街道界面和開放空間因此不相同調整。",
+      "tradeoff_zh": "增加空間選擇與公共連結，但會增加協調、管理或建造成本。",
+      "library_ids": [
+        "HIRT2010",
+        "DOVEY14"
+      ]
+    },
+    {
+      "option_zh": "同一容積可以用不同高度和覆蓋組合落地。",
+      "tradeoff_zh": "保留另一種形式和使用條件，但可能改變連續性、可達性或私密性。",
+      "library_ids": [
+        "HIRT2010",
+        "DOVEY14"
+      ]
+    }
+  ],
+  "applies_when_zh": "適用於制度比較及草案情境分析，不直接判定基地合規。",
+  "not_applicable_when_zh": "此處是通用制度輪廓，不是本基地法規或法律意見。",
+  "debates_zh": "法定上限、設計目標和研究指標是不同證據類別。",
+  "sources": [
+    {
+      "library_id": "HIRT2010",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "DOVEY14",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "比較土地使用管制；新加坡土地拍賣與開發競爭",
+  "region": "德國斯圖加特與美國；新加坡",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Planning Complex Cities",
+      "topic": "容積率、建蔽率、高度與斜線"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Urban Design Contexts and Operations",
+      "topic": "容積率、建蔽率、高度與斜線"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "容積率、建蔽率、高度與斜線"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban design governance",
+      "topic": "容積率、建蔽率、高度與斜線"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-REG-001",
+    "KU-REG-003",
+    "KU-REG-004"
+  ],
+  "counter_unit_ids": [
+    "KU-REG-005"
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "id": "KU-CAS-002",
+  "domain": "CAS",
+  "subtopic": "港區轉型案例",
+  "type": "case",
+  "title_zh": "Nordhavn：以長期土地開發轉型的哥本哈根港區",
+  "title_en": "Nordhavn: Long-Term Land Development in Copenhagen’s Former Port",
+  "summary_zh": "Nordhavn 把哥本哈根北港的港務用地轉成分期擴建的新城區，先期規劃以居住和工作用途混合為方向。哥本哈根官方規劃提出全區約四萬名新居民的長程目標，這個數字描述尚待完成的開發情境。因區域邊界與分期面積未在本批材料中交叉確認，本單元不將先期地塊面積外推至全區。",
+  "key_points_zh": [
+    "辨別已建成街區、規劃中地塊和完整港區邊界。",
+    "居民預測值不能當成已入住人口或交通需求實績。"
+  ],
+  "evidence": {
+    "strength": "CASE_EVIDENCE",
+    "findings": [
+      {
+        "claim_zh": "市府規劃將Nordhavn列為約可容納四萬名新居民的長期開發區，屬規劃情境而非人口觀察。",
+        "effect_or_value": "官方規劃；人口目標",
+        "study_design": "官方規劃；人口目標",
+        "context_region": "丹麥哥本哈根",
+        "library_id": "COPENHAGEN_NORDHAVN2011",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "Peštová的書目將哥本哈根作為永續都市發展案例；本紀錄尚未由摘要核對其是否專門分析Nordhavn。",
+        "effect_or_value": "會議論文；與Nordhavn的對應尚待全文確認",
+        "study_design": "會議論文；與Nordhavn的對應尚待全文確認",
+        "context_region": "丹麥哥本哈根",
+        "library_id": "COPENHAGEN_PLAN2024",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "用時間軸區分港務退出、道路與大眾運輸接通、住宅交付和公共設施開放。"
+  ],
+  "applies_when_zh": "港區土地由單一公共或半公共開發機構長期釋出，且預期形成新住宅區。",
+  "not_applicable_when_zh": "只比較已建成街區的短期空間品質，不討論整體開發治理時。",
+  "debates_zh": "大規模新區以完整新建的方式取得設施與街道控制力，也可能使港口工作和既有城市生活在新舊邊界上被切斷；現有官方人口目標本身不能裁定此取捨。",
+  "sources": [
+    {
+      "library_id": "COPENHAGEN_NORDHAVN2011",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "COPENHAGEN_PLAN2024",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "PESTOVA2022",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "北歐港區長期規劃與綠色都市開發",
+  "region": "西歐／丹麥哥本哈根",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": null,
+      "topic": "港區分期及混合用途"
+    },
+    {
+      "school": "MIT",
+      "course": null,
+      "topic": "土地開發治理與交通系統"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": null,
+      "topic": "永續都市規劃的證據邊界"
+    }
+  ],
+  "case": {
+    "location": "哥本哈根，丹麥",
+    "period": "2009年後分期推進的港區轉型",
+    "area_ha": null,
+    "fsi": null,
+    "gsi": null,
+    "program_mix": "住宅、辦公、零售、公共設施與公共交通；官方長程規劃約四萬名新居民。",
+    "key_strategies_zh": [
+      "將港務用地按不同街區和階段釋出。",
+      "以混合用途與公共交通規劃支撐新住宅人口。"
+    ],
+    "outcomes_zh": [
+      "哥本哈根市府計畫把Nordhavn設定為大規模新住宅與工作區；這是遠期容量規劃。",
+      "本批資料沒有提供實際入住率、工作地點分布或與交通目標的追蹤結果。"
+    ],
+    "critiques_zh": [
+      "計畫容量可能被誤讀為已實現成果。",
+      "需要另查先期區域及全區的地界、土地交易和住房組成，避免把一個子區代表整體。"
+    ]
+  },
+  "version": "v2.0"
+}

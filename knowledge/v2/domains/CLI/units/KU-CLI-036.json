@@ -1,0 +1,74 @@
+{
+  "id": "KU-CLI-036",
+  "domain": "CLI",
+  "subtopic": "材料與反照率",
+  "type": "critique",
+  "title_zh": "地表降溫不能直接替代熱舒適改善",
+  "title_en": "地表降溫不能直接替代熱舒適改善",
+  "summary_zh": "地表溫度、近地空氣溫度與人體熱感受使用不同量測方式。城市綠化的綜合分析比較都市綠地與建成區的冷卻證據；戶外舒適研究則強調人體感受受輻射、風和適應影響。材料方案須說清楚改善的是哪一種溫度或暴露。",
+  "key_points_zh": [
+    "衛星地表溫度不能直接代表行人高度空氣溫度。",
+    "人體熱舒適還受衣著、活動和適應影響。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "library_id": "ARMSON2012",
+        "claim_zh": "書目確認本文題名聚焦「The effect of tree shade and grass on surface and globe temperatures in an urban area」；目前只完成作者、年份、題名與 DOI 核對，未將摘要或全文結論納入此記錄；本單元 KU-CLI-036 對照「地表溫度、近地空氣溫度與人體熱感受使用不同量測方式」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "案例或場地研究；目前僅核對書目範圍",
+        "context_region": "英國都市",
+        "locator": null
+      },
+      {
+        "library_id": "KRUGER2011",
+        "claim_zh": "書目確認本文題名聚焦「Impact of urban geometry on outdoor thermal comfort and air quality from field measurements in Curitiba, Brazil」；目前只完成作者、年份、題名與 DOI 核對，未將摘要或全文結論納入此記錄；本單元 KU-CLI-036 對照「地表溫度、近地空氣溫度與人體熱感受使用不同量測方式」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "案例或場地研究；目前僅核對書目範圍",
+        "context_region": "Curitiba, Brazil",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "同時量測表面、空氣和人體熱指標。",
+    "把屋頂與步行空間的分析尺度分開。"
+  ],
+  "applies_when_zh": "適用於熱緩解方案效益陳述審查。",
+  "not_applicable_when_zh": "不適用於由單一遙測指標推定個人舒適改善。",
+  "debates_zh": "單一降溫數字容易把城市尺度和人體尺度的效益混為一談。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "ARMSON2012",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "KRUGER2011",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "熱舒適與地表溫度批判",
+  "region": "跨地域城鎮研究；都市公共空間",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "材料與反照率"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": null,
+      "topic": "材料與反照率"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0"
+}

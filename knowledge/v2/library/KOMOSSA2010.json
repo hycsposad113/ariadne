@@ -1,0 +1,43 @@
+{
+  "id": "KOMOSSA2010",
+  "title": "The Dutch Urban Block and the Public Realm",
+  "authors": [
+    "Susanne Komossa"
+  ],
+  "year": 2010,
+  "venue_or_publisher": "Vantilt",
+  "doi": null,
+  "isbn": "9789460040559",
+  "openalex_id": null,
+  "kind": "ACADEMIC_BOOK",
+  "tradition": "荷蘭街廓與公共領域",
+  "region": [
+    "荷蘭"
+  ],
+  "method": "comparative urban-block and public-realm study",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "Komossa 的專書以荷蘭都市街廓及公共領域為主題，可作街廓—公共空間關係的比較案例，不構成普遍尺寸標準。",
+      "strength": "THEORETICAL",
+      "scope_zh": "僅依允許的公開書目資訊與專業範圍描述；沒有查閱全文，不提供本基地法規、成效估計、因果結論或數值門檻。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Open Library",
+    "query": {
+      "title": "The Dutch Urban Block and the Public Realm",
+      "author": "Susanne Komossa",
+      "year": 2010,
+      "endpoint": "https://openlibrary.org/search.json"
+    },
+    "matched_record_id": "/works/OL16128907W",
+    "checked_at_utc": "2026-10-08T16:17:33Z",
+    "match_notes_zh": "以允許的公開 API 回傳之書名、作者與年份核對；僅確認書目，不代表全文主張已審核。"
+  },
+  "limitations_zh": "僅核對公開書目欄位與標題範圍，未取得或查閱全文；不推論研究效果或因果。",
+  "metadata_licence_zh": "保存公開 API 書目欄位與自行撰寫的範圍摘要；未保存 API 摘要原文或全文。"
+}

@@ -1,0 +1,371 @@
+{
+  "schema_version": "1.0.0",
+  "id": "building.industrial_hall",
+  "names": {
+    "en": "Industrial shed / long-span hall",
+    "zh": "工業大跨／廠房大廳"
+  },
+  "level": "building_plan",
+  "diagram_kind": "shed",
+  "description_zh": "以大跨距、深進深和較少柱列形成可調整的生產、物流或公共室內大空間。",
+  "parameter_basis": {
+    "status": "ESTIMATE",
+    "profile_id": "EDITORIAL_ENVELOPE_V1",
+    "note_zh": "初版參數包絡，供字典搜尋和早期草圖；不是文獻統計範圍、地方法規或已測基地數據，需由設計者以基地幾何和項目目標修改。"
+  },
+  "plan_geometry": {
+    "unit": "m",
+    "dimension_basis_zh": "building_plan 為 footprint 面寬／進深；block_assembly 為街廓短／長軸；street_open_space 為空間短軸／路徑長軸。",
+    "frontage_m": {
+      "minimum": 50,
+      "maximum": 220,
+      "unit": "m"
+    },
+    "depth_m": {
+      "minimum": 30,
+      "maximum": 160,
+      "unit": "m"
+    },
+    "courtyard_void_ratio": null,
+    "opening_count": {
+      "minimum": 1,
+      "maximum": 8
+    },
+    "opening_width_m": {
+      "minimum": 6,
+      "maximum": 24,
+      "unit": "m"
+    },
+    "spacing_m": {
+      "minimum": 12,
+      "maximum": 38,
+      "unit": "m"
+    },
+    "status": "ESTIMATE"
+  },
+  "density_reference": {
+    "reference_area_basis_zh": "單棟或同地塊建築原型；需以基地／地塊面積作分母。",
+    "gsi": {
+      "range": {
+        "minimum": 0.38,
+        "maximum": 0.82
+      },
+      "status": "ESTIMATE",
+      "source_ids": [
+        "SRC_SPACEMATRIX_2023"
+      ],
+      "note_zh": "本條編輯估算；Spacematrix 僅支撐 GSI 的密度描述脈絡，不提供此數值。"
+    },
+    "fsi": {
+      "range": {
+        "minimum": 0.4,
+        "maximum": 2.0
+      },
+      "status": "ESTIMATE",
+      "source_ids": [
+        "SRC_SPACEMATRIX_2023"
+      ],
+      "note_zh": "本條編輯估算；比較前統一計入樓層、基座、地下／地上範圍和分母。"
+    },
+    "floors": {
+      "range": {
+        "minimum": 1,
+        "maximum": 4
+      },
+      "unit": "storeys",
+      "status": "ESTIMATE",
+      "source_ids": [
+        "SRC_SPACEMATRIX_2023"
+      ],
+      "note_zh": "本條編輯估算樓層包絡，不是高度限制或法規值。"
+    }
+  },
+  "atmosphere_tags": [
+    "industrial_scale",
+    "legibility",
+    "sociability",
+    "microclimate_shelter",
+    "natural_surveillance",
+    "density_feel"
+  ],
+  "atmosphere_scores": {
+    "enclosure": {
+      "value": 0.47,
+      "status": "EDITORIAL_ESTIMATE",
+      "rationale_zh": "此型在幾何上可能提供「同時包含支持與限制線索，需由基地配置及使用者評估定義」，故暫列 0.47 作為設計討論起點。這不是本地實測、使用者調查或模擬值；來源只支撐面向與代理指標，不背書此分數。",
+      "source_ids": [
+        "SRC_SPACEMATRIX_2023",
+        "SRC_ALEXANDER_1977"
+      ]
+    },
+    "privacy": {
+      "value": 0.45,
+      "status": "EDITORIAL_ESTIMATE",
+      "rationale_zh": "此型在幾何上可能提供「同時包含支持與限制線索，需由基地配置及使用者評估定義」，故暫列 0.45 作為設計討論起點。這不是本地實測、使用者調查或模擬值；來源只支撐面向與代理指標，不背書此分數。",
+      "source_ids": [
+        "SRC_ALEXANDER_1977",
+        "SRC_MASSENA_2019"
+      ]
+    },
+    "permeability": {
+      "value": 0.4,
+      "status": "EDITORIAL_ESTIMATE",
+      "rationale_zh": "此型在幾何上可能提供「同時包含支持與限制線索，需由基地配置及使用者評估定義」，故暫列 0.40 作為設計討論起點。這不是本地實測、使用者調查或模擬值；來源只支撐面向與代理指標，不背書此分數。",
+      "source_ids": [
+        "SRC_OPEN_BLOCK_2020",
+        "SRC_EWING_CERVERO_2010"
+      ]
+    },
+    "sunlight": {
+      "value": 0.54,
+      "status": "EDITORIAL_ESTIMATE",
+      "rationale_zh": "此型在幾何上可能提供「同時包含支持與限制線索，需由基地配置及使用者評估定義」，故暫列 0.54 作為設計討論起點。這不是本地實測、使用者調查或模擬值；來源只支撐面向與代理指標，不背書此分數。",
+      "source_ids": [
+        "SRC_OKE_1988",
+        "SRC_SVF_2020"
+      ]
+    },
+    "green_blue": {
+      "value": 0.37,
+      "status": "EDITORIAL_ESTIMATE",
+      "rationale_zh": "此型在幾何上可能提供「同時包含支持與限制線索，需由基地配置及使用者評估定義」，故暫列 0.37 作為設計討論起點。這不是本地實測、使用者調查或模擬值；來源只支撐面向與代理指標，不背書此分數。",
+      "source_ids": [
+        "SRC_GEHL_2010",
+        "SRC_AGROTOPIA_2021"
+      ]
+    },
+    "microclimate_shelter": {
+      "value": 0.61,
+      "status": "EDITORIAL_ESTIMATE",
+      "rationale_zh": "此型在幾何上可能提供「同時包含支持與限制線索，需由基地配置及使用者評估定義」，故暫列 0.61 作為設計討論起點。這不是本地實測、使用者調查或模擬值；來源只支撐面向與代理指標，不背書此分數。",
+      "source_ids": [
+        "SRC_OKE_1988",
+        "SRC_SVF_2020"
+      ]
+    },
+    "street_vitality": {
+      "value": 0.55,
+      "status": "EDITORIAL_ESTIMATE",
+      "rationale_zh": "此型在幾何上可能提供「同時包含支持與限制線索，需由基地配置及使用者評估定義」，故暫列 0.55 作為設計討論起點。這不是本地實測、使用者調查或模擬值；來源只支撐面向與代理指標，不背書此分數。",
+      "source_ids": [
+        "SRC_GEHL_2010",
+        "SRC_WHYTE_1980"
+      ]
+    },
+    "industrial_scale": {
+      "value": 0.94,
+      "status": "EDITORIAL_ESTIMATE",
+      "rationale_zh": "此型在幾何上可能提供「較大的跨距、淨高或連續生產空間」，故暫列 0.94 作為設計討論起點。這不是本地實測、使用者調查或模擬值；來源只支撐面向與代理指標，不背書此分數。",
+      "source_ids": [
+        "SRC_LOCHAL_2019",
+        "SRC_GARE_MARITIME_2020"
+      ]
+    },
+    "human_scale": {
+      "value": 0.25,
+      "status": "EDITORIAL_ESTIMATE",
+      "rationale_zh": "此型在幾何上可能提供「高體量或大面寬可能缺少步行者可讀的細部節奏」，故暫列 0.25 作為設計討論起點。這不是本地實測、使用者調查或模擬值；來源只支撐面向與代理指標，不背書此分數。",
+      "source_ids": [
+        "SRC_GEHL_2010",
+        "SRC_LYNCH_1960"
+      ]
+    },
+    "density_feel": {
+      "value": 0.6,
+      "status": "EDITORIAL_ESTIMATE",
+      "rationale_zh": "此型在幾何上可能提供「同時包含支持與限制線索，需由基地配置及使用者評估定義」，故暫列 0.60 作為設計討論起點。這不是本地實測、使用者調查或模擬值；來源只支撐面向與代理指標，不背書此分數。",
+      "source_ids": [
+        "SRC_SPACEMATRIX_2023",
+        "SRC_MORPHINT_2025"
+      ]
+    },
+    "legibility": {
+      "value": 0.75,
+      "status": "EDITORIAL_ESTIMATE",
+      "rationale_zh": "此型在幾何上可能提供「可建立辨認路徑、節點、邊界或地標的差異」，故暫列 0.75 作為設計討論起點。這不是本地實測、使用者調查或模擬值；來源只支撐面向與代理指標，不背書此分數。",
+      "source_ids": [
+        "SRC_LYNCH_1960",
+        "SRC_URBAN_MORPHOMETRICS_2015"
+      ]
+    },
+    "diversity": {
+      "value": 0.58,
+      "status": "EDITORIAL_ESTIMATE",
+      "rationale_zh": "此型在幾何上可能提供「同時包含支持與限制線索，需由基地配置及使用者評估定義」，故暫列 0.58 作為設計討論起點。這不是本地實測、使用者調查或模擬值；來源只支撐面向與代理指標，不背書此分數。",
+      "source_ids": [
+        "SRC_OPEN_BLOCK_2020",
+        "SRC_EWING_CERVERO_2010"
+      ]
+    },
+    "natural_surveillance": {
+      "value": 0.61,
+      "status": "EDITORIAL_ESTIMATE",
+      "rationale_zh": "此型在幾何上可能提供「同時包含支持與限制線索，需由基地配置及使用者評估定義」，故暫列 0.61 作為設計討論起點。這不是本地實測、使用者調查或模擬值；來源只支撐面向與代理指標，不背書此分數。",
+      "source_ids": [
+        "SRC_SAFETY_2024"
+      ]
+    },
+    "perceived_safety": {
+      "value": 0.58,
+      "status": "EDITORIAL_ESTIMATE",
+      "rationale_zh": "此型在幾何上可能提供「同時包含支持與限制線索，需由基地配置及使用者評估定義」，故暫列 0.58 作為設計討論起點。這不是本地實測、使用者調查或模擬值；來源只支撐面向與代理指標，不背書此分數。",
+      "source_ids": [
+        "SRC_SAFETY_2024",
+        "SRC_GEHL_2010"
+      ]
+    },
+    "sociability": {
+      "value": 0.64,
+      "status": "EDITORIAL_ESTIMATE",
+      "rationale_zh": "此型在幾何上可能提供「同時包含支持與限制線索，需由基地配置及使用者評估定義」，故暫列 0.64 作為設計討論起點。這不是本地實測、使用者調查或模擬值；來源只支撐面向與代理指標，不背書此分數。",
+      "source_ids": [
+        "SRC_WHYTE_1980",
+        "SRC_SOCIAL_COHESION_2024"
+      ]
+    },
+    "belonging": {
+      "value": 0.54,
+      "status": "EDITORIAL_ESTIMATE",
+      "rationale_zh": "此型在幾何上可能提供「同時包含支持與限制線索，需由基地配置及使用者評估定義」，故暫列 0.54 作為設計討論起點。這不是本地實測、使用者調查或模擬值；來源只支撐面向與代理指標，不背書此分數。",
+      "source_ids": [
+        "SRC_SOCIAL_COHESION_2024",
+        "SRC_ALEXANDER_1977"
+      ]
+    }
+  },
+  "suitability": {
+    "suitable_for": [
+      {
+        "condition_zh": "保留舊廠房、展演、物流或大跨活動需求",
+        "source_ids": [
+          "SRC_MOMEPY_2019",
+          "SRC_CONZEN_1960"
+        ]
+      }
+    ],
+    "review_or_avoid_when": [
+      {
+        "condition_zh": "需細密街道門戶、低能耗小尺度住宅或結構跨度不具可行性",
+        "source_ids": [
+          "SRC_MOMEPY_2019",
+          "SRC_CONZEN_1960"
+        ]
+      }
+    ]
+  },
+  "combination_rules": [
+    {
+      "target_id": "block.industrial_campus",
+      "relationship": "組成",
+      "condition_zh": "大廳與貨運、公共入口分流並以院落串接",
+      "spacing_m": {
+        "minimum": 18.0,
+        "maximum": 50.0,
+        "unit": "m"
+      },
+      "orientation_zh": "依既有柱網與裝卸方向配置，不假設可改結構",
+      "vertical_stack_allowed": false,
+      "rule_status": "DESIGN_HYPOTHESIS",
+      "basis_zh": "由本條型態機制提出的初步組合假設；不是法規、通用尺寸或已驗證的生成器限制。",
+      "source_ids": [
+        "SRC_MOMEPY_2019",
+        "SRC_CONZEN_1960"
+      ]
+    },
+    {
+      "target_id": "space.covered_public_passage",
+      "relationship": "鄰接",
+      "condition_zh": "大廳內可設公共街道但需明確開放時段與管理",
+      "spacing_m": {
+        "minimum": 12.0,
+        "maximum": 40.0,
+        "unit": "m"
+      },
+      "orientation_zh": "依消防、營運及安全條件決定公共連通",
+      "vertical_stack_allowed": false,
+      "rule_status": "DESIGN_HYPOTHESIS",
+      "basis_zh": "由本條型態機制提出的初步組合假設；不是法規、通用尺寸或已驗證的生成器限制。",
+      "source_ids": [
+        "SRC_MOMEPY_2019",
+        "SRC_CONZEN_1960"
+      ]
+    }
+  ],
+  "generator_parameters": {
+    "profile_key": "industrial_hall",
+    "scale": "building_plan",
+    "parameters": {
+      "profile_key": "industrial_hall",
+      "span_m": [
+        18,
+        50
+      ],
+      "depth_m": [
+        30,
+        160
+      ],
+      "grid_spacing_m": [
+        6,
+        24
+      ],
+      "clear_height_m": [
+        6,
+        24
+      ]
+    },
+    "mapping_note_zh": "建議的未來生成器欄位名稱；目前只供查詢和方案討論，不呼叫任何生成器。"
+  },
+  "precedents": [
+    {
+      "name": "LocHal",
+      "relevance_zh": "官方案例作為組合參照，編輯適用度 0.9，不代表案例效果評估。",
+      "source_ids": [
+        "SRC_LOCHAL_2019"
+      ]
+    },
+    {
+      "name": "Gare Maritime",
+      "relevance_zh": "官方案例作為組合參照，編輯適用度 0.9，不代表案例效果評估。",
+      "source_ids": [
+        "SRC_GARE_MARITIME_2020"
+      ]
+    },
+    {
+      "name": "Agrotopia, Roeselare — rooftop greenhouse",
+      "relevance_zh": "以屋頂農業溫室、研究與市場用途參照大型生產空間和立體綠化；它不是一般工業廠房平面。",
+      "source_ids": [
+        "SRC_AGROTOPIA_2021"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "SRC_MOMEPY_2019",
+      "relevance_zh": "形態量測尺度與工具脈絡；本字典不執行該工具。"
+    },
+    {
+      "id": "SRC_CONZEN_1960",
+      "relevance_zh": "歷史形態與街道、地塊、建築分析的書目錨點。"
+    },
+    {
+      "id": "SRC_LOCHAL_2019",
+      "relevance_zh": "LocHal 官方案例頁，只作為工業大廳再利用先例。"
+    },
+    {
+      "id": "SRC_GARE_MARITIME_2020",
+      "relevance_zh": "Gare Maritime 官方案例頁，只作為有頂公共街道先例。"
+    },
+    {
+      "id": "SRC_SPACEMATRIX_2023",
+      "relevance_zh": "密度與形態量測脈絡；不提供本條的數值估算。"
+    },
+    {
+      "id": "SRC_MORPHINT_2025",
+      "relevance_zh": "QGIS 指標工具清單；本字典不安裝或執行外掛。"
+    },
+    {
+      "id": "SRC_AGROTOPIA_2021",
+      "relevance_zh": "案例來源只支持先例形態描述，不支持本條尺寸包絡或氛圍分數。"
+    }
+  ]
+}

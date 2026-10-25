@@ -1,0 +1,71 @@
+{
+  "id": "KU-THY-017",
+  "domain": "THY",
+  "subtopic": "城市轉型史（倫敦、巴黎 Haussmann、維也納 Ringstrasse、巴塞隆納 Cerdà、芝加哥）",
+  "type": "theory",
+  "title_zh": "Cerdà Eixample",
+  "title_en": "Cerda Eixample blocks",
+  "summary_zh": "Cerdà 的 Eixample 以規則網格與倒角街廓處理擴張、交通及衛生，典型街廓邊長約 113.3 m。原始構想保留較多內部空地與開放建築配置，後來的建設逐步加密，不能把現況周邊式建築全當成原案。核對街廓尺寸的量測基準，將原始圖面與後來建成密度分別建檔。",
+  "key_points_zh": [
+    "核對街廓尺寸的量測基準，將原始圖面與後來建成密度分別建檔。",
+    "113.3 m 的定義、不同街廓及後續建蔽變化仍須原始圖面交叉核對。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "Cerdà 的 Eixample 以規則網格與倒角街廓處理擴張、交通及衛生，典型街廓邊長約 113.3 m；原始構想保留內部空地與開放建築配置。",
+        "library_id": "CERDA2018",
+        "locator": null,
+        "study_design": "理論／方法綜述；非基地實測",
+        "effect_or_value": null,
+        "context_region": null,
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008"
+      },
+      {
+        "claim_zh": "Eixample 後來的建設增加街廓內部占用與建築密度，建成的周邊式肌理需和原始擴張計畫區分。",
+        "library_id": "KOSTOF1991",
+        "locator": null,
+        "study_design": "理論／方法綜述；非基地實測",
+        "effect_or_value": null,
+        "context_region": null,
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "核對街廓尺寸的量測基準，將原始圖面與後來建成密度分別建檔。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "倒角能增加路口轉向與視線空間，但會改變角地建築面積及街道圍合。",
+      "tradeoff_zh": "113.3 m 的定義、不同街廓及後續建蔽變化仍須原始圖面交叉核對。",
+      "library_ids": [
+        "CERDA2018"
+      ]
+    }
+  ],
+  "applies_when_zh": "用於釐清「Cerdà Eixample」涉及的空間、制度與行動選擇。",
+  "not_applicable_when_zh": "「Cerdà Eixample」不能直接替代基地的實測、法規或人類批准。",
+  "debates_zh": "113.3 m 的定義、不同街廓及後續建蔽變化仍須原始圖面交叉核對。",
+  "sources": [
+    {
+      "library_id": "CERDA2018",
+      "locator": null
+    },
+    {
+      "library_id": "KOSTOF1991",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+  "curriculum_refs": [
+    {
+      "school": "MIT",
+      "course": null,
+      "topic": "編者主題對照，非已核實課程指定閱讀：Cerdà Eixample"
+    }
+  ],
+  "version": "2.0.0-theory-v3"
+}

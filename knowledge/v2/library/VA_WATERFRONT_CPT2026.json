@@ -1,0 +1,42 @@
+{
+  "id": "VA_WATERFRONT_CPT2026",
+  "title": "Our Development",
+  "authors": [
+    "V&A Waterfront"
+  ],
+  "year": null,
+  "venue_or_publisher": "V&A Waterfront",
+  "doi": null,
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "OFFICIAL_SITE_OPERATOR",
+  "tradition": "港灣發展歷程、混合用途及營運方影響主張",
+  "region": "南非開普敦",
+  "method": "於內容起草後直接檢視官方／營運方公開頁面；不把機構目標或自報數據當成獨立效果研究。",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "營運方記載 1988 年起的發展、居住工作文化及零售等用途，並自報就業與經濟貢獻；本頁未提供獨立評估方法或用途比例。",
+      "strength": "CASE_EVIDENCE",
+      "scope_zh": "只支持頁面明確公布的規劃口徑、歷史資料、行政數字或機構自報結果。",
+      "assessment_basis": "DIRECT_SOURCE_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Official organization webpage",
+    "query": {
+      "title": "Our Development",
+      "author": "V&A Waterfront",
+      "year": null,
+      "api_query": "Read-only official source page: https://www.waterfront.co.za/our-development"
+    },
+    "matched_record_id": "https://www.waterfront.co.za/our-development",
+    "checked_at_utc": "2026-10-08T14:47:20Z",
+    "match_notes_zh": "直接檢視官方／場址營運方公開頁；該頁不是Crossref書目記錄，未宣稱經Crossref驗證。"
+  },
+  "limitations_zh": "官方或營運方頁面可能採機構自身的規劃與成果口徑；未有獨立評估處不推定效果。",
+  "critique_relationship_zh": "本記錄不宣稱與其他來源存在直接互引或逐一反駁關係。",
+  "metadata_licence_zh": "官方／營運方公開頁面；未確認個別資料的再利用授權。"
+}

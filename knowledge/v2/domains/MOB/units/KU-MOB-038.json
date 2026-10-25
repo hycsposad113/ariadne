@@ -1,0 +1,80 @@
+{
+  "id": "KU-MOB-038",
+  "domain": "MOB",
+  "subtopic": "TOD 與節點—場所模型",
+  "type": "typology",
+  "title_zh": "TOD 與節點—場所模型：型態比較",
+  "title_en": "TOD and node-place model: Typology comparison",
+  "summary_zh": "高節點高場所、交通強但活動弱、活動強但服務弱、兩者皆弱可形成不同策略方向，不直接對應唯一開發密度。類型比較要回到節點描述公共運輸網路與服務能力，場所描述站區的活動、土地使用與城市生活，兩面向需並列診斷。各類型的成本和適用條件包括：TOD 標籤可能掩蓋土地價格、移居壓力和地方治理；提高可及性不保證公平分配。",
+  "key_points_zh": [
+    "比較類型：節點描述公共運輸網路與服務能力，場所描述站區的活動、土地使用與城市生活，兩面向需並列診斷",
+    "比較類型：高節點高場所、交通強但活動弱、活動強但服務弱、兩者皆弱可形成不同策略方向，不直接對應唯一開發密度"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "TOD 與節點—場所模型：型態比較｜交通節點能力與站區場所活動應並列比較；靠近車站不等於站區用途已適配",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "BERTOLINI99",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "TOD 與節點—場所模型：型態比較｜北歐研究顯示城市尺度與住業位置對出行重要；僅調整鄰里小尺度特徵可能漏掉主要關係",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "NAESS12",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "類型表應比較「節點描述公共運輸網路與服務能力，場所描述站區的活動、土地使用與城市生活，兩面向需並列診斷」及其使用代價「TOD 標籤可能掩蓋土地價格、移居壓力和地方治理；提高可及性不保證公平分配」，不要只列名稱。"
+  ],
+  "applies_when_zh": "比較TOD 與節點—場所模型方案時，可先用「節點描述公共運輸網路與服務能力，場所描述站區的活動、土地使用與城市生活，兩面向需並列診斷」描述各類型，再按「TOD 標籤可能掩蓋土地價格、移居壓力和地方治理；提高可及性不保證公平分配」檢查分類的盲點。",
+  "not_applicable_when_zh": "這些類型不構成普遍排序；遇到「TOD 標籤可能掩蓋土地價格、移居壓力和地方治理；提高可及性不保證公平分配」所述條件時，不應只依類名決定路網或街道配置。",
+  "debates_zh": "TOD 標籤可能掩蓋土地價格、移居壓力和地方治理；提高可及性不保證公平分配；檢視「TOD 與節點—場所模型：型態比較」的分類邊界時，還需判斷「高節點高場所、交通強但活動弱、活動強但服務弱、兩者皆弱可形成不同策略方向，不直接對應唯一開發密度」會如何改變方案結論。",
+  "sources": [
+    {
+      "library_id": "BERTOLINI99",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "NAESS12",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "大眾運輸導向發展",
+  "region": "跨地域理論或實務脈絡；來源地區依引用條目判讀",
+  "curriculum_refs": [
+    {
+      "school": "Harvard GSD",
+      "course": "Urban Design Contexts and Operations",
+      "topic": "TOD 與節點—場所模型：課綱對應主題"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "TOD 與節點—場所模型：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-MOB-033",
+    "KU-MOB-034",
+    "KU-MOB-035",
+    "KU-MOB-036",
+    "KU-MOB-037",
+    "KU-MOB-039",
+    "KU-MOB-040"
+  ]
+}

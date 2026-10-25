@@ -1,0 +1,97 @@
+{
+  "id": "KU-WAT-051",
+  "domain": "WAT",
+  "subtopic": "雨水滯留量的設計值",
+  "type": "value_range",
+  "title_zh": "綠屋頂的介質深度與可用滯留量需分開",
+  "title_en": "綠屋頂的介質深度與可用滯留量需分開",
+  "summary_zh": "綠屋頂的基質厚度會影響可蓄水體積，但降雨前含水量、排水層和植物狀態同樣控制事件容量。Nieuwegein 的地方規則只在特定辦公轉住宅例外中把 30 公分綠屋頂作為未硬鋪面比例的替代條件。這個尺寸沒有直接量出滯留水深，不能當作綠屋頂的通用容量。",
+  "key_points_zh": [
+    "介質厚度與暴雨可用容量是不同參數。",
+    "含水狀態會影響下一場降雨的可用空間。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "library_id": "NIEUWEGEIN_OMGEVINGSPLAN",
+        "claim_zh": "Nieuwegein 規定適用建築地塊需在 70 mm/h 事件中保留或處理至少 50 mm，前 24 小時維持蓄水且最遲 60 小時恢復容量；另要求處理平均年雨量 936 mm 的至少一半。",
+        "claim_verification": "OFFICIAL_PRIMARY_SOURCE_REVIEW",
+        "effect_or_value": "至少 0.30",
+        "study_design": "地方政府規劃法規文本",
+        "context_region": "Nieuwegein, Nederland",
+        "locator": "Omgevingsplan, Article 5.15, lines 1539–1551; explanatory text lines 8448–8456"
+      },
+      {
+        "library_id": "BRATTEBO2003",
+        "claim_zh": "書目確認本文題名聚焦「Long-term stormwater quantity and quality performance of permeable pavement systems」；目前只完成作者、年份、題名與 DOI 核對，未將摘要或全文結論納入此記錄；本單元 KU-WAT-051 對照「綠屋頂的基質厚度會影響可蓄水體積，但降雨前含水量、排水層和植物狀態同樣控制事件容量」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "案例或場地研究；目前僅核對書目範圍",
+        "context_region": "美國西北太平洋地區",
+        "locator": null
+      },
+      {
+        "library_id": "STOVIN2010",
+        "claim_zh": "書目確認本文題名聚焦「The potential of green roofs to manage Urban Stormwater」；目前只完成作者、年份、題名與 DOI 核對，未將摘要或全文結論納入此記錄；本單元 KU-WAT-051 對照「綠屋頂的基質厚度會影響可蓄水體積，但降雨前含水量、排水層和植物狀態同樣控制事件容量」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "案例或場地研究；目前僅核對書目範圍",
+        "context_region": "英國研究脈絡",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "分別記錄層厚、初始含水和溢流高度。",
+    "將夏季和冬季植物需求納入維護安排。"
+  ],
+  "applies_when_zh": "適用於綠屋頂的概念尺寸比較。",
+  "not_applicable_when_zh": "沒有測試介質和排水層資料時，不可推定蓄水性能。",
+  "debates_zh": "地方規則提供構造尺寸與規劃條件，並未宣稱固定降雨情境下的蓄水率；性能比較要另報材料、基質、初始含水和出流。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "NIEUWEGEIN_OMGEVINGSPLAN",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "BRATTEBO2003",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "STOVIN2010",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "綠屋頂雨水設計",
+  "region": "澳洲；英國與國際經驗",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "雨水滯留量的設計值"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Sustainable Futures by Design",
+      "topic": "雨水滯留量的設計值"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0",
+  "values": [
+    {
+      "name": "綠屋頂基質厚度（轉用例外條件）",
+      "range": "至少 0.30",
+      "unit": "m",
+      "context": "用途：以「綠屋頂基質厚度（轉用例外條件）」作為來源情境參照；Nieuwegein 對特定辦公轉住宅例外列出的綠屋頂厚度；厚度不等於蓄水量；這不是本基地法規；來源所列地域：Nieuwegein, Nederland。",
+      "library_id": "NIEUWEGEIN_OMGEVINGSPLAN"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "id": "KU-CAS-038",
+  "domain": "CAS",
+  "subtopic": "住宅與街區—非正式住區更新及土地融資",
+  "type": "case",
+  "title_zh": "Dharavi：以土地融資推動更新時的居住權與資格爭議",
+  "title_en": "Dharavi: Land-Based Redevelopment, Eligibility and Resident Rights",
+  "summary_zh": "孟買 Dharavi 更新方案以土地價值支應住戶安置，並允許透過額外樓面積形成市場住宅供給；這一融資設計將土地開發、資格審查和原居民安置綁在一起。馬哈拉施特拉邦專案官網記載方案於 2004 年決議啟動，並以官方進度頁報告住屋編號與調查狀況。Chatterji 2005 年論文討論規劃、居住和貧民窟更新，但它早於目前方案執行，不能作為新計畫成效評估。此案仍在推進且資格和資料蒐集未完，結果應保持未定。",
+  "key_points_zh": [
+    "把增額樓面或市場銷售作為融資工具時，須同步公開安置條件、住戶資格與開發收益安排。",
+    "更新對象不是單純住宅存量，還包括生計網絡、混合型工作空間和既有社區服務。"
+  ],
+  "evidence": {
+    "strength": "CASE_EVIDENCE",
+    "findings": [
+      {
+        "claim_zh": "Chatterji 的 2005 年論文題名聚焦規劃、居住與貧民窟更新；出版早於目前 Dharavi 專案執行，不作為新方案結果證據。",
+        "effect_or_value": "確認研究主題與出版年份；未核讀全文且時間上早於當前專案",
+        "study_design": "學術論文；本輪僅書目範圍核對",
+        "context_region": "印度孟買",
+        "library_id": "CHATTERJI2005",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "馬哈拉施特拉邦官方網站說明 2004 年政府決議啟動 Dharavi 更新，採土地作為資源安置居民並容許增加 FSI 形成市場銷售單位；頁面列出住屋編號與調查進度。",
+        "effect_or_value": "官方政策機制與當前行政調查數；未代表合格名冊最終確定",
+        "study_design": "政府專案機關資料",
+        "context_region": "印度孟買 Dharavi",
+        "library_id": "MAHARASHTRA_DHARAVI_DRP2026",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "將非正式住所、工作場所和公共服務一併建檔，並把資料核對、申訴、資格決定與搬遷分開追蹤。",
+    "用不同安置情境比較原地重建、就地升級和異地安置對生計、交通與社區網絡的影響。"
+  ],
+  "applies_when_zh": "高密度非正式住區面臨安全、服務和住房權改善需求，且政府提出大規模土地與住房重整方案時。",
+  "not_applicable_when_zh": "若住戶調查、合法居住權、在地工作和搬遷救濟程序仍有爭議，不能把提高容積或建成住房總數視為公平更新的替代指標。",
+  "debates_zh": "官方方案把土地價值與安置及市場單位聯繫起來，行政進度頁也顯示住屋編號和調查尚在進行。學術來源雖討論規劃與居住，但早於目前執行，不能用來判定現行計畫效果。規劃決策要能讓居民質疑資料、申訴資格並核對收益和安置承諾。",
+  "sources": [
+    {
+      "library_id": "CHATTERJI2005",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "MAHARASHTRA_DHARAVI_DRP2026",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "南亞非正式住區規劃、土地融資與居住權治理",
+  "region": "南亞／印度孟買",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": null,
+      "topic": "高密度住區更新與公共服務配置"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": null,
+      "topic": "非正式城市、住房權與土地治理"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": null,
+      "topic": "城市貧困、資格制度及搬遷影響"
+    }
+  ],
+  "case": {
+    "location": "印度孟買 Dharavi Notified Area",
+    "period": "邦政府於 2004 年決議啟動更新；目前官方網站仍列住屋調查和資格流程",
+    "area_ha": null,
+    "fsi": null,
+    "gsi": null,
+    "program_mix": "原有住宅、家庭與小型生產活動、公共服務、安置住房及計畫中的市場住宅；各用途比例未查得。",
+    "key_strategies_zh": [
+      "把住戶調查的版本、資格條件與安置方案公開，提供可稽核的更正與申訴程序。",
+      "將住宅、生產活動和社區服務納入分期實施，不只計算重建住房總量或可售樓面。"
+    ],
+    "outcomes_zh": [
+      "政府網站說明方案使用土地融資與增額 FSI 形成市場銷售單位以支持居民安置。",
+      "官方頁面於本輪檢視時報告 99,068 戶編號、91,325 戶已調查；這是行政進度，並非合格／安置結果。"
+    ],
+    "critiques_zh": [
+      "土地價值回收與市場銷售機制可能促使開發密度上升，實際安置條件、保障與收益分配尚待獨立核查。",
+      "官方網站顯示調查仍有未完成項目，因此住戶總數、資格名冊及最終住房分配仍屬未定。"
+    ]
+  },
+  "version": "v2.0"
+}

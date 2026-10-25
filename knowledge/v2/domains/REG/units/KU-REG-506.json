@@ -1,0 +1,117 @@
+{
+  "id": "KU-REG-506",
+  "domain": "REG",
+  "subtopic": "制度比較與數值適用性",
+  "type": "value_range",
+  "title_zh": "紐約市住宅與商業分區FAR及形態控制",
+  "title_en": "New York City residential/commercial FAR and form controls",
+  "summary_zh": "紐約市Zoning Resolution依住宅、商業及其他分區分列用途和bulk規則，FAR需連同街道條件、用途類別與資格規定判讀。 住宅分區表所涵蓋的一般住宅FAR約0.75至15.0，特定合格住宅方案可達18.0；商業用途表依商業分區約0.50至15.0。 Contextual districts還使用街牆位置、基座高度、退縮和總高度規則形成建築包絡。 這是紐約市制度，不是M4H本基地法規；設計用途是比較用途分區與形態控制的組合，而非移植FAR值。",
+  "key_points_zh": [
+    "住宅分區一般FAR範圍約0.75–15.0，合格住宅條件下有最高18.0的區型。",
+    "商業用途的分區表約0.50–15.0 FAR；社區設施、住宅及特區表有不同口徑。",
+    "Contextual規則常以街牆、基座高度、退縮、總高度及開放空間控制街道形態。",
+    "FAR受分區地圖、用途、獎勵及特別區條款影響，表列範圍不是單一通用權利。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "官方住宅分區表列出依R district與合格住宅方案而異的FAR上限。",
+        "effect_or_value": null,
+        "study_design": "法規／官方政策或實務指引內容核對",
+        "context_region": "美國紐約市",
+        "library_id": "NYC_ZR_RES",
+        "locator": "Article II Chapter 3住宅分區FAR表",
+        "claim_verification": "OFFICIAL_PRIMARY_SOURCE_REVIEW"
+      },
+      {
+        "claim_zh": "官方商業分區表列出商業用途FAR及用途與分區差異。",
+        "effect_or_value": null,
+        "study_design": "法規／官方政策或實務指引內容核對",
+        "context_region": "美國紐約市",
+        "library_id": "NYC_ZR_COMM",
+        "locator": "Article III Chapter 3商業分區FAR表",
+        "claim_verification": "OFFICIAL_PRIMARY_SOURCE_REVIEW"
+      },
+      {
+        "claim_zh": "市府手冊說明Contextual住宅區以街牆、基座高度與退縮塑造建築體量。",
+        "effect_or_value": null,
+        "study_design": "法規／官方政策或實務指引內容核對",
+        "context_region": "美國紐約市",
+        "library_id": "NYC_ZONING_HANDBOOK",
+        "locator": "Contextual bulk rules: street wall, base height and setback",
+        "claim_verification": "OFFICIAL_PRIMARY_SOURCE_REVIEW"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "進行比較時把住宅、商業及社區設施FAR分開列示，並記錄街道類型和資格條件。",
+    "用街牆與退縮控制對照街廓界面和上層體量，不將紐約表值直接當作基地目標。"
+  ],
+  "applies_when_zh": "用於紐約市Zoning Resolution的FAR及Contextual bulk controls制度比較。",
+  "not_applicable_when_zh": "不能把紐約市區間視為M4H允許FAR或建築高度。",
+  "debates_zh": "不同分區表、特殊區域與住房獎勵規則可能改變FAR；簡化成單一區間會忽略適用條件。 查核：「最高 18.0」涉及 2024 年 City of Yes 調整，Claude 未能核實。",
+  "sources": [
+    {
+      "library_id": "NYC_ZR_RES",
+      "claim_id": "C1",
+      "locator": "Article II Chapter 3住宅分區FAR表"
+    },
+    {
+      "library_id": "NYC_ZR_COMM",
+      "claim_id": "C1",
+      "locator": "Article III Chapter 3商業分區FAR表"
+    },
+    {
+      "library_id": "NYC_ZONING_HANDBOOK",
+      "claim_id": "C1",
+      "locator": "Contextual bulk rules: street wall, base height and setback"
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+  "tradition": "紐約市土地使用與建築bulk分區",
+  "region": "美國紐約市",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "topic": "制度比較與數值適用性"
+    },
+    {
+      "school": "Harvard GSD",
+      "topic": "制度比較與數值適用性"
+    },
+    {
+      "school": "MIT",
+      "topic": "制度比較與數值適用性"
+    },
+    {
+      "school": "UCL Bartlett",
+      "topic": "制度比較與數值適用性"
+    }
+  ],
+  "version": "kb2-policy-2026-10-08",
+  "values": [
+    {
+      "name": "住宅分區一般FAR概括範圍",
+      "range": "0.75–15.0",
+      "unit": "FAR",
+      "context": "適用地區：New York City Planning Commission；這是外國或地方制度／指引，不是 M4H 本基地法規；用途：NYC住宅分區表的跨區概括範圍；用途：制度比較，須按分區與資格逐表核對；來源：https://zr.planning.nyc.gov/article-ii/chapter-3",
+      "library_id": "NYC_ZR_RES"
+    },
+    {
+      "name": "特定合格住宅方案FAR上限",
+      "range": "最高18.0",
+      "unit": "FAR",
+      "context": "適用地區：New York City Planning Commission；這是外國或地方制度／指引，不是 M4H 本基地法規；用途：NYC住宅分區表中特定合格方案上限；用途：了解獎勵條件影響，不作普遍上限；來源：https://zr.planning.nyc.gov/article-ii/chapter-3",
+      "library_id": "NYC_ZR_RES"
+    },
+    {
+      "name": "商業用途FAR概括範圍",
+      "range": "0.50–15.0",
+      "unit": "FAR",
+      "context": "適用地區：New York City Planning Commission；這是外國或地方制度／指引，不是 M4H 本基地法規；用途：NYC商業分區商業用途表的跨區概括範圍；用途：制度比較，不涵蓋其他用途表；來源：https://zr.planning.nyc.gov/article-iii/chapter-3",
+      "library_id": "NYC_ZR_COMM"
+    }
+  ]
+}

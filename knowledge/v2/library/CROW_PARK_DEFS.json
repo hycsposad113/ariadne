@@ -1,0 +1,36 @@
+{
+  "id": "CROW_PARK_DEFS",
+  "title": "Parkeerkencijfers 2024: begrippen en definities",
+  "authors": [
+    "CROW"
+  ],
+  "year": 2024,
+  "venue_or_publisher": "CROW",
+  "doi": null,
+  "isbn": null,
+  "kind": "PRACTICE_MANUAL",
+  "tradition": "官方制度與專業實務指引",
+  "region": [
+    "CROW"
+  ],
+  "method": "官方公開法規、政策頁或手冊；依verification.method註明可讀範圍",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "CROW公開定義提醒指標是估算工具，地方政府仍需以地方政策設定具約束力的標準。",
+      "strength": "NORMATIVE_PRACTICE",
+      "scope_zh": "僅摘要官方公開頁面可直接支持之制度或實務內容；不外推為M4H地方法規。",
+      "assessment_basis": "OFFICIAL_SITE_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED_OFFICIAL_SITE",
+    "url": "https://kennisbank.crow.nl/public/gastgebruiker/PARK/Parkeerkencijfers_2024/Bijlage_I._Begrippen_en_definities/63704",
+    "accessed_utc": "2026-10-08T10:47:42Z",
+    "method": "public guest excerpt; complete manual may require login or subscription",
+    "match_notes_zh": "核對官方來源網域與可公開讀取的頁面／摘錄；內容範圍限制已記錄。"
+  },
+  "limitations_zh": "public guest excerpt; complete manual may require login or subscription",
+  "metadata_licence_zh": "保存官方公開文件的書目欄位與自行改寫的內容摘要；未保存付費全文。"
+}

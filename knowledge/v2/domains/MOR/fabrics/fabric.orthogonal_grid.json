@@ -1,0 +1,369 @@
+{
+  "id": "fabric.orthogonal_grid",
+  "names": {
+    "zh": "規則正交網格",
+    "en": "Orthogonal Grid"
+  },
+  "concept_zh": "規則網格以兩組近乎垂直的街道建立可預測的街廓、地塊和路口節奏，適合作為比較不同密度與零件組合的基準。它的價值在於方向、連接和分割規則明確，並不代表每一種街區都應採用相同模數；基地邊界、既有路線與地景可使網格局部變形，但不能失去主要交叉方向。",
+  "when_to_use_zh": "適用於平坦、規則或可重新配置的大型基地，且外部道路有兩個可連接方向；也適合早期基準方案，用來比較周邊式街廓、院落或地景主導方案在密度、入口和步行路徑上的差異。",
+  "when_not_to_use_zh": "若基地受山坡、濕地、岸線或既有街區斜向肌理明顯支配，不要為保持直角而切斷地景或錯接外部道路；狹長基地若只生成長條平行網格，應改用港埠線性紋理而非把正交網格硬延長。",
+  "height_cap_adaptation_zh": "20 m 高度上限下沿正交網格維持連續街道界面，以約 4–5 層中層街牆為基準；可在轉角、公設或重要節點局部退縮，不以超高量體破壞街廓尺度。樓層數須依首層用途、樓層高度和實際法規校核。（本基地首層 4 m、標準層 3.5 m：5 層＝18 m 為上限，6 層＝21.5 m 會超過 20 m）",
+  "street_network": {
+    "pattern": "orthogonal_grid",
+    "orientation_rule_zh": "選一組街道方向延續主要外部道路或地籍主軸，另一組近似垂直；用路口與地塊方向保持網格可讀，不要求與真北一致。",
+    "street_width_building_gap_proxy_m": {
+      "p25": 38.81,
+      "median": 47.91,
+      "p75": 57.7,
+      "unit": "m",
+      "status": "MEASURED_PRECEDENT_PROXY",
+      "basis_zh": "艾堡海港島 的建築外牆最近點間距：P25 38.81 m、中位數 47.91 m、P75 57.7 m（KU-MOR-084）。數值含建築退縮，是外牆間距代理，不是法定路權、車道淨寬或道路斷面；道路幾何仍需另測。",
+      "ku_ids": [
+        "KU-MOR-084"
+      ]
+    },
+    "hierarchy": [
+      {
+        "name_zh": "城市主街",
+        "section_width_m": {
+          "minimum": 16,
+          "maximum": 22,
+          "unit": "m"
+        },
+        "modes": [
+          "步行",
+          "自行車",
+          "汽車",
+          "服務"
+        ],
+        "spacing_m": {
+          "minimum": 200,
+          "maximum": 300,
+          "unit": "m"
+        },
+        "status": "EDITORIAL",
+        "basis_zh": "IJburg 與 Eixample 的案例資料未量測法定路幅；此範圍是基準網格主街的初始繪圖包絡。"
+      },
+      {
+        "name_zh": "次級街道",
+        "section_width_m": {
+          "minimum": 12,
+          "maximum": 16,
+          "unit": "m"
+        },
+        "modes": [
+          "步行",
+          "自行車",
+          "汽車",
+          "服務"
+        ],
+        "spacing_m": {
+          "minimum": 100,
+          "maximum": 160,
+          "unit": "m"
+        },
+        "status": "EDITORIAL",
+        "basis_zh": "KB4 記錄道路街段長而非平行街距；此範圍用於形成可穿越街廓，需由基地與法規校核。"
+      },
+      {
+        "name_zh": "住宅慢行街",
+        "section_width_m": {
+          "minimum": 8,
+          "maximum": 12,
+          "unit": "m"
+        },
+        "modes": [
+          "步行",
+          "自行車",
+          "服務"
+        ],
+        "spacing_m": {
+          "minimum": 50,
+          "maximum": 100,
+          "unit": "m"
+        },
+        "status": "EDITORIAL",
+        "basis_zh": "住宅街斷面和間距沒有可用先例量測；以短路徑和街角密度作為設計用途。"
+      }
+    ],
+    "connection_rule_zh": "每條新街都延伸至基地邊界並接上對應的既有街道；若外部路網錯位，使用一個清楚的轉角或短斜接街處理，並保留直行步行路徑與連續騎行線。"
+  },
+  "blocks": {
+    "short_edge_m": {
+      "minimum": 74.9,
+      "maximum": 74.9,
+      "unit": "m",
+      "basis": {
+        "status": "MEASURED_PRECEDENT_DERIVED",
+        "note_zh": "Eixample：完整街廓 n=5、面積中位數 8,814.70 m²；以交叉口間街段長 P75 117.76 m 作暫定長邊代理，短邊=8,814.70÷117.76=74.86 m，落在邊長 P25–P75（30.92–117.76 m）內，推估 74.9×117.8 m。IJburg n=3 候選短邊約 83.3 m，低於 P25 85.11 m，故排除。僅 Eixample 合格，推估點非跨案設計區間或直接量測軸長。",
+        "ku_ids": [
+          "KU-MOR-095"
+        ]
+      }
+    },
+    "long_edge_m": {
+      "minimum": 117.8,
+      "maximum": 117.8,
+      "unit": "m",
+      "basis": {
+        "status": "MEASURED_PRECEDENT_DERIVED",
+        "note_zh": "Eixample：完整街廓 n=5、面積中位數 8,814.70 m²；以交叉口間街段長 P75 117.76 m 作暫定長邊代理，短邊=8,814.70÷117.76=74.86 m，落在邊長 P25–P75（30.92–117.76 m）內，推估 74.9×117.8 m。IJburg n=3 候選短邊約 83.3 m，低於 P25 85.11 m，故排除。僅 Eixample 合格，推估點非跨案設計區間或直接量測軸長。",
+        "ku_ids": [
+          "KU-MOR-095"
+        ]
+      }
+    },
+    "shape_rule_zh": "先畫兩組垂直中心線形成近矩形街廓；在公園、水岸、保留建築或基地斜界處可以截短外緣，但內部路口仍維持清楚交叉，不留下無法配置的尖角地塊。",
+    "plot_subdivision_zh": "地塊依街道方向作垂直分割，住宅臨街面寬以 8–16 m 作 EDITORIAL 起稿範圍；角地可合併成雙面入口地塊，公建或大商店拆出多個入口界面。尺寸不代表 IJburg 或 Barcelona 地籍實測。"
+  },
+  "building_composition": {
+    "components": [
+      {
+        "part_id": "block.hybrid",
+        "recommended_share_percent": 63,
+        "share_denominator_zh": "以候選街廓數為分母；混合／未分類街廓的起稿參照。",
+        "basis_zh": "IJburg 與 Eixample 合計 5/8 完整街廓為混合／未分類；63% 為類型訊號近似值，不是建築面積占比。"
+      },
+      {
+        "part_id": "building.courtyard_closed",
+        "recommended_share_percent": 25,
+        "share_denominator_zh": "以建築地面足跡面積為分母；內院型量體的起稿建議。",
+        "basis_zh": "IJburg 與 Eixample 合計有 2/8 完整街廓為合院型；分類分母是街廓數，不能視為 footprint 比例。"
+      },
+      {
+        "part_id": "building.i_slab",
+        "recommended_share_percent": 13,
+        "share_denominator_zh": "以建築地面足跡面積為分母；板樓量體的起稿建議。",
+        "basis_zh": "IJburg 有 1/3 街廓為板樓、Eixample 為 0/5；合計 1/8 約 12.5%，四捨五入為 13%，非 footprint 換算。"
+      },
+      {
+        "part_id": "building.terraced",
+        "recommended_share_percent": 30,
+        "share_denominator_zh": "以建築地面足跡面積為分母；規則網格街牆的建議份額。",
+        "basis_zh": "連續、細分臨街界面可配合正交路網；實測分類未提供 terraced footprint 比例，此值為設計建議。"
+      }
+    ],
+    "height_profile_zh": "一般住宅街採較一致的中低層高度維持網格邊界；主街、公共設施或交通節點可局部加高，角地與公園邊降低或退台。高度變化須由採光、風和街牆比例檢核，不把規則平面誤解成均一立面。"
+  },
+  "open_space_system": {
+    "types": [
+      "space.shared_street",
+      "space.plaza",
+      "space.courtyard"
+    ],
+    "configuration_rule_zh": "公園或廣場放在清楚的網格節點，住區院落置於街廓內部；以共享街或慢行路連接不同公共空間。道路、廣場與私人庭院各自計算面積，避免以街道交叉口空地重複充當公共綠地。",
+    "site_area_share_percent": {
+      "minimum": 8,
+      "maximum": 18,
+      "status": "EDITORIAL",
+      "basis_zh": "基準網格開放空間份額未由所選案例完整量測；作為可比較方案的配置假設而非最低標準。"
+    }
+  },
+  "edges": [
+    {
+      "type": "waterfront",
+      "rule_zh": "網格到達水岸時以步道或公共街角終止，保留岸線視線與實際可達口；若碼頭封閉，將終點標為受限而非公共水岸。"
+    },
+    {
+      "type": "large_park",
+      "rule_zh": "在至少兩個網格路口接入大型公園，並讓外圍街道連續；公園邊可調整街廓但不能形成無入口長牆。"
+    },
+    {
+      "type": "topographic_edge",
+      "rule_zh": "網格遇高差時順等高線調整一組街道，另一組以可通行坡道或階梯接續；先檢查縱坡，不以等距直線跨過陡坡。"
+    },
+    {
+      "type": "retained_building",
+      "rule_zh": "保留建築按實測 footprint 和入口固定，必要時讓一個街廓截短或開口，並記下網格偏移的原因。"
+    },
+    {
+      "type": "existing_city_road",
+      "rule_zh": "外部主要道路中心線優先決定第一組方向；錯位處以短連接街或路口廣場平順接合，不把基地邊界畫成道路斷頭點。"
+    }
+  ],
+  "density_targets": {
+    "GSI": {
+      "range": {
+        "minimum": 0.25,
+        "maximum": 0.36
+      },
+      "unit": "dimensionless",
+      "basis": "以 KU-MOR-084 IJburg 研究窗 GSI 0.3048 為中心的 EDITORIAL 比較包絡；Eixample KU-MOR-095 的 GSI 0.5531 另作高覆蓋對照，不混作本包絡上下界。",
+      "status": "EDITORIAL"
+    },
+    "FSI": {
+      "range": {
+        "minimum": 1.5,
+        "maximum": 2.5
+      },
+      "unit": "dimensionless",
+      "basis": "以 IJburg KU-MOR-084 可比較已知 FSI 下限 2.0134 為參照的 EDITORIAL 設計包絡；不是文獻或法規區間。",
+      "status": "EDITORIAL"
+    },
+    "L": {
+      "range": {
+        "minimum": 4,
+        "maximum": 8
+      },
+      "unit": "storeys",
+      "basis": "以 IJburg 足跡加權已知樓層 6.605 為參照的 EDITORIAL 高度檢查範圍；高度另依基地條件決定。",
+      "status": "EDITORIAL"
+    },
+    "OSR": {
+      "range": {
+        "minimum": 0.25,
+        "maximum": 0.5
+      },
+      "unit": "dimensionless",
+      "basis": "以 IJburg KU-MOR-084 OSR 0.3453 為參照的 EDITORIAL 比較範圍；不能視為公共開放空間比例。",
+      "status": "EDITORIAL"
+    }
+  },
+  "drawing_steps": [
+    {
+      "order": 1,
+      "action_zh": "標出基地邊界、既有主街、地籍方向、保留建築、水岸和公園，判斷網格可延伸的兩個方向。"
+    },
+    {
+      "order": 2,
+      "action_zh": "選一組主街方向對齊外部道路或地籍主軸，再畫近垂直的次街方向；說明任何旋轉角度的理由。"
+    },
+    {
+      "order": 3,
+      "action_zh": "接續邊界路口，先畫 16–22 m 主街和 12–16 m 次街，再加 8–12 m 慢行住宅街。"
+    },
+    {
+      "order": 4,
+      "action_zh": "切出 70–110 m 短邊、90–150 m 長邊的 EDITORIAL 街廓；標出被保留建築或地景截短的街廓。"
+    },
+    {
+      "order": 5,
+      "action_zh": "從臨街邊界以 8–16 m 起稿面寬切地塊，將角地、公建地塊和一般住宅地塊分開標示。"
+    },
+    {
+      "order": 6,
+      "action_zh": "在街廓上配置周邊式、混合式和細粒住宅零件，沿公園或公共節點調整高度。"
+    },
+    {
+      "order": 7,
+      "action_zh": "在網格節點畫廣場與共享街，街廓內畫院落，確認其權屬和面積互不重疊。"
+    },
+    {
+      "order": 8,
+      "action_zh": "用同一基地分母計算 GSI、FSI、L、OSR，與 IJburg 單一可比較案例值並排，標示本範圍為編輯包絡。"
+    }
+  ],
+  "land_use_budget": {
+    "roads": {
+      "minimum": 20,
+      "maximum": 26,
+      "unit": "percent_site_area",
+      "status": "EDITORIAL",
+      "basis_zh": "規則網格道路比例為方案比較假設，沒有本地案例用地分類統計。"
+    },
+    "blocks": {
+      "minimum": 50,
+      "maximum": 60,
+      "unit": "percent_site_area",
+      "status": "EDITORIAL",
+      "basis_zh": "街廓比例用作一般基準方案，需按公共設施與實際基地範圍重算。"
+    },
+    "parks": {
+      "minimum": 5,
+      "maximum": 10,
+      "unit": "percent_site_area",
+      "status": "EDITORIAL",
+      "basis_zh": "公園配置值是初始預算，不代表最低綠地或法規標準。"
+    },
+    "plazas": {
+      "minimum": 3,
+      "maximum": 6,
+      "unit": "percent_site_area",
+      "status": "EDITORIAL",
+      "basis_zh": "廣場節點預算未由先例幾何量測，須檢查公共活動和通行需求。"
+    },
+    "waterfront": {
+      "minimum": 0,
+      "maximum": 5,
+      "unit": "percent_site_area",
+      "status": "EDITORIAL",
+      "basis_zh": "只在基地臨水時配置陸地岸帶，非臨水基地此比例可轉為其他用途但不可重複計。"
+    },
+    "service": {
+      "minimum": 3,
+      "maximum": 8,
+      "unit": "percent_site_area",
+      "status": "EDITORIAL",
+      "basis_zh": "服務用地依垃圾、消防、機電和裝卸動線另行校核。"
+    }
+  },
+  "common_errors_zh": [
+    "把網格模數當成不可變規範，切斷既有道路或水文。",
+    "兩組街道方向看似垂直，卻沒有接到基地外部路口。",
+    "交叉口附近出現無法分割的尖角殘地。",
+    "把街道空地、廣場和院落重複計入開放空間。",
+    "所有街廓和高度完全一致，缺少公共節點及地景回應。",
+    "留下沒有機能、入口或維護責任的未配置土地。"
+  ],
+  "precedents": [
+    {
+      "name_zh": "艾堡海港島 IJburg",
+      "ku_id": "KU-MOR-084",
+      "measurements": [
+        {
+          "metric": "GSI",
+          "value": 0.3048,
+          "unit": "dimensionless",
+          "status": "MEASURED_PRECEDENT",
+          "limitation_zh": "特定研究窗陸地 GSI；並非網格類型跨城統計。"
+        },
+        {
+          "metric": "FSI",
+          "value": 2.0134,
+          "unit": "dimensionless",
+          "status": "MEASURED_PRECEDENT",
+          "limitation_zh": "可比較門檻內的已知樓地板面積下限。"
+        },
+        {
+          "metric": "L",
+          "value": 6.605,
+          "unit": "storeys",
+          "status": "MEASURED_PRECEDENT",
+          "limitation_zh": "足跡加權已知層數，不是法定樓層或完整盤點。"
+        }
+      ],
+      "borrow_zh": "借用兩組街道方向、島區邊界和街廓切分需一起讀取的比較基準。",
+      "do_not_borrow_zh": "不把研究窗邊長當街廓模數，也不將單一 GSI/FSI 推成所有正交網格的目標範圍。"
+    },
+    {
+      "name_zh": "巴塞隆納擴展區 Eixample",
+      "ku_id": "KU-MOR-095",
+      "measurements": [
+        {
+          "metric": "GSI",
+          "value": 0.5531,
+          "unit": "dimensionless",
+          "status": "MEASURED_PRECEDENT",
+          "limitation_zh": "研究窗陸地指標；歷史街廓完整範圍與本次研究窗不同。"
+        },
+        {
+          "metric": "FSI",
+          "value": 2.0499,
+          "unit": "dimensionless",
+          "status": "LOWER_BOUND_NONCOMPARABLE",
+          "limitation_zh": "高度覆蓋不足造成非可比下限，不納入密度範圍。"
+        }
+      ],
+      "borrow_zh": "借用正交街道如何產生可讀交叉口和街廓內院落的分析問題。",
+      "do_not_borrow_zh": "不借用約 113 m 歷史模數作通用標準，也不把下限 FSI 當成量體總量。"
+    }
+  ],
+  "sources": [
+    "OSM_KB4_PRECEDENTS",
+    "3DBAG_KB4_HEIGHTS",
+    "BILJECKI2022",
+    "IJBURG1998_HOAD",
+    "CERDA2018",
+    "JACOBS61"
+  ]
+}

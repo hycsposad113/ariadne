@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "weekly_call_limit": 200,
+  "max_output_tokens": 2048,
+  "timeout_seconds": 30,
+  "skill_timeout_seconds": 600,
+  "fallback_order": [
+    "openai-gpt-4o",
+    "hermes-urban-critic",
+    "codex-cli",
+    "claude-cli"
+  ],
+  "profiles": [
+    {
+      "id": "openai-gpt-4o",
+      "adapter": "openai_compatible",
+      "base_url": "https://api.openai.com/v1",
+      "model": "gpt-4o",
+      "keychain_service": "urban-design-openai-gpt-4o",
+      "supports_json_schema": true,
+      "data_egress": "cloud",
+      "enabled": true,
+      "fallback_priority": 1
+    },
+    {
+      "id": "xai-template",
+      "adapter": "openai_compatible",
+      "base_url": "",
+      "model": "",
+      "keychain_service": "urban-design-xai",
+      "supports_json_schema": false,
+      "data_egress": "cloud",
+      "enabled": false
+    },
+    {
+      "id": "openrouter-template",
+      "adapter": "openai_compatible",
+      "base_url": "",
+      "model": "",
+      "keychain_service": "urban-design-openrouter",
+      "supports_json_schema": false,
+      "data_egress": "cloud",
+      "enabled": false
+    },
+    {
+      "id": "modelscope-template",
+      "adapter": "openai_compatible",
+      "base_url": "",
+      "model": "",
+      "keychain_service": "urban-design-modelscope",
+      "supports_json_schema": false,
+      "data_egress": "cloud",
+      "enabled": false
+    },
+    {
+      "id": "ollama-template",
+      "adapter": "openai_compatible",
+      "base_url": "",
+      "model": "",
+      "keychain_service": null,
+      "supports_json_schema": false,
+      "data_egress": "local",
+      "enabled": false
+    },
+    {
+      "id": "anthropic-template",
+      "adapter": "anthropic",
+      "base_url": "",
+      "model": "",
+      "keychain_service": "urban-design-anthropic",
+      "supports_json_schema": false,
+      "data_egress": "cloud",
+      "enabled": false
+    },
+    {
+      "id": "gemini-template",
+      "adapter": "gemini",
+      "base_url": "",
+      "model": "",
+      "keychain_service": "urban-design-gemini",
+      "supports_json_schema": true,
+      "data_egress": "cloud",
+      "enabled": false
+    },
+    {
+      "id": "hermes-urban-critic",
+      "adapter": "openai_compatible",
+      "base_url": "",
+      "model": "",
+      "keychain_service": "urban-design-hermes",
+      "supports_json_schema": false,
+      "data_egress": "hermes",
+      "enabled": false,
+      "fallback_priority": 99
+    },
+    {
+      "id": "codex-cli",
+      "adapter": "cli_subprocess",
+      "cli_command": "codex",
+      "base_url": "",
+      "model": "gpt-6-luna",
+      "keychain_service": null,
+      "supports_json_schema": true,
+      "data_egress": "cloud",
+      "enabled": true,
+      "fallback_priority": 100,
+      "use_ariadne_persona": true,
+      "reasoning_effort": "max"
+    },
+    {
+      "id": "claude-cli",
+      "adapter": "cli_subprocess",
+      "cli_command": "claude",
+      "base_url": "",
+      "model": "default",
+      "keychain_service": null,
+      "supports_json_schema": true,
+      "data_egress": "cloud",
+      "enabled": true,
+      "fallback_priority": 101
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "KU-GRN-040",
+  "domain": "GRN",
+  "subtopic": "公園使用與維護",
+  "type": "concept",
+  "title_zh": "使用量不是唯一維護優先序",
+  "title_en": "Use intensity is not the only maintenance rule",
+  "summary_zh": "生態核心區可能不需要大量人流，但仍需要持續管理。高使用率場所則對廁所、垃圾和表面維護有更強需求。只按使用量分配預算會忽略保育與公平服務。維護指標反映治理選擇，而非中立的工程排序。",
+  "key_points_zh": [
+    "生態核心區可能不需要大量人流，但仍需要持續管理",
+    "高使用率場所則對廁所、垃圾和表面維護有更強需求"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "生態核心區可能不需要大量人流，但仍需要持續管理。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "澳洲",
+        "library_id": "SUGIYAMA10",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "維護指標反映治理選擇，而非中立的工程排序。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "按公共健康、使用、安全和生態四類目標排序維護工作。"
+  ],
+  "applies_when_zh": "適用於多功能公園管理。",
+  "not_applicable_when_zh": "不應用低客流直接判定空間沒有公共價值。",
+  "debates_zh": "維護指標反映治理選擇，而非中立的工程排序。",
+  "sources": [
+    {
+      "library_id": "SUGIYAMA10",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "THOMPSON02",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "公園可及性與健康地理",
+  "region": "澳洲",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "公園使用與維護"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "公園使用與維護"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-GRN-039",
+    "KU-GRN-041"
+  ]
+}

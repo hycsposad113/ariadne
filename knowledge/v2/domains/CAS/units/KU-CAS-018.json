@@ -1,0 +1,96 @@
+{
+  "id": "KU-CAS-018",
+  "domain": "CAS",
+  "subtopic": "街道與交通案例",
+  "type": "case",
+  "title_zh": "Seattle Waterfront：移除高架快速道路後重連市中心與海灣",
+  "title_en": "Seattle Waterfront: Reconnecting Downtown and Elliott Bay after Viaduct Removal",
+  "summary_zh": "Seattle 的中央濱水更新從處理 Alaskan Way Viaduct 與老舊海堤的安全問題起步，後來擴大為拆除高架道路、重建海堤、改造碼頭與新增公園步道的組合計畫。市府將 Waterfront Park 的完成範圍列為約 20 英畝，並描述其跨越 Pioneer Square 至 Belltown 的步行與自行車連接。Ševčíková 與 Raftery 對高架道路替代方案採用不確定性分析，提醒成本效益估計須列明假設，不能當作已觀察到的公共空間成效。",
+  "key_points_zh": [
+    "應把公園範圍、交通工程範圍和整個市中心連接計畫分別量測。",
+    "成本效益模型中的預測值應和建成後步行量、使用者組成與岸線生態資料分開。"
+  ],
+  "evidence": {
+    "strength": "CASE_EVIDENCE",
+    "findings": [
+      {
+        "claim_zh": "Seattle 市府將 Waterfront Seattle 描述為由社區願景發展而來的多階段計畫，包含高架道路移除後的新地面街道、步行長廊、海堤與碼頭工程。",
+        "effect_or_value": "公共工程與空間連接資訊",
+        "study_design": "市府專案回顧",
+        "context_region": "美國華盛頓州 Seattle",
+        "library_id": "SEATTLE_WATERFRONT_OVERVIEW2026",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "Ševčíková 與 Raftery 以 Bayesian melding 檢視 Seattle Alaskan Way Viaduct 替代方案的效益不確定性；此研究不是建成公園的使用評估。",
+        "effect_or_value": "交通方案效益不確定性分析",
+        "study_design": "Bayesian melding 個案分析",
+        "context_region": "美國華盛頓州 Seattle",
+        "library_id": "SEVCKOVA_RAFTERY2011",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "把道路拆除、海堤更新、地面街道、自行車設施與公園設計視為相互依賴但有不同責任單位的工程。",
+    "在完成後追蹤河岸可達性、交通延誤、公共空間使用和海洋生態指標，以檢驗早期模型假設。"
+  ],
+  "applies_when_zh": "城市以大型交通設施移除作為機會，重新設計海堤、街道及市中心到水岸的步行連接時。",
+  "not_applicable_when_zh": "道路設施仍需維持且沒有替代路網，或更新範圍不含交通結構與水岸界面時。",
+  "debates_zh": "交通設施移除可以解除城市與水岸之間的物理阻隔，但工程成本、交通替代和收益預測都有不確定性。新公園也可能吸引投資與遊客，需檢查它是否服務周邊居民、原住民族與工作中的港口，而非只提供觀光景觀。",
+  "sources": [
+    {
+      "library_id": "SEATTLE_WATERFRONT_OVERVIEW2026",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "SEVCKOVA_RAFTERY2011",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "北美市中心水岸基礎設施轉型與公共空間",
+  "region": "北美／美國西雅圖",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": null,
+      "topic": "水岸介面、交通與公共空間"
+    },
+    {
+      "school": "MIT",
+      "course": null,
+      "topic": "大型基礎設施決策與不確定性"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": null,
+      "topic": "市中心可及性和包容公共空間"
+    }
+  ],
+  "case": {
+    "location": "Seattle 市中心 Elliott Bay 濱水區，美國",
+    "period": "2010 年啟動規劃，2010 年代後期至 2025 年分期交付主要工程",
+    "area_ha": 8.1,
+    "fsi": null,
+    "gsi": null,
+    "program_mix": "20 英畝中央公園、濱水步道、地面道路、碼頭、海堤、公共藝術、遊戲空間及步行自行車連接；不代表整個交通工程範圍。",
+    "key_strategies_zh": [
+      "移除受地震安全疑慮的高架道路，將交通改配置於隧道與地面街道。",
+      "同步更新海堤和碼頭，並補入公園、步行長廊及東西向連接。"
+    ],
+    "outcomes_zh": [
+      "市府於 2025 年宣布 20 英畝 Waterfront Park 完成，描述新設步道、碼頭、遊戲與藝術空間。",
+      "市府列出部分水岸綠基盤和海洋棲地設計；其長期生態效果仍需監測。"
+    ],
+    "critiques_zh": [
+      "早期交通成本效益評估有模型不確定性，預測不能代替交通與公共空間的實際追蹤。",
+      "大型資本工程應檢查成本超支、交通負擔與水岸公共利益是否公平分配。"
+    ]
+  },
+  "version": "v2.0"
+}

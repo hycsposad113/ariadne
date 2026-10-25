@@ -1,0 +1,74 @@
+{
+  "id": "KU-WAT-065",
+  "domain": "WAT",
+  "subtopic": "韌性理論與批評",
+  "type": "design_principle",
+  "title_zh": "建立能修正假設的監測與決策節點",
+  "title_en": "建立能修正假設的監測與決策節點",
+  "summary_zh": "氣候情境和工程模型會隨新資料修訂，方案治理應讓設施表現和風險假設可以被重新檢視。調適路徑研究以監測訊號連接後續選項，韌性理論則把學習納入系統能力。監測結果須能觸發具體決策，不應只作年度報告附表。",
+  "key_points_zh": [
+    "指標若沒有決策門檻，就難以支持策略切換。",
+    "監測責任與資料維護需有明確承接方。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "library_id": "BERKES2013",
+        "claim_zh": "文章聚焦社區韌性的整合觀點；未以書目紀錄推論所有社區共享相同的調適能力；本單元 KU-WAT-065 對照「氣候情境和工程模型會隨新資料修訂，方案治理應讓設施表現和風險假設可以被重新檢視」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "概念整合回顧",
+        "context_region": "跨學科社會－生態研究",
+        "locator": null
+      },
+      {
+        "library_id": "OSTROM2009",
+        "claim_zh": "摘要說明跨領域共同框架有助累積社會－生態系統知識，並指出使用者有時能自組織管理資源；這不是免除政府責任的普遍規則；本單元 KU-WAT-065 對照「氣候情境和工程模型會隨新資料修訂，方案治理應讓設施表現和風險假設可以被重新檢視」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "ABSTRACT_REVIEW",
+        "effect_or_value": null,
+        "study_design": "跨學科概念框架",
+        "context_region": "跨地域自然資源治理",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "為水位、堵塞和排空時間設定檢查與應對流程。",
+    "預留可調整的操作規則而不覆寫歷史記錄。"
+  ],
+  "applies_when_zh": "適用於長期水務設施和調適方案。",
+  "not_applicable_when_zh": "不適用於沒有執行資源的紙面監測計畫。",
+  "debates_zh": "監測可能增加治理負擔；若資料不公開，受影響群體仍難以挑戰設計假設。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "BERKES2013",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "OSTROM2009",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "適應性治理與學習",
+  "region": "荷蘭；跨地域",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "韌性理論與批評"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Sustainable Futures by Design",
+      "topic": "韌性理論與批評"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0"
+}

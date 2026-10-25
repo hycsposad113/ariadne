@@ -1,0 +1,44 @@
+{
+  "id": "ABARCA2019",
+  "title": "Urban Shape and Built Density Metrics through the Analysis of European Urban Fabrics Using Artificial Intelligence",
+  "authors": [
+    "Francisco Javier Abarca-Álvarez",
+    "Francisco Sergio Campos-Sánchez",
+    "Fernando Osuna-Pérez"
+  ],
+  "year": 2019,
+  "venue_or_publisher": "Sustainability, 11(23), 6622",
+  "doi": "https://doi.org/10.3390/su11236622",
+  "isbn": null,
+  "openalex_id": "https://openalex.org/W2990255410",
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "歐洲城市織理與建成密度量測",
+  "region": "多個歐洲城市",
+  "method": "以人工智慧與多變量方法比較城市形狀及密度變數",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "研究從建成密度缺乏普遍有效指標的問題出發，以多變量方法辨識歐洲城市織理特徵。",
+      "strength": "MIXED",
+      "scope_zh": "該研究的主張是指標選擇需依問題而定，沒有交叉驗證本單元列出的 Spacematrix 案例值。",
+      "assessment_basis": "ABSTRACT_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "OpenAlex",
+    "query": {
+      "record_id": "https://openalex.org/W2990255410",
+      "doi": "10.3390/su11236622",
+      "title": "Urban Shape and Built Density Metrics through the Analysis of European Urban Fabrics Using Artificial Intelligence",
+      "author": "Francisco Javier Abarca-Álvarez",
+      "year": 2019
+    },
+    "matched_record_id": "https://openalex.org/W2990255410",
+    "checked_at_utc": "2026-10-09T00:14:30Z",
+    "match_notes_zh": "以允許的公開書目 API 精確比對題名、首位作者與出版年；只保留自行撰寫的摘要範圍說明，未保存全文或 API 摘要原文。"
+  },
+  "limitations_zh": "本條目依公開摘要或書目範圍整理；未下載全文，也不外推摘要未列的樣本、效果量或因果結論。",
+  "metadata_licence_zh": "僅保存公開書目欄位與自行撰寫的繁體中文摘要；未複製摘要全文或論文全文。"
+}

@@ -1,0 +1,70 @@
+{
+  "id": "KU-ECO-032",
+  "domain": "ECO",
+  "subtopic": "物種友善設計",
+  "type": "value_range",
+  "title_zh": "都市植物與非都市參照比例",
+  "title_en": "Urban-native plant density estimate",
+  "summary_zh": "全球多城市資料估計城市本地植物密度約為非都市估計的百分之二十五。土地覆蓋和城市年齡對差異的解釋力較高。不同城市植物調查範圍可能不一致。本地植物密度和原生種百分比是不同測量結果。",
+  "key_points_zh": [
+    "全球多城市資料估計城市本地植物密度約為非都市估計的百分之二十五",
+    "土地覆蓋和城市年齡對差異的解釋力較高"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "全球多城市資料估計城市本地植物密度約為非都市估計的百分之二十五。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "美國",
+        "library_id": "KACZYNSKI08",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "本地植物密度和原生種百分比是不同測量結果。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "用地方植物名錄和棲地圖更新全球量級參照。"
+  ],
+  "applies_when_zh": "適用於都市植物保育背景說明。",
+  "not_applicable_when_zh": "不應將該比例寫成市政植栽配額。",
+  "debates_zh": "本地植物密度和原生種百分比是不同測量結果。",
+  "sources": [
+    {
+      "library_id": "KACZYNSKI08",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "LOW05",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "公園使用與健康地理",
+  "region": "美國",
+  "curriculum_refs": [
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "物種友善設計"
+    }
+  ],
+  "version": "2.0.0",
+  "values": [
+    {
+      "name": "都市植物與非都市參照比例",
+      "range": "約 25%",
+      "unit": "非都市參照比例",
+      "context": "跨城市植物資料的密度估計；作研究閱讀參考，非綠化標準。；「都市植物與非都市參照比例」僅供其研究脈絡內比較，不構成本基地法規；來源所列地域：全球多城市。",
+      "library_id": "ARONSON14"
+    }
+  ],
+  "related_unit_ids": [
+    "KU-ECO-031",
+    "KU-ECO-033"
+  ]
+}

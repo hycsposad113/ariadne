@@ -1,0 +1,60 @@
+{
+  "id": "KU-ECO-060",
+  "domain": "ECO",
+  "subtopic": "生態服務",
+  "type": "critique",
+  "title_zh": "生態服務指標不能取代物種保育",
+  "title_en": "Services do not replace species conservation",
+  "summary_zh": "降溫和水質效益可以協助公共決策比較。物種保護和棲地不可替代價值可能不會在服務價格中反映。部分生態系統服務只在長期才顯現。服務框架和生物中心倫理之間存在持續爭論。",
+  "key_points_zh": [
+    "降溫和水質效益可以協助公共決策比較",
+    "物種保護和棲地不可替代價值可能不會在服務價格中反映"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "降溫和水質效益可以協助公共決策比較。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "美國",
+        "library_id": "LOW05",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "服務框架和生物中心倫理之間存在持續爭論。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "將保育目標和服務效益分開報告。"
+  ],
+  "applies_when_zh": "適用於建構多目標生態評估。",
+  "not_applicable_when_zh": "不宜用貨幣總值沖銷不可逆棲地損失。",
+  "debates_zh": "服務框架和生物中心倫理之間存在持續爭論。",
+  "sources": [
+    {
+      "library_id": "LOW05",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "CARMONA10",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "公共空間文化多樣性",
+  "region": "美國",
+  "curriculum_refs": [
+    {
+      "school": "UCL Bartlett",
+      "course": "Critical Debates in Urban Design",
+      "topic": "生態服務"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-ECO-059"
+  ]
+}

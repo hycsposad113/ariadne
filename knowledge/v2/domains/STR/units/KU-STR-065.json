@@ -1,0 +1,82 @@
+{
+  "id": "KU-STR-065",
+  "domain": "STR",
+  "subtopic": "街道階層與功能",
+  "type": "value_range",
+  "title_zh": "荷蘭地方街的 30 km/h 速度脈絡",
+  "title_en": "30 km/h urban street context",
+  "summary_zh": "CROW 自行車與街道設計資料將地方街置於低速、多模式的設計脈絡中；本單元採 30 km/h 作為待核對的比較參照。速度值須與路權、幾何及交通管理一起讀。手冊章節和法規關係尚未核對，因此這不是對基地的法律建議。此速度參照不是本基地法規。",
+  "key_points_zh": [
+    "30 km/h 是地方街設計比較值，不是自動適用的限速。",
+    "行人穿越、沿街出入與服務車流會改變所需的速度管理。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "CROW 手冊的地方街設計速度參照需以正式版本交叉核對。",
+        "library_id": "CROW",
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+        "effect_or_value": "30 km/h",
+        "study_design": "設計手冊參數；章節與適用條件待核對",
+        "context_region": "荷蘭",
+        "locator": null
+      },
+      {
+        "claim_zh": "街道類型應連同交通角色與沿街活動比較，不能只依速度命名。",
+        "library_id": "MARSHALL05",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "都市街道型態分析",
+        "context_region": "跨地域",
+        "locator": null
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "地方街的交通寧靜參照速度",
+      "range": "30 km/h",
+      "unit": "km/h",
+      "context": "荷蘭都市地方街設計脈絡；用途：檢查地方街與穿越道路的速度策略；不是本基地法定速度。；「地方街的交通寧靜參照速度」僅供來源脈絡內的比較，不是本基地法規、M4H 門檻或通用配額。",
+      "library_id": "CROW"
+    }
+  ],
+  "design_implications_zh": [
+    "把 30 km/h 與路段角色、橫斷面及交叉口配置並列，並分清設計速度和當地法定限速。"
+  ],
+  "applies_when_zh": "當方案比較涉及地方街的交通寧靜時，可用 30 km/h 作為一個待驗設計情境，另核對正式法規與道路角色。",
+  "not_applicable_when_zh": "這個速度參照不能決定合法限速，也不能單獨證明街道安全；車流量、幾何和過街條件仍需本地評估。",
+  "debates_zh": "設計手冊速度與本地法定速度可能不同；同一數字套用於不同的道路層級會掩蓋實際風險。",
+  "sources": [
+    {
+      "library_id": "CROW",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "MARSHALL05",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "自行車設計實務與街道形態",
+  "region": "荷蘭都市地方街設計脈絡",
+  "curriculum_refs": [
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "街道階層與功能：課綱對應主題"
+    },
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "街道階層與功能：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-STR-004"
+  ]
+}

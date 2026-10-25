@@ -1,0 +1,71 @@
+{
+  "id": "KU-HAR-003",
+  "domain": "HAR",
+  "subtopic": "生產性城市",
+  "type": "concept",
+  "title_zh": "生產性城市要連回物質流與工作空間",
+  "title_en": "A productive city links material flows to working space",
+  "summary_zh": "Hesse 將城市物質流和供應鏈的空間關係作為研究主題，Notteboom 與 Rodrigue 則分析港口區域化與港口腹地網絡。兩種視角可用來檢查再生是否只保留景觀和消費功能，還是也容納維修、製造、物流及相關就業。這些書目範圍不代表每種產業都適合留在港區，也沒有給出通用的產業面積比例。規劃應把工作空間、污染管理、運輸和周邊住宅衝突一起比較。",
+  "key_points_zh": [
+    "生產活動與港區供應鏈具有空間依存關係。",
+    "產業保留與住宅相容性需依地方污染、運輸和就業資料判斷。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "library_id": "HESSE2010",
+        "claim_zh": "文章研究城市物質流及供應鏈地理的空間互動。",
+        "effect_or_value": "物質流與鏈結的概念分析",
+        "study_design": "城市系統及供應鏈研究",
+        "context_region": "跨區域城市網絡",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "library_id": "NOTTEBOOM2005",
+        "claim_zh": "港口區域化框架關注港口與腹地連接的發展階段。",
+        "effect_or_value": "港口—腹地關係的階段性概念",
+        "study_design": "港口發展概念研究",
+        "context_region": "跨地域港口網絡",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "在再生方案中繪製物流路徑、工作場所與公共空間衝突點。",
+    "以地方產業資料評估就業保留、污染防治和交通替代。"
+  ],
+  "applies_when_zh": "適用於工業區轉型、港區生產活動盤點及空間相容性討論。",
+  "not_applicable_when_zh": "不適用於預設工業必須全部保留或全部遷出的方案選擇。",
+  "debates_zh": "「生產性城市」可能指工作與製造的重新整合，也可能被用作城市品牌；需交代產業類別、工作品質與土地成本。",
+  "sources": [
+    {
+      "library_id": "HESSE2010",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "NOTTEBOOM2005",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "城市物質流與生產網絡",
+  "region": "跨地域港區與城市系統",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": null,
+      "topic": "生產性城市"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": null,
+      "topic": "都市產業與空間轉型"
+    }
+  ],
+  "version": "v2.0"
+}

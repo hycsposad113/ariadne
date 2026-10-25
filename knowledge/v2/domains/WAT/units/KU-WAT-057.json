@@ -1,0 +1,97 @@
+{
+  "id": "KU-WAT-057",
+  "domain": "WAT",
+  "subtopic": "洪水風險與多層安全",
+  "type": "value_range",
+  "title_zh": "多層安全以治理層次描述風險處置",
+  "title_en": "多層安全以治理層次描述風險處置",
+  "summary_zh": "荷蘭多層安全把防洪責任分成三個互補層次：降低洪水進入的機率、減少淹水後果的空間配置、以及災害應變與復原。National Water Programme 將堤防與河道能力放在預防層，並把水韌性規劃和疏散納入後兩層。三層是治理架構，並非保證零風險的工程容量。",
+  "key_points_zh": [
+    "不同層次處理風險鏈的不同位置。",
+    "治理責任和預算決定各層是否實際存在。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "library_id": "RIJKSWATERSTAAT_NWP2022",
+        "claim_zh": "荷蘭國家水計畫將洪水多層安全列為三層：預防、空間減災、災害應變與復原。",
+        "claim_verification": "OFFICIAL_PRIMARY_SOURCE_REVIEW",
+        "effect_or_value": "3",
+        "study_design": "政府政策文件",
+        "context_region": "荷蘭",
+        "locator": "NWP 2022 article, lines 16–22"
+      },
+      {
+        "library_id": "KLIJN2015",
+        "claim_zh": "書目確認本文題名聚焦「Adaptive flood risk management planning based on a comprehensive flood risk conceptualisation」；目前只完成作者、年份、題名與 DOI 核對，未將摘要或全文結論納入此記錄；本單元 KU-WAT-057 對照「荷蘭多層安全把防洪責任分成三個互補層次：降低洪水進入的機率、減少淹水後果的空間配置、以及災害應變與復原」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "方法或概念研究；目前僅核對書目範圍",
+        "context_region": "跨地域",
+        "locator": null
+      },
+      {
+        "library_id": "VANVLIET2015",
+        "claim_zh": "荷蘭多層安全框架將預防、空間調適和危機管理作為相互關聯的處置層次。",
+        "effect_or_value": "層數是概念結構而非工程性能值，也不是本基地法規。",
+        "study_design": "荷蘭區域治理研究",
+        "context_region": "荷蘭",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "在策略圖中為每層標明責任部門和失效後果。",
+    "不要把層數增加誤當成風險自動下降。"
+  ],
+  "applies_when_zh": "適用於洪水治理架構比較。",
+  "not_applicable_when_zh": "不適用於用概念層數代替防洪審查。",
+  "debates_zh": "不同層次由不同機構、資源和受益群體承擔；只強化第一層可能讓殘餘風險被低估。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "RIJKSWATERSTAAT_NWP2022",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "KLIJN2015",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "VANVLIET2015",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "多層安全治理",
+  "region": "荷蘭；美國都市規劃",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "洪水風險與多層安全"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Sustainable Futures by Design",
+      "topic": "洪水風險與多層安全"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0",
+  "values": [
+    {
+      "name": "荷蘭多層安全架構層數",
+      "range": "3",
+      "unit": "layers",
+      "context": "用途：以「荷蘭多層安全架構層數」作為來源情境參照；荷蘭 National Water Programme 將防洪分為預防、空間減災、應變與復原三層；政策框架；這不是本基地法規。",
+      "library_id": "RIJKSWATERSTAAT_NWP2022"
+    }
+  ]
+}

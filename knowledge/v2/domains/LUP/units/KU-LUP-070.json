@@ -1,0 +1,92 @@
+{
+  "id": "KU-LUP-070",
+  "domain": "LUP",
+  "subtopic": "15 分鐘城市與可及性",
+  "type": "value_range",
+  "title_zh": "小學步行服務距離情境帶",
+  "title_en": "Primary-school walking service-distance scenario",
+  "summary_zh": "按 3.0–4.8 km/h 計算，8–15 分鐘步行對應約 400–1,200 m 的理想距離。 這不是兒童的固定步速或招生區界線；學校容量、道路安全和學區制度都會改變實際可用性。 服務面應以兒童可安全使用的路徑和校門位置計算。",
+  "key_points_zh": [
+    "按 3.0–4.8 km/h 計算，8–15 分鐘步行對應約 400–1,200 m 的理想距離",
+    "這不是兒童的固定步速或招生區界線；學校容量、道路安全和學區制度都會改變實際可用性",
+    "服務面應以兒童可安全使用的路徑和校門位置計算"
+  ],
+  "evidence": {
+    "strength": "ASSUMED",
+    "findings": [
+      {
+        "claim_zh": "8–15 分鐘以3.0–4.8 km/h換算，理想距離為約 400–1,200 m；這是透明情境計算，非研究觀測出的通用服務標準。",
+        "effect_or_value": "約 400–1,200 m",
+        "study_design": "明示速度與時間的公式換算；非實證測量",
+        "context_region": "歐洲近鄰規劃比較情境",
+        "library_id": "NOWOROL2022",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "澳洲學校旅行研究將住家到校距離列為步行或騎乘的重要因素，同時呈現學生對距離的敏感度有異質性。",
+        "effect_or_value": null,
+        "study_design": "學生主動通學距離反應分析",
+        "context_region": "澳洲",
+        "library_id": "RASHIDI2025",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW",
+        "limitations_zh": "研究沒有採用本單元的 3.0–4.8 km/h 步行速度作換算。"
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "小學步行服務距離情境帶",
+      "range": "約 400–1,200 m",
+      "unit": "m",
+      "context": "歐洲近鄰規劃比較情境；用途：小學步行接觸範圍初篩；計算：3.0–4.8 km/h × 8–15 分鐘，僅為無停等、無繞行的直線情境，非文獻直接報告的數值；方法背景書目：NOWOROL2022；需改以路網與使用者條件核算，這不是本基地法規。",
+      "library_id": "NOWOROL2022"
+    }
+  ],
+  "design_implications_zh": [
+    "以可安全過街的兒童路網核算住所至校門時間，並把容量與學區分層列出。"
+  ],
+  "applies_when_zh": "用來比較小學步行服務情境；須分開呈現兒童路徑、學區與學校容量。",
+  "not_applicable_when_zh": "不能用平均距離推定入學權利，或假設每個家庭都有相同的接送資源。",
+  "debates_zh": "近距離學校若缺少安全路徑，仍可能造成家長接送與交通暴露。",
+  "sources": [
+    {
+      "library_id": "NOWOROL2022",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "RASHIDI2025",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "近鄰服務可及性",
+  "region": "歐洲近鄰規劃比較情境",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Planning Complex Cities",
+      "topic": "15 分鐘城市與可及性"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Cities by Design",
+      "topic": "15 分鐘城市與可及性"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "15 分鐘城市與可及性"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Sustainable Futures by Design",
+      "topic": "15 分鐘城市與可及性"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008"
+}

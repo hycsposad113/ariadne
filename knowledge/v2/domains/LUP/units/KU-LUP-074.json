@@ -1,0 +1,91 @@
+{
+  "id": "KU-LUP-074",
+  "domain": "LUP",
+  "subtopic": "用途配比與日夜活動",
+  "type": "value_range",
+  "title_zh": "混合土地使用住宅估值的荷蘭樣本結果",
+  "title_en": "Dutch residential-value estimate for mixed land use",
+  "summary_zh": "Koster 與 Rouwendal 的荷蘭住宅市場估計顯示，混合土地使用地區的住宅平均估值約高 2.5%。 摘要同時指出，估值差異依住宅型態而異，製造與批發活動可能被視為不相容。 這是特定市場樣本的價格關聯，不能轉成所有混合街區都適用的溢價。",
+  "key_points_zh": [
+    "荷蘭樣本中混合土地使用與約 2.5% 的住宅估值差異相關。",
+    "效果隨住宅型態而變；製造和批發用途不一定受到同樣偏好。",
+    "房價估計不是租金、可負擔性或因果效果的替代指標。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "荷蘭住宅樣本的半參數估計顯示，混合用途地區住宅平均估值約高 2.5%；偏好依住宅型態改變，製造與批發也可能被評為不相容。",
+        "effect_or_value": "平均估值約 +2.5%；偏好依型態而異",
+        "study_design": "半參數住宅價值估計；本單元只核對公開摘要",
+        "context_region": "荷蘭住宅市場",
+        "library_id": "KOSTER2012",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "布魯塞爾三個公共房地產案例顯示，住宅與生產活動共置要處理物流、共享空間與干擾；案例沒有提出通用樓地板比例。",
+        "effect_or_value": null,
+        "study_design": "三個公共房地產混合用途案例比較",
+        "context_region": "布魯塞爾，比利時",
+        "library_id": "RYCKEWAERT2021",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "混合土地使用住宅估值關聯",
+      "range": "平均估值約高 2.5%",
+      "unit": "相對於非混合用途住宅估值的百分比差異",
+      "context": "荷蘭住宅市場樣本；用途：比較混合街區住宅的估值關聯，不代表租金、居住品質或因果溢價；來源：KOSTER2012 公開摘要；偏好依住宅型態而異，這不是本基地法規。",
+      "library_id": "KOSTER2012"
+    }
+  ],
+  "design_implications_zh": [
+    "比較混合街區時，把住宅型態、周邊生產用途與成交估值分層，不以單一百分比推定配比。"
+  ],
+  "applies_when_zh": "當評估土地使用混合與住宅估值的關聯，且研究區域、房型分類和估值定義可與荷蘭樣本對照時使用。",
+  "not_applicable_when_zh": "若問題是租戶負擔、住宅供應或因果影響，這個平均估值差異不能直接回答。",
+  "debates_zh": "估值上升可能反映地點選擇或住宅品質，不能直接證明混合用途提升了所有住戶的福利。",
+  "sources": [
+    {
+      "library_id": "KOSTER2012",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "RYCKEWAERT2021",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "土地經濟與生產性混合用途",
+  "region": "荷蘭住宅市場；布魯塞爾案例補充",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Planning Complex Cities",
+      "topic": "用途配比與日夜活動"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Cities by Design",
+      "topic": "用途配比與日夜活動"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "用途配比與日夜活動"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Sustainable Futures by Design",
+      "topic": "用途配比與日夜活動"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "claim_verification": "ABSTRACT_REVIEW"
+}

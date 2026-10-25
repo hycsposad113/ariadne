@@ -1,0 +1,98 @@
+{
+  "id": "KU-MOR-015",
+  "domain": "MOR",
+  "subtopic": "Conzen 城鎮平面分析",
+  "type": "empirical_finding",
+  "title_zh": "路網密度能補足建築密度分群",
+  "title_en": "Density and network typology",
+  "summary_zh": "研究指出階層法不適合大型資料直接計算，需考慮與其他方法組合。 密度分類加入路網變數，並依資料規模檢查分群穩定性。 研究設計：兩種群集方法的分類比較；地區：摘要未具體列出案例城市。",
+  "key_points_zh": [
+    "FSI、GSI 加入路網密度後能同時辨認建築型態與街道模式；階層式分群在摘要所述測試中較有辨識力。",
+    "研究設計：兩種群集方法的分類比較；地區：摘要未具體列出案例城市",
+    "限制：研究指出階層法不適合大型資料直接計算，需考慮與其他方法組合。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "FSI、GSI 加入路網密度後能同時辨認建築型態與街道模式；階層式分群在摘要所述測試中較有辨識力。",
+        "effect_or_value": "三個分類變數；階層分群較能辨識街道與建築差異",
+        "study_design": "兩種群集方法的分類比較",
+        "context_region": "摘要未具體列出案例城市",
+        "library_id": "BERGHAUSERPONT2017",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "密度分類加入路網變數，並依資料規模檢查分群穩定性。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "密度分類加入路網變數，並依資料規模檢查分群穩定性。",
+      "tradeoff_zh": "此選項把「路網密度能補足建築密度分群」的工作放在FSI、GSI 加入路網密度後能同時辨認建築型態與街道模式；階層式分群在摘要所述測試中較有辨識力上；需要承擔的協調或維護代價則由「研究指出階層法不適合大型資料直接計算，需考慮與其他方法組合」界定。",
+      "library_ids": [
+        "BERGHAUSERPONT2017",
+        "KROPF2017"
+      ]
+    },
+    {
+      "option_zh": "「路網密度能補足建築密度分群」可把取向落在核心區、擴張區與邊緣帶可呈現不同的形態慣性和更新節奏，但需連同FSI、GSI 加入路網密度後能同時辨認建築型態與街道模式；階層式分群在摘要所述測試中較有辨識力決定適用方式。",
+      "tradeoff_zh": "此選項把「路網密度能補足建築密度分群」的工作放在FSI、GSI 加入路網密度後能同時辨認建築型態與街道模式；階層式分群在摘要所述測試中較有辨識力上；需要承擔的協調或維護代價則由「研究指出階層法不適合大型資料直接計算，需考慮與其他方法組合」界定。",
+      "library_ids": [
+        "BERGHAUSERPONT2017",
+        "KROPF2017"
+      ]
+    }
+  ],
+  "applies_when_zh": "用於與摘要未具體列出案例城市研究情境可比、且量測定義相近的分析。",
+  "not_applicable_when_zh": "研究指出階層法不適合大型資料直接計算，需考慮與其他方法組合。",
+  "debates_zh": "研究指出階層法不適合大型資料直接計算，需考慮與其他方法組合。",
+  "sources": [
+    {
+      "library_id": "BERGHAUSERPONT2017",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "KROPF2017",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "荷蘭量化形態學／Spacematrix 延伸；城市形態學",
+  "region": "摘要未列案例城市；跨地域形態學",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "Conzen 城鎮平面分析"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "Conzen 城鎮平面分析"
+    },
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.330J Theory of City Form",
+      "topic": "Conzen 城鎮平面分析"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban form and density",
+      "topic": "Conzen 城鎮平面分析"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-MOR-009",
+    "KU-MOR-010",
+    "KU-MOR-011"
+  ],
+  "counter_unit_ids": [
+    "KU-MOR-013"
+  ]
+}

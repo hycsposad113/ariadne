@@ -1,0 +1,107 @@
+{
+  "id": "KU-MOR-025",
+  "domain": "MOR",
+  "subtopic": "Spacematrix：FSI、GSI、OSR、L",
+  "type": "design_principle",
+  "title_zh": "Spacematrix：FSI、GSI、OSR、L｜設計原則",
+  "title_en": "Spacematrix metrics — Design principle",
+  "summary_zh": "研究整理多尺度建築形態指標並建置可擴充資料流程，重點是改善跨城比較與重現性，不宣稱單一最佳形態。 未明確建築、開放空間和地下空間計入方式時不可橫向比較。 讀「Spacematrix：FSI、GSI、OSR、L｜設計原則」時，同時呈現 FSI、GSI、OSR、層數及計算範圍；同時把研究以 FSI、GSI 和路網密度分類建成環境；摘要認為階層群集較能辨認建築與街道差異，但大型資料需混合方法列為核對條件。",
+  "key_points_zh": [
+    "讀「Spacematrix：FSI、GSI、OSR、L｜設計原則」時，同時呈現 FSI、GSI、OSR、層數及計算範圍；同時把研究以 FSI、GSI 和路網密度分類建成環境；摘要認為階層群集較能辨認建築與街道差異，但大型資料需混合方法列為核對條件。",
+    "讀「Spacematrix：FSI、GSI、OSR、L｜設計原則」時，同時呈現 FSI、GSI、OSR、層數及計算範圍；同時把研究以 FSI、GSI 和路網密度分類建成環境；摘要認為階層群集較能辨認建築與街道差異，但大型資料需混合方法列為核對條件。",
+    "限制：未明確建築、開放空間和地下空間計入方式時不可橫向比較。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "研究以 FSI、GSI 和路網密度分類建成環境；摘要認為階層群集較能辨認建築與街道差異，但大型資料需混合方法。",
+        "library_id": "BERGHAUSERPONT2017",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "摘要未列案例城市",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "Berghauser Pont 與 Olsson 用 FSI、GSI 和路網密度建立類型，摘要指出階層分群較能辨出建築與街道差異；這是特定分類結果，不是固定型態標準。",
+        "library_id": "BILJECKI2022",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "全球多城市資料",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "落實「Spacematrix：FSI、GSI、OSR、L｜設計原則」時可先同時呈現 FSI、GSI、OSR、層數及計算範圍，再用研究以 FSI、GSI 和路網密度分類建成環境；摘要認為階層群集較能辨認建築與街道差異，但大型資料需混合方法核對方案的空間後果。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "「Spacematrix：FSI、GSI、OSR、L｜設計原則」可把取向落在同時呈現 FSI、GSI、OSR、層數及計算範圍，但需連同研究以 FSI、GSI 和路網密度分類建成環境；摘要認為階層群集較能辨認建築與街道差異，但大型資料需混合方法決定適用方式。",
+      "tradeoff_zh": "「Spacematrix：FSI、GSI、OSR、L｜設計原則」的主要代價不是抽象的建造成本，而是指標易受分母、用途計入和街區邊界影響；數字相同不等於形式相同；因此先以研究以 FSI、GSI 和路網密度分類建成環境；摘要認為階層群集較能辨認建築與街道差異，但大型資料需混合方法作方案比較條件。",
+      "library_ids": [
+        "BERGHAUSERPONT2017",
+        "BILJECKI2022"
+      ]
+    },
+    {
+      "option_zh": "「Spacematrix：FSI、GSI、OSR、L｜設計原則」可把取向落在相近 FSI 可以由低矮高覆蓋或高樓低覆蓋組成，街道體驗並不相同，但需連同研究以 FSI、GSI 和路網密度分類建成環境；摘要認為階層群集較能辨認建築與街道差異，但大型資料需混合方法決定適用方式。",
+      "tradeoff_zh": "此選項把「Spacematrix：FSI、GSI、OSR、L｜設計原則」的工作放在研究以 FSI、GSI 和路網密度分類建成環境；摘要認為階層群集較能辨認建築與街道差異，但大型資料需混合方法上；需要承擔的協調或維護代價則由「指標易受分母、用途計入和街區邊界影響；數字相同不等於形式相同」界定。",
+      "library_ids": [
+        "BERGHAUSERPONT2017",
+        "BILJECKI2022"
+      ]
+    }
+  ],
+  "applies_when_zh": "「Spacematrix：FSI、GSI、OSR、L｜設計原則」可在適用於比較住宅街區、更新區和形態情境時使用，前提是研究以 FSI、GSI 和路網密度分類建成環境；摘要認為階層群集較能辨認建築與街道差異，但大型資料需混合方法與來源情境相符。",
+  "not_applicable_when_zh": "若研究以 FSI、GSI 和路網密度分類建成環境；摘要認為階層群集較能辨認建築與街道差異，但大型資料需混合方法不成立，就不能把「Spacematrix：FSI、GSI、OSR、L｜設計原則」的結論延伸到其他情況；未明確建築、開放空間和地下空間計入方式時不可橫向比較。",
+  "debates_zh": "指標易受分母、用途計入和街區邊界影響；數字相同不等於形式相同。",
+  "sources": [
+    {
+      "library_id": "BERGHAUSERPONT2017",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "BILJECKI2022",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "荷蘭量化形態學／Spacematrix 延伸；城市資料科學／形態指標",
+  "region": "摘要未列案例城市；全球多城市資料",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "Spacematrix：FSI、GSI、OSR、L"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "Spacematrix：FSI、GSI、OSR、L"
+    },
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.330J Theory of City Form",
+      "topic": "Spacematrix：FSI、GSI、OSR、L"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban form and density",
+      "topic": "Spacematrix：FSI、GSI、OSR、L"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-MOR-023",
+    "KU-MOR-024",
+    "KU-MOR-026"
+  ],
+  "counter_unit_ids": [
+    "KU-MOR-027"
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "KU-MOR-067",
+  "domain": "MOR",
+  "subtopic": "地塊、街廓與建築類型",
+  "type": "value_range",
+  "title_zh": "芝加哥市中心常見街廓模數",
+  "title_en": "Chicago grid block module",
+  "summary_zh": "芝加哥傳統網格的長方形模數應以道路中心線和路權邊界實際量測，並排除河道、鐵路與超級街廓。Sevtsuk 等人比較美國及澳洲網格的尺寸與步行可及性，提供形態變數的分析框架，但其 Crossref 摘要沒有列出芝加哥的 330 × 660 ft 數值。",
+  "key_points_zh": [
+    "芝加哥傳統網格常見約 330 × 660 ft 街廓，換算約 100 × 200 m，呈明顯長方形。",
+    "網格尺度只描述公共路權之間的距離，不包含大型鐵路、河道或超級街廓的中斷。",
+    "以長短邊分別評估入口分布與穿越距離，不要把面積相近的方格視為同一空間型態。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "Sevtsuk 等人以美國與澳洲原始城市網格和模擬網格分析街廓、地塊與街道尺寸；摘要支持形態尺寸比較，但未確認芝加哥 330 × 660 ft 模數。",
+        "library_id": "SEVTSUK2016",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "美國與澳洲網格案例",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "芝加哥市中心常見街廓模數",
+      "range": "約 100 × 200",
+      "unit": "m",
+      "context": "芝加哥，伊利諾州，美國；用途：傳統網格街廓的形態比較；100 × 200 m 是保留的工作範圍，尚待依芝加哥街網圖面量測；不是本基地法規。",
+      "library_id": "SEVTSUK2016"
+    }
+  ],
+  "design_implications_zh": [
+    "對芝加哥典型網格抽樣街廓，分別量短邊、長邊、街道寬度和步行穿越點。"
+  ],
+  "applies_when_zh": "用於比較芝加哥，伊利諾州的傳統網格街廓的典型模數，並明示此數值的來源、年份和面積分母。",
+  "not_applicable_when_zh": "網格尺度只描述公共路權之間的距離，不包含大型鐵路、河道或超級街廓的中斷。",
+  "debates_zh": "規整街網容易辨讀，長矩形街廓仍可能使橫向行程變長。",
+  "sources": [
+    {
+      "library_id": "SEVTSUK2016",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "SINGLE_SOURCE",
+  "tradition": "街道形態",
+  "region": "芝加哥，伊利諾州",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "地塊、街廓與建築類型"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "地塊、街廓與建築類型"
+    },
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.330J Theory of City Form",
+      "topic": "地塊、街廓與建築類型"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban form and density",
+      "topic": "地塊、街廓與建築類型"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008"
+}

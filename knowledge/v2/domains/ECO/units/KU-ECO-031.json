@@ -1,0 +1,75 @@
+{
+  "id": "KU-ECO-031",
+  "domain": "ECO",
+  "subtopic": "物種友善設計",
+  "type": "value_range",
+  "title_zh": "都市鳥類與非都市參照比例",
+  "title_en": "Urban-native bird density estimate",
+  "summary_zh": "全球比較估計城市內本地鳥類密度約為非都市估計的百分之八。這個比例呈現城市化壓力的量級，而非所有城市或所有鳥種的固定差值。樣本分布和監測方法限制地域比較。平均密度無法反映某些適應型或遷徙物種的表現。",
+  "key_points_zh": [
+    "全球比較估計城市內本地鳥類密度約為非都市估計的百分之八",
+    "這個比例呈現城市化壓力的量級，而非所有城市或所有鳥種的固定差值"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "全球比較估計城市內本地鳥類密度約為非都市估計的百分之八。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "美國",
+        "library_id": "LOW05",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "平均密度無法反映某些適應型或遷徙物種的表現。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "將全球綜合數據當成問題背景，建立本地鳥類調查基準。"
+  ],
+  "applies_when_zh": "適用於理解都市保育的尺度。",
+  "not_applicable_when_zh": "不應作為個別公園的保育成效目標。",
+  "debates_zh": "平均密度無法反映某些適應型或遷徙物種的表現。",
+  "sources": [
+    {
+      "library_id": "LOW05",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "WHYTE80",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "公共空間文化多樣性",
+  "region": "美國",
+  "curriculum_refs": [
+    {
+      "school": "UCL Bartlett",
+      "course": "Critical Debates in Urban Design",
+      "topic": "物種友善設計"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "物種友善設計"
+    }
+  ],
+  "version": "2.0.0",
+  "values": [
+    {
+      "name": "都市鳥類與非都市參照比例",
+      "range": "約 8%",
+      "unit": "非都市參照比例",
+      "context": "全球城市鳥類資料的本地物種密度估計；不代表任何基地法規或目標值。；「都市鳥類與非都市參照比例」僅供其研究脈絡內比較，不構成本基地法規。",
+      "library_id": "ARONSON14"
+    }
+  ],
+  "related_unit_ids": [
+    "KU-ECO-030",
+    "KU-ECO-032"
+  ]
+}

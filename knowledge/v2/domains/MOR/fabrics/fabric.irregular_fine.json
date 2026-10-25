@@ -1,0 +1,367 @@
+{
+  "id": "fabric.irregular_fine",
+  "names": {
+    "zh": "不規則細網紋理",
+    "en": "Irregular Fine Grain"
+  },
+  "concept_zh": "不規則細網以短街段、細地塊、多方向步行路徑和局部轉折形成緊密但不必正交的都市紋理。其方向可回應風向、日照、既有建築或小尺度地形，街角和巷道提供多條替代路線；防風效果不能由平面幾何直接保證，必須以基地風環境分析檢驗。現有 Bo01 先例資料是較大的 Västra Hamnen 研究窗，不是 Bo01 專區量測。",
+  "when_to_use_zh": "適用於基地需保留多方向細粒步行連接、既有地塊與建築密集，或可依風、日照和地形逐段調整街道方向的情境；適合作為局部細網覆蓋，而非全基地無層級的迷宮。",
+  "when_not_to_use_zh": "若大型物流、消防或公共運輸要求清楚的大跨距通道，不能讓細巷取代主街；坡地、污染地或權屬複雜時也不應以不規則線條掩蓋不可達區。Bo01 的微氣候策略不可直接推定在不同風場與街廓尺度中同樣有效。",
+  "height_cap_adaptation_zh": "20 m 高度上限下沿地形、保留建築與既有街巷分段調整，量體大致控制在 4–5 層；在轉折、窄街和高差邊退台或降層。樓層數須依地形量測、首層用途、樓層高度和實際法規校核。（本基地首層 4 m、標準層 3.5 m：5 層＝18 m 為上限，6 層＝21.5 m 會超過 20 m）",
+  "street_network": {
+    "pattern": "irregular_fine",
+    "orientation_rule_zh": "保留一至兩條方向清楚的外圍連接街，內部巷道才依既有建築、日照、風環境分析及地形逐段偏轉；避免所有街段都指向同一風口或形成無法辨識的盲巷。",
+    "street_width_building_gap_proxy_m": {
+      "p25": 31.93,
+      "median": 48.97,
+      "p75": 59.21,
+      "unit": "m",
+      "status": "MEASURED_PRECEDENT_PROXY",
+      "basis_zh": "弗萊堡沃邦 的建築外牆最近點間距：P25 31.93 m、中位數 48.97 m、P75 59.21 m（KU-MOR-094）。數值含建築退縮，是外牆間距代理，不是法定路權、車道淨寬或道路斷面；道路幾何仍需另測。",
+      "ku_ids": [
+        "KU-MOR-094"
+      ]
+    },
+    "hierarchy": [
+      {
+        "name_zh": "外圍集散街",
+        "section_width_m": {
+          "minimum": 12,
+          "maximum": 18,
+          "unit": "m"
+        },
+        "modes": [
+          "步行",
+          "自行車",
+          "汽車",
+          "服務"
+        ],
+        "spacing_m": {
+          "minimum": 120,
+          "maximum": 200,
+          "unit": "m"
+        },
+        "status": "EDITORIAL",
+        "basis_zh": "Västra Hamnen 研究窗未提供法定路幅或街網間距；此包絡保留集散和消防通行骨架。"
+      },
+      {
+        "name_zh": "細粒生活街",
+        "section_width_m": {
+          "minimum": 8,
+          "maximum": 12,
+          "unit": "m"
+        },
+        "modes": [
+          "步行",
+          "自行車",
+          "服務"
+        ],
+        "spacing_m": {
+          "minimum": 50,
+          "maximum": 90,
+          "unit": "m"
+        },
+        "status": "EDITORIAL",
+        "basis_zh": "KB4 沒有 Bo01 專區中心線間距；此設計範圍讓街道轉折仍有多重連接。"
+      },
+      {
+        "name_zh": "步行窄巷",
+        "section_width_m": {
+          "minimum": 4,
+          "maximum": 7,
+          "unit": "m"
+        },
+        "modes": [
+          "步行",
+          "自行車"
+        ],
+        "spacing_m": {
+          "minimum": 20,
+          "maximum": 50,
+          "unit": "m"
+        },
+        "status": "EDITORIAL",
+        "basis_zh": "窄巷寬度及密度均未由先例量測；路徑須連續可見，不能作為消防或必要服務的唯一通道。"
+      }
+    ],
+    "connection_rule_zh": "讓至少兩條外圍集散街接上既有道路，內部巷道形成環狀或多路徑連通，不以盲端取代路網；在基地入口標出自行車、步行、服務及消防動線，並確保主要入口可辨識。"
+  },
+  "blocks": {
+    "short_edge_m": {
+      "minimum": 35,
+      "maximum": 70,
+      "unit": "m",
+      "basis": {
+        "status": "EDITORIAL",
+        "note_zh": "維持 EDITORIAL：Västra Hamnen 廣域研究窗不是 Bo01 專區且完整街廓 n=1；面積中位數 24,734.55 m²÷邊長 P75 72.45 m 得 341.4 m，超出 P25–P75（9.48–72.45 m）。Vauban n=6 的候選值 37.7×87.0 m 雖通過四分位檢查，但僅是細粒街網對照，不是同類不規則紋理先例。資料不足以推定此類軸長；35–70×45–100 m 僅保留原 EDITORIAL 起稿包絡。",
+        "ku_ids": [
+          "KU-MOR-091",
+          "KU-MOR-094"
+        ]
+      }
+    },
+    "long_edge_m": {
+      "minimum": 45,
+      "maximum": 100,
+      "unit": "m",
+      "basis": {
+        "status": "EDITORIAL",
+        "note_zh": "維持 EDITORIAL：Västra Hamnen 廣域研究窗不是 Bo01 專區且完整街廓 n=1；面積中位數 24,734.55 m²÷邊長 P75 72.45 m 得 341.4 m，超出 P25–P75（9.48–72.45 m）。Vauban n=6 的候選值 37.7×87.0 m 雖通過四分位檢查，但僅是細粒街網對照，不是同類不規則紋理先例。資料不足以推定此類軸長；35–70×45–100 m 僅保留原 EDITORIAL 起稿包絡。",
+        "ku_ids": [
+          "KU-MOR-091",
+          "KU-MOR-094"
+        ]
+      }
+    },
+    "shape_rule_zh": "沿既有邊界和主要風向分析結果畫多邊形街廓，保留清楚的外圍街道；街角轉折可以鈍化或切角，禁止用尖角量體填滿不規則殘地。每一個短街段需通向另一條街或公共空間。",
+    "plot_subdivision_zh": "一般小型住宅地塊以 5–10 m 面寬作 EDITORIAL 起稿，沿路口逐段分割；較深地塊用側巷提供第二入口，保留可合併宗地的界線。該範圍不是 Bo01 專區地籍測量或地方規範。"
+  },
+  "building_composition": {
+    "components": [
+      {
+        "part_id": "block.rowhouse_strip",
+        "recommended_share_percent": 35,
+        "share_denominator_zh": "以候選街廓數為分母；細粒連棟街廓起稿建議。",
+        "basis_zh": "細粒街巷需要短街段和小地塊；Västra Hamnen 廣域窗非 Bo01 且僅 n=1，故此值是策略而非類型測值。"
+      },
+      {
+        "part_id": "block.open",
+        "recommended_share_percent": 45,
+        "share_denominator_zh": "以候選街廓數為分母；錯列、開放或不完整街牆建議份額。",
+        "basis_zh": "不規則網需多向接合和局部開口；先例不足以量化 open 街廓占比，45% 是設計理由。"
+      },
+      {
+        "part_id": "building.rowhouse",
+        "recommended_share_percent": 35,
+        "share_denominator_zh": "以臨街地塊數為分母；細面寬住宅單元起稿配置。",
+        "basis_zh": "小宗地可支援多入口和逐段調整；KB4 無地籍面寬或 rowhouse footprint 統計，此值為細粒配置建議。"
+      },
+      {
+        "part_id": "building.point_array",
+        "recommended_share_percent": 20,
+        "share_denominator_zh": "以建築地面足跡面積為分母；局部點式量體配置。",
+        "basis_zh": "保留樹群、視線或高差時可用少量點式量體；Västra Hamnen 的 n=1 板樓樣本不支持 point_array 占比，此值為設計理由。"
+      },
+      {
+        "part_id": "building.i_slab",
+        "recommended_share_percent": 15,
+        "share_denominator_zh": "以建築地面足跡面積為分母；短板樓補充配置。",
+        "basis_zh": "Västra Hamnen 廣域窗 n=1 分類為板樓且不等同 Bo01；僅保留低比例候選，不宣稱是此紋理實測主導。"
+      }
+    ],
+    "height_profile_zh": "細巷兩側以低至中層量體維持日常尺度，外圍集散街和節點可略高；面向開敞區的量體錯列以留出視線和風路。任何防風意圖須由風環境分析確認，不以錯列形式替代計算。"
+  },
+  "open_space_system": {
+    "types": [
+      "space.shared_street",
+      "space.pocket_park",
+      "space.courtyard"
+    ],
+    "configuration_rule_zh": "將小廣場、口袋公園和院落節點串入細街網，讓每一處都接到至少兩條步行路徑；建築退縮空地只有在有入口、用途和維護責任時才列入開放空間。",
+    "site_area_share_percent": {
+      "minimum": 13,
+      "maximum": 30,
+      "status": "EDITORIAL",
+      "basis_zh": "Västra Hamnen 研究窗沒有 Bo01 專區開放空間分類；此範圍是細粒街區的概念預算，必須按同一基地分母重新量測。"
+    }
+  },
+  "edges": [
+    {
+      "type": "waterfront",
+      "rule_zh": "臨水時先區分可達岸、堤防和封閉碼頭；把至少一條巷道接到合法可達岸段，並在風場不利處保留替代內部路徑。"
+    },
+    {
+      "type": "large_park",
+      "rule_zh": "細巷接到大型公園的多個可見入口，街廓邊界避免形成連續背牆；公園內部的通行和維護責任另行標記。"
+    },
+    {
+      "type": "topographic_edge",
+      "rule_zh": "每個方向轉折都檢查坡度與排水；高差處用連續坡道、階梯和可達替代路線，不以小巷名義產生不可通行死角。"
+    },
+    {
+      "type": "retained_building",
+      "rule_zh": "保留建築和既有入口作為細網轉折節點；先按實測 footprint 固定，再讓巷道繞接，不把保留量體周邊空地留成無用途縫隙。"
+    },
+    {
+      "type": "existing_city_road",
+      "rule_zh": "至少兩個邊界入口接上既有街道，轉折巷道保持視線與方向提示；不要把不規則內街藏在封閉基地內。"
+    }
+  ],
+  "density_targets": {
+    "GSI": {
+      "range": {
+        "minimum": 0.22,
+        "maximum": 0.3
+      },
+      "unit": "dimensionless",
+      "basis": "KU-MOR-091 Västra Hamnen 大範圍研究窗 GSI 0.2601 作為參照中心；Bo01 未獨立切窗，因此本值是 EDITORIAL 區間，不是 Bo01 實測範圍。",
+      "status": "EDITORIAL"
+    },
+    "FSI": {
+      "range": {
+        "minimum": 0.8,
+        "maximum": 1.6
+      },
+      "unit": "dimensionless",
+      "basis": "KU-MOR-091 的 FSI 0.5159 是高度缺值下限且不可比較；此 EDITORIAL 區間只作生成校準假設，必須由完整高度資料重算。",
+      "status": "EDITORIAL"
+    },
+    "L": {
+      "range": {
+        "minimum": 3,
+        "maximum": 7
+      },
+      "unit": "storeys",
+      "basis": "沒有可比的 Bo01 專區足跡加權層數；此 EDITORIAL 區間是細粒低至中層量體的待驗假設，不是高度規範。",
+      "status": "EDITORIAL"
+    },
+    "OSR": {
+      "range": {
+        "minimum": 0.45,
+        "maximum": 1.0
+      },
+      "unit": "dimensionless",
+      "basis": "FSI 參照不可比，故 OSR 不由 KU-MOR-091 推算；此 EDITORIAL 範圍須待一致的地面開放空間及高度資料校準。",
+      "status": "EDITORIAL"
+    }
+  },
+  "drawing_steps": [
+    {
+      "order": 1,
+      "action_zh": "描出既有建築、宗地、樹木、日照條件、地形與基地外部街道；把已確認的風場資料和未確認的風向假設分開標示。"
+    },
+    {
+      "order": 2,
+      "action_zh": "先畫兩條可辨識的外圍集散街，再從入口向內布置多方向短街段，不讓巷道全部匯入單一盲端。"
+    },
+    {
+      "order": 3,
+      "action_zh": "按 12–18 m 外圍街、8–12 m 生活街、4–7 m 步行巷的 EDITORIAL 斷面分層標示交通方式。"
+    },
+    {
+      "order": 4,
+      "action_zh": "以 35–70 m 短邊、45–100 m 長邊的 EDITORIAL 包絡切細街廓，逐段檢查轉角與路徑連通。"
+    },
+    {
+      "order": 5,
+      "action_zh": "以 5–10 m 起稿面寬切小地塊，標明可合併宗地、側巷入口與需保留的既有界線。"
+    },
+    {
+      "order": 6,
+      "action_zh": "用低中層住宅、少量點式量體和開放街廓配置細粒建築；先確定入口、街角和風路，再補量體。"
+    },
+    {
+      "order": 7,
+      "action_zh": "將口袋公園、院落和共享街放在網絡節點，逐一連接至少兩條步行路徑並標記維護責任。"
+    },
+    {
+      "order": 8,
+      "action_zh": "計算 GSI、FSI、L、OSR 並與 KU-MOR-091 的資料限制並列；沒有 Bo01 專區或完整高度資料時維持 EDITORIAL 標記。"
+    }
+  ],
+  "land_use_budget": {
+    "roads": {
+      "minimum": 18,
+      "maximum": 24,
+      "unit": "percent_site_area",
+      "status": "EDITORIAL",
+      "basis_zh": "細網道路預算未由 KB4 幾何資料分類統計。"
+    },
+    "blocks": {
+      "minimum": 42,
+      "maximum": 52,
+      "unit": "percent_site_area",
+      "status": "EDITORIAL",
+      "basis_zh": "街廓面積比例是草圖假設，須由地籍和建築 footprint 重新核算。"
+    },
+    "parks": {
+      "minimum": 10,
+      "maximum": 16,
+      "unit": "percent_site_area",
+      "status": "EDITORIAL",
+      "basis_zh": "口袋公園與綠地比例沒有 Bo01 專區量測，需按維護與服務需求確認。"
+    },
+    "plazas": {
+      "minimum": 3,
+      "maximum": 6,
+      "unit": "percent_site_area",
+      "status": "EDITORIAL",
+      "basis_zh": "街角廣場預算供節點配置，不能和公園或道路重複計算。"
+    },
+    "waterfront": {
+      "minimum": 0,
+      "maximum": 8,
+      "unit": "percent_site_area",
+      "status": "EDITORIAL",
+      "basis_zh": "僅計基地陸地內合法可達的水岸公共帶。"
+    },
+    "service": {
+      "minimum": 4,
+      "maximum": 8,
+      "unit": "percent_site_area",
+      "status": "EDITORIAL",
+      "basis_zh": "服務用地按消防、垃圾及維護通路另行校核，細巷不必然能承擔服務功能。"
+    }
+  },
+  "common_errors_zh": [
+    "把未確認的主導風向當成已量測風場，直接宣稱量體能擋風。",
+    "細巷形成盲端，沒有替代路徑或清楚的入口辨識。",
+    "以不規則殘地內縮後產生尖角量體。",
+    "把 Västra Hamnen 整體研究窗誤稱為 Bo01 專區實測。",
+    "街道轉折破壞消防、無障礙或日常服務連續性。",
+    "留下沒有用途、入口或維護責任的未配置土地。"
+  ],
+  "precedents": [
+    {
+      "name_zh": "西港區 Västra Hamnen（非 Bo01 專區研究窗）",
+      "ku_id": "KU-MOR-091",
+      "measurements": [
+        {
+          "metric": "GSI",
+          "value": 0.2601,
+          "unit": "dimensionless",
+          "status": "MEASURED_PRECEDENT",
+          "limitation_zh": "測量窗涵蓋西港區而非 Bo01 專區，完整街廓樣本僅 1 個。"
+        },
+        {
+          "metric": "FSI",
+          "value": 0.5159,
+          "unit": "dimensionless",
+          "status": "LOWER_BOUND_NONCOMPARABLE",
+          "limitation_zh": "高度覆蓋不足的已知樓地板面積下限，不作密度範圍。"
+        }
+      ],
+      "borrow_zh": "借用在海岸環境中分開檢查外圍街道、細街巷及量體迎風面的設計問題。",
+      "do_not_borrow_zh": "不宣稱其量測專屬 Bo01，也不把 GSI、FSI 下限當作 Bo01 指標或防風成效。"
+    },
+    {
+      "name_zh": "弗萊堡沃邦（細粒街道對照，不等同不規則紋理）",
+      "ku_id": "KU-MOR-094",
+      "measurements": [
+        {
+          "metric": "GSI",
+          "value": 0.2203,
+          "unit": "dimensionless",
+          "status": "MEASURED_PRECEDENT",
+          "limitation_zh": "研究窗 GSI；案例用途和路網不能直接代表 Malmö。"
+        },
+        {
+          "metric": "FSI",
+          "value": 0.7623,
+          "unit": "dimensionless",
+          "status": "MEASURED_PRECEDENT",
+          "limitation_zh": "可比較已知樓地板面積下限，不是低層紋理的通用值。"
+        }
+      ],
+      "borrow_zh": "借用把外圍道路、主街、住宅支路和慢行路徑分層後再檢查連通的程序。",
+      "do_not_borrow_zh": "不將 Vauban 分類為 Bo01 式不規則網，也不從其密度值推導本條的目標範圍。"
+    }
+  ],
+  "sources": [
+    "OSM_KB4_PRECEDENTS",
+    "BILJECKI2022",
+    "JOHANSSON2020MALMO",
+    "COATES2013",
+    "IJBURG1998_HOAD"
+  ]
+}

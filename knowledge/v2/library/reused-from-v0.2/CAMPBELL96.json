@@ -1,0 +1,43 @@
+{
+  "id": "CAMPBELL96",
+  "title": "Green Cities, Growing Cities, Just Cities?: Urban Planning and the Contradictions of Sustainable Development",
+  "authors": [
+    "Scott Campbell"
+  ],
+  "year": 1996,
+  "venue_or_publisher": "Journal of the American Planning Association",
+  "doi": "10.1080/01944369608975696",
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "永續規劃批評",
+  "region": [
+    "跨地域"
+  ],
+  "method": "理論",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "成長、公平及環境目標可能相互衝突；方案應呈現代價而不是宣稱全面改善。",
+      "strength": "THEORETICAL",
+      "scope_zh": "僅限本研究或概念框架；不提供 M4H 的實測、法律效力或本卡試算門檻。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref",
+    "query": {
+      "title": "Green Cities, Growing Cities, Just Cities?: Urban Planning and the Contradictions of Sustainable Development",
+      "author": "Scott Campbell",
+      "year": 1996
+    },
+    "matched_record_id": "10.1080/01944369608975696",
+    "checked_at_utc": "2026-10-08T09:12:32Z",
+    "match_notes_zh": "本任務重新以允許的公開書目 API 核對書名、作者與出版年；只確認書目，不代表全文主張已核實。"
+  },
+  "limitations_zh": "僅核對公開書目及可得摘要，未下載全文；書目驗證不代表全文因果或所有主張均已確認。",
+  "critique_relationship_zh": "known_critiques 是編者指定的批評或替代閱讀，不宣稱實際互引或逐一反駁；Ratti 與 Hillier／Penn 的標題記錄確認明確對話。",
+  "metadata_licence_zh": "保存書目欄位和自行撰寫的來源說明；未保存 API 摘要或全文，資料服務授權細節未由本任務判定。"
+}

@@ -1,0 +1,98 @@
+{
+  "id": "KU-LUP-059",
+  "domain": "LUP",
+  "subtopic": "商業與零售區位",
+  "type": "empirical_finding",
+  "title_zh": "街道格局可能先形成通行，再被零售放大",
+  "title_en": "Natural movement and retail",
+  "summary_zh": "作者論證是配置理論，不能推成所有商業都由路網決定。 區位診斷同時測量路網和現有吸引點。 研究設計：街道配置與行人移動的都市案例研究；地區：倫敦及空間語法案例。 限制：作者論證是配置理論，不能推成所有商業都由路網決定。",
+  "key_points_zh": [
+    "倫敦街道研究提出，網絡配置可先形成通行機會，零售活動再利用並放大既有通行模式。",
+    "研究設計：街道配置與行人移動的都市案例研究；地區：倫敦及空間語法案例",
+    "限制：作者論證是配置理論，不能推成所有商業都由路網決定。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "倫敦街道研究提出，網絡配置可先形成通行機會，零售活動再利用並放大既有通行模式。",
+        "effect_or_value": "整合度與行人移動的關聯在研究中較重要，零售可能作乘數",
+        "study_design": "街道配置與行人移動的都市案例研究",
+        "context_region": "倫敦及空間語法案例",
+        "library_id": "HILLIER93",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "區位診斷同時測量路網和現有吸引點。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "區位診斷同時測量路網和現有吸引點。",
+      "tradeoff_zh": "此選項把「街道格局可能先形成通行，再被零售放大」的工作放在倫敦街道研究提出，網絡配置可先形成通行機會，零售活動再利用並放大既有通行模式上；需要承擔的協調或維護代價則由「作者論證是配置理論，不能推成所有商業都由路網決定」界定。",
+      "library_ids": [
+        "HILLIER93",
+        "CHRISTALLER1966"
+      ]
+    },
+    {
+      "option_zh": "在「街道格局可能先形成通行，再被零售放大」的來源情境裡，便利商品、專門商品和目的型商業會形成不同空間服務範圍；落到設計時還要按倫敦街道研究提出，網絡配置可先形成通行機會，零售活動再利用並放大既有通行模式調整。",
+      "tradeoff_zh": "此選項把「街道格局可能先形成通行，再被零售放大」的工作放在倫敦街道研究提出，網絡配置可先形成通行機會，零售活動再利用並放大既有通行模式上；需要承擔的協調或維護代價則由「作者論證是配置理論，不能推成所有商業都由路網決定」界定。",
+      "library_ids": [
+        "HILLIER93",
+        "CHRISTALLER1966"
+      ]
+    }
+  ],
+  "applies_when_zh": "用於與倫敦及空間語法案例研究情境可比、且量測定義相近的分析。",
+  "not_applicable_when_zh": "作者論證是配置理論，不能推成所有商業都由路網決定。",
+  "debates_zh": "作者論證是配置理論，不能推成所有商業都由路網決定。",
+  "sources": [
+    {
+      "library_id": "HILLIER93",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "CHRISTALLER1966",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "空間語法；中心地理論",
+  "region": "英國；南德意志原始研究區域",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Planning Complex Cities",
+      "topic": "商業與零售區位"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Cities by Design",
+      "topic": "商業與零售區位"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "商業與零售區位"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Sustainable Futures by Design",
+      "topic": "商業與零售區位"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-LUP-053",
+    "KU-LUP-054",
+    "KU-LUP-055"
+  ],
+  "counter_unit_ids": [
+    "KU-LUP-057"
+  ]
+}

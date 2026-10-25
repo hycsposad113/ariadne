@@ -1,0 +1,42 @@
+{
+  "id": "PITTSBURGH_SSW_ACFR2006",
+  "title": "City of Pittsburgh Annual Comprehensive Financial Report 2006",
+  "authors": [
+    "City of Pittsburgh"
+  ],
+  "year": 2006,
+  "venue_or_publisher": "City of Pittsburgh",
+  "doi": null,
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "OFFICIAL_CITY_FINANCIAL_REPORT",
+  "tradition": "官方或專業機構公開頁面；直接來源核對",
+  "region": "美國賓夕法尼亞州 Pittsburgh",
+  "method": "直接檢視官方或專業機構公開頁面；非獨立學術成效評估",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "城市年度報告記錄市府於 1993 年底購入約 130 英畝 South Side Works 舊 LTV 用地，並列出住宅、辦公、倉儲、餐飲、零售、娛樂、輕工業及高科技用途。",
+      "strength": "CASE_EVIDENCE",
+      "scope_zh": "這是 2006 年市府報告中的進展與規劃敘述；後續建成狀態需用當期資料核對。",
+      "assessment_basis": "DIRECT_SOURCE_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Official webpage or public report (direct review)",
+    "query": {
+      "title": "City of Pittsburgh Annual Comprehensive Financial Report 2006",
+      "author": "City of Pittsburgh",
+      "year": 2006,
+      "api_query": "Read-only page reviewed directly: https://www.pittsburghpa.gov/files/assets/city/v/1/controller/documents/annual-comprehensive-financial-report/13410_fy_2006_annualreport.pdf"
+    },
+    "matched_record_id": "https://www.pittsburghpa.gov/files/assets/city/v/1/controller/documents/annual-comprehensive-financial-report/13410_fy_2006_annualreport.pdf",
+    "checked_at_utc": "2026-10-08T14:27:24Z",
+    "match_notes_zh": "直接核對機構公開頁面或報告；此狀態不是 Crossref 書目驗證。"
+  },
+  "limitations_zh": "這是 2006 年市府報告中的進展與規劃敘述；後續建成狀態需用當期資料核對。",
+  "critique_relationship_zh": "本記錄不宣稱與其他書目存在直接互引或逐一反駁關係。",
+  "metadata_licence_zh": "官方或機構公開資料；個別文本的再利用授權未核驗。"
+}

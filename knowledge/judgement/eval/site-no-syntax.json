@@ -1,0 +1,66 @@
+{
+  "case_id": "site-no-syntax",
+  "evaluation_scope": "FAKE_VALIDATOR_PLUMBING_ONLY",
+  "expectations": {
+    "claims": [
+      "L2 is analysis_needed after syntax removal"
+    ],
+    "forbidden_content": [
+      "人流量",
+      "實測人流",
+      "已核准",
+      "批准",
+      "正式接受",
+      "合法",
+      "權屬確認",
+      "人流断言",
+      "pedestrian-flow assertion"
+    ],
+    "parameter_families": {
+      "must_include_any": [
+        "analysis_needed"
+      ]
+    },
+    "stance": {
+      "allowed": [
+        "CONCERN",
+        "OPPOSE",
+        "SUPPORT_WITH_CONDITIONS",
+        "INSUFFICIENT_EVIDENCE"
+      ],
+      "forbidden": [
+        "SUPPORT"
+      ]
+    }
+  },
+  "input_readiness": "BLOCKED_BASE_INPUT_ALREADY_MISSING_SYNTAX",
+  "provenance": {
+    "note": "The current offline assembler already has no verified persisted syntax, so this ablation cannot measure a before/after model response.",
+    "spec_case": "J-SITE-zh.md §評測案例 2"
+  },
+  "required_inputs": [
+    "verified syntax bundle before ablation"
+  ],
+  "required_metric_ids": [
+    "syntax.context.*"
+  ],
+  "schema_version": "ariadne-judgement-eval-case-v1",
+  "semantic_expectations_evaluated": false,
+  "skill_id": "J-SITE",
+  "snapshot": {
+    "bundle_sha256": "eeeb22aafc6e334873b36471bb317323a07148177340e10347f4e8371d414147",
+    "path": "knowledge/judgement/eval/snapshots/site-current.json",
+    "sha256": "f356423520a508d9fb6161283d00ab70c3628e79df7f77d3adb4952f28ab4620",
+    "skill_id": "J-SITE",
+    "subject_ids": []
+  },
+  "subject_ids": [],
+  "transform": {
+    "append_data_gaps": [
+      "DATA_GAP:syntax.context.*"
+    ],
+    "remove_metric_prefixes": [
+      "syntax.context."
+    ]
+  }
+}

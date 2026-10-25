@@ -1,0 +1,83 @@
+{
+  "id": "KU-REG-073",
+  "domain": "REG",
+  "subtopic": "制度比較與數值適用性",
+  "type": "value_range",
+  "title_zh": "紐約住宅分區 FAR 對照帶",
+  "title_en": "New York residential zoning FAR band",
+  "summary_zh": "此範圍是紐約制度案例帶，不能代表所有住宅地塊或今日每一分區。 把基礎分區、可負擔住房獎勵、特殊區和高度包絡拆開列出。 記錄 紐約市住宅分區 與「R 分區中不同區類與獎勵機制的比較」的量測分母，再和另一種尺度或用途並排比較。",
+  "key_points_zh": [
+    "紐約住宅分區的 FAR 可從低密住宅區約 0.5 延伸到部分高密或含獎勵區約 12；區類和特別制度決定上限。",
+    "此範圍是紐約制度案例帶，不能代表所有住宅地塊或今日每一分區。",
+    "把基礎分區、可負擔住房獎勵、特殊區和高度包絡拆開列出。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "紐約住宅分區的 FAR 可從低密住宅區約 0.5 延伸到部分高密或含獎勵區約 12；區類和特別制度決定上限。",
+        "effect_or_value": "約 0.5–12.0",
+        "study_design": "跨案例尺度對照或明示假設的規劃計算",
+        "context_region": "紐約市住宅分區",
+        "library_id": "BARR2014",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "紐約住宅分區 FAR 對照帶",
+      "range": "約 0.5–12.0",
+      "unit": "FAR",
+      "context": "紐約市住宅分區；用途：R 分區中不同區類與獎勵機制的比較；對照書目：BARR2014；適用於制度或形態比較，這不是本基地法規。",
+      "library_id": "BARR2014"
+    }
+  ],
+  "design_implications_zh": [
+    "把基礎分區、可負擔住房獎勵、特殊區和高度包絡拆開列出。",
+    "記錄 紐約市住宅分區 與「R 分區中不同區類與獎勵機制的比較」的量測分母，再和另一種尺度或用途並排比較。"
+  ],
+  "applies_when_zh": "用於比較紐約市住宅分區的R 分區中不同區類與獎勵機制的比較，並明示此數值的來源、年份和面積分母。",
+  "not_applicable_when_zh": "此範圍是紐約制度案例帶，不能代表所有住宅地塊或今日每一分區。",
+  "debates_zh": "FAR 獎勵可能增加住房與可負擔單元，也可能被地價吸收並改變開發時序。",
+  "sources": [
+    {
+      "library_id": "BARR2014",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "NOBLE1993",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "城市經濟與歷史密度梯度",
+  "region": "紐約市住宅分區",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Planning Complex Cities",
+      "topic": "制度比較與數值適用性"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Urban Design Contexts and Operations",
+      "topic": "制度比較與數值適用性"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "制度比較與數值適用性"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban design governance",
+      "topic": "制度比較與數值適用性"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008"
+}

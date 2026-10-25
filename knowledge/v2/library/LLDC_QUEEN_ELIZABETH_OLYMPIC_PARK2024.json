@@ -1,0 +1,42 @@
+{
+  "id": "LLDC_QUEEN_ELIZABETH_OLYMPIC_PARK2024",
+  "title": "End of an Era on Final LLDC Planning Decisions Committee",
+  "authors": [
+    "London Legacy Development Corporation"
+  ],
+  "year": 2024,
+  "venue_or_publisher": "London Legacy Development Corporation",
+  "doi": null,
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "OFFICIAL_GOVERNMENT_REPORT",
+  "tradition": "奧運後住宅、工作空間及社區設施交付統計",
+  "region": "英國倫敦 Stratford",
+  "method": "於內容起草後直接檢視官方／營運方公開頁面；不把機構目標或自報數據當成獨立效果研究。",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "LLDC 公布核准和已入住住房、可負擔住房比例、工作空間和社區設施數量；數字為開發機構成果回顧，未含住房需求或租金分布評估。",
+      "strength": "CASE_EVIDENCE",
+      "scope_zh": "只支持頁面明確公布的規劃口徑、歷史資料、行政數字或機構自報結果。",
+      "assessment_basis": "DIRECT_SOURCE_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Official organization webpage",
+    "query": {
+      "title": "End of an Era on Final LLDC Planning Decisions Committee",
+      "author": "London Legacy Development Corporation",
+      "year": 2024,
+      "api_query": "Read-only official source page: https://www.queenelizabetholympicpark.co.uk/our-stories/end-era-final-lldc-planning-decisions-committee"
+    },
+    "matched_record_id": "https://www.queenelizabetholympicpark.co.uk/our-stories/end-era-final-lldc-planning-decisions-committee",
+    "checked_at_utc": "2026-10-08T14:47:20Z",
+    "match_notes_zh": "直接檢視官方／場址營運方公開頁；該頁不是Crossref書目記錄，未宣稱經Crossref驗證。"
+  },
+  "limitations_zh": "官方或營運方頁面可能採機構自身的規劃與成果口徑；未有獨立評估處不推定效果。",
+  "critique_relationship_zh": "本記錄不宣稱與其他來源存在直接互引或逐一反駁關係。",
+  "metadata_licence_zh": "官方／營運方公開頁面；未確認個別資料的再利用授權。"
+}

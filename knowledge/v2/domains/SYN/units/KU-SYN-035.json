@@ -1,0 +1,88 @@
+{
+  "id": "KU-SYN-035",
+  "domain": "SYN",
+  "subtopic": "角度與度量距離",
+  "type": "value_range",
+  "title_zh": "角度與拓樸整合度的效果量差異",
+  "title_en": "Angular and topological integration effect sizes",
+  "summary_zh": "空間語法統合分析中，整合度與行人移動的角度表示效果量為 ES 0.502，拓樸表示為 ES 0.124。兩者來自不同的距離建模方式，顯示表示方法會改變統合關聯量級。研究間異質性高，不能據此將角度模型視為每個城市的預設正解。「整合度按距離模型的效果量」的數值不是本基地法規或普遍設計目標。",
+  "key_points_zh": [
+    "數值與用途：整合度按距離模型的效果量：角度 ES = 0.502；拓樸 ES = 0.124",
+    "數值與用途：比較兩種指標操作方式，不是設計閾值、法規或 M4H 標準"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "角度與拓樸整合度的效果量差異｜角度表示下整合度關聯量級高於拓樸表示",
+        "effect_or_value": "角度 ES = 0.502；拓樸 ES = 0.124",
+        "study_design": "整合分析",
+        "context_region": "跨地區文獻統合；研究異質性高",
+        "library_id": "SHARMIN17",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "角度與拓樸整合度的效果量差異｜非機動可及性必須說明網路、目的地與尺度，替代量測方式需保持定義可比較",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "IACONO10",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "整合度按距離模型的效果量",
+      "range": "角度 ES = 0.502；拓樸 ES = 0.124",
+      "unit": "統合效果量 ES",
+      "context": "跨地區空間語法統合研究；用於檢視兩種整合度表示的合併效果，不是設計標準；來源所列地域：跨地域；「角度與拓樸整合度的效果量差異」所列範圍不構成本基地法規。",
+      "library_id": "SHARMIN17"
+    }
+  ],
+  "design_implications_zh": [
+    "在模型比較表中並列角度和拓樸定義及其 ES；本地方案應以同一網路做敏感度分析，而非只取較大的值。"
+  ],
+  "applies_when_zh": "若空間表示、行人結果和研究設計有可比性，可引用這組 ES 說明角度及拓樸分析在文獻中的關聯差異。",
+  "not_applicable_when_zh": "0.502 和 0.124 不是中心性數值閾值，也無法直接估算基地人流或證明幾何轉向成本造成差異。",
+  "debates_zh": "角度表示在統合結果中量級較高，但樣本異質及路網建構規則也會影響測量；方法選擇應由研究問題決定。",
+  "sources": [
+    {
+      "library_id": "SHARMIN17",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "IACONO10",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "空間網路距離模型",
+  "region": "跨地區文獻統合；研究異質性高",
+  "curriculum_refs": [
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.330J Theory of City Form",
+      "topic": "角度與度量距離：課綱對應主題"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Critical Debates in Urban Design",
+      "topic": "角度與度量距離：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-SYN-033",
+    "KU-SYN-034",
+    "KU-SYN-036",
+    "KU-SYN-037",
+    "KU-SYN-038",
+    "KU-SYN-039",
+    "KU-SYN-040"
+  ]
+}

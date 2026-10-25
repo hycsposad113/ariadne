@@ -1,0 +1,91 @@
+{
+  "id": "KU-MOR-064",
+  "domain": "MOR",
+  "subtopic": "地塊、街廓與建築類型",
+  "type": "value_range",
+  "title_zh": "曼哈頓東西向短街廓尺度",
+  "title_en": "Manhattan short block dimension",
+  "summary_zh": "曼哈頓網格的短向街廓長度會隨大道、地形和後續改造而變，不能將概括區間當成全島一致值。Baics 與 Meisterlin 以 1811 網格作土地使用史分析；Sevtsuk 等人則指出街廓、地塊和街寬會共同影響步行可及性。60–90 m 仍是需回到地圖量測的比較帶。",
+  "key_points_zh": [
+    "曼哈頓網格的短向街廓常約 200–300 ft，換算約 60–90 m；不同區段因大道間距而異。",
+    "此區間是曼哈頓網格的概括值，不能代表全島或其他美國網格城市。",
+    "規劃比較可用短向街廓檢查橫向穿越頻率與街角店面數量。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "Baics 與 Meisterlin 重新檢視 1811 年曼哈頓網格的土地使用邏輯；Crossref 未返回摘要，本單元保留的 60–90 m 區間仍須對照街道圖量測。",
+        "library_id": "BAICS_MEISTERLIN2017",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "曼哈頓，紐約",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "網格研究將街廓長度、地塊尺寸與街道寬度納入步行可及性分析；其摘要不提供曼哈頓東西向短街廓的單一範圍。",
+        "library_id": "SEVTSUK2016",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "美國與澳洲網格案例",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "曼哈頓東西向短街廓尺度",
+      "range": "約 60–90",
+      "unit": "m",
+      "context": "曼哈頓，紐約；用途：1811 網格的短向街廓比較；60–90 m 為保留的案例帶，需按街道中心線與大道人行距離重測；不是本基地法規。",
+      "library_id": "BAICS_MEISTERLIN2017"
+    }
+  ],
+  "design_implications_zh": [
+    "沿街道中心線量測相鄰大道間距，並把街道寬度與街廓邊界分開記錄。"
+  ],
+  "applies_when_zh": "用於比較曼哈頓，紐約的網格中相鄰大道之間的短向街廓，並明示此數值的來源、年份和面積分母。",
+  "not_applicable_when_zh": "此區間是曼哈頓網格的概括值，不能代表全島或其他美國網格城市。",
+  "debates_zh": "短向街廓增加橫向選擇，但單靠距離不能說明人行舒適、街道安全或可達性。",
+  "sources": [
+    {
+      "library_id": "BAICS_MEISTERLIN2017",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "SEVTSUK2016",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "街道案例比較",
+  "region": "曼哈頓，紐約",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "地塊、街廓與建築類型"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "地塊、街廓與建築類型"
+    },
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.330J Theory of City Form",
+      "topic": "地塊、街廓與建築類型"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban form and density",
+      "topic": "地塊、街廓與建築類型"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008"
+}

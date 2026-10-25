@@ -1,0 +1,107 @@
+{
+  "id": "KU-MOR-032",
+  "domain": "MOR",
+  "subtopic": "密度與形態的關係",
+  "type": "typology",
+  "title_zh": "密度與形態的關係｜類型取捨",
+  "title_en": "Density and urban form — Typology and trade-offs",
+  "summary_zh": "高密度設計必須同時比較社會與環境條件；不能由密度數字直接推出唯一建築型態。 高層、周邊式街廓和低層高覆蓋形態各有不同公共空間代價。 讀「密度與形態的關係｜類型取捨」時，適用於形態方案比較及密度政策的多指標分析；同時把模擬顯示不同鄰里形態的理論熱能需求可相差至六倍，緊湊高層型態在此模型較有效率；不是實測能耗列為核對條件。",
+  "key_points_zh": [
+    "高層、周邊式街廓和低層高覆蓋形態各有不同公共空間代價。",
+    "讀「密度與形態的關係｜類型取捨」時，適用於形態方案比較及密度政策的多指標分析；同時把模擬顯示不同鄰里形態的理論熱能需求可相差至六倍，緊湊高層型態在此模型較有效率；不是實測能耗列為核對條件。",
+    "限制：缺少實際用途、氣候或住戶資料時，不推估能耗或生活品質。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "模擬顯示不同鄰里形態的理論熱能需求可相差至六倍，緊湊高層型態在此模型較有效率；不是實測能耗。",
+        "library_id": "RODE2013",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "巴黎、倫敦、柏林與伊斯坦堡",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "Ng 編輯的高密度城市案例並列社會與環境條件，呈現密度目標可以由不同建築型態回應。",
+        "library_id": "NG10",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "香港; 亞洲",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "將形態密度和人口／活動密度分列，並檢查尺度敏感度。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "在「密度與形態的關係｜類型取捨」的來源情境裡，將形態密度和人口／活動密度分列，並檢查尺度敏感度；落到設計時還要按模擬顯示不同鄰里形態的理論熱能需求可相差至六倍，緊湊高層型態在此模型較有效率；不是實測能耗調整。",
+      "tradeoff_zh": "「密度與形態的關係｜類型取捨」採用「在「密度與形態的關係｜類型取捨」的來源情境裡，將形態密度和人口／活動密度分列，並檢查尺度敏感度；落到設計時還要按模擬顯示不同鄰里形態的理論熱能需求可相差至六倍，緊湊高層型態在此模型較有效率；不是實測能耗調整」時，得失要沿著模擬顯示不同鄰里形態的理論熱能需求可相差至六倍，緊湊高層型態在此模型較有效率；不是實測能耗檢查；節能、居住品質和活動量不能由密度單獨推論，選擇偏差和氣候會改變結果。",
+      "library_ids": [
+        "RODE2013",
+        "NG10"
+      ]
+    },
+    {
+      "option_zh": "在「密度與形態的關係｜類型取捨」的來源情境裡，高層、周邊式街廓和低層高覆蓋形態各有不同公共空間代價；落到設計時還要按模擬顯示不同鄰里形態的理論熱能需求可相差至六倍，緊湊高層型態在此模型較有效率；不是實測能耗調整。",
+      "tradeoff_zh": "「密度與形態的關係｜類型取捨」的主要代價不是抽象的建造成本，而是節能、居住品質和活動量不能由密度單獨推論，選擇偏差和氣候會改變結果；因此先以模擬顯示不同鄰里形態的理論熱能需求可相差至六倍，緊湊高層型態在此模型較有效率；不是實測能耗作方案比較條件。",
+      "library_ids": [
+        "RODE2013",
+        "NG10"
+      ]
+    }
+  ],
+  "applies_when_zh": "適用於形態方案比較及密度政策的多指標分析。",
+  "not_applicable_when_zh": "缺少實際用途、氣候或住戶資料時，不推估能耗或生活品質。",
+  "debates_zh": "節能、居住品質和活動量不能由密度單獨推論，選擇偏差和氣候會改變結果。",
+  "sources": [
+    {
+      "library_id": "RODE2013",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "NG10",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "都市形態與能源模擬；高密度環境設計",
+  "region": "巴黎、倫敦、柏林與伊斯坦堡；香港",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "密度與形態的關係"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "密度與形態的關係"
+    },
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.330J Theory of City Form",
+      "topic": "密度與形態的關係"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban form and density",
+      "topic": "密度與形態的關係"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-MOR-031",
+    "KU-MOR-033",
+    "KU-MOR-034"
+  ],
+  "counter_unit_ids": [
+    "KU-MOR-035"
+  ]
+}

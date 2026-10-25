@@ -1,0 +1,74 @@
+{
+  "id": "KU-WAT-041",
+  "domain": "WAT",
+  "subtopic": "雨水滯留量的設計值",
+  "type": "method",
+  "title_zh": "先定義服務事件再比較蓄滯設施",
+  "title_en": "先定義服務事件再比較蓄滯設施",
+  "summary_zh": "設施容量取決於降雨歷時、匯水面積、前期含水和排水限制。雨水管理術語回顧顯示不同地區使用不同目標；整合水管理研究則要求系統邊界可追溯。容量比較前應鎖定同一降雨事件和溢流條件。",
+  "key_points_zh": [
+    "單一日雨量不能完整描述短延時洪峰。",
+    "滲透、蒸散和外排參數需要場址資料。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "library_id": "BRATTEBO2003",
+        "claim_zh": "書目確認本文題名聚焦「Long-term stormwater quantity and quality performance of permeable pavement systems」；目前只完成作者、年份、題名與 DOI 核對，未將摘要或全文結論納入此記錄；本單元 KU-WAT-041 對照「設施容量取決於降雨歷時、匯水面積、前期含水和排水限制」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "案例或場地研究；目前僅核對書目範圍",
+        "context_region": "美國西北太平洋地區",
+        "locator": null
+      },
+      {
+        "library_id": "MENTENS2006",
+        "claim_zh": "書目確認本文題名聚焦「Green roofs as a tool for solving the rainwater runoff problem in the urbanized 21st century；」；目前只完成作者、年份、題名與 DOI 核對，未將摘要或全文結論納入此記錄；本單元 KU-WAT-041 對照「設施容量取決於降雨歷時、匯水面積、前期含水和排水限制」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "文獻回顧；目前僅核對書目範圍",
+        "context_region": "比利時都市",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "以降雨歷線作輸入，不只採總雨量。",
+    "明列前期含水、地下水位和排放口假設。"
+  ],
+  "applies_when_zh": "適用於雨洪設施尺寸的前期比較。",
+  "not_applicable_when_zh": "不適用於沒有地方雨量資料時指定法定設計暴雨。",
+  "debates_zh": "缺少現地滲透和管網資料時，結果只可標示為概念估算。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "BRATTEBO2003",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "MENTENS2006",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "都市雨水設計方法",
+  "region": "跨地域；澳洲",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "雨水滯留量的設計值"
+    },
+    {
+      "school": "MIT",
+      "course": null,
+      "topic": "雨水滯留量的設計值"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0"
+}

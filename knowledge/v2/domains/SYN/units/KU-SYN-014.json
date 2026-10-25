@@ -1,0 +1,84 @@
+{
+  "id": "KU-SYN-014",
+  "domain": "SYN",
+  "subtopic": "整合度與選擇度",
+  "type": "critique",
+  "title_zh": "整合度與選擇度：批評與適用限制",
+  "title_en": "Integration and choice: Critique and boundary",
+  "summary_zh": "高中心性不等於高停留、可達或安全；吸引點、社會差異和交通障礙會形成其他解釋。另一個需要同時檢查的面向是整合度概括從一個空間到網路其他位置的相對深度，選擇度描述某空間位於多少最短路徑上。替代做法可以是將整合度作為空間到達關係假說、選擇度作為穿越路徑假說，分別與觀測資料比較。",
+  "key_points_zh": [
+    "批評焦點：整合度概括從一個空間到網路其他位置的相對深度，選擇度描述某空間位於多少最短路徑上",
+    "批評焦點：高中心性不等於高停留、可達或安全；吸引點、社會差異和交通障礙會形成其他解釋"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "整合度與選擇度：批評與適用限制｜以空間資本把路網關係與更廣的都市形態聯讀；不能只看中心性而忽略地塊與用途",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "MARCUS10",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "整合度與選擇度：批評與適用限制｜步行性有多種定義與設計訴求；需明確說明量測的是距離、舒適、活動還是可及性",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "FORSYTH15",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "把「高中心性不等於高停留、可達或安全；吸引點、社會差異和交通障礙會形成其他解釋」轉成一項可觀察的風險，並在替代方案中檢查「整合度概括從一個空間到網路其他位置的相對深度，選擇度描述某空間位於多少最短路徑上」是否改變其影響。"
+  ],
+  "applies_when_zh": "若整合度與選擇度方案可能受「高中心性不等於高停留、可達或安全；吸引點、社會差異和交通障礙會形成其他解釋」影響，可用「整合度概括從一個空間到網路其他位置的相對深度，選擇度描述某空間位於多少最短路徑上」安排實地觀察或替代方案比較。",
+  "not_applicable_when_zh": "這項批評提出的是「高中心性不等於高停留、可達或安全；吸引點、社會差異和交通障礙會形成其他解釋」的風險，不能據此推定所有替代方案都更好，也不能代替本地使用者測試。",
+  "debates_zh": "高中心性不等於高停留、可達或安全；吸引點、社會差異和交通障礙會形成其他解釋；檢視「整合度與選擇度：批評與適用限制」的反例檢查時，還需判斷「高中心性不等於高停留、可達或安全；吸引點、社會差異和交通障礙會形成其他解釋」會如何改變方案結論。",
+  "sources": [
+    {
+      "library_id": "MARCUS10",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "FORSYTH15",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "空間語法中心性指標",
+  "region": "跨地域理論或實務脈絡；來源地區依引用條目判讀",
+  "curriculum_refs": [
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.330J Theory of City Form",
+      "topic": "整合度與選擇度：課綱對應主題"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Critical Debates in Urban Design",
+      "topic": "整合度與選擇度：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-SYN-009",
+    "KU-SYN-010",
+    "KU-SYN-011",
+    "KU-SYN-012",
+    "KU-SYN-013",
+    "KU-SYN-015",
+    "KU-SYN-016"
+  ],
+  "counter_unit_ids": [
+    "KU-SYN-009",
+    "KU-SYN-010"
+  ]
+}

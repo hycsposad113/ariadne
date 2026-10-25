@@ -1,0 +1,74 @@
+{
+  "id": "KU-PUB-043",
+  "domain": "PUB",
+  "subtopic": "公共空間私有化與管理",
+  "type": "value_range",
+  "title_zh": "公私誘因空間的研究場所數",
+  "title_en": "Privately managed public space sample",
+  "summary_zh": "紐約研究以一百六十三處公共可及空間分析激勵制度形成的場所。這組資料能支持管理制度之間的比較，不會回答每個人的實際使用感受。樣本來自特定的規劃與開發交易機制。制度提供的面積與居民可行使的使用權不是同一件事。",
+  "key_points_zh": [
+    "紐約研究以一百六十三處公共可及空間分析激勵制度形成的場所",
+    "這組資料能支持管理制度之間的比較，不會回答每個人的實際使用感受"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "紐約研究以一百六十三處公共可及空間分析激勵制度形成的場所。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "美國",
+        "library_id": "HEYNEN06",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "制度提供的面積與居民可行使的使用權不是同一件事。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "取得空間清單時，附上契約、開放時段和活動限制。"
+  ],
+  "applies_when_zh": "適用於私有管理、公共通行和開發獎勵交會的場址。",
+  "not_applicable_when_zh": "不可據此訂定其他城市的開放空間供給比例。",
+  "debates_zh": "制度提供的面積與居民可行使的使用權不是同一件事。",
+  "sources": [
+    {
+      "library_id": "HEYNEN06",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "ANGELOVSKI19",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "政治生態與環境不平等",
+  "region": "美國",
+  "curriculum_refs": [
+    {
+      "school": "UCL Bartlett",
+      "course": "Critical Debates in Urban Design",
+      "topic": "公共空間私有化與管理"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "公共空間私有化與管理"
+    }
+  ],
+  "version": "2.0.0",
+  "values": [
+    {
+      "name": "公私誘因空間的研究場所數",
+      "range": "163 處",
+      "unit": "公共可及空間樣本數",
+      "context": "紐約 incentive-zoning 場所研究；作制度比較的樣本資料，非基地法規。；「公私誘因空間的研究場所數」僅供其研究脈絡內比較，不構成本基地法規。",
+      "library_id": "NEMETH09"
+    }
+  ],
+  "related_unit_ids": [
+    "KU-PUB-044"
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "id": "KU-GRN-035",
+  "domain": "GRN",
+  "subtopic": "遊戲與兒童",
+  "type": "design_principle",
+  "title_zh": "無障礙遊戲需同伴共同參與",
+  "title_en": "Inclusive play includes peers",
+  "summary_zh": "通道可達只解決進入問題，不保證孩子能一起遊戲。同伴合作、不同感官刺激和可轉換高度都影響參與。標準化器材可能無法覆蓋複雜的身體能力差異。融合式設計需持續聽取兒童及照護者的回饋。",
+  "key_points_zh": [
+    "通道可達只解決進入問題，不保證孩子能一起遊戲",
+    "同伴合作、不同感官刺激和可轉換高度都影響參與"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "通道可達只解決進入問題，不保證孩子能一起遊戲。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "美國",
+        "library_id": "FANSTEIN10",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "融合式設計需持續聽取兒童及照護者的回饋。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "把可共享遊戲情境納入採購與觀察，而不只檢查個別設備。"
+  ],
+  "applies_when_zh": "適用於公共遊戲與融合教育。",
+  "not_applicable_when_zh": "不應由設備符合單一標準推定包容完成。",
+  "debates_zh": "融合式設計需持續聽取兒童及照護者的回饋。",
+  "sources": [
+    {
+      "library_id": "FANSTEIN10",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "PESCHARDT12",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "都市分配正義",
+  "region": "美國",
+  "curriculum_refs": [
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "遊戲與兒童"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-GRN-034",
+    "KU-GRN-036"
+  ]
+}

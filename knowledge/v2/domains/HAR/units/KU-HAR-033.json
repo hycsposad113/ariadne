@@ -1,0 +1,74 @@
+{
+  "id": "KU-HAR-033",
+  "type": "value_range",
+  "subtopic": "港區轉型案例",
+  "title_zh": "Malmö 對 Västra Hamnen 2031 的人口與就業目標",
+  "title_en": "Malmö Sets 2031 Population and Job Targets for Västra Hamnen",
+  "summary_zh": "Malmö 市府的 2031 願景預計區內約有 25,000 名居民，以及約 25,000 個工作機會。這是市府預測，不代表現況，也不證明工作與居住機會由同一批人共享。目標可作為混合用途政策的檢核起點，還需要後續人口、就業和通勤資料判斷落實情形。",
+  "values": [
+    {
+      "name": "市府對2031年居民與工作機會的預期",
+      "range": "各約25,000",
+      "unit": "人／工作機會",
+      "context": "用途：以「市府對2031年居民與工作機會的預期」作為來源情境參照；Malmö市府願景中的預測值；屬單一街區目標，不是本基地法規；來源所列地域：瑞典馬爾默。",
+      "library_id": "MALMO_VASTRA_HAMNEN"
+    }
+  ],
+  "key_points_zh": [
+    "預測目標和當期統計要分欄存放。",
+    "就業總量不能替代工作種類、薪資和可及性資料。"
+  ],
+  "design_implications_zh": [
+    "取得年度人口與就業統計後逐期比較市府目標。"
+  ],
+  "applies_when_zh": "檢視更新區人口和就業混合目標時。",
+  "not_applicable_when_zh": "判斷居民是否能在區內找到合適工作時。",
+  "debates_zh": "大量辦公職位與新增住宅並列，不代表兩者在可負擔性、技能需求或交通時段上匹配。",
+  "sources": [
+    {
+      "library_id": "MALMO_VASTRA_HAMNEN",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "OAKLEY2021",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "tradition": "可持續發展目標與地方更新",
+  "region": "瑞典馬爾默／澳洲港城比較",
+  "curriculum_refs": [
+    {
+      "school": "Harvard GSD",
+      "course": null,
+      "topic": "Mixed-use development and social sustainability"
+    }
+  ],
+  "domain": "HAR",
+  "evidence": {
+    "strength": "CASE_EVIDENCE",
+    "findings": [
+      {
+        "claim_zh": "市府頁面列出2031年約25,000名居民與同量級工作機會的期待。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "瑞典馬爾默／澳洲港城比較",
+        "library_id": "MALMO_VASTRA_HAMNEN",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "澳洲水岸更新研究提供比較全球趨勢與地方回應的學術背景，不核實Malmö預測。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "瑞典馬爾默／澳洲港城比較",
+        "library_id": "OAKLEY2021",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "source_count_flag": "MULTI_SOURCE",
+  "version": "v2.0"
+}

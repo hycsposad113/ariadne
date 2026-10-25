@@ -1,0 +1,104 @@
+{
+  "id": "KU-HOU-047",
+  "domain": "HOU",
+  "subtopic": "居住密度與生活品質",
+  "type": "critique",
+  "title_zh": "居住密度與生活品質｜批評與反例",
+  "title_en": "Residential density and quality of life — Critique and counterexample",
+  "summary_zh": "居住密度是樓地板、戶數、人口和公共空間配置共同形成的條件，FAR 本身不能代表活動強度或生活品質。 安卡拉住戶研究與澳洲形態論述分別提示，結果受住宅樣本、使用者和量測方式影響，不能由單一城市外推到所有家庭。 比較住宅方案時應把住戶調查、公共服務、戶型和環境品質並列。",
+  "key_points_zh": [
+    "讀「居住密度與生活品質｜批評與反例」時，單一城市、學生或安置住宅結果不可直接外推全體家庭；同時把居住密度是樓地板、戶數、人口和公共空間配置共同形成的條件，FAR 本身不能代表活動強度或生活品質列為核對條件。",
+    "讀「居住密度與生活品質｜批評與反例」時，適用於住宅密度方案比較和社會住宅居住後評估；同時把居住密度是樓地板、戶數、人口和公共空間配置共同形成的條件，FAR 本身不能代表活動強度或生活品質列為核對條件。",
+    "讀「居住密度與生活品質｜批評與反例」時，限制：沒有住戶和服務資料時，不聲稱密度改善或降低生活品質；同時把居住密度是樓地板、戶數、人口和公共空間配置共同形成的條件，FAR 本身不能代表活動強度或生活品質列為核對條件。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "兩個土耳其鄰里的資料顯示地點與地方依附和住宅滿意度相關，但不能據此代表所有高密度住宅。",
+        "library_id": "AKSEL2020",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "安卡拉，土耳其",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "Dovey 與 Pafka 說明密度需用多項指標表達；不同住宅形式的滿意度比較應先釐清其覆蓋與樓地板量測。",
+        "library_id": "DOVEY14",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "澳洲",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "把主觀擁擠感與戶均面積、共同空間和通勤負擔分開詢問，避免把密度直接當生活品質分數。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "把主觀擁擠感與戶均面積、共同空間和通勤負擔分開詢問，避免把密度直接當生活品質分數。",
+      "tradeoff_zh": "此選項把「居住密度與生活品質｜批評與反例」的工作放在居住密度是樓地板、戶數、人口和公共空間配置共同形成的條件，FAR 本身不能代表活動強度或生活品質上；需要承擔的協調或維護代價則由「「居住密度與生活品質｜批評與反例」的爭議不只在於沒有住戶和服務資料時，不聲稱密度改善或降低生活品質；還要檢視居住密度是樓地板、戶數、人口和公共空間配置共同形成的條件，FAR 本身不能代表活動強度或生活品質會讓哪些使用者承擔不同後果」界定。",
+      "library_ids": [
+        "AKSEL2020",
+        "DOVEY14"
+      ]
+    },
+    {
+      "option_zh": "「居住密度與生活品質｜批評與反例」可把取向落在高層集合住宅、低層高覆蓋與連棟住宅有不同服務和管理條件，但需連同居住密度是樓地板、戶數、人口和公共空間配置共同形成的條件，FAR 本身不能代表活動強度或生活品質決定適用方式。",
+      "tradeoff_zh": "「居住密度與生活品質｜批評與反例」採用「「居住密度與生活品質｜批評與反例」可把取向落在高層集合住宅、低層高覆蓋與連棟住宅有不同服務和管理條件，但需連同居住密度是樓地板、戶數、人口和公共空間配置共同形成的條件，FAR 本身不能代表活動強度或生活品質決定適用方式」時，得失要沿著居住密度是樓地板、戶數、人口和公共空間配置共同形成的條件，FAR 本身不能代表活動強度或生活品質檢查；「居住密度與生活品質｜批評與反例」的爭議不只在於沒有住戶和服務資料時，不聲稱密度改善或降低生活品質；還要檢視居住密度是樓地板、戶數、人口和公共空間配置共同形成的條件，FAR 本身不能代表活動強度或生活品質會讓哪些使用者承擔不同後果。",
+      "library_ids": [
+        "AKSEL2020",
+        "DOVEY14"
+      ]
+    }
+  ],
+  "applies_when_zh": "「居住密度與生活品質｜批評與反例」可在適用於住宅密度方案比較和社會住宅居住後評估時使用，前提是居住密度是樓地板、戶數、人口和公共空間配置共同形成的條件，FAR 本身不能代表活動強度或生活品質與來源情境相符。",
+  "not_applicable_when_zh": "若居住密度是樓地板、戶數、人口和公共空間配置共同形成的條件，FAR 本身不能代表活動強度或生活品質不成立，就不能把「居住密度與生活品質｜批評與反例」的結論延伸到其他情況；沒有住戶和服務資料時，不聲稱密度改善或降低生活品質。",
+  "debates_zh": "「居住密度與生活品質｜批評與反例」的爭議不只在於沒有住戶和服務資料時，不聲稱密度改善或降低生活品質；還要檢視居住密度是樓地板、戶數、人口和公共空間配置共同形成的條件，FAR 本身不能代表活動強度或生活品質會讓哪些使用者承擔不同後果。",
+  "sources": [
+    {
+      "library_id": "AKSEL2020",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "DOVEY14",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "鄰里位置、依附與滿意度；組裝形態學",
+  "region": "安卡拉，土耳其；澳洲",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "居住密度與生活品質"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "居住密度與生活品質"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "居住密度與生活品質"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "居住密度與生活品質"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-HOU-043",
+    "KU-HOU-044",
+    "KU-HOU-045"
+  ]
+}

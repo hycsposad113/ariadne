@@ -1,0 +1,44 @@
+{
+  "id": "KANTERS2021",
+  "title": "Planning for solar access in Sweden: routines, metrics, and tools",
+  "authors": [
+    "Jouri Kanters",
+    "Niko Gentile",
+    "Ricardo Bernardo"
+  ],
+  "year": 2021,
+  "venue_or_publisher": "Urban, Planning and Transport Research",
+  "doi": "https://doi.org/10.1080/21650020.2021.1944293",
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "都市日照權衡與工具",
+  "region": "Sweden",
+  "method": "日照規劃程序與指標研究",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "題名確認研究整理瑞典的日照規劃流程、指標與工具；它是特定制度脈絡，不是 M4H 法規。",
+      "strength": "THEORETICAL",
+      "scope_zh": "只支持此研究明確的議題、樣本地區與方法；不直接生成 M4H 數值、法規或工程容量。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref",
+    "query": {
+      "title": "Planning for solar access in Sweden: routines, metrics, and tools",
+      "author": "Jouri Kanters",
+      "year": 2021,
+      "api_query": "urban sunlight access shade shadow solar envelope urban street design planning daylighting"
+    },
+    "matched_record_id": "10.1080/21650020.2021.1944293",
+    "checked_at_utc": "2026-10-08T10:15:15Z",
+    "match_notes_zh": "以 Crossref 公開書目記錄比對書名、作者與年份；摘要文字未保存到 repository。"
+  },
+  "limitations_zh": "只保留書目與自行撰寫的範圍摘要；除標示 ABSTRACT_REVIEW 者外，內容未由摘要核對，沒有下載全文。",
+  "critique_relationship_zh": "本記錄不宣稱與其他書目存在直接互引或逐一反駁關係。",
+  "metadata_licence_zh": "公開 API 書目欄位；精確 metadata licence 未核驗，標 UNKNOWN。"
+}

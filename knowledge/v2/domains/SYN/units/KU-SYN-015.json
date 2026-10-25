@@ -1,0 +1,80 @@
+{
+  "id": "KU-SYN-015",
+  "domain": "SYN",
+  "subtopic": "整合度與選擇度",
+  "type": "typology",
+  "title_zh": "整合度與選擇度：型態比較",
+  "title_en": "Integration and choice: Typology comparison",
+  "summary_zh": "全域和局部整合度、角度選擇度與度量選擇度刻畫不同尺度和路徑成本。類型比較要回到整合度概括從一個空間到網路其他位置的相對深度，選擇度描述某空間位於多少最短路徑上。各類型的成本和適用條件包括：高中心性不等於高停留、可達或安全；吸引點、社會差異和交通障礙會形成其他解釋。",
+  "key_points_zh": [
+    "比較類型：整合度概括從一個空間到網路其他位置的相對深度，選擇度描述某空間位於多少最短路徑上",
+    "比較類型：全域和局部整合度、角度選擇度與度量選擇度刻畫不同尺度和路徑成本"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "整合度與選擇度：型態比較｜空間語法作者對表示法批評作回應，應與批評並列而非以一方的權威結束討論",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "HILLIERPENN04",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "整合度與選擇度：型態比較｜空間網路同時受連接與幾何成本影響，應保留圖表示與尺度的敏感性比較",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "BARTHELEMY11",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "類型表應比較「整合度概括從一個空間到網路其他位置的相對深度，選擇度描述某空間位於多少最短路徑上」及其使用代價「高中心性不等於高停留、可達或安全；吸引點、社會差異和交通障礙會形成其他解釋」，不要只列名稱。"
+  ],
+  "applies_when_zh": "比較整合度與選擇度方案時，可先用「整合度概括從一個空間到網路其他位置的相對深度，選擇度描述某空間位於多少最短路徑上」描述各類型，再按「高中心性不等於高停留、可達或安全；吸引點、社會差異和交通障礙會形成其他解釋」檢查分類的盲點。",
+  "not_applicable_when_zh": "這些類型不構成普遍排序；遇到「高中心性不等於高停留、可達或安全；吸引點、社會差異和交通障礙會形成其他解釋」所述條件時，不應只依類名決定路網或街道配置。",
+  "debates_zh": "高中心性不等於高停留、可達或安全；吸引點、社會差異和交通障礙會形成其他解釋；檢視「整合度與選擇度：型態比較」的分類邊界時，還需判斷「全域和局部整合度、角度選擇度與度量選擇度刻畫不同尺度和路徑成本」會如何改變方案結論。",
+  "sources": [
+    {
+      "library_id": "HILLIERPENN04",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "BARTHELEMY11",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "空間語法中心性指標",
+  "region": "跨地域理論或實務脈絡；來源地區依引用條目判讀",
+  "curriculum_refs": [
+    {
+      "school": "UCL Bartlett",
+      "course": "Critical Debates in Urban Design",
+      "topic": "整合度與選擇度：課綱對應主題"
+    },
+    {
+      "school": "TU Delft",
+      "course": "Methods of Analysis & Imagination",
+      "topic": "整合度與選擇度：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-SYN-009",
+    "KU-SYN-010",
+    "KU-SYN-011",
+    "KU-SYN-012",
+    "KU-SYN-013",
+    "KU-SYN-014",
+    "KU-SYN-016"
+  ]
+}

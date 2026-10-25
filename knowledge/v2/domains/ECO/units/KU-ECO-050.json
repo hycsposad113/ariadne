@@ -1,0 +1,60 @@
+{
+  "id": "KU-ECO-050",
+  "domain": "ECO",
+  "subtopic": "自然為本的解決方案",
+  "type": "critique",
+  "title_zh": "NbS品牌不能取代土地正義",
+  "title_en": "NbS branding cannot replace land justice",
+  "summary_zh": "自然解方的城市投資可能提高鄰地吸引力。若租住保障缺位，生態服務改善未必由原居民持續享有。土地市場反應取決於多項制度條件。綠色政策同時需要生態和分配問責。把住房與土地影響評估納入綠色基礎設施治理。",
+  "key_points_zh": [
+    "自然解方的城市投資可能提高鄰地吸引力",
+    "若租住保障缺位，生態服務改善未必由原居民持續享有"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "自然解方的城市投資可能提高鄰地吸引力。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "加拿大",
+        "library_id": "MCCANN02",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "綠色政策同時需要生態和分配問責。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "把住房與土地影響評估納入綠色基礎設施治理。"
+  ],
+  "applies_when_zh": "適用於大規模環境更新。",
+  "not_applicable_when_zh": "不應把社會風險全歸因於景觀工程。",
+  "debates_zh": "綠色政策同時需要生態和分配問責。",
+  "sources": [
+    {
+      "library_id": "MCCANN02",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "CARMONA10",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "批判都市地理與城市權",
+  "region": "加拿大",
+  "curriculum_refs": [
+    {
+      "school": "UCL Bartlett",
+      "course": "Critical Debates in Urban Design",
+      "topic": "自然為本的解決方案"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-ECO-049"
+  ]
+}

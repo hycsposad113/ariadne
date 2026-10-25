@@ -1,0 +1,60 @@
+{
+  "id": "KU-PUB-042",
+  "domain": "PUB",
+  "subtopic": "安全：CPTED 與批評",
+  "type": "method",
+  "title_zh": "可觀察也需尊重個人隱私",
+  "title_en": "Observation must preserve privacy",
+  "summary_zh": "公共空間可以透過自然互見支持求助，不一定要持續記錄個人影像。綠植高度與座位方向可調整可見性而保留局部遮蔽。高度透明的監控環境可能讓使用者避開合法活動。公共性亦包含免於持續監視的自由。",
+  "key_points_zh": [
+    "公共空間可以透過自然互見支持求助，不一定要持續記錄個人影像",
+    "綠植高度與座位方向可調整可見性而保留局部遮蔽"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "公共空間可以透過自然互見支持求助，不一定要持續記錄個人影像。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "加拿大",
+        "library_id": "MCCANN02",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "公共性亦包含免於持續監視的自由。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "先比較被動視線、人工照護和攝影監控三類干預的權利成本。"
+  ],
+  "applies_when_zh": "適用於需要安全性與隱私並存的公共空間。",
+  "not_applicable_when_zh": "不應把可視度最大化當作唯一安全目標。",
+  "debates_zh": "公共性亦包含免於持續監視的自由。",
+  "sources": [
+    {
+      "library_id": "MCCANN02",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "WOLCH14",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "批判都市地理與城市權",
+  "region": "加拿大",
+  "curriculum_refs": [
+    {
+      "school": "MIT",
+      "course": "11.330J Theory of City Form",
+      "topic": "安全：CPTED 與批評"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-PUB-041"
+  ]
+}

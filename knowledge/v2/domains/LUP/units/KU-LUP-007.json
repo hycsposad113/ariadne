@@ -1,0 +1,98 @@
+{
+  "id": "KU-LUP-007",
+  "domain": "LUP",
+  "subtopic": "土地使用分類",
+  "type": "empirical_finding",
+  "title_zh": "混合用途指標須說明分區和觀察尺度",
+  "title_en": "Mixed-use index in Dutch towns",
+  "summary_zh": "樣本僅四城且非因果設計；MXI 計算法依用途分類而定。 把混合用途公式、建築樓層和分母明列。 研究設計：GIS 指標整合與 GPS 行為紀錄初步檢查；地區：荷蘭。",
+  "key_points_zh": [
+    "整合框架將用途混合、路網整合與建築密度放在同一 GIS 分析，並以荷蘭新舊城比較作初步檢查。",
+    "研究設計：GIS 指標整合與 GPS 行為紀錄初步檢查；地區：荷蘭",
+    "限制：樣本僅四城且非因果設計；MXI 計算法依用途分類而定。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "整合框架將用途混合、路網整合與建築密度放在同一 GIS 分析，並以荷蘭新舊城比較作初步檢查。",
+        "effect_or_value": "4 個荷蘭城鎮；老城混合用途指標高於三座新城",
+        "study_design": "GIS 指標整合與 GPS 行為紀錄初步檢查",
+        "context_region": "荷蘭",
+        "library_id": "YE14",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "把混合用途公式、建築樓層和分母明列。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "把混合用途公式、建築樓層和分母明列。",
+      "tradeoff_zh": "可回應研究指出的條件，但需要本地測量與實施成本評估。",
+      "library_ids": [
+        "YE14",
+        "ROY05"
+      ]
+    },
+    {
+      "option_zh": "在「混合用途指標須說明分區和觀察尺度」的來源情境裡，居住、商業、製造、公共設施和開放空間可按不同規劃問題再分層；落到設計時還要按整合框架將用途混合、路網整合與建築密度放在同一 GIS 分析，並以荷蘭新舊城比較作初步檢查調整。",
+      "tradeoff_zh": "保留其他空間策略，但可能降低該研究所見的某項關聯。",
+      "library_ids": [
+        "YE14",
+        "ROY05"
+      ]
+    }
+  ],
+  "applies_when_zh": "用於與荷蘭研究情境可比、且量測定義相近的分析。",
+  "not_applicable_when_zh": "樣本僅四城且非因果設計；MXI 計算法依用途分類而定。",
+  "debates_zh": "樣本僅四城且非因果設計；MXI 計算法依用途分類而定。",
+  "sources": [
+    {
+      "library_id": "YE14",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "ROY05",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "整合形態診斷；非正式都市化",
+  "region": "荷蘭；全球南方",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Planning Complex Cities",
+      "topic": "土地使用分類"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Cities by Design",
+      "topic": "土地使用分類"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "土地使用分類"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Sustainable Futures by Design",
+      "topic": "土地使用分類"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-LUP-001",
+    "KU-LUP-002",
+    "KU-LUP-003"
+  ],
+  "counter_unit_ids": [
+    "KU-LUP-005"
+  ]
+}

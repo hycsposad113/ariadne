@@ -1,0 +1,93 @@
+{
+  "id": "KU-ARC-069",
+  "domain": "ARC",
+  "subtopic": "荷蘭 Bbl",
+  "type": "value_range",
+  "title_zh": "荷蘭新建住宅居室的最小面積與寬度",
+  "title_en": "Bbl room area and width work-version values",
+  "summary_zh": "Bbl 第 4.164 條：居住區至少 5 m²；居住區與居室寬度至少 1.8 m；至少一個居住區內有一間 ≥11 m²、寬 ≥3 m 的居室。 M4H 方案須以實際戶型與地方規則檢核「荷蘭新建住宅居室的最小面積與寬度」，條文依據見 sources。",
+  "key_points_zh": [
+    "核心主張：Bbl 第 4.164 條：居住區至少 5 m²；居住區與居室寬度至少 1.8 m；至少一個居住區內有一間 ≥11 m²、寬 ≥3 m 的居室。",
+    "荷蘭新建住宅居室的最小面積與寬度：以實際戶型平面量測檢核（Bbl art. 4.164 lid 1–3），地方計畫規則另計。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "Bbl 第 4.164 條：居住區至少 5 m²；居住區與居室寬度至少 1.8 m；至少一個居住區內有一間 ≥11 m²、寬 ≥3 m 的居室。",
+        "effect_or_value": "居住區 ≥5 m²、寬 ≥1.8 m；至少一間居室 ≥11 m² 且寬 ≥3 m",
+        "study_design": "跨地域設計參照綜整；數值狀態依 claim_verification 註記",
+        "context_region": "荷蘭",
+        "library_id": "BBL_2026",
+        "locator": "art. 4.164 lid 1–3；https://wetten.overheid.nl/BWBR0041297/2026-07-01；存取 2026-10-08",
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008"
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "provisional stay-room dimensions",
+      "range": "居住區 ≥5 m²、寬 ≥1.8 m；至少一間居室 ≥11 m² 且寬 ≥3 m",
+      "unit": "m²；m",
+      "context": "地區：荷蘭；項目：荷蘭新建住宅居室的最小面積與寬度；出處：Bbl art. 4.164 lid 1–3（wetten.overheid.nl 現行版 2026-07-01，Claude 2026-10-08 直讀條文）；全國建築技術下限；非本基地法規（地方計畫規則另計）。",
+      "library_id": "BBL_2026"
+    }
+  ],
+  "design_implications_zh": [
+    "在實際住宅平面標出哪一間居室滿足面積與寬度條件，逐一核對列別和量測口徑。"
+  ],
+  "applies_when_zh": "用於方案前期檢查「荷蘭新建住宅居室的最小面積與寬度」相關的量體、平面或空間品質。",
+  "not_applicable_when_zh": "「荷蘭新建住宅居室的最小面積與寬度」的區間不得單獨作為許可、消防、結構或基地法規判定。",
+  "debates_zh": "面積足夠但狹長的居室可能難以佈置；規範達標也不能替代家具測試。",
+  "sources": [
+    {
+      "library_id": "BBL_2026",
+      "claim_id": "C1",
+      "locator": "art. 4.164 lid 1–3"
+    }
+  ],
+  "source_count_flag": "SINGLE_SOURCE",
+  "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+  "tradition": "建築設計與住宅類型學",
+  "region": "荷蘭",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Housing and the City / Design of the Urban Fabric",
+      "topic": "建築尺度與住宅平面"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "建築尺度與街道界面"
+    },
+    {
+      "school": "MIT",
+      "course": "Architecture and Urban Design",
+      "topic": "建築尺度與空間型態"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "建築尺度與公共生活"
+    }
+  ],
+  "check": {
+    "method_zh": "量測完成面內的最小淨寬與淨面積，對照現行 Bbl 表後再更新本值。",
+    "inputs": [
+      "荷蘭 Bbl",
+      "尺寸／面積圖層",
+      "適用地區與用途標籤"
+    ],
+    "logic_zh": "將量測輸入轉成明確尺寸、比例或空間關係；越界只觸發複核，不自動取代設計決策。",
+    "limitations_zh": "量測結果只觸發「荷蘭新建住宅居室的最小面積與寬度」的複核，不得單獨作為許可或法規判定。"
+  },
+  "version": "kb2-arc-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-ARC-067",
+    "KU-ARC-068",
+    "KU-ARC-070",
+    "KU-ARC-071",
+    "KU-ARC-072"
+  ]
+}

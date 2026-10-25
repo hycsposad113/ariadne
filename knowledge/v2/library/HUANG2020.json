@@ -1,0 +1,45 @@
+{
+  "id": "HUANG2020",
+  "title": "Impacts of Tree Canopy Cover on Microclimate and Human Thermal Comfort in a Shallow Street Canyon in Wuhan, China",
+  "authors": [
+    "Zhuodi Huang",
+    "Changguang Wu",
+    "Mingjun Teng",
+    "Yaoyu Lin"
+  ],
+  "year": 2020,
+  "venue_or_publisher": "Atmosphere",
+  "doi": "https://doi.org/10.3390/atmos11060588",
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "樹冠與微氣候",
+  "region": "Wuhan, China",
+  "method": "淺街谷樹冠覆蓋案例研究",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "題名確認研究分析武漢淺街谷的樹冠覆蓋、微氣候與人體熱舒適；效果量尚未由摘要核對。",
+      "strength": "THEORETICAL",
+      "scope_zh": "只支持此研究明確的議題、樣本地區與方法；不直接生成 M4H 數值、法規或工程容量。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref",
+    "query": {
+      "title": "Impacts of Tree Canopy Cover on Microclimate and Human Thermal Comfort in a Shallow Street Canyon in Wuhan, China",
+      "author": "Zhuodi Huang",
+      "year": 2020,
+      "api_query": "urban microclimate street canyon solar access outdoor thermal comfort wind comfort shade street trees"
+    },
+    "matched_record_id": "10.3390/atmos11060588",
+    "checked_at_utc": "2026-10-08T10:08:21Z",
+    "match_notes_zh": "以 Crossref 公開書目記錄比對書名、作者與年份；摘要文字未保存到 repository。"
+  },
+  "limitations_zh": "只保留書目與自行撰寫的範圍摘要；除標示 ABSTRACT_REVIEW 者外，內容未由摘要核對，沒有下載全文。",
+  "critique_relationship_zh": "本記錄不宣稱與其他書目存在直接互引或逐一反駁關係。",
+  "metadata_licence_zh": "公開 API 書目欄位；精確 metadata licence 未核驗，標 UNKNOWN。"
+}

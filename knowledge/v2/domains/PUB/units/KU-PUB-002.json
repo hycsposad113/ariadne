@@ -1,0 +1,75 @@
+{
+  "id": "KU-PUB-002",
+  "domain": "PUB",
+  "subtopic": "廣場尺度與圍合",
+  "type": "value_range",
+  "title_zh": "移動活動的觀察距離",
+  "title_en": "Visible movement range",
+  "summary_zh": "Gehl 將人群移動的可辨識尺度描述在約百公尺的量級。這項觀察可協助討論廣場是否能被遠處路徑感知，而不是宣稱百公尺內都會形成互動。坡度、遮蔽物和視覺注意力會使同一幾何距離產生不同效果。開放景觀可能提升可讀性，也可能犧牲遮蔭與私密。",
+  "key_points_zh": [
+    "Gehl（2010）以約 100 m 為「社交視域」上限：此距離內可辨識人形與動作",
+    "這項觀察可協助討論廣場是否能被遠處路徑感知，而不是宣稱百公尺內都會形成互動"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "Gehl（2010）以約 100 m 為「社交視域」上限：此距離內可辨識人形與動作。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "美國",
+        "library_id": "GEHL10",
+        "locator": null,
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+        "limitations_zh": "開放景觀可能提升可讀性，也可能犧牲遮蔭與私密。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "對重要入口和公共活動節點做視域分析後，仍須以行走觀察核對實際可見性。"
+  ],
+  "applies_when_zh": "適用於辨認場域在街道網絡中的可讀性。",
+  "not_applicable_when_zh": "不能轉成每個廣場都需保持無遮蔽的硬性要求。",
+  "debates_zh": "開放景觀可能提升可讀性，也可能犧牲遮蔭與私密。",
+  "sources": [
+    {
+      "library_id": "GEHL10",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "WHYTE80",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "JACOBS61",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "公共生活觀察",
+  "region": "美國",
+  "curriculum_refs": [
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "廣場尺度與圍合"
+    }
+  ],
+  "version": "2.0.0",
+  "values": [
+    {
+      "name": "移動活動的觀察距離",
+      "range": "約 100 m",
+      "unit": "公尺",
+      "context": "Gehl 公共生活經典尺度的概略量級；地形、天候及觀察者會改變視距。；「移動活動的觀察距離」僅供其研究脈絡內比較，不構成本基地法規；來源所列地域：丹麥、跨地域。",
+      "library_id": "GEHL10"
+    }
+  ],
+  "related_unit_ids": [
+    "KU-PUB-001",
+    "KU-PUB-003"
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "id": "KU-CLI-013",
+  "domain": "CLI",
+  "subtopic": "街谷高寬比（H/W）",
+  "type": "value_range",
+  "title_zh": "用多組 H/W 情境做敏感度分析",
+  "title_en": "用多組 H/W 情境做敏感度分析",
+  "summary_zh": "街谷高寬比 H/W 是建築平均高度除以街道淨寬的幾何指標。經典都市氣候理論以較淺與較深的街谷對照日照、長波散熱和空氣交換，但朝向與來風會改變結果。約 0.5 與 2 的分界只供初步比較，需由指揮官交叉核對後再用於分類。",
+  "key_points_zh": [
+    "數值分組需說明街高和街寬的量測方式。",
+    "敏感度測試揭示方向，不會產生通用最佳值。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "library_id": "OKE2017",
+        "claim_zh": "初步形態比較可把 H/W 約 ≤0.5 視為較淺、約 ≥2 視為較深的街谷；朝向和熱物理情境仍會改變結果。",
+        "effect_or_value": "本文先保留比較欄位，具體範圍待來源交叉核對。",
+        "study_design": "都市氣候專著",
+        "context_region": "跨氣候帶",
+        "locator": null,
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008"
+      },
+      {
+        "library_id": "YE14",
+        "claim_zh": "荷蘭新舊城案例將路網整合、密度與混合用途聯合診斷，初步行為資料檢驗並非通用因果模型；本單元 KU-CLI-013 對照「街谷高寬比 H/W 是建築平均高度除以街道淨寬的幾何指標」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "ABSTRACT_REVIEW",
+        "effect_or_value": null,
+        "study_design": "GIS／GPS 案例檢驗",
+        "context_region": "荷蘭",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "依基地剖面設定多個比例方案後比較日照和風。",
+    "分開檢查街道中心與兩側立面。"
+  ],
+  "applies_when_zh": "適用於方案初期的截面參數比選。",
+  "not_applicable_when_zh": "數值分組待來源查證，且不是本基地法規。",
+  "debates_zh": "常用情境不代表普遍舒適門檻，不應把研究變數轉成規範。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "OKE2017",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "YE14",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "街谷比例研究",
+  "region": "炎熱乾燥氣候；跨氣候帶",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "街谷高寬比（H/W）"
+    },
+    {
+      "school": "MIT",
+      "course": "Theory of City Form",
+      "topic": "街谷高寬比（H/W）"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0",
+  "values": [
+    {
+      "name": "街谷高寬比 H/W 的淺谷與深谷對照",
+      "range": "H/W ≲ 0.5；H/W ≳ 2",
+      "unit": "dimensionless",
+      "context": "用途：以「街谷高寬比 H/W 的淺谷與深谷對照」作為來源情境參照；都市氣候文獻常以低與高 H/W 對照幾何遮蔽和交換；分界為概念分類，非規劃門檻 這不是本基地法規；來源所列地域：跨氣候帶。",
+      "library_id": "OKE2017"
+    }
+  ]
+}

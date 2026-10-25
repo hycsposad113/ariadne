@@ -1,0 +1,81 @@
+{
+  "id": "KU-SYN-017",
+  "domain": "SYN",
+  "subtopic": "自然移動",
+  "type": "empirical_finding",
+  "title_zh": "自然移動與商業吸引的疊加",
+  "title_en": "Natural movement and retail attraction",
+  "summary_zh": "組態指標與街道移動證據的比較分析，研究脈絡為英國案例；摘要未確認具體城市。路網是行人活動的一個條件，吸引點也是另一個條件。街網關係先分配部分穿越機會，零售等吸引用途可能放大沿街通行。限制包括單一研究脈絡不能證明每個高整合街段都有高人流。",
+  "key_points_zh": [
+    "路網是行人活動的一個條件，吸引點也是另一個條件",
+    "限制：單一研究脈絡不能證明每個高整合街段都有高人流",
+    "效果或方向：街網關係先分配部分穿越機會，零售等吸引用途可能放大沿街通行"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "自然移動與商業吸引的疊加｜路網是行人活動的一個條件，吸引點也是另一個條件",
+        "effect_or_value": "街網關係先分配部分穿越機會，零售等吸引用途可能放大沿街通行",
+        "study_design": "組態指標與街道移動證據的比較分析",
+        "context_region": "英國案例；摘要未確認具體城市",
+        "library_id": "HILLIER93",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "自然移動與商業吸引的疊加｜日常用途、街道互動及多樣性可作城市生活的討論起點；不能從外觀推定安全或社群",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "JACOBS61",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "設計軸線和公共生活節點時同時檢查用途"
+  ],
+  "applies_when_zh": "若本地觀察單位與英國案例；摘要未確認具體城市的研究脈絡可對照，可用「路網是行人活動的一個條件，吸引點也是另一個條件」作為自然移動的比較線索。",
+  "not_applicable_when_zh": "這項英國案例；摘要未確認具體城市的研究結果不能單獨證明因果或預測其他城市的街段；原研究單一研究脈絡不能證明每個高整合街段都有高人流。",
+  "debates_zh": "關聯能否外推；單一研究脈絡不能證明每個高整合街段都有高人流；檢視「自然移動與商業吸引的疊加」的研究解讀時，還需判斷「限制：單一研究脈絡不能證明每個高整合街段都有高人流」會如何改變方案結論。",
+  "sources": [
+    {
+      "library_id": "HILLIER93",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "JACOBS61",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "組態與行人移動理論",
+  "region": "英國案例；摘要未確認具體城市",
+  "curriculum_refs": [
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.330J Theory of City Form",
+      "topic": "自然移動：課綱對應主題"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Critical Debates in Urban Design",
+      "topic": "自然移動：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-SYN-018",
+    "KU-SYN-019",
+    "KU-SYN-020",
+    "KU-SYN-021",
+    "KU-SYN-022",
+    "KU-SYN-023",
+    "KU-SYN-024"
+  ]
+}

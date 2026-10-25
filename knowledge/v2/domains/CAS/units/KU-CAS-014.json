@@ -1,0 +1,101 @@
+{
+  "id": "KU-CAS-014",
+  "domain": "CAS",
+  "subtopic": "港區轉型案例",
+  "type": "case",
+  "title_zh": "London Docklands：開發公司模式、公共投資與分配爭議",
+  "title_en": "London Docklands: Development Corporation, Public Investment, and Distributional Debate",
+  "summary_zh": "London Docklands Development Corporation 於 1981 年成立，透過土地整備、交通投資和市場導向開發推動前港區轉型。Greater London Authority 的回顧報告列出截至 1992–93 年的住宅、人口、職位與商業空間產出，並把它們放在公共投資帶動私人投資的說法中。Florio 與 Brownill 專門重新檢視 LDDC 的評價史，提醒結案敘事本身也受政治立場影響，因此產出數字不能直接等同於居民福祉或政策因果效果。",
+  "key_points_zh": [
+    "LDDC 的 2,200 公頃開發區包含土地與水域，與局部 Canary Wharf 地塊不可混用。",
+    "公共投入所帶來的交通與土地升值效果，需和住房負擔及投資收益去向一起檢查。"
+  ],
+  "evidence": {
+    "strength": "CASE_EVIDENCE",
+    "findings": [
+      {
+        "claim_zh": "GLA 回顧將 Docklands 描述為約 2,200 公頃的土地與水域，並報告至 1992–93 年已建成 16,700 戶住宅、人口增加 64%、創造約 40,000 個新職位。",
+        "effect_or_value": "官方回顧統計；特定時點的累計產出",
+        "study_design": "政府專案回顧與行政統計彙整",
+        "context_region": "英國倫敦 Docklands",
+        "library_id": "GLA_DOCKLANDS_REVIEW2018",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "Florio 與 Brownill 的文章以 LDDC 結案後的批評與評價為研究對象，標示出政策成效如何被重新詮釋的學術爭論。",
+        "effect_or_value": "政策評價史與批判分析",
+        "study_design": "政策批判與文本分析",
+        "context_region": "英國倫敦 Docklands",
+        "library_id": "FLORIO_BROWNILL2000",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "大型更新需並列土地取得、交通支出、住宅交付、就業品質與受益者分布，而不是只列投資額與建成量。",
+    "把開發機構的目標、行政產出和學術評估分開標記，後續才能檢驗政策因果。"
+  ],
+  "applies_when_zh": "以專責開發公司、土地整備和交通投資帶動長期棕地轉型時。",
+  "not_applicable_when_zh": "僅有單一業主的小型更新案，或土地治理和基礎設施不存在公私協調時。",
+  "debates_zh": "LDDC 常被視為以企業化治理加速開發的典型，也受到民主問責、地方權力和住房負擔批評。GLA 報告的成長統計描述區域變化，不能排除宏觀經濟與其他投資的作用，更無法單獨判定公共投入的收益由誰取得。",
+  "sources": [
+    {
+      "library_id": "GLA_DOCKLANDS_REVIEW2018",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "FLORIO_BROWNILL2000",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "英國企業化都市治理與開發公司模式",
+  "region": "西歐／英國倫敦",
+  "curriculum_refs": [
+    {
+      "school": "Harvard GSD",
+      "course": null,
+      "topic": "都市開發與公共部門治理"
+    },
+    {
+      "school": "MIT",
+      "course": null,
+      "topic": "公共私營投資與城市土地政治"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": null,
+      "topic": "再生效益分配與民主問責"
+    },
+    {
+      "school": "TU Delft",
+      "course": null,
+      "topic": "港區分期與區域交通"
+    }
+  ],
+  "case": {
+    "location": "倫敦 Docklands，英國",
+    "period": "LDDC 於 1981 年成立，1998 年結束；更新及延伸發展持續至今",
+    "area_ha": 2200,
+    "fsi": null,
+    "gsi": null,
+    "program_mix": "商業與工業空間、住宅、零售、交通及公共空間；不同子區用途比例不一。",
+    "key_strategies_zh": [
+      "以特定開發機構取得土地、整備基礎設施並吸引民間投資。",
+      "先建造區域鐵路與地鐵連接，再推動金融與商業核心。"
+    ],
+    "outcomes_zh": [
+      "GLA 彙整的 1992–93 年行政資料列有住宅、職位及人口增幅；這些是區域產出統計，不是反事實效果。",
+      "Docklands 的交通網絡與大型金融區已改變倫敦東部的商業定位。"
+    ],
+    "critiques_zh": [
+      "公私投資的乘數敘事需檢查公共交通造成的土地增值最後由誰取得。",
+      "累計住宅和就業數量沒有說明可負擔性、職位薪資、居民遷移及地方決策權。"
+    ]
+  },
+  "version": "v2.0"
+}

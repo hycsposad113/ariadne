@@ -1,0 +1,107 @@
+{
+  "id": "KU-PUB-067",
+  "domain": "PUB",
+  "subtopic": "CPTED 證據與公共性批評",
+  "type": "critique",
+  "title_zh": "CPTED 有研究支持，也需要檢查證據與排除效應",
+  "title_en": "CPTED evidence and the risks of exclusion",
+  "summary_zh": "Cozens、Saville 與 Hillier 的文章是批判性回顧，而非效果保證：摘要同時提到支持性研究、證據爭議和難以證明的因果。公共空間管理研究再提醒，更多監看、門禁或排斥性家具可能限制某些人使用場所。安全、隱私和公共性需在同一張圖上比較。",
+  "key_points_zh": [
+    "CPTED 構件常被一起部署，單一元件的獨立效果不容易拆分。",
+    "「看得到」不等於犯罪下降，也不等於不同人都敢使用。",
+    "高監控和排斥性管理可能改變誰被視為合法使用者。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "library_id": "COZENS2005",
+        "claim_zh": "摘要明言 CPTED 研究證據仍受批評且尚難定論，同時承認已有支持其作用的研究。",
+        "effect_or_value": null,
+        "study_design": "批判性研究回顧",
+        "context_region": "跨地域",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW",
+        "limitations_zh": "本文不是可直接套用的 M4H 效果量，也不提供統一安全指標。"
+      },
+      {
+        "library_id": "CARMONA10",
+        "claim_zh": "公共空間批評文獻同時檢視管理過度與管理不足，提醒安全安排會改變公共性。",
+        "effect_or_value": null,
+        "study_design": "公共空間批評論述",
+        "context_region": "跨地域",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW",
+        "limitations_zh": "這是較廣泛的公共空間治理批評，不是 CPTED 介入效果試驗。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "每項安全措施都寫出受益者、可能被拒絕者、影像／資料保留方式與申訴渠道。",
+    "以匿名的行為觀察、事件分類和多群體訪談分開驗證安全結果。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "優先採用照明維護、清楚求助方式和日常活動支援。",
+      "tradeoff_zh": "較少依賴身份監控，但效果需要長時間維護和觀察。",
+      "library_ids": [
+        "COZENS2005",
+        "CARMONA10"
+      ]
+    },
+    {
+      "option_zh": "在有具體風險證據的節點採用定向監控並設明確期限。",
+      "tradeoff_zh": "可針對特定問題，卻增加隱私、標籤化和公共性受損風險。",
+      "library_ids": [
+        "CARMONA10",
+        "COZENS2005"
+      ]
+    }
+  ],
+  "applies_when_zh": "適用於評估 CCTV、門禁、自然監看與防排斥措施。",
+  "not_applicable_when_zh": "不適用於把「設計符合 CPTED」當作犯罪成效、合法性或包容性的證明。",
+  "debates_zh": "安全措施需評估誤報、影像偏差、少數群體被過度盤查和無障礙性；只看平均犯罪數會遮住不同群體的代價。",
+  "counter_unit_ids": [
+    "KU-PUB-038"
+  ],
+  "related_unit_ids": [
+    "KU-PUB-036",
+    "KU-PUB-037",
+    "KU-PUB-042"
+  ],
+  "sources": [
+    {
+      "library_id": "COZENS2005",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "CARMONA10",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "CPTED 證據評估與公共空間治理批評",
+  "region": "跨地域",
+  "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+  "curriculum_refs": [
+    {
+      "school": "UCL Bartlett",
+      "course": "Critical Debates in Urban Design",
+      "topic": "CPTED 證據與公共性批評：課綱對應主題"
+    }
+  ],
+  "version": "kb2-gaps-2026-10-08",
+  "check": {
+    "method_zh": "在介入前後用相同事件定義與地理範圍比對犯罪、求助、停留和被排除經驗，並記錄設備與照明的實際運作狀態。",
+    "inputs": [
+      "介入前基線與可比對照區",
+      "監控／門禁範圍與保留政策",
+      "分群使用者訪談與事件資料"
+    ],
+    "logic_zh": "需同時報告暴露量、事件移轉和使用者群體差異；因果推論必須處理同期警政或社區政策變化。",
+    "limitations_zh": "本單元引用的是一篇批判性回顧和一篇公共空間治理評論；沒有把它們冒稱為專門的統合分析或介入試驗。"
+  },
+  "case": null
+}

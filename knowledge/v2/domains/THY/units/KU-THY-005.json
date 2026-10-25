@@ -1,0 +1,71 @@
+{
+  "id": "KU-THY-005",
+  "domain": "THY",
+  "subtopic": "Sitte 與城市藝術",
+  "type": "theory",
+  "title_zh": "Sitte 圍合廣場",
+  "title_en": "Sitte enclosed squares",
+  "summary_zh": "Sitte 以歷史廣場檢討現代都市設計只重交通和幾何整齊的傾向。廣場的空間效果來自連續邊界、入口安排及重要建築的相互關係，而非孤立物件的對稱排列。在平面與眼平視角並置檢查入口是否破壞圍合，以及建築如何界定廣場。",
+  "key_points_zh": [
+    "在平面與眼平視角並置檢查入口是否破壞圍合，以及建築如何界定廣場。",
+    "以歐洲歷史中心為範本容易忽略其他文化和大型交通需求。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "Sitte 以歷史廣場檢討現代都市設計只重交通和幾何整齊的傾向。廣場的空間效果來自連續邊界、入口安排及重要建築的相互關係，而非孤立物件的對稱排列。",
+        "library_id": "SITTE1965",
+        "locator": null,
+        "study_design": "理論／方法綜述；非基地實測",
+        "effect_or_value": null,
+        "context_region": null,
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008"
+      },
+      {
+        "claim_zh": "Cullen 的連續視景討論從步行時的圍合與視線變化，補充 Sitte 的廣場空間分析。",
+        "library_id": "CULLEN1961",
+        "locator": null,
+        "study_design": "理論／視覺設計",
+        "effect_or_value": null,
+        "context_region": "英國、歐洲",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "在平面與眼平視角並置檢查入口是否破壞圍合，以及建築如何界定廣場。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "縮窄開口可增強室外房間感，但可能降低視線通透和疏散彈性。",
+      "tradeoff_zh": "以歐洲歷史中心為範本容易忽略其他文化和大型交通需求。",
+      "library_ids": [
+        "SITTE1965"
+      ]
+    }
+  ],
+  "applies_when_zh": "用於釐清「Sitte 圍合廣場」涉及的空間、制度與行動選擇。",
+  "not_applicable_when_zh": "「Sitte 圍合廣場」不能直接替代基地的實測、法規或人類批准。",
+  "debates_zh": "以歐洲歷史中心為範本容易忽略其他文化和大型交通需求。",
+  "sources": [
+    {
+      "library_id": "SITTE1965",
+      "locator": null
+    },
+    {
+      "library_id": "CULLEN1961",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+  "curriculum_refs": [
+    {
+      "school": "MIT",
+      "course": null,
+      "topic": "編者主題對照，非已核實課程指定閱讀：Sitte 圍合廣場"
+    }
+  ],
+  "version": "2.0.0-theory-v3"
+}

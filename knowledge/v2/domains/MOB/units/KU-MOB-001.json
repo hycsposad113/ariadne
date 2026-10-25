@@ -1,0 +1,81 @@
+{
+  "id": "KU-MOB-001",
+  "domain": "MOB",
+  "subtopic": "建成環境與旅運（3D／5D）",
+  "type": "empirical_finding",
+  "title_zh": "建成環境與旅運彈性",
+  "title_en": "Travel elasticities of built-environment measures",
+  "summary_zh": "截至 2009 年建成環境—旅運研究的加權統合分析，研究脈絡為美國規劃研究為主的跨研究集合。目的地可及性與街網設計和 VMT 關聯較強，步行與多樣用途、交叉口密度和近距離目的地關聯較強。各建成環境變數加權平均旅行彈性絕對值均不超過 0.39，多數明顯更低。限制包括研究樣本偏小且少有自我選擇控制，彈性誤差和信賴區間未知。",
+  "key_points_zh": [
+    "目的地可及性與街網設計和 VMT 關聯較強，步行與多樣用途、交叉口密度和近距離目的地關聯較強",
+    "限制：研究樣本偏小且少有自我選擇控制，彈性誤差和信賴區間未知",
+    "效果或方向：各建成環境變數加權平均旅行彈性絕對值均不超過 0.39，多數明顯更低"
+  ],
+  "evidence": {
+    "strength": "STRONG_EMPIRICAL",
+    "findings": [
+      {
+        "claim_zh": "建成環境與旅運彈性｜目的地可及性與街網設計和 VMT 關聯較強，步行與多樣用途、交叉口密度和近距離目的地關聯較強",
+        "effect_or_value": "各建成環境變數加權平均旅行彈性絕對值均不超過 0.39，多數明顯更低",
+        "study_design": "截至 2009 年建成環境—旅運研究的加權統合分析",
+        "context_region": "美國規劃研究為主的跨研究集合",
+        "library_id": "EWING10",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "建成環境與旅運彈性｜交通專業知識具有殖民歷史；應讓地方概念與既有模型對話，而非把西方方法當唯一標準",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "SCHWANEN18",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "以多項環境特徵作情境診斷，不把單一密度當成模式預測"
+  ],
+  "applies_when_zh": "若本地觀察單位與美國規劃研究為主的跨研究集合的研究脈絡可對照，可用「目的地可及性與街網設計和 VMT 關聯較強，步行與多樣用途、交叉口密度和近距離目的地關聯較強」作為建成環境與旅運（3D／5D）的比較線索。",
+  "not_applicable_when_zh": "這項美國規劃研究為主的跨研究集合的研究結果不能單獨證明因果或預測其他城市的街段；原研究研究樣本偏小且少有自我選擇控制，彈性誤差和信賴區間未知。",
+  "debates_zh": "關聯能否外推；研究樣本偏小且少有自我選擇控制，彈性誤差和信賴區間未知；檢視「建成環境與旅運彈性」的研究解讀時，還需判斷「限制：研究樣本偏小且少有自我選擇控制，彈性誤差和信賴區間未知」會如何改變方案結論。",
+  "sources": [
+    {
+      "library_id": "EWING10",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "SCHWANEN18",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "建成環境與旅運研究",
+  "region": "美國規劃研究為主的跨研究集合",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "建成環境與旅運（3D／5D）：課綱對應主題"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Urban Design Contexts and Operations",
+      "topic": "建成環境與旅運（3D／5D）：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-MOB-002",
+    "KU-MOB-003",
+    "KU-MOB-004",
+    "KU-MOB-005",
+    "KU-MOB-006",
+    "KU-MOB-007",
+    "KU-MOB-008"
+  ]
+}

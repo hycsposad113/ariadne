@@ -1,0 +1,74 @@
+{
+  "id": "KU-SYN-073",
+  "domain": "SYN",
+  "subtopic": "自然移動",
+  "type": "theory",
+  "title_zh": "自然移動：組態與通過潛力",
+  "title_en": "Natural movement: configuration and movement potential",
+  "summary_zh": "Hillier 等人提出自然移動理論，主張街網組態會在不依賴特定目的地吸引之前，先分配不同路段的通過潛力。軸線或線段較容易穿越的空間可能承接較多自然流量，實際人流仍會被土地使用、交通方式和地方條件改變。它是可檢驗的機制假說，不是每條高整合街都有人流的定律。",
+  "key_points_zh": [
+    "組態影響潛在通過路徑，但不單獨決定實際人流。",
+    "測試時需分開記錄街網指標、目的地吸引和行人計數。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "Hillier 等人提出街網組態會分配自然移動潛力，並以城市街道案例分析行人流。",
+        "library_id": "HILLIER93",
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+        "effect_or_value": null,
+        "study_design": "倫敦街網案例與空間語法理論",
+        "context_region": "英國",
+        "locator": null
+      },
+      {
+        "claim_zh": "交通研究提醒街道使用和城市規模也會影響觀察到的移動。",
+        "library_id": "CAMPBELL96",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "交通及城市街道研究",
+        "context_region": "跨地域城市研究",
+        "locator": null
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "把網路組態預測和現地人流觀察分開保存，再檢查商業目的地或公共交通如何改變兩者關係。"
+  ],
+  "applies_when_zh": "測試街網組態是否與觀察到的通過移動相關時，將潛力模型和人流計數並列。",
+  "not_applicable_when_zh": "自然移動理論不能替代目的地調查或行人計數，也不能當作因果係數。",
+  "debates_zh": "觀察到的活動吸引可能既受人流影響，又反過來改變路徑選擇；模型需和替代解釋比較。",
+  "sources": [
+    {
+      "library_id": "HILLIER93",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "CAMPBELL96",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "城市交通與街道理論",
+  "region": "空間語法與行人移動",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Methods of Analysis & Imagination",
+      "topic": "自然移動：課綱對應主題"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Cities by Design",
+      "topic": "自然移動：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-SYN-019"
+  ]
+}

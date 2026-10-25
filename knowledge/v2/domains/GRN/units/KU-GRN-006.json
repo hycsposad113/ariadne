@@ -1,0 +1,61 @@
+{
+  "id": "KU-GRN-006",
+  "domain": "GRN",
+  "subtopic": "公園類型與階層",
+  "type": "concept",
+  "title_zh": "河岸綠地同時是公共和生態邊界",
+  "title_en": "Riverfront green space has dual roles",
+  "summary_zh": "河岸綠帶可連接步行、洪水空間和水生棲地。硬質親水平台可能增加近水活動，同時改變岸線生境。洪水風險和季節水位使設計不宜固定。可達性和自然岸線連續性常需分段協調。分區配置親水、滯洪和安靜棲地，並預留洪水後修復方式。",
+  "key_points_zh": [
+    "河岸綠帶可連接步行、洪水空間和水生棲地",
+    "硬質親水平台可能增加近水活動，同時改變岸線生境"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "河岸綠帶可連接步行、洪水空間和水生棲地。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "跨國",
+        "library_id": "ELMQVIST13",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "可達性和自然岸線連續性常需分段協調。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "分區配置親水、滯洪和安靜棲地，並預留洪水後修復方式。"
+  ],
+  "applies_when_zh": "適用於水岸公園與城市防洪整合。",
+  "not_applicable_when_zh": "不能把單一親水型態套用於所有河段。",
+  "debates_zh": "可達性和自然岸線連續性常需分段協調。",
+  "sources": [
+    {
+      "library_id": "ELMQVIST13",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "AHERN11",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "都市社會生態系統",
+  "region": "跨國",
+  "curriculum_refs": [
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "公園類型與階層"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-GRN-005",
+    "KU-GRN-007"
+  ]
+}

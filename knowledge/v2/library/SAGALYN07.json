@@ -1,0 +1,27 @@
+{
+  "id": "SAGALYN07",
+  "title": "Public/Private Development",
+  "authors": [
+    "Lynne B. Sagalyn"
+  ],
+  "year": 2007,
+  "kind": "ACADEMIC_PAPER",
+  "claims": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref",
+    "query": {
+      "title": "Public Private Development Lessons from History Research and Practice",
+      "author": "Lynne Sagalyn",
+      "year": 2007
+    },
+    "matched_record_id": "10.1080/01944360708976133",
+    "checked_at_utc": "2026-10-08T13:42:59Z",
+    "match_notes_zh": "人工核對 Crossref 題名、完整作者與年份；保存實際命中書目，主張尚未交叉核對。",
+    "receipt_path": "artifacts/kb2-theory-v3/resume-source-lookups.json"
+  },
+  "limitations_zh": "不以書目命中證明主張；主張待原著交叉核對。",
+  "metadata_licence_zh": "Metadata only; licence UNKNOWN",
+  "doi": "10.1080/01944360708976133",
+  "venue_or_publisher": "Journal of the American Planning Association"
+}

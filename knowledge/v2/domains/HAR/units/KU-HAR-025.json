@@ -1,0 +1,66 @@
+{
+  "id": "KU-HAR-025",
+  "domain": "HAR",
+  "subtopic": "工業遺產與 adaptive reuse",
+  "type": "design_principle",
+  "title_zh": "加建應保留舊建築可辨識的時間層",
+  "title_en": "Extensions Should Keep the Historic Fabric Legible",
+  "summary_zh": "在既有廠房加建新翼或垂直擴建時，設計需要明確交代新舊構造的接合，而不是用仿古表皮製造同一時期的錯覺。再利用研究中的決策框架把相容性、可逆性和新用途需求列為不同判斷維度。加建是否成功，還取決於防火分區、結構傳力、採光和施工期間能否維持部分使用。",
+  "key_points_zh": [
+    "用剖面表達加建如何影響原有天窗、桁架和裝卸空間。",
+    "把可逆性及結構接口納入設計評估，而非只比較立面語彙。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "適應性再利用決策模型把不同評估因素納入策略判斷。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "跨地域",
+        "library_id": "BULLEN2011",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "遺產建築再利用研究整理實施障礙，說明更新的技術和制度條件不能只靠形式判斷。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "跨地域",
+        "library_id": "YUNG2012",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "用剖面表達加建如何影響原有天窗、桁架和裝卸空間。",
+    "把可逆性及結構接口納入設計評估，而非只比較立面語彙。"
+  ],
+  "applies_when_zh": "工業遺產價值已被盤點，且新增面積是延續使用所需時。",
+  "not_applicable_when_zh": "保留價值集中在屋頂輪廓或完整機械系統、而加建會使其失讀時。",
+  "debates_zh": "新舊對比可能清楚也可能變成品牌化裝飾，判斷須回到構造與使用。",
+  "sources": [
+    {
+      "library_id": "BULLEN2011",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "YUNG2012",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "適應性再利用／遺產治理",
+  "region": "跨地域",
+  "curriculum_refs": [
+    {
+      "school": "UCL Bartlett",
+      "course": null,
+      "topic": "Building adaptation and conservation"
+    }
+  ],
+  "version": "v2.0"
+}

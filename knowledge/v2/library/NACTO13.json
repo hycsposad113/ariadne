@@ -1,0 +1,43 @@
+{
+  "id": "NACTO13",
+  "title": "Urban Street Design Guide",
+  "authors": [
+    "National Association of City Transportation Officials"
+  ],
+  "year": 2013,
+  "venue_or_publisher": "Island Press",
+  "doi": "9781610915342",
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "PROFESSIONAL_GUIDE",
+  "tradition": "完整街道與都市街道設計",
+  "region": [
+    "美國；指南出版脈絡"
+  ],
+  "method": "本次只核對指南的書目資料；具體尺寸表與適用條件待交叉核對。",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "未將指南書目身分視為任何量化推薦已被全文核實。",
+      "strength": "NORMATIVE_PRACTICE",
+      "scope_zh": "只支持此來源已核對的書目或摘要範圍；不提供 M4H 法規、通用因果或未查證的設計門檻。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Open Library",
+    "query": {
+      "title": "Urban Street Design Guide",
+      "author": "National Association of City Transportation Officials",
+      "year": 2013
+    },
+    "matched_record_id": "/works/OL21809369W",
+    "checked_at_utc": "2026-10-08T10:34:37Z",
+    "match_notes_zh": "人工比對公開 API 的書名、作者和年份；摘要只用於核對本地自行撰寫的主張，未保存摘要原文。"
+  },
+  "limitations_zh": "未下載全文；書目查證不等於完整主張或數值驗證。",
+  "critique_relationship_zh": "此處列出的替代來源只供交叉閱讀，不宣稱來源間互引或逐條反駁。",
+  "metadata_licence_zh": "只保存公開 API 書目和自行撰寫的摘要；精確 metadata licence 未核驗，標 UNKNOWN。"
+}

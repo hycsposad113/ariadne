@@ -1,0 +1,61 @@
+{
+  "id": "KU-PUB-030",
+  "domain": "PUB",
+  "subtopic": "活躍立面",
+  "type": "concept",
+  "title_zh": "商業外擺與無消費停留並存",
+  "title_en": "Commercial frontage and non-consumption",
+  "summary_zh": "沿街餐飲可為行人提供可見活動和服務。若最佳位置被消費者專用，無購買力的使用者會失去同樣舒適的停留條件。活動豐富也可能帶來噪音與路徑縮窄。商業支持維護收入，但使用權可能被消費門檻分割。",
+  "key_points_zh": [
+    "沿街餐飲可為行人提供可見活動和服務",
+    "若最佳位置被消費者專用，無購買力的使用者會失去同樣舒適的停留條件"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "沿街餐飲可為行人提供可見活動和服務。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "英國",
+        "library_id": "HILLIER84",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "商業支持維護收入，但使用權可能被消費門檻分割。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "把外擺邊界、自由座位和連續通行空間分別標示及管理。"
+  ],
+  "applies_when_zh": "適用於商業街與公共廣場的界面協調。",
+  "not_applicable_when_zh": "不適用於以商業租戶數量直接評價公共活力。",
+  "debates_zh": "商業支持維護收入，但使用權可能被消費門檻分割。",
+  "sources": [
+    {
+      "library_id": "HILLIER84",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "GEHL10",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "空間語法",
+  "region": "英國",
+  "curriculum_refs": [
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "活躍立面"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-PUB-029",
+    "KU-PUB-031"
+  ]
+}

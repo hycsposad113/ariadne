@@ -1,0 +1,107 @@
+{
+  "id": "KU-MOB-518",
+  "domain": "MOB",
+  "subtopic": "停車政策；最低標準與住宅",
+  "type": "empirical_finding",
+  "title_zh": "最低停車要求會把車位成本帶進住房開發決策",
+  "title_en": "Minimum parking requirements enter housing development decisions",
+  "summary_zh": "Jia 與 Wachs 以 San Francisco 六個鄰里和 hedonic model 檢視住宅停車要求與可負擔性；Manville 的 Los Angeles 研究則把最低標準放進住宅開發法規分析。兩項研究提示強制車位會佔用土地與材料，但在未核實模型係數和當地替代供給前，不應宣稱單一城市會降價多少。",
+  "key_points_zh": [
+    "法定最低車位數是開發條件，不等於住戶的真實停車需求。",
+    "住宅成本需把車位建造、土地、設備和價格轉嫁渠道分開記錄。",
+    "研究場域和法規版本不同，效應不能不加條件地搬到 Rotterdam。"
+  ],
+  "evidence": {
+    "strength": "STRONG_EMPIRICAL",
+    "findings": [
+      {
+        "library_id": "JIA_WACHS1999",
+        "claim_zh": "摘要指出研究以 San Francisco 六個鄰里及 hedonic model 檢視法定停車要求與住宅可負擔性。",
+        "effect_or_value": "研究範圍涵蓋停車要求及住房可負擔性；本卡未抄錄係數",
+        "study_design": "六個鄰里 hedonic 分析",
+        "context_region": "San Francisco, United States",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW",
+        "limitations_zh": "只支持明示的文獻範圍與本次可查證內容；未由書目資料推定未讀數值或因果。"
+      },
+      {
+        "library_id": "MANVILLE2013",
+        "claim_zh": "Crossref 書目確認研究題名聚焦 Los Angeles 的停車要求與住宅開發。",
+        "effect_or_value": null,
+        "study_design": "法規與住宅開發研究",
+        "context_region": "Los Angeles, United States",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "摘要未由 API 回傳，故不推定係數或方向大小。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "先以現有停車占用和住戶車輛資料估計實際需求，再與最低法規要求並排比較。",
+    "在取消或調整最低標準前，評估街道停車、共享車位、公共運輸及交付需求。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "採實際調查和用途分區決定停車數量。",
+      "tradeoff_zh": "降低無效建造成本，但需要可重現的需求調查和共享管理。",
+      "library_ids": [
+        "JIA_WACHS1999",
+        "MANVILLE2013"
+      ]
+    },
+    {
+      "option_zh": "保留最低值作為特定用途的建設底線，另設偏離條件。",
+      "tradeoff_zh": "可維持特定服務需求，卻可能固化高成本和用地占用。",
+      "library_ids": [
+        "MANVILLE2013",
+        "JIA_WACHS1999"
+      ]
+    }
+  ],
+  "applies_when_zh": "適用於分析停車最低標準對住宅成本、土地使用與開發量的影響。",
+  "not_applicable_when_zh": "不適用於從 San Francisco 或 Los Angeles 的樣本係數直接推估鹿特丹住宅售價。",
+  "debates_zh": "停車要求影響可能隨地價、公共交通、建築類型和開發者融資條件改變；住房負擔需要直接觀測而非以車位數代替。",
+  "counter_unit_ids": [
+    "KU-MOB-053"
+  ],
+  "related_unit_ids": [
+    "KU-MOB-050",
+    "KU-MOB-051",
+    "KU-MOB-069"
+  ],
+  "sources": [
+    {
+      "library_id": "JIA_WACHS1999",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "MANVILLE2013",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "停車法規與住宅開發的實證研究",
+  "region": "San Francisco; Los Angeles, United States",
+  "claim_verification": "ABSTRACT_REVIEW",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "停車政策；最低標準與住宅：課綱對應主題"
+    }
+  ],
+  "version": "kb2-gaps-2026-10-08",
+  "check": {
+    "method_zh": "為同一住宅戶型計算法定車位建造成本、土地面積與售租成本，並對照法規要求及實際入住／車輛登記。",
+    "inputs": [
+      "法規版本及最低車位計算式",
+      "建築成本與土地成本",
+      "住戶車位使用和住房價格資料"
+    ],
+    "logic_zh": "以相同住宅面積、年份及街區作比較；模型須揭示是否控制地價、所得、交通與建築類型。",
+    "limitations_zh": "Jia 與 Wachs 的摘要確認六個鄰里及模型，但沒有提供足以採用的效應係數；Manville 記錄在本輪只有書目層級。"
+  },
+  "case": null
+}

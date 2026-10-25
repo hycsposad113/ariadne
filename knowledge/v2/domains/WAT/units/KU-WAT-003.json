@@ -1,0 +1,80 @@
+{
+  "id": "KU-WAT-003",
+  "domain": "WAT",
+  "subtopic": "洪水風險與多層安全",
+  "type": "value_range",
+  "title_zh": "低海拔沿海區的全球分析界線",
+  "title_en": "A global analysis threshold for low-elevation coastal zones",
+  "summary_zh": "McGranahan 等人以低於海拔 10 公尺的連續地帶界定低海拔沿海區，供全球人口與聚落暴露統計使用。這是一個空間分類門檻，並不表示其中每一塊土地都會發生洪水。地方潮差、地形、地層運動和防護設施會改變實際危害。此研究門檻不是 M4H 法規，也不能代替基地安全高程。",
+  "key_points_zh": [
+    "全球分類界線不等於地方淹水線。",
+    "垂直基準與高程精度必須跟著地圖一同記錄。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "library_id": "MCGRANAHAN2007",
+        "claim_zh": "研究將低海拔沿海區界定為海拔低於 10 公尺的連續地帶，並以此統計土地與人口暴露。",
+        "effect_or_value": "LECZ analysis threshold <10 m",
+        "study_design": "全球空間分類及人口暴露統計",
+        "context_region": "全球低海拔沿海區",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "library_id": "KLIJN2015",
+        "claim_zh": "書目確認本文題名聚焦「Adaptive flood risk management planning based on a comprehensive flood risk conceptualisation」；目前只完成作者、年份、題名與 DOI 核對，未將摘要或全文結論納入此記錄；本單元 KU-WAT-003 對照「McGranahan 等人以低於海拔 10 公尺的連續地帶界定低海拔沿海區，供全球人口與聚落暴露統計使用」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "方法或概念研究；目前僅核對書目範圍",
+        "context_region": "跨地域",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "圖例把此數值寫為「暴露分類界線」，另列測量高程、法定基準和設計水位。",
+    "地方工程應以核准垂直基準、潮位資料、地形測量及適用規範重新判定。"
+  ],
+  "applies_when_zh": "適用於閱讀及比較全球低窪沿海區研究。",
+  "not_applicable_when_zh": "不適用於首層地坪、道路標高、雨水設施容量或法定淹水分區。",
+  "debates_zh": "固定界線有利於跨國統計，卻不能反映地區潮差、地形和保護能力差異；把暴露分類直接轉成設計規範會混淆概念。",
+  "sources": [
+    {
+      "library_id": "MCGRANAHAN2007",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "KLIJN2015",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "沿海暴露統計",
+  "region": "全球沿海地區",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": null,
+      "topic": "洪水風險與多層安全"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": null,
+      "topic": "氣候風險、土地暴露與韌性"
+    }
+  ],
+  "version": "v2.0",
+  "values": [
+    {
+      "name": "低海拔沿海區研究界線",
+      "range": "<10",
+      "unit": "m above sea level",
+      "context": "用途：以「低海拔沿海區研究界線」作為來源情境參照；全球暴露統計的分類用途；這不是本基地法規，也不是 M4H 設計水位。",
+      "library_id": "MCGRANAHAN2007"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "id": "KU-CLI-016",
+  "domain": "CLI",
+  "subtopic": "天空可視因子",
+  "type": "concept",
+  "title_zh": "天空可視因子表示地面對天空的開敞程度",
+  "title_en": "天空可視因子表示地面對天空的開敞程度",
+  "summary_zh": "天空可視因子（SVF）描述某地點可見天空半球的比例，可用魚眼影像或幾何模型估算。都市熱島和街谷研究將它連到夜間長波散熱與日照暴露，但樹冠和遮棚會改變測值。SVF 是局部幾何量，不代表通風或人體舒適度。",
+  "key_points_zh": [
+    "SVF 是無量綱的天空可視比例。",
+    "測點高度和遮擋物分類會影響結果。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "library_id": "GIVONI1998",
+        "claim_zh": "Open Library 書目記錄確認此專著的書名、作者與年份；未據此摘錄書中任何定量設計規則；本單元 KU-CLI-016 對照「天空可視因子（SVF）描述某地點可見天空半球的比例，可用魚眼影像或幾何模型估算」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "專業學術專著；本地僅核對書目範圍",
+        "context_region": "跨地域",
+        "locator": null
+      },
+      {
+        "library_id": "JOHANSSON2006",
+        "claim_zh": "題名確認研究以 Fez 炎熱乾燥氣候檢視都市幾何與戶外熱舒適；結果方向及數值尚未從摘要核對；本單元 KU-CLI-016 對照「天空可視因子（SVF）描述某地點可見天空半球的比例，可用魚眼影像或幾何模型估算」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "個案研究",
+        "context_region": "Fez, Morocco",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "說明相機或模型的視域和樹冠處理方式。",
+    "將 SVF 與風速、輻射及使用時段分開呈現。"
+  ],
+  "applies_when_zh": "適用於街谷形態和熱島機制分析。",
+  "not_applicable_when_zh": "不適用於單獨代表行人風舒適或日照品質。",
+  "debates_zh": "高 SVF 可能有助夜間散熱，也可能增加白天日照曝曬。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "GIVONI1998",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "JOHANSSON2006",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "都市氣候幾何量測",
+  "region": "街谷與城市環境；全球城市測站",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "天空可視因子"
+    },
+    {
+      "school": "MIT",
+      "course": "Theory of City Form",
+      "topic": "天空可視因子"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0"
+}

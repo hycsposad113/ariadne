@@ -1,0 +1,83 @@
+{
+  "id": "KU-CLI-048",
+  "domain": "CLI",
+  "subtopic": "樹木降溫",
+  "type": "value_range",
+  "title_zh": "樹冠覆蓋比例不能單獨代表降溫效益",
+  "title_en": "樹冠覆蓋比例不能單獨代表降溫效益",
+  "summary_zh": "樹冠覆蓋率要先指定分母是街段、地塊還是行政區，否則百分比沒有可比性。空間平均值也會掩蓋樹蔭是否落在候車區或步行路線。數學範圍僅表示覆蓋比例的上下界，不是降溫目標。",
+  "key_points_zh": [
+    "樹冠覆蓋和地面遮蔭不是同一指標。",
+    "樹木分布比行政區平均值更接近步行體驗。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "library_id": "LI2018SHADE",
+        "claim_zh": "樹冠覆蓋可以作為城市綠化範圍的描述，但熱環境效益還依樹種、健康狀況、分布和日照時段而異。",
+        "effect_or_value": "目標比例應附明確地區和用途，不能直接變成熱舒適承諾。",
+        "study_design": "Boston 街景影像分析",
+        "context_region": "Boston, USA",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "library_id": "BOWLER2010",
+        "claim_zh": "題名確認文章系統回顧城市綠化降溫的實證；效果大小需回到研究的植栽類型、尺度與氣候條件核對；本單元 KU-CLI-048 對照「樹冠覆蓋率要先指定分母是街段、地塊還是行政區，否則百分比沒有可比性」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "實證系統性回顧",
+        "context_region": "跨地域城鎮研究",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "分別計算樹冠、可達遮蔭和行人路徑遮蔭。",
+    "在成熟期和現況樹冠下做情境比較。"
+  ],
+  "applies_when_zh": "適用於街樹和城市林蔭指標設計。",
+  "not_applicable_when_zh": "比例範圍待案例和政策來源核對；不是本基地法規。",
+  "debates_zh": "市級樹冠目標可以促進資源配置，也可能忽略樹種及維護分布。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "LI2018SHADE",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "BOWLER2010",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "樹冠覆蓋和遮蔭指標",
+  "region": "Boston, USA；Wuhan, China",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "樹木降溫"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": null,
+      "topic": "樹木降溫"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0",
+  "values": [
+    {
+      "name": "樹冠覆蓋率的指標數學範圍",
+      "range": "0–100",
+      "unit": "% of land or street area",
+      "context": "用途：以「樹冠覆蓋率的指標數學範圍」作為來源情境參照；樹冠投影面積除以明確界定的土地或街段面積；分母需一致 這不是本基地法規；來源所列地域：Boston, USA。",
+      "library_id": "LI2018SHADE"
+    }
+  ]
+}

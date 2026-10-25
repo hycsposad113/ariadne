@@ -1,0 +1,82 @@
+{
+  "id": "KU-SOC-021",
+  "domain": "SOC",
+  "subtopic": "治理與公私合作",
+  "type": "method",
+  "title_zh": "治理與公私合作：行動者盤點",
+  "title_en": "Governance and public-private collaboration — method unit 021",
+  "summary_zh": "治理盤點先辨認政府、土地所有者、開發者、金融機構、居民和服務提供者各自控制的資源與決策。將正式合約和非正式影響分開畫出，才看得見誰能延後、改變或否決方案。行動者清單不等於權力分析，還要檢查關係如何隨時間變動。",
+  "key_points_zh": [
+    "治理盤點先辨認政府、土地所有者、開發者、金融機構、居民和服務提供者各自控制的資源與決策。",
+    "將正式合約和非正式影響分開畫出，才看得見誰能延後、改變或否決方案。",
+    "行動者清單不等於權力分析，還要檢查關係如何隨時間變動。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "【BIBLIOGRAPHIC_SCOPE_ONLY】就「治理與公私合作：行動者盤點」而言，「Urban Fortunes: The Political Economy of Place」提供成長機器／都市政治經濟的比較坐標；此處僅使用其已標明的書目／摘要範圍，不延伸為未核對的效果或因果。",
+        "effect_or_value": null,
+        "study_design": "政治經濟／理論",
+        "context_region": "美國；跨地域",
+        "library_id": "LOGAN1987",
+        "locator": null
+      },
+      {
+        "claim_zh": "【BIBLIOGRAPHIC_SCOPE_ONLY】就「治理與公私合作：行動者盤點」而言，「From Managerialism to Entrepreneurialism: The Transformation in Urban Governance in Late Capitalism」提供critical urban political economy的比較坐標；此處僅使用其已標明的書目／摘要範圍，不延伸為未核對的效果或因果。",
+        "effect_or_value": null,
+        "study_design": "historical-theoretical analysis",
+        "context_region": "United States；Western Europe",
+        "library_id": "HARVEY1989",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "用權力關係圖標出土地、資金、資料、核准和維護的控制者。"
+  ],
+  "design_options": [],
+  "applies_when_zh": "在評估「治理與公私合作：行動者盤點」涉及的資源分配、權力或居住影響時，先界定受影響群體與決策階段。",
+  "not_applicable_when_zh": "若沒有「治理與公私合作：行動者盤點」所需的群體、時序或市場資料，不把概念類比當作已驗證的效果或法律結論。",
+  "debates_zh": "行動者地圖會隨時間改變，正式組織圖無法完整呈現非正式權力。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "LOGAN1987",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "HARVEY1989",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "都市治理／國家、市場與社區",
+  "region": "英國；跨地域；美國",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Planning Complex Cities",
+      "topic": "治理與公私合作：行動者盤點 — 治理與公私合作"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Urban Design Contexts and Operations",
+      "topic": "治理與公私合作：行動者盤點 — 治理與公私合作"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "治理與公私合作：行動者盤點 — 治理與公私合作"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design Governance",
+      "topic": "治理與公私合作：行動者盤點 — 治理與公私合作"
+    }
+  ],
+  "version": "2.0.0"
+}

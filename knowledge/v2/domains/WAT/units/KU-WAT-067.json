@@ -1,0 +1,74 @@
+{
+  "id": "KU-WAT-067",
+  "domain": "WAT",
+  "subtopic": "雨水滯留量的設計值",
+  "type": "method",
+  "title_zh": "用事件前後水量核對設施績效",
+  "title_en": "用事件前後水量核對設施績效",
+  "summary_zh": "設施績效評估應比較事件輸入、暫存變化、外排和後續排空，而不是只看場地積水照片。雨水管理研究把水量和水質功能區分，整合水管理文獻則要求跨系統界定邊界。量測計畫要同步記錄事件和運轉狀態。",
+  "key_points_zh": [
+    "進水量、出水量和儲存變化共同構成水量核算。",
+    "缺測或旁通溢流可能令效能高估。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "library_id": "AHIABLAME2012",
+        "claim_zh": "書目確認本文題名聚焦「Effectiveness of Low Impact Development Practices: Literature Review and Suggestions for Future Research」；目前只完成作者、年份、題名與 DOI 核對，未將摘要或全文結論納入此記錄；本單元 KU-WAT-067 對照「設施績效評估應比較事件輸入、暫存變化、外排和後續排空，而不是只看場地積水照片」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "文獻回顧；目前僅核對書目範圍",
+        "context_region": "美國與國際都市排水",
+        "locator": null
+      },
+      {
+        "library_id": "CHEZHANG2019",
+        "claim_zh": "章節題名確認討論中國海綿城市與都市雨水管理概念；不把概念名稱當作已測得的滯洪效能；本單元 KU-WAT-067 對照「設施績效評估應比較事件輸入、暫存變化、外排和後續排空，而不是只看場地積水照片」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "概念章節",
+        "context_region": "中國",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "設定流量或水位監測點並留存校驗紀錄。",
+    "對照設施清潔前後和不同含水狀態。"
+  ],
+  "applies_when_zh": "適用於示範設施和方案後評估。",
+  "not_applicable_when_zh": "不適用於以目視觀察宣稱精確削峰量。",
+  "debates_zh": "監測設備的時間解析度和維護可能不足以捕捉短時洪峰。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "AHIABLAME2012",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "CHEZHANG2019",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "水量績效監測",
+  "region": "跨地域；澳洲",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "雨水滯留量的設計值"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Sustainable Futures by Design",
+      "topic": "雨水滯留量的設計值"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0"
+}

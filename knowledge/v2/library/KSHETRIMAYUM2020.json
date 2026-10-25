@@ -1,0 +1,45 @@
+{
+  "id": "KSHETRIMAYUM2020",
+  "title": "Factors Affecting Residential Satisfaction in Slum Rehabilitation Housing in Mumbai",
+  "authors": [
+    "Bangkim Kshetrimayum",
+    "Ronita Bardhan",
+    "Tetsu Kubota"
+  ],
+  "year": 2020,
+  "venue_or_publisher": "Sustainability",
+  "doi": "https://doi.org/10.3390/su12062344",
+  "isbn": null,
+  "openalex_id": "https://openalex.org/W3011358505",
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "孟買安置住宅與居住滿意",
+  "region": [
+    "孟買，印度"
+  ],
+  "method": "三個安置住宅區 981 戶調查與因果模型",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "住宅內部條件、社區環境與設施可及性與滿意度相關；年齡、性別、語言及家中有孩童或長者會調節關係。",
+      "strength": "MIXED",
+      "scope_zh": "僅限摘要可核對的範圍；未讀全文，不推論摘要未列的數字、因果或普遍適用性。",
+      "assessment_basis": "ABSTRACT_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "OpenAlex",
+    "query": {
+      "record_id": "https://openalex.org/W3011358505",
+      "title": "Factors Affecting Residential Satisfaction in Slum Rehabilitation Housing in Mumbai",
+      "author": "Bangkim Kshetrimayum",
+      "year": 2020
+    },
+    "matched_record_id": "https://openalex.org/W3011358505",
+    "checked_at_utc": "2026-10-08T09:12:32Z",
+    "match_notes_zh": "以 OpenAlex 精確 work 記錄核對書名、作者與出版年；只使用摘要作主張範圍檢查，未下載全文。"
+  },
+  "limitations_zh": "僅使用允許的書目欄位和摘要核對；未取得或保存全文。",
+  "metadata_licence_zh": "保存公開書目欄位與自行撰寫主張摘要；未保存 API 摘要原文或全文。"
+}

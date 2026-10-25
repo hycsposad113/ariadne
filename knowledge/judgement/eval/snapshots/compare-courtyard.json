@@ -1,0 +1,1412 @@
+{
+  "bundle": {
+    "context": {},
+    "data_gaps": [
+      "DATA_GAP:decision.selected_scheme",
+      "DATA_GAP:e2.harbour_vs_mixed.hb_0h_kwh_m2.pct",
+      "DATA_GAP:e2.harbour_vs_mixed.lb_0h_kwh_m2.pct",
+      "DATA_GAP:portfolio.q2.*",
+      "DATA_GAP:scheme.courtyard.height_max_m",
+      "DATA_GAP:scheme.courtyard.new_gfa_pct_of_cap",
+      "DATA_GAP:syntax.baseline.bike.waterfront_meets_pctl",
+      "DATA_GAP:syntax.baseline.car.waterfront_meets_pctl",
+      "DATA_GAP:syntax.courtyard.bike.new_segments_pctl",
+      "DATA_GAP:syntax.courtyard.bike.waterfront_pctl",
+      "DATA_GAP:syntax.courtyard.car.main_street_pctl",
+      "DATA_GAP:syntax.courtyard.car.new_segments_pctl",
+      "DATA_GAP:syntax.courtyard.car.waterfront_pctl",
+      "DATA_GAP:syntax.courtyard.ped.new_segments_pctl"
+    ],
+    "inputs": [
+      {
+        "metric_id": "check.courtyard.failures",
+        "source_path": "artifacts/fab1/run-8/courtyard_islands-plan.json",
+        "source_sha256": "e3db0311c26a49d627e2343eef40603589b2cb65beec99222d06ec168971812b",
+        "unit": null,
+        "value": [
+          "NEW_GFA_TARGET",
+          "PARK_AREA_BUDGET",
+          "NO_LARGE_UNBUILT_PLOT",
+          "FAB1C_NEW_GFA_TARGET",
+          "SERVICE_FUNCTION_FRONTAGE",
+          "COURTYARD_ISLAND_ROAD_CLEARANCE",
+          "COURTYARD_ISLAND_GLOBAL_MEMBERSHIP",
+          "COURTYARD_ISLAND_COUNT_SPACING",
+          "NORTHEAST_REGULAR_BLOCKS",
+          "SOUTH_QUAY_FACADE_CONTINUITY",
+          "BUILDING_STREET_EDGE_3M",
+          "SOUTH_QUAY_MAX_GAP"
+        ]
+      },
+      {
+        "metric_id": "designer.stance.courtyard_role",
+        "source_path": "knowledge/judgement/designer-stance-seed.json",
+        "source_sha256": "b3fcfa266d69f3059e42db8cbbad5b000086d3f8ad8c89b06d42d3b9fdcdea28",
+        "unit": null,
+        "value": {
+          "en": "Courtyards are residents' shared spaces for staying; in summer they are also shaded courts.",
+          "zh-TW": "中庭是比較單純的住戶共用空間，是停留的地方，夏季同時也是遮蔭的庭院。"
+        }
+      },
+      {
+        "metric_id": "designer.stance.season_priority",
+        "source_path": "knowledge/judgement/designer-stance-seed.json",
+        "source_sha256": "b3fcfa266d69f3059e42db8cbbad5b000086d3f8ad8c89b06d42d3b9fdcdea28",
+        "unit": null,
+        "value": {
+          "en": "Winter sun and summer outdoor thermal comfort matter equally; public spaces need winter sun for people to gather.",
+          "zh-TW": "冬季陽光與夏季戶外熱舒適都很重要；夏天確實很熱，但冬天公共空間要有陽光才會有人聚集。"
+        }
+      },
+      {
+        "metric_id": "e1.courtyard.all.winter.mean_h",
+        "source_path": "artifacts/w8/e1-fabric/comparison_table.csv",
+        "source_sha256": "00fbf8f566c3b1f4d4a588a8828975727069a8b1d15e0c7edf1eaa569cd97ee5",
+        "unit": "h",
+        "value": 2.14
+      },
+      {
+        "metric_id": "e1.courtyard.courtyard.winter.mean_h",
+        "source_path": "artifacts/w8/e1-fabric/comparison_table.csv",
+        "source_sha256": "00fbf8f566c3b1f4d4a588a8828975727069a8b1d15e0c7edf1eaa569cd97ee5",
+        "unit": "h",
+        "value": 0.183
+      },
+      {
+        "metric_id": "e1.courtyard.street.winter.mean_h",
+        "source_path": "artifacts/w8/e1-fabric/comparison_table.csv",
+        "source_sha256": "00fbf8f566c3b1f4d4a588a8828975727069a8b1d15e0c7edf1eaa569cd97ee5",
+        "unit": "h",
+        "value": 1.81
+      },
+      {
+        "metric_id": "e2.harbour_vs_mixed.hb_0h_kwh_m2.base",
+        "source_path": "artifacts/w8/e2-formal/harbour-vs-mixed-result.json",
+        "source_sha256": "db731fb5c815f45efb47c5437a04c6406d613521b938fce8c73862df2dd7f190",
+        "unit": "kWh/m²",
+        "value": 411.45545285251364
+      },
+      {
+        "metric_id": "e2.harbour_vs_mixed.hb_0h_kwh_m2.variant",
+        "source_path": "artifacts/w8/e2-formal/harbour-vs-mixed-result.json",
+        "source_sha256": "db731fb5c815f45efb47c5437a04c6406d613521b938fce8c73862df2dd7f190",
+        "unit": "kWh/m²",
+        "value": 374.1184674031733
+      },
+      {
+        "metric_id": "e2.harbour_vs_mixed.lb_0h_kwh_m2.base",
+        "source_path": "artifacts/w8/e2-formal/harbour-vs-mixed-result.json",
+        "source_sha256": "db731fb5c815f45efb47c5437a04c6406d613521b938fce8c73862df2dd7f190",
+        "unit": "kWh/m²",
+        "value": 403.96414751269805
+      },
+      {
+        "metric_id": "e2.harbour_vs_mixed.lb_0h_kwh_m2.variant",
+        "source_path": "artifacts/w8/e2-formal/harbour-vs-mixed-result.json",
+        "source_sha256": "db731fb5c815f45efb47c5437a04c6406d613521b938fce8c73862df2dd7f190",
+        "unit": "kWh/m²",
+        "value": 359.97034728922733
+      },
+      {
+        "metric_id": "e3.courtyard.eui_kwh_m2",
+        "scenario": "mass, cooling on",
+        "source_path": "artifacts/w8/e3e4-final/e3e4_results_zh.csv",
+        "source_sha256": "8b8f94de456b6f0b020524ab7b780ffda27e91c701d7368a688881eeeb1304e8",
+        "unit": "kWh/m²/year",
+        "value": 63.11964361445858
+      },
+      {
+        "metric_id": "intent.courtyard.fabric_concept",
+        "source_path": "artifacts/fab1/run-8/courtyard_islands-plan.json",
+        "source_sha256": "e3db0311c26a49d627e2343eef40603589b2cb65beec99222d06ec168971812b",
+        "unit": null,
+        "value": {
+          "blocks": {
+            "long_edge_m": {
+              "basis": {
+                "ku_ids": [
+                  "KU-MOR-082",
+                  "KU-MOR-095",
+                  "KU-MOR-083"
+                ],
+                "note_zh": "Commander 2026-10-11 校正：KNSM 的完整街廓面積中位數 1,787.56 m² 來自 OSM 內部路徑切出的碎片，不代表院落島尺度，因此不採用 23.8 m。院落島的設計包絡改以 Java-eiland（推估 78.2×185.3 m）與 Eixample（推估 74.9×117.8 m）為下界參照，並考慮大型院落需要 ≥20 m 中庭加上兩側 12–14 m 翼深。原推估值保留在 measured_reference_m。 原推估 long_edge_m：75.2–185.3 m。",
+                "status": "EDITORIAL"
+              },
+              "maximum": 200,
+              "minimum": 115,
+              "unit": "m"
+            },
+            "plot_subdivision_zh": "住宅翼以 8–16 m 的臨街地塊寬作 EDITORIAL 起稿，連續外牆由較細地塊組成；大型公共或商業空間可合併數個宗地，但每一段須保留門廳、轉角入口或可讀的地塊分界。此面寬不是 KNSM、Java 或 Eixample 地籍量測。",
+            "shape_rule_zh": "沿岸線和島形先畫大矩形或折線圍合街廓；內側建築翼圍成可辨識院落。外部道路轉角採切角或退台，禁止在尖角殘地內縮後放入三角形量體。",
+            "short_edge_m": {
+              "basis": {
+                "ku_ids": [
+                  "KU-MOR-082",
+                  "KU-MOR-095",
+                  "KU-MOR-083"
+                ],
+                "note_zh": "Commander 2026-10-11 校正：KNSM 的完整街廓面積中位數 1,787.56 m² 來自 OSM 內部路徑切出的碎片，不代表院落島尺度，因此不採用 23.8 m。院落島的設計包絡改以 Java-eiland（推估 78.2×185.3 m）與 Eixample（推估 74.9×117.8 m）為下界參照，並考慮大型院落需要 ≥20 m 中庭加上兩側 12–14 m 翼深。原推估值保留在 measured_reference_m。 原推估 short_edge_m：23.8–78.2 m。",
+                "status": "EDITORIAL"
+              },
+              "maximum": 120,
+              "minimum": 75,
+              "unit": "m"
+            }
+          },
+          "building_composition": {
+            "components": [
+              {
+                "basis_zh": "KNSM／Java 的島狀開發支持少數大型組團尺度；完整街廓分類無 superblock 專項，55% 是尺度策略而非測值。",
+                "part_id": "block.superblock",
+                "recommended_share_percent": 55,
+                "share_denominator_zh": "以候選街廓數為分母；大型組團作主要生成單元。"
+              },
+              {
+                "basis_zh": "大型組團需以開放邊、穿越口和院落入口降低封閉感；由通行需求推導，非直接 block_type_mix 比例。",
+                "part_id": "block.open",
+                "recommended_share_percent": 40,
+                "share_denominator_zh": "以候選街廓數為分母；保留開放邊與公共穿越口。"
+              },
+              {
+                "basis_zh": "KNSM 與 Eixample 合院型完整街廓共 2/9（約 22%）；原始分母是街廓數，只作原型訊號，不等於 footprint 份額。",
+                "part_id": "building.courtyard_closed",
+                "recommended_share_percent": 22,
+                "share_denominator_zh": "以候選院落組團數為分母；作為封閉院落原型訊號。"
+              },
+              {
+                "basis_zh": "U 形可在大型院落島邊界保留明確開口並導入日照；KNSM／Java 無 U 形獨立統計，40% 是圖底策略。",
+                "part_id": "building.u_block",
+                "recommended_share_percent": 40,
+                "share_denominator_zh": "以建築地面足跡面積為分母；U 形量體翼的建議份額。"
+              },
+              {
+                "basis_zh": "在視線、日照或公共穿越處以開角替代全閉合；先例未量得 footprint 占比，30% 是入口策略。",
+                "part_id": "building.courtyard_open_corner",
+                "recommended_share_percent": 30,
+                "share_denominator_zh": "以建築地面足跡面積為分母；開角院落量體的建議份額。"
+              }
+            ],
+            "height_profile_zh": "沿主要街道和橋頭配置連續中高量體，院落內側降低或退台以增加天空可視角；需要視線穿越時在轉角留缺口。高度梯度的理由是採光和入口層級，不從單一案例樓層數推定設計值。"
+          },
+          "common_errors_zh": [
+            "把大街廓圖底效果當成足以支持所有內部空間的證據。",
+            "院落淨寬不足，卻仍以完整圍合稱呼。",
+            "忽略院落是私有或半公共空間，未標出管理責任。",
+            "在不規則殘地內縮後生成尖角量體。",
+            "大尺度街廓沒有穿越通路或服務入口。",
+            "留下沒有機能、入口或維護責任的未配置土地。"
+          ],
+          "concept_zh": "大型院落島以少數大尺度街廓或島狀地塊承載連續的圍合量體，讓建築圖底形成清楚、厚實的邊界，內部院落則作為主要採光、通風及公共生活空間。它和一般周邊街廓的差別在於單一組團尺度較大、街道數較少，必須另外設計穿越口與內部路徑；院落大小、開放權屬和入口位置不能由圖底效果推定。",
+          "density_targets": {
+            "FSI": {
+              "basis": "KU-MOR-083 KNSM 至 KU-MOR-082 Java 的可比較已知樓地板面積下限；測量窗、資料覆蓋與高度假設依各 KU。",
+              "range": {
+                "maximum": 2.4636,
+                "minimum": 1.9643
+              },
+              "status": "MEASURED_PRECEDENT",
+              "unit": "dimensionless"
+            },
+            "GSI": {
+              "basis": "KU-MOR-083 KNSM 0.2787 與 KU-MOR-082 Java 0.3082 的研究窗陸地 GSI；只作島區案例觀察範圍，非建築覆蓋目標。",
+              "range": {
+                "maximum": 0.3082,
+                "minimum": 0.2787
+              },
+              "status": "MEASURED_PRECEDENT",
+              "unit": "dimensionless"
+            },
+            "L": {
+              "basis": "KU-MOR-083 KNSM 與 KU-MOR-082 Java 的已知樓層足跡加權案例值；兩個值不足以宣稱大型院落島的通用層數。",
+              "range": {
+                "maximum": 7.996,
+                "minimum": 7.878
+              },
+              "status": "MEASURED_PRECEDENT",
+              "unit": "storeys"
+            },
+            "OSR": {
+              "basis": "KU-MOR-082/083 的已知 FSI 下 OSR；只供同分母案例對讀，不等同院落面積比例。",
+              "range": {
+                "maximum": 0.3672,
+                "minimum": 0.2808
+              },
+              "status": "MEASURED_PRECEDENT",
+              "unit": "dimensionless"
+            }
+          },
+          "drawing_steps": [
+            {
+              "action_zh": "畫出島形、岸線、橋頭、城市道路、保留建築和可能的公共入口，分層標示可達性與權屬。",
+              "order": 1
+            },
+            {
+              "action_zh": "先定兩條組團邊界街，再連接橋頭與外部路口；標出一條連續橫向公共步行軸。",
+              "order": 2
+            },
+            {
+              "action_zh": "用 140–220 m 短邊、180–320 m 長邊的 EDITORIAL 包絡畫少數大型街廓，不把研究窗邊長誤當作實測街廓。",
+              "order": 3
+            },
+            {
+              "action_zh": "沿外緣切 8–16 m 起稿面寬的住宅宗地；大面積公建合併宗地時保留多入口與可讀分界。",
+              "order": 4
+            },
+            {
+              "action_zh": "用連續建築翼圍合主要院落，先確認至少 20 m 的淨寬作 EDITORIAL 最小值，再按日照、樹木和使用需求調整。",
+              "order": 5
+            },
+            {
+              "action_zh": "在橋頭、重要路口或保留建築旁配置院落入口、開口型量體和穿越廊道，標清楚公私邊界。",
+              "order": 6
+            },
+            {
+              "action_zh": "畫院落、入口廣場和公園／水岸連接，檢查步行路徑不必穿越未授權的半私有空間。",
+              "order": 7
+            },
+            {
+              "action_zh": "計算同口徑 GSI、FSI、L、OSR，與 KNSM/Java 參照並列；密度只作檢查值，設計者仍需選擇方案。",
+              "order": 8
+            }
+          ],
+          "edges": [
+            {
+              "rule_zh": "面水立面以入口缺口和公共步道接岸，院落管理邊界不得跨出基地占用水岸；先分清碼頭作業與可達水岸。",
+              "type": "waterfront"
+            },
+            {
+              "rule_zh": "大型公園側讓出至少一個可辨識入口庭院，量體轉角退縮形成視線，避免大尺度院落牆面直接封住公園邊。",
+              "type": "large_park"
+            },
+            {
+              "rule_zh": "沿高差方向把院落島分成可通行的台地，先畫坡道、梯道及無障礙連接，再完成連續圍合量體。",
+              "type": "topographic_edge"
+            },
+            {
+              "rule_zh": "把保留建築納入院落邊或中心節點，先核對既有入口與結構範圍，不以新院落軸線覆蓋它。",
+              "type": "retained_building"
+            },
+            {
+              "rule_zh": "組團外緣接續既有路口，至少在每個主要外部入口配置一條朝向院落或穿越廊道的路徑，避免封閉超街廓。",
+              "type": "existing_city_road"
+            }
+          ],
+          "height_cap_adaptation_zh": "20 m 高度上限下保留大型組團與庭院尺度，以約 5–6 層的連續或分段院落翼、U 形量體形成圖底；在長翼中插入穿越口、日照缺口和公共入口。樓層數須按首層用途和實際法規校核。",
+          "id": "fabric.courtyard_islands",
+          "land_use_budget": {
+            "blocks": {
+              "basis_zh": "組團及建築用地比例為概念設計預算，不是 KNSM 或 Java 實測比例。",
+              "maximum": 56,
+              "minimum": 46,
+              "status": "EDITORIAL",
+              "unit": "percent_site_area"
+            },
+            "parks": {
+              "basis_zh": "公園份額需配合基地邊界和既有公共綠地重新測量。",
+              "maximum": 14,
+              "minimum": 8,
+              "status": "EDITORIAL",
+              "unit": "percent_site_area"
+            },
+            "plazas": {
+              "basis_zh": "入口廣場和公共前場預算；不可與院落重複計面積。",
+              "maximum": 10,
+              "minimum": 5,
+              "status": "EDITORIAL",
+              "unit": "percent_site_area"
+            },
+            "roads": {
+              "basis_zh": "外圍街道與內部服務路用地，未由案例庫做完整面積盤點。",
+              "maximum": 22,
+              "minimum": 16,
+              "status": "EDITORIAL",
+              "unit": "percent_site_area"
+            },
+            "service": {
+              "basis_zh": "服務設施用地按垃圾、消防、卸貨和機電需求另行核算。",
+              "maximum": 8,
+              "minimum": 3,
+              "status": "EDITORIAL",
+              "unit": "percent_site_area"
+            },
+            "waterfront": {
+              "basis_zh": "只在基地臨水且陸地內設公共帶時配置，不含水面。",
+              "maximum": 10,
+              "minimum": 0,
+              "status": "EDITORIAL",
+              "unit": "percent_site_area"
+            }
+          },
+          "names": {
+            "en": "Courtyard Islands",
+            "zh": "大型院落島"
+          },
+          "open_space_system": {
+            "configuration_rule_zh": "以一個主要院落作為組團中心，外圍再設小型入口庭院或穿越廊道；每個院落標記公共、半公共或私有，院落邊界與住宅入口不得混淆。廣場放在橋頭、轉角或組團門口。",
+            "courtyard_min_clear_width_m": {
+              "basis_zh": "本條把 20 m 設為起稿下限以避免形成狹窄採光井；KB4 沒有量測個別院落，此值不是實測先例或法規。",
+              "minimum": 20,
+              "status": "EDITORIAL",
+              "unit": "m"
+            },
+            "site_area_share_percent": {
+              "basis_zh": "KB4 未統計院落、公園及廣場的土地面積；此範圍只作同一基地內不重複的開放空間預算。",
+              "maximum": 30,
+              "minimum": 13,
+              "status": "EDITORIAL"
+            },
+            "types": [
+              "space.courtyard",
+              "space.covered_public_passage",
+              "space.plaza"
+            ]
+          },
+          "precedents": [
+            {
+              "borrow_zh": "借用大型建築量體在島區形成強烈圖底、街道與院落邊界相互對照的閱讀方式。",
+              "do_not_borrow_zh": "不宣稱 Piraeus 或 Emerald Empire 有獨立於 KU-MOR-083 的本輪幾何量測，也不借用它們的尺度作硬性模數。",
+              "ku_id": "KU-MOR-083",
+              "measurements": [
+                {
+                  "limitation_zh": "KNSM 研究窗總體值，不是 Piraeus 或 Emerald Empire 單一量體量測。",
+                  "metric": "GSI",
+                  "status": "MEASURED_PRECEDENT",
+                  "unit": "dimensionless",
+                  "value": 0.2787
+                },
+                {
+                  "limitation_zh": "研究窗已知樓地板面積下限；不代表島區完整 FSI。",
+                  "metric": "FSI",
+                  "status": "MEASURED_PRECEDENT",
+                  "unit": "dimensionless",
+                  "value": 1.9643
+                }
+              ],
+              "name_zh": "KNSM 島（Piraeus、Emerald Empire 等大體量作圖底參照）"
+            },
+            {
+              "borrow_zh": "借用狹長島形中橫向連接、近水距離和內部路徑需並讀的設計問題。",
+              "do_not_borrow_zh": "不把 Java-eiland 的研究窗形狀等同目標基地地籍界，也不把穿越性由圖面單獨推定。",
+              "ku_id": "KU-MOR-082",
+              "measurements": [
+                {
+                  "limitation_zh": "研究窗陸地指標，水岸、街道與量體的取樣範圍可能混合。",
+                  "metric": "GSI",
+                  "status": "MEASURED_PRECEDENT",
+                  "unit": "dimensionless",
+                  "value": 0.3082
+                },
+                {
+                  "limitation_zh": "已知樓地板面積下限，依 KU-MOR-082 的高度來源與覆蓋率解讀。",
+                  "metric": "FSI",
+                  "status": "MEASURED_PRECEDENT",
+                  "unit": "dimensionless",
+                  "value": 2.4636
+                }
+              ],
+              "name_zh": "爪哇島"
+            },
+            {
+              "borrow_zh": "借用院落作為街廓內部開放空間的平面組織邏輯，並逐一檢查邊界開口。",
+              "do_not_borrow_zh": "不將歷史街廓約 113 m 模數當成普遍標準，也不採用高度不足的 FSI 下限。",
+              "ku_id": "KU-MOR-095",
+              "measurements": [
+                {
+                  "limitation_zh": "研究窗觀察值；含水與陸地分母差異小，但高度覆蓋不足。",
+                  "metric": "GSI",
+                  "status": "MEASURED_PRECEDENT",
+                  "unit": "dimensionless",
+                  "value": 0.5531
+                },
+                {
+                  "limitation_zh": "FSI 為非可比下限，不納入本紋理的 FSI 觀察範圍。",
+                  "metric": "FSI",
+                  "status": "LOWER_BOUND_NONCOMPARABLE",
+                  "unit": "dimensionless",
+                  "value": 2.0499
+                }
+              ],
+              "name_zh": "巴塞隆納擴展區 Eixample"
+            }
+          ],
+          "sources": [
+            "OSM_KB4_PRECEDENTS",
+            "3DBAG_KB4_HEIGHTS",
+            "BILJECKI2022",
+            "EASTERN_HARBOUR_AMSTERDAM2012",
+            "JACOBS61",
+            "CERDA2018"
+          ],
+          "street_network": {
+            "connection_rule_zh": "將橋頭、外部道路和大眾運輸入口接到組團邊界街，再從每一個公共入口畫出穿越院落島的步行線；至少保留一條可連續步行的橫向通路，不以半私有中庭充當未確認的公共道路。",
+            "hierarchy": [
+              {
+                "basis_zh": "KNSM/Java 研究窗沒有法定路幅或平行道路間距；尺度是大組團外圍交通的草圖包絡。",
+                "modes": [
+                  "步行",
+                  "自行車",
+                  "汽車",
+                  "服務"
+                ],
+                "name_zh": "島區邊界主街",
+                "section_width_m": {
+                  "maximum": 24,
+                  "minimum": 18,
+                  "unit": "m"
+                },
+                "spacing_m": {
+                  "maximum": 400,
+                  "minimum": 250,
+                  "unit": "m"
+                },
+                "status": "EDITORIAL"
+              },
+              {
+                "basis_zh": "道路中心線間距非 KB4 已量測欄位；此值讓大型街廓保有服務面及可辨識入口。",
+                "modes": [
+                  "步行",
+                  "自行車",
+                  "汽車",
+                  "服務"
+                ],
+                "name_zh": "組團服務街",
+                "section_width_m": {
+                  "maximum": 16,
+                  "minimum": 12,
+                  "unit": "m"
+                },
+                "spacing_m": {
+                  "maximum": 220,
+                  "minimum": 140,
+                  "unit": "m"
+                },
+                "status": "EDITORIAL"
+              },
+              {
+                "basis_zh": "穿越路徑尺寸為生成起點，實際通行需核對所有權、開放時段及無障礙條件。",
+                "modes": [
+                  "步行",
+                  "自行車"
+                ],
+                "name_zh": "院落穿越道",
+                "section_width_m": {
+                  "maximum": 8,
+                  "minimum": 5,
+                  "unit": "m"
+                },
+                "spacing_m": {
+                  "maximum": 100,
+                  "minimum": 50,
+                  "unit": "m"
+                },
+                "status": "EDITORIAL"
+              }
+            ],
+            "orientation_rule_zh": "順著島形、既有碼頭或海岸長向布置兩條主要邊界街；橫向街道只在公共入口、橋頭和交通節點穿入，內部步行通道再補足短路徑。",
+            "pattern": "deformed_grid",
+            "street_width_building_gap_proxy_m": {
+              "basis_zh": "爪哇島 的建築外牆最近點間距：P25 33.92 m、中位數 39.32 m、P75 55.74 m（KU-MOR-082）。數值含建築退縮，是外牆間距代理，不是法定路權、車道淨寬或道路斷面；道路幾何仍需另測。",
+              "ku_ids": [
+                "KU-MOR-082"
+              ],
+              "median": 39.32,
+              "p25": 33.92,
+              "p75": 55.74,
+              "status": "MEASURED_PRECEDENT_PROXY",
+              "unit": "m"
+            }
+          },
+          "when_not_to_use_zh": "若基地需高密度細網、多重短路徑或頻繁接入外部街道，不宜把大街廓作為唯一骨架；地塊狹窄、院落採光不足或內部公共通行無管理協議時，也不應複製大型圍合量體。",
+          "when_to_use_zh": "適用於島形或大型再開發基地，可形成少數完整組團，且基地有明確的公共穿越線、保留量體或內部院落計畫；設計團隊能同步規劃街廓界面、院落管理與穿越權責時較合適。"
+        }
+      },
+      {
+        "metric_id": "intent.courtyard.summary",
+        "source_path": "artifacts/fab1/run-8/ai-explanations/courtyard_islands-design-statement-zh.md",
+        "source_sha256": "f603867e2b59d83736b671a15fc896371526a82da9069aa620099b88a8a109e8",
+        "unit": null,
+        "value": "### 1 設計意圖\n\n以三座大型院落島承接 M4H 的港埠尺度：外緣形成清楚街牆，內院提供採光、綠地與日常共享空間。建議保留院落島作為組織骨架，但須先改善公共穿越與水岸界面，再作最終選案。\n\n### 2 如何回應基地脈絡\n\n基地長軸約 990 m、方位 58°，與 Keileweg 的 62°僅差約 4°，適合沿其方向延續主街。港區街廓面積中位數約 1.1 ha，短、長邊中位數約 86、180 m；南側住宅區短邊中位數約 78 m。三座大型院落島可保留港區粗尺度，同時用步行穿越補上住宅區較細的連接節奏。\n\n### 3 路網與街廓\n\n主街延續 Keileweg 軸線，兩端接外部幹道；以服務街與步行路徑分隔三座主要街廓，並接通 Dakpark 與水岸。院落島的步行穿越可參照約 50–100 m 的間距，但本方案的組團間距檢查尚未通過，須調整路徑位置與連續性。[KU-MOR-102]\n\n### 4 建築類型與高度\n\n採四至五層連續或分段的 U 形院落翼，長翼安排穿越口、入口與採光缺口；保留既有倉庫作為組團辨識點。依首層 4 m、標準層 3.5 m 計，五層約 18 m，可守住 20 m 上限；六層約 21.5 m，會超高。\n\n### 5 開放空間與水岸\n\n基地陸地約 18 ha，水域約 4.2 ha。配置街坊公園及兩段水岸公共帶，保留從街道通往岸邊的多處入口；目前公園占比約 5.9%、"
+      },
+      {
+        "metric_id": "limit.e1",
+        "source_path": "artifacts/w8/e1-fabric/comparison_table.md",
+        "source_sha256": "1764617f7cc5a38bed75cff29e81e0738cd5afce2c4f881eda7dc593a2efd89f",
+        "unit": null,
+        "value": "# 鹿特丹 M4H 港區活化 ｜ 四個紋理方案開放空間日照時數綜合比較\n\n> **標籤**：探索性分析（非正式法定審批依據）  \n> **計算設定**：網格間距 5.0 m、感測高度 0.5 m、時段 08:00–18:00、15 分鐘取樣、周邊 300 m 脈絡建築遮擋  \n> **範圍**：「全體開放空間」＝基地內全部未建土地（公園／綠軸、水岸帶、街道、街廓中庭、街廓內其他空地、設備院與其他空地），建築覆蓋面積不計。2026-10-17 起納入中庭與街廓內空地（先前版本只算前三類）。  \n\n| 紋理方案 | 開放空間類別 | 網格點數 | 面積 (m²) | 春分平均 (h) | 春分 ≥2h (%) | 夏至平均 (h) | 夏至 ≥2h (%) | 冬至平均 (h) | 冬至 ≥2h (%) |\n| :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |\n| **港埠線性紋理** | 全體開放空間 | 5,316 | 132,900 | **6.30** | **93.0%** | 8.03 | 98.6% | **2.15** | **39.4%** |\n| 港埠線性紋理 | 街坊公園/綠軸 | 766 | 19,150 | 9.06 | 100.0% | 9.91 | 100.0% | 4.08 | 83.0% |\n| 港埠線性紋理 | 水岸公共帶 | 715 | 17,875 | 7.29 | 94.7% | 8.49 | 98.9% | 3.42 | 55.7% |\n| 港埠線性紋理 | 街道路權 | 1,560 | 39,000 | 5.74 | 92.5% | 7.38 | 97.7% | 1.79 | 31.8% |\n| 港埠線性紋理 | 街廓中庭 | 780 | 19,500 | 4.33 | 86.2% | 7.30 | 98.2% | 0.11 | 1.0% |\n| 港埠線性紋理 | 街廓內其他空地 | 1,400 | 35,000 | 5.93 | 92.2% | 7.78 | 98.8% | 2.06 | 37.6% |\n| 港埠線性紋理 | 設備院與其他空地 | 95 | 2,375 | 7.61 | 100.0% | 9.54 | 100.0% | 1.30 | 31.6% |\n| **圍合街廓延伸** | 全體開放空間 | 5,709 | 142,725 | **6.74** | **92.7%** | 8.21 | 98.6% | **2.79** | **51.5%** |\n| 圍合街廓延伸 | 街坊公園/綠軸 | 952 | 23,800 | 9.16 | 100.0% | 9.82 | 100.0% | 4.44 | 86.3% |\n| 圍合街廓延伸 | 水岸公共帶 | 715 | 17,875 | 7.22 | 96.4% | 8.56 | 98.7% | 3.36 | 55.8% |\n| 圍合街廓延伸 | 街道路權 | 1,585 | 39,625 | 6.44 | 94.8% | 7.78 | 99.3% | 2.54 | 47.0% |\n| 圍合街廓延伸 | 街廓中庭 | 440 | 11,000 | 3.22 | 68.9% | 7.05 | 97.0% | 0.18 | 0.9% |\n| 圍合街廓延伸 | 街廓內其他空地 | 1,675 | 41,875 | 5.99 | 90.0% | 7.55 | 97.2% | 2.40 | 45.9% |\n| 圍合街廓延伸 | 設備院與其他空地 | 342 | 8,550 | 8.59 | 99.1% | 9.71 | 99.4% | 3.50 | 58.5% |\n| **大型院落島** | 全體開放空間 | 5,492 | 137,300 | **6.49** | **95.2%** | 8.14 | 99.2% | **2.14** | **42.5%** |\n| 大型院落島 | 街坊公園/綠軸 | 429 | 10,725 | 7.88 | 100.0% | 9.72 | 100.0% | 1.38 | 30.8% |\n| 大型院落島 | 水岸公共帶 | 715 | 17,875 | 7.26 | 96.4% | 8.55 | 98.7% | 3.34 | 55.4% |\n| 大型院落島 | 街道路權 | 1,430 | 35,750 | 6.51 | 97.6% | 7.95 | 100.0% | 1.81 | 40.9% |\n| 大型院落島 | 街廓中庭 | 371 | 9,275 | 5.22 | 89.5% | 8.52 | 99.2% | 0.18 | 0.5% |\n| 大型院落島 | 街廓內其他空地 | 2,350 | 58,750 | 6.06 | 92.9% | 7.67 | 98.6% | 2.39 | 47.2% |\n| 大型院落島 | 設備院與其他空地 | 197 | 4,925 | 8.10 | 100.0% | 9.51 | 100.0% | 2.59 | 54.8% |\n| **地景為圖** | 全體開放空間 | 5,797 | 144,925 | **7.22** | **93.8%** | 8.44 | 98.4% | **3.22** | **58.6%** |\n| 地景為圖 | 街坊公園/綠軸 | 1,721 | 43,025 | 9.33 | 100.0% | 9.92 | 100.0% | 5.09 | 90.3% |\n| 地景為圖 | 水岸公共帶 | 715 | 17,875 | 7.29 | 95.0% | 8.34 | 98.7% | 3.01 | 53.0% |\n| 地景為圖 | 街道路權 | 1,545 | 38,625 | 6.76 | 96.0% | 8.27 | 99.9% | 2.30 | 43.8% |\n| 地景為圖 | 街廓內其他空地 | 1,725 | 43,125 | 5.42 | 85.1% | 7.11 | 95.2% | 2.20 | 41.6% |\n| 地景為圖 | 設備院與其他空地 | 91 | 2,275 | 8.57 | 96.7% | 9.17 | 97.8% | 4.23 | 79.1% |\n"
+      },
+      {
+        "metric_id": "limit.e2",
+        "source_path": "artifacts/w8/e2-formal/harbour-vs-mixed-result.json",
+        "source_sha256": "db731fb5c815f45efb47c5437a04c6406d613521b938fce8c73862df2dd7f190",
+        "unit": null,
+        "value": [
+          "累積入射輻射不代表熱舒適、耗能或材料蓄熱。",
+          "公共開放空間為幾何分析範圍，不代表 legal right of way。",
+          "Minute=0 視為 hour_end 是 PD-08 專案假設，非供應商證據。",
+          "Ladybug 遮擋篩選不含建築表面多次反射；Honeybee 驗證採獨立反射 recipe。"
+        ]
+      },
+      {
+        "metric_id": "limit.e3",
+        "source_path": "artifacts/w8/e3e4-final/e3e4_results_zh.md",
+        "source_sha256": "2bbb5146483a207b777c0649e0c9f5fb4b8e2c9c1819fa70c51a854cda70c847",
+        "unit": null,
+        "value": "# E3 建築耗能＋E4 蓄熱（四案全量模型，最終版）\n\n**探索性；非能源認證。** 四案皆為全量模型（港埠 253 棟由專用完整重算取得，取代先前 3/253 抽樣外推 108.6）。理想負荷、ASHRAE 2019 CZ5、WWR 40%；風機電力 EnergyPlus 未輸出，以 0 計。\n\n## E3 年度比較（重質構造、冷暖氣皆開）\n\n| 方案 | 建模範圍 | 新建 GFA (m²) | 暖氣需求 (kWh-熱/年) | 冷氣需求 (kWh-熱/年) | EUI (kWh/m²·年) | 尖峰暖氣 (kW) | 尖峰冷氣 (kW) |\n|---|---|---:|---:|---:|---:|---:|---:|\n| 大型院落島 | 全量（83 棟） | 129,350.0 | 4,905,931.2 | 759,712.5 | **63.1** | 2,805.3 | 2,317.9 |\n| 港埠線性紋理 | 全量（253 棟） | 139,128.3 | 8,549,416.0 | 1,421,076.5 | **93.4** | 4,253.4 | 4,402.8 |\n| 圍合街廓延伸 | 全量（168 棟） | 126,875.4 | 9,171,886.8 | 1,333,380.4 | **100.4** | 4,293.2 | 4,303.6 |\n| 地景為圖 | 全量（51 棟） | 125,492.0 | 10,541,436.0 | 1,184,047.8 | **116.1** | 4,623.2 | 4,545.9 |\n\n## E4 港埠重質／輕質構造比較（全量 253 棟）\n\n| 指標 | 重質 | 輕質 | 輕質減重質 |\n|---|---:|---:|---:|\n| 夏季過熱時數（6–8 月 >26 °C，只開暖氣，樓地板加權小時） | 840.4 | 883.9 | 43.5 |\n| 冬季暖氣需求（12–2 月，kWh-熱） | 5,456,772.7 | 5,466,727.2 | 9,954.4 |\n| 尖峰冷負荷（冷氣開啟，kW-熱） | 4,402.8 | 4,662.7 | 259.9 |\n\n來源：`artifacts/w8/e3e4/`（圍合、院落、地景全量）與 `artifacts/w8/e3e4-harbour-full/`（港埠全量）；先前抽樣結果保留供查核。\n"
+      },
+      {
+        "metric_id": "limit.e5",
+        "source_path": "artifacts/w8/e5-cfd/README_zh.md",
+        "source_sha256": "8859fd168e6c63ad54962652662e0f58768a0e0a9a0d341fe7be288331fad04f",
+        "unit": null,
+        "value": "# E5 風場第一部分：OpenFOAM 港埠方案粗略篩選報告\n\n> **免責與性質說明**：本報告屬於探索性粗略篩選（Exploratory Coarse Screening）；計算網格與計算域尺寸低於正式研究等級（COST 732 與 AIJ 行人風場指引建議），主要用於比較空間微氣候趨勢與辨識強風加速與靜風風險熱點。\n\n## 1. 執行環境與配置\n- **容器映像**：`opencfd/openfoam-run:2506` (arm64 原生)\n- **映像摘要**：`opencfd/openfoam-run@sha256:690476d30ce93c50b7c8e75ff49fd59faa55b78fae72b90aaba54337f7e0afc5`\n- **資源約束**：Docker Desktop 1 CPU、1.5 GB 記憶體限制；嚴格維持總網格數 ≤ 40 萬格以內。\n- **局部坐標原點**：`(89077.5, 435869.5, 0.0)` (EPSG:28992)。\n- **風向選取**：依鹿特丹 EPW 天氣檔統計，選取出現頻率最高的 4 個盛行海風風向：**SW (225°)**、**W (270°)**、**S (180°)**、**NW (315°)**，累計涵蓋 67.4% 全年時數。\n\n## 2. 模擬結果彙整\n\n# 港埠方案 OpenFOAM 行人風場粗略篩選結果表\n\n> **探索性粗略篩選；網格與域尺寸低於研究等級（COST 732／AIJ 建議），僅看趨勢**\n\n| 風向 | 入射角 (°) | 出現頻率 (%) | 參考風速 Uref (m/s) | 網格數 (格) | 迭代數 | 收斂狀態 | 耗時 (秒) | 最大風速比 | 平均風速比 | 強風區面積 (>1.2) | 靜風區面積 (<0.3) |\n|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|\n| SW | 225° | 21.5% | 6.10 | 386,519 | 258 | 收斂 (殘差<1e-4) | 430.2s | 0.91 | 0.39 | 0.0 m² | 69,066.0 m² |\n| W | 270° | 20.5% | 5.00 | 362,352 | 211 | 收斂 (殘差<1e-4) | 191.1s | 1.13 | 0.39 | 0.0 m² | 83,079.0 m² |\n| S | 180° | 17.7% | 4.44 | 370,674 | 195 | 收斂 (殘差<1e-4) | 183.3s | 1.01 | 0.35 | 0.0 m² | 105,030.0 m² |\n| NW | 315° | 7.7% | 4.32 | 391,094 | 199 | 收斂 (殘差<1e-4) | 196.3s | 1.14 | 0.32 | 0.0 m² | 142,848.0 m² |\n\n## 3. 圖件清單\n1. `cfd_sw_wind_ratio.png`：西南風（SW，225°）行人高度 1.5 m 風速比分布圖\n2. `cfd_w_wind_ratio.png`：西風（W，270°）行人高度 1.5 m 風速比分布圖\n3. `cfd_s_wind_ratio.png`：南風（S，180°）行人高度 1.5 m 風速比分布圖\n4. `cfd_nw_wind_ratio.png`：西北風（NW，315°）行人高度 1.5 m 風速比分布圖\n5. `cfd_4winds_summary.png`：4 風向 2x2 對比總覽面板（共用色階）\n6. `cfd_wind_risk_zones.png`：強風加速區（>1.2）與靜風區（<0.3）複合分區圖\n7. `cfd_lawson_comfort.png`：依 4 風向頻率加權之 Lawson 行人舒適度概估圖\n## Commander 審查補充（2026-10-17）：行人高度換算的限制\n- 行人層風速不是直接在 1.5 m 取樣，而是取每個垂直柱「離地最近一層流體網格中心」（高度 zP，粗網格下約 1–15 m）的 CFD 風速，再用對數律（z0＝0.5 m）換算到 1.5 m。\n- 對數律只適用於地表附近、流場接近平衡的開闊區；在建築背風區、轉角加速區與迴流區，實際剖面不符合對數律，換算值可能高估或低估。zP 越高，換算誤差越大。\n- 因此本結果只能用來比較「哪裡相對有風、哪裡相對靜風」的空間趨勢，不能當作行人風舒適度的定量判定；Lawson 分級亦僅為粗略概估。研究等級需加密地表附近網格（第一層 ≤ 0.5 m）並直接在 1.5 m 取樣。\n- **Lawson 概估圖不採用**：本次以 4 風向頻率加權的「平均」風速分級，Lawson 準則應以超越機率（例如 5% 時間被超越的風速）判定；用平均值必然全區落在「戶外長坐」，圖面無資訊量且會高估舒適度，因此報告與 demo 不使用 `cfd_lawson_comfort.png`（檔案保留供查核）。\n"
+      },
+      {
+        "metric_id": "limit.utci",
+        "source_path": "artifacts/w8/utci/utci_stress_hours_comparison.md",
+        "source_sha256": "75c2d6a826bf865621481811ab443307a2c1abd94aa24a93a6ceace8064a78a5",
+        "unit": null,
+        "value": "# 四個紋理方案夏季開放空間 UTCI 熱舒適與熱壓力時數比例比較表\n\n**分析日期**：2017-08-19（典型最熱夏日，日均溫 25.39 °C，日最高溫 33.10 °C）  \n**分析時段**：10:00 – 17:00 每小時（共 8 小時）  \n**感測網格**：開放空間 5 m 網格，離地高度 1.1 m  \n**重要說明**：*探索性分析；風速採都市粗糙度對數律換算，未考慮建物風場遮蔽（留待 E5 CFD）；地面反射率 0.25，人體參數為站姿。*\n\n## 1. 總體開放空間熱壓力指標比較 (10:00–17:00)\n\n| 方案名稱 | 方案代碼 | 開放空間面積 (m²) | 感測點數 | 平均 UTCI (°C) | 最高 UTCI (°C) | 平均 MRT (°C) | 平均 SVF | 熱壓力總時數比 (>26°C) | 強烈及以上時數比 (>32°C) | 非常強烈時數比 (>38°C) |\n| :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |\n| **港埠線性紋理** | `harbour_grain` | 132,900 | 5,316 | 35.9 | 39.0 | 51.5 | 0.614 | **100.0%** | 89.7% | 26.4% |\n| **圍合街廓延伸** | `closed_block_extension` | 142,725 | 5,709 | 36.0 | 38.9 | 52.2 | 0.652 | **100.0%** | 91.1% | 30.0% |\n| **大型院落島** | `courtyard_islands` | 137,300 | 5,492 | 36.0 | 39.0 | 52.0 | 0.637 | **100.0%** | 91.4% | 28.2% |\n| **地景為圖** | `landscape_figure` | 144,925 | 5,797 | 36.2 | 39.0 | 53.0 | 0.691 | **100.0%** | 92.3% | 33.5% |\n\n## 2. 各類開放空間分類熱壓力時數比例明細表\n\n| 方案 | 空間類別 | 感測點數 | 面積 (m²) | 總點時數 | 無熱壓力 (≤26°C) | 中度 (26–32°C) | 強烈 (32–38°C) | 非常強烈 (38–46°C) | 熱壓力總佔比 (>26°C) | 平均 MRT (°C) | 平均 SVF |\n| :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |\n| 港埠線性紋理 | 公園與廣場 | 766 | 19,150 | 6,128 | 0.0% | 0.0% | 55.0% | 45.0% | **100.0%** | 56.5 | 0.789 |\n| 港埠線性紋理 | 水岸公共帶 | 715 | 17,875 | 5,720 | 0.0% | 5.5% | 64.5% | 30.0% | **100.0%** | 52.9 | 0.650 |\n| 港埠線性紋理 | 街道路權 | 1,560 | 39,000 | 12,480 | 0.0% | 14.4% | 60.8% | 24.8% | **100.0%** | 50.0 | 0.592 |\n| 港埠線性紋理 | 街廓中庭 | 780 | 19,500 | 6,240 | 0.0% | 17.7% | 70.0% | 12.3% | **100.0%** | 48.6 | 0.486 |\n| 港埠線性紋理 | 街廓內其他空地 | 1,400 | 35,000 | 11,200 | 0.0% | 10.1% | 66.4% | 23.5% | **100.0%** | 50.9 | 0.588 |\n| 港埠線性紋理 | 設備院與其他空地 | 95 | 2,375 | 760 | 0.0% | 0.9% | 63.2% | 35.9% | **100.0%** | 55.0 | 0.723 |\n| 港埠線性紋理 | **全體開放空間** | 5,316 | 132,900 | 42,528 | 0.0% | 10.3% | 63.3% | 26.4% | **100.0%** | 51.5 | 0.614 |\n| 圍合街廓延伸 | 公園與廣場 | 952 | 23,800 | 7,616 | 0.0% | 1.2% | 50.6% | 48.2% | **100.0%** | 57.1 | 0.839 |\n| 圍合街廓延伸 | 水岸公共帶 | 715 | 17,875 | 5,720 | 0.0% | 5.6% | 64.5% | 29.9% | **100.0%** | 52.9 | 0.655 |\n| 圍合街廓延伸 | 街道路權 | 1,585 | 39,625 | 12,680 | 0.0% | 11.7% | 58.8% | 29.5% | **100.0%** | 51.2 | 0.641 |\n| 圍合街廓延伸 | 街廓中庭 | 440 | 11,000 | 3,520 | 0.0% | 17.1% | 76.5% | 6.4% | **100.0%** | 47.3 | 0.425 |\n| 圍合街廓延伸 | 街廓內其他空地 | 1,675 | 41,875 | 13,400 | 0.0% | 11.3% | 65.2% | 23.5% | **100.0%** | 50.4 | 0.586 |\n| 圍合街廓延伸 | 設備院與其他空地 | 342 | 8,550 | 2,736 | 0.0% | 1.0% | 55.0% | 44.0% | **100.0%** | 56.2 | 0.787 |\n| 圍合街廓延伸 | **全體開放空間** | 5,709 | 142,725 | 45,672 | 0.0% | 8.9% | 61.2% | 30.0% | **100.0%** | 52.2 | 0.652 |\n| 大型院落島 | 公園與廣場 | 429 | 10,725 | 3,432 | 0.0% | 2.3% | 52.2% | 45.5% | **100.0%** | 56.4 | 0.783 |\n| 大型院落島 | 水岸公共帶 | 715 | 17,875 | 5,720 | 0.0% | 5.6% | 63.0% | 31.4% | **100.0%** | 53.1 | 0.674 |\n| 大型院落島 | 街道路權 | 1,430 | 35,750 | 11,440 | 0.0% | 10.8% | 58.5% | 30.7% | **100.0%** | 51.8 | 0.659 |\n| 大型院落島 | 街廓中庭 | 371 | 9,275 | 2,968 | 0.0% | 6.8% | 80.0% | 13.1% | **100.0%** | 51.1 | 0.497 |\n| 大型院落島 | 街廓內其他空地 | 2,350 | 58,750 | 18,800 | 0.0% | 10.3% | 65.8% | 23.9% | **100.0%** | 50.7 | 0.600 |\n| 大型院落島 | 設備院與其他空地 | 197 | 4,925 | 1,576 | 0.0% | 0.4% | 60.3% | 39.2% | **100.0%** | 55.7 | 0.743 |\n| 大型院落島 | **全體開放空間** | 5,492 | 137,300 | 43,936 | 0.0% | 8.6% | 63.2% | 28.2% | **100.0%** | 52.0 | 0.637 |\n| 地景為圖 | 公園與廣場 | 1,721 | 43,025 | 13,768 | 0.0% | 0.1% | 54.4% | 45.5% | **100.0%** | 56.9 | 0.806 |\n| 地景為圖 | 水岸公共帶 | 715 | 17,875 | 5,720 | 0.0% | 6.0% | 61.5% | 32.5% | **100.0%** | 53.2 | 0.686 |\n| 地景為圖 | 街道路權 | 1,545 | 38,625 | 12,360 | 0.0% | 9.7% | 58.2% | 32.1% | **100.0%** | 52.3 | 0.677 |\n| 地景為圖 | 街廓中庭 | 0 | 0 | 0 | 0.0% | 0.0% | 0.0% | 0.0% | **0.0%** | 0.0 | 0.000 |\n| 地景為圖 | 街廓內其他空地 | 1,725 | 43,125 | 13,800 | 0.0% | 14.4% | 62.9% | 22.7% | **100.0%** | 49.4 | 0.587 |\n| 地景為圖 | 設備院與其他空地 | 91 | 2,275 | 728 | 0.0% | 2.9% | 56.6% | 40.5% | **100.0%** | 55.2 | 0.747 |\n| 地景為圖 | **全體開放空間** | 5,797 | 144,925 | 46,376 | 0.0% | 7.7% | 58.8% | 33.5% | **100.0%** | 53.0 | 0.691 |\n\n## 3. 最熱時刻 (14:00) 氣象與熱舒適數值\n\n| 指標 | 數值 | 單位 | 備註 |\n| :--- | :---: | :---: | :--- |\n| 日期與時刻 | 2017-08-19 14:00 | - | 夏季節令高溫典型時段 |\n| 室外乾球氣溫 (Ta) | 32.1 | °C | 取自推導天氣 EPW |\n| 相對濕度 (RH) | 35.0 | % | 取自推導天氣 EPW |\n| 氣象 10m 風速 (v10) | 5.0 | m/s | 取自推導天氣 EPW |\n| 1.1m 換算風速 (v1.1) | 1.32 | m/s | 對數律換算 (z0=0.5m) |\n| 法向直射日照 (DNI) | 780 | W/m² | 取自推導天氣 EPW |\n| 水平漫射日照 (DHI) | 104 | W/m² | 取自推導天氣 EPW |\n| 水平長波紅外輻射 (IR) | 378 | W/m² | 取自推導天氣 EPW |"
+      },
+      {
+        "metric_id": "scheme.courtyard.building_count",
+        "source_path": "artifacts/fab1/run-8/courtyard_islands-plan.json",
+        "source_sha256": "e3db0311c26a49d627e2343eef40603589b2cb65beec99222d06ec168971812b",
+        "unit": "count",
+        "value": 83
+      },
+      {
+        "metric_id": "scheme.courtyard.fsi",
+        "source_path": "artifacts/fab1/run-8/courtyard_islands-plan.json",
+        "source_sha256": "e3db0311c26a49d627e2343eef40603589b2cb65beec99222d06ec168971812b",
+        "unit": "ratio",
+        "value": 1.0798869762891528
+      },
+      {
+        "metric_id": "scheme.courtyard.gsi",
+        "source_path": "artifacts/fab1/run-8/courtyard_islands-plan.json",
+        "source_sha256": "e3db0311c26a49d627e2343eef40603589b2cb65beec99222d06ec168971812b",
+        "unit": "ratio",
+        "value": 0.25885703871143617
+      },
+      {
+        "metric_id": "scheme.courtyard.l",
+        "source_path": "artifacts/fab1/run-8/courtyard_islands-plan.json",
+        "source_sha256": "e3db0311c26a49d627e2343eef40603589b2cb65beec99222d06ec168971812b",
+        "unit": "ratio",
+        "value": 4.171750483064782
+      },
+      {
+        "metric_id": "scheme.courtyard.label",
+        "source_path": "artifacts/fab1/run-8/courtyard_islands-plan.json",
+        "source_sha256": "e3db0311c26a49d627e2343eef40603589b2cb65beec99222d06ec168971812b",
+        "unit": null,
+        "value": "大型院落島"
+      },
+      {
+        "metric_id": "scheme.courtyard.new_gfa_m2",
+        "source_path": "artifacts/fab1/run-8/courtyard_islands-plan.json",
+        "source_sha256": "e3db0311c26a49d627e2343eef40603589b2cb65beec99222d06ec168971812b",
+        "unit": "m²",
+        "value": 129350.00000001484
+      },
+      {
+        "metric_id": "scheme.courtyard.osr",
+        "source_path": "artifacts/fab1/run-8/courtyard_islands-plan.json",
+        "source_sha256": "e3db0311c26a49d627e2343eef40603589b2cb65beec99222d06ec168971812b",
+        "unit": "ratio",
+        "value": 0.6863153066586424
+      },
+      {
+        "metric_id": "syntax.baseline.bike.primary_excellent_pctl",
+        "source_path": "artifacts/net2/round-7/v3-export/net2-assessment.json",
+        "source_sha256": "755386f30b8252df7f1ffcae9d404b57d6c10c24b1009c02e548086784efba4f",
+        "unit": "%",
+        "value": 74.34959186135349
+      },
+      {
+        "metric_id": "syntax.baseline.bike.primary_meets_pctl",
+        "source_path": "artifacts/net2/round-7/v3-export/net2-assessment.json",
+        "source_sha256": "755386f30b8252df7f1ffcae9d404b57d6c10c24b1009c02e548086784efba4f",
+        "unit": "%",
+        "value": 67.11367566046081
+      },
+      {
+        "metric_id": "syntax.baseline.car.primary_excellent_pctl",
+        "source_path": "artifacts/net2/round-7/v3-export/net2-assessment.json",
+        "source_sha256": "755386f30b8252df7f1ffcae9d404b57d6c10c24b1009c02e548086784efba4f",
+        "unit": "%",
+        "value": 92.11535885225736
+      },
+      {
+        "metric_id": "syntax.baseline.car.primary_meets_pctl",
+        "source_path": "artifacts/net2/round-7/v3-export/net2-assessment.json",
+        "source_sha256": "755386f30b8252df7f1ffcae9d404b57d6c10c24b1009c02e548086784efba4f",
+        "unit": "%",
+        "value": 93.50050948535889
+      },
+      {
+        "metric_id": "syntax.baseline.ped.primary_excellent_pctl",
+        "source_path": "artifacts/net2/round-7/v3-export/net2-assessment.json",
+        "source_sha256": "755386f30b8252df7f1ffcae9d404b57d6c10c24b1009c02e548086784efba4f",
+        "unit": "%",
+        "value": 87.66751995181448
+      },
+      {
+        "metric_id": "syntax.baseline.ped.primary_meets_pctl",
+        "source_path": "artifacts/net2/round-7/v3-export/net2-assessment.json",
+        "source_sha256": "755386f30b8252df7f1ffcae9d404b57d6c10c24b1009c02e548086784efba4f",
+        "unit": "%",
+        "value": 57.34076193344376
+      },
+      {
+        "metric_id": "syntax.baseline.ped.waterfront_meets_pctl",
+        "source_path": "artifacts/net2/round-7/v3-export/net2-assessment.json",
+        "source_sha256": "755386f30b8252df7f1ffcae9d404b57d6c10c24b1009c02e548086784efba4f",
+        "unit": "%",
+        "value": 43.46483963258545
+      },
+      {
+        "metric_id": "syntax.courtyard.bike.main_street_pctl",
+        "source_path": "artifacts/net2/round-7/v3-export/net2-assessment.json",
+        "source_sha256": "755386f30b8252df7f1ffcae9d404b57d6c10c24b1009c02e548086784efba4f",
+        "unit": "%",
+        "value": 41.27082171036901
+      },
+      {
+        "metric_id": "syntax.courtyard.ped.main_street_pctl",
+        "source_path": "artifacts/net2/round-7/v3-export/net2-assessment.json",
+        "source_sha256": "755386f30b8252df7f1ffcae9d404b57d6c10c24b1009c02e548086784efba4f",
+        "unit": "%",
+        "value": 64.25720620842571
+      },
+      {
+        "metric_id": "syntax.courtyard.ped.waterfront_pctl",
+        "source_path": "artifacts/net2/round-7/v3-export/net2-assessment.json",
+        "source_sha256": "755386f30b8252df7f1ffcae9d404b57d6c10c24b1009c02e548086784efba4f",
+        "unit": "%",
+        "value": 5.395417590539542
+      },
+      {
+        "metric_id": "utci.courtyard.all.very_strong_pct",
+        "source_path": "artifacts/w8/utci/utci_stress_hours_comparison.json",
+        "source_sha256": "2d73dd4e1fcee0680e2cbade943ef7892fa56bec730321a7e3f947d246ee6c84",
+        "unit": "%",
+        "value": 28.2
+      }
+    ],
+    "metrics": {
+      "check.courtyard.failures": {
+        "source_path": "artifacts/fab1/run-8/courtyard_islands-plan.json",
+        "source_sha256": "e3db0311c26a49d627e2343eef40603589b2cb65beec99222d06ec168971812b",
+        "unit": null,
+        "value": [
+          "NEW_GFA_TARGET",
+          "PARK_AREA_BUDGET",
+          "NO_LARGE_UNBUILT_PLOT",
+          "FAB1C_NEW_GFA_TARGET",
+          "SERVICE_FUNCTION_FRONTAGE",
+          "COURTYARD_ISLAND_ROAD_CLEARANCE",
+          "COURTYARD_ISLAND_GLOBAL_MEMBERSHIP",
+          "COURTYARD_ISLAND_COUNT_SPACING",
+          "NORTHEAST_REGULAR_BLOCKS",
+          "SOUTH_QUAY_FACADE_CONTINUITY",
+          "BUILDING_STREET_EDGE_3M",
+          "SOUTH_QUAY_MAX_GAP"
+        ]
+      },
+      "designer.stance.courtyard_role": {
+        "source_path": "knowledge/judgement/designer-stance-seed.json",
+        "source_sha256": "b3fcfa266d69f3059e42db8cbbad5b000086d3f8ad8c89b06d42d3b9fdcdea28",
+        "unit": null,
+        "value": {
+          "en": "Courtyards are residents' shared spaces for staying; in summer they are also shaded courts.",
+          "zh-TW": "中庭是比較單純的住戶共用空間，是停留的地方，夏季同時也是遮蔭的庭院。"
+        }
+      },
+      "designer.stance.season_priority": {
+        "source_path": "knowledge/judgement/designer-stance-seed.json",
+        "source_sha256": "b3fcfa266d69f3059e42db8cbbad5b000086d3f8ad8c89b06d42d3b9fdcdea28",
+        "unit": null,
+        "value": {
+          "en": "Winter sun and summer outdoor thermal comfort matter equally; public spaces need winter sun for people to gather.",
+          "zh-TW": "冬季陽光與夏季戶外熱舒適都很重要；夏天確實很熱，但冬天公共空間要有陽光才會有人聚集。"
+        }
+      },
+      "e1.courtyard.all.winter.mean_h": {
+        "source_path": "artifacts/w8/e1-fabric/comparison_table.csv",
+        "source_sha256": "00fbf8f566c3b1f4d4a588a8828975727069a8b1d15e0c7edf1eaa569cd97ee5",
+        "unit": "h",
+        "value": 2.14
+      },
+      "e1.courtyard.courtyard.winter.mean_h": {
+        "source_path": "artifacts/w8/e1-fabric/comparison_table.csv",
+        "source_sha256": "00fbf8f566c3b1f4d4a588a8828975727069a8b1d15e0c7edf1eaa569cd97ee5",
+        "unit": "h",
+        "value": 0.183
+      },
+      "e1.courtyard.street.winter.mean_h": {
+        "source_path": "artifacts/w8/e1-fabric/comparison_table.csv",
+        "source_sha256": "00fbf8f566c3b1f4d4a588a8828975727069a8b1d15e0c7edf1eaa569cd97ee5",
+        "unit": "h",
+        "value": 1.81
+      },
+      "e2.harbour_vs_mixed.hb_0h_kwh_m2.base": {
+        "source_path": "artifacts/w8/e2-formal/harbour-vs-mixed-result.json",
+        "source_sha256": "db731fb5c815f45efb47c5437a04c6406d613521b938fce8c73862df2dd7f190",
+        "unit": "kWh/m²",
+        "value": 411.45545285251364
+      },
+      "e2.harbour_vs_mixed.hb_0h_kwh_m2.variant": {
+        "source_path": "artifacts/w8/e2-formal/harbour-vs-mixed-result.json",
+        "source_sha256": "db731fb5c815f45efb47c5437a04c6406d613521b938fce8c73862df2dd7f190",
+        "unit": "kWh/m²",
+        "value": 374.1184674031733
+      },
+      "e2.harbour_vs_mixed.lb_0h_kwh_m2.base": {
+        "source_path": "artifacts/w8/e2-formal/harbour-vs-mixed-result.json",
+        "source_sha256": "db731fb5c815f45efb47c5437a04c6406d613521b938fce8c73862df2dd7f190",
+        "unit": "kWh/m²",
+        "value": 403.96414751269805
+      },
+      "e2.harbour_vs_mixed.lb_0h_kwh_m2.variant": {
+        "source_path": "artifacts/w8/e2-formal/harbour-vs-mixed-result.json",
+        "source_sha256": "db731fb5c815f45efb47c5437a04c6406d613521b938fce8c73862df2dd7f190",
+        "unit": "kWh/m²",
+        "value": 359.97034728922733
+      },
+      "e3.courtyard.eui_kwh_m2": {
+        "scenario": "mass, cooling on",
+        "source_path": "artifacts/w8/e3e4-final/e3e4_results_zh.csv",
+        "source_sha256": "8b8f94de456b6f0b020524ab7b780ffda27e91c701d7368a688881eeeb1304e8",
+        "unit": "kWh/m²/year",
+        "value": 63.11964361445858
+      },
+      "intent.courtyard.fabric_concept": {
+        "source_path": "artifacts/fab1/run-8/courtyard_islands-plan.json",
+        "source_sha256": "e3db0311c26a49d627e2343eef40603589b2cb65beec99222d06ec168971812b",
+        "unit": null,
+        "value": {
+          "blocks": {
+            "long_edge_m": {
+              "basis": {
+                "ku_ids": [
+                  "KU-MOR-082",
+                  "KU-MOR-095",
+                  "KU-MOR-083"
+                ],
+                "note_zh": "Commander 2026-10-11 校正：KNSM 的完整街廓面積中位數 1,787.56 m² 來自 OSM 內部路徑切出的碎片，不代表院落島尺度，因此不採用 23.8 m。院落島的設計包絡改以 Java-eiland（推估 78.2×185.3 m）與 Eixample（推估 74.9×117.8 m）為下界參照，並考慮大型院落需要 ≥20 m 中庭加上兩側 12–14 m 翼深。原推估值保留在 measured_reference_m。 原推估 long_edge_m：75.2–185.3 m。",
+                "status": "EDITORIAL"
+              },
+              "maximum": 200,
+              "minimum": 115,
+              "unit": "m"
+            },
+            "plot_subdivision_zh": "住宅翼以 8–16 m 的臨街地塊寬作 EDITORIAL 起稿，連續外牆由較細地塊組成；大型公共或商業空間可合併數個宗地，但每一段須保留門廳、轉角入口或可讀的地塊分界。此面寬不是 KNSM、Java 或 Eixample 地籍量測。",
+            "shape_rule_zh": "沿岸線和島形先畫大矩形或折線圍合街廓；內側建築翼圍成可辨識院落。外部道路轉角採切角或退台，禁止在尖角殘地內縮後放入三角形量體。",
+            "short_edge_m": {
+              "basis": {
+                "ku_ids": [
+                  "KU-MOR-082",
+                  "KU-MOR-095",
+                  "KU-MOR-083"
+                ],
+                "note_zh": "Commander 2026-10-11 校正：KNSM 的完整街廓面積中位數 1,787.56 m² 來自 OSM 內部路徑切出的碎片，不代表院落島尺度，因此不採用 23.8 m。院落島的設計包絡改以 Java-eiland（推估 78.2×185.3 m）與 Eixample（推估 74.9×117.8 m）為下界參照，並考慮大型院落需要 ≥20 m 中庭加上兩側 12–14 m 翼深。原推估值保留在 measured_reference_m。 原推估 short_edge_m：23.8–78.2 m。",
+                "status": "EDITORIAL"
+              },
+              "maximum": 120,
+              "minimum": 75,
+              "unit": "m"
+            }
+          },
+          "building_composition": {
+            "components": [
+              {
+                "basis_zh": "KNSM／Java 的島狀開發支持少數大型組團尺度；完整街廓分類無 superblock 專項，55% 是尺度策略而非測值。",
+                "part_id": "block.superblock",
+                "recommended_share_percent": 55,
+                "share_denominator_zh": "以候選街廓數為分母；大型組團作主要生成單元。"
+              },
+              {
+                "basis_zh": "大型組團需以開放邊、穿越口和院落入口降低封閉感；由通行需求推導，非直接 block_type_mix 比例。",
+                "part_id": "block.open",
+                "recommended_share_percent": 40,
+                "share_denominator_zh": "以候選街廓數為分母；保留開放邊與公共穿越口。"
+              },
+              {
+                "basis_zh": "KNSM 與 Eixample 合院型完整街廓共 2/9（約 22%）；原始分母是街廓數，只作原型訊號，不等於 footprint 份額。",
+                "part_id": "building.courtyard_closed",
+                "recommended_share_percent": 22,
+                "share_denominator_zh": "以候選院落組團數為分母；作為封閉院落原型訊號。"
+              },
+              {
+                "basis_zh": "U 形可在大型院落島邊界保留明確開口並導入日照；KNSM／Java 無 U 形獨立統計，40% 是圖底策略。",
+                "part_id": "building.u_block",
+                "recommended_share_percent": 40,
+                "share_denominator_zh": "以建築地面足跡面積為分母；U 形量體翼的建議份額。"
+              },
+              {
+                "basis_zh": "在視線、日照或公共穿越處以開角替代全閉合；先例未量得 footprint 占比，30% 是入口策略。",
+                "part_id": "building.courtyard_open_corner",
+                "recommended_share_percent": 30,
+                "share_denominator_zh": "以建築地面足跡面積為分母；開角院落量體的建議份額。"
+              }
+            ],
+            "height_profile_zh": "沿主要街道和橋頭配置連續中高量體，院落內側降低或退台以增加天空可視角；需要視線穿越時在轉角留缺口。高度梯度的理由是採光和入口層級，不從單一案例樓層數推定設計值。"
+          },
+          "common_errors_zh": [
+            "把大街廓圖底效果當成足以支持所有內部空間的證據。",
+            "院落淨寬不足，卻仍以完整圍合稱呼。",
+            "忽略院落是私有或半公共空間，未標出管理責任。",
+            "在不規則殘地內縮後生成尖角量體。",
+            "大尺度街廓沒有穿越通路或服務入口。",
+            "留下沒有機能、入口或維護責任的未配置土地。"
+          ],
+          "concept_zh": "大型院落島以少數大尺度街廓或島狀地塊承載連續的圍合量體，讓建築圖底形成清楚、厚實的邊界，內部院落則作為主要採光、通風及公共生活空間。它和一般周邊街廓的差別在於單一組團尺度較大、街道數較少，必須另外設計穿越口與內部路徑；院落大小、開放權屬和入口位置不能由圖底效果推定。",
+          "density_targets": {
+            "FSI": {
+              "basis": "KU-MOR-083 KNSM 至 KU-MOR-082 Java 的可比較已知樓地板面積下限；測量窗、資料覆蓋與高度假設依各 KU。",
+              "range": {
+                "maximum": 2.4636,
+                "minimum": 1.9643
+              },
+              "status": "MEASURED_PRECEDENT",
+              "unit": "dimensionless"
+            },
+            "GSI": {
+              "basis": "KU-MOR-083 KNSM 0.2787 與 KU-MOR-082 Java 0.3082 的研究窗陸地 GSI；只作島區案例觀察範圍，非建築覆蓋目標。",
+              "range": {
+                "maximum": 0.3082,
+                "minimum": 0.2787
+              },
+              "status": "MEASURED_PRECEDENT",
+              "unit": "dimensionless"
+            },
+            "L": {
+              "basis": "KU-MOR-083 KNSM 與 KU-MOR-082 Java 的已知樓層足跡加權案例值；兩個值不足以宣稱大型院落島的通用層數。",
+              "range": {
+                "maximum": 7.996,
+                "minimum": 7.878
+              },
+              "status": "MEASURED_PRECEDENT",
+              "unit": "storeys"
+            },
+            "OSR": {
+              "basis": "KU-MOR-082/083 的已知 FSI 下 OSR；只供同分母案例對讀，不等同院落面積比例。",
+              "range": {
+                "maximum": 0.3672,
+                "minimum": 0.2808
+              },
+              "status": "MEASURED_PRECEDENT",
+              "unit": "dimensionless"
+            }
+          },
+          "drawing_steps": [
+            {
+              "action_zh": "畫出島形、岸線、橋頭、城市道路、保留建築和可能的公共入口，分層標示可達性與權屬。",
+              "order": 1
+            },
+            {
+              "action_zh": "先定兩條組團邊界街，再連接橋頭與外部路口；標出一條連續橫向公共步行軸。",
+              "order": 2
+            },
+            {
+              "action_zh": "用 140–220 m 短邊、180–320 m 長邊的 EDITORIAL 包絡畫少數大型街廓，不把研究窗邊長誤當作實測街廓。",
+              "order": 3
+            },
+            {
+              "action_zh": "沿外緣切 8–16 m 起稿面寬的住宅宗地；大面積公建合併宗地時保留多入口與可讀分界。",
+              "order": 4
+            },
+            {
+              "action_zh": "用連續建築翼圍合主要院落，先確認至少 20 m 的淨寬作 EDITORIAL 最小值，再按日照、樹木和使用需求調整。",
+              "order": 5
+            },
+            {
+              "action_zh": "在橋頭、重要路口或保留建築旁配置院落入口、開口型量體和穿越廊道，標清楚公私邊界。",
+              "order": 6
+            },
+            {
+              "action_zh": "畫院落、入口廣場和公園／水岸連接，檢查步行路徑不必穿越未授權的半私有空間。",
+              "order": 7
+            },
+            {
+              "action_zh": "計算同口徑 GSI、FSI、L、OSR，與 KNSM/Java 參照並列；密度只作檢查值，設計者仍需選擇方案。",
+              "order": 8
+            }
+          ],
+          "edges": [
+            {
+              "rule_zh": "面水立面以入口缺口和公共步道接岸，院落管理邊界不得跨出基地占用水岸；先分清碼頭作業與可達水岸。",
+              "type": "waterfront"
+            },
+            {
+              "rule_zh": "大型公園側讓出至少一個可辨識入口庭院，量體轉角退縮形成視線，避免大尺度院落牆面直接封住公園邊。",
+              "type": "large_park"
+            },
+            {
+              "rule_zh": "沿高差方向把院落島分成可通行的台地，先畫坡道、梯道及無障礙連接，再完成連續圍合量體。",
+              "type": "topographic_edge"
+            },
+            {
+              "rule_zh": "把保留建築納入院落邊或中心節點，先核對既有入口與結構範圍，不以新院落軸線覆蓋它。",
+              "type": "retained_building"
+            },
+            {
+              "rule_zh": "組團外緣接續既有路口，至少在每個主要外部入口配置一條朝向院落或穿越廊道的路徑，避免封閉超街廓。",
+              "type": "existing_city_road"
+            }
+          ],
+          "height_cap_adaptation_zh": "20 m 高度上限下保留大型組團與庭院尺度，以約 5–6 層的連續或分段院落翼、U 形量體形成圖底；在長翼中插入穿越口、日照缺口和公共入口。樓層數須按首層用途和實際法規校核。",
+          "id": "fabric.courtyard_islands",
+          "land_use_budget": {
+            "blocks": {
+              "basis_zh": "組團及建築用地比例為概念設計預算，不是 KNSM 或 Java 實測比例。",
+              "maximum": 56,
+              "minimum": 46,
+              "status": "EDITORIAL",
+              "unit": "percent_site_area"
+            },
+            "parks": {
+              "basis_zh": "公園份額需配合基地邊界和既有公共綠地重新測量。",
+              "maximum": 14,
+              "minimum": 8,
+              "status": "EDITORIAL",
+              "unit": "percent_site_area"
+            },
+            "plazas": {
+              "basis_zh": "入口廣場和公共前場預算；不可與院落重複計面積。",
+              "maximum": 10,
+              "minimum": 5,
+              "status": "EDITORIAL",
+              "unit": "percent_site_area"
+            },
+            "roads": {
+              "basis_zh": "外圍街道與內部服務路用地，未由案例庫做完整面積盤點。",
+              "maximum": 22,
+              "minimum": 16,
+              "status": "EDITORIAL",
+              "unit": "percent_site_area"
+            },
+            "service": {
+              "basis_zh": "服務設施用地按垃圾、消防、卸貨和機電需求另行核算。",
+              "maximum": 8,
+              "minimum": 3,
+              "status": "EDITORIAL",
+              "unit": "percent_site_area"
+            },
+            "waterfront": {
+              "basis_zh": "只在基地臨水且陸地內設公共帶時配置，不含水面。",
+              "maximum": 10,
+              "minimum": 0,
+              "status": "EDITORIAL",
+              "unit": "percent_site_area"
+            }
+          },
+          "names": {
+            "en": "Courtyard Islands",
+            "zh": "大型院落島"
+          },
+          "open_space_system": {
+            "configuration_rule_zh": "以一個主要院落作為組團中心，外圍再設小型入口庭院或穿越廊道；每個院落標記公共、半公共或私有，院落邊界與住宅入口不得混淆。廣場放在橋頭、轉角或組團門口。",
+            "courtyard_min_clear_width_m": {
+              "basis_zh": "本條把 20 m 設為起稿下限以避免形成狹窄採光井；KB4 沒有量測個別院落，此值不是實測先例或法規。",
+              "minimum": 20,
+              "status": "EDITORIAL",
+              "unit": "m"
+            },
+            "site_area_share_percent": {
+              "basis_zh": "KB4 未統計院落、公園及廣場的土地面積；此範圍只作同一基地內不重複的開放空間預算。",
+              "maximum": 30,
+              "minimum": 13,
+              "status": "EDITORIAL"
+            },
+            "types": [
+              "space.courtyard",
+              "space.covered_public_passage",
+              "space.plaza"
+            ]
+          },
+          "precedents": [
+            {
+              "borrow_zh": "借用大型建築量體在島區形成強烈圖底、街道與院落邊界相互對照的閱讀方式。",
+              "do_not_borrow_zh": "不宣稱 Piraeus 或 Emerald Empire 有獨立於 KU-MOR-083 的本輪幾何量測，也不借用它們的尺度作硬性模數。",
+              "ku_id": "KU-MOR-083",
+              "measurements": [
+                {
+                  "limitation_zh": "KNSM 研究窗總體值，不是 Piraeus 或 Emerald Empire 單一量體量測。",
+                  "metric": "GSI",
+                  "status": "MEASURED_PRECEDENT",
+                  "unit": "dimensionless",
+                  "value": 0.2787
+                },
+                {
+                  "limitation_zh": "研究窗已知樓地板面積下限；不代表島區完整 FSI。",
+                  "metric": "FSI",
+                  "status": "MEASURED_PRECEDENT",
+                  "unit": "dimensionless",
+                  "value": 1.9643
+                }
+              ],
+              "name_zh": "KNSM 島（Piraeus、Emerald Empire 等大體量作圖底參照）"
+            },
+            {
+              "borrow_zh": "借用狹長島形中橫向連接、近水距離和內部路徑需並讀的設計問題。",
+              "do_not_borrow_zh": "不把 Java-eiland 的研究窗形狀等同目標基地地籍界，也不把穿越性由圖面單獨推定。",
+              "ku_id": "KU-MOR-082",
+              "measurements": [
+                {
+                  "limitation_zh": "研究窗陸地指標，水岸、街道與量體的取樣範圍可能混合。",
+                  "metric": "GSI",
+                  "status": "MEASURED_PRECEDENT",
+                  "unit": "dimensionless",
+                  "value": 0.3082
+                },
+                {
+                  "limitation_zh": "已知樓地板面積下限，依 KU-MOR-082 的高度來源與覆蓋率解讀。",
+                  "metric": "FSI",
+                  "status": "MEASURED_PRECEDENT",
+                  "unit": "dimensionless",
+                  "value": 2.4636
+                }
+              ],
+              "name_zh": "爪哇島"
+            },
+            {
+              "borrow_zh": "借用院落作為街廓內部開放空間的平面組織邏輯，並逐一檢查邊界開口。",
+              "do_not_borrow_zh": "不將歷史街廓約 113 m 模數當成普遍標準，也不採用高度不足的 FSI 下限。",
+              "ku_id": "KU-MOR-095",
+              "measurements": [
+                {
+                  "limitation_zh": "研究窗觀察值；含水與陸地分母差異小，但高度覆蓋不足。",
+                  "metric": "GSI",
+                  "status": "MEASURED_PRECEDENT",
+                  "unit": "dimensionless",
+                  "value": 0.5531
+                },
+                {
+                  "limitation_zh": "FSI 為非可比下限，不納入本紋理的 FSI 觀察範圍。",
+                  "metric": "FSI",
+                  "status": "LOWER_BOUND_NONCOMPARABLE",
+                  "unit": "dimensionless",
+                  "value": 2.0499
+                }
+              ],
+              "name_zh": "巴塞隆納擴展區 Eixample"
+            }
+          ],
+          "sources": [
+            "OSM_KB4_PRECEDENTS",
+            "3DBAG_KB4_HEIGHTS",
+            "BILJECKI2022",
+            "EASTERN_HARBOUR_AMSTERDAM2012",
+            "JACOBS61",
+            "CERDA2018"
+          ],
+          "street_network": {
+            "connection_rule_zh": "將橋頭、外部道路和大眾運輸入口接到組團邊界街，再從每一個公共入口畫出穿越院落島的步行線；至少保留一條可連續步行的橫向通路，不以半私有中庭充當未確認的公共道路。",
+            "hierarchy": [
+              {
+                "basis_zh": "KNSM/Java 研究窗沒有法定路幅或平行道路間距；尺度是大組團外圍交通的草圖包絡。",
+                "modes": [
+                  "步行",
+                  "自行車",
+                  "汽車",
+                  "服務"
+                ],
+                "name_zh": "島區邊界主街",
+                "section_width_m": {
+                  "maximum": 24,
+                  "minimum": 18,
+                  "unit": "m"
+                },
+                "spacing_m": {
+                  "maximum": 400,
+                  "minimum": 250,
+                  "unit": "m"
+                },
+                "status": "EDITORIAL"
+              },
+              {
+                "basis_zh": "道路中心線間距非 KB4 已量測欄位；此值讓大型街廓保有服務面及可辨識入口。",
+                "modes": [
+                  "步行",
+                  "自行車",
+                  "汽車",
+                  "服務"
+                ],
+                "name_zh": "組團服務街",
+                "section_width_m": {
+                  "maximum": 16,
+                  "minimum": 12,
+                  "unit": "m"
+                },
+                "spacing_m": {
+                  "maximum": 220,
+                  "minimum": 140,
+                  "unit": "m"
+                },
+                "status": "EDITORIAL"
+              },
+              {
+                "basis_zh": "穿越路徑尺寸為生成起點，實際通行需核對所有權、開放時段及無障礙條件。",
+                "modes": [
+                  "步行",
+                  "自行車"
+                ],
+                "name_zh": "院落穿越道",
+                "section_width_m": {
+                  "maximum": 8,
+                  "minimum": 5,
+                  "unit": "m"
+                },
+                "spacing_m": {
+                  "maximum": 100,
+                  "minimum": 50,
+                  "unit": "m"
+                },
+                "status": "EDITORIAL"
+              }
+            ],
+            "orientation_rule_zh": "順著島形、既有碼頭或海岸長向布置兩條主要邊界街；橫向街道只在公共入口、橋頭和交通節點穿入，內部步行通道再補足短路徑。",
+            "pattern": "deformed_grid",
+            "street_width_building_gap_proxy_m": {
+              "basis_zh": "爪哇島 的建築外牆最近點間距：P25 33.92 m、中位數 39.32 m、P75 55.74 m（KU-MOR-082）。數值含建築退縮，是外牆間距代理，不是法定路權、車道淨寬或道路斷面；道路幾何仍需另測。",
+              "ku_ids": [
+                "KU-MOR-082"
+              ],
+              "median": 39.32,
+              "p25": 33.92,
+              "p75": 55.74,
+              "status": "MEASURED_PRECEDENT_PROXY",
+              "unit": "m"
+            }
+          },
+          "when_not_to_use_zh": "若基地需高密度細網、多重短路徑或頻繁接入外部街道，不宜把大街廓作為唯一骨架；地塊狹窄、院落採光不足或內部公共通行無管理協議時，也不應複製大型圍合量體。",
+          "when_to_use_zh": "適用於島形或大型再開發基地，可形成少數完整組團，且基地有明確的公共穿越線、保留量體或內部院落計畫；設計團隊能同步規劃街廓界面、院落管理與穿越權責時較合適。"
+        }
+      },
+      "intent.courtyard.summary": {
+        "source_path": "artifacts/fab1/run-8/ai-explanations/courtyard_islands-design-statement-zh.md",
+        "source_sha256": "f603867e2b59d83736b671a15fc896371526a82da9069aa620099b88a8a109e8",
+        "unit": null,
+        "value": "### 1 設計意圖\n\n以三座大型院落島承接 M4H 的港埠尺度：外緣形成清楚街牆，內院提供採光、綠地與日常共享空間。建議保留院落島作為組織骨架，但須先改善公共穿越與水岸界面，再作最終選案。\n\n### 2 如何回應基地脈絡\n\n基地長軸約 990 m、方位 58°，與 Keileweg 的 62°僅差約 4°，適合沿其方向延續主街。港區街廓面積中位數約 1.1 ha，短、長邊中位數約 86、180 m；南側住宅區短邊中位數約 78 m。三座大型院落島可保留港區粗尺度，同時用步行穿越補上住宅區較細的連接節奏。\n\n### 3 路網與街廓\n\n主街延續 Keileweg 軸線，兩端接外部幹道；以服務街與步行路徑分隔三座主要街廓，並接通 Dakpark 與水岸。院落島的步行穿越可參照約 50–100 m 的間距，但本方案的組團間距檢查尚未通過，須調整路徑位置與連續性。[KU-MOR-102]\n\n### 4 建築類型與高度\n\n採四至五層連續或分段的 U 形院落翼，長翼安排穿越口、入口與採光缺口；保留既有倉庫作為組團辨識點。依首層 4 m、標準層 3.5 m 計，五層約 18 m，可守住 20 m 上限；六層約 21.5 m，會超高。\n\n### 5 開放空間與水岸\n\n基地陸地約 18 ha，水域約 4.2 ha。配置街坊公園及兩段水岸公共帶，保留從街道通往岸邊的多處入口；目前公園占比約 5.9%、"
+      },
+      "limit.e1": {
+        "source_path": "artifacts/w8/e1-fabric/comparison_table.md",
+        "source_sha256": "1764617f7cc5a38bed75cff29e81e0738cd5afce2c4f881eda7dc593a2efd89f",
+        "unit": null,
+        "value": "# 鹿特丹 M4H 港區活化 ｜ 四個紋理方案開放空間日照時數綜合比較\n\n> **標籤**：探索性分析（非正式法定審批依據）  \n> **計算設定**：網格間距 5.0 m、感測高度 0.5 m、時段 08:00–18:00、15 分鐘取樣、周邊 300 m 脈絡建築遮擋  \n> **範圍**：「全體開放空間」＝基地內全部未建土地（公園／綠軸、水岸帶、街道、街廓中庭、街廓內其他空地、設備院與其他空地），建築覆蓋面積不計。2026-10-17 起納入中庭與街廓內空地（先前版本只算前三類）。  \n\n| 紋理方案 | 開放空間類別 | 網格點數 | 面積 (m²) | 春分平均 (h) | 春分 ≥2h (%) | 夏至平均 (h) | 夏至 ≥2h (%) | 冬至平均 (h) | 冬至 ≥2h (%) |\n| :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |\n| **港埠線性紋理** | 全體開放空間 | 5,316 | 132,900 | **6.30** | **93.0%** | 8.03 | 98.6% | **2.15** | **39.4%** |\n| 港埠線性紋理 | 街坊公園/綠軸 | 766 | 19,150 | 9.06 | 100.0% | 9.91 | 100.0% | 4.08 | 83.0% |\n| 港埠線性紋理 | 水岸公共帶 | 715 | 17,875 | 7.29 | 94.7% | 8.49 | 98.9% | 3.42 | 55.7% |\n| 港埠線性紋理 | 街道路權 | 1,560 | 39,000 | 5.74 | 92.5% | 7.38 | 97.7% | 1.79 | 31.8% |\n| 港埠線性紋理 | 街廓中庭 | 780 | 19,500 | 4.33 | 86.2% | 7.30 | 98.2% | 0.11 | 1.0% |\n| 港埠線性紋理 | 街廓內其他空地 | 1,400 | 35,000 | 5.93 | 92.2% | 7.78 | 98.8% | 2.06 | 37.6% |\n| 港埠線性紋理 | 設備院與其他空地 | 95 | 2,375 | 7.61 | 100.0% | 9.54 | 100.0% | 1.30 | 31.6% |\n| **圍合街廓延伸** | 全體開放空間 | 5,709 | 142,725 | **6.74** | **92.7%** | 8.21 | 98.6% | **2.79** | **51.5%** |\n| 圍合街廓延伸 | 街坊公園/綠軸 | 952 | 23,800 | 9.16 | 100.0% | 9.82 | 100.0% | 4.44 | 86.3% |\n| 圍合街廓延伸 | 水岸公共帶 | 715 | 17,875 | 7.22 | 96.4% | 8.56 | 98.7% | 3.36 | 55.8% |\n| 圍合街廓延伸 | 街道路權 | 1,585 | 39,625 | 6.44 | 94.8% | 7.78 | 99.3% | 2.54 | 47.0% |\n| 圍合街廓延伸 | 街廓中庭 | 440 | 11,000 | 3.22 | 68.9% | 7.05 | 97.0% | 0.18 | 0.9% |\n| 圍合街廓延伸 | 街廓內其他空地 | 1,675 | 41,875 | 5.99 | 90.0% | 7.55 | 97.2% | 2.40 | 45.9% |\n| 圍合街廓延伸 | 設備院與其他空地 | 342 | 8,550 | 8.59 | 99.1% | 9.71 | 99.4% | 3.50 | 58.5% |\n| **大型院落島** | 全體開放空間 | 5,492 | 137,300 | **6.49** | **95.2%** | 8.14 | 99.2% | **2.14** | **42.5%** |\n| 大型院落島 | 街坊公園/綠軸 | 429 | 10,725 | 7.88 | 100.0% | 9.72 | 100.0% | 1.38 | 30.8% |\n| 大型院落島 | 水岸公共帶 | 715 | 17,875 | 7.26 | 96.4% | 8.55 | 98.7% | 3.34 | 55.4% |\n| 大型院落島 | 街道路權 | 1,430 | 35,750 | 6.51 | 97.6% | 7.95 | 100.0% | 1.81 | 40.9% |\n| 大型院落島 | 街廓中庭 | 371 | 9,275 | 5.22 | 89.5% | 8.52 | 99.2% | 0.18 | 0.5% |\n| 大型院落島 | 街廓內其他空地 | 2,350 | 58,750 | 6.06 | 92.9% | 7.67 | 98.6% | 2.39 | 47.2% |\n| 大型院落島 | 設備院與其他空地 | 197 | 4,925 | 8.10 | 100.0% | 9.51 | 100.0% | 2.59 | 54.8% |\n| **地景為圖** | 全體開放空間 | 5,797 | 144,925 | **7.22** | **93.8%** | 8.44 | 98.4% | **3.22** | **58.6%** |\n| 地景為圖 | 街坊公園/綠軸 | 1,721 | 43,025 | 9.33 | 100.0% | 9.92 | 100.0% | 5.09 | 90.3% |\n| 地景為圖 | 水岸公共帶 | 715 | 17,875 | 7.29 | 95.0% | 8.34 | 98.7% | 3.01 | 53.0% |\n| 地景為圖 | 街道路權 | 1,545 | 38,625 | 6.76 | 96.0% | 8.27 | 99.9% | 2.30 | 43.8% |\n| 地景為圖 | 街廓內其他空地 | 1,725 | 43,125 | 5.42 | 85.1% | 7.11 | 95.2% | 2.20 | 41.6% |\n| 地景為圖 | 設備院與其他空地 | 91 | 2,275 | 8.57 | 96.7% | 9.17 | 97.8% | 4.23 | 79.1% |\n"
+      },
+      "limit.e2": {
+        "source_path": "artifacts/w8/e2-formal/harbour-vs-mixed-result.json",
+        "source_sha256": "db731fb5c815f45efb47c5437a04c6406d613521b938fce8c73862df2dd7f190",
+        "unit": null,
+        "value": [
+          "累積入射輻射不代表熱舒適、耗能或材料蓄熱。",
+          "公共開放空間為幾何分析範圍，不代表 legal right of way。",
+          "Minute=0 視為 hour_end 是 PD-08 專案假設，非供應商證據。",
+          "Ladybug 遮擋篩選不含建築表面多次反射；Honeybee 驗證採獨立反射 recipe。"
+        ]
+      },
+      "limit.e3": {
+        "source_path": "artifacts/w8/e3e4-final/e3e4_results_zh.md",
+        "source_sha256": "2bbb5146483a207b777c0649e0c9f5fb4b8e2c9c1819fa70c51a854cda70c847",
+        "unit": null,
+        "value": "# E3 建築耗能＋E4 蓄熱（四案全量模型，最終版）\n\n**探索性；非能源認證。** 四案皆為全量模型（港埠 253 棟由專用完整重算取得，取代先前 3/253 抽樣外推 108.6）。理想負荷、ASHRAE 2019 CZ5、WWR 40%；風機電力 EnergyPlus 未輸出，以 0 計。\n\n## E3 年度比較（重質構造、冷暖氣皆開）\n\n| 方案 | 建模範圍 | 新建 GFA (m²) | 暖氣需求 (kWh-熱/年) | 冷氣需求 (kWh-熱/年) | EUI (kWh/m²·年) | 尖峰暖氣 (kW) | 尖峰冷氣 (kW) |\n|---|---|---:|---:|---:|---:|---:|---:|\n| 大型院落島 | 全量（83 棟） | 129,350.0 | 4,905,931.2 | 759,712.5 | **63.1** | 2,805.3 | 2,317.9 |\n| 港埠線性紋理 | 全量（253 棟） | 139,128.3 | 8,549,416.0 | 1,421,076.5 | **93.4** | 4,253.4 | 4,402.8 |\n| 圍合街廓延伸 | 全量（168 棟） | 126,875.4 | 9,171,886.8 | 1,333,380.4 | **100.4** | 4,293.2 | 4,303.6 |\n| 地景為圖 | 全量（51 棟） | 125,492.0 | 10,541,436.0 | 1,184,047.8 | **116.1** | 4,623.2 | 4,545.9 |\n\n## E4 港埠重質／輕質構造比較（全量 253 棟）\n\n| 指標 | 重質 | 輕質 | 輕質減重質 |\n|---|---:|---:|---:|\n| 夏季過熱時數（6–8 月 >26 °C，只開暖氣，樓地板加權小時） | 840.4 | 883.9 | 43.5 |\n| 冬季暖氣需求（12–2 月，kWh-熱） | 5,456,772.7 | 5,466,727.2 | 9,954.4 |\n| 尖峰冷負荷（冷氣開啟，kW-熱） | 4,402.8 | 4,662.7 | 259.9 |\n\n來源：`artifacts/w8/e3e4/`（圍合、院落、地景全量）與 `artifacts/w8/e3e4-harbour-full/`（港埠全量）；先前抽樣結果保留供查核。\n"
+      },
+      "limit.e5": {
+        "source_path": "artifacts/w8/e5-cfd/README_zh.md",
+        "source_sha256": "8859fd168e6c63ad54962652662e0f58768a0e0a9a0d341fe7be288331fad04f",
+        "unit": null,
+        "value": "# E5 風場第一部分：OpenFOAM 港埠方案粗略篩選報告\n\n> **免責與性質說明**：本報告屬於探索性粗略篩選（Exploratory Coarse Screening）；計算網格與計算域尺寸低於正式研究等級（COST 732 與 AIJ 行人風場指引建議），主要用於比較空間微氣候趨勢與辨識強風加速與靜風風險熱點。\n\n## 1. 執行環境與配置\n- **容器映像**：`opencfd/openfoam-run:2506` (arm64 原生)\n- **映像摘要**：`opencfd/openfoam-run@sha256:690476d30ce93c50b7c8e75ff49fd59faa55b78fae72b90aaba54337f7e0afc5`\n- **資源約束**：Docker Desktop 1 CPU、1.5 GB 記憶體限制；嚴格維持總網格數 ≤ 40 萬格以內。\n- **局部坐標原點**：`(89077.5, 435869.5, 0.0)` (EPSG:28992)。\n- **風向選取**：依鹿特丹 EPW 天氣檔統計，選取出現頻率最高的 4 個盛行海風風向：**SW (225°)**、**W (270°)**、**S (180°)**、**NW (315°)**，累計涵蓋 67.4% 全年時數。\n\n## 2. 模擬結果彙整\n\n# 港埠方案 OpenFOAM 行人風場粗略篩選結果表\n\n> **探索性粗略篩選；網格與域尺寸低於研究等級（COST 732／AIJ 建議），僅看趨勢**\n\n| 風向 | 入射角 (°) | 出現頻率 (%) | 參考風速 Uref (m/s) | 網格數 (格) | 迭代數 | 收斂狀態 | 耗時 (秒) | 最大風速比 | 平均風速比 | 強風區面積 (>1.2) | 靜風區面積 (<0.3) |\n|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|\n| SW | 225° | 21.5% | 6.10 | 386,519 | 258 | 收斂 (殘差<1e-4) | 430.2s | 0.91 | 0.39 | 0.0 m² | 69,066.0 m² |\n| W | 270° | 20.5% | 5.00 | 362,352 | 211 | 收斂 (殘差<1e-4) | 191.1s | 1.13 | 0.39 | 0.0 m² | 83,079.0 m² |\n| S | 180° | 17.7% | 4.44 | 370,674 | 195 | 收斂 (殘差<1e-4) | 183.3s | 1.01 | 0.35 | 0.0 m² | 105,030.0 m² |\n| NW | 315° | 7.7% | 4.32 | 391,094 | 199 | 收斂 (殘差<1e-4) | 196.3s | 1.14 | 0.32 | 0.0 m² | 142,848.0 m² |\n\n## 3. 圖件清單\n1. `cfd_sw_wind_ratio.png`：西南風（SW，225°）行人高度 1.5 m 風速比分布圖\n2. `cfd_w_wind_ratio.png`：西風（W，270°）行人高度 1.5 m 風速比分布圖\n3. `cfd_s_wind_ratio.png`：南風（S，180°）行人高度 1.5 m 風速比分布圖\n4. `cfd_nw_wind_ratio.png`：西北風（NW，315°）行人高度 1.5 m 風速比分布圖\n5. `cfd_4winds_summary.png`：4 風向 2x2 對比總覽面板（共用色階）\n6. `cfd_wind_risk_zones.png`：強風加速區（>1.2）與靜風區（<0.3）複合分區圖\n7. `cfd_lawson_comfort.png`：依 4 風向頻率加權之 Lawson 行人舒適度概估圖\n## Commander 審查補充（2026-10-17）：行人高度換算的限制\n- 行人層風速不是直接在 1.5 m 取樣，而是取每個垂直柱「離地最近一層流體網格中心」（高度 zP，粗網格下約 1–15 m）的 CFD 風速，再用對數律（z0＝0.5 m）換算到 1.5 m。\n- 對數律只適用於地表附近、流場接近平衡的開闊區；在建築背風區、轉角加速區與迴流區，實際剖面不符合對數律，換算值可能高估或低估。zP 越高，換算誤差越大。\n- 因此本結果只能用來比較「哪裡相對有風、哪裡相對靜風」的空間趨勢，不能當作行人風舒適度的定量判定；Lawson 分級亦僅為粗略概估。研究等級需加密地表附近網格（第一層 ≤ 0.5 m）並直接在 1.5 m 取樣。\n- **Lawson 概估圖不採用**：本次以 4 風向頻率加權的「平均」風速分級，Lawson 準則應以超越機率（例如 5% 時間被超越的風速）判定；用平均值必然全區落在「戶外長坐」，圖面無資訊量且會高估舒適度，因此報告與 demo 不使用 `cfd_lawson_comfort.png`（檔案保留供查核）。\n"
+      },
+      "limit.utci": {
+        "source_path": "artifacts/w8/utci/utci_stress_hours_comparison.md",
+        "source_sha256": "75c2d6a826bf865621481811ab443307a2c1abd94aa24a93a6ceace8064a78a5",
+        "unit": null,
+        "value": "# 四個紋理方案夏季開放空間 UTCI 熱舒適與熱壓力時數比例比較表\n\n**分析日期**：2017-08-19（典型最熱夏日，日均溫 25.39 °C，日最高溫 33.10 °C）  \n**分析時段**：10:00 – 17:00 每小時（共 8 小時）  \n**感測網格**：開放空間 5 m 網格，離地高度 1.1 m  \n**重要說明**：*探索性分析；風速採都市粗糙度對數律換算，未考慮建物風場遮蔽（留待 E5 CFD）；地面反射率 0.25，人體參數為站姿。*\n\n## 1. 總體開放空間熱壓力指標比較 (10:00–17:00)\n\n| 方案名稱 | 方案代碼 | 開放空間面積 (m²) | 感測點數 | 平均 UTCI (°C) | 最高 UTCI (°C) | 平均 MRT (°C) | 平均 SVF | 熱壓力總時數比 (>26°C) | 強烈及以上時數比 (>32°C) | 非常強烈時數比 (>38°C) |\n| :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |\n| **港埠線性紋理** | `harbour_grain` | 132,900 | 5,316 | 35.9 | 39.0 | 51.5 | 0.614 | **100.0%** | 89.7% | 26.4% |\n| **圍合街廓延伸** | `closed_block_extension` | 142,725 | 5,709 | 36.0 | 38.9 | 52.2 | 0.652 | **100.0%** | 91.1% | 30.0% |\n| **大型院落島** | `courtyard_islands` | 137,300 | 5,492 | 36.0 | 39.0 | 52.0 | 0.637 | **100.0%** | 91.4% | 28.2% |\n| **地景為圖** | `landscape_figure` | 144,925 | 5,797 | 36.2 | 39.0 | 53.0 | 0.691 | **100.0%** | 92.3% | 33.5% |\n\n## 2. 各類開放空間分類熱壓力時數比例明細表\n\n| 方案 | 空間類別 | 感測點數 | 面積 (m²) | 總點時數 | 無熱壓力 (≤26°C) | 中度 (26–32°C) | 強烈 (32–38°C) | 非常強烈 (38–46°C) | 熱壓力總佔比 (>26°C) | 平均 MRT (°C) | 平均 SVF |\n| :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |\n| 港埠線性紋理 | 公園與廣場 | 766 | 19,150 | 6,128 | 0.0% | 0.0% | 55.0% | 45.0% | **100.0%** | 56.5 | 0.789 |\n| 港埠線性紋理 | 水岸公共帶 | 715 | 17,875 | 5,720 | 0.0% | 5.5% | 64.5% | 30.0% | **100.0%** | 52.9 | 0.650 |\n| 港埠線性紋理 | 街道路權 | 1,560 | 39,000 | 12,480 | 0.0% | 14.4% | 60.8% | 24.8% | **100.0%** | 50.0 | 0.592 |\n| 港埠線性紋理 | 街廓中庭 | 780 | 19,500 | 6,240 | 0.0% | 17.7% | 70.0% | 12.3% | **100.0%** | 48.6 | 0.486 |\n| 港埠線性紋理 | 街廓內其他空地 | 1,400 | 35,000 | 11,200 | 0.0% | 10.1% | 66.4% | 23.5% | **100.0%** | 50.9 | 0.588 |\n| 港埠線性紋理 | 設備院與其他空地 | 95 | 2,375 | 760 | 0.0% | 0.9% | 63.2% | 35.9% | **100.0%** | 55.0 | 0.723 |\n| 港埠線性紋理 | **全體開放空間** | 5,316 | 132,900 | 42,528 | 0.0% | 10.3% | 63.3% | 26.4% | **100.0%** | 51.5 | 0.614 |\n| 圍合街廓延伸 | 公園與廣場 | 952 | 23,800 | 7,616 | 0.0% | 1.2% | 50.6% | 48.2% | **100.0%** | 57.1 | 0.839 |\n| 圍合街廓延伸 | 水岸公共帶 | 715 | 17,875 | 5,720 | 0.0% | 5.6% | 64.5% | 29.9% | **100.0%** | 52.9 | 0.655 |\n| 圍合街廓延伸 | 街道路權 | 1,585 | 39,625 | 12,680 | 0.0% | 11.7% | 58.8% | 29.5% | **100.0%** | 51.2 | 0.641 |\n| 圍合街廓延伸 | 街廓中庭 | 440 | 11,000 | 3,520 | 0.0% | 17.1% | 76.5% | 6.4% | **100.0%** | 47.3 | 0.425 |\n| 圍合街廓延伸 | 街廓內其他空地 | 1,675 | 41,875 | 13,400 | 0.0% | 11.3% | 65.2% | 23.5% | **100.0%** | 50.4 | 0.586 |\n| 圍合街廓延伸 | 設備院與其他空地 | 342 | 8,550 | 2,736 | 0.0% | 1.0% | 55.0% | 44.0% | **100.0%** | 56.2 | 0.787 |\n| 圍合街廓延伸 | **全體開放空間** | 5,709 | 142,725 | 45,672 | 0.0% | 8.9% | 61.2% | 30.0% | **100.0%** | 52.2 | 0.652 |\n| 大型院落島 | 公園與廣場 | 429 | 10,725 | 3,432 | 0.0% | 2.3% | 52.2% | 45.5% | **100.0%** | 56.4 | 0.783 |\n| 大型院落島 | 水岸公共帶 | 715 | 17,875 | 5,720 | 0.0% | 5.6% | 63.0% | 31.4% | **100.0%** | 53.1 | 0.674 |\n| 大型院落島 | 街道路權 | 1,430 | 35,750 | 11,440 | 0.0% | 10.8% | 58.5% | 30.7% | **100.0%** | 51.8 | 0.659 |\n| 大型院落島 | 街廓中庭 | 371 | 9,275 | 2,968 | 0.0% | 6.8% | 80.0% | 13.1% | **100.0%** | 51.1 | 0.497 |\n| 大型院落島 | 街廓內其他空地 | 2,350 | 58,750 | 18,800 | 0.0% | 10.3% | 65.8% | 23.9% | **100.0%** | 50.7 | 0.600 |\n| 大型院落島 | 設備院與其他空地 | 197 | 4,925 | 1,576 | 0.0% | 0.4% | 60.3% | 39.2% | **100.0%** | 55.7 | 0.743 |\n| 大型院落島 | **全體開放空間** | 5,492 | 137,300 | 43,936 | 0.0% | 8.6% | 63.2% | 28.2% | **100.0%** | 52.0 | 0.637 |\n| 地景為圖 | 公園與廣場 | 1,721 | 43,025 | 13,768 | 0.0% | 0.1% | 54.4% | 45.5% | **100.0%** | 56.9 | 0.806 |\n| 地景為圖 | 水岸公共帶 | 715 | 17,875 | 5,720 | 0.0% | 6.0% | 61.5% | 32.5% | **100.0%** | 53.2 | 0.686 |\n| 地景為圖 | 街道路權 | 1,545 | 38,625 | 12,360 | 0.0% | 9.7% | 58.2% | 32.1% | **100.0%** | 52.3 | 0.677 |\n| 地景為圖 | 街廓中庭 | 0 | 0 | 0 | 0.0% | 0.0% | 0.0% | 0.0% | **0.0%** | 0.0 | 0.000 |\n| 地景為圖 | 街廓內其他空地 | 1,725 | 43,125 | 13,800 | 0.0% | 14.4% | 62.9% | 22.7% | **100.0%** | 49.4 | 0.587 |\n| 地景為圖 | 設備院與其他空地 | 91 | 2,275 | 728 | 0.0% | 2.9% | 56.6% | 40.5% | **100.0%** | 55.2 | 0.747 |\n| 地景為圖 | **全體開放空間** | 5,797 | 144,925 | 46,376 | 0.0% | 7.7% | 58.8% | 33.5% | **100.0%** | 53.0 | 0.691 |\n\n## 3. 最熱時刻 (14:00) 氣象與熱舒適數值\n\n| 指標 | 數值 | 單位 | 備註 |\n| :--- | :---: | :---: | :--- |\n| 日期與時刻 | 2017-08-19 14:00 | - | 夏季節令高溫典型時段 |\n| 室外乾球氣溫 (Ta) | 32.1 | °C | 取自推導天氣 EPW |\n| 相對濕度 (RH) | 35.0 | % | 取自推導天氣 EPW |\n| 氣象 10m 風速 (v10) | 5.0 | m/s | 取自推導天氣 EPW |\n| 1.1m 換算風速 (v1.1) | 1.32 | m/s | 對數律換算 (z0=0.5m) |\n| 法向直射日照 (DNI) | 780 | W/m² | 取自推導天氣 EPW |\n| 水平漫射日照 (DHI) | 104 | W/m² | 取自推導天氣 EPW |\n| 水平長波紅外輻射 (IR) | 378 | W/m² | 取自推導天氣 EPW |"
+      },
+      "scheme.courtyard.building_count": {
+        "source_path": "artifacts/fab1/run-8/courtyard_islands-plan.json",
+        "source_sha256": "e3db0311c26a49d627e2343eef40603589b2cb65beec99222d06ec168971812b",
+        "unit": "count",
+        "value": 83
+      },
+      "scheme.courtyard.fsi": {
+        "source_path": "artifacts/fab1/run-8/courtyard_islands-plan.json",
+        "source_sha256": "e3db0311c26a49d627e2343eef40603589b2cb65beec99222d06ec168971812b",
+        "unit": "ratio",
+        "value": 1.0798869762891528
+      },
+      "scheme.courtyard.gsi": {
+        "source_path": "artifacts/fab1/run-8/courtyard_islands-plan.json",
+        "source_sha256": "e3db0311c26a49d627e2343eef40603589b2cb65beec99222d06ec168971812b",
+        "unit": "ratio",
+        "value": 0.25885703871143617
+      },
+      "scheme.courtyard.l": {
+        "source_path": "artifacts/fab1/run-8/courtyard_islands-plan.json",
+        "source_sha256": "e3db0311c26a49d627e2343eef40603589b2cb65beec99222d06ec168971812b",
+        "unit": "ratio",
+        "value": 4.171750483064782
+      },
+      "scheme.courtyard.label": {
+        "source_path": "artifacts/fab1/run-8/courtyard_islands-plan.json",
+        "source_sha256": "e3db0311c26a49d627e2343eef40603589b2cb65beec99222d06ec168971812b",
+        "unit": null,
+        "value": "大型院落島"
+      },
+      "scheme.courtyard.new_gfa_m2": {
+        "source_path": "artifacts/fab1/run-8/courtyard_islands-plan.json",
+        "source_sha256": "e3db0311c26a49d627e2343eef40603589b2cb65beec99222d06ec168971812b",
+        "unit": "m²",
+        "value": 129350.00000001484
+      },
+      "scheme.courtyard.osr": {
+        "source_path": "artifacts/fab1/run-8/courtyard_islands-plan.json",
+        "source_sha256": "e3db0311c26a49d627e2343eef40603589b2cb65beec99222d06ec168971812b",
+        "unit": "ratio",
+        "value": 0.6863153066586424
+      },
+      "syntax.baseline.bike.primary_excellent_pctl": {
+        "source_path": "artifacts/net2/round-7/v3-export/net2-assessment.json",
+        "source_sha256": "755386f30b8252df7f1ffcae9d404b57d6c10c24b1009c02e548086784efba4f",
+        "unit": "%",
+        "value": 74.34959186135349
+      },
+      "syntax.baseline.bike.primary_meets_pctl": {
+        "source_path": "artifacts/net2/round-7/v3-export/net2-assessment.json",
+        "source_sha256": "755386f30b8252df7f1ffcae9d404b57d6c10c24b1009c02e548086784efba4f",
+        "unit": "%",
+        "value": 67.11367566046081
+      },
+      "syntax.baseline.car.primary_excellent_pctl": {
+        "source_path": "artifacts/net2/round-7/v3-export/net2-assessment.json",
+        "source_sha256": "755386f30b8252df7f1ffcae9d404b57d6c10c24b1009c02e548086784efba4f",
+        "unit": "%",
+        "value": 92.11535885225736
+      },
+      "syntax.baseline.car.primary_meets_pctl": {
+        "source_path": "artifacts/net2/round-7/v3-export/net2-assessment.json",
+        "source_sha256": "755386f30b8252df7f1ffcae9d404b57d6c10c24b1009c02e548086784efba4f",
+        "unit": "%",
+        "value": 93.50050948535889
+      },
+      "syntax.baseline.ped.primary_excellent_pctl": {
+        "source_path": "artifacts/net2/round-7/v3-export/net2-assessment.json",
+        "source_sha256": "755386f30b8252df7f1ffcae9d404b57d6c10c24b1009c02e548086784efba4f",
+        "unit": "%",
+        "value": 87.66751995181448
+      },
+      "syntax.baseline.ped.primary_meets_pctl": {
+        "source_path": "artifacts/net2/round-7/v3-export/net2-assessment.json",
+        "source_sha256": "755386f30b8252df7f1ffcae9d404b57d6c10c24b1009c02e548086784efba4f",
+        "unit": "%",
+        "value": 57.34076193344376
+      },
+      "syntax.baseline.ped.waterfront_meets_pctl": {
+        "source_path": "artifacts/net2/round-7/v3-export/net2-assessment.json",
+        "source_sha256": "755386f30b8252df7f1ffcae9d404b57d6c10c24b1009c02e548086784efba4f",
+        "unit": "%",
+        "value": 43.46483963258545
+      },
+      "syntax.courtyard.bike.main_street_pctl": {
+        "source_path": "artifacts/net2/round-7/v3-export/net2-assessment.json",
+        "source_sha256": "755386f30b8252df7f1ffcae9d404b57d6c10c24b1009c02e548086784efba4f",
+        "unit": "%",
+        "value": 41.27082171036901
+      },
+      "syntax.courtyard.ped.main_street_pctl": {
+        "source_path": "artifacts/net2/round-7/v3-export/net2-assessment.json",
+        "source_sha256": "755386f30b8252df7f1ffcae9d404b57d6c10c24b1009c02e548086784efba4f",
+        "unit": "%",
+        "value": 64.25720620842571
+      },
+      "syntax.courtyard.ped.waterfront_pctl": {
+        "source_path": "artifacts/net2/round-7/v3-export/net2-assessment.json",
+        "source_sha256": "755386f30b8252df7f1ffcae9d404b57d6c10c24b1009c02e548086784efba4f",
+        "unit": "%",
+        "value": 5.395417590539542
+      },
+      "utci.courtyard.all.very_strong_pct": {
+        "source_path": "artifacts/w8/utci/utci_stress_hours_comparison.json",
+        "source_sha256": "2d73dd4e1fcee0680e2cbade943ef7892fa56bec730321a7e3f947d246ee6c84",
+        "unit": "%",
+        "value": 28.2
+      }
+    },
+    "references": {
+      "artifact": {},
+      "evidence_card": {}
+    },
+    "sources": {
+      "artifacts/fab1/run-8/ai-explanations/courtyard_islands-design-statement-zh.md": "f603867e2b59d83736b671a15fc896371526a82da9069aa620099b88a8a109e8",
+      "artifacts/fab1/run-8/courtyard_islands-plan.json": "e3db0311c26a49d627e2343eef40603589b2cb65beec99222d06ec168971812b",
+      "artifacts/net2/round-7/v3-export/net2-assessment.json": "755386f30b8252df7f1ffcae9d404b57d6c10c24b1009c02e548086784efba4f",
+      "artifacts/w8/e1-fabric/comparison_table.csv": "00fbf8f566c3b1f4d4a588a8828975727069a8b1d15e0c7edf1eaa569cd97ee5",
+      "artifacts/w8/e1-fabric/comparison_table.md": "1764617f7cc5a38bed75cff29e81e0738cd5afce2c4f881eda7dc593a2efd89f",
+      "artifacts/w8/e2-formal/harbour-vs-mixed-result.json": "db731fb5c815f45efb47c5437a04c6406d613521b938fce8c73862df2dd7f190",
+      "artifacts/w8/e3e4-final/e3e4_results_zh.csv": "8b8f94de456b6f0b020524ab7b780ffda27e91c701d7368a688881eeeb1304e8",
+      "artifacts/w8/e3e4-final/e3e4_results_zh.md": "2bbb5146483a207b777c0649e0c9f5fb4b8e2c9c1819fa70c51a854cda70c847",
+      "artifacts/w8/e5-cfd/README_zh.md": "8859fd168e6c63ad54962652662e0f58768a0e0a9a0d341fe7be288331fad04f",
+      "artifacts/w8/utci/utci_stress_hours_comparison.json": "2d73dd4e1fcee0680e2cbade943ef7892fa56bec730321a7e3f947d246ee6c84",
+      "artifacts/w8/utci/utci_stress_hours_comparison.md": "75c2d6a826bf865621481811ab443307a2c1abd94aa24a93a6ceace8064a78a5",
+      "knowledge/judgement/designer-stance-seed.json": "b3fcfa266d69f3059e42db8cbbad5b000086d3f8ad8c89b06d42d3b9fdcdea28"
+    },
+    "subject": {
+      "ids": [
+        "courtyard_islands"
+      ],
+      "kind": "scheme"
+    }
+  },
+  "bundle_sha256": "426d106d64fd6ac0ac6eafaf1235b733d4e2b34e6509a7030c409270594d1863",
+  "capture_method": "offline Registry + inputs.assemble(store=None, source_catalog=None)",
+  "project_id": "rotterdam-m4h-pilot-project",
+  "registry_sha256": "8529e0ea2b3bb0b2da8544fdf835a0e71105ffc8aef4297056f5c64a57bb6b86",
+  "skill_id": "J-COMPARE",
+  "skill_sources": {
+    "knowledge/judgement/J-COMPARE-zh.md": "a91a2e1b47a24163f6cae2510d254f277ebc45233c2566d5312bb1f26576f007",
+    "knowledge/v2/domains/CLI/units/KU-CLI-043.json": "f4af6cafec699094b3f685754a2040db17a99bb2b53488bb3a4f6ad0b270260b",
+    "knowledge/v2/domains/CLI/units/KU-CLI-055.json": "0bf119102158c5895200f4533d572a094d8f0ad97c1166ff5ad925a47f8373a3",
+    "knowledge/v2/domains/MOR/units/KU-MOR-023.json": "25d1e3a436b4c00b77517f3e7bac520e366eccf9c35ff04354d74803f743747c",
+    "knowledge/v2/domains/MOR/units/KU-MOR-028.json": "9a9f29bfe84b4db84e5582828c74c523c6b5636c709aa6cfe8941d972b654f1e",
+    "knowledge/v2/domains/MOR/units/KU-MOR-031.json": "928c29806a220c767a199ac17bbd0069ecada24f10ab713304bdc453a2d89b09",
+    "knowledge/v2/domains/MOR/units/KU-MOR-033.json": "e138143a913ec8e86a0b3e1cc81b1264ba7f6b0da776de7da66541add32ab5d4",
+    "knowledge/v2/domains/MOR/units/KU-MOR-035.json": "38184dc52b9a019f54a9b93878a77adfb0f823fde9fffdb1311a9a7435b69ceb",
+    "knowledge/v2/domains/MOR/units/KU-MOR-039.json": "f2ca52214d4b475b13a957e11624e88af2093e27cb3baac53e2cdaf277d61d4f",
+    "knowledge/v2/domains/MOR/units/KU-MOR-041.json": "f08c4139bcedb26738f694633fbdc1cdab0b2a08e03a55f745892e0e3b7889c0",
+    "knowledge/v2/domains/MOR/units/KU-MOR-043.json": "8c261ea04861151228d95b30ae346485895ccb28dc55ea6babc0dbdbc456c63e",
+    "knowledge/v2/domains/MOR/units/KU-MOR-047.json": "06cfcd8b8b6c4cf7b15895e5ee236114d1aaaf0382bf13fefc4e45e6305da834",
+    "knowledge/v2/domains/MOR/units/KU-MOR-049.json": "184c0066407a934dc722f4cf9151f2e29ceade0ed0ef2776b56bbb4755be3801",
+    "knowledge/v2/domains/MOR/units/KU-MOR-051.json": "e5fc81a07ed59456037e3310c6b08b70f49fa1ad523d39c7b148a49d35c4dd78",
+    "knowledge/v2/domains/MOR/units/KU-MOR-079.json": "c3e9a0346f4e143a623a576f000c2bdde7d2c56cfd9ca6548a274161565965d5",
+    "knowledge/v2/domains/MOR/units/KU-MOR-080.json": "650381aca1f02b8351e8320e3d273efa53e59e0a5bcc7f1ae4d0e52b36344588",
+    "knowledge/v2/domains/MOR/units/KU-MOR-083.json": "7d132c6841af4a2deb271c16b475c1c41c97b40bb7207ffa9669ec58259d9191",
+    "knowledge/v2/domains/MOR/units/KU-MOR-084.json": "bdf554eff37ce7e3ce0e1dbd93dceba3603fb18a4c995640874f4f43d3bf0098",
+    "knowledge/v2/domains/MOR/units/KU-MOR-090.json": "cb2f280484ee98a67c445f6bdbb02a3e4fa600ae6572a029b79ba826043dc44a",
+    "knowledge/v2/domains/MOR/units/KU-MOR-091.json": "443e69565b7bdf6fcee0e6eda384b16a622b9dd7d604ec35747c15a58315fcdf",
+    "knowledge/v2/domains/MOR/units/KU-MOR-100.json": "3c3b75bc3f681ff7c9c715b4f8d2232e1e3a460e2971dd724fa3ae5831f2d86f",
+    "knowledge/v2/domains/MOR/units/KU-MOR-101.json": "2890b96fc882939d147423ad77427c74d4a66c860230459f985a6e083f063017",
+    "knowledge/v2/domains/MOR/units/KU-MOR-102.json": "6d2dfe4a6cab2fceb9326150c4b4a559a22514d8e0bf7c1bb14e1d86a35a388a",
+    "knowledge/v2/domains/MOR/units/KU-MOR-103.json": "e65548be4b2ccac511287c12da2f8ad73d8b2302fb47f994e0e53445a039476a",
+    "knowledge/v2/domains/PUB/units/KU-PUB-009.json": "258ceba45f2ef3e1927b41e02de7ace01b165bee90ded5b20440ea6560842389",
+    "knowledge/v2/domains/PUB/units/KU-PUB-013.json": "20e31b6182c83b00d6cdf184f51f8ab485bb88235546976b3c86264f9e654eda",
+    "knowledge/v2/domains/PUB/units/KU-PUB-027.json": "09b8f9aaf668381ba6591f390f6a724a941f648e7e6c40268ad7f28aaf7eccbf",
+    "knowledge/v2/domains/PUB/units/KU-PUB-029.json": "0b348f8008625c5fcc3c7262681dbe1563e8058191ae795074dad4158e83cb88",
+    "knowledge/v2/domains/SYN/units/KU-SYN-009.json": "f612d0d15535052fd060c9fc4bda364f3c1d0200e4190f901d7fddc5489abb75",
+    "knowledge/v2/domains/SYN/units/KU-SYN-010.json": "b4cc9f01567802f597085043d88e2505b37fe83cd4bbd33f9a129e27448aa3aa",
+    "knowledge/v2/domains/SYN/units/KU-SYN-012.json": "901cc745952394c892f7ff949a09af553dca589b90f04e62685d5bea1c5d10f9",
+    "knowledge/v2/domains/SYN/units/KU-SYN-014.json": "dd29ad06a26391b7f20b166956b7b54a755538a10dcef1e88310e7afdc3bcb96",
+    "knowledge/v2/domains/SYN/units/KU-SYN-019.json": "59c4e840c2719a19eb6aef1ade849ffbd254ebf8593f2563f1328c873c5ae957",
+    "knowledge/v2/domains/SYN/units/KU-SYN-021.json": "68fb0c557baf4c5388074f9d23072eab7acff5d0cb3b4946875426bbd6ec98e1",
+    "knowledge/v2/domains/SYN/units/KU-SYN-057.json": "99516429b104c239978b0223a6462c51285a9807ec2fbc9ad2f57f3ba6a39109",
+    "knowledge/v2/domains/SYN/units/KU-SYN-061.json": "d612792e85bbb8fa6cf67ac472d1ea5b8e445aa5ab70af58e68118a53990553d"
+  },
+  "skill_version": "1.0.0",
+  "snapshot_id": "compare-courtyard",
+  "snapshot_schema": "ariadne-judgement-eval-input-v1",
+  "subject_ids": [
+    "courtyard_islands"
+  ]
+}

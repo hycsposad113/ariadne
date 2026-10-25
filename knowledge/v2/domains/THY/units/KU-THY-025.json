@@ -1,0 +1,71 @@
+{
+  "id": "KU-THY-025",
+  "domain": "THY",
+  "subtopic": "現代主義（CIAM、機能城市）與批判（Jacobs、Team 10、Collage City、Rossi、Krier）",
+  "type": "theory",
+  "title_zh": "Team 10 與 Smithson",
+  "title_en": "Team 10 and the Smithsons",
+  "summary_zh": "Team 10 批判將生活壓縮成抽象功能分區的做法，轉向人的關聯、認同、聚落尺度與日常接觸。Smithson 的街道與群集思考試圖重建建築和城市生活之間的中介關係。在戶、街、區與城市之間描述交往機會，不只按居住與工作分色。",
+  "key_points_zh": [
+    "在戶、街、區與城市之間描述交往機會，不只按居住與工作分色。",
+    "空中街道等具體方案的成效必須逐案調查，不能由理論意圖推出。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "Team 10 批判將生活壓縮成抽象功能分區的做法，轉向人的關聯、認同、聚落尺度與日常接觸。Smithson 的街道與群集思考試圖重建建築和城市生活之間的中介關係。",
+        "library_id": "TEAM10PRIMER1968",
+        "locator": null,
+        "study_design": "理論／方法綜述；非基地實測",
+        "effect_or_value": null,
+        "context_region": null,
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008"
+      },
+      {
+        "claim_zh": "Hall 對戰後規劃思想的梳理補上 Team 10 原始編選之外的歷史定位。",
+        "library_id": "HALL1988",
+        "locator": null,
+        "study_design": "歷史／規劃思想",
+        "effect_or_value": null,
+        "context_region": "英國、歐洲、跨地域",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "在戶、街、區與城市之間描述交往機會，不只按居住與工作分色。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "共享中介空間能支持鄰里接觸",
+      "tradeoff_zh": "管理、使用衝突及安全責任增加。",
+      "library_ids": [
+        "HALL1988"
+      ]
+    }
+  ],
+  "applies_when_zh": "用於釐清「Team 10 與 Smithson」涉及的空間、制度與行動選擇。",
+  "not_applicable_when_zh": "「Team 10 與 Smithson」不能直接替代基地的實測、法規或人類批准。",
+  "debates_zh": "空中街道等具體方案的成效必須逐案調查，不能由理論意圖推出。",
+  "sources": [
+    {
+      "library_id": "TEAM10PRIMER1968",
+      "locator": null
+    },
+    {
+      "library_id": "HALL1988",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+  "curriculum_refs": [
+    {
+      "school": "MIT",
+      "course": null,
+      "topic": "編者主題對照，非已核實課程指定閱讀：Team 10 與 Smithson"
+    }
+  ],
+  "version": "2.0.0-theory-v3"
+}

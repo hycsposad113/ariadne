@@ -1,0 +1,112 @@
+{
+  "id": "KU-HOU-037",
+  "domain": "HOU",
+  "subtopic": "鄰里單元與批評",
+  "type": "design_principle",
+  "title_zh": "鄰里單元與批評｜設計原則",
+  "title_en": "Neighborhood unit and critiques — Design principle",
+  "summary_zh": "日常用途、街道互動及多樣性可作城市生活的討論起點；不能從外觀推定安全或社群。 不把「步行可達」直接等同社會凝聚或住宅滿意。 讀「鄰里單元與批評｜設計原則」時，把公共設施服務圈、路網可達性和居民使用分別量測；同時把日常用途、街道互動及多樣性可作城市生活的討論起點；不能從外觀推定安全或社群列為核對條件。",
+  "key_points_zh": [
+    "讀「鄰里單元與批評｜設計原則」時，把公共設施服務圈、路網可達性和居民使用分別量測；同時把日常用途、街道互動及多樣性可作城市生活的討論起點；不能從外觀推定安全或社群列為核對條件。",
+    "讀「鄰里單元與批評｜設計原則」時，把公共設施服務圈、路網可達性和居民使用分別量測；同時把日常用途、街道互動及多樣性可作城市生活的討論起點；不能從外觀推定安全或社群列為核對條件。",
+    "限制：不把「步行可達」直接等同社會凝聚或住宅滿意。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "Jacobs 對「鄰里單元」式規劃提出城市生活層面的批評，強調街道、日常用途與更大城市網絡不能被一個邊界取代。",
+        "library_id": "JACOBS61",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "美國",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "特定鄰里形式不保證社群感；社會互動可能透過中介條件發生，其他設計也可能達成。",
+        "library_id": "TALEN99",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "美國",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "落實「鄰里單元與批評｜設計原則」時可先把公共設施服務圈、路網可達性和居民使用分別量測，再用日常用途、街道互動及多樣性可作城市生活的討論起點；不能從外觀推定安全或社群核對方案的空間後果。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "「鄰里單元與批評｜設計原則」可把取向落在把公共設施服務圈、路網可達性和居民使用分別量測，但需連同日常用途、街道互動及多樣性可作城市生活的討論起點；不能從外觀推定安全或社群決定適用方式。",
+      "tradeoff_zh": "「鄰里單元與批評｜設計原則」採用「「鄰里單元與批評｜設計原則」可把取向落在把公共設施服務圈、路網可達性和居民使用分別量測，但需連同日常用途、街道互動及多樣性可作城市生活的討論起點；不能從外觀推定安全或社群決定適用方式」時，得失要沿著日常用途、街道互動及多樣性可作城市生活的討論起點；不能從外觀推定安全或社群檢查；社區感可能透過中介條件產生，外來者和跨區使用也不應被排除。",
+      "library_ids": [
+        "JACOBS61",
+        "TALEN99"
+      ]
+    },
+    {
+      "option_zh": "「鄰里單元與批評｜設計原則」可把取向落在設施圈、地方中心和穿越路徑可有不同組織方式，但需連同日常用途、街道互動及多樣性可作城市生活的討論起點；不能從外觀推定安全或社群決定適用方式。",
+      "tradeoff_zh": "「鄰里單元與批評｜設計原則」的主要代價不是抽象的建造成本，而是社區感可能透過中介條件產生，外來者和跨區使用也不應被排除；因此先以日常用途、街道互動及多樣性可作城市生活的討論起點；不能從外觀推定安全或社群作方案比較條件。",
+      "library_ids": [
+        "JACOBS61",
+        "TALEN99"
+      ]
+    }
+  ],
+  "applies_when_zh": "「鄰里單元與批評｜設計原則」可在適用於鄰里規劃、服務配置和公共空間連結時使用，前提是日常用途、街道互動及多樣性可作城市生活的討論起點；不能從外觀推定安全或社群與來源情境相符。",
+  "not_applicable_when_zh": "若日常用途、街道互動及多樣性可作城市生活的討論起點；不能從外觀推定安全或社群不成立，就不能把「鄰里單元與批評｜設計原則」的結論延伸到其他情況；不把「步行可達」直接等同社會凝聚或住宅滿意。",
+  "debates_zh": "社區感可能透過中介條件產生，外來者和跨區使用也不應被排除。",
+  "sources": [
+    {
+      "library_id": "JACOBS61",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "TALEN99",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "MOUDON97",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "街道生活與多樣性；新都市主義批評",
+  "region": "美國",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "鄰里單元與批評"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "鄰里單元與批評"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "鄰里單元與批評"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "鄰里單元與批評"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-HOU-035",
+    "KU-HOU-036",
+    "KU-HOU-038"
+  ],
+  "counter_unit_ids": [
+    "KU-HOU-039"
+  ]
+}

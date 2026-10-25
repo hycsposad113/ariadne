@@ -1,0 +1,80 @@
+{
+  "id": "KU-SYN-030",
+  "domain": "SYN",
+  "subtopic": "多中心性（MCA）",
+  "type": "typology",
+  "title_zh": "多中心性（MCA）：型態比較",
+  "title_en": "Multiple centrality analysis: Typology comparison",
+  "summary_zh": "規劃型與自組織街網可能形成不同中心性分布；多中心路網需看多個子中心與跨區連接。類型比較要回到多中心性分析用多個網路中心性指標描述城市道路系統的骨架與局部節點，不將複雜網路縮成單一排名。各類型的成本和適用條件包括：中心性指標依賴圖建構與邊成本；高分節點不一定是社會上重要、可進入或安全的地方。",
+  "key_points_zh": [
+    "比較類型：多中心性分析用多個網路中心性指標描述城市道路系統的骨架與局部節點，不將複雜網路縮成單一排名",
+    "比較類型：規劃型與自組織街網可能形成不同中心性分布；多中心路網需看多個子中心與跨區連接"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "多中心性（MCA）：型態比較｜波哥大的人口、工作及可及性分布不均；高平均密度可以和低收入群體的可及性不足並存",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "BOGOTA17",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "多中心性（MCA）：型態比較｜巴西都市形態研究跨越地理、建築與都市學傳統；不宜假定歐洲分類可原樣套用",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "BRAZIL14",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "類型表應比較「多中心性分析用多個網路中心性指標描述城市道路系統的骨架與局部節點，不將複雜網路縮成單一排名」及其使用代價「中心性指標依賴圖建構與邊成本；高分節點不一定是社會上重要、可進入或安全的地方」，不要只列名稱。"
+  ],
+  "applies_when_zh": "比較多中心性（MCA）方案時，可先用「多中心性分析用多個網路中心性指標描述城市道路系統的骨架與局部節點，不將複雜網路縮成單一排名」描述各類型，再按「中心性指標依賴圖建構與邊成本；高分節點不一定是社會上重要、可進入或安全的地方」檢查分類的盲點。",
+  "not_applicable_when_zh": "這些類型不構成普遍排序；遇到「中心性指標依賴圖建構與邊成本；高分節點不一定是社會上重要、可進入或安全的地方」所述條件時，不應只依類名決定路網或街道配置。",
+  "debates_zh": "中心性指標依賴圖建構與邊成本；高分節點不一定是社會上重要、可進入或安全的地方；檢視「多中心性（MCA）：型態比較」的分類邊界時，還需判斷「規劃型與自組織街網可能形成不同中心性分布；多中心路網需看多個子中心與跨區連接」會如何改變方案結論。",
+  "sources": [
+    {
+      "library_id": "BOGOTA17",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "BRAZIL14",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "城市網路科學",
+  "region": "跨地域理論或實務脈絡；來源地區依引用條目判讀",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Methods of Analysis & Imagination",
+      "topic": "多中心性（MCA）：課綱對應主題"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Cities by Design",
+      "topic": "多中心性（MCA）：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-SYN-025",
+    "KU-SYN-026",
+    "KU-SYN-027",
+    "KU-SYN-028",
+    "KU-SYN-029",
+    "KU-SYN-031",
+    "KU-SYN-032"
+  ]
+}

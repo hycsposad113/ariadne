@@ -1,0 +1,106 @@
+{
+  "id": "KU-LUP-010",
+  "domain": "LUP",
+  "subtopic": "相容與衝突：工業與住宅介面",
+  "type": "design_principle",
+  "title_zh": "相容與衝突：工業與住宅介面｜設計原則",
+  "title_en": "Compatibility and conflicts — Design principle",
+  "summary_zh": "都市製造可能連結材料循環與地方生產，但空間、社會和材料條件也會形成限制。 住宅與工業介面的設計需要處理噪音、裝卸、氣味和居民實際暴露。 單一屠宰場周邊調查的距離或自陳感受不可直接變成普遍緩衝規範。",
+  "key_points_zh": [
+    "讀「相容與衝突：工業與住宅介面｜設計原則」時，把干擾來源、住戶暴露、物流和緩解措施逐一定位；同時把波哥大的人口、工作及可及性分布不均；高平均密度可以和低收入群體的可及性不足並存列為核對條件。",
+    "讀「相容與衝突：工業與住宅介面｜設計原則」時，把干擾來源、住戶暴露、物流和緩解措施逐一定位；同時把波哥大的人口、工作及可及性分布不均；高平均密度可以和低收入群體的可及性不足並存列為核對條件。",
+    "限制：不能把單一城市調查的距離或自陳感受轉成普遍緩衝規範。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "作者歸納都市製造可能連結資源循環，也列出空間、社會與材料條件帶來的阻礙；未估計單一因果效應。",
+        "library_id": "TSUI2020",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "跨城市文獻與專家",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "倫敦製造業案例指出小型工業空間容易被住宅與高價辦公用途排擠，讓都市製造策略同時面對企業留存和土地競價壓力。",
+        "effect_or_value": null,
+        "study_design": "都市製造與規劃政策案例",
+        "context_region": "英國倫敦",
+        "library_id": "FERM2023",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW",
+        "limitations_zh": "此研究分析土地競爭，未測屠宰場氣味、噪音或居民暴露。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "落實「相容與衝突：工業與住宅介面｜設計原則」時可先把干擾來源、住戶暴露、物流和緩解措施逐一定位，再用波哥大的人口、工作及可及性分布不均；高平均密度可以和低收入群體的可及性不足並存核對方案的空間後果。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "在「相容與衝突：工業與住宅介面｜設計原則」的來源情境裡，把干擾來源、住戶暴露、物流和緩解措施逐一定位；落到設計時還要按波哥大的人口、工作及可及性分布不均；高平均密度可以和低收入群體的可及性不足並存調整。",
+      "tradeoff_zh": "「相容與衝突：工業與住宅介面｜設計原則」的主要代價不是抽象的建造成本，而是相容性不是固定二元值，地區條件和執法能力會改變結果；因此先以波哥大的人口、工作及可及性分布不均；高平均密度可以和低收入群體的可及性不足並存作方案比較條件。",
+      "library_ids": [
+        "TSUI2020"
+      ]
+    },
+    {
+      "option_zh": "「相容與衝突：工業與住宅介面｜設計原則」可把取向落在緩衝、垂直分層、共享裝卸和時間管理是不同的介面策略，但需連同波哥大的人口、工作及可及性分布不均；高平均密度可以和低收入群體的可及性不足並存決定適用方式。",
+      "tradeoff_zh": "「相容與衝突：工業與住宅介面｜設計原則」的主要代價不是抽象的建造成本，而是相容性不是固定二元值，地區條件和執法能力會改變結果；因此先以波哥大的人口、工作及可及性分布不均；高平均密度可以和低收入群體的可及性不足並存作方案比較條件。",
+      "library_ids": [
+        "TSUI2020"
+      ]
+    }
+  ],
+  "applies_when_zh": "「相容與衝突：工業與住宅介面｜設計原則」可在適用於生產性城市、工業住宅交界與混合用途開發時使用，前提是波哥大的人口、工作及可及性分布不均；高平均密度可以和低收入群體的可及性不足並存與來源情境相符。",
+  "not_applicable_when_zh": "若波哥大的人口、工作及可及性分布不均；高平均密度可以和低收入群體的可及性不足並存不成立，就不能把「相容與衝突：工業與住宅介面｜設計原則」的結論延伸到其他情況；不能把單一城市調查的距離或自陳感受轉成普遍緩衝規範。",
+  "debates_zh": "相容性不是固定二元值，地區條件和執法能力會改變結果。",
+  "sources": [
+    {
+      "library_id": "TSUI2020",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "FERM2023",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "拉美可及性與公平；循環經濟與城市製造",
+  "region": "哥倫比亞；跨城市文獻與專家",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Planning Complex Cities",
+      "topic": "相容與衝突：工業與住宅介面"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Cities by Design",
+      "topic": "相容與衝突：工業與住宅介面"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "相容與衝突：工業與住宅介面"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Sustainable Futures by Design",
+      "topic": "相容與衝突：工業與住宅介面"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-LUP-008",
+    "KU-LUP-009",
+    "KU-LUP-011"
+  ],
+  "counter_unit_ids": [
+    "KU-LUP-012"
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "id": "KU-HOU-062",
+  "domain": "HOU",
+  "subtopic": "住宅類型",
+  "type": "value_range",
+  "title_zh": "半獨立住宅密度",
+  "title_en": "Semi-detached housing density",
+  "summary_zh": "區域道路與學校用地是否併入分母需在計算表明示。 以住宅戶數和可達公共交通同時檢查，避免只比較外觀密度。 記錄 英國與荷蘭住宅型態比較 與「成對住宅的淨住宅用地」的量測分母，再和另一種尺度或用途並排比較。",
+  "key_points_zh": [
+    "半獨立住宅案例可用約 20–40 戶／公頃作比較帶，地塊深度和車道配置會造成很大差異。",
+    "區域道路與學校用地是否併入分母需在計算表明示。",
+    "以住宅戶數和可達公共交通同時檢查，避免只比較外觀密度。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "半獨立住宅案例可用約 20–40 戶／公頃作比較帶，地塊深度和車道配置會造成很大差異。",
+        "effect_or_value": "約 20–40",
+        "study_design": "跨案例尺度對照或明示假設的規劃計算",
+        "context_region": "英國與荷蘭住宅型態比較",
+        "library_id": "SCANLON2007",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "半獨立住宅密度",
+      "range": "約 20–40",
+      "unit": "戶／公頃",
+      "context": "英國與荷蘭住宅型態比較；用途：成對住宅的淨住宅用地；對照書目：SCANLON2007；適用於制度或形態比較，這不是本基地法規。",
+      "library_id": "SCANLON2007"
+    }
+  ],
+  "design_implications_zh": [
+    "以住宅戶數和可達公共交通同時檢查，避免只比較外觀密度。",
+    "記錄 英國與荷蘭住宅型態比較 與「成對住宅的淨住宅用地」的量測分母，再和另一種尺度或用途並排比較。"
+  ],
+  "applies_when_zh": "用於比較英國與荷蘭住宅型態比較的成對住宅的淨住宅用地，並明示此數值的來源、年份和面積分母。",
+  "not_applicable_when_zh": "區域道路與學校用地是否併入分母需在計算表明示。",
+  "debates_zh": "成對住宅比獨棟節省地塊，仍可能依賴私人汽車和個別庭院維護。 查核：「半獨立住宅密度」的數值帶合理，但所引文獻未提供，待補來源。",
+  "sources": [
+    {
+      "library_id": "SCANLON2007",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "HOOIMEIJER1998",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "歐洲社會住宅制度比較",
+  "region": "英國與荷蘭住宅型態比較",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "住宅類型"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "住宅類型"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "住宅類型"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "住宅類型"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+}

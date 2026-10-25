@@ -1,0 +1,107 @@
+{
+  "id": "KU-MOR-002",
+  "domain": "MOR",
+  "subtopic": "地塊、街廓與建築類型",
+  "type": "typology",
+  "title_zh": "地塊、街廓與建築類型｜類型取捨",
+  "title_en": "Plots, blocks and building types — Typology and trade-offs",
+  "summary_zh": "城市形態由街道系統、地塊與建築肌理共同構成，三者的形成和變更不會同步。 細分地塊可支持漸進調整，整合大宗地則較易統一建造但可能減少街巷穿透。 判讀街廓類型時需同看地籍歷史、宗地權利和可見空間，不能由現況平面推定年代或所有權。",
+  "key_points_zh": [
+    "細分地塊可支持增量更新；整合大宗地較易統一建造但降低街巷穿透。",
+    "讀「地塊、街廓與建築類型｜類型取捨」時，適用於比較歷史街區、更新地與新開發的細部粒度；同時把分辨街道、地塊與建築的歷史層次，先讀既有格局再提出改動列為核對條件。",
+    "限制：地籍資料不完整或宗地權利不清時，只能描述可見形態。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "分辨街道、地塊與建築的歷史層次，先讀既有格局再提出改動。",
+        "library_id": "CONZEN60",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "英國",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "工具書統整城市形態描述與分析方法，適合作為術語和尺度的導航，不替代案例的量測。",
+        "library_id": "KROPF2017",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "跨地域形態學",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "先畫出街道—街廓—宗地層級，再配置建築與開放空間。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "在「地塊、街廓與建築類型｜類型取捨」的來源情境裡，先畫出街道—街廓—宗地層級，再配置建築與開放空間；落到設計時還要按分辨街道、地塊與建築的歷史層次，先讀既有格局再提出改動調整。",
+      "tradeoff_zh": "增加空間選擇與公共連結，但會增加協調、管理或建造成本。",
+      "library_ids": [
+        "CONZEN60",
+        "KROPF2017"
+      ]
+    },
+    {
+      "option_zh": "在「地塊、街廓與建築類型｜類型取捨」的來源情境裡，細分地塊可支持增量更新；整合大宗地較易統一建造但降低街巷穿透；落到設計時還要按分辨街道、地塊與建築的歷史層次，先讀既有格局再提出改動調整。",
+      "tradeoff_zh": "保留另一種形式和使用條件，但可能改變連續性、可達性或私密性。",
+      "library_ids": [
+        "CONZEN60",
+        "KROPF2017"
+      ]
+    }
+  ],
+  "applies_when_zh": "適用於比較歷史街區、更新地與新開發的細部粒度。",
+  "not_applicable_when_zh": "地籍資料不完整或宗地權利不清時，只能描述可見形態。",
+  "debates_zh": "街廓小不必然代表活力；所有權、用途和公共通行權也會改變其表現。",
+  "sources": [
+    {
+      "library_id": "CONZEN60",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "KROPF2017",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "英國城鎮平面學；城市形態學",
+  "region": "英國；跨地域形態學",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "地塊、街廓與建築類型"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "地塊、街廓與建築類型"
+    },
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.330J Theory of City Form",
+      "topic": "地塊、街廓與建築類型"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban form and density",
+      "topic": "地塊、街廓與建築類型"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-MOR-001",
+    "KU-MOR-003",
+    "KU-MOR-004"
+  ],
+  "counter_unit_ids": [
+    "KU-MOR-005"
+  ]
+}

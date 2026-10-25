@@ -1,0 +1,42 @@
+{
+  "id": "CHO2010",
+  "title": "The politics of urban nature restoration: The case of Cheonggyecheon restoration in Seoul, Korea",
+  "authors": [
+    "Myung-Rae Cho"
+  ],
+  "year": 2010,
+  "venue_or_publisher": "International Development Planning Review",
+  "doi": "https://doi.org/10.3828/idpr.2010.05",
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "都市自然復育與規劃政治",
+  "region": "韓國首爾",
+  "method": "Crossref 書目資料確認到文獻種類與題目範圍；全文方法未由本次核讀",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "論文以清溪川復育討論都市自然復育的政治過程。",
+      "strength": "CASE_EVIDENCE",
+      "scope_zh": "未把書目題名轉化成具體治理或分配結論。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref",
+    "query": {
+      "title": "The politics of urban nature restoration: The case of Cheonggyecheon restoration in Seoul, Korea",
+      "author": "Myung-Rae Cho",
+      "year": 2010,
+      "api_query": "Crossref GET /works/10.3828/idpr.2010.05"
+    },
+    "matched_record_id": "10.3828/idpr.2010.05",
+    "checked_at_utc": "2026-10-08T14:40:02Z",
+    "match_notes_zh": "Crossref 公開書目欄位核對題名、作者、年份與 DOI；未保存 API 摘要。"
+  },
+  "limitations_zh": "書目範圍確認不等於研究發現、方法、因果或數值已全文核查。",
+  "critique_relationship_zh": "本記錄不宣稱與其他文獻存在直接互引或逐一反駁。",
+  "metadata_licence_zh": "Crossref 公開書目欄位；精確 metadata 授權未核驗，標 UNKNOWN。"
+}

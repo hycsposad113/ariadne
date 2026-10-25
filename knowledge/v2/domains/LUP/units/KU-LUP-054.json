@@ -1,0 +1,107 @@
+{
+  "id": "KU-LUP-054",
+  "domain": "LUP",
+  "subtopic": "商業與零售區位",
+  "type": "typology",
+  "title_zh": "商業與零售區位｜類型取捨",
+  "title_en": "Retail and commercial location — Typology and trade-offs",
+  "summary_zh": "便利商品、專門商品與目的型零售會形成不同的服務範圍，實際商圈未必排成整齊的中心地層級。 廣島研究辨認出多個便利商品中心，並記錄其分布偏離理想化的巢狀秩序。 商業區位模型可作比較基線，仍需以現況店面、顧客和出行資料校核。",
+  "key_points_zh": [
+    "便利商品、專門商品和目的型商業會形成不同空間服務範圍。",
+    "讀「商業與零售區位｜類型取捨」時，適用於商業中心、街道活化和鄰里服務配置；同時把廣島研究辨識四十多個便利商品中心，並發現商品層級的商圈並未形成教科書式巢狀階層列為核對條件。",
+    "限制：沒有店面營運或消費者資料時，只能提出候選區位假說。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "廣島研究辨識四十多個便利商品中心，並發現商品層級的商圈並未形成教科書式巢狀階層。",
+        "library_id": "MORIKAWA1981",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "廣島，日本",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "城市路網組態與行人通行分布存在關聯，吸引用途可能放大通行；這不提供本基地的人數或因果保證。",
+        "library_id": "HILLIER93",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "英國",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "結合商圈、出行路線、人口分布和營業類型分析。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "在「商業與零售區位｜類型取捨」的來源情境裡，結合商圈、出行路線、人口分布和營業類型分析；落到設計時還要按廣島研究辨識四十多個便利商品中心，並發現商品層級的商圈並未形成教科書式巢狀階層調整。",
+      "tradeoff_zh": "此選項把「商業與零售區位｜類型取捨」的工作放在廣島研究辨識四十多個便利商品中心，並發現商品層級的商圈並未形成教科書式巢狀階層上；需要承擔的協調或維護代價則由「經典中心地理論是理想模型，都市內零售可能呈現重疊和非巢狀商圈」界定。",
+      "library_ids": [
+        "MORIKAWA1981",
+        "HILLIER93"
+      ]
+    },
+    {
+      "option_zh": "在「商業與零售區位｜類型取捨」的來源情境裡，便利商品、專門商品和目的型商業會形成不同空間服務範圍；落到設計時還要按廣島研究辨識四十多個便利商品中心，並發現商品層級的商圈並未形成教科書式巢狀階層調整。",
+      "tradeoff_zh": "「商業與零售區位｜類型取捨」採用「在「商業與零售區位｜類型取捨」的來源情境裡，便利商品、專門商品和目的型商業會形成不同空間服務範圍；落到設計時還要按廣島研究辨識四十多個便利商品中心，並發現商品層級的商圈並未形成教科書式巢狀階層調整」時，得失要沿著廣島研究辨識四十多個便利商品中心，並發現商品層級的商圈並未形成教科書式巢狀階層檢查；經典中心地理論是理想模型，都市內零售可能呈現重疊和非巢狀商圈。",
+      "library_ids": [
+        "MORIKAWA1981",
+        "HILLIER93"
+      ]
+    }
+  ],
+  "applies_when_zh": "適用於商業中心、街道活化和鄰里服務配置。",
+  "not_applicable_when_zh": "沒有店面營運或消費者資料時，只能提出候選區位假說。",
+  "debates_zh": "經典中心地理論是理想模型，都市內零售可能呈現重疊和非巢狀商圈。",
+  "sources": [
+    {
+      "library_id": "MORIKAWA1981",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "HILLIER93",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "零售地理與中心地系統；空間語法",
+  "region": "廣島，日本；英國",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Planning Complex Cities",
+      "topic": "商業與零售區位"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Cities by Design",
+      "topic": "商業與零售區位"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "商業與零售區位"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Sustainable Futures by Design",
+      "topic": "商業與零售區位"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-LUP-053",
+    "KU-LUP-055",
+    "KU-LUP-056"
+  ],
+  "counter_unit_ids": [
+    "KU-LUP-057"
+  ]
+}

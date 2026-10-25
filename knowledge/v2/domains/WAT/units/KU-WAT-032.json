@@ -1,0 +1,74 @@
+{
+  "id": "KU-WAT-032",
+  "domain": "WAT",
+  "subtopic": "潮汐與河口地景",
+  "type": "critique",
+  "title_zh": "港口工程可能把水風險轉到相鄰岸段",
+  "title_en": "港口工程可能把水風險轉到相鄰岸段",
+  "summary_zh": "防洪或航道工程改變水流後，受益範圍和受影響岸段可能不一致。河口治理研究要求同時檢視空間與時間尺度，沿海風險研究也指出暴露具有區域性。工程比較需把鄰近地區、沉積變化和長期維護列入系統邊界。",
+  "key_points_zh": [
+    "局部水位下降不保證整個河口風險等幅降低。",
+    "岸線工程成本可能延後或外移。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "library_id": "GODSCHALK2003",
+        "claim_zh": "題名與書目顯示文章討論城市災害減緩與韌性規劃；不提供特定基地的防洪標準；本單元 KU-WAT-032 對照「防洪或航道工程改變水流後，受益範圍和受影響岸段可能不一致」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "規劃框架論述",
+        "context_region": "美國都市規劃脈絡",
+        "locator": null
+      },
+      {
+        "library_id": "NICHOLLS2010",
+        "claim_zh": "回顧指出 20 世紀全球海平面已上升，後續增幅仍受冰蓋、區域差異、地面下陷與調適成效不確定性影響；本單元 KU-WAT-032 對照「防洪或航道工程改變水流後，受益範圍和受影響岸段可能不一致」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "ABSTRACT_REVIEW",
+        "effect_or_value": null,
+        "study_design": "沿海海平面變化與影響回顧",
+        "context_region": "全球沿海地區",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "在流域與港區尺度共同檢查水流和岸線變化。",
+    "列出工程受益者以及承擔風險轉移的地區。"
+  ],
+  "applies_when_zh": "適用於港口和河岸工程的區域尺度審查。",
+  "not_applicable_when_zh": "不應把一般風險轉移論述當成個別工程的既成事實。",
+  "debates_zh": "現有來源對長期累積效應的觀察資料有限，不能單靠模型圖判定轉移量。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "GODSCHALK2003",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "NICHOLLS2010",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "河口工程風險分配",
+  "region": "荷蘭河口區域；全球低海拔沿海區",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "潮汐與河口地景"
+    },
+    {
+      "school": "MIT",
+      "course": null,
+      "topic": "潮汐與河口地景"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0"
+}

@@ -1,0 +1,48 @@
+{
+  "id": "AZI23",
+  "title": "Assessment of the Compatibility of Abattoir and Residential Land Uses in Jos Metropolis, Nigeria",
+  "authors": [
+    "Musa Bulus Azi",
+    "Samuel Danjuma Wapwera",
+    "Timlok Timothy Wazhi",
+    "Patrick Shehu"
+  ],
+  "year": 2023,
+  "venue_or_publisher": "Urban Studies and Public Administration",
+  "doi": "10.22158/uspa.v6n1p21",
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "土地使用相容性",
+  "region": [
+    "奈及利亞"
+  ],
+  "method": "問卷／GIS 個案",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "Jos 屠宰場與住宅相鄰案例呈現氣味及相容性問題；需區分活動、居民暴露及治理，不外推其距離為荷蘭規範。",
+      "strength": "MIXED",
+      "scope_zh": "僅限本研究或概念框架；不提供 M4H 的實測、法律效力或本卡試算門檻。",
+      "assessment_basis": "ABSTRACT_REVIEW"
+    }
+  ],
+  "known_critiques": [
+    "ROY05"
+  ],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref",
+    "query": {
+      "title": "Assessment of the Compatibility of Abattoir and Residential Land Uses in Jos Metropolis, Nigeria",
+      "author": "Musa Bulus Azi",
+      "year": 2023
+    },
+    "matched_record_id": "10.22158/uspa.v6n1p21",
+    "checked_at_utc": "2026-10-08T09:12:32Z",
+    "match_notes_zh": "本任務重新以允許的公開書目 API 核對書名、作者與出版年；只確認書目，不代表全文主張已核實。"
+  },
+  "limitations_zh": "僅核對公開書目及可得摘要，未下載全文；書目驗證不代表全文因果或所有主張均已確認。",
+  "critique_relationship_zh": "known_critiques 是編者指定的批評或替代閱讀，不宣稱實際互引或逐一反駁；Ratti 與 Hillier／Penn 的標題記錄確認明確對話。",
+  "metadata_licence_zh": "保存書目欄位和自行撰寫的來源說明；未保存 API 摘要或全文，資料服務授權細節未由本任務判定。"
+}

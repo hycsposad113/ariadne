@@ -1,0 +1,4 @@
+{
+  "fixture_only": true,
+  "selected_metric_key": "osm_highway_unique_centerline_length"
+}

@@ -1,0 +1,91 @@
+{
+  "id": "KU-LUP-065",
+  "domain": "LUP",
+  "subtopic": "15 分鐘城市與可及性",
+  "type": "value_range",
+  "title_zh": "三十分鐘步行服務圈換算",
+  "title_en": "Thirty-minute walk distance conversion",
+  "summary_zh": "按 3.0–4.8 km/h 計算，三十分鐘的直線行程約為 1.5–2.4 km。 此值是時間情境換算，不能解讀為可接受通勤距離或設施標準。 北歐出行研究提醒城市尺度和住業位置也會影響旅次，鄰里尺度本身不足以解釋通勤。",
+  "key_points_zh": [
+    "按 3.0–4.8 km/h 計算，三十分鐘的直線行程約為 1.5–2.4 km",
+    "此值是時間情境換算，不能解讀為可接受通勤距離或設施標準",
+    "北歐出行研究提醒城市尺度和住業位置也會影響旅次，鄰里尺度本身不足以解釋通勤"
+  ],
+  "evidence": {
+    "strength": "ASSUMED",
+    "findings": [
+      {
+        "claim_zh": "30 分鐘以3.0–4.8 km/h換算，理想距離為約 1,500–2,400 m；這是透明情境計算，非研究觀測出的通用服務標準。",
+        "effect_or_value": "約 1,500–2,400 m",
+        "study_design": "明示速度與時間的公式換算；非實證測量",
+        "context_region": "跨地域步行服務情境",
+        "library_id": "GEURS04",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "北歐研究顯示城市尺度與住業位置對出行重要；僅調整鄰里小尺度特徵可能漏掉主要關係。",
+        "effect_or_value": null,
+        "study_design": "形態／制度比較的補充閱讀",
+        "context_region": "跨地域規劃計算示例",
+        "library_id": "NAESS12",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "三十分鐘步行服務圈換算",
+      "range": "約 1,500–2,400 m",
+      "unit": "m",
+      "context": "跨地域步行服務情境；用途：長步行或跨街區服務壓力測試；計算：3.0–4.8 km/h × 30 分鐘，僅為無停等、無繞行的直線情境，非文獻直接報告的數值；方法背景書目：NAESS12；需改以路網與使用者條件核算，這不是本基地法規。",
+      "library_id": "NAESS12"
+    }
+  ],
+  "design_implications_zh": [
+    "將長步行距離與公共交通、自行車方案並排，評估跨區工作和照護旅次的時間成本。"
+  ],
+  "applies_when_zh": "適合作為跨街區步行敏感度比較；須與出行目的和替代交通方式共同分析。",
+  "not_applicable_when_zh": "直線距離未納入轉乘、路網繞行和出發前後的活動鏈，不能作為完整通勤指標。",
+  "debates_zh": "通勤與照護行程常串接多個目的地，單一目的地的步行圈會低估時間壓力。",
+  "sources": [
+    {
+      "library_id": "GEURS04",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "NAESS12",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "可及性評估",
+  "region": "跨地域步行服務情境",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Planning Complex Cities",
+      "topic": "15 分鐘城市與可及性"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Cities by Design",
+      "topic": "15 分鐘城市與可及性"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "15 分鐘城市與可及性"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Sustainable Futures by Design",
+      "topic": "15 分鐘城市與可及性"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008"
+}

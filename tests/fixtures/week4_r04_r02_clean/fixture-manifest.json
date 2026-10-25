@@ -1,0 +1,108 @@
+{
+  "files": [
+    {
+      "kind": "fixture_input",
+      "path": "README.md",
+      "sha256": "f10d4369e66039558b18b5af6d6a96cace5e4ce7034a207a24874bbb679285f6",
+      "size_bytes": 629
+    },
+    {
+      "kind": "fixture_input",
+      "path": "project/artifacts/week4-repair-r04/browser/report.json",
+      "sha256": "b0d88b91d73679c288c7f55a185faab8ebf399912991fcae3f468e16c76dfc1b",
+      "size_bytes": 447
+    },
+    {
+      "kind": "fixture_input",
+      "path": "project/artifacts/week4-repair-r04/decision-docket-r01.md",
+      "sha256": "1b1278b49970a2e8ad5c954917a10600b269917670ade1595ba04b4acee72ef9",
+      "size_bytes": 134
+    },
+    {
+      "kind": "fixture_input",
+      "path": "project/artifacts/week4-repair-r04/decision-docket.md",
+      "sha256": "d50591147d42f24ea732535b11d3918722f0b7e0a699ca976f2d5d828dc3f063",
+      "size_bytes": 81
+    },
+    {
+      "kind": "fixture_input",
+      "path": "project/artifacts/week4-repair-r04/docket-correction-r01.json",
+      "sha256": "cc1a9096ea2a17aa630b3a3b74d8e3d16b1a47fef43cc3e3ad1a0f3b28afc91b",
+      "size_bytes": 281
+    },
+    {
+      "kind": "fixture_input",
+      "path": "project/artifacts/week4-repair-r04/evidence-bundle.json",
+      "sha256": "7a4c72af725a99827bf548f0b54c28e25d0e65ab9ba2c3be03cb39206698459e",
+      "size_bytes": 531
+    },
+    {
+      "kind": "fixture_input",
+      "path": "project/artifacts/week4-repair-r04/gate-status.json",
+      "sha256": "78b2cfb22fa203369e23de858079e806c49cd36cf9086043d3dc81c00ddde1cc",
+      "size_bytes": 462
+    },
+    {
+      "kind": "fixture_input",
+      "path": "project/artifacts/week4-repair-r04/implementation-record-r01.json",
+      "sha256": "c8fb7b6b6c8c8b9e4a2477c53c8c31356d7857df617e99f4354ad7a85c4168ac",
+      "size_bytes": 88
+    },
+    {
+      "kind": "fixture_input",
+      "path": "project/artifacts/week4-repair-r04/implementation-record.json",
+      "sha256": "55f70cff93dcf7fc4b84f285bbde5502e7bd4bc16ab3960d6ca41c1f6af343bf",
+      "size_bytes": 77
+    },
+    {
+      "kind": "fixture_input",
+      "path": "project/artifacts/week4-repair-r04/integrity-manifest-r01.json",
+      "sha256": "573b19f5fe180d805f32fa7a4d627661ad4d3e95433172753ac143c99b3be55e",
+      "size_bytes": 1936
+    },
+    {
+      "kind": "fixture_input",
+      "path": "project/artifacts/week4-repair-r04/integrity-manifest.json",
+      "sha256": "ab70b562ffe47287f8d92c22a63d1703236e1ea483ecfe3027377865dd791457",
+      "size_bytes": 2252
+    },
+    {
+      "kind": "fixture_input",
+      "path": "project/artifacts/week4-repair-r04/package-record.json",
+      "sha256": "5741f72646006174d151833d3c28ed0d8bb3e11b22a25eeb53164fe978bf1280",
+      "size_bytes": 360
+    },
+    {
+      "kind": "fixture_input",
+      "path": "project/artifacts/week4-repair-r04/request-log.json",
+      "sha256": "599750973310b0d5c3e1a4926de773ce3e7210ea3309eb1a968642d22f5ed642",
+      "size_bytes": 255
+    },
+    {
+      "kind": "fixture_input",
+      "path": "project/artifacts/week4-repair-r04/road-metric-decision.json",
+      "sha256": "84635c635b0dd88dbab69a8a48a63e4e361b0d09eb9ef60a5a627512ecc0b38d",
+      "size_bytes": 92
+    },
+    {
+      "kind": "fixture_input",
+      "path": "project/artifacts/week4-repair-r04/test-results.json",
+      "sha256": "dcd055fd4093146ba398a575161182563da56e0b641082d16518f7a25bb65d44",
+      "size_bytes": 157
+    },
+    {
+      "kind": "fixture_input",
+      "path": "project/docs/week4-r04-repair-evidence-docket-r01.md",
+      "sha256": "1b1278b49970a2e8ad5c954917a10600b269917670ade1595ba04b4acee72ef9",
+      "size_bytes": 134
+    },
+    {
+      "kind": "fixture_input",
+      "path": "project/scripts/append_week4_repair_r04_docket_r01.py",
+      "sha256": "42eb0cbee4ccc74395dcc2792cf6a99ecea758cf68dd7e27e95b77bcec3cfbe0",
+      "size_bytes": 57
+    }
+  ],
+  "manifest_excludes_self": true,
+  "schema_version": "week4-r04-r02-clean-fixture-v1"
+}

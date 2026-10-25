@@ -1,0 +1,122 @@
+{
+  "id": "KU-PUB-065",
+  "domain": "PUB",
+  "subtopic": "CPTED 與可防衛空間的理論根源",
+  "type": "theory",
+  "title_zh": "Jeffery 與 Newman：環境犯罪預防和可防衛空間",
+  "title_en": "Jeffery and Newman: environmental crime prevention and defensible space",
+  "summary_zh": "Jeffery 把犯罪預防放進人、環境與行為的互動脈絡；Newman 將建築和住區配置連到居民對領域的認知與照看。Newman 常被整理成領域界定、自然監看、形象和周邊情境等主題，這些要素是待交叉核對的經典內容，不是套用到任何基地的固定設計清單。 Cozens 等人的批判性回顧把理論主張放回效果證據仍有爭議的研究脈絡。",
+  "key_points_zh": [
+    "Jeffery（1971）提出「透過環境設計預防犯罪（CPTED）」一詞，主張改變物理環境可降低犯罪機會，是從犯罪學角度提出的環境—行為理論。。",
+    "Newman 將住區空間組織與居民控制／照看關係連結。",
+    "建築可見性不能取代犯罪資料、使用者經驗或社會服務。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "library_id": "JEFFERY1971",
+        "claim_zh": "Jeffery（1971）提出「透過環境設計預防犯罪（CPTED）」一詞，主張改變物理環境可降低犯罪機會，是從犯罪學角度提出的環境—行為理論。",
+        "effect_or_value": null,
+        "study_design": "經典專書",
+        "context_region": "United States",
+        "locator": null,
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+        "limitations_zh": "查得的是作品層級首版年份；目前沒有頁碼或全文引文。"
+      },
+      {
+        "library_id": "NEWMAN1972",
+        "claim_zh": "Newman（1972）以紐約公共住宅的比較提出「可防衛空間」，四個要素為：領域感（territoriality）、自然監視（natural surveillance）、形象（image）與周邊環境（milieu）；高層、匿名的公共住宅（如 Pruitt-Igoe）被用作反例。",
+        "effect_or_value": null,
+        "study_design": "經典專書",
+        "context_region": "United States",
+        "locator": null,
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+        "limitations_zh": "未把後來教材的簡化框架當作本次已核實的原文。"
+      },
+      {
+        "claim_zh": "Cozens 等人的批判性回顧將環境設計犯罪預防研究放進相互不一致的效果證據中，作為原典主張的獨立檢查。",
+        "effect_or_value": null,
+        "study_design": "批判性文獻回顧",
+        "context_region": "跨地域 place-based 犯罪預防研究",
+        "library_id": "COZENS2005",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW",
+        "limitations_zh": "這篇是批判性回顧，不標成系統性回顧或統合分析。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "將入口、半公共空間、住所與街道的管理權責畫成連續界面，不把圍籬本身視為安全結果。",
+    "同時記錄使用者、居民與非居民對可進入和被觀察的感受。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "以能看見活動、明確但可穿越的領域界線支持日常照看。",
+      "tradeoff_zh": "可能提升責任辨識，也要防止把非居民或弱勢使用者排除。",
+      "library_ids": [
+        "JEFFERY1971",
+        "NEWMAN1972"
+      ]
+    },
+    {
+      "option_zh": "優先投入維護、社會服務和可求助路徑，少用硬隔離。",
+      "tradeoff_zh": "對社區協調和長期管理要求較高，但避免把監控當成唯一策略。",
+      "library_ids": [
+        "JEFFERY1971",
+        "NEWMAN1972"
+      ]
+    }
+  ],
+  "applies_when_zh": "適用於討論住宅區、公共邊界和公共空間的犯罪預防假設。",
+  "not_applicable_when_zh": "不適用於以設計形式單獨預測犯罪率或替代社會、警政與環境資料。",
+  "debates_zh": "可防衛性會因權屬、日常管理和群體差異而變；強化控制可能增加安全感，也可能降低開放性。",
+  "counter_unit_ids": [
+    "KU-PUB-038"
+  ],
+  "related_unit_ids": [
+    "KU-PUB-037",
+    "KU-PUB-036",
+    "KU-PUB-042"
+  ],
+  "sources": [
+    {
+      "library_id": "JEFFERY1971",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "NEWMAN1972",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "COZENS2005",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "環境犯罪學與住宅空間理論",
+  "region": "United States; 跨地域應用",
+  "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+  "curriculum_refs": [
+    {
+      "school": "UCL Bartlett",
+      "course": "Critical Debates in Urban Design",
+      "topic": "CPTED 與可防衛空間的理論根源：課綱對應主題"
+    }
+  ],
+  "version": "kb2-gaps-2026-10-08",
+  "check": {
+    "method_zh": "把目標空間分成公共、半公共和私人界面，量測入口、視線、通行及管理責任，再用同一時段犯罪與使用者觀察檢查假設。",
+    "inputs": [
+      "建築與道路平面",
+      "權屬及管理責任",
+      "犯罪事件資料與使用者訪談"
+    ],
+    "logic_zh": "空間要素只能提出風險假設；需明確定義事件、暴露人口、觀察時段與比較區域後才可評估成效。",
+    "limitations_zh": "Jeffery 與 Newman 的原典概念及 Newman 四要素尚待 Claude 逐條比對原文；本卡不提供通用犯罪減幅。"
+  },
+  "case": null
+}

@@ -1,0 +1,43 @@
+{
+  "id": "ZHAO_LI2017",
+  "title": "Spatial Recombination of Recilience to Deal with Storm Water: Case Study of Watersquare Benthemplein in Rotterdam",
+  "authors": [
+    "Hongyu Zhao",
+    "Yaowen Li"
+  ],
+  "year": 2017,
+  "venue_or_publisher": "Urban Planning International",
+  "doi": "https://doi.org/10.22217/upi.2016.270",
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "雨水韌性與公共空間組合",
+  "region": "荷蘭鹿特丹",
+  "method": "Crossref 書目資料確認到文獻種類與題目範圍；全文方法未由本次核讀",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "論文將 Benthemplein 作為處理雨水韌性的水廣場案例。",
+      "strength": "CASE_EVIDENCE",
+      "scope_zh": "本單元不引用未核讀的模型、雨量或風險削減數字。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref",
+    "query": {
+      "title": "Spatial Recombination of Recilience to Deal with Storm Water: Case Study of Watersquare Benthemplein in Rotterdam",
+      "author": "Hongyu Zhao",
+      "year": 2017,
+      "api_query": "Crossref GET /works/10.22217/upi.2016.270"
+    },
+    "matched_record_id": "10.22217/upi.2016.270",
+    "checked_at_utc": "2026-10-08T14:40:02Z",
+    "match_notes_zh": "Crossref 公開書目欄位核對題名、作者、年份與 DOI；未保存 API 摘要。"
+  },
+  "limitations_zh": "書目範圍確認不等於研究發現、方法、因果或數值已全文核查。",
+  "critique_relationship_zh": "本記錄不宣稱與其他文獻存在直接互引或逐一反駁。",
+  "metadata_licence_zh": "Crossref 公開書目欄位；精確 metadata 授權未核驗，標 UNKNOWN。"
+}

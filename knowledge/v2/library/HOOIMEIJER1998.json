@@ -1,0 +1,44 @@
+{
+  "id": "HOOIMEIJER1998",
+  "title": "Social Housing and Social Exclusion in the Netherlands",
+  "authors": [
+    "Pieter Hooimeijer",
+    "Jan van Weesep"
+  ],
+  "year": 1998,
+  "venue_or_publisher": "Utrecht University Repository (Utrecht University)",
+  "doi": null,
+  "isbn": null,
+  "openalex_id": "https://openalex.org/W1536407001",
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "荷蘭社會住宅與社會排除",
+  "region": [
+    "荷蘭"
+  ],
+  "method": "政策與社會排除議題分析",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "文章指出大型社會租屋供給並未消除貧窮與排除，空間集中、政治參與與勞動市場都會影響住宅處境。",
+      "strength": "MIXED",
+      "scope_zh": "僅限摘要可核對的範圍；未讀全文，不推論摘要未列的數字、因果或普遍適用性。",
+      "assessment_basis": "ABSTRACT_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "OpenAlex",
+    "query": {
+      "record_id": "https://openalex.org/W1536407001",
+      "title": "Social Housing and Social Exclusion in the Netherlands",
+      "author": "Pieter Hooimeijer",
+      "year": 1998
+    },
+    "matched_record_id": "https://openalex.org/W1536407001",
+    "checked_at_utc": "2026-10-08T09:12:32Z",
+    "match_notes_zh": "以 OpenAlex 精確 work 記錄核對書名、作者與出版年；只使用摘要作主張範圍檢查，未下載全文。"
+  },
+  "limitations_zh": "僅使用允許的書目欄位和摘要核對；未取得或保存全文。",
+  "metadata_licence_zh": "保存公開書目欄位與自行撰寫主張摘要；未保存 API 摘要原文或全文。"
+}

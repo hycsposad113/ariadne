@@ -1,0 +1,98 @@
+{
+  "id": "KU-MOR-008",
+  "domain": "MOR",
+  "subtopic": "地塊、街廓與建築類型",
+  "type": "empirical_finding",
+  "title_zh": "老城與新城的形態指標差異",
+  "title_en": "Morphology indices in Dutch towns",
+  "summary_zh": "樣本城市少，GPS 只提供初步效度檢查；相關差異不證明某一形態單獨造成街道活力。 用多指標並列檢查，而不把單一 FSI 當成城市品質代理。 研究設計：GIS 結合 space syntax、Spacematrix、混合用途指數；以 GPS 行為紀錄初步檢查；地區：荷蘭三座新城與一座老城。",
+  "key_points_zh": [
+    "荷蘭三座新城與一座老城的比較中，老城的路網整合、建築密度與混合用途指標較高。",
+    "研究設計：GIS 結合 space syntax、Spacematrix、混合用途指數；以 GPS 行為紀錄初步檢查；地區：荷蘭三座新城與一座老城",
+    "限制：樣本城市少，GPS 只提供初步效度檢查；相關差異不證明某一形態單獨造成街道活力。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "荷蘭三座新城與一座老城的比較中，老城的路網整合、建築密度與混合用途指標較高。",
+        "effect_or_value": "4 個荷蘭城鎮；老城三項形態指標較高",
+        "study_design": "GIS 結合 space syntax、Spacematrix、混合用途指數；以 GPS 行為紀錄初步檢查",
+        "context_region": "荷蘭三座新城與一座老城",
+        "library_id": "YE14",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "用多指標並列檢查，而不把單一 FSI 當成城市品質代理。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "用多指標並列檢查，而不把單一 FSI 當成城市品質代理。",
+      "tradeoff_zh": "可回應研究指出的條件，但需要本地測量與實施成本評估。",
+      "library_ids": [
+        "YE14",
+        "CANIGGIA"
+      ]
+    },
+    {
+      "option_zh": "在「老城與新城的形態指標差異」的來源情境裡，細分地塊可支持增量更新；整合大宗地較易統一建造但降低街巷穿透；落到設計時還要按荷蘭三座新城與一座老城的比較中，老城的路網整合、建築密度與混合用途指標較高調整。",
+      "tradeoff_zh": "保留其他空間策略，但可能降低該研究所見的某項關聯。",
+      "library_ids": [
+        "YE14",
+        "CANIGGIA"
+      ]
+    }
+  ],
+  "applies_when_zh": "用於與荷蘭三座新城與一座老城研究情境可比、且量測定義相近的分析。",
+  "not_applicable_when_zh": "樣本城市少，GPS 只提供初步效度檢查；相關差異不證明某一形態單獨造成街道活力。",
+  "debates_zh": "樣本城市少，GPS 只提供初步效度檢查；相關差異不證明某一形態單獨造成街道活力。",
+  "sources": [
+    {
+      "library_id": "YE14",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "CANIGGIA",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "整合形態診斷；義大利類型形態學",
+  "region": "荷蘭；義大利",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "地塊、街廓與建築類型"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "地塊、街廓與建築類型"
+    },
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.330J Theory of City Form",
+      "topic": "地塊、街廓與建築類型"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban form and density",
+      "topic": "地塊、街廓與建築類型"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-MOR-001",
+    "KU-MOR-002",
+    "KU-MOR-003"
+  ],
+  "counter_unit_ids": [
+    "KU-MOR-005"
+  ]
+}

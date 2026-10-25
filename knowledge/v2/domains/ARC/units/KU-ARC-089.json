@@ -1,0 +1,89 @@
+{
+  "id": "KU-ARC-089",
+  "domain": "ARC",
+  "subtopic": "常見錯誤與檢查",
+  "type": "method",
+  "title_zh": "全區同高時檢查日照、天際線和戶型機會",
+  "title_en": "uniform building height and massing audit",
+  "summary_zh": "全區同高能簡化量體控制，卻可能讓街道、轉角和公共空間失去層次。 同高度仍可能形成不同的日照結果，取決於街廓方位和建築間距。 應把高度變化與地面活動及居住品質放在一起檢查。",
+  "key_points_zh": [
+    "核心主張：全區同高能簡化量體控制，卻可能讓街道、轉角和公共空間失去層次。",
+    "量測檢查：逐棟讀取檐口與屋頂標高，計算高度變異，再以太陽路徑和視線通廊檢查其空間後果。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "全區同高能簡化量體控制，卻可能讓街道、轉角和公共空間失去層次。",
+        "effect_or_value": null,
+        "study_design": "跨地域設計參照綜整；數值狀態依 claim_verification 註記",
+        "context_region": "跨地域；需用場址座標與地形",
+        "library_id": "KROPF2017",
+        "locator": null,
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "生成街道剖面、屋頂輪廓和主要公共空間冬至日影，標出高低變化對戶型採光的影響。"
+  ],
+  "applies_when_zh": "「全區同高時檢查日照、天際線和戶型機會」可在用於方案前期的量體、平面或空間品質篩檢時使用，前提是全區同高能簡化量體控制，卻可能讓街道、轉角和公共空間失去層次與來源情境相符。",
+  "not_applicable_when_zh": "若全區同高能簡化量體控制，卻可能讓街道、轉角和公共空間失去層次不成立，就不能把「全區同高時檢查日照、天際線和戶型機會」的結論延伸到其他情況；不得單獨作為許可、消防、結構或基地法規判定。",
+  "debates_zh": "高度差異也可能造成權利不均或過度陰影，不能把視覺變化當成唯一目標。",
+  "sources": [
+    {
+      "library_id": "KROPF2017",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "IPLO_FREE_LAYOUT",
+      "claim_id": "C1",
+      "locator": "section Freedom within conditions; Bbl art. 4.163(2)"
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+  "tradition": "量體配置；城市形態與日照",
+  "region": "跨地域；需用場址座標與地形",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Housing and the City / Design of the Urban Fabric",
+      "topic": "建築尺度與住宅平面"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "建築尺度與街道界面"
+    },
+    {
+      "school": "MIT",
+      "course": "Architecture and Urban Design",
+      "topic": "建築尺度與空間型態"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "建築尺度與公共生活"
+    }
+  ],
+  "check": {
+    "method_zh": "逐棟讀取檐口與屋頂標高，計算高度變異，再以太陽路徑和視線通廊檢查其空間後果。",
+    "inputs": [
+      "常見錯誤與檢查",
+      "尺寸／面積圖層",
+      "適用地區與用途標籤"
+    ],
+    "logic_zh": "將量測輸入轉成明確尺寸、比例或空間關係；越界只觸發複核，不自動取代設計決策。",
+    "limitations_zh": "量測結果只觸發「全區同高時檢查日照、天際線和戶型機會」的複核，不得單獨作為許可或法規判定。"
+  },
+  "version": "kb2-arc-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-ARC-085",
+    "KU-ARC-086",
+    "KU-ARC-087",
+    "KU-ARC-088"
+  ]
+}

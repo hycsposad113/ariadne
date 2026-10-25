@@ -1,0 +1,61 @@
+{
+  "id": "KU-PUB-003",
+  "domain": "PUB",
+  "subtopic": "廣場尺度與圍合",
+  "type": "typology",
+  "title_zh": "廣場不是單一比例公式",
+  "title_en": "A square is not a ratio formula",
+  "summary_zh": "圍合感由邊界高度、開口、視線和周邊活動共同形成。兩個面積相同的場地，可能因一側缺口、樹冠或交通噪音而呈現完全不同的停留品質。矩形比例只是一項形態描述，無法代替人在邊緣、中心與穿越線上的觀察。形式尺度可作比較變數，不能預先替人群決定場地的社會意義。",
+  "key_points_zh": [
+    "圍合感由邊界高度、開口、視線和周邊活動共同形成",
+    "兩個面積相同的場地，可能因一側缺口、樹冠或交通噪音而呈現完全不同的停留品質"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "圍合感由邊界高度、開口、視線和周邊活動共同形成。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "美國",
+        "library_id": "LYNCH60",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "形式尺度可作比較變數，不能預先替人群決定場地的社會意義。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "先畫出可停留、穿越、展示和安靜區，再以面向街道的剖面檢查視覺與氣候條件。"
+  ],
+  "applies_when_zh": "適用於方案需同時承載集會與日常停留時。",
+  "not_applicable_when_zh": "不適用於把歷史廣場的幾何原樣複製到不同氣候或交通環境。",
+  "debates_zh": "形式尺度可作比較變數，不能預先替人群決定場地的社會意義。",
+  "sources": [
+    {
+      "library_id": "LYNCH60",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "LOW05",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "都市認知",
+  "region": "美國",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "廣場尺度與圍合"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-PUB-002",
+    "KU-PUB-004"
+  ]
+}

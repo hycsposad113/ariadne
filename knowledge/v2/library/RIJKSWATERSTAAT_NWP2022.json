@@ -1,0 +1,42 @@
+{
+  "id": "RIJKSWATERSTAAT_NWP2022",
+  "title": "Een veilige en klimaatbestendige delta (Nationaal Water Programma 2022)",
+  "authors": [
+    "Ministerie van Infrastructuur en Waterstaat"
+  ],
+  "year": 2022,
+  "venue_or_publisher": "Nationaal Water Programma 2022",
+  "doi": null,
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "OFFICIAL_PRIMARY_SOURCE",
+  "tradition": "荷蘭多層安全與水治理",
+  "region": "荷蘭",
+  "method": "政府政策文件",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "荷蘭國家水計畫將洪水多層安全列為三層：預防、空間減災、災害應變與復原。",
+      "strength": "NORMATIVE_PRACTICE",
+      "scope_zh": "僅代表該政府頁面、政策文件或地方制度所述的地區和用途；不得轉成其他城市法規或普遍工程性能。",
+      "assessment_basis": "OFFICIAL_PRIMARY_SOURCE_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Official primary website",
+    "query": {
+      "title": "Een veilige en klimaatbestendige delta (Nationaal Water Programma 2022)",
+      "url": "https://magazines-ienw.rijksoverheid.nl/actueel/magazines/nationaal-water-programma/2022/01/een-veilige-en-klimaatbestendige-delta",
+      "locator": "NWP 2022 article, lines 16–22",
+      "api_query": "Directly opened public official page; no API abstract stored."
+    },
+    "matched_record_id": "https://magazines-ienw.rijksoverheid.nl/actueel/magazines/nationaal-water-programma/2022/01/een-veilige-en-klimaatbestendige-delta",
+    "checked_at_utc": "2026-10-08T14:07:10Z",
+    "match_notes_zh": "已讀取官方公開頁面並核對指定段落；頁面年份未顯示者標為 null，不以擷取日代替出版年。"
+  },
+  "limitations_zh": "僅保存官方頁面書目與自行撰寫的範圍摘要；數值是該地區規範或專案資料，不代表 M4H 規範。",
+  "critique_relationship_zh": "本記錄不推論其他城市採相同標準。",
+  "metadata_licence_zh": "公開官方網頁；頁面授權條款未逐項核驗，標 UNKNOWN。"
+}

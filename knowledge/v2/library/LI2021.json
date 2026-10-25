@@ -1,0 +1,46 @@
+{
+  "id": "LI2021",
+  "title": "Urban Form Typology and Building Energy Use: Empirical Investigation in Seoul",
+  "authors": [
+    "Na Li",
+    "DongHyuk Yi",
+    "Parth Bansal",
+    "Steven Jige Quan"
+  ],
+  "year": 2021,
+  "venue_or_publisher": "OpenAlex record; venue not returned in the bounded bibliographic response",
+  "doi": "https://doi.org/10.46855/energy-proceedings-8246",
+  "isbn": null,
+  "openalex_id": "W4285332319",
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "東亞形態與建築能耗",
+  "region": [
+    "首爾，韓國"
+  ],
+  "method": "城市型態與建築能源資料分析",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "首爾研究把街區形態與建築能源使用並置分析；其可用性限於資料期間、城市氣候與所選能耗指標。",
+      "strength": "MIXED",
+      "scope_zh": "僅限摘要可核對的範圍；未讀全文，不推論摘要未列的數字、因果或普遍適用性。",
+      "assessment_basis": "ABSTRACT_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "OpenAlex",
+    "query": {
+      "record_id": "W4285332319",
+      "title": "Urban Form Typology and Building Energy Use: Empirical Investigation in Seoul",
+      "author": "Na Li",
+      "year": 2021
+    },
+    "matched_record_id": "W4285332319",
+    "checked_at_utc": "2026-10-08T09:12:32Z",
+    "match_notes_zh": "以 OpenAlex 精確 work 記錄核對書名、作者與出版年；只使用摘要作主張範圍檢查，未下載全文。"
+  },
+  "limitations_zh": "僅使用允許的書目欄位和摘要核對；未取得或保存全文。",
+  "metadata_licence_zh": "保存公開書目欄位與自行撰寫主張摘要；未保存 API 摘要原文或全文。"
+}

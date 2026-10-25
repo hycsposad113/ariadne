@@ -1,0 +1,98 @@
+{
+  "id": "KU-REG-041",
+  "domain": "REG",
+  "subtopic": "日本用途地域與地方條例",
+  "type": "empirical_finding",
+  "title_zh": "日本地方郊區條例增加但也曾放寬發展",
+  "title_en": "Japanese suburban land control",
+  "summary_zh": "文章關注郊區治理且年代有界，不能推成今日全日本一致狀態。 評估用途地域時追蹤規則目的與實際建築方向。 研究設計：法制變遷及地方條例案例回顧；地區：日本，特別是關東。",
+  "key_points_zh": [
+    "法制回顧指出 2000 年修法後地方土地管制條例增加，但關東高開發壓力地區也出現放寬規則以維持擴張的情形。",
+    "研究設計：法制變遷及地方條例案例回顧；地區：日本，特別是關東",
+    "限制：文章關注郊區治理且年代有界，不能推成今日全日本一致狀態。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "法制回顧指出 2000 年修法後地方土地管制條例增加，但關東高開發壓力地區也出現放寬規則以維持擴張的情形。",
+        "effect_or_value": "修法後地方規則增加；部分高壓地區同步放寬",
+        "study_design": "法制變遷及地方條例案例回顧",
+        "context_region": "日本，特別是關東",
+        "library_id": "MASHIMA2014",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "評估用途地域時追蹤規則目的與實際建築方向。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "評估用途地域時追蹤規則目的與實際建築方向。",
+      "tradeoff_zh": "「日本地方郊區條例增加但也曾放寬發展」的主要代價不是抽象的建造成本，而是文章關注郊區治理且年代有界，不能推成今日全日本一致狀態；因此先以法制回顧指出 2000 年修法後地方土地管制條例增加，但關東高開發壓力地區也出現放寬規則以維持擴張的情形作方案比較條件。",
+      "library_ids": [
+        "MASHIMA2014",
+        "UPHAM1996"
+      ]
+    },
+    {
+      "option_zh": "在「日本地方郊區條例增加但也曾放寬發展」的來源情境裡，地方規則可能加強引導，也可能在開發壓力下放寬管制；落到設計時還要按法制回顧指出 2000 年修法後地方土地管制條例增加，但關東高開發壓力地區也出現放寬規則以維持擴張的情形調整。",
+      "tradeoff_zh": "「日本地方郊區條例增加但也曾放寬發展」的主要代價不是抽象的建造成本，而是文章關注郊區治理且年代有界，不能推成今日全日本一致狀態；因此先以法制回顧指出 2000 年修法後地方土地管制條例增加，但關東高開發壓力地區也出現放寬規則以維持擴張的情形作方案比較條件。",
+      "library_ids": [
+        "MASHIMA2014",
+        "UPHAM1996"
+      ]
+    }
+  ],
+  "applies_when_zh": "用於與日本，特別是關東研究情境可比、且量測定義相近的分析。",
+  "not_applicable_when_zh": "文章關注郊區治理且年代有界，不能推成今日全日本一致狀態。",
+  "debates_zh": "文章關注郊區治理且年代有界，不能推成今日全日本一致狀態。",
+  "sources": [
+    {
+      "library_id": "MASHIMA2014",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "UPHAM1996",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "日本郊區土地使用條例；日本行政法與委任管制",
+  "region": "日本關東與地方自治體；日本，兼論美歐制度",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Planning Complex Cities",
+      "topic": "日本用途地域與地方條例"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Urban Design Contexts and Operations",
+      "topic": "日本用途地域與地方條例"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "日本用途地域與地方條例"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban design governance",
+      "topic": "日本用途地域與地方條例"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-REG-036",
+    "KU-REG-037",
+    "KU-REG-038"
+  ],
+  "counter_unit_ids": [
+    "KU-REG-040"
+  ]
+}

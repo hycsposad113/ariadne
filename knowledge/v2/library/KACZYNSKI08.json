@@ -1,0 +1,46 @@
+{
+  "id": "KACZYNSKI08",
+  "title": "Association of Park Size, Distance, and Features With Physical Activity in Neighborhood Parks",
+  "authors": [
+    "Andrew T. Kaczynski",
+    "Luke R. Potwarka",
+    "Brian E. Saelens"
+  ],
+  "year": 2008,
+  "venue_or_publisher": "American Journal of Public Health",
+  "doi": "https://doi.org/10.2105/ajph.2007.129064",
+  "isbn": null,
+  "crossref_id": "https://doi.org/10.2105/ajph.2007.129064",
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "公園使用與健康地理",
+  "region": [
+    "美國",
+    "北美"
+  ],
+  "method": "公園特徵觀察、活動日誌、邏輯斯迴歸",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "美國 33 座鄰里公園的觀察與 380 位居民活動日誌顯示，場地設施數比面積與距離更能預測公園運動使用，步道關聯最強；樣本與自陳日誌限制外推。",
+      "strength": "MIXED",
+      "scope_zh": "美國鄰里公園；主張限於此來源的研究設計與樣本，不外推為本基地規範。",
+      "assessment_basis": "ABSTRACT_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref",
+    "query": {
+      "title": "Association of Park Size, Distance, and Features With Physical Activity in Neighborhood Parks",
+      "author": "Andrew T. Kaczynski",
+      "year": 2008
+    },
+    "matched_record_id": "https://doi.org/10.2105/ajph.2007.129064",
+    "checked_at_utc": "2026-10-08T09:52:46Z",
+    "match_notes_zh": "核對 Crossref 回傳書名、主要作者、出版年與 DOI；摘要只在實際取得並閱讀的論文上標 ABSTRACT_REVIEW。"
+  },
+  "limitations_zh": "美國鄰里公園；書目核對不替代完整論文審查。",
+  "critique_relationship_zh": "此條目的批評連結供編者並讀，不宣稱存在直接互引。",
+  "metadata_licence_zh": "僅保存公開書目欄位與自行撰寫的摘要；未保存摘要原文，metadata 授權未單獨核定。"
+}

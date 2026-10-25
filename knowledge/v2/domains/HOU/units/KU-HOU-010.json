@@ -1,0 +1,107 @@
+{
+  "id": "KU-HOU-010",
+  "domain": "HOU",
+  "subtopic": "荷蘭 woningcorporaties 社會住宅模式",
+  "type": "concept",
+  "title_zh": "荷蘭 woningcorporaties 社會住宅模式｜概念邊界",
+  "title_en": "Dutch social housing associations — Conceptual boundaries",
+  "summary_zh": "荷蘭 woningcorporaties 是具有制度職能的住房供應者，應從供應主體、租金規則、目標住戶和地方政策理解。 可負擔住宅與社會住宅的定義在各制度間不完全重合，不能只按建築類型或名稱推定資格。 比較時要核對現行制度及具體服務對象。",
+  "key_points_zh": [
+    "社會住宅是一套制度與供應結構，不只是建築類型。",
+    "適用於住宅制度比較和社會住宅設計研究。",
+    "限制：本節是制度歷史描述，不提供當前荷蘭資格或租金法律標準。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "研究發現可負擔住宅逐漸成為獨立政策領域，但它與社會住宅的邊界仍不清楚且各地定義不同。",
+        "library_id": "CZISCHKE2018",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "英格蘭、義大利、波蘭與荷蘭",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "分歧中的協作需要呈現參與者與討論程序；技術評估不替代人類決定。",
+        "library_id": "HEALEY97",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "英國; 跨地域",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "分開記錄供應者、租金規則、目標對象和地方土地政策。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "分開記錄供應者、租金規則、目標對象和地方土地政策。",
+      "tradeoff_zh": "「荷蘭 woningcorporaties 社會住宅模式｜概念邊界」採用「分開記錄供應者、租金規則、目標對象和地方土地政策」時，得失要沿著研究發現可負擔住宅逐漸成為獨立政策領域，但它與社會住宅的邊界仍不清楚且各地定義不同檢查；制度名稱相同也可能涵蓋不同對象和補助模式。",
+      "library_ids": [
+        "CZISCHKE2018",
+        "HEALEY97"
+      ]
+    },
+    {
+      "option_zh": "公共、非營利與市場供應比例會改變可負擔性和居住選擇。",
+      "tradeoff_zh": "「荷蘭 woningcorporaties 社會住宅模式｜概念邊界」採用「公共、非營利與市場供應比例會改變可負擔性和居住選擇」時，得失要沿著研究發現可負擔住宅逐漸成為獨立政策領域，但它與社會住宅的邊界仍不清楚且各地定義不同檢查；制度名稱相同也可能涵蓋不同對象和補助模式。",
+      "library_ids": [
+        "CZISCHKE2018",
+        "HEALEY97"
+      ]
+    }
+  ],
+  "applies_when_zh": "適用於住宅制度比較和社會住宅設計研究。",
+  "not_applicable_when_zh": "本節是制度歷史描述，不提供當前荷蘭資格或租金法律標準。",
+  "debates_zh": "制度名稱相同也可能涵蓋不同對象和補助模式。",
+  "sources": [
+    {
+      "library_id": "CZISCHKE2018",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "HEALEY97",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "歐洲可負擔住宅政策；協作規劃",
+  "region": "英格蘭、義大利、波蘭與荷蘭；英國",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "荷蘭 woningcorporaties 社會住宅模式"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "荷蘭 woningcorporaties 社會住宅模式"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "荷蘭 woningcorporaties 社會住宅模式"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "荷蘭 woningcorporaties 社會住宅模式"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-HOU-011",
+    "KU-HOU-012",
+    "KU-HOU-013"
+  ],
+  "counter_unit_ids": [
+    "KU-HOU-014"
+  ]
+}

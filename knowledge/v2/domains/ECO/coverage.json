@@ -1,0 +1,86 @@
+{
+  "domain": "ECO",
+  "topic_to_units": {
+    "地景生態學：嵌塊、廊道、基質": [
+      "KU-ECO-001",
+      "KU-ECO-002",
+      "KU-ECO-003",
+      "KU-ECO-004",
+      "KU-ECO-005",
+      "KU-ECO-006",
+      "KU-ECO-007",
+      "KU-ECO-008",
+      "KU-ECO-009",
+      "KU-ECO-010"
+    ],
+    "生態網絡與連結度": [
+      "KU-ECO-011",
+      "KU-ECO-012",
+      "KU-ECO-013",
+      "KU-ECO-014",
+      "KU-ECO-015",
+      "KU-ECO-016",
+      "KU-ECO-017",
+      "KU-ECO-018",
+      "KU-ECO-019"
+    ],
+    "都市森林與樹冠": [
+      "KU-ECO-020",
+      "KU-ECO-021",
+      "KU-ECO-022",
+      "KU-ECO-023",
+      "KU-ECO-024",
+      "KU-ECO-025",
+      "KU-ECO-026",
+      "KU-ECO-027",
+      "KU-ECO-028",
+      "KU-ECO-029"
+    ],
+    "物種友善設計": [
+      "KU-ECO-030",
+      "KU-ECO-031",
+      "KU-ECO-032",
+      "KU-ECO-033",
+      "KU-ECO-034",
+      "KU-ECO-035",
+      "KU-ECO-036",
+      "KU-ECO-037",
+      "KU-ECO-038",
+      "KU-ECO-039",
+      "KU-ECO-040"
+    ],
+    "自然為本的解決方案": [
+      "KU-ECO-041",
+      "KU-ECO-042",
+      "KU-ECO-043",
+      "KU-ECO-044",
+      "KU-ECO-045",
+      "KU-ECO-046",
+      "KU-ECO-047",
+      "KU-ECO-048",
+      "KU-ECO-049",
+      "KU-ECO-050"
+    ],
+    "生態服務": [
+      "KU-ECO-051",
+      "KU-ECO-052",
+      "KU-ECO-053",
+      "KU-ECO-054",
+      "KU-ECO-055",
+      "KU-ECO-056",
+      "KU-ECO-057",
+      "KU-ECO-058",
+      "KU-ECO-059",
+      "KU-ECO-060"
+    ]
+  },
+  "topic_counts": {
+    "地景生態學：嵌塊、廊道、基質": 10,
+    "生態網絡與連結度": 9,
+    "都市森林與樹冠": 10,
+    "物種友善設計": 11,
+    "自然為本的解決方案": 10,
+    "生態服務": 10
+  },
+  "generated_at_utc": "2026-10-08T10:15:45Z"
+}

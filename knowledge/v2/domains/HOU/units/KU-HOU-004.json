@@ -1,0 +1,107 @@
+{
+  "id": "KU-HOU-004",
+  "domain": "HOU",
+  "subtopic": "住宅類型",
+  "type": "method",
+  "title_zh": "住宅類型｜分析方法",
+  "title_en": "Housing typologies — Analytical method",
+  "summary_zh": "比較居住密度、可變性、共享設施與公共交通條件。 讀「住宅類型｜分析方法」時，限制：不從建築高度直接推斷住戶滿意或社區形成；同時把新加坡公共住宅提供高層生活的地方研究案例；不能把同樣高度當作跨城市接受程度列為核對條件。 落實「住宅類型｜分析方法」時可先高層、連棟、集合式住宅和共居住宅各有不同支援與管理需求，再用新加坡公共住宅提供高層生活的地方研究案例；不能把同樣高度當作跨城市接受程度核對方案的空間後果。",
+  "key_points_zh": [
+    "比較居住密度、可變性、共享設施與公共交通條件。",
+    "比較居住密度、可變性、共享設施與公共交通條件。",
+    "讀「住宅類型｜分析方法」時，限制：不從建築高度直接推斷住戶滿意或社區形成；同時把新加坡公共住宅提供高層生活的地方研究案例；不能把同樣高度當作跨城市接受程度列為核對條件。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "新加坡公共住宅提供高層生活的地方研究案例；不能把同樣高度當作跨城市接受程度。",
+        "library_id": "YUE05",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "新加坡",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "Kropf 的形態學手冊把建築類型放在街道、地塊和建築尺度的關係中描述，避免只用外觀名稱代替戶型與入口安排。",
+        "library_id": "KROPF2017",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "跨地域形態學",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "落實「住宅類型｜分析方法」時可先高層、連棟、集合式住宅和共居住宅各有不同支援與管理需求，再用新加坡公共住宅提供高層生活的地方研究案例；不能把同樣高度當作跨城市接受程度核對方案的空間後果。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "「住宅類型｜分析方法」可把取向落在以住戶、公共空間和服務路徑三層對照住宅類型，但需連同新加坡公共住宅提供高層生活的地方研究案例；不能把同樣高度當作跨城市接受程度決定適用方式。",
+      "tradeoff_zh": "此選項把「住宅類型｜分析方法」的工作放在新加坡公共住宅提供高層生活的地方研究案例；不能把同樣高度當作跨城市接受程度上；需要承擔的協調或維護代價則由「工具書統整城市形態描述與分析方法，適合作為術語和尺度的導航，不替代案例的量測」界定。",
+      "library_ids": [
+        "YUE05",
+        "KROPF2017"
+      ]
+    },
+    {
+      "option_zh": "「住宅類型｜分析方法」可把取向落在高層、連棟、集合式住宅和共居住宅各有不同支援與管理需求，但需連同新加坡公共住宅提供高層生活的地方研究案例；不能把同樣高度當作跨城市接受程度決定適用方式。",
+      "tradeoff_zh": "此選項把「住宅類型｜分析方法」的工作放在新加坡公共住宅提供高層生活的地方研究案例；不能把同樣高度當作跨城市接受程度上；需要承擔的協調或維護代價則由「工具書統整城市形態描述與分析方法，適合作為術語和尺度的導航，不替代案例的量測」界定。",
+      "library_ids": [
+        "YUE05",
+        "KROPF2017"
+      ]
+    }
+  ],
+  "applies_when_zh": "「住宅類型｜分析方法」可在適用於新住宅、社會住宅和高密度更新時使用，前提是新加坡公共住宅提供高層生活的地方研究案例；不能把同樣高度當作跨城市接受程度與來源情境相符。",
+  "not_applicable_when_zh": "若新加坡公共住宅提供高層生活的地方研究案例；不能把同樣高度當作跨城市接受程度不成立，就不能把「住宅類型｜分析方法」的結論延伸到其他情況；不從建築高度直接推斷住戶滿意或社區形成。",
+  "debates_zh": "工具書統整城市形態描述與分析方法，適合作為術語和尺度的導航，不替代案例的量測。",
+  "sources": [
+    {
+      "library_id": "YUE05",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "KROPF2017",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "亞洲高層生活；城市形態學",
+  "region": "新加坡；跨地域形態學",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "住宅類型"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "住宅類型"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "住宅類型"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "住宅類型"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-HOU-001",
+    "KU-HOU-002",
+    "KU-HOU-003"
+  ],
+  "counter_unit_ids": [
+    "KU-HOU-005"
+  ]
+}

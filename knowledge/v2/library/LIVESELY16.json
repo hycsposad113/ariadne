@@ -1,0 +1,45 @@
+{
+  "id": "LIVESELY16",
+  "title": "The Urban Forest and Ecosystem Services: Impacts on Urban Water, Heat, and Pollution Cycles at the Tree, Street, and City Scale",
+  "authors": [
+    "S. J. Livesley",
+    "E. G. McPherson",
+    "C. Calfapietra"
+  ],
+  "year": 2016,
+  "venue_or_publisher": "Journal of Environmental Quality",
+  "doi": "https://doi.org/10.2134/jeq2015.11.0567",
+  "isbn": null,
+  "crossref_id": "https://doi.org/10.2134/jeq2015.11.0567",
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "都市森林與生態系統服務",
+  "region": [
+    "跨地域"
+  ],
+  "method": "跨尺度綜述",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "都市森林綜述依樹木、街道與城市尺度整理水、熱及污染循環；同一棵樹的效益會隨位置、冠幅、季節與維護改變。",
+      "strength": "THEORETICAL",
+      "scope_zh": "跨地域城市森林研究；主張限於此來源的研究設計與樣本，不外推為本基地規範。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref",
+    "query": {
+      "title": "The Urban Forest and Ecosystem Services: Impacts on Urban Water, Heat, and Pollution Cycles at the Tree, Street, and City Scale",
+      "author": "S. J. Livesley",
+      "year": 2016
+    },
+    "matched_record_id": "https://doi.org/10.2134/jeq2015.11.0567",
+    "checked_at_utc": "2026-10-08T09:54:59Z",
+    "match_notes_zh": "核對 Crossref 回傳書名、主要作者、出版年與 DOI；摘要只在實際取得並閱讀的論文上標 ABSTRACT_REVIEW。"
+  },
+  "limitations_zh": "跨地域城市森林研究；書目核對不替代完整論文審查。",
+  "critique_relationship_zh": "此條目的批評連結供編者並讀，不宣稱存在直接互引。",
+  "metadata_licence_zh": "僅保存公開書目欄位與自行撰寫的摘要；未保存摘要原文，metadata 授權未單獨核定。"
+}

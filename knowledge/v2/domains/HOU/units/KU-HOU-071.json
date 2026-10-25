@@ -1,0 +1,91 @@
+{
+  "id": "KU-HOU-071",
+  "domain": "HOU",
+  "subtopic": "住宅類型",
+  "type": "value_range",
+  "title_zh": "一房住宅面積",
+  "title_en": "One-bedroom dwelling floor area",
+  "summary_zh": "一房住宅面積需和入住人數、儲藏、臥室尺寸及住宅面積口徑一起比較。英格蘭 NDSS 提供按房間配置與入住人數制定的正式最低標準，Time-Saver 是跨地域住宅設計手冊。40–60 m² 保留為方案比較帶，不是任何一項來源直接提出的通用規範。",
+  "key_points_zh": [
+    "一房住宅的比較案例常以約 40–60 m²／單元作規劃帶，需依當地住房標準和收納方式重新核算。",
+    "各國面積採毛／淨口徑不同，此範圍不是法定最低面積。",
+    "測試日常動線、睡眠區隔和訪客活動，不只檢查家具是否塞入平面。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "英格蘭 NDSS 按臥室數與入住人數規定住宅最小總室內面積及臥室尺寸；它是單一地區的正式空間標準，不是本基地法律。",
+        "library_id": "UK_NDSS_2015",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "英格蘭",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "《Time-Saver Standards for Housing and Residential Development》涵蓋住宅開發設計尺寸；需按版本和地方制度核對，不能由手冊推得通用面積下限。",
+        "library_id": "TIMESAVER_HOUSING94",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "跨地域",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "一房住宅面積",
+      "range": "約 40–60",
+      "unit": "m²／單元",
+      "context": "英格蘭住宅空間標準與跨地域設計案例；用途：一房住宅室內面積比較；40–60 m² 是工作帶而非 NDSS 單一房型最低值；不是本基地法規。",
+      "library_id": "UK_NDSS_2015"
+    }
+  ],
+  "design_implications_zh": [
+    "同時標註戶型入住人數、毛／淨面積口徑和儲藏空間，再與適用地區標準逐項對讀。"
+  ],
+  "applies_when_zh": "用於比較歐洲與亞洲小家庭住宅方案比較的一房住宅室內淨面積，並明示此數值的來源、年份和面積分母。",
+  "not_applicable_when_zh": "各國面積採毛／淨口徑不同，此範圍不是法定最低面積。",
+  "debates_zh": "較大的單戶面積能提供彈性，也會降低固定土地供給下可安排的住宅戶數。",
+  "sources": [
+    {
+      "library_id": "TIMESAVER_HOUSING94",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "UK_NDSS_2015",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "高齡住宅與全齡鄰里設計",
+  "region": "歐洲與亞洲小家庭住宅方案比較",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "住宅類型"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "住宅類型"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "住宅類型"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "住宅類型"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008"
+}

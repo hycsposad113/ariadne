@@ -1,0 +1,23 @@
+{
+  "SW": {
+    "wind_direction_deg": 225.0,
+    "uref_10m": 6.1,
+    "frequency_pct": 21.461187214611872,
+    "mesh_cells": 386519,
+    "iterations": 1500,
+    "converged": false,
+    "final_residuals": {
+      "Ux": 3.20176e-06,
+      "Uy": 4.82841e-06,
+      "Uz": 6.54643e-06,
+      "p": 4.4524e-06,
+      "epsilon": 2.30053e-06,
+      "k": 4.53685e-06
+    },
+    "runtime_seconds": 1099.1,
+    "max_wind_ratio": 1.06,
+    "mean_wind_ratio": 0.1,
+    "high_wind_ratio_area_m2": 0.0,
+    "stagnant_wind_area_m2": 959427.0
+  }
+}

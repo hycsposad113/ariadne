@@ -1,0 +1,66 @@
+{
+  "id": "KU-HAR-023",
+  "domain": "HAR",
+  "subtopic": "工業遺產與 adaptive reuse",
+  "type": "method",
+  "title_zh": "再利用前期篩選要把硬限制和機會分開",
+  "title_en": "Separate Constraints from Opportunities in Reuse Screening",
+  "summary_zh": "既有建築的再利用評估可以先判斷結構、安全、污染、權屬與法定保護等不可妥協條件，再比較空間適配、營運能力和改造成本。Bullen 的調查說明業主態度有助了解決策意願，但不是完工績效；香港的策略評估研究則把機會判斷放在前期篩選。兩階段流程可避免把「有意願」誤讀為「可行」。",
+  "key_points_zh": [
+    "先做排除性檢查，再做多方案用途比較。",
+    "保留每個未採用用途的限制與資料缺口。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "建築適應研究涵蓋再利用前的技術與用途評估問題。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "跨地域",
+        "library_id": "DOUGLAS06",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "西澳業主調查研究顯示意願資料有其用途，但量測的是決策態度而非完工成效。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "跨地域",
+        "library_id": "BULLEN2007",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "先做排除性檢查，再做多方案用途比較。",
+    "保留每個未採用用途的限制與資料缺口。"
+  ],
+  "applies_when_zh": "建築清冊、結構資料和權屬資料可取得時。",
+  "not_applicable_when_zh": "沒有結構檢查、污染調查或可執行權屬資訊時，只能標示初篩。",
+  "debates_zh": "不同國家的消防、能源與遺產制度差異很大，前期篩選表不能替代本地專業審查。",
+  "sources": [
+    {
+      "library_id": "DOUGLAS06",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "BULLEN2007",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "建築適應性評估",
+  "region": "跨地域",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": null,
+      "topic": "Heritage reuse assessment and building adaptation"
+    }
+  ],
+  "version": "v2.0"
+}

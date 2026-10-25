@@ -1,0 +1,43 @@
+{
+  "id": "MATTINGLY2014",
+  "title": "Housing and transport expenditure: Socio-spatial indicators of affordability in Auckland",
+  "authors": [
+    "K. Mattingly",
+    "John Edward Morrissey"
+  ],
+  "year": 2014,
+  "venue_or_publisher": "Cities, 38, 69–83",
+  "doi": "https://doi.org/10.1016/j.cities.2014.01.004",
+  "isbn": null,
+  "openalex_id": "https://openalex.org/W1999422111",
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "住房與交通合併可負擔性",
+  "region": "紐西蘭奧克蘭",
+  "method": "分區層級住房與通勤支出的量化指標",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "奧克蘭研究將住房支出與交通支出合併衡量，指出只看住房成本與所得會漏掉居住位置所帶來的通勤費差異。",
+      "strength": "MIXED",
+      "scope_zh": "這是奧克蘭分區資料下的指標研究，不能代替本地租金、交通成本或家庭預算資料。",
+      "assessment_basis": "ABSTRACT_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "OpenAlex and Crossref",
+    "query": {
+      "record_id": "https://openalex.org/W1999422111",
+      "doi": "10.1016/j.cities.2014.01.004",
+      "title": "Housing and transport expenditure: Socio-spatial indicators of affordability in Auckland",
+      "author": "K. Mattingly",
+      "year": 2014
+    },
+    "matched_record_id": "https://doi.org/10.1016/j.cities.2014.01.004",
+    "checked_at_utc": "2026-10-09T00:15:06Z",
+    "match_notes_zh": "以允許的公開書目 API 精確比對題名、首位作者與出版年；只保留自行撰寫的摘要範圍說明，未保存全文或 API 摘要原文。"
+  },
+  "limitations_zh": "本條目依公開摘要或書目範圍整理；未下載全文，也不外推摘要未列的樣本、效果量或因果結論。",
+  "metadata_licence_zh": "僅保存公開書目欄位與自行撰寫的繁體中文摘要；未複製摘要全文或論文全文。"
+}

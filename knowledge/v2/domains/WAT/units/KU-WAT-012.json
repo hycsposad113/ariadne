@@ -1,0 +1,74 @@
+{
+  "id": "KU-WAT-012",
+  "domain": "WAT",
+  "subtopic": "水敏感都市設計（WSUD）",
+  "type": "typology",
+  "title_zh": "分散式綠藍設施與集中排水系統",
+  "title_en": "分散式綠藍設施與集中排水系統",
+  "summary_zh": "都市雨洪策略可以偏向分散設施、集中管渠或混合系統，各有不同的土地、運營和故障特性。英國 WSUD 討論和澳洲整合水管理回顧都把制度和既有基礎設施列為方案條件。分散化可把小型水處理嵌入街區，但需要大量地點維護；集中化較易統一管理，卻可能將風險集中到下游。",
+  "key_points_zh": [
+    "分散與集中是治理和空間配置的組合，不是單純的景觀風格。",
+    "混合系統可提供冗餘，但介面和責任更複雜。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "library_id": "BROWNFARRELLY2009",
+        "claim_zh": "書目確認本文題名聚焦「Delivering sustainable urban water management: a review of the hurdles we face」；目前只完成作者、年份、題名與 DOI 核對，未將摘要或全文結論納入此記錄；本單元 KU-WAT-012 對照「都市雨洪策略可以偏向分散設施、集中管渠或混合系統，各有不同的土地、運營和故障特性」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "文獻回顧；目前僅核對書目範圍",
+        "context_region": "澳洲與美國",
+        "locator": null
+      },
+      {
+        "library_id": "SHUSTER2005",
+        "claim_zh": "書目確認本文題名聚焦「Impacts of impervious surface on watershed hydrology: A review」；目前只完成作者、年份、題名與 DOI 核對，未將摘要或全文結論納入此記錄；本單元 KU-WAT-012 對照「都市雨洪策略可以偏向分散設施、集中管渠或混合系統，各有不同的土地、運營和故障特性」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "文獻回顧；目前僅核對書目範圍",
+        "context_region": "美國",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "對照土地可用性、維護單位與下游受納能力後選擇設施尺度。",
+    "用故障情境檢查系統是否有第二條安全排放路徑。"
+  ],
+  "applies_when_zh": "適用於街區水系統選型及維管配置。",
+  "not_applicable_when_zh": "不適用於僅依單張概念圖比較設施實際效能。",
+  "debates_zh": "不同方案的效益需以相同降雨情境、模型邊界和維運假設比較。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "BROWNFARRELLY2009",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "SHUSTER2005",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "都市排水與水治理",
+  "region": "英國與國際經驗；澳洲",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "水敏感都市設計（WSUD）"
+    },
+    {
+      "school": "MIT",
+      "course": null,
+      "topic": "水敏感都市設計（WSUD）"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0"
+}

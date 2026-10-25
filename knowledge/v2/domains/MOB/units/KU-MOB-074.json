@@ -1,0 +1,74 @@
+{
+  "id": "KU-MOB-074",
+  "domain": "MOB",
+  "subtopic": "TOD 與節點—場所模型",
+  "type": "typology",
+  "title_zh": "Bertolini 的四象限節點—場所模型",
+  "title_en": "Bertolini’s four-state node-place model",
+  "summary_zh": "Bertolini 將車站的交通節點能力和周邊場所活動分成兩個面向。兩軸高低組合形成四種狀態：節點與場所皆強、節點強場所弱、場所強節點弱，以及兩者皆弱。診斷的用途在於區分站區是交通服務不足還是活動環境不足，不預設唯一開發密度。",
+  "key_points_zh": [
+    "節點軸描述交通服務與網路位置，場所軸描述站區活動和城市環境。",
+    "四象限可區分均衡、交通主導、場所主導與兩者皆弱的狀態。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "Bertolini（1999）的節點—場所模型以「蝴蝶圖」呈現：中間為平衡區，另有壓力區（節點與場所皆強）、依賴區（皆弱）、節點不持續與場所不持續兩區，共五種情境，不是四象限。",
+        "library_id": "BERTOLINI99",
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+        "effect_or_value": null,
+        "study_design": "荷蘭車站周邊分析模型",
+        "context_region": "荷蘭",
+        "locator": null
+      },
+      {
+        "claim_zh": "TOD 把公共運輸、混合用途和步行環境放進整體規劃。",
+        "library_id": "CALTHORPE93",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "北美 TOD 規劃框架",
+        "context_region": "美國",
+        "locator": null
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "分開量測班次、換乘和目的地可及性，再與混合用途、公共空間和步行連接並列。"
+  ],
+  "applies_when_zh": "比較車站周邊的公共運輸功能和場所活動是否均衡時使用。",
+  "not_applicable_when_zh": "四象限不是TOD分級的自動設計標準，且不能只用車站距離推定場所品質。",
+  "debates_zh": "節點和場所可能隨時段、服務水準和周邊投資改變；類別邊界取決於指標選擇。",
+  "sources": [
+    {
+      "library_id": "BERTOLINI99",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "CALTHORPE93",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "公共運輸導向發展",
+  "region": "TOD 與公共運輸節點—場所",
+  "curriculum_refs": [
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "TOD 與節點—場所模型：課綱對應主題"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Sustainable Futures by Design",
+      "topic": "TOD 與節點—場所模型：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-MOB-035"
+  ]
+}

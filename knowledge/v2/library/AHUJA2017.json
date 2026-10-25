@@ -1,0 +1,48 @@
+{
+  "id": "AHUJA2017",
+  "title": "Community participation in urban road infrastructure redevelopment: Indian scenario",
+  "authors": [
+    "Vanita Ahuja",
+    "Shalini Priyadarshini"
+  ],
+  "year": 2017,
+  "venue_or_publisher": "Crossref indexed journal record",
+  "doi": "https://doi.org/10.69554/ndbg1859",
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "參與式都市更新／印度",
+  "region": [
+    "印度",
+    "亞洲"
+  ],
+  "method": "兩個道路更新案例比較",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "兩個印度道路更新案例顯示核心城區與都市邊緣的諮詢條件不相同；參與安排需要依地方使用與受影響群體調整。",
+      "strength": "CASE_EVIDENCE",
+      "scope_zh": "只支持所標示的理論範圍或個案；不提供 M4H 法規、基地實測或未查證的數值。",
+      "assessment_basis": "ABSTRACT_REVIEW"
+    }
+  ],
+  "known_critiques": [
+    "ARNSTEIN1969",
+    "HEALEY97"
+  ],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref",
+    "query": {
+      "title": "Community participation in urban road infrastructure redevelopment: Indian scenario",
+      "author": "Vanita Ahuja",
+      "year": 2017
+    },
+    "matched_record_id": "10.69554/ndbg1859",
+    "checked_at_utc": "2026-10-08T09:27:34Z",
+    "match_notes_zh": "公開 API 比對書名、作者及年份。僅確認書目；新書條目未保存 API 摘要。"
+  },
+  "limitations_zh": "本次只使用核准的公開書目 API；除明標 ABSTRACT_REVIEW 的來源外，未核讀全文。書目查證不等於主張、因果或參數驗證。",
+  "critique_relationship_zh": "known_critiques 是編者指定的替代閱讀，不代表來源間逐一互引或直接反駁。",
+  "metadata_licence_zh": "只保存必要書目欄位與自行摘要；未保存 API 摘要全文，metadata 授權未逐筆核驗，標 UNKNOWN。"
+}

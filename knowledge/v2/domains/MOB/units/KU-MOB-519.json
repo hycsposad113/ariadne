@@ -1,0 +1,126 @@
+{
+  "id": "KU-MOB-519",
+  "domain": "MOB",
+  "subtopic": "停車政策；最低標準改革案例",
+  "type": "case",
+  "title_zh": "Buffalo 2017：取消最低停車要求作為法規改革案例",
+  "title_en": "Buffalo 2017: repealing minimum parking requirements",
+  "summary_zh": "Hess 的 2017 論文直接以 Buffalo 取消最低停車要求為題，適合作為城市法規改革的案例入口。政策取消只表示開發者不再被一個全市最低數字拘束；它本身不保證車位供給、房價、交通選擇或街道壅塞會朝某一方向改變，後續結果仍需量測。",
+  "key_points_zh": [
+    "法規改革可以把停車數量決定權移回開發和市場情境。",
+    "改革前後應區分新建、改建、路邊供給和共享停車。",
+    "全市取消最低值不代表所有地區都不需要停車或管理。"
+  ],
+  "evidence": {
+    "strength": "CASE_EVIDENCE",
+    "findings": [
+      {
+        "library_id": "HESS2017",
+        "claim_zh": "Crossref 確認 2017 年論文以 Buffalo repeal of minimum parking requirements 為題，記錄明確改革案例。",
+        "effect_or_value": null,
+        "study_design": "城市法規改革案例",
+        "context_region": "Buffalo, United States",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "摘要未由 Crossref 回傳，未據題名推定實際建設或交通效果。"
+      },
+      {
+        "library_id": "SHOUP05",
+        "claim_zh": "Shoup 的專書提供停車成本與最低標準的政策背景，作為 Buffalo 案例的比較理論。",
+        "effect_or_value": null,
+        "study_design": "停車政策專書",
+        "context_region": "United States",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "沒有把專書中其他城市的結果外推成 Buffalo 的實測值。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "將停車供給、道路管理、可達性及收入分配列為改革後的觀察指標。",
+    "評估不同街區是否需要共享設施、路邊管理或用途別例外。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "讓開發者依專案需求選擇車位並公開其假設。",
+      "tradeoff_zh": "提供土地配置彈性，但需要交通與路邊停車的補充管理。",
+      "library_ids": [
+        "HESS2017",
+        "SHOUP05"
+      ]
+    },
+    {
+      "option_zh": "採低值或用途別指引取代統一最低標準。",
+      "tradeoff_zh": "維持需求溝通，仍可能把非市場化的最低供給寫回規範。",
+      "library_ids": [
+        "SHOUP05",
+        "HESS2017"
+      ]
+    }
+  ],
+  "applies_when_zh": "適用於比較全市或分區停車最低標準改革。",
+  "not_applicable_when_zh": "不適用於把「取消最低標準」視作 Buffalo 已實現交通改善或住房降價的證據。",
+  "debates_zh": "法規彈性需要公共運輸、路邊管理與無障礙服務共同補位；改革的分配效果不會由法條變更本身決定。",
+  "counter_unit_ids": [
+    "KU-MOB-050"
+  ],
+  "related_unit_ids": [
+    "KU-MOB-051",
+    "KU-MOB-052",
+    "KU-MOB-053"
+  ],
+  "sources": [
+    {
+      "library_id": "HESS2017",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "SHOUP05",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "美國城市停車改革與土地使用政策",
+  "region": "Buffalo, New York, United States",
+  "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "停車政策；最低標準改革案例：課綱對應主題"
+    }
+  ],
+  "version": "kb2-gaps-2026-10-08",
+  "check": {
+    "method_zh": "比較 Buffalo 改革前後新建和改建許可的實際車位數、項目類型、路邊占用、租售價格與出行方式，並以鄰近城市作對照。",
+    "inputs": [
+      "2017 年改革前後 zoning text",
+      "建築許可及實建車位清冊",
+      "路邊停車、房價和旅運資料"
+    ],
+    "logic_zh": "法規文本改變是制度輸入，不是結果；需留意同期市場、交通和建築政策的變化。",
+    "limitations_zh": "Crossref 只核實論文書目和案例題名；實施效果與地方利益的實證尚待原文和城市資料交叉核對。"
+  },
+  "case": {
+    "location": "Buffalo, New York, United States",
+    "period": "2017 年最低停車要求改革",
+    "area_ha": null,
+    "fsi": null,
+    "gsi": null,
+    "program_mix": "土地使用規則、住宅與商業開發、路邊及共享停車管理",
+    "key_strategies_zh": [
+      "取消全市最低停車要求，讓開發案按場址與使用需求設定供給。",
+      "以改革作為城市土地使用規則調整的案例。"
+    ],
+    "outcomes_zh": [
+      "有 2017 年期刊論文專門研究 Buffalo 的最低停車要求廢止。",
+      "現有書目層級證據確認改革案例，尚未提供後續車位或住房成本的量化結果。"
+    ],
+    "critiques_zh": [
+      "規則放寬不自動改善住房負擔，也可能增加特定街區路邊停車壓力。",
+      "不同土地用途、無障礙和配送需求需分開回應。"
+    ]
+  }
+}

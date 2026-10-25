@@ -1,0 +1,44 @@
+{
+  "id": "TDRHANDBOOK2012",
+  "title": "The TDR Handbook",
+  "authors": [
+    "Arthur C. Nelson"
+  ],
+  "year": 2012,
+  "venue_or_publisher": "Island Press",
+  "doi": null,
+  "isbn": "9781597269803",
+  "openalex_id": null,
+  "kind": "ACADEMIC_BOOK",
+  "tradition": "transfer of development rights planning",
+  "region": [
+    "美國",
+    "跨地域"
+  ],
+  "method": "development rights transfer program design and implementation",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "《The TDR Handbook》聚焦移轉發展權計畫的設計與實施；此書目範圍支持辨認權利移轉工具，不證明特定地區的價格效果或可移轉容積。",
+      "strength": "THEORETICAL",
+      "scope_zh": "僅依允許的公開書目資訊與專業範圍描述；沒有查閱全文，不提供本基地法規、成效估計、因果結論或數值門檻。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Open Library",
+    "query": {
+      "title": "The TDR Handbook",
+      "author": "Arthur C. Nelson",
+      "year": 2012,
+      "endpoint": "https://openlibrary.org/search.json"
+    },
+    "matched_record_id": "/works/OL16540174W",
+    "checked_at_utc": "2026-10-08T16:17:33Z",
+    "match_notes_zh": "以允許的公開 API 回傳之書名、作者與年份核對；僅確認書目，不代表全文主張已審核。"
+  },
+  "limitations_zh": "僅核對公開書目欄位與標題範圍，未取得或查閱全文；不推論研究效果或因果。",
+  "metadata_licence_zh": "保存公開 API 書目欄位與自行撰寫的範圍摘要；未保存 API 摘要原文或全文。"
+}

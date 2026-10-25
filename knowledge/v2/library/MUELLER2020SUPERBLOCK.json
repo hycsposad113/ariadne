@@ -1,0 +1,59 @@
+{
+  "id": "MUELLER2020SUPERBLOCK",
+  "title": "Changing the urban design of cities for health: The superblock model",
+  "authors": [
+    "Natalie Mueller",
+    "David Rojas-Rueda",
+    "Haneen Khreis",
+    "Marta Cirach",
+    "David Andrés",
+    "Joan Ballester",
+    "Xavier Bartoll",
+    "Carolyn Daher",
+    "Anna Deluca",
+    "Cynthia Echave",
+    "Carles Milà",
+    "Sandra Márquez",
+    "Joan Palou",
+    "Katherine Pérez",
+    "Cathryn Tonne",
+    "Mark Stevenson",
+    "Salvador Rueda",
+    "Mark Nieuwenhuijsen"
+  ],
+  "year": 2020,
+  "venue_or_publisher": "Environment International",
+  "doi": "https://doi.org/10.1016/j.envint.2019.105132",
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "都市健康影響評估與街道重配",
+  "region": "西班牙巴塞隆納",
+  "method": "定量健康影響評估；使用規劃情境與反事實比較",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "研究以巴塞隆納成人人口與規劃中的503個Superblock作定量健康影響評估；NO2、噪音與死亡風險數字是模型估計而非介入後實測。",
+      "strength": "CASE_EVIDENCE",
+      "scope_zh": "只支持此來源明確記載的研究對象與範圍；不作跨城市因果外推，也不以書目資料推估未報告的空間數值。",
+      "assessment_basis": "ABSTRACT_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref",
+    "query": {
+      "title": "Changing the urban design of cities for health: The superblock model",
+      "author": "Mueller",
+      "year": 2020,
+      "api_query": "Crossref GET /works?query.bibliographic=Changing urban design cities health superblock model Mueller"
+    },
+    "matched_record_id": "10.1016/j.envint.2019.105132",
+    "checked_at_utc": "2026-10-08T14:00:36Z",
+    "match_notes_zh": "Crossref核對書目；研究內容另依官方託管論文正文核對，未保存API摘要。"
+  },
+  "limitations_zh": "未將API摘要寫入repo；除claim標示的內容外，研究發現與效果量須回到來源全文核對。",
+  "critique_relationship_zh": "本記錄不宣稱與其他來源存在直接互引或逐一反駁關係。",
+  "metadata_licence_zh": "Crossref公開書目欄位；精確metadata授權未核驗，標UNKNOWN。"
+}

@@ -1,0 +1,71 @@
+{
+  "id": "KU-CLI-001",
+  "domain": "CLI",
+  "subtopic": "街谷高寬比（H/W）",
+  "type": "design_principle",
+  "title_zh": "街谷幾何應連同方位與氣候讀取",
+  "title_en": "Read street-canyon geometry together with orientation and climate",
+  "summary_zh": "Ali-Toudert 與 Mayer 以數值研究街谷高寬比及方位對炎熱乾燥氣候戶外熱環境的影響。這項工作支持把幾何參數作為情境變數，而不是抽出一個適用所有城市的最佳比例。都市氣候分析還要把建成表面、街谷氣流和熱交換放在同一尺度框架中理解。方案比選宜同時記錄方位、天空開敞、日照時段和行人用途。",
+  "key_points_zh": [
+    "H/W 的設計效果依氣候、街谷方向和使用時段而異。",
+    "相同的 H/W 不能單獨代表舒適、通風或日照表現。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "library_id": "ALITOUDERT2006",
+        "claim_zh": "數值研究以炎熱乾燥氣候街谷測試高寬比及方位對戶外熱舒適的影響。",
+        "effect_or_value": "效應隨街谷幾何、方位及情境改變；本次不抽取單一最佳值",
+        "study_design": "街谷數值模擬",
+        "context_region": "炎熱乾燥氣候街谷",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "library_id": "NG09",
+        "claim_zh": "香港通風評估可作高密度環境方法比較；本地風況、粗糙度與模擬仍需單獨計算；本單元 KU-CLI-001 對照「Ali-Toudert 與 Mayer 以數值研究街谷高寬比及方位對炎熱乾燥氣候戶外熱環境的影響」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "技術指引研究",
+        "context_region": "香港",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "同一街道方案至少對照朝向、截面、日照時間和通風條件。",
+    "把設計目的拆成可量測的遮蔭、風速和熱暴露指標，按本地氣候模型比較。"
+  ],
+  "applies_when_zh": "適用於街道截面初步設計和微氣候方案比選。",
+  "not_applicable_when_zh": "不可僅以 H/W 推定全年的戶外舒適、風環境或法定日照。",
+  "debates_zh": "街谷模型的邊界條件限制外推；乾熱地區的模擬結果不能直接移植到海洋性氣候。",
+  "sources": [
+    {
+      "library_id": "ALITOUDERT2006",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "NG09",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "形態氣候學與街谷數值模擬",
+  "region": "炎熱乾燥案例及跨氣候帶都市",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": null,
+      "topic": "街谷形態與都市氣候"
+    },
+    {
+      "school": "MIT",
+      "course": null,
+      "topic": "建築環境及微氣候"
+    }
+  ],
+  "version": "v2.0"
+}

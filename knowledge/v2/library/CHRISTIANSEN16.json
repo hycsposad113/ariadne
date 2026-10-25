@@ -1,0 +1,45 @@
+{
+  "id": "CHRISTIANSEN16",
+  "title": "Parking facilities and the built environment: Impacts on travel behaviour",
+  "authors": [
+    "Petter Christiansen",
+    "Øystein Engebretsen",
+    "Nils Fearnley",
+    "Jan Usterud Hanssen"
+  ],
+  "year": 2016,
+  "venue_or_publisher": "Transportation Research Part A: Policy and Practice",
+  "doi": "10.1016/j.tra.2016.10.025",
+  "openalex_id": "https://openalex.org/W2552550360",
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "北歐停車與旅運研究",
+  "region": [
+    "挪威"
+  ],
+  "method": "2013/14 全國旅運調查、地理脈絡控制與迴歸分析",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "挪威旅運調查顯示，工作地月繳停車相較日繳與接近兩倍的開車機率相關，家與目的地停車限制會疊加；研究指出效果在緊湊城市較大。",
+      "strength": "MIXED",
+      "scope_zh": "只支持所述研究脈絡；不提供 M4H 法規、普遍因果或未查證的設計門檻。",
+      "assessment_basis": "ABSTRACT_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "OpenAlex",
+    "query": {
+      "title": "Parking facilities and the built environment: Impacts on travel behaviour",
+      "author": "Petter Christiansen; Øystein Engebretsen; Nils Fearnley; Jan Usterud Hanssen",
+      "year": 2016
+    },
+    "matched_record_id": "https://openalex.org/W2552550360",
+    "checked_at_utc": "2026-10-08T08:57:34Z",
+    "match_notes_zh": "OpenAlex 命中標題、四位作者、年份、期刊與摘要；摘要標明挪威全國旅運調查。"
+  },
+  "limitations_zh": "只使用公開書目與 API 摘要核對；未下載或查閱全文，摘要以外的頁碼和量化結果不推定。",
+  "critique_relationship_zh": "引用只表示本單元並置不同研究觀點，不宣稱作者間互引或逐一反駁。",
+  "metadata_licence_zh": "只保存公開 API 書目與自行撰寫摘要；未保存 API 摘要原文。"
+}

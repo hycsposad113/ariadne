@@ -1,0 +1,80 @@
+{
+  "id": "KU-STR-039",
+  "domain": "STR",
+  "subtopic": "交叉口密度",
+  "type": "typology",
+  "title_zh": "交叉口密度：型態比較",
+  "title_en": "Intersection density: Typology comparison",
+  "summary_zh": "四岔路口、T 字口、廣場型交會與立體交叉提供不同衝突和轉向成本，不能只按節點個數評分。類型比較要回到交叉口數量是路網可選路徑的簡化指標，實際效益仍受路口型態、過街條件、交通量和街段方向影響。各類型的成本和適用條件包括：交叉口密度與步行指標的關聯不會自動證明行人安全；多路口也可能增加衝突暴露或延長等候。",
+  "key_points_zh": [
+    "比較類型：交叉口數量是路網可選路徑的簡化指標，實際效益仍受路口型態、過街條件、交通量和街段方向影響",
+    "比較類型：四岔路口、T 字口、廣場型交會與立體交叉提供不同衝突和轉向成本，不能只按節點個數評分"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "交叉口密度：型態比較｜街道結構可以用連接與階層關係比較；不同網形的可達性與交通作用需另外計算",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "MARSHALL05",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "交叉口密度：型態比較｜街道的交通條件會影響居住環境與日常活動；本單元不把案例尺度直接當通用標準",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "APPLEYARD81",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "類型表應比較「交叉口數量是路網可選路徑的簡化指標，實際效益仍受路口型態、過街條件、交通量和街段方向影響」及其使用代價「交叉口密度與步行指標的關聯不會自動證明行人安全；多路口也可能增加衝突暴露或延長等候」，不要只列名稱。"
+  ],
+  "applies_when_zh": "比較交叉口密度方案時，可先用「交叉口數量是路網可選路徑的簡化指標，實際效益仍受路口型態、過街條件、交通量和街段方向影響」描述各類型，再按「交叉口密度與步行指標的關聯不會自動證明行人安全；多路口也可能增加衝突暴露或延長等候」檢查分類的盲點。",
+  "not_applicable_when_zh": "這些類型不構成普遍排序；遇到「交叉口密度與步行指標的關聯不會自動證明行人安全；多路口也可能增加衝突暴露或延長等候」所述條件時，不應只依類名決定路網或街道配置。",
+  "debates_zh": "交叉口密度與步行指標的關聯不會自動證明行人安全；多路口也可能增加衝突暴露或延長等候；檢視「交叉口密度：型態比較」的分類邊界時，還需判斷「四岔路口、T 字口、廣場型交會與立體交叉提供不同衝突和轉向成本，不能只按節點個數評分」會如何改變方案結論。",
+  "sources": [
+    {
+      "library_id": "MARSHALL05",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "APPLEYARD81",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "步行路網與街道網絡分析",
+  "region": "跨地域理論或實務脈絡；來源地區依引用條目判讀",
+  "curriculum_refs": [
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.330J Theory of City Form",
+      "topic": "交叉口密度：課綱對應主題"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "交叉口密度：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-STR-033",
+    "KU-STR-034",
+    "KU-STR-035",
+    "KU-STR-036",
+    "KU-STR-037",
+    "KU-STR-038",
+    "KU-STR-040"
+  ]
+}

@@ -1,0 +1,389 @@
+{
+  "id": "KU-MOR-093",
+  "domain": "MOR",
+  "subtopic": "形態先例庫；實測圖底與量體指標",
+  "type": "case",
+  "title_zh": "哥本哈根北港",
+  "title_en": "Nordhavn",
+  "summary_zh": "港區分期會讓現況足跡與空地並存；量測只屬本次觀察快照，生成流程須把已建區與待開發岸段分別處理。本次從 118192.44 m² 陸地範圍內解析 49 棟建築、合併成 44 個量體，由主要街道切出 3 個面積至少 1,000 m² 的街廓，其中完整窗內 0 個。陸地分母 GSI 為 0.2111，已知樓層 FSI 下限為 0.8913，高度或空間覆蓋未達比較門檻；在 0 個完整街廓的自動判型樣本中，完整街廓樣本不足最多（0 個）；主要建築外牆間距中位數 37.56 m。這份數值記錄僅對應哥本哈根北港本次取樣窗與來源快照。",
+  "key_points_zh": [
+    "以 OSM 地名物件中心作錨點，在 EPSG:25832 中向四周量取 440 m × 270 m 矩形；這是研究窗，不代表歷史開發案或法定邊界。",
+    "OSM 日期 2026-10-09T12:06:12Z；高度來源 OSM building:levels, then tagged height / 3.0 m-floor conversion；有效高度 28／49 棟。",
+    "哥本哈根北港量測說明：OSM building:levels 直接用於 L；3DBAG roof-ground height 或 OSM height 僅在沒有樓層標記時以 3.0 m/層換算，為明示假設。哥本哈根北港的缺值不補猜。"
+  ],
+  "evidence": {
+    "strength": "CASE_EVIDENCE",
+    "findings": [
+      {
+        "library_id": "OSM_KB4_PRECEDENTS",
+        "claim_zh": "哥本哈根北港 使用回應 9dea1fc0b517 計算；未映射建築沒有插補。",
+        "effect_or_value": "49 棟建築；高度覆蓋率 0.5714。",
+        "study_design": "研究窗 OSM 幾何測量",
+        "context_region": "Copenhagen, Denmark",
+        "locator": null,
+        "claim_verification": "OBSERVED_OPEN_DATA_MEASUREMENT",
+        "limitations_zh": "OSM 是社群編輯資料；此值只描述快照，不代表完整盤點。"
+      },
+      {
+        "library_id": "BILJECKI2022",
+        "claim_zh": "Biljecki 與 Chow 的跨尺度形態指標研究強調來源和尺度可追溯；本案把該原則用於 哥本哈根北港 的 11.88 ha 觀察窗。",
+        "effect_or_value": null,
+        "study_design": "形態指標研究",
+        "context_region": "全球多城市資料",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW",
+        "limitations_zh": "該研究不驗證此窗 OSM 完整度或 M4H 法規。"
+      },
+      {
+        "library_id": "PESTOVA2022",
+        "claim_zh": "哥本哈根北港引用來源記載：Crossref書目確認哥本哈根都市發展為研究範圍；目前沒有據此聲稱對Nordhavn特定地塊或長期成果的分析。",
+        "effect_or_value": null,
+        "study_design": "書目或官方案例資料",
+        "context_region": "Copenhagen, Denmark",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW",
+        "limitations_zh": "只按已核對的書目或官方來源範圍引用，未查證的設計細節不推定。"
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "建築覆蓋率 GSI",
+      "range": "0.2111",
+      "unit": "無量綱",
+      "context": "哥本哈根北港的建築覆蓋率 GSI：Copenhagen研究窗 11.88 ha；以 OSM 地名物件中心作錨點，在 EPSG:25832 中向四周量取 440 m × 270 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T12:06:12Z，回應 SHA-256 9dea1fc0b5174c1dcd054979993c021b86a987ada224b032f063e6be264e9265；OSM 下載時間 2026-10-09T12:06:12Z；3DBAG tile 下載時間 3DBAG 高度未取得；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "已知樓層面積比 FSI 下限",
+      "range": "0.8913；僅下限或空間快照不足，不可跨案例比較",
+      "unit": "無量綱",
+      "context": "哥本哈根北港的已知樓層面積比 FSI 下限：Copenhagen研究窗 11.88 ha；以 OSM 地名物件中心作錨點，在 EPSG:25832 中向四周量取 440 m × 270 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T12:06:12Z，回應 SHA-256 9dea1fc0b5174c1dcd054979993c021b86a987ada224b032f063e6be264e9265；OSM 下載時間 2026-10-09T12:06:12Z；3DBAG tile 下載時間 3DBAG 高度未取得；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "足跡加權平均樓層 L",
+      "range": "5.033",
+      "unit": "層",
+      "context": "哥本哈根北港的足跡加權平均樓層 L：Copenhagen研究窗 11.88 ha；以 OSM 地名物件中心作錨點，在 EPSG:25832 中向四周量取 440 m × 270 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T12:06:12Z，回應 SHA-256 9dea1fc0b5174c1dcd054979993c021b86a987ada224b032f063e6be264e9265；OSM 下載時間 2026-10-09T12:06:12Z；3DBAG tile 下載時間 3DBAG 高度未取得；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "開放空間比 OSR（已知 FSI）",
+      "range": "0.8852",
+      "unit": "無量綱",
+      "context": "哥本哈根北港的開放空間比 OSR（已知 FSI）：Copenhagen研究窗 11.88 ha；以 OSM 地名物件中心作錨點，在 EPSG:25832 中向四周量取 440 m × 270 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T12:06:12Z，回應 SHA-256 9dea1fc0b5174c1dcd054979993c021b86a987ada224b032f063e6be264e9265；OSM 下載時間 2026-10-09T12:06:12Z；3DBAG tile 下載時間 3DBAG 高度未取得；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "街廓數",
+      "range": "3",
+      "unit": "個；含截邊街廓",
+      "context": "哥本哈根北港的街廓數：Copenhagen研究窗 11.88 ha；以 OSM 地名物件中心作錨點，在 EPSG:25832 中向四周量取 440 m × 270 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T12:06:12Z，回應 SHA-256 9dea1fc0b5174c1dcd054979993c021b86a987ada224b032f063e6be264e9265；OSM 下載時間 2026-10-09T12:06:12Z；3DBAG tile 下載時間 3DBAG 高度未取得；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "完整街廓數",
+      "range": "0",
+      "unit": "個；完整研究窗內街廓",
+      "context": "哥本哈根北港的完整街廓數：Copenhagen研究窗 11.88 ha；以 OSM 地名物件中心作錨點，在 EPSG:25832 中向四周量取 440 m × 270 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T12:06:12Z，回應 SHA-256 9dea1fc0b5174c1dcd054979993c021b86a987ada224b032f063e6be264e9265；OSM 下載時間 2026-10-09T12:06:12Z；3DBAG tile 下載時間 3DBAG 高度未取得；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "完整街廓面積分布",
+      "range": "min 未取得；p25 未取得；median 未取得；p75 未取得；max 未取得",
+      "unit": "m²；完整街廓最小／P25／中位／P75／最大",
+      "context": "哥本哈根北港的完整街廓面積分布：Copenhagen研究窗 11.88 ha；以 OSM 地名物件中心作錨點，在 EPSG:25832 中向四周量取 440 m × 270 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T12:06:12Z，回應 SHA-256 9dea1fc0b5174c1dcd054979993c021b86a987ada224b032f063e6be264e9265；OSM 下載時間 2026-10-09T12:06:12Z；3DBAG tile 下載時間 3DBAG 高度未取得；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "全觀察街廓面積分布（含截邊）",
+      "range": "min 2386.25；p25 23602.32；median 44818.4；p75 57903.1；max 70987.79",
+      "unit": "m²；全觀察街廓含截邊最小／P25／中位／P75／最大",
+      "context": "哥本哈根北港的全觀察街廓面積分布（含截邊）：Copenhagen研究窗 11.88 ha；以 OSM 地名物件中心作錨點，在 EPSG:25832 中向四周量取 440 m × 270 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T12:06:12Z，回應 SHA-256 9dea1fc0b5174c1dcd054979993c021b86a987ada224b032f063e6be264e9265；OSM 下載時間 2026-10-09T12:06:12Z；3DBAG tile 下載時間 3DBAG 高度未取得；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "主要街道交叉口間街段長分布",
+      "range": "min 192.28；p25 192.28；median 192.28；p75 192.28；max 192.28",
+      "unit": "m；主要街道交叉口間街段最小／P25／中位／P75／最大",
+      "context": "哥本哈根北港的主要街道交叉口間街段長分布：Copenhagen研究窗 11.88 ha；以 OSM 地名物件中心作錨點，在 EPSG:25832 中向四周量取 440 m × 270 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T12:06:12Z，回應 SHA-256 9dea1fc0b5174c1dcd054979993c021b86a987ada224b032f063e6be264e9265；OSM 下載時間 2026-10-09T12:06:12Z；3DBAG tile 下載時間 3DBAG 高度未取得；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "街道寬度代理（建築間距）",
+      "range": "min 10.5；p25 20.66；median 37.56；p75 46.32；max 68.76",
+      "unit": "m；最小／P25／中位／P75／最大",
+      "context": "哥本哈根北港的街道寬度代理（建築間距）：Copenhagen研究窗 11.88 ha；以 OSM 地名物件中心作錨點，在 EPSG:25832 中向四周量取 440 m × 270 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T12:06:12Z，回應 SHA-256 9dea1fc0b5174c1dcd054979993c021b86a987ada224b032f063e6be264e9265；OSM 下載時間 2026-10-09T12:06:12Z；3DBAG tile 下載時間 3DBAG 高度未取得；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "建築翼深代理",
+      "range": "min 1.66；p25 6.66；median 9.17；p75 10.44；max 20.86；低信心（偏離住宅常規 10–16 m）",
+      "unit": "m；最小／P25／中位／P75／最大",
+      "context": "哥本哈根北港的建築翼深代理：Copenhagen研究窗 11.88 ha；以 OSM 地名物件中心作錨點，在 EPSG:25832 中向四周量取 440 m × 270 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T12:06:12Z，回應 SHA-256 9dea1fc0b5174c1dcd054979993c021b86a987ada224b032f063e6be264e9265；OSM 下載時間 2026-10-09T12:06:12Z；3DBAG tile 下載時間 3DBAG 高度未取得；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "翼深交叉檢查（最小旋轉外接矩形短邊）",
+      "range": "min 2.43；p25 10.02；median 17.42；p75 28.41；max 85.36",
+      "unit": "m；最小／P25／中位／P75／最大",
+      "context": "哥本哈根北港的翼深交叉檢查（最小旋轉外接矩形短邊）：Copenhagen研究窗 11.88 ha；以 OSM 地名物件中心作錨點，在 EPSG:25832 中向四周量取 440 m × 270 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T12:06:12Z，回應 SHA-256 9dea1fc0b5174c1dcd054979993c021b86a987ada224b032f063e6be264e9265；OSM 下載時間 2026-10-09T12:06:12Z；3DBAG tile 下載時間 3DBAG 高度未取得；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "翼深代理低於 4 m 樣本占比",
+      "range": "0.1154",
+      "unit": "比例；2A／周長代理低於 4 m 的樣本占比",
+      "context": "哥本哈根北港的翼深代理低於 4 m 樣本占比：Copenhagen研究窗 11.88 ha；以 OSM 地名物件中心作錨點，在 EPSG:25832 中向四周量取 440 m × 270 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T12:06:12Z，回應 SHA-256 9dea1fc0b5174c1dcd054979993c021b86a987ada224b032f063e6be264e9265；OSM 下載時間 2026-10-09T12:06:12Z；3DBAG tile 下載時間 3DBAG 高度未取得；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "主要形態量體低於 100 m² 占比",
+      "range": "0.1538",
+      "unit": "比例；主要形態量體低於 100 m² 的占比",
+      "context": "哥本哈根北港的主要形態量體低於 100 m² 占比：Copenhagen研究窗 11.88 ha；以 OSM 地名物件中心作錨點，在 EPSG:25832 中向四周量取 440 m × 270 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T12:06:12Z，回應 SHA-256 9dea1fc0b5174c1dcd054979993c021b86a987ada224b032f063e6be264e9265；OSM 下載時間 2026-10-09T12:06:12Z；3DBAG tile 下載時間 3DBAG 高度未取得；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "主要形態樣本建築數",
+      "range": "30",
+      "unit": "棟；主要形態樣本",
+      "context": "哥本哈根北港的主要形態樣本建築數：Copenhagen研究窗 11.88 ha；以 OSM 地名物件中心作錨點，在 EPSG:25832 中向四周量取 440 m × 270 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T12:06:12Z，回應 SHA-256 9dea1fc0b5174c1dcd054979993c021b86a987ada224b032f063e6be264e9265；OSM 下載時間 2026-10-09T12:06:12Z；3DBAG tile 下載時間 3DBAG 高度未取得；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "翼深／類型排除的輔助建物數",
+      "range": "19",
+      "unit": "棟；僅不納入翼深／類型",
+      "context": "哥本哈根北港的翼深／類型排除的輔助建物數：Copenhagen研究窗 11.88 ha；以 OSM 地名物件中心作錨點，在 EPSG:25832 中向四周量取 440 m × 270 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T12:06:12Z，回應 SHA-256 9dea1fc0b5174c1dcd054979993c021b86a987ada224b032f063e6be264e9265；OSM 下載時間 2026-10-09T12:06:12Z；3DBAG tile 下載時間 3DBAG 高度未取得；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "完整街廓判型樣本數",
+      "range": "0",
+      "unit": "個；完整街廓判型樣本",
+      "context": "哥本哈根北港的完整街廓判型樣本數：Copenhagen研究窗 11.88 ha；以 OSM 地名物件中心作錨點，在 EPSG:25832 中向四周量取 440 m × 270 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T12:06:12Z，回應 SHA-256 9dea1fc0b5174c1dcd054979993c021b86a987ada224b032f063e6be264e9265；OSM 下載時間 2026-10-09T12:06:12Z；3DBAG tile 下載時間 3DBAG 高度未取得；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "建築至映射水岸距離",
+      "range": "min 13.52；p25 84.11；median 186.37；p75 246.47；max 293.68",
+      "unit": "m；最小／P25／中位／P75／最大",
+      "context": "哥本哈根北港的建築至映射水岸距離：Copenhagen研究窗 11.88 ha；以 OSM 地名物件中心作錨點，在 EPSG:25832 中向四周量取 440 m × 270 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T12:06:12Z，回應 SHA-256 9dea1fc0b5174c1dcd054979993c021b86a987ada224b032f063e6be264e9265；OSM 下載時間 2026-10-09T12:06:12Z；3DBAG tile 下載時間 3DBAG 高度未取得；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "水岸行人路徑 OSM 標記",
+      "range": "OSM_EXPLICIT_OPEN_ACCESS_TAG_NEAR_WATER；近水路徑 10 條；明示開放標記 1 條；明示受限標記 0 條；未判定 9 條",
+      "unit": "OSM 水岸行人路徑標記與數量",
+      "context": "哥本哈根北港的水岸行人路徑 OSM 標記：Copenhagen研究窗 11.88 ha；以 OSM 地名物件中心作錨點，在 EPSG:25832 中向四周量取 440 m × 270 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T12:06:12Z，回應 SHA-256 9dea1fc0b5174c1dcd054979993c021b86a987ada224b032f063e6be264e9265；OSM 下載時間 2026-10-09T12:06:12Z；3DBAG tile 下載時間 3DBAG 高度未取得；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "主要形態類型分布（街廓代理）",
+      "range": "周邊式 0 個／比例 未取得；板樓 0 個／比例 未取得；連棟 0 個／比例 未取得；點式 0 個／比例 未取得；合院 0 個／比例 未取得；混合／未分類 0 個／比例 未取得",
+      "unit": "街廓分類數量與比例",
+      "context": "哥本哈根北港的主要形態類型分布（街廓代理）：Copenhagen研究窗 11.88 ha；以 OSM 地名物件中心作錨點，在 EPSG:25832 中向四周量取 440 m × 270 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T12:06:12Z，回應 SHA-256 9dea1fc0b5174c1dcd054979993c021b86a987ada224b032f063e6be264e9265；OSM 下載時間 2026-10-09T12:06:12Z；3DBAG tile 下載時間 3DBAG 高度未取得；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "高度或樓層資訊覆蓋率",
+      "range": "0.5714",
+      "unit": "比例",
+      "context": "哥本哈根北港的高度或樓層資訊覆蓋率：Copenhagen研究窗 11.88 ha；以 OSM 地名物件中心作錨點，在 EPSG:25832 中向四周量取 440 m × 270 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T12:06:12Z，回應 SHA-256 9dea1fc0b5174c1dcd054979993c021b86a987ada224b032f063e6be264e9265；OSM 下載時間 2026-10-09T12:06:12Z；3DBAG tile 下載時間 3DBAG 高度未取得；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "高度或樓層缺值建築數",
+      "range": "21",
+      "unit": "棟",
+      "context": "哥本哈根北港的高度或樓層缺值建築數：Copenhagen研究窗 11.88 ha；以 OSM 地名物件中心作錨點，在 EPSG:25832 中向四周量取 440 m × 270 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T12:06:12Z，回應 SHA-256 9dea1fc0b5174c1dcd054979993c021b86a987ada224b032f063e6be264e9265；OSM 下載時間 2026-10-09T12:06:12Z；3DBAG tile 下載時間 3DBAG 高度未取得；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "GSI（含映射水域分母）",
+      "range": "0.2111",
+      "unit": "無量綱",
+      "context": "哥本哈根北港的GSI（含映射水域分母）：Copenhagen研究窗 11.88 ha；以 OSM 地名物件中心作錨點，在 EPSG:25832 中向四周量取 440 m × 270 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T12:06:12Z，回應 SHA-256 9dea1fc0b5174c1dcd054979993c021b86a987ada224b032f063e6be264e9265；OSM 下載時間 2026-10-09T12:06:12Z；3DBAG tile 下載時間 3DBAG 高度未取得；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "FSI 下限（含映射水域分母）",
+      "range": "0.8913",
+      "unit": "無量綱",
+      "context": "哥本哈根北港的FSI 下限（含映射水域分母）：Copenhagen研究窗 11.88 ha；以 OSM 地名物件中心作錨點，在 EPSG:25832 中向四周量取 440 m × 270 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T12:06:12Z，回應 SHA-256 9dea1fc0b5174c1dcd054979993c021b86a987ada224b032f063e6be264e9265；OSM 下載時間 2026-10-09T12:06:12Z；3DBAG tile 下載時間 3DBAG 高度未取得；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "陸地分母面積",
+      "range": "118192.44",
+      "unit": "m²",
+      "context": "哥本哈根北港的陸地分母面積：Copenhagen研究窗 11.88 ha；以 OSM 地名物件中心作錨點，在 EPSG:25832 中向四周量取 440 m × 270 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T12:06:12Z，回應 SHA-256 9dea1fc0b5174c1dcd054979993c021b86a987ada224b032f063e6be264e9265；OSM 下載時間 2026-10-09T12:06:12Z；3DBAG tile 下載時間 3DBAG 高度未取得；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "建築合併後量體數",
+      "range": "44",
+      "unit": "量體",
+      "context": "哥本哈根北港的建築合併後量體數：Copenhagen研究窗 11.88 ha；以 OSM 地名物件中心作錨點，在 EPSG:25832 中向四周量取 440 m × 270 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T12:06:12Z，回應 SHA-256 9dea1fc0b5174c1dcd054979993c021b86a987ada224b032f063e6be264e9265；OSM 下載時間 2026-10-09T12:06:12Z；3DBAG tile 下載時間 3DBAG 高度未取得；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "輔助建物以外主要形態樣本數",
+      "range": "30",
+      "unit": "棟",
+      "context": "哥本哈根北港的輔助建物以外主要形態樣本數：Copenhagen研究窗 11.88 ha；以 OSM 地名物件中心作錨點，在 EPSG:25832 中向四周量取 440 m × 270 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T12:06:12Z，回應 SHA-256 9dea1fc0b5174c1dcd054979993c021b86a987ada224b032f063e6be264e9265；OSM 下載時間 2026-10-09T12:06:12Z；3DBAG tile 下載時間 3DBAG 高度未取得；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "翼深交叉檢查：最小旋轉外接矩形短邊",
+      "range": "min 2.43；p25 10.02；median 17.42；p75 28.41；max 85.36",
+      "unit": "m；分位數",
+      "context": "哥本哈根北港的翼深交叉檢查：最小旋轉外接矩形短邊：Copenhagen研究窗 11.88 ha；以 OSM 地名物件中心作錨點，在 EPSG:25832 中向四周量取 440 m × 270 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T12:06:12Z，回應 SHA-256 9dea1fc0b5174c1dcd054979993c021b86a987ada224b032f063e6be264e9265；OSM 下載時間 2026-10-09T12:06:12Z；3DBAG tile 下載時間 3DBAG 高度未取得；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "小於 1,000 m² 排除碎片數",
+      "range": "0",
+      "unit": "個",
+      "context": "哥本哈根北港的小於 1,000 m² 排除碎片數：Copenhagen研究窗 11.88 ha；以 OSM 地名物件中心作錨點，在 EPSG:25832 中向四周量取 440 m × 270 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T12:06:12Z，回應 SHA-256 9dea1fc0b5174c1dcd054979993c021b86a987ada224b032f063e6be264e9265；OSM 下載時間 2026-10-09T12:06:12Z；3DBAG tile 下載時間 3DBAG 高度未取得；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "完整街廓判型樣本數",
+      "range": "0",
+      "unit": "個",
+      "context": "哥本哈根北港的完整街廓判型樣本數：Copenhagen研究窗 11.88 ha；以 OSM 地名物件中心作錨點，在 EPSG:25832 中向四周量取 440 m × 270 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T12:06:12Z，回應 SHA-256 9dea1fc0b5174c1dcd054979993c021b86a987ada224b032f063e6be264e9265；OSM 下載時間 2026-10-09T12:06:12Z；3DBAG tile 下載時間 3DBAG 高度未取得；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "未分類街廓比例",
+      "range": "未取得",
+      "unit": "比例",
+      "context": "哥本哈根北港的未分類街廓比例：Copenhagen研究窗 11.88 ha；以 OSM 地名物件中心作錨點，在 EPSG:25832 中向四周量取 440 m × 270 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T12:06:12Z，回應 SHA-256 9dea1fc0b5174c1dcd054979993c021b86a987ada224b032f063e6be264e9265；OSM 下載時間 2026-10-09T12:06:12Z；3DBAG tile 下載時間 3DBAG 高度未取得；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "OSM 建築數",
+      "range": "49",
+      "unit": "棟",
+      "context": "哥本哈根北港的OSM 建築數：Copenhagen研究窗 11.88 ha；以 OSM 地名物件中心作錨點，在 EPSG:25832 中向四周量取 440 m × 270 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T12:06:12Z，回應 SHA-256 9dea1fc0b5174c1dcd054979993c021b86a987ada224b032f063e6be264e9265；OSM 下載時間 2026-10-09T12:06:12Z；3DBAG tile 下載時間 3DBAG 高度未取得；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "高度覆蓋率",
+      "range": "0.5714",
+      "unit": "比例",
+      "context": "哥本哈根北港的高度覆蓋率：Copenhagen研究窗 11.88 ha；以 OSM 地名物件中心作錨點，在 EPSG:25832 中向四周量取 440 m × 270 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T12:06:12Z，回應 SHA-256 9dea1fc0b5174c1dcd054979993c021b86a987ada224b032f063e6be264e9265；OSM 下載時間 2026-10-09T12:06:12Z；3DBAG tile 下載時間 3DBAG 高度未取得；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "街廓中位面積",
+      "range": "未取得",
+      "unit": "m²",
+      "context": "哥本哈根北港的街廓中位面積：Copenhagen研究窗 11.88 ha；以 OSM 地名物件中心作錨點，在 EPSG:25832 中向四周量取 440 m × 270 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T12:06:12Z，回應 SHA-256 9dea1fc0b5174c1dcd054979993c021b86a987ada224b032f063e6be264e9265；OSM 下載時間 2026-10-09T12:06:12Z；3DBAG tile 下載時間 3DBAG 高度未取得；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "完整窗內街廓數",
+      "range": "0",
+      "unit": "個",
+      "context": "哥本哈根北港的完整窗內街廓數：Copenhagen研究窗 11.88 ha；以 OSM 地名物件中心作錨點，在 EPSG:25832 中向四周量取 440 m × 270 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T12:06:12Z，回應 SHA-256 9dea1fc0b5174c1dcd054979993c021b86a987ada224b032f063e6be264e9265；OSM 下載時間 2026-10-09T12:06:12Z；3DBAG tile 下載時間 3DBAG 高度未取得；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    },
+    {
+      "name": "主要形態樣本建築數",
+      "range": "30",
+      "unit": "棟",
+      "context": "哥本哈根北港的主要形態樣本建築數：Copenhagen研究窗 11.88 ha；以 OSM 地名物件中心作錨點，在 EPSG:25832 中向四周量取 440 m × 270 m 矩形；這是研究窗，不代表歷史開發案或法定邊界；OSM 時間戳 2026-10-09T12:06:12Z，回應 SHA-256 9dea1fc0b5174c1dcd054979993c021b86a987ada224b032f063e6be264e9265；OSM 下載時間 2026-10-09T12:06:12Z；3DBAG tile 下載時間 3DBAG 高度未取得；此觀察值不代表 M4H 或本基地法規。",
+      "library_id": "OSM_KB4_PRECEDENTS"
+    }
+  ],
+  "design_implications_zh": [
+    "分開標記已建街區和規劃中岸線，按分期設定量體參數。",
+    "測試次級慢行路徑是否把大型港區街廓連到岸邊。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "分開標記已建街區和規劃中岸線，按分期設定量體參數。",
+      "tradeoff_zh": "哥本哈根北港的主要場地條件仍需實地核實；幾何參考不能取代現場資料。",
+      "library_ids": [
+        "OSM_KB4_PRECEDENTS",
+        "PESTOVA2022"
+      ]
+    },
+    {
+      "option_zh": "測試次級慢行路徑是否把大型港區街廓連到岸邊。",
+      "tradeoff_zh": "若 M4H 的基地寬度、用途或岸線條件不同於哥本哈根北港，須重算幾何並由設計者取捨。",
+      "library_ids": [
+        "OSM_KB4_PRECEDENTS",
+        "BILJECKI2022"
+      ]
+    }
+  ],
+  "applies_when_zh": "比較 哥本哈根北港 的足跡、街廓和岸線幾何，並為量體生成建立案例參照。",
+  "not_applicable_when_zh": "不可把哥本哈根北港跨城數值當作本基地法規、設計目標或公共通行權證明。",
+  "debates_zh": "若把未建用地納入已完成街區的均值，分期差異會被誤讀成現況密度。",
+  "sources": [
+    {
+      "library_id": "OSM_KB4_PRECEDENTS",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "BILJECKI2022",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "PESTOVA2022",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "跨城市建築形態測量與都市設計案例",
+  "region": "Copenhagen, Denmark",
+  "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "形態先例比較：哥本哈根北港"
+    }
+  ],
+  "version": "kb4-precedents-2026-10-09",
+  "check": {
+    "method_zh": "在研究窗扣除已映射水域後計算陸地分母，局部公尺投影；量體合併只用於翼深和類型，GSI／FSI 仍按去重原始足跡計。荷蘭案例僅以 BAG 識別碼連結 3DBAG 高度。",
+    "inputs": [
+      "研究窗和 OSM 錨點",
+      "具 SHA-256 的 OSM 快照",
+      "BAG 高度欄位或 OSM 樓層／高度標籤"
+    ],
+    "logic_zh": "GSI 為足跡面積除扣除映射水域的陸地面積；FSI 為已知樓層建築足跡乘樓層數除同一陸地面積；高度覆蓋低於 80% 時標示下限且不可比較。",
+    "limitations_zh": "未知高度不插補；映射以外水體仍在陸地分母內；翼深以合併量體 2A／周長估算，最小旋轉矩形短邊作交叉檢查。"
+  },
+  "case": {
+    "location": "Nordhavn, Copenhagen, Denmark",
+    "period": "現況 OSM／3DBAG 快照；設計者與建成年代未由本輪可用來源完整確認。",
+    "area_ha": 11.88,
+    "fsi": 0.8913,
+    "gsi": 0.2111,
+    "program_mix": "哥本哈根北港 快照中可讀取到的 OSM 建築型別與明示用途標籤：建築型別：building=apartments 18 筆、building=roof 10 筆、building=shed 9 筆、building=office 5 筆、building=commercial 1 筆、building=warehouse 1 筆；明示用途活動：amenity=recycling 2 筆。；未標註用途不猜補。可解析建築 49 棟。",
+    "key_strategies_zh": [
+      "分開標記已建街區和規劃中岸線，按分期設定量體參數。",
+      "測試次級慢行路徑是否把大型港區街廓連到岸邊。"
+    ],
+    "outcomes_zh": [
+      "陸地分母 GSI 0.2111；含映射水域分母 GSI 0.2111，兩者差異來自水域扣除口徑。",
+      "街廓共 3 個，完整 0 個、截邊 3 個；低於 1,000 m² 的碎片 0 個另計。完整街廓判型樣本為 0 個，完整街廓樣本不足分類 0 個。"
+    ],
+    "critiques_zh": [
+      "21 棟建築沒有可用高度或樓層資料（覆蓋 0.5714）；本案 FSI 狀態為 LOWER_BOUND_NONCOMPARABLE。",
+      "哥本哈根北港沒有完整窗內街廓可供自動判型，故未分類比例不計算；截邊街廓沒有代替完整樣本。",
+      "若把未建用地納入已完成街區的均值，分期差異會被誤讀成現況密度。",
+      "哥本哈根北港 的翼深代理中位數 9.17 m 偏離住宅常規範圍（約 10–16 m），標記為低信心，不可硬套於標準住宅量體生成。"
+    ]
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "id": "KU-CAS-010",
+  "domain": "CAS",
+  "subtopic": "公共空間與公園案例",
+  "type": "case",
+  "title_zh": "High Line：高架鐵路保存與公共公園的兩面性",
+  "title_en": "The High Line: Elevated Rail Preservation and the Ambivalence of a Public Park",
+  "summary_zh": "High Line 將曼哈頓西側停用的高架貨運鐵路改為線性公共公園，並分段開放。官方資料記錄第二段在2011年開放；Loughran的研究將此案放進公園投資、城市增長和空間不均的批判框架。知名度和遊客吸引力不等於原有居民取得等量利益，案例比較需同時追蹤周邊住宅市場和管理制度。",
+  "key_points_zh": [
+    "保留鐵路構造和景觀設計的案例證據，與周邊房地產變化分開。",
+    "討論公共空間的形象效益時，同時檢查管理、商業化和群體可及性。"
+  ],
+  "evidence": {
+    "strength": "CASE_EVIDENCE",
+    "findings": [
+      {
+        "claim_zh": "官方開放資料記錄High Line第二段於2011年啟用，園區以分段方式延伸。",
+        "effect_or_value": "專案資料；分段開放",
+        "study_design": "專案資料；分段開放",
+        "context_region": "美國紐約",
+        "library_id": "NYC_HIGHLINE_PHASE2_2011",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "Loughran將High Line置於公園融資、城市增長與不均衡發展的批判分析中。",
+        "effect_or_value": "城市研究個案分析；政治經濟框架",
+        "study_design": "城市研究個案分析；政治經濟框架",
+        "context_region": "美國紐約",
+        "library_id": "LOUGHRAN2014",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "沿公園軸線同步繪製公園入口、鄰近租金、住宅類型和公共管理條款。"
+  ],
+  "applies_when_zh": "評估廢棄鐵路或基礎設施轉為高知名度公共空間時。",
+  "not_applicable_when_zh": "需要估計公園對地價的單獨因果影響，但沒有對照街區和時間序列資料時。",
+  "debates_zh": "高架公園能保存部分交通遺產並創造新公共景觀；批判研究則要求追問其價值如何與周邊地產增長、私有治理和不均衡發展共同作用。",
+  "sources": [
+    {
+      "library_id": "NYC_HIGHLINE_PHASE2_2011",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "LOUGHRAN2014",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "北美基礎設施遺產再用與公園政治經濟批判",
+  "region": "北美／美國紐約市",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": null,
+      "topic": "基礎設施再利用與線性公共空間"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": null,
+      "topic": "城市增長與不均衡發展"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": null,
+      "topic": "公園設計及公共性"
+    }
+  ],
+  "case": {
+    "location": "曼哈頓，紐約市，美國",
+    "period": "2009年起分段開放；第二段於2011年啟用",
+    "area_ha": null,
+    "fsi": null,
+    "gsi": null,
+    "program_mix": "線性公共公園、園藝、步行、藝術活動與高架鐵路遺產。",
+    "key_strategies_zh": [
+      "將既有高架貨運鐵道轉化為連續步行公園。",
+      "分段開放以維持施工與公共使用的銜接。"
+    ],
+    "outcomes_zh": [
+      "官方資料提供分段開放的時間和範圍。",
+      "學術批評將案例連結至公園融資和城市增長，但不能由單一案例直接推論所有高架公園的房價效應。"
+    ],
+    "critiques_zh": [
+      "需要將訪客量與在地居民使用、公平性和租住變化分別觀察。",
+      "保留部分鐵路痕跡不代表所有工業或勞動歷史都被完整呈現。"
+    ]
+  },
+  "version": "v2.0"
+}

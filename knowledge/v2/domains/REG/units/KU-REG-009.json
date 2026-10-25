@@ -1,0 +1,91 @@
+{
+  "id": "KU-REG-009",
+  "domain": "REG",
+  "subtopic": "歐氏分區與形式準則",
+  "type": "typology",
+  "title_zh": "歐氏分區與形式準則｜類型取捨",
+  "title_en": "Euclidean zoning and form-based codes — Typology and trade-offs",
+  "summary_zh": "Ben-Joseph 將美國地方街道標準放回城市形式的歷史脈絡，顯示規範會留下可觀察的街道特徵。 用途分區主要處理活動容許，形式準則則直接規定空間關係，兩者應分開比較。 形式規範本身不能證明混合用途或公共性必然增加。",
+  "key_points_zh": [
+    "用途分區可提供明確允許用途；形式準則可直接規範空間關係。",
+    "讀「歐氏分區與形式準則｜類型取捨」時，適用於規範架構比較及設計治理討論；同時把專書把標準、街道與地方形式連結起來，指出設計規範也會承載治理及公共價值；「歐氏分區與形式準則｜類型取捨」還須對照民族誌把規劃違規視為特定公共與私人網絡治理的結果，而不簡化為制度失靈；結論屬地方脈絡分析，才能把研究發現轉成有邊界的設計判斷列為核對條件。",
+    "限制：不同國家法制不可用相同術語假設等值。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "Ben-Joseph 把美國街道設計標準與地方形式放在同一歷史脈絡討論，顯示規範文本會參與塑造街道特徵與地方意象。",
+        "library_id": "BENJOSEPH2005",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "美國",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "逐條列出用途、形式、程序和例外規則，再比較制度覆蓋範圍。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "在「歐氏分區與形式準則｜類型取捨」的來源情境裡，逐條列出用途、形式、程序和例外規則，再比較制度覆蓋範圍；落到設計時還要按專書把標準、街道與地方形式連結起來，指出設計規範也會承載治理及公共價值；「歐氏分區與形式準則｜類型取捨」還須對照民族誌把規劃違規視為特定公共與私人網絡治理的結果，而不簡化為制度失靈；結論屬地方脈絡分析，才能把研究發現轉成有邊界的設計判斷調整。",
+      "tradeoff_zh": "此選項把「歐氏分區與形式準則｜類型取捨」的工作放在專書把標準、街道與地方形式連結起來，指出設計規範也會承載治理及公共價值；「歐氏分區與形式準則｜類型取捨」還須對照民族誌把規劃違規視為特定公共與私人網絡治理的結果，而不簡化為制度失靈；結論屬地方脈絡分析，才能把研究發現轉成有邊界的設計判斷上；需要承擔的協調或維護代價則由「形式準則不必然包容混合用途，用途分區也不必然造成單一用途」界定。",
+      "library_ids": [
+        "BENJOSEPH2005"
+      ]
+    },
+    {
+      "option_zh": "在「歐氏分區與形式準則｜類型取捨」的來源情境裡，用途分區可提供明確允許用途；形式準則可直接規範空間關係；落到設計時還要按專書把標準、街道與地方形式連結起來，指出設計規範也會承載治理及公共價值；「歐氏分區與形式準則｜類型取捨」還須對照民族誌把規劃違規視為特定公共與私人網絡治理的結果，而不簡化為制度失靈；結論屬地方脈絡分析，才能把研究發現轉成有邊界的設計判斷調整。",
+      "tradeoff_zh": "此選項把「歐氏分區與形式準則｜類型取捨」的工作放在專書把標準、街道與地方形式連結起來，指出設計規範也會承載治理及公共價值；「歐氏分區與形式準則｜類型取捨」還須對照民族誌把規劃違規視為特定公共與私人網絡治理的結果，而不簡化為制度失靈；結論屬地方脈絡分析，才能把研究發現轉成有邊界的設計判斷上；需要承擔的協調或維護代價則由「形式準則不必然包容混合用途，用途分區也不必然造成單一用途」界定。",
+      "library_ids": [
+        "BENJOSEPH2005"
+      ]
+    }
+  ],
+  "applies_when_zh": "適用於規範架構比較及設計治理討論。",
+  "not_applicable_when_zh": "不同國家法制不可用相同術語假設等值。",
+  "debates_zh": "形式準則不必然包容混合用途，用途分區也不必然造成單一用途。",
+  "sources": [
+    {
+      "library_id": "BENJOSEPH2005",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "SINGLE_SOURCE",
+  "tradition": "城市設計規範與形式管制；印度規劃治理與日常實作",
+  "region": "美國；班加羅爾，印度",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Planning Complex Cities",
+      "topic": "歐氏分區與形式準則"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Urban Design Contexts and Operations",
+      "topic": "歐氏分區與形式準則"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "歐氏分區與形式準則"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban design governance",
+      "topic": "歐氏分區與形式準則"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-REG-008",
+    "KU-REG-010",
+    "KU-REG-011"
+  ],
+  "counter_unit_ids": [
+    "KU-REG-012"
+  ]
+}

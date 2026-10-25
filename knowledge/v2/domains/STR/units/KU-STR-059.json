@@ -1,0 +1,88 @@
+{
+  "id": "KU-STR-059",
+  "domain": "STR",
+  "subtopic": "路網形態（格子、放射、有機）",
+  "type": "value_range",
+  "title_zh": "自行車網鄰近度與區域模式占比",
+  "title_en": "Bikeway proximity and cycling mode share",
+  "summary_zh": "Teschke 等人以 2011 年蒙特婁和溫哥華 census tract 做橫斷面分析，區域自行車通勤占比從 0 到 20.4% 不等。接近不同類型自行車道的區域占比呈現顯著差異，研究報告的接近度關聯約為四倍。這些是地區層級的相關結果，兩城之間的設施類型結果也不一致，不能解讀成單一自行車道造成四倍增幅。蒙特婁與溫哥華 census tract 自行車通勤占比的數值不是本基地法規或普遍設計目標。",
+  "key_points_zh": [
+    "數值與用途：蒙特婁與溫哥華 census tract 自行車通勤占比：區域占比 0–20.4%；每接近任一 bikeway 1 km 與約四倍占比相關",
+    "數值與用途：此數值描述兩城區域差異與橫斷面關聯，不是其他城市的自行車目標、基地法規或 M4H 標準"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "自行車網鄰近度與區域模式占比｜區域自行車通勤占比跨度很大，且設施距離和占比相關",
+        "effect_or_value": "區域占比 0–20.4%；每接近任一 bikeway 1 km 與約四倍占比相關",
+        "study_design": "2011 年蒙特婁與溫哥華 census tract 橫斷面分析",
+        "context_region": "2011 年蒙特婁與溫哥華，加拿大",
+        "library_id": "TESCHKE17",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "自行車網鄰近度與區域模式占比｜Primal 街道圖和多中心性指標可辨識城市結構骨架；規劃型與自組織城市的中心性分布不同，指標選擇仍受圖表示限制",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "PORTA06",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "蒙特婁與溫哥華 census tract 自行車通勤占比",
+      "range": "區域占比 0–20.4%；每接近任一 bikeway 1 km 與約四倍占比相關",
+      "unit": "通勤模式占比與距離關聯",
+      "context": "2011 年蒙特婁與溫哥華 census tract 橫斷面研究；用於比較兩城的區域差異，不是模式目標或本基地法規；來源所列地域：加拿大。",
+      "library_id": "TESCHKE17"
+    }
+  ],
+  "design_implications_zh": [
+    "在比較自行車路網時，把區域通勤占比和距離設施的變數分列，再按設施型式及性別檢視差異；不可把四倍關聯寫成增設車道的預測效果。"
+  ],
+  "applies_when_zh": "當資料能按 census tract 或相近的地區尺度整理自行車通勤占比，並可重現到不同 bikeway 的距離定義時，可用兩城結果作為異質性對照。",
+  "not_applicable_when_zh": "0–20.4% 描述的是蒙特婁與溫哥華的區域範圍，不是目標比例；四倍關聯也不是個人層級或因果估計。",
+  "debates_zh": "路網鄰近和通勤占比相關，卻無法單靠橫斷面設計排除選址、人口結構或其他政策的影響；不同 bikeway 類型的結果不能合併成單一效果。",
+  "sources": [
+    {
+      "library_id": "TESCHKE17",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "PORTA06",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "城市路網與空間組態",
+  "region": "2011 年蒙特婁與溫哥華，加拿大",
+  "curriculum_refs": [
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "路網形態（格子、放射、有機）：課綱對應主題"
+    },
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.330J Theory of City Form",
+      "topic": "路網形態（格子、放射、有機）：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-STR-057",
+    "KU-STR-058",
+    "KU-STR-060",
+    "KU-STR-061",
+    "KU-STR-062",
+    "KU-STR-063",
+    "KU-STR-064"
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "id": "KU-MOB-036",
+  "domain": "MOB",
+  "subtopic": "TOD 與節點—場所模型",
+  "type": "method",
+  "title_zh": "TOD 與節點—場所模型：可檢驗的方法",
+  "title_en": "TOD and node-place model: Method and measurement",
+  "summary_zh": "分別建立節點與場所指標，再檢查兩者是否平衡及其尺度；避免用距離車站近取代站區品質判斷。這個流程用來檢驗節點描述公共運輸網路與服務能力，場所描述站區的活動、土地使用與城市生活，兩面向需並列診斷。方法的主要限制是TOD 標籤可能掩蓋土地價格、移居壓力和地方治理；提高可及性不保證公平分配。",
+  "key_points_zh": [
+    "分析步驟：節點描述公共運輸網路與服務能力，場所描述站區的活動、土地使用與城市生活，兩面向需並列診斷",
+    "分析步驟：分別建立節點與場所指標，再檢查兩者是否平衡及其尺度；避免用距離車站近取代站區品質判斷"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "TOD 與節點—場所模型：可檢驗的方法｜交通節點能力與站區場所活動應並列比較；靠近車站不等於站區用途已適配",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "BERTOLINI99",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "TOD 與節點—場所模型：可檢驗的方法｜TOD 將大眾運輸節點、混合用途與步行環境作為共同規劃對象；本單元只引用其規劃框架",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "CALTHORPE93",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "分別建立節點與場所指標，再檢查兩者是否平衡及其尺度；避免用距離車站近取代站區品質判斷"
+  ],
+  "applies_when_zh": "需要測量「節點描述公共運輸網路與服務能力，場所描述站區的活動、土地使用與城市生活，兩面向需並列診斷」時，按「TOD 與節點—場所模型：可檢驗的方法」列出的資料範圍建構指標，同時保存網路版本與計算參數。",
+  "not_applicable_when_zh": "若資料無法支持「節點描述公共運輸網路與服務能力，場所描述站區的活動、土地使用與城市生活，兩面向需並列診斷」的測量，這套步驟不會產生可比較的結果；方法本身也不能選定設計目標。",
+  "debates_zh": "TOD 標籤可能掩蓋土地價格、移居壓力和地方治理；提高可及性不保證公平分配；檢視「TOD 與節點—場所模型：可檢驗的方法」的測量程序時，還需判斷「分別建立節點與場所指標，再檢查兩者是否平衡及其尺度；避免用距離車站近取代站區品質判斷」會如何改變方案結論。",
+  "sources": [
+    {
+      "library_id": "BERTOLINI99",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "CALTHORPE93",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "大眾運輸導向發展",
+  "region": "跨地域理論或實務脈絡；來源地區依引用條目判讀",
+  "curriculum_refs": [
+    {
+      "school": "UCL Bartlett",
+      "course": "Sustainable Futures by Design",
+      "topic": "TOD 與節點—場所模型：課綱對應主題"
+    },
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "TOD 與節點—場所模型：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-MOB-033",
+    "KU-MOB-034",
+    "KU-MOB-035",
+    "KU-MOB-037",
+    "KU-MOB-038",
+    "KU-MOB-039",
+    "KU-MOB-040"
+  ]
+}

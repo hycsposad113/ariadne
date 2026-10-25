@@ -1,0 +1,80 @@
+{
+  "id": "KU-STR-031",
+  "domain": "STR",
+  "subtopic": "街廓大小與連結度",
+  "type": "concept",
+  "title_zh": "街廓大小與連結度：概念界線",
+  "title_en": "Block size and connectivity: Concept and scope",
+  "summary_zh": "街廓尺寸和連接關係共同影響路線選擇、繞行程度、沿街地塊與交會機會，單一平均街廓長度不足以描述網路。此處要回答的是同時看穿越路線、街廓邊界、交點密度和可通行權；高連結度也要和安全、私密及維護成本共同評估。對街廓大小與連結度而言，連結多不代表每條路都可合法或安全通行；私人通道、封閉時段和跨線設施會使幾何連接高估實際可達性；因此該概念只界定分析問題，不替不同街道和使用者預選答案。",
+  "key_points_zh": [
+    "概念界線：街廓尺寸和連接關係共同影響路線選擇、繞行程度、沿街地塊與交會機會，單一平均街廓長度不足以描述網路",
+    "概念界線：同時看穿越路線、街廓邊界、交點密度和可通行權；高連結度也要和安全、私密及維護成本共同評估"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "街廓大小與連結度：概念界線｜街道結構可以用連接與階層關係比較；不同網形的可達性與交通作用需另外計算",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "MARSHALL05",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "街廓大小與連結度：概念界線｜Mymensingh 街段比較發現，僅以組態值解釋行人量的相關性偏弱，商業土地使用提供了更強的解釋線索；摘要未列係數",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "AZIZ2018",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "用「街廓尺寸和連接關係共同影響路線選擇、繞行程度、沿街地塊與交會機會，單一平均街廓長度不足以描述網路」界定街廓大小與連結度的分析範圍，再以「同時看穿越路線、街廓邊界、交點密度和可通行權；高連結度也要和安全、私密及維護成本共同評估」說明這個界線不涵蓋什麼。"
+  ],
+  "applies_when_zh": "界定街廓大小與連結度的分析邊界時，可用「街廓尺寸和連接關係共同影響路線選擇、繞行程度、沿街地塊與交會機會，單一平均街廓長度不足以描述網路」說明本單元涵蓋的關係，再另行檢查未納入的條件。",
+  "not_applicable_when_zh": "「街廓尺寸和連接關係共同影響路線選擇、繞行程度、沿街地塊與交會機會，單一平均街廓長度不足以描述網路」不能直接轉成法規或最佳方案判斷，尤其不能忽略「連結多不代表每條路都可合法或安全通行；私人通道、封閉時段和跨線設施會使幾何連接高估實際可達性」指出的限制。",
+  "debates_zh": "連結多不代表每條路都可合法或安全通行；私人通道、封閉時段和跨線設施會使幾何連接高估實際可達性；檢視「街廓大小與連結度：概念界線」的概念界線時，還需判斷「同時看穿越路線、街廓邊界、交點密度和可通行權；高連結度也要和安全、私密及維護成本共同評估」會如何改變方案結論。",
+  "sources": [
+    {
+      "library_id": "MARSHALL05",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "AZIZ2018",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "城市路網形態",
+  "region": "跨地域理論或實務脈絡；來源地區依引用條目判讀",
+  "curriculum_refs": [
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "街廓大小與連結度：課綱對應主題"
+    },
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.330J Theory of City Form",
+      "topic": "街廓大小與連結度：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-STR-025",
+    "KU-STR-026",
+    "KU-STR-027",
+    "KU-STR-028",
+    "KU-STR-029",
+    "KU-STR-030",
+    "KU-STR-032"
+  ]
+}

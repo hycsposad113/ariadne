@@ -1,0 +1,80 @@
+{
+  "id": "KU-STR-032",
+  "domain": "STR",
+  "subtopic": "街廓大小與連結度",
+  "type": "pattern",
+  "title_zh": "街廓大小與連結度：可重用模式",
+  "title_en": "Block size and connectivity: Reusable pattern",
+  "summary_zh": "讓較大的基地被可辨識的公共穿越路徑切分，並避免把主要目的地只接到單一入口。此模式以街廓尺寸和連接關係共同影響路線選擇、繞行程度、沿街地塊與交會機會，單一平均街廓長度不足以描述網路。需要留意的代價是連結多不代表每條路都可合法或安全通行；私人通道、封閉時段和跨線設施會使幾何連接高估實際可達性。",
+  "key_points_zh": [
+    "空間模式：街廓尺寸和連接關係共同影響路線選擇、繞行程度、沿街地塊與交會機會，單一平均街廓長度不足以描述網路",
+    "空間模式：讓較大的基地被可辨識的公共穿越路徑切分，並避免把主要目的地只接到單一入口"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "街廓大小與連結度：可重用模式｜荷蘭新舊城案例將路網整合、密度與混合用途聯合診斷，初步行為資料檢驗並非通用因果模型",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "YE14",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "街廓大小與連結度：可重用模式｜波哥大的人口、工作及可及性分布不均；高平均密度可以和低收入群體的可及性不足並存",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "BOGOTA17",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "先畫出「街廓尺寸和連接關係共同影響路線選擇、繞行程度、沿街地塊與交會機會，單一平均街廓長度不足以描述網路」所描述的空間關係，再用「連結多不代表每條路都可合法或安全通行；私人通道、封閉時段和跨線設施會使幾何連接高估實際可達性」檢查它可能帶來的代價。"
+  ],
+  "applies_when_zh": "當設計需要回應「街廓尺寸和連接關係共同影響路線選擇、繞行程度、沿街地塊與交會機會，單一平均街廓長度不足以描述網路」描述的空間關係，可先把模式畫入配置，再用現地使用資料檢查。",
+  "not_applicable_when_zh": "「街廓尺寸和連接關係共同影響路線選擇、繞行程度、沿街地塊與交會機會，單一平均街廓長度不足以描述網路」不能原樣移植到缺少相同交通、界面或治理條件的場地；需先檢查「連結多不代表每條路都可合法或安全通行；私人通道、封閉時段和跨線設施會使幾何連接高估實際可達性」指出的代價。",
+  "debates_zh": "連結多不代表每條路都可合法或安全通行；私人通道、封閉時段和跨線設施會使幾何連接高估實際可達性；檢視「街廓大小與連結度：可重用模式」的模式落地時，還需判斷「讓較大的基地被可辨識的公共穿越路徑切分，並避免把主要目的地只接到單一入口」會如何改變方案結論。",
+  "sources": [
+    {
+      "library_id": "YE14",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "BOGOTA17",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "城市路網形態",
+  "region": "跨地域理論或實務脈絡；來源地區依引用條目判讀",
+  "curriculum_refs": [
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.330J Theory of City Form",
+      "topic": "街廓大小與連結度：課綱對應主題"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "街廓大小與連結度：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-STR-025",
+    "KU-STR-026",
+    "KU-STR-027",
+    "KU-STR-028",
+    "KU-STR-029",
+    "KU-STR-030",
+    "KU-STR-031"
+  ]
+}

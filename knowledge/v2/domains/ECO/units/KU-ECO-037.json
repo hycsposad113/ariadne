@@ -1,0 +1,66 @@
+{
+  "id": "KU-ECO-037",
+  "domain": "ECO",
+  "subtopic": "物種友善設計",
+  "type": "concept",
+  "title_zh": "繁殖期管理比年度平均更精細",
+  "title_en": "Seasonal management protects life cycles",
+  "summary_zh": "草地修剪時間會影響開花、結籽和地面巢位。全年統一維護容易錯過繁殖和越冬週期。生物曆會隨氣候改變。整潔期待和季節性棲地管理需要溝通。依地方物種監測調整分區修剪與暫時封閉。",
+  "key_points_zh": [
+    "草地修剪時間會影響開花、結籽和地面巢位",
+    "全年統一維護容易錯過繁殖和越冬週期"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "草地修剪時間會影響開花、結籽和地面巢位。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "澳洲",
+        "library_id": "SUSHINSKY13",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "整潔期待和季節性棲地管理需要溝通。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "依地方物種監測調整分區修剪與暫時封閉。"
+  ],
+  "applies_when_zh": "適用於低強度管理草地。",
+  "not_applicable_when_zh": "不應套用未經地方確認的固定修剪月份。",
+  "debates_zh": "整潔期待和季節性棲地管理需要溝通。",
+  "sources": [
+    {
+      "library_id": "SUSHINSKY13",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "AHERN11",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "都市擴張與保育規劃",
+  "region": "澳洲",
+  "curriculum_refs": [
+    {
+      "school": "UCL Bartlett",
+      "course": "Critical Debates in Urban Design",
+      "topic": "物種友善設計"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "物種友善設計"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-ECO-036",
+    "KU-ECO-038"
+  ]
+}

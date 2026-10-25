@@ -1,0 +1,97 @@
+{
+  "id": "KU-STR-069",
+  "domain": "STR",
+  "subtopic": "街廓大小與連結度",
+  "type": "value_range",
+  "title_zh": "緊湊街廓的平面尺度參照",
+  "title_en": "Compact block plan dimension",
+  "summary_zh": "80–120 m 是用於比較緊湊街廓的工作區間；城市歷史、地籍和地形會形成更大或更小的街廓。Marshall 的街網分類與 Conzen／Caniggia 的形態分析可以協助讀懂尺寸差異，但此數值本身仍待逐條核查。此處的緊湊都市街廓邊長比較範圍是附來源的比較參照，不是本基地法規。",
+  "key_points_zh": [
+    "把街廓長度與交叉口距離、地塊深度及可穿越性分開記錄。",
+    "該範圍是案例比較參照，不是小街廓的法定上限。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "此區間作為形態比較範圍，需回到 Marshall 的分類及具體案例交叉核對。",
+        "library_id": "MARSHALL05",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": "80–120 m",
+        "study_design": "街網形態比較；案例尺寸待核對",
+        "context_region": "英國規劃形態研究",
+        "locator": null,
+        "limitations_zh": " 查核：80–120 m 街廓尺寸不是 Marshall（2005）的明確數值；Siksna（1997）的街廓研究較直接，待補入圖書館。"
+      },
+      {
+        "claim_zh": "Conzen 與 Caniggia 的形態學方法要求依地塊、街道與建築層次解讀歷史形態。",
+        "library_id": "CONZEN60",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "城鎮平面形態學",
+        "context_region": "英國 Alnwick 案例",
+        "locator": null
+      },
+      {
+        "claim_zh": "街廓大小和路線連接共同影響網路使用；一個平均長度不充分。",
+        "library_id": "CANIGGIA",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "建築與街廓型態學",
+        "context_region": "義大利形態學",
+        "locator": null
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "緊湊都市街廓邊長比較範圍",
+      "range": "80–120 m",
+      "unit": "公尺",
+      "context": "歐洲城市形態與街網比較中的緊湊街廓案例；用途：比較街廓尺度、步行繞行與地塊界面；不代表所有歷史街廓都有此尺寸。；「緊湊都市街廓邊長比較範圍」僅供來源脈絡內的比較，不是本基地法規、M4H 門檻或通用配額。",
+      "library_id": "MARSHALL05"
+    }
+  ],
+  "design_implications_zh": [
+    "畫出 80–120 m 尺度的候選街廓時，並列路徑直接度、地塊面寬和可穿越入口數。"
+  ],
+  "applies_when_zh": "做緊湊街廓的形態草圖時，把所選尺度和歷史案例、地塊深度及通行口一併核查。",
+  "not_applicable_when_zh": "若地形、鐵路、產業地塊或既有地籍形成大尺度邊界，不能單憑區間判定形態不合格。",
+  "debates_zh": "同一個街廓長度可能對應不同的交叉口密度、地塊細度和步行繞行；比較時需看整個網路。",
+  "sources": [
+    {
+      "library_id": "MARSHALL05",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "CONZEN60",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "CANIGGIA",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "城鎮形態學與街道形態",
+  "region": "歐洲城市形態與街網比較中的緊湊街廓案例",
+  "curriculum_refs": [
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "街廓大小與連結度：課綱對應主題"
+    },
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.330J Theory of City Form",
+      "topic": "街廓大小與連結度：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-STR-027"
+  ]
+}

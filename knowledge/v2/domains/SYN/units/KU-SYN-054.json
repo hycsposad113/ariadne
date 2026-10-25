@@ -1,0 +1,80 @@
+{
+  "id": "KU-SYN-054",
+  "domain": "SYN",
+  "subtopic": "Place Syntax",
+  "type": "typology",
+  "title_zh": "Place Syntax：型態比較",
+  "title_en": "Place Syntax: Typology comparison",
+  "summary_zh": "最近距離、累積機會和重力式可及性回答不同問題；目的地權重和閾值需公開。類型比較要回到Place Syntax 類方法把空間組態與目的地或活動機會聯結，讓路網可達關係與場所吸引條件一起診斷。各類型的成本和適用條件包括：本次 API 未找到指定 Place Syntax 工具候選書目；此單元只涵蓋經核對的目的地敏感型可及性整合思想。",
+  "key_points_zh": [
+    "比較類型：Place Syntax 類方法把空間組態與目的地或活動機會聯結，讓路網可達關係與場所吸引條件一起診斷",
+    "比較類型：最近距離、累積機會和重力式可及性回答不同問題；目的地權重和閾值需公開"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "Place Syntax：型態比較｜荷蘭新舊城案例將路網整合、密度與混合用途聯合診斷，初步行為資料檢驗並非通用因果模型",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "YE14",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "Place Syntax：型態比較｜巴西都市形態研究跨越地理、建築與都市學傳統；不宜假定歐洲分類可原樣套用",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "BRAZIL14",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "類型表應比較「Place Syntax 類方法把空間組態與目的地或活動機會聯結，讓路網可達關係與場所吸引條件一起診斷」及其使用代價「本次 API 未找到指定 Place Syntax 工具候選書目；此單元只涵蓋經核對的目的地敏感型可及性整合思想」，不要只列名稱。"
+  ],
+  "applies_when_zh": "比較Place Syntax方案時，可先用「Place Syntax 類方法把空間組態與目的地或活動機會聯結，讓路網可達關係與場所吸引條件一起診斷」描述各類型，再按「本次 API 未找到指定 Place Syntax 工具候選書目；此單元只涵蓋經核對的目的地敏感型可及性整合思想」檢查分類的盲點。",
+  "not_applicable_when_zh": "這些類型不構成普遍排序；遇到「本次 API 未找到指定 Place Syntax 工具候選書目；此單元只涵蓋經核對的目的地敏感型可及性整合思想」所述條件時，不應只依類名決定路網或街道配置。",
+  "debates_zh": "本次 API 未找到指定 Place Syntax 工具候選書目；此單元只涵蓋經核對的目的地敏感型可及性整合思想；檢視「Place Syntax：型態比較」的分類邊界時，還需判斷「最近距離、累積機會和重力式可及性回答不同問題；目的地權重和閾值需公開」會如何改變方案結論。",
+  "sources": [
+    {
+      "library_id": "YE14",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "BRAZIL14",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "目的地可及性與空間組態整合",
+  "region": "跨地域理論或實務脈絡；來源地區依引用條目判讀",
+  "curriculum_refs": [
+    {
+      "school": "UCL Bartlett",
+      "course": "Critical Debates in Urban Design",
+      "topic": "Place Syntax：課綱對應主題"
+    },
+    {
+      "school": "TU Delft",
+      "course": "Methods of Analysis & Imagination",
+      "topic": "Place Syntax：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-SYN-049",
+    "KU-SYN-050",
+    "KU-SYN-051",
+    "KU-SYN-052",
+    "KU-SYN-053",
+    "KU-SYN-055",
+    "KU-SYN-056"
+  ]
+}

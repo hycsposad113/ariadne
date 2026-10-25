@@ -1,0 +1,74 @@
+{
+  "id": "KU-CLI-014",
+  "domain": "CLI",
+  "subtopic": "街谷高寬比（H/W）",
+  "type": "method",
+  "title_zh": "街谷熱比較需固定幾何與方位參數",
+  "title_en": "方位會改變相同街谷幾何的熱暴露",
+  "summary_zh": "街谷熱舒適模型比較需要把 H/W、方位、材料、氣象邊界和舒適指標列為輸入。Ali-Toudert 與 Mayer 的數值研究以及 Johansson 在 Fez 的個案研究，從題名可確認它們分別討論高寬比／方位和都市幾何／熱舒適，但本庫尚未核對到足以判斷效應大小的摘要結果。方法上應固定除目標變數外的條件、報告各情境輸出和適用限制，不把研究題名當作性能結論。",
+  "key_points_zh": [
+    "研究設計為熱乾地區街谷數值模擬。",
+    "結果方向指出比例與方位的交互作用會改變熱環境。"
+  ],
+  "evidence": {
+    "strength": "CASE_EVIDENCE",
+    "findings": [
+      {
+        "library_id": "ALITOUDERT2006",
+        "claim_zh": "書目確認文章以數值研究考察街谷高寬比與朝向；未取得摘要中的參數範圍，故不產生可直接套用的 H/W 數值；本單元 KU-CLI-014 對照「街谷熱舒適模型比較需要把 H/W、方位、材料、氣象邊界和舒適指標列為輸入」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "數值研究",
+        "context_region": "炎熱乾燥氣候",
+        "locator": null
+      },
+      {
+        "library_id": "JOHANSSON2006",
+        "claim_zh": "題名確認研究以 Fez 炎熱乾燥氣候檢視都市幾何與戶外熱舒適；結果方向及數值尚未從摘要核對；本單元 KU-CLI-014 對照「Ali-Toudert 與 Mayer 以數值模型在炎熱乾燥氣候比較街谷比例和方位對戶外熱舒適的影響」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": "KU-CLI-014 的效應量仍以其原列研究結果為準；JOHANSSON2006 僅提供相鄰主題脈絡，未作量值來源。",
+        "study_design": "個案研究",
+        "context_region": "Fez, Morocco",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "幾何參數之外，同步固定或記錄街道方位、材料、氣象邊界和舒適指標。",
+    "若來源只完成書目核對，就不由題名推定冷卻幅度或最適街谷比例。"
+  ],
+  "applies_when_zh": "適用於街谷方位和截面方案比較。",
+  "not_applicable_when_zh": "沒有模型輸入、邊界條件或校核資料時，不以單一 H/W 值推定熱舒適。",
+  "debates_zh": "模型情境不等同現地實測，外推至海洋性氣候需重新驗證。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "ALITOUDERT2006",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "JOHANSSON2006",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "街谷微氣候實證與模擬",
+  "region": "熱乾氣候；Fez, Morocco",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "街谷高寬比（H/W）"
+    },
+    {
+      "school": "MIT",
+      "course": "Theory of City Form",
+      "topic": "街谷高寬比（H/W）"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0"
+}

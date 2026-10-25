@@ -1,0 +1,42 @@
+{
+  "id": "LI2025HISTORIC",
+  "title": "Proposing the Adaptive Reuse Strategy of Historic Foreign Firm Buildings Through Multiple Attribute Decision-making",
+  "authors": [
+    "Hao-Yang Li"
+  ],
+  "year": 2025,
+  "venue_or_publisher": "Design Decision Analytics",
+  "doi": "https://doi.org/10.67021/kldt7290",
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "遺產再利用多準則決策",
+  "region": "中國哈爾濱中央大街歷史文化街區",
+  "method": "案例分析、文獻回顧與模糊德爾菲法",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "摘要描述以哈爾濱中央大街歷史外商建築為案例，結合案例分析與模糊德爾菲法建構多屬性再利用策略；屬單一街區框架，不能直接視為跨城驗證。",
+      "strength": "MIXED",
+      "scope_zh": "此書目僅支持記錄中的研究對象、地區與方法；不可推作M4H法規、通用數值或跨城因果結論。",
+      "assessment_basis": "ABSTRACT_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref",
+    "query": {
+      "title": "Proposing the Adaptive Reuse Strategy of Historic Foreign Firm Buildings Through Multiple Attribute Decision-making",
+      "author": "Li",
+      "year": 2025,
+      "api_query": "Crossref GET works?query.title=Proposing the Adaptive Reuse Strategy of Historic Foreign Firm Buildings Through Multiple Attribute Decision-making"
+    },
+    "matched_record_id": "10.67021/kldt7290",
+    "checked_at_utc": "2026-10-08T10:52:30Z",
+    "match_notes_zh": "公開Crossref書目欄位已核對題名、作者及出版年；摘要僅在assessment_basis為ABSTRACT_REVIEW時用於核對，未存入repo。"
+  },
+  "limitations_zh": "未取得全文；只有標示ABSTRACT_REVIEW的內容依公開摘要核對，其餘僅依書目範圍描述。",
+  "critique_relationship_zh": "本筆不宣稱與其他來源存在直接互引或逐一反駁關係。",
+  "metadata_licence_zh": "Crossref公開書目欄位；精確metadata授權未核驗，標UNKNOWN。"
+}

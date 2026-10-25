@@ -1,0 +1,80 @@
+{
+  "id": "KU-SYN-042",
+  "domain": "SYN",
+  "subtopic": "批評（Ratti）與回應",
+  "type": "design_principle",
+  "title_zh": "批評（Ratti）與回應：設計原則與取捨",
+  "title_en": "Ratti critique and response: Design principle and trade-off",
+  "summary_zh": "把批評、回應和替代網路分析並讀，將爭點轉為可測試的圖表示、尺度和距離敏感度。關鍵取捨是理論內部修正、外部方法比較和資料驗證是不同回應方式，不必選擇接受或全盤否定。執行前應按實際速度、目的地、行程和使用者能力檢查：逐項列出圖表示、幾何、尺度和結果可重現性，再以同一網路跑替代方法。",
+  "key_points_zh": [
+    "操作原則：Ratti 對空間語法表示和幾何處理提出方法批評，Hillier 與 Penn 的回應則捍衛其模型意圖與適用範圍",
+    "操作原則：把批評、回應和替代網路分析並讀，將爭點轉為可測試的圖表示、尺度和距離敏感度"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "批評（Ratti）與回應：設計原則與取捨｜將空間語法表示法與幾何資訊的限制列為方法審查問題；應與作者回應和替代圖方法並讀",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "RATTI04",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "批評（Ratti）與回應：設計原則與取捨｜空間網路同時受連接與幾何成本影響，應保留圖表示與尺度的敏感性比較",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "BARTHELEMY11",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "把批評、回應和替代網路分析並讀，將爭點轉為可測試的圖表示、尺度和距離敏感度"
+  ],
+  "applies_when_zh": "在批評（Ratti）與回應的方案比較中，可用「Ratti 對空間語法表示和幾何處理提出方法批評，Hillier 與 Penn 的回應則捍衛其模型意圖與適用範圍」整理空間配置取捨，並註明採用的服務與使用者目標。",
+  "not_applicable_when_zh": "「Ratti 對空間語法表示和幾何處理提出方法批評，Hillier 與 Penn 的回應則捍衛其模型意圖與適用範圍」不能直接轉成法規或最佳方案判斷，尤其不能忽略「論文標題中的論戰不構成任何一方勝出證據；方法有效性須在具體資料和目標下檢查」指出的限制。",
+  "debates_zh": "論文標題中的論戰不構成任何一方勝出證據；方法有效性須在具體資料和目標下檢查；檢視「批評（Ratti）與回應：設計原則與取捨」的方案取捨時，還需判斷「把批評、回應和替代網路分析並讀，將爭點轉為可測試的圖表示、尺度和距離敏感度」會如何改變方案結論。",
+  "sources": [
+    {
+      "library_id": "RATTI04",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "BARTHELEMY11",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "空間語法方法論辯論",
+  "region": "跨地域理論或實務脈絡；來源地區依引用條目判讀",
+  "curriculum_refs": [
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.330J Theory of City Form",
+      "topic": "批評（Ratti）與回應：課綱對應主題"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Critical Debates in Urban Design",
+      "topic": "批評（Ratti）與回應：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-SYN-041",
+    "KU-SYN-043",
+    "KU-SYN-044",
+    "KU-SYN-045",
+    "KU-SYN-046",
+    "KU-SYN-047",
+    "KU-SYN-048"
+  ]
+}

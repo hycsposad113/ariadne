@@ -1,0 +1,98 @@
+{
+  "id": "KU-ARC-045",
+  "domain": "ARC",
+  "subtopic": "樓層高度",
+  "type": "value_range",
+  "title_zh": "辦公工作面的室內淨高",
+  "title_en": "office clear height",
+  "summary_zh": "辦公工作區可用約 2.7–3.0 m 淨高檢查桌面照明、空調與視覺尺度。 開放天花方案會改變吸音和設備整合方式。 平均淨高不能遮蔽局部梁下過低的工作路徑。 圖面應把走道、會議區與固定工作面分別量測。",
+  "key_points_zh": [
+    "核心主張：辦公工作區可用約 2.7–3.0 m 淨高檢查桌面照明、空調與視覺尺度。",
+    "量測檢查：抽取代表性跨距做剖面，標註固定工作面上方的最低淨空。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "辦公工作區可用約 2.7–3.0 m 淨高檢查桌面照明、空調與視覺尺度。",
+        "effect_or_value": "約 2.7–3.0 m 作早期設計帶",
+        "study_design": "跨地域設計參照綜整；數值狀態依 claim_verification 註記",
+        "context_region": "跨地域；用途與當地法規需分開核驗",
+        "library_id": "ARCH_STUDIO11",
+        "locator": null,
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008"
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "office occupied-zone clear height",
+      "range": "約 2.7–3.0 m 作早期設計帶",
+      "unit": "m",
+      "context": "地區：跨地域；用途：一般辦公工作區初期佈局，不是職安或法規結論；出處：The Architect’s Studio Companion；本基地法規：否；核對狀態：數值待原典交叉核對。",
+      "library_id": "ARCH_STUDIO11"
+    }
+  ],
+  "design_implications_zh": [
+    "在典型工作區剖面量取梁下、燈具下及吊頂下淨高，並記錄最低點。"
+  ],
+  "applies_when_zh": "「辦公工作面的室內淨高」可在用於方案前期的量體、平面或空間品質篩檢時使用，前提是辦公工作區可用約 2.7–3.0 m 淨高檢查桌面照明、空調與視覺尺度與來源情境相符。",
+  "not_applicable_when_zh": "若辦公工作區可用約 2.7–3.0 m 淨高檢查桌面照明、空調與視覺尺度不成立，就不能把「辦公工作面的室內淨高」的結論延伸到其他情況；不得單獨作為許可、消防、結構或基地法規判定。",
+  "debates_zh": "不同辦公室的空調方式、照明密度與聲學條件會令相同淨高有不同表現。",
+  "sources": [
+    {
+      "library_id": "ARCH_STUDIO11",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "LI2021",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+  "tradition": "建築設計與住宅類型學",
+  "region": "跨地域；用途與當地法規需分開核驗",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Housing and the City / Design of the Urban Fabric",
+      "topic": "建築尺度與住宅平面"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "建築尺度與街道界面"
+    },
+    {
+      "school": "MIT",
+      "course": "Architecture and Urban Design",
+      "topic": "建築尺度與空間型態"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "建築尺度與公共生活"
+    }
+  ],
+  "check": {
+    "method_zh": "抽取代表性跨距做剖面，標註固定工作面上方的最低淨空。",
+    "inputs": [
+      "樓層高度",
+      "尺寸／面積圖層",
+      "適用地區與用途標籤"
+    ],
+    "logic_zh": "將量測輸入轉成明確尺寸、比例或空間關係；越界只觸發複核，不自動取代設計決策。",
+    "limitations_zh": "量測結果只觸發「辦公工作面的室內淨高」的複核，不得單獨作為許可或法規判定。"
+  },
+  "version": "kb2-arc-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-ARC-042",
+    "KU-ARC-043",
+    "KU-ARC-044",
+    "KU-ARC-046",
+    "KU-ARC-047"
+  ]
+}

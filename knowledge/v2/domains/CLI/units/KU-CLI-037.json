@@ -1,0 +1,74 @@
+{
+  "id": "KU-CLI-037",
+  "domain": "CLI",
+  "subtopic": "材料與反照率",
+  "type": "design_principle",
+  "title_zh": "材料選擇要同時看反射、蓄熱和夜間釋熱",
+  "title_en": "材料選擇要同時看反射、蓄熱和夜間釋熱",
+  "summary_zh": "城市表面不只反射短波，也會儲存熱量並在夜間釋出。都市氣候研究將能量交換連到街谷幾何，熱舒適研究則顯示人體對長短波和空氣條件都敏感。比較材料時應放到完整日夜循環中檢查。",
+  "key_points_zh": [
+    "白天反射率高不保證夜間散熱快。",
+    "材料熱容量和熱傳導會改變表面升降溫速度。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "library_id": "KRAYENHOFF2021",
+        "claim_zh": "摘要指出 1987–2017 年的 146 篇物理數值研究對降溫量有顯著差異；樹木多用微尺度模擬，反照屋頂多用中尺度，尺度選擇限制策略比較；本單元 KU-CLI-037 對照「城市表面不只反射短波，也會儲存熱量並在夜間釋出」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "ABSTRACT_REVIEW",
+        "effect_or_value": null,
+        "study_design": "系統性與批判性回顧 146 篇模擬研究",
+        "context_region": "跨地域數值模擬研究",
+        "locator": null
+      },
+      {
+        "library_id": "MILLS2014",
+        "claim_zh": "書目確認本文題名聚焦「Urban climatology: History, status and prospects」；目前只完成作者、年份、題名與 DOI 核對，未將摘要或全文結論納入此記錄；本單元 KU-CLI-037 對照「城市表面不只反射短波，也會儲存熱量並在夜間釋出」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "文獻回顧；目前僅核對書目範圍",
+        "context_region": "跨地域",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "用日夜溫度序列評估鋪面和屋面。",
+    "避免在高行人暴露區只按單一反射性能排序。"
+  ],
+  "applies_when_zh": "適用於硬鋪面、屋頂和立面材料選擇。",
+  "not_applicable_when_zh": "不適用於沒有場址微氣候資料時確定最佳材料。",
+  "debates_zh": "不同街區的遮蔭和通風條件可能大於材料本身造成的差異。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "KRAYENHOFF2021",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "MILLS2014",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "城市材料熱物理與舒適",
+  "region": "跨地域都市；都市公共空間",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "材料與反照率"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": null,
+      "topic": "材料與反照率"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0"
+}

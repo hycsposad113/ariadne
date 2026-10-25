@@ -1,0 +1,81 @@
+{
+  "id": "KU-STR-057",
+  "domain": "STR",
+  "subtopic": "路網形態（格子、放射、有機）",
+  "type": "empirical_finding",
+  "title_zh": "規劃型與自組織網路的中心性差異",
+  "title_en": "Centrality distributions in planned and self-organized cities",
+  "summary_zh": "以交點和街段建立 primal 圖，對多種中心性指標進行城市街網比較，研究脈絡為跨城市比較；摘要未列出全部城市名稱。城市網形不宜只用單一理論網格描述。不同中心性指標能辨識城市結構骨架，且自組織與規劃型城市的中心性分布不同。限制包括摘要未給出各城市樣本、指標效果量或土地使用控制。",
+  "key_points_zh": [
+    "城市網形不宜只用單一理論網格描述",
+    "限制：摘要未給出各城市樣本、指標效果量或土地使用控制",
+    "效果或方向：不同中心性指標能辨識城市結構骨架，且自組織與規劃型城市的中心性分布不同"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "規劃型與自組織網路的中心性差異｜城市網形不宜只用單一理論網格描述",
+        "effect_or_value": "不同中心性指標能辨識城市結構骨架，且自組織與規劃型城市的中心性分布不同",
+        "study_design": "以交點和街段建立 primal 圖，對多種中心性指標進行城市街網比較",
+        "context_region": "跨城市比較；摘要未列出全部城市名稱",
+        "library_id": "PORTA06",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "規劃型與自組織網路的中心性差異｜城市路網組態與行人通行分布存在關聯，吸引用途可能放大通行；這不提供本基地的人數或因果保證",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "HILLIER93",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "用多種網路結構指標比較網形，另以地方歷史和用途解讀"
+  ],
+  "applies_when_zh": "若本地觀察單位與跨城市比較；摘要未列出全部城市名稱的研究脈絡可對照，可用「城市網形不宜只用單一理論網格描述」作為路網形態（格子、放射、有機）的比較線索。",
+  "not_applicable_when_zh": "這項跨城市比較；摘要未列出全部城市名稱的研究結果不能單獨證明因果或預測其他城市的街段；原研究摘要未給出各城市樣本、指標效果量或土地使用控制。",
+  "debates_zh": "關聯能否外推；摘要未給出各城市樣本、指標效果量或土地使用控制；檢視「規劃型與自組織網路的中心性差異」的研究解讀時，還需判斷「限制：摘要未給出各城市樣本、指標效果量或土地使用控制」會如何改變方案結論。",
+  "sources": [
+    {
+      "library_id": "PORTA06",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "HILLIER93",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "城市路網與空間組態",
+  "region": "跨城市比較；摘要未列出全部城市名稱",
+  "curriculum_refs": [
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "路網形態（格子、放射、有機）：課綱對應主題"
+    },
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "路網形態（格子、放射、有機）：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-STR-058",
+    "KU-STR-059",
+    "KU-STR-060",
+    "KU-STR-061",
+    "KU-STR-062",
+    "KU-STR-063",
+    "KU-STR-064"
+  ]
+}

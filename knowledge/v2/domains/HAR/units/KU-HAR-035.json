@@ -1,0 +1,74 @@
+{
+  "id": "KU-HAR-035",
+  "type": "value_range",
+  "subtopic": "港區轉型案例",
+  "title_zh": "Nordhavn 的居民容量是分期發展中的市府目標",
+  "title_en": "Nordhavn Population Capacity Is a Municipal Development Target",
+  "summary_zh": "哥本哈根市府的城市計畫把約 40,000 名新增居民作為 Nordhavn 漸進開發的容量目標。這個數字是長期規劃尺度的預期，不是現況人口，也沒有單獨揭示每一期的住宅交付時間。人口目標應和公共運輸、學校、濱水公園等基礎設施的分期承諾一起閱讀。",
+  "values": [
+    {
+      "name": "市府所述Nordhavn新增居民容量",
+      "range": "約40,000",
+      "unit": "人",
+      "context": "用途：以「市府所述Nordhavn新增居民容量」作為來源情境參照；哥本哈根市府長期開發預期，並非目前人口或核准戶數；不是本基地法規。",
+      "library_id": "COPENHAGEN_PLAN2024"
+    }
+  ],
+  "key_points_zh": [
+    "容量目標不等於建成後實際人口。",
+    "將人口承載和公共服務落成時序同步檢查。"
+  ],
+  "design_implications_zh": [
+    "設定每一期公共設施啟用前的住宅交付上限與追蹤資料。"
+  ],
+  "applies_when_zh": "檢視大型港區開發容量與設施供給承諾時。",
+  "not_applicable_when_zh": "評估實際人口密度、居住負擔或居民結構時。",
+  "debates_zh": "容量預測可能依賴市場和政策條件；只公布總量容易忽略公共服務是否跟得上。",
+  "sources": [
+    {
+      "library_id": "COPENHAGEN_PLAN2024",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "PESTOVA2022",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "tradition": "北歐緊湊城市規劃",
+  "region": "丹麥哥本哈根",
+  "curriculum_refs": [
+    {
+      "school": "Harvard GSD",
+      "course": null,
+      "topic": "Urban growth, infrastructure and phasing"
+    }
+  ],
+  "domain": "HAR",
+  "evidence": {
+    "strength": "CASE_EVIDENCE",
+    "findings": [
+      {
+        "claim_zh": "哥本哈根市府計畫頁記載Nordhavn隨發展可容納約40,000名新居民。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "丹麥哥本哈根",
+        "library_id": "COPENHAGEN_PLAN2024",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "學術會議論文討論哥本哈根永續都市發展個案，提供目標與城市尺度發展的學術脈絡。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "丹麥哥本哈根",
+        "library_id": "PESTOVA2022",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "source_count_flag": "MULTI_SOURCE",
+  "version": "v2.0"
+}

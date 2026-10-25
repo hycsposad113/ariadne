@@ -1,0 +1,26 @@
+.fabric-compare{box-sizing:border-box;width:100%;min-width:0;padding:12px;background:var(--bg-surface);border-bottom:1px solid var(--border-subtle);color:var(--text-main);font-size:12px}.fabric-compare *{box-sizing:border-box}.fabric-compare header h2{font-size:16px;margin:0}.fabric-compare header p{color:var(--accent-amber);margin:6px 0 12px}.fabric-switches{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:10px}.fabric-switches button{background:var(--bg-app);border:1px solid var(--border-subtle);padding:7px;color:var(--text-main);cursor:pointer}.fabric-switches button[aria-pressed=true]{border-color:var(--accent-cyan);background:#193047}.fabric-layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(210px,280px);gap:12px}.fabric-layout>div{min-width:0}.fabric-maps{display:grid;grid-template-columns:minmax(0,1fr);gap:8px}.fabric-maps.is-parallel{grid-template-columns:repeat(2,minmax(0,1fr))}.fabric-maps figure{min-width:0;margin:0}.fabric-maps figcaption{padding:5px;font-weight:600}.fabric-map-wrap{position:relative;min-width:0;background:#0b0f17}.fabric-map{width:100%;min-height:120px}.fabric-map-wrap>p{position:absolute;top:10px;left:10px;right:10px;color:#e5e7eb;background:#111827;padding:10px}.fabric-details{min-width:0;max-height:520px;overflow:auto;overflow-wrap:anywhere;padding:0 8px}.fabric-details h3{font-size:13px;margin:12px 0 6px}.fabric-details dl{margin:0}.fabric-details dl>div{display:flex;justify-content:space-between;gap:8px;border-bottom:1px solid var(--border-subtle);padding:4px 0}.fabric-details dd{margin:0;white-space:normal}.fabric-details ul{padding-left:18px}.fabric-statement p{white-space:pre-wrap}.fabric-legend{font-size:11px;color:var(--text-muted)}.compare-existing{display:flex;flex:1;min-height:420px;min-width:0}.compare-workspace:has(.fabric-compare){display:flex;flex-direction:column;overflow:auto}.fabric-syntax dt{max-width:75%}@media(max-width:850px){.fabric-layout{grid-template-columns:minmax(0,1fr)}.fabric-details{max-height:300px}}@media(max-width:520px){.fabric-maps.is-parallel{grid-template-columns:minmax(0,1fr)}}
+
+.fabric-land-legend{display:flex;gap:8px;flex-wrap:wrap;padding:8px 0;font-size:11px}.fabric-land-legend span{display:inline-flex;align-items:center;gap:4px}.fabric-land-legend i{display:inline-block;width:12px;height:12px;border:1px solid #888}
+
+.fabric-land-table{width:100%;border-collapse:collapse;font-size:11px}.fabric-land-table th,.fabric-land-table td{padding:5px 3px;border-bottom:1px solid var(--border-subtle);text-align:right}.fabric-land-table th:first-child,.fabric-land-table td:first-child{text-align:left}.fabric-statement summary{cursor:pointer;padding:6px 0;color:var(--accent-cyan)}
+
+/* Keep the original morphology workspace separate from exploratory fabrics. */
+.compare-existing[hidden],.compare-workspace>[hidden]{display:none}
+.compare-workspace-switch{padding:8px;margin:0;border-bottom:1px solid var(--border-subtle)}
+.fabric-viewport{display:flex;flex-direction:column;min-height:320px;height:clamp(320px,60vh,740px);background:#0b0f17;position:relative}
+/* The fabric scroller is a size container: the selected map plus its legend fits below the plan
+   switches inside the visible scroll area instead of overflowing it and cropping the site. */
+.compare-workspace:has(.fabric-compare),.shell-view-content>.fabric-compare{container-type:size}
+@container (min-height:1px){.fabric-viewport{height:clamp(320px,calc(100cqh - 240px),740px)}}
+.fabric-viewport-panes{display:flex;flex:1;min-height:0}
+.fabric-viewport-pane{position:relative;flex:1;min-width:0;min-height:0;overflow:hidden}
+.fabric-viewport-pane>*{height:100%}
+.fabric-map-legend{display:flex;flex-wrap:wrap;gap:8px;padding:8px;background:#0b0f17;color:#e5e7eb;font-size:11px}
+.fabric-map-legend span{display:inline-flex;align-items:center;gap:4px}
+.fabric-map-legend i{display:inline-block;width:12px;height:12px}
+
+/* Give the shared Site viewport the full workspace width; detailed evidence follows it. */
+.fabric-layout{grid-template-columns:minmax(0,1fr)}
+.fabric-details{border-top:1px solid var(--border-subtle);padding:8px;max-height:520px}
+
+.shell-view-content>.fabric-compare{height:100%;overflow:auto}

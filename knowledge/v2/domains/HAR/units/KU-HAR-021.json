@@ -1,0 +1,66 @@
+{
+  "id": "KU-HAR-021",
+  "domain": "HAR",
+  "subtopic": "港城介面",
+  "type": "concept",
+  "title_zh": "港口與腹地關係須跨尺度觀察",
+  "title_en": "Port-Hinterland Relations Require Multi-Scale Observation",
+  "summary_zh": "港口的城市效應不只出現在碼頭邊界；貨物流、集疏運走廊和企業網絡會把影響帶到腹地。Ducruet 的港口演化研究以港口關係和區域競爭為分析尺度，Hesse 則把物質流放回城市間的互動地理。兩者支持跨尺度盤點，但沒有提供可套用於所有港區的固定腹地半徑。",
+  "key_points_zh": [
+    "先分辨港口節點、物流走廊和接收產業，再畫轉型範圍。",
+    "對貨運量或就業的敘述須標示資料年份與空間口徑。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "港口演化與區域競爭研究將港口關係放在區域尺度討論。",
+        "effect_or_value": "提供區域尺度分析觀點，不提供通用腹地半徑",
+        "study_design": "港口演化與區域競爭的理論研究",
+        "context_region": "歐洲與跨城市",
+        "library_id": "DUCRUET2006",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "都市物質流與空間互動研究指出城市位置和供應鏈連結需共同分析。",
+        "effect_or_value": "指出城市需放回供應鏈地理理解，沒有固定半徑估值",
+        "study_design": "都市物質流與空間互動的理論研究",
+        "context_region": "歐洲與跨城市",
+        "library_id": "HESSE2010",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "先分辨港口節點、物流走廊和接收產業，再畫轉型範圍。",
+    "對貨運量或就業的敘述須標示資料年份與空間口徑。"
+  ],
+  "applies_when_zh": "需要比較港區轉型如何影響工作、貨運或區域連結時。",
+  "not_applicable_when_zh": "只有基地紅線或規劃願景、缺少物流資料時，不可推估腹地影響。",
+  "debates_zh": "宏觀網絡研究容易淡化鄰里實際負擔；地方分析也可能忽略供應鏈外移。",
+  "sources": [
+    {
+      "library_id": "DUCRUET2006",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "HESSE2010",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "港口地理／都市物質流",
+  "region": "歐洲與跨城市",
+  "curriculum_refs": [
+    {
+      "school": "MIT",
+      "course": null,
+      "topic": "Port geography and urban material flows"
+    }
+  ],
+  "version": "v2.0"
+}

@@ -1,0 +1,66 @@
+{
+  "id": "KU-PUB-019",
+  "domain": "PUB",
+  "subtopic": "座位與停留",
+  "type": "empirical_finding",
+  "title_zh": "公園設施與活動使用的關係",
+  "title_en": "Park features and activity use",
+  "summary_zh": "美國研究檢視三十三座公園、二十八種設施特徵及三百八十位居民的活動日誌。多種設施與較多活動使用相關，其中步道呈現較強關聯；面積與距離在該分析中不顯著。居民日誌和單一地區的公園樣本限制了因果判斷與外推。使用者選擇與設施供給互相影響，橫斷面資料難以釐清先後。",
+  "key_points_zh": [
+    "美國研究檢視三十三座公園、二十八種設施特徵及三百八十位居民的活動日誌",
+    "多種設施與較多活動使用相關，其中步道呈現較強關聯；面積與距離在該分析中不顯著"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "美國研究檢視三十三座公園、二十八種設施特徵及三百八十位居民的活動日誌。",
+        "effect_or_value": "設施特徵與活動使用呈關聯，步道較強；面積、距離於該樣本未達顯著。",
+        "study_design": "公園稽核、居民活動日誌與邏輯斯迴歸",
+        "context_region": "美國 33 座鄰里公園與 380 位居民",
+        "library_id": "KACZYNSKI08",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW",
+        "limitations_zh": "研究範圍有限，日誌自陳與公園自選可能影響估計。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "把座椅、步道、遊具和活動場地當成可分別觀察的使用條件，而非用公園總面積代替。"
+  ],
+  "applies_when_zh": "適用於社區公園的設施組合檢視。",
+  "not_applicable_when_zh": "不能據此宣稱新增任何一項設施必然提高運動量。",
+  "debates_zh": "使用者選擇與設施供給互相影響，橫斷面資料難以釐清先後。",
+  "sources": [
+    {
+      "library_id": "KACZYNSKI08",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "FORSYTH15",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "公園使用與健康地理",
+  "region": "美國 33 座鄰里公園與 380 位居民",
+  "curriculum_refs": [
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "座位與停留"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Critical Debates in Urban Design",
+      "topic": "座位與停留"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-PUB-018",
+    "KU-PUB-020"
+  ]
+}

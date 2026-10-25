@@ -1,0 +1,61 @@
+{
+  "id": "KU-PUB-036",
+  "domain": "PUB",
+  "subtopic": "安全：CPTED 與批評",
+  "type": "critique",
+  "title_zh": "可見性不等於安全結果",
+  "title_en": "Visibility is not a safety outcome",
+  "summary_zh": "照明和視線讓某些行為更容易被看見。安全判斷仍須區分受害經驗、主觀不安、求助管道和警務介入。監控可能把特定群體標成可疑，尤其在權力不對等的空間。安全措施也可能產生新的權利風險。",
+  "key_points_zh": [
+    "照明和視線讓某些行為更容易被看見",
+    "安全判斷仍須區分受害經驗、主觀不安、求助管道和警務介入"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "照明和視線讓某些行為更容易被看見。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "全球南方",
+        "library_id": "ROY05",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "安全措施也可能產生新的權利風險。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "把不同性別、年齡和身份使用者的安全感調查與事件資料分開呈現。"
+  ],
+  "applies_when_zh": "適用於涉及夜間安全或監控設備的方案審議。",
+  "not_applicable_when_zh": "不適用於將 CCTV 數量作安全成效指標。",
+  "debates_zh": "安全措施也可能產生新的權利風險。",
+  "sources": [
+    {
+      "library_id": "ROY05",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "WATSON09",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "非正式都市化",
+  "region": "全球南方",
+  "curriculum_refs": [
+    {
+      "school": "MIT",
+      "course": "11.330J Theory of City Form",
+      "topic": "安全：CPTED 與批評"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-PUB-035",
+    "KU-PUB-037"
+  ]
+}

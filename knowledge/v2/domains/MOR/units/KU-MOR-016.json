@@ -1,0 +1,107 @@
+{
+  "id": "KU-MOR-016",
+  "domain": "MOR",
+  "subtopic": "Muratori／Caniggia 類型過程",
+  "type": "concept",
+  "title_zh": "Muratori／Caniggia 類型過程｜概念邊界",
+  "title_en": "Typological process — Conceptual boundaries",
+  "summary_zh": "類型過程把建築看作在既有街道、地塊和使用關係中逐步轉變的結果。 港市店屋案例顯示貿易制度與文化共同影響地方形式；控制權研究則提醒改造權和公共空間使用也需納入方案。 歷史閱讀不要求凍結外觀，移植到別處前仍須檢查制度與氣候。",
+  "key_points_zh": [
+    "建築類型在既有城市肌理中逐步改造並留下關聯。",
+    "適用於歷史街區更新、港市街屋與增量式修補。",
+    "限制：跨文化移植類型前須先確認居住制度、氣候和建造方式。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "兩座港市的歷史演變與店屋型態顯示，街區和建築類型受貿易、制度與文化延續共同形塑。",
+        "library_id": "HAN2016",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "馬六甲與檳城，馬來西亞",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "建成環境的形式與控制權分層相連；開放空間與可改造構造需說明誰能使用或修改。",
+        "library_id": "HABRAKEN98",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "荷蘭; 跨地域",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "從最小單元追蹤到街區，區分延續、變異與斷裂。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "從最小單元追蹤到街區，區分延續、變異與斷裂。",
+      "tradeoff_zh": "此選項把「Muratori／Caniggia 類型過程｜概念邊界」的工作放在兩座港市的歷史演變與店屋型態顯示，街區和建築類型受貿易、制度與文化延續共同形塑上；需要承擔的協調或維護代價則由「歷史連續性不等於應凍結形式；類型理論也可能低估非正式建造」界定。",
+      "library_ids": [
+        "HAN2016",
+        "HABRAKEN98"
+      ]
+    },
+    {
+      "option_zh": "連續街屋、院落和商住混合型會隨地方生活方式調整。",
+      "tradeoff_zh": "「Muratori／Caniggia 類型過程｜概念邊界」採用「連續街屋、院落和商住混合型會隨地方生活方式調整」時，得失要沿著兩座港市的歷史演變與店屋型態顯示，街區和建築類型受貿易、制度與文化延續共同形塑檢查；歷史連續性不等於應凍結形式；類型理論也可能低估非正式建造。",
+      "library_ids": [
+        "HAN2016",
+        "HABRAKEN98"
+      ]
+    }
+  ],
+  "applies_when_zh": "適用於歷史街區更新、港市街屋與增量式修補。",
+  "not_applicable_when_zh": "跨文化移植類型前須先確認居住制度、氣候和建造方式。",
+  "debates_zh": "歷史連續性不等於應凍結形式；類型理論也可能低估非正式建造。",
+  "sources": [
+    {
+      "library_id": "HAN2016",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "HABRAKEN98",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "東南亞類型形態學；開放建築",
+  "region": "馬六甲與檳城，馬來西亞；荷蘭",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "Muratori／Caniggia 類型過程"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "Muratori／Caniggia 類型過程"
+    },
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.330J Theory of City Form",
+      "topic": "Muratori／Caniggia 類型過程"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban form and density",
+      "topic": "Muratori／Caniggia 類型過程"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-MOR-017",
+    "KU-MOR-018",
+    "KU-MOR-019"
+  ],
+  "counter_unit_ids": [
+    "KU-MOR-020"
+  ]
+}

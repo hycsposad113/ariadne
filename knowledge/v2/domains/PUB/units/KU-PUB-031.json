@@ -1,0 +1,66 @@
+{
+  "id": "KU-PUB-031",
+  "domain": "PUB",
+  "subtopic": "活躍立面",
+  "type": "concept",
+  "title_zh": "低門檻活動讓立面有日常節奏",
+  "title_en": "Everyday uses animate the frontage",
+  "summary_zh": "服務窗口、共享工作坊和社區設施會帶來不同於夜生活的活動節奏。用途混合若未考慮營業時段，可能形成長時間空白。不同使用者對噪音、裝卸和隱私有不一樣的要求。活躍界面可能與住宅安寧或安靜工作需求衝突。",
+  "key_points_zh": [
+    "服務窗口、共享工作坊和社區設施會帶來不同於夜生活的活動節奏",
+    "用途混合若未考慮營業時段，可能形成長時間空白"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "服務窗口、共享工作坊和社區設施會帶來不同於夜生活的活動節奏。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "歐洲",
+        "library_id": "RATTI04",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "活躍界面可能與住宅安寧或安靜工作需求衝突。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "在功能表中記錄活動時段與外部空間需求，避免只比較用途名稱。"
+  ],
+  "applies_when_zh": "適用於制定首層配置策略時。",
+  "not_applicable_when_zh": "不應認定所有地面層都必須商業化。",
+  "debates_zh": "活躍界面可能與住宅安寧或安靜工作需求衝突。",
+  "sources": [
+    {
+      "library_id": "RATTI04",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "LYNCH60",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "空間語法批評",
+  "region": "歐洲",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "活躍立面"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "活躍立面"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-PUB-030",
+    "KU-PUB-032"
+  ]
+}

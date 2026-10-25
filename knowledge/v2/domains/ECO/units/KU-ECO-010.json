@@ -1,0 +1,65 @@
+{
+  "id": "KU-ECO-010",
+  "domain": "ECO",
+  "subtopic": "地景生態學：嵌塊、廊道、基質",
+  "type": "design_principle",
+  "title_zh": "生態測圖應保留時間變化",
+  "title_en": "Ecological maps need temporal layers",
+  "summary_zh": "棲地連續性會隨施工、季節和植被演替而變化。一次分類圖容易把臨時棲地和長期穩定生境混為一談。重複遙測仍需現地物種資料校正。地圖是特定時點的證據，不是永恆地景分類。",
+  "key_points_zh": [
+    "棲地連續性會隨施工、季節和植被演替而變化",
+    "一次分類圖容易把臨時棲地和長期穩定生境混為一談"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "棲地連續性會隨施工、季節和植被演替而變化。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "美國",
+        "library_id": "MCHARG69",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "地圖是特定時點的證據，不是永恆地景分類。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "記錄影像日期、物候和施工階段，建立可更新底圖。"
+  ],
+  "applies_when_zh": "適用於中長期土地開發和復育方案。",
+  "not_applicable_when_zh": "不適合把多年舊影像當作現況。",
+  "debates_zh": "地圖是特定時點的證據，不是永恆地景分類。",
+  "sources": [
+    {
+      "library_id": "MCHARG69",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "MULLER10",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "景觀生態與疊圖規劃",
+  "region": "美國",
+  "curriculum_refs": [
+    {
+      "school": "MIT",
+      "course": "11.330J Theory of City Form",
+      "topic": "地景生態學：嵌塊、廊道、基質"
+    },
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "地景生態學：嵌塊、廊道、基質"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-ECO-009"
+  ]
+}

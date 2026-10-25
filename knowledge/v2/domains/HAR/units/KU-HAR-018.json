@@ -1,0 +1,65 @@
+{
+  "id": "KU-HAR-018",
+  "domain": "HAR",
+  "subtopic": "文化導向再生與仕紳化批評",
+  "type": "empirical_finding",
+  "title_zh": "文化再生成效的歸因受到證據品質限制",
+  "title_en": "Evidence quality limits attribution of cultural regeneration effects",
+  "summary_zh": "Evans 的證據回顧指出，文化對城市再生的社會、經濟與環境貢獻不容易單獨歸因，相關證據基礎也有限。這表示觀察到訪客增加或活動變多，還不足以證明文化設施造成整個街區的復甦。Miles 對文化主導發展的論述則追問政策是否能跨城市移植，以及文化工作者是否認同官方敘事。分析時要保留替代解釋和受益分布，並把宣傳指標與觀察性結果分開。",
+  "key_points_zh": [
+    "文化活動與再生效果的因果歸因困難，不能單靠活動量證成。",
+    "跨城市移植政策前，要檢查地方文化生產者與治理條件。"
+  ],
+  "evidence": {
+    "strength": "STRONG_EMPIRICAL",
+    "findings": [
+      {
+        "claim_zh": "跨案例證據回顧指出文化旗艦計畫的社會、經濟與環境成效歸因困難，且證據基礎有限。",
+        "effect_or_value": "歸因困難、整體證據有限；未給出通用效應量",
+        "study_design": "城市再生證據回顧",
+        "context_region": "英國與國際城市案例",
+        "library_id": "EVANS2005",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "文化政策的可移植性及文化生產者對政策敘事的回應需要檢查。",
+        "effect_or_value": "指出政策移植風險，非量化效果估計",
+        "study_design": "文化主導城市發展批判研究",
+        "context_region": "Glasgow、Bilbao 等案例脈絡",
+        "library_id": "MILES2005",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "設置基線、對照區與追蹤期，另記錄商戶更替、租金及原有文化使用者留存。"
+  ],
+  "applies_when_zh": "以博物館、文化設施或藝術活動支撐港區再生論述時。",
+  "not_applicable_when_zh": "不適用於把相關變化表述成因果效果，或將訪客數視為社群受益。",
+  "debates_zh": "公共文化投資可以創造新的公共生活，但收益和成本分配需要獨立量測。",
+  "sources": [
+    {
+      "library_id": "EVANS2005",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "MILES2005",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "文化政策評估與批判",
+  "region": "英國與國際城市案例",
+  "curriculum_refs": [
+    {
+      "school": "Harvard GSD",
+      "course": null,
+      "topic": "Culture-led urban regeneration"
+    }
+  ],
+  "version": "v2.0"
+}

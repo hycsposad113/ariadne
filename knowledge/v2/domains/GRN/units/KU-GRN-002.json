@@ -1,0 +1,70 @@
+{
+  "id": "KU-GRN-002",
+  "domain": "GRN",
+  "subtopic": "公園類型與階層",
+  "type": "value_range",
+  "title_zh": "公園活動研究的設施目錄",
+  "title_en": "Park-feature audit categories",
+  "summary_zh": "美國活動研究稽核二十八種公園特徵。此數字顯示場地條件可以被細分觀察，不代表每一種設施都必須配置。當地居民可能使用未列入清單的非正式活動。分類的完整性和跨案例可比性常互相牽制。",
+  "key_points_zh": [
+    "美國活動研究稽核二十八種公園特徵",
+    "此數字顯示場地條件可以被細分觀察，不代表每一種設施都必須配置"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "美國活動研究稽核二十八種公園特徵。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "丹麥",
+        "library_id": "GEHL10",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "分類的完整性和跨案例可比性常互相牽制。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "設計前的公園盤點可採開放式分類，讓現場使用補足既有表格。"
+  ],
+  "applies_when_zh": "適用於檢查公園設施與日常活動的關係。",
+  "not_applicable_when_zh": "不應把研究目錄當成全國通用配備清單。",
+  "debates_zh": "分類的完整性和跨案例可比性常互相牽制。",
+  "sources": [
+    {
+      "library_id": "GEHL10",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "WHYTE80",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "公共生活設計",
+  "region": "丹麥",
+  "curriculum_refs": [
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "公園類型與階層"
+    }
+  ],
+  "version": "2.0.0",
+  "values": [
+    {
+      "name": "公園活動研究的設施目錄",
+      "range": "28 類",
+      "unit": "設施特徵數",
+      "context": "美國鄰里公園研究的場地稽核項目；供盤點方法參照，非設計配額。；「公園活動研究的設施目錄」僅供其研究脈絡內比較，不構成本基地法規。",
+      "library_id": "KACZYNSKI08"
+    }
+  ],
+  "related_unit_ids": [
+    "KU-GRN-001",
+    "KU-GRN-003"
+  ]
+}

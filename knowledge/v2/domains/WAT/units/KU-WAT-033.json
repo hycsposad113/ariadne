@@ -1,0 +1,74 @@
+{
+  "id": "KU-WAT-033",
+  "domain": "WAT",
+  "subtopic": "洪水風險與多層安全",
+  "type": "typology",
+  "title_zh": "堤防保護與安全受水配置不同風險路徑",
+  "title_en": "堤防保護與安全受水配置不同風險路徑",
+  "summary_zh": "洪水方案可強化保護、配置可安全受水的空間，或增加預警和撤離能力。城市防災研究將土地使用連到減災，區域水治理研究則顯示管理尺度會改變措施角色。各種策略應依保護對象、失效情境和後果比較。",
+  "key_points_zh": [
+    "工程防護改變危害暴露，受水空間管理剩餘後果。",
+    "疏散和預警處理的是未消除的風險。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "library_id": "HAASNOOT2013",
+        "claim_zh": "題名確認文章提出在深度不確定情境中規劃調適路徑的方法；不據題名宣稱它保證避免所有失效；本單元 KU-WAT-033 對照「洪水方案可強化保護、配置可安全受水的空間，或增加預警和撤離能力」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "動態調適政策路徑方法論",
+        "context_region": "荷蘭與跨地域水治理方法",
+        "locator": null
+      },
+      {
+        "library_id": "KLIJN2015",
+        "claim_zh": "書目確認本文題名聚焦「Adaptive flood risk management planning based on a comprehensive flood risk conceptualisation」；目前只完成作者、年份、題名與 DOI 核對，未將摘要或全文結論納入此記錄；本單元 KU-WAT-033 對照「洪水方案可強化保護、配置可安全受水的空間，或增加預警和撤離能力」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "方法或概念研究；目前僅核對書目範圍",
+        "context_region": "跨地域",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "讓每項措施對應具體風險路徑與責任機構。",
+    "比較工程、可淹沒地面和退讓的成本與受益者。"
+  ],
+  "applies_when_zh": "適用於都市防洪策略設計。",
+  "not_applicable_when_zh": "不能以多層安全框架取代地方防洪法規和核定程序。",
+  "debates_zh": "退讓涉及權利和生計，不能只當作水理模型中的土地類別。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "HAASNOOT2013",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "KLIJN2015",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "防洪與土地使用方案比較",
+  "region": "美國都市規劃；跨尺度都市水治理",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "洪水風險與多層安全"
+    },
+    {
+      "school": "MIT",
+      "course": null,
+      "topic": "洪水風險與多層安全"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0"
+}

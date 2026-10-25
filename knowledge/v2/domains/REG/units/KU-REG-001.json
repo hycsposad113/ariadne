@@ -1,0 +1,114 @@
+{
+  "id": "KU-REG-001",
+  "domain": "REG",
+  "subtopic": "容積率、建蔽率、高度與斜線",
+  "type": "concept",
+  "title_zh": "容積率、建蔽率、高度與斜線｜概念邊界",
+  "title_en": "FAR, coverage, height and envelope — Conceptual boundaries",
+  "summary_zh": "建蔽率、容積率與建築高度各自控制不同的空間條件，單一比率不能推出街道圍合或日照結果。 Ben-Joseph 將規範標準放在城市治理和公共價值中理解，Dovey 與 Pafka 則把密度視為多項量測的組合。 比較量體方案時應明列計容分母、覆蓋、退縮和樓層條件，不能由理論指標判定現行許可。",
+  "key_points_zh": [
+    "容積與建蔽的比率不能直接代表高度、街道圍合或日照表現。",
+    "適用於制度比較及草案情境分析，不直接判定基地合規。",
+    "限制：此處是通用制度輪廓，不是本基地法規或法律意見。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "專書把標準、街道與地方形式連結起來，指出設計規範也會承載治理及公共價值。",
+        "library_id": "BENJOSEPH2005",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "美國",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "密度是多種量測與空間關係的組合；單一 FAR 不能代表公共空間或活動強度。",
+        "library_id": "DOVEY14",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "記錄分母、計容用途、退縮、樓層和轉角條件，再做形式方案比較。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "記錄分母、計容用途、退縮、樓層和轉角條件，再做形式方案比較。",
+      "tradeoff_zh": "增加空間選擇與公共連結，但會增加協調、管理或建造成本。",
+      "library_ids": [
+        "BENJOSEPH2005",
+        "DOVEY14",
+        "CERVERO97"
+      ]
+    },
+    {
+      "option_zh": "同一容積可以用不同高度和覆蓋組合落地。",
+      "tradeoff_zh": "保留另一種形式和使用條件，但可能改變連續性、可達性或私密性。",
+      "library_ids": [
+        "BENJOSEPH2005",
+        "DOVEY14",
+        "CERVERO97"
+      ]
+    }
+  ],
+  "applies_when_zh": "適用於制度比較及草案情境分析，不直接判定基地合規。",
+  "not_applicable_when_zh": "此處是通用制度輪廓，不是本基地法規或法律意見。",
+  "debates_zh": "法定上限、設計目標和研究指標是不同證據類別。",
+  "sources": [
+    {
+      "library_id": "BENJOSEPH2005",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "DOVEY14",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "CERVERO97",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "城市設計規範與形式管制；土地經濟與用途混合",
+  "region": "美國；荷蘭住宅市場",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Planning Complex Cities",
+      "topic": "容積率、建蔽率、高度與斜線"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Urban Design Contexts and Operations",
+      "topic": "容積率、建蔽率、高度與斜線"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "容積率、建蔽率、高度與斜線"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban design governance",
+      "topic": "容積率、建蔽率、高度與斜線"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-REG-002",
+    "KU-REG-003",
+    "KU-REG-004"
+  ],
+  "counter_unit_ids": [
+    "KU-REG-005"
+  ]
+}

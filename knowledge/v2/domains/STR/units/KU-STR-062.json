@@ -1,0 +1,84 @@
+{
+  "id": "KU-STR-062",
+  "domain": "STR",
+  "subtopic": "路網形態（格子、放射、有機）",
+  "type": "critique",
+  "title_zh": "路網形態（格子、放射、有機）：批評與適用限制",
+  "title_en": "Grid, radial, and organic networks: Critique and boundary",
+  "summary_zh": "幾何網形不能單獨代表交通行為；土地使用、出入口、坡度和制度性通行限制會重塑實際路徑。另一個需要同時檢查的面向是格子、放射與有機網路是對方向性、選擇路徑和適應地形方式的不同組織，不預設哪一種對所有基地最好。替代做法可以是保留多個外部連接點，再把主軸、支路和地方通行網組合成多尺度系統。",
+  "key_points_zh": [
+    "批評焦點：格子、放射與有機網路是對方向性、選擇路徑和適應地形方式的不同組織，不預設哪一種對所有基地最好",
+    "批評焦點：幾何網形不能單獨代表交通行為；土地使用、出入口、坡度和制度性通行限制會重塑實際路徑"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "路網形態（格子、放射、有機）：批評與適用限制｜荷蘭新舊城案例將路網整合、密度與混合用途聯合診斷，初步行為資料檢驗並非通用因果模型",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "YE14",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "路網形態（格子、放射、有機）：批評與適用限制｜波哥大的人口、工作及可及性分布不均；高平均密度可以和低收入群體的可及性不足並存",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "BOGOTA17",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "把「幾何網形不能單獨代表交通行為；土地使用、出入口、坡度和制度性通行限制會重塑實際路徑」轉成一項可觀察的風險，並在替代方案中檢查「格子、放射與有機網路是對方向性、選擇路徑和適應地形方式的不同組織，不預設哪一種對所有基地最好」是否改變其影響。"
+  ],
+  "applies_when_zh": "若路網形態（格子、放射、有機）方案可能受「幾何網形不能單獨代表交通行為；土地使用、出入口、坡度和制度性通行限制會重塑實際路徑」影響，可用「格子、放射與有機網路是對方向性、選擇路徑和適應地形方式的不同組織，不預設哪一種對所有基地最好」安排實地觀察或替代方案比較。",
+  "not_applicable_when_zh": "這項批評提出的是「幾何網形不能單獨代表交通行為；土地使用、出入口、坡度和制度性通行限制會重塑實際路徑」的風險，不能據此推定所有替代方案都更好，也不能代替本地使用者測試。",
+  "debates_zh": "幾何網形不能單獨代表交通行為；土地使用、出入口、坡度和制度性通行限制會重塑實際路徑；檢視「路網形態（格子、放射、有機）：批評與適用限制」的反例檢查時，還需判斷「幾何網形不能單獨代表交通行為；土地使用、出入口、坡度和制度性通行限制會重塑實際路徑」會如何改變方案結論。",
+  "sources": [
+    {
+      "library_id": "YE14",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "BOGOTA17",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "城市路網與空間組態",
+  "region": "跨地域理論或實務脈絡；來源地區依引用條目判讀",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "路網形態（格子、放射、有機）：課綱對應主題"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "路網形態（格子、放射、有機）：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-STR-057",
+    "KU-STR-058",
+    "KU-STR-059",
+    "KU-STR-060",
+    "KU-STR-061",
+    "KU-STR-063",
+    "KU-STR-064"
+  ],
+  "counter_unit_ids": [
+    "KU-STR-057",
+    "KU-STR-058"
+  ]
+}

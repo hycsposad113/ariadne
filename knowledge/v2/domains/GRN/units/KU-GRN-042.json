@@ -1,0 +1,61 @@
+{
+  "id": "KU-GRN-042",
+  "domain": "GRN",
+  "subtopic": "公園使用與維護",
+  "type": "design_principle",
+  "title_zh": "維護回應時間影響可用性",
+  "title_en": "Response time affects usability",
+  "summary_zh": "損壞的照明和設施若長期未修，會改變使用者路線和信任。快速維修需有清晰通報和預算責任。不同故障的風險等級不一。管理數據也可能只記錄成功報修者的問題。將報修、封閉、修復和重新開放時間記錄為運營資料。",
+  "key_points_zh": [
+    "損壞的照明和設施若長期未修，會改變使用者路線和信任",
+    "快速維修需有清晰通報和預算責任"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "損壞的照明和設施若長期未修，會改變使用者路線和信任。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "澳洲",
+        "library_id": "BROWN09",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "管理數據也可能只記錄成功報修者的問題。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "將報修、封閉、修復和重新開放時間記錄為運營資料。"
+  ],
+  "applies_when_zh": "適用於公共空間服務品質監測。",
+  "not_applicable_when_zh": "不宜用一次維修平均值掩蓋反覆失修區域。",
+  "debates_zh": "管理數據也可能只記錄成功報修者的問題。",
+  "sources": [
+    {
+      "library_id": "BROWN09",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "HANSEN14",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "都市水治理",
+  "region": "澳洲",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "公園使用與維護"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-GRN-041",
+    "KU-GRN-043"
+  ]
+}

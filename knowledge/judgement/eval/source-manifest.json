@@ -1,0 +1,920 @@
+{
+  "schema_version": "ariadne-judgement-eval-source-manifest-v1",
+  "sources": [
+    {
+      "path": "artifacts/ctx1-context-morphology/context-summary-zh.md",
+      "sha256": "28613eb19704dc70ff32ba5c38a47d11bf69602f2ae0687a481b2aa3da5d3475",
+      "used_by": [
+        "site-current"
+      ]
+    },
+    {
+      "path": "artifacts/fab1/run-8/ai-explanations/closed_block_extension-design-statement-zh.md",
+      "sha256": "aefbc830951124e6786785955a4da0b3fc0612c3129f10d3617ff623bd4c70af",
+      "used_by": [
+        "compare-all"
+      ]
+    },
+    {
+      "path": "artifacts/fab1/run-8/ai-explanations/courtyard_islands-design-statement-zh.md",
+      "sha256": "f603867e2b59d83736b671a15fc896371526a82da9069aa620099b88a8a109e8",
+      "used_by": [
+        "compare-all",
+        "compare-courtyard"
+      ]
+    },
+    {
+      "path": "artifacts/fab1/run-8/ai-explanations/harbour_grain-design-statement-zh.md",
+      "sha256": "2c0e7dfc7eee302e0a09f61767ad03bca10af38138e83ff83fd34da8aa6d85f1",
+      "used_by": [
+        "compare-all"
+      ]
+    },
+    {
+      "path": "artifacts/fab1/run-8/ai-explanations/landscape_figure-design-statement-zh.md",
+      "sha256": "f2421e5b4c579d7ea559145313883b69fa677f0f70efcb751293c2be4600f71b",
+      "used_by": [
+        "compare-all"
+      ]
+    },
+    {
+      "path": "artifacts/fab1/run-8/closed_block_extension-plan.json",
+      "sha256": "f3eaef98a328f48f846b480bdf1452867bb0e58d3d63f8043e0abed663960bae",
+      "used_by": [
+        "climate-all",
+        "compare-all"
+      ]
+    },
+    {
+      "path": "artifacts/fab1/run-8/courtyard_islands-plan.json",
+      "sha256": "e3db0311c26a49d627e2343eef40603589b2cb65beec99222d06ec168971812b",
+      "used_by": [
+        "climate-all",
+        "compare-all",
+        "compare-courtyard"
+      ]
+    },
+    {
+      "path": "artifacts/fab1/run-8/harbour_grain-plan.json",
+      "sha256": "88445febe1b657019b9e52d024de978bd628672e244423d1b07480ebfede06dd",
+      "used_by": [
+        "climate-all",
+        "climate-harbour",
+        "compare-all",
+        "site-current"
+      ]
+    },
+    {
+      "path": "artifacts/fab1/run-8/landscape_figure-plan.json",
+      "sha256": "397fcbcb53acb84cfaa4a41601a2fd9e5e48c161aa983d38ee866f533894830d",
+      "used_by": [
+        "climate-all",
+        "compare-all"
+      ]
+    },
+    {
+      "path": "artifacts/net2/round-7/v3-export/net2-assessment.json",
+      "sha256": "755386f30b8252df7f1ffcae9d404b57d6c10c24b1009c02e548086784efba4f",
+      "used_by": [
+        "compare-all",
+        "compare-courtyard"
+      ]
+    },
+    {
+      "path": "artifacts/w6-problem-definition/problem-statements.json",
+      "sha256": "ae130a56b59e597a542e42dda412d72ba04c5699b6cac975e58a8706b2d6c1c6",
+      "used_by": [
+        "site-current"
+      ]
+    },
+    {
+      "path": "artifacts/w8/e1-fabric/comparison_table.csv",
+      "sha256": "00fbf8f566c3b1f4d4a588a8828975727069a8b1d15e0c7edf1eaa569cd97ee5",
+      "used_by": [
+        "climate-all",
+        "climate-harbour",
+        "compare-all",
+        "compare-courtyard"
+      ]
+    },
+    {
+      "path": "artifacts/w8/e1-fabric/comparison_table.md",
+      "sha256": "1764617f7cc5a38bed75cff29e81e0738cd5afce2c4f881eda7dc593a2efd89f",
+      "used_by": [
+        "climate-all",
+        "climate-harbour",
+        "compare-all",
+        "compare-courtyard"
+      ]
+    },
+    {
+      "path": "artifacts/w8/e2-formal/harbour-vs-mixed-result.json",
+      "sha256": "db731fb5c815f45efb47c5437a04c6406d613521b938fce8c73862df2dd7f190",
+      "used_by": [
+        "climate-all",
+        "climate-harbour",
+        "compare-all",
+        "compare-courtyard"
+      ]
+    },
+    {
+      "path": "artifacts/w8/e3e4-final/e3e4_results_zh.csv",
+      "sha256": "8b8f94de456b6f0b020524ab7b780ffda27e91c701d7368a688881eeeb1304e8",
+      "used_by": [
+        "climate-all",
+        "climate-harbour",
+        "compare-all",
+        "compare-courtyard"
+      ]
+    },
+    {
+      "path": "artifacts/w8/e3e4-final/e3e4_results_zh.md",
+      "sha256": "2bbb5146483a207b777c0649e0c9f5fb4b8e2c9c1819fa70c51a854cda70c847",
+      "used_by": [
+        "climate-all",
+        "climate-harbour",
+        "compare-all",
+        "compare-courtyard"
+      ]
+    },
+    {
+      "path": "artifacts/w8/e5-cfd/README_zh.md",
+      "sha256": "8859fd168e6c63ad54962652662e0f58768a0e0a9a0d341fe7be288331fad04f",
+      "used_by": [
+        "climate-all",
+        "climate-harbour",
+        "compare-all",
+        "compare-courtyard"
+      ]
+    },
+    {
+      "path": "artifacts/w8/e5-cfd/results_table.json",
+      "sha256": "03509c969916b5c98f1dcc886740da47da3615494c72f02f11e779151e5f9863",
+      "used_by": [
+        "climate-all",
+        "climate-harbour",
+        "compare-all"
+      ]
+    },
+    {
+      "path": "artifacts/w8/utci/utci_stress_hours_comparison.json",
+      "sha256": "2d73dd4e1fcee0680e2cbade943ef7892fa56bec730321a7e3f947d246ee6c84",
+      "used_by": [
+        "climate-all",
+        "climate-harbour",
+        "compare-all",
+        "compare-courtyard"
+      ]
+    },
+    {
+      "path": "artifacts/w8/utci/utci_stress_hours_comparison.md",
+      "sha256": "75c2d6a826bf865621481811ab443307a2c1abd94aa24a93a6ceace8064a78a5",
+      "used_by": [
+        "climate-all",
+        "climate-harbour",
+        "compare-all",
+        "compare-courtyard"
+      ]
+    },
+    {
+      "kind": "skill_or_knowledge",
+      "path": "knowledge/judgement/J-CLIMATE-zh.md",
+      "sha256": "b0e2a8ad36626cb32b8597ed8168b01482f596029aaf321a3da636f027d9bd73",
+      "used_by": [
+        "climate-all",
+        "climate-harbour"
+      ]
+    },
+    {
+      "kind": "skill_or_knowledge",
+      "path": "knowledge/judgement/J-COMPARE-zh.md",
+      "sha256": "a91a2e1b47a24163f6cae2510d254f277ebc45233c2566d5312bb1f26576f007",
+      "used_by": [
+        "compare-all",
+        "compare-courtyard"
+      ]
+    },
+    {
+      "kind": "skill_or_knowledge",
+      "path": "knowledge/judgement/J-SITE-zh.md",
+      "sha256": "9246a365189534b611587b771d089e6d496a57ac4207650226ca3e7314a6033b",
+      "used_by": [
+        "site-current"
+      ]
+    },
+    {
+      "path": "knowledge/judgement/designer-stance-seed.json",
+      "sha256": "b3fcfa266d69f3059e42db8cbbad5b000086d3f8ad8c89b06d42d3b9fdcdea28",
+      "used_by": [
+        "climate-all",
+        "climate-harbour",
+        "compare-all",
+        "compare-courtyard",
+        "site-current"
+      ]
+    },
+    {
+      "kind": "skill_or_knowledge",
+      "path": "knowledge/v2/domains/CLI/units/KU-CLI-001.json",
+      "sha256": "a9054f18e1f49d92d1abd456b21a6d1eaddd3c08744c83ffd45e8d6327030883",
+      "used_by": [
+        "climate-all",
+        "climate-harbour"
+      ]
+    },
+    {
+      "kind": "skill_or_knowledge",
+      "path": "knowledge/v2/domains/CLI/units/KU-CLI-006.json",
+      "sha256": "32b3f1e07538c798dce5371c7ea2486f21fffdaadfd221cf9e5e00ff096a1926",
+      "used_by": [
+        "climate-all",
+        "climate-harbour"
+      ]
+    },
+    {
+      "kind": "skill_or_knowledge",
+      "path": "knowledge/v2/domains/CLI/units/KU-CLI-007.json",
+      "sha256": "76cc5c8a87c35ba189407f343243817904f07568395cdf79c8e804eeee09edeb",
+      "used_by": [
+        "climate-all",
+        "climate-harbour"
+      ]
+    },
+    {
+      "kind": "skill_or_knowledge",
+      "path": "knowledge/v2/domains/CLI/units/KU-CLI-008.json",
+      "sha256": "8487ff4e5ff3337787db1a1212bea8a20508530badd7271b3b4a11e3d19b84c3",
+      "used_by": [
+        "climate-all",
+        "climate-harbour"
+      ]
+    },
+    {
+      "kind": "skill_or_knowledge",
+      "path": "knowledge/v2/domains/CLI/units/KU-CLI-012.json",
+      "sha256": "79046d3f0278f76da09003bcba3801ea2a2c3eccb1eea070e75d85ecd4663b2e",
+      "used_by": [
+        "climate-all",
+        "climate-harbour"
+      ]
+    },
+    {
+      "kind": "skill_or_knowledge",
+      "path": "knowledge/v2/domains/CLI/units/KU-CLI-015.json",
+      "sha256": "727b8864f281a4d409697f5b3bb7b5b04329456a133a99ccda1a5a0b2fddddb4",
+      "used_by": [
+        "climate-all",
+        "climate-harbour"
+      ]
+    },
+    {
+      "kind": "skill_or_knowledge",
+      "path": "knowledge/v2/domains/CLI/units/KU-CLI-018.json",
+      "sha256": "247b3b58b2d7202db251657824749767c2503e5bc171c12fe9c55c0a0f8bb043",
+      "used_by": [
+        "climate-all",
+        "climate-harbour"
+      ]
+    },
+    {
+      "kind": "skill_or_knowledge",
+      "path": "knowledge/v2/domains/CLI/units/KU-CLI-019.json",
+      "sha256": "b5dbc8c43adecafe09d4e7dbcff57b601065d9edc97db6fc06d892f6f1e31ebe",
+      "used_by": [
+        "climate-all",
+        "climate-harbour"
+      ]
+    },
+    {
+      "kind": "skill_or_knowledge",
+      "path": "knowledge/v2/domains/CLI/units/KU-CLI-023.json",
+      "sha256": "acbd46b304da2e323d7e47f3c66ca4b9a63775810d27cdbe7c7036761b9b39b6",
+      "used_by": [
+        "climate-all",
+        "climate-harbour"
+      ]
+    },
+    {
+      "kind": "skill_or_knowledge",
+      "path": "knowledge/v2/domains/CLI/units/KU-CLI-025.json",
+      "sha256": "c583ba433dcded63484f0bb9338a83b4e33eca4f840295b2ad98c53733a8545e",
+      "used_by": [
+        "climate-all",
+        "climate-harbour"
+      ]
+    },
+    {
+      "kind": "skill_or_knowledge",
+      "path": "knowledge/v2/domains/CLI/units/KU-CLI-026.json",
+      "sha256": "d6f27f051a562ed72fbbb51f7e03f760f751aa5d4eb400e6ce73d8f3861e79dc",
+      "used_by": [
+        "climate-all",
+        "climate-harbour",
+        "site-current"
+      ]
+    },
+    {
+      "kind": "skill_or_knowledge",
+      "path": "knowledge/v2/domains/CLI/units/KU-CLI-027.json",
+      "sha256": "b4105b19430022979bdb63df65620fdf1cf649429503c9cbc0adccdf34d80aca",
+      "used_by": [
+        "climate-all",
+        "climate-harbour"
+      ]
+    },
+    {
+      "kind": "skill_or_knowledge",
+      "path": "knowledge/v2/domains/CLI/units/KU-CLI-029.json",
+      "sha256": "f058b73549162bf12263c2ef88b781e1ed0e9eee9f9ac26b61e362f4d1e79a8d",
+      "used_by": [
+        "climate-all",
+        "climate-harbour"
+      ]
+    },
+    {
+      "kind": "skill_or_knowledge",
+      "path": "knowledge/v2/domains/CLI/units/KU-CLI-040.json",
+      "sha256": "f0aad13ddfe98297b026f65681547c026bf854e2d2bbc29ad6ca4c3aa0ac9489",
+      "used_by": [
+        "climate-all",
+        "climate-harbour"
+      ]
+    },
+    {
+      "kind": "skill_or_knowledge",
+      "path": "knowledge/v2/domains/CLI/units/KU-CLI-041.json",
+      "sha256": "39229626c1af5d84689362ccd8b9f96199874109dafdcdf519859948bd257065",
+      "used_by": [
+        "climate-all",
+        "climate-harbour"
+      ]
+    },
+    {
+      "kind": "skill_or_knowledge",
+      "path": "knowledge/v2/domains/CLI/units/KU-CLI-042.json",
+      "sha256": "623fb53dafcbfc6659121deaff3446d1ba814f5e44bc3560e5118ee740f1d28f",
+      "used_by": [
+        "climate-all",
+        "climate-harbour"
+      ]
+    },
+    {
+      "kind": "skill_or_knowledge",
+      "path": "knowledge/v2/domains/CLI/units/KU-CLI-043.json",
+      "sha256": "f4af6cafec699094b3f685754a2040db17a99bb2b53488bb3a4f6ad0b270260b",
+      "used_by": [
+        "climate-all",
+        "climate-harbour",
+        "compare-all",
+        "compare-courtyard",
+        "site-current"
+      ]
+    },
+    {
+      "kind": "skill_or_knowledge",
+      "path": "knowledge/v2/domains/CLI/units/KU-CLI-044.json",
+      "sha256": "5489633810db780ae3794753a9ac8ec79a99f3dc4fb1f9b2adb58352122f318c",
+      "used_by": [
+        "climate-all",
+        "climate-harbour"
+      ]
+    },
+    {
+      "kind": "skill_or_knowledge",
+      "path": "knowledge/v2/domains/CLI/units/KU-CLI-046.json",
+      "sha256": "52eadb3e49a73dca25b684441a7344978fa5a4c9a43e0ff30f9d7d1e03021a02",
+      "used_by": [
+        "climate-all",
+        "climate-harbour"
+      ]
+    },
+    {
+      "kind": "skill_or_knowledge",
+      "path": "knowledge/v2/domains/CLI/units/KU-CLI-047.json",
+      "sha256": "d47f689bacc478797b4e01f11ca51ef045c117dd11c124af9bf9489c7639f8d2",
+      "used_by": [
+        "climate-all",
+        "climate-harbour"
+      ]
+    },
+    {
+      "kind": "skill_or_knowledge",
+      "path": "knowledge/v2/domains/CLI/units/KU-CLI-050.json",
+      "sha256": "7558b216bf03391967543e4bcea3d2ec46a236cd4f22e3320150d42474cbfd67",
+      "used_by": [
+        "climate-all",
+        "climate-harbour"
+      ]
+    },
+    {
+      "kind": "skill_or_knowledge",
+      "path": "knowledge/v2/domains/CLI/units/KU-CLI-052.json",
+      "sha256": "cfa35533b999886e1c0f2af14d29dff7b4b2d4a7a81d611b9580b8ba2aac1719",
+      "used_by": [
+        "climate-all",
+        "climate-harbour"
+      ]
+    },
+    {
+      "kind": "skill_or_knowledge",
+      "path": "knowledge/v2/domains/CLI/units/KU-CLI-053.json",
+      "sha256": "fbadb81cba9b761b2833fc7d07952e44e141ba0973f577c8a4481f000c7ca123",
+      "used_by": [
+        "climate-all",
+        "climate-harbour"
+      ]
+    },
+    {
+      "kind": "skill_or_knowledge",
+      "path": "knowledge/v2/domains/CLI/units/KU-CLI-054.json",
+      "sha256": "589c2b4f7d57263b74fc63a38e20c2ac0d9c86596efd7e6baa22909e23f41489",
+      "used_by": [
+        "climate-all",
+        "climate-harbour"
+      ]
+    },
+    {
+      "kind": "skill_or_knowledge",
+      "path": "knowledge/v2/domains/CLI/units/KU-CLI-055.json",
+      "sha256": "0bf119102158c5895200f4533d572a094d8f0ad97c1166ff5ad925a47f8373a3",
+      "used_by": [
+        "climate-all",
+        "climate-harbour",
+        "compare-all",
+        "compare-courtyard"
+      ]
+    },
+    {
+      "kind": "skill_or_knowledge",
+      "path": "knowledge/v2/domains/CLI/units/KU-CLI-056.json",
+      "sha256": "6e977a3fb50d32f21b1812555e107319c5e9c89f40b675f908aeeabb6ddd5148",
+      "used_by": [
+        "climate-all",
+        "climate-harbour"
+      ]
+    },
+    {
+      "kind": "skill_or_knowledge",
+      "path": "knowledge/v2/domains/CLI/units/KU-CLI-057.json",
+      "sha256": "b7b02b3f0cbc8bb5c7acceb8a3a8d02b834973b7be56afad162ffee02b060ffb",
+      "used_by": [
+        "climate-all",
+        "climate-harbour"
+      ]
+    },
+    {
+      "kind": "skill_or_knowledge",
+      "path": "knowledge/v2/domains/CLI/units/KU-CLI-059.json",
+      "sha256": "3a82dc8b1ec9388a15b279d53a068099c60477a1b0df24293b052bcc21179dac",
+      "used_by": [
+        "climate-all",
+        "climate-harbour"
+      ]
+    },
+    {
+      "kind": "skill_or_knowledge",
+      "path": "knowledge/v2/domains/CLI/units/KU-CLI-061.json",
+      "sha256": "7038a2e40f41c2c047c41fd02b107bc87c41bd4a10c01d5960837197e3d83402",
+      "used_by": [
+        "climate-all",
+        "climate-harbour"
+      ]
+    },
+    {
+      "kind": "skill_or_knowledge",
+      "path": "knowledge/v2/domains/CLI/units/KU-CLI-065.json",
+      "sha256": "d8465ab9b44446c9443d4d651141eecb5d91266238373b2d7b9e8f963cf4611f",
+      "used_by": [
+        "climate-all",
+        "climate-harbour"
+      ]
+    },
+    {
+      "kind": "skill_or_knowledge",
+      "path": "knowledge/v2/domains/CLI/units/KU-CLI-066.json",
+      "sha256": "09630d230957225d6f2316a9a10ef8cc627425691e10100036f70bb006f67a07",
+      "used_by": [
+        "climate-all",
+        "climate-harbour"
+      ]
+    },
+    {
+      "kind": "skill_or_knowledge",
+      "path": "knowledge/v2/domains/CLI/units/KU-CLI-068.json",
+      "sha256": "5dfca3de6e362dd686345900f0a10df4ad471522f784ce758a5cd2bdfb89644d",
+      "used_by": [
+        "climate-all",
+        "climate-harbour"
+      ]
+    },
+    {
+      "kind": "skill_or_knowledge",
+      "path": "knowledge/v2/domains/CLI/units/KU-CLI-072.json",
+      "sha256": "476ceabf359afb0fd24839a31cdeda9b3006026f4fe4e124d84f04527b74e55e",
+      "used_by": [
+        "climate-all",
+        "climate-harbour"
+      ]
+    },
+    {
+      "kind": "skill_or_knowledge",
+      "path": "knowledge/v2/domains/MOR/units/KU-MOR-009.json",
+      "sha256": "e06160687fed14d0160ee199b0f8802344d20730b1dac72bfbae363dd70701a1",
+      "used_by": [
+        "site-current"
+      ]
+    },
+    {
+      "kind": "skill_or_knowledge",
+      "path": "knowledge/v2/domains/MOR/units/KU-MOR-011.json",
+      "sha256": "32c777c9dd4036aa0115aaa4db256deb3f7ca5a24baba02cd5c85cfc5858b808",
+      "used_by": [
+        "site-current"
+      ]
+    },
+    {
+      "kind": "skill_or_knowledge",
+      "path": "knowledge/v2/domains/MOR/units/KU-MOR-013.json",
+      "sha256": "08d833a39a97ca13f98b0acd41b6b103ec7219f79775754404ce28bef1720324",
+      "used_by": [
+        "site-current"
+      ]
+    },
+    {
+      "kind": "skill_or_knowledge",
+      "path": "knowledge/v2/domains/MOR/units/KU-MOR-015.json",
+      "sha256": "3911406f5b50c73e3b2c0cfa5397300c4e77fa1cca25230a72f85459dc5a4e23",
+      "used_by": [
+        "site-current"
+      ]
+    },
+    {
+      "kind": "skill_or_knowledge",
+      "path": "knowledge/v2/domains/MOR/units/KU-MOR-023.json",
+      "sha256": "25d1e3a436b4c00b77517f3e7bac520e366eccf9c35ff04354d74803f743747c",
+      "used_by": [
+        "compare-all",
+        "compare-courtyard"
+      ]
+    },
+    {
+      "kind": "skill_or_knowledge",
+      "path": "knowledge/v2/domains/MOR/units/KU-MOR-028.json",
+      "sha256": "9a9f29bfe84b4db84e5582828c74c523c6b5636c709aa6cfe8941d972b654f1e",
+      "used_by": [
+        "compare-all",
+        "compare-courtyard"
+      ]
+    },
+    {
+      "kind": "skill_or_knowledge",
+      "path": "knowledge/v2/domains/MOR/units/KU-MOR-031.json",
+      "sha256": "928c29806a220c767a199ac17bbd0069ecada24f10ab713304bdc453a2d89b09",
+      "used_by": [
+        "compare-all",
+        "compare-courtyard"
+      ]
+    },
+    {
+      "kind": "skill_or_knowledge",
+      "path": "knowledge/v2/domains/MOR/units/KU-MOR-033.json",
+      "sha256": "e138143a913ec8e86a0b3e1cc81b1264ba7f6b0da776de7da66541add32ab5d4",
+      "used_by": [
+        "compare-all",
+        "compare-courtyard"
+      ]
+    },
+    {
+      "kind": "skill_or_knowledge",
+      "path": "knowledge/v2/domains/MOR/units/KU-MOR-035.json",
+      "sha256": "38184dc52b9a019f54a9b93878a77adfb0f823fde9fffdb1311a9a7435b69ceb",
+      "used_by": [
+        "compare-all",
+        "compare-courtyard"
+      ]
+    },
+    {
+      "kind": "skill_or_knowledge",
+      "path": "knowledge/v2/domains/MOR/units/KU-MOR-036.json",
+      "sha256": "204eeca884ab584eba95340778854bcca5f8a201a943c2f5fb76d8640d021cc1",
+      "used_by": [
+        "climate-all",
+        "climate-harbour"
+      ]
+    },
+    {
+      "kind": "skill_or_knowledge",
+      "path": "knowledge/v2/domains/MOR/units/KU-MOR-037.json",
+      "sha256": "2fc1d8fa46aa45051a219a30d3acc04f3f0d53a4fd875897200836a52213fc98",
+      "used_by": [
+        "climate-all",
+        "climate-harbour"
+      ]
+    },
+    {
+      "kind": "skill_or_knowledge",
+      "path": "knowledge/v2/domains/MOR/units/KU-MOR-038.json",
+      "sha256": "ea9e07a99862b05b4280068b2e737e1945f089e992dc4cae06a71a9c0f672272",
+      "used_by": [
+        "climate-all",
+        "climate-harbour"
+      ]
+    },
+    {
+      "kind": "skill_or_knowledge",
+      "path": "knowledge/v2/domains/MOR/units/KU-MOR-039.json",
+      "sha256": "f2ca52214d4b475b13a957e11624e88af2093e27cb3baac53e2cdaf277d61d4f",
+      "used_by": [
+        "compare-all",
+        "compare-courtyard"
+      ]
+    },
+    {
+      "kind": "skill_or_knowledge",
+      "path": "knowledge/v2/domains/MOR/units/KU-MOR-041.json",
+      "sha256": "f08c4139bcedb26738f694633fbdc1cdab0b2a08e03a55f745892e0e3b7889c0",
+      "used_by": [
+        "compare-all",
+        "compare-courtyard"
+      ]
+    },
+    {
+      "kind": "skill_or_knowledge",
+      "path": "knowledge/v2/domains/MOR/units/KU-MOR-043.json",
+      "sha256": "8c261ea04861151228d95b30ae346485895ccb28dc55ea6babc0dbdbc456c63e",
+      "used_by": [
+        "compare-all",
+        "compare-courtyard"
+      ]
+    },
+    {
+      "kind": "skill_or_knowledge",
+      "path": "knowledge/v2/domains/MOR/units/KU-MOR-047.json",
+      "sha256": "06cfcd8b8b6c4cf7b15895e5ee236114d1aaaf0382bf13fefc4e45e6305da834",
+      "used_by": [
+        "compare-all",
+        "compare-courtyard"
+      ]
+    },
+    {
+      "kind": "skill_or_knowledge",
+      "path": "knowledge/v2/domains/MOR/units/KU-MOR-049.json",
+      "sha256": "184c0066407a934dc722f4cf9151f2e29ceade0ed0ef2776b56bbb4755be3801",
+      "used_by": [
+        "compare-all",
+        "compare-courtyard"
+      ]
+    },
+    {
+      "kind": "skill_or_knowledge",
+      "path": "knowledge/v2/domains/MOR/units/KU-MOR-051.json",
+      "sha256": "e5fc81a07ed59456037e3310c6b08b70f49fa1ad523d39c7b148a49d35c4dd78",
+      "used_by": [
+        "compare-all",
+        "compare-courtyard"
+      ]
+    },
+    {
+      "kind": "skill_or_knowledge",
+      "path": "knowledge/v2/domains/MOR/units/KU-MOR-079.json",
+      "sha256": "c3e9a0346f4e143a623a576f000c2bdde7d2c56cfd9ca6548a274161565965d5",
+      "used_by": [
+        "compare-all",
+        "compare-courtyard"
+      ]
+    },
+    {
+      "kind": "skill_or_knowledge",
+      "path": "knowledge/v2/domains/MOR/units/KU-MOR-080.json",
+      "sha256": "650381aca1f02b8351e8320e3d273efa53e59e0a5bcc7f1ae4d0e52b36344588",
+      "used_by": [
+        "compare-all",
+        "compare-courtyard"
+      ]
+    },
+    {
+      "kind": "skill_or_knowledge",
+      "path": "knowledge/v2/domains/MOR/units/KU-MOR-083.json",
+      "sha256": "7d132c6841af4a2deb271c16b475c1c41c97b40bb7207ffa9669ec58259d9191",
+      "used_by": [
+        "compare-all",
+        "compare-courtyard",
+        "site-current"
+      ]
+    },
+    {
+      "kind": "skill_or_knowledge",
+      "path": "knowledge/v2/domains/MOR/units/KU-MOR-084.json",
+      "sha256": "bdf554eff37ce7e3ce0e1dbd93dceba3603fb18a4c995640874f4f43d3bf0098",
+      "used_by": [
+        "compare-all",
+        "compare-courtyard",
+        "site-current"
+      ]
+    },
+    {
+      "kind": "skill_or_knowledge",
+      "path": "knowledge/v2/domains/MOR/units/KU-MOR-088.json",
+      "sha256": "6e780a29a9059faa46655eb08db1f9b3ec255c6eadecded1a98e6ff360f868b8",
+      "used_by": [
+        "site-current"
+      ]
+    },
+    {
+      "kind": "skill_or_knowledge",
+      "path": "knowledge/v2/domains/MOR/units/KU-MOR-090.json",
+      "sha256": "cb2f280484ee98a67c445f6bdbb02a3e4fa600ae6572a029b79ba826043dc44a",
+      "used_by": [
+        "compare-all",
+        "compare-courtyard",
+        "site-current"
+      ]
+    },
+    {
+      "kind": "skill_or_knowledge",
+      "path": "knowledge/v2/domains/MOR/units/KU-MOR-091.json",
+      "sha256": "443e69565b7bdf6fcee0e6eda384b16a622b9dd7d604ec35747c15a58315fcdf",
+      "used_by": [
+        "compare-all",
+        "compare-courtyard",
+        "site-current"
+      ]
+    },
+    {
+      "kind": "skill_or_knowledge",
+      "path": "knowledge/v2/domains/MOR/units/KU-MOR-100.json",
+      "sha256": "3c3b75bc3f681ff7c9c715b4f8d2232e1e3a460e2971dd724fa3ae5831f2d86f",
+      "used_by": [
+        "compare-all",
+        "compare-courtyard"
+      ]
+    },
+    {
+      "kind": "skill_or_knowledge",
+      "path": "knowledge/v2/domains/MOR/units/KU-MOR-101.json",
+      "sha256": "2890b96fc882939d147423ad77427c74d4a66c860230459f985a6e083f063017",
+      "used_by": [
+        "compare-all",
+        "compare-courtyard"
+      ]
+    },
+    {
+      "kind": "skill_or_knowledge",
+      "path": "knowledge/v2/domains/MOR/units/KU-MOR-102.json",
+      "sha256": "6d2dfe4a6cab2fceb9326150c4b4a559a22514d8e0bf7c1bb14e1d86a35a388a",
+      "used_by": [
+        "compare-all",
+        "compare-courtyard"
+      ]
+    },
+    {
+      "kind": "skill_or_knowledge",
+      "path": "knowledge/v2/domains/MOR/units/KU-MOR-103.json",
+      "sha256": "e65548be4b2ccac511287c12da2f8ad73d8b2302fb47f994e0e53445a039476a",
+      "used_by": [
+        "compare-all",
+        "compare-courtyard"
+      ]
+    },
+    {
+      "kind": "skill_or_knowledge",
+      "path": "knowledge/v2/domains/PUB/units/KU-PUB-009.json",
+      "sha256": "258ceba45f2ef3e1927b41e02de7ace01b165bee90ded5b20440ea6560842389",
+      "used_by": [
+        "compare-all",
+        "compare-courtyard",
+        "site-current"
+      ]
+    },
+    {
+      "kind": "skill_or_knowledge",
+      "path": "knowledge/v2/domains/PUB/units/KU-PUB-012.json",
+      "sha256": "8ff93382b3b82f38fed353910a46d707bc459f03809d7e329b677a09a51a788e",
+      "used_by": [
+        "site-current"
+      ]
+    },
+    {
+      "kind": "skill_or_knowledge",
+      "path": "knowledge/v2/domains/PUB/units/KU-PUB-013.json",
+      "sha256": "20e31b6182c83b00d6cdf184f51f8ab485bb88235546976b3c86264f9e654eda",
+      "used_by": [
+        "compare-all",
+        "compare-courtyard",
+        "site-current"
+      ]
+    },
+    {
+      "kind": "skill_or_knowledge",
+      "path": "knowledge/v2/domains/PUB/units/KU-PUB-027.json",
+      "sha256": "09b8f9aaf668381ba6591f390f6a724a941f648e7e6c40268ad7f28aaf7eccbf",
+      "used_by": [
+        "compare-all",
+        "compare-courtyard"
+      ]
+    },
+    {
+      "kind": "skill_or_knowledge",
+      "path": "knowledge/v2/domains/PUB/units/KU-PUB-029.json",
+      "sha256": "0b348f8008625c5fcc3c7262681dbe1563e8058191ae795074dad4158e83cb88",
+      "used_by": [
+        "compare-all",
+        "compare-courtyard"
+      ]
+    },
+    {
+      "kind": "skill_or_knowledge",
+      "path": "knowledge/v2/domains/SYN/units/KU-SYN-009.json",
+      "sha256": "f612d0d15535052fd060c9fc4bda364f3c1d0200e4190f901d7fddc5489abb75",
+      "used_by": [
+        "compare-all",
+        "compare-courtyard",
+        "site-current"
+      ]
+    },
+    {
+      "kind": "skill_or_knowledge",
+      "path": "knowledge/v2/domains/SYN/units/KU-SYN-010.json",
+      "sha256": "b4cc9f01567802f597085043d88e2505b37fe83cd4bbd33f9a129e27448aa3aa",
+      "used_by": [
+        "compare-all",
+        "compare-courtyard",
+        "site-current"
+      ]
+    },
+    {
+      "kind": "skill_or_knowledge",
+      "path": "knowledge/v2/domains/SYN/units/KU-SYN-012.json",
+      "sha256": "901cc745952394c892f7ff949a09af553dca589b90f04e62685d5bea1c5d10f9",
+      "used_by": [
+        "compare-all",
+        "compare-courtyard",
+        "site-current"
+      ]
+    },
+    {
+      "kind": "skill_or_knowledge",
+      "path": "knowledge/v2/domains/SYN/units/KU-SYN-014.json",
+      "sha256": "dd29ad06a26391b7f20b166956b7b54a755538a10dcef1e88310e7afdc3bcb96",
+      "used_by": [
+        "compare-all",
+        "compare-courtyard",
+        "site-current"
+      ]
+    },
+    {
+      "kind": "skill_or_knowledge",
+      "path": "knowledge/v2/domains/SYN/units/KU-SYN-019.json",
+      "sha256": "59c4e840c2719a19eb6aef1ade849ffbd254ebf8593f2563f1328c873c5ae957",
+      "used_by": [
+        "compare-all",
+        "compare-courtyard"
+      ]
+    },
+    {
+      "kind": "skill_or_knowledge",
+      "path": "knowledge/v2/domains/SYN/units/KU-SYN-021.json",
+      "sha256": "68fb0c557baf4c5388074f9d23072eab7acff5d0cb3b4946875426bbd6ec98e1",
+      "used_by": [
+        "compare-all",
+        "compare-courtyard"
+      ]
+    },
+    {
+      "kind": "skill_or_knowledge",
+      "path": "knowledge/v2/domains/SYN/units/KU-SYN-057.json",
+      "sha256": "99516429b104c239978b0223a6462c51285a9807ec2fbc9ad2f57f3ba6a39109",
+      "used_by": [
+        "compare-all",
+        "compare-courtyard",
+        "site-current"
+      ]
+    },
+    {
+      "kind": "skill_or_knowledge",
+      "path": "knowledge/v2/domains/SYN/units/KU-SYN-061.json",
+      "sha256": "d612792e85bbb8fa6cf67ac472d1ea5b8e445aa5ab70af58e68118a53990553d",
+      "used_by": [
+        "compare-all",
+        "compare-courtyard",
+        "site-current"
+      ]
+    },
+    {
+      "kind": "skill_or_knowledge",
+      "path": "knowledge/v2/domains/SYN/units/KU-SYN-068.json",
+      "sha256": "f9c3e6ef753182b011b0a10772d3f3810405819522e47b9752dc507b5ddb704b",
+      "used_by": [
+        "site-current"
+      ]
+    },
+    {
+      "kind": "skill_or_knowledge",
+      "path": "knowledge/v2/domains/SYN/units/KU-SYN-069.json",
+      "sha256": "c4efb66ccb054cb7609018b8e97b3778b4ad8a555ab91ebbadbe0091d1750423",
+      "used_by": [
+        "site-current"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "id": "KU-LUP-015",
+  "domain": "LUP",
+  "subtopic": "相容與衝突：工業與住宅介面",
+  "type": "empirical_finding",
+  "title_zh": "混合用途的房價效果依用途和住宅型態變動",
+  "title_en": "Mixed land use and property value",
+  "summary_zh": "價格不是健康或公平的代理；研究也指出只有公寓住戶較願為多樣性付費。 按用途種類和住戶型態拆分混合效果。 研究設計：半參數住宅價值估計；地區：荷蘭。 限制：價格不是健康或公平的代理；研究也指出只有公寓住戶較願為多樣性付費。",
+  "key_points_zh": [
+    "荷蘭估計中混合街區住宅平均約有 2.5% 價值溢價，但製造和批發用途可與住宅價值呈負向相容性。",
+    "研究設計：半參數住宅價值估計；地區：荷蘭",
+    "限制：價格不是健康或公平的代理；研究也指出只有公寓住戶較願為多樣性付費。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "荷蘭估計中混合街區住宅平均約有 2.5% 價值溢價，但製造和批發用途可與住宅價值呈負向相容性。",
+        "effect_or_value": "荷蘭房價平均約 +2.5%；效果在住宅型態間異質",
+        "study_design": "半參數住宅價值估計",
+        "context_region": "荷蘭",
+        "library_id": "KOSTER2012",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "按用途種類和住戶型態拆分混合效果。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "按用途種類和住戶型態拆分混合效果。",
+      "tradeoff_zh": "此選項把「混合用途的房價效果依用途和住宅型態變動」的工作放在荷蘭估計中混合街區住宅平均約有 2.5% 價值溢價，但製造和批發用途可與住宅價值呈負向相容性上；需要承擔的協調或維護代價則由「價格不是健康或公平的代理；研究也指出只有公寓住戶較願為多樣性付費」界定。",
+      "library_ids": [
+        "KOSTER2012",
+        "BOGOTA17"
+      ]
+    },
+    {
+      "option_zh": "在「混合用途的房價效果依用途和住宅型態變動」的來源情境裡，緩衝、垂直分層、共享裝卸和時間管理是不同的介面策略；落到設計時還要按荷蘭估計中混合街區住宅平均約有 2.5% 價值溢價，但製造和批發用途可與住宅價值呈負向相容性調整。",
+      "tradeoff_zh": "此選項把「混合用途的房價效果依用途和住宅型態變動」的工作放在荷蘭估計中混合街區住宅平均約有 2.5% 價值溢價，但製造和批發用途可與住宅價值呈負向相容性上；需要承擔的協調或維護代價則由「價格不是健康或公平的代理；研究也指出只有公寓住戶較願為多樣性付費」界定。",
+      "library_ids": [
+        "KOSTER2012",
+        "BOGOTA17"
+      ]
+    }
+  ],
+  "applies_when_zh": "用於與荷蘭研究情境可比、且量測定義相近的分析。",
+  "not_applicable_when_zh": "價格不是健康或公平的代理；研究也指出只有公寓住戶較願為多樣性付費。",
+  "debates_zh": "價格不是健康或公平的代理；研究也指出只有公寓住戶較願為多樣性付費。",
+  "sources": [
+    {
+      "library_id": "KOSTER2012",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "BOGOTA17",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "土地經濟與用途混合；拉美可及性與公平",
+  "region": "荷蘭住宅市場；哥倫比亞",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Planning Complex Cities",
+      "topic": "相容與衝突：工業與住宅介面"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Cities by Design",
+      "topic": "相容與衝突：工業與住宅介面"
+    },
+    {
+      "school": "MIT",
+      "course": "11.301J Introduction to Urban Design and Development",
+      "topic": "相容與衝突：工業與住宅介面"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Sustainable Futures by Design",
+      "topic": "相容與衝突：工業與住宅介面"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-LUP-008",
+    "KU-LUP-009",
+    "KU-LUP-010"
+  ],
+  "counter_unit_ids": [
+    "KU-LUP-012"
+  ]
+}

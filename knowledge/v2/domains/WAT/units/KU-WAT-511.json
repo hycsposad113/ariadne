@@ -1,0 +1,94 @@
+{
+  "id": "KU-WAT-511",
+  "domain": "WAT",
+  "subtopic": "城市水管理與氣候調適",
+  "type": "regulation_profile",
+  "title_zh": "鹿特丹Waterplan、水廣場與Rotterdams Weerwoord",
+  "title_en": "Rotterdam Waterplan, water squares and climate adaptation",
+  "summary_zh": "鹿特丹公開水務頁面將Waterplan 2置於市府與水務機關合作的城市水管理脈絡，並以水廣場說明公共空間可在豪雨時暫存雨水、平時承載日常活動。Rotterdams Weerwoord是市級氣候調適合作計畫，面對熱、暴雨和乾旱等風險。公開摘要足以支持策略方向，但完整Waterplan文件需向市府取得，不能將未讀內容當成已核實細節。這是鹿特丹政策與案例，不是M4H本基地法規；設計上可把蓄水、公共空間、熱舒適與維護安排放在同一套方案中評估。",
+  "key_points_zh": [
+    "Waterplan 2由市府與水務機關共同形成城市水務規劃脈絡。",
+    "水廣場可於降雨時暫存水，日常時仍作公共空間使用。",
+    "Rotterdams Weerwoord以城市合作方式推動氣候調適。",
+    "完整Waterplan全文未在本次公開頁面取得，因此未摘錄未核實的工程數值。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "市府公開頁說明Waterplan 2的水務合作背景，完整文件須透過市府流程取得。",
+        "effect_or_value": null,
+        "study_design": "法規／官方政策或實務指引內容核對",
+        "context_region": "荷蘭鹿特丹",
+        "library_id": "ROTTERDAM_WATERPLAN2",
+        "locator": "Waterplan 2官方摘要",
+        "claim_verification": "OFFICIAL_PRIMARY_SOURCE_REVIEW"
+      },
+      {
+        "claim_zh": "市府以水廣場說明公共空間在豪雨暫存雨水、平時提供公共使用。",
+        "effect_or_value": null,
+        "study_design": "法規／官方政策或實務指引內容核對",
+        "context_region": "荷蘭鹿特丹",
+        "library_id": "ROTTERDAM_WATERSQUARE",
+        "locator": "公共水廣場與暫存水功能",
+        "claim_verification": "OFFICIAL_PRIMARY_SOURCE_REVIEW"
+      },
+      {
+        "claim_zh": "市府氣候調適計畫以合作方式處理熱、暴雨與乾旱等城市風險。",
+        "effect_or_value": null,
+        "study_design": "法規／官方政策或實務指引內容核對",
+        "context_region": "荷蘭鹿特丹",
+        "library_id": "ROTTERDAM_WEERWOORD",
+        "locator": "城市氣候調適計畫",
+        "claim_verification": "OFFICIAL_PRIMARY_SOURCE_REVIEW"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "在公共空間設計中標出雨水暫存位置、溢流路徑、日常使用面和維護責任。",
+    "把熱、暴雨、乾旱的適應策略與地面材料、植栽、建築入口及水務合作一併檢核。"
+  ],
+  "applies_when_zh": "用於理解鹿特丹水管理與氣候調適公開策略及水廣場案例。",
+  "not_applicable_when_zh": "不能把城市級策略直接視為M4H特定排水規範或替代基地水文計算。",
+  "debates_zh": "公開摘要不等於完整Waterplan及地區設計規範；蓄水容量和設計暴雨值須由正式技術文件及基地分析確認。",
+  "sources": [
+    {
+      "library_id": "ROTTERDAM_WATERPLAN2",
+      "claim_id": "C1",
+      "locator": "Waterplan 2官方摘要"
+    },
+    {
+      "library_id": "ROTTERDAM_WATERSQUARE",
+      "claim_id": "C1",
+      "locator": "公共水廣場與暫存水功能"
+    },
+    {
+      "library_id": "ROTTERDAM_WEERWOORD",
+      "claim_id": "C1",
+      "locator": "城市氣候調適計畫"
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+  "tradition": "城市水務與氣候調適實務",
+  "region": "荷蘭鹿特丹",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "topic": "城市水管理與氣候調適"
+    },
+    {
+      "school": "Harvard GSD",
+      "topic": "城市水管理與氣候調適"
+    },
+    {
+      "school": "MIT",
+      "topic": "城市水管理與氣候調適"
+    },
+    {
+      "school": "UCL Bartlett",
+      "topic": "城市水管理與氣候調適"
+    }
+  ],
+  "version": "kb2-policy-2026-10-08"
+}

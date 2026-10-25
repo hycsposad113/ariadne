@@ -1,0 +1,61 @@
+{
+  "id": "KU-ECO-018",
+  "domain": "ECO",
+  "subtopic": "生態網絡與連結度",
+  "type": "typology",
+  "title_zh": "生態與步行網絡分層繪製",
+  "title_en": "Separate ecological and walking networks",
+  "summary_zh": "行人需要安全、照明和目的地，許多動物則需要低干擾和遮蔽。兩張網絡圖有助看出可協同或衝突的位置。部分物種會使用人類活動邊緣，分層並不代表完全分隔。分開表示有利於比較，亦需要避免造成僵硬分區。",
+  "key_points_zh": [
+    "行人需要安全、照明和目的地，許多動物則需要低干擾和遮蔽",
+    "兩張網絡圖有助看出可協同或衝突的位置"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "行人需要安全、照明和目的地，許多動物則需要低干擾和遮蔽。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "澳洲",
+        "library_id": "NORTON15",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "分開表示有利於比較，亦需要避免造成僵硬分區。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "在交界處設計緩衝和活動管理，並以監測調整。"
+  ],
+  "applies_when_zh": "適用於多功能綠道設計。",
+  "not_applicable_when_zh": "不應讓休閒連接自動凌駕生態需求。",
+  "debates_zh": "分開表示有利於比較，亦需要避免造成僵硬分區。",
+  "sources": [
+    {
+      "library_id": "NORTON15",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "GRIMM08",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "氣候調適與綠色基礎設施",
+  "region": "澳洲",
+  "curriculum_refs": [
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "生態網絡與連結度"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-ECO-017",
+    "KU-ECO-019"
+  ]
+}

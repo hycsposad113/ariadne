@@ -1,0 +1,79 @@
+{
+  "id": "KU-HAR-042",
+  "type": "value_range",
+  "subtopic": "街道與交通案例",
+  "title_zh": "巴塞隆納 Eixample 超級街區以約 400 公尺網格為基本單元",
+  "title_en": "Barcelona Eixample Superblocks Use an Approximate 400-Metre Grid",
+  "summary_zh": "有關超級街區的研究描述 Eixample 典型單元約為 400 公尺乘 400 公尺，但也明確指出其他街區會因城市網格不同而調整。此尺寸是當地道路組織和試點模型的參考，不是任何城市皆適用的街廓規格。研究也把交通安寧、公交停靠和外圍幹道分層處理，避免只用幾何網格說明模式。",
+  "values": [
+    {
+      "name": "Eixample典型超級街區單元",
+      "range": "約400 × 400",
+      "unit": "公尺",
+      "context": "用途：以「Eixample典型超級街區單元」作為來源情境參照；巴塞隆納Eixample正交網格中的超級街區規劃模型；其他區域可變，且不是本基地法規。",
+      "library_id": "MUELLER2020SUPERBLOCK"
+    }
+  ],
+  "key_points_zh": [
+    "超級街區尺度要連同內部和外圍道路層級一起讀。",
+    "Eixample尺寸不能直接移植到其他街道肌理。"
+  ],
+  "design_implications_zh": [
+    "先辨認既有街網尺度和公共交通，再試算交通安寧單元。"
+  ],
+  "applies_when_zh": "研究城市街道重新分配與超級街區交通層級時。",
+  "not_applicable_when_zh": "街網非正交或地形與地塊形狀要求不同網格時。",
+  "debates_zh": "模型研究中的健康效益受人口暴露和情境假設影響；道路重分配的公平性也需另行檢查。",
+  "tradition": "巴塞隆納街道再分配／公共健康研究",
+  "region": "西班牙巴塞隆納",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": null,
+      "topic": "Street networks and mobility"
+    },
+    {
+      "school": "MIT",
+      "course": null,
+      "topic": "Urban form and environmental outcomes"
+    }
+  ],
+  "domain": "HAR",
+  "evidence": {
+    "strength": "CASE_EVIDENCE",
+    "findings": [
+      {
+        "claim_zh": "研究文中列出Eixample的超級街區約400乘400公尺，並說明其他網格可能偏離。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "西班牙巴塞隆納",
+        "library_id": "MUELLER2020SUPERBLOCK",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "巴塞隆納與首爾更新的比較研究提供城市空間治理與社會永續的比較脈絡。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "西班牙巴塞隆納",
+        "library_id": "KRIZNIK2018",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "library_id": "MUELLER2020SUPERBLOCK",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "KRIZNIK2018",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "version": "v2.0"
+}

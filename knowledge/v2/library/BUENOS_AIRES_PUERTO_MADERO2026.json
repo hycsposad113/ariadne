@@ -1,0 +1,42 @@
+{
+  "id": "BUENOS_AIRES_PUERTO_MADERO2026",
+  "title": "Puerto Madero",
+  "authors": [
+    "Government of the City of Buenos Aires"
+  ],
+  "year": null,
+  "venue_or_publisher": "Government of the City of Buenos Aires",
+  "doi": null,
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "OFFICIAL_CITY_WEBPAGE",
+  "tradition": "官方或專業機構公開頁面；直接來源核對",
+  "region": "阿根廷布宜諾斯艾利斯",
+  "method": "直接檢視官方或專業機構公開頁面；非獨立學術成效評估",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "市府街區介紹記錄 1989 年舊港區更新及約 170 公頃規劃，並描述舊倉庫改作住宅、辦公、餐飲和教育用途。",
+      "strength": "CASE_EVIDENCE",
+      "scope_zh": "街區介紹含城市宣傳語調；用途發展不等同於可負擔性或空間公平的實證證明。",
+      "assessment_basis": "DIRECT_SOURCE_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Official webpage or public report (direct review)",
+    "query": {
+      "title": "Puerto Madero",
+      "author": "Government of the City of Buenos Aires",
+      "year": null,
+      "api_query": "Read-only page reviewed directly: https://buenosaires.gob.ar/gcaba_historico/laciudad/barrios/puerto-madero"
+    },
+    "matched_record_id": "https://buenosaires.gob.ar/gcaba_historico/laciudad/barrios/puerto-madero",
+    "checked_at_utc": "2026-10-08T14:27:24Z",
+    "match_notes_zh": "直接核對機構公開頁面或報告；此狀態不是 Crossref 書目驗證。"
+  },
+  "limitations_zh": "街區介紹含城市宣傳語調；用途發展不等同於可負擔性或空間公平的實證證明。",
+  "critique_relationship_zh": "本記錄不宣稱與其他書目存在直接互引或逐一反駁關係。",
+  "metadata_licence_zh": "官方或機構公開資料；個別文本的再利用授權未核驗。"
+}

@@ -1,0 +1,118 @@
+{
+  "id": "KU-WAT-052",
+  "domain": "WAT",
+  "subtopic": "雨水滯留量的設計值",
+  "type": "value_range",
+  "title_zh": "藍綠屋頂設計要標明每平方米滯蓄指標",
+  "title_en": "藍綠屋頂設計要標明每平方米滯蓄指標",
+  "summary_zh": "雨水滯留量通常以毫米雨深換算到匯水面積，便於比較場地的蓄存需求。Oosterhout 條例在其適用情況要求每平方米不透水面積處理至少 40 毫米；Nieuwegein 對住宅地塊要求在 70 毫米／小時情境中保留至少 50 毫米。兩個數字來自不同地方制度，不代表荷蘭全國通則。",
+  "key_points_zh": [
+    "公升每平方米可換算為等效水深，但需交代淨有效容量。",
+    "可控排放與被動滯留是不同設計指標。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "library_id": "OOSTERHOUT_HEMELWATER2023",
+        "claim_zh": "Oosterhout 2023 雨水條例在適用條件下要求每平方公尺不透水面積至少處理 40 mm 雨水，且以 70 mm/h 強降雨檢查不得使水流入鄰近建築；一般蓄水需在一天內排空。",
+        "claim_verification": "OFFICIAL_PRIMARY_SOURCE_REVIEW",
+        "effect_or_value": "至少 40",
+        "study_design": "地方政府法規文本",
+        "context_region": "Oosterhout, Nederland",
+        "locator": "Verordening Hemelwater 2023, Article 7, lines 319–341"
+      },
+      {
+        "library_id": "NIEUWEGEIN_OMGEVINGSPLAN",
+        "claim_zh": "Nieuwegein 規定適用建築地塊需在 70 mm/h 事件中保留或處理至少 50 mm，前 24 小時維持蓄水且最遲 60 小時恢復容量；另要求處理平均年雨量 936 mm 的至少一半。",
+        "claim_verification": "OFFICIAL_PRIMARY_SOURCE_REVIEW",
+        "effect_or_value": "至少 50",
+        "study_design": "地方政府規劃法規文本",
+        "context_region": "Nieuwegein, Nederland",
+        "locator": "Omgevingsplan, Article 5.15, lines 1539–1551; explanatory text lines 8448–8456"
+      },
+      {
+        "library_id": "BERNDTSSON2010",
+        "claim_zh": "書目確認本文題名聚焦「Green roof performance towards management of runoff water quantity and quality: A review」；目前只完成作者、年份、題名與 DOI 核對，未將摘要或全文結論納入此記錄；本單元 KU-WAT-052 對照「雨水滯留量通常以毫米雨深換算到匯水面積，便於比較場地的蓄存需求」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "文獻回顧；目前僅核對書目範圍",
+        "context_region": "跨地域",
+        "locator": null
+      },
+      {
+        "library_id": "MENTENS2006",
+        "claim_zh": "書目確認本文題名聚焦「Green roofs as a tool for solving the rainwater runoff problem in the urbanized 21st century；」；目前只完成作者、年份、題名與 DOI 核對，未將摘要或全文結論納入此記錄；本單元 KU-WAT-052 對照「雨水滯留量通常以毫米雨深換算到匯水面積，便於比較場地的蓄存需求」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "文獻回顧；目前僅核對書目範圍",
+        "context_region": "比利時都市",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "同時列出儲量、排放控制方式及暴雨前水位。",
+    "查核屋面結構和防水層是否承受設計荷載。"
+  ],
+  "applies_when_zh": "適用於藍綠屋頂的方案比選。",
+  "not_applicable_when_zh": "未取得結構和出流資料時不作工程定案。",
+  "debates_zh": "規範對面積計算、適用建築和排空時限的界定不同；換算前需確認匯水範圍與重複計入的屋面降雨。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "OOSTERHOUT_HEMELWATER2023",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "NIEUWEGEIN_OMGEVINGSPLAN",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "BERNDTSSON2010",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "MENTENS2006",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "屋頂雨水系統參數",
+  "region": "英國與國際經驗；澳洲",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "雨水滯留量的設計值"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Sustainable Futures by Design",
+      "topic": "雨水滯留量的設計值"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0",
+  "values": [
+    {
+      "name": "Oosterhout 不透水面雨水處理量",
+      "range": "至少 40",
+      "unit": "mm per m² impervious area",
+      "context": "用途：以「Oosterhout 不透水面雨水處理量」作為來源情境參照；Oosterhout 條例在可入滲且需設蓄水的適用情況下採用；這不是本基地法規；來源所列地域：Oosterhout, Nederland。",
+      "library_id": "OOSTERHOUT_HEMELWATER2023"
+    },
+    {
+      "name": "Nieuwegein 場地雨水滯留深度",
+      "range": "至少 50",
+      "unit": "mm per m² site area",
+      "context": "用途：以「Nieuwegein 場地雨水滯留深度」作為來源情境參照；Nieuwegein 適用住宅地塊面對 70 mm/h 事件的保留、入滲或蓄存要求；這不是本基地法規；來源所列地域：Nieuwegein, Nederland。",
+      "library_id": "NIEUWEGEIN_OMGEVINGSPLAN"
+    }
+  ]
+}

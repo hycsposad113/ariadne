@@ -1,0 +1,845 @@
+{
+  "version": "0.2.0",
+  "status": "PENDING_FOUNDER_REVIEW",
+  "relevance_basis_zh": "依 S1 蒐集、S2 診斷、S3 策略、S4 路網、S5 圖重算、S6 量體、S7 驗證、S8 說明職責標定；N/A 不是已有工具實作或通過驗收。",
+  "stages": {
+    "S1": {
+      "context_response": {
+        "relevant": false,
+        "card_ids": [],
+        "reason_zh": "S1 只蒐集範圍及資料，設計與環境解讀從 S2 開始。"
+      },
+      "land_use": {
+        "relevant": true,
+        "card_ids": [
+          "LAN-002",
+          "LAN-010"
+        ],
+        "reason_zh": null
+      },
+      "mobility": {
+        "relevant": false,
+        "card_ids": [],
+        "reason_zh": "S1 只蒐集範圍及資料，設計與環境解讀從 S2 開始。"
+      },
+      "morphology": {
+        "relevant": false,
+        "card_ids": [],
+        "reason_zh": "S1 只蒐集範圍及資料，設計與環境解讀從 S2 開始。"
+      },
+      "policy": {
+        "relevant": true,
+        "card_ids": [
+          "POL-001",
+          "POL-002",
+          "POL-003",
+          "POL-004"
+        ],
+        "reason_zh": null
+      },
+      "portfolio": {
+        "relevant": false,
+        "card_ids": [],
+        "reason_zh": "S1 只蒐集範圍及資料，設計與環境解讀從 S2 開始。"
+      },
+      "public_space": {
+        "relevant": false,
+        "card_ids": [],
+        "reason_zh": "S1 只蒐集範圍及資料，設計與環境解讀從 S2 開始。"
+      },
+      "space_syntax": {
+        "relevant": false,
+        "card_ids": [],
+        "reason_zh": "S1 只蒐集範圍及資料，設計與環境解讀從 S2 開始。"
+      }
+    },
+    "S2": {
+      "context_response": {
+        "relevant": true,
+        "card_ids": [
+          "CTX-001",
+          "CTX-002",
+          "CTX-003",
+          "CTX-004",
+          "CTX-005",
+          "CTX-006",
+          "CTX-007"
+        ],
+        "reason_zh": null
+      },
+      "land_use": {
+        "relevant": true,
+        "card_ids": [
+          "LAN-001",
+          "LAN-002",
+          "LAN-003",
+          "LAN-004",
+          "LAN-005",
+          "LAN-006",
+          "LAN-007",
+          "LAN-008",
+          "LAN-009",
+          "LAN-010"
+        ],
+        "reason_zh": null
+      },
+      "mobility": {
+        "relevant": true,
+        "card_ids": [
+          "MOB-001",
+          "MOB-002",
+          "MOB-003",
+          "MOB-004",
+          "MOB-005",
+          "MOB-006",
+          "MOB-007",
+          "MOB-008",
+          "MOB-009",
+          "MOB-010",
+          "MOB-011",
+          "MOB-012",
+          "MOB-013",
+          "MOB-014",
+          "MOB-015"
+        ],
+        "reason_zh": null
+      },
+      "morphology": {
+        "relevant": true,
+        "card_ids": [
+          "MOR-014",
+          "MOR-015",
+          "MOR-016"
+        ],
+        "reason_zh": null
+      },
+      "policy": {
+        "relevant": true,
+        "card_ids": [
+          "POL-001",
+          "POL-002",
+          "POL-003",
+          "POL-004",
+          "POL-005"
+        ],
+        "reason_zh": null
+      },
+      "portfolio": {
+        "relevant": true,
+        "card_ids": [
+          "POR-001",
+          "POR-002",
+          "POR-003",
+          "POR-004",
+          "POR-005",
+          "POR-006",
+          "POR-007",
+          "POR-008",
+          "POR-009",
+          "POR-010",
+          "POR-011",
+          "POR-012",
+          "POR-013",
+          "POR-014",
+          "POR-015",
+          "POR-016",
+          "POR-017",
+          "POR-018"
+        ],
+        "reason_zh": null
+      },
+      "public_space": {
+        "relevant": true,
+        "card_ids": [
+          "PUB-007"
+        ],
+        "reason_zh": null
+      },
+      "space_syntax": {
+        "relevant": true,
+        "card_ids": [
+          "SYN-001",
+          "SYN-002",
+          "SYN-003",
+          "SYN-004",
+          "SYN-005",
+          "SYN-006",
+          "SYN-007",
+          "SYN-008",
+          "SYN-009",
+          "SYN-010",
+          "SYN-011",
+          "SYN-013",
+          "SYN-014"
+        ],
+        "reason_zh": null
+      }
+    },
+    "S3": {
+      "context_response": {
+        "relevant": true,
+        "card_ids": [
+          "CTX-001",
+          "CTX-002",
+          "CTX-003",
+          "CTX-004",
+          "CTX-005",
+          "CTX-006",
+          "CTX-007"
+        ],
+        "reason_zh": null
+      },
+      "land_use": {
+        "relevant": true,
+        "card_ids": [
+          "LAN-001",
+          "LAN-002",
+          "LAN-003",
+          "LAN-004",
+          "LAN-005",
+          "LAN-006",
+          "LAN-007",
+          "LAN-008",
+          "LAN-009"
+        ],
+        "reason_zh": null
+      },
+      "mobility": {
+        "relevant": true,
+        "card_ids": [
+          "MOB-001",
+          "MOB-002",
+          "MOB-003",
+          "MOB-004",
+          "MOB-005",
+          "MOB-006",
+          "MOB-007",
+          "MOB-008",
+          "MOB-009",
+          "MOB-010",
+          "MOB-011",
+          "MOB-012",
+          "MOB-013",
+          "MOB-014",
+          "MOB-015"
+        ],
+        "reason_zh": null
+      },
+      "morphology": {
+        "relevant": true,
+        "card_ids": [
+          "MOR-001",
+          "MOR-002",
+          "MOR-003",
+          "MOR-004",
+          "MOR-005",
+          "MOR-006",
+          "MOR-007",
+          "MOR-008",
+          "MOR-009",
+          "MOR-010",
+          "MOR-011",
+          "MOR-012",
+          "MOR-013",
+          "MOR-014",
+          "MOR-015",
+          "MOR-016"
+        ],
+        "reason_zh": null
+      },
+      "policy": {
+        "relevant": true,
+        "card_ids": [
+          "POL-001",
+          "POL-003",
+          "POL-004",
+          "POL-005"
+        ],
+        "reason_zh": null
+      },
+      "portfolio": {
+        "relevant": true,
+        "card_ids": [
+          "POR-001",
+          "POR-002",
+          "POR-003",
+          "POR-004",
+          "POR-005",
+          "POR-006",
+          "POR-007",
+          "POR-008",
+          "POR-009",
+          "POR-010",
+          "POR-011",
+          "POR-012",
+          "POR-013",
+          "POR-014",
+          "POR-015",
+          "POR-016",
+          "POR-017",
+          "POR-018"
+        ],
+        "reason_zh": null
+      },
+      "public_space": {
+        "relevant": true,
+        "card_ids": [
+          "PUB-001",
+          "PUB-002",
+          "PUB-003",
+          "PUB-004",
+          "PUB-005",
+          "PUB-006",
+          "PUB-007",
+          "PUB-008"
+        ],
+        "reason_zh": null
+      },
+      "space_syntax": {
+        "relevant": true,
+        "card_ids": [
+          "SYN-001",
+          "SYN-002",
+          "SYN-003",
+          "SYN-004",
+          "SYN-005",
+          "SYN-006",
+          "SYN-007",
+          "SYN-008",
+          "SYN-009",
+          "SYN-010",
+          "SYN-011",
+          "SYN-013",
+          "SYN-014"
+        ],
+        "reason_zh": null
+      }
+    },
+    "S4": {
+      "context_response": {
+        "relevant": false,
+        "card_ids": [],
+        "reason_zh": "S4 執行已確認策略及條件的路網生成；介面與政策由 S2／S3 提供，S7 重新審查。"
+      },
+      "land_use": {
+        "relevant": false,
+        "card_ids": [],
+        "reason_zh": "S4 執行已確認策略及條件的路網生成；介面與政策由 S2／S3 提供，S7 重新審查。"
+      },
+      "mobility": {
+        "relevant": true,
+        "card_ids": [
+          "MOB-001",
+          "MOB-002",
+          "MOB-003",
+          "MOB-004",
+          "MOB-005",
+          "MOB-006",
+          "MOB-007",
+          "MOB-008",
+          "MOB-009",
+          "MOB-010",
+          "MOB-011",
+          "MOB-015"
+        ],
+        "reason_zh": null
+      },
+      "morphology": {
+        "relevant": true,
+        "card_ids": [
+          "MOR-001",
+          "MOR-002",
+          "MOR-003",
+          "MOR-004",
+          "MOR-005",
+          "MOR-006",
+          "MOR-007",
+          "MOR-008",
+          "MOR-009",
+          "MOR-010",
+          "MOR-011",
+          "MOR-012",
+          "MOR-013"
+        ],
+        "reason_zh": null
+      },
+      "policy": {
+        "relevant": false,
+        "card_ids": [],
+        "reason_zh": "S4 執行已確認策略及條件的路網生成；介面與政策由 S2／S3 提供，S7 重新審查。"
+      },
+      "portfolio": {
+        "relevant": true,
+        "card_ids": [
+          "POR-001",
+          "POR-002",
+          "POR-003",
+          "POR-004",
+          "POR-005",
+          "POR-006",
+          "POR-007",
+          "POR-008",
+          "POR-009",
+          "POR-010",
+          "POR-011",
+          "POR-012",
+          "POR-013",
+          "POR-014",
+          "POR-015",
+          "POR-016",
+          "POR-017",
+          "POR-018"
+        ],
+        "reason_zh": null
+      },
+      "public_space": {
+        "relevant": true,
+        "card_ids": [
+          "PUB-001",
+          "PUB-002",
+          "PUB-003",
+          "PUB-004",
+          "PUB-005",
+          "PUB-006"
+        ],
+        "reason_zh": null
+      },
+      "space_syntax": {
+        "relevant": true,
+        "card_ids": [
+          "SYN-012"
+        ],
+        "reason_zh": null
+      }
+    },
+    "S5": {
+      "context_response": {
+        "relevant": false,
+        "card_ids": [],
+        "reason_zh": "S5 僅重算已凍結的分模式路網；用途與形態決定由 S3／S6 及 S7 檢查。"
+      },
+      "land_use": {
+        "relevant": false,
+        "card_ids": [],
+        "reason_zh": "S5 僅重算已凍結的分模式路網；用途與形態決定由 S3／S6 及 S7 檢查。"
+      },
+      "mobility": {
+        "relevant": true,
+        "card_ids": [
+          "MOB-015"
+        ],
+        "reason_zh": null
+      },
+      "morphology": {
+        "relevant": false,
+        "card_ids": [],
+        "reason_zh": "S5 僅重算已凍結的分模式路網；用途與形態決定由 S3／S6 及 S7 檢查。"
+      },
+      "policy": {
+        "relevant": false,
+        "card_ids": [],
+        "reason_zh": "S5 僅重算已凍結的分模式路網；用途與形態決定由 S3／S6 及 S7 檢查。"
+      },
+      "portfolio": {
+        "relevant": false,
+        "card_ids": [],
+        "reason_zh": "S5 僅重算已凍結的分模式路網；用途與形態決定由 S3／S6 及 S7 檢查。"
+      },
+      "public_space": {
+        "relevant": false,
+        "card_ids": [],
+        "reason_zh": "S5 僅重算已凍結的分模式路網；用途與形態決定由 S3／S6 及 S7 檢查。"
+      },
+      "space_syntax": {
+        "relevant": true,
+        "card_ids": [
+          "SYN-001",
+          "SYN-002",
+          "SYN-003",
+          "SYN-004",
+          "SYN-005",
+          "SYN-006",
+          "SYN-007",
+          "SYN-008",
+          "SYN-009",
+          "SYN-010",
+          "SYN-011",
+          "SYN-012",
+          "SYN-013",
+          "SYN-014"
+        ],
+        "reason_zh": null
+      }
+    },
+    "S6": {
+      "context_response": {
+        "relevant": true,
+        "card_ids": [
+          "CTX-001",
+          "CTX-002",
+          "CTX-003",
+          "CTX-004",
+          "CTX-005",
+          "CTX-006",
+          "CTX-007"
+        ],
+        "reason_zh": null
+      },
+      "land_use": {
+        "relevant": true,
+        "card_ids": [
+          "LAN-001",
+          "LAN-003",
+          "LAN-004",
+          "LAN-005",
+          "LAN-006",
+          "LAN-007",
+          "LAN-008"
+        ],
+        "reason_zh": null
+      },
+      "mobility": {
+        "relevant": true,
+        "card_ids": [
+          "MOB-001",
+          "MOB-003",
+          "MOB-011"
+        ],
+        "reason_zh": null
+      },
+      "morphology": {
+        "relevant": true,
+        "card_ids": [
+          "MOR-001",
+          "MOR-002",
+          "MOR-003",
+          "MOR-004",
+          "MOR-005",
+          "MOR-006",
+          "MOR-007",
+          "MOR-008",
+          "MOR-009",
+          "MOR-010",
+          "MOR-011",
+          "MOR-012",
+          "MOR-013",
+          "MOR-014",
+          "MOR-015",
+          "MOR-016"
+        ],
+        "reason_zh": null
+      },
+      "policy": {
+        "relevant": true,
+        "card_ids": [
+          "POL-005"
+        ],
+        "reason_zh": null
+      },
+      "portfolio": {
+        "relevant": true,
+        "card_ids": [
+          "POR-001",
+          "POR-002",
+          "POR-003",
+          "POR-004",
+          "POR-005",
+          "POR-006",
+          "POR-007",
+          "POR-008",
+          "POR-009",
+          "POR-010",
+          "POR-011",
+          "POR-012",
+          "POR-013",
+          "POR-014",
+          "POR-015",
+          "POR-016",
+          "POR-017",
+          "POR-018"
+        ],
+        "reason_zh": null
+      },
+      "public_space": {
+        "relevant": true,
+        "card_ids": [
+          "PUB-001",
+          "PUB-002",
+          "PUB-003",
+          "PUB-004",
+          "PUB-005",
+          "PUB-006",
+          "PUB-007",
+          "PUB-008"
+        ],
+        "reason_zh": null
+      },
+      "space_syntax": {
+        "relevant": true,
+        "card_ids": [
+          "SYN-001",
+          "SYN-002",
+          "SYN-003",
+          "SYN-004",
+          "SYN-005",
+          "SYN-006",
+          "SYN-007",
+          "SYN-008",
+          "SYN-009",
+          "SYN-010",
+          "SYN-011"
+        ],
+        "reason_zh": null
+      }
+    },
+    "S7": {
+      "context_response": {
+        "relevant": true,
+        "card_ids": [
+          "CTX-001",
+          "CTX-002",
+          "CTX-003",
+          "CTX-004",
+          "CTX-005",
+          "CTX-006",
+          "CTX-007"
+        ],
+        "reason_zh": null
+      },
+      "land_use": {
+        "relevant": true,
+        "card_ids": [
+          "LAN-001",
+          "LAN-002",
+          "LAN-003",
+          "LAN-004",
+          "LAN-005",
+          "LAN-006",
+          "LAN-007",
+          "LAN-008",
+          "LAN-009",
+          "LAN-010"
+        ],
+        "reason_zh": null
+      },
+      "mobility": {
+        "relevant": true,
+        "card_ids": [
+          "MOB-001",
+          "MOB-002",
+          "MOB-003",
+          "MOB-004",
+          "MOB-005",
+          "MOB-006",
+          "MOB-007",
+          "MOB-008",
+          "MOB-009",
+          "MOB-010",
+          "MOB-011",
+          "MOB-012",
+          "MOB-013",
+          "MOB-014",
+          "MOB-015"
+        ],
+        "reason_zh": null
+      },
+      "morphology": {
+        "relevant": true,
+        "card_ids": [
+          "MOR-001",
+          "MOR-002",
+          "MOR-003",
+          "MOR-004",
+          "MOR-005",
+          "MOR-006",
+          "MOR-007",
+          "MOR-008",
+          "MOR-009",
+          "MOR-010",
+          "MOR-011",
+          "MOR-012",
+          "MOR-013",
+          "MOR-014",
+          "MOR-015",
+          "MOR-016"
+        ],
+        "reason_zh": null
+      },
+      "policy": {
+        "relevant": true,
+        "card_ids": [
+          "POL-001",
+          "POL-002",
+          "POL-003",
+          "POL-004",
+          "POL-005"
+        ],
+        "reason_zh": null
+      },
+      "portfolio": {
+        "relevant": true,
+        "card_ids": [
+          "POR-001",
+          "POR-002",
+          "POR-003",
+          "POR-004",
+          "POR-005",
+          "POR-006",
+          "POR-007",
+          "POR-008",
+          "POR-009",
+          "POR-010",
+          "POR-011",
+          "POR-012",
+          "POR-013",
+          "POR-014",
+          "POR-015",
+          "POR-016",
+          "POR-017",
+          "POR-018"
+        ],
+        "reason_zh": null
+      },
+      "public_space": {
+        "relevant": true,
+        "card_ids": [
+          "PUB-001",
+          "PUB-002",
+          "PUB-003",
+          "PUB-004",
+          "PUB-005",
+          "PUB-006",
+          "PUB-007",
+          "PUB-008"
+        ],
+        "reason_zh": null
+      },
+      "space_syntax": {
+        "relevant": true,
+        "card_ids": [
+          "SYN-001",
+          "SYN-002",
+          "SYN-003",
+          "SYN-004",
+          "SYN-005",
+          "SYN-006",
+          "SYN-007",
+          "SYN-008",
+          "SYN-009",
+          "SYN-010",
+          "SYN-011",
+          "SYN-012",
+          "SYN-013",
+          "SYN-014"
+        ],
+        "reason_zh": null
+      }
+    },
+    "S8": {
+      "context_response": {
+        "relevant": true,
+        "card_ids": [
+          "CTX-001",
+          "CTX-002",
+          "CTX-003",
+          "CTX-004",
+          "CTX-005",
+          "CTX-006",
+          "CTX-007"
+        ],
+        "reason_zh": null
+      },
+      "land_use": {
+        "relevant": true,
+        "card_ids": [
+          "LAN-003",
+          "LAN-004",
+          "LAN-005",
+          "LAN-006",
+          "LAN-007",
+          "LAN-008",
+          "LAN-009",
+          "LAN-010"
+        ],
+        "reason_zh": null
+      },
+      "mobility": {
+        "relevant": true,
+        "card_ids": [
+          "MOB-012",
+          "MOB-013",
+          "MOB-014",
+          "MOB-015"
+        ],
+        "reason_zh": null
+      },
+      "morphology": {
+        "relevant": true,
+        "card_ids": [
+          "MOR-014",
+          "MOR-015",
+          "MOR-016"
+        ],
+        "reason_zh": null
+      },
+      "policy": {
+        "relevant": true,
+        "card_ids": [
+          "POL-001",
+          "POL-002",
+          "POL-003",
+          "POL-004",
+          "POL-005"
+        ],
+        "reason_zh": null
+      },
+      "portfolio": {
+        "relevant": true,
+        "card_ids": [
+          "POR-001",
+          "POR-002",
+          "POR-003",
+          "POR-004",
+          "POR-005",
+          "POR-006",
+          "POR-007",
+          "POR-008",
+          "POR-009",
+          "POR-010",
+          "POR-011",
+          "POR-012",
+          "POR-013",
+          "POR-014",
+          "POR-015",
+          "POR-016",
+          "POR-017",
+          "POR-018"
+        ],
+        "reason_zh": null
+      },
+      "public_space": {
+        "relevant": true,
+        "card_ids": [
+          "PUB-001",
+          "PUB-002",
+          "PUB-003",
+          "PUB-004",
+          "PUB-005",
+          "PUB-006",
+          "PUB-007",
+          "PUB-008"
+        ],
+        "reason_zh": null
+      },
+      "space_syntax": {
+        "relevant": true,
+        "card_ids": [
+          "SYN-012",
+          "SYN-013",
+          "SYN-014"
+        ],
+        "reason_zh": null
+      }
+    }
+  }
+}

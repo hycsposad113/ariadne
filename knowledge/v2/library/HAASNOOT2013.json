@@ -1,0 +1,45 @@
+{
+  "id": "HAASNOOT2013",
+  "title": "Dynamic adaptive policy pathways: A method for crafting robust decisions for a deeply uncertain world",
+  "authors": [
+    "Marjolijn Haasnoot",
+    "Jan H. Kwakkel",
+    "Warren E. Walker",
+    "Judith ter Maat"
+  ],
+  "year": 2013,
+  "venue_or_publisher": "Global Environmental Change",
+  "doi": "https://doi.org/10.1016/j.gloenvcha.2012.12.006",
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "深度不確定性與調適路徑",
+  "region": "荷蘭與跨地域水治理方法",
+  "method": "動態調適政策路徑方法論",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "題名確認文章提出在深度不確定情境中規劃調適路徑的方法；不據題名宣稱它保證避免所有失效。",
+      "strength": "THEORETICAL",
+      "scope_zh": "只支持此研究明確的議題、樣本地區與方法；不直接生成 M4H 數值、法規或工程容量。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref",
+    "query": {
+      "title": "Dynamic adaptive policy pathways: A method for crafting robust decisions for a deeply uncertain world",
+      "author": "Haasnoot",
+      "year": 2013,
+      "api_query": "Crossref GET works?query.title=Dynamic adaptive policy pathways: A method for crafting robust decisions for a deeply uncertain world"
+    },
+    "matched_record_id": "10.1016/j.gloenvcha.2012.12.006",
+    "checked_at_utc": "2026-10-08T09:57:54Z",
+    "match_notes_zh": "以 Crossref 公開書目記錄比對書名、作者與年份；摘要文字未保存到 repository。"
+  },
+  "limitations_zh": "只保留書目與自行撰寫的範圍摘要；除標示 ABSTRACT_REVIEW 者外，內容未由摘要核對，沒有下載全文。",
+  "critique_relationship_zh": "本記錄不宣稱與其他書目存在直接互引或逐一反駁關係。",
+  "metadata_licence_zh": "公開 API 書目欄位；精確 metadata licence 未核驗，標 UNKNOWN。"
+}

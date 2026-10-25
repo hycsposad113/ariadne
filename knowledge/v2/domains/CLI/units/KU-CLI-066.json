@@ -1,0 +1,74 @@
+{
+  "id": "KU-CLI-066",
+  "domain": "CLI",
+  "subtopic": "高密度城市的氣候設計",
+  "type": "typology",
+  "title_zh": "高密度氣候型態要與行人層活動節點相配",
+  "title_en": "高密度氣候型態要與行人層活動節點相配",
+  "summary_zh": "街谷、開放廣場、騎樓和架空空間為高密度街區提供不同的遮蔭與通風條件。香港高密度研究以氣候設計問題檢視形態策略，新加坡案例則把街道尺度和熱舒適連起來。最終型態需在建築連通、日照與可停留空間之間協調。",
+  "key_points_zh": [
+    "騎樓提供遮蔭但也可能影響風和視線。",
+    "開放廣場日照充足時可能需要可調遮蔭。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "library_id": "KRUGER2011",
+        "claim_zh": "書目確認本文題名聚焦「Impact of urban geometry on outdoor thermal comfort and air quality from field measurements in Curitiba, Brazil」；目前只完成作者、年份、題名與 DOI 核對，未將摘要或全文結論納入此記錄；本單元 KU-CLI-066 對照「街谷、開放廣場、騎樓和架空空間為高密度街區提供不同的遮蔭與通風條件」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "案例或場地研究；目前僅核對書目範圍",
+        "context_region": "Curitiba, Brazil",
+        "locator": null
+      },
+      {
+        "library_id": "YANG2016",
+        "claim_zh": "題名確認研究以新加坡都市街道分析街道設計與戶外熱舒適；不把熱舒適方向等同日照、通風或普遍偏好；本單元 KU-CLI-066 對照「街谷、開放廣場、騎樓和架空空間為高密度街區提供不同的遮蔭與通風條件」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "都市街道案例研究",
+        "context_region": "Singapore",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "把入口、停留點和通風開口一起布置。",
+    "按活動強度安排陰影和陽光帶。"
+  ],
+  "applies_when_zh": "適用於高密度街區地面層設計。",
+  "not_applicable_when_zh": "不適用於只依型態名稱推定氣候表現。",
+  "debates_zh": "在地日常使用方式可能改變對遮蔭、風和開敞空間的偏好。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "KRUGER2011",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "YANG2016",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "高密度街道公共空間類型",
+  "region": "香港與亞洲；Singapore",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "高密度城市的氣候設計"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": null,
+      "topic": "高密度城市的氣候設計"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0"
+}

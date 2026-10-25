@@ -1,0 +1,88 @@
+{
+  "id": "KU-MOB-043",
+  "domain": "MOB",
+  "subtopic": "大眾運輸服務圈",
+  "type": "value_range",
+  "title_zh": "海牙步行接駁距離中位數",
+  "title_en": "Median walking feeder distance in The Hague",
+  "summary_zh": "海牙電車乘客研究測得步行接駁距離中位數為 380 m。研究結合乘客問卷、距離資料與影響因素分析，這個中位數描述該電車服務及其乘客樣本。它不涵蓋所有站點、城市或步行能力族群。「步行接駁電車距離中位數」的數值不是本基地法規或普遍設計目標。",
+  "key_points_zh": [
+    "數值與用途：步行接駁電車距離中位數：380 m",
+    "數值與用途：此為單一電車乘客樣本的中位數，僅供服務圈方法比較，不是通用服務半徑或 M4H 法規"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "海牙步行接駁距離中位數｜步行接駁距離中位數為 380 m",
+        "effect_or_value": "380 m",
+        "study_design": "海牙電車乘客 revealed-preference 問卷、迴歸與質性分析",
+        "context_region": "海牙，荷蘭電車乘客調查",
+        "library_id": "RIJSMAN19",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "海牙步行接駁距離中位數｜墨爾本旅運資料顯示，步行到公共運輸的可接受與可忍受距離宜用區域分布描述；Burr Type XII 能配適該資料，但不會自動成為其他城市的門檻",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "TAYLOR24",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "步行接駁電車距離中位數",
+      "range": "380 m",
+      "unit": "公尺",
+      "context": "荷蘭海牙電車乘客研究；380 m 是該研究步行接駁距離中位數，不能當成本基地法規。這是單一案例觀察，不是本基地法規。",
+      "library_id": "RIJSMAN19"
+    }
+  ],
+  "design_implications_zh": [
+    "繪製服務圈時，將 380 m 作為海牙步行接駁樣本的參照，同時呈現路網距離分布、站點差異和步行環境。"
+  ],
+  "applies_when_zh": "若方案評估對象是步行接駁公共運輸，可用這個案例提醒設計者檢查實際路徑距離，而不是只畫直線緩衝。",
+  "not_applicable_when_zh": "380 m 不是公車或軌道服務的通用半徑，也不能代表老人、兒童或行動受限者的可接受距離。",
+  "debates_zh": "以中位數描述接駁距離便於比較，卻會隱去短程與長程尾端；城市、站點設計及乘客特徵均可能改變分布。",
+  "sources": [
+    {
+      "library_id": "RIJSMAN19",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "TAYLOR24",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "交通可及性與服務範圍",
+  "region": "海牙，荷蘭電車乘客調查",
+  "curriculum_refs": [
+    {
+      "school": "UCL Bartlett",
+      "course": "Sustainable Futures by Design",
+      "topic": "大眾運輸服務圈：課綱對應主題"
+    },
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "大眾運輸服務圈：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-MOB-041",
+    "KU-MOB-042",
+    "KU-MOB-044",
+    "KU-MOB-045",
+    "KU-MOB-046",
+    "KU-MOB-047",
+    "KU-MOB-048"
+  ]
+}

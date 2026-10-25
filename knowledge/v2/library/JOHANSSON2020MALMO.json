@@ -1,0 +1,43 @@
+{
+  "id": "JOHANSSON2020MALMO",
+  "title": "Wind comfort and solar access in a coastal development in Malmö, Sweden",
+  "authors": [
+    "Erik Johansson",
+    "Moohammed Wasim Yahia"
+  ],
+  "year": 2020,
+  "venue_or_publisher": "Urban Climate",
+  "doi": "https://doi.org/10.1016/j.uclim.2020.100645",
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "沿岸街區風環境與日照",
+  "region": "瑞典馬爾默",
+  "method": "微氣候個案研究；街區邊界待核",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "題名確認研究對象為馬爾默沿岸開發區的風舒適及日照；未確認其邊界等同整個Västra Hamnen。",
+      "strength": "THEORETICAL",
+      "scope_zh": "只支持此來源明確記載的研究對象與範圍；不作跨城市因果外推，也不以書目資料推估未報告的空間數值。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Crossref",
+    "query": {
+      "title": "Wind comfort and solar access in a coastal development in Malmö, Sweden",
+      "author": "Johansson",
+      "year": 2020,
+      "api_query": "Crossref GET /works?query.bibliographic=Västra Hamnen Malmö sustainable urban development Lu 2020"
+    },
+    "matched_record_id": "10.1016/j.uclim.2020.100645",
+    "checked_at_utc": "2026-10-08T14:05:13Z",
+    "match_notes_zh": "Crossref公開書目欄位核對題名、作者、年份及 DOI；摘要內容未保存到repository。"
+  },
+  "limitations_zh": "未將API摘要寫入repo；除claim標示的內容外，研究發現與效果量須回到來源全文核對。",
+  "critique_relationship_zh": "本記錄不宣稱與其他來源存在直接互引或逐一反駁關係。",
+  "metadata_licence_zh": "Crossref公開書目欄位；精確metadata授權未核驗，標UNKNOWN。"
+}

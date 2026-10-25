@@ -1,0 +1,101 @@
+{
+  "id": "KU-CAS-019",
+  "domain": "CAS",
+  "subtopic": "港區轉型案例",
+  "type": "case",
+  "title_zh": "Singapore Marina Bay：填海地上的長期中心區擴展",
+  "title_en": "Singapore Marina Bay: Long-Term Central-Area Expansion on Reclaimed Land",
+  "summary_zh": "Marina Bay 是新加坡透過分期填海延伸中央商業區的長期計畫，規劃範圍約 360 公頃，結合金融辦公、會展、旅館、住宅、文化設施與大型公共空間。URA 記錄 1970 年代啟動土地形成，之後以濱水步道、公園與活動管理塑造「People’s Bay」形象。Lee 的研究把 Marina Bay 作為理解國家規劃、計算與想像的研究對象；本單元不把官方的全球競爭敘事直接等同於居民日常可及性。",
+  "key_points_zh": [
+    "需把填海、道路骨架、濱水公共空間及高價值商業地塊視為同一長期治理組合。",
+    "官方提供的面積與步道長度可建立空間範圍，但尚不能回答公共空間使用者的代表性。"
+  ],
+  "evidence": {
+    "strength": "CASE_EVIDENCE",
+    "findings": [
+      {
+        "claim_zh": "URA 記錄 Marina Bay 約 360 公頃，並說明填海於 1970 年代展開、最後 38 公頃土地於 1994 年完成填築。",
+        "effect_or_value": "官方規劃範圍與填海歷史",
+        "study_design": "政府規劃歷史資料",
+        "context_region": "新加坡中央區",
+        "library_id": "URA_MARINA_BAY2026",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "Lee 的學術文章以 Marina Bay 研究規劃如何透過計算、歷史敘事與想像形成國家治理效果；這裡僅採用其研究範圍與分析題旨。",
+        "effect_or_value": "規劃治理分析議題",
+        "study_design": "都市規劃個案研究",
+        "context_region": "新加坡 Marina Bay",
+        "library_id": "LEE2018MARINABAY",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "大尺度填海區應同步規劃街道骨架、水岸通道、公共設施和可分期交付的地塊，避免公共界面落後於商業投資。",
+    "評估「全天候生活」時以分時段人流、住宅入住和免費公共活動資料核實，不以品牌宣傳替代觀察。"
+  ],
+  "applies_when_zh": "國家或城市透過大尺度填海，延伸中央商業區並建構新水岸公共領域時。",
+  "not_applicable_when_zh": "自然岸線不可填築，或治理目標不包括國際金融中心與高密度中心區擴展時。",
+  "debates_zh": "Marina Bay 以大型公共投資創造新的土地與水岸空間，同時承擔提升國際金融競爭力的任務。這種由上而下的長期執行有利於跨期協調，但需要追問土地收益、公共開放與居住多樣性如何被分配；官方「People’s Bay」定位仍須由實際使用證據支持。",
+  "sources": [
+    {
+      "library_id": "URA_MARINA_BAY2026",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "LEE2018MARINABAY",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "新加坡國家主導的長期規劃與填海開發",
+  "region": "東南亞／新加坡",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": null,
+      "topic": "水陸轉換與分期都市開發"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": null,
+      "topic": "中心區城市設計與公共生活"
+    },
+    {
+      "school": "MIT",
+      "course": null,
+      "topic": "國家治理、土地供給與國際競爭"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": null,
+      "topic": "大型規劃的包容性與權力分析"
+    }
+  ],
+  "case": {
+    "location": "新加坡 Marina Bay",
+    "period": "自 1970 年代開始分期填海和中心區規劃；主要公共與金融設施於 2000 年代後成形",
+    "area_ha": 360,
+    "fsi": null,
+    "gsi": null,
+    "program_mix": "金融辦公、旅館、會展、住宅、文化設施、濱水步道與 Gardens by the Bay；未取得整區用途比例。",
+    "key_strategies_zh": [
+      "以分期填海預留中央區擴展土地，並以公共基礎設施支援金融與會展用途。",
+      "透過濱水步道、公園、橋梁與全年活動管理建立公共空間網絡。"
+    ],
+    "outcomes_zh": [
+      "URA 公布規劃範圍約 360 公頃，並介紹超過 3.5 公里的可達水岸步道。",
+      "該區已形成金融、旅館、文化活動和大型公園等多元設施；其使用者分布尚需獨立調查。"
+    ],
+    "critiques_zh": [
+      "官方以國際競爭與城市品牌敘述成效，需和土地價值回收、居民進入門檻及公共空間管理規則對照。",
+      "大尺度人工海灣和填海工程的生態成本及長期氣候風險不能由單一規劃簡介判定。"
+    ]
+  },
+  "version": "v2.0"
+}

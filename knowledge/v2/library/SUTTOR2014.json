@@ -1,0 +1,43 @@
+{
+  "id": "SUTTOR2014",
+  "title": "Canadian Social Housing: Policy Evolution and Impacts on the Housing System and Urban Space",
+  "authors": [
+    "Greg Suttor"
+  ],
+  "year": 2014,
+  "venue_or_publisher": "TSpace (University of Toronto)",
+  "doi": null,
+  "isbn": null,
+  "openalex_id": "https://openalex.org/W2615080487",
+  "kind": "ACADEMIC_PAPER",
+  "tradition": "加拿大社會住宅與城市空間",
+  "region": [
+    "加拿大安大略與多倫多，1965–1995"
+  ],
+  "method": "檔案、訪談、行政與人口普查資料分析",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "社會住宅約占該時期住宅生產一成；以收入計租使近四成低收入租戶租金低於市場四成，並與其部分居住流動相關。",
+      "strength": "MIXED",
+      "scope_zh": "僅限摘要可核對的範圍；未讀全文，不推論摘要未列的數字、因果或普遍適用性。",
+      "assessment_basis": "ABSTRACT_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "OpenAlex",
+    "query": {
+      "record_id": "https://openalex.org/W2615080487",
+      "title": "Canadian Social Housing: Policy Evolution and Impacts on the Housing System and Urban Space",
+      "author": "Greg Suttor",
+      "year": 2014
+    },
+    "matched_record_id": "https://openalex.org/W2615080487",
+    "checked_at_utc": "2026-10-08T09:12:32Z",
+    "match_notes_zh": "以 OpenAlex 精確 work 記錄核對書名、作者與出版年；只使用摘要作主張範圍檢查，未下載全文。"
+  },
+  "limitations_zh": "僅使用允許的書目欄位和摘要核對；未取得或保存全文。",
+  "metadata_licence_zh": "保存公開書目欄位與自行撰寫主張摘要；未保存 API 摘要原文或全文。"
+}

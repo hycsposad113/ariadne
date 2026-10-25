@@ -1,0 +1,42 @@
+{
+  "id": "ROTTERDAM_DAKPARK2026",
+  "title": "Spelen",
+  "authors": [
+    "Gemeente Rotterdam"
+  ],
+  "year": null,
+  "venue_or_publisher": "Gemeente Rotterdam",
+  "doi": null,
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "OFFICIAL_WEBSITE",
+  "tradition": "官方城市規劃與專案資料",
+  "region": "荷蘭鹿特丹",
+  "method": "直接核對官方公開頁面或政府報告；非學術成效研究",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "市府介紹Dakpark作為屋頂公園，標示約9公尺高度及花園、遊戲和社區種植用途。",
+      "strength": "CASE_EVIDENCE",
+      "scope_zh": "僅支持頁面明確公布的規劃口徑、歷史日期或行政資料，不將目標寫成實現成果。",
+      "assessment_basis": "DIRECT_SOURCE_REVIEW"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Official organization webpage",
+    "query": {
+      "title": "Spelen",
+      "author": "Gemeente Rotterdam",
+      "year": null,
+      "api_query": "Read-only official source page: https://www.rotterdam.nl/spelen"
+    },
+    "matched_record_id": "https://www.rotterdam.nl/spelen",
+    "checked_at_utc": "2026-10-08T14:10:33Z",
+    "match_notes_zh": "直接核對官方網站或政府報告；網站頁面不是Crossref書目記錄，未宣稱經Crossref驗證。"
+  },
+  "limitations_zh": "官方頁面可能呈現規劃者或管理者口徑；研究成效及獨立社會評估需另尋學術來源。",
+  "critique_relationship_zh": "本記錄不宣稱與其他來源存在直接互引或逐一反駁關係。",
+  "metadata_licence_zh": "官方公開頁面；未確認個別資料集的再利用授權。"
+}

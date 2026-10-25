@@ -1,0 +1,66 @@
+{
+  "id": "KU-PUB-007",
+  "domain": "PUB",
+  "subtopic": "廣場尺度與圍合",
+  "type": "concept",
+  "title_zh": "從邊界進入的連續性",
+  "title_en": "Permeable square edges",
+  "summary_zh": "可辨認的入口有助於理解如何進入，入口過少卻可能延長繞行。實際穿越線可用來檢查圖面上看似開放的邊界是否真能被使用。有些文化活動需要暫時圍合，完全滲透也不一定合宜。通達性與活動控制的取捨需要以明確使用情境決定。",
+  "key_points_zh": [
+    "可辨認的入口有助於理解如何進入，入口過少卻可能延長繞行",
+    "實際穿越線可用來檢查圖面上看似開放的邊界是否真能被使用"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "可辨認的入口有助於理解如何進入，入口過少卻可能延長繞行。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "美國",
+        "library_id": "ZUKIN95",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "limitations_zh": "通達性與活動控制的取捨需要以明確使用情境決定。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "把出入口與人行路網放在同一底圖上，對照願望線和無障礙路徑。"
+  ],
+  "applies_when_zh": "適用於公園、街區及廣場之間需建立連接時。",
+  "not_applicable_when_zh": "不適用於把「更多缺口」視為所有場域的通用改善。",
+  "debates_zh": "通達性與活動控制的取捨需要以明確使用情境決定。",
+  "sources": [
+    {
+      "library_id": "ZUKIN95",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "MCCANN02",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "都市文化政治經濟",
+  "region": "美國",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "廣場尺度與圍合"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "廣場尺度與圍合"
+    }
+  ],
+  "version": "2.0.0",
+  "related_unit_ids": [
+    "KU-PUB-006",
+    "KU-PUB-008"
+  ]
+}

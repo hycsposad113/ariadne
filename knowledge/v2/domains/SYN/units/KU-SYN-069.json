@@ -1,0 +1,83 @@
+{
+  "id": "KU-SYN-069",
+  "domain": "SYN",
+  "subtopic": "Place Syntax",
+  "type": "value_range",
+  "title_zh": "800 m 步行網路分析尺度情境",
+  "title_en": "800 m pedestrian network analysis scenario",
+  "summary_zh": "800 m 可作鄰里尺度的步行網路敏感度情境，檢視增加分析範圍後可及目的地如何改變。它不是固定的步行半徑，也不代表完整的可及性機會。城市地形和街道穿越品質會影響實際成本。此處的步行網路鄰里分析距離情境是附來源的比較參照，不是本基地法規。",
+  "key_points_zh": [
+    "較大尺度增加可見目的地，也擴大網路邊界敏感性。",
+    "時間成本和目的地機會不等同於距離。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "城市交通研究常比較多個步行尺度；800 m 在 TOD 和鄰里分析中的用法待版本核對。",
+        "library_id": "CERVERO97",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": "約 800 m",
+        "study_design": "鄰里步行分析尺度情境",
+        "context_region": "美國",
+        "locator": null,
+        "limitations_zh": " 查核：800 m 半英里慣例非 Cervero（1997）原文數值。"
+      },
+      {
+        "claim_zh": "服務距離、土地使用和旅次條件需共同考慮。",
+        "library_id": "GEURS04",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "建成環境—旅運與可及性研究",
+        "context_region": "跨地域交通研究",
+        "locator": null
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "步行網路鄰里分析距離情境",
+      "range": "約 800 m",
+      "unit": "公尺",
+      "context": "鄰里尺度的網路可及性敏感度分析；用途：測試較大步行範圍內的目的地可及性，使用實際路網而非圓形緩衝。；「步行網路鄰里分析距離情境」僅供來源脈絡內的比較，不是本基地法規、M4H 門檻或通用配額；來源所列地域：美國。",
+      "library_id": "CERVERO97"
+    }
+  ],
+  "design_implications_zh": [
+    "對照 400 m 和 800 m 兩個距離範圍，報告不同模型下的可達目的地變化。"
+  ],
+  "applies_when_zh": "檢查鄰里可及性對距離範圍的敏感度時，可把 800 m 作為一個分析情境。",
+  "not_applicable_when_zh": "不得把 800 m 直接讀成所有車站或公共服務的法定服務圈。",
+  "debates_zh": "半徑擴大可能讓數值看起來更有利，卻同時掩蓋不連續路網和群體差異。",
+  "sources": [
+    {
+      "library_id": "CERVERO97",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "GEURS04",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "交通可及性與尺度分析",
+  "region": "鄰里尺度的網路可及性敏感度分析",
+  "curriculum_refs": [
+    {
+      "school": "Harvard GSD",
+      "course": "Cities by Design",
+      "topic": "Place Syntax：課綱對應主題"
+    },
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.330J Theory of City Form",
+      "topic": "Place Syntax：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-SYN-052"
+  ]
+}

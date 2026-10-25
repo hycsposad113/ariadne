@@ -1,0 +1,65 @@
+{
+  "id": "KU-HAR-019",
+  "domain": "HAR",
+  "subtopic": "文化導向再生與仕紳化批評",
+  "type": "method",
+  "title_zh": "把文化設施評估連到租戶與使用者追蹤",
+  "title_en": "Track tenants and users when evaluating cultural assets",
+  "summary_zh": "文化再生評估若只收集參觀人次，便無法辨識文化工作者、在地商戶和既有居民的處境。Lees 對社會混合政策的批判要求檢查包容性證據，Miles 則指出文化政策宣稱需要接受地方實踐檢驗。可用年度名冊追蹤機構與工作者留存、租金變化、場地開放時段及免費活動占比。每個指標都應保留比較基線，並說明資料缺漏和受訪者涵蓋範圍。",
+  "key_points_zh": [
+    "文化場館數量與原有文化工作者留存要分別量測。",
+    "追蹤資料需有基線、期間與涵蓋群體說明。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "社會混合政策的包容性證據受到質疑，且可能和排斥性城市政治同時存在。",
+        "effect_or_value": "提出分配與排斥的檢驗需要；無可移植比例",
+        "study_design": "政策與文獻證據批判",
+        "context_region": "歐洲與北美都市政策",
+        "library_id": "LEES2008",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "文化政策敘事應與地方文化生產者的回應分開核對。",
+        "effect_or_value": "政策可移植性存在疑問",
+        "study_design": "文化政策批判研究",
+        "context_region": "Glasgow、Bilbao 等案例脈絡",
+        "library_id": "MILES2005",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "在更新前保存受影響租戶清冊和文化空間使用紀錄，更新後沿用相同口徑追蹤。"
+  ],
+  "applies_when_zh": "文化導向轉型可能改變既有租戶、工作室或在地服務時。",
+  "not_applicable_when_zh": "不適用於沒有受影響群體清冊、租賃資料或參與者隱私保護時公開個人層級資訊。",
+  "debates_zh": "追蹤可揭露分配差異，但指標選擇仍可能遺漏非正式使用和無固定地址的工作者。",
+  "sources": [
+    {
+      "library_id": "LEES2008",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "MILES2005",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "社會混合與文化治理批評",
+  "region": "歐洲與北美政策脈絡",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": null,
+      "topic": "Culture, inclusion and displacement"
+    }
+  ],
+  "version": "v2.0"
+}

@@ -1,0 +1,96 @@
+{
+  "id": "KU-CAS-037",
+  "domain": "CAS",
+  "subtopic": "水岸與港區—大型港區再生與文化觀光",
+  "type": "case",
+  "title_zh": "Porto Maravilha：港區公共工程與夜間觀光同時擴張",
+  "title_en": "Porto Maravilha: Infrastructure Delivery and the Nightlife-Tourism Debate",
+  "summary_zh": "里約 Porto Maravilha 將港區基礎設施、濱水步行、文化場館與觀光設施納入大型再生計畫。市府 2023 年回顧將計畫範圍列為 500 萬平方公尺，並公布道路、步道、自行車道和植樹等工程數量；這些是執行機構報告的產出，不是獨立社會影響評估。Góis 2024 年專章研究夜間觀光與該區再生之間的關係，本輪依書目題目確認主題範圍，但不引用未查閱的研究結果。案件同時涉及公共基礎設施投資、文化地標與觀光經濟如何分配利益。",
+  "key_points_zh": [
+    "計畫公布的工程產出可以確認建設規模，不能單獨證明居民生活品質或利益公平。",
+    "夜間觀光是研究議題之一，應與居民、商業結構和歷史記憶分開追蹤。"
+  ],
+  "evidence": {
+    "strength": "CASE_EVIDENCE",
+    "findings": [
+      {
+        "claim_zh": "Góis 的專書章以 Porto Maravilha 的夜間觀光與都市再生關係為研究題目；本輪未核讀章節內容。",
+        "effect_or_value": "僅確認研究議題與個案，不報告研究結果或因果效果",
+        "study_design": "學術專書章；本輪僅書目範圍核對",
+        "context_region": "巴西里約熱內盧港區",
+        "library_id": "GOIS2024PORTOMARAVILHA",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "claim_zh": "里約市府 2023 年回顧稱 Porto Maravilha 範圍為 500 萬平方公尺，並列出 70 公里道路更新、65 萬平方公尺人行道、17 公里自行車道及 15,000 棵樹等工程產出。",
+        "effect_or_value": "市府執行單位自報的建設成果；未提供同頁獨立效果評估",
+        "study_design": "政府專案回顧資料",
+        "context_region": "巴西里約熱內盧港區",
+        "library_id": "RIO_PORTO_MARAVILHA2023",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "把公共工程產出、空間使用和居民結果分成不同指標；對每一類標記資料持有者與更新年份。",
+    "沿濱水文化路徑追蹤夜間開放、交通、安全感和商業變化，並保留港口勞動與非洲裔歷史場址的敘事。"
+  ],
+  "applies_when_zh": "市府正以基礎設施、文化設施和公共空間投資帶動長期港區轉型，且能公開分期工程資料時。",
+  "not_applicable_when_zh": "若沒有居民搬遷、住房價格、在地商業與公共空間使用的對照資料，就不能用道路長度或植樹數作為包容性再生的證據。",
+  "debates_zh": "市府公布的道路、自行車道和公共設施數量，適合描述建設產出；夜間觀光研究則指出需要檢視夜間經濟與再生的關係，但本輪只確認其書目範圍。工程成果和社會分配是不同問題，應同步核對公共資金、土地價值、居民留存與文化場址使用。",
+  "sources": [
+    {
+      "library_id": "GOIS2024PORTOMARAVILHA",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "RIO_PORTO_MARAVILHA2023",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "拉丁美洲港區再生、文化觀光與基礎設施導向開發",
+  "region": "拉丁美洲／巴西里約熱內盧",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": null,
+      "topic": "港區基礎設施與公共空間再生"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": null,
+      "topic": "文化觀光、城市經濟與遺產"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": null,
+      "topic": "大型都市再生與分配效應"
+    }
+  ],
+  "case": {
+    "location": "巴西里約熱內盧中央港區 Porto Maravilha",
+    "period": "2010 年代起施工與制度化推動；市府於 2023 年回顧十年間工程",
+    "area_ha": 500,
+    "fsi": null,
+    "gsi": null,
+    "program_mix": "港區道路與管線、濱水步道、博物館和文化設施、觀光設施與自行車路網；用途比例未查得。",
+    "key_strategies_zh": [
+      "以連續公共工程和文化場館建立港區更新框架，並應同步公開地價、住房與社會配套。",
+      "針對活動時段管理夜間觀光及居民生活需求，避免文化地標成為唯一成果指標。"
+    ],
+    "outcomes_zh": [
+      "市府回顧公布計畫邊界約 5,000,000 平方公尺，換算約 500 公頃；範圍口徑屬專案回顧。",
+      "市府報告多項道路、步道、自行車道和植樹工程數量，這些為官方自報產出。"
+    ],
+    "critiques_zh": [
+      "市府資料未在同頁提供移居、住房負擔或在地商業存續等效果評估。",
+      "500 公頃採市府所列 500 萬平方公尺換算；不能和其他研究的不同港區邊界直接對照。"
+    ]
+  },
+  "version": "v2.0"
+}

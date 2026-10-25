@@ -1,0 +1,42 @@
+{
+  "id": "GIVONI1998",
+  "title": "Climate considerations in building and urban design",
+  "authors": [
+    "Baruch Givoni"
+  ],
+  "year": 1998,
+  "venue_or_publisher": null,
+  "doi": null,
+  "isbn": null,
+  "openalex_id": null,
+  "kind": "ACADEMIC_BOOK",
+  "tradition": "都市氣候與建築設計",
+  "region": "跨地域",
+  "method": "專業學術專著；本地僅核對書目範圍",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "Open Library 書目記錄確認此專著的書名、作者與年份；未據此摘錄書中任何定量設計規則。",
+      "strength": "THEORETICAL",
+      "scope_zh": "支持其題名與學術範圍；具體章節內容需由指揮官交叉核對。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Open Library",
+    "query": {
+      "title": "Climate considerations in building and urban design",
+      "author": "Baruch Givoni",
+      "year": 1998,
+      "api_query": "https://openlibrary.org/search.json?title=Climate+Considerations+in+Building+and+Urban+Design&author=Baruch+Givoni&limit=5"
+    },
+    "matched_record_id": "/works/OL2682049W",
+    "checked_at_utc": "2026-10-08T14:09:02Z",
+    "match_notes_zh": "Open Library 搜尋結果之書名、作者和 first_publish_year 逐項相符。"
+  },
+  "limitations_zh": "只保留公開 API 書目 metadata，未保存摘要或全文內容。",
+  "critique_relationship_zh": "未核對與其他書目之互引或直接反駁。",
+  "metadata_licence_zh": "Open Library 公開書目 metadata；精確授權未核驗，標 UNKNOWN。"
+}

@@ -1,0 +1,83 @@
+{
+  "id": "KU-WAT-053",
+  "domain": "WAT",
+  "subtopic": "海綿城市",
+  "type": "value_range",
+  "title_zh": "海綿城市年徑流控制目標是地區分級指標",
+  "title_en": "海綿城市年徑流控制目標是地區分級指標",
+  "summary_zh": "海綿城市研究常以年度逕流控制率表達控制量占年逕流量的比例。這個量的數學上下界是 0% 到 100%，但上下界本身不是設計目標。中國城市的實際目標會依降雨分區、管制文件和統計口徑而變，不能從單一案例推成全國數值。",
+  "key_points_zh": [
+    "年徑流控制率和單場暴雨削峰不是同一指標。",
+    "政策目標須結合當地降雨資料和建成地表。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "library_id": "CHEZHANG2019",
+        "claim_zh": "中國海綿城市政策使用年徑流控制率與降雨量級別作為分區目標，但地方設定依氣候區和政策階段而變。",
+        "effect_or_value": "具體百分比範圍將在來源核對後記錄。",
+        "study_design": "政策概念分析",
+        "context_region": "中國",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      },
+      {
+        "library_id": "AHIABLAME2012",
+        "claim_zh": "書目確認本文題名聚焦「Effectiveness of Low Impact Development Practices: Literature Review and Suggestions for Future Research」；目前只完成作者、年份、題名與 DOI 核對，未將摘要或全文結論納入此記錄；本單元 KU-WAT-053 對照「海綿城市研究常以年度逕流控制率表達控制量占年逕流量的比例」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "文獻回顧；目前僅核對書目範圍",
+        "context_region": "美國與國際都市排水",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "把年控制率換算成當地降雨量級別後再做場址設計。",
+    "用實際監測檢驗設施是否累積達成年度目標。"
+  ],
+  "applies_when_zh": "適用於閱讀中國海綿城市政策和案例。",
+  "not_applicable_when_zh": "不可套作本基地法規或未經模型核驗的性能承諾。",
+  "debates_zh": "年度總量指標容易掩蓋短延時暴雨峰值和安全溢流；應與污染負荷及設施維護一同評估。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "CHEZHANG2019",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "AHIABLAME2012",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "海綿城市指標治理",
+  "region": "中國；中國濟南",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "海綿城市"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Sustainable Futures by Design",
+      "topic": "海綿城市"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0",
+  "values": [
+    {
+      "name": "年逕流控制率指標的數學範圍",
+      "range": "0–100",
+      "unit": "% of annual runoff volume",
+      "context": "海綿城市研究可用此比例表達年逕流控制量；數學邊界不是政策目標；這不是本基地法規；來源所列地域：中國。",
+      "library_id": "CHEZHANG2019"
+    }
+  ]
+}

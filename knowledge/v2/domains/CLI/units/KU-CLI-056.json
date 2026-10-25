@@ -1,0 +1,74 @@
+{
+  "id": "KU-CLI-056",
+  "domain": "CLI",
+  "subtopic": "日照與遮陰",
+  "type": "method",
+  "title_zh": "將日照時數和遮陰需求分圖計算",
+  "title_en": "將日照時數和遮陰需求分圖計算",
+  "summary_zh": "日照分析量測某位置得到直射光的期間，遮陰分析則追蹤何時有保護性陰影，兩者雖相依卻回答不同問題。街景影像研究可估算樹蔭的空間分布，規劃工具研究則要求將指標配合決策目的。分圖可以避免平均值掩蓋上午和午後差異。",
+  "key_points_zh": [
+    "日照時數需指定雲量假設和日期。",
+    "遮陰需說明物件高度與樹冠季節。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "library_id": "DOVEY14",
+        "claim_zh": "密度是多種量測與空間關係的組合；單一 FAR 不能代表公共空間或活動強度；本單元 KU-CLI-056 對照「日照分析量測某位置得到直射光的期間，遮陰分析則追蹤何時有保護性陰影，兩者雖相依卻回答不同問題」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "密度多維模型",
+        "context_region": "澳洲",
+        "locator": null
+      },
+      {
+        "library_id": "YE14",
+        "claim_zh": "荷蘭新舊城案例將路網整合、密度與混合用途聯合診斷，初步行為資料檢驗並非通用因果模型；本單元 KU-CLI-056 對照「日照分析量測某位置得到直射光的期間，遮陰分析則追蹤何時有保護性陰影，兩者雖相依卻回答不同問題」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "ABSTRACT_REVIEW",
+        "effect_or_value": null,
+        "study_design": "GIS／GPS 案例檢驗",
+        "context_region": "荷蘭",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "對活動高峰的每個時段輸出日照和陰影圖層。",
+    "用路徑和座位位置檢查實際遮陰連續度。"
+  ],
+  "applies_when_zh": "適用於樹木和建築陰影的公共空間分析。",
+  "not_applicable_when_zh": "不適用於用陰影面積直接推定熱舒適改善。",
+  "debates_zh": "陰影存在不表示該空間熱負荷已下降，表面和人體尺度還需量測。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "DOVEY14",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "YE14",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "時空日照分析",
+  "region": "Boston, USA；Sweden",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "日照與遮陰"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": null,
+      "topic": "日照與遮陰"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0"
+}

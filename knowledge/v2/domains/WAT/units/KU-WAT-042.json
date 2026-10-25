@@ -1,0 +1,74 @@
+{
+  "id": "KU-WAT-042",
+  "domain": "WAT",
+  "subtopic": "雨水滯留量的設計值",
+  "type": "critique",
+  "title_zh": "單場設計雨可能低估連續降雨負荷",
+  "title_en": "單場設計雨可能低估連續降雨負荷",
+  "summary_zh": "設施在一場雨後能否排空，會受地下水位、出水口和下一場降雨間隔影響。雨水管理文獻區分水質與水量功能，區域洪水研究也顯示系統跨越多種尺度。單次事件測試容易漏掉連續降雨造成的容量重疊。",
+  "key_points_zh": [
+    "初始水位會改變可用滯留空間。",
+    "連續事件比單場雨更能呈現排空瓶頸。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "library_id": "BERNDTSSON2010",
+        "claim_zh": "書目確認本文題名聚焦「Green roof performance towards management of runoff water quantity and quality: A review」；目前只完成作者、年份、題名與 DOI 核對，未將摘要或全文結論納入此記錄；本單元 KU-WAT-042 對照「設施在一場雨後能否排空，會受地下水位、出水口和下一場降雨間隔影響」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "文獻回顧；目前僅核對書目範圍",
+        "context_region": "跨地域",
+        "locator": null
+      },
+      {
+        "library_id": "STOVIN2010",
+        "claim_zh": "書目確認本文題名聚焦「The potential of green roofs to manage Urban Stormwater」；目前只完成作者、年份、題名與 DOI 核對，未將摘要或全文結論納入此記錄；本單元 KU-WAT-042 對照「設施在一場雨後能否排空，會受地下水位、出水口和下一場降雨間隔影響」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "案例或場地研究；目前僅核對書目範圍",
+        "context_region": "英國研究脈絡",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "用連續降雨序列檢查設施恢復容量的時間。",
+    "把排水時間和再利用需求放進維運計畫。"
+  ],
+  "applies_when_zh": "適用於蓄水設施的長期運作評估。",
+  "not_applicable_when_zh": "不適用於用單次事件結果宣稱全年風險受到控制。",
+  "debates_zh": "模型外推受氣候時序和操作規則限制，最大瞬時容量不代表全年表現。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "BERNDTSSON2010",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "STOVIN2010",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "雨洪設施評估批判",
+  "region": "跨地域；跨尺度都市水治理",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "雨水滯留量的設計值"
+    },
+    {
+      "school": "MIT",
+      "course": null,
+      "topic": "雨水滯留量的設計值"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0"
+}

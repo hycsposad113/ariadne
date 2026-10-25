@@ -1,0 +1,74 @@
+{
+  "id": "KU-WAT-046",
+  "domain": "WAT",
+  "subtopic": "水敏感都市設計（WSUD）",
+  "type": "design_principle",
+  "title_zh": "溢流路線也要保障公共空間安全",
+  "title_en": "溢流路線也要保障公共空間安全",
+  "summary_zh": "公共空間會遇到超過設施容量的降雨，因此溢流本身也是設計對象。WSUD 文獻把雨水設施放在城市水系內，防災規劃則要求空間支援應急功能。溢流可以沿可受暫時積水的地面前進，但不可把主要步行或救援通道默認為排水道。",
+  "key_points_zh": [
+    "水深、流速和接觸用途影響安全。",
+    "承擔溢流的道路可能暫時失去通行能力。"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "library_id": "FLETCHER2013",
+        "claim_zh": "書目確認本文題名聚焦「Understanding, management and modelling of urban hydrology and its consequences for receiving waters: A state of the art」；目前只完成作者、年份、題名與 DOI 核對，未將摘要或全文結論納入此記錄；本單元 KU-WAT-046 對照「公共空間會遇到超過設施容量的降雨，因此溢流本身也是設計對象」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "文獻回顧；目前僅核對書目範圍",
+        "context_region": "跨地域",
+        "locator": null
+      },
+      {
+        "library_id": "GODSCHALK2003",
+        "claim_zh": "WSUD 文獻把雨水設施放在城市水系內，防災規劃則要求空間支援應急功能。",
+        "effect_or_value": "溢流可以沿可受暫時積水的地面前進，但不可把主要步行或救援通道默認為排水道。",
+        "study_design": "防災規劃論述",
+        "context_region": "美國都市規劃",
+        "locator": null,
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "分別繪出一般雨、超載雨和受納水位偏高的流路。",
+    "設計封閉提示和雨後檢查程序。"
+  ],
+  "applies_when_zh": "適用於雨洪設計和步行安全協調。",
+  "not_applicable_when_zh": "沒有水深與流速分析時不可當作安全戲水區。",
+  "debates_zh": "缺少警示和管理時，景觀化淹水通道可能增加使用者風險。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "FLETCHER2013",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "GODSCHALK2003",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "安全溢流設計",
+  "region": "跨地域；美國都市規劃",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "水敏感都市設計（WSUD）"
+    },
+    {
+      "school": "MIT",
+      "course": null,
+      "topic": "水敏感都市設計（WSUD）"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0"
+}

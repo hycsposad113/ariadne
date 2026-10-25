@@ -1,0 +1,47 @@
+{
+  "id": "NG10",
+  "title": "Designing high-density cities for social and environmental sustainability",
+  "authors": [
+    "Edward Ng"
+  ],
+  "year": 2009,
+  "venue_or_publisher": "Earthscan",
+  "doi": null,
+  "isbn": "9781844074600",
+  "openalex_id": null,
+  "kind": "ACADEMIC_BOOK",
+  "tradition": "高密度環境設計",
+  "region": [
+    "香港",
+    "亞洲"
+  ],
+  "method": "編輯專書／案例綜述",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "高密度設計必須同時比較社會與環境條件；不能由密度數字直接推出唯一建築型態。",
+      "strength": "THEORETICAL",
+      "scope_zh": "僅限本研究或概念框架；不提供 M4H 的實測、法律效力或本卡試算門檻。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [
+    "DOVEY14",
+    "YUE05"
+  ],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Open Library",
+    "query": {
+      "title": "Designing high-density cities for social and environmental sustainability",
+      "author": "Edward Ng",
+      "year": 2009
+    },
+    "matched_record_id": "/works/OL16623500W",
+    "checked_at_utc": "2026-10-08T09:12:32Z",
+    "match_notes_zh": "本任務重新以允許的公開書目 API 核對書名、作者與出版年；只確認書目，不代表全文主張已核實。"
+  },
+  "limitations_zh": "僅核對公開書目及可得摘要，未下載全文；書目驗證不代表全文因果或所有主張均已確認。",
+  "critique_relationship_zh": "known_critiques 是編者指定的批評或替代閱讀，不宣稱實際互引或逐一反駁；Ratti 與 Hillier／Penn 的標題記錄確認明確對話。",
+  "metadata_licence_zh": "保存書目欄位和自行撰寫的來源說明；未保存 API 摘要或全文，資料服務授權細節未由本任務判定。"
+}

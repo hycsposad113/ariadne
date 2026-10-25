@@ -1,0 +1,98 @@
+{
+  "id": "KU-MOR-037",
+  "domain": "MOR",
+  "subtopic": "密度與形態的關係",
+  "type": "empirical_finding",
+  "title_zh": "上海鄰里形態研究以建築能源效能作結果",
+  "title_en": "Shanghai urban form and building energy",
+  "summary_zh": "摘要未列估計係數與樣本數，不能補寫能源節省比例或因果效果。 把氣候、建築用途和能源資料來源一併記錄。 研究設計：鄰里尺度形態與建築能源資料分析；地區：上海，中國。",
+  "key_points_zh": [
+    "上海案例把鄰里形態量化指標與建築能源效能放在同一分析框架，支持以地區尺度檢視形態與能耗的關聯。",
+    "研究設計：鄰里尺度形態與建築能源資料分析；地區：上海，中國",
+    "限制：摘要未列估計係數與樣本數，不能補寫能源節省比例或因果效果。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "上海案例把鄰里形態量化指標與建築能源效能放在同一分析框架，支持以地區尺度檢視形態與能耗的關聯。",
+        "effect_or_value": "上海鄰里案例；摘要未提供效應大小",
+        "study_design": "鄰里尺度形態與建築能源資料分析",
+        "context_region": "上海，中國",
+        "library_id": "QUAN2016",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "把氣候、建築用途和能源資料來源一併記錄。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "把氣候、建築用途和能源資料來源一併記錄。",
+      "tradeoff_zh": "「上海鄰里形態研究以建築能源效能作結果」的主要代價不是抽象的建造成本，而是摘要未列估計係數與樣本數，不能補寫能源節省比例或因果效果；因此先以上海案例把鄰里形態量化指標與建築能源效能放在同一分析框架，支持以地區尺度檢視形態與能耗的關聯作方案比較條件。",
+      "library_ids": [
+        "QUAN2016",
+        "DOVEY14"
+      ]
+    },
+    {
+      "option_zh": "在「上海鄰里形態研究以建築能源效能作結果」的來源情境裡，高層、周邊式街廓和低層高覆蓋形態各有不同公共空間代價；落到設計時還要按上海案例把鄰里形態量化指標與建築能源效能放在同一分析框架，支持以地區尺度檢視形態與能耗的關聯調整。",
+      "tradeoff_zh": "「上海鄰里形態研究以建築能源效能作結果」的主要代價不是抽象的建造成本，而是摘要未列估計係數與樣本數，不能補寫能源節省比例或因果效果；因此先以上海案例把鄰里形態量化指標與建築能源效能放在同一分析框架，支持以地區尺度檢視形態與能耗的關聯作方案比較條件。",
+      "library_ids": [
+        "QUAN2016",
+        "DOVEY14"
+      ]
+    }
+  ],
+  "applies_when_zh": "用於與上海，中國研究情境可比、且量測定義相近的分析。",
+  "not_applicable_when_zh": "摘要未列估計係數與樣本數，不能補寫能源節省比例或因果效果。",
+  "debates_zh": "摘要未列估計係數與樣本數，不能補寫能源節省比例或因果效果。",
+  "sources": [
+    {
+      "library_id": "QUAN2016",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "DOVEY14",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "中國城市形態與建築能源；組裝形態學",
+  "region": "上海，中國；澳洲",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "密度與形態的關係"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "密度與形態的關係"
+    },
+    {
+      "school": "MIT",
+      "course": "4.241J / 11.330J Theory of City Form",
+      "topic": "密度與形態的關係"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban form and density",
+      "topic": "密度與形態的關係"
+    }
+  ],
+  "version": "kb2-enrich-draft-2026-10-08",
+  "related_unit_ids": [
+    "KU-MOR-031",
+    "KU-MOR-032",
+    "KU-MOR-033"
+  ],
+  "counter_unit_ids": [
+    "KU-MOR-035"
+  ]
+}

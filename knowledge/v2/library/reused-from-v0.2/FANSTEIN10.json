@@ -1,0 +1,47 @@
+{
+  "id": "FANSTEIN10",
+  "title": "The just city",
+  "authors": [
+    "Susan S. Fainstein"
+  ],
+  "year": 2010,
+  "venue_or_publisher": "Cornell University Press",
+  "doi": null,
+  "isbn": "9780801476907",
+  "openalex_id": null,
+  "kind": "ACADEMIC_BOOK",
+  "tradition": "都市分配正義",
+  "region": [
+    "美國",
+    "歐洲"
+  ],
+  "method": "規範性理論",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim_zh": "以公平、參與及差異討論都市發展的受益與負擔，不能只用總量效率選方案。",
+      "strength": "THEORETICAL",
+      "scope_zh": "僅限本研究或概念框架；不提供 M4H 的實測、法律效力或本卡試算門檻。",
+      "assessment_basis": "BIBLIOGRAPHIC_SCOPE_ONLY"
+    }
+  ],
+  "known_critiques": [
+    "WATSON09",
+    "ROY05"
+  ],
+  "verification": {
+    "status": "VERIFIED",
+    "api": "Open Library",
+    "query": {
+      "title": "The just city",
+      "author": "Susan S. Fainstein",
+      "year": 2010
+    },
+    "matched_record_id": "/works/OL15091595W",
+    "checked_at_utc": "2026-10-08T09:12:32Z",
+    "match_notes_zh": "本任務重新以允許的公開書目 API 核對書名、作者與出版年；只確認書目，不代表全文主張已核實。"
+  },
+  "limitations_zh": "僅核對公開書目及可得摘要，未下載全文；書目驗證不代表全文因果或所有主張均已確認。",
+  "critique_relationship_zh": "known_critiques 是編者指定的批評或替代閱讀，不宣稱實際互引或逐一反駁；Ratti 與 Hillier／Penn 的標題記錄確認明確對話。",
+  "metadata_licence_zh": "保存書目欄位和自行撰寫的來源說明；未保存 API 摘要或全文，資料服務授權細節未由本任務判定。"
+}

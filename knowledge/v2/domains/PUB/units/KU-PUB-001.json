@@ -1,0 +1,74 @@
+{
+  "id": "KU-PUB-001",
+  "domain": "PUB",
+  "subtopic": "廣場尺度與圍合",
+  "type": "value_range",
+  "title_zh": "人臉可辨識的視距",
+  "title_en": "Face-recognition distance",
+  "summary_zh": "Gehl 的公共生活尺度討論把面部表情辨識放在約二十至二十五公尺範圍。這是用感官互動說明空間尺度的經典主張，不是廣場的最大邊長。建築遮擋、逆光、視力差異與文化情境都會改變可辨識程度。經典距離有助於提出設計問題，但視覺可見不等於社會安全。",
+  "key_points_zh": [
+    "Gehl（Cities for People, 2010）以約 20–25 m 為能辨識面部表情與情緒的距離",
+    "這是用感官互動說明空間尺度的經典主張，不是廣場的最大邊長"
+  ],
+  "evidence": {
+    "strength": "NORMATIVE_PRACTICE",
+    "findings": [
+      {
+        "claim_zh": "Gehl（Cities for People, 2010）以約 20–25 m 為能辨識面部表情與情緒的距離。",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": "跨地域",
+        "library_id": "GEHL10",
+        "locator": null,
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+        "limitations_zh": "經典距離有助於提出設計問題，但視覺可見不等於社會安全。"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "在平面與剖面同時檢查視線被切斷的位置，並以不同身高的現場觀察補充圖面。"
+  ],
+  "applies_when_zh": "適合提出廣場對望、入口辨識與活動可見性的假設。",
+  "not_applicable_when_zh": "不應據此推定陌生人可互相辨識，或把距離當治安標準。",
+  "debates_zh": "經典距離有助於提出設計問題，但視覺可見不等於社會安全。",
+  "sources": [
+    {
+      "library_id": "CARMONA10",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "GEHL10",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "公共空間治理批評",
+  "region": "跨地域",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "廣場尺度與圍合"
+    },
+    {
+      "school": "Harvard GSD",
+      "course": "Elements of Urban Design",
+      "topic": "廣場尺度與圍合"
+    }
+  ],
+  "version": "2.0.0",
+  "values": [
+    {
+      "name": "人臉可辨識的視距",
+      "range": "約 20–25 m",
+      "unit": "公尺",
+      "context": "Gehl 人本尺度論述的經典觀察範圍；供廣場視線檢核，不作規範。；「人臉可辨識的視距」僅供其研究脈絡內比較，不構成本基地法規；來源所列地域：丹麥、跨地域。",
+      "library_id": "GEHL10"
+    }
+  ],
+  "related_unit_ids": [
+    "KU-PUB-002"
+  ]
+}

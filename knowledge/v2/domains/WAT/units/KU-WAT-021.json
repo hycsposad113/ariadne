@@ -1,0 +1,74 @@
+{
+  "id": "KU-WAT-021",
+  "domain": "WAT",
+  "subtopic": "洪水風險與多層安全",
+  "type": "concept",
+  "title_zh": "風險同時取決於危害、暴露和脆弱性",
+  "title_en": "風險同時取決於危害、暴露和脆弱性",
+  "summary_zh": "洪水風險不是單一水深圖，而是水文危害與暴露資產、社會脆弱性及應對能力的交會。低海拔沿海研究展示全球聚落暴露的空間分布，韌性研究則指出受影響者的資源與治理位置會改變後果。地形分類可用作初篩，但需要地方高程、水位與人口資料才能支持設計決策。",
+  "key_points_zh": [
+    "危害圖回答水可能到哪裡，脆弱性分析回答誰較難應對。",
+    "建築防護不能取代疏散、服務連續性或公平性考量。"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "library_id": "HAASNOOT2013",
+        "claim_zh": "題名確認文章提出在深度不確定情境中規劃調適路徑的方法；不據題名宣稱它保證避免所有失效；本單元 KU-WAT-021 對照「洪水風險不是單一水深圖，而是水文危害與暴露資產、社會脆弱性及應對能力的交會」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "動態調適政策路徑方法論",
+        "context_region": "荷蘭與跨地域水治理方法",
+        "locator": null
+      },
+      {
+        "library_id": "WALKER2004",
+        "claim_zh": "文章將韌性、適應性與轉型性並列為不同概念，適合用來避免把恢復原狀當成唯一目標；本單元 KU-WAT-021 對照「洪水風險不是單一水深圖，而是水文危害與暴露資產、社會脆弱性及應對能力的交會」所界定的問題，這筆來源只支援書目範圍判讀。",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY",
+        "effect_or_value": null,
+        "study_design": "理論框架",
+        "context_region": "跨地域社會－生態系統",
+        "locator": null
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "把水位情境、受影響用途和可用的應急資源並列。",
+    "標記所有風險圖的垂直基準與資料年份。"
+  ],
+  "applies_when_zh": "適用於概念規劃、氣候調適和風險溝通。",
+  "not_applicable_when_zh": "不適用於替代專案水理模型或工程安全審查。",
+  "debates_zh": "全球尺度暴露分析的解析度和高程誤差可能改變個別地區估算。",
+  "counter_unit_ids": [],
+  "related_unit_ids": [],
+  "sources": [
+    {
+      "library_id": "HAASNOOT2013",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "WALKER2004",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "都市洪水風險盤點",
+  "region": "全球低海拔沿海區；跨地域",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": "Urban Metabolism & Climate",
+      "topic": "洪水風險與多層安全"
+    },
+    {
+      "school": "UCL Bartlett",
+      "course": "Sustainable Futures by Design",
+      "topic": "洪水風險與多層安全"
+    }
+  ],
+  "case": null,
+  "version": "2.0.0"
+}

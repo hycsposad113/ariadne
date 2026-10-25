@@ -1,0 +1,88 @@
+{
+  "id": "KU-STR-043",
+  "domain": "STR",
+  "subtopic": "共享空間",
+  "type": "value_range",
+  "title_zh": "整合式表示下的中心性效果量",
+  "title_en": "Effect sizes across angular and topological models",
+  "summary_zh": "同一批空間語法研究在不同表示下得到不同的整合度效果：角度分析 ES 0.502，拓樸分析 ES 0.124。這反映距離定義會改變與行人移動關聯的量級，不能只比較地圖上看起來相似的指標。研究間異質性高，因此差值不構成角度分析必然較適合所有街網的證據。「整合度按表示方法的效果量」的數值不是本基地法規或普遍設計目標。",
+  "key_points_zh": [
+    "數值與用途：整合度按表示方法的效果量：角度 ES = 0.502；拓樸 ES = 0.124",
+    "數值與用途：用於比較指標操作方式的研究差別，不是網路設計目標或 M4H 法規"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "整合式表示下的中心性效果量｜角度表示和拓樸表示下的整合度效果量不同",
+        "effect_or_value": "角度 ES = 0.502；拓樸 ES = 0.124",
+        "study_design": "整合分析",
+        "context_region": "跨地區文獻統合；研究異質性高",
+        "library_id": "SHARMIN17",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "整合式表示下的中心性效果量｜公共空間同時面對過度管理與管理不足的批評；開放性與安全不能用單一形式解決",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "CARMONA10",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "values": [
+    {
+      "name": "整合度按表示方法的效果量",
+      "range": "角度 ES = 0.502；拓樸 ES = 0.124",
+      "unit": "統合效果量 ES",
+      "context": "跨地區空間語法文獻統合；用於比較角度與拓樸操作方式的研究關聯，不是本基地法規；來源所列地域：跨地域。",
+      "library_id": "SHARMIN17"
+    }
+  ],
+  "design_implications_zh": [
+    "做方案比較時，並列圖表示、轉向成本、分析範圍和整合度結果；若採角度模型，應將拓樸結果留作敏感度對照。"
+  ],
+  "applies_when_zh": "當研究者使用整合度解讀步行關聯，且可重建兩種圖表示的輸入規則時，此對比適合用來設計方法敏感度檢查。",
+  "not_applicable_when_zh": "0.502 和 0.124 是統合文獻效果量，不是空間中心性數值或路網設計目標；不能由它們直接推定哪種模型能預測本地人流。",
+  "debates_zh": "角度模型的合併效果量較高，但研究異質性及模型操作差異都可能造成落差；要在具體路網上檢驗，不應把效果量排名當成方法通用排名。",
+  "sources": [
+    {
+      "library_id": "SHARMIN17",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "CARMONA10",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "共享街道與交通安全",
+  "region": "跨地區文獻統合；研究異質性高",
+  "curriculum_refs": [
+    {
+      "school": "UCL Bartlett",
+      "course": "Urban Design: Place Making",
+      "topic": "共享空間：課綱對應主題"
+    },
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "共享空間：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-STR-041",
+    "KU-STR-042",
+    "KU-STR-044",
+    "KU-STR-045",
+    "KU-STR-046",
+    "KU-STR-047",
+    "KU-STR-048"
+  ]
+}

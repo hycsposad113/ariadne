@@ -1,0 +1,93 @@
+{
+  "id": "PUB-002",
+  "title_zh": "停留與通行分清",
+  "title_en": "Stay and movement space",
+  "domain": "public_space",
+  "stages": [
+    "S3",
+    "S4",
+    "S6",
+    "S7",
+    "S8"
+  ],
+  "statement_zh": "主通路旁安排座位與停留邊，不在最短通行線上放固定活動物件；保留能選擇日曬或遮蔽的位置。",
+  "rationale_zh": "老人、照護者與工人午休需要停留，通勤者需要通過。",
+  "applies_when": {
+    "scale": [
+      "*"
+    ],
+    "land_use": [
+      "*"
+    ],
+    "strategy": [
+      "*"
+    ],
+    "mode": [
+      "*"
+    ]
+  },
+  "parameters": [
+    {
+      "name": "clear_passage_width_trial",
+      "value": 3,
+      "range": null,
+      "unit": "m",
+      "provenance": "ASSUMED_COMMANDER",
+      "source_ids": [],
+      "authority_ref": null,
+      "status": "PROPOSED_PENDING_FOUNDER",
+      "rationale_zh": "指揮官提出的敏感性試算值，文獻未提供此數值；須 Founder 確認、地方資料及確定性驗證，未生效。"
+    }
+  ],
+  "check": {
+    "method_zh": "檢查座位與通路幾何衝突，舒適需日照及現場觀測。",
+    "inputs": [
+      "凍結幾何／路網與 hash",
+      "已接受專案條件與版本",
+      "卡片參數與版本"
+    ],
+    "output": "檢查值、單位、方法、有效性、差異與限制；不自動採納",
+    "implementation_status": "SPECIFICATION_ONLY"
+  },
+  "check_unavailable_reason_zh": null,
+  "design_responses": [
+    {
+      "option": "1",
+      "action_zh": "沿邊坐處",
+      "source_ids": [
+        "WHYTE80"
+      ],
+      "tradeoff_zh": "可能形成排他管理。"
+    },
+    {
+      "option": "2",
+      "action_zh": "分散小停留點",
+      "source_ids": [
+        "GEHL10"
+      ],
+      "tradeoff_zh": "維護分散、社交聚集較弱。"
+    }
+  ],
+  "evidence_level": "ACADEMIC",
+  "evidence_strength": "NORMATIVE_PRACTICE",
+  "sources": [
+    {
+      "library_id": "WHYTE80",
+      "claim_id": "C1",
+      "support_scope_zh": "文獻支持概念與比較角度；本卡具體操作是設計推導，試算值及專案約束不是文獻的普適結論。"
+    },
+    {
+      "library_id": "GEHL10",
+      "claim_id": "C1",
+      "support_scope_zh": "文獻支持概念與比較角度；本卡具體操作是設計推導，試算值及專案約束不是文獻的普適結論。"
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "enforcement": "CANDIDATE_ONLY",
+  "authority_ref": null,
+  "debates_zh": "公共生活觀察與場所意象不等同普適處方；氣候、階級、性別、管理與使用時段改變結果。原書未逐頁核對。 已查證書目與主張的查閱層級見 library；不是逐頁核驗或本基地因果結論。",
+  "context_validity_zh": "美國小空間與丹麥公共生活經驗可提出試案；港區工人、居民與騎行者的 M4H 使用行為仍未知。",
+  "exceptions_zh": "卡片不可替代現行法規、產權、無障礙或已接受 D1/D2。缺必要資料即回報 UNKNOWN；例外須由 Founder 明確決定並保留原結果。",
+  "version": "0.2.0",
+  "local_context_refs": []
+}

@@ -1,0 +1,71 @@
+{
+  "id": "KU-MET-007",
+  "domain": "MET",
+  "subtopic": "製圖與疊圖（layers approach，荷蘭）",
+  "type": "method",
+  "title_zh": "McHarg 疊圖適宜性",
+  "title_en": "McHarg overlay suitability",
+  "summary_zh": "McHarg 以疊合地質、水、土壤、生態等條件辨認開發適宜性，將自然過程納入選址。方法包含資料層整理、評價、疊合及辨認衝突，評分本身含有價值選擇。為每層記錄單位、解析度、方向及權重，另外測試不同權重下的區位變化。",
+  "key_points_zh": [
+    "為每層記錄單位、解析度、方向及權重，另外測試不同權重下的區位變化。",
+    "疊圖不能消除不確定性；相依層可能重複計分，社會因素也可能被低估。"
+  ],
+  "evidence": {
+    "strength": "THEORETICAL",
+    "findings": [
+      {
+        "claim_zh": "McHarg 以疊合地質、水、土壤、生態等條件辨認開發適宜性，將自然過程納入選址。方法包含資料層整理、評價、疊合及辨認衝突，評分本身含有價值選擇。",
+        "library_id": "MCHARG1969",
+        "locator": null,
+        "study_design": "理論／方法綜述；非基地實測",
+        "effect_or_value": null,
+        "context_region": null,
+        "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008"
+      },
+      {
+        "claim_zh": "Steiner、Young 與 Zube 回顧生態規劃方法的演變，提供 McHarg 疊圖法以外的後續方法史。",
+        "library_id": "STEINER2014",
+        "locator": null,
+        "study_design": "書目範圍核對；未以書目代替全文分析",
+        "effect_or_value": null,
+        "context_region": "美國、北美",
+        "claim_verification": "BIBLIOGRAPHIC_SCOPE_ONLY"
+      }
+    ]
+  },
+  "design_implications_zh": [
+    "為每層記錄單位、解析度、方向及權重，另外測試不同權重下的區位變化。"
+  ],
+  "design_options": [
+    {
+      "option_zh": "保護敏感區可減少環境衝擊，但需說明開發壓力會轉移到哪裡。",
+      "tradeoff_zh": "疊圖不能消除不確定性；相依層可能重複計分，社會因素也可能被低估。",
+      "library_ids": [
+        "MCHARG1969"
+      ]
+    }
+  ],
+  "applies_when_zh": "用於釐清「McHarg 疊圖適宜性」涉及的空間、制度與行動選擇。",
+  "not_applicable_when_zh": "「McHarg 疊圖適宜性」不能直接替代基地的實測、法規或人類批准。",
+  "debates_zh": "疊圖不能消除不確定性；相依層可能重複計分，社會因素也可能被低估。",
+  "sources": [
+    {
+      "library_id": "MCHARG1969",
+      "locator": null
+    },
+    {
+      "library_id": "STEINER2014",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "claim_verification": "CANONICAL_CROSS_CHECKED_CLAUDE_20261008",
+  "curriculum_refs": [
+    {
+      "school": "TU Delft",
+      "course": null,
+      "topic": "編者主題對照，非已核實課程指定閱讀：McHarg 疊圖適宜性"
+    }
+  ],
+  "version": "2.0.0-theory-v3"
+}

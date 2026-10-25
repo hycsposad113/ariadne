@@ -1,0 +1,81 @@
+{
+  "id": "KU-MOB-050",
+  "domain": "MOB",
+  "subtopic": "停車政策與最低停車標準的影響",
+  "type": "empirical_finding",
+  "title_zh": "最低停車要求與 Porirua 土地配置",
+  "title_en": "Parking minimums in Porirua CBD",
+  "summary_zh": "紐西蘭 CBD 案例，含土地繪圖、stated choice 和成本回收模型，研究脈絡為Porirua，紐西蘭。最低標準可能把土地成本和出行選擇往開車方向推移。案例地區 24% CBD 土地被計為停車用途，最低標準與超額供給和分散發展相連。限制包括單一 CBD 案例值不能外推為其他城市的停車比例或法規。",
+  "key_points_zh": [
+    "最低標準可能把土地成本和出行選擇往開車方向推移",
+    "限制：單一 CBD 案例值不能外推為其他城市的停車比例或法規",
+    "效果或方向：案例地區 24% CBD 土地被計為停車用途，最低標準與超額供給和分散發展相連"
+  ],
+  "evidence": {
+    "strength": "MIXED",
+    "findings": [
+      {
+        "claim_zh": "最低停車要求與 Porirua 土地配置｜最低標準可能把土地成本和出行選擇往開車方向推移",
+        "effect_or_value": "案例地區 24% CBD 土地被計為停車用途，最低標準與超額供給和分散發展相連",
+        "study_design": "紐西蘭 CBD 案例，含土地繪圖、stated choice 和成本回收模型",
+        "context_region": "Porirua，紐西蘭",
+        "library_id": "HULME_MOIR10",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      },
+      {
+        "claim_zh": "最低停車要求與 Porirua 土地配置｜挪威旅運調查顯示，工作地月繳停車相較日繳與接近兩倍的開車機率相關，家與目的地停車限制會疊加；研究指出效果在緊湊城市較大",
+        "effect_or_value": null,
+        "study_design": null,
+        "context_region": null,
+        "library_id": "CHRISTIANSEN16",
+        "locator": null,
+        "claim_verification": "ABSTRACT_REVIEW"
+      }
+    ]
+  },
+  "values": [],
+  "design_implications_zh": [
+    "先測量基地停車占地與實際使用，再比較供給和替代交通"
+  ],
+  "applies_when_zh": "若本地觀察單位與Porirua，紐西蘭的研究脈絡可對照，可用「最低標準可能把土地成本和出行選擇往開車方向推移」作為停車政策與最低停車標準的影響的比較線索。",
+  "not_applicable_when_zh": "這項Porirua，紐西蘭的研究結果不能單獨證明因果或預測其他城市的街段；原研究單一 CBD 案例值不能外推為其他城市的停車比例或法規。",
+  "debates_zh": "關聯能否外推；單一 CBD 案例值不能外推為其他城市的停車比例或法規；檢視「最低停車要求與 Porirua 土地配置」的研究解讀時，還需判斷「限制：單一 CBD 案例值不能外推為其他城市的停車比例或法規」會如何改變方案結論。",
+  "sources": [
+    {
+      "library_id": "HULME_MOIR10",
+      "claim_id": "C1",
+      "locator": null
+    },
+    {
+      "library_id": "CHRISTIANSEN16",
+      "claim_id": "C1",
+      "locator": null
+    }
+  ],
+  "source_count_flag": "MULTI_SOURCE",
+  "tradition": "停車供給與交通需求管理",
+  "region": "Porirua，紐西蘭",
+  "curriculum_refs": [
+    {
+      "school": "UCL Bartlett",
+      "course": "Sustainable Futures by Design",
+      "topic": "停車政策與最低停車標準的影響：課綱對應主題"
+    },
+    {
+      "school": "TU Delft",
+      "course": "Design of the Urban Fabric",
+      "topic": "停車政策與最低停車標準的影響：課綱對應主題"
+    }
+  ],
+  "version": "2.0.0-draft.2",
+  "related_unit_ids": [
+    "KU-MOB-049",
+    "KU-MOB-051",
+    "KU-MOB-052",
+    "KU-MOB-053",
+    "KU-MOB-054",
+    "KU-MOB-055",
+    "KU-MOB-056"
+  ]
+}
