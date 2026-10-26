@@ -68,28 +68,75 @@ def test_mcp_server_registers_all_required_tools(test_app_and_client) -> None:
         assert set(language_schema["enum"]) == {"zh-TW", "en"}
 
 
-def test_tool_get_site_analysis(test_app_and_client) -> None:
-    toolset = test_app_and_client["toolset"]
+def test_tool_get_site_analysis_uses_fake_platform_record() -> None:
+    class FakeClient:
+        def get_site_analysis(self, project_id):
+            return {
+                "project_id": project_id,
+                "study_area_id": "study-area-test-v1",
+                "study_area_area_m2": 123.5,
+                "crs": "EPSG:28992",
+                "study_area_revision": 2,
+                "source_package_revision": "spatial-test-v1",
+                "evidence_cards_status": "VERIFIED_SOURCE_RESULT_ALIGNMENT",
+                "evidence_bundle_sha256": "sha256:test-bundle",
+                "evidence_cards": [{
+                    "card_id": "card-test-1",
+                    "metric_name": "test observation",
+                    "value": 7,
+                    "unit": "features",
+                    "validation_status": "VALIDATED",
+                    "limitations": [],
+                }],
+                "claims": [{"id": "claim-test-1", "statement": "Fixture claim."}],
+                "report_summary": "Fixture report summary.",
+                "limitations": ["Fixture-only test data."],
+                "status": "VERIFIED",
+            }
+
+    toolset = AriadneToolSet(client=FakeClient())
     res = toolset.get_site_analysis(project_id="rotterdam-m4h")
 
     assert res["project_id"] == "rotterdam-m4h"
-    assert res["study_area_area_m2"] == 226064.33
+    assert res["study_area_area_m2"] == 123.5
     assert res["crs"] == "EPSG:28992"
-    assert "report_summary" in res
-    assert res["claims_count"] >= 20
+    assert res["report_summary"] == "Fixture report summary."
+    assert res["claims_count"] == 1
     assert len(res["claims"]) == res["claims_count"]
-    # Check claim format
-    first_claim = res["claims"][0]
-    assert "id" in first_claim
-    assert "章節" in first_claim
-    assert "敘述" in first_claim
-    assert "數值" in first_claim
-    assert "來源檔案或證據 ID" in first_claim
-    assert len(res["limitations"]) > 0
+    assert res["evidence_cards"][0]["card_id"] == "card-test-1"
+    assert res["evidence_cards"][0]["validation_status"] == "VALIDATED"
+    assert res["study_area_revision"] == 2
 
 
-def test_tool_get_syntax_layers_includes_mandatory_warning(test_app_and_client) -> None:
-    toolset = test_app_and_client["toolset"]
+def test_tool_get_site_analysis_reports_unavailable_without_fallback_data() -> None:
+    class MissingClient:
+        def get_site_analysis(self, **_kwargs):
+            return {
+                "status": "UNAVAILABLE",
+                "error_class": "MissingRecordError",
+                "reason": "No verified record.",
+            }
+
+    result = AriadneToolSet(client=MissingClient()).get_site_analysis()
+    assert result["status"] == "UNAVAILABLE"
+    assert result["error_class"] == "MissingRecordError"
+    assert result["reason"] == "No verified record."
+    assert "study_area_area_m2" not in result
+    assert "evidence_cards" not in result
+
+
+def test_tool_get_syntax_layers_includes_mandatory_warning() -> None:
+    class FakeClient:
+        def get_site_context(self, project_id):
+            return {
+                "project_id": project_id,
+                "syntax_layers_status": "COMPUTED",
+                "syntax_layers": [{"layer_id": "syntax-fixture", "calculation_status": "COMPUTED"}],
+                "syntax_layer_plan": [{"radius_m": 800.0, "network_mode": "pedestrian"}],
+                "syntax_limitations": ["Fixture-only test record."],
+            }
+
+    toolset = AriadneToolSet(client=FakeClient())
     res = toolset.get_syntax_layers(project_id="rotterdam-m4h")
 
     assert res["warning"] == SYNTAX_WARNING
@@ -99,10 +146,42 @@ def test_tool_get_syntax_layers_includes_mandatory_warning(test_app_and_client) 
     assert "q1_very_low" in res["quantiles_definition"]
     assert "q5_very_high" in res["quantiles_definition"]
     assert len(res["limitations"]) > 0
+    assert res["layers"] == [{"layer_id": "syntax-fixture", "calculation_status": "COMPUTED"}]
+    assert res["analysis_radii_m"]["pedestrian"] == 800.0
 
 
-def test_tool_get_surrounding_context_summary(test_app_and_client) -> None:
-    toolset = test_app_and_client["toolset"]
+def test_tool_get_syntax_layers_reports_unavailable_without_fabricated_layers() -> None:
+    class FailingClient:
+        def get_site_context(self, **_kwargs):
+            raise TimeoutError("private transport detail")
+
+    result = AriadneToolSet(client=FailingClient()).get_syntax_layers(language="en")
+    assert result["status"] == "UNAVAILABLE"
+    assert result["error_class"] == "TimeoutError"
+    assert result["reason"] == "The platform API request timed out."
+    assert "layers" not in result
+    assert result["analysis_radii_m"]["bicycle"] == 2000.0
+
+
+def test_tool_get_surrounding_context_summary_uses_fake_platform_records() -> None:
+    class FakeClient:
+        def get_surrounding_context(self, project_id):
+            return {
+                "metadata": {
+                    "project_id": project_id,
+                    "crs": "EPSG:28992",
+                    "context_distance_m": 2000.0,
+                    "source": "OpenStreetMap",
+                },
+                "layers": {
+                    "buildings": {"features": [{"id": "b-1"}]},
+                    "water": {"features": []},
+                    "green": {"features": [{"id": "g-1"}]},
+                    "roads": {"features": [{"id": "r-1"}, {"id": "r-2"}]},
+                },
+            }
+
+    toolset = AriadneToolSet(client=FakeClient())
     res = toolset.get_surrounding_context_summary(project_id="rotterdam-m4h")
 
     assert res["project_id"] == "rotterdam-m4h"
@@ -110,34 +189,129 @@ def test_tool_get_surrounding_context_summary(test_app_and_client) -> None:
     assert res["context_distance_m"] == 2000.0
     assert res["source"] == "OpenStreetMap"
     assert "summary_zh" in res
+    assert res["total_context_features"] == 4
+    assert res["feature_breakdown"] == {"buildings": 1, "water": 0, "green": 1, "roads": 2}
 
 
-def test_tool_list_and_compare_scenarios_includes_portfolio_baseline(test_app_and_client) -> None:
-    toolset = test_app_and_client["toolset"]
+def test_tool_get_surrounding_context_reports_unavailable_without_fallback() -> None:
+    class MissingClient:
+        def get_surrounding_context(self, **_kwargs):
+            return {"status": "UNAVAILABLE", "error_class": "HTTPStatusError", "reason": "HTTP 404"}
 
-    # 1. list_scenarios
+    result = AriadneToolSet(client=MissingClient()).get_surrounding_context_summary()
+    assert result["status"] == "UNAVAILABLE"
+    assert result["error_class"] == "HTTPStatusError"
+    assert "total_context_features" not in result
+
+
+def test_tool_list_and_compare_scenarios_uses_fake_platform_records() -> None:
+    class FakeClient:
+        def list_scenarios(self):
+            return [{"scenario_id": "persisted-1"}]
+
+        def list_fabric_plans(self):
+            return {
+                "status": "EXPLORATORY_DRAFT",
+                "plans": [
+                    {"fabric_id": "harbour_grain", "label_zh": "港埠線性紋理", "metrics": {"far": 0.91}},
+                    {"fabric_id": "closed_block_extension", "label_zh": "圍合街廓延伸", "metrics": {"far": 0.82}},
+                    {"fabric_id": "courtyard_islands", "label_zh": "大型院落島", "metrics": {"far": 0.76}},
+                    {"fabric_id": "landscape_figure", "label_zh": "地景為圖", "metrics": {"far": 0.68}},
+                ],
+            }
+
+        def compare_scenarios(self, ids):
+            return {
+                "scenario_ids": ids,
+                "status": "COMPARABLE",
+                "metrics": [
+                    {
+                        "metric_id": "far",
+                        "status": "COMPARABLE",
+                        "unit": "ratio",
+                        "values": {"scenario-a": 0.96, "scenario-b": 0.72},
+                        "validation_status": {"scenario-a": "VALIDATED", "scenario-b": "VALIDATED"},
+                        "denominators": {
+                            "scenario-a": {"label": "land_area", "area_m2": 1000.0},
+                            "scenario-b": {"label": "land_area", "area_m2": 1000.0},
+                        },
+                    }
+                ],
+            }
+
+    toolset = AriadneToolSet(client=FakeClient())
     listed = toolset.list_scenarios(include_assumed=True, include_portfolio_baseline=True)
-    assert "assumed_previews" in listed
-    assert len(listed["assumed_previews"]) >= 3
-    assert all(p["provenance"] == "ASSUMED" for p in listed["assumed_previews"])
-    assert all(p["status"] == "UNAPPROVED_PREVIEW" for p in listed["assumed_previews"])
+
+    previews = listed["assumed_previews"]
+    assert [p["fabric_id"] for p in previews] == [
+        "harbour_grain", "closed_block_extension", "courtyard_islands", "landscape_figure"
+    ]
+    assert all(p["status"] == "EXPLORATORY_DRAFT" for p in previews)
+    assert previews[0]["metrics"] == {"far": 0.91}
+    assert listed["status"] == "AVAILABLE"
     assert listed["portfolio_original_baseline"] == PORTFOLIO_ORIGINAL_BASELINE
-    assert PORTFOLIO_ORIGINAL_BASELINE["designer"] == "Jack Hsieh"
-    assert PORTFOLIO_ORIGINAL_BASELINE["baseline_metrics"]["far"]["value"] == 2.85
+    assert PORTFOLIO_ORIGINAL_BASELINE["designer"] == "the author (Q2 studio design)"
+    assert PORTFOLIO_ORIGINAL_BASELINE["status"] == "PORTFOLIO_BASELINE_APPROX"
+    baseline_metrics = PORTFOLIO_ORIGINAL_BASELINE["baseline_metrics"]
+    assert baseline_metrics["far"]["value"] == 0.8
+    assert baseline_metrics["far"]["denominator"] == "land_area"
+    assert baseline_metrics["max_height_m"]["value"] == 20.0
+    assert baseline_metrics["open_space_ratio"]["value"] == 0.4
+    assert baseline_metrics["open_space_ratio"]["role"] == "preference"
+    assert "coverage_ratio" not in baseline_metrics
 
-    # 2. compare_scenarios
-    compared = toolset.compare_scenarios(
-        scenario_ids=["preview-site-grid-assumed", "preview-site-linear-green-axis-assumed"],
-        include_portfolio_baseline=True,
-    )
-    assert "scenario_comparison" in compared
-    assert "portfolio_baseline" in compared
-    assert "designer_differences_analysis" in compared
-    assert "the designer 原設計基準" in compared["designer_differences_analysis"]
+    compared = toolset.compare_scenarios(["scenario-a", "scenario-b"], include_portfolio_baseline=True)
+    assert compared["scenario_comparison"]["status"] == "COMPARABLE"
+    assert compared["portfolio_baseline"] == PORTFOLIO_ORIGINAL_BASELINE
+    analysis = compared["designer_differences_analysis"]
+    assert "scenario-a" in analysis and "+0.160" in analysis
+    assert "scenario-b" in analysis and "-0.080" in analysis
+    assert "15m" in analysis
+    assert "Gusto" in analysis and "Keilepand" in analysis
 
 
-def test_tool_draft_constraints_produces_draft_without_activating(test_app_and_client) -> None:
-    toolset = test_app_and_client["toolset"]
+def test_tool_list_scenarios_reports_fabric_api_failure_without_previews() -> None:
+    class FailingClient:
+        def list_scenarios(self):
+            return []
+
+        def list_fabric_plans(self):
+            raise TimeoutError("platform unavailable")
+
+    listed = AriadneToolSet(client=FailingClient()).list_scenarios()
+    assert listed["assumed_previews"] == []
+    assert listed["status"] == "UNAVAILABLE"
+    assert listed["error_class"] == "TimeoutError"
+    assert listed["reason"] == "The platform API request timed out."
+
+
+def test_tool_compare_scenarios_reports_client_failure_without_mock_metrics() -> None:
+    class FailingClient:
+        def compare_scenarios(self, _ids):
+            raise OSError("platform unavailable")
+
+    compared = AriadneToolSet(client=FailingClient()).compare_scenarios(["scenario-a", "scenario-b"])
+    assert compared["status"] == "UNAVAILABLE"
+    assert compared["scenario_comparison"]["status"] == "UNAVAILABLE"
+    assert compared["scenario_comparison"]["error_class"] == "OSError"
+    assert compared["scenario_comparison"]["reason"] == "The platform API request failed."
+    assert "metrics_matrix" not in compared["scenario_comparison"]
+    assert "2.85" not in compared["designer_differences_analysis"]
+
+
+def test_tool_draft_constraints_produces_draft_without_activating() -> None:
+    class FakeClient:
+        def create_constraint_set_draft(self, project_id, constraints, **_kwargs):
+            return {
+                "constraint_set": {
+                    "id": "constraint-set-test",
+                    "project_id": project_id,
+                    "constraints": constraints,
+                    "status": "DRAFT_PENDING_HUMAN_DECISION",
+                }
+            }
+
+    toolset = AriadneToolSet(client=FakeClient())
     res = toolset.draft_constraints(
         prompt="容積率上限 3.2，建築高度上限 35m，保留 20% 開放空間",
         far_upper_bound=3.2,
@@ -159,22 +333,112 @@ def test_tool_draft_constraints_produces_draft_without_activating(test_app_and_c
     assert metrics.get("far") == 3.2
     assert metrics.get("max_height_m") == 35.0
     assert metrics.get("open_space_ratio") == 0.20
+    assert res["parameters"]["waterfront_setback_m"] == {"value": None, "status": "NOT_SPECIFIED"}
+    assert res["draft_constraint_set"]["parameters"]["waterfront_setback_m"]["status"] == "NOT_SPECIFIED"
 
 
-def test_tool_run_preview_generation_marks_unapproved_preview(test_app_and_client) -> None:
-    toolset = test_app_and_client["toolset"]
+def test_tool_draft_constraints_leaves_unspecified_values_empty() -> None:
+    class MustNotCallClient:
+        def create_constraint_set_draft(self, **_kwargs):
+            raise AssertionError("An empty constraint set must not be submitted")
+
+    result = AriadneToolSet(client=MustNotCallClient()).draft_constraints(
+        prompt="Use a sensible FAR and height."
+    )
+    assert result["status"] == "NOT_SPECIFIED"
+    assert result["draft_constraint_set"]["constraints"] == []
+    for parameter in result["draft_constraint_set"]["parameters"].values():
+        assert parameter == {"value": None, "status": "NOT_SPECIFIED"}
+
+
+def test_tool_draft_constraints_reports_api_failure_without_fake_draft() -> None:
+    class FailingClient:
+        def create_constraint_set_draft(self, **_kwargs):
+            raise ConnectionError("transport detail")
+
+    result = AriadneToolSet(client=FailingClient()).draft_constraints("FAR 2.5", far_upper_bound=2.5)
+    assert result["status"] == "UNAVAILABLE"
+    assert result["error_class"] == "ConnectionError"
+    assert result["reason"] == "The platform API connection failed."
+    assert "draft_constraint_set" not in result
+
+
+def test_tool_run_preview_generation_marks_synthetic_inputs_and_unapproved_preview() -> None:
+    class FakeClient:
+        def create_fixture_scenarios(self, payload):
+            return {"scenarios": [{"scenario_id": "fixture-preview-1", "status": "UNAPPROVED_PREVIEW"}]}
+
+    toolset = AriadneToolSet(client=FakeClient())
     res = toolset.run_preview_generation(seed=42)
 
     assert res["status"] == "UNAPPROVED_PREVIEW"
-    assert res["provenance"] == "ASSUMED"
+    assert res["provenance"] == "SYNTHETIC_TEST_INPUT"
+    assert res["preview_inputs"]["status"] == "SYNTHETIC_TEST_INPUT"
+    assert res["preview_inputs"]["width_m"] == 100.0
+    assert res["preview_inputs"]["height_m"] == 80.0
     assert res["authority_db_written"] is False
     assert res["human_decision_created"] is False
-    assert len(res["generated_candidates"]) >= 3
+    assert res["generated_candidates"] == [{"scenario_id": "fixture-preview-1", "status": "UNAPPROVED_PREVIEW"}]
     assert "UNAPPROVED_PREVIEW" in res["note_zh"]
 
 
-def test_tool_critique_scenario_validates_citations_and_provenance(test_app_and_client) -> None:
-    toolset = test_app_and_client["toolset"]
+def test_tool_run_preview_generation_reports_unavailable_without_fake_candidates() -> None:
+    class FailingClient:
+        def create_fixture_scenarios(self, _payload):
+            raise OSError("transport detail")
+
+    result = AriadneToolSet(client=FailingClient()).run_preview_generation()
+    assert result["status"] == "UNAVAILABLE"
+    assert result["error_class"] == "OSError"
+    assert result["preview_inputs"]["status"] == "SYNTHETIC_TEST_INPUT"
+    assert "generated_candidates" not in result
+
+
+def test_tool_critique_scenario_validates_citations_and_provenance_with_fake_client() -> None:
+    class FakeClient:
+        def get_site_analysis(self, **_kwargs):
+            return {
+                "study_area_id": "study-area-test-v1",
+                "study_area_area_m2": 250.0,
+                "crs": "EPSG:28992",
+                "study_area_revision": 3,
+                "source_package_revision": "spatial-test-v1",
+                "evidence_cards_status": "VERIFIED_SOURCE_RESULT_ALIGNMENT",
+                "evidence_bundle_sha256": "sha256:test-bundle",
+                "claims": [{"id": "claim-test-1"}],
+                "report_summary": "Fixture report summary.",
+                "status": "VERIFIED",
+                "evidence_cards": [{
+                    "card_id": "card-verified-test",
+                    "metric_name": "Verified test observation",
+                    "value": 5,
+                    "unit": "features",
+                    "validation_status": "VALIDATED",
+                }],
+            }
+
+        def get_workspace_decision_summary(self, _workspace_id):
+            return {"workspace_id": "workspace-test", "revision": 4}
+
+        def evaluate_critic(self, request):
+            assert request["evidence_card_ids"] == ["card-verified-test"]
+            assert request["expected_study_area_revision"] == 3
+            assert request["expected_workspace_revision"] == 4
+            return {
+                "critic_id": "critic-ariadne-test",
+                "study_area_id": "study-area-test-v1",
+                "evidence_refs": ["card-verified-test"],
+                "observations": ["The saved evidence is linked [card-verified-test]."],
+                "design_hypotheses": ["Review the cited observation with the designer."],
+                "limitations": ["This fake response tests citation plumbing only."],
+                "next_questions": [],
+                "provider_name": "fake-provider",
+                "provider_profile_id": "fixture",
+                "provider_model": "fixture-model",
+                "provider_status": "FIXTURE_ONLY",
+            }
+
+    toolset = AriadneToolSet(client=FakeClient())
     res = toolset.critique_scenario(
         scenario_id="preview-site-grid-assumed",
         prompt="請依據證據卡分析此方案的容積分布與水岸可及性",
@@ -193,15 +457,65 @@ def test_tool_critique_scenario_validates_citations_and_provenance(test_app_and_
         assert "[" in obs and "]" in obs
 
 
-def test_tool_explain_decision_needed(test_app_and_client) -> None:
-    toolset = test_app_and_client["toolset"]
+def test_tool_critique_scenario_reports_unavailable_without_fabricated_critique() -> None:
+    class MissingClient:
+        def get_site_analysis(self, **_kwargs):
+            return {"status": "UNAVAILABLE", "error_class": "MissingRecordError", "reason": "No evidence."}
+
+        def evaluate_critic(self, _request):
+            raise AssertionError("Critic API must not be called without evidence")
+
+    result = AriadneToolSet(client=MissingClient()).critique_scenario("scenario-test")
+    assert result["status"] == "UNAVAILABLE"
+    assert result["error_class"] == "MissingRecordError"
+    assert "critic_evaluation" not in result
+
+
+def test_tool_explain_decision_needed_uses_api_counts() -> None:
+    class FakeClient:
+        def get_workspace_decision_summary(self, workspace_id):
+            return {
+                "workspace_id": workspace_id,
+                "revision": 2,
+                "dispositions": {
+                    "buildings": {"counts": {"total": 51, "undecided": 9}},
+                    "roads": {"counts": {"total": 12, "undecided": 3}},
+                },
+            }
+
+    toolset = AriadneToolSet(client=FakeClient())
     res = toolset.explain_decision_needed(project_id="rotterdam-m4h")
 
     assert res["project_id"] == "rotterdam-m4h"
     assert res["constitutional_core_law"] == "LLMs reason. Deterministic tools calculate. Validators verify. Humans decide."
     assert "PD-14" in res["pd14_protection_rule"]
     assert "HumanDecision" in res["pd14_protection_rule"]
-    assert res["pending_decisions_count"] == 4
+    assert res["pending_decisions_count"] == 1
+    description = res["pending_decisions"][0]["description"]
+    assert "51 個 BAG 建築圖徵" in description
+    assert "12 個道路段" in description
+    assert "9 個建築與 3 個道路段仍為 UNDECIDED" in description
+
+
+def test_tool_explain_decision_needed_omits_counts_when_api_has_none() -> None:
+    class FakeClient:
+        def get_workspace_decision_summary(self, workspace_id):
+            return {"workspace_id": workspace_id, "revision": 2}
+
+    result = AriadneToolSet(client=FakeClient()).explain_decision_needed(language="en")
+    assert result["pending_decisions"] == []
+    assert "51" not in str(result)
+
+
+def test_tool_explain_decision_needed_reports_missing_summary() -> None:
+    class MissingClient:
+        def get_workspace_decision_summary(self, _workspace_id):
+            raise LookupError("workspace missing")
+
+    result = AriadneToolSet(client=MissingClient()).explain_decision_needed()
+    assert result["status"] == "UNAVAILABLE"
+    assert result["error_class"] == "LookupError"
+    assert "pending_decisions" not in result
 
 
 # --- Guardrail Tests ---
@@ -254,7 +568,4 @@ def test_api_read_only_site_analysis_and_portfolio_baseline(test_app_and_client)
     resp = client.get("/api/v1/portfolio/baseline")
     assert resp.status_code == 200
     data = resp.json()
-    assert data["designer"] == "Jack Hsieh"
-    assert data["provenance"] == "PORTFOLIO_ORIGINAL_BASELINE"
-    assert data["baseline_metrics"]["far"]["value"] == 2.85
-    assert len(data["spatial_principles"]) >= 4
+    assert data == PORTFOLIO_ORIGINAL_BASELINE

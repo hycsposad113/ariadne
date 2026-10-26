@@ -77,6 +77,7 @@ from .workspace_service import (
 )
 from .workspace_sources import WorkspaceSourceCatalog, WorkspaceSourceError
 from .surrounding_context import ContextDataError, ContextRepository
+from .ariadne_mcp.baseline import PORTFOLIO_ORIGINAL_BASELINE
 
 
 class UpdateDispositionsRequest(BaseModel):
@@ -1314,31 +1315,76 @@ def create_workspace_app(
 
         bundle, all_cards, evidence_status, bundle_sha, evidence_gaps = get_persisted_site_analysis(store, project_id, catalog)
         claims_file = project_root / "artifacts" / "w5-site-analysis" / "claims.json"
-        claims = []
+        claims: list[dict[str, Any]] = []
+        claims_error_class = None
         if claims_file.is_file():
             try:
                 loaded = json.loads(claims_file.read_text(encoding="utf-8"))
                 if isinstance(loaded, list):
                     claims = loaded
-            except Exception:
-                claims = []
+                else:
+                    claims_error_class = "InvalidRecordError"
+            except (OSError, json.JSONDecodeError) as exc:
+                claims_error_class = type(exc).__name__
+        else:
+            claims_error_class = "FileNotFoundError"
 
         report_file = project_root / "docs" / "w5" / "site-analysis-report-zh.md"
         report_summary = ""
+        report_error_class = None
         if report_file.is_file():
             try:
                 text = report_file.read_text(encoding="utf-8")
                 if "## 執行摘要（Executive Summary）" in text:
                     report_summary = text.split("## 執行摘要（Executive Summary）")[1].split("---")[0].strip()
-            except Exception:
-                pass
-        if not report_summary:
-            report_summary = "Rotterdam M4H StudyArea v5（226,064.33 m²）為供探索使用之研究範圍。依據確定性工具與已驗證數據集計算。"
+                if not report_summary:
+                    report_error_class = "MissingRecordError"
+            except OSError as exc:
+                report_error_class = type(exc).__name__
+        else:
+            report_error_class = "FileNotFoundError"
+
+        if evidence_status != "VERIFIED_SOURCE_RESULT_ALIGNMENT" or bundle is None or not all_cards:
+            return {
+                "project_id": project_id,
+                "status": "UNAVAILABLE",
+                "error_class": "MissingRecordError",
+                "reason": "No current verified site-analysis Evidence Cards are available.",
+                "evidence_cards_status": evidence_status,
+                "evidence_gaps": evidence_gaps,
+            }
+        if claims_error_class is not None or not claims:
+            return {
+                "project_id": project_id,
+                "status": "UNAVAILABLE",
+                "error_class": claims_error_class or "MissingRecordError",
+                "reason": "The site-analysis claims record is missing or invalid.",
+            }
+        if report_error_class is not None or not report_summary:
+            return {
+                "project_id": project_id,
+                "status": "UNAVAILABLE",
+                "error_class": report_error_class or "MissingRecordError",
+                "reason": "The site-analysis report summary record is missing or invalid.",
+            }
+
+        scope = bundle.get("scope") if isinstance(bundle, Mapping) else None
+        study_area_revision = scope.get("study_area_revision") if isinstance(scope, Mapping) else None
+        if isinstance(study_area_revision, bool) or not isinstance(study_area_revision, int):
+            return {
+                "project_id": project_id,
+                "status": "UNAVAILABLE",
+                "error_class": "MissingRecordError",
+                "reason": "The verified site-analysis StudyArea revision is missing.",
+            }
 
         return {
             "project_id": project_id,
             "study_area_id": catalog.study_area_id,
-            "study_area_area_m2": 226064.33,
+            "study_area_area_m2": float(catalog.study_area_shape.area),
+            "crs": "EPSG:28992",
+            "study_area_revision": study_area_revision,
+            "source_package_revision": catalog.package_revision,
             "evidence_cards": all_cards,
             "evidence_cards_status": evidence_status,
             "evidence_bundle_sha256": bundle_sha,
@@ -1612,25 +1658,7 @@ def create_workspace_app(
     @app.get("/api/v1/portfolio/baseline")
     def get_portfolio_baseline() -> dict[str, Any]:
         """Read-only endpoint returning portfolio original design baseline reference."""
-        return {
-            "title": "Rotterdam M4H Waterfront Circular District (Q2 Portfolio Original Design)",
-            "designer": "Jack Hsieh",
-            "provenance": "PORTFOLIO_ORIGINAL_BASELINE",
-            "source_document": "urbanism-q2-portfolio.pdf",
-            "baseline_metrics": {
-                "far": {"value": 2.85, "unit": "ratio", "status": "PORTFOLIO_BASELINE_TARGET"},
-                "max_height_m": {"value": 36.0, "unit": "m", "status": "PORTFOLIO_BASELINE_TARGET"},
-                "coverage_ratio": {"value": 0.32, "unit": "ratio", "status": "PORTFOLIO_BASELINE_TARGET"},
-                "open_space_ratio": {"value": 0.22, "unit": "ratio", "status": "PORTFOLIO_BASELINE_TARGET"},
-                "waterfront_public_band_m": {"value": 15.0, "unit": "m", "status": "PORTFOLIO_BASELINE_TARGET"},
-            },
-            "spatial_principles": [
-                "連續親水公共長廊（15m 水岸開放帶），維護港池開放視野",
-                "工業遺產與既有大型倉庫（如 Gusto、Keilepand 意象）適應性再利用",
-                "複合機能導向：創新產業工坊（maker spaces）與住商混合共融",
-                "綠色藍色網絡滲透：透過線型綠帶連結內陸與馬斯河（Nieuwe Maas）水岸",
-            ],
-        }
+        return dict(PORTFOLIO_ORIGINAL_BASELINE)
 
     @app.get("/api/v1/projects/{project_id}/problems")
     def get_project_problems(

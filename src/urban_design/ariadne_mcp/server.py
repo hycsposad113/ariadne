@@ -30,12 +30,12 @@ def create_ariadne_mcp_server(
 
     @server.tool()
     def get_site_analysis(project_id: str = "rotterdam-m4h", language: Literal["zh-TW", "en"] = "zh-TW") -> dict[str, Any]:
-        """取得 Rotterdam M4H 基地分析報告、證據卡與 24 項驗證主張（附證據 ID）。"""
+        """取得平台目前已驗證的基地分析記錄與證據卡。"""
         return with_requested_language(tools.get_site_analysis(project_id=project_id, language=language), language)
 
     @server.tool()
     def get_syntax_layers(project_id: str = "rotterdam-m4h", language: Literal["zh-TW", "en"] = "zh-TW") -> dict[str, Any]:
-        """取得六層空間語法分析摘要、五級分位與限制說明（附不等於人流／交通量警語）。"""
+        """取得平台目前的空間語法結果、五級分位與限制說明（附不等於人流／交通量警語）。"""
         return with_requested_language(tools.get_syntax_layers(project_id=project_id, language=language), language)
 
     @server.tool()
@@ -49,7 +49,7 @@ def create_ariadne_mcp_server(
         include_portfolio_baseline: bool = True,
         language: Literal["zh-TW", "en"] = "zh-TW",
     ) -> dict[str, Any]:
-        """列出當前所有設計方案，包含已持久化方案、ASSUMED 未核准預覽與 the designer 原設計基準。"""
+        """列出已持久化方案、平台探索方案與 the designer 原設計基準。"""
         return with_requested_language(
             tools.list_scenarios(
                 include_assumed=include_assumed,

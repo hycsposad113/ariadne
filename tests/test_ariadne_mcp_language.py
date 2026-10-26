@@ -71,6 +71,48 @@ def test_judgement_and_proposal_client_calls_use_fake_transport_and_language():
     http_client.close()
 
 
+def test_client_lists_fabric_plans_through_mock_transport():
+    requests = []
+    catalog = {
+        "status": "EXPLORATORY_DRAFT",
+        "plans": [{"fabric_id": "harbour_grain", "label_zh": "港埠線性紋理", "metrics": {"far": 0.91}}],
+        "source_package": {"artifact_root": "fixture", "syntax_root": "fixture"},
+    }
+
+    def fake_transport(request: httpx.Request) -> httpx.Response:
+        requests.append((request.method, request.url.path))
+        return httpx.Response(200, json=catalog)
+
+    http_client = httpx.Client(
+        base_url="http://ariadne.test",
+        transport=httpx.MockTransport(fake_transport),
+    )
+    client = AriadneApiClient(base_url="http://ariadne.test", http_client=http_client)
+
+    assert client.list_fabric_plans() == catalog
+    assert requests == [("GET", "/api/v1/fabric-plans")]
+    http_client.close()
+
+
+def test_missing_platform_record_is_unavailable_without_local_fallback():
+    def missing_record(request: httpx.Request) -> httpx.Response:
+        assert request.url.path == "/api/v1/projects/rotterdam-m4h/site-analysis"
+        return httpx.Response(404, json={"detail": "record missing"})
+
+    http_client = httpx.Client(
+        base_url="http://ariadne.test",
+        transport=httpx.MockTransport(missing_record),
+    )
+    client = AriadneApiClient(base_url="http://ariadne.test", http_client=http_client)
+    result = AriadneToolSet(client=client).get_site_analysis()
+    assert result["status"] == "UNAVAILABLE"
+    assert result["error_class"] == "HTTPStatusError"
+    assert "HTTP 404" in result["reason"]
+    assert "evidence_cards" not in result
+    assert "study_area_area_m2" not in result
+    http_client.close()
+
+
 def test_toolset_forwards_language_for_agent_workflow_operations():
     class RecordingClient:
         def __init__(self):
@@ -105,43 +147,110 @@ def test_toolset_forwards_language_for_agent_workflow_operations():
 def test_toolset_fixed_text_and_source_language_annotation():
     class StubClient:
         def get_site_analysis(self, **kwargs):
-            return {"report_summary": "這是中文基地摘要", "evidence_cards": []}
+            return {
+                "project_id": kwargs["project_id"],
+                "study_area_id": "study-area-fixture-v1",
+                "study_area_area_m2": 500.0,
+                "crs": "EPSG:28992",
+                "study_area_revision": 1,
+                "source_package_revision": "spatial-fixture-v1",
+                "evidence_cards_status": "VERIFIED_SOURCE_RESULT_ALIGNMENT",
+                "evidence_bundle_sha256": "sha256:fixture",
+                "report_summary": "這是中文基地摘要",
+                "evidence_cards": [{
+                    "card_id": "card-fixture-1",
+                    "metric_name": "fixture metric",
+                    "value": 1,
+                    "unit": "features",
+                    "validation_status": "VALIDATED",
+                }],
+                "claims": [{"id": "claim-fixture-1"}],
+                "limitations": ["fixture"],
+                "status": "VERIFIED",
+            }
 
         def get_site_context(self, **kwargs):
-            return {"syntax_limitations": ["自訂空間語法限制"]}
+            return {
+                "syntax_limitations": ["自訂空間語法限制"],
+                "syntax_layers_status": "COMPUTED",
+                "syntax_layers": [{"layer_id": "syntax-fixture", "calculation_status": "COMPUTED"}],
+                "syntax_layer_plan": [{"radius_m": 800.0}],
+            }
 
         def get_surrounding_context(self, **kwargs):
-            return {"features": {"features": []}}
+            return {
+                "metadata": {"crs": "EPSG:28992", "context_distance_m": 2000.0, "source": "fixture"},
+                "layers": {
+                    "buildings": {"features": []},
+                    "water": {"features": []},
+                    "green": {"features": []},
+                    "roads": {"features": []},
+                },
+            }
 
         def list_scenarios(self, **kwargs):
             return []
 
+        def list_fabric_plans(self):
+            return {
+                "status": "EXPLORATORY_DRAFT",
+                "plans": [{"fabric_id": "harbour_grain", "label_zh": "港埠線性紋理", "metrics": {"far": 0.91}}],
+            }
+
         def compare_scenarios(self, ids, **kwargs):
-            return {"scenario_ids": ids}
+            return {
+                "scenario_ids": ids,
+                "status": "COMPARABLE",
+                "metrics": [{
+                    "metric_id": "far",
+                    "status": "COMPARABLE",
+                    "unit": "ratio",
+                    "values": {"s1": 1.1, "s2": 0.5},
+                    "validation_status": {"s1": "VALIDATED", "s2": "VALIDATED"},
+                    "denominators": {
+                        "s1": {"label": "land_area"},
+                        "s2": {"label": "land_area"},
+                    },
+                }],
+            }
 
         def create_constraint_set_draft(self, **kwargs):
-            return {"constraint_set": {}}
+            return {"constraint_set": {
+                "id": "constraint-fixture-1",
+                "status": "DRAFT_PENDING_HUMAN_DECISION",
+                "constraints": kwargs["constraints"],
+            }}
 
         def create_fixture_scenarios(self, payload):
-            return {"scenarios": []}
+            return {"scenarios": [{"scenario_id": payload["fixture_id"]}]}
 
         def get_workspace_decision_summary(self, ws_id):
-            return {"decisions_total": 0}
+            return {
+                "workspace_id": ws_id,
+                "revision": 1,
+                "dispositions": {
+                    "buildings": {"counts": {"total": 51, "undecided": 10}},
+                    "roads": {"counts": {"total": 7, "undecided": 2}},
+                },
+            }
 
     toolset = AriadneToolSet(client=StubClient())
+
+    listed_en = toolset.list_scenarios(language="en")
+    assert listed_en["assumed_previews"][0]["status"] == "EXPLORATORY_DRAFT"
+    assert listed_en["assumed_previews"][0]["source_language"] == "zh-TW"
 
     # 1. explain_decision_needed in English
     en_decisions = toolset.explain_decision_needed(language="en")
     assert en_decisions["source_language"] == "zh-TW"
     assert "Under PD-14" in en_decisions["pd14_protection_rule"]
-    assert en_decisions["pending_decisions"][0]["decision_area"] == "Design Area Confirmation"
-    assert "StudyArea v5 is an exploratory research boundary only" in en_decisions["pending_decisions"][0]["description"]
-    assert "Review spatial boundaries and sign HumanDecision" in en_decisions["pending_decisions"][0]["human_action_required"]
+    assert en_decisions["pending_decisions"][0]["decision_area"] == "Existing Feature Dispositions"
+    assert "51 BAG building features and 7 road segments" in en_decisions["pending_decisions"][0]["description"]
     assert "Jack" not in str(en_decisions)
 
     # 1b. explain_decision_needed in Chinese
     zh_decisions = toolset.explain_decision_needed(language="zh-TW")
-    assert "探索設計範圍確認" in zh_decisions["pending_decisions"][0]["decision_area"]
+    assert "既有特徵處分" in zh_decisions["pending_decisions"][0]["decision_area"]
     assert "Jack" not in str(zh_decisions)
 
     # 2. get_site_analysis preserves report_summary and adds source_language: zh-TW
@@ -157,13 +266,17 @@ def test_toolset_fixed_text_and_source_language_annotation():
     assert syntax["source_language"] == "zh-TW"
 
     # 4. compare_scenarios in English vs Chinese
-    cmp_en = toolset.compare_scenarios(["s1"], language="en")
+    cmp_en = toolset.compare_scenarios(["s1", "s2"], language="en")
     assert "[Key Comparisons with the designer's Original Baseline]:" in cmp_en["designer_differences_analysis"]
     assert "the designer" in cmp_en["designer_differences_analysis"]
+    assert "+0.300" in cmp_en["designer_differences_analysis"]
+    assert "-0.300" in cmp_en["designer_differences_analysis"]
     assert "Jack" not in cmp_en["designer_differences_analysis"]
 
-    cmp_zh = toolset.compare_scenarios(["s1"], language="zh-TW")
+    cmp_zh = toolset.compare_scenarios(["s1", "s2"], language="zh-TW")
     assert "【與 the designer 原設計基準對照重點】" in cmp_zh["designer_differences_analysis"]
+    assert "+0.300" in cmp_zh["designer_differences_analysis"]
+    assert "-0.300" in cmp_zh["designer_differences_analysis"]
     assert "Jack" not in cmp_zh["designer_differences_analysis"]
 
     # 5. draft_constraints in English vs Chinese

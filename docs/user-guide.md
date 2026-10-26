@@ -54,8 +54,8 @@ Toggle the **Space Syntax Overlay** in the ribbon:
 - Switch to the **2 km cycling catchment** and **10 km regional vehicular network** to verify how the harbour connects into Rotterdam's western radial arteries.
 
 ### Step 2.3: Establish Design Constraints
-The code provides portfolio baseline targets, not a verified regulatory envelope: FAR 2.85, maximum height 36 m, coverage 0.32, open-space ratio 0.22, and waterfront band 15 m. Enter project-specific constraints from an approved source before describing them as regulatory limits:
-- **Maximum FAR Target**: e.g., $2.85$ (portfolio baseline target).
+Constraint set A is derived from the author's earlier studio design and is an assumption, not a verified regulatory envelope: FAR 0.8 (land-area denominator), maximum height 20 m, coverage 0.35, about 40 % open space as a preference, and a 15 m waterfront public band. Enter project-specific constraints from an approved source before describing them as regulatory limits:
+- **Maximum FAR**: e.g. 0.8 (constraint set A, assumed from the studio design).
 - **Maximum Building Height**: $36.0\text{ m}$ (portfolio baseline target).
 - **Coverage Target**: $0.32$.
 - **Open Space Ratio Target**: $0.22$.
@@ -136,7 +136,7 @@ Click on the **Climate & Environment** drawer. The Climate Extras drawer display
    - **Floor Up / Down**: Increments height in standard floor steps (ground floor: 4.0 m; upper floors: 3.5 m).
    - **1 m Lateral Move**: Nudge volumes along grid axes.
    - **Face Split & Upper Setback**: Subdivide upper levels to create stepped terraces and daylight envelopes.
-3. Observe real-time validator indicators: if an edit causes FAR to exceed the portfolio target (e.g., $2.85$) or breaches the $15\text{ m}$ waterfront buffer, the interface highlights the violation in red.
+3. Observe real-time validator indicators: if an edit exceeds the active constraint set (for example the 20 m height cap), the edit is blocked and the reason is shown.
 
 ### Step 5.2: Road Network Alignment
 1. Open the scenario editor (`ScenarioStudio`).
