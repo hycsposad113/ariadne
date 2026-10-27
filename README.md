@@ -1,7 +1,7 @@
 # Ariadne
 
 > **A contestable AI design partner for early-stage urban design.**  
-> *Built by Yu Cheng Hsieh for IDEM307 Generative AI and Design, TU Delft (2026–27).*  
+> *Built by Yu Cheng (Jack) Hsieh for IDEM307 Generative AI and Design, TU Delft (2026–27).*  
 > [繁體中文說明 (Traditional Chinese)](README.zh-TW.md)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
@@ -402,5 +402,5 @@ See [`CITATION.cff`](CITATION.cff) for complete citation metadata.
 
 ## License
 
-Code is licensed under the [MIT License](LICENSE) © 2026 Yu Cheng Hsieh.  
+Code is licensed under the [MIT License](LICENSE) © 2026 Yu Cheng (Jack) Hsieh.  
 Third-party datasets, libraries, and weather profiles remain under their respective licenses.

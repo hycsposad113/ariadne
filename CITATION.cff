@@ -9,6 +9,7 @@ repository-code: "https://github.com/hycsposad113/ariadne"
 authors:
   - family-names: "Hsieh"
     given-names: "Yu Cheng"
+    alias: "Jack Hsieh"
     affiliation: "Delft University of Technology (TU Delft)"
 keywords:
   - "urban design"
