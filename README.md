@@ -11,7 +11,11 @@
 
 [![Ariadne Multi-Scheme Compare Workspace](docs/media/screenshots/compare-en.png)](docs/media/screenshots/compare-en.png)
 
-[▶ Watch the 3-minute demo](docs/media/ariadne-demo.mp4)
+### Demo video and report
+
+[![Ariadne — 3-minute demo video](docs/media/ariadne-demo-poster.jpg)](docs/media/ariadne-demo.mp4)
+
+[▶ Watch the 3-minute demo video](docs/media/ariadne-demo.mp4) · [📄 Read the course report (PDF)](docs/report/Ariadne-report.pdf)
 
 ---
 

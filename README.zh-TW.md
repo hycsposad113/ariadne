@@ -1,7 +1,7 @@
 # Ariadne
 
 > **具可質疑性的前期都市設計 AI 協同夥伴**  
-> *由 謝育承（Yu Cheng (Jack) Hsieh）建構於荷蘭台夫特理工大學（TU Delft）2026–27 學年度 IDEM307 生成式 AI 與設計課程。*  
+> *由 謝侑呈（Yu Cheng (Jack) Hsieh）建構於荷蘭台夫特理工大學（TU Delft）2026–27 學年度 IDEM307 生成式 AI 與設計課程。*  
 > [English Documentation](README.md)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
@@ -11,7 +11,11 @@
 
 [![Ariadne 多方案比對工作區](docs/media/screenshots/compare-en.png)](docs/media/screenshots/compare-en.png)
 
-[▶ 觀看 3 分鐘展示影片](docs/media/ariadne-demo.mp4)
+### 展示影片與報告
+
+[![Ariadne — 3 分鐘展示影片](docs/media/ariadne-demo-poster.jpg)](docs/media/ariadne-demo.mp4)
+
+[▶ 觀看 3 分鐘展示影片](docs/media/ariadne-demo.mp4) · [📄 閱讀課程報告（PDF，英文）](docs/report/Ariadne-report.pdf)
 
 ---
 
@@ -403,5 +407,5 @@ Ariadne 誕生於**荷蘭台夫特理工大學（TU Delft）****IDEM307 Generati
 
 ## 授權條款
 
-程式碼採 [MIT License](LICENSE) 授權釋出 © 2026 謝育承（Yu Cheng (Jack) Hsieh）。  
+程式碼採 [MIT License](LICENSE) 授權釋出 © 2026 謝侑呈（Yu Cheng (Jack) Hsieh）。  
 第三方資料集、分析工具與氣象檔案保留各自原創者之版權與授權條款。
